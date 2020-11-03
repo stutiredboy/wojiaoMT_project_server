@@ -1,0 +1,39 @@
+2016-08-03 17:02:18:154  INFO TASK:mkdb.Worker.procedure.48 - 角色[4097]准备使用道具[32037]*1
+2016-08-03 17:02:18:186  INFO TASK:mkdb.Worker.procedure.48 - 角色[4097]使用道具[32037]handle:class fire.pb.item.food.AutoRecoveryItem$AutoRecoveryUseHandler
+2016-08-03 17:02:18:217  INFO TASK:mkdb.Worker.procedure.48 - 角色[4097]使用道具[32037]UseResult:SUCC
+2016-08-03 17:02:18:217  INFO TASK:mkdb.Worker.procedure.48 - 角色[4097]使用任务道具[32037]
+2016-08-03 17:03:29:637  INFO TASK:main - task模块初始化开始
+2016-08-03 17:03:30:044  INFO TASK:main - task模块初始化完成
+2016-08-03 17:03:30:217  INFO TASK:main - 开始清理过期无效充值订单...
+2016-08-03 17:03:30:248  INFO TASK:main - 开始清理过期无效充值订单...size=0
+2016-08-03 17:03:30:248  INFO TASK:main - 开始清理过期无效充值订单历史...
+2016-08-03 17:03:30:295  INFO TASK:main - 开始清理过期无效充值订单历史...size=1
+2016-08-03 17:03:30:467  INFO TASK:mkdb.Worker.procedure.53 - 完成清理过期无效充值订单历史.
+2016-08-03 17:03:42:135  INFO TASK:mkdb.Worker.procedure.37 - 角色[4097]准备使用道具[32037]*1
+2016-08-03 17:03:42:136  INFO TASK:mkdb.Worker.procedure.37 - 角色[4097]使用道具[32037]handle:class fire.pb.item.food.AutoRecoveryItem$AutoRecoveryUseHandler
+2016-08-03 17:03:42:137  INFO TASK:mkdb.Worker.procedure.37 - 角色[4097]使用道具[32037]UseResult:SUCC
+2016-08-03 17:03:42:137  INFO TASK:mkdb.Worker.procedure.37 - 角色[4097]使用任务道具[32037]
+2016-08-03 17:19:48:805  INFO TASK:main - task模块初始化开始
+2016-08-03 17:19:49:195  INFO TASK:main - task模块初始化完成
+2016-08-03 17:19:49:352  INFO TASK:main - 开始清理过期无效充值订单...
+2016-08-03 17:19:49:390  INFO TASK:main - 开始清理过期无效充值订单...size=0
+2016-08-03 17:19:49:390  INFO TASK:main - 开始清理过期无效充值订单历史...
+2016-08-03 17:19:49:655  INFO TASK:main - 开始清理过期无效充值订单历史...size=1
+2016-08-03 17:19:49:937  INFO TASK:mkdb.Worker.procedure.43 - 完成清理过期无效充值订单历史.
+2016-08-03 17:20:23:308  INFO TASK:mkdb.Worker.procedure.42 - refresh2roleOnEnterWorld:4097,questid:1010000
+2016-08-03 17:20:23:308  INFO TASK:mkdb.Worker.procedure.42 - refresh2roleOnEnterWorld:4097,questid:1010000,send!
+2016-08-03 17:20:23:433  INFO TASK:mkdb.Worker.procedure.42 - 角色[4097]暗夜马戏团任务一周数据刷新，随机新任务。
+2016-08-03 17:20:23:433  WARN TASK:mkdb.Worker.procedure.42 - 角色[4097]当前等级:41！随机任务总权重:0错误(<=0)！
+2016-08-03 17:20:23:542  INFO TASK:mkdb.Worker.procedure.44 - refresh2roleOnEnterWorld:4097,questid:1010000
+2016-08-03 17:20:23:542  INFO TASK:mkdb.Worker.procedure.52 - 角色[4097]循环任务1010000,强制:false,AutoAddCircTask!
+2016-08-03 17:20:23:542  INFO TASK:mkdb.Worker.procedure.44 - refresh2roleOnEnterWorld:4097,questid:1010000,send!
+2016-08-03 17:20:23:542  INFO TASK:mkdb.Worker.procedure.44 - 玩家-狗头人炎矢(4097)当前的循环师门总次数:0当前等级:41
+2016-08-03 17:20:23:589 ERROR TASK:mkdb.Worker.procedure.52 - 角色[4097]循环任务1010000状态是DONE或者UNDONE ！
+2016-08-03 17:22:02:350  INFO TASK:mkdb.Worker.procedure.40 - 角色[4097]准备使用道具[32037]*1
+2016-08-03 17:22:02:351  INFO TASK:mkdb.Worker.procedure.40 - 角色[4097]使用道具[32037]handle:class fire.pb.item.food.AutoRecoveryItem$AutoRecoveryUseHandler
+2016-08-03 17:22:02:351  INFO TASK:mkdb.Worker.procedure.40 - 角色[4097]使用道具[32037]UseResult:SUCC
+2016-08-03 17:22:02:351  INFO TASK:mkdb.Worker.procedure.40 - 角色[4097]使用任务道具[32037]
+2016-08-03 17:23:14:169  INFO TASK:mkdb.Worker.procedure.56 - 角色[4097]准备使用道具[32037]*1
+2016-08-03 17:23:14:170  INFO TASK:mkdb.Worker.procedure.56 - 角色[4097]使用道具[32037]handle:class fire.pb.item.food.AutoRecoveryItem$AutoRecoveryUseHandler
+2016-08-03 17:23:14:170  INFO TASK:mkdb.Worker.procedure.56 - 角色[4097]使用道具[32037]UseResult:SUCC
+2016-08-03 17:23:14:170  INFO TASK:mkdb.Worker.procedure.56 - 角色[4097]使用任务道具[32037]

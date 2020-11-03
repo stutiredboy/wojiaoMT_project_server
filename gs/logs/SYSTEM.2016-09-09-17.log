@@ -1,0 +1,32 @@
+2016-09-09 16:01:50:574  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:11gametime:0
+2016-09-09 16:02:11:549  INFO SYSTEM:mkdb.Worker.procedure.51 - roleId=4097 角色进入状态：class fire.pb.state.EndTrusteeShipState
+2016-09-09 16:02:11:667  INFO SYSTEM:mkdb.Worker.procedure.51 - roleId=4097 角色进入状态：class fire.pb.state.PreOfflineProtectState
+2016-09-09 16:02:11:667  INFO SYSTEM:mkdb.Worker.procedure.51 - roleId=4097 玩家旋律飞烟 下线，门派：12，等级 ：31
+2016-09-09 16:02:12:417  INFO SYSTEM:mkdb.Worker.procedure.51 - roleId=4097 角色进入状态：class fire.pb.state.OfflineProtectState
+2016-09-09 16:02:12:448 ERROR SYSTEM:MapMain - roleId=4097 remove
+2016-09-09 16:02:13:464  INFO SYSTEM:mkdb.Worker.procedure.38 - roleId=4097 角色进入状态：class fire.pb.state.EndOfflineProtectState
+2016-09-09 16:02:13:499 ERROR SYSTEM:mkdb.Worker.procedure.38 - roleId=4097 角色状态fire.pb.state.EndOfflineProtectState转移失败，trigger = 4
+2016-09-09 16:02:13:561  INFO SYSTEM:mkdb.Worker.procedure.38 - roleId=4097 角色进入状态：class fire.pb.state.UnEntryState
+2016-09-09 16:04:20:573  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:0gametime:1
+2016-09-09 16:06:50:570  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:1gametime:2
+2016-09-09 16:09:20:569  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:2gametime:3
+2016-09-09 16:11:50:564  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:3gametime:4
+2016-09-09 16:14:20:571  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:4gametime:5
+2016-09-09 16:16:50:569  INFO SYSTEM:mkdb.Worker.scheduled.54 - gametime update.curGameTime:5gametime:6
+2016-09-09 16:19:20:576  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:6gametime:7
+2016-09-09 16:21:50:569  INFO SYSTEM:mkdb.Worker.scheduled.54 - gametime update.curGameTime:7gametime:8
+2016-09-09 16:24:20:569  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:8gametime:9
+2016-09-09 16:26:50:575  INFO SYSTEM:mkdb.Worker.scheduled.54 - gametime update.curGameTime:9gametime:10
+2016-09-09 16:29:20:575  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:10gametime:11
+2016-09-09 16:31:50:573  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:11gametime:0
+2016-09-09 16:34:20:573  INFO SYSTEM:mkdb.Worker.scheduled.54 - gametime update.curGameTime:0gametime:1
+2016-09-09 16:36:50:574  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:1gametime:2
+2016-09-09 16:39:20:574  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:2gametime:3
+2016-09-09 16:41:50:579  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:3gametime:4
+2016-09-09 16:44:20:578  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:4gametime:5
+2016-09-09 16:46:50:568  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:5gametime:6
+2016-09-09 16:49:20:573  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:6gametime:7
+2016-09-09 16:51:50:570  INFO SYSTEM:mkdb.Worker.scheduled.54 - gametime update.curGameTime:7gametime:8
+2016-09-09 16:54:20:571  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:8gametime:9
+2016-09-09 16:56:50:576  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:9gametime:10
+2016-09-09 16:59:20:576  INFO SYSTEM:mkdb.Worker.scheduled.54 - gametime update.curGameTime:10gametime:11

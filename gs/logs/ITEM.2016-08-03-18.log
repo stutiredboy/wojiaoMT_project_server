@@ -1,0 +1,17 @@
+2016-08-03 17:02:12:484  INFO ITEM:mkdb.Worker.procedure.25 - 4097 添加货币:0 类型:13 理由: 充值加信用值
+2016-08-03 17:02:15:517  INFO ITEM:mkdb.Worker.procedure.43 - 4097 添加货币:20000 类型:1 理由: 1符石兑换10000银币
+2016-08-03 17:02:15:580  INFO ITEM:mkdb.Worker.procedure.47 - 4097 添加货币:-20000 类型:1 理由: 购买物品
+2016-08-03 17:02:18:217  INFO ITEM:mkdb.Worker.procedure.48 - roleId:4097 删除物品id:32037 数量:1 类型:tujing_Value_use 理由:使用消耗
+2016-08-03 17:03:15:387  INFO ITEM:main - 物品模块开始初始化
+2016-08-03 17:03:15:519  INFO ITEM:main - 物品信息载入完毕,共3069个
+2016-08-03 17:03:15:534 ERROR ITEM:main - 重复的礼包配置 4104
+2016-08-03 17:03:15:722  INFO ITEM:main - 物品模块初始化完成
+2016-08-03 17:03:42:137  INFO ITEM:mkdb.Worker.procedure.37 - roleId:4097 删除物品id:32037 数量:1 类型:tujing_Value_use 理由:使用消耗
+2016-08-03 17:19:32:730  INFO ITEM:main - 物品模块开始初始化
+2016-08-03 17:19:32:886  INFO ITEM:main - 物品信息载入完毕,共3069个
+2016-08-03 17:19:32:902 ERROR ITEM:main - 重复的礼包配置 4104
+2016-08-03 17:19:33:011  INFO ITEM:main - 物品模块初始化完成
+2016-08-03 17:22:01:213  INFO ITEM:mkdb.Worker.procedure.43 - 4097 添加货币:70000 类型:1 理由: 1符石兑换10000银币
+2016-08-03 17:22:01:276  INFO ITEM:mkdb.Worker.procedure.42 - 4097 添加货币:-70000 类型:1 理由: 购买物品
+2016-08-03 17:22:02:351  INFO ITEM:mkdb.Worker.procedure.40 - roleId:4097 删除物品id:32037 数量:1 类型:tujing_Value_use 理由:使用消耗
+2016-08-03 17:23:14:170  INFO ITEM:mkdb.Worker.procedure.56 - roleId:4097 删除物品id:32037 数量:1 类型:tujing_Value_use 理由:使用消耗

@@ -1,0 +1,17 @@
+2016-09-09 14:46:48:144  INFO HUOBAN:main - huoban模块初始化开始
+2016-09-09 14:46:48:441  INFO HUOBAN:mkdb.Worker.procedure.51 - freeIndex:1
+2016-09-09 14:46:49:019  INFO HUOBAN:mkdb.Worker.procedure.37 - 伙伴内存表初始化成功
+2016-09-09 14:56:29:577  INFO HUOBAN:main - huoban模块初始化开始
+2016-09-09 14:56:29:702  INFO HUOBAN:mkdb.Worker.procedure.40 - freeIndex:1
+2016-09-09 14:56:30:108  INFO HUOBAN:mkdb.Worker.procedure.34 - 伙伴内存表初始化成功
+2016-09-09 14:57:54:001  INFO HUOBAN:mkdb.Worker.procedure.34 - set weekfree: roleid:4097huobans:28110
+2016-09-09 14:57:54:001  INFO HUOBAN:mkdb.Worker.procedure.34 - viprefresh: roleid:4097
+2016-09-09 14:57:54:001  INFO HUOBAN:mkdb.Worker.procedure.34 - set weekfree: roleid:4097huobans:28124
+2016-09-09 14:57:54:016  INFO HUOBAN:mkdb.Worker.procedure.34 - viprefresh: roleid:4097
+2016-09-09 14:57:54:016  INFO HUOBAN:mkdb.Worker.procedure.34 - set weekfree: roleid:4097huobans:28119
+2016-09-09 14:57:54:016  INFO HUOBAN:mkdb.Worker.procedure.34 - viprefresh: roleid:4097
+2016-09-09 14:57:54:016  INFO HUOBAN:mkdb.Worker.procedure.34 - viprefresh: roleid:4097
+2016-09-09 14:57:54:016  INFO HUOBAN:mkdb.Worker.procedure.34 - viprefresh: roleid:4097
+2016-09-09 14:59:56:046  INFO HUOBAN:main - huoban模块初始化开始
+2016-09-09 14:59:56:171  INFO HUOBAN:mkdb.Worker.procedure.40 - freeIndex:1
+2016-09-09 14:59:56:624  INFO HUOBAN:mkdb.Worker.procedure.54 - 伙伴内存表初始化成功

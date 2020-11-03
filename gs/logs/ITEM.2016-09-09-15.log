@@ -1,0 +1,23 @@
+2016-09-09 14:46:26:354  INFO ITEM:main - 物品模块开始初始化
+2016-09-09 14:46:26:500  INFO ITEM:main - 物品信息载入完毕,共3117个
+2016-09-09 14:46:26:532 ERROR ITEM:main - 重复的礼包配置 4104
+2016-09-09 14:46:26:610  INFO ITEM:main - 物品模块初始化完成
+2016-09-09 14:47:18:576  INFO ITEM:mkdb.Worker.procedure.51 - roleId:4097 添加物品:4001220 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 14:47:18:670  INFO ITEM:mkdb.Worker.procedure.51 - roleId:4097 添加物品:4001322 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 14:47:18:701  INFO ITEM:mkdb.Worker.procedure.51 - roleId:4097 添加物品:4001424 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 14:47:18:748  INFO ITEM:mkdb.Worker.procedure.51 - roleId:4097 添加物品:4001525 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 14:47:18:779  INFO ITEM:mkdb.Worker.procedure.51 - roleId:4097 添加物品:4001626 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 14:47:24:054  INFO ITEM:mkdb.Worker.procedure.51 - 4097 添加货币:2000 类型:13 理由: 创建人物时赠送
+2016-09-09 14:48:06:029  INFO ITEM:mkdb.Worker.procedure.50 - roleId:4097 添加物品:50356 数量:1 添加后数量:1 类型:tujing_Value_Task 理由:circtask school quest itemuse
+2016-09-09 14:56:08:793  INFO ITEM:main - 物品模块开始初始化
+2016-09-09 14:56:08:909  INFO ITEM:main - 物品信息载入完毕,共3117个
+2016-09-09 14:56:08:925 ERROR ITEM:main - 重复的礼包配置 4104
+2016-09-09 14:56:09:003  INFO ITEM:main - 物品模块初始化完成
+2016-09-09 14:57:53:860  INFO ITEM:mkdb.Worker.procedure.34 - 4097 添加货币:0 类型:13 理由: 充值加信用值
+2016-09-09 14:57:59:745  INFO ITEM:mkdb.Worker.procedure.40 - 4097 添加货币:0 类型:13 理由: 发红包扣除
+2016-09-09 14:58:16:910  INFO ITEM:mkdb.Worker.procedure.46 - 4097 添加货币:3 类型:2 理由: 领取红包
+2016-09-09 14:58:16:910  INFO ITEM:mkdb.Worker.procedure.46 - 4097 添加货币:3 类型:13 理由: 领红包中获得
+2016-09-09 14:59:33:894  INFO ITEM:main - 物品模块开始初始化
+2016-09-09 14:59:34:016  INFO ITEM:main - 物品信息载入完毕,共3117个
+2016-09-09 14:59:34:032 ERROR ITEM:main - 重复的礼包配置 4104
+2016-09-09 14:59:34:141  INFO ITEM:main - 物品模块初始化完成

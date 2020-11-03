@@ -1,0 +1,38 @@
+2016-09-09 15:00:22:363  INFO RECHARGE:mkdb.Worker.procedure.54 - PReceiveDataFromAuany.qtype:9002,user:61685
+2016-09-09 15:00:22:426  INFO RECHARGE:mkdb.Worker.procedure.53 - PReceiveDataFromAuany.qtype:9002,user:61685
+2016-09-09 15:00:23:308  INFO RECHARGE:mkdb.Worker.procedure.54 - PReceiveDataFromAuany.user:61685,role:4097,info:0#
+2016-09-09 15:00:23:308  INFO RECHARGE:mkdb.Worker.procedure.54 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
+2016-09-09 15:00:23:839  INFO RECHARGE:mkdb.Worker.procedure.53 - PReceiveDataFromAuany.user:61685,role:4097,info:0#
+2016-09-09 15:00:23:839  INFO RECHARGE:mkdb.Worker.procedure.53 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
+2016-09-09 15:14:52:310  INFO RECHARGE:mkdb.Worker.procedure.42 - PReceiveDataFromAuany.qtype:9002,user:61685
+2016-09-09 15:14:52:310  INFO RECHARGE:mkdb.Worker.procedure.42 - PReceiveDataFromAuany.user:61685,role:4097,info:0#
+2016-09-09 15:14:52:310  INFO RECHARGE:mkdb.Worker.procedure.42 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
+2016-09-09 15:14:52:570  INFO RECHARGE:mkdb.Worker.procedure.43 - PReceiveDataFromAuany.qtype:9002,user:61685
+2016-09-09 15:14:52:570  INFO RECHARGE:mkdb.Worker.procedure.43 - PReceiveDataFromAuany.user:61685,role:4097,info:0#
+2016-09-09 15:14:52:570  INFO RECHARGE:mkdb.Worker.procedure.43 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
+2016-09-09 15:18:41:824  INFO RECHARGE:mkdb.Worker.procedure.50 - 乐动TCP方式直接回调!
+2016-09-09 15:18:42:293  INFO RECHARGE:ChargeCBServer - 充值Callback Server listen at 0.0.0.0:8800
+2016-09-09 15:19:19:742  INFO RECHARGE:mkdb.Worker.procedure.49 - 乐动TCP方式直接回调!
+2016-09-09 15:19:20:188  INFO RECHARGE:ChargeCBServer - 充值Callback Server listen at 0.0.0.0:8800
+2016-09-09 15:19:43:122 ERROR RECHARGE:mkdb.Worker..44 - CReqChargeRefundsInfo.等级不足,不返还!userid:64433,roleid:4097
+2016-09-09 15:19:55:313  INFO RECHARGE:mkdb.Worker.procedure.28 - PReceiveDataFromAuany.qtype:9002,user:64433
+2016-09-09 15:19:55:313  INFO RECHARGE:mkdb.Worker.procedure.28 - PReceiveDataFromAuany.user:64433,role:4097,info:0#
+2016-09-09 15:19:55:313  INFO RECHARGE:mkdb.Worker.procedure.28 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - 角色[4097]确认充值.商品:8,数量:1
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - 角色[4097]确认充值.Nickname:ljpl
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - 角色[4097]确认充值.platType:xxxx
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - 角色[4097],[wangjianfengw12]请求订单号:4097
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - 角色[4097]确认充值.测试用绕过第三方直接响应充值请求,单号:4097
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - 订单响应类型restype:1,开始处理充值订单.gamesn:4097,userid:64433
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - userid:64433,收到充值订单.gamesn:4097,platformsn:4097,retcode:0,detail:{}
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - userid:64433,角色[4097]处理充值订单,AddCash.kind:1
+2016-09-09 15:20:45:629  INFO RECHARGE:mkdb.Worker.procedure.48 - userid:64433,角色[4097]处理充值订单,准备PAddCoin,数量:7768
+2016-09-09 15:20:45:644  INFO RECHARGE:mkdb.Worker.procedure.48 - PAddCoin.process:User[64433],角色[4097]充值符石数:6480,现有总量:7768
+2016-09-09 15:20:45:660  INFO RECHARGE:mkdb.Worker.procedure.48 - userid:64433,角色[4097]充值流程就要结束啦~
+2016-09-09 15:20:45:660  INFO RECHARGE:mkdb.Worker.procedure.48 - userid:64433,角色[4097]充值订单从Chargeorder删除:4097
+2016-09-09 15:20:45:660  INFO RECHARGE:mkdb.Worker.procedure.48 - userid:64433,角色[4097]本次充值流程终于结束！
+2016-09-09 15:20:48:313  INFO RECHARGE:mkdb.Worker.procedure.38 - FushiManager.subFushiFromUser:User[64433]Role[4097]减少符石数:20,现有总量:7748
+2016-09-09 15:20:51:782  INFO RECHARGE:mkdb.Worker.procedure.41 - FushiManager.subFushiFromUser:User[64433]Role[4097]减少符石数:20,现有总量:7728
+2016-09-09 15:22:03:841  INFO RECHARGE:mkdb.Worker.procedure.48 - FushiManager.subFushiFromUser:User[64433]Role[4097]减少符石数:20,现有总量:7708
+2016-09-09 15:22:22:126  INFO RECHARGE:mkdb.Worker.procedure.37 - FushiManager.subFushiFromUser:User[64433]Role[4097]减少符石数:20,现有总量:7688
+2016-09-09 15:23:09:726  INFO RECHARGE:mkdb.Worker.procedure.52 - FushiManager.subFushiFromUser:User[64433]Role[4097]减少符石数:20,现有总量:7668

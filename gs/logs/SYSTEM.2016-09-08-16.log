@@ -1,0 +1,738 @@
+2016-08-04 00:02:18:947  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:11gametime:0
+2016-09-08 15:36:46:552  INFO SYSTEM:main - SERVER STARTING...
+2016-09-08 15:36:46:660  INFO SYSTEM:main - register bean name=fire.pb.activity.ActivityConfNew
+2016-09-08 15:36:46:675  INFO SYSTEM:main - register bean name=fire.pb.activity.ActivityConfNew4D
+2016-09-08 15:36:46:675  INFO SYSTEM:main - register bean name=fire.pb.activity.SFestivalConf
+2016-09-08 15:36:46:691  INFO SYSTEM:main - register bean name=fire.pb.activity.SFestivalConf4D
+2016-09-08 15:36:46:816  INFO SYSTEM:main - register bean name=fire.pb.battle.SAIAction
+2016-09-08 15:36:46:910  INFO SYSTEM:main - register bean name=fire.pb.battle.SBattleAI
+2016-09-08 15:36:47:019  INFO SYSTEM:main - register bean name=fire.pb.battle.SBattleInfo
+2016-09-08 15:36:47:019  INFO SYSTEM:main - register bean name=fire.pb.battle.SBattleMonsterConfig
+2016-09-08 15:36:47:035  INFO SYSTEM:main - register bean name=fire.pb.battle.SCatchRate
+2016-09-08 15:36:47:066  INFO SYSTEM:main - register bean name=fire.pb.battle.SCondition
+2016-09-08 15:36:47:066  INFO SYSTEM:main - register bean name=fire.pb.battle.SEffectPostions
+2016-09-08 15:36:47:066  INFO SYSTEM:main - register bean name=fire.pb.battle.SFormationConfig
+2016-09-08 15:36:47:066  INFO SYSTEM:main - register bean name=fire.pb.battle.SRoleFighteAI
+2016-09-08 15:36:47:082  INFO SYSTEM:main - register bean name=fire.pb.battle.STargetFilter
+2016-09-08 15:36:47:082  INFO SYSTEM:main - register bean name=fire.pb.buff.SBuffClashs
+2016-09-08 15:36:47:097  INFO SYSTEM:main - register bean name=fire.pb.buff.SCBuffConfig
+2016-09-08 15:36:47:097  INFO SYSTEM:main - register bean name=fire.pb.buff.SIBuffConfig
+2016-09-08 15:36:47:175  INFO SYSTEM:main - register bean name=fire.pb.circletask.AnYeMaXiTuanConf
+2016-09-08 15:36:47:175  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircleTaskAutoAccept
+2016-09-08 15:36:47:175  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTask
+2016-09-08 15:36:47:191  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskChallengeNpc
+2016-09-08 15:36:47:191  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskConf
+2016-09-08 15:36:47:191  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemCollect
+2016-09-08 15:36:47:207  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemFind
+2016-09-08 15:36:47:207  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemFindLegend
+2016-09-08 15:36:47:207  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemUse
+2016-09-08 15:36:47:207  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskKillMonster
+2016-09-08 15:36:47:207  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskMailNpc
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskPatrol
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskPetCatch
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.DemonstrateDefaultMonster
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.PVPAwardConfig
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.PVPMatchTimeConfig
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.PVPScoreAwardConfig
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.Random4AnYeMaXiTuan
+2016-09-08 15:36:47:222  INFO SYSTEM:main - register bean name=fire.pb.circletask.RenXingCircTaskCost
+2016-09-08 15:36:47:238  INFO SYSTEM:main - register bean name=fire.pb.circletask.SCircTaskMonsterConfig
+2016-09-08 15:36:47:238  INFO SYSTEM:main - register bean name=fire.pb.circletask.SPVP1MapConfig
+2016-09-08 15:36:47:238  INFO SYSTEM:main - register bean name=fire.pb.circletask.SPVP3MapConfig
+2016-09-08 15:36:47:238  INFO SYSTEM:main - register bean name=fire.pb.circletask.SPVP5MapConfig
+2016-09-08 15:36:47:238  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanDrugstore
+2016-09-08 15:36:47:238  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanFight
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanGoldBank
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanHotel
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanLobby
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanPosition
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanyaofang
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.clan.SRuneSet
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.common.SCommon
+2016-09-08 15:36:47:254  INFO SYSTEM:main - register bean name=fire.pb.effect.SAbilityScore
+2016-09-08 15:36:47:269  INFO SYSTEM:main - register bean name=fire.pb.effect.SAttrEffectID2Name
+2016-09-08 15:36:47:269  INFO SYSTEM:main - register bean name=fire.pb.effect.SEquipAbilityScore
+2016-09-08 15:36:47:269  INFO SYSTEM:main - register bean name=fire.pb.effect.SEquipSkillShowConfig
+2016-09-08 15:36:47:269  INFO SYSTEM:main - register bean name=fire.pb.effect.SPetAbilityScore
+2016-09-08 15:36:47:269  INFO SYSTEM:main - register bean name=fire.pb.friends.FriendGiveGift
+2016-09-08 15:36:47:269  INFO SYSTEM:main - register bean name=fire.pb.friends.FriendGiveItem
+2016-09-08 15:36:47:316  INFO SYSTEM:main - register bean name=fire.pb.friends.MyRecruitAwards
+2016-09-08 15:36:47:316  INFO SYSTEM:main - register bean name=fire.pb.friends.RecruitAwards
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.friends.SpaceDropGift
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.friends.XshGiveGift
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.fushi.SAddCash
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.fushi.SAddCashPCard
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.fushi.SChargeReturnProfit
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.fushi.SCommonDayPay
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.fushi.SCreditPoint
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.fushi.SFreeDisRewardConfig
+2016-09-08 15:36:47:332  INFO SYSTEM:main - register bean name=fire.pb.fushi.SFreeDisRewardConfigDayPay
+2016-09-08 15:36:47:347  INFO SYSTEM:main - register bean name=fire.pb.fushi.SMonthCardConfig
+2016-09-08 15:36:47:347  INFO SYSTEM:main - register bean name=fire.pb.fushi.SMonthCardConfigDayPay
+2016-09-08 15:36:47:347  INFO SYSTEM:main - register bean name=fire.pb.fushi.SRedPackConfig
+2016-09-08 15:36:47:347  INFO SYSTEM:main - register bean name=fire.pb.fushi.SSpotCardConfig
+2016-09-08 15:36:47:347  INFO SYSTEM:main - register bean name=fire.pb.fushi.SVipInfoConfig
+2016-09-08 15:36:47:379  INFO SYSTEM:main - register bean name=fire.pb.game.SActivityAward
+2016-09-08 15:36:47:410  INFO SYSTEM:main - register bean name=fire.pb.game.SBindTelAward
+2016-09-08 15:36:47:425  INFO SYSTEM:main - register bean name=fire.pb.game.SCrossGlobal
+2016-09-08 15:36:47:425  INFO SYSTEM:main - register bean name=fire.pb.game.Sdongtaifuwu
+2016-09-08 15:36:47:425  INFO SYSTEM:main - register bean name=fire.pb.game.SFirstPayReward
+2016-09-08 15:36:47:425  INFO SYSTEM:main - register bean name=fire.pb.game.SFortuneWheel
+2016-09-08 15:36:47:441  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamProvinceRepo
+2016-09-08 15:36:47:441  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamStateRankReward
+2016-09-08 15:36:47:472  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamStateRepo
+2016-09-08 15:36:47:488  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamVillageRepo
+2016-09-08 15:36:47:488  INFO SYSTEM:main - register bean name=fire.pb.game.Smuldayloginreward
+2016-09-08 15:36:47:488  INFO SYSTEM:main - register bean name=fire.pb.game.Snpcjianglifafang
+2016-09-08 15:36:47:519  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardActivityAward
+2016-09-08 15:36:47:535  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardBindTelAward
+2016-09-08 15:36:47:535  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardFirstPayReward
+2016-09-08 15:36:47:597  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardImperialExamProvinceRepo
+2016-09-08 15:36:47:660  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardImperialExamStateRepo
+2016-09-08 15:36:47:691  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardImperialExamVillageRepo
+2016-09-08 15:36:47:691  INFO SYSTEM:main - register bean name=fire.pb.game.SPVPCrossWhiteList
+2016-09-08 15:36:47:691  INFO SYSTEM:main - register bean name=fire.pb.game.Sregreward
+2016-09-08 15:36:47:707  INFO SYSTEM:main - register bean name=fire.pb.game.SRollCardConfig
+2016-09-08 15:36:47:707  INFO SYSTEM:main - register bean name=fire.pb.game.SSchoolWheel
+2016-09-08 15:36:47:722  INFO SYSTEM:main - register bean name=fire.pb.game.STransferRoleTable
+2016-09-08 15:36:47:738  INFO SYSTEM:main - register bean name=fire.pb.game.STransferTable
+2016-09-08 15:36:47:738  INFO SYSTEM:main - register bean name=fire.pb.gm.About360XuanShang
+2016-09-08 15:36:47:753  INFO SYSTEM:main - register bean name=fire.pb.gm.SGMStandard
+2016-09-08 15:36:47:753  INFO SYSTEM:main - register bean name=fire.pb.instance.SBingFengCfg
+2016-09-08 15:36:47:753  INFO SYSTEM:main - register bean name=fire.pb.instance.SBingFengJiangLiCfg
+2016-09-08 15:36:47:753  INFO SYSTEM:main - register bean name=fire.pb.instance.SBingFengPingJi
+2016-09-08 15:36:47:753  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstaceConfig
+2016-09-08 15:36:47:753  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstaceEvent
+2016-09-08 15:36:47:769  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstaceNpc
+2016-09-08 15:36:47:769  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceAct
+2016-09-08 15:36:47:769  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceChildSave
+2016-09-08 15:36:47:785  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceSave
+2016-09-08 15:36:47:785  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceService
+2016-09-08 15:36:47:785  INFO SYSTEM:main - register bean name=fire.pb.item.BagConfig
+2016-09-08 15:36:48:097  INFO SYSTEM:main - register bean name=fire.pb.item.DEquipItemShuXing
+2016-09-08 15:36:48:097  INFO SYSTEM:main - register bean name=fire.pb.item.DgemItemShuXing
+2016-09-08 15:36:48:144  INFO SYSTEM:main - register bean name=fire.pb.item.DGroceryItemShuXing
+2016-09-08 15:36:48:160  INFO SYSTEM:main - register bean name=fire.pb.item.DItemClassConfig
+2016-09-08 15:36:48:160  INFO SYSTEM:main - register bean name=fire.pb.item.DItemShuXing
+2016-09-08 15:36:48:160  INFO SYSTEM:main - register bean name=fire.pb.item.DPetItemShuXing
+2016-09-08 15:36:48:160  INFO SYSTEM:main - register bean name=fire.pb.item.DSEquipHeCheng
+2016-09-08 15:36:48:160  INFO SYSTEM:main - register bean name=fire.pb.item.DSEquipLvGemInfo
+2016-09-08 15:36:48:175  INFO SYSTEM:main - register bean name=fire.pb.item.DSFoodAndDrugEffect
+2016-09-08 15:36:48:175  INFO SYSTEM:main - register bean name=fire.pb.item.DTaskItemShuXing
+2016-09-08 15:36:48:457  INFO SYSTEM:main - register bean name=fire.pb.item.EquipItemShuXing
+2016-09-08 15:36:48:472  INFO SYSTEM:main - register bean name=fire.pb.item.gemItemShuXing
+2016-09-08 15:36:48:519  INFO SYSTEM:main - register bean name=fire.pb.item.GroceryItemShuXing
+2016-09-08 15:36:48:519  INFO SYSTEM:main - register bean name=fire.pb.item.ItemClassConfig
+2016-09-08 15:36:48:519  INFO SYSTEM:main - register bean name=fire.pb.item.ItemNameClassConfig
+2016-09-08 15:36:48:519  INFO SYSTEM:main - register bean name=fire.pb.item.ItemShuXing
+2016-09-08 15:36:48:535  INFO SYSTEM:main - register bean name=fire.pb.item.PetItemShuXing
+2016-09-08 15:36:48:535  INFO SYSTEM:main - register bean name=fire.pb.item.QualityFormula
+2016-09-08 15:36:48:535  INFO SYSTEM:main - register bean name=fire.pb.item.Sanquan
+2016-09-08 15:36:48:535  INFO SYSTEM:main - register bean name=fire.pb.item.SBaoShiBiao
+2016-09-08 15:36:48:535  INFO SYSTEM:main - register bean name=fire.pb.item.SBattleUseItem
+2016-09-08 15:36:48:535  INFO SYSTEM:main - register bean name=fire.pb.item.SCanntInChangKu
+2016-09-08 15:36:48:535  INFO SYSTEM:main - register bean name=fire.pb.item.SChangKuExt
+2016-09-08 15:36:48:550  INFO SYSTEM:main - register bean name=fire.pb.item.SDianKaLibaoConfig
+2016-09-08 15:36:48:550  INFO SYSTEM:main - register bean name=fire.pb.item.SDirectUseItem
+2016-09-08 15:36:48:566  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipAddattributelib
+2016-09-08 15:36:48:597  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipAddattributerandomlib
+2016-09-08 15:36:48:628  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipHeCheng
+2016-09-08 15:36:48:809  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipIteminfo
+2016-09-08 15:36:48:809  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipLvGemInfo
+2016-09-08 15:36:48:824  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipMakeInfo
+2016-09-08 15:36:48:824  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipNaiJiuXiaoHao
+2016-09-08 15:36:48:824  INFO SYSTEM:main - register bean name=fire.pb.item.SFoodAndDrugEffect
+2016-09-08 15:36:48:840  INFO SYSTEM:main - register bean name=fire.pb.item.SItemBuff
+2016-09-08 15:36:48:840  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToDbPoint
+2016-09-08 15:36:48:840  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToHuoban
+2016-09-08 15:36:48:840  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToItem
+2016-09-08 15:36:48:840  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToPet
+2016-09-08 15:36:48:840  INFO SYSTEM:main - register bean name=fire.pb.item.SItemUseTime
+2016-09-08 15:36:48:918  INFO SYSTEM:main - register bean name=fire.pb.item.SLibaoConfig
+2016-09-08 15:36:48:918  INFO SYSTEM:main - register bean name=fire.pb.item.SParkExtTable
+2016-09-08 15:36:48:918  INFO SYSTEM:main - register bean name=fire.pb.item.SPetSkillSuccessConfig
+2016-09-08 15:36:48:918  INFO SYSTEM:main - register bean name=fire.pb.item.SProduceItem
+2016-09-08 15:36:48:918  INFO SYSTEM:main - register bean name=fire.pb.item.SRankListNumConfig
+2016-09-08 15:36:48:934  INFO SYSTEM:main - register bean name=fire.pb.item.STimeReturn
+2016-09-08 15:36:48:934  INFO SYSTEM:main - register bean name=fire.pb.item.STimingReward
+2016-09-08 15:36:48:934  INFO SYSTEM:main - register bean name=fire.pb.item.STransformationConfig
+2016-09-08 15:36:48:934  INFO SYSTEM:main - register bean name=fire.pb.item.STransformationEffectConfig
+2016-09-08 15:36:48:934  INFO SYSTEM:main - register bean name=fire.pb.item.TaskItemShuXing
+2016-09-08 15:36:48:934  INFO SYSTEM:main - register bean name=fire.pb.login.SCompensationConfig
+2016-09-08 15:36:48:934  INFO SYSTEM:main - register bean name=fire.pb.main.HotfixConfig
+2016-09-08 15:36:48:949  INFO SYSTEM:main - register bean name=fire.pb.main.HotfixXml2ModuleConfig
+2016-09-08 15:36:48:949  INFO SYSTEM:main - register bean name=fire.pb.main.JumpQueueUser
+2016-09-08 15:36:48:949  INFO SYSTEM:main - register bean name=fire.pb.main.LoginLimit
+2016-09-08 15:36:48:949  INFO SYSTEM:main - register bean name=fire.pb.main.LoginQueueUp
+2016-09-08 15:36:48:949  INFO SYSTEM:main - register bean name=fire.pb.main.ModuleInfo
+2016-09-08 15:36:48:949  INFO SYSTEM:main - register bean name=fire.pb.map.MapConfig
+2016-09-08 15:36:48:965  INFO SYSTEM:main - register bean name=fire.pb.map.SActivityAwardItems
+2016-09-08 15:36:48:965  INFO SYSTEM:main - register bean name=fire.pb.map.SEventTimerNpc
+2016-09-08 15:36:48:965  INFO SYSTEM:main - register bean name=fire.pb.map.SEventTimerNpcDianKa
+2016-09-08 15:36:48:965  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureEvent
+2016-09-08 15:36:48:965  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureEventDianKa
+2016-09-08 15:36:48:965  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureGift
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureGiftDianKa
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureResult
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureResultDianKa
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.map.SItemToPos
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.map.SMineArea
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.map.SShowAreainfo
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.map.SWorldMapConfig
+2016-09-08 15:36:48:981  INFO SYSTEM:main - register bean name=fire.pb.message.SStringRes
+2016-09-08 15:36:48:996  INFO SYSTEM:main - register bean name=fire.pb.mission.SActiveChestConfig
+2016-09-08 15:36:48:996  INFO SYSTEM:main - register bean name=fire.pb.mission.SActiveChestConfig4D
+2016-09-08 15:36:48:996  INFO SYSTEM:main - register bean name=fire.pb.mission.SActivityQuestion
+2016-09-08 15:36:48:996  INFO SYSTEM:main - register bean name=fire.pb.mission.SAllTaskLine
+2016-09-08 15:36:48:996  INFO SYSTEM:main - register bean name=fire.pb.mission.Sbukefangqirenwu
+2016-09-08 15:36:49:027  INFO SYSTEM:main - register bean name=fire.pb.mission.SGuideCourse
+2016-09-08 15:36:49:027  INFO SYSTEM:main - register bean name=fire.pb.mission.SGuideCourseDianKa
+2016-09-08 15:36:49:027  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandFightConfig
+2016-09-08 15:36:49:027  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandPingJi
+2016-09-08 15:36:49:027  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandTask
+2016-09-08 15:36:49:027  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandTaskConfig
+2016-09-08 15:36:49:027  INFO SYSTEM:main - register bean name=fire.pb.mission.SLinepingji
+2016-09-08 15:36:49:043  INFO SYSTEM:main - register bean name=fire.pb.mission.SLineTask
+2016-09-08 15:36:49:059  INFO SYSTEM:main - register bean name=fire.pb.mission.SLineTaskConfig
+2016-09-08 15:36:49:059  INFO SYSTEM:main - register bean name=fire.pb.mission.SLineTaskFight
+2016-09-08 15:36:49:199  INFO SYSTEM:main - register bean name=fire.pb.mission.SMissionData
+2016-09-08 15:36:49:199  INFO SYSTEM:main - register bean name=fire.pb.mission.SNewFunctionOpen
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.mission.SQuestCanAcceptList
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.mission.SQuestCanAcceptListDianKa
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.mission.Squestions
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.mission.SSpecialScenarioQuestConfig
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.npc.SActivityNpcPos
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.npc.SAllConds
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.npc.SBaoxiang
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.npc.SchoolMaster
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.npc.SFestivalGift
+2016-09-08 15:36:49:215  INFO SYSTEM:main - register bean name=fire.pb.npc.SGatherConfig
+2016-09-08 15:36:49:231  INFO SYSTEM:main - register bean name=fire.pb.npc.SHeroBaseInfo
+2016-09-08 15:36:49:231  INFO SYSTEM:main - register bean name=fire.pb.npc.SHeroWeekFreeInfo
+2016-09-08 15:36:49:231  INFO SYSTEM:main - register bean name=fire.pb.npc.SHireNpc
+2016-09-08 15:36:49:231  INFO SYSTEM:main - register bean name=fire.pb.npc.SLeitaiLevel
+2016-09-08 15:36:50:652  INFO SYSTEM:main - register bean name=fire.pb.npc.SMonsterConfig
+2016-09-08 15:36:50:654  INFO SYSTEM:main - register bean name=fire.pb.npc.SMonstershowConfig
+2016-09-08 15:36:50:655  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcNameRandom
+2016-09-08 15:36:50:655  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcPreNameRandom
+2016-09-08 15:36:50:655  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcServiceConfig
+2016-09-08 15:36:50:686  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcServiceMapping
+2016-09-08 15:36:50:702  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcShape
+2016-09-08 15:36:50:733  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcShare
+2016-09-08 15:36:50:764  INFO SYSTEM:main - register bean name=fire.pb.npc.SRefreshTimerNpc
+2016-09-08 15:36:50:780  INFO SYSTEM:main - register bean name=fire.pb.npc.SRefreshTimerNpcDianKa
+2016-09-08 15:36:50:780  INFO SYSTEM:main - register bean name=fire.pb.npc.SRide
+2016-09-08 15:36:50:780  INFO SYSTEM:main - register bean name=fire.pb.npc.SRideItem
+2016-09-08 15:36:50:796  INFO SYSTEM:main - register bean name=fire.pb.npc.SServiceConds
+2016-09-08 15:36:50:921  INFO SYSTEM:main - register bean name=fire.pb.npc.SWildMonsterConfig
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.PetAttr
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.PetAttrModData
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.PetColumnConfig
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.PetLearnSkillRateConfig
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.PetNextExp
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.PetResetPointConfig
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.PetSynthesizeSkillRateConfig
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.SPetDepotPrice
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.pet.SShenShouInc
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.role.AttrModData
+2016-09-08 15:36:50:952  INFO SYSTEM:main - register bean name=fire.pb.role.NextExpAndResMoney
+2016-09-08 15:36:50:968  INFO SYSTEM:main - register bean name=fire.pb.role.Redirect
+2016-09-08 15:36:50:968  INFO SYSTEM:main - register bean name=fire.pb.role.RoleConfig
+2016-09-08 15:36:50:968  INFO SYSTEM:main - register bean name=fire.pb.role.RoleModData
+2016-09-08 15:36:50:968  INFO SYSTEM:main - register bean name=fire.pb.role.Saddpointchange
+2016-09-08 15:36:50:968  INFO SYSTEM:main - register bean name=fire.pb.role.SCreateRoleConfig
+2016-09-08 15:36:50:968  INFO SYSTEM:main - register bean name=fire.pb.role.SEquipEffectConfig
+2016-09-08 15:36:50:983  INFO SYSTEM:main - register bean name=fire.pb.role.SRoleNameData
+2016-09-08 15:36:50:983  INFO SYSTEM:main - register bean name=fire.pb.role.SRoleRColorConfig
+2016-09-08 15:36:50:983  INFO SYSTEM:main - register bean name=fire.pb.role.SRoleSymbolRepository
+2016-09-08 15:36:50:983  INFO SYSTEM:main - register bean name=fire.pb.role.SServerMaxLevelConfig
+2016-09-08 15:36:50:983  INFO SYSTEM:main - register bean name=fire.pb.role.SServiceExpConfig
+2016-09-08 15:36:50:983  INFO SYSTEM:main - register bean name=fire.pb.role.SServiceLevelConfig
+2016-09-08 15:36:50:983  INFO SYSTEM:main - register bean name=fire.pb.shop.DMarketFirstTable
+2016-09-08 15:36:51:030  INFO SYSTEM:main - register bean name=fire.pb.shop.DMarketThreeTable
+2016-09-08 15:36:51:061  INFO SYSTEM:main - register bean name=fire.pb.shop.DSGoods
+2016-09-08 15:36:51:061  INFO SYSTEM:main - register bean name=fire.pb.shop.DSMallShop
+2016-09-08 15:36:51:077  INFO SYSTEM:main - register bean name=fire.pb.shop.DSNpcSale
+2016-09-08 15:36:51:077  INFO SYSTEM:main - register bean name=fire.pb.shop.MarketFirstTable
+2016-09-08 15:36:51:124  INFO SYSTEM:main - register bean name=fire.pb.shop.MarketThreeTable
+2016-09-08 15:36:51:155  INFO SYSTEM:main - register bean name=fire.pb.shop.SGoods
+2016-09-08 15:36:51:155  INFO SYSTEM:main - register bean name=fire.pb.shop.SMallShop
+2016-09-08 15:36:51:155  INFO SYSTEM:main - register bean name=fire.pb.shop.SNpcSale
+2016-09-08 15:36:51:155  INFO SYSTEM:main - register bean name=fire.pb.shop.SPetShop
+2016-09-08 15:36:51:155  INFO SYSTEM:main - register bean name=fire.pb.skill.SActionTime
+2016-09-08 15:36:51:155  INFO SYSTEM:main - register bean name=fire.pb.skill.SAssistSkill
+2016-09-08 15:36:51:155  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornConsume
+2016-09-08 15:36:51:171  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornEffectSkill
+2016-09-08 15:36:51:171  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornInfo
+2016-09-08 15:36:51:186  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornMaxLevel
+2016-09-08 15:36:51:186  INFO SYSTEM:main - register bean name=fire.pb.skill.SLifeSkill
+2016-09-08 15:36:51:202  INFO SYSTEM:main - register bean name=fire.pb.skill.SLifeSkillCost
+2016-09-08 15:36:51:202  INFO SYSTEM:main - register bean name=fire.pb.skill.SNuqiget
+2016-09-08 15:36:51:218  INFO SYSTEM:main - register bean name=fire.pb.skill.SParticeSkillLevelup
+2016-09-08 15:36:51:218  INFO SYSTEM:main - register bean name=fire.pb.skill.SPetSkillitem
+2016-09-08 15:36:51:249  INFO SYSTEM:main - register bean name=fire.pb.skill.SPetSkillupgrade
+2016-09-08 15:36:51:264  INFO SYSTEM:main - register bean name=fire.pb.skill.SPointCardParticeSkillLevelup
+2016-09-08 15:36:51:264  INFO SYSTEM:main - register bean name=fire.pb.skill.SPracticeItemExp
+2016-09-08 15:36:51:264  INFO SYSTEM:main - register bean name=fire.pb.skill.SSceneSkillConfig
+2016-09-08 15:36:51:264  INFO SYSTEM:main - register bean name=fire.pb.skill.SSchoolSkillitem
+2016-09-08 15:36:51:327  INFO SYSTEM:main - register bean name=fire.pb.skill.SSkillConfig
+2016-09-08 15:36:51:327  INFO SYSTEM:main - register bean name=fire.pb.skill.SSkillInfoConfig
+2016-09-08 15:36:51:405  INFO SYSTEM:main - register bean name=fire.pb.skill.SSubSkillConfig
+2016-09-08 15:36:51:405  INFO SYSTEM:main - register bean name=fire.pb.SysConfig.SHotdeployClass
+2016-09-08 15:36:51:436  INFO SYSTEM:main - register bean name=fire.pb.SysConfig.SSysconfig
+2016-09-08 15:36:51:452  INFO SYSTEM:main - register bean name=fire.pb.team.DSTeamMatchInfo
+2016-09-08 15:36:51:452  INFO SYSTEM:main - register bean name=fire.pb.team.SGuangHuanLevelup
+2016-09-08 15:36:51:452  INFO SYSTEM:main - register bean name=fire.pb.team.STeamListInfo
+2016-09-08 15:36:51:452  INFO SYSTEM:main - register bean name=fire.pb.team.STeamMatchInfo
+2016-09-08 15:36:51:452  INFO SYSTEM:main - register bean name=fire.pb.team.SZhenFaeffect
+2016-09-08 15:36:51:468  INFO SYSTEM:main - register bean name=fire.pb.timer.SScheculedActivity
+2016-09-08 15:36:51:483  INFO SYSTEM:main - register bean name=fire.pb.timer.SScheculedActivityDianKa
+2016-09-08 15:36:51:483  INFO SYSTEM:main - register bean name=fire.pb.title.SItemTitleConfig
+2016-09-08 15:36:51:483  INFO SYSTEM:main - register bean name=fire.pb.title.STitleConfig
+2016-09-08 15:36:51:483  INFO SYSTEM:main - register bean name=fire.pb.triggers.STriggerCondition
+2016-09-08 15:36:51:483  INFO SYSTEM:main - register bean name=fire.pb.triggers.STriggerCondition4D
+2016-09-08 15:36:51:499  INFO SYSTEM:main - register properties=activity
+2016-09-08 15:36:51:514  INFO SYSTEM:main - register properties=battle
+2016-09-08 15:36:51:530  INFO SYSTEM:main - register properties=cross
+2016-09-08 15:36:51:530  INFO SYSTEM:main - register properties=forbid
+2016-09-08 15:36:51:561  INFO SYSTEM:main - register properties=fushi
+2016-09-08 15:36:51:577  INFO SYSTEM:main - register properties=game
+2016-09-08 15:36:51:577  INFO SYSTEM:main - register properties=item
+2016-09-08 15:36:51:593  INFO SYSTEM:main - register properties=market
+2016-09-08 15:36:51:608  INFO SYSTEM:main - register properties=message
+2016-09-08 15:36:51:624  INFO SYSTEM:main - register properties=npc
+2016-09-08 15:36:51:624  INFO SYSTEM:main - register properties=operlog
+2016-09-08 15:36:51:639  INFO SYSTEM:main - register properties=robot
+2016-09-08 15:36:51:655  INFO SYSTEM:main - register properties=school
+2016-09-08 15:36:51:663  INFO SYSTEM:main - register properties=serverid
+2016-09-08 15:36:51:679  INFO SYSTEM:main - register properties=skill
+2016-09-08 15:36:51:679  INFO SYSTEM:main - register properties=specialquest
+2016-09-08 15:36:51:694  INFO SYSTEM:main - register properties=sys
+2016-09-08 15:36:51:694  INFO SYSTEM:main - register properties=task
+2016-09-08 15:36:52:382 ERROR SYSTEM:main - 模块mkdb启动失败
+java.lang.RuntimeException: Compare metadata fail,should run xtransform?
+	at mkdb.Mkdb.start(Mkdb.java:185) ~[bin/:?]
+	at mkdb.Mkdb.start(Mkdb.java:121) ~[bin/:?]
+	at mkdb.Mkdb.start(Mkdb.java:100) ~[bin/:?]
+	at fire.pb.main.MkdbModule.init(MkdbModule.java:42) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:36:58:310 ERROR SYSTEM:main - 模块item启动失败
+java.lang.NullPointerException
+	at fire.pb.item.Module.init(Module.java:339) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:36:58:357 ERROR SYSTEM:main - 模块pet启动失败
+java.lang.NullPointerException
+	at xtable.Petrecyclebin.getTable(Petrecyclebin.java:37) ~[build/:?]
+	at fire.pb.pet.Module.cleanPetRecycleBin(Module.java:72) ~[build/:?]
+	at fire.pb.pet.Module.init(Module.java:40) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:36:59:878 ERROR SYSTEM:main - 模块scene启动失败
+java.lang.NullPointerException
+	at xtable.Professionleader.getTable(Professionleader.java:37) ~[build/:?]
+	at xtable.Professionleader.select(Professionleader.java:41) ~[build/:?]
+	at fire.pb.scene.manager.SceneNpcManager.addSceneNpc(SceneNpcManager.java:60) ~[build/:?]
+	at fire.pb.scene.manager.SceneNpcManager.summonNpc(SceneNpcManager.java:192) ~[build/:?]
+	at fire.pb.scene.manager.SceneNpcManager.summonNpcAndUpdateGS(SceneNpcManager.java:227) ~[build/:?]
+	at fire.pb.scene.manager.SceneNpcManager.summonNpcAndUpdateGS(SceneNpcManager.java:317) ~[build/:?]
+	at fire.pb.scene.Scene.loadNpc(Scene.java:434) ~[build/:?]
+	at fire.pb.scene.StaticScene.load(StaticScene.java:27) ~[build/:?]
+	at fire.pb.scene.SceneFactory.createStaticScene(SceneFactory.java:44) ~[build/:?]
+	at fire.pb.scene.SceneManager.init(SceneManager.java:107) ~[build/:?]
+	at fire.pb.scene.Module.init(Module.java:29) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:36:59:878 ERROR SYSTEM:main - 模块effect启动失败
+java.lang.NullPointerException
+	at xtable.Properties.getTable(Properties.java:51) ~[build/:?]
+	at fire.pb.effect.Module.init(Module.java:119) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:36:59:894 ERROR SYSTEM:main - 模块battle启动失败
+java.lang.NullPointerException
+	at fire.pb.effect.Module.getIdByName(Module.java:197) ~[build/:?]
+	at fire.pb.battle.Module.init(Module.java:115) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:37:00:050 ERROR SYSTEM:main - 模块npc启动失败
+java.lang.NullPointerException
+	at fire.pb.npc.NpcManager.init(NpcManager.java:92) ~[build/:?]
+	at fire.pb.npc.Module.init(Module.java:39) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:37:00:050  INFO SYSTEM:main - 将在 29939 秒后开始第一次EndOfDayTask
+2016-09-08 15:37:00:050 ERROR SYSTEM:main - 模块timer启动失败
+java.lang.NullPointerException
+	at fire.pb.timer.Module.initOnce(Module.java:133) ~[build/:?]
+	at fire.pb.timer.Module.init(Module.java:58) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:37:00:097 ERROR SYSTEM:main - 模块mission启动失败
+java.lang.NullPointerException
+	at xtable.Chargeorder.getTable(Chargeorder.java:51) ~[build/:?]
+	at fire.pb.mission.Module.chargeDataClear(Module.java:410) ~[build/:?]
+	at fire.pb.mission.Module.init(Module.java:319) ~[build/:?]
+	at fire.pb.main.ModuleManager$1.onNode(ModuleManager.java:83) [build/:?]
+	at fire.pb.main.DAG.walk(DAG.java:74) [build/:?]
+	at fire.pb.main.ModuleManager.initInstance(ModuleManager.java:57) [build/:?]
+	at fire.pb.main.ModuleManager.init(ModuleManager.java:107) [build/:?]
+	at fire.pb.main.Gs.init(Gs.java:98) [build/:?]
+	at fire.pb.main.Gs.main(Gs.java:143) [build/:?]
+2016-09-08 15:57:36:316  INFO SYSTEM:main - SERVER STARTING...
+2016-09-08 15:57:36:425  INFO SYSTEM:main - register bean name=fire.pb.activity.ActivityConfNew
+2016-09-08 15:57:36:441  INFO SYSTEM:main - register bean name=fire.pb.activity.ActivityConfNew4D
+2016-09-08 15:57:36:441  INFO SYSTEM:main - register bean name=fire.pb.activity.SFestivalConf
+2016-09-08 15:57:36:441  INFO SYSTEM:main - register bean name=fire.pb.activity.SFestivalConf4D
+2016-09-08 15:57:36:503  INFO SYSTEM:main - register bean name=fire.pb.battle.SAIAction
+2016-09-08 15:57:36:535  INFO SYSTEM:main - register bean name=fire.pb.battle.SBattleAI
+2016-09-08 15:57:36:660  INFO SYSTEM:main - register bean name=fire.pb.battle.SBattleInfo
+2016-09-08 15:57:36:660  INFO SYSTEM:main - register bean name=fire.pb.battle.SBattleMonsterConfig
+2016-09-08 15:57:36:660  INFO SYSTEM:main - register bean name=fire.pb.battle.SCatchRate
+2016-09-08 15:57:36:675  INFO SYSTEM:main - register bean name=fire.pb.battle.SCondition
+2016-09-08 15:57:36:675  INFO SYSTEM:main - register bean name=fire.pb.battle.SEffectPostions
+2016-09-08 15:57:36:675  INFO SYSTEM:main - register bean name=fire.pb.battle.SFormationConfig
+2016-09-08 15:57:36:675  INFO SYSTEM:main - register bean name=fire.pb.battle.SRoleFighteAI
+2016-09-08 15:57:36:691  INFO SYSTEM:main - register bean name=fire.pb.battle.STargetFilter
+2016-09-08 15:57:36:707  INFO SYSTEM:main - register bean name=fire.pb.buff.SBuffClashs
+2016-09-08 15:57:36:722  INFO SYSTEM:main - register bean name=fire.pb.buff.SCBuffConfig
+2016-09-08 15:57:36:722  INFO SYSTEM:main - register bean name=fire.pb.buff.SIBuffConfig
+2016-09-08 15:57:36:800  INFO SYSTEM:main - register bean name=fire.pb.circletask.AnYeMaXiTuanConf
+2016-09-08 15:57:36:805  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircleTaskAutoAccept
+2016-09-08 15:57:36:805  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTask
+2016-09-08 15:57:36:805  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskChallengeNpc
+2016-09-08 15:57:36:805  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskConf
+2016-09-08 15:57:36:821  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemCollect
+2016-09-08 15:57:36:837  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemFind
+2016-09-08 15:57:36:837  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemFindLegend
+2016-09-08 15:57:36:837  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskItemUse
+2016-09-08 15:57:36:837  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskKillMonster
+2016-09-08 15:57:36:837  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskMailNpc
+2016-09-08 15:57:36:852  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskPatrol
+2016-09-08 15:57:36:852  INFO SYSTEM:main - register bean name=fire.pb.circletask.CircTaskPetCatch
+2016-09-08 15:57:36:852  INFO SYSTEM:main - register bean name=fire.pb.circletask.DemonstrateDefaultMonster
+2016-09-08 15:57:36:852  INFO SYSTEM:main - register bean name=fire.pb.circletask.PVPAwardConfig
+2016-09-08 15:57:36:852  INFO SYSTEM:main - register bean name=fire.pb.circletask.PVPMatchTimeConfig
+2016-09-08 15:57:36:852  INFO SYSTEM:main - register bean name=fire.pb.circletask.PVPScoreAwardConfig
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.circletask.Random4AnYeMaXiTuan
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.circletask.RenXingCircTaskCost
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.circletask.SCircTaskMonsterConfig
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.circletask.SPVP1MapConfig
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.circletask.SPVP3MapConfig
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.circletask.SPVP5MapConfig
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanDrugstore
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanFight
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanGoldBank
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanHotel
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanLobby
+2016-09-08 15:57:36:868  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanPosition
+2016-09-08 15:57:36:884  INFO SYSTEM:main - register bean name=fire.pb.clan.SClanyaofang
+2016-09-08 15:57:36:884  INFO SYSTEM:main - register bean name=fire.pb.clan.SRuneSet
+2016-09-08 15:57:36:884  INFO SYSTEM:main - register bean name=fire.pb.common.SCommon
+2016-09-08 15:57:36:884  INFO SYSTEM:main - register bean name=fire.pb.effect.SAbilityScore
+2016-09-08 15:57:36:884  INFO SYSTEM:main - register bean name=fire.pb.effect.SAttrEffectID2Name
+2016-09-08 15:57:36:884  INFO SYSTEM:main - register bean name=fire.pb.effect.SEquipAbilityScore
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.effect.SEquipSkillShowConfig
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.effect.SPetAbilityScore
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.friends.FriendGiveGift
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.friends.FriendGiveItem
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.friends.MyRecruitAwards
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.friends.RecruitAwards
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.friends.SpaceDropGift
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.friends.XshGiveGift
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.fushi.SAddCash
+2016-09-08 15:57:36:899  INFO SYSTEM:main - register bean name=fire.pb.fushi.SAddCashPCard
+2016-09-08 15:57:36:915  INFO SYSTEM:main - register bean name=fire.pb.fushi.SChargeReturnProfit
+2016-09-08 15:57:36:915  INFO SYSTEM:main - register bean name=fire.pb.fushi.SCommonDayPay
+2016-09-08 15:57:36:915  INFO SYSTEM:main - register bean name=fire.pb.fushi.SCreditPoint
+2016-09-08 15:57:36:915  INFO SYSTEM:main - register bean name=fire.pb.fushi.SFreeDisRewardConfig
+2016-09-08 15:57:36:915  INFO SYSTEM:main - register bean name=fire.pb.fushi.SFreeDisRewardConfigDayPay
+2016-09-08 15:57:36:915  INFO SYSTEM:main - register bean name=fire.pb.fushi.SMonthCardConfig
+2016-09-08 15:57:36:915  INFO SYSTEM:main - register bean name=fire.pb.fushi.SMonthCardConfigDayPay
+2016-09-08 15:57:36:930  INFO SYSTEM:main - register bean name=fire.pb.fushi.SRedPackConfig
+2016-09-08 15:57:36:930  INFO SYSTEM:main - register bean name=fire.pb.fushi.SSpotCardConfig
+2016-09-08 15:57:36:930  INFO SYSTEM:main - register bean name=fire.pb.fushi.SVipInfoConfig
+2016-09-08 15:57:36:993  INFO SYSTEM:main - register bean name=fire.pb.game.SActivityAward
+2016-09-08 15:57:37:009  INFO SYSTEM:main - register bean name=fire.pb.game.SBindTelAward
+2016-09-08 15:57:37:040  INFO SYSTEM:main - register bean name=fire.pb.game.SCrossGlobal
+2016-09-08 15:57:37:040  INFO SYSTEM:main - register bean name=fire.pb.game.Sdongtaifuwu
+2016-09-08 15:57:37:040  INFO SYSTEM:main - register bean name=fire.pb.game.SFirstPayReward
+2016-09-08 15:57:37:040  INFO SYSTEM:main - register bean name=fire.pb.game.SFortuneWheel
+2016-09-08 15:57:37:071  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamProvinceRepo
+2016-09-08 15:57:37:071  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamStateRankReward
+2016-09-08 15:57:37:102  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamStateRepo
+2016-09-08 15:57:37:102  INFO SYSTEM:main - register bean name=fire.pb.game.SImperialExamVillageRepo
+2016-09-08 15:57:37:118  INFO SYSTEM:main - register bean name=fire.pb.game.Smuldayloginreward
+2016-09-08 15:57:37:118  INFO SYSTEM:main - register bean name=fire.pb.game.Snpcjianglifafang
+2016-09-08 15:57:37:149  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardActivityAward
+2016-09-08 15:57:37:149  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardBindTelAward
+2016-09-08 15:57:37:149  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardFirstPayReward
+2016-09-08 15:57:37:180  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardImperialExamProvinceRepo
+2016-09-08 15:57:37:212  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardImperialExamStateRepo
+2016-09-08 15:57:37:212  INFO SYSTEM:main - register bean name=fire.pb.game.SPointCardImperialExamVillageRepo
+2016-09-08 15:57:37:212  INFO SYSTEM:main - register bean name=fire.pb.game.SPVPCrossWhiteList
+2016-09-08 15:57:37:227  INFO SYSTEM:main - register bean name=fire.pb.game.Sregreward
+2016-09-08 15:57:37:227  INFO SYSTEM:main - register bean name=fire.pb.game.SRollCardConfig
+2016-09-08 15:57:37:227  INFO SYSTEM:main - register bean name=fire.pb.game.SSchoolWheel
+2016-09-08 15:57:37:227  INFO SYSTEM:main - register bean name=fire.pb.game.STransferRoleTable
+2016-09-08 15:57:37:227  INFO SYSTEM:main - register bean name=fire.pb.game.STransferTable
+2016-09-08 15:57:37:227  INFO SYSTEM:main - register bean name=fire.pb.gm.About360XuanShang
+2016-09-08 15:57:37:243  INFO SYSTEM:main - register bean name=fire.pb.gm.SGMStandard
+2016-09-08 15:57:37:243  INFO SYSTEM:main - register bean name=fire.pb.instance.SBingFengCfg
+2016-09-08 15:57:37:243  INFO SYSTEM:main - register bean name=fire.pb.instance.SBingFengJiangLiCfg
+2016-09-08 15:57:37:243  INFO SYSTEM:main - register bean name=fire.pb.instance.SBingFengPingJi
+2016-09-08 15:57:37:259  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstaceConfig
+2016-09-08 15:57:37:259  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstaceEvent
+2016-09-08 15:57:37:259  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstaceNpc
+2016-09-08 15:57:37:259  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceAct
+2016-09-08 15:57:37:259  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceChildSave
+2016-09-08 15:57:37:259  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceSave
+2016-09-08 15:57:37:274  INFO SYSTEM:main - register bean name=fire.pb.instance.SInstanceService
+2016-09-08 15:57:37:274  INFO SYSTEM:main - register bean name=fire.pb.item.BagConfig
+2016-09-08 15:57:37:587  INFO SYSTEM:main - register bean name=fire.pb.item.DEquipItemShuXing
+2016-09-08 15:57:37:602  INFO SYSTEM:main - register bean name=fire.pb.item.DgemItemShuXing
+2016-09-08 15:57:37:649  INFO SYSTEM:main - register bean name=fire.pb.item.DGroceryItemShuXing
+2016-09-08 15:57:37:649  INFO SYSTEM:main - register bean name=fire.pb.item.DItemClassConfig
+2016-09-08 15:57:37:649  INFO SYSTEM:main - register bean name=fire.pb.item.DItemShuXing
+2016-09-08 15:57:37:649  INFO SYSTEM:main - register bean name=fire.pb.item.DPetItemShuXing
+2016-09-08 15:57:37:665  INFO SYSTEM:main - register bean name=fire.pb.item.DSEquipHeCheng
+2016-09-08 15:57:37:665  INFO SYSTEM:main - register bean name=fire.pb.item.DSEquipLvGemInfo
+2016-09-08 15:57:37:665  INFO SYSTEM:main - register bean name=fire.pb.item.DSFoodAndDrugEffect
+2016-09-08 15:57:37:665  INFO SYSTEM:main - register bean name=fire.pb.item.DTaskItemShuXing
+2016-09-08 15:57:37:977  INFO SYSTEM:main - register bean name=fire.pb.item.EquipItemShuXing
+2016-09-08 15:57:37:984  INFO SYSTEM:main - register bean name=fire.pb.item.gemItemShuXing
+2016-09-08 15:57:38:031  INFO SYSTEM:main - register bean name=fire.pb.item.GroceryItemShuXing
+2016-09-08 15:57:38:031  INFO SYSTEM:main - register bean name=fire.pb.item.ItemClassConfig
+2016-09-08 15:57:38:031  INFO SYSTEM:main - register bean name=fire.pb.item.ItemNameClassConfig
+2016-09-08 15:57:38:031  INFO SYSTEM:main - register bean name=fire.pb.item.ItemShuXing
+2016-09-08 15:57:38:031  INFO SYSTEM:main - register bean name=fire.pb.item.PetItemShuXing
+2016-09-08 15:57:38:031  INFO SYSTEM:main - register bean name=fire.pb.item.QualityFormula
+2016-09-08 15:57:38:031  INFO SYSTEM:main - register bean name=fire.pb.item.Sanquan
+2016-09-08 15:57:38:047  INFO SYSTEM:main - register bean name=fire.pb.item.SBaoShiBiao
+2016-09-08 15:57:38:047  INFO SYSTEM:main - register bean name=fire.pb.item.SBattleUseItem
+2016-09-08 15:57:38:047  INFO SYSTEM:main - register bean name=fire.pb.item.SCanntInChangKu
+2016-09-08 15:57:38:047  INFO SYSTEM:main - register bean name=fire.pb.item.SChangKuExt
+2016-09-08 15:57:38:062  INFO SYSTEM:main - register bean name=fire.pb.item.SDianKaLibaoConfig
+2016-09-08 15:57:38:062  INFO SYSTEM:main - register bean name=fire.pb.item.SDirectUseItem
+2016-09-08 15:57:38:078  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipAddattributelib
+2016-09-08 15:57:38:109  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipAddattributerandomlib
+2016-09-08 15:57:38:109  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipHeCheng
+2016-09-08 15:57:38:297  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipIteminfo
+2016-09-08 15:57:38:297  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipLvGemInfo
+2016-09-08 15:57:38:328  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipMakeInfo
+2016-09-08 15:57:38:328  INFO SYSTEM:main - register bean name=fire.pb.item.SEquipNaiJiuXiaoHao
+2016-09-08 15:57:38:328  INFO SYSTEM:main - register bean name=fire.pb.item.SFoodAndDrugEffect
+2016-09-08 15:57:38:328  INFO SYSTEM:main - register bean name=fire.pb.item.SItemBuff
+2016-09-08 15:57:38:328  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToDbPoint
+2016-09-08 15:57:38:344  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToHuoban
+2016-09-08 15:57:38:344  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToItem
+2016-09-08 15:57:38:344  INFO SYSTEM:main - register bean name=fire.pb.item.SItemToPet
+2016-09-08 15:57:38:344  INFO SYSTEM:main - register bean name=fire.pb.item.SItemUseTime
+2016-09-08 15:57:38:359  INFO SYSTEM:main - register bean name=fire.pb.item.SLibaoConfig
+2016-09-08 15:57:38:359  INFO SYSTEM:main - register bean name=fire.pb.item.SParkExtTable
+2016-09-08 15:57:38:375  INFO SYSTEM:main - register bean name=fire.pb.item.SPetSkillSuccessConfig
+2016-09-08 15:57:38:375  INFO SYSTEM:main - register bean name=fire.pb.item.SProduceItem
+2016-09-08 15:57:38:375  INFO SYSTEM:main - register bean name=fire.pb.item.SRankListNumConfig
+2016-09-08 15:57:38:375  INFO SYSTEM:main - register bean name=fire.pb.item.STimeReturn
+2016-09-08 15:57:38:375  INFO SYSTEM:main - register bean name=fire.pb.item.STimingReward
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.item.STransformationConfig
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.item.STransformationEffectConfig
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.item.TaskItemShuXing
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.login.SCompensationConfig
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.main.HotfixConfig
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.main.HotfixXml2ModuleConfig
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.main.JumpQueueUser
+2016-09-08 15:57:38:390  INFO SYSTEM:main - register bean name=fire.pb.main.LoginLimit
+2016-09-08 15:57:38:406  INFO SYSTEM:main - register bean name=fire.pb.main.LoginQueueUp
+2016-09-08 15:57:38:406  INFO SYSTEM:main - register bean name=fire.pb.main.ModuleInfo
+2016-09-08 15:57:38:406  INFO SYSTEM:main - register bean name=fire.pb.map.MapConfig
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SActivityAwardItems
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SEventTimerNpc
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SEventTimerNpcDianKa
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureEvent
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureEventDianKa
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureGift
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureGiftDianKa
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureResult
+2016-09-08 15:57:38:422  INFO SYSTEM:main - register bean name=fire.pb.map.SFindTreasureResultDianKa
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.map.SItemToPos
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.map.SMineArea
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.map.SShowAreainfo
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.map.SWorldMapConfig
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.message.SStringRes
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.mission.SActiveChestConfig
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.mission.SActiveChestConfig4D
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.mission.SActivityQuestion
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.mission.SAllTaskLine
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.mission.Sbukefangqirenwu
+2016-09-08 15:57:38:437  INFO SYSTEM:main - register bean name=fire.pb.mission.SGuideCourse
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SGuideCourseDianKa
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandFightConfig
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandPingJi
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandTask
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLandTaskConfig
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLinepingji
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLineTask
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLineTaskConfig
+2016-09-08 15:57:38:453  INFO SYSTEM:main - register bean name=fire.pb.mission.SLineTaskFight
+2016-09-08 15:57:38:547  INFO SYSTEM:main - register bean name=fire.pb.mission.SMissionData
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.mission.SNewFunctionOpen
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.mission.SQuestCanAcceptList
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.mission.SQuestCanAcceptListDianKa
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.mission.Squestions
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.mission.SSpecialScenarioQuestConfig
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.npc.SActivityNpcPos
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.npc.SAllConds
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.npc.SBaoxiang
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.npc.SchoolMaster
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.npc.SFestivalGift
+2016-09-08 15:57:38:562  INFO SYSTEM:main - register bean name=fire.pb.npc.SGatherConfig
+2016-09-08 15:57:38:578  INFO SYSTEM:main - register bean name=fire.pb.npc.SHeroBaseInfo
+2016-09-08 15:57:38:578  INFO SYSTEM:main - register bean name=fire.pb.npc.SHeroWeekFreeInfo
+2016-09-08 15:57:38:578  INFO SYSTEM:main - register bean name=fire.pb.npc.SHireNpc
+2016-09-08 15:57:38:578  INFO SYSTEM:main - register bean name=fire.pb.npc.SLeitaiLevel
+2016-09-08 15:57:39:906  INFO SYSTEM:main - register bean name=fire.pb.npc.SMonsterConfig
+2016-09-08 15:57:39:914  INFO SYSTEM:main - register bean name=fire.pb.npc.SMonstershowConfig
+2016-09-08 15:57:39:916  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcNameRandom
+2016-09-08 15:57:39:916  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcPreNameRandom
+2016-09-08 15:57:39:916  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcServiceConfig
+2016-09-08 15:57:39:916  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcServiceMapping
+2016-09-08 15:57:40:025  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcShape
+2016-09-08 15:57:40:057  INFO SYSTEM:main - register bean name=fire.pb.npc.SNpcShare
+2016-09-08 15:57:40:072  INFO SYSTEM:main - register bean name=fire.pb.npc.SRefreshTimerNpc
+2016-09-08 15:57:40:072  INFO SYSTEM:main - register bean name=fire.pb.npc.SRefreshTimerNpcDianKa
+2016-09-08 15:57:40:072  INFO SYSTEM:main - register bean name=fire.pb.npc.SRide
+2016-09-08 15:57:40:072  INFO SYSTEM:main - register bean name=fire.pb.npc.SRideItem
+2016-09-08 15:57:40:072  INFO SYSTEM:main - register bean name=fire.pb.npc.SServiceConds
+2016-09-08 15:57:40:135  INFO SYSTEM:main - register bean name=fire.pb.npc.SWildMonsterConfig
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.PetAttr
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.PetAttrModData
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.PetColumnConfig
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.PetLearnSkillRateConfig
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.PetNextExp
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.PetResetPointConfig
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.PetSynthesizeSkillRateConfig
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.SPetDepotPrice
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.pet.SShenShouInc
+2016-09-08 15:57:40:166  INFO SYSTEM:main - register bean name=fire.pb.role.AttrModData
+2016-09-08 15:57:40:182  INFO SYSTEM:main - register bean name=fire.pb.role.NextExpAndResMoney
+2016-09-08 15:57:40:182  INFO SYSTEM:main - register bean name=fire.pb.role.Redirect
+2016-09-08 15:57:40:182  INFO SYSTEM:main - register bean name=fire.pb.role.RoleConfig
+2016-09-08 15:57:40:182  INFO SYSTEM:main - register bean name=fire.pb.role.RoleModData
+2016-09-08 15:57:40:182  INFO SYSTEM:main - register bean name=fire.pb.role.Saddpointchange
+2016-09-08 15:57:40:182  INFO SYSTEM:main - register bean name=fire.pb.role.SCreateRoleConfig
+2016-09-08 15:57:40:182  INFO SYSTEM:main - register bean name=fire.pb.role.SEquipEffectConfig
+2016-09-08 15:57:40:197  INFO SYSTEM:main - register bean name=fire.pb.role.SRoleNameData
+2016-09-08 15:57:40:197  INFO SYSTEM:main - register bean name=fire.pb.role.SRoleRColorConfig
+2016-09-08 15:57:40:197  INFO SYSTEM:main - register bean name=fire.pb.role.SRoleSymbolRepository
+2016-09-08 15:57:40:197  INFO SYSTEM:main - register bean name=fire.pb.role.SServerMaxLevelConfig
+2016-09-08 15:57:40:197  INFO SYSTEM:main - register bean name=fire.pb.role.SServiceExpConfig
+2016-09-08 15:57:40:197  INFO SYSTEM:main - register bean name=fire.pb.role.SServiceLevelConfig
+2016-09-08 15:57:40:197  INFO SYSTEM:main - register bean name=fire.pb.shop.DMarketFirstTable
+2016-09-08 15:57:40:228  INFO SYSTEM:main - register bean name=fire.pb.shop.DMarketThreeTable
+2016-09-08 15:57:40:228  INFO SYSTEM:main - register bean name=fire.pb.shop.DSGoods
+2016-09-08 15:57:40:228  INFO SYSTEM:main - register bean name=fire.pb.shop.DSMallShop
+2016-09-08 15:57:40:228  INFO SYSTEM:main - register bean name=fire.pb.shop.DSNpcSale
+2016-09-08 15:57:40:228  INFO SYSTEM:main - register bean name=fire.pb.shop.MarketFirstTable
+2016-09-08 15:57:40:260  INFO SYSTEM:main - register bean name=fire.pb.shop.MarketThreeTable
+2016-09-08 15:57:40:260  INFO SYSTEM:main - register bean name=fire.pb.shop.SGoods
+2016-09-08 15:57:40:260  INFO SYSTEM:main - register bean name=fire.pb.shop.SMallShop
+2016-09-08 15:57:40:260  INFO SYSTEM:main - register bean name=fire.pb.shop.SNpcSale
+2016-09-08 15:57:40:275  INFO SYSTEM:main - register bean name=fire.pb.shop.SPetShop
+2016-09-08 15:57:40:275  INFO SYSTEM:main - register bean name=fire.pb.skill.SActionTime
+2016-09-08 15:57:40:275  INFO SYSTEM:main - register bean name=fire.pb.skill.SAssistSkill
+2016-09-08 15:57:40:275  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornConsume
+2016-09-08 15:57:40:291  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornEffectSkill
+2016-09-08 15:57:40:291  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornInfo
+2016-09-08 15:57:40:307  INFO SYSTEM:main - register bean name=fire.pb.skill.SInbornMaxLevel
+2016-09-08 15:57:40:307  INFO SYSTEM:main - register bean name=fire.pb.skill.SLifeSkill
+2016-09-08 15:57:40:307  INFO SYSTEM:main - register bean name=fire.pb.skill.SLifeSkillCost
+2016-09-08 15:57:40:307  INFO SYSTEM:main - register bean name=fire.pb.skill.SNuqiget
+2016-09-08 15:57:40:307  INFO SYSTEM:main - register bean name=fire.pb.skill.SParticeSkillLevelup
+2016-09-08 15:57:40:307  INFO SYSTEM:main - register bean name=fire.pb.skill.SPetSkillitem
+2016-09-08 15:57:40:322  INFO SYSTEM:main - register bean name=fire.pb.skill.SPetSkillupgrade
+2016-09-08 15:57:40:322  INFO SYSTEM:main - register bean name=fire.pb.skill.SPointCardParticeSkillLevelup
+2016-09-08 15:57:40:322  INFO SYSTEM:main - register bean name=fire.pb.skill.SPracticeItemExp
+2016-09-08 15:57:40:322  INFO SYSTEM:main - register bean name=fire.pb.skill.SSceneSkillConfig
+2016-09-08 15:57:40:322  INFO SYSTEM:main - register bean name=fire.pb.skill.SSchoolSkillitem
+2016-09-08 15:57:40:353  INFO SYSTEM:main - register bean name=fire.pb.skill.SSkillConfig
+2016-09-08 15:57:40:353  INFO SYSTEM:main - register bean name=fire.pb.skill.SSkillInfoConfig
+2016-09-08 15:57:40:385  INFO SYSTEM:main - register bean name=fire.pb.skill.SSubSkillConfig
+2016-09-08 15:57:40:400  INFO SYSTEM:main - register bean name=fire.pb.SysConfig.SHotdeployClass
+2016-09-08 15:57:40:400  INFO SYSTEM:main - register bean name=fire.pb.SysConfig.SSysconfig
+2016-09-08 15:57:40:400  INFO SYSTEM:main - register bean name=fire.pb.team.DSTeamMatchInfo
+2016-09-08 15:57:40:400  INFO SYSTEM:main - register bean name=fire.pb.team.SGuangHuanLevelup
+2016-09-08 15:57:40:400  INFO SYSTEM:main - register bean name=fire.pb.team.STeamListInfo
+2016-09-08 15:57:40:400  INFO SYSTEM:main - register bean name=fire.pb.team.STeamMatchInfo
+2016-09-08 15:57:40:400  INFO SYSTEM:main - register bean name=fire.pb.team.SZhenFaeffect
+2016-09-08 15:57:40:416  INFO SYSTEM:main - register bean name=fire.pb.timer.SScheculedActivity
+2016-09-08 15:57:40:416  INFO SYSTEM:main - register bean name=fire.pb.timer.SScheculedActivityDianKa
+2016-09-08 15:57:40:416  INFO SYSTEM:main - register bean name=fire.pb.title.SItemTitleConfig
+2016-09-08 15:57:40:416  INFO SYSTEM:main - register bean name=fire.pb.title.STitleConfig
+2016-09-08 15:57:40:416  INFO SYSTEM:main - register bean name=fire.pb.triggers.STriggerCondition
+2016-09-08 15:57:40:432  INFO SYSTEM:main - register bean name=fire.pb.triggers.STriggerCondition4D
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=activity
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=battle
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=cross
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=forbid
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=fushi
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=game
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=item
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=market
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=message
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=npc
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=operlog
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=robot
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=school
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=serverid
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=skill
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=specialquest
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=sys
+2016-09-08 15:57:40:447  INFO SYSTEM:main - register properties=task
+2016-09-08 15:57:55:539  INFO SYSTEM:main - 将在 28684 秒后开始第一次EndOfDayTask
+2016-09-08 15:57:55:539  INFO SYSTEM:main - 将在 28926 秒后开始第一次BeginOfDayTask
+2016-09-08 15:57:56:571  INFO SYSTEM:mkdb.Worker.scheduled.52 - gametime update.curGameTime:-1gametime:11
+2016-09-08 15:57:56:829  INFO SYSTEM:mkdb.Worker.procedure.26 - Server start clear timeout offline protocol.
+2016-09-08 15:57:58:463  INFO SYSTEM:main - localhttpserver start port : 29300
+2016-09-08 15:57:58:463  INFO SYSTEM:main - Charge Callback Server Thread Start!Listen at 0.0.0.0:8800
+2016-09-08 15:57:58:463  INFO SYSTEM:main - ThreadPool init!initsize:8,maxsize:20,queue:1000
+2016-09-08 15:57:58:526  INFO SYSTEM:main - SERVER OPENED! Current Local Id:2
+2016-09-08 15:57:58:526  INFO SYSTEM:main - Config -usemysql:false
+2016-09-08 15:57:58:526  INFO SYSTEM:main - 是否和合过服的服务器 is merger server = false
+2016-09-08 15:57:58:541  INFO SYSTEM:mkio.Engine.1 - delivery connected
+2016-09-08 15:57:58:573  INFO SYSTEM:mkdb.Worker..27 - plattype:1,serverid:1101961014
+2016-09-08 15:57:58:573  INFO SYSTEM:mkdb.Worker..27 - Gs.isYingyongbao=false
+2016-09-08 15:57:58:573  INFO SYSTEM:mkio.Engine.2 - Onlines start Listen:Mkio/192.168.29.161:37001-/192.168.29.161:37001@Provider

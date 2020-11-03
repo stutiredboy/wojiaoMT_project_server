@@ -1,0 +1,13 @@
+2016-09-09 15:00:21:543  INFO AWARD:mkdb.Worker.procedure.32 - TimingRewardAssistant sendTimingRewardMsg newRewardId:1 newTimeWait:0
+2016-09-09 15:00:32:878  INFO AWARD:mkdb.Worker.procedure.43 - PReg roleid:4097 day:9签到成功.
+2016-09-09 15:00:33:050  INFO AWARD:mkdb.Worker.procedure.43 - PRegReward 签到奖励成功领取  roleid:4097 day:9 rewardId:901
+2016-09-09 15:14:49:813  INFO AWARD:mkdb.Worker.procedure.55 - TimingRewardAssistant sendTimingRewardMsg newRewardId:1 newTimeWait:0
+2016-09-09 15:18:41:699  INFO AWARD:main - 称谓表服务配置表加载完毕。称谓配置文件一共配置称谓 121个
+2016-09-09 15:19:19:617  INFO AWARD:main - 称谓表服务配置表加载完毕。称谓配置文件一共配置称谓 121个
+2016-09-09 15:19:41:691  INFO AWARD:mkdb.Worker.procedure.35 - TimingRewardAssistant sendTimingRewardMsg newRewardId:1 newTimeWait:5000
+2016-09-09 15:20:49:356  INFO AWARD:mkdb.Worker.procedure.53 - 4097 archive 206
+2016-09-09 15:20:49:356  INFO AWARD:mkdb.Worker.procedure.33 - 4097 update 309
+2016-09-09 15:21:25:777  INFO AWARD:mkdb.Worker.procedure.36 - 4097 update 309
+2016-09-09 15:22:17:195  INFO AWARD:mkdb.Worker.procedure.51 - 4097 update 309
+2016-09-09 15:22:30:299  INFO AWARD:mkdb.Worker.procedure.48 - 4097 update 309
+2016-09-09 15:24:40:666  INFO AWARD:mkdb.Worker.procedure.48 - 4097 update 309

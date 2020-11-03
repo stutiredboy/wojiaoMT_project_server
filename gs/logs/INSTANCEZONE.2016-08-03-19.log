@@ -1,0 +1,54 @@
+2016-08-03 18:00:05:591  INFO INSTANCEZONE:mkdb.Worker.scheduled.30 - 刷怪定时器开始:201010,201010,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:00:05:591  INFO INSTANCEZONE:mkdb.Worker.scheduled.29 - 刷怪定时器开始:201003,201003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:00:05:591  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 开始刷新一轮的怪,任务:201010 时间:2016-8-3 18:00:05
+2016-08-03 18:00:05:591  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 开始刷新一轮的怪,任务:201003 时间:2016-8-3 18:00:05
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1616,共刷出npc数量为:7
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1606,共刷出npc数量为:7
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1607,共刷出npc数量为:7
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1611,共刷出npc数量为:7
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:201003,活动类型Id:201,在地图:1606,共刷出npc数量为:15
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:201003,活动类型Id:201,在地图:1610,共刷出npc数量为:15
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:201003,活动类型Id:201,在地图:1612,共刷出npc数量为:15
+2016-08-03 18:00:05:593  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:201003,活动类型Id:201,在地图:1614,共刷出npc数量为:15
+2016-08-03 18:05:00:590  INFO INSTANCEZONE:mkdb.Worker.scheduled.27 - 刷怪定时器开始:234003,234003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:590  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - 刷怪定时器开始:233003,233003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:590  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 开始刷新一轮的怪,任务:234003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:590  INFO INSTANCEZONE:mkdb.Worker.procedure.37 - 开始刷新一轮的怪,任务:233003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:591  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 活动Id:234003,活动类型Id:234,在地图:1614,共刷出npc数量为:6
+2016-08-03 18:05:00:591  INFO INSTANCEZONE:mkdb.Worker.procedure.37 - 活动Id:233003,活动类型Id:233,在地图:1616,共刷出npc数量为:6
+2016-08-03 18:05:00:607  INFO INSTANCEZONE:mkdb.Worker.scheduled.28 - 刷怪定时器开始:232003,232003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:607  INFO INSTANCEZONE:mkdb.Worker.scheduled.29 - 刷怪定时器开始:239003,239003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:607  INFO INSTANCEZONE:mkdb.Worker.procedure.39 - 开始刷新一轮的怪,任务:232003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:607  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 开始刷新一轮的怪,任务:239003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:607  INFO INSTANCEZONE:mkdb.Worker.procedure.39 - 活动Id:232003,活动类型Id:232,在地图:1616,共刷出npc数量为:6
+2016-08-03 18:05:00:607  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:239003,活动类型Id:239,在地图:1609,共刷出npc数量为:6
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.scheduled.30 - 刷怪定时器开始:238003,238003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.scheduled.27 - 刷怪定时器开始:237003,237003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - 刷怪定时器开始:236003,236003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 开始刷新一轮的怪,任务:238003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.procedure.54 - 开始刷新一轮的怪,任务:237003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 开始刷新一轮的怪,任务:236003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 活动Id:238003,活动类型Id:238,在地图:1610,共刷出npc数量为:6
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.procedure.54 - 活动Id:237003,活动类型Id:237,在地图:1607,共刷出npc数量为:6
+2016-08-03 18:05:00:623  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:236003,活动类型Id:236,在地图:1605,共刷出npc数量为:6
+2016-08-03 18:05:00:670  INFO INSTANCEZONE:mkdb.Worker.scheduled.29 - 刷怪定时器开始:235003,235003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 18:05:00:670  INFO INSTANCEZONE:mkdb.Worker.procedure.40 - 开始刷新一轮的怪,任务:235003 时间:2016-8-3 18:05:00
+2016-08-03 18:05:00:670  INFO INSTANCEZONE:mkdb.Worker.procedure.40 - 活动Id:235003,活动类型Id:235,在地图:1606,共刷出npc数量为:6
+2016-08-03 18:10:00:611  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - 刷怪定时器开始:200003,200003,间隔时间:1200,是否触发时间随机:0
+2016-08-03 18:10:00:611  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 开始刷新一轮的怪,任务:200003 时间:2016-8-3 18:10:00
+2016-08-03 18:10:00:612  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1605,共刷出npc数量为:10
+2016-08-03 18:10:00:612  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1608,共刷出npc数量为:10
+2016-08-03 18:10:00:612  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1609,共刷出npc数量为:10
+2016-08-03 18:10:10:612  INFO INSTANCEZONE:mkdb.Worker.procedure.49 - 结束补怪任务:200003 时间:2016-8-3 18:10:10
+2016-08-03 18:30:00:606  INFO INSTANCEZONE:mkdb.Worker.scheduled.28 - 刷怪定时器开始:200003,200003,间隔时间:1200,是否触发时间随机:0
+2016-08-03 18:30:00:606  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 开始刷新一轮的怪,任务:200003 时间:2016-8-3 18:30:00
+2016-08-03 18:30:00:607  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1605,共刷出npc数量为:10
+2016-08-03 18:30:00:607  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1608,共刷出npc数量为:10
+2016-08-03 18:30:00:607  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1609,共刷出npc数量为:10
+2016-08-03 18:30:10:623  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 结束补怪任务:200003 时间:2016-8-3 18:30:10
+2016-08-03 18:50:00:607  INFO INSTANCEZONE:mkdb.Worker.scheduled.29 - 刷怪定时器开始:200003,200003,间隔时间:1200,是否触发时间随机:0
+2016-08-03 18:50:00:608  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 开始刷新一轮的怪,任务:200003 时间:2016-8-3 18:50:00
+2016-08-03 18:50:00:609  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1605,共刷出npc数量为:10
+2016-08-03 18:50:00:609  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1608,共刷出npc数量为:10
+2016-08-03 18:50:00:609  INFO INSTANCEZONE:mkdb.Worker.procedure.56 - 活动Id:200003,活动类型Id:200,在地图:1609,共刷出npc数量为:10
+2016-08-03 18:50:10:609  INFO INSTANCEZONE:mkdb.Worker.procedure.40 - 结束补怪任务:200003 时间:2016-8-3 18:50:10

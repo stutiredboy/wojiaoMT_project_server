@@ -1,0 +1,45 @@
+2016-08-03 20:02:18:955  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:11gametime:0
+2016-08-03 20:04:48:956  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:0gametime:1
+2016-08-03 20:07:18:959  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:1gametime:2
+2016-08-03 20:09:48:960  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:2gametime:3
+2016-08-03 20:12:18:954  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:3gametime:4
+2016-08-03 20:14:48:946  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:4gametime:5
+2016-08-03 20:17:18:956  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:5gametime:6
+2016-08-03 20:19:48:960  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:6gametime:7
+2016-08-03 20:22:18:946  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:7gametime:8
+2016-08-03 20:24:48:946  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:8gametime:9
+2016-08-03 20:27:18:955  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:9gametime:10
+2016-08-03 20:29:48:953  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:10gametime:11
+2016-08-03 20:32:18:949  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:11gametime:0
+2016-08-03 20:34:48:956  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:0gametime:1
+2016-08-03 20:37:18:949  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:1gametime:2
+2016-08-03 20:39:48:951  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:2gametime:3
+2016-08-03 20:41:25:589  INFO SYSTEM:mkdb.Worker.procedure.55 - PRoleLockScreen roleid:4097
+2016-08-03 20:41:38:632 ERROR SYSTEM:mkdb.Worker..48 - RoleLinkBrokenHanle.onLinkBroken,角色[4097]意外断开,原因=1
+2016-08-03 20:41:38:634 ERROR SYSTEM:mkdb.Worker..48 - userid=22 Onlines offline 
+2016-08-03 20:41:38:853  INFO SYSTEM:mkdb.Worker.procedure.56 - roleId=4097 角色进入状态：class fire.pb.state.PreTrusteeShipState
+2016-08-03 20:41:38:869  INFO SYSTEM:mkdb.Worker.procedure.56 - roleId=4097 角色进入状态：class fire.pb.state.TrusteeShipState
+2016-08-03 20:41:38:869  INFO SYSTEM:mkdb.Worker.procedure.56 - roleId=4097 客户端被动断线 :2
+2016-08-03 20:42:18:957  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:3gametime:4
+2016-08-03 20:44:48:951  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:4gametime:5
+2016-08-03 20:45:52:508  INFO SYSTEM:mkdb.Worker.procedure.42 - UserInfoRep:,userid:22,func:0,username:haimo1,plattype:ljpl,blisgm:0,loginip:958441664
+2016-08-03 20:45:52:525  INFO SYSTEM:mkdb.Worker..45 - userID=22 CRoleList
+2016-08-03 20:45:52:525 ERROR SYSTEM:mkdb.Worker..45 - User登录 UserId = 22 linksid= 4920
+2016-08-03 20:45:52:916  INFO SYSTEM:EnterWorldThread - roleid=4097 开始进入世界
+2016-08-03 20:45:52:916 ERROR SYSTEM:EnterWorldThread - roleId=4097 insert linksid = 4920 userid=22
+2016-08-03 20:45:52:916 ERROR SYSTEM:EnterWorldThread - roleid=4097 CEnterWorld: 已经加入。
+2016-08-03 20:45:52:916  INFO SYSTEM:mkdb.Worker.procedure.41 - roleId=4097 角色开始登录：帐号userId = 22class fire.pb.state.PRoleOnline
+2016-08-03 20:45:52:994  INFO SYSTEM:mkdb.Worker.procedure.41 - roleId=4097 角色进入状态：class fire.pb.state.BreakTrusteeShipState
+2016-08-03 20:45:52:994  INFO SYSTEM:mkdb.Worker.procedure.41 - Begin sendEnterWorld roleId=4097,class fire.pb.state.BreakTrusteeShipState
+2016-08-03 20:45:52:994  INFO SYSTEM:mkdb.Worker.procedure.41 - End sendEnterWorld roleId=4097,class fire.pb.state.BreakTrusteeShipState
+2016-08-03 20:45:52:994  INFO SYSTEM:mkdb.Worker.procedure.41 - roleId=4097 角色进入状态：class fire.pb.state.EntryState
+2016-08-03 20:45:52:994  INFO SYSTEM:mkdb.Worker.procedure.41 - roleId=4097 帐号userId = 22上线成功。
+2016-08-03 20:47:18:948  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:5gametime:6
+2016-08-03 20:49:14:514  INFO SYSTEM:mkdb.Worker.procedure.41 - roleId=4097 角色进入状态：class fire.pb.state.PreTrusteeShipState
+2016-08-03 20:49:14:514  INFO SYSTEM:mkdb.Worker.procedure.41 - roleId=4097 角色进入状态：class fire.pb.state.TrusteeShipState
+2016-08-03 20:49:14:514  INFO SYSTEM:mkdb.Worker.procedure.41 - roleId=4097 客户端请求返回登陆界面 
+2016-08-03 20:49:48:958  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:6gametime:7
+2016-08-03 20:52:18:950  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:7gametime:8
+2016-08-03 20:54:48:947  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:8gametime:9
+2016-08-03 20:57:18:960  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:9gametime:10
+2016-08-03 20:59:48:957  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:10gametime:11

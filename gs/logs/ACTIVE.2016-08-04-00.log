@@ -1,0 +1,34 @@
+2016-08-03 23:59:59:372  INFO ACTIVE:mkdb.Worker.scheduled.29 - try to end activity.activity id:213003
+2016-08-03 23:59:59:373  INFO ACTIVE:mkdb.Worker.scheduled.29 - activity ended.activity id:213003
+2016-08-03 23:59:59:390  INFO ACTIVE:mkdb.Worker.scheduled.27 - try to end activity.activity id:202003
+2016-08-03 23:59:59:406  INFO ACTIVE:mkdb.Worker.scheduled.24 - try to end activity.activity id:201003
+2016-08-03 23:59:59:406  INFO ACTIVE:mkdb.Worker.scheduled.28 - try to end activity.activity id:234003
+2016-08-03 23:59:59:406  INFO ACTIVE:mkdb.Worker.scheduled.30 - try to end activity.activity id:233003
+2016-08-03 23:59:59:406  INFO ACTIVE:mkdb.Worker.scheduled.29 - try to end activity.activity id:201010
+2016-08-03 23:59:59:406  INFO ACTIVE:mkdb.Worker.scheduled.27 - try to end activity.activity id:200003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.28 - activity ended.activity id:234003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.29 - activity ended.activity id:201010
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.28 - try to end activity.activity id:232003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.29 - try to end activity.activity id:231003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.30 - activity ended.activity id:233003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.24 - activity ended.activity id:201003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.27 - activity ended.activity id:200003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.28 - activity ended.activity id:232003
+2016-08-03 23:59:59:422  INFO ACTIVE:mkdb.Worker.scheduled.29 - activity ended.activity id:231003
+2016-08-03 23:59:59:437  INFO ACTIVE:mkdb.Worker.scheduled.30 - try to end activity.activity id:230003
+2016-08-03 23:59:59:437  INFO ACTIVE:mkdb.Worker.scheduled.30 - activity ended.activity id:230003
+2016-08-03 23:59:59:453  INFO ACTIVE:mkdb.Worker.scheduled.24 - try to end activity.activity id:239003
+2016-08-03 23:59:59:453  INFO ACTIVE:mkdb.Worker.scheduled.24 - activity ended.activity id:239003
+2016-08-03 23:59:59:484  INFO ACTIVE:mkdb.Worker.scheduled.27 - try to end activity.activity id:238003
+2016-08-03 23:59:59:484  INFO ACTIVE:mkdb.Worker.scheduled.27 - activity ended.activity id:238003
+2016-08-03 23:59:59:515  INFO ACTIVE:mkdb.Worker.scheduled.24 - try to end activity.activity id:204003
+2016-08-03 23:59:59:515  INFO ACTIVE:mkdb.Worker.scheduled.30 - try to end activity.activity id:237003
+2016-08-03 23:59:59:515  INFO ACTIVE:mkdb.Worker.scheduled.27 - try to end activity.activity id:236003
+2016-08-03 23:59:59:515  INFO ACTIVE:mkdb.Worker.scheduled.29 - try to end activity.activity id:205003
+2016-08-03 23:59:59:515  INFO ACTIVE:mkdb.Worker.scheduled.30 - activity ended.activity id:237003
+2016-08-03 23:59:59:515  INFO ACTIVE:mkdb.Worker.scheduled.27 - activity ended.activity id:236003
+2016-08-03 23:59:59:531  INFO ACTIVE:mkdb.Worker.scheduled.28 - try to end activity.activity id:214003
+2016-08-03 23:59:59:531  INFO ACTIVE:mkdb.Worker.scheduled.24 - try to end activity.activity id:203003
+2016-08-03 23:59:59:531  INFO ACTIVE:mkdb.Worker.scheduled.30 - try to end activity.activity id:235003
+2016-08-03 23:59:59:531  INFO ACTIVE:mkdb.Worker.scheduled.28 - activity ended.activity id:214003
+2016-08-03 23:59:59:531  INFO ACTIVE:mkdb.Worker.scheduled.30 - activity ended.activity id:235003

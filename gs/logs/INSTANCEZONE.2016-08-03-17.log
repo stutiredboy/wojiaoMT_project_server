@@ -1,0 +1,129 @@
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - 开始刷怪201003 201
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - now time:1470212845872 real start time:1470153605872 actid:201003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - delay time3:1960000 actid:201003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 开始刷怪201010 201
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - now time:1470212845872 real start time:1470153605872 actid:201010
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - delay time3:1960000 actid:201010
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - 开始刷怪233003 233
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - now time:1470212845872 real start time:1470153900872 actid:233003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - 开始刷怪234003 234
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - delay time3:2255000 actid:233003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - now time:1470212845872 real start time:1470153900872 actid:234003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - delay time3:2255000 actid:234003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - 开始刷怪200003 200
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - now time:1470212845872 real start time:1470154200872 actid:200003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - delay time3:155000 actid:200003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - 开始刷怪230003 230
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - now time:1470212845872 real start time:1470153900872 actid:230003
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 开始刷怪232003 232
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - 开始刷怪231003 231
+2016-08-03 16:27:25:872  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - 开始刷怪239003 239
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - now time:1470212845872 real start time:1470153900872 actid:239003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - delay time3:2255000 actid:239003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - 开始刷怪238003 238
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - now time:1470212845887 real start time:1470153900887 actid:231003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - now time:1470212845887 real start time:1470153900887 actid:238003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - now time:1470212845887 real start time:1470153900887 actid:232003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - delay time3:2255000 actid:232003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - 开始刷怪236003 236
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 开始刷怪235003 235
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - now time:1470212845887 real start time:1470153900887 actid:236003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - now time:1470212845887 real start time:1470153900887 actid:235003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - 开始刷怪237003 237
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - delay time3:2255000 actid:235003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - delay time3:2255000 actid:238003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - now time:1470212845887 real start time:1470153900887 actid:237003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - delay time3:2255000 actid:237003
+2016-08-03 16:27:25:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - delay time3:2255000 actid:236003
+2016-08-03 16:27:26:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.51 - 刷怪定时器开始:233003,233003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - 刷怪定时器开始:234003,234003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - 刷怪定时器开始:200003,200003,间隔时间:1200,是否触发时间随机:0
+2016-08-03 16:27:26:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - 刷怪定时器开始:201010,201010,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:887  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 刷怪定时器开始:201003,201003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:889  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 刷怪定时器开始:230003,230003,间隔时间:0,是否触发时间随机:0
+2016-08-03 16:27:26:889  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - 刷怪定时器开始:239003,239003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:890  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - 刷怪定时器开始:231003,231003,间隔时间:0,是否触发时间随机:0
+2016-08-03 16:27:26:890  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 刷怪定时器开始:238003,238003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:890  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 刷怪定时器开始:232003,232003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:890  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 刷怪定时器开始:236003,236003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 刷怪定时器开始:235003,235003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - 刷怪定时器开始:237003,237003,间隔时间:3600,是否触发时间随机:0
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.procedure.31 - 开始刷新一轮的怪,任务:200003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.procedure.34 - 开始刷新一轮的怪,任务:201003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.procedure.25 - 开始刷新一轮的怪,任务:234003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 开始刷新一轮的怪,任务:233003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 开始刷新一轮的怪,任务:201010 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.procedure.39 - 开始刷新一轮的怪,任务:239003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:891  INFO INSTANCEZONE:mkdb.Worker.procedure.31 - 活动Id:200003,活动类型Id:200,在地图:1605,共刷出npc数量为:10
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.38 - 开始刷新一轮的怪,任务:230003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.38 - 活动Id:230003,活动类型Id:230,在地图:1616,共刷出npc数量为:8
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.43 - 开始刷新一轮的怪,任务:231003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.43 - 活动Id:231003,活动类型Id:231,在地图:1605,共刷出npc数量为:8
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.39 - 活动Id:239003,活动类型Id:239,在地图:1609,共刷出npc数量为:6
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 开始刷新一轮的怪,任务:238003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 活动Id:238003,活动类型Id:238,在地图:1610,共刷出npc数量为:6
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.32 - 开始刷新一轮的怪,任务:232003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.30 - 开始刷新一轮的怪,任务:236003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.32 - 活动Id:232003,活动类型Id:232,在地图:1616,共刷出npc数量为:6
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.30 - 活动Id:236003,活动类型Id:236,在地图:1605,共刷出npc数量为:6
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.25 - 活动Id:234003,活动类型Id:234,在地图:1614,共刷出npc数量为:6
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.37 - 开始刷新一轮的怪,任务:235003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.37 - 活动Id:235003,活动类型Id:235,在地图:1606,共刷出npc数量为:6
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.34 - 活动Id:201003,活动类型Id:201,在地图:1616,共刷出npc数量为:15
+2016-08-03 16:27:26:906  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 开始刷新一轮的怪,任务:237003 时间:2016-8-3 16:27:26
+2016-08-03 16:27:26:922  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 活动Id:237003,活动类型Id:237,在地图:1607,共刷出npc数量为:6
+2016-08-03 16:27:26:922  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1616,共刷出npc数量为:7
+2016-08-03 16:27:26:922  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 活动Id:233003,活动类型Id:233,在地图:1616,共刷出npc数量为:6
+2016-08-03 16:27:26:922  INFO INSTANCEZONE:mkdb.Worker.procedure.43 - 活动Id:231003,活动类型Id:231,在地图:1608,共刷出npc数量为:8
+2016-08-03 16:27:26:922  INFO INSTANCEZONE:mkdb.Worker.procedure.43 - 活动Id:231003,活动类型Id:231,在地图:1609,共刷出npc数量为:8
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.38 - 活动Id:230003,活动类型Id:230,在地图:1614,共刷出npc数量为:8
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.38 - 活动Id:230003,活动类型Id:230,在地图:1615,共刷出npc数量为:8
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.34 - 活动Id:201003,活动类型Id:201,在地图:1606,共刷出npc数量为:15
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.34 - 活动Id:201003,活动类型Id:201,在地图:1610,共刷出npc数量为:15
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.34 - 活动Id:201003,活动类型Id:201,在地图:1612,共刷出npc数量为:15
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.31 - 活动Id:200003,活动类型Id:200,在地图:1608,共刷出npc数量为:10
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.31 - 活动Id:200003,活动类型Id:200,在地图:1609,共刷出npc数量为:10
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1607,共刷出npc数量为:7
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1612,共刷出npc数量为:7
+2016-08-03 16:27:26:938  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 活动Id:201010,活动类型Id:201,在地图:1614,共刷出npc数量为:7
+2016-08-03 16:28:25:894  INFO INSTANCEZONE:mkdb.Worker.scheduled.24 - 刷怪定时器开始:231003,231003,间隔时间:0,是否触发时间随机:0
+2016-08-03 16:28:25:894  INFO INSTANCEZONE:mkdb.Worker.scheduled.21 - 刷怪定时器开始:230003,230003,间隔时间:0,是否触发时间随机:0
+2016-08-03 16:28:25:894  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 开始刷新一轮的怪,任务:231003 时间:2016-8-3 16:28:25
+2016-08-03 16:28:25:894  INFO INSTANCEZONE:mkdb.Worker.procedure.49 - 开始刷新一轮的怪,任务:230003 时间:2016-8-3 16:28:25
+2016-08-03 16:28:25:896  INFO INSTANCEZONE:mkdb.Worker.procedure.49 - 活动Id:230003,活动类型Id:230,在地图:1616,共刷出npc数量为:8
+2016-08-03 16:28:25:896  INFO INSTANCEZONE:mkdb.Worker.procedure.49 - 活动Id:230003,活动类型Id:230,在地图:1614,共刷出npc数量为:8
+2016-08-03 16:28:25:896  INFO INSTANCEZONE:mkdb.Worker.procedure.49 - 活动Id:230003,活动类型Id:230,在地图:1615,共刷出npc数量为:8
+2016-08-03 16:28:25:896  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 活动Id:231003,活动类型Id:231,在地图:1605,共刷出npc数量为:8
+2016-08-03 16:28:25:896  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 活动Id:231003,活动类型Id:231,在地图:1608,共刷出npc数量为:8
+2016-08-03 16:28:25:896  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 活动Id:231003,活动类型Id:231,在地图:1609,共刷出npc数量为:8
+2016-08-03 16:28:26:958  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 开始补怪,任务:200003 时间:2016-8-3 16:28:26
+2016-08-03 16:29:26:960  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 开始补怪,任务:200003 时间:2016-8-3 16:29:26
+2016-08-03 16:30:00:888  INFO INSTANCEZONE:mkdb.Worker.scheduled.52 - 刷怪定时器开始:200003,200003,间隔时间:1200,是否触发时间随机:0
+2016-08-03 16:30:00:888  INFO INSTANCEZONE:mkdb.Worker.procedure.32 - 开始刷新一轮的怪,任务:200003 时间:2016-8-3 16:30:00
+2016-08-03 16:30:00:890  INFO INSTANCEZONE:mkdb.Worker.procedure.32 - 活动Id:200003,活动类型Id:200,在地图:1605,共刷出npc数量为:10
+2016-08-03 16:30:00:890  INFO INSTANCEZONE:mkdb.Worker.procedure.32 - 活动Id:200003,活动类型Id:200,在地图:1608,共刷出npc数量为:10
+2016-08-03 16:30:00:890  INFO INSTANCEZONE:mkdb.Worker.procedure.32 - 活动Id:200003,活动类型Id:200,在地图:1609,共刷出npc数量为:10
+2016-08-03 16:31:00:908  INFO INSTANCEZONE:mkdb.Worker.procedure.47 - 开始补怪,任务:200003 时间:2016-8-3 16:31:00
+2016-08-03 16:32:00:898  INFO INSTANCEZONE:mkdb.Worker.procedure.45 - 开始补怪,任务:200003 时间:2016-8-3 16:32:00
+2016-08-03 16:33:00:906  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 开始补怪,任务:200003 时间:2016-8-3 16:33:00
+2016-08-03 16:34:00:898  INFO INSTANCEZONE:mkdb.Worker.procedure.39 - 开始补怪,任务:200003 时间:2016-8-3 16:34:00
+2016-08-03 16:35:00:903  INFO INSTANCEZONE:mkdb.Worker.procedure.31 - 开始补怪,任务:200003 时间:2016-8-3 16:35:00
+2016-08-03 16:36:00:906  INFO INSTANCEZONE:mkdb.Worker.procedure.38 - 开始补怪,任务:200003 时间:2016-8-3 16:36:00
+2016-08-03 16:37:00:905  INFO INSTANCEZONE:mkdb.Worker.procedure.43 - 开始补怪,任务:200003 时间:2016-8-3 16:37:00
+2016-08-03 16:38:00:897  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 开始补怪,任务:200003 时间:2016-8-3 16:38:00
+2016-08-03 16:39:00:902  INFO INSTANCEZONE:mkdb.Worker.procedure.26 - 开始补怪,任务:200003 时间:2016-8-3 16:39:00
+2016-08-03 16:40:00:896  INFO INSTANCEZONE:mkdb.Worker.procedure.38 - 开始补怪,任务:200003 时间:2016-8-3 16:40:00
+2016-08-03 16:41:00:901  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 开始补怪,任务:200003 时间:2016-8-3 16:41:00
+2016-08-03 16:42:00:906  INFO INSTANCEZONE:mkdb.Worker.procedure.44 - 开始补怪,任务:200003 时间:2016-8-3 16:42:00
+2016-08-03 16:43:00:898  INFO INSTANCEZONE:mkdb.Worker.procedure.45 - 开始补怪,任务:200003 时间:2016-8-3 16:43:00
+2016-08-03 16:44:00:909  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 开始补怪,任务:200003 时间:2016-8-3 16:44:00
+2016-08-03 16:45:00:908  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 开始补怪,任务:200003 时间:2016-8-3 16:45:00
+2016-08-03 16:46:00:903  INFO INSTANCEZONE:mkdb.Worker.procedure.25 - 开始补怪,任务:200003 时间:2016-8-3 16:46:00
+2016-08-03 16:47:00:910  INFO INSTANCEZONE:mkdb.Worker.procedure.46 - 开始补怪,任务:200003 时间:2016-8-3 16:47:00
+2016-08-03 16:47:36:955  INFO INSTANCEZONE:mkdb.Worker.procedure.50 - 结束补怪任务:200003 时间:2016-8-3 16:47:36
+2016-08-03 16:50:00:896  INFO INSTANCEZONE:mkdb.Worker.scheduled.58 - 刷怪定时器开始:200003,200003,间隔时间:1200,是否触发时间随机:0
+2016-08-03 16:50:00:897  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 开始刷新一轮的怪,任务:200003 时间:2016-8-3 16:50:00
+2016-08-03 16:50:00:898  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 活动Id:200003,活动类型Id:200,在地图:1605,共刷出npc数量为:10
+2016-08-03 16:50:00:898  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 活动Id:200003,活动类型Id:200,在地图:1608,共刷出npc数量为:10
+2016-08-03 16:50:00:898  INFO INSTANCEZONE:mkdb.Worker.procedure.48 - 活动Id:200003,活动类型Id:200,在地图:1609,共刷出npc数量为:10
+2016-08-03 16:50:10:897  INFO INSTANCEZONE:mkdb.Worker.procedure.36 - 结束补怪任务:200003 时间:2016-8-3 16:50:10

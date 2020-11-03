@@ -1,0 +1,6 @@
+2016-08-03 16:27:24:982  INFO RECHARGE:mkdb.Worker.procedure.32 - 乐动TCP方式直接回调!
+2016-08-03 16:27:25:638  INFO RECHARGE:ChargeCBServer - 充值Callback Server listen at 0.0.0.0:8800
+2016-08-03 16:45:43:516 ERROR RECHARGE:mkdb.Worker..42 - CReqChargeRefundsInfo.等级不足,不返还!userid:22,roleid:4097
+2016-08-03 16:50:18:038  INFO RECHARGE:mkdb.Worker.procedure.32 - PReceiveDataFromAuany.qtype:9002,user:22
+2016-08-03 16:50:18:038  INFO RECHARGE:mkdb.Worker.procedure.32 - PReceiveDataFromAuany.user:22,role:4097,info:0#
+2016-08-03 16:50:18:038  INFO RECHARGE:mkdb.Worker.procedure.32 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097

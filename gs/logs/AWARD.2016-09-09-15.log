@@ -1,0 +1,6 @@
+2016-09-09 14:46:45:044  INFO AWARD:main - 称谓表服务配置表加载完毕。称谓配置文件一共配置称谓 121个
+2016-09-09 14:47:29:271  INFO AWARD:mkdb.Worker.procedure.33 - TimingRewardAssistant sendTimingRewardMsg newRewardId:1 newTimeWait:5000
+2016-09-09 14:56:26:590  INFO AWARD:main - 称谓表服务配置表加载完毕。称谓配置文件一共配置称谓 121个
+2016-09-09 14:58:16:941  INFO AWARD:mkdb.Worker.procedure.52 - 4097 archive 206
+2016-09-09 14:58:16:973  INFO AWARD:mkdb.Worker.procedure.51 - 4097 update 309
+2016-09-09 14:59:51:219  INFO AWARD:main - 称谓表服务配置表加载完毕。称谓配置文件一共配置称谓 121个
