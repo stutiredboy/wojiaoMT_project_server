@@ -1,6 +1,6 @@
 
 package fire.pb.school.change;
-
+import org.apache.log4j.Logger;
 // {{{ RPCGEN_IMPORT_BEGIN
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
@@ -12,12 +12,13 @@ abstract class __CChangeWeapon__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CChangeWeapon extends __CChangeWeapon__ {
+	public static final Logger logger = Logger.getLogger("TASK");
 	@Override
 	protected void process() {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		
+		logger.error("------------------------------00000-----------------------------------");
 		new PChangeWeapon(roleId, srcweaponkey, newweapontypeid).submit();
 	}
 

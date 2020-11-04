@@ -5,15 +5,17 @@ package fire.pb.item;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-
+import org.apache.log4j.Logger;
 abstract class __CListPack__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 
 public class CListPack extends __CListPack__ {
+	public static final Logger logger = Logger.getLogger("TASK");
 	@Override
 	protected void process() {
+		logger.error("------------------------------00000-----------------------------------");
 		final long roleId=gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleId<0) return;
 		if (packid != BagTypes.BAG && packid != BagTypes.DEPOT && packid != BagTypes.QUEST)
