@@ -1,1 +1,0 @@
-java -jar E:\WorkRep\MT3\server\tools\bin\calccap.jar mkcap -mkdb gsx.mkdb.xml -mkbean gs.jar

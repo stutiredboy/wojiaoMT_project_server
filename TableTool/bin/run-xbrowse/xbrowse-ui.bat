@@ -1,1 +1,0 @@
-java -jar xbrowse.jar
