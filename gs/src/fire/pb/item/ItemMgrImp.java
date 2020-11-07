@@ -546,6 +546,7 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 			item.packid = packid;
 			item.roleid = roleId;
 			item.keyinpack = key;
+			Module.logger.debug("----------------------生成" + itemclassname + "物品对象"+"背包ID"+packid+"角色ID"+roleId+"key"+key);
 			return item;
 		} catch (Exception e) {
 			mkdb.Trace.error("生成物品" + itemid + "出错:" + e.toString());
