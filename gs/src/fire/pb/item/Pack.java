@@ -226,6 +226,7 @@ public class Pack extends ItemMaps {
 		}
 		fire.pb.event.Poster.getPoster().dispatchEvent(
 				new fire.pb.event.BagItemChange(roleId, itemid));
+		Module.logger.debug("----------------------生成  " + itemid + "物品对象"+"数量 "+num+"原因 "+reason+"ID "+xiangguanid);		
 		return added;
 	}
 
