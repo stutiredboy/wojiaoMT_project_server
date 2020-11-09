@@ -52,6 +52,7 @@ import fire.pb.school.SchoolConst;
 import fire.pb.skill.BuffUnit;
 import fire.pb.skill.Result;
 import fire.pb.skill.SkillAgent;
+import fire.pb.skill.SkillRole;
 import fire.pb.skill.SkillConstant;
 import fire.pb.skill.SubSkillConfig;
 import fire.pb.skill.fight.FightSkillConfig;
@@ -1005,6 +1006,12 @@ public class PNewBattle extends Procedure {
 				break;
 			}
 		} */
+		Map<Integer, Integer> sextskill = new HashMap<Integer, Integer>();	
+		PropRole prole = new PropRole(hostRoleID, false);
+		SkillRole srole = new SkillRole(hostRoleID);
+		sextskill.put(180003, 1);
+		srole.addExtSkillWithSP(sextskill);
+		BattleField.logger.error("------------------------战斗开始，添加一个技能---------"+hostRoleID+"-----"+sextskill+"---------------------------------");
 		//如果是生死战，发送观战连接
 		if(battle.getBattletype() == BattleType.BATTLE_LIVEDIE){
 			//发送链接

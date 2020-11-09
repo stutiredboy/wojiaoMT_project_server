@@ -19,6 +19,9 @@ import fire.pb.shop.srv.floating.FloatingOneManager;
 import fire.pb.talk.MessageMgr;
 import fire.pb.item.STaozhuangEffect;
 import fire.pb.item.STaozhuangEffectConfig;
+import fire.pb.item.EquipItemShuXing;
+import java.util.Map;
+import java.util.Random;
 
 public class PChangeGem extends Procedure {
 	private static Logger logger = Logger.getLogger("ITEM");
@@ -61,7 +64,7 @@ public class PChangeGem extends Procedure {
 		}
 
 		EquipItem oldWeapon = ((EquipItem) oldWeaponIB);
-				
+		EquipItemShuXing attr = oldWeapon.getItemAttr();		
 		// 是否拍卖中
 		if ((oldWeaponIB.getFlags() & fire.pb.Item.ONSTALL) != 0) {
 			logger.error("拍卖的套装无法使用点化功能");
@@ -79,6 +82,7 @@ public class PChangeGem extends Procedure {
 		int usedNum = bagContainer.removeItemById(xilianshiId, needItemNum, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shenshoucost, xilianshiId,
 					"点化套装");
 		if (usedNum != needItemNum) {
+			logger.error("角色id " + roleId + "点化套装" + "扣除洗练石失败");
 			return false;
 		}
 		// 扣钱
@@ -88,6 +92,13 @@ public class PChangeGem extends Procedure {
 			return false;
 		}
 
+		// 设置套装效果
+		Integer[] keys = DIANHUANSHICFG_CFGS.keySet().toArray(new Integer[0]);
+		Random random = new Random();
+		Integer randomKey = keys[random.nextInt(keys.length)];
+		STaozhuangEffectConfig randomValue = DIANHUANSHICFG_CFGS.get(randomKey);
+		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomValue.id);
+		attr.setSuiting(effect.id);
 		// 是否珍品检测
 		int score = fire.pb.item.Module.getInstance().getEquipScore(oldWeapon);
 		oldWeapon.getEquipAttr().setEquipscore(score);

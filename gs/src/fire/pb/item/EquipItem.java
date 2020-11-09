@@ -15,6 +15,7 @@ import fire.pb.buff.continual.ConstantlyBuffConfig;
 import fire.pb.item.equip.WeaponItem;
 import fire.pb.skill.SkillConstant;
 import fire.pb.util.RolePropConf;
+import org.apache.log4j.Logger;
 
 import com.locojoy.base.Octets;
 import com.locojoy.base.Marshal.OctetsStream;
@@ -25,7 +26,7 @@ public abstract class EquipItem extends ItemBase {
 	}
 
 	private xbean.Equip equipAttr;
-
+	private static Logger logger = Logger.getLogger("ITEM");
 	public EquipItem(ItemMgr im, int itemid) {
 		super(im, itemid);
 		equipAttr = xbean.Pod.newEquip();
@@ -242,7 +243,8 @@ public abstract class EquipItem extends ItemBase {
 
 			os.marshal(equipAttr.getSkill());
 			os.marshal(equipAttr.getEffect());
-
+			
+			
 			// 镶嵌宝石
 			int diamondNum = equipAttr.getDiamonds().size();
 			os.marshal(diamondNum);
@@ -284,6 +286,8 @@ public abstract class EquipItem extends ItemBase {
 				os.marshal(e.getValue().getEnhancementtime()); // 写入附魔结束时间 by
 																// changhao
 			}
+			os.marshal(getItemAttr().getSuiting());
+			logger.error("-----------------套装属性ID："+getItemAttr().getSuiting());
 		}
 		return os;
 	}
