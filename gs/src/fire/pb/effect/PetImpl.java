@@ -362,7 +362,7 @@ public class PetImpl extends AttrCalcRole
 
 		int oldsize = pet.getSize();
 		pet.setExp(pet.getExp()-nexp);
-		pet.setLevel((short)(pet.getLevel() + 1));
+		pet.setLevel((short)(pet.getLevel() + 1));   
 		pet.setPoint(pet.getPoint() + DataInit.PET_UP_LEVEL_ADD_POINT);
 			
 		pet.getBfp().setAgi(pet.getBfp().getAgi() + 1);
