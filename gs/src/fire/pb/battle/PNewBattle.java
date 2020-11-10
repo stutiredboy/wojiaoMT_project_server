@@ -1008,7 +1008,7 @@ public class PNewBattle extends Procedure {
 		} */
 		Map<Integer, Integer> sextskill = new HashMap<Integer, Integer>();	
 		SkillRole srole = new SkillRole(hostRoleID);
-		sextskill.put(180017, 1);
+		sextskill.put(161003, 1);
 		srole.addExtSkillWithSP(sextskill);
 		BattleField.logger.error("------------------------战斗开始，添加一个技能---------"+hostRoleID+"-----"+sextskill+"---------------------------------");
 		//如果是生死战，发送观战连接

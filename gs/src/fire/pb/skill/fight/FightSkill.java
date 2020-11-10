@@ -1063,6 +1063,7 @@ public class FightSkill
 					aimfighter = mainAimFighters.get(0);
 					aim = aimfighter.getFighterId();
 				}
+				BattleField.logger.error("------技能ID："+skillId+"----------技能目标数量："+mainAimFighters.size());	
 				battle.getEngine().setSkillTargetNum(mainAimFighters.size());
 				return true;
 			} else
@@ -1568,7 +1569,8 @@ public class FightSkill
 				fighterlist.getFighterIDs().clear();
 		}
 		subSkillindex = 0;		
-		if (BattleField.logger.isDebugEnabled()) {BattleField.logger.debug("getaimcount = ："+nFighterIDs.toString());}		
+		if (BattleField.logger.isDebugEnabled()) {BattleField.logger.debug("getaimcount = ："+nFighterIDs.toString());}
+			
 		return nFighterIDs.size();		
 	}
 	//技能计算处理
