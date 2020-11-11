@@ -93,11 +93,10 @@ public class PChangeGem extends Procedure {
 		}
 
 		// 设置套装效果
-		Integer[] keys = DIANHUANSHICFG_CFGS.keySet().toArray(new Integer[0]);
+		Integer[] keys = DIANHUASHIEFFECT_CFGS.keySet().toArray(new Integer[0]);
 		Random random = new Random();
 		Integer randomKey = keys[random.nextInt(keys.length)];
-		STaozhuangEffectConfig randomValue = DIANHUANSHICFG_CFGS.get(randomKey);
-		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomValue.id);
+		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomKey);
 		attr.setSuiting(effect.id);
 		// 是否珍品检测
 		int score = fire.pb.item.Module.getInstance().getEquipScore(oldWeapon);
