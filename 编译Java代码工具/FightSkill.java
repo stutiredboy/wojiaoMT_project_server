@@ -552,6 +552,10 @@ public class FightSkill
 
 		int num = 0;
 		int targetCount = subskill.getTargetCountJs().eval(battle.getEngine(),opfighter,null).intValue();
+		if(skillId == 161003)
+		{
+			targetCount = 2;
+		}
 		boolean bneedalive = false;
 
 		switch (subskill.getTargettype())
@@ -1063,7 +1067,9 @@ public class FightSkill
 					aimfighter = mainAimFighters.get(0);
 					aim = aimfighter.getFighterId();
 				}
+				
 				battle.getEngine().setSkillTargetNum(mainAimFighters.size());
+				BattleField.logger.error("------技能ID："+skillId+"----------技能目标数量："+mainAimFighters.size());	
 				return true;
 			} else
 			{
@@ -1569,7 +1575,7 @@ public class FightSkill
 		}
 		subSkillindex = 0;		
 		if (BattleField.logger.isDebugEnabled()) {BattleField.logger.debug("getaimcount = ："+nFighterIDs.toString());}
-		BattleField.logger.error("------技能ID："+skillId+"----------技能目标数量："+nFighterIDs.size());		
+			
 		return nFighterIDs.size();		
 	}
 	//技能计算处理
