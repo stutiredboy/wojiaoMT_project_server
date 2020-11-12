@@ -146,5 +146,11 @@ public class Equips {
 				public java.util.List<Integer> get(xbean.Equip v) { return v.getDiamondsAsData(); }
 			});
 	}
+	
+	public static Integer selectSuitID(Long key) {
+		return getTable().select(key, new mkdb.TField<xbean.Equip, Integer>() {
+				public Integer get(xbean.Equip v) { return v.getSuitID(); }
+			});
+	}
 
 }

@@ -46,6 +46,7 @@ public abstract class EquipItem extends ItemBase {
 
 	public EquipItem(ItemMgr im, xbean.Item item) {
 		super(im, item);
+		logger.error("--------------装备物品3----------------");
 		if (!item.isData()) {
 			equipAttr = xtable.Equips.get(item.getExtid());
 		} else {
@@ -54,6 +55,7 @@ public abstract class EquipItem extends ItemBase {
 		if (equipAttr == null) {
 			Module.getInstance().getLogger().error("数据缺失");
 		}
+		logger.error("--------------装备--"+equipAttr+"--------------");
 	}
 
 	public EquipError canEquipment(final int pos, final int roleLevel,

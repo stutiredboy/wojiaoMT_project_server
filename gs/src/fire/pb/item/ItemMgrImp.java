@@ -423,6 +423,7 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 			int score = fire.pb.item.Module.getInstance()
 					.getEquipScore(item);
 			eItem.getEquipAttr().setEquipscore(score);
+			eItem.getEquipAttr().setSuitID(0);
 			if (score >= eItem.getItemAttr().getTreasureScore()) {
 				eItem.getEquipAttr().setTreasure(1);
 			} else
