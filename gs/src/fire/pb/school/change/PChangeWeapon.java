@@ -89,13 +89,11 @@ public class PChangeWeapon extends Procedure {
 			logger.error("拍卖的武器无法使用点化功能");
 			return false;
 		}
-		logger.error("-------------装备点化99999999999--");
 		
 		// 随机增加属性
 		// 处理基础属性
 		EquipItemShuXing attr = oldWeapon.getItemAttr();
 		int BaseEffectId = attr.getBaseAttrId();
-		logger.error("-------------errectvalue--"+BaseEffectId);
 		// 从ItemMakeUtil.effectConfigs 中获取基础装备的属性
 		ZhuangBeiShuXing equipAttrCnf = ItemMakeUtil.effectConfigs
 				.get(BaseEffectId);
@@ -123,7 +121,6 @@ public class PChangeWeapon extends Procedure {
 		Map<Integer, Integer> baseAttrs = oldWeapon.getBaseAttr();
 		Map<Integer, Integer> baseAddAttrs = new HashMap<Integer, Integer>();
 		for (Integer key: baseAttrs.keySet()) {
-			logger.error("--------effectid:"+key+" -----errectvalue--"+baseAttrs.get(key));
 			int id = key / 10;
 			int value = 0;
 			int randomval = 0;
@@ -136,11 +133,11 @@ public class PChangeWeapon extends Procedure {
 					break;
 				}
 			}
-			value = randomval + errectvalue;
+			value = randomval;
 			baseAddAttrs.put(key,value);
 			logger.error("--------ID:"+id+" -----VALUE--"+value);
 		}
-		oldWeapon.SetBaseAttr(baseAddAttrs);
+		oldWeapon.SetAddAttr(baseAddAttrs);
 
 		
 		// 设置冷却时间

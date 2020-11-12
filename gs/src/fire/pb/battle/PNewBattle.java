@@ -1016,10 +1016,9 @@ public class PNewBattle extends Procedure {
 		Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
 		for (ItemBase basicItem : bag){
 			EquipItem oldWeapon = ((EquipItem) basicItem);
-			EquipItemShuXing attr = oldWeapon.getItemAttr();
-			if(attr.getSuiting() != 0)
+			if(oldWeapon.getEquipAttr().getSuitID() != 0)
 			{
-				STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(attr.getSuiting());
+				STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(oldWeapon.getEquipAttr().getSuitID());
 				if(effect != null && effect.effect1 != 0){
 					if(suitingMaps.containsKey(effect.effect1))
 					{

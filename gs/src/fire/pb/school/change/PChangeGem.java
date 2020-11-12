@@ -97,7 +97,7 @@ public class PChangeGem extends Procedure {
 		Random random = new Random();
 		Integer randomKey = keys[random.nextInt(keys.length)];
 		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomKey);
-		attr.setSuiting(effect.id);
+		oldWeapon.getEquipAttr().setSuitID(effect.id);
 		// 是否珍品检测
 		int score = fire.pb.item.Module.getInstance().getEquipScore(oldWeapon);
 		oldWeapon.getEquipAttr().setEquipscore(score);

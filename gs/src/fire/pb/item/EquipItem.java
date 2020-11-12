@@ -286,8 +286,8 @@ public abstract class EquipItem extends ItemBase {
 				os.marshal(e.getValue().getEnhancementtime()); // 写入附魔结束时间 by
 																// changhao
 			}
-			os.marshal(getItemAttr().getSuiting());
-			logger.error("-----------------套装属性ID："+getItemAttr().getSuiting());
+			os.marshal(equipAttr.getSuitID());
+			logger.error("-----------------套装属性ID："+equipAttr.getSuitID());
 		}
 		return os;
 	}

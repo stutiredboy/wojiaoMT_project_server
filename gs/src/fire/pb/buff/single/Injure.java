@@ -125,9 +125,6 @@ public abstract class Injure extends SingleBuff
 	protected boolean handleInjure()
 	{
 		damage = (int)(damageJS.eval(battleInfo.getEngine(),opfighter,aimfighter).intValue()*critpct);
-		Module.logger.error("------------------原本伤害--------------"+damage+"---------");
-		damage  = damage * 1.5f;
-		Module.logger.error("------------------增强后伤害--------------"+damage+"---------");
 		if(damage > -1)
 			damage = -1;
 		demoresult.hpchange = (int) damage;

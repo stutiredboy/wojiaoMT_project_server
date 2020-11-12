@@ -20,6 +20,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 	private java.util.HashMap<Integer, xbean.EnhancementData> enhancement; // 附魔属性 by changhao
 	private int equipscore; // 装备评分
 	private java.util.LinkedList<Integer> diamonds; // 宝石列表
+	private int suitid; // 套装效果ID
 
 	@Override
 	public void _reset_unsafe_() {
@@ -38,6 +39,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		enhancement.clear();
 		equipscore = 0;
 		diamonds.clear();
+		suitid = 0;
 	}
 
 	Equip(int __, mkdb.XBean _xp_, String _vn_) {
@@ -93,6 +95,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		equipscore = _o_.equipscore;
 		diamonds = new java.util.LinkedList<Integer>();
 		diamonds.addAll(_o_.diamonds);
+		suitid = _o_.suitid;
 	}
 
 	private void assign(Equip.Data _o_) {
@@ -118,6 +121,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		equipscore = _o_.equipscore;
 		diamonds = new java.util.LinkedList<Integer>();
 		diamonds.addAll(_o_.diamonds);
+		suitid = _o_.suitid;
 	}
 
 	@Override
@@ -156,6 +160,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		for (Integer _v_ : diamonds) {
 			_os_.marshal(_v_);
 		}
+		_os_.marshal(suitid);
 		return _os_;
 	}
 
@@ -220,6 +225,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			_v_ = _os_.unmarshal_int();
 			diamonds.add(_v_);
 		}
+		suitid = _os_.unmarshal_int();
 		return _os_;
 	}
 
@@ -381,6 +387,12 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 	}
 
 	@Override
+	public int getSuitID() { // 套装效果ID
+		_xdb_verify_unsafe_();
+		return suitid;
+	}
+
+	@Override
 	public java.util.List<Integer> getDiamonds() { // 宝石列表
 		_xdb_verify_unsafe_();
 		return mkdb.Logs.logList(new mkdb.LogKey(this, "diamonds"), diamonds);
@@ -525,6 +537,17 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 	}
 
 	@Override
+	public void setSuitID(int _v_) { // 套装效果ID
+		_xdb_verify_unsafe_();
+		mkdb.Logs.logIf(new mkdb.LogKey(this, "suitid") {
+			protected mkdb.Log create() {
+				return new mkdb.logs.LogInt(this, suitid) {
+					public void rollback() { suitid = _xdb_saved; }
+				};}});
+		suitid = _v_;
+	}
+
+	@Override
 	public final boolean equals(Object _o1_) {
 		_xdb_verify_unsafe_();
 		Equip _o_ = null;
@@ -546,6 +569,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		if (!enhancement.equals(_o_.enhancement)) return false;
 		if (equipscore != _o_.equipscore) return false;
 		if (!diamonds.equals(_o_.diamonds)) return false;
+		if (suitid != _o_.suitid) return false;
 		return true;
 	}
 
@@ -568,6 +592,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		_h_ += enhancement.hashCode();
 		_h_ += equipscore;
 		_h_ += diamonds.hashCode();
+		_h_ += suitid;
 		return _h_;
 	}
 
@@ -605,6 +630,8 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		_sb_.append(equipscore);
 		_sb_.append(",");
 		_sb_.append(diamonds);
+		_sb_.append(",");
+		_sb_.append(suitid);
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -627,6 +654,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		lb.add(new mkdb.logs.ListenableMap().setVarName("enhancement"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("equipscore"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("diamonds"));
+		lb.add(new mkdb.logs.ListenableChanged().setVarName("suitid"));
 		return lb;
 	}
 
@@ -785,6 +813,11 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			_xdb_verify_unsafe_();
 			return equipscore;
 		}
+		@Override
+		public int getSuitID() { // 套装效果ID
+			_xdb_verify_unsafe_();
+			return suitid;
+		}
 
 		@Override
 		public java.util.List<Integer> getDiamonds() { // 宝石列表
@@ -874,6 +907,12 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		}
 
 		@Override
+		public void setSuitID(int _v_) { // 套装效果ID
+			_xdb_verify_unsafe_();
+			throw new UnsupportedOperationException();
+		}
+
+		@Override
 		public mkdb.Bean toConst() {
 			_xdb_verify_unsafe_();
 			return this;
@@ -954,6 +993,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		private java.util.HashMap<Integer, xbean.EnhancementData> enhancement; // 附魔属性 by changhao
 		private int equipscore; // 装备评分
 		private java.util.LinkedList<Integer> diamonds; // 宝石列表
+		private int suitid; // 套装效果ID
 
 		@Override
 		public void _reset_unsafe_() {
@@ -1002,6 +1042,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			equipscore = _o_.equipscore;
 			diamonds = new java.util.LinkedList<Integer>();
 			diamonds.addAll(_o_.diamonds);
+			suitid = 0;
 		}
 
 		private void assign(Equip.Data _o_) {
@@ -1027,6 +1068,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			equipscore = _o_.equipscore;
 			diamonds = new java.util.LinkedList<Integer>();
 			diamonds.addAll(_o_.diamonds);
+			suitid = _o_.suitid;
 		}
 
 		@Override
@@ -1064,6 +1106,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			for (Integer _v_ : diamonds) {
 				_os_.marshal(_v_);
 			}
+			_os_.marshal(suitid);
 			return _os_;
 		}
 
@@ -1127,6 +1170,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 				_v_ = _os_.unmarshal_int();
 				diamonds.add(_v_);
 			}
+			suitid = _os_.unmarshal_int();
 			return _os_;
 		}
 
@@ -1253,6 +1297,11 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		}
 
 		@Override
+		public int getSuitID() { // 套装ID
+			return suitid;
+		}
+
+		@Override
 		public java.util.List<Integer> getDiamonds() { // 宝石列表
 			return diamonds;
 		}
@@ -1325,6 +1374,11 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		}
 
 		@Override
+		public void setSuitID(int _v_) { // 套装效果ID
+			suitid = _v_;
+		}
+
+		@Override
 		public final boolean equals(Object _o1_) {
 			if (!(_o1_ instanceof Equip.Data)) return false;
 			Equip.Data _o_ = (Equip.Data) _o1_;
@@ -1343,6 +1397,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			if (!enhancement.equals(_o_.enhancement)) return false;
 			if (equipscore != _o_.equipscore) return false;
 			if (!diamonds.equals(_o_.diamonds)) return false;
+			if (suitid != _o_.suitid) return false;
 			return true;
 		}
 
@@ -1364,6 +1419,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			_h_ += enhancement.hashCode();
 			_h_ += equipscore;
 			_h_ += diamonds.hashCode();
+			_h_ += suitid;
 			return _h_;
 		}
 
@@ -1400,6 +1456,8 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			_sb_.append(equipscore);
 			_sb_.append(",");
 			_sb_.append(diamonds);
+			_sb_.append(",");
+			_sb_.append(suitid);
 			_sb_.append(")");
 			return _sb_.toString();
 		}
