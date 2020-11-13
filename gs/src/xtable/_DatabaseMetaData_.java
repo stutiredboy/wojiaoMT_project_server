@@ -10005,6 +10005,11 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				, "int", "", "", ""
 				, "0", "", ""
 				);
+			super.addVariableFor(bean
+				, "suitid"
+				, "int", "", "", ""
+				, "0", "", ""
+				);
 			super.addBean(bean);
 		}
 		{

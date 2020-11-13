@@ -18,24 +18,23 @@ public class CGetItemTips extends __CGetItemTips__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		ItemMaps bag = Module.getInstance().getItemMaps(roleId, packid, true);
-		if (bag == null)
-			return;
-		final ItemBase item = bag.getItem(keyinpack);
-		if (item == null) {
+		fire.pb.item.Pack bag = new fire.pb.item.Pack(roleId, true);
+		ItemBase oldWeaponIB = bag.getItem(keyinpack);
+		if (oldWeaponIB == null) {
 			return;
 		}		
-
-		Octets tips = item.getTips();
+		EquipItem equipI = ((EquipItem) oldWeaponIB);
+		Module.logger.error("---------获取装备提示-------"+equipI.getEquipAttr()+"----------");	
+		Octets tips = equipI.getTips();
 		if (tips == null) {
-			Module.logger.error("错误的tips请求,物品名:" + item.getName());
+			Module.logger.error("错误的tips请求,物品名:" + oldWeaponIB.getName());
 			return;
 		}
 				
 		SGetItemTips send = new SGetItemTips(packid, keyinpack, tips);
 		gnet.link.Onlines.getInstance().sendResponse(this, send);
 		
-		if(item instanceof EquipItem)
+		if(oldWeaponIB instanceof EquipItem)
 		{
 			PEnhancementTimeout p = new PEnhancementTimeout(roleId);
 			p.submit();				
