@@ -53,6 +53,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 		addattr = new java.util.HashMap<Integer, Integer>();
 		enhancement = new java.util.HashMap<Integer, xbean.EnhancementData>();
 		diamonds = new java.util.LinkedList<Integer>();
+		suitid = 0;
 	}
 
 	public Equip() {
@@ -1010,6 +1011,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			addattr = new java.util.HashMap<Integer, Integer>();
 			enhancement = new java.util.HashMap<Integer, xbean.EnhancementData>();
 			diamonds = new java.util.LinkedList<Integer>();
+			suitid = 0;
 		}
 
 		Data(xbean.Equip _o1_) {
@@ -1042,7 +1044,7 @@ public final class Equip extends mkdb.XBean implements xbean.Equip {
 			equipscore = _o_.equipscore;
 			diamonds = new java.util.LinkedList<Integer>();
 			diamonds.addAll(_o_.diamonds);
-			suitid = 0;
+			suitid = _o_.suitid;
 		}
 
 		private void assign(Equip.Data _o_) {
