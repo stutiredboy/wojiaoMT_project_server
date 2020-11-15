@@ -135,7 +135,7 @@ public class PChangeWeapon extends Procedure {
 			}
 			value = randomval;
 			baseAddAttrs.put(key,value);
-			logger.error("--------ID:"+id+" -----VALUE--"+value);
+			logger.error("--------ID:"+id+" -----VALUE--"+value+"-------------"+randomval);
 		}
 		oldWeapon.SetAddAttr(baseAddAttrs);
 

@@ -21,6 +21,9 @@ import fire.pb.item.STaozhuangEffect;
 import fire.pb.item.STaozhuangEffectConfig;
 import fire.pb.item.EquipItemShuXing;
 import java.util.Map;
+import java.util.Set;
+import java.util.List;
+import java.util.ArrayList;
 import java.util.Random;
 import fire.pb.skill.SceneSkillRole;
 
@@ -70,7 +73,6 @@ public class PChangeGem extends Procedure {
 			logger.error("拍卖的套装无法使用点化功能");
 			return false;
 		}
-		logger.error("-------------套装点化------"+oldWeapon.getEquipAttr()+"------");
 		
 		// 扣道具
 		ItemMaps bagContainer = fire.pb.item.Module.getInstance().getItemMaps(roleId, BagTypes.BAG, false);
@@ -95,9 +97,10 @@ public class PChangeGem extends Procedure {
 		// 设置套装效果
 		xbean.Equip equipAttr = oldWeapon.getEquipAttr();
 		int suitid = equipAttr.getSuitID();
-		Integer[] keys = DIANHUASHIEFFECT_CFGS.keySet().toArray(new Integer[0]);
+		Set<Integer> keys = DIANHUASHIEFFECT_CFGS.keySet();
+		List<Integer> list=new ArrayList<>(keys);
 		Random random = new Random();
-		Integer randomKey = keys[random.nextInt(keys.length)];
+		Integer randomKey = list.get(random.nextInt(list.size()));
 		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomKey);
 		suitid = effect.id;
 		equipAttr.setSuitID(suitid);
