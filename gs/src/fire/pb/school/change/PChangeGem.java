@@ -22,6 +22,7 @@ import fire.pb.item.STaozhuangEffectConfig;
 import fire.pb.item.EquipItemShuXing;
 import java.util.Map;
 import java.util.Random;
+import fire.pb.skill.SceneSkillRole;
 
 public class PChangeGem extends Procedure {
 	private static Logger logger = Logger.getLogger("ITEM");
@@ -63,14 +64,13 @@ public class PChangeGem extends Procedure {
 			return false;
 		}
 
-		EquipItem oldWeapon = ((EquipItem) oldWeaponIB);
-		EquipItemShuXing attr = oldWeapon.getItemAttr();		
+		EquipItem oldWeapon = ((EquipItem) oldWeaponIB);		
 		// 是否拍卖中
 		if ((oldWeaponIB.getFlags() & fire.pb.Item.ONSTALL) != 0) {
 			logger.error("拍卖的套装无法使用点化功能");
 			return false;
 		}
-		logger.error("-------------套装点化------------");
+		logger.error("-------------套装点化------"+oldWeapon.getEquipAttr()+"------");
 		
 		// 扣道具
 		ItemMaps bagContainer = fire.pb.item.Module.getInstance().getItemMaps(roleId, BagTypes.BAG, false);
@@ -93,12 +93,14 @@ public class PChangeGem extends Procedure {
 		}
 
 		// 设置套装效果
-		Integer[] keys = DIANHUANSHICFG_CFGS.keySet().toArray(new Integer[0]);
+		xbean.Equip equipAttr = oldWeapon.getEquipAttr();
+		int suitid = equipAttr.getSuitID();
+		Integer[] keys = DIANHUASHIEFFECT_CFGS.keySet().toArray(new Integer[0]);
 		Random random = new Random();
 		Integer randomKey = keys[random.nextInt(keys.length)];
-		STaozhuangEffectConfig randomValue = DIANHUANSHICFG_CFGS.get(randomKey);
-		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomValue.id);
-		attr.setSuiting(effect.id);
+		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomKey);
+		suitid = effect.id;
+		equipAttr.setSuitID(suitid);
 		// 是否珍品检测
 		int score = fire.pb.item.Module.getInstance().getEquipScore(oldWeapon);
 		oldWeapon.getEquipAttr().setEquipscore(score);
@@ -106,7 +108,7 @@ public class PChangeGem extends Procedure {
 			oldWeapon.getEquipAttr().setTreasure(1);
 		} else {
 			oldWeapon.getEquipAttr().setTreasure(0);
-		}
+		}	
 
 		// 发消息
 		SAddItem sAddItem = new SAddItem();

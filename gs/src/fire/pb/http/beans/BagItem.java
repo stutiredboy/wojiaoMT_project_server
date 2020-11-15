@@ -15,7 +15,8 @@ public class BagItem {
 	private List<AttrBean> appendattr=new ArrayList<AttrBean>();//	附加属性
 	private int effect;//	装备特效	
 	private int endure;//	装备耐久
-	private int equipscore;//	装备评分	
+	private int equipscore;//	装备评分
+	private int suitid; // 套装效果ID	
 	public int getKey() {
 		return key;
 	}
@@ -83,6 +84,17 @@ public class BagItem {
 	public void setEquipscore(int equipscore) {
 		this.equipscore = equipscore;
 	}
+
+	public int getSuitID()
+	{
+		return suitid;
+	}
+
+	public void setSuitID( int suitid)
+	{
+		this.suitid = suitid;
+	}
+
 	public int getNum() {
 		return num;
 	}

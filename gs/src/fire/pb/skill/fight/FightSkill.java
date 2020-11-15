@@ -37,6 +37,13 @@ import fire.pb.buff.single.MagicInjure;
 import fire.pb.buff.single.SingleBuff;
 import fire.pb.buff.single.SkillComboInjure;
 import fire.pb.buff.single.SkillPhyInjure;
+import fire.pb.item.BagTypes;
+import fire.pb.item.ItemMaps;
+import fire.pb.item.ItemBase;
+import fire.pb.item.EquipItem;
+import fire.pb.item.EquipItemShuXing;
+import fire.pb.item.STaozhuangEffect;
+import fire.pb.main.ConfigManager;
 import fire.pb.instancezone.InstanceZone;
 import fire.pb.instancezone.InstanceZoneFactory;
 import fire.pb.instancezone.faction.FactionInstZone;
@@ -76,6 +83,7 @@ public class FightSkill
 	protected int failReason = 0;
 	protected boolean iswithhidebuffeffect = false;
 	protected boolean isauto = true;
+	public static final Map<Integer, STaozhuangEffect> DIANHUASHIEFFECT_CFGS = ConfigManager.getInstance().getConf(STaozhuangEffect.class);
 
 	public FightSkill(final xbean.BattleInfo battle, final int operator, final int aim, int skillId, int type)
 	{
@@ -549,9 +557,40 @@ public class FightSkill
 		if(subskill == null)
 			return aimfigters;
 		List<Fighter> fighters = getPossibleSortedFighters(subskill);
-
 		int num = 0;
 		int targetCount = subskill.getTargetCountJs().eval(battle.getEngine(),opfighter,null).intValue();
+		// 获取装备信息，统计装备是否有套装技能效果
+		ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(operator, BagTypes.EQUIP, true);
+		Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
+		int addNum = 0;
+		int addValue = 0;
+		for (ItemBase basicItem : bag){
+			EquipItem oldWeapon = ((EquipItem) basicItem);
+			if(oldWeapon.getEquipAttr().getSuitID() != 0)
+			{
+				STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
+				if(effect != null && effect.skillId == skillId && effect.effect3 != 0){
+					addValue =  effect.effect3;
+					if(suitingMaps.containsKey(effect.skillId))
+					{
+						int value = suitingMaps.get(effect.skillId) + 1;
+						suitingMaps.put(effect.skillId,value);
+					}
+					else
+					{
+						suitingMaps.put(effect.skillId,1);
+					}
+				}
+				
+			}
+		}
+		if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
+		{
+			targetCount += addValue * suitingMaps.get(skillId) / 3;
+			Module.logger.error("----------------套装效果增加技能目标数量 ----" + targetCount );
+		}
+		
+		
 		boolean bneedalive = false;
 
 		switch (subskill.getTargettype())
@@ -1063,7 +1102,7 @@ public class FightSkill
 					aimfighter = mainAimFighters.get(0);
 					aim = aimfighter.getFighterId();
 				}
-				BattleField.logger.error("------技能ID："+skillId+"----------技能目标数量："+mainAimFighters.size());	
+				
 				battle.getEngine().setSkillTargetNum(mainAimFighters.size());
 				return true;
 			} else
@@ -1585,7 +1624,35 @@ public class FightSkill
 				return processSummon();
 			}
 			item = new ResultItem();
-
+			ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(operator, BagTypes.EQUIP, true);
+			Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
+			int addNum = 0;
+			int addValue = 0;
+			for (ItemBase basicItem : bag){
+				EquipItem oldWeapon = ((EquipItem) basicItem);
+				if(oldWeapon.getEquipAttr().getSuitID() != 0)
+				{
+					STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
+					if(effect != null && effect.skillId == skillId && effect.effect2 != 0){
+						addValue =  effect.effect2;
+						if(suitingMaps.containsKey(effect.skillId))
+						{
+							int value = suitingMaps.get(effect.skillId) + 1;
+							suitingMaps.put(effect.skillId,value);
+						}
+						else
+						{
+							suitingMaps.put(effect.skillId,1);
+						}
+					}
+					
+				}
+			}
+			if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
+			{
+				addValue = addValue * suitingMaps.get(skillId) / 3;
+				Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
+			}
 			// 需求校验
 			if (!canCast())
 			{
@@ -1977,9 +2044,14 @@ public class FightSkill
 										}	
 									}
 									if(demo.hpchange != 0)
-										battle.getEngine().setMainDamage(demo.hpchange);// 初始化主伤害
+									{
+										battle.getEngine().setMainDamage(demo.hpchange * (addValue + 100) / 100 );// 初始化主伤害
+									}
 									else if(demo.mpchange != 0)
-										battle.getEngine().setMainDamage(demo.mpchange);// 初始化主伤害
+									{
+										battle.getEngine().setMainDamage(demo.mpchange * (addValue + 100) / 100);// 初始化主伤害
+									}
+										
 								}								
 								if(extdemo.size() > 0)
 									demos.addAll(extdemo);
