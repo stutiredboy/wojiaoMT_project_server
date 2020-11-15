@@ -5,12 +5,12 @@
     <int>28100</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28100</id>
-      <name>桶牛</name>
+      <name>剑侠客</name>
       <type>1</type>
       <school>11</school>
       <bodytype>1</bodytype>
-      <shapeid>1020133</shapeid>
-      <headid>30204</headid>
+      <shapeid>1040119</shapeid>
+      <headid>30329</headid>
       <creater__give>1</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -22,13 +22,13 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <life__growup>36.38</life__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>12.7</phyatk__growup>
       <phydef__growup>7.05</phydef__growup>
       <magatk__growup>3.38</magatk__growup>
       <magdef__growup>5.45</magdef__growup>
-      <speed__growup>5.0199999999999996</speed__growup>
+      <speed__growup>5.02</speed__growup>
       <treat__growup>1.46</treat__growup>
       <hit__growup>0</hit__growup>
       <resistance__growup>10.4</resistance__growup>
@@ -71,12 +71,12 @@
     <int>28101</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28101</id>
-      <name>暗夜男</name>
+      <name>剑侠客</name>
       <type>1</type>
       <school>11</school>
       <bodytype>1</bodytype>
-      <shapeid>1020117</shapeid>
-      <headid>30253</headid>
+      <shapeid>1040119</shapeid>
+      <headid>30329</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -88,13 +88,13 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <life__growup>36.38</life__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>12.7</phyatk__growup>
       <phydef__growup>7.05</phydef__growup>
       <magatk__growup>3.38</magatk__growup>
       <magdef__growup>5.45</magdef__growup>
-      <speed__growup>5.0199999999999996</speed__growup>
+      <speed__growup>5.02</speed__growup>
       <treat__growup>1.46</treat__growup>
       <hit__growup>0</hit__growup>
       <resistance__growup>10.4</resistance__growup>
@@ -137,12 +137,12 @@
     <int>28102</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28102</id>
-      <name>会长</name>
+      <name>飞燕女</name>
       <type>1</type>
       <school>11</school>
       <bodytype>1</bodytype>
-      <shapeid>1020116</shapeid>
-      <headid>30243</headid>
+      <shapeid>1040127</shapeid>
+      <headid>65</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -155,7 +155,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>37.51</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>13.09</phyatk__growup>
       <phydef__growup>7.27</phydef__growup>
       <magatk__growup>3.48</magatk__growup>
@@ -203,12 +203,12 @@
     <int>28103</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28103</id>
-      <name>牛头人酋长</name>
+      <name>逍遥生</name>
       <type>1</type>
       <school>11</school>
-      <bodytype>0.9</bodytype>
-      <shapeid>1020125</shapeid>
-      <headid>30302</headid>
+      <bodytype>1</bodytype>
+      <shapeid>1040120</shapeid>
+      <headid>30331</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -221,7 +221,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>38.64</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>13.48</phyatk__growup>
       <phydef__growup>7.49</phydef__growup>
       <magatk__growup>3.58</magatk__growup>
@@ -269,12 +269,12 @@
     <int>28104</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28104</id>
-      <name>国足</name>
+      <name>剑侠客</name>
       <type>4</type>
       <school>12</school>
       <bodytype>1</bodytype>
-      <shapeid>1020106</shapeid>
-      <headid>30306</headid>
+      <shapeid>1040119</shapeid>
+      <headid>30329</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -287,7 +287,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>44.1</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
       <phydef__growup>7.91</phydef__growup>
       <magatk__growup>7.21</magatk__growup>
@@ -335,12 +335,12 @@
     <int>28105</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28105</id>
-      <name>锁蕊深大帝</name>
+      <name>飞燕女</name>
       <type>4</type>
       <school>12</school>
       <bodytype>1</bodytype>
-      <shapeid>1010148</shapeid>
-      <headid>30215</headid>
+      <shapeid>1040127</shapeid>
+      <headid>65</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -353,13 +353,13 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>45.46</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.07</phyatk__growup>
       <phydef__growup>8.15</phydef__growup>
       <magatk__growup>7.43</magatk__growup>
       <magdef__growup>6.1</magdef__growup>
       <speed__growup>6.85</speed__growup>
-      <treat__growup>2.2999999999999998</treat__growup>
+      <treat__growup>2.3</treat__growup>
       <hit__growup>0</hit__growup>
       <resistance__growup>10.4</resistance__growup>
       <battle_ai>
@@ -401,12 +401,12 @@
     <int>28106</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28106</id>
-      <name>大大姐</name>
+      <name>逍遥生</name>
       <type>4</type>
       <school>12</school>
       <bodytype>1</bodytype>
-      <shapeid>1020119</shapeid>
-      <headid>30201</headid>
+      <shapeid>1040120</shapeid>
+      <headid>30331</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -419,7 +419,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>46.82</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.25</phyatk__growup>
       <phydef__growup>8.39</phydef__growup>
       <magatk__growup>7.65</magatk__growup>
@@ -468,12 +468,12 @@
     <int>28107</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28107</id>
-      <name>光芒使者</name>
+      <name>逍遥生</name>
       <type>4</type>
       <school>12</school>
       <bodytype>1</bodytype>
-      <shapeid>1020128</shapeid>
-      <headid>30296</headid>
+      <shapeid>1040120</shapeid>
+      <headid>30331</headid>
       <creater__give>0</creater__give>
       <life>212</life>
       <magic>200</magic>
@@ -486,7 +486,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>48.19</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.43</phyatk__growup>
       <phydef__growup>8.64</phydef__growup>
       <magatk__growup>7.88</magatk__growup>
@@ -534,12 +534,12 @@
     <int>28108</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28108</id>
-      <name>美屡</name>
+      <name>虎头怪</name>
       <type>1</type>
       <school>13</school>
       <bodytype>1</bodytype>
-      <shapeid>1020111</shapeid>
-      <headid>30261</headid>
+      <shapeid>1040121</shapeid>
+      <headid>30330</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -552,12 +552,12 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>40.58</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>10.51</phyatk__growup>
       <phydef__growup>8.02</phydef__growup>
       <magatk__growup>3.38</magatk__growup>
       <magdef__growup>5.45</magdef__growup>
-      <speed__growup>5.0199999999999996</speed__growup>
+      <speed__growup>5.02</speed__growup>
       <treat__growup>1.46</treat__growup>
       <hit__growup>0</hit__growup>
       <resistance__growup>10.4</resistance__growup>
@@ -602,12 +602,12 @@
     <int>28109</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28109</id>
-      <name>冬</name>
+      <name>巨魔王</name>
       <type>1</type>
       <school>13</school>
       <bodytype>1</bodytype>
-      <shapeid>1020135</shapeid>
-      <headid>30333</headid>
+      <shapeid>1040126</shapeid>
+      <headid>66</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -620,7 +620,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>41.83</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>10.84</phyatk__growup>
       <phydef__growup>8.27</phydef__growup>
       <magatk__growup>3.48</magatk__growup>
@@ -670,12 +670,12 @@
     <int>28110</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28110</id>
-      <name>兽王</name>
+      <name>虎头怪</name>
       <type>1</type>
       <school>13</school>
-      <bodytype>0.9</bodytype>
-      <shapeid>1020126</shapeid>
-      <headid>30313</headid>
+      <bodytype>1</bodytype>
+      <shapeid>1040121</shapeid>
+      <headid>30330</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -688,7 +688,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>43.08</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>11.17</phyatk__growup>
       <phydef__growup>8.52</phydef__growup>
       <magatk__growup>3.58</magatk__growup>
@@ -738,12 +738,12 @@
     <int>28111</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28111</id>
-      <name>神棍德</name>
+      <name>骨精灵</name>
       <type>5</type>
       <school>14</school>
       <bodytype>1</bodytype>
-      <shapeid>1020115</shapeid>
-      <headid>30255</headid>
+      <shapeid>1040122</shapeid>
+      <headid>30328</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -756,7 +756,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>42.84</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
       <phydef__growup>7.29</phydef__growup>
       <magatk__growup>6.33</magatk__growup>
@@ -804,12 +804,12 @@
     <int>28112</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28112</id>
-      <name>玛拉得公主</name>
+      <name>巨魔王</name>
       <type>5</type>
       <school>14</school>
       <bodytype>1</bodytype>
-      <shapeid>1010136</shapeid>
-      <headid>30223</headid>
+      <shapeid>1040126</shapeid>
+      <headid>66</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -822,7 +822,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>44.16</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.07</phyatk__growup>
       <phydef__growup>7.52</phydef__growup>
       <magatk__growup>6.53</magatk__growup>
@@ -871,12 +871,12 @@
     <int>28113</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28113</id>
-      <name>玛佛里</name>
+      <name>骨精灵</name>
       <type>5</type>
       <school>14</school>
-      <bodytype>0.9</bodytype>
-      <shapeid>1020130</shapeid>
-      <headid>30315</headid>
+      <bodytype>1</bodytype>
+      <shapeid>1040122</shapeid>
+      <headid>30328</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -889,7 +889,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>45.48</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.25</phyatk__growup>
       <phydef__growup>7.75</phydef__growup>
       <magatk__growup>6.73</magatk__growup>
@@ -937,12 +937,12 @@
     <int>28114</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28114</id>
-      <name>五火球教主</name>
+      <name>龙太子</name>
       <type>2</type>
       <school>15</school>
       <bodytype>1</bodytype>
-      <shapeid>1020112</shapeid>
-      <headid>30263</headid>
+      <shapeid>1040123</shapeid>
+      <headid>30327</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -954,7 +954,7 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
+      <life__growup>36.38</life__growup>
       <magic__growup>40.24</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
       <phydef__growup>6.08</phydef__growup>
@@ -1004,12 +1004,12 @@
     <int>28115</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28115</id>
-      <name>方砖</name>
+      <name>神天兵</name>
       <type>2</type>
       <school>15</school>
       <bodytype>1</bodytype>
-      <shapeid>1020118</shapeid>
-      <headid>30257</headid>
+      <shapeid>1040125</shapeid>
+      <headid>67</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -1021,7 +1021,7 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
+      <life__growup>36.38</life__growup>
       <magic__growup>40.24</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
       <phydef__growup>6.08</phydef__growup>
@@ -1071,12 +1071,12 @@
     <int>28116</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28116</id>
-      <name>羞花</name>
+      <name>玄彩娥</name>
       <type>2</type>
       <school>15</school>
       <bodytype>1</bodytype>
-      <shapeid>1020107</shapeid>
-      <headid>30303</headid>
+      <shapeid>1040124</shapeid>
+      <headid>30326</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -1092,7 +1092,7 @@
       <magic__growup>40.24</magic__growup>
       <phyatk__growup>6.07</phyatk__growup>
       <phydef__growup>6.27</phydef__growup>
-      <magatk__growup>9.8699999999999992</magatk__growup>
+      <magatk__growup>9.87</magatk__growup>
       <magdef__growup>7.58</magdef__growup>
       <speed__growup>3.64</speed__growup>
       <treat__growup>1.5</treat__growup>
@@ -1137,12 +1137,12 @@
     <int>28117</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28117</id>
-      <name>卡尔索斯</name>
+      <name>玄彩娥</name>
       <type>2</type>
       <school>15</school>
-      <bodytype>0.9</bodytype>
-      <shapeid>1020127</shapeid>
-      <headid>30311</headid>
+      <bodytype>1</bodytype>
+      <shapeid>1040124</shapeid>
+      <headid>30326</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -1203,12 +1203,12 @@
     <int>28118</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28118</id>
-      <name>闭月</name>
+      <name>龙太子</name>
       <type>3</type>
       <school>16</school>
       <bodytype>1</bodytype>
-      <shapeid>1020124</shapeid>
-      <headid>30307</headid>
+      <shapeid>1040123</shapeid>
+      <headid>30327</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -1221,7 +1221,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>44.1</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
       <phydef__growup>7.91</phydef__growup>
       <magatk__growup>7.21</magatk__growup>
@@ -1269,12 +1269,12 @@
     <int>28119</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28119</id>
-      <name>大奶铜须</name>
+      <name>龙太子</name>
       <type>3</type>
       <school>16</school>
       <bodytype>1</bodytype>
-      <shapeid>1010147</shapeid>
-      <headid>30225</headid>
+      <shapeid>1040123</shapeid>
+      <headid>30327</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -1287,7 +1287,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>44.1</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
       <phydef__growup>7.91</phydef__growup>
       <magatk__growup>7.21</magatk__growup>
@@ -1335,12 +1335,12 @@
     <int>28120</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28120</id>
-      <name>沐丝</name>
+      <name>神天兵</name>
       <type>3</type>
       <school>16</school>
       <bodytype>1</bodytype>
-      <shapeid>1020114</shapeid>
-      <headid>30203</headid>
+      <shapeid>1040125</shapeid>
+      <headid>67</headid>
       <creater__give>2</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -1353,13 +1353,13 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>45.46</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.07</phyatk__growup>
       <phydef__growup>8.15</phydef__growup>
       <magatk__growup>7.43</magatk__growup>
       <magdef__growup>6.1</magdef__growup>
       <speed__growup>6.85</speed__growup>
-      <treat__growup>2.2999999999999998</treat__growup>
+      <treat__growup>2.3</treat__growup>
       <hit__growup>0</hit__growup>
       <resistance__growup>10.4</resistance__growup>
       <battle_ai>
@@ -1401,12 +1401,12 @@
     <int>28121</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28121</id>
-      <name>不朽者</name>
+      <name>玄彩娥</name>
       <type>3</type>
       <school>16</school>
-      <bodytype>0.9</bodytype>
-      <shapeid>1020129</shapeid>
-      <headid>30312</headid>
+      <bodytype>1</bodytype>
+      <shapeid>1040124</shapeid>
+      <headid>30326</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -1419,7 +1419,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>46.82</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.25</phyatk__growup>
       <phydef__growup>8.39</phydef__growup>
       <magatk__growup>7.65</magatk__growup>
@@ -1467,12 +1467,12 @@
     <int>28122</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28122</id>
-      <name>傻馒</name>
+      <name>虎头怪</name>
       <type>2</type>
       <school>17</school>
       <bodytype>1</bodytype>
-      <shapeid>1020105</shapeid>
-      <headid>30245</headid>
+      <shapeid>1040121</shapeid>
+      <headid>30330</headid>
       <creater__give>1</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -1484,7 +1484,7 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
+      <life__growup>36.38</life__growup>
       <magic__growup>40.24</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
       <phydef__growup>6.08</phydef__growup>
@@ -1533,12 +1533,12 @@
     <int>28123</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28123</id>
-      <name>娘子</name>
+      <name>巨魔王</name>
       <type>2</type>
       <school>17</school>
       <bodytype>1</bodytype>
-      <shapeid>1020120</shapeid>
-      <headid>30254</headid>
+      <shapeid>1040126</shapeid>
+      <headid>66</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -1554,7 +1554,7 @@
       <magic__growup>40.24</magic__growup>
       <phyatk__growup>6.07</phyatk__growup>
       <phydef__growup>6.27</phydef__growup>
-      <magatk__growup>9.8699999999999992</magatk__growup>
+      <magatk__growup>9.87</magatk__growup>
       <magdef__growup>7.58</magdef__growup>
       <speed__growup>3.64</speed__growup>
       <treat__growup>1.5</treat__growup>
@@ -1599,12 +1599,12 @@
     <int>28124</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28124</id>
-      <name>炮姐</name>
+      <name>骨精灵</name>
       <type>2</type>
       <school>17</school>
       <bodytype>1</bodytype>
-      <shapeid>1020123</shapeid>
-      <headid>30304</headid>
+      <shapeid>1040122</shapeid>
+      <headid>30328</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -1665,12 +1665,12 @@
     <int>28125</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28125</id>
-      <name>沃尔金</name>
+      <name>骨精灵</name>
       <type>2</type>
       <school>17</school>
       <bodytype>1</bodytype>
-      <shapeid>1020138</shapeid>
-      <headid>30317</headid>
+      <shapeid>1040122</shapeid>
+      <headid>30328</headid>
       <creater__give>0</creater__give>
       <life>212</life>
       <magic>200</magic>
@@ -1687,7 +1687,7 @@
       <phyatk__growup>6.43</phyatk__growup>
       <phydef__growup>6.65</phydef__growup>
       <magatk__growup>10.46</magatk__growup>
-      <magdef__growup>8.0299999999999994</magdef__growup>
+      <magdef__growup>8.03</magdef__growup>
       <speed__growup>3.86</speed__growup>
       <treat__growup>1.59</treat__growup>
       <hit__growup>0</hit__growup>
@@ -1731,12 +1731,12 @@
     <int>28126</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28126</id>
-      <name>呆贼</name>
+      <name>龙太子</name>
       <type>1</type>
       <school>18</school>
       <bodytype>1</bodytype>
-      <shapeid>1020103</shapeid>
-      <headid>30202</headid>
+      <shapeid>1040123</shapeid>
+      <headid>30327</headid>
       <creater__give>2</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -1748,13 +1748,13 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <life__growup>36.38</life__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>12.7</phyatk__growup>
       <phydef__growup>7.05</phydef__growup>
       <magatk__growup>3.38</magatk__growup>
       <magdef__growup>5.45</magdef__growup>
-      <speed__growup>5.0199999999999996</speed__growup>
+      <speed__growup>5.02</speed__growup>
       <treat__growup>1.46</treat__growup>
       <hit__growup>0</hit__growup>
       <resistance__growup>10.4</resistance__growup>
@@ -1797,12 +1797,12 @@
     <int>28127</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28127</id>
-      <name>女贼</name>
+      <name>神天兵</name>
       <type>1</type>
       <school>18</school>
       <bodytype>1</bodytype>
-      <shapeid>1020121</shapeid>
-      <headid>30259</headid>
+      <shapeid>1040125</shapeid>
+      <headid>67</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -1815,7 +1815,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>37.51</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>13.09</phyatk__growup>
       <phydef__growup>7.27</phydef__growup>
       <magatk__growup>3.48</magatk__growup>
@@ -1863,12 +1863,12 @@
     <int>28128</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28128</id>
-      <name>女王希尔</name>
+      <name>龙太子</name>
       <type>1</type>
       <school>18</school>
       <bodytype>1</bodytype>
-      <shapeid>1000108</shapeid>
-      <headid>30310</headid>
+      <shapeid>1040123</shapeid>
+      <headid>30327</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -1881,7 +1881,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>38.64</life__growup>
-      <magic__growup>17.739999999999998</magic__growup>
+      <magic__growup>17.74</magic__growup>
       <phyatk__growup>13.48</phyatk__growup>
       <phydef__growup>7.49</phydef__growup>
       <magatk__growup>3.58</magatk__growup>
@@ -1929,12 +1929,12 @@
     <int>28129</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28129</id>
-      <name>术士大妈</name>
+      <name>剑侠客</name>
       <type>5</type>
       <school>19</school>
       <bodytype>1</bodytype>
-      <shapeid>1020110</shapeid>
-      <headid>30262</headid>
+      <shapeid>1040119</shapeid>
+      <headid>30329</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -1946,10 +1946,10 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <life__growup>36.38</life__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
-      <phydef__growup>8.4600000000000009</phydef__growup>
+      <phydef__growup>8.46</phydef__growup>
       <magatk__growup>6.33</magatk__growup>
       <magdef__growup>5.92</magdef__growup>
       <speed__growup>7.52</speed__growup>
@@ -1995,12 +1995,12 @@
     <int>28130</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28130</id>
-      <name>死骑瑞文</name>
+      <name>飞燕女</name>
       <type>5</type>
       <school>19</school>
       <bodytype>1</bodytype>
-      <shapeid>1010130</shapeid>
-      <headid>30322</headid>
+      <shapeid>1040127</shapeid>
+      <headid>65</headid>
       <creater__give>0</creater__give>
       <life>194</life>
       <magic>200</magic>
@@ -2012,10 +2012,10 @@
       <treat>19</treat>
       <hit>0</hit>
       <resistance>0</resistance>
-      <life__growup>36.380000000000003</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <life__growup>36.38</life__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>5.89</phyatk__growup>
-      <phydef__growup>8.4600000000000009</phydef__growup>
+      <phydef__growup>8.46</phydef__growup>
       <magatk__growup>6.33</magatk__growup>
       <magdef__growup>5.92</magdef__growup>
       <speed__growup>7.52</speed__growup>
@@ -2062,12 +2062,12 @@
     <int>28131</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28131</id>
-      <name>时空游龙</name>
+      <name>逍遥生</name>
       <type>5</type>
       <school>19</school>
       <bodytype>1</bodytype>
-      <shapeid>1020136</shapeid>
-      <headid>30277</headid>
+      <shapeid>1040120</shapeid>
+      <headid>30331</headid>
       <creater__give>0</creater__give>
       <life>200</life>
       <magic>200</magic>
@@ -2080,9 +2080,9 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>37.51</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.07</phyatk__growup>
-      <phydef__growup>8.7200000000000006</phydef__growup>
+      <phydef__growup>8.72</phydef__growup>
       <magatk__growup>6.53</magatk__growup>
       <magdef__growup>6.1</magdef__growup>
       <speed__growup>7.75</speed__growup>
@@ -2128,12 +2128,12 @@
     <int>28132</int>
     <fire.pb.npc.SHeroBaseInfo>
       <id>28132</id>
-      <name>古尔迪安</name>
+      <name>逍遥生</name>
       <type>5</type>
       <school>19</school>
-      <bodytype>0.9</bodytype>
-      <shapeid>1020140</shapeid>
-      <headid>30314</headid>
+      <bodytype>1</bodytype>
+      <shapeid>1040120</shapeid>
+      <headid>30331</headid>
       <creater__give>0</creater__give>
       <life>206</life>
       <magic>200</magic>
@@ -2146,7 +2146,7 @@
       <hit>0</hit>
       <resistance>0</resistance>
       <life__growup>38.64</life__growup>
-      <magic__growup>34.619999999999997</magic__growup>
+      <magic__growup>34.62</magic__growup>
       <phyatk__growup>6.25</phyatk__growup>
       <phydef__growup>8.98</phydef__growup>
       <magatk__growup>6.73</magatk__growup>

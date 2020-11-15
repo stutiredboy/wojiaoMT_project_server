@@ -7,8 +7,8 @@
       <id>1</id>
       <score>0</score>
       <score2>299</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-30</adwin>
       <adlose>-10</adlose>
       <diswin>30</diswin>
@@ -21,8 +21,8 @@
       <id>2</id>
       <score>300</score>
       <score2>599</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-60</adwin>
       <adlose>-20</adlose>
       <diswin>60</diswin>
@@ -35,8 +35,8 @@
       <id>3</id>
       <score>600</score>
       <score2>899</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-90</adwin>
       <adlose>-30</adlose>
       <diswin>90</diswin>
@@ -49,8 +49,8 @@
       <id>4</id>
       <score>900</score>
       <score2>1199</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-120</adwin>
       <adlose>-40</adlose>
       <diswin>120</diswin>
@@ -63,8 +63,8 @@
       <id>5</id>
       <score>1200</score>
       <score2>1499</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -77,8 +77,8 @@
       <id>6</id>
       <score>1500</score>
       <score2>1799</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -91,8 +91,8 @@
       <id>7</id>
       <score>1800</score>
       <score2>2099</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -105,8 +105,8 @@
       <id>8</id>
       <score>2100</score>
       <score2>2399</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -119,8 +119,8 @@
       <id>9</id>
       <score>2400</score>
       <score2>2699</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -133,8 +133,8 @@
       <id>10</id>
       <score>2700</score>
       <score2>2999</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -147,8 +147,8 @@
       <id>11</id>
       <score>3000</score>
       <score2>3299</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -161,8 +161,8 @@
       <id>12</id>
       <score>3300</score>
       <score2>3599</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -175,8 +175,8 @@
       <id>13</id>
       <score>3600</score>
       <score2>3899</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -189,8 +189,8 @@
       <id>14</id>
       <score>3900</score>
       <score2>4199</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -203,8 +203,8 @@
       <id>15</id>
       <score>4200</score>
       <score2>4499</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -217,8 +217,8 @@
       <id>16</id>
       <score>4500</score>
       <score2>4799</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>
@@ -231,8 +231,8 @@
       <id>17</id>
       <score>4800</score>
       <score2>5099</score2>
-      <win>300</win>
-      <lose>60</lose>
+      <win>30</win>
+      <lose>6</lose>
       <adwin>-150</adwin>
       <adlose>-50</adlose>
       <diswin>150</diswin>

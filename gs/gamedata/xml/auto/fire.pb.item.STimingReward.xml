@@ -6,7 +6,7 @@
     <fire.pb.item.STimingReward>
       <id>1</id>
       <timewait>5</timewait>
-      <itemid__1>335120</itemid__1>
+      <itemid__1>310102</itemid__1>
       <itemnum__1>1</itemnum__1>
       <itembind__1>0</itembind__1>
       <itemid__2>0</itemid__2>
@@ -22,7 +22,7 @@
     <fire.pb.item.STimingReward>
       <id>2</id>
       <timewait>60</timewait>
-      <itemid__1>32014</itemid__1>
+      <itemid__1>310102</itemid__1>
       <itemnum__1>1</itemnum__1>
       <itembind__1>0</itembind__1>
       <itemid__2>0</itemid__2>
@@ -38,7 +38,7 @@
     <fire.pb.item.STimingReward>
       <id>3</id>
       <timewait>180</timewait>
-      <itemid__1>32015</itemid__1>
+      <itemid__1>310103</itemid__1>
       <itemnum__1>1</itemnum__1>
       <itembind__1>0</itembind__1>
       <itemid__2>0</itemid__2>
@@ -54,7 +54,7 @@
     <fire.pb.item.STimingReward>
       <id>4</id>
       <timewait>300</timewait>
-      <itemid__1>335121</itemid__1>
+      <itemid__1>310103</itemid__1>
       <itemnum__1>1</itemnum__1>
       <itembind__1>0</itembind__1>
       <itemid__2>0</itemid__2>
@@ -70,7 +70,7 @@
     <fire.pb.item.STimingReward>
       <id>5</id>
       <timewait>300</timewait>
-      <itemid__1>335122</itemid__1>
+      <itemid__1>310104</itemid__1>
       <itemnum__1>1</itemnum__1>
       <itembind__1>0</itembind__1>
       <itemid__2>0</itemid__2>
@@ -86,7 +86,7 @@
     <fire.pb.item.STimingReward>
       <id>6</id>
       <timewait>300</timewait>
-      <itemid__1>335000</itemid__1>
+      <itemid__1>310104</itemid__1>
       <itemnum__1>1</itemnum__1>
       <itembind__1>0</itembind__1>
       <itemid__2>0</itemid__2>
@@ -102,8 +102,8 @@
     <fire.pb.item.STimingReward>
       <id>7</id>
       <timewait>300</timewait>
-      <itemid__1>336010</itemid__1>
-      <itemnum__1>1</itemnum__1>
+      <itemid__1>310105</itemid__1>
+      <itemnum__1>3</itemnum__1>
       <itembind__1>0</itembind__1>
       <itemid__2>0</itemid__2>
       <itemnum__2>0</itemnum__2>

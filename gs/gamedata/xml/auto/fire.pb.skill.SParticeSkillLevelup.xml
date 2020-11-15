@@ -6,14 +6,14 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>0</id>
       <vecskillexp>
-        <int>150</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>150</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>45</playerlevel>
       <factionlevel>1</factionlevel>
@@ -25,14 +25,14 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>1</id>
       <vecskillexp>
-        <int>240</int>
-        <int>160</int>
-        <int>160</int>
-        <int>160</int>
-        <int>240</int>
-        <int>160</int>
-        <int>160</int>
-        <int>160</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>50</playerlevel>
       <factionlevel>1</factionlevel>
@@ -44,14 +44,14 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>2</id>
       <vecskillexp>
-        <int>360</int>
-        <int>240</int>
-        <int>240</int>
-        <int>240</int>
-        <int>360</int>
-        <int>240</int>
-        <int>240</int>
-        <int>240</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>55</playerlevel>
       <factionlevel>1</factionlevel>
@@ -63,14 +63,14 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>3</id>
       <vecskillexp>
-        <int>510</int>
-        <int>340</int>
-        <int>340</int>
-        <int>340</int>
-        <int>510</int>
-        <int>340</int>
-        <int>340</int>
-        <int>340</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>55</playerlevel>
       <factionlevel>1</factionlevel>
@@ -82,14 +82,14 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>4</id>
       <vecskillexp>
-        <int>690</int>
-        <int>460</int>
-        <int>460</int>
-        <int>460</int>
-        <int>690</int>
-        <int>460</int>
-        <int>460</int>
-        <int>460</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>60</playerlevel>
       <factionlevel>1</factionlevel>
@@ -101,18 +101,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>5</id>
       <vecskillexp>
-        <int>900</int>
-        <int>600</int>
-        <int>600</int>
-        <int>600</int>
-        <int>900</int>
-        <int>600</int>
-        <int>600</int>
-        <int>600</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>60</playerlevel>
       <factionlevel>1</factionlevel>
-      <maxcon>150</maxcon>
+      <maxcon>1500</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -120,18 +120,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>6</id>
       <vecskillexp>
-        <int>1140</int>
-        <int>760</int>
-        <int>760</int>
-        <int>760</int>
-        <int>1140</int>
-        <int>760</int>
-        <int>760</int>
-        <int>760</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>60</playerlevel>
       <factionlevel>1</factionlevel>
-      <maxcon>300</maxcon>
+      <maxcon>6000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -139,18 +139,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>7</id>
       <vecskillexp>
-        <int>1410</int>
-        <int>940</int>
-        <int>940</int>
-        <int>940</int>
-        <int>1410</int>
-        <int>940</int>
-        <int>940</int>
-        <int>940</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>60</playerlevel>
       <factionlevel>1</factionlevel>
-      <maxcon>450</maxcon>
+      <maxcon>9000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -158,18 +158,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>8</id>
       <vecskillexp>
-        <int>1710</int>
-        <int>1140</int>
-        <int>1140</int>
-        <int>1140</int>
-        <int>1710</int>
-        <int>1140</int>
-        <int>1140</int>
-        <int>1140</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>65</playerlevel>
-      <factionlevel>2</factionlevel>
-      <maxcon>600</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>12000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -177,18 +177,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>9</id>
       <vecskillexp>
-        <int>2040</int>
-        <int>1360</int>
-        <int>1360</int>
-        <int>1360</int>
-        <int>2040</int>
-        <int>1360</int>
-        <int>1360</int>
-        <int>1360</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>65</playerlevel>
-      <factionlevel>2</factionlevel>
-      <maxcon>750</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>15000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -196,18 +196,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>10</id>
       <vecskillexp>
-        <int>2400</int>
-        <int>1600</int>
-        <int>1600</int>
-        <int>1600</int>
-        <int>2400</int>
-        <int>1600</int>
-        <int>1600</int>
-        <int>1600</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>65</playerlevel>
-      <factionlevel>2</factionlevel>
-      <maxcon>900</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>18000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -215,18 +215,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>11</id>
       <vecskillexp>
-        <int>2790</int>
-        <int>1860</int>
-        <int>1860</int>
-        <int>1860</int>
-        <int>2790</int>
-        <int>1860</int>
-        <int>1860</int>
-        <int>1860</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>65</playerlevel>
-      <factionlevel>2</factionlevel>
-      <maxcon>1050</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>21000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -234,18 +234,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>12</id>
       <vecskillexp>
-        <int>3285</int>
-        <int>2190</int>
-        <int>2190</int>
-        <int>2190</int>
-        <int>3285</int>
-        <int>2190</int>
-        <int>2190</int>
-        <int>2190</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>70</playerlevel>
-      <factionlevel>3</factionlevel>
-      <maxcon>1200</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>24000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -253,18 +253,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>13</id>
       <vecskillexp>
-        <int>4035</int>
-        <int>2690</int>
-        <int>2690</int>
-        <int>2690</int>
-        <int>4035</int>
-        <int>2690</int>
-        <int>2690</int>
-        <int>2690</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>70</playerlevel>
-      <factionlevel>3</factionlevel>
-      <maxcon>1350</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>27000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -272,18 +272,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>14</id>
       <vecskillexp>
-        <int>4215</int>
-        <int>2810</int>
-        <int>2810</int>
-        <int>2810</int>
-        <int>4215</int>
-        <int>2810</int>
-        <int>2810</int>
-        <int>2810</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>75</playerlevel>
-      <factionlevel>3</factionlevel>
-      <maxcon>1500</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>30000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -291,18 +291,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>15</id>
       <vecskillexp>
-        <int>4575</int>
-        <int>3050</int>
-        <int>3050</int>
-        <int>3050</int>
-        <int>4575</int>
-        <int>3050</int>
-        <int>3050</int>
-        <int>3050</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>75</playerlevel>
-      <factionlevel>3</factionlevel>
-      <maxcon>1650</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>33000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -310,18 +310,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>16</id>
       <vecskillexp>
-        <int>5265</int>
-        <int>3510</int>
-        <int>3510</int>
-        <int>3510</int>
-        <int>5265</int>
-        <int>3510</int>
-        <int>3510</int>
-        <int>3510</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>80</playerlevel>
-      <factionlevel>4</factionlevel>
-      <maxcon>1800</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>36000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -329,18 +329,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>17</id>
       <vecskillexp>
-        <int>5935</int>
-        <int>3890</int>
-        <int>3890</int>
-        <int>3890</int>
-        <int>5935</int>
-        <int>3890</int>
-        <int>3890</int>
-        <int>3890</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>80</playerlevel>
-      <factionlevel>4</factionlevel>
-      <maxcon>1950</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>39000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -348,18 +348,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>18</id>
       <vecskillexp>
-        <int>6335</int>
-        <int>4290</int>
-        <int>4290</int>
-        <int>4290</int>
-        <int>6335</int>
-        <int>4290</int>
-        <int>4290</int>
-        <int>4290</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>85</playerlevel>
-      <factionlevel>4</factionlevel>
-      <maxcon>2100</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>42000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -367,18 +367,18 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>19</id>
       <vecskillexp>
-        <int>6965</int>
-        <int>4710</int>
-        <int>4710</int>
-        <int>4710</int>
-        <int>6965</int>
-        <int>4710</int>
-        <int>4710</int>
-        <int>4710</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>85</playerlevel>
-      <factionlevel>4</factionlevel>
-      <maxcon>2250</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
   <entry>
@@ -386,18 +386,398 @@
     <fire.pb.skill.SParticeSkillLevelup>
       <id>20</id>
       <vecskillexp>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
       </vecskillexp>
       <playerlevel>85</playerlevel>
-      <factionlevel>5</factionlevel>
-      <maxcon>2250</maxcon>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>21</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>21</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>22</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>22</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>23</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>23</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>24</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>24</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>25</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>25</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>26</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>26</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>27</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>27</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>28</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>28</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>29</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>29</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>30</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>30</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>90</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>31</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>31</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>32</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>32</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>33</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>33</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>34</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>34</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>35</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>35</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>36</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>36</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>37</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>37</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>38</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>38</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>39</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>39</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
+    </fire.pb.skill.SParticeSkillLevelup>
+  </entry>
+  <entry>
+    <int>40</int>
+    <fire.pb.skill.SParticeSkillLevelup>
+      <id>40</id>
+      <vecskillexp>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+        <int>10</int>
+      </vecskillexp>
+      <playerlevel>100</playerlevel>
+      <factionlevel>1</factionlevel>
+      <maxcon>45000</maxcon>
     </fire.pb.skill.SParticeSkillLevelup>
   </entry>
 </tree-map>

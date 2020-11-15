@@ -9,8 +9,8 @@
       <item1>335001</item1>
       <item1num>1</item1num>
       <item1bind>0</item1bind>
-      <item2>0</item2>
-      <item2num>0</item2num>
+      <item2>338000</item2>
+      <item2num>2</item2num>
       <item2bind>0</item2bind>
       <item3>0</item3>
       <item3num>0</item3num>
@@ -25,8 +25,8 @@
       <item1>340051</item1>
       <item1num>1</item1num>
       <item1bind>0</item1bind>
-      <item2>0</item2>
-      <item2num>0</item2num>
+      <item2>338000</item2>
+      <item2num>2</item2num>
       <item2bind>0</item2bind>
       <item3>0</item3>
       <item3num>0</item3num>
@@ -44,8 +44,8 @@
       <item2>334101</item2>
       <item2num>10</item2num>
       <item2bind>0</item2bind>
-      <item3>0</item3>
-      <item3num>0</item3num>
+      <item3>338000</item3>
+      <item3num>2</item3num>
       <item3bind>0</item3bind>
     </fire.pb.activity.SFestivalConf4D>
   </entry>
@@ -57,8 +57,8 @@
       <item1>337010</item1>
       <item1num>2</item1num>
       <item1bind>0</item1bind>
-      <item2>0</item2>
-      <item2num>0</item2num>
+      <item2>338000</item2>
+      <item2num>2</item2num>
       <item2bind>0</item2bind>
       <item3>0</item3>
       <item3num>0</item3num>
@@ -76,8 +76,8 @@
       <item2>40010</item2>
       <item2num>4</item2num>
       <item2bind>1</item2bind>
-      <item3>0</item3>
-      <item3num>0</item3num>
+      <item3>338000</item3>
+      <item3num>2</item3num>
       <item3bind>0</item3bind>
     </fire.pb.activity.SFestivalConf4D>
   </entry>
@@ -88,9 +88,9 @@
       <date>2016-09-20 00:00:00</date>
       <item1>310102</item1>
       <item1num>10</item1num>
-      <item1bind>0</item1bind>
-      <item2>0</item2>
-      <item2num>0</item2num>
+      <item1bind>1</item1bind>
+      <item2>338000</item2>
+      <item2num>2</item2num>
       <item2bind>0</item2bind>
       <item3>0</item3>
       <item3num>0</item3num>
@@ -102,11 +102,11 @@
     <fire.pb.activity.SFestivalConf4D>
       <id>107</id>
       <date>2016-09-21 00:00:00</date>
-      <item1>331408</item1>
-      <item1num>1</item1num>
-      <item1bind>0</item1bind>
-      <item2>0</item2>
-      <item2num>0</item2num>
+      <item1>336010</item1>
+      <item1num>2</item1num>
+      <item1bind>1</item1bind>
+      <item2>338000</item2>
+      <item2num>2</item2num>
       <item2bind>0</item2bind>
       <item3>0</item3>
       <item3num>0</item3num>

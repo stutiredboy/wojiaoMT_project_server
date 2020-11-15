@@ -9,14 +9,15 @@
       <schools>
         <int>11</int>
         <int>12</int>
-        <int>17</int>
+        <int>24</int>
       </schools>
       <initequip>
-        <int>4001220</int>
-        <int>4001322</int>
-        <int>4001424</int>
-        <int>4001525</int>
-        <int>4001626</int>
+        <int>7090101</int>
+        <int>7090207</int>
+        <int>7090309</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -24,18 +25,19 @@
     <int>2</int>
     <fire.pb.role.SCreateRoleConfig>
       <id>2</id>
-      <sex>2</sex>
+      <sex>1</sex>
       <schools>
-        <int>11</int>
+        <int>19</int>
         <int>12</int>
-        <int>17</int>
+        <int>11</int>
       </schools>
       <initequip>
-        <int>4001221</int>
-        <int>4001323</int>
-        <int>4001424</int>
-        <int>4001525</int>
-        <int>4001626</int>
+        <int>7090104</int>
+        <int>7090207</int>
+        <int>7090309</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -47,14 +49,15 @@
       <schools>
         <int>13</int>
         <int>14</int>
-        <int>18</int>
+        <int>17</int>
       </schools>
       <initequip>
-        <int>4001220</int>
-        <int>4001322</int>
-        <int>4001424</int>
-        <int>4001525</int>
-        <int>4001626</int>
+        <int>7090103</int>
+        <int>7090207</int>
+        <int>7090309</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -64,16 +67,17 @@
       <id>4</id>
       <sex>2</sex>
       <schools>
-        <int>13</int>
+        <int>23</int>
         <int>14</int>
-        <int>18</int>
+        <int>22</int>
       </schools>
       <initequip>
-        <int>4001221</int>
-        <int>4001323</int>
-        <int>4001424</int>
-        <int>4001525</int>
-        <int>4001626</int>
+        <int>7090106</int>
+        <int>7090208</int>
+        <int>7090310</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -84,15 +88,16 @@
       <sex>1</sex>
       <schools>
         <int>15</int>
-        <int>16</int>
-        <int>19</int>
+        <int>21</int>
+        <int>20</int>
       </schools>
       <initequip>
-        <int>4001220</int>
-        <int>4001322</int>
-        <int>4001424</int>
-        <int>4001525</int>
-        <int>4001626</int>
+        <int>7090102</int>
+        <int>7090207</int>
+        <int>7090309</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -104,14 +109,15 @@
       <schools>
         <int>15</int>
         <int>16</int>
-        <int>19</int>
+        <int>18</int>
       </schools>
       <initequip>
-        <int>4001221</int>
-        <int>4001323</int>
-        <int>4001424</int>
-        <int>4001525</int>
-        <int>4001626</int>
+        <int>7090105</int>
+        <int>7090208</int>
+        <int>7090310</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -121,22 +127,58 @@
       <id>7</id>
       <sex>1</sex>
       <schools>
-        <int>17</int>
-        <int>18</int>
-        <int>19</int>
+        <int>15</int>
+        <int>21</int>
+        <int>20</int>
       </schools>
+      <initequip>
+        <int>7090107</int>
+        <int>7090207</int>
+        <int>7090309</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
+      </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
   <entry>
     <int>8</int>
     <fire.pb.role.SCreateRoleConfig>
       <id>8</id>
+      <sex>1</sex>
+      <schools>
+        <int>13</int>
+        <int>17</int>
+        <int>23</int>
+      </schools>
+      <initequip>
+        <int>7090108</int>
+        <int>7090207</int>
+        <int>7090309</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
+      </initequip>
+    </fire.pb.role.SCreateRoleConfig>
+  </entry>
+  <entry>
+    <int>9</int>
+    <fire.pb.role.SCreateRoleConfig>
+      <id>9</id>
       <sex>2</sex>
       <schools>
-        <int>17</int>
-        <int>18</int>
-        <int>19</int>
+        <int>24</int>
+        <int>12</int>
+        <int>25</int>
       </schools>
+      <initequip>
+        <int>7090109</int>
+        <int>7090208</int>
+        <int>7090310</int>
+        <int>7090411</int>
+        <int>7090512</int>
+        <int>7090613</int>
+      </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
 </tree-map>

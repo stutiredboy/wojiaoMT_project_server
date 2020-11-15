@@ -89,14 +89,14 @@
     <int>120</int>
     <fire.pb.common.SCommon>
       <id>120</id>
-      <value>10</value>
+      <value>50</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>121</int>
     <fire.pb.common.SCommon>
       <id>121</id>
-      <value>5</value>
+      <value>10</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -110,14 +110,14 @@
     <int>131</int>
     <fire.pb.common.SCommon>
       <id>131</id>
-      <value>120</value>
+      <value>100</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>132</int>
     <fire.pb.common.SCommon>
       <id>132</id>
-      <value>600</value>
+      <value>10</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -166,21 +166,21 @@
     <int>143</int>
     <fire.pb.common.SCommon>
       <id>143</id>
-      <value>100</value>
+      <value>0</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>144</int>
     <fire.pb.common.SCommon>
       <id>144</id>
-      <value>100</value>
+      <value>10000</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>145</int>
     <fire.pb.common.SCommon>
       <id>145</id>
-      <value>10000</value>
+      <value>100000</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -229,7 +229,7 @@
     <int>153</int>
     <fire.pb.common.SCommon>
       <id>153</id>
-      <value>4</value>
+      <value>1</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -292,14 +292,14 @@
     <int>162</int>
     <fire.pb.common.SCommon>
       <id>162</id>
-      <value>13</value>
+      <value>40</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>163</int>
     <fire.pb.common.SCommon>
       <id>163</id>
-      <value>10</value>
+      <value>50</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -319,7 +319,7 @@
     <int>166</int>
     <fire.pb.common.SCommon>
       <id>166</id>
-      <value>20</value>
+      <value>40</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -488,7 +488,7 @@
     <int>200</int>
     <fire.pb.common.SCommon>
       <id>200</id>
-      <value>60000</value>
+      <value>10000</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -786,14 +786,14 @@
     <int>244</int>
     <fire.pb.common.SCommon>
       <id>244</id>
-      <value>10000000</value>
+      <value>100000</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>245</int>
     <fire.pb.common.SCommon>
       <id>245</id>
-      <value>8000000</value>
+      <value>80000</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -1043,14 +1043,14 @@
     <int>287</int>
     <fire.pb.common.SCommon>
       <id>287</id>
-      <value>20</value>
+      <value>88888</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>288</int>
     <fire.pb.common.SCommon>
       <id>288</id>
-      <value>20</value>
+      <value>40</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -1444,14 +1444,14 @@
     <int>348</int>
     <fire.pb.common.SCommon>
       <id>348</id>
-      <value>5</value>
+      <value>50</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>349</int>
     <fire.pb.common.SCommon>
       <id>349</id>
-      <value>5</value>
+      <value>50</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -1479,21 +1479,21 @@
     <int>355</int>
     <fire.pb.common.SCommon>
       <id>355</id>
-      <value>20</value>
+      <value>70</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>356</int>
     <fire.pb.common.SCommon>
       <id>356</id>
-      <value>20</value>
+      <value>70</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>357</int>
     <fire.pb.common.SCommon>
       <id>357</id>
-      <value>20</value>
+      <value>70</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -1514,7 +1514,7 @@
     <int>360</int>
     <fire.pb.common.SCommon>
       <id>360</id>
-      <value>300</value>
+      <value>90000</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -1535,14 +1535,14 @@
     <int>363</int>
     <fire.pb.common.SCommon>
       <id>363</id>
-      <value>10000</value>
+      <value>0</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>364</int>
     <fire.pb.common.SCommon>
       <id>364</id>
-      <value>100000</value>
+      <value>1000000</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -2039,6 +2039,55 @@
     <fire.pb.common.SCommon>
       <id>467</id>
       <value>100</value>
+    </fire.pb.common.SCommon>
+  </entry>
+  <entry>
+    <int>468</int>
+    <fire.pb.common.SCommon>
+      <id>468</id>
+      <value>5960</value>
+    </fire.pb.common.SCommon>
+  </entry>
+  <entry>
+    <int>469</int>
+    <fire.pb.common.SCommon>
+      <id>469</id>
+      <value>5960</value>
+    </fire.pb.common.SCommon>
+  </entry>
+  <entry>
+    <int>470</int>
+    <fire.pb.common.SCommon>
+      <id>470</id>
+      <value>5960</value>
+    </fire.pb.common.SCommon>
+  </entry>
+  <entry>
+    <int>471</int>
+    <fire.pb.common.SCommon>
+      <id>471</id>
+      <value>5960</value>
+    </fire.pb.common.SCommon>
+  </entry>
+  <entry>
+    <int>472</int>
+    <fire.pb.common.SCommon>
+      <id>472</id>
+      <value>20</value>
+    </fire.pb.common.SCommon>
+  </entry>
+  <entry>
+    <int>473</int>
+    <fire.pb.common.SCommon>
+      <id>473</id>
+      <value>1500</value>
+    </fire.pb.common.SCommon>
+  </entry>
+  <entry>
+    <int>474</int>
+    <fire.pb.common.SCommon>
+      <id>474</id>
+      <value>1500</value>
     </fire.pb.common.SCommon>
   </entry>
 </tree-map>

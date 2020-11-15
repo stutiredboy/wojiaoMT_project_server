@@ -8,11 +8,11 @@
       <maptype>3</maptype>
       <LevelLimitMin>1</LevelLimitMin>
       <LevelLimitMax>14</LevelLimitMax>
-      <SubUnderGroundMap>1601,1624,1625,1626,1627,1628,1629,1630,1631,1602,1632,1633,1634,1635,1636,1603,1637,1638,1639,1640,1641,1604,1642,1643,1644,1645,1646,1647,1648,1649</SubUnderGroundMap>
-      <topx>1</topx>
-      <topy>1</topy>
-      <bottomx>90</bottomx>
-      <bottomy>90</bottomy>
+      <SubUnderGroundMap>1601,1624,1625,1626,1627,1628,1629,1630,1631,1602,1632,1633,1634,1635,1636,1603,1637,1638</SubUnderGroundMap>
+      <topx>51</topx>
+      <topy>92</topy>
+      <bottomx>51</bottomx>
+      <bottomy>92</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -23,10 +23,10 @@
       <LevelLimitMin>15</LevelLimitMin>
       <LevelLimitMax>24</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>1</topx>
-      <topy>1</topy>
-      <bottomx>90</bottomx>
-      <bottomy>90</bottomy>
+      <topx>51</topx>
+      <topy>92</topy>
+      <bottomx>51</bottomx>
+      <bottomy>92</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -146,8 +146,8 @@
     <fire.pb.map.SWorldMapConfig>
       <id>1632</id>
       <maptype>3</maptype>
-      <LevelLimitMin>53</LevelLimitMin>
-      <LevelLimitMax>55</LevelLimitMax>
+      <LevelLimitMin>72</LevelLimitMin>
+      <LevelLimitMax>52</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
       <topx>1</topx>
       <topy>1</topy>
@@ -160,8 +160,8 @@
     <fire.pb.map.SWorldMapConfig>
       <id>1633</id>
       <maptype>3</maptype>
-      <LevelLimitMin>56</LevelLimitMin>
-      <LevelLimitMax>59</LevelLimitMax>
+      <LevelLimitMin>53</LevelLimitMin>
+      <LevelLimitMax>55</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
       <topx>1</topx>
       <topy>1</topy>
@@ -174,8 +174,8 @@
     <fire.pb.map.SWorldMapConfig>
       <id>1634</id>
       <maptype>3</maptype>
-      <LevelLimitMin>60</LevelLimitMin>
-      <LevelLimitMax>62</LevelLimitMax>
+      <LevelLimitMin>56</LevelLimitMin>
+      <LevelLimitMax>59</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
       <topx>1</topx>
       <topy>1</topy>
@@ -188,8 +188,8 @@
     <fire.pb.map.SWorldMapConfig>
       <id>1635</id>
       <maptype>3</maptype>
-      <LevelLimitMin>63</LevelLimitMin>
-      <LevelLimitMax>65</LevelLimitMax>
+      <LevelLimitMin>60</LevelLimitMin>
+      <LevelLimitMax>62</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
       <topx>1</topx>
       <topy>1</topy>
@@ -202,8 +202,8 @@
     <fire.pb.map.SWorldMapConfig>
       <id>1636</id>
       <maptype>3</maptype>
-      <LevelLimitMin>66</LevelLimitMin>
-      <LevelLimitMax>69</LevelLimitMax>
+      <LevelLimitMin>63</LevelLimitMin>
+      <LevelLimitMax>65</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
       <topx>1</topx>
       <topy>1</topy>
@@ -216,8 +216,8 @@
     <fire.pb.map.SWorldMapConfig>
       <id>1603</id>
       <maptype>3</maptype>
-      <LevelLimitMin>70</LevelLimitMin>
-      <LevelLimitMax>71</LevelLimitMax>
+      <LevelLimitMin>66</LevelLimitMin>
+      <LevelLimitMax>69</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
       <topx>1</topx>
       <topy>1</topy>
@@ -230,7 +230,7 @@
     <fire.pb.map.SWorldMapConfig>
       <id>1637</id>
       <maptype>3</maptype>
-      <LevelLimitMin>72</LevelLimitMin>
+      <LevelLimitMin>70</LevelLimitMin>
       <LevelLimitMax>73</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
       <topx>1</topx>
@@ -429,10 +429,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>50</topx>
-      <topy>73</topy>
-      <bottomx>60</bottomx>
-      <bottomy>90</bottomy>
+      <topx>77</topx>
+      <topy>85</topy>
+      <bottomx>77</bottomx>
+      <bottomy>85</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -443,10 +443,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>66</topx>
-      <topy>52</topy>
-      <bottomx>76</bottomx>
-      <bottomy>86</bottomy>
+      <topx>53</topx>
+      <topy>32</topy>
+      <bottomx>53</bottomx>
+      <bottomy>32</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -457,10 +457,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>88</topx>
-      <topy>33</topy>
-      <bottomx>95</bottomx>
-      <bottomy>66</bottomy>
+      <topx>213</topx>
+      <topy>221</topy>
+      <bottomx>213</bottomx>
+      <bottomy>221</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -471,10 +471,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>46</topx>
-      <topy>49</topy>
-      <bottomx>63</bottomx>
-      <bottomy>68</bottomy>
+      <topx>14</topx>
+      <topy>59</topy>
+      <bottomx>14</bottomx>
+      <bottomy>59</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -485,10 +485,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>66</topx>
-      <topy>64</topy>
-      <bottomx>79</bottomx>
-      <bottomy>92</bottomy>
+      <topx>132</topx>
+      <topy>162</topy>
+      <bottomx>132</bottomx>
+      <bottomy>162</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -499,10 +499,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>28</topx>
-      <topy>47</topy>
-      <bottomx>40</bottomx>
-      <bottomy>65</bottomy>
+      <topx>150</topx>
+      <topy>61</topy>
+      <bottomx>150</bottomx>
+      <bottomy>61</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -513,10 +513,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>51</topx>
-      <topy>32</topy>
-      <bottomx>61</bottomx>
-      <bottomy>56</bottomy>
+      <topx>200</topx>
+      <topy>55</topy>
+      <bottomx>200</bottomx>
+      <bottomy>55</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -527,10 +527,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>30</topx>
-      <topy>42</topy>
-      <bottomx>48</bottomx>
-      <bottomy>69</bottomy>
+      <topx>16</topx>
+      <topy>187</topy>
+      <bottomx>16</bottomx>
+      <bottomy>187</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -555,10 +555,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>62</topx>
-      <topy>67</topy>
-      <bottomx>74</bottomx>
-      <bottomy>87</bottomy>
+      <topx>118</topx>
+      <topy>267</topy>
+      <bottomx>118</bottomx>
+      <bottomy>267</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -569,10 +569,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>133</topx>
-      <topy>106</topy>
-      <bottomx>147</bottomx>
-      <bottomy>159</bottomy>
+      <topx>243</topx>
+      <topy>196</topy>
+      <bottomx>243</bottomx>
+      <bottomy>196</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -583,10 +583,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>134</topx>
-      <topy>100</topy>
-      <bottomx>142</bottomx>
-      <bottomy>133</bottomy>
+      <topx>64</topx>
+      <topy>208</topy>
+      <bottomx>64</bottomx>
+      <bottomy>208</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -597,10 +597,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>24</topx>
-      <topy>54</topy>
-      <bottomx>29</bottomx>
-      <bottomy>69</bottomy>
+      <topx>96</topx>
+      <topy>126</topy>
+      <bottomx>96</bottomx>
+      <bottomy>126</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -611,10 +611,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>45</topx>
-      <topy>45</topy>
-      <bottomx>54</bottomx>
-      <bottomy>53</bottomy>
+      <topx>126</topx>
+      <topy>126</topy>
+      <bottomx>126</bottomx>
+      <bottomy>126</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -625,10 +625,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>30</topx>
-      <topy>43</topy>
-      <bottomx>50</bottomx>
-      <bottomy>62</bottomy>
+      <topx>22</topx>
+      <topy>40</topy>
+      <bottomx>22</bottomx>
+      <bottomy>40</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -639,10 +639,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>47</topx>
-      <topy>49</topy>
-      <bottomx>57</bottomx>
-      <bottomy>59</bottomy>
+      <topx>107</topx>
+      <topy>149</topy>
+      <bottomx>107</bottomx>
+      <bottomy>149</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -653,10 +653,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>45</topx>
-      <topy>45</topy>
-      <bottomx>54</bottomx>
-      <bottomy>53</bottomy>
+      <topx>106</topx>
+      <topy>92</topy>
+      <bottomx>106</bottomx>
+      <bottomy>92</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -667,10 +667,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>45</topx>
-      <topy>45</topy>
-      <bottomx>54</bottomx>
-      <bottomy>53</bottomy>
+      <topx>60</topx>
+      <topy>117</topy>
+      <bottomx>60</bottomx>
+      <bottomy>117</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -681,10 +681,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>33</topx>
-      <topy>37</topy>
-      <bottomx>39</bottomx>
-      <bottomy>61</bottomy>
+      <topx>36</topx>
+      <topy>71</topy>
+      <bottomx>36</bottomx>
+      <bottomy>71</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -695,10 +695,10 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>45</topx>
-      <topy>45</topy>
-      <bottomx>54</bottomx>
-      <bottomy>53</bottomy>
+      <topx>92</topx>
+      <topy>61</topy>
+      <bottomx>92</bottomx>
+      <bottomy>61</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
   <entry>
@@ -709,10 +709,206 @@
       <LevelLimitMin>-1</LevelLimitMin>
       <LevelLimitMax>-1</LevelLimitMax>
       <SubUnderGroundMap>0</SubUnderGroundMap>
-      <topx>35</topx>
-      <topy>44</topy>
-      <bottomx>42</bottomx>
-      <bottomy>55</bottomy>
+      <topx>33</topx>
+      <topy>137</topy>
+      <bottomx>33</bottomx>
+      <bottomy>137</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>8888</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>8888</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>40</topx>
+      <topy>64</topy>
+      <bottomx>40</bottomx>
+      <bottomy>64</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>6666</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>6666</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>12</topx>
+      <topy>100</topy>
+      <bottomx>12</bottomx>
+      <bottomy>100</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2300</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2300</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>12</topx>
+      <topy>100</topy>
+      <bottomx>12</bottomx>
+      <bottomy>100</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2205</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2205</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>11</topx>
+      <topy>109</topy>
+      <bottomx>11</bottomx>
+      <bottomy>109</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2206</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2206</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>11</topx>
+      <topy>109</topy>
+      <bottomx>11</bottomx>
+      <bottomy>109</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2207</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2207</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>30</topx>
+      <topy>43</topy>
+      <bottomx>30</bottomx>
+      <bottomy>43</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2208</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2208</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>24</topx>
+      <topy>32</topy>
+      <bottomx>24</bottomx>
+      <bottomy>32</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2210</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2210</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>123</topx>
+      <topy>64</topy>
+      <bottomx>123</bottomx>
+      <bottomy>64</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2211</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2211</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>53</topx>
+      <topy>99</topy>
+      <bottomx>53</bottomx>
+      <bottomy>99</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2212</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2212</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>50</topx>
+      <topy>90</topy>
+      <bottomx>50</bottomx>
+      <bottomy>90</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2213</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2213</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>53</topx>
+      <topy>99</topy>
+      <bottomx>53</bottomx>
+      <bottomy>99</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2214</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2214</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>53</topx>
+      <topy>99</topy>
+      <bottomx>53</bottomx>
+      <bottomy>99</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2215</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2215</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>53</topx>
+      <topy>99</topy>
+      <bottomx>53</bottomx>
+      <bottomy>99</bottomy>
+    </fire.pb.map.SWorldMapConfig>
+  </entry>
+  <entry>
+    <int>2216</int>
+    <fire.pb.map.SWorldMapConfig>
+      <id>2216</id>
+      <maptype>2</maptype>
+      <LevelLimitMin>-1</LevelLimitMin>
+      <LevelLimitMax>-1</LevelLimitMax>
+      <SubUnderGroundMap>0</SubUnderGroundMap>
+      <topx>41</topx>
+      <topy>260</topy>
+      <bottomx>41</bottomx>
+      <bottomy>260</bottomy>
     </fire.pb.map.SWorldMapConfig>
   </entry>
 </tree-map>

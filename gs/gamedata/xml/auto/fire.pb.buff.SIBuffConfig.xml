@@ -467,4 +467,14 @@
       <buffclass>53</buffclass>
     </fire.pb.buff.SIBuffConfig>
   </entry>
+  <entry>
+    <int>510301</int>
+    <fire.pb.buff.SIBuffConfig>
+      <id>510301</id>
+      <name>召唤单位</name>
+      <bufftype>0</bufftype>
+      <classname>fire.pb.buff.single.SingleBuff</classname>
+      <buffclass>53</buffclass>
+    </fire.pb.buff.SIBuffConfig>
+  </entry>
 </tree-map>

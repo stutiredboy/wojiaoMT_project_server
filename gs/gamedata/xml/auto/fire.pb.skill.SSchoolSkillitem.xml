@@ -811,10 +811,4 @@
       <id>188006</id>
     </fire.pb.skill.SSchoolSkillitem>
   </entry>
-  <entry>
-    <int>180017</int>
-    <fire.pb.skill.SSchoolSkillitem>
-      <id>180017</id>
-    </fire.pb.skill.SSchoolSkillitem>
-  </entry>
 </tree-map>

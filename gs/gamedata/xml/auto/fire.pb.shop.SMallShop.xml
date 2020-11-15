@@ -2,406 +2,559 @@
 <tree-map>
   <no-comparator/>
   <entry>
-    <int>4000</int>
+    <int>3000</int>
     <fire.pb.shop.SMallShop>
-      <id>4000</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4001</int>
-    <fire.pb.shop.SMallShop>
-      <id>4001</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4002</int>
-    <fire.pb.shop.SMallShop>
-      <id>4002</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4003</int>
-    <fire.pb.shop.SMallShop>
-      <id>4003</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4004</int>
-    <fire.pb.shop.SMallShop>
-      <id>4004</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4005</int>
-    <fire.pb.shop.SMallShop>
-      <id>4005</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4020</int>
-    <fire.pb.shop.SMallShop>
-      <id>4020</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4006</int>
-    <fire.pb.shop.SMallShop>
-      <id>4006</id>
-      <type>3</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4007</int>
-    <fire.pb.shop.SMallShop>
-      <id>4007</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4008</int>
-    <fire.pb.shop.SMallShop>
-      <id>4008</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4009</int>
-    <fire.pb.shop.SMallShop>
-      <id>4009</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4010</int>
-    <fire.pb.shop.SMallShop>
-      <id>4010</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4011</int>
-    <fire.pb.shop.SMallShop>
-      <id>4011</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4012</int>
-    <fire.pb.shop.SMallShop>
-      <id>4012</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4013</int>
-    <fire.pb.shop.SMallShop>
-      <id>4013</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4014</int>
-    <fire.pb.shop.SMallShop>
-      <id>4014</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4015</int>
-    <fire.pb.shop.SMallShop>
-      <id>4015</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4016</int>
-    <fire.pb.shop.SMallShop>
-      <id>4016</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4017</int>
-    <fire.pb.shop.SMallShop>
-      <id>4017</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4018</int>
-    <fire.pb.shop.SMallShop>
-      <id>4018</id>
-      <type>3</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4019</int>
-    <fire.pb.shop.SMallShop>
-      <id>4019</id>
+      <id>3000</id>
       <type>1</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4021</int>
+    <int>3001</int>
     <fire.pb.shop.SMallShop>
-      <id>4021</id>
+      <id>3001</id>
       <type>1</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4022</int>
+    <int>3002</int>
     <fire.pb.shop.SMallShop>
-      <id>4022</id>
+      <id>3002</id>
       <type>1</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4023</int>
+    <int>3003</int>
     <fire.pb.shop.SMallShop>
-      <id>4023</id>
-      <type>3</type>
+      <id>3003</id>
+      <type>1</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4024</int>
+    <int>3004</int>
     <fire.pb.shop.SMallShop>
-      <id>4024</id>
-      <type>3</type>
+      <id>3004</id>
+      <type>1</type>
       <totalrecharge>0</totalrecharge>
-      <viplvrequire>4</viplvrequire>
+      <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4025</int>
+    <int>3005</int>
     <fire.pb.shop.SMallShop>
-      <id>4025</id>
-      <type>3</type>
+      <id>3005</id>
+      <type>1</type>
       <totalrecharge>0</totalrecharge>
-      <viplvrequire>4</viplvrequire>
+      <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4026</int>
+    <int>3006</int>
     <fire.pb.shop.SMallShop>
-      <id>4026</id>
-      <type>3</type>
+      <id>3006</id>
+      <type>1</type>
       <totalrecharge>0</totalrecharge>
-      <viplvrequire>4</viplvrequire>
+      <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4027</int>
+    <int>3007</int>
     <fire.pb.shop.SMallShop>
-      <id>4027</id>
-      <type>3</type>
+      <id>3007</id>
+      <type>1</type>
       <totalrecharge>0</totalrecharge>
-      <viplvrequire>4</viplvrequire>
+      <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4028</int>
+    <int>3009</int>
     <fire.pb.shop.SMallShop>
-      <id>4028</id>
-      <type>3</type>
+      <id>3009</id>
+      <type>1</type>
       <totalrecharge>0</totalrecharge>
-      <viplvrequire>4</viplvrequire>
+      <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4030</int>
+    <int>3011</int>
     <fire.pb.shop.SMallShop>
-      <id>4030</id>
+      <id>3011</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3017</int>
+    <fire.pb.shop.SMallShop>
+      <id>3017</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3018</int>
+    <fire.pb.shop.SMallShop>
+      <id>3018</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3019</int>
+    <fire.pb.shop.SMallShop>
+      <id>3019</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3020</int>
+    <fire.pb.shop.SMallShop>
+      <id>3020</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3021</int>
+    <fire.pb.shop.SMallShop>
+      <id>3021</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3022</int>
+    <fire.pb.shop.SMallShop>
+      <id>3022</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3023</int>
+    <fire.pb.shop.SMallShop>
+      <id>3023</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3142</int>
+    <fire.pb.shop.SMallShop>
+      <id>3142</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3105</int>
+    <fire.pb.shop.SMallShop>
+      <id>3105</id>
       <type>2</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4031</int>
+    <int>3106</int>
     <fire.pb.shop.SMallShop>
-      <id>4031</id>
-      <type>1</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4032</int>
-    <fire.pb.shop.SMallShop>
-      <id>4032</id>
+      <id>3106</id>
       <type>2</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4034</int>
+    <int>3107</int>
     <fire.pb.shop.SMallShop>
-      <id>4034</id>
+      <id>3107</id>
       <type>2</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4036</int>
+    <int>3108</int>
     <fire.pb.shop.SMallShop>
-      <id>4036</id>
-      <type>1</type>
+      <id>3108</id>
+      <type>2</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4037</int>
+    <int>3109</int>
     <fire.pb.shop.SMallShop>
-      <id>4037</id>
-      <type>1</type>
+      <id>3109</id>
+      <type>2</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4038</int>
+    <int>3110</int>
     <fire.pb.shop.SMallShop>
-      <id>4038</id>
+      <id>3110</id>
+      <type>2</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3111</int>
+    <fire.pb.shop.SMallShop>
+      <id>3111</id>
+      <type>2</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3112</int>
+    <fire.pb.shop.SMallShop>
+      <id>3112</id>
+      <type>2</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3113</int>
+    <fire.pb.shop.SMallShop>
+      <id>3113</id>
+      <type>2</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3114</int>
+    <fire.pb.shop.SMallShop>
+      <id>3114</id>
       <type>3</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4039</int>
+    <int>3115</int>
     <fire.pb.shop.SMallShop>
-      <id>4039</id>
+      <id>3115</id>
       <type>3</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>
   </entry>
   <entry>
-    <int>4040</int>
+    <int>3116</int>
     <fire.pb.shop.SMallShop>
-      <id>4040</id>
-      <type>1</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4041</int>
-    <fire.pb.shop.SMallShop>
-      <id>4041</id>
-      <type>1</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4042</int>
-    <fire.pb.shop.SMallShop>
-      <id>4042</id>
-      <type>1</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4043</int>
-    <fire.pb.shop.SMallShop>
-      <id>4043</id>
-      <type>1</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4044</int>
-    <fire.pb.shop.SMallShop>
-      <id>4044</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4045</int>
-    <fire.pb.shop.SMallShop>
-      <id>4045</id>
-      <type>1</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4046</int>
-    <fire.pb.shop.SMallShop>
-      <id>4046</id>
-      <type>2</type>
-      <totalrecharge>0</totalrecharge>
-      <viplvrequire>0</viplvrequire>
-    </fire.pb.shop.SMallShop>
-  </entry>
-  <entry>
-    <int>4047</int>
-    <fire.pb.shop.SMallShop>
-      <id>4047</id>
+      <id>3116</id>
       <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3117</int>
+    <fire.pb.shop.SMallShop>
+      <id>3117</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3118</int>
+    <fire.pb.shop.SMallShop>
+      <id>3118</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3119</int>
+    <fire.pb.shop.SMallShop>
+      <id>3119</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3120</int>
+    <fire.pb.shop.SMallShop>
+      <id>3120</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3121</int>
+    <fire.pb.shop.SMallShop>
+      <id>3121</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3122</int>
+    <fire.pb.shop.SMallShop>
+      <id>3122</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3123</int>
+    <fire.pb.shop.SMallShop>
+      <id>3123</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3124</int>
+    <fire.pb.shop.SMallShop>
+      <id>3124</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3125</int>
+    <fire.pb.shop.SMallShop>
+      <id>3125</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3126</int>
+    <fire.pb.shop.SMallShop>
+      <id>3126</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3127</int>
+    <fire.pb.shop.SMallShop>
+      <id>3127</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3128</int>
+    <fire.pb.shop.SMallShop>
+      <id>3128</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3129</int>
+    <fire.pb.shop.SMallShop>
+      <id>3129</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3130</int>
+    <fire.pb.shop.SMallShop>
+      <id>3130</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3131</int>
+    <fire.pb.shop.SMallShop>
+      <id>3131</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3132</int>
+    <fire.pb.shop.SMallShop>
+      <id>3132</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3133</int>
+    <fire.pb.shop.SMallShop>
+      <id>3133</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3134</int>
+    <fire.pb.shop.SMallShop>
+      <id>3134</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3135</int>
+    <fire.pb.shop.SMallShop>
+      <id>3135</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3136</int>
+    <fire.pb.shop.SMallShop>
+      <id>3136</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3137</int>
+    <fire.pb.shop.SMallShop>
+      <id>3137</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3138</int>
+    <fire.pb.shop.SMallShop>
+      <id>3138</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3139</int>
+    <fire.pb.shop.SMallShop>
+      <id>3139</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3140</int>
+    <fire.pb.shop.SMallShop>
+      <id>3140</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>3141</int>
+    <fire.pb.shop.SMallShop>
+      <id>3141</id>
+      <type>3</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>4176</int>
+    <fire.pb.shop.SMallShop>
+      <id>4176</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>4177</int>
+    <fire.pb.shop.SMallShop>
+      <id>4177</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>4178</int>
+    <fire.pb.shop.SMallShop>
+      <id>4178</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>4180</int>
+    <fire.pb.shop.SMallShop>
+      <id>4180</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>4181</int>
+    <fire.pb.shop.SMallShop>
+      <id>4181</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>4182</int>
+    <fire.pb.shop.SMallShop>
+      <id>4182</id>
+      <type>1</type>
+      <totalrecharge>0</totalrecharge>
+      <viplvrequire>0</viplvrequire>
+    </fire.pb.shop.SMallShop>
+  </entry>
+  <entry>
+    <int>4183</int>
+    <fire.pb.shop.SMallShop>
+      <id>4183</id>
+      <type>1</type>
       <totalrecharge>0</totalrecharge>
       <viplvrequire>0</viplvrequire>
     </fire.pb.shop.SMallShop>

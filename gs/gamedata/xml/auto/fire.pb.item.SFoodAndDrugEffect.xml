@@ -5,7 +5,7 @@
     <int>32014</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>32014</id>
-      <name>大生命储备</name>
+      <name>大碗红罗羹</name>
       <unit>个</unit>
       <typeid>66</typeid>
       <level>0</level>
@@ -35,7 +35,7 @@
       <增加宠物寿命>0</增加宠物寿命>
       <effectdescribe>补充储备生命100000点</effectdescribe>
       <effect>
-        <int>100000</int>
+        <int>10000000</int>
       </effect>
       <funtionid>0</funtionid>
     </fire.pb.item.SFoodAndDrugEffect>
@@ -44,7 +44,7 @@
     <int>32015</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>32015</id>
-      <name>大魔法储备</name>
+      <name>大碗绿芦羹</name>
       <unit>个</unit>
       <typeid>66</typeid>
       <level>0</level>
@@ -74,7 +74,7 @@
       <增加宠物寿命>0</增加宠物寿命>
       <effectdescribe>补充储备魔法100000点</effectdescribe>
       <effect>
-        <int>100000</int>
+        <int>10000000</int>
       </effect>
       <funtionid>0</funtionid>
     </fire.pb.item.SFoodAndDrugEffect>
@@ -83,7 +83,7 @@
     <int>32037</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>32037</id>
-      <name>小生命储备</name>
+      <name>红罗羹</name>
       <unit>个</unit>
       <typeid>66</typeid>
       <level>0</level>
@@ -122,7 +122,7 @@
     <int>32038</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>32038</id>
-      <name>小魔法储备</name>
+      <name>绿芦羹</name>
       <unit>个</unit>
       <typeid>66</typeid>
       <level>0</level>
@@ -161,7 +161,7 @@
     <int>320000</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320000</id>
-      <name>肉干</name>
+      <name>包子</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -202,7 +202,7 @@
     <int>320001</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320001</id>
-      <name>培根煎蛋</name>
+      <name>臭豆腐</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -244,7 +244,7 @@
     <int>320002</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320002</id>
-      <name>樱桃派</name>
+      <name>佛跳墙</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -286,7 +286,7 @@
     <int>320003</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320003</id>
-      <name>香煎鲑鱼</name>
+      <name>桂花丸</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -328,7 +328,7 @@
     <int>320004</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320004</id>
-      <name>凤梨烈酒</name>
+      <name>珍露酒</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -370,7 +370,7 @@
     <int>320005</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320005</id>
-      <name>麻辣狼排</name>
+      <name>翡翠豆腐</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -412,7 +412,7 @@
     <int>320006</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320006</id>
-      <name>甜橙馅饼</name>
+      <name>长寿面</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -454,7 +454,7 @@
     <int>320007</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320007</id>
-      <name>朝露酒</name>
+      <name>蛇胆酒</name>
       <unit>个</unit>
       <typeid>290</typeid>
       <level>0</level>
@@ -496,7 +496,7 @@
     <int>320100</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320100</id>
-      <name>恢复剂</name>
+      <name>金疮药</name>
       <unit>个</unit>
       <typeid>291</typeid>
       <level>0</level>
@@ -537,7 +537,7 @@
     <int>320101</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320101</id>
-      <name>治疗药水</name>
+      <name>金香玉</name>
       <unit>个</unit>
       <typeid>291</typeid>
       <level>0</level>
@@ -579,7 +579,7 @@
     <int>320102</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320102</id>
-      <name>法力药水</name>
+      <name>定神香</name>
       <unit>个</unit>
       <typeid>291</typeid>
       <level>0</level>
@@ -621,7 +621,7 @@
     <int>320103</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320103</id>
-      <name>净化药剂</name>
+      <name>五龙丹</name>
       <unit>个</unit>
       <typeid>291</typeid>
       <level>0</level>
@@ -663,7 +663,7 @@
     <int>320104</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320104</id>
-      <name>复苏药剂</name>
+      <name>九转回魂丹</name>
       <unit>个</unit>
       <typeid>291</typeid>
       <level>0</level>
@@ -705,7 +705,7 @@
     <int>320105</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320105</id>
-      <name>重生药剂</name>
+      <name>佛光舍利子</name>
       <unit>个</unit>
       <typeid>291</typeid>
       <level>0</level>
@@ -786,7 +786,7 @@
     <int>320150</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320150</id>
-      <name>洋参草</name>
+      <name>血色茶花</name>
       <unit>个</unit>
       <typeid>275</typeid>
       <level>0</level>
@@ -826,7 +826,7 @@
     <int>320151</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320151</id>
-      <name>马齿草</name>
+      <name>鹿茸</name>
       <unit>个</unit>
       <typeid>275</typeid>
       <level>0</level>
@@ -866,7 +866,7 @@
     <int>320152</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320152</id>
-      <name>蒲公英</name>
+      <name>仙狐涎</name>
       <unit>个</unit>
       <typeid>275</typeid>
       <level>0</level>
@@ -906,7 +906,7 @@
     <int>320153</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320153</id>
-      <name>蓝莲花</name>
+      <name>麝香</name>
       <unit>个</unit>
       <typeid>275</typeid>
       <level>0</level>
@@ -946,7 +946,7 @@
     <int>320154</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320154</id>
-      <name>龙胆草</name>
+      <name>火凤之睛</name>
       <unit>个</unit>
       <typeid>323</typeid>
       <level>0</level>
@@ -986,7 +986,7 @@
     <int>320155</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320155</id>
-      <name>珍珠草</name>
+      <name>凤凰尾</name>
       <unit>个</unit>
       <typeid>323</typeid>
       <level>0</level>
@@ -1026,7 +1026,7 @@
     <int>320156</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320156</id>
-      <name>血荷草</name>
+      <name>孔雀红</name>
       <unit>个</unit>
       <typeid>323</typeid>
       <level>0</level>
@@ -1066,7 +1066,7 @@
     <int>320157</int>
     <fire.pb.item.SFoodAndDrugEffect>
       <id>320157</id>
-      <name>芒暮草</name>
+      <name>血珊瑚</name>
       <unit>个</unit>
       <typeid>323</typeid>
       <level>0</level>

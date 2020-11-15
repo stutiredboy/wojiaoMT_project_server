@@ -7,10 +7,10 @@
       <id>1</id>
       <questionid>1</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中“看老娘的烈焰红唇”是谁的口头禅？</question>
-      <answer1>傻馒</answer1>
-      <answer2>羞花</answer2>
-      <answer3>术士大妈</answer3>
+      <question>难度最低的任务是什么？</question>
+      <answer1>傲来封妖</answer1>
+      <answer2>皇宫飞贼</answer2>
+      <answer3>飞升副本</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -22,11 +22,11 @@
       <id>2</id>
       <questionid>2</questionid>
       <step>0</step>
-      <question>《我叫MT》中“大白腿”是谁？</question>
-      <answer1>血精灵</answer1>
-      <answer2>羞花</answer2>
-      <answer3>沐丝</answer3>
-      <rightanswer>1</rightanswer>
+      <question>所有BOSS中难度最高的任务是什么？</question>
+      <answer1>生死劫</answer1>
+      <answer2>蚩尤封印</answer2>
+      <answer3>6星天罡地煞</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -37,11 +37,11 @@
       <id>3</id>
       <questionid>3</questionid>
       <step>0</step>
-      <question>《我叫MT》中大小姐的仆人是？</question>
-      <answer1>羞花</answer1>
-      <answer2>会长</answer2>
-      <answer3>暗夜男</answer3>
-      <rightanswer>3</rightanswer>
+      <question>提升修炼最快的方法是什么？</question>
+      <answer1>跑环</answer1>
+      <answer2>刷BOSS</answer2>
+      <answer3>找GM</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -52,10 +52,10 @@
       <id>4</id>
       <questionid>4</questionid>
       <step>0</step>
-      <question>《我叫MT》中下列哪个角色脸是绿的？</question>
-      <answer1>呆贼</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>会长</answer3>
+      <question>修炼最高多少级？</question>
+      <answer1>40</answer1>
+      <answer2>30</answer2>
+      <answer3>20</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -67,10 +67,10 @@
       <id>5</id>
       <questionid>5</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中卖银鳞胸甲的是谁？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>神棍德</answer2>
-      <answer3>呆贼</answer3>
+      <question>高级宝图打什么可以掉落？</question>
+      <answer1>店小二任务</answer1>
+      <answer2>所有BOSS</answer2>
+      <answer3>星宿</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -82,11 +82,11 @@
       <id>6</id>
       <questionid>6</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中谁说话最温柔？</question>
-      <answer1>沐丝</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>美屡</answer3>
-      <rightanswer>1</rightanswer>
+      <question>每天必做的任务是什么？</question>
+      <answer1>师门</answer1>
+      <answer2>答题</answer2>
+      <answer3>以上皆是</answer3>
+      <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -97,10 +97,10 @@
       <id>7</id>
       <questionid>7</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中谁说话最快？</question>
-      <answer1>美屡</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>傻馒</answer3>
+      <question>月卡多少仙玉一张？</question>
+      <answer1>9800个</answer1>
+      <answer2>300个</answer2>
+      <answer3>9800万</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -112,11 +112,11 @@
       <id>8</id>
       <questionid>8</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中“娇花”是谁？</question>
-      <answer1>术士大妈</answer1>
-      <answer2>血精灵</answer2>
-      <answer3>沐丝</answer3>
-      <rightanswer>1</rightanswer>
+      <question>GM首充多少钱？</question>
+      <answer1>不充值</answer1>
+      <answer2>没有首充</answer2>
+      <answer3>10元</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -127,10 +127,10 @@
       <id>9</id>
       <questionid>9</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中“嗨，孙子！！”是谁的台词？</question>
-      <answer1>傻馒</answer1>
-      <answer2>哀木涕</answer2>
-      <answer3>劣人</answer3>
+      <question>摆摊交易需要什么？</question>
+      <answer1>什么都不需要</answer1>
+      <answer2>信用值</answer2>
+      <answer3>金币</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -142,10 +142,10 @@
       <id>10</id>
       <questionid>10</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中劣人总被谁打？</question>
-      <answer1>美屡</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>呆贼</answer3>
+      <question>需要激活什么才能摆摊交易？</question>
+      <answer1>免费关联手机</answer1>
+      <answer2>课金</answer2>
+      <answer3>找GM</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -157,11 +157,11 @@
       <id>11</id>
       <questionid>11</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁不是牛头人？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>劣人</answer2>
-      <answer3>傻馒</answer3>
-      <rightanswer>2</rightanswer>
+      <question>本服共有多少个门派？</question>
+      <answer1>15</answer1>
+      <answer2>10</answer2>
+      <answer3>12</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -172,11 +172,11 @@
       <id>12</id>
       <questionid>12</questionid>
       <step>0</step>
-      <question>《我叫MT》中的男性角色？</question>
-      <answer1>术士大妈</answer1>
-      <answer2>美屡</answer2>
-      <answer3>劣人</answer3>
-      <rightanswer>3</rightanswer>
+      <question>门派大唐官府主要作用是什么？</question>
+      <answer1>点杀</answer1>
+      <answer2>加血</answer2>
+      <answer3>封印</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -185,13 +185,13 @@
     <int>13</int>
     <fire.pb.mission.SActivityQuestion>
       <id>13</id>
-      <questionid>12</questionid>
-      <step>1</step>
-      <question>《我叫MT》中的男性角色？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>傻馒</answer3>
-      <rightanswer>1</rightanswer>
+      <questionid>13</questionid>
+      <step>0</step>
+      <question>门派化生寺主要作用是什么？</question>
+      <answer1>隐身</answer1>
+      <answer2>点杀</answer2>
+      <answer3>加血</answer3>
+      <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -200,13 +200,13 @@
     <int>14</int>
     <fire.pb.mission.SActivityQuestion>
       <id>14</id>
-      <questionid>12</questionid>
-      <step>2</step>
-      <question>《我叫MT》中的男性角色？</question>
-      <answer1>暗夜男</answer1>
-      <answer2>大小姐</answer2>
-      <answer3>血精灵</answer3>
-      <rightanswer>1</rightanswer>
+      <questionid>14</questionid>
+      <step>0</step>
+      <question>门派方寸山主要作用是什么？</question>
+      <answer1>救人</answer1>
+      <answer2>群秒</answer2>
+      <answer3>封印</answer3>
+      <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -215,13 +215,13 @@
     <int>15</int>
     <fire.pb.mission.SActivityQuestion>
       <id>15</id>
-      <questionid>13</questionid>
+      <questionid>15</questionid>
       <step>0</step>
-      <question>《我叫MT》中桶牛暗恋谁？</question>
-      <answer1>傻馒</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>美屡</answer3>
-      <rightanswer>2</rightanswer>
+      <question>门派狮驼岭主要作用是什么？</question>
+      <answer1>群攻</answer1>
+      <answer2>群秒</answer2>
+      <answer3>点杀</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -230,13 +230,13 @@
     <int>16</int>
     <fire.pb.mission.SActivityQuestion>
       <id>16</id>
-      <questionid>14</questionid>
+      <questionid>16</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁喜欢割牛的尾巴?</question>
-      <answer1>哀木涕</answer1>
-      <answer2>大小姐</answer2>
-      <answer3>美屡</answer3>
-      <rightanswer>3</rightanswer>
+      <question>门派魔王寨主要作用是什么？</question>
+      <answer1>群秒</answer1>
+      <answer2>加血</answer2>
+      <answer3>辅助</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -245,12 +245,12 @@
     <int>17</int>
     <fire.pb.mission.SActivityQuestion>
       <id>17</id>
-      <questionid>15</questionid>
+      <questionid>17</questionid>
       <step>0</step>
-      <question>《我叫MT》里的高富帅是谁？</question>
-      <answer1>神棍德</answer1>
-      <answer2>劣人</answer2>
-      <answer3>呆贼</answer3>
+      <question>门派阴府主要作用是什么？</question>
+      <answer1>隐身</answer1>
+      <answer2>加血</answer2>
+      <answer3>封印</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -260,12 +260,12 @@
     <int>18</int>
     <fire.pb.mission.SActivityQuestion>
       <id>18</id>
-      <questionid>16</questionid>
+      <questionid>18</questionid>
       <step>0</step>
-      <question>《我叫MT》游戏中被称作奸商的是谁？</question>
-      <answer1>会长</answer1>
-      <answer2>哀木涕</answer2>
-      <answer3>神棍德</answer3>
+      <question>门派盘丝洞主要作用是什么？</question>
+      <answer1>点杀</answer1>
+      <answer2>群攻</answer2>
+      <answer3>封印</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -275,13 +275,13 @@
     <int>19</int>
     <fire.pb.mission.SActivityQuestion>
       <id>19</id>
-      <questionid>17</questionid>
+      <questionid>19</questionid>
       <step>0</step>
-      <question>《我叫MT》不可以做成牛肉干的是？</question>
-      <answer1>暗夜男</answer1>
-      <answer2>哀木涕</answer2>
-      <answer3>神棍德</answer3>
-      <rightanswer>1</rightanswer>
+      <question>门派凌波城要作用是什么？</question>
+      <answer1>封印</answer1>
+      <answer2>群攻</answer2>
+      <answer3>群秒</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -290,13 +290,13 @@
     <int>20</int>
     <fire.pb.mission.SActivityQuestion>
       <id>20</id>
-      <questionid>18</questionid>
+      <questionid>20</questionid>
       <step>0</step>
-      <question>《我叫MT》中人至贱则无敌的代表者是？</question>
-      <answer1>沐丝</answer1>
-      <answer2>血精灵</answer2>
-      <answer3>会长</answer3>
-      <rightanswer>2</rightanswer>
+      <question>门派五庄观主要作用是什么？</question>
+      <answer1>封印</answer1>
+      <answer2>群攻</answer2>
+      <answer3>群秒</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -305,12 +305,12 @@
     <int>21</int>
     <fire.pb.mission.SActivityQuestion>
       <id>21</id>
-      <questionid>19</questionid>
+      <questionid>21</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中MT的跟屁虫是谁？</question>
-      <answer1>羞花</answer1>
-      <answer2>神棍德</answer2>
-      <answer3>沐丝</answer3>
+      <question>袁守城在那个位置？</question>
+      <answer1>建业</answer1>
+      <answer2>西梁女国</answer2>
+      <answer3>长安</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -320,12 +320,12 @@
     <int>22</int>
     <fire.pb.mission.SActivityQuestion>
       <id>22</id>
-      <questionid>20</questionid>
+      <questionid>22</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中小软内裤是谁的最爱？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>神棍德</answer2>
-      <answer3>呆贼</answer3>
+      <question>商城宝石最高可以购买多少级？</question>
+      <answer1>10</answer1>
+      <answer2>8</answer2>
+      <answer3>9</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -335,12 +335,12 @@
     <int>23</int>
     <fire.pb.mission.SActivityQuestion>
       <id>23</id>
-      <questionid>21</questionid>
+      <questionid>23</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中以下谁会隐身？</question>
-      <answer1>傻馒</answer1>
-      <answer2>女贼</answer2>
-      <answer3>劣人</answer3>
+      <question>等级突破找谁？</question>
+      <answer1>泡泡</answer1>
+      <answer2>GM</answer2>
+      <answer3>袁守城</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -350,12 +350,12 @@
     <int>24</int>
     <fire.pb.mission.SActivityQuestion>
       <id>24</id>
-      <questionid>22</questionid>
+      <questionid>24</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中迪奥布斯的面包机是谁？</question>
-      <answer1>地中海</answer1>
-      <answer2>会长</answer2>
-      <answer3>方砖</answer3>
+      <question>神兽总共可以突破多少次？</question>
+      <answer1>3</answer1>
+      <answer2>2</answer2>
+      <answer3>1</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -365,12 +365,12 @@
     <int>25</int>
     <fire.pb.mission.SActivityQuestion>
       <id>25</id>
-      <questionid>23</questionid>
+      <questionid>25</questionid>
       <step>0</step>
-      <question>《我叫MT》里大姐大是谁？</question>
-      <answer1>炮姐</answer1>
-      <answer2>女贼</answer2>
-      <answer3>傻馒</answer3>
+      <question>本服是什么服？</question>
+      <answer1>极致仿官</answer1>
+      <answer2>微变态</answer2>
+      <answer3>超变态</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -380,12 +380,12 @@
     <int>26</int>
     <fire.pb.mission.SActivityQuestion>
       <id>26</id>
-      <questionid>24</questionid>
+      <questionid>26</questionid>
       <step>0</step>
-      <question>《我叫MT》中以下人物谁见着宝箱就跑不动了？</question>
-      <answer1>呆贼</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>哀木涕</answer3>
+      <question>鬼将是多少等级擕带的宝宝？</question>
+      <answer1>95</answer1>
+      <answer2>100</answer2>
+      <answer3>105</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -395,12 +395,12 @@
     <int>27</int>
     <fire.pb.mission.SActivityQuestion>
       <id>27</id>
-      <questionid>25</questionid>
+      <questionid>27</questionid>
       <step>0</step>
-      <question>《我叫MT》游戏中谁的出场费是最贵的？</question>
-      <answer1>血精灵</answer1>
-      <answer2>大大姐</answer2>
-      <answer3>术士大妈</answer3>
+      <question>大力金刚是多少等级擕带的宝宝？</question>
+      <answer1>135</answer1>
+      <answer2>125</answer2>
+      <answer3>105</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -410,12 +410,12 @@
     <int>28</int>
     <fire.pb.mission.SActivityQuestion>
       <id>28</id>
-      <questionid>26</questionid>
+      <questionid>28</questionid>
       <step>0</step>
-      <question>《我叫MT》中哀木涕的基友是？</question>
-      <answer1>劣人</answer1>
-      <answer2>神棍德</answer2>
-      <answer3>会长</answer3>
+      <question>护卫是多少等级擕带的宝宝？</question>
+      <answer1>5</answer1>
+      <answer2>1</answer2>
+      <answer3>0</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -425,12 +425,12 @@
     <int>29</int>
     <fire.pb.mission.SActivityQuestion>
       <id>29</id>
-      <questionid>27</questionid>
+      <questionid>29</questionid>
       <step>0</step>
-      <question>《我叫MT》中以下人物中身高最高的是哪个？</question>
-      <answer1>术士大妈</answer1>
-      <answer2>呆贼</answer2>
-      <answer3>女贼</answer3>
+      <question>修罗傀儡鬼是多少等级擕带的宝宝？</question>
+      <answer1>115</answer1>
+      <answer2>125</answer2>
+      <answer3>135</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -440,12 +440,12 @@
     <int>30</int>
     <fire.pb.mission.SActivityQuestion>
       <id>30</id>
-      <questionid>28</questionid>
+      <questionid>30</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中被称为没教养的牛是谁?</question>
-      <answer1>神棍德</answer1>
-      <answer2>哀木涕</answer2>
-      <answer3>傻馒</answer3>
+      <question>修罗傀儡妖是多少等级擕带的宝宝？</question>
+      <answer1>135</answer1>
+      <answer2>145</answer2>
+      <answer3>125</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -455,12 +455,12 @@
     <int>31</int>
     <fire.pb.mission.SActivityQuestion>
       <id>31</id>
-      <questionid>29</questionid>
+      <questionid>31</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中长相被傻馒称为葱头的是谁?</question>
-      <answer1>术士大妈</answer1>
-      <answer2>美屡</answer2>
-      <answer3>大小姐</answer3>
+      <question>蜃气妖是多少等级擕带的宝宝？</question>
+      <answer1>155</answer1>
+      <answer2>145</answer2>
+      <answer3>135</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -470,12 +470,12 @@
     <int>32</int>
     <fire.pb.mission.SActivityQuestion>
       <id>32</id>
-      <questionid>30</questionid>
+      <questionid>32</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中像灰太狼一样的好男人是谁?</question>
-      <answer1>神棍德</answer1>
-      <answer2>暗夜男</answer2>
-      <answer3>劣人</answer3>
+      <question>凈瓶女娲是多少等级擕带的宝宝？</question>
+      <answer1>115</answer1>
+      <answer2>105</answer2>
+      <answer3>95</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -485,12 +485,12 @@
     <int>33</int>
     <fire.pb.mission.SActivityQuestion>
       <id>33</id>
-      <questionid>31</questionid>
+      <questionid>33</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁喜欢调戏暗夜男？</question>
-      <answer1>傻馒</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>女德</answer3>
+      <question>毗舍童子是多少等级擕带的宝宝？</question>
+      <answer1>135</answer1>
+      <answer2>145</answer2>
+      <answer3>155</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -500,12 +500,12 @@
     <int>34</int>
     <fire.pb.mission.SActivityQuestion>
       <id>34</id>
-      <questionid>32</questionid>
+      <questionid>34</questionid>
       <step>0</step>
-      <question>《我叫MT》中美屡和谁是姐妹花？</question>
-      <answer1>傻馒</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>大小姐</answer3>
+      <question>幽灵是多少等级擕带的宝宝？</question>
+      <answer1>95</answer1>
+      <answer2>105</answer2>
+      <answer3>100</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -515,13 +515,13 @@
     <int>35</int>
     <fire.pb.mission.SActivityQuestion>
       <id>35</id>
-      <questionid>33</questionid>
+      <questionid>35</questionid>
       <step>0</step>
-      <question>《我叫MT》中和美屡是一对的是？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>呆贼</answer2>
-      <answer3>劣人</answer3>
-      <rightanswer>3</rightanswer>
+      <question>游戏发现有人拉人、打广告应该？</question>
+      <answer1>向GM举报</answer1>
+      <answer2>一起拉</answer2>
+      <answer3>当作看不见</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -530,12 +530,12 @@
     <int>36</int>
     <fire.pb.mission.SActivityQuestion>
       <id>36</id>
-      <questionid>34</questionid>
+      <questionid>36</questionid>
       <step>0</step>
-      <question>《我叫MT》四暗影中谁脑袋会反光？</question>
-      <answer1>落雁</answer1>
-      <answer2>沉鱼</answer2>
-      <answer3>闭月</answer3>
+      <question>律法女娲是多少等级擕带的宝宝？</question>
+      <answer1>95</answer1>
+      <answer2>105</answer2>
+      <answer3>100</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -545,12 +545,12 @@
     <int>37</int>
     <fire.pb.mission.SActivityQuestion>
       <id>37</id>
-      <questionid>35</questionid>
+      <questionid>37</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中的话唠是谁？</question>
-      <answer1>沐丝</answer1>
-      <answer2>会长</answer2>
-      <answer3>傻馒</answer3>
+      <question>举报游戏拉人、打广告奖励多少金币？</question>
+      <answer1>5万</answer1>
+      <answer2>10万</answer2>
+      <answer3>30万</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -560,12 +560,12 @@
     <int>38</int>
     <fire.pb.mission.SActivityQuestion>
       <id>38</id>
-      <questionid>36</questionid>
+      <questionid>38</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫里面金钱控是谁？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>暗夜男</answer2>
-      <answer3>血精灵</answer3>
+      <question>群內发现有人拉人、打广告应该？</question>
+      <answer1>向GM举报</answer1>
+      <answer2>一起拉</answer2>
+      <answer3>当作看不见</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -575,12 +575,12 @@
     <int>39</int>
     <fire.pb.mission.SActivityQuestion>
       <id>39</id>
-      <questionid>37</questionid>
+      <questionid>39</questionid>
       <step>0</step>
-      <question>《我叫MT》劣人最早的好朋友是？</question>
-      <answer1>沐丝</answer1>
-      <answer2>呆贼</answer2>
-      <answer3>暗夜男</answer3>
+      <question>举报群內拉人奖励多少金币？</question>
+      <answer1>10万</answer1>
+      <answer2>30万</answer2>
+      <answer3>5万</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -590,12 +590,12 @@
     <int>40</int>
     <fire.pb.mission.SActivityQuestion>
       <id>40</id>
-      <questionid>38</questionid>
+      <questionid>40</questionid>
       <step>0</step>
-      <question>《我叫MT》中以下哪个人被称为最无耻的？</question>
-      <answer1>呆贼</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>会长</answer3>
+      <question>三界菁英是什么活动第一的称谓？</question>
+      <answer1>帮派竞赛</answer1>
+      <answer2>比武大会</answer2>
+      <answer3>门派闯关</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -605,12 +605,12 @@
     <int>41</int>
     <fire.pb.mission.SActivityQuestion>
       <id>41</id>
-      <questionid>39</questionid>
+      <questionid>41</questionid>
       <step>0</step>
-      <question>《我叫MT》中以下主角中谁是光头？</question>
-      <answer1>沉鱼</answer1>
-      <answer2>落雁</answer2>
-      <answer3>闭月</answer3>
+      <question>本服装备最高多少级？</question>
+      <answer1>155</answer1>
+      <answer2>150</answer2>
+      <answer3>160</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -620,12 +620,12 @@
     <int>42</int>
     <fire.pb.mission.SActivityQuestion>
       <id>42</id>
-      <questionid>40</questionid>
+      <questionid>42</questionid>
       <step>0</step>
-      <question>《我叫MT》中以下人物谁最老实？</question>
-      <answer1>呆贼</answer1>
-      <answer2>神棍德</answer2>
-      <answer3>哀木涕</answer3>
+      <question>本服宝石最高可以合多少级？</question>
+      <answer1>21</answer1>
+      <answer2>15</answer2>
+      <answer3>16</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -635,12 +635,12 @@
     <int>43</int>
     <fire.pb.mission.SActivityQuestion>
       <id>43</id>
-      <questionid>41</questionid>
+      <questionid>43</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中最先叫MT哥哥的是？</question>
-      <answer1>傻馒</answer1>
-      <answer2>呆贼</answer2>
-      <answer3>沐丝</answer3>
+      <question>多少级装备可以镶嵌21级宝石？</question>
+      <answer1>160</answer1>
+      <answer2>210</answer2>
+      <answer3>150</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -650,12 +650,12 @@
     <int>44</int>
     <fire.pb.mission.SActivityQuestion>
       <id>44</id>
-      <questionid>42</questionid>
+      <questionid>44</questionid>
       <step>0</step>
-      <question>《我叫MT》中以下哪个是屌丝？</question>
-      <answer1>神棍德</answer1>
-      <answer2>劣人</answer2>
-      <answer3>呆贼</answer3>
+      <question>什么特效可以穿比自身更高级的装备？</question>
+      <answer1>神农</answer1>
+      <answer2>无视装备等级</answer2>
+      <answer3>无级别限制</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -665,12 +665,12 @@
     <int>45</int>
     <fire.pb.mission.SActivityQuestion>
       <id>45</id>
-      <questionid>43</questionid>
+      <questionid>45</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁的奶量最足？</question>
-      <answer1>沐丝</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>大小姐</answer3>
+      <question>一件装备最高可以镶嵌多少个宝石？</question>
+      <answer1>3</answer1>
+      <answer2>2</answer2>
+      <answer3>5</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -680,12 +680,12 @@
     <int>46</int>
     <fire.pb.mission.SActivityQuestion>
       <id>46</id>
-      <questionid>44</questionid>
+      <questionid>46</questionid>
       <step>0</step>
-      <question>《我叫MT》曾经要1个铜钱买一件假的银鳞胸甲的是谁？</question>
-      <answer1>呆贼</answer1>
-      <answer2>哀木涕</answer2>
-      <answer3>劣人</answer3>
+      <question>本服灵饰最高多少级？</question>
+      <answer1>120</answer1>
+      <answer2>140</answer2>
+      <answer3>160</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -695,12 +695,12 @@
     <int>47</int>
     <fire.pb.mission.SActivityQuestion>
       <id>47</id>
-      <questionid>45</questionid>
+      <questionid>47</questionid>
       <step>0</step>
-      <question>《我叫MT》中被称为小三的是谁？</question>
-      <answer1>羞花</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>沐丝</answer3>
+      <question>月卡一天可以免费得多少金币？</question>
+      <answer1>5万</answer1>
+      <answer2>10万</answer2>
+      <answer3>50万</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -710,12 +710,12 @@
     <int>48</int>
     <fire.pb.mission.SActivityQuestion>
       <id>48</id>
-      <questionid>46</questionid>
+      <questionid>48</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中表面憨厚内心狂野的女兽人是？</question>
-      <answer1>术士大妈</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>沐丝</answer3>
+      <question>月卡一天可以免费得多少信用值？</question>
+      <answer1>10万</answer1>
+      <answer2>5万</answer2>
+      <answer3>3万</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -725,12 +725,12 @@
     <int>49</int>
     <fire.pb.mission.SActivityQuestion>
       <id>49</id>
-      <questionid>47</questionid>
+      <questionid>49</questionid>
       <step>0</step>
-      <question>《我叫MT》中菊爆大队是谁创建的？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>劣人</answer2>
-      <answer3>会长</answer3>
+      <question>月卡一天可以免费得多少神兜兜？</question>
+      <answer1>5个</answer1>
+      <answer2>10个</answer2>
+      <answer3>20个</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -740,12 +740,12 @@
     <int>50</int>
     <fire.pb.mission.SActivityQuestion>
       <id>50</id>
-      <questionid>48</questionid>
+      <questionid>50</questionid>
       <step>0</step>
-      <question>《我叫MT》动漫中被称为PVE小白的是？</question>
-      <answer1>傻馒</answer1>
-      <answer2>会长</answer2>
-      <answer3>劣人</answer3>
+      <question>月卡一天可以免费得多少修炼果和九转金丹？</question>
+      <answer1>1千个</answer1>
+      <answer2>2千个</answer2>
+      <answer3>3千个</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -755,12 +755,12 @@
     <int>51</int>
     <fire.pb.mission.SActivityQuestion>
       <id>51</id>
-      <questionid>49</questionid>
+      <questionid>51</questionid>
       <step>0</step>
-      <question>《我叫MT》中痴情伴侣中劣人为谁神魂颠倒？</question>
-      <answer1>美屡</answer1>
-      <answer2>羞花</answer2>
-      <answer3>术士大妈</answer3>
+      <question>月卡多少钱一张？</question>
+      <answer1>30元</answer1>
+      <answer2>40元</answer2>
+      <answer3>50元</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -770,12 +770,12 @@
     <int>52</int>
     <fire.pb.mission.SActivityQuestion>
       <id>52</id>
-      <questionid>50</questionid>
+      <questionid>52</questionid>
       <step>0</step>
-      <question>《我叫MT》中菊爆大队包括谁？</question>
-      <answer1>会长</answer1>
-      <answer2>哀木涕</answer2>
-      <answer3>大小姐</answer3>
+      <question>GM开服的原因？</question>
+      <answer1>赚钱</answer1>
+      <answer2>热爱梦幻</answer2>
+      <answer3>无聊</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -785,12 +785,12 @@
     <int>53</int>
     <fire.pb.mission.SActivityQuestion>
       <id>53</id>
-      <questionid>50</questionid>
-      <step>1</step>
-      <question>《我叫MT》中菊爆大队包括谁？</question>
-      <answer1>劣人</answer1>
-      <answer2>暗夜男</answer2>
-      <answer3>炮姐</answer3>
+      <questionid>53</questionid>
+      <step>0</step>
+      <question>星宿的奖励多少金币？</question>
+      <answer1>5555</answer1>
+      <answer2>6666</answer2>
+      <answer3>7777</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -800,12 +800,12 @@
     <int>54</int>
     <fire.pb.mission.SActivityQuestion>
       <id>54</id>
-      <questionid>50</questionid>
-      <step>2</step>
-      <question>《我叫MT》中菊爆大队包括谁？</question>
-      <answer1>沉鱼</answer1>
-      <answer2>地中海</answer2>
-      <answer3>呆贼</answer3>
+      <questionid>54</questionid>
+      <step>0</step>
+      <question>梦魔夜叉奖励多少金币？</question>
+      <answer1>15555</answer1>
+      <answer2>13333</answer2>
+      <answer3>11111</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -815,13 +815,13 @@
     <int>55</int>
     <fire.pb.mission.SActivityQuestion>
       <id>55</id>
-      <questionid>51</questionid>
+      <questionid>55</questionid>
       <step>0</step>
-      <question>《我叫MT》中迪奥布斯包括谁？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>大小姐</answer2>
-      <answer3>术士大妈</answer3>
-      <rightanswer>2</rightanswer>
+      <question>星宿多少超过多少钱不能打？</question>
+      <answer1>109</answer1>
+      <answer2>100</answer2>
+      <answer3>105</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -830,12 +830,12 @@
     <int>56</int>
     <fire.pb.mission.SActivityQuestion>
       <id>56</id>
-      <questionid>51</questionid>
-      <step>1</step>
-      <question>《我叫MT》中迪奥布斯包括谁？</question>
-      <answer1>方砖</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>女德</answer3>
+      <questionid>56</questionid>
+      <step>0</step>
+      <question>梦魔夜叉要多少级才可以打？</question>
+      <answer1>100</answer1>
+      <answer2>105</answer2>
+      <answer3>109</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -845,12 +845,12 @@
     <int>57</int>
     <fire.pb.mission.SActivityQuestion>
       <id>57</id>
-      <questionid>51</questionid>
-      <step>2</step>
-      <question>《我叫MT》中迪奥布斯包括谁？</question>
-      <answer1>呆贼</answer1>
-      <answer2>劣人</answer2>
-      <answer3>会长</answer3>
+      <questionid>57</questionid>
+      <step>0</step>
+      <question>宝宝最高可以合成多少技能？</question>
+      <answer1>17</answer1>
+      <answer2>15</answer2>
+      <answer3>16</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -860,12 +860,12 @@
     <int>58</int>
     <fire.pb.mission.SActivityQuestion>
       <id>58</id>
-      <questionid>52</questionid>
+      <questionid>58</questionid>
       <step>0</step>
-      <question>《我叫MT》中四暗影包括谁？</question>
-      <answer1>美屡</answer1>
-      <answer2>羞花</answer2>
-      <answer3>傻馒</answer3>
+      <question>一只宝宝最多可以吃多少个元宵？</question>
+      <answer1>15个</answer1>
+      <answer2>10个</answer2>
+      <answer3>20个</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -875,13 +875,13 @@
     <int>59</int>
     <fire.pb.mission.SActivityQuestion>
       <id>59</id>
-      <questionid>52</questionid>
-      <step>1</step>
-      <question>《我叫MT》中四暗影包括谁？</question>
-      <answer1>大小姐</answer1>
-      <answer2>沐丝</answer2>
-      <answer3>闭月</answer3>
-      <rightanswer>3</rightanswer>
+      <questionid>59</questionid>
+      <step>0</step>
+      <question>以下其中那个是稀有技能？</question>
+      <answer1>高级必杀</answer1>
+      <answer2>洞察</answer2>
+      <answer3>水漫金山</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -890,12 +890,12 @@
     <int>60</int>
     <fire.pb.mission.SActivityQuestion>
       <id>60</id>
-      <questionid>52</questionid>
-      <step>2</step>
-      <question>《我叫MT》中四暗影包括谁？</question>
-      <answer1>落雁</answer1>
-      <answer2>大大姐</answer2>
-      <answer3>血精灵</answer3>
+      <questionid>60</questionid>
+      <step>0</step>
+      <question>以下其中那个是稀有技能？</question>
+      <answer1>力劈华山</answer1>
+      <answer2>高级连击</answer2>
+      <answer3>高级偷袭</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -905,12 +905,12 @@
     <int>61</int>
     <fire.pb.mission.SActivityQuestion>
       <id>61</id>
-      <questionid>53</questionid>
+      <questionid>61</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁会嘲讽技能？</question>
-      <answer1>哀木涕</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>术士大妈</answer3>
+      <question>以下其中那个是稀有技能？</question>
+      <answer1>神马浮云</answer1>
+      <answer2>高级强力</answer2>
+      <answer3>高级夜战</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -920,12 +920,12 @@
     <int>62</int>
     <fire.pb.mission.SActivityQuestion>
       <id>62</id>
-      <questionid>53</questionid>
-      <step>1</step>
-      <question>《我叫MT》中谁会嘲讽技能？</question>
-      <answer1>羞花</answer1>
-      <answer2>会长</answer2>
-      <answer3>女德</answer3>
+      <questionid>62</questionid>
+      <step>0</step>
+      <question>以下其中那个是稀有技能？</question>
+      <answer1>高级法爆</answer1>
+      <answer2>须弥真言</answer2>
+      <answer3>级级魔之心</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -935,12 +935,12 @@
     <int>63</int>
     <fire.pb.mission.SActivityQuestion>
       <id>63</id>
-      <questionid>53</questionid>
-      <step>2</step>
-      <question>《我叫MT》中谁会嘲讽技能？</question>
-      <answer1>劣人</answer1>
-      <answer2>呆贼</answer2>
-      <answer3>暗夜男</answer3>
+      <questionid>63</questionid>
+      <step>0</step>
+      <question>以下其中那个是稀有技能？</question>
+      <answer1>高级否定</answer1>
+      <answer2>高级水吸</answer2>
+      <answer3>劫雷降临</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -950,12 +950,12 @@
     <int>64</int>
     <fire.pb.mission.SActivityQuestion>
       <id>64</id>
-      <questionid>54</questionid>
+      <questionid>64</questionid>
       <step>0</step>
-      <question>《我叫MT》中以下人物中谁能把敌人变羊？</question>
-      <answer1>呆贼</answer1>
-      <answer2>方砖</answer2>
-      <answer3>劣人</answer3>
+      <question>以下那个BOSS难度最大？</question>
+      <answer1>皇宫飞贼</answer1>
+      <answer2>万年妖王</answer2>
+      <answer3>大唐官职</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -965,12 +965,12 @@
     <int>65</int>
     <fire.pb.mission.SActivityQuestion>
       <id>65</id>
-      <questionid>54</questionid>
-      <step>1</step>
-      <question>《我叫MT》中以下人物中谁能把敌人变羊？</question>
-      <answer1>会长</answer1>
-      <answer2>大小姐</answer2>
-      <answer3>血精灵</answer3>
+      <questionid>65</questionid>
+      <step>0</step>
+      <question>以下那个BOSS难度最大？</question>
+      <answer1>傲来封妖</answer1>
+      <answer2>大唐官职</answer2>
+      <answer3>皇宫飞贼</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -980,12 +980,12 @@
     <int>66</int>
     <fire.pb.mission.SActivityQuestion>
       <id>66</id>
-      <questionid>54</questionid>
-      <step>2</step>
-      <question>《我叫MT》中以下人物中谁能把敌人变羊？</question>
-      <answer1>发丝</answer1>
-      <answer2>地中海</answer2>
-      <answer3>神棍德</answer3>
+      <questionid>66</questionid>
+      <step>0</step>
+      <question>以下那个BOSS难度最大？</question>
+      <answer1>蚩尤封印</answer1>
+      <answer2>6星天罡</answer2>
+      <answer3>6星地煞</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -995,12 +995,12 @@
     <int>67</int>
     <fire.pb.mission.SActivityQuestion>
       <id>67</id>
-      <questionid>55</questionid>
+      <questionid>67</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁能给队友加奶?</question>
-      <answer1>沐丝</answer1>
-      <answer2>劣人</answer2>
-      <answer3>方砖</answer3>
+      <question>以下那个门派能给队友加奶?</question>
+      <answer1>化生寺</answer1>
+      <answer2>大唐官职</answer2>
+      <answer3>方寸山</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1010,12 +1010,12 @@
     <int>68</int>
     <fire.pb.mission.SActivityQuestion>
       <id>68</id>
-      <questionid>55</questionid>
-      <step>1</step>
-      <question>《我叫MT》中谁能给队友加奶?</question>
-      <answer1>会长</answer1>
-      <answer2>大小姐</answer2>
-      <answer3>美屡</answer3>
+      <questionid>68</questionid>
+      <step>0</step>
+      <question>以下那个门派能给队友加奶?</question>
+      <answer1>五庄观</answer1>
+      <answer2>地府</answer2>
+      <answer3>方寸山</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1025,12 +1025,12 @@
     <int>69</int>
     <fire.pb.mission.SActivityQuestion>
       <id>69</id>
-      <questionid>55</questionid>
-      <step>2</step>
-      <question>《我叫MT》中谁能给队友加奶?</question>
-      <answer1>地中海</answer1>
-      <answer2>血精灵</answer2>
-      <answer3>傻馒</answer3>
+      <questionid>69</questionid>
+      <step>0</step>
+      <question>以下那个门派能给队友加奶?</question>
+      <answer1>狮驼岭</answer1>
+      <answer2>凌波城</answer2>
+      <answer3>普陀山</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1040,12 +1040,12 @@
     <int>70</int>
     <fire.pb.mission.SActivityQuestion>
       <id>70</id>
-      <questionid>56</questionid>
+      <questionid>70</questionid>
       <step>0</step>
-      <question>《我叫MT》中最早认识MT的都有谁?</question>
-      <answer1>劣人</answer1>
-      <answer2>术士大妈</answer2>
-      <answer3>炮姐</answer3>
+      <question>以下那个BOSS难度最小？</question>
+      <answer1>蚩尤封印</answer1>
+      <answer2>6星地煞</answer2>
+      <answer3>生死决</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1055,13 +1055,13 @@
     <int>71</int>
     <fire.pb.mission.SActivityQuestion>
       <id>71</id>
-      <questionid>56</questionid>
-      <step>1</step>
-      <question>《我叫MT》中最早认识MT的都有谁?</question>
-      <answer1>会长</answer1>
-      <answer2>呆贼</answer2>
-      <answer3>羞花</answer3>
-      <rightanswer>2</rightanswer>
+      <questionid>71</questionid>
+      <step>0</step>
+      <question>发现BUG应该找谁？</question>
+      <answer1>技术负责人</answer1>
+      <answer2>GM</answer2>
+      <answer3>忽略</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1070,13 +1070,13 @@
     <int>72</int>
     <fire.pb.mission.SActivityQuestion>
       <id>72</id>
-      <questionid>56</questionid>
-      <step>2</step>
-      <question>《我叫MT》中最早认识MT的都有谁?</question>
-      <answer1>方砖</answer1>
-      <answer2>闭月</answer2>
-      <answer3>傻馒</answer3>
-      <rightanswer>3</rightanswer>
+      <questionid>72</questionid>
+      <step>0</step>
+      <question>发现BUG应该找谁？</question>
+      <answer1>技术负责人</answer1>
+      <answer2>GM</answer2>
+      <answer3>忽略</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1085,13 +1085,13 @@
     <int>73</int>
     <fire.pb.mission.SActivityQuestion>
       <id>73</id>
-      <questionid>57</questionid>
+      <questionid>73</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁是公会会长?</question>
-      <answer1>呆贼</answer1>
-      <answer2>会长</answer2>
-      <answer3>方砖</answer3>
-      <rightanswer>2</rightanswer>
+      <question>发现BUG应该找谁？</question>
+      <answer1>技术负责人</answer1>
+      <answer2>GM</answer2>
+      <answer3>忽略</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1100,12 +1100,12 @@
     <int>74</int>
     <fire.pb.mission.SActivityQuestion>
       <id>74</id>
-      <questionid>57</questionid>
-      <step>1</step>
-      <question>《我叫MT》中谁是公会会长?</question>
-      <answer1>沉鱼</answer1>
-      <answer2>傻馒</answer2>
-      <answer3>劣人</answer3>
+      <questionid>74</questionid>
+      <step>0</step>
+      <question>以下那个是技术的QQ？</question>
+      <answer1>123456789</answer1>
+      <answer2>恭喜发财</answer2>
+      <answer3>69783616</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1115,12 +1115,12 @@
     <int>75</int>
     <fire.pb.mission.SActivityQuestion>
       <id>75</id>
-      <questionid>58</questionid>
+      <questionid>75</questionid>
       <step>0</step>
-      <question>《我叫MT》中谁会隐身？</question>
-      <answer1>方砖</answer1>
-      <answer2>术士大妈</answer2>
-      <answer3>呆贼</answer3>
+      <question>以下那个是技术的QQ？</question>
+      <answer1>123456789</answer1>
+      <answer2>恭喜发财</answer2>
+      <answer3>69783616</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1130,12 +1130,12 @@
     <int>76</int>
     <fire.pb.mission.SActivityQuestion>
       <id>76</id>
-      <questionid>58</questionid>
-      <step>1</step>
-      <question>《我叫MT》中谁会隐身？</question>
-      <answer1>劣人</answer1>
-      <answer2>女德</answer2>
-      <answer3>会长</answer3>
+      <questionid>76</questionid>
+      <step>0</step>
+      <question>以下那个是技术的QQ？</question>
+      <answer1>123456789</answer1>
+      <answer2>恭喜发财</answer2>
+      <answer3>69783616</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1145,13 +1145,13 @@
     <int>77</int>
     <fire.pb.mission.SActivityQuestion>
       <id>77</id>
-      <questionid>58</questionid>
-      <step>2</step>
-      <question>《我叫MT》中谁会隐身？</question>
-      <answer1>女贼</answer1>
-      <answer2>哀木涕</answer2>
-      <answer3>沐丝</answer3>
-      <rightanswer>1</rightanswer>
+      <questionid>77</questionid>
+      <step>0</step>
+      <question>以下那个是技术的QQ？</question>
+      <answer1>123456789</answer1>
+      <answer2>恭喜发财</answer2>
+      <answer3>69783616</answer3>
+      <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>

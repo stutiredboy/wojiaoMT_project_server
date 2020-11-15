@@ -3944,7 +3944,7 @@
       <id>39009</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -3954,7 +3954,7 @@
       <id>39010</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -3964,7 +3964,7 @@
       <id>39011</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -3984,7 +3984,7 @@
       <id>39013</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -3994,7 +3994,7 @@
       <id>39014</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4004,7 +4004,7 @@
       <id>39015</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4014,7 +4014,7 @@
       <id>39016</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4024,7 +4024,7 @@
       <id>39017</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4034,7 +4034,7 @@
       <id>39018</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4044,7 +4044,7 @@
       <id>39019</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4064,7 +4064,7 @@
       <id>39021</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4074,7 +4074,7 @@
       <id>39022</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4084,7 +4084,7 @@
       <id>39023</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4094,7 +4094,7 @@
       <id>39024</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4104,7 +4104,7 @@
       <id>39025</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4114,7 +4114,7 @@
       <id>39026</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4124,7 +4124,7 @@
       <id>39027</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4134,7 +4134,7 @@
       <id>39028</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>3.2000000000000001E-2</odds>
+      <odds>0.032</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4144,7 +4144,7 @@
       <id>39029</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4154,7 +4154,7 @@
       <id>39030</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4164,7 +4164,7 @@
       <id>39031</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4174,7 +4174,7 @@
       <id>39032</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4184,7 +4184,7 @@
       <id>39033</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4194,7 +4194,7 @@
       <id>39034</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4204,7 +4204,7 @@
       <id>39035</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4214,7 +4214,7 @@
       <id>39036</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>3.3E-3</odds>
+      <odds>0.0033</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99004_==1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4224,7 +4224,7 @@
       <id>39037</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>3.3E-3</odds>
+      <odds>0.0033</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99004_==1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4284,7 +4284,7 @@
       <id>39043</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4294,7 +4294,7 @@
       <id>39044</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4304,7 +4304,7 @@
       <id>39045</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4314,7 +4314,7 @@
       <id>39046</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>3.0000000000000001E-3</odds>
+      <odds>0.003</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4324,7 +4324,7 @@
       <id>39047</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4334,7 +4334,7 @@
       <id>39048</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4344,7 +4344,7 @@
       <id>39049</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4354,7 +4354,7 @@
       <id>39050</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4364,7 +4364,7 @@
       <id>39051</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4374,7 +4374,7 @@
       <id>39052</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4384,7 +4384,7 @@
       <id>39053</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4394,7 +4394,7 @@
       <id>39054</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-3</odds>
+      <odds>0.0025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4404,7 +4404,7 @@
       <id>39055</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4414,7 +4414,7 @@
       <id>39056</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4424,7 +4424,7 @@
       <id>39057</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4434,7 +4434,7 @@
       <id>39058</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4444,7 +4444,7 @@
       <id>39059</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4454,7 +4454,7 @@
       <id>39060</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4464,7 +4464,7 @@
       <id>39061</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4474,7 +4474,7 @@
       <id>39062</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-3</odds>
+      <odds>0.0025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4484,7 +4484,7 @@
       <id>39063</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4494,7 +4494,7 @@
       <id>39064</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4504,7 +4504,7 @@
       <id>39065</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4514,7 +4514,7 @@
       <id>39066</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4524,7 +4524,7 @@
       <id>39067</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4534,7 +4534,7 @@
       <id>39068</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4544,7 +4544,7 @@
       <id>39069</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4554,7 +4554,7 @@
       <id>39070</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-3</odds>
+      <odds>0.0025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4564,7 +4564,7 @@
       <id>39071</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4574,7 +4574,7 @@
       <id>39072</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4584,7 +4584,7 @@
       <id>39073</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4594,7 +4594,7 @@
       <id>39074</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4604,7 +4604,7 @@
       <id>39075</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4614,7 +4614,7 @@
       <id>39076</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.3000000000000004E-2</odds>
+      <odds>0.083</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4624,7 +4624,7 @@
       <id>39077</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>8.4000000000000005E-2</odds>
+      <odds>0.084</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4634,7 +4634,7 @@
       <id>39078</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-3</odds>
+      <odds>0.0025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4644,7 +4644,7 @@
       <id>39079</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4654,7 +4654,7 @@
       <id>39080</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4664,7 +4664,7 @@
       <id>39081</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4674,7 +4674,7 @@
       <id>39082</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>1</bounusnum>
-      <odds>2.5000000000000001E-2</odds>
+      <odds>0.025</odds>
       <targetfilters>_99001_&lt;1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4690,7 +4690,7 @@
     <int>39084</int>
     <fire.pb.battle.SCondition>
       <id>39084</id>
-      <battleround>==5</battleround>
+      <battleround>==50</battleround>
       <bounusnum>0</bounusnum>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4698,7 +4698,7 @@
     <int>39085</int>
     <fire.pb.battle.SCondition>
       <id>39085</id>
-      <battleround>==10</battleround>
+      <battleround>==100</battleround>
       <bounusnum>0</bounusnum>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4960,7 +4960,7 @@
       <id>40050</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>1.4999999999999999E-2</odds>
+      <odds>0.015</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99010_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4970,7 +4970,7 @@
       <id>40051</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>7.4999999999999997E-3</odds>
+      <odds>0.0075</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99011_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4980,7 +4980,7 @@
       <id>40052</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>2E-3</odds>
+      <odds>0.002</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99012_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -4990,7 +4990,7 @@
       <id>40053</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>2.0000000000000001E-4</odds>
+      <odds>0.0002</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99013_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -5000,7 +5000,7 @@
       <id>40054</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>2.0000000000000001E-4</odds>
+      <odds>0.0002</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99014_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -5010,7 +5010,7 @@
       <id>40055</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>1.8000000000000001E-4</odds>
+      <odds>0.00018</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99015_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -5020,7 +5020,7 @@
       <id>40056</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>1.5000000000000001E-4</odds>
+      <odds>0.00015</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99016_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -5030,7 +5030,7 @@
       <id>40057</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>1.5000000000000001E-4</odds>
+      <odds>0.00015</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99017_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -5040,7 +5040,7 @@
       <id>40058</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>1.5000000000000001E-4</odds>
+      <odds>0.00015</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99018_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>
@@ -5050,7 +5050,7 @@
       <id>40059</id>
       <battleround>&gt;=1</battleround>
       <bounusnum>0</bounusnum>
-      <odds>1.5000000000000001E-4</odds>
+      <odds>0.00015</odds>
       <targetfilters>_99001_&lt;1&amp;&amp;_99019_&gt;=1</targetfilters>
     </fire.pb.battle.SCondition>
   </entry>

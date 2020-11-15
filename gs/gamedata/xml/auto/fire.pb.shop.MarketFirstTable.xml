@@ -18,6 +18,7 @@
         <int>107</int>
         <int>108</int>
         <int>109</int>
+        <int>110</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>
@@ -33,6 +34,7 @@
         <int>202</int>
         <int>203</int>
         <int>204</int>
+        <int>205</int>
         <int>206</int>
         <int>207</int>
         <int>208</int>
@@ -40,6 +42,9 @@
         <int>210</int>
         <int>211</int>
         <int>212</int>
+        <int>213</int>
+        <int>214</int>
+        <int>215</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>
@@ -91,6 +96,15 @@
         <int>338</int>
         <int>339</int>
         <int>340</int>
+        <int>341</int>
+        <int>342</int>
+        <int>343</int>
+        <int>344</int>
+        <int>345</int>
+        <int>346</int>
+        <int>347</int>
+        <int>348</int>
+        <int>349</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>
@@ -98,8 +112,8 @@
     <int>5</int>
     <fire.pb.shop.MarketFirstTable>
       <id>5</id>
-      <firstname>低级兽诀</firstname>
-      <isfloating>1</isfloating>
+      <firstname>超级兽诀</firstname>
+      <isfloating>0</isfloating>
       <secondno>
         <int>400</int>
         <int>401</int>
@@ -149,14 +163,19 @@
     <int>6</int>
     <fire.pb.shop.MarketFirstTable>
       <id>6</id>
-      <firstname>炼金</firstname>
-      <isfloating>1</isfloating>
+      <firstname>星辉石a</firstname>
+      <isfloating>0</isfloating>
       <secondno>
-        <int>500</int>
-        <int>501</int>
-        <int>502</int>
-        <int>503</int>
-        <int>504</int>
+        <int>1152</int>
+        <int>1153</int>
+        <int>1154</int>
+        <int>1155</int>
+        <int>1156</int>
+        <int>1157</int>
+        <int>1158</int>
+        <int>1159</int>
+        <int>1160</int>
+        <int>1161</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>
@@ -164,16 +183,19 @@
     <int>7</int>
     <fire.pb.shop.MarketFirstTable>
       <id>7</id>
-      <firstname>烹饪</firstname>
-      <isfloating>1</isfloating>
+      <firstname>星辉石b</firstname>
+      <isfloating>0</isfloating>
       <secondno>
-        <int>600</int>
-        <int>601</int>
-        <int>602</int>
-        <int>603</int>
-        <int>604</int>
-        <int>605</int>
-        <int>606</int>
+        <int>1162</int>
+        <int>1163</int>
+        <int>1164</int>
+        <int>1165</int>
+        <int>1166</int>
+        <int>1167</int>
+        <int>1168</int>
+        <int>1169</int>
+        <int>1170</int>
+        <int>1171</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>
@@ -181,8 +203,8 @@
     <int>8</int>
     <fire.pb.shop.MarketFirstTable>
       <id>8</id>
-      <firstname>装备模具</firstname>
-      <isfloating>1</isfloating>
+      <firstname>制造符</firstname>
+      <isfloating>0</isfloating>
       <secondno>
         <int>700</int>
         <int>701</int>
@@ -194,8 +216,8 @@
     <int>9</int>
     <fire.pb.shop.MarketFirstTable>
       <id>9</id>
-      <firstname>附魔卷轴</firstname>
-      <isfloating>1</isfloating>
+      <firstname>临时符</firstname>
+      <isfloating>0</isfloating>
       <secondno>
         <int>800</int>
         <int>801</int>
@@ -213,11 +235,15 @@
     <int>10</int>
     <fire.pb.shop.MarketFirstTable>
       <id>10</id>
-      <firstname>任务装备</firstname>
-      <isfloating>1</isfloating>
+      <firstname>奇珍异宝</firstname>
+      <isfloating>0</isfloating>
       <secondno>
-        <int>900</int>
-        <int>901</int>
+        <int>1000</int>
+        <int>1002</int>
+        <int>1001</int>
+        <int>1003</int>
+        <int>1004</int>
+        <int>1005</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>
@@ -225,22 +251,6 @@
     <int>11</int>
     <fire.pb.shop.MarketFirstTable>
       <id>11</id>
-      <firstname>奇珍异宝</firstname>
-      <isfloating>1</isfloating>
-      <secondno>
-        <int>1000</int>
-        <int>1002</int>
-        <int>1001</int>
-        <int>902</int>
-        <int>1003</int>
-        <int>1004</int>
-      </secondno>
-    </fire.pb.shop.MarketFirstTable>
-  </entry>
-  <entry>
-    <int>12</int>
-    <fire.pb.shop.MarketFirstTable>
-      <id>12</id>
       <firstname>装备打造</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -250,13 +260,38 @@
         <int>1103</int>
         <int>1104</int>
         <int>1105</int>
+        <int>1106</int>
         <int>1107</int>
         <int>1108</int>
         <int>1109</int>
-        <int>1110</int>
-        <int>1111</int>
-        <int>1112</int>
-        <int>1113</int>
+      </secondno>
+    </fire.pb.shop.MarketFirstTable>
+  </entry>
+  <entry>
+    <int>12</int>
+    <fire.pb.shop.MarketFirstTable>
+      <id>12</id>
+      <firstname>坐骑</firstname>
+      <isfloating>0</isfloating>
+      <secondno>
+        <int>1114</int>
+        <int>1115</int>
+        <int>1116</int>
+        <int>1117</int>
+        <int>1118</int>
+        <int>1119</int>
+        <int>1120</int>
+        <int>1121</int>
+        <int>1122</int>
+        <int>1123</int>
+        <int>1124</int>
+        <int>1125</int>
+        <int>1126</int>
+        <int>1127</int>
+        <int>1128</int>
+        <int>1129</int>
+        <int>1130</int>
+        <int>1131</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>
@@ -264,11 +299,149 @@
     <int>13</int>
     <fire.pb.shop.MarketFirstTable>
       <id>13</id>
-      <firstname>坐骑</firstname>
+      <firstname>稀有技能</firstname>
       <isfloating>0</isfloating>
       <secondno>
-        <int>1114</int>
-        <int>1115</int>
+        <int>1132</int>
+        <int>1133</int>
+        <int>1134</int>
+        <int>1135</int>
+        <int>1136</int>
+        <int>1137</int>
+        <int>1138</int>
+        <int>1139</int>
+        <int>1140</int>
+        <int>351</int>
+        <int>352</int>
+      </secondno>
+    </fire.pb.shop.MarketFirstTable>
+  </entry>
+  <entry>
+    <int>14</int>
+    <fire.pb.shop.MarketFirstTable>
+      <id>14</id>
+      <firstname>灵饰</firstname>
+      <isfloating>0</isfloating>
+      <secondno>
+        <int>1141</int>
+        <int>1142</int>
+      </secondno>
+    </fire.pb.shop.MarketFirstTable>
+  </entry>
+  <entry>
+    <int>15</int>
+    <fire.pb.shop.MarketFirstTable>
+      <id>15</id>
+      <firstname>法宝</firstname>
+      <isfloating>0</isfloating>
+      <secondno>
+        <int>1143</int>
+        <int>1144</int>
+        <int>1145</int>
+        <int>1146</int>
+        <int>1147</int>
+        <int>1148</int>
+        <int>1149</int>
+        <int>1150</int>
+        <int>1151</int>
+      </secondno>
+    </fire.pb.shop.MarketFirstTable>
+  </entry>
+  <entry>
+    <int>16</int>
+    <fire.pb.shop.MarketFirstTable>
+      <id>16</id>
+      <firstname>宝石</firstname>
+      <isfloating>0</isfloating>
+      <secondno>
+        <int>1172</int>
+        <int>1173</int>
+        <int>1174</int>
+        <int>1175</int>
+        <int>1176</int>
+        <int>1177</int>
+        <int>1178</int>
+        <int>1179</int>
+        <int>1180</int>
+        <int>1181</int>
+        <int>1182</int>
+        <int>1183</int>
+        <int>1184</int>
+        <int>1185</int>
+        <int>1186</int>
+        <int>1187</int>
+        <int>1188</int>
+        <int>1189</int>
+        <int>1190</int>
+      </secondno>
+    </fire.pb.shop.MarketFirstTable>
+  </entry>
+  <entry>
+    <int>17</int>
+    <fire.pb.shop.MarketFirstTable>
+      <id>17</id>
+      <firstname>内丹</firstname>
+      <isfloating>0</isfloating>
+      <secondno>
+        <int>1191</int>
+        <int>1192</int>
+        <int>1193</int>
+        <int>1194</int>
+        <int>1195</int>
+        <int>1196</int>
+        <int>1197</int>
+        <int>1198</int>
+        <int>1199</int>
+        <int>1200</int>
+        <int>1201</int>
+        <int>1202</int>
+        <int>1203</int>
+        <int>1204</int>
+        <int>1205</int>
+        <int>1206</int>
+        <int>1207</int>
+        <int>1208</int>
+        <int>1209</int>
+        <int>1210</int>
+        <int>1211</int>
+        <int>1212</int>
+        <int>1213</int>
+        <int>1214</int>
+        <int>1215</int>
+        <int>1216</int>
+        <int>1217</int>
+        <int>1218</int>
+        <int>1219</int>
+        <int>1220</int>
+        <int>1221</int>
+        <int>1222</int>
+        <int>1223</int>
+        <int>1224</int>
+        <int>1225</int>
+      </secondno>
+    </fire.pb.shop.MarketFirstTable>
+  </entry>
+  <entry>
+    <int>18</int>
+    <fire.pb.shop.MarketFirstTable>
+      <id>18</id>
+      <firstname>三级药品</firstname>
+      <isfloating>0</isfloating>
+      <secondno>
+        <int>1226</int>
+        <int>1227</int>
+        <int>1228</int>
+        <int>1229</int>
+        <int>1230</int>
+        <int>1231</int>
+        <int>1232</int>
+        <int>1233</int>
+        <int>1234</int>
+        <int>1235</int>
+        <int>1236</int>
+        <int>1237</int>
+        <int>1238</int>
+        <int>1239</int>
       </secondno>
     </fire.pb.shop.MarketFirstTable>
   </entry>

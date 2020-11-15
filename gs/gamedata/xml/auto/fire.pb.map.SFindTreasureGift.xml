@@ -254,7 +254,7 @@
     <fire.pb.map.SFindTreasureGift>
       <id>25</id>
       <awardId>150</awardId>
-      <awardids>1,155,200223</awardids>
+      <awardids>1,155,200375</awardids>
       <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
@@ -265,7 +265,8 @@
     <fire.pb.map.SFindTreasureGift>
       <id>26</id>
       <awardId>151</awardId>
-      <awardids>1,155,200127</awardids>
+      <awardids>1,155,200204</awardids>
+      <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
     </fire.pb.map.SFindTreasureGift>
@@ -276,6 +277,7 @@
       <id>27</id>
       <awardId>152</awardId>
       <awardids>1,155,200217</awardids>
+      <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
     </fire.pb.map.SFindTreasureGift>
@@ -285,7 +287,8 @@
     <fire.pb.map.SFindTreasureGift>
       <id>28</id>
       <awardId>153</awardId>
-      <awardids>1,155,200073</awardids>
+      <awardids>1,155,200352</awardids>
+      <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
     </fire.pb.map.SFindTreasureGift>
@@ -295,7 +298,8 @@
     <fire.pb.map.SFindTreasureGift>
       <id>29</id>
       <awardId>154</awardId>
-      <awardids>1,155,200174</awardids>
+      <awardids>1,155,200358</awardids>
+      <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
     </fire.pb.map.SFindTreasureGift>
@@ -305,7 +309,8 @@
     <fire.pb.map.SFindTreasureGift>
       <id>30</id>
       <awardId>155</awardId>
-      <awardids>1,155,200218</awardids>
+      <awardids>1,155,200359</awardids>
+      <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
     </fire.pb.map.SFindTreasureGift>
@@ -315,7 +320,7 @@
     <fire.pb.map.SFindTreasureGift>
       <id>31</id>
       <awardId>156</awardId>
-      <awardids>1,155,200219</awardids>
+      <awardids>1,155,200376</awardids>
       <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
@@ -326,7 +331,7 @@
     <fire.pb.map.SFindTreasureGift>
       <id>32</id>
       <awardId>157</awardId>
-      <awardids>1,155,200074</awardids>
+      <awardids>1,155,200361</awardids>
       <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
@@ -337,7 +342,7 @@
     <fire.pb.map.SFindTreasureGift>
       <id>33</id>
       <awardId>158</awardId>
-      <awardids>1,155,200178</awardids>
+      <awardids>1,155,200370</awardids>
       <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
@@ -348,7 +353,8 @@
     <fire.pb.map.SFindTreasureGift>
       <id>34</id>
       <awardId>159</awardId>
-      <awardids>1,155,200183</awardids>
+      <awardids>1,155,200363</awardids>
+      <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
     </fire.pb.map.SFindTreasureGift>
@@ -358,7 +364,8 @@
     <fire.pb.map.SFindTreasureGift>
       <id>35</id>
       <awardId>160</awardId>
-      <awardids>1,155,200184</awardids>
+      <awardids>1,155,200240</awardids>
+      <noticeId>150200</noticeId>
       <getItemMessageId>150192</getItemMessageId>
       <getMoneyMessageId>150193</getMoneyMessageId>
     </fire.pb.map.SFindTreasureGift>

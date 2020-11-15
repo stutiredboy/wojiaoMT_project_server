@@ -6,7 +6,7 @@
     <fire.pb.fushi.SSpotCardConfig>
       <id>1</id>
       <buynummin>10</buynummin>
-      <buynummax>999</buynummax>
+      <buynummax>100</buynummax>
       <buypricemin>1</buypricemin>
       <buypricemax>300</buypricemax>
       <sellnummin>10</sellnummin>
