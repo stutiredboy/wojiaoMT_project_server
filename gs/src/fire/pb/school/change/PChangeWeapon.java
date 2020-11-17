@@ -133,7 +133,12 @@ public class PChangeWeapon extends Procedure {
 					break;
 				}
 			}
+			Map<Integer, Integer> addAttrs = oldWeapon.getEquipAttr().getAddattr();
 			value = randomval;
+			if(addAttrs.containsKey(key) && addAttrs.get(key) != 0)
+			{
+				value = addAttrs.get(key) + randomval;
+			}
 			baseAddAttrs.put(key,value);
 			logger.error("--------ID:"+id+" -----VALUE--"+value+"-------------"+randomval);
 		}
