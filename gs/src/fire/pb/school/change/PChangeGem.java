@@ -88,7 +88,7 @@ public class PChangeGem extends Procedure {
 			return false;
 		}
 		// 扣钱
-		int confWeaponChangeCostMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(473).getValue());
+		int confWeaponChangeCostMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(474).getValue());
 		long ret = bag.subGold(-confWeaponChangeCostMoney, "点化套装消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
 		if (ret != -confWeaponChangeCostMoney) {
 			return false;
