@@ -2,6 +2,8 @@ package fire.pb.battle;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import org.apache.log4j.Logger;
 
 import fire.msp.npc.GCheckCanPlayPK;
 import fire.pb.GsClient;
@@ -21,7 +23,6 @@ import mkdb.Procedure;
 public class PSendInvitePlayPK extends Procedure {
 	private final long hostid;
 	private long guestid;
-	
 	public PSendInvitePlayPK(long roleid,long otherid){
 		super();
 		this.hostid = roleid;
@@ -79,22 +80,6 @@ public class PSendInvitePlayPK extends Procedure {
 				}
 			}
 		}
-		// 如果强P的人有大于被强P的人20级的则不予强P
-		if(host_Team != null && guest_team != null )
-		{
-			List<Long> host_TeamMembers = host_Team.getNormalMemberIds();
-			List<Long> guest_TeamMembers = guest_team.getNormalMemberIds();
-			for (Long mem : host_TeamMembers) {
-				PropRole role = new PropRole(mem, true);
-				for (Long member : guest_TeamMembers) {
-					PropRole guestrole = new PropRole(member, true);
-					if (role.getLevel() - guestrole.getLevel() >= CSendInvitePlayPK.PVP_LEVEL) {
-						return false;
-					}
-				}
-			}
-		}
-
 
 		if (guestBuff.existBuff(500343)) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 144999, 0, null);
