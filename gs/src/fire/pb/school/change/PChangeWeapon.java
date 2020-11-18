@@ -118,13 +118,14 @@ public class PChangeWeapon extends Procedure {
 		if (ret != -confWeaponChangeCostMoney) {
 			return false;
 		}
-		Map<Integer, Integer> baseAttrs = oldWeapon.getBaseAttr();
+		Map<Integer, Integer> baseAttrs = oldWeapon.getEquipAttr().getAttr();
 		Map<Integer, Integer> baseAddAttrs = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> plusAddAttrs = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> AddAttrs = oldWeapon.getEquipAttr().getAddattr();
 		for (Integer key: baseAttrs.keySet()) {
 			int id = key / 10;
 			int value = 0;
 			int randomval = 0;
-			int errectvalue = baseAttrs.get(key);
 			for (SXilianEffect sequipIteminfo : XILIANEFFECT_CFGS.values()) 
 			{
 				if(sequipIteminfo.id == id)
@@ -133,18 +134,32 @@ public class PChangeWeapon extends Procedure {
 					break;
 				}
 			}
-			Map<Integer, Integer> addAttrs = oldWeapon.getEquipAttr().getAddattr();
-			value = randomval;
-			if(addAttrs.containsKey(key) && addAttrs.get(key) != 0)
+			if(baseAttrs.containsKey(key) && baseAttrs.get(key) != 0)
 			{
-				value = addAttrs.get(key) + randomval;
+				value = baseAttrs.get(key) + randomval;
 			}
 			baseAddAttrs.put(key,value);
-			logger.error("--------ID:"+id+" -----VALUE--"+value+"-------------"+randomval);
 		}
-		oldWeapon.SetAddAttr(baseAddAttrs);
-
-		
+		for (Integer key: AddAttrs.keySet()) {
+			int id = key / 10;
+			int value = 0;
+			int randomval = 0;
+			for (SXilianEffect sequipIteminfo : XILIANEFFECT_CFGS.values()) 
+			{  
+				if(sequipIteminfo.id == id)
+				{
+					randomval = Misc.getRandomBetween(sequipIteminfo.attrInitvalue,sequipIteminfo.attrAddvalue);
+					break;
+				}
+			}
+			if(AddAttrs.containsKey(key) && AddAttrs.get(key) != 0)
+			{
+				value = AddAttrs.get(key) + randomval;
+			}
+			plusAddAttrs.put(key,value);
+		}
+		oldWeapon.SetBaseAttr(baseAddAttrs);
+		oldWeapon.SetAddAttr(plusAddAttrs);
 		// 设置冷却时间
 		//nt coolDownCostTime = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(432).getValue());
 		//long targetTimeMillis = System.currentTimeMillis() + coolDownCostTime * MarketUtils.ONE_DAY;

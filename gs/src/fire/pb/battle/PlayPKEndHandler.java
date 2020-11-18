@@ -22,6 +22,13 @@ import fire.pb.team.TeamManager;
 import xbean.BattleInfo;
 import xbean.Fighter;
 import xbean.PetInfo;
+import xbean.BasicFightProperties;
+import xbean.RoleAddPointProperties;
+import java.util.HashMap;
+import java.util.Map;
+import fire.pb.attr.SRefreshPointType;
+import fire.pb.attr.SRefreshRoleData;
+import fire.pb.effect.RoleImpl;
 
 public class PlayPKEndHandler extends BattleEndHandler {
 	public boolean handleDeath() {
@@ -64,9 +71,11 @@ public class PlayPKEndHandler extends BattleEndHandler {
 		switch (battle.getBattleresult()) {
 		case PlayPKManage.PK_PLAY_WIN:
 			handleQiecuoWin(hostFighters, guestFighters, battle,true);
+			handleQiecuoResult(hostFighters, guestFighters);
 			break;
 		case PlayPKManage.PK_PLAY_LOSE:
 			handleQiecuoWin(guestFighters, hostFighters, battle,false);
+			handleQiecuoResult(guestFighters, hostFighters);
 			break;
 		default:
 			break;
@@ -81,6 +90,89 @@ public class PlayPKEndHandler extends BattleEndHandler {
 			throw new IllegalArgumentException("切磋数据错误");
 		}
 		sendPlayPKMsg(hostFighters, guestFighters);// 发送消息
+	}
+
+	// 处理PK之后的惩罚奖励
+	private void handleQiecuoResult(List<Fighter> winFighters,List<Fighter> losFighters){
+		if (winFighters == null || losFighters == null){
+			throw new IllegalArgumentException("切磋数据错误");
+		}
+		int dellevel = 1;
+		int addgold = 10;
+		// 胜者加金币
+		for(Fighter f : winFighters)
+		{
+			fire.pb.item.Pack bag = new fire.pb.item.Pack(f.getUniqueid(), false);
+			bag.addSysGold(addgold,"PK胜利加金币",fire.log.enums.YYLoggerTuJingEnum.tujing_Value_battle,0);
+		}
+		// 败者减金币，减等级
+		for(Fighter f : losFighters)
+		{
+			fire.pb.item.Pack bag = new fire.pb.item.Pack(f.getUniqueid(), false);
+			bag.subGold(-addgold,"PK失败减金币",fire.log.enums.YYLoggerTuJingEnum.tujing_Value_battle,0);
+			long roleId = f.getUniqueid();
+			xbean.Properties prop = xtable.Properties.get(f.getUniqueid());
+			RoleAddPointProperties addfp = prop.getAddpointfp();
+			BasicFightProperties bfp = prop.getBfp();
+			int noldlevel = prop.getLevel();
+			int declevel = dellevel;
+			int curScheme = prop.getScheme();
+			int agi = ((Integer)addfp.getAgi_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
+			int cons = ((Integer)addfp.getCons_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
+			int endu = ((Integer)addfp.getEndu_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
+			int iq = ((Integer)addfp.getIq_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
+			int str = ((Integer)addfp.getStr_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
+			bfp.setAgi(bfp.getAgi() > agi?(short)(bfp.getAgi() - agi):0);
+			bfp.setCons(bfp.getCons() > cons?(short)(bfp.getCons() - cons):0);
+			bfp.setEndu(bfp.getEndu() > endu?(short)(bfp.getEndu() - endu):0);
+			bfp.setIq(bfp.getIq() > iq?(short)(bfp.getIq() - iq):0);
+			bfp.setStr(bfp.getStr() > str?(short)(bfp.getStr() - str):0);
+   
+			for(int changedAttrs = 1; changedAttrs < 4; ++changedAttrs) {
+			   int erole = ((Integer)addfp.getAgi_save().get(Integer.valueOf(changedAttrs))).intValue();
+			   int roledata = ((Integer)addfp.getCons_save().get(Integer.valueOf(changedAttrs))).intValue();
+			   int refresh = ((Integer)addfp.getEndu_save().get(Integer.valueOf(changedAttrs))).intValue();
+			   int usecount = ((Integer)addfp.getIq_save().get(Integer.valueOf(changedAttrs))).intValue();
+			   int itemUse = ((Integer)addfp.getStr_save().get(Integer.valueOf(changedAttrs))).intValue();
+			   addfp.getAgi_save().put(Integer.valueOf(changedAttrs), Integer.valueOf(0));
+			   addfp.getCons_save().put(Integer.valueOf(changedAttrs), Integer.valueOf(0));
+			   addfp.getEndu_save().put(Integer.valueOf(changedAttrs), Integer.valueOf(0));
+			   addfp.getIq_save().put(Integer.valueOf(changedAttrs), Integer.valueOf(0));
+			   addfp.getStr_save().put(Integer.valueOf(changedAttrs), Integer.valueOf(0));
+			   int paras = erole + roledata + refresh + usecount + itemUse - 5 * declevel;
+			   prop.getPoint().put(Integer.valueOf(changedAttrs), Integer.valueOf(((Integer)prop.getPoint().get(Integer.valueOf(changedAttrs))).intValue() + paras));
+			}
+   
+			prop.setExp(0L);
+			prop.setLevel(noldlevel - dellevel);
+			Map<Integer,Float> dataList = new HashMap<Integer,Float>();
+			RoleImpl erole = new RoleImpl(roleId);
+			dataList.putAll(erole.updateAllFinalAttrs());
+			dataList.put(Integer.valueOf(80), Float.valueOf((float)prop.getHp()));
+			dataList.put(Integer.valueOf(70), Float.valueOf((float)prop.getUplimithp()));
+			dataList.put(Integer.valueOf(100), Float.valueOf((float)prop.getMp()));
+			dataList.put(Integer.valueOf(1230), Float.valueOf((float)prop.getLevel()));
+			dataList.put(Integer.valueOf(470), Float.valueOf((float)prop.getExp()));
+			dataList.put(Integer.valueOf(1400), Float.valueOf((float)((Integer)prop.getPoint().get(Integer.valueOf(curScheme))).intValue()));
+			SRefreshRoleData rfdata = new SRefreshRoleData();
+			rfdata.datas.putAll(dataList);
+			Procedure.psendWhileCommit(roleId, rfdata);
+			SRefreshPointType refreshdata = new SRefreshPointType();
+			refreshdata.bfp.agi = (short)bfp.getAgi();
+			refreshdata.bfp.cons = (short)bfp.getCons();
+			refreshdata.bfp.endu = (short)bfp.getEndu();
+			refreshdata.bfp.iq = (short)bfp.getIq();
+			refreshdata.bfp.str = (short)bfp.getStr();
+			refreshdata.bfp.agi_save.putAll(prop.getAddpointfp().getAgi_save());
+			refreshdata.bfp.cons_save.putAll(prop.getAddpointfp().getCons_save());
+			refreshdata.bfp.endu_save.putAll(prop.getAddpointfp().getEndu_save());
+			refreshdata.bfp.iq_save.putAll(prop.getAddpointfp().getIq_save());
+			refreshdata.bfp.str_save.putAll(prop.getAddpointfp().getStr_save());
+			refreshdata.point.putAll(prop.getPoint());
+			refreshdata.pointscheme = prop.getScheme();
+			refreshdata.schemechanges = prop.getSchemechanges();
+			Procedure.psendWhileCommit(roleId, refreshdata);
+		}
 	}
 
 	private void sendPlayPKMsg(List<Fighter> hostFighters, List<Fighter> guestFighters) {

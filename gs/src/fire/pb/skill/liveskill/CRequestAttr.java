@@ -5,7 +5,7 @@ package fire.pb.skill.liveskill;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-
+import org.apache.log4j.Logger;
 abstract class __CRequestAttr__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
@@ -15,6 +15,7 @@ abstract class __CRequestAttr__ extends mkio.Protocol { }
  * 请求某些属性 by changhao
  */
 public class CRequestAttr extends __CRequestAttr__ {
+	private static Logger logger = Logger.getLogger("ITEM");
 	@Override
 	protected void process() {
 		// protocol handle
@@ -39,7 +40,7 @@ public class CRequestAttr extends __CRequestAttr__ {
 					int energy = prop.getEnergy();
 					refreshdata.datas.put( fire.pb.attr.AttrType.ENERGY, (float)energy);					
 				}
-				
+				logger.error("------------人物属性-：------------------"+refreshdata.datas);
 				mkdb.Procedure.psendWhileCommit(roleid, refreshdata);					
 				
 				return true;
