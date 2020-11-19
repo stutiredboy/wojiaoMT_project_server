@@ -87,6 +87,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 		}
 		if(hostTeam != null && guestteam == null )
 		{
+			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,194038, null);
 			return;
 		}
 		//判断自己是否在副本，在副本无法发送请求
@@ -203,9 +204,8 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			int levelLimit = PKDropConfig_CFGS.get(1).levelLimit;
 			PropRole role = new PropRole(hostid, true);
 			PropRole guestrole = new PropRole(objectid, true);
-			logger.error("--------"+role.getLevel()+"------PK等级---------------"+guestrole.getLevel()+"----------------"+levelLimit);
 			if ( Math.abs(role.getLevel() - guestrole.getLevel()) >= levelLimit) {
-				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160491 ,null);
+				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 194037 ,null);
 				sendremoveTickTime(hostid);//通知客户端取消定时器
 				return ;
 			}
