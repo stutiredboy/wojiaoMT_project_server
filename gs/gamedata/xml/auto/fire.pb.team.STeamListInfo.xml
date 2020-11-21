@@ -9,7 +9,7 @@
       <target>10级剧情</target>
       <type>1</type>
       <minlevel>10</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -23,7 +23,7 @@
       <target>20级剧情</target>
       <type>1</type>
       <minlevel>20</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -37,7 +37,7 @@
       <target>30级剧情</target>
       <type>1</type>
       <minlevel>30</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -51,7 +51,7 @@
       <target>40级剧情</target>
       <type>1</type>
       <minlevel>40</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -65,7 +65,7 @@
       <target>日常副本</target>
       <type>3</type>
       <minlevel>20</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -79,7 +79,7 @@
       <target>废矿(30级)</target>
       <type>4</type>
       <minlevel>30</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -93,7 +93,7 @@
       <target>银堡(40级)</target>
       <type>4</type>
       <minlevel>40</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -107,7 +107,7 @@
       <target>荒泽(50级)</target>
       <type>4</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -121,7 +121,7 @@
       <target>教堂(60级)</target>
       <type>4</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -135,7 +135,7 @@
       <target>埋骨圣地(70级)</target>
       <type>4</type>
       <minlevel>70</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -149,7 +149,7 @@
       <target>遗迹(80级)</target>
       <type>4</type>
       <minlevel>80</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -163,7 +163,7 @@
       <target>祭坛(90级)</target>
       <type>4</type>
       <minlevel>90</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -177,7 +177,7 @@
       <target>深渊(100级)</target>
       <type>4</type>
       <minlevel>100</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -191,7 +191,7 @@
       <target>雾都(110级)</target>
       <type>4</type>
       <minlevel>110</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -205,7 +205,7 @@
       <target>邪兽堡垒</target>
       <type>4</type>
       <minlevel>120</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -219,7 +219,7 @@
       <target>邪兽堡垒</target>
       <type>4</type>
       <minlevel>130</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -233,7 +233,7 @@
       <target>英雄平台</target>
       <type>4</type>
       <minlevel>140</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -247,7 +247,7 @@
       <target>巨龙护卫</target>
       <type>5</type>
       <minlevel>35</minlevel>
-      <maxlevel>49</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -261,7 +261,7 @@
       <target>巨龙军团★</target>
       <type>5</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -275,7 +275,7 @@
       <target>巨龙军团★★</target>
       <type>5</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -289,8 +289,8 @@
       <target>3V3竞技场</target>
       <type>5</type>
       <minlevel>45</minlevel>
-      <maxlevel>150</maxlevel>
-      <minMember>1</minMember>
+      <maxlevel>155</maxlevel>
+      <minMember>3</minMember>
       <maxMember>3</maxMember>
       <additional>0</additional>
     </fire.pb.team.STeamListInfo>
@@ -303,7 +303,7 @@
       <target>奥山战场-雷毛</target>
       <type>5</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -317,7 +317,7 @@
       <target>奥山战场-双狼</target>
       <type>5</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -331,7 +331,7 @@
       <target>融核之心</target>
       <type>6</type>
       <minlevel>40</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -345,7 +345,7 @@
       <target>黑龙巢穴</target>
       <type>6</type>
       <minlevel>40</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -356,11 +356,11 @@
     <fire.pb.team.STeamListInfo>
       <id>26</id>
       <content>定时活动</content>
-      <target>冠军试炼</target>
+      <target>门派闯关</target>
       <type>5</type>
       <minlevel>40</minlevel>
-      <maxlevel>150</maxlevel>
-      <minMember>3</minMember>
+      <maxlevel>155</maxlevel>
+      <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
     </fire.pb.team.STeamListInfo>
@@ -373,7 +373,7 @@
       <target>欧格瑞姆(25级)</target>
       <type>7</type>
       <minlevel>25</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -387,7 +387,7 @@
       <target>风暴城(40级)</target>
       <type>7</type>
       <minlevel>40</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -401,7 +401,7 @@
       <target>影月城(50级)</target>
       <type>7</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -415,7 +415,7 @@
       <target>月光海岸(60级)</target>
       <type>7</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -429,7 +429,7 @@
       <target>虚空要塞(70级)</target>
       <type>7</type>
       <minlevel>70</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -443,7 +443,7 @@
       <target>暮光林(80级)</target>
       <type>7</type>
       <minlevel>80</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -457,7 +457,7 @@
       <target>银松林(90级)</target>
       <type>7</type>
       <minlevel>90</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -471,7 +471,7 @@
       <target>上古之神</target>
       <type>9</type>
       <minlevel>25</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>3</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -485,7 +485,7 @@
       <target>50级剧情</target>
       <type>1</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -499,7 +499,7 @@
       <target>60级剧情</target>
       <type>1</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -513,7 +513,7 @@
       <target>70级剧情</target>
       <type>1</type>
       <minlevel>70</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -527,7 +527,7 @@
       <target>80级剧情</target>
       <type>1</type>
       <minlevel>80</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -541,7 +541,7 @@
       <target>90级剧情</target>
       <type>1</type>
       <minlevel>90</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -555,7 +555,7 @@
       <target>100级剧情</target>
       <type>1</type>
       <minlevel>100</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -569,7 +569,7 @@
       <target>新的征程</target>
       <type>8</type>
       <minlevel>69</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -583,7 +583,7 @@
       <target>更强的力量</target>
       <type>8</type>
       <minlevel>89</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -597,7 +597,7 @@
       <target>公会战</target>
       <type>6</type>
       <minlevel>50</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -611,7 +611,7 @@
       <target>巨龙军团★★★</target>
       <type>5</type>
       <minlevel>70</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -625,7 +625,7 @@
       <target>熊猫王</target>
       <type>10</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -639,7 +639,7 @@
       <target>守护者</target>
       <type>10</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -653,7 +653,7 @@
       <target>学院院长</target>
       <type>10</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -667,7 +667,7 @@
       <target>贸易大王</target>
       <type>10</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -681,7 +681,7 @@
       <target>驭兽大师</target>
       <type>10</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>
@@ -695,7 +695,7 @@
       <target>锻造大师</target>
       <type>10</type>
       <minlevel>60</minlevel>
-      <maxlevel>150</maxlevel>
+      <maxlevel>155</maxlevel>
       <minMember>1</minMember>
       <maxMember>5</maxMember>
       <additional>0</additional>

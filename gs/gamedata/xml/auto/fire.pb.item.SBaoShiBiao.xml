@@ -13,6 +13,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -27,6 +29,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -41,6 +45,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -55,6 +61,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -69,6 +77,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -83,6 +93,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -97,6 +109,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -111,6 +125,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>0</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -124,7 +140,9 @@
       <shape>1025</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -138,7 +156,9 @@
       <shape>1149</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -152,7 +172,9 @@
       <shape>1148</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -166,7 +188,9 @@
       <shape>1147</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -180,7 +204,9 @@
       <shape>1146</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -194,7 +220,9 @@
       <shape>1029</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -208,7 +236,9 @@
       <shape>1028</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -222,7 +252,9 @@
       <shape>1027</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -236,7 +268,9 @@
       <shape>1026</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -250,7 +284,9 @@
       <shape>1025</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -264,7 +300,9 @@
       <shape>1149</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -278,7 +316,9 @@
       <shape>1148</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -292,7 +332,9 @@
       <shape>1147</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -306,7 +348,9 @@
       <shape>1146</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -320,7 +364,9 @@
       <shape>1029</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -334,7 +380,9 @@
       <shape>1028</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -348,7 +396,9 @@
       <shape>1027</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -362,7 +412,9 @@
       <shape>1026</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -376,7 +428,9 @@
       <shape>1025</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
-      <resolve>0</resolve>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -391,8 +445,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -407,8 +461,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -423,8 +477,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -439,8 +493,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -455,8 +509,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -471,8 +525,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -487,8 +541,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -503,8 +557,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -519,8 +573,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>2</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -535,8 +589,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -551,8 +605,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -567,8 +621,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -583,8 +637,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -599,8 +653,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -615,8 +669,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -631,8 +685,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -647,8 +701,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -663,8 +717,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>4</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -679,8 +733,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -695,8 +749,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -711,8 +765,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -727,8 +781,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -743,8 +797,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -759,8 +813,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -775,8 +829,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -791,8 +845,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -807,8 +861,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>8</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -823,8 +877,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -839,8 +893,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -855,8 +909,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -871,8 +925,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -887,8 +941,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -903,8 +957,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -919,8 +973,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -935,8 +989,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -951,8 +1005,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>16</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -967,8 +1021,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -983,8 +1037,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -999,8 +1053,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1015,8 +1069,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1031,8 +1085,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1047,8 +1101,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1063,8 +1117,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1079,8 +1133,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1095,8 +1149,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>32</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1111,8 +1165,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1127,8 +1181,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1143,8 +1197,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1159,8 +1213,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1175,8 +1229,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1191,8 +1245,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1207,8 +1261,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1223,8 +1277,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1239,8 +1293,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>64</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1255,8 +1309,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1271,8 +1325,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1287,8 +1341,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1303,8 +1357,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1319,8 +1373,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1335,8 +1389,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1351,8 +1405,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1367,8 +1421,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1383,8 +1437,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>128</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1399,8 +1453,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1415,8 +1469,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1431,8 +1485,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1447,8 +1501,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1463,8 +1517,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1479,8 +1533,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1495,8 +1549,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1511,8 +1565,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1527,8 +1581,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>256</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1543,8 +1597,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1559,8 +1613,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1575,8 +1629,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1591,8 +1645,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1607,8 +1661,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1623,8 +1677,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1639,8 +1693,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1655,8 +1709,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1671,8 +1725,8 @@
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>512</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1681,12 +1735,14 @@
       <id>35109</id>
       <type>1</type>
       <level>13</level>
+      <nextDiamond>35118</nextDiamond>
+      <prob>20</prob>
       <shape>1149</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35019</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1695,12 +1751,14 @@
       <id>35110</id>
       <type>2</type>
       <level>13</level>
+      <nextDiamond>35119</nextDiamond>
+      <prob>20</prob>
       <shape>1148</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35020</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1709,12 +1767,14 @@
       <id>35111</id>
       <type>3</type>
       <level>13</level>
+      <nextDiamond>35120</nextDiamond>
+      <prob>20</prob>
       <shape>1147</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35021</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1723,12 +1783,14 @@
       <id>35112</id>
       <type>4</type>
       <level>13</level>
+      <nextDiamond>35121</nextDiamond>
+      <prob>20</prob>
       <shape>1146</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35022</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1737,12 +1799,14 @@
       <id>35113</id>
       <type>5</type>
       <level>13</level>
+      <nextDiamond>35122</nextDiamond>
+      <prob>20</prob>
       <shape>1029</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35023</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1751,12 +1815,14 @@
       <id>35114</id>
       <type>6</type>
       <level>13</level>
+      <nextDiamond>35123</nextDiamond>
+      <prob>20</prob>
       <shape>1028</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35024</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1765,12 +1831,14 @@
       <id>35115</id>
       <type>7</type>
       <level>13</level>
+      <nextDiamond>35124</nextDiamond>
+      <prob>20</prob>
       <shape>1027</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35025</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1779,12 +1847,14 @@
       <id>35116</id>
       <type>8</type>
       <level>13</level>
+      <nextDiamond>35125</nextDiamond>
+      <prob>20</prob>
       <shape>1026</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35026</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
   <entry>
@@ -1793,12 +1863,2773 @@
       <id>35117</id>
       <type>9</type>
       <level>13</level>
+      <nextDiamond>35126</nextDiamond>
+      <prob>20</prob>
       <shape>1025</shape>
       <equip1>0</equip1>
       <equip2>0</equip2>
       <resolve>1</resolve>
-      <resolveItem>35027</resolveItem>
-      <resolveNum>1024</resolveNum>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35118</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35118</id>
+      <type>1</type>
+      <level>14</level>
+      <nextDiamond>35127</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35119</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35119</id>
+      <type>2</type>
+      <level>14</level>
+      <nextDiamond>35128</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35120</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35120</id>
+      <type>3</type>
+      <level>14</level>
+      <nextDiamond>35129</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35121</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35121</id>
+      <type>4</type>
+      <level>14</level>
+      <nextDiamond>35130</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35122</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35122</id>
+      <type>5</type>
+      <level>14</level>
+      <nextDiamond>35131</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35123</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35123</id>
+      <type>6</type>
+      <level>14</level>
+      <nextDiamond>35132</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35124</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35124</id>
+      <type>7</type>
+      <level>14</level>
+      <nextDiamond>35133</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35125</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35125</id>
+      <type>8</type>
+      <level>14</level>
+      <nextDiamond>35134</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35126</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35126</id>
+      <type>9</type>
+      <level>14</level>
+      <nextDiamond>35135</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>335000</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35127</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35127</id>
+      <type>1</type>
+      <level>15</level>
+      <nextDiamond>35136</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35128</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35128</id>
+      <type>2</type>
+      <level>15</level>
+      <nextDiamond>35137</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35129</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35129</id>
+      <type>3</type>
+      <level>15</level>
+      <nextDiamond>35138</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35130</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35130</id>
+      <type>4</type>
+      <level>15</level>
+      <nextDiamond>35139</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35131</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35131</id>
+      <type>5</type>
+      <level>15</level>
+      <nextDiamond>35140</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35132</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35132</id>
+      <type>6</type>
+      <level>15</level>
+      <nextDiamond>35141</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35133</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35133</id>
+      <type>7</type>
+      <level>15</level>
+      <nextDiamond>35142</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35134</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35134</id>
+      <type>8</type>
+      <level>15</level>
+      <nextDiamond>35143</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35135</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35135</id>
+      <type>9</type>
+      <level>15</level>
+      <nextDiamond>35144</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35136</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35136</id>
+      <type>1</type>
+      <level>16</level>
+      <nextDiamond>35145</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35137</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35137</id>
+      <type>2</type>
+      <level>16</level>
+      <nextDiamond>35146</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35138</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35138</id>
+      <type>3</type>
+      <level>16</level>
+      <nextDiamond>35147</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35139</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35139</id>
+      <type>4</type>
+      <level>16</level>
+      <nextDiamond>35148</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35140</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35140</id>
+      <type>5</type>
+      <level>16</level>
+      <nextDiamond>35149</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35141</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35141</id>
+      <type>6</type>
+      <level>16</level>
+      <nextDiamond>35150</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35142</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35142</id>
+      <type>7</type>
+      <level>16</level>
+      <nextDiamond>35151</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35143</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35143</id>
+      <type>8</type>
+      <level>16</level>
+      <nextDiamond>35152</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35144</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35144</id>
+      <type>9</type>
+      <level>16</level>
+      <nextDiamond>35153</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35145</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35145</id>
+      <type>1</type>
+      <level>17</level>
+      <nextDiamond>35154</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35146</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35146</id>
+      <type>2</type>
+      <level>17</level>
+      <nextDiamond>35155</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35147</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35147</id>
+      <type>3</type>
+      <level>17</level>
+      <nextDiamond>35156</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35148</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35148</id>
+      <type>4</type>
+      <level>17</level>
+      <nextDiamond>35157</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35149</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35149</id>
+      <type>5</type>
+      <level>17</level>
+      <nextDiamond>35158</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35150</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35150</id>
+      <type>6</type>
+      <level>17</level>
+      <nextDiamond>35159</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35151</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35151</id>
+      <type>7</type>
+      <level>17</level>
+      <nextDiamond>35160</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35152</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35152</id>
+      <type>8</type>
+      <level>17</level>
+      <nextDiamond>35161</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35153</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35153</id>
+      <type>9</type>
+      <level>17</level>
+      <nextDiamond>35162</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35154</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35154</id>
+      <type>1</type>
+      <level>18</level>
+      <nextDiamond>35163</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35155</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35155</id>
+      <type>2</type>
+      <level>18</level>
+      <nextDiamond>35164</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35156</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35156</id>
+      <type>3</type>
+      <level>18</level>
+      <nextDiamond>35165</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35157</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35157</id>
+      <type>4</type>
+      <level>18</level>
+      <nextDiamond>35166</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35158</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35158</id>
+      <type>5</type>
+      <level>18</level>
+      <nextDiamond>35167</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35159</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35159</id>
+      <type>6</type>
+      <level>18</level>
+      <nextDiamond>35168</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35160</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35160</id>
+      <type>7</type>
+      <level>18</level>
+      <nextDiamond>35169</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35161</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35161</id>
+      <type>8</type>
+      <level>18</level>
+      <nextDiamond>35170</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35162</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35162</id>
+      <type>9</type>
+      <level>18</level>
+      <nextDiamond>35171</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35163</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35163</id>
+      <type>1</type>
+      <level>19</level>
+      <nextDiamond>35172</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35164</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35164</id>
+      <type>2</type>
+      <level>19</level>
+      <nextDiamond>35173</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35165</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35165</id>
+      <type>3</type>
+      <level>19</level>
+      <nextDiamond>35174</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35166</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35166</id>
+      <type>4</type>
+      <level>19</level>
+      <nextDiamond>35175</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35167</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35167</id>
+      <type>5</type>
+      <level>19</level>
+      <nextDiamond>35176</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35168</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35168</id>
+      <type>6</type>
+      <level>19</level>
+      <nextDiamond>35177</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35169</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35169</id>
+      <type>7</type>
+      <level>19</level>
+      <nextDiamond>35178</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35170</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35170</id>
+      <type>8</type>
+      <level>19</level>
+      <nextDiamond>35179</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35171</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35171</id>
+      <type>9</type>
+      <level>19</level>
+      <nextDiamond>35180</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340151</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35172</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35172</id>
+      <type>1</type>
+      <level>20</level>
+      <nextDiamond>35181</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35173</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35173</id>
+      <type>2</type>
+      <level>20</level>
+      <nextDiamond>35182</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35174</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35174</id>
+      <type>3</type>
+      <level>20</level>
+      <nextDiamond>35183</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35175</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35175</id>
+      <type>4</type>
+      <level>20</level>
+      <nextDiamond>35184</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35176</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35176</id>
+      <type>5</type>
+      <level>20</level>
+      <nextDiamond>35185</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35177</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35177</id>
+      <type>6</type>
+      <level>20</level>
+      <nextDiamond>35186</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35178</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35178</id>
+      <type>7</type>
+      <level>20</level>
+      <nextDiamond>35187</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35179</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35179</id>
+      <type>8</type>
+      <level>20</level>
+      <nextDiamond>35188</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35180</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35180</id>
+      <type>9</type>
+      <level>20</level>
+      <nextDiamond>35189</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35181</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35181</id>
+      <type>1</type>
+      <level>21</level>
+      <nextDiamond>35190</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35182</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35182</id>
+      <type>2</type>
+      <level>21</level>
+      <nextDiamond>35191</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35183</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35183</id>
+      <type>3</type>
+      <level>21</level>
+      <nextDiamond>35192</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35184</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35184</id>
+      <type>4</type>
+      <level>21</level>
+      <nextDiamond>35193</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35185</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35185</id>
+      <type>5</type>
+      <level>21</level>
+      <nextDiamond>35194</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35186</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35186</id>
+      <type>6</type>
+      <level>21</level>
+      <nextDiamond>35195</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35187</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35187</id>
+      <type>7</type>
+      <level>21</level>
+      <nextDiamond>35196</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35188</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35188</id>
+      <type>8</type>
+      <level>21</level>
+      <nextDiamond>35197</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35189</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35189</id>
+      <type>9</type>
+      <level>21</level>
+      <nextDiamond>35198</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35190</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35190</id>
+      <type>1</type>
+      <level>22</level>
+      <nextDiamond>35199</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35191</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35191</id>
+      <type>2</type>
+      <level>22</level>
+      <nextDiamond>35200</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35192</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35192</id>
+      <type>3</type>
+      <level>22</level>
+      <nextDiamond>35201</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35193</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35193</id>
+      <type>4</type>
+      <level>22</level>
+      <nextDiamond>35202</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35194</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35194</id>
+      <type>5</type>
+      <level>22</level>
+      <nextDiamond>35203</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35195</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35195</id>
+      <type>6</type>
+      <level>22</level>
+      <nextDiamond>35204</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35196</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35196</id>
+      <type>7</type>
+      <level>22</level>
+      <nextDiamond>35205</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35197</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35197</id>
+      <type>8</type>
+      <level>22</level>
+      <nextDiamond>35206</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35198</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35198</id>
+      <type>9</type>
+      <level>22</level>
+      <nextDiamond>35207</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35199</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35199</id>
+      <type>1</type>
+      <level>23</level>
+      <nextDiamond>35208</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35200</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35200</id>
+      <type>2</type>
+      <level>23</level>
+      <nextDiamond>35209</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35201</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35201</id>
+      <type>3</type>
+      <level>23</level>
+      <nextDiamond>35210</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35202</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35202</id>
+      <type>4</type>
+      <level>23</level>
+      <nextDiamond>35211</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35203</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35203</id>
+      <type>5</type>
+      <level>23</level>
+      <nextDiamond>35212</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35204</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35204</id>
+      <type>6</type>
+      <level>23</level>
+      <nextDiamond>35213</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35205</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35205</id>
+      <type>7</type>
+      <level>23</level>
+      <nextDiamond>35214</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35206</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35206</id>
+      <type>8</type>
+      <level>23</level>
+      <nextDiamond>35215</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35207</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35207</id>
+      <type>9</type>
+      <level>23</level>
+      <nextDiamond>35216</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35208</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35208</id>
+      <type>1</type>
+      <level>24</level>
+      <nextDiamond>35217</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35209</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35209</id>
+      <type>2</type>
+      <level>24</level>
+      <nextDiamond>35218</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35210</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35210</id>
+      <type>3</type>
+      <level>24</level>
+      <nextDiamond>35219</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35211</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35211</id>
+      <type>4</type>
+      <level>24</level>
+      <nextDiamond>35220</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35212</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35212</id>
+      <type>5</type>
+      <level>24</level>
+      <nextDiamond>35221</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35213</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35213</id>
+      <type>6</type>
+      <level>24</level>
+      <nextDiamond>35222</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35214</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35214</id>
+      <type>7</type>
+      <level>24</level>
+      <nextDiamond>35223</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35215</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35215</id>
+      <type>8</type>
+      <level>24</level>
+      <nextDiamond>35224</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35216</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35216</id>
+      <type>9</type>
+      <level>24</level>
+      <nextDiamond>35225</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340152</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35217</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35217</id>
+      <type>1</type>
+      <level>25</level>
+      <nextDiamond>35226</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35218</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35218</id>
+      <type>2</type>
+      <level>25</level>
+      <nextDiamond>35227</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35219</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35219</id>
+      <type>3</type>
+      <level>25</level>
+      <nextDiamond>35228</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35220</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35220</id>
+      <type>4</type>
+      <level>25</level>
+      <nextDiamond>35229</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35221</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35221</id>
+      <type>5</type>
+      <level>25</level>
+      <nextDiamond>35230</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35222</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35222</id>
+      <type>6</type>
+      <level>25</level>
+      <nextDiamond>35231</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35223</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35223</id>
+      <type>7</type>
+      <level>25</level>
+      <nextDiamond>35232</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35224</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35224</id>
+      <type>8</type>
+      <level>25</level>
+      <nextDiamond>35233</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35225</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35225</id>
+      <type>9</type>
+      <level>25</level>
+      <nextDiamond>35234</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35226</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35226</id>
+      <type>1</type>
+      <level>26</level>
+      <nextDiamond>35235</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35227</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35227</id>
+      <type>2</type>
+      <level>26</level>
+      <nextDiamond>35236</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35228</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35228</id>
+      <type>3</type>
+      <level>26</level>
+      <nextDiamond>35237</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35229</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35229</id>
+      <type>4</type>
+      <level>26</level>
+      <nextDiamond>35238</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35230</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35230</id>
+      <type>5</type>
+      <level>26</level>
+      <nextDiamond>35239</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35231</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35231</id>
+      <type>6</type>
+      <level>26</level>
+      <nextDiamond>35240</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35232</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35232</id>
+      <type>7</type>
+      <level>26</level>
+      <nextDiamond>35241</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35233</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35233</id>
+      <type>8</type>
+      <level>26</level>
+      <nextDiamond>35242</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35234</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35234</id>
+      <type>9</type>
+      <level>26</level>
+      <nextDiamond>35243</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35235</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35235</id>
+      <type>1</type>
+      <level>27</level>
+      <nextDiamond>35244</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35236</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35236</id>
+      <type>2</type>
+      <level>27</level>
+      <nextDiamond>35245</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35237</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35237</id>
+      <type>3</type>
+      <level>27</level>
+      <nextDiamond>35246</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35238</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35238</id>
+      <type>4</type>
+      <level>27</level>
+      <nextDiamond>35247</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35239</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35239</id>
+      <type>5</type>
+      <level>27</level>
+      <nextDiamond>35248</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35240</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35240</id>
+      <type>6</type>
+      <level>27</level>
+      <nextDiamond>35249</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35241</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35241</id>
+      <type>7</type>
+      <level>27</level>
+      <nextDiamond>35250</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35242</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35242</id>
+      <type>8</type>
+      <level>27</level>
+      <nextDiamond>35251</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35243</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35243</id>
+      <type>9</type>
+      <level>27</level>
+      <nextDiamond>35252</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35244</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35244</id>
+      <type>1</type>
+      <level>28</level>
+      <nextDiamond>35253</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35245</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35245</id>
+      <type>2</type>
+      <level>28</level>
+      <nextDiamond>35254</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35246</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35246</id>
+      <type>3</type>
+      <level>28</level>
+      <nextDiamond>35255</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35247</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35247</id>
+      <type>4</type>
+      <level>28</level>
+      <nextDiamond>35256</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35248</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35248</id>
+      <type>5</type>
+      <level>28</level>
+      <nextDiamond>35257</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35249</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35249</id>
+      <type>6</type>
+      <level>28</level>
+      <nextDiamond>35258</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35250</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35250</id>
+      <type>7</type>
+      <level>28</level>
+      <nextDiamond>35259</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35251</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35251</id>
+      <type>8</type>
+      <level>28</level>
+      <nextDiamond>35260</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35252</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35252</id>
+      <type>9</type>
+      <level>28</level>
+      <nextDiamond>35261</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35253</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35253</id>
+      <type>1</type>
+      <level>29</level>
+      <nextDiamond>35262</nextDiamond>
+      <prob>20</prob>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35244</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35254</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35254</id>
+      <type>2</type>
+      <level>29</level>
+      <nextDiamond>35263</nextDiamond>
+      <prob>20</prob>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35245</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35255</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35255</id>
+      <type>3</type>
+      <level>29</level>
+      <nextDiamond>35264</nextDiamond>
+      <prob>20</prob>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35246</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35256</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35256</id>
+      <type>4</type>
+      <level>29</level>
+      <nextDiamond>35265</nextDiamond>
+      <prob>20</prob>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35247</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35257</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35257</id>
+      <type>5</type>
+      <level>29</level>
+      <nextDiamond>35266</nextDiamond>
+      <prob>20</prob>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35248</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35258</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35258</id>
+      <type>6</type>
+      <level>29</level>
+      <nextDiamond>35267</nextDiamond>
+      <prob>20</prob>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35249</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35259</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35259</id>
+      <type>7</type>
+      <level>29</level>
+      <nextDiamond>35268</nextDiamond>
+      <prob>20</prob>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35250</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35260</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35260</id>
+      <type>8</type>
+      <level>29</level>
+      <nextDiamond>35269</nextDiamond>
+      <prob>20</prob>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35251</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35261</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35261</id>
+      <type>9</type>
+      <level>29</level>
+      <nextDiamond>35270</nextDiamond>
+      <prob>20</prob>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35252</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35262</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35262</id>
+      <type>1</type>
+      <level>30</level>
+      <nextDiamond>35271</nextDiamond>
+      <shape>1149</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35253</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35263</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35263</id>
+      <type>2</type>
+      <level>30</level>
+      <nextDiamond>35272</nextDiamond>
+      <shape>1148</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35254</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35264</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35264</id>
+      <type>3</type>
+      <level>30</level>
+      <nextDiamond>35273</nextDiamond>
+      <shape>1147</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35255</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35265</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35265</id>
+      <type>4</type>
+      <level>30</level>
+      <nextDiamond>35274</nextDiamond>
+      <shape>1146</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35256</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35266</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35266</id>
+      <type>5</type>
+      <level>30</level>
+      <nextDiamond>35275</nextDiamond>
+      <shape>1029</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35257</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35267</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35267</id>
+      <type>6</type>
+      <level>30</level>
+      <nextDiamond>35276</nextDiamond>
+      <shape>1028</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35258</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35268</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35268</id>
+      <type>7</type>
+      <level>30</level>
+      <nextDiamond>35277</nextDiamond>
+      <shape>1027</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35259</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35269</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35269</id>
+      <type>8</type>
+      <level>30</level>
+      <nextDiamond>35278</nextDiamond>
+      <shape>1026</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35260</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35270</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35270</id>
+      <type>9</type>
+      <level>30</level>
+      <nextDiamond>35279</nextDiamond>
+      <shape>1025</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>35261</resolveItem>
+      <resolveNum>2</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35271</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35271</id>
+      <type>10</type>
+      <level>1</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35272</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35272</id>
+      <type>10</type>
+      <level>2</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35273</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35273</id>
+      <type>10</type>
+      <level>3</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35274</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35274</id>
+      <type>10</type>
+      <level>4</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35275</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35275</id>
+      <type>10</type>
+      <level>5</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35276</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35276</id>
+      <type>10</type>
+      <level>6</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35277</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35277</id>
+      <type>10</type>
+      <level>7</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35278</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35278</id>
+      <type>10</type>
+      <level>8</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35279</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35279</id>
+      <type>10</type>
+      <level>9</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35280</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35280</id>
+      <type>10</type>
+      <level>10</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>340154</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35281</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35281</id>
+      <type>10</type>
+      <level>11</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35282</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35282</id>
+      <type>10</type>
+      <level>12</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35283</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35283</id>
+      <type>10</type>
+      <level>13</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35284</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35284</id>
+      <type>10</type>
+      <level>14</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35285</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35285</id>
+      <type>10</type>
+      <level>15</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>1</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35286</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35286</id>
+      <type>10</type>
+      <level>16</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35287</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35287</id>
+      <type>10</type>
+      <level>17</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35288</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35288</id>
+      <type>10</type>
+      <level>18</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35289</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35289</id>
+      <type>10</type>
+      <level>19</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
+    </fire.pb.item.SBaoShiBiao>
+  </entry>
+  <entry>
+    <int>35290</int>
+    <fire.pb.item.SBaoShiBiao>
+      <id>35290</id>
+      <type>10</type>
+      <level>20</level>
+      <nextDiamond>0</nextDiamond>
+      <prob>0</prob>
+      <shape>1659</shape>
+      <equip1>0</equip1>
+      <equip2>0</equip2>
+      <resolve>1</resolve>
+      <resolveItem>339102</resolveItem>
+      <resolveNum>5</resolveNum>
     </fire.pb.item.SBaoShiBiao>
   </entry>
 </tree-map>

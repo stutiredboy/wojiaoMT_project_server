@@ -64,4 +64,46 @@
       <职业>19</职业>
     </fire.pb.mission.SAllTaskLine>
   </entry>
+  <entry>
+    <int>1810</int>
+    <fire.pb.mission.SAllTaskLine>
+      <id>1810</id>
+      <职业>20</职业>
+    </fire.pb.mission.SAllTaskLine>
+  </entry>
+  <entry>
+    <int>1811</int>
+    <fire.pb.mission.SAllTaskLine>
+      <id>1811</id>
+      <职业>21</职业>
+    </fire.pb.mission.SAllTaskLine>
+  </entry>
+  <entry>
+    <int>1812</int>
+    <fire.pb.mission.SAllTaskLine>
+      <id>1812</id>
+      <职业>22</职业>
+    </fire.pb.mission.SAllTaskLine>
+  </entry>
+  <entry>
+    <int>1813</int>
+    <fire.pb.mission.SAllTaskLine>
+      <id>1813</id>
+      <职业>23</职业>
+    </fire.pb.mission.SAllTaskLine>
+  </entry>
+  <entry>
+    <int>1814</int>
+    <fire.pb.mission.SAllTaskLine>
+      <id>1814</id>
+      <职业>24</职业>
+    </fire.pb.mission.SAllTaskLine>
+  </entry>
+  <entry>
+    <int>1815</int>
+    <fire.pb.mission.SAllTaskLine>
+      <id>1815</id>
+      <职业>25</职业>
+    </fire.pb.mission.SAllTaskLine>
+  </entry>
 </tree-map>

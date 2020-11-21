@@ -21842,6 +21842,150 @@
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
+    <int>241</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>241</id>
+      <addattributer>
+        <int>1201</int>
+        <int>1202</int>
+        <int>1203</int>
+        <int>1204</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
+    <int>242</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>242</id>
+      <addattributer>
+        <int>1209</int>
+        <int>1210</int>
+        <int>1211</int>
+        <int>1212</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
+    <int>243</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>243</id>
+      <addattributer>
+        <int>1217</int>
+        <int>1218</int>
+        <int>1219</int>
+        <int>1220</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
+    <int>244</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>244</id>
+      <addattributer>
+        <int>1225</int>
+        <int>1226</int>
+        <int>1227</int>
+        <int>1228</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
+    <int>245</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>245</id>
+      <addattributer>
+        <int>1205</int>
+        <int>1206</int>
+        <int>1207</int>
+        <int>1208</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
+    <int>246</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>246</id>
+      <addattributer>
+        <int>1213</int>
+        <int>1214</int>
+        <int>1215</int>
+        <int>1216</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
+    <int>247</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>247</id>
+      <addattributer>
+        <int>1221</int>
+        <int>1222</int>
+        <int>1223</int>
+        <int>1224</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
+    <int>248</int>
+    <fire.pb.item.SEquipAddattributerandomlib>
+      <id>248</id>
+      <addattributer>
+        <int>1229</int>
+        <int>1230</int>
+        <int>1231</int>
+        <int>1232</int>
+      </addattributer>
+      <addattributerquanzhong>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+        <int>20</int>
+      </addattributerquanzhong>
+    </fire.pb.item.SEquipAddattributerandomlib>
+  </entry>
+  <entry>
     <int>2001</int>
     <fire.pb.item.SEquipAddattributerandomlib>
       <id>2001</id>
@@ -22437,8 +22581,33 @@
         <int>2007</int>
         <int>2008</int>
         <int>2034</int>
-        <int>2027</int>
+        <int>2034</int>
         <int>2031</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22450,10 +22619,35 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>10</int>
+        <int>100</int>
+        <int>50</int>
         <int>100</int>
         <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22470,8 +22664,33 @@
         <int>2015</int>
         <int>2016</int>
         <int>2034</int>
-        <int>2027</int>
+        <int>2034</int>
         <int>2031</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22483,10 +22702,35 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>10</int>
+        <int>100</int>
+        <int>50</int>
         <int>100</int>
         <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22503,8 +22747,33 @@
         <int>2023</int>
         <int>2024</int>
         <int>2034</int>
-        <int>2027</int>
+        <int>2034</int>
         <int>2031</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22516,10 +22785,35 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>10</int>
+        <int>100</int>
+        <int>50</int>
         <int>100</int>
         <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22537,6 +22831,32 @@
         <int>2008</int>
         <int>2034</int>
         <int>2029</int>
+        <int>2035</int>
+        <int>2061</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22549,8 +22869,34 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1000</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22568,6 +22914,32 @@
         <int>2016</int>
         <int>2034</int>
         <int>2029</int>
+        <int>2035</int>
+        <int>2064</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22580,8 +22952,34 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1000</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22599,6 +22997,32 @@
         <int>2024</int>
         <int>2034</int>
         <int>2029</int>
+        <int>2035</int>
+        <int>2066</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22611,8 +23035,34 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1000</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22630,6 +23080,32 @@
         <int>2008</int>
         <int>2034</int>
         <int>2036</int>
+        <int>2035</int>
+        <int>2061</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22642,8 +23118,34 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1000</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22661,6 +23163,32 @@
         <int>2016</int>
         <int>2034</int>
         <int>2036</int>
+        <int>2035</int>
+        <int>2064</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22673,8 +23201,34 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1000</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22692,6 +23246,32 @@
         <int>2024</int>
         <int>2034</int>
         <int>2036</int>
+        <int>2035</int>
+        <int>2066</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22704,8 +23284,34 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1000</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22724,6 +23330,31 @@
         <int>2034</int>
         <int>2028</int>
         <int>2030</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22737,8 +23368,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22757,6 +23413,31 @@
         <int>2034</int>
         <int>2028</int>
         <int>2030</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22770,8 +23451,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22790,6 +23496,31 @@
         <int>2034</int>
         <int>2028</int>
         <int>2030</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22803,8 +23534,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22823,6 +23579,31 @@
         <int>2034</int>
         <int>2025</int>
         <int>2026</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22836,8 +23617,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22856,6 +23662,31 @@
         <int>2034</int>
         <int>2025</int>
         <int>2026</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22869,8 +23700,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22889,6 +23745,31 @@
         <int>2034</int>
         <int>2025</int>
         <int>2026</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22902,8 +23783,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22922,6 +23828,31 @@
         <int>2034</int>
         <int>2032</int>
         <int>2033</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -22935,8 +23866,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22944,32 +23900,82 @@
     <fire.pb.item.SEquipAddattributerandomlib>
       <id>2035</id>
       <addattributer>
-        <int>2009</int>
-        <int>2010</int>
-        <int>2011</int>
-        <int>2012</int>
-        <int>2013</int>
-        <int>2014</int>
-        <int>2015</int>
-        <int>2016</int>
-        <int>2034</int>
-        <int>2032</int>
-        <int>2033</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
+        <int>50</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
         <int>100</int>
-        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -22988,6 +23994,31 @@
         <int>2034</int>
         <int>2032</int>
         <int>2033</int>
+        <int>2035</int>
+        <int>2037</int>
+        <int>2038</int>
+        <int>2039</int>
+        <int>2040</int>
+        <int>2041</int>
+        <int>2042</int>
+        <int>2043</int>
+        <int>2044</int>
+        <int>2045</int>
+        <int>2046</int>
+        <int>2047</int>
+        <int>2048</int>
+        <int>2049</int>
+        <int>2050</int>
+        <int>2051</int>
+        <int>2052</int>
+        <int>2053</int>
+        <int>2054</int>
+        <int>2055</int>
+        <int>2056</int>
+        <int>2057</int>
+        <int>2058</int>
+        <int>2059</int>
+        <int>2060</int>
       </addattributer>
       <addattributerquanzhong>
         <int>100</int>
@@ -23001,8 +24032,33 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
+        <int>50</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
+        <int>100</int>
+        <int>30</int>
+        <int>25</int>
+        <int>20</int>
+        <int>15</int>
+        <int>10</int>
       </addattributerquanzhong>
-      <allquanzhong>1100</allquanzhong>
+      <allquanzhong>3800</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -23188,6 +24244,12 @@
         <int>3028</int>
         <int>3029</int>
         <int>3030</int>
+        <int>3031</int>
+        <int>3032</int>
+        <int>3033</int>
+        <int>2063</int>
+        <int>2064</int>
+        <int>2065</int>
       </addattributer>
       <addattributerquanzhong>
         <int>40</int>
@@ -23220,8 +24282,14 @@
         <int>13</int>
         <int>20</int>
         <int>8</int>
+        <int>12</int>
+        <int>20</int>
+        <int>15</int>
+        <int>15</int>
+        <int>15</int>
+        <int>15</int>
       </addattributerquanzhong>
-      <allquanzhong>549</allquanzhong>
+      <allquanzhong>671</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
   <entry>
@@ -23262,6 +24330,9 @@
         <int>3031</int>
         <int>3032</int>
         <int>3033</int>
+        <int>2063</int>
+        <int>2064</int>
+        <int>2065</int>
       </addattributer>
       <addattributerquanzhong>
         <int>40</int>
@@ -23297,8 +24368,11 @@
         <int>12</int>
         <int>20</int>
         <int>15</int>
+        <int>15</int>
+        <int>15</int>
+        <int>15</int>
       </addattributerquanzhong>
-      <allquanzhong>596</allquanzhong>
+      <allquanzhong>671</allquanzhong>
     </fire.pb.item.SEquipAddattributerandomlib>
   </entry>
 </tree-map>

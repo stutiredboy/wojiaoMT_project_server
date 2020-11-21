@@ -9,7 +9,7 @@
       <Target>10级剧情</Target>
       <Type>1</Type>
       <MinLevel>10</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -23,7 +23,7 @@
       <Target>20级剧情</Target>
       <Type>1</Type>
       <MinLevel>20</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -37,7 +37,7 @@
       <Target>30级剧情</Target>
       <Type>1</Type>
       <MinLevel>30</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -51,7 +51,7 @@
       <Target>40级剧情</Target>
       <Type>1</Type>
       <MinLevel>40</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -65,7 +65,7 @@
       <Target>日常副本</Target>
       <Type>3</Type>
       <MinLevel>20</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -79,7 +79,7 @@
       <Target>废矿(30级)</Target>
       <Type>4</Type>
       <MinLevel>30</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -93,7 +93,7 @@
       <Target>银堡(40级)</Target>
       <Type>4</Type>
       <MinLevel>40</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -107,7 +107,7 @@
       <Target>荒泽(50级)</Target>
       <Type>4</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -121,7 +121,7 @@
       <Target>教堂(60级)</Target>
       <Type>4</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -135,7 +135,7 @@
       <Target>埋骨圣地(70级)</Target>
       <Type>4</Type>
       <MinLevel>70</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -149,7 +149,7 @@
       <Target>遗迹(80级)</Target>
       <Type>4</Type>
       <MinLevel>80</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -163,7 +163,7 @@
       <Target>祭坛(90级)</Target>
       <Type>4</Type>
       <MinLevel>90</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -177,7 +177,7 @@
       <Target>深渊(100级)</Target>
       <Type>4</Type>
       <MinLevel>100</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -191,7 +191,7 @@
       <Target>雾都(110级)</Target>
       <Type>4</Type>
       <MinLevel>110</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -205,7 +205,7 @@
       <Target>邪兽堡垒</Target>
       <Type>4</Type>
       <MinLevel>120</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -219,7 +219,7 @@
       <Target>邪兽堡垒</Target>
       <Type>4</Type>
       <MinLevel>130</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -233,7 +233,7 @@
       <Target>英雄平台</Target>
       <Type>4</Type>
       <MinLevel>140</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -247,7 +247,7 @@
       <Target>巨龙护卫</Target>
       <Type>5</Type>
       <MinLevel>35</MinLevel>
-      <MaxLevel>49</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -261,7 +261,7 @@
       <Target>巨龙军团★</Target>
       <Type>5</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -275,7 +275,7 @@
       <Target>巨龙军团★★</Target>
       <Type>5</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -289,8 +289,8 @@
       <Target>3V3竞技场</Target>
       <Type>5</Type>
       <MinLevel>45</MinLevel>
-      <MaxLevel>150</MaxLevel>
-      <MinPlayer>1</MinPlayer>
+      <MaxLevel>155</MaxLevel>
+      <MinPlayer>3</MinPlayer>
       <MaxPlayer>3</MaxPlayer>
       <Append>0</Append>
     </fire.pb.team.STeamMatchInfo>
@@ -303,7 +303,7 @@
       <Target>奥山战场-雷毛</Target>
       <Type>5</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -317,7 +317,7 @@
       <Target>奥山战场-双狼</Target>
       <Type>5</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -331,7 +331,7 @@
       <Target>融核之心</Target>
       <Type>6</Type>
       <MinLevel>40</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -345,7 +345,7 @@
       <Target>黑龙巢穴</Target>
       <Type>6</Type>
       <MinLevel>40</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -356,11 +356,11 @@
     <fire.pb.team.STeamMatchInfo>
       <id>26</id>
       <DisplayInfo>定时活动</DisplayInfo>
-      <Target>冠军试炼</Target>
+      <Target>门派闯关</Target>
       <Type>5</Type>
       <MinLevel>40</MinLevel>
-      <MaxLevel>150</MaxLevel>
-      <MinPlayer>3</MinPlayer>
+      <MaxLevel>155</MaxLevel>
+      <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
     </fire.pb.team.STeamMatchInfo>
@@ -373,7 +373,7 @@
       <Target>欧格瑞姆(25级)</Target>
       <Type>7</Type>
       <MinLevel>25</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -387,7 +387,7 @@
       <Target>风暴城(40级)</Target>
       <Type>7</Type>
       <MinLevel>40</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -401,7 +401,7 @@
       <Target>影月城(50级)</Target>
       <Type>7</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -415,7 +415,7 @@
       <Target>月光海岸(60级)</Target>
       <Type>7</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -429,7 +429,7 @@
       <Target>虚空要塞(70级)</Target>
       <Type>7</Type>
       <MinLevel>70</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -443,7 +443,7 @@
       <Target>暮光林(80级)</Target>
       <Type>7</Type>
       <MinLevel>80</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -457,7 +457,7 @@
       <Target>银松林(90级)</Target>
       <Type>7</Type>
       <MinLevel>90</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -471,7 +471,7 @@
       <Target>上古之神</Target>
       <Type>9</Type>
       <MinLevel>25</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>3</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -485,7 +485,7 @@
       <Target>50级剧情</Target>
       <Type>1</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -499,7 +499,7 @@
       <Target>60级剧情</Target>
       <Type>1</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -513,7 +513,7 @@
       <Target>70级剧情</Target>
       <Type>1</Type>
       <MinLevel>70</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -527,7 +527,7 @@
       <Target>80级剧情</Target>
       <Type>1</Type>
       <MinLevel>80</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -541,7 +541,7 @@
       <Target>90级剧情</Target>
       <Type>1</Type>
       <MinLevel>90</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -555,7 +555,7 @@
       <Target>100级剧情</Target>
       <Type>1</Type>
       <MinLevel>100</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -569,7 +569,7 @@
       <Target>新的征程</Target>
       <Type>8</Type>
       <MinLevel>69</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -583,7 +583,7 @@
       <Target>更强的力量</Target>
       <Type>8</Type>
       <MinLevel>89</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -597,7 +597,7 @@
       <Target>公会战</Target>
       <Type>6</Type>
       <MinLevel>50</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -611,7 +611,7 @@
       <Target>巨龙军团★★★</Target>
       <Type>5</Type>
       <MinLevel>70</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -625,7 +625,7 @@
       <Target>熊猫王</Target>
       <Type>10</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -639,7 +639,7 @@
       <Target>守护者</Target>
       <Type>10</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -653,7 +653,7 @@
       <Target>学院院长</Target>
       <Type>10</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -667,7 +667,7 @@
       <Target>贸易大王</Target>
       <Type>10</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -681,7 +681,7 @@
       <Target>驭兽大师</Target>
       <Type>10</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>
@@ -695,7 +695,7 @@
       <Target>锻造大师</Target>
       <Type>10</Type>
       <MinLevel>60</MinLevel>
-      <MaxLevel>150</MaxLevel>
+      <MaxLevel>155</MaxLevel>
       <MinPlayer>1</MinPlayer>
       <MaxPlayer>5</MaxPlayer>
       <Append>0</Append>

@@ -7,7 +7,7 @@
       <id>1601</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>溶洞一层</mapName>
+      <mapName>海底沉船</mapName>
       <desc>溶洞一层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -29,7 +29,7 @@
       <id>1624</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>溶洞二层</mapName>
+      <mapName>江南野外</mapName>
       <desc>溶洞二层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -51,7 +51,7 @@
       <id>1625</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>溶洞三层</mapName>
+      <mapName>大唐国境</mapName>
       <desc>溶洞三层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -73,7 +73,7 @@
       <id>1626</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>废矿一层</mapName>
+      <mapName>大雁塔</mapName>
       <desc>废矿一层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -95,7 +95,7 @@
       <id>1627</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>废矿二层</mapName>
+      <mapName>长寿郊外</mapName>
       <desc>废矿二层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -117,7 +117,7 @@
       <id>1628</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>废矿三层</mapName>
+      <mapName>海底迷宫</mapName>
       <desc>废矿三层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -139,7 +139,7 @@
       <id>1629</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>银堡一层</mapName>
+      <mapName>地狱迷宫</mapName>
       <desc>银堡一层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -161,7 +161,7 @@
       <id>1630</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>银堡二层</mapName>
+      <mapName>北俱芦洲</mapName>
       <desc>银堡二层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -183,7 +183,7 @@
       <id>1631</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>银堡三层</mapName>
+      <mapName>龙窟</mapName>
       <desc>银堡三层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -205,7 +205,7 @@
       <id>1602</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>学院一层</mapName>
+      <mapName>凤巢</mapName>
       <desc>学院一层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -227,7 +227,7 @@
       <id>1632</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>学院二层</mapName>
+      <mapName>子母河底</mapName>
       <desc>学院二层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -249,7 +249,7 @@
       <id>1633</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>学院三层</mapName>
+      <mapName>无名鬼域</mapName>
       <desc>学院三层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -271,7 +271,7 @@
       <id>1634</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>教堂一层</mapName>
+      <mapName>麒麟山</mapName>
       <desc>教堂一层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -293,7 +293,7 @@
       <id>1635</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>教堂二层</mapName>
+      <mapName>女娲神迹</mapName>
       <desc>教堂二层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -315,7 +315,7 @@
       <id>1636</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>教堂三层</mapName>
+      <mapName>小西天</mapName>
       <desc>教堂三层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -337,7 +337,7 @@
       <id>1603</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>埋股圣地一层</mapName>
+      <mapName>小雷音寺</mapName>
       <desc>埋股圣地一层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -359,7 +359,7 @@
       <id>1637</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>埋股圣地二层</mapName>
+      <mapName>蓬莱仙境</mapName>
       <desc>埋股圣地二层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -381,7 +381,7 @@
       <id>1638</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>埋股圣地三层</mapName>
+      <mapName>墨家禁地</mapName>
       <desc>埋股圣地三层</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -667,8 +667,8 @@
       <id>1605</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>月光海岸</mapName>
-      <desc>月光海岸</desc>
+      <mapName>傲来国</mapName>
+      <desc>傲来国</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -689,8 +689,8 @@
       <id>1606</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>影月城</mapName>
-      <desc>影月城</desc>
+      <mapName>宝象国</mapName>
+      <desc>宝象国</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -711,8 +711,8 @@
       <id>1607</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>虚空要塞</mapName>
-      <desc>虚空要塞</desc>
+      <mapName>天宫</mapName>
+      <desc>天宫</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -733,8 +733,8 @@
       <id>1608</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>十字路口</mapName>
-      <desc>十字路口</desc>
+      <mapName>东海湾</mapName>
+      <desc>东海湾</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -755,8 +755,8 @@
       <id>1609</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>银松林</mapName>
-      <desc>银松林</desc>
+      <mapName>西梁女国</mapName>
+      <desc>西梁女国</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -777,8 +777,8 @@
       <id>1610</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>暮光林</mapName>
-      <desc>暮光林</desc>
+      <mapName>朱紫国</mapName>
+      <desc>朱紫国</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -799,7 +799,7 @@
       <id>1611</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>剃刀泥沼</mapName>
+      <mapName>盘丝洞</mapName>
       <desc>剃刀泥沼</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -821,8 +821,8 @@
       <id>1612</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>激流高地</mapName>
-      <desc>激流高地</desc>
+      <mapName>花果山</mapName>
+      <desc>花果山</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -843,8 +843,8 @@
       <id>1613</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>公会</mapName>
-      <desc>公会</desc>
+      <mapName>帮派领地</mapName>
+      <desc>帮派领地</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
       <relocatemapid>1615</relocatemapid>
@@ -865,8 +865,8 @@
       <id>1614</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>风暴城</mapName>
-      <desc>风暴城</desc>
+      <mapName>长寿村</mapName>
+      <desc>长寿村</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -887,8 +887,8 @@
       <id>1615</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>紫罗兰</mapName>
-      <desc>紫罗兰</desc>
+      <mapName>长安城</mapName>
+      <desc>长安城</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -909,8 +909,8 @@
       <id>1616</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>欧格瑞姆</mapName>
-      <desc>欧格瑞姆</desc>
+      <mapName>建邺城</mapName>
+      <desc>建邺城</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
       <relocatemapid>0</relocatemapid>
@@ -931,7 +931,7 @@
       <id>1617</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>太阳岛</mapName>
+      <mapName>龙宫</mapName>
       <desc>法师职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -953,7 +953,7 @@
       <id>1618</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雷霆村</mapName>
+      <mapName>大唐官府</mapName>
       <desc>战士职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -975,7 +975,7 @@
       <id>1619</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>提瑞斯镇</mapName>
+      <mapName>普陀山</mapName>
       <desc>牧师职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -997,7 +997,7 @@
       <id>1620</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>暗矛镇</mapName>
+      <mapName>狮驼岭</mapName>
       <desc>猎人职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -1019,7 +1019,7 @@
       <id>1621</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>修道院</mapName>
+      <mapName>方寸山</mapName>
       <desc>圣骑职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -1041,7 +1041,7 @@
       <id>1622</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>永夜林地</mapName>
+      <mapName>阴曹地府</mapName>
       <desc>德鲁伊职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -1063,7 +1063,7 @@
       <id>1690</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>摩萨德</mapName>
+      <mapName>月宫</mapName>
       <desc>盗贼职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -1085,7 +1085,7 @@
       <id>1691</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>血蹄村</mapName>
+      <mapName>魔王寨</mapName>
       <desc>萨满职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -1107,7 +1107,7 @@
       <id>1692</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>遗忘之城</mapName>
+      <mapName>化生寺</mapName>
       <desc>术士职业场景</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -1828,50 +1828,6 @@
     </fire.pb.map.MapConfig>
   </entry>
   <entry>
-    <int>1693</int>
-    <fire.pb.map.MapConfig>
-      <id>1693</id>
-      <enterlv>0</enterlv>
-      <minlevel>-1</minlevel>
-      <mapName>微风平原</mapName>
-      <desc>微风平原</desc>
-      <safemap>1</safemap>
-      <dynamic>0</dynamic>
-      <relocatemapid>0</relocatemapid>
-      <relocatex>0</relocatex>
-      <relocatey>0</relocatey>
-      <qinggong>1</qinggong>
-      <visibletype>0</visibletype>
-      <xjPos>62</xjPos>
-      <yjPos>75</yjPos>
-      <remap>1615</remap>
-      <rexjPos>0</rexjPos>
-      <reyjPos>0</reyjPos>
-    </fire.pb.map.MapConfig>
-  </entry>
-  <entry>
-    <int>1694</int>
-    <fire.pb.map.MapConfig>
-      <id>1694</id>
-      <enterlv>0</enterlv>
-      <minlevel>-1</minlevel>
-      <mapName>加纳多尔</mapName>
-      <desc>加纳多尔</desc>
-      <safemap>1</safemap>
-      <dynamic>0</dynamic>
-      <relocatemapid>0</relocatemapid>
-      <relocatex>0</relocatex>
-      <relocatey>0</relocatey>
-      <qinggong>1</qinggong>
-      <visibletype>0</visibletype>
-      <xjPos>26</xjPos>
-      <yjPos>99</yjPos>
-      <remap>1615</remap>
-      <rexjPos>0</rexjPos>
-      <reyjPos>0</reyjPos>
-    </fire.pb.map.MapConfig>
-  </entry>
-  <entry>
     <int>1695</int>
     <fire.pb.map.MapConfig>
       <id>1695</id>
@@ -1965,7 +1921,7 @@
       <id>1699</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雷毛普通场</mapName>
+      <mapName>青龙普通场</mapName>
       <desc>5V5普通场阵营1</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -1987,7 +1943,7 @@
       <id>1700</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>双狼普通场</mapName>
+      <mapName>白虎普通场</mapName>
       <desc>5V5普通场阵营2</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2009,7 +1965,7 @@
       <id>1701</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雷毛普通场</mapName>
+      <mapName>青龙普通场</mapName>
       <desc>5V5普通场阵营1</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2031,7 +1987,7 @@
       <id>1702</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>双狼普通场</mapName>
+      <mapName>白虎普通场</mapName>
       <desc>5V5普通场阵营2</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2053,7 +2009,7 @@
       <id>1703</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雷毛普通场</mapName>
+      <mapName>青龙普通场</mapName>
       <desc>5V5普通场阵营1</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2075,7 +2031,7 @@
       <id>1704</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>双狼普通场</mapName>
+      <mapName>白虎普通场</mapName>
       <desc>5V5普通场阵营2</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2097,7 +2053,7 @@
       <id>1705</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雷毛优胜场</mapName>
+      <mapName>青龙优胜场</mapName>
       <desc>5V5优胜场阵营1</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2119,7 +2075,7 @@
       <id>1706</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>双狼优胜场</mapName>
+      <mapName>白虎优胜场</mapName>
       <desc>5V5优胜场阵营2</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2141,7 +2097,7 @@
       <id>1707</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雷毛优胜场</mapName>
+      <mapName>青龙优胜场</mapName>
       <desc>5V5优胜场阵营1</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2163,7 +2119,7 @@
       <id>1708</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>双狼优胜场</mapName>
+      <mapName>白虎优胜场</mapName>
       <desc>5V5优胜场阵营2</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2185,7 +2141,7 @@
       <id>1709</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雷毛优胜场</mapName>
+      <mapName>青龙优胜场</mapName>
       <desc>5V5优胜场阵营1</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2207,7 +2163,7 @@
       <id>1710</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>双狼优胜场</mapName>
+      <mapName>白虎优胜场</mapName>
       <desc>5V5优胜场阵营2</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2537,7 +2493,7 @@
       <id>1821</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座40</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2559,7 +2515,7 @@
       <id>1822</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座40</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2581,7 +2537,7 @@
       <id>1823</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座40</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2603,7 +2559,7 @@
       <id>1824</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座40</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2625,7 +2581,7 @@
       <id>1839</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座40</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2647,7 +2603,7 @@
       <id>1825</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座70</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2669,7 +2625,7 @@
       <id>1826</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座70</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2691,7 +2647,7 @@
       <id>1827</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座70</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2713,7 +2669,7 @@
       <id>1828</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座70</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2735,7 +2691,7 @@
       <id>1829</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座70</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2757,7 +2713,7 @@
       <id>1830</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座70</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2779,7 +2735,7 @@
       <id>1831</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2801,7 +2757,7 @@
       <id>1832</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2823,7 +2779,7 @@
       <id>1833</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2845,7 +2801,7 @@
       <id>1834</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2867,7 +2823,7 @@
       <id>1835</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2889,7 +2845,7 @@
       <id>1836</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2911,7 +2867,7 @@
       <id>1837</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -2933,7 +2889,7 @@
       <id>1838</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>冰封王座</mapName>
+      <mapName>秘境降妖</mapName>
       <desc>冰封王座90</desc>
       <safemap>1</safemap>
       <dynamic>0</dynamic>
@@ -3835,7 +3791,7 @@
       <id>1901</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>溶洞</mapName>
+      <mapName>混世魔王-普通</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -3857,7 +3813,7 @@
       <id>1902</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>废矿</mapName>
+      <mapName>混世魔王-侠士</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -3879,7 +3835,7 @@
       <id>1903</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>银堡</mapName>
+      <mapName>破六欲-普通</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -3901,7 +3857,7 @@
       <id>1904</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>荒泽</mapName>
+      <mapName>破六欲-侠士</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -3923,7 +3879,7 @@
       <id>1905</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>教堂</mapName>
+      <mapName>生死簿-普通</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -3945,7 +3901,7 @@
       <id>1906</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>埋骨圣地</mapName>
+      <mapName>生死簿-侠士</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -3967,7 +3923,7 @@
       <id>1907</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>遗迹</mapName>
+      <mapName>绿烟如梦-普通</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -3989,7 +3945,7 @@
       <id>1908</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>祭坛</mapName>
+      <mapName>绿烟如梦-侠士</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -4011,7 +3967,7 @@
       <id>1909</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>深渊</mapName>
+      <mapName>地府送瓜-普通</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -4033,7 +3989,7 @@
       <id>1910</id>
       <enterlv>0</enterlv>
       <minlevel>-1</minlevel>
-      <mapName>雾都</mapName>
+      <mapName>地府送瓜-侠士</mapName>
       <desc>副本</desc>
       <safemap>1</safemap>
       <dynamic>1</dynamic>
@@ -4726,6 +4682,314 @@
       <visibletype>0</visibletype>
       <xjPos>100</xjPos>
       <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>8888</int>
+    <fire.pb.map.MapConfig>
+      <id>8888</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>房屋</mapName>
+      <desc>房屋</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>6666</int>
+    <fire.pb.map.MapConfig>
+      <id>6666</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>庭院</mapName>
+      <desc>庭院</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2300</int>
+    <fire.pb.map.MapConfig>
+      <id>2300</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>战神山</mapName>
+      <desc>庭院</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2205</int>
+    <fire.pb.map.MapConfig>
+      <id>2205</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>五庄观</mapName>
+      <desc>五庄观</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>0</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2206</int>
+    <fire.pb.map.MapConfig>
+      <id>2206</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>女儿村</mapName>
+      <desc>女儿村</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>0</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2207</int>
+    <fire.pb.map.MapConfig>
+      <id>2207</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>神木林</mapName>
+      <desc>神木林</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>0</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2208</int>
+    <fire.pb.map.MapConfig>
+      <id>2208</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>无底洞</mapName>
+      <desc>无底洞</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>0</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2210</int>
+    <fire.pb.map.MapConfig>
+      <id>2210</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>废弃的御花园</mapName>
+      <desc>乌鸡国</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2211</int>
+    <fire.pb.map.MapConfig>
+      <id>2211</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>乌鸡皇宫</mapName>
+      <desc>乌鸡国</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>100</xjPos>
+      <yjPos>99</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2212</int>
+    <fire.pb.map.MapConfig>
+      <id>2212</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>水路道场</mapName>
+      <desc>水路道场</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>11</xjPos>
+      <yjPos>143</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2213</int>
+    <fire.pb.map.MapConfig>
+      <id>2213</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>妖魔巢穴</mapName>
+      <desc>水路道场</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>57</xjPos>
+      <yjPos>135</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2214</int>
+    <fire.pb.map.MapConfig>
+      <id>2214</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>三清道观</mapName>
+      <desc>水路道场</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>3</xjPos>
+      <yjPos>231</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2215</int>
+    <fire.pb.map.MapConfig>
+      <id>2215</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>道观大殿</mapName>
+      <desc>水路道场</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>21</xjPos>
+      <yjPos>68</yjPos>
+      <remap>1615</remap>
+      <rexjPos>0</rexjPos>
+      <reyjPos>0</reyjPos>
+    </fire.pb.map.MapConfig>
+  </entry>
+  <entry>
+    <int>2216</int>
+    <fire.pb.map.MapConfig>
+      <id>2216</id>
+      <enterlv>0</enterlv>
+      <minlevel>-1</minlevel>
+      <mapName>九霄云外</mapName>
+      <desc>凌霄宝殿</desc>
+      <safemap>1</safemap>
+      <dynamic>0</dynamic>
+      <relocatemapid>0</relocatemapid>
+      <relocatex>0</relocatex>
+      <relocatey>0</relocatey>
+      <qinggong>1</qinggong>
+      <visibletype>2</visibletype>
+      <xjPos>34</xjPos>
+      <yjPos>270</yjPos>
       <remap>1615</remap>
       <rexjPos>0</rexjPos>
       <reyjPos>0</reyjPos>

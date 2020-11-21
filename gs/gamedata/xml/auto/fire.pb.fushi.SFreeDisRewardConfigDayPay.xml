@@ -49,4 +49,20 @@
       <num>20</num>
     </fire.pb.fushi.SFreeDisRewardConfigDayPay>
   </entry>
+  <entry>
+    <int>340444</int>
+    <fire.pb.fushi.SFreeDisRewardConfigDayPay>
+      <id>340444</id>
+      <name>新手宝宝</name>
+      <itemids>
+        <int>340442</int>
+        <int>340443</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </itemids>
+      <num>1</num>
+    </fire.pb.fushi.SFreeDisRewardConfigDayPay>
+  </entry>
 </tree-map>

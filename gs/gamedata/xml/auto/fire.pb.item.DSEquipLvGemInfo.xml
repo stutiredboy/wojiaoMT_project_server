@@ -5,7 +5,7 @@
     <int>1</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>1</id>
-      <gemsLevel>0</gemsLevel>
+      <gemsLevel>30</gemsLevel>
       <hols>1</hols>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -13,7 +13,7 @@
     <int>10</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>10</id>
-      <gemsLevel>0</gemsLevel>
+      <gemsLevel>30</gemsLevel>
       <hols>1</hols>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -21,7 +21,7 @@
     <int>20</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>20</id>
-      <gemsLevel>0</gemsLevel>
+      <gemsLevel>30</gemsLevel>
       <hols>1</hols>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -29,11 +29,12 @@
     <int>30</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>30</id>
-      <gemsLevel>3</gemsLevel>
-      <hols>1</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -41,11 +42,12 @@
     <int>40</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>40</id>
-      <gemsLevel>4</gemsLevel>
-      <hols>1</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -53,11 +55,12 @@
     <int>50</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>50</id>
-      <gemsLevel>5</gemsLevel>
-      <hols>1</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -65,11 +68,12 @@
     <int>60</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>60</id>
-      <gemsLevel>6</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -77,11 +81,12 @@
     <int>70</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>70</id>
-      <gemsLevel>7</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -89,11 +94,12 @@
     <int>80</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>80</id>
-      <gemsLevel>8</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -101,11 +107,12 @@
     <int>90</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>90</id>
-      <gemsLevel>9</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -113,11 +120,12 @@
     <int>100</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>100</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -125,11 +133,12 @@
     <int>110</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>110</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -137,11 +146,12 @@
     <int>120</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>120</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -149,11 +159,12 @@
     <int>130</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>130</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -161,11 +172,12 @@
     <int>140</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>140</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -173,11 +185,12 @@
     <int>150</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>150</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>30</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -185,11 +198,12 @@
     <int>160</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>160</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>
@@ -197,11 +211,181 @@
     <int>170</int>
     <fire.pb.item.DSEquipLvGemInfo>
       <id>170</id>
-      <gemsLevel>10</gemsLevel>
-      <hols>2</hols>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
       <holsLevel>
         <int>30</int>
         <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>180</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>180</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>190</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>190</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>200</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>200</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>210</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>210</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>220</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>220</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>230</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>230</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>240</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>240</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>250</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>250</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>260</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>260</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>270</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>270</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>280</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>280</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>290</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>290</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
+      </holsLevel>
+    </fire.pb.item.DSEquipLvGemInfo>
+  </entry>
+  <entry>
+    <int>300</int>
+    <fire.pb.item.DSEquipLvGemInfo>
+      <id>300</id>
+      <gemsLevel>31</gemsLevel>
+      <hols>3</hols>
+      <holsLevel>
+        <int>30</int>
+        <int>60</int>
+        <int>90</int>
       </holsLevel>
     </fire.pb.item.DSEquipLvGemInfo>
   </entry>

@@ -5,7 +5,7 @@
     <int>22000</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22000</id>
-      <name>小软</name>
+      <name>变异大海龟</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
       <pet>500100</pet>
@@ -78,10 +78,10 @@
     <int>22001</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22001</id>
-      <name>小软</name>
+      <name>大海龟</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500101</pet>
+      <pet>500100</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -151,10 +151,10 @@
     <int>22002</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22002</id>
-      <name>小软</name>
+      <name>大海龟</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500102</pet>
+      <pet>500101</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -224,10 +224,10 @@
     <int>22003</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22003</id>
-      <name>迅猛龙</name>
+      <name>大海龟</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500103</pet>
+      <pet>500102</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -299,10 +299,10 @@
     <int>22004</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22004</id>
-      <name>迅猛龙</name>
+      <name>泡泡</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500104</pet>
+      <pet>506002</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -374,10 +374,10 @@
     <int>22005</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22005</id>
-      <name>狮子</name>
+      <name>泡泡</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500105</pet>
+      <pet>506002</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -451,10 +451,10 @@
     <int>22006</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22006</id>
-      <name>食人工头</name>
+      <name>大海龟头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500106</pet>
+      <pet>500100</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -529,10 +529,10 @@
     <int>22007</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22007</id>
-      <name>食人工头</name>
+      <name>大海龟头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500107</pet>
+      <pet>500160</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -607,10 +607,10 @@
     <int>22008</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22008</id>
-      <name>食人工头</name>
+      <name>大海龟头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500108</pet>
+      <pet>500161</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -685,10 +685,10 @@
     <int>22009</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22009</id>
-      <name>地精工匠</name>
+      <name>大海龟头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500109</pet>
+      <pet>500162</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -763,10 +763,10 @@
     <int>22010</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22010</id>
-      <name>地精工匠</name>
+      <name>变异海毛虫</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500110</pet>
+      <pet>500106</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -841,10 +841,10 @@
     <int>22011</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22011</id>
-      <name>剪刀手</name>
+      <name>海毛虫</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500111</pet>
+      <pet>500106</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -919,10 +919,10 @@
     <int>22012</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22012</id>
-      <name>死神</name>
+      <name>海毛虫</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500112</pet>
+      <pet>500107</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -997,10 +997,10 @@
     <int>22013</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22013</id>
-      <name>死神</name>
+      <name>海毛虫</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500113</pet>
+      <pet>500108</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1075,10 +1075,10 @@
     <int>22014</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22014</id>
-      <name>死神</name>
+      <name>海毛虫头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500114</pet>
+      <pet>500106</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1153,10 +1153,10 @@
     <int>22015</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22015</id>
-      <name>狼人</name>
+      <name>海毛虫头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500115</pet>
+      <pet>500166</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1231,10 +1231,10 @@
     <int>22016</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22016</id>
-      <name>狼人</name>
+      <name>海毛虫头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500116</pet>
+      <pet>500167</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1309,10 +1309,10 @@
     <int>22017</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22017</id>
-      <name>死灵哨兵</name>
+      <name>海毛虫头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500117</pet>
+      <pet>500168</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1387,10 +1387,10 @@
     <int>22018</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22018</id>
-      <name>野猪人</name>
+      <name>变异巨蛙</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500118</pet>
+      <pet>500103</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1465,10 +1465,10 @@
     <int>22019</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22019</id>
-      <name>野猪人</name>
+      <name>巨蛙</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500119</pet>
+      <pet>500103</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1543,10 +1543,10 @@
     <int>22020</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22020</id>
-      <name>野猪人</name>
+      <name>巨蛙</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500120</pet>
+      <pet>500104</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1621,10 +1621,10 @@
     <int>22021</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22021</id>
-      <name>绿龙护卫</name>
+      <name>巨蛙头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500121</pet>
+      <pet>500103</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1699,10 +1699,10 @@
     <int>22022</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22022</id>
-      <name>绿龙护卫</name>
+      <name>巨蛙头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500122</pet>
+      <pet>500103</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1777,10 +1777,10 @@
     <int>22023</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22023</id>
-      <name>野猪战士</name>
+      <name>巨蛙头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500123</pet>
+      <pet>500103</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1855,10 +1855,10 @@
     <int>22024</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22024</id>
-      <name>血色猎犬</name>
+      <name>巨蛙头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500124</pet>
+      <pet>500163</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -1933,10 +1933,10 @@
     <int>22025</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22025</id>
-      <name>血色猎犬</name>
+      <name>巨蛙头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500125</pet>
+      <pet>500164</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2011,10 +2011,10 @@
     <int>22026</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22026</id>
-      <name>血色猎犬</name>
+      <name>变异骷髅怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500126</pet>
+      <pet>500121</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2089,10 +2089,10 @@
     <int>22027</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22027</id>
-      <name>幽灵</name>
+      <name>骷髅怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500127</pet>
+      <pet>500121</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2167,10 +2167,10 @@
     <int>22028</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22028</id>
-      <name>幽灵</name>
+      <name>骷髅怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500128</pet>
+      <pet>500122</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2245,10 +2245,10 @@
     <int>22029</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22029</id>
-      <name>死亡骑士</name>
+      <name>骷髅怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500129</pet>
+      <pet>500121</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2326,10 +2326,10 @@
     <int>22030</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22030</id>
-      <name>土元素</name>
+      <name>骷髅怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500130</pet>
+      <pet>500181</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2404,10 +2404,10 @@
     <int>22031</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22031</id>
-      <name>土元素</name>
+      <name>骷髅怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500131</pet>
+      <pet>500182</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2482,10 +2482,10 @@
     <int>22032</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22032</id>
-      <name>土元素</name>
+      <name>变异野猪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500132</pet>
+      <pet>500109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2560,10 +2560,10 @@
     <int>22033</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22033</id>
-      <name>半人马</name>
+      <name>野猪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500133</pet>
+      <pet>500109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2638,10 +2638,10 @@
     <int>22034</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22034</id>
-      <name>半人马</name>
+      <name>野猪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500134</pet>
+      <pet>500110</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2716,10 +2716,10 @@
     <int>22035</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22035</id>
-      <name>逐日卫士</name>
+      <name>野猪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500135</pet>
+      <pet>500109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2794,10 +2794,10 @@
     <int>22036</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22036</id>
-      <name>虚空恐魔</name>
+      <name>野猪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500136</pet>
+      <pet>500109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2873,10 +2873,10 @@
     <int>22037</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22037</id>
-      <name>虚空恐魔</name>
+      <name>野猪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500137</pet>
+      <pet>500109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -2952,10 +2952,10 @@
     <int>22038</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22038</id>
-      <name>虚空恐魔</name>
+      <name>野猪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500138</pet>
+      <pet>500169</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3031,10 +3031,10 @@
     <int>22039</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22039</id>
-      <name>火女</name>
+      <name>野猪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500139</pet>
+      <pet>500170</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3109,10 +3109,10 @@
     <int>22040</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22040</id>
-      <name>火女</name>
+      <name>变异树怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500140</pet>
+      <pet>500105</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3187,10 +3187,10 @@
     <int>22041</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22041</id>
-      <name>雪女</name>
+      <name>变异树怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500141</pet>
+      <pet>500105</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3267,10 +3267,10 @@
     <int>22042</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22042</id>
-      <name>蓝龙</name>
+      <name>树怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500142</pet>
+      <pet>500105</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3345,10 +3345,10 @@
     <int>22043</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22043</id>
-      <name>蓝龙</name>
+      <name>树怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500143</pet>
+      <pet>500105</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3423,10 +3423,10 @@
     <int>22044</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22044</id>
-      <name>蓝龙</name>
+      <name>树怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500144</pet>
+      <pet>500165</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3501,10 +3501,10 @@
     <int>22045</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22045</id>
-      <name>预言者</name>
+      <name>变异赌徒</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500145</pet>
+      <pet>500111</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3579,10 +3579,10 @@
     <int>22046</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22046</id>
-      <name>预言者</name>
+      <name>赌徒</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500146</pet>
+      <pet>500111</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3657,10 +3657,10 @@
     <int>22047</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22047</id>
-      <name>裁决者</name>
+      <name>赌徒头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500147</pet>
+      <pet>500111</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3735,10 +3735,10 @@
     <int>22048</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22048</id>
-      <name>红龙</name>
+      <name>赌徒头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500148</pet>
+      <pet>500111</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3814,10 +3814,10 @@
     <int>22049</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22049</id>
-      <name>红龙</name>
+      <name>赌徒头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500149</pet>
+      <pet>500111</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3893,10 +3893,10 @@
     <int>22050</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22050</id>
-      <name>红龙</name>
+      <name>赌徒头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500150</pet>
+      <pet>500171</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -3972,10 +3972,10 @@
     <int>22051</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22051</id>
-      <name>黑铁矮人</name>
+      <name>变异大蝙蝠</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500151</pet>
+      <pet>500112</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4050,10 +4050,10 @@
     <int>22052</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22052</id>
-      <name>黑铁矮人</name>
+      <name>大蝙蝠</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500152</pet>
+      <pet>500112</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4128,10 +4128,10 @@
     <int>22053</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22053</id>
-      <name>铁炉牧师</name>
+      <name>大蝙蝠</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500153</pet>
+      <pet>500113</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4206,10 +4206,10 @@
     <int>22054</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22054</id>
-      <name>龙骑士</name>
+      <name>大蝙蝠</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500154</pet>
+      <pet>500114</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4286,10 +4286,10 @@
     <int>22055</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22055</id>
-      <name>龙骑士</name>
+      <name>大蝙蝠头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500155</pet>
+      <pet>500112</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4366,10 +4366,10 @@
     <int>22056</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22056</id>
-      <name>龙骑士</name>
+      <name>大蝙蝠头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500156</pet>
+      <pet>500113</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4446,10 +4446,10 @@
     <int>22057</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22057</id>
-      <name>食尸鬼</name>
+      <name>大蝙蝠头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500157</pet>
+      <pet>500172</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4526,10 +4526,10 @@
     <int>22058</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22058</id>
-      <name>食尸鬼</name>
+      <name>大蝙蝠头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500158</pet>
+      <pet>500173</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4606,10 +4606,10 @@
     <int>22059</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22059</id>
-      <name>暗灵圣女</name>
+      <name>大蝙蝠头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>500159</pet>
+      <pet>500174</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4687,10 +4687,10 @@
     <int>22060</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22060</id>
-      <name>小软精英</name>
+      <name>变异蛤蟆精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500160</pet>
+      <pet>500124</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4760,10 +4760,10 @@
     <int>22061</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22061</id>
-      <name>小软精英</name>
+      <name>蛤蟆精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500161</pet>
+      <pet>500124</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4833,10 +4833,10 @@
     <int>22062</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22062</id>
-      <name>小软精英</name>
+      <name>蛤蟆精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500162</pet>
+      <pet>500125</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4906,10 +4906,10 @@
     <int>22063</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22063</id>
-      <name>迅猛龙精英</name>
+      <name>蛤蟆精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500163</pet>
+      <pet>500126</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -4981,10 +4981,10 @@
     <int>22064</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22064</id>
-      <name>迅猛龙精英</name>
+      <name>蛤蟆精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500164</pet>
+      <pet>500124</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5056,10 +5056,10 @@
     <int>22065</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22065</id>
-      <name>狮子精英</name>
+      <name>蛤蟆精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500165</pet>
+      <pet>500184</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5133,10 +5133,10 @@
     <int>22066</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22066</id>
-      <name>食人工头精英</name>
+      <name>蛤蟆精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500166</pet>
+      <pet>500185</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5211,10 +5211,10 @@
     <int>22067</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22067</id>
-      <name>食人工头精英</name>
+      <name>蛤蟆精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500167</pet>
+      <pet>500186</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5289,10 +5289,10 @@
     <int>22068</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22068</id>
-      <name>食人工头精英</name>
+      <name>变异黑熊</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500168</pet>
+      <pet>500129</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5367,10 +5367,10 @@
     <int>22069</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22069</id>
-      <name>地精工匠精英</name>
+      <name>黑熊</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500169</pet>
+      <pet>500129</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5445,10 +5445,10 @@
     <int>22070</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22070</id>
-      <name>地精工匠精英</name>
+      <name>黑熊头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500170</pet>
+      <pet>500129</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5523,10 +5523,10 @@
     <int>22071</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22071</id>
-      <name>剪刀手精英</name>
+      <name>变异狐狸精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500171</pet>
+      <pet>500123</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5601,10 +5601,10 @@
     <int>22072</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22072</id>
-      <name>死神精英</name>
+      <name>狐狸精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500172</pet>
+      <pet>500123</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5679,10 +5679,10 @@
     <int>22073</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22073</id>
-      <name>死神精英</name>
+      <name>狐狸精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500173</pet>
+      <pet>500123</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5757,10 +5757,10 @@
     <int>22074</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22074</id>
-      <name>死神精英</name>
+      <name>狐狸精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500174</pet>
+      <pet>500183</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5835,10 +5835,10 @@
     <int>22075</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22075</id>
-      <name>狼人精英</name>
+      <name>变异僵尸</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500175</pet>
+      <pet>500147</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5913,10 +5913,10 @@
     <int>22076</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22076</id>
-      <name>狼人精英</name>
+      <name>僵尸</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500176</pet>
+      <pet>500147</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -5991,10 +5991,10 @@
     <int>22077</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22077</id>
-      <name>死灵哨兵精英</name>
+      <name>僵尸头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500177</pet>
+      <pet>500147</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6069,10 +6069,10 @@
     <int>22078</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22078</id>
-      <name>野猪人精英</name>
+      <name>僵尸头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500178</pet>
+      <pet>500207</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6147,10 +6147,10 @@
     <int>22079</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22079</id>
-      <name>野猪人精英</name>
+      <name>变异狼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500179</pet>
+      <pet>500130</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6225,10 +6225,10 @@
     <int>22080</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22080</id>
-      <name>野猪人精英</name>
+      <name>狼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500180</pet>
+      <pet>500130</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6303,10 +6303,10 @@
     <int>22081</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22081</id>
-      <name>绿龙护卫精英</name>
+      <name>狼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500181</pet>
+      <pet>500131</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6381,10 +6381,10 @@
     <int>22082</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22082</id>
-      <name>绿龙护卫精英</name>
+      <name>狼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500182</pet>
+      <pet>500132</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6459,10 +6459,10 @@
     <int>22083</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22083</id>
-      <name>野猪战士精英</name>
+      <name>狼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500183</pet>
+      <pet>500130</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6537,10 +6537,10 @@
     <int>22084</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22084</id>
-      <name>血色猎犬精英</name>
+      <name>狼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500184</pet>
+      <pet>500190</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6615,10 +6615,10 @@
     <int>22085</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22085</id>
-      <name>血色猎犬精英</name>
+      <name>狼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500185</pet>
+      <pet>500191</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6693,10 +6693,10 @@
     <int>22086</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22086</id>
-      <name>血色猎犬精英</name>
+      <name>狼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500186</pet>
+      <pet>500192</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6771,10 +6771,10 @@
     <int>22087</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22087</id>
-      <name>幽灵精英</name>
+      <name>变异老虎</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500187</pet>
+      <pet>500127</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6849,10 +6849,10 @@
     <int>22088</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22088</id>
-      <name>幽灵精英</name>
+      <name>老虎</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500188</pet>
+      <pet>500127</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -6927,10 +6927,10 @@
     <int>22089</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22089</id>
-      <name>死亡骑士精英</name>
+      <name>老虎</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500189</pet>
+      <pet>500128</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7008,10 +7008,10 @@
     <int>22090</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22090</id>
-      <name>土元素精英</name>
+      <name>老虎头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500190</pet>
+      <pet>500127</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7086,10 +7086,10 @@
     <int>22091</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22091</id>
-      <name>土元素精英</name>
+      <name>老虎头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500191</pet>
+      <pet>500187</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7164,10 +7164,10 @@
     <int>22092</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22092</id>
-      <name>土元素精英</name>
+      <name>老虎头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500192</pet>
+      <pet>500188</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7242,10 +7242,10 @@
     <int>22093</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22093</id>
-      <name>半人马精英</name>
+      <name>变异强盗</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500193</pet>
+      <pet>500115</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7320,10 +7320,10 @@
     <int>22094</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22094</id>
-      <name>半人马精英</name>
+      <name>变异强盗</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500194</pet>
+      <pet>500115</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7398,10 +7398,10 @@
     <int>22095</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22095</id>
-      <name>逐日卫士精英</name>
+      <name>强盗</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500195</pet>
+      <pet>500115</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7476,10 +7476,10 @@
     <int>22096</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22096</id>
-      <name>虚空恐魔精英</name>
+      <name>强盗</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500196</pet>
+      <pet>500116</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7555,10 +7555,10 @@
     <int>22097</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22097</id>
-      <name>虚空恐魔精英</name>
+      <name>强盗头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500197</pet>
+      <pet>500115</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7634,10 +7634,10 @@
     <int>22098</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22098</id>
-      <name>虚空恐魔精英</name>
+      <name>强盗头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500198</pet>
+      <pet>500175</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7713,10 +7713,10 @@
     <int>22099</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22099</id>
-      <name>火女精英</name>
+      <name>强盗头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500199</pet>
+      <pet>500176</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7791,10 +7791,10 @@
     <int>22100</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22100</id>
-      <name>火女精英</name>
+      <name>变异山贼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500200</pet>
+      <pet>500117</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7869,10 +7869,10 @@
     <int>22101</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22101</id>
-      <name>雪女精英</name>
+      <name>变异山贼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500201</pet>
+      <pet>510001</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -7949,10 +7949,10 @@
     <int>22102</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22102</id>
-      <name>蓝龙精英</name>
+      <name>山贼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500202</pet>
+      <pet>500117</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8027,10 +8027,10 @@
     <int>22103</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22103</id>
-      <name>蓝龙精英</name>
+      <name>山贼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500203</pet>
+      <pet>510001</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8105,10 +8105,10 @@
     <int>22104</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22104</id>
-      <name>蓝龙精英</name>
+      <name>山贼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500204</pet>
+      <pet>500117</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8183,10 +8183,10 @@
     <int>22105</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22105</id>
-      <name>预言者精英</name>
+      <name>山贼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500205</pet>
+      <pet>510001</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8261,10 +8261,10 @@
     <int>22106</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22106</id>
-      <name>预言者精英</name>
+      <name>山贼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500206</pet>
+      <pet>500177</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8339,10 +8339,10 @@
     <int>22107</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22107</id>
-      <name>裁决者精英</name>
+      <name>山贼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500207</pet>
+      <pet>510001</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8417,10 +8417,10 @@
     <int>22108</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22108</id>
-      <name>红龙精英</name>
+      <name>变异兔子怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500208</pet>
+      <pet>500153</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8496,10 +8496,10 @@
     <int>22109</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22109</id>
-      <name>红龙精英</name>
+      <name>兔子怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500209</pet>
+      <pet>500153</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8575,10 +8575,10 @@
     <int>22110</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22110</id>
-      <name>红龙精英</name>
+      <name>兔子怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500210</pet>
+      <pet>500153</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8654,10 +8654,10 @@
     <int>22111</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22111</id>
-      <name>黑铁矮人精英</name>
+      <name>兔子怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500211</pet>
+      <pet>500213</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8732,10 +8732,10 @@
     <int>22112</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22112</id>
-      <name>黑铁矮人精英</name>
+      <name>变异虾兵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500212</pet>
+      <pet>500136</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8810,10 +8810,10 @@
     <int>22113</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22113</id>
-      <name>铁炉牧师精英</name>
+      <name>虾兵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500213</pet>
+      <pet>500136</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8888,10 +8888,10 @@
     <int>22114</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22114</id>
-      <name>龙骑士精英</name>
+      <name>虾兵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500214</pet>
+      <pet>500137</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -8968,10 +8968,10 @@
     <int>22115</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22115</id>
-      <name>龙骑士精英</name>
+      <name>虾兵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500215</pet>
+      <pet>500138</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -9048,10 +9048,10 @@
     <int>22116</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22116</id>
-      <name>龙骑士精英</name>
+      <name>虾兵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500216</pet>
+      <pet>500136</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -9128,10 +9128,10 @@
     <int>22117</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22117</id>
-      <name>食尸鬼精英</name>
+      <name>虾兵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500217</pet>
+      <pet>500196</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -9208,10 +9208,10 @@
     <int>22118</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22118</id>
-      <name>食尸鬼精英</name>
+      <name>虾兵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500218</pet>
+      <pet>500197</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -9288,10 +9288,10 @@
     <int>22119</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22119</id>
-      <name>暗灵圣女精英</name>
+      <name>虾兵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>500219</pet>
+      <pet>500198</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -9369,14 +9369,14 @@
     <int>22120</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22120</id>
-      <name>小软宝宝</name>
+      <name>变异小龙女</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500220</pet>
+      <pet>500133</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>小软宝宝</title>
+      <title>野猪宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -9444,14 +9444,14 @@
     <int>22121</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22121</id>
-      <name>迅猛龙宝宝</name>
+      <name>小龙女</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500221</pet>
+      <pet>500133</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>迅猛龙宝宝</title>
+      <title>老虎宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -9521,14 +9521,14 @@
     <int>22122</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22122</id>
-      <name>狮子宝宝</name>
+      <name>小龙女</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500222</pet>
+      <pet>500134</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>狮子宝宝</title>
+      <title>羊头怪宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -9600,14 +9600,14 @@
     <int>22123</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22123</id>
-      <name>囧龟宝宝</name>
+      <name>小龙女头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500223</pet>
+      <pet>500133</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>囧龟宝宝</title>
+      <title>泡泡宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -9680,14 +9680,14 @@
     <int>22124</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22124</id>
-      <name>食人工头宝宝</name>
+      <name>小龙女头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500224</pet>
+      <pet>500193</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>食人工头宝宝</title>
+      <title>牛头宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -9760,14 +9760,14 @@
     <int>22125</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22125</id>
-      <name>地精工匠宝宝</name>
+      <name>小龙女头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500225</pet>
+      <pet>500194</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>地精工匠宝宝</title>
+      <title>马面宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -9840,14 +9840,14 @@
     <int>22126</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22126</id>
-      <name>剪刀手宝宝</name>
+      <name>变异蟹将</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500226</pet>
+      <pet>500139</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>剪刀手宝宝</title>
+      <title>龟丞相宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -9920,14 +9920,14 @@
     <int>22127</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22127</id>
-      <name>鱼人灵兽</name>
+      <name>蟹将</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500227</pet>
+      <pet>500139</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>鱼人灵兽</title>
+      <title>净瓶女娲宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10002,14 +10002,14 @@
     <int>22128</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22128</id>
-      <name>死神宝宝</name>
+      <name>蟹将</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500228</pet>
+      <pet>500140</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>死神宝宝</title>
+      <title>虾兵宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10082,14 +10082,14 @@
     <int>22129</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22129</id>
-      <name>狼人宝宝</name>
+      <name>蟹将头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500229</pet>
+      <pet>500139</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>狼人宝宝</title>
+      <title>蟹将宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10162,14 +10162,14 @@
     <int>22130</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22130</id>
-      <name>死灵哨兵宝宝</name>
+      <name>蟹将头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500230</pet>
+      <pet>500199</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>死灵哨兵宝宝</title>
+      <title>远古瑞兽宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10242,14 +10242,14 @@
     <int>22131</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22131</id>
-      <name>血月教徒灵兽</name>
+      <name>蟹将头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500231</pet>
+      <pet>500200</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>血月教徒灵兽</title>
+      <title>灵符女娲宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10324,14 +10324,14 @@
     <int>22132</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22132</id>
-      <name>野猪人宝宝</name>
+      <name>变异羊头怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500232</pet>
+      <pet>500118</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>野猪人宝宝</title>
+      <title>鲛将军宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10404,14 +10404,14 @@
     <int>22133</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22133</id>
-      <name>绿龙护卫宝宝</name>
+      <name>羊头怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500233</pet>
+      <pet>500118</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>绿龙护卫宝宝</title>
+      <title>蚌仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10484,14 +10484,14 @@
     <int>22134</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22134</id>
-      <name>野猪战士宝宝</name>
+      <name>羊头怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500234</pet>
+      <pet>500119</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>野猪战士宝宝</title>
+      <title>龙女宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10564,14 +10564,14 @@
     <int>22135</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22135</id>
-      <name>巫妖灵兽</name>
+      <name>羊头怪</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500235</pet>
+      <pet>500120</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>巫妖灵兽</title>
+      <title>律法女娲宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10646,14 +10646,14 @@
     <int>22136</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22136</id>
-      <name>血色猎犬宝宝</name>
+      <name>羊头怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500236</pet>
+      <pet>500118</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>血色猎犬宝宝</title>
+      <title>千年僵尸宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10726,14 +10726,14 @@
     <int>22137</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22137</id>
-      <name>幽灵宝宝</name>
+      <name>羊头怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500237</pet>
+      <pet>500178</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>幽灵宝宝</title>
+      <title>孤魂野鬼宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10806,14 +10806,14 @@
     <int>22138</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22138</id>
-      <name>死亡骑士宝宝</name>
+      <name>羊头怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500238</pet>
+      <pet>500179</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>死亡骑士宝宝</title>
+      <title>忘川童子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10889,14 +10889,14 @@
     <int>22139</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22139</id>
-      <name>血色骑士灵兽</name>
+      <name>羊头怪头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500239</pet>
+      <pet>500180</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>血色骑士灵兽</title>
+      <title>蜃蛇宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -10971,14 +10971,14 @@
     <int>22140</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22140</id>
-      <name>血色牧师灵兽</name>
+      <name>变异野鬼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500240</pet>
+      <pet>500141</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>血色牧师灵兽</title>
+      <title>吸血鬼宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -11053,14 +11053,14 @@
     <int>22141</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22141</id>
-      <name>土元素宝宝</name>
+      <name>野鬼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500241</pet>
+      <pet>500141</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>土元素宝宝</title>
+      <title>夜叉宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -11133,14 +11133,14 @@
     <int>22142</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22142</id>
-      <name>半人马宝宝</name>
+      <name>野鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500242</pet>
+      <pet>500141</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>半人马宝宝</title>
+      <title>幽莹娃娃宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -11213,14 +11213,14 @@
     <int>22143</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22143</id>
-      <name>逐日卫士宝宝</name>
+      <name>野鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500243</pet>
+      <pet>500201</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>逐日卫士宝宝</title>
+      <title>鬼将宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -11293,10 +11293,10 @@
     <int>22144</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22144</id>
-      <name>圣光法师灵兽</name>
+      <name>变异马面</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500244</pet>
+      <pet>500148</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -11375,10 +11375,10 @@
     <int>22145</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22145</id>
-      <name>虚空恐魔宝宝</name>
+      <name>马面</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500245</pet>
+      <pet>500148</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -11456,14 +11456,14 @@
     <int>22146</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22146</id>
-      <name>火女宝宝</name>
+      <name>马面</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500246</pet>
+      <pet>500149</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>虚空恐魔宝宝</title>
+      <title>蟠桃童子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -11536,10 +11536,10 @@
     <int>22147</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22147</id>
-      <name>雪女宝宝</name>
+      <name>马面</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500247</pet>
+      <pet>500150</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -11618,10 +11618,10 @@
     <int>22148</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22148</id>
-      <name>南瓜骑士灵兽</name>
+      <name>马面头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500248</pet>
+      <pet>500148</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -11700,14 +11700,14 @@
     <int>22149</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22149</id>
-      <name>蓝龙宝宝</name>
+      <name>马面头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500249</pet>
+      <pet>500208</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>蓝龙宝宝</title>
+      <title>珍露童子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -11780,14 +11780,14 @@
     <int>22150</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22150</id>
-      <name>预言者宝宝</name>
+      <name>马面头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500250</pet>
+      <pet>500209</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>预言者宝宝</title>
+      <title>猴小仙宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -11860,10 +11860,10 @@
     <int>22151</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22151</id>
-      <name>裁决者宝宝</name>
+      <name>马面头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500251</pet>
+      <pet>500210</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -11940,10 +11940,10 @@
     <int>22152</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22152</id>
-      <name>黑龙灵兽</name>
+      <name>变异牛头</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500252</pet>
+      <pet>500151</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -12023,14 +12023,14 @@
     <int>22153</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22153</id>
-      <name>红龙宝宝</name>
+      <name>牛头</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500253</pet>
+      <pet>500151</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>红龙宝宝</title>
+      <title>蛟龙宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12104,14 +12104,14 @@
     <int>22154</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22154</id>
-      <name>黑铁矮人宝宝</name>
+      <name>牛头</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500254</pet>
+      <pet>500152</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>黑铁矮人宝宝</title>
+      <title>凤凰仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12184,14 +12184,14 @@
     <int>22155</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22155</id>
-      <name>铁炉牧师宝宝</name>
+      <name>牛头头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500255</pet>
+      <pet>500151</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>铁炉牧师宝宝</title>
+      <title>鬼剑宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12264,14 +12264,14 @@
     <int>22156</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22156</id>
-      <name>矮人军官灵兽</name>
+      <name>牛头头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500256</pet>
+      <pet>500211</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>矮人军官灵兽</title>
+      <title>羽云仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12346,14 +12346,14 @@
     <int>22157</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22157</id>
-      <name>龙骑士宝宝</name>
+      <name>牛头头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500257</pet>
+      <pet>500212</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>裁决者宝宝</title>
+      <title>芙蓉仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12428,14 +12428,14 @@
     <int>22158</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22158</id>
-      <name>食尸鬼宝宝</name>
+      <name>变异牛妖</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500258</pet>
+      <pet>500135</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>食尸鬼宝宝</title>
+      <title>武罗仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12510,10 +12510,10 @@
     <int>22159</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22159</id>
-      <name>暗灵圣女宝宝</name>
+      <name>牛妖</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500259</pet>
+      <pet>500135</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -12593,14 +12593,14 @@
     <int>22160</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22160</id>
-      <name>恐惧恶魔灵兽</name>
+      <name>牛妖头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500260</pet>
+      <pet>500135</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>恐惧恶魔灵兽</title>
+      <title>雾中仙宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12676,14 +12676,14 @@
     <int>22161</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22161</id>
-      <name>变异小软宝宝</name>
+      <name>牛妖头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500261</pet>
+      <pet>500195</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异小软宝宝</title>
+      <title>变异野猪宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12751,14 +12751,14 @@
     <int>22162</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22162</id>
-      <name>变异迅猛龙宝宝</name>
+      <name>变异黑熊精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500262</pet>
+      <pet>500145</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异迅猛龙宝宝</title>
+      <title>变异老虎宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12828,14 +12828,14 @@
     <int>22163</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22163</id>
-      <name>变异狮子宝宝</name>
+      <name>黑熊精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500263</pet>
+      <pet>500145</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异狮子宝宝</title>
+      <title>变异羊头怪宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12907,14 +12907,14 @@
     <int>22164</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22164</id>
-      <name>变异囧龟宝宝</name>
+      <name>黑熊精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500264</pet>
+      <pet>500146</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异囧龟宝宝</title>
+      <title>变异泡泡宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -12987,14 +12987,14 @@
     <int>22165</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22165</id>
-      <name>变异食人工头宝宝</name>
+      <name>黑熊精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500265</pet>
+      <pet>500145</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异食人工头宝宝</title>
+      <title>变异牛头宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13067,14 +13067,14 @@
     <int>22166</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22166</id>
-      <name>变异地精工匠宝宝</name>
+      <name>黑熊精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500266</pet>
+      <pet>500205</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异地精工匠宝宝</title>
+      <title>变异马面宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13147,14 +13147,14 @@
     <int>22167</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22167</id>
-      <name>变异剪刀手宝宝</name>
+      <name>黑熊精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500267</pet>
+      <pet>500206</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异剪刀手宝宝</title>
+      <title>变异龟丞相宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13227,14 +13227,14 @@
     <int>22168</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22168</id>
-      <name>变异鱼人灵兽</name>
+      <name>黑熊头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500268</pet>
+      <pet>500189</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异鱼人灵兽</title>
+      <title>变异净瓶女娲宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13309,14 +13309,14 @@
     <int>22169</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22169</id>
-      <name>变异死神宝宝</name>
+      <name>变异蜘蛛精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500269</pet>
+      <pet>500154</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异死神宝宝</title>
+      <title>变异虾兵宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13389,14 +13389,14 @@
     <int>22170</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22170</id>
-      <name>变异狼人宝宝</name>
+      <name>蜘蛛精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500270</pet>
+      <pet>500154</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异狼人宝宝</title>
+      <title>变异蟹将宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13469,14 +13469,14 @@
     <int>22171</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22171</id>
-      <name>变异死灵哨兵宝宝</name>
+      <name>蜘蛛精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500271</pet>
+      <pet>500155</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异死灵哨兵宝宝</title>
+      <title>变异远古瑞兽宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13549,14 +13549,14 @@
     <int>22172</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22172</id>
-      <name>变异血月教徒灵兽</name>
+      <name>蜘蛛精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500272</pet>
+      <pet>500156</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异血月教徒灵兽</title>
+      <title>变异灵符女娲宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13631,14 +13631,14 @@
     <int>22173</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22173</id>
-      <name>变异野猪人宝宝</name>
+      <name>蜘蛛精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500273</pet>
+      <pet>500154</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异野猪人宝宝</title>
+      <title>变异鲛将军宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13711,14 +13711,14 @@
     <int>22174</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22174</id>
-      <name>变异绿龙护卫宝宝</name>
+      <name>蜘蛛精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500274</pet>
+      <pet>500214</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异绿龙护卫宝宝</title>
+      <title>变异蚌仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13791,14 +13791,14 @@
     <int>22175</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22175</id>
-      <name>变异野猪战士宝宝</name>
+      <name>蜘蛛精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500275</pet>
+      <pet>500215</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异野猪战士宝宝</title>
+      <title>变异龙女宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13871,14 +13871,14 @@
     <int>22176</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22176</id>
-      <name>变异巫妖灵兽</name>
+      <name>蜘蛛精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500276</pet>
+      <pet>500216</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异巫妖灵兽</title>
+      <title>变异律法女娲宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -13953,14 +13953,14 @@
     <int>22177</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22177</id>
-      <name>变异血色猎犬宝宝</name>
+      <name>变异古代瑞兽</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500277</pet>
+      <pet>500159</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异血色猎犬宝宝</title>
+      <title>变异千年僵尸宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14033,14 +14033,14 @@
     <int>22178</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22178</id>
-      <name>变异幽灵宝宝</name>
+      <name>古代瑞兽</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500278</pet>
+      <pet>500159</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异幽灵宝宝</title>
+      <title>变异孤魂野鬼宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14113,14 +14113,14 @@
     <int>22179</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22179</id>
-      <name>变异死亡骑士宝宝</name>
+      <name>古代瑞兽头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500279</pet>
+      <pet>500159</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异死亡骑士宝宝</title>
+      <title>变异忘川童子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14196,14 +14196,14 @@
     <int>22180</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22180</id>
-      <name>变异血色骑士灵兽</name>
+      <name>古代瑞兽头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500280</pet>
+      <pet>500219</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异血色骑士灵兽</title>
+      <title>变异蜃蛇宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14278,14 +14278,14 @@
     <int>22181</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22181</id>
-      <name>变异血色牧师灵兽</name>
+      <name>变异龟丞相</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500281</pet>
+      <pet>500142</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异血色牧师灵兽</title>
+      <title>变异吸血鬼宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14360,14 +14360,14 @@
     <int>22182</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22182</id>
-      <name>变异土元素宝宝</name>
+      <name>龟丞相</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500282</pet>
+      <pet>500142</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异土元素宝宝</title>
+      <title>变异夜叉宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14440,14 +14440,14 @@
     <int>22183</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22183</id>
-      <name>变异半人马宝宝</name>
+      <name>龟丞相</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500283</pet>
+      <pet>500143</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异半人马宝宝</title>
+      <title>变异幽莹娃娃宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14520,14 +14520,14 @@
     <int>22184</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22184</id>
-      <name>变异逐日卫士宝宝</name>
+      <name>龟丞相</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500284</pet>
+      <pet>500144</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异逐日卫士宝宝</title>
+      <title>变异鬼将宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14600,10 +14600,10 @@
     <int>22185</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22185</id>
-      <name>变异圣光法师灵兽</name>
+      <name>龟丞相头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500285</pet>
+      <pet>500142</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -14682,10 +14682,10 @@
     <int>22186</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22186</id>
-      <name>变异虚空恐魔宝宝</name>
+      <name>龟丞相头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500286</pet>
+      <pet>500202</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -14763,14 +14763,14 @@
     <int>22187</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22187</id>
-      <name>变异火女宝宝</name>
+      <name>龟丞相头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500287</pet>
+      <pet>500203</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异虚空恐魔宝宝</title>
+      <title>变异蟠桃童子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -14843,10 +14843,10 @@
     <int>22188</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22188</id>
-      <name>变异雪女宝宝</name>
+      <name>龟丞相头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500288</pet>
+      <pet>500204</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -14925,10 +14925,10 @@
     <int>22189</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22189</id>
-      <name>变异南瓜骑士灵兽</name>
+      <name>变异黑山老妖</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500289</pet>
+      <pet>530001</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -15007,14 +15007,14 @@
     <int>22190</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22190</id>
-      <name>变异蓝龙宝宝</name>
+      <name>黑山老妖</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500290</pet>
+      <pet>530001</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异蓝龙宝宝</title>
+      <title>变异珍露童子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15087,14 +15087,14 @@
     <int>22191</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22191</id>
-      <name>变异预言者宝宝</name>
+      <name>黑山老妖头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500291</pet>
+      <pet>530001</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异预言者宝宝</title>
+      <title>变异猴小仙宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15167,10 +15167,10 @@
     <int>22192</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22192</id>
-      <name>变异裁决者宝宝</name>
+      <name>黑山老妖头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500292</pet>
+      <pet>530003</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -15247,10 +15247,10 @@
     <int>22193</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22193</id>
-      <name>变异黑龙灵兽</name>
+      <name>变异蝴蝶仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500293</pet>
+      <pet>530005</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -15330,14 +15330,14 @@
     <int>22194</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22194</id>
-      <name>变异红龙宝宝</name>
+      <name>蝴蝶仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500294</pet>
+      <pet>530005</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异红龙宝宝</title>
+      <title>变异蛟龙宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15411,14 +15411,14 @@
     <int>22195</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22195</id>
-      <name>变异黑铁矮人宝宝</name>
+      <name>蝴蝶仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500295</pet>
+      <pet>530005</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异黑铁矮人宝宝</title>
+      <title>变异凤凰仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15491,14 +15491,14 @@
     <int>22196</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22196</id>
-      <name>变异铁炉牧师宝宝</name>
+      <name>蝴蝶仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500296</pet>
+      <pet>530007</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异铁炉牧师宝宝</title>
+      <title>变异鬼剑宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15571,14 +15571,14 @@
     <int>22197</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22197</id>
-      <name>变异矮人军官灵兽</name>
+      <name>变异白熊</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500297</pet>
+      <pet>500157</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异矮人军官灵兽</title>
+      <title>变异羽云仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15653,14 +15653,14 @@
     <int>22198</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22198</id>
-      <name>变异龙骑士宝宝</name>
+      <name>白熊</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500298</pet>
+      <pet>500157</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异裁决者宝宝</title>
+      <title>变异芙蓉仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15735,14 +15735,14 @@
     <int>22199</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22199</id>
-      <name>变异食尸鬼宝宝</name>
+      <name>白熊</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500299</pet>
+      <pet>500158</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异食尸鬼宝宝</title>
+      <title>变异武罗仙子宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15817,10 +15817,10 @@
     <int>22200</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22200</id>
-      <name>变异暗灵圣女宝宝</name>
+      <name>白熊头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500300</pet>
+      <pet>500157</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -15900,14 +15900,14 @@
     <int>22201</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22201</id>
-      <name>变异恐惧恶魔灵兽</name>
+      <name>白熊头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500301</pet>
+      <pet>500217</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
-      <title>变异恐惧恶魔灵兽</title>
+      <title>变异雾中仙宝宝</title>
       <levelType>5</levelType>
       <level>0</level>
       <minlevellimit>0</minlevellimit>
@@ -15983,10 +15983,10 @@
     <int>22202</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22202</id>
-      <name>鳄鱼</name>
+      <name>白熊头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>1</monstertype>
-      <pet>510001</pet>
+      <pet>500218</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16061,10 +16061,10 @@
     <int>22203</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22203</id>
-      <name>鳄鱼精英</name>
+      <name>变异雷鸟人</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>2</monstertype>
-      <pet>510002</pet>
+      <pet>530009</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16139,10 +16139,10 @@
     <int>22204</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22204</id>
-      <name>鳄鱼宝宝</name>
+      <name>雷鸟人</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>510003</pet>
+      <pet>530009</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16218,10 +16218,10 @@
     <int>22205</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22205</id>
-      <name>变异鳄鱼宝宝</name>
+      <name>雷鸟人头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>510004</pet>
+      <pet>530009</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16297,10 +16297,10 @@
     <int>22220</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22220</id>
-      <name>小软宝宝</name>
+      <name>雷鸟人头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500220</pet>
+      <pet>530011</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16371,10 +16371,10 @@
     <int>22221</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22221</id>
-      <name>迅猛龙宝宝</name>
+      <name>变异地狱战神</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500221</pet>
+      <pet>530013</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16447,10 +16447,10 @@
     <int>22222</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22222</id>
-      <name>狮子宝宝</name>
+      <name>地狱战神</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500222</pet>
+      <pet>530013</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16525,10 +16525,10 @@
     <int>22223</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22223</id>
-      <name>囧龟宝宝</name>
+      <name>地狱战神头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500223</pet>
+      <pet>530013</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16604,10 +16604,10 @@
     <int>22224</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22224</id>
-      <name>食人工头宝宝</name>
+      <name>地狱战神头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500224</pet>
+      <pet>530015</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16683,10 +16683,10 @@
     <int>22225</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22225</id>
-      <name>地精工匠宝宝</name>
+      <name>变异风伯</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500225</pet>
+      <pet>530017</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16762,10 +16762,10 @@
     <int>22226</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22226</id>
-      <name>剪刀手宝宝</name>
+      <name>风伯</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500226</pet>
+      <pet>530017</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16841,10 +16841,10 @@
     <int>22227</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22227</id>
-      <name>鱼人灵兽</name>
+      <name>风伯头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500227</pet>
+      <pet>530017</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -16922,10 +16922,10 @@
     <int>22228</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22228</id>
-      <name>死神宝宝</name>
+      <name>风伯头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500228</pet>
+      <pet>530019</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17001,10 +17001,10 @@
     <int>22229</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22229</id>
-      <name>狼人宝宝</name>
+      <name>变异天兵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500229</pet>
+      <pet>530021</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17080,10 +17080,10 @@
     <int>22230</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22230</id>
-      <name>死灵哨兵宝宝</name>
+      <name>天兵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500230</pet>
+      <pet>530021</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17159,10 +17159,10 @@
     <int>22231</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22231</id>
-      <name>血月教徒灵兽</name>
+      <name>天兵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500231</pet>
+      <pet>530021</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17240,10 +17240,10 @@
     <int>22232</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22232</id>
-      <name>野猪人宝宝</name>
+      <name>天兵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500232</pet>
+      <pet>530023</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17319,10 +17319,10 @@
     <int>22233</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22233</id>
-      <name>绿龙护卫宝宝</name>
+      <name>变异天将</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500233</pet>
+      <pet>530025</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17398,10 +17398,10 @@
     <int>22234</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22234</id>
-      <name>野猪战士宝宝</name>
+      <name>天将</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500234</pet>
+      <pet>530025</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17477,10 +17477,10 @@
     <int>22235</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22235</id>
-      <name>巫妖灵兽</name>
+      <name>天将头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500235</pet>
+      <pet>530025</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17558,10 +17558,10 @@
     <int>22236</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22236</id>
-      <name>血色猎犬宝宝</name>
+      <name>天将头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500236</pet>
+      <pet>530027</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17637,10 +17637,10 @@
     <int>22237</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22237</id>
-      <name>幽灵宝宝</name>
+      <name>变异蚌精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500237</pet>
+      <pet>530029</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17716,10 +17716,10 @@
     <int>22238</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22238</id>
-      <name>死亡骑士宝宝</name>
+      <name>蚌精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500238</pet>
+      <pet>530029</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17798,10 +17798,10 @@
     <int>22239</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22239</id>
-      <name>血色骑士灵兽</name>
+      <name>蚌精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500239</pet>
+      <pet>530029</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17879,10 +17879,10 @@
     <int>22240</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22240</id>
-      <name>血色牧师灵兽</name>
+      <name>蚌精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500240</pet>
+      <pet>530031</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -17960,10 +17960,10 @@
     <int>22241</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22241</id>
-      <name>土元素宝宝</name>
+      <name>变异碧水夜叉</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500241</pet>
+      <pet>530033</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18039,10 +18039,10 @@
     <int>22242</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22242</id>
-      <name>半人马宝宝</name>
+      <name>碧水夜叉</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500242</pet>
+      <pet>530033</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18118,10 +18118,10 @@
     <int>22243</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22243</id>
-      <name>逐日卫士宝宝</name>
+      <name>碧水夜叉头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500243</pet>
+      <pet>530033</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18197,10 +18197,10 @@
     <int>22244</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22244</id>
-      <name>圣光法师灵兽</name>
+      <name>碧水夜叉头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500244</pet>
+      <pet>530035</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18278,10 +18278,10 @@
     <int>22245</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22245</id>
-      <name>虚空恐魔宝宝</name>
+      <name>变异凤凰</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500245</pet>
+      <pet>530037</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18358,10 +18358,10 @@
     <int>22246</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22246</id>
-      <name>火女宝宝</name>
+      <name>凤凰</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500246</pet>
+      <pet>530037</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18437,10 +18437,10 @@
     <int>22247</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22247</id>
-      <name>雪女宝宝</name>
+      <name>凤凰头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500247</pet>
+      <pet>530037</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18518,10 +18518,10 @@
     <int>22248</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22248</id>
-      <name>南瓜骑士灵兽</name>
+      <name>凤凰头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500248</pet>
+      <pet>530039</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18599,10 +18599,10 @@
     <int>22249</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22249</id>
-      <name>蓝龙宝宝</name>
+      <name>变异蛟龙</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500249</pet>
+      <pet>530041</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18678,10 +18678,10 @@
     <int>22250</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22250</id>
-      <name>预言者宝宝</name>
+      <name>蛟龙</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500250</pet>
+      <pet>530041</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18757,10 +18757,10 @@
     <int>22251</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22251</id>
-      <name>裁决者宝宝</name>
+      <name>蛟龙头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500251</pet>
+      <pet>530041</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18836,10 +18836,10 @@
     <int>22252</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22252</id>
-      <name>黑龙灵兽</name>
+      <name>蛟龙头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500252</pet>
+      <pet>530043</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18918,10 +18918,10 @@
     <int>22253</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22253</id>
-      <name>红龙宝宝</name>
+      <name>变异鲛人</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500253</pet>
+      <pet>530045</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -18998,10 +18998,10 @@
     <int>22254</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22254</id>
-      <name>黑铁矮人宝宝</name>
+      <name>鲛人</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500254</pet>
+      <pet>530045</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19077,10 +19077,10 @@
     <int>22255</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22255</id>
-      <name>铁炉牧师宝宝</name>
+      <name>鲛人头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500255</pet>
+      <pet>530045</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19156,10 +19156,10 @@
     <int>22256</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22256</id>
-      <name>矮人军官灵兽</name>
+      <name>鲛人头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500256</pet>
+      <pet>530047</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19237,10 +19237,10 @@
     <int>22257</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22257</id>
-      <name>龙骑士宝宝</name>
+      <name>变异雨师</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500257</pet>
+      <pet>530049</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19318,10 +19318,10 @@
     <int>22258</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22258</id>
-      <name>食尸鬼宝宝</name>
+      <name>雨师</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500258</pet>
+      <pet>530049</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19399,10 +19399,10 @@
     <int>22259</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22259</id>
-      <name>暗灵圣女宝宝</name>
+      <name>雨师头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500259</pet>
+      <pet>530049</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19481,10 +19481,10 @@
     <int>22260</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22260</id>
-      <name>恐惧恶魔灵兽</name>
+      <name>雨师头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500260</pet>
+      <pet>530051</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19563,10 +19563,10 @@
     <int>22261</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22261</id>
-      <name>变异小软宝宝</name>
+      <name>变异芙蓉仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500261</pet>
+      <pet>530053</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19637,10 +19637,10 @@
     <int>22262</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22262</id>
-      <name>变异迅猛龙宝宝</name>
+      <name>芙蓉仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500262</pet>
+      <pet>530053</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19713,10 +19713,10 @@
     <int>22263</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22263</id>
-      <name>变异狮子宝宝</name>
+      <name>芙蓉仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500263</pet>
+      <pet>530053</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19791,10 +19791,10 @@
     <int>22264</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22264</id>
-      <name>变异囧龟宝宝</name>
+      <name>芙蓉仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500264</pet>
+      <pet>530055</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19870,10 +19870,10 @@
     <int>22265</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22265</id>
-      <name>变异食人工头宝宝</name>
+      <name>变异锦毛貂精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500265</pet>
+      <pet>530057</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -19949,10 +19949,10 @@
     <int>22266</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22266</id>
-      <name>变异地精工匠宝宝</name>
+      <name>锦毛貂精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500266</pet>
+      <pet>530057</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20028,10 +20028,10 @@
     <int>22267</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22267</id>
-      <name>变异剪刀手宝宝</name>
+      <name>锦毛貂精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500267</pet>
+      <pet>530057</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20107,10 +20107,10 @@
     <int>22268</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22268</id>
-      <name>变异鱼人灵兽</name>
+      <name>锦毛貂精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500268</pet>
+      <pet>530059</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20188,10 +20188,10 @@
     <int>22269</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22269</id>
-      <name>变异死神宝宝</name>
+      <name>变异千年蛇魅</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500269</pet>
+      <pet>530061</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20267,10 +20267,10 @@
     <int>22270</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22270</id>
-      <name>变异狼人宝宝</name>
+      <name>千年蛇魅</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500270</pet>
+      <pet>530061</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20346,10 +20346,10 @@
     <int>22271</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22271</id>
-      <name>变异死灵哨兵宝宝</name>
+      <name>千年蛇魅头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500271</pet>
+      <pet>530061</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20425,10 +20425,10 @@
     <int>22272</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22272</id>
-      <name>变异血月教徒灵兽</name>
+      <name>千年蛇魅头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500272</pet>
+      <pet>530063</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20506,10 +20506,10 @@
     <int>22273</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22273</id>
-      <name>变异野猪人宝宝</name>
+      <name>变异如意仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500273</pet>
+      <pet>530065</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20585,10 +20585,10 @@
     <int>22274</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22274</id>
-      <name>变异绿龙护卫宝宝</name>
+      <name>如意仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500274</pet>
+      <pet>530065</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20664,10 +20664,10 @@
     <int>22275</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22275</id>
-      <name>变异野猪战士宝宝</name>
+      <name>如意仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500275</pet>
+      <pet>530065</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20743,10 +20743,10 @@
     <int>22276</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22276</id>
-      <name>变异巫妖灵兽</name>
+      <name>如意仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500276</pet>
+      <pet>530067</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20824,10 +20824,10 @@
     <int>22277</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22277</id>
-      <name>变异血色猎犬宝宝</name>
+      <name>变异星灵仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500277</pet>
+      <pet>530069</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20903,10 +20903,10 @@
     <int>22278</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22278</id>
-      <name>变异幽灵宝宝</name>
+      <name>星灵仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500278</pet>
+      <pet>530069</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -20982,10 +20982,10 @@
     <int>22279</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22279</id>
-      <name>变异死亡骑士宝宝</name>
+      <name>星灵仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500279</pet>
+      <pet>530069</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21064,10 +21064,10 @@
     <int>22280</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22280</id>
-      <name>变异血色骑士灵兽</name>
+      <name>星灵仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500280</pet>
+      <pet>530071</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21145,10 +21145,10 @@
     <int>22281</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22281</id>
-      <name>变异血色牧师灵兽</name>
+      <name>变异巡游天神</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500281</pet>
+      <pet>530073</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21226,10 +21226,10 @@
     <int>22282</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22282</id>
-      <name>变异土元素宝宝</name>
+      <name>巡游天神</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500282</pet>
+      <pet>530073</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21305,10 +21305,10 @@
     <int>22283</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22283</id>
-      <name>变异半人马宝宝</name>
+      <name>巡游天神头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500283</pet>
+      <pet>530073</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21384,10 +21384,10 @@
     <int>22284</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22284</id>
-      <name>变异逐日卫士宝宝</name>
+      <name>巡游天神头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500284</pet>
+      <pet>530075</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21463,10 +21463,10 @@
     <int>22285</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22285</id>
-      <name>变异圣光法师灵兽</name>
+      <name>变异百足将军</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500285</pet>
+      <pet>530077</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21544,10 +21544,10 @@
     <int>22286</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22286</id>
-      <name>变异虚空恐魔宝宝</name>
+      <name>百足将军</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500286</pet>
+      <pet>530077</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21624,10 +21624,10 @@
     <int>22287</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22287</id>
-      <name>变异火女宝宝</name>
+      <name>百足将军头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500287</pet>
+      <pet>530077</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21703,10 +21703,10 @@
     <int>22288</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22288</id>
-      <name>变异雪女宝宝</name>
+      <name>百足将军头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500288</pet>
+      <pet>530079</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21784,10 +21784,10 @@
     <int>22289</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22289</id>
-      <name>变异南瓜骑士灵兽</name>
+      <name>变异鼠先锋</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500289</pet>
+      <pet>530081</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21865,10 +21865,10 @@
     <int>22290</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22290</id>
-      <name>变异蓝龙宝宝</name>
+      <name>鼠先锋</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500290</pet>
+      <pet>530081</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -21944,10 +21944,10 @@
     <int>22291</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22291</id>
-      <name>变异预言者宝宝</name>
+      <name>鼠先锋头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500291</pet>
+      <pet>530081</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22023,10 +22023,10 @@
     <int>22292</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22292</id>
-      <name>变异裁决者宝宝</name>
+      <name>鼠先锋头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500292</pet>
+      <pet>530083</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22102,10 +22102,10 @@
     <int>22293</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22293</id>
-      <name>变异黑龙灵兽</name>
+      <name>变异野猪精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500293</pet>
+      <pet>530085</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22184,10 +22184,10 @@
     <int>22294</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22294</id>
-      <name>变异红龙宝宝</name>
+      <name>野猪精</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500294</pet>
+      <pet>530085</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22264,10 +22264,10 @@
     <int>22295</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22295</id>
-      <name>变异黑铁矮人宝宝</name>
+      <name>野猪精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500295</pet>
+      <pet>530085</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22343,10 +22343,10 @@
     <int>22296</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22296</id>
-      <name>变异铁炉牧师宝宝</name>
+      <name>野猪精头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500296</pet>
+      <pet>530087</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22422,10 +22422,10 @@
     <int>22297</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22297</id>
-      <name>变异矮人军官灵兽</name>
+      <name>变异灵符女娲</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500297</pet>
+      <pet>530089</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22503,10 +22503,10 @@
     <int>22298</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22298</id>
-      <name>变异龙骑士宝宝</name>
+      <name>灵符女娲</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500298</pet>
+      <pet>530089</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22584,10 +22584,10 @@
     <int>22299</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22299</id>
-      <name>变异食尸鬼宝宝</name>
+      <name>灵符女娲头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500299</pet>
+      <pet>530089</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22665,10 +22665,10 @@
     <int>22300</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22300</id>
-      <name>变异暗灵圣女宝宝</name>
+      <name>灵符女娲头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500300</pet>
+      <pet>530091</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22747,10 +22747,10 @@
     <int>22301</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22301</id>
-      <name>变异恐惧恶魔灵兽</name>
+      <name>变异律法女娲</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500301</pet>
+      <pet>530093</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22829,10 +22829,10 @@
     <int>22420</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22420</id>
-      <name>小软宝宝</name>
+      <name>律法女娲</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500220</pet>
+      <pet>530093</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22903,10 +22903,10 @@
     <int>22421</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22421</id>
-      <name>迅猛龙宝宝</name>
+      <name>律法女娲头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500221</pet>
+      <pet>530093</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -22979,10 +22979,10 @@
     <int>22422</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22422</id>
-      <name>狮子宝宝</name>
+      <name>律法女娲头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500222</pet>
+      <pet>530095</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23057,10 +23057,10 @@
     <int>22423</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22423</id>
-      <name>囧龟宝宝</name>
+      <name>变异吸血鬼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500223</pet>
+      <pet>530097</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23136,10 +23136,10 @@
     <int>22424</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22424</id>
-      <name>食人工头宝宝</name>
+      <name>吸血鬼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500224</pet>
+      <pet>530097</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23215,10 +23215,10 @@
     <int>22425</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22425</id>
-      <name>地精工匠宝宝</name>
+      <name>吸血鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500225</pet>
+      <pet>530097</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23294,10 +23294,10 @@
     <int>22426</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22426</id>
-      <name>剪刀手宝宝</name>
+      <name>吸血鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500226</pet>
+      <pet>530099</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23373,10 +23373,10 @@
     <int>22427</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22427</id>
-      <name>鱼人灵兽</name>
+      <name>变异幽灵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500227</pet>
+      <pet>530101</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23454,10 +23454,10 @@
     <int>22428</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22428</id>
-      <name>死神宝宝</name>
+      <name>幽灵</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500228</pet>
+      <pet>530101</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23533,10 +23533,10 @@
     <int>22429</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22429</id>
-      <name>狼人宝宝</name>
+      <name>幽灵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500229</pet>
+      <pet>530101</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23612,10 +23612,10 @@
     <int>22430</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22430</id>
-      <name>死灵哨兵宝宝</name>
+      <name>幽灵头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500230</pet>
+      <pet>530103</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23691,10 +23691,10 @@
     <int>22431</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22431</id>
-      <name>血月教徒灵兽</name>
+      <name>变异灵鹤</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500231</pet>
+      <pet>530105</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23772,10 +23772,10 @@
     <int>22432</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22432</id>
-      <name>野猪人宝宝</name>
+      <name>灵鹤</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500232</pet>
+      <pet>530105</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23851,10 +23851,10 @@
     <int>22433</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22433</id>
-      <name>绿龙护卫宝宝</name>
+      <name>灵鹤头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500233</pet>
+      <pet>530105</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23930,10 +23930,10 @@
     <int>22434</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22434</id>
-      <name>野猪战士宝宝</name>
+      <name>灵鹤头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500234</pet>
+      <pet>530107</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24009,10 +24009,10 @@
     <int>22435</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22435</id>
-      <name>巫妖灵兽</name>
+      <name>变异噬天虎</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500235</pet>
+      <pet>530109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24090,10 +24090,10 @@
     <int>22436</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22436</id>
-      <name>血色猎犬宝宝</name>
+      <name>噬天虎</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500236</pet>
+      <pet>530109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24169,10 +24169,10 @@
     <int>22437</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22437</id>
-      <name>幽灵宝宝</name>
+      <name>噬天虎头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500237</pet>
+      <pet>530109</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24248,10 +24248,10 @@
     <int>22438</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22438</id>
-      <name>死亡骑士宝宝</name>
+      <name>噬天虎头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500238</pet>
+      <pet>530111</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24330,10 +24330,10 @@
     <int>22439</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22439</id>
-      <name>血色骑士灵兽</name>
+      <name>变异炎魔神</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500239</pet>
+      <pet>530113</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24411,10 +24411,10 @@
     <int>22440</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22440</id>
-      <name>血色牧师灵兽</name>
+      <name>炎魔神</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500240</pet>
+      <pet>530113</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24492,10 +24492,10 @@
     <int>22441</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22441</id>
-      <name>土元素宝宝</name>
+      <name>炎魔神头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500241</pet>
+      <pet>530113</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24571,10 +24571,10 @@
     <int>22442</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22442</id>
-      <name>半人马宝宝</name>
+      <name>炎魔神头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500242</pet>
+      <pet>530115</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24650,10 +24650,10 @@
     <int>22443</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22443</id>
-      <name>逐日卫士宝宝</name>
+      <name>变异红萼仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500243</pet>
+      <pet>530117</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24729,10 +24729,10 @@
     <int>22444</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22444</id>
-      <name>圣光法师灵兽</name>
+      <name>红萼仙子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500244</pet>
+      <pet>530117</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24810,10 +24810,10 @@
     <int>22445</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22445</id>
-      <name>虚空恐魔宝宝</name>
+      <name>红萼仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500245</pet>
+      <pet>530117</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24890,10 +24890,10 @@
     <int>22446</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22446</id>
-      <name>火女宝宝</name>
+      <name>红萼仙子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500246</pet>
+      <pet>530119</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -24969,10 +24969,10 @@
     <int>22447</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22447</id>
-      <name>雪女宝宝</name>
+      <name>变异机关人</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500247</pet>
+      <pet>530121</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25050,10 +25050,10 @@
     <int>22448</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22448</id>
-      <name>南瓜骑士灵兽</name>
+      <name>机关人</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500248</pet>
+      <pet>530121</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25131,10 +25131,10 @@
     <int>22449</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22449</id>
-      <name>蓝龙宝宝</name>
+      <name>机关人头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500249</pet>
+      <pet>530121</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25210,10 +25210,10 @@
     <int>22450</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22450</id>
-      <name>预言者宝宝</name>
+      <name>机关人头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500250</pet>
+      <pet>530123</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25289,10 +25289,10 @@
     <int>22451</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22451</id>
-      <name>裁决者宝宝</name>
+      <name>变异踏云兽</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500251</pet>
+      <pet>530125</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25368,10 +25368,10 @@
     <int>22452</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22452</id>
-      <name>黑龙灵兽</name>
+      <name>踏云兽</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500252</pet>
+      <pet>530125</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25450,10 +25450,10 @@
     <int>22453</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22453</id>
-      <name>红龙宝宝</name>
+      <name>踏云兽头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500253</pet>
+      <pet>530125</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25530,10 +25530,10 @@
     <int>22454</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22454</id>
-      <name>黑铁矮人宝宝</name>
+      <name>踏云兽头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500254</pet>
+      <pet>530127</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25609,10 +25609,10 @@
     <int>22455</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22455</id>
-      <name>铁炉牧师宝宝</name>
+      <name>变异巴蛇</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500255</pet>
+      <pet>530129</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25688,10 +25688,10 @@
     <int>22456</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22456</id>
-      <name>矮人军官灵兽</name>
+      <name>巴蛇</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500256</pet>
+      <pet>530129</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25769,10 +25769,10 @@
     <int>22457</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22457</id>
-      <name>龙骑士宝宝</name>
+      <name>巴蛇头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500257</pet>
+      <pet>530129</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25850,10 +25850,10 @@
     <int>22458</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22458</id>
-      <name>食尸鬼宝宝</name>
+      <name>巴蛇头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500258</pet>
+      <pet>530131</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -25931,10 +25931,10 @@
     <int>22459</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22459</id>
-      <name>暗灵圣女宝宝</name>
+      <name>变异机关鸟</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500259</pet>
+      <pet>530133</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26013,10 +26013,10 @@
     <int>22460</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22460</id>
-      <name>恐惧恶魔灵兽</name>
+      <name>机关鸟</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500260</pet>
+      <pet>530133</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26095,10 +26095,10 @@
     <int>22461</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22461</id>
-      <name>变异小软宝宝</name>
+      <name>机关鸟头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500261</pet>
+      <pet>530133</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26169,10 +26169,10 @@
     <int>22462</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22462</id>
-      <name>变异迅猛龙宝宝</name>
+      <name>机关鸟头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500262</pet>
+      <pet>530135</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26245,10 +26245,10 @@
     <int>22463</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22463</id>
-      <name>变异狮子宝宝</name>
+      <name>变异机关兽</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500263</pet>
+      <pet>530137</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26323,10 +26323,10 @@
     <int>22464</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22464</id>
-      <name>变异囧龟宝宝</name>
+      <name>机关兽</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500264</pet>
+      <pet>530137</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26402,10 +26402,10 @@
     <int>22465</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22465</id>
-      <name>变异食人工头宝宝</name>
+      <name>机关兽头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500265</pet>
+      <pet>530137</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26481,10 +26481,10 @@
     <int>22466</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22466</id>
-      <name>变异地精工匠宝宝</name>
+      <name>机关兽头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500266</pet>
+      <pet>530139</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26560,10 +26560,10 @@
     <int>22467</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22467</id>
-      <name>变异剪刀手宝宝</name>
+      <name>变异修罗傀儡鬼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500267</pet>
+      <pet>530141</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26639,10 +26639,10 @@
     <int>22468</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22468</id>
-      <name>变异鱼人灵兽</name>
+      <name>修罗傀儡鬼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500268</pet>
+      <pet>530141</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26720,10 +26720,10 @@
     <int>22469</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22469</id>
-      <name>变异死神宝宝</name>
+      <name>修罗傀儡鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500269</pet>
+      <pet>530141</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26799,10 +26799,10 @@
     <int>22470</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22470</id>
-      <name>变异狼人宝宝</name>
+      <name>修罗傀儡鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500270</pet>
+      <pet>530143</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26878,10 +26878,10 @@
     <int>22471</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22471</id>
-      <name>变异死灵哨兵宝宝</name>
+      <name>变异修罗傀儡妖</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500271</pet>
+      <pet>530145</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -26957,10 +26957,10 @@
     <int>22472</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22472</id>
-      <name>变异血月教徒灵兽</name>
+      <name>修罗傀儡妖</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500272</pet>
+      <pet>530145</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -27038,10 +27038,10 @@
     <int>22473</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22473</id>
-      <name>变异野猪人宝宝</name>
+      <name>修罗傀儡妖头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500273</pet>
+      <pet>530145</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -27117,10 +27117,10 @@
     <int>22474</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22474</id>
-      <name>变异绿龙护卫宝宝</name>
+      <name>修罗傀儡妖头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500274</pet>
+      <pet>530147</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -27196,10 +27196,10 @@
     <int>22475</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22475</id>
-      <name>变异野猪战士宝宝</name>
+      <name>变异毗舍童子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500275</pet>
+      <pet>530149</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -27275,10 +27275,10 @@
     <int>22476</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22476</id>
-      <name>变异巫妖灵兽</name>
+      <name>毗舍童子</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500276</pet>
+      <pet>530149</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -27356,10 +27356,10 @@
     <int>22477</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22477</id>
-      <name>变异血色猎犬宝宝</name>
+      <name>毗舍童子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500277</pet>
+      <pet>530149</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -27435,10 +27435,10 @@
     <int>22478</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22478</id>
-      <name>变异幽灵宝宝</name>
+      <name>毗舍童子头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>500278</pet>
+      <pet>530151</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -27514,7 +27514,7 @@
     <int>22479</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22479</id>
-      <name>变异死亡骑士宝宝</name>
+      <name>变异忘川童子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500279</pet>
@@ -27596,7 +27596,7 @@
     <int>22480</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22480</id>
-      <name>变异血色骑士灵兽</name>
+      <name>变异蜃蛇宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500280</pet>
@@ -27677,7 +27677,7 @@
     <int>22481</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22481</id>
-      <name>变异血色牧师灵兽</name>
+      <name>变异吸血鬼宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500281</pet>
@@ -27758,7 +27758,7 @@
     <int>22482</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22482</id>
-      <name>变异土元素宝宝</name>
+      <name>变异夜叉宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500282</pet>
@@ -27837,7 +27837,7 @@
     <int>22483</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22483</id>
-      <name>变异半人马宝宝</name>
+      <name>变异幽莹娃娃宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500283</pet>
@@ -27916,7 +27916,7 @@
     <int>22484</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22484</id>
-      <name>变异逐日卫士宝宝</name>
+      <name>变异鬼将宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500284</pet>
@@ -27995,7 +27995,7 @@
     <int>22485</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22485</id>
-      <name>变异圣光法师灵兽</name>
+      <name>变异幽冥书生宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500285</pet>
@@ -28076,7 +28076,7 @@
     <int>22486</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22486</id>
-      <name>变异虚空恐魔宝宝</name>
+      <name>变异蟠桃童子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500286</pet>
@@ -28156,7 +28156,7 @@
     <int>22487</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22487</id>
-      <name>变异火女宝宝</name>
+      <name>变异天兵宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500287</pet>
@@ -28235,7 +28235,7 @@
     <int>22488</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22488</id>
-      <name>变异雪女宝宝</name>
+      <name>变异巨灵神将宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500288</pet>
@@ -28316,7 +28316,7 @@
     <int>22489</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22489</id>
-      <name>变异南瓜骑士灵兽</name>
+      <name>变异御风童子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500289</pet>
@@ -28397,7 +28397,7 @@
     <int>22490</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22490</id>
-      <name>变异蓝龙宝宝</name>
+      <name>变异珍露童子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500290</pet>
@@ -28476,7 +28476,7 @@
     <int>22491</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22491</id>
-      <name>变异预言者宝宝</name>
+      <name>变异猴小仙宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500291</pet>
@@ -28555,7 +28555,7 @@
     <int>22492</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22492</id>
-      <name>变异裁决者宝宝</name>
+      <name>变异芙蓉仙子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500292</pet>
@@ -28634,7 +28634,7 @@
     <int>22493</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22493</id>
-      <name>变异黑龙灵兽</name>
+      <name>变异巡游天神宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500293</pet>
@@ -28716,7 +28716,7 @@
     <int>22494</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22494</id>
-      <name>变异红龙宝宝</name>
+      <name>变异蛟龙宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500294</pet>
@@ -28796,7 +28796,7 @@
     <int>22495</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22495</id>
-      <name>变异黑铁矮人宝宝</name>
+      <name>变异凤凰仙子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500295</pet>
@@ -28875,7 +28875,7 @@
     <int>22496</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22496</id>
-      <name>变异铁炉牧师宝宝</name>
+      <name>变异鬼剑宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500296</pet>
@@ -28954,7 +28954,7 @@
     <int>22497</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22497</id>
-      <name>变异矮人军官灵兽</name>
+      <name>变异羽云仙子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500297</pet>
@@ -29035,7 +29035,7 @@
     <int>22498</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22498</id>
-      <name>变异龙骑士宝宝</name>
+      <name>变异布雨神君宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500298</pet>
@@ -29116,7 +29116,7 @@
     <int>22499</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22499</id>
-      <name>变异食尸鬼宝宝</name>
+      <name>变异武罗仙子宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500299</pet>
@@ -29197,7 +29197,7 @@
     <int>22500</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22500</id>
-      <name>变异暗灵圣女宝宝</name>
+      <name>变异噬天虎宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500300</pet>
@@ -29279,7 +29279,7 @@
     <int>22501</int>
     <fire.pb.npc.SWildMonsterConfig>
       <id>22501</id>
-      <name>变异恐惧恶魔灵兽</name>
+      <name>变异雾中仙宝宝</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
       <pet>500301</pet>

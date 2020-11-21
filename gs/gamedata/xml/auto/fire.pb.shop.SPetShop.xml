@@ -8,6 +8,32 @@
       <limitLookLv>0</limitLookLv>
       <goodsids>
         <int>2000</int>
+        <int>2001</int>
+        <int>2002</int>
+      </goodsids>
+    </fire.pb.shop.SPetShop>
+  </entry>
+  <entry>
+    <int>5</int>
+    <fire.pb.shop.SPetShop>
+      <id>5</id>
+      <limitLookLv>0</limitLookLv>
+      <goodsids>
+        <int>2003</int>
+        <int>2004</int>
+        <int>2005</int>
+      </goodsids>
+    </fire.pb.shop.SPetShop>
+  </entry>
+  <entry>
+    <int>10</int>
+    <fire.pb.shop.SPetShop>
+      <id>10</id>
+      <limitLookLv>0</limitLookLv>
+      <goodsids>
+        <int>2006</int>
+        <int>2007</int>
+        <int>2008</int>
       </goodsids>
     </fire.pb.shop.SPetShop>
   </entry>
@@ -17,51 +43,6 @@
       <id>15</id>
       <limitLookLv>0</limitLookLv>
       <goodsids>
-        <int>2001</int>
-      </goodsids>
-    </fire.pb.shop.SPetShop>
-  </entry>
-  <entry>
-    <int>25</int>
-    <fire.pb.shop.SPetShop>
-      <id>25</id>
-      <limitLookLv>15</limitLookLv>
-      <goodsids>
-        <int>2002</int>
-        <int>2030</int>
-      </goodsids>
-    </fire.pb.shop.SPetShop>
-  </entry>
-  <entry>
-    <int>35</int>
-    <fire.pb.shop.SPetShop>
-      <id>35</id>
-      <limitLookLv>25</limitLookLv>
-      <goodsids>
-        <int>2003</int>
-        <int>2004</int>
-        <int>2005</int>
-      </goodsids>
-    </fire.pb.shop.SPetShop>
-  </entry>
-  <entry>
-    <int>45</int>
-    <fire.pb.shop.SPetShop>
-      <id>45</id>
-      <limitLookLv>35</limitLookLv>
-      <goodsids>
-        <int>2006</int>
-        <int>2007</int>
-        <int>2008</int>
-      </goodsids>
-    </fire.pb.shop.SPetShop>
-  </entry>
-  <entry>
-    <int>55</int>
-    <fire.pb.shop.SPetShop>
-      <id>55</id>
-      <limitLookLv>45</limitLookLv>
-      <goodsids>
         <int>2009</int>
         <int>2010</int>
         <int>2011</int>
@@ -69,10 +50,10 @@
     </fire.pb.shop.SPetShop>
   </entry>
   <entry>
-    <int>65</int>
+    <int>20</int>
     <fire.pb.shop.SPetShop>
-      <id>65</id>
-      <limitLookLv>55</limitLookLv>
+      <id>20</id>
+      <limitLookLv>0</limitLookLv>
       <goodsids>
         <int>2012</int>
         <int>2013</int>
@@ -81,10 +62,10 @@
     </fire.pb.shop.SPetShop>
   </entry>
   <entry>
-    <int>75</int>
+    <int>25</int>
     <fire.pb.shop.SPetShop>
-      <id>75</id>
-      <limitLookLv>55</limitLookLv>
+      <id>25</id>
+      <limitLookLv>0</limitLookLv>
       <goodsids>
         <int>2015</int>
         <int>2016</int>
@@ -93,10 +74,10 @@
     </fire.pb.shop.SPetShop>
   </entry>
   <entry>
-    <int>80</int>
+    <int>30</int>
     <fire.pb.shop.SPetShop>
-      <id>80</id>
-      <limitLookLv>55</limitLookLv>
+      <id>30</id>
+      <limitLookLv>0</limitLookLv>
       <goodsids>
         <int>2018</int>
         <int>2019</int>
@@ -105,10 +86,10 @@
     </fire.pb.shop.SPetShop>
   </entry>
   <entry>
-    <int>85</int>
+    <int>35</int>
     <fire.pb.shop.SPetShop>
-      <id>85</id>
-      <limitLookLv>55</limitLookLv>
+      <id>35</id>
+      <limitLookLv>0</limitLookLv>
       <goodsids>
         <int>2021</int>
         <int>2022</int>
@@ -117,10 +98,10 @@
     </fire.pb.shop.SPetShop>
   </entry>
   <entry>
-    <int>90</int>
+    <int>40</int>
     <fire.pb.shop.SPetShop>
-      <id>90</id>
-      <limitLookLv>55</limitLookLv>
+      <id>40</id>
+      <limitLookLv>0</limitLookLv>
       <goodsids>
         <int>2024</int>
         <int>2025</int>
@@ -129,10 +110,10 @@
     </fire.pb.shop.SPetShop>
   </entry>
   <entry>
-    <int>95</int>
+    <int>45</int>
     <fire.pb.shop.SPetShop>
-      <id>95</id>
-      <limitLookLv>55</limitLookLv>
+      <id>45</id>
+      <limitLookLv>0</limitLookLv>
       <goodsids>
         <int>2027</int>
         <int>2028</int>

@@ -6,12 +6,12 @@
     <fire.pb.role.RoleConfig>
       <id>11</id>
       <type>1</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>1</int>
@@ -42,12 +42,12 @@
     <fire.pb.role.RoleConfig>
       <id>12</id>
       <type>4</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>2</int>
@@ -78,12 +78,12 @@
     <fire.pb.role.RoleConfig>
       <id>13</id>
       <type>1</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>1</int>
@@ -114,12 +114,12 @@
     <fire.pb.role.RoleConfig>
       <id>14</id>
       <type>5</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>2</int>
@@ -150,12 +150,12 @@
     <fire.pb.role.RoleConfig>
       <id>15</id>
       <type>2</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>1</int>
@@ -186,12 +186,12 @@
     <fire.pb.role.RoleConfig>
       <id>16</id>
       <type>3</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>2</int>
@@ -222,12 +222,12 @@
     <fire.pb.role.RoleConfig>
       <id>17</id>
       <type>2</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>1</int>
@@ -258,12 +258,12 @@
     <fire.pb.role.RoleConfig>
       <id>18</id>
       <type>1</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>1</int>
@@ -294,12 +294,12 @@
     <fire.pb.role.RoleConfig>
       <id>19</id>
       <type>4</type>
-      <mapx>1120</mapx>
-      <mapy>464</mapy>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
       <regionx>16</regionx>
       <regiony>16</regiony>
-      <mapid>2200</mapid>
-      <level>1</level>
+      <mapid>1608</mapid>
+      <level>2</level>
       <race>1</race>
       <addpoint>
         <int>2</int>
@@ -323,6 +323,222 @@
         <int>1</int>
       </addpoint3>
       <defaultscheme>3</defaultscheme>
+    </fire.pb.role.RoleConfig>
+  </entry>
+  <entry>
+    <int>20</int>
+    <fire.pb.role.RoleConfig>
+      <id>20</id>
+      <type>1</type>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
+      <regionx>16</regionx>
+      <regiony>16</regiony>
+      <mapid>1608</mapid>
+      <level>2</level>
+      <race>1</race>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <addpoint2>
+        <int>0</int>
+        <int>0</int>
+        <int>4</int>
+        <int>1</int>
+        <int>0</int>
+      </addpoint2>
+      <addpoint3>
+        <int>0</int>
+        <int>0</int>
+        <int>5</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint3>
+      <defaultscheme>1</defaultscheme>
+    </fire.pb.role.RoleConfig>
+  </entry>
+  <entry>
+    <int>21</int>
+    <fire.pb.role.RoleConfig>
+      <id>21</id>
+      <type>4</type>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
+      <regionx>16</regionx>
+      <regiony>16</regiony>
+      <mapid>1608</mapid>
+      <level>2</level>
+      <race>1</race>
+      <addpoint>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>1</int>
+      </addpoint>
+      <addpoint2>
+        <int>1</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+      </addpoint2>
+      <addpoint3>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>0</int>
+      </addpoint3>
+      <defaultscheme>2</defaultscheme>
+    </fire.pb.role.RoleConfig>
+  </entry>
+  <entry>
+    <int>22</int>
+    <fire.pb.role.RoleConfig>
+      <id>22</id>
+      <type>5</type>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
+      <regionx>16</regionx>
+      <regiony>16</regiony>
+      <mapid>1608</mapid>
+      <level>2</level>
+      <race>1</race>
+      <addpoint>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+        <int>2</int>
+      </addpoint>
+      <addpoint2>
+        <int>1</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+        <int>3</int>
+      </addpoint2>
+      <addpoint3>
+        <int>1</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+      </addpoint3>
+      <defaultscheme>3</defaultscheme>
+    </fire.pb.role.RoleConfig>
+  </entry>
+  <entry>
+    <int>23</int>
+    <fire.pb.role.RoleConfig>
+      <id>23</id>
+      <type>4</type>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
+      <regionx>16</regionx>
+      <regiony>16</regiony>
+      <mapid>1608</mapid>
+      <level>2</level>
+      <race>1</race>
+      <addpoint>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>1</int>
+      </addpoint>
+      <addpoint2>
+        <int>1</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+      </addpoint2>
+      <addpoint3>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>0</int>
+      </addpoint3>
+      <defaultscheme>2</defaultscheme>
+    </fire.pb.role.RoleConfig>
+  </entry>
+  <entry>
+    <int>24</int>
+    <fire.pb.role.RoleConfig>
+      <id>24</id>
+      <type>3</type>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
+      <regionx>16</regionx>
+      <regiony>16</regiony>
+      <mapid>1608</mapid>
+      <level>2</level>
+      <race>1</race>
+      <addpoint>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>1</int>
+      </addpoint>
+      <addpoint2>
+        <int>1</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+      </addpoint2>
+      <addpoint3>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>3</int>
+        <int>0</int>
+      </addpoint3>
+      <defaultscheme>2</defaultscheme>
+    </fire.pb.role.RoleConfig>
+  </entry>
+  <entry>
+    <int>25</int>
+    <fire.pb.role.RoleConfig>
+      <id>25</id>
+      <type>4</type>
+      <mapx>13</mapx>
+      <mapy>62</mapy>
+      <regionx>16</regionx>
+      <regiony>16</regiony>
+      <mapid>1608</mapid>
+      <level>2</level>
+      <race>1</race>
+      <addpoint>
+        <int>2</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>1</int>
+      </addpoint>
+      <addpoint2>
+        <int>1</int>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>1</int>
+      </addpoint2>
+      <addpoint3>
+        <int>3</int>
+        <int>0</int>
+        <int>0</int>
+        <int>2</int>
+        <int>0</int>
+      </addpoint3>
+      <defaultscheme>2</defaultscheme>
     </fire.pb.role.RoleConfig>
   </entry>
 </tree-map>

@@ -5,9 +5,9 @@
     <int>1</int>
     <fire.pb.fushi.SMonthCardConfig>
       <id>1</id>
-      <name>专精礼包</name>
+      <name>金币</name>
       <rewardid>0</rewardid>
-      <itemid>340041</itemid>
+      <itemid>335011</itemid>
       <itemnum>1</itemnum>
       <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
@@ -16,10 +16,10 @@
     <int>2</int>
     <fire.pb.fushi.SMonthCardConfig>
       <id>2</id>
-      <name>原石礼包</name>
+      <name>千叶碎片</name>
       <rewardid>0</rewardid>
-      <itemid>340042</itemid>
-      <itemnum>1</itemnum>
+      <itemid>340438</itemid>
+      <itemnum>3</itemnum>
       <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
   </entry>
@@ -27,21 +27,21 @@
     <int>3</int>
     <fire.pb.fushi.SMonthCardConfig>
       <id>3</id>
-      <name>银币礼包</name>
-      <rewardid>6731</rewardid>
-      <itemid>340043</itemid>
-      <itemnum>0</itemnum>
-      <type>1</type>
+      <name>法宝碎片</name>
+      <rewardid>0</rewardid>
+      <itemid>631139</itemid>
+      <itemnum>5</itemnum>
+      <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
   </entry>
   <entry>
     <int>4</int>
     <fire.pb.fushi.SMonthCardConfig>
       <id>4</id>
-      <name>宝石礼包</name>
+      <name>重铸石</name>
       <rewardid>0</rewardid>
-      <itemid>340040</itemid>
-      <itemnum>1</itemnum>
+      <itemid>340141</itemid>
+      <itemnum>5</itemnum>
       <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
   </entry>
@@ -49,10 +49,10 @@
     <int>5</int>
     <fire.pb.fushi.SMonthCardConfig>
       <id>5</id>
-      <name>光环碎片</name>
+      <name>神兜兜</name>
       <rewardid>0</rewardid>
-      <itemid>360000</itemid>
-      <itemnum>2</itemnum>
+      <itemid>339102</itemid>
+      <itemnum>5</itemnum>
       <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
   </entry>

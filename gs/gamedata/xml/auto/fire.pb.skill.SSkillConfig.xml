@@ -1397,7 +1397,7 @@
       <inOutBattle>true</inOutBattle>
       <typeinserver>4</typeinserver>
       <type>3</type>
-      <targetType>10</targetType>
+      <targetType>480</targetType>
       <initSpeedBonus>0</initSpeedBonus>
       <mpConsume>0</mpConsume>
       <spConsume>150</spConsume>
@@ -1633,12 +1633,12 @@
       <canAtackBack>false</canAtackBack>
       <inOutBattle>true</inOutBattle>
       <typeinserver>4</typeinserver>
-      <type>7</type>
+      <type>4</type>
       <targetType>480</targetType>
       <initSpeedBonus>0</initSpeedBonus>
       <mpConsume>0</mpConsume>
       <spConsume>150</spConsume>
-      <subskillIDs>1400070,1400071</subskillIDs>
+      <subskillIDs>1400070,1400071,1400072,1400073</subskillIDs>
       <subskillstarttimes>0,0,0,-1</subskillstarttimes>
       <caneffectbyhate>1</caneffectbyhate>
       <skillspecialtime>1500</skillspecialtime>
@@ -3116,7 +3116,7 @@
       <type>6</type>
       <targetType>4127</targetType>
       <initSpeedBonus>0</initSpeedBonus>
-      <hpConsume>100+1.2*skilllevela</hpConsume>
+      <mpConsume>10+1.2*skilllevela</mpConsume>
       <subskillIDs>1650020,1650021,1650022</subskillIDs>
       <subskillstarttimes>0,0,0</subskillstarttimes>
     </fire.pb.skill.SSkillConfig>
@@ -3419,8 +3419,8 @@
       <canAtackBack>false</canAtackBack>
       <inOutBattle>true</inOutBattle>
       <typeinserver>4</typeinserver>
-      <type>7</type>
-      <targetType>4127</targetType>
+      <type>4</type>
+      <targetType>480</targetType>
       <initSpeedBonus>0</initSpeedBonus>
       <mpConsume>0</mpConsume>
       <spConsume>150</spConsume>
@@ -3770,7 +3770,6 @@
       <targetType>480</targetType>
       <initSpeedBonus>0</initSpeedBonus>
       <mpConsume>10+1.2*skilllevela</mpConsume>
-      <spConsume>10</spConsume>
       <subskillIDs>1680030</subskillIDs>
       <subskillstarttimes>0</subskillstarttimes>
     </fire.pb.skill.SSkillConfig>
@@ -3790,7 +3789,6 @@
       <targetType>480</targetType>
       <initSpeedBonus>0</initSpeedBonus>
       <mpConsume>10+2.4*skilllevela</mpConsume>
-      <spConsume>15</spConsume>
       <subskillIDs>1680040</subskillIDs>
       <subskillstarttimes>0</subskillstarttimes>
     </fire.pb.skill.SSkillConfig>
@@ -3810,7 +3808,6 @@
       <targetType>480</targetType>
       <initSpeedBonus>0</initSpeedBonus>
       <mpConsume>10+2.4*skilllevela</mpConsume>
-      <spConsume>25</spConsume>
       <subskillIDs>1680050</subskillIDs>
       <subskillstarttimes>0</subskillstarttimes>
     </fire.pb.skill.SSkillConfig>

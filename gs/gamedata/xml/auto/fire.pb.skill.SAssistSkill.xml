@@ -6,8 +6,8 @@
     <fire.pb.skill.SAssistSkill>
       <id>300101</id>
       <isNeedExp>true</isNeedExp>
-      <skillName>锻造</skillName>
-      <levelTotal>140</levelTotal>
+      <skillName>打造技巧</skillName>
+      <levelTotal>160</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -16,8 +16,8 @@
     <fire.pb.skill.SAssistSkill>
       <id>300201</id>
       <isNeedExp>true</isNeedExp>
-      <skillName>裁缝</skillName>
-      <levelTotal>140</levelTotal>
+      <skillName>裁缝技巧</skillName>
+      <levelTotal>160</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -26,8 +26,8 @@
     <fire.pb.skill.SAssistSkill>
       <id>300301</id>
       <isNeedExp>true</isNeedExp>
-      <skillName>珠宝</skillName>
-      <levelTotal>140</levelTotal>
+      <skillName>炼金技巧</skillName>
+      <levelTotal>160</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -36,7 +36,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300401</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>钢铁之躯</skillName>
+      <skillName>气血符</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -46,7 +46,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300402</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>魔能武器</skillName>
+      <skillName>物理伤害</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -56,7 +56,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300403</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>纳鲁恩赐</skillName>
+      <skillName>法术伤害</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -66,7 +66,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300404</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>暗影之力</skillName>
+      <skillName>物理防御</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -76,7 +76,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300405</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>自然亲和</skillName>
+      <skillName>法术防御</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -86,7 +86,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300406</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>不羁之怒</skillName>
+      <skillName>愤怒</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -96,7 +96,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300407</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>鲜血饥渴</skillName>
+      <skillName>治疗强度</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -106,7 +106,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300408</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>元素之怒</skillName>
+      <skillName>封印命中</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -116,7 +116,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>300409</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>神圣庇护</skillName>
+      <skillName>速度</skillName>
       <levelTotal>1</levelTotal>
       <是否在技能学习人处显示>0</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
@@ -126,8 +126,8 @@
     <fire.pb.skill.SAssistSkill>
       <id>310101</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>炼金</skillName>
-      <levelTotal>140</levelTotal>
+      <skillName>中医药理</skillName>
+      <levelTotal>160</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -136,8 +136,8 @@
     <fire.pb.skill.SAssistSkill>
       <id>310201</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>烹饪</skillName>
-      <levelTotal>140</levelTotal>
+      <skillName>烹饪技巧</skillName>
+      <levelTotal>160</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -146,8 +146,8 @@
     <fire.pb.skill.SAssistSkill>
       <id>320103</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>强体术</skillName>
-      <levelTotal>140</levelTotal>
+      <skillName>强身术</skillName>
+      <levelTotal>160</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -156,8 +156,8 @@
     <fire.pb.skill.SAssistSkill>
       <id>320104</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>冥想术</skillName>
-      <levelTotal>140</levelTotal>
+      <skillName>冥想</skillName>
+      <levelTotal>160</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -186,7 +186,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>360011</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>攻法专精</skillName>
+      <skillName>功法修炼</skillName>
     </fire.pb.skill.SAssistSkill>
   </entry>
   <entry>
@@ -194,7 +194,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>360012</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>物抗专精</skillName>
+      <skillName>物防修炼</skillName>
     </fire.pb.skill.SAssistSkill>
   </entry>
   <entry>
@@ -202,7 +202,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>360013</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>法抗专精</skillName>
+      <skillName>法防修炼</skillName>
     </fire.pb.skill.SAssistSkill>
   </entry>
   <entry>
@@ -210,7 +210,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>360014</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>守护专精</skillName>
+      <skillName>抗封修炼</skillName>
     </fire.pb.skill.SAssistSkill>
   </entry>
   <entry>
@@ -218,7 +218,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>360020</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>宠物攻法</skillName>
+      <skillName>宠物功法</skillName>
     </fire.pb.skill.SAssistSkill>
   </entry>
   <entry>
@@ -226,7 +226,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>360021</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>宠物物抗</skillName>
+      <skillName>宠物物防</skillName>
     </fire.pb.skill.SAssistSkill>
   </entry>
   <entry>
@@ -242,7 +242,7 @@
     <fire.pb.skill.SAssistSkill>
       <id>360023</id>
       <isNeedExp>false</isNeedExp>
-      <skillName>宠物守护</skillName>
+      <skillName>宠物抗封</skillName>
     </fire.pb.skill.SAssistSkill>
   </entry>
 </tree-map>

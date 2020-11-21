@@ -554,10 +554,17 @@
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
-    <int>666</int>
+    <int>657</int>
     <fire.pb.item.ItemNameClassConfig>
-      <id>666</id>
-      <classname>fire.pb.item.xilianshi</classname>
+      <id>657</id>
+      <classname>fire.pb.item.XilianshiItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>673</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>673</id>
+      <classname>fire.pb.item.DianhuashiItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
 </tree-map>
