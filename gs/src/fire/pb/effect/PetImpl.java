@@ -3,6 +3,7 @@ package fire.pb.effect;
 import java.util.HashMap;
 import java.util.Map;
 
+
 import xbean.BasicFightProperties;
 import fire.pb.DataInit;
 import fire.pb.attr.AttrType;
@@ -190,6 +191,11 @@ public class PetImpl extends AttrCalcRole
 	@Override
 	public long getNextExp()
 	{
+		Module.logger.error("----------宠物等级---："+(int)pet.getLevel()+"--"+DataInit.PET_LEVEL_MAX);
+		if((int)pet.getLevel() >= DataInit.PET_LEVEL_MAX)
+		{
+			return 1000000000;
+		}
 		return getNextExpTable((int)pet.getLevel()).exp;
 	}
 
@@ -355,6 +361,7 @@ public class PetImpl extends AttrCalcRole
 		Integer rolelevel = xtable.Properties.selectLevel(roleId);
 		if (rolelevel == null)
 			return null;
+		Module.logger.error("----------升级---："+pet.getLevel()+"--"+DataInit.ROLE_PET_LEVEL_SPACE_OFEXPITEM);
 		if (pet.getLevel() >= rolelevel + DataInit.ROLE_PET_LEVEL_SPACE_OFEXPITEM)
 			return null;
 		if (fire.pb.pet.Helper.isPetInBattle(roleId, petkey))

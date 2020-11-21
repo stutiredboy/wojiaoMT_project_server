@@ -1033,10 +1033,12 @@ public class PNewBattle extends Procedure {
 				}
 			}
 		}
+		SkillRole srole = new SkillRole(hostRoleID);
+		srole.removeExtSkillWithSP();
 		if(suitingMaps.size()> 0)
 		{
 			Map<Integer, Integer> sextskill = new HashMap<Integer, Integer>();	
-			SkillRole srole = new SkillRole(hostRoleID);
+			
 			for(Integer i : suitingMaps.keySet())
 			{
 				if(suitingMaps.get(i) >= 3)
@@ -1048,7 +1050,7 @@ public class PNewBattle extends Procedure {
 			srole.addExtSkillWithSP(sextskill);
 			BattleField.logger.error("------------------------战斗开始，添加一个技能---------"+hostRoleID+"-----"+sextskill+"---------------------------------");
 		}
-		
+		srole.sendAllSkillsWhileOnline();
 		//如果是生死战，发送观战连接
 		if(battle.getBattletype() == BattleType.BATTLE_LIVEDIE){
 			//发送链接

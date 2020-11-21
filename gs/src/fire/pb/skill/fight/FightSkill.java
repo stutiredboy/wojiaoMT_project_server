@@ -560,12 +560,13 @@ public class FightSkill
 		int num = 0;
 		int targetCount = subskill.getTargetCountJs().eval(battle.getEngine(),opfighter,null).intValue();
 		// 获取装备信息，统计装备是否有套装技能效果
-		ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(operator, BagTypes.EQUIP, true);
+		ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(opfighter.getFighterBean().getUniqueid(), BagTypes.EQUIP, true);
 		Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
 		int addNum = 0;
 		int addValue = 0;
 		for (ItemBase basicItem : bag){
-			EquipItem oldWeapon = ((EquipItem) basicItem);
+
+			EquipItem oldWeapon = (EquipItem) basicItem;
 			if(oldWeapon.getEquipAttr().getSuitID() != 0)
 			{
 				STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
@@ -1624,7 +1625,7 @@ public class FightSkill
 				return processSummon();
 			}
 			item = new ResultItem();
-			ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(operator, BagTypes.EQUIP, true);
+			ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(opfighter.getFighterBean().getUniqueid(), BagTypes.EQUIP, true);
 			Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
 			int addNum = 0;
 			int addValue = 0;
