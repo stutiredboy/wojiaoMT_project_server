@@ -235,6 +235,18 @@
     <int>10</int>
     <fire.pb.shop.MarketFirstTable>
       <id>10</id>
+      <firstname>任务装备</firstname>
+      <isfloating>0</isfloating>
+      <secondno>
+        <int>900</int>
+        <int>901</int>
+      </secondno>
+    </fire.pb.shop.MarketFirstTable>
+  </entry>
+  <entry>
+    <int>11</int>
+    <fire.pb.shop.MarketFirstTable>
+      <id>11</id>
       <firstname>奇珍异宝</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -248,9 +260,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>11</int>
+    <int>12</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>11</id>
+      <id>12</id>
       <firstname>装备打造</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -268,9 +280,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>12</int>
+    <int>13</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>12</id>
+      <id>13</id>
       <firstname>坐骑</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -296,9 +308,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>13</int>
+    <int>14</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>13</id>
+      <id>14</id>
       <firstname>稀有技能</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -317,9 +329,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>14</int>
+    <int>15</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>14</id>
+      <id>15</id>
       <firstname>灵饰</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -329,9 +341,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>15</int>
+    <int>16</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>15</id>
+      <id>16</id>
       <firstname>法宝</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -348,9 +360,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>16</int>
+    <int>17</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>16</id>
+      <id>17</id>
       <firstname>宝石</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -377,9 +389,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>17</int>
+    <int>18</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>17</id>
+      <id>18</id>
       <firstname>内丹</firstname>
       <isfloating>0</isfloating>
       <secondno>
@@ -422,9 +434,9 @@
     </fire.pb.shop.MarketFirstTable>
   </entry>
   <entry>
-    <int>18</int>
+    <int>19</int>
     <fire.pb.shop.MarketFirstTable>
-      <id>18</id>
+      <id>19</id>
       <firstname>三级药品</firstname>
       <isfloating>0</isfloating>
       <secondno>

@@ -313,7 +313,7 @@
     <int>510132</int>
     <fire.pb.buff.SIBuffConfig>
       <id>510132</id>
-      <name>普通驱散异常buff（药和牧师技能使用，只能驱散弱控制）</name>
+      <name>神迹</name>
       <bufftype>3</bufftype>
       <classname>fire.pb.buff.single.CleanBuff</classname>
       <buffclass>61</buffclass>

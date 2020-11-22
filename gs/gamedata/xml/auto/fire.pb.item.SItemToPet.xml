@@ -1533,7 +1533,7 @@
     <int>340447</int>
     <fire.pb.item.SItemToPet>
       <id>340447</id>
-      <petId>999989</petId>
+      <petId>530162</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -1541,7 +1541,7 @@
     <int>340448</int>
     <fire.pb.item.SItemToPet>
       <id>340448</id>
-      <petId>999990</petId>
+      <petId>530163</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -1549,7 +1549,7 @@
     <int>340449</int>
     <fire.pb.item.SItemToPet>
       <id>340449</id>
-      <petId>999991</petId>
+      <petId>530164</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -1557,7 +1557,7 @@
     <int>340450</int>
     <fire.pb.item.SItemToPet>
       <id>340450</id>
-      <petId>999992</petId>
+      <petId>530165</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -1565,7 +1565,7 @@
     <int>340451</int>
     <fire.pb.item.SItemToPet>
       <id>340451</id>
-      <petId>999993</petId>
+      <petId>530166</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>

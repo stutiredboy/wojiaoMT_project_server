@@ -43489,7 +43489,7 @@
       <useup>1</useup>
       <needlevel>1</needlevel>
       <offlineclear>false</offlineclear>
-      <bindable>true</bindable>
+      <bindable>false</bindable>
       <destroy>true</destroy>
       <validtime>0</validtime>
       <sortid>7100</sortid>
@@ -43501,6 +43501,7 @@
       <nquality>3</nquality>
       <dcansale>0</dcansale>
       <period>0</period>
+      <lock>0</lock>
       <effectdate>0</effectdate>
       <overduedate>0</overduedate>
     </fire.pb.item.GroceryItemShuXing>

@@ -212,16 +212,16 @@
     </fire.pb.npc.SRideItem>
   </entry>
   <entry>
-    <int>340452</int>
+    <int>340512</int>
     <fire.pb.npc.SRideItem>
-      <id>340452</id>
+      <id>340512</id>
       <rideid>31</rideid>
     </fire.pb.npc.SRideItem>
   </entry>
   <entry>
-    <int>340453</int>
+    <int>340513</int>
     <fire.pb.npc.SRideItem>
-      <id>340453</id>
+      <id>340513</id>
       <rideid>32</rideid>
     </fire.pb.npc.SRideItem>
   </entry>

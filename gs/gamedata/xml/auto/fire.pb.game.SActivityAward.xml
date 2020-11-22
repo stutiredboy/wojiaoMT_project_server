@@ -6381,7 +6381,7 @@
       <gold>1000</gold>
       <SchoolContribute>max(floor((Ring-4)/2),0)</SchoolContribute>
       <exp>3000000</exp>
-      <petExp>6000000</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -6828,7 +6828,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>500</GangTaskContribution>
       <exp>300000</exp>
-      <petExp>300000</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -13256,7 +13256,7 @@
       <GangContribution>5</GangContribution>
       <GangTaskContribution>2200+floor(min(RoleLv,FuBenId*10-1051-floor(FuBenId/113)*5)/10)*440+(200+floor(min(RoleLv,FuBenId*10-1051-floor(FuBenId/113)*5)/10)*40*Saveid)</GangTaskContribution>
       <exp>400*min(RoleLv,FuBenId*10-1051-floor(FuBenId/113)*5)*0.35*(0.75+0.05*Saveid)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</exp>
-      <petExp>5000*min(RoleLv,FuBenId*10-1051-floor(FuBenId/113)*5)*0.058*(0.75+0.05*Saveid)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -17703,7 +17703,7 @@
       <money>(1000*MonsterLv*0.1)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</money>
       <gold>(1*MonsterLv*0.3)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</gold>
       <exp>(800*MonsterLv*0.667)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -19562,7 +19562,7 @@
       <GangContribution>350</GangContribution>
       <GangTaskContribution>50000</GangTaskContribution>
       <exp>120000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -19633,7 +19633,7 @@
       <GangContribution>350</GangContribution>
       <GangTaskContribution>50000</GangTaskContribution>
       <exp>150000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -19704,7 +19704,7 @@
       <GangContribution>350</GangContribution>
       <GangTaskContribution>50000</GangTaskContribution>
       <exp>180000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -19775,7 +19775,7 @@
       <GangContribution>500</GangContribution>
       <GangTaskContribution>130000</GangTaskContribution>
       <exp>210000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -19846,7 +19846,7 @@
       <GangContribution>800</GangContribution>
       <GangTaskContribution>150000</GangTaskContribution>
       <exp>240000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -19925,7 +19925,7 @@
       <GangContribution>800</GangContribution>
       <GangTaskContribution>200000</GangTaskContribution>
       <exp>270000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -20004,7 +20004,7 @@
       <GangContribution>1500</GangContribution>
       <GangTaskContribution>500000</GangTaskContribution>
       <exp>300000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -20086,7 +20086,7 @@
       <GangContribution>1500</GangContribution>
       <GangTaskContribution>1000000</GangTaskContribution>
       <exp>330000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -20168,7 +20168,7 @@
       <GangContribution>1500</GangContribution>
       <GangTaskContribution>2000000</GangTaskContribution>
       <exp>360000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -20250,7 +20250,7 @@
       <GangContribution>1500</GangContribution>
       <GangTaskContribution>4000000</GangTaskContribution>
       <exp>390000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -20332,7 +20332,7 @@
       <GangContribution>3000</GangContribution>
       <GangTaskContribution>8000000</GangTaskContribution>
       <exp>420000</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192004</msgid>
@@ -21441,7 +21441,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>5000</GangTaskContribution>
       <exp>888888</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -21524,7 +21524,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>5000</GangTaskContribution>
       <exp>1188888</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -21607,7 +21607,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>5000</GangTaskContribution>
       <exp>1388888</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -21690,7 +21690,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>6000</GangTaskContribution>
       <exp>1666666</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192002</msgid>
@@ -21773,7 +21773,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>8000</GangTaskContribution>
       <exp>1888888</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192003</msgid>
@@ -21856,7 +21856,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>10000</GangTaskContribution>
       <exp>1999999</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192011</msgid>
@@ -21939,7 +21939,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>12000</GangTaskContribution>
       <exp>2666666</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192001</msgid>
@@ -22022,7 +22022,7 @@
       <GangContribution>50</GangContribution>
       <GangTaskContribution>15000</GangTaskContribution>
       <exp>2888888</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192009</msgid>
@@ -22105,7 +22105,7 @@
       <GangContribution>100</GangContribution>
       <GangTaskContribution>20000</GangTaskContribution>
       <exp>3266666</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192005</msgid>
@@ -22188,7 +22188,7 @@
       <GangContribution>100</GangContribution>
       <GangTaskContribution>30000</GangTaskContribution>
       <exp>4266666</exp>
-      <petExp>(5000*MonsterLv*0.05)*(random()*(1.02-0.98)+0.98)*(1-min(5-TeamNum,2)*0.15)</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>192008</msgid>
@@ -22271,7 +22271,7 @@
       <GangContribution>100</GangContribution>
       <GangTaskContribution>40000</GangTaskContribution>
       <exp>3888888</exp>
-      <petExp>3000000</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgid>192006</msgid>
       <teammsg>0</teammsg>
@@ -22353,7 +22353,7 @@
       <GangContribution>100</GangContribution>
       <GangTaskContribution>40000</GangTaskContribution>
       <exp>3888888</exp>
-      <petExp>3000000</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgid>192004</msgid>
       <teammsg>0</teammsg>
@@ -22435,7 +22435,7 @@
       <GangContribution>100</GangContribution>
       <GangTaskContribution>55000</GangTaskContribution>
       <exp>8888888</exp>
-      <petExp>3000000</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgid>192007</msgid>
       <teammsg>0</teammsg>
@@ -22517,7 +22517,7 @@
       <GangContribution>100</GangContribution>
       <GangTaskContribution>55000</GangTaskContribution>
       <exp>8888888</exp>
-      <petExp>3000000</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgid>192010</msgid>
       <teammsg>0</teammsg>
@@ -23133,7 +23133,7 @@
       <money>100000</money>
       <gold>8888</gold>
       <exp>1688888</exp>
-      <petExp>1688888</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -23188,7 +23188,7 @@
       <money>100000</money>
       <gold>999</gold>
       <exp>1688888</exp>
-      <petExp>1688888</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -23243,7 +23243,7 @@
       <money>100000</money>
       <gold>999</gold>
       <exp>1688888</exp>
-      <petExp>1688888</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -23298,7 +23298,7 @@
       <money>100000</money>
       <gold>999</gold>
       <exp>1688888</exp>
-      <petExp>1688888</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -23353,7 +23353,7 @@
       <money>100000</money>
       <gold>999</gold>
       <exp>1688888</exp>
-      <petExp>1688888</petExp>
+      <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>

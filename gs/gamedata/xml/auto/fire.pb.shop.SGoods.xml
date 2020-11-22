@@ -10089,7 +10089,7 @@
       <id>90027</id>
       <name>花灵</name>
       <type>2</type>
-      <itemId>999989</itemId>
+      <itemId>530157</itemId>
       <currencys>
         <int>99</int>
       </currencys>
@@ -10115,7 +10115,7 @@
       <id>90028</id>
       <name>涂山雪</name>
       <type>2</type>
-      <itemId>999990</itemId>
+      <itemId>530158</itemId>
       <currencys>
         <int>99</int>
       </currencys>
@@ -10141,7 +10141,7 @@
       <id>90029</id>
       <name>月魅</name>
       <type>2</type>
-      <itemId>999991</itemId>
+      <itemId>530159</itemId>
       <currencys>
         <int>99</int>
       </currencys>
@@ -10167,7 +10167,7 @@
       <id>90030</id>
       <name>月影仙</name>
       <type>2</type>
-      <itemId>999992</itemId>
+      <itemId>530160</itemId>
       <currencys>
         <int>99</int>
       </currencys>
@@ -10193,7 +10193,7 @@
       <id>90031</id>
       <name>云游火</name>
       <type>2</type>
-      <itemId>999993</itemId>
+      <itemId>530161</itemId>
       <currencys>
         <int>99</int>
       </currencys>
@@ -15499,7 +15499,7 @@
       <id>4193</id>
       <name>飞燕女1</name>
       <type>1</type>
-      <itemId>340452</itemId>
+      <itemId>340512</itemId>
       <currencys>
         <int>2</int>
       </currencys>
@@ -15523,7 +15523,7 @@
       <id>4194</id>
       <name>飞燕女2</name>
       <type>1</type>
-      <itemId>340453</itemId>
+      <itemId>340513</itemId>
       <currencys>
         <int>2</int>
       </currencys>

@@ -3827,6 +3827,534 @@
     </fire.pb.shop.MarketThreeTable>
   </entry>
   <entry>
+    <int>6050101</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050101</id>
+      <threeno>2002</threeno>
+      <itemname>蓝剑</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060101</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060101</id>
+      <threeno>2003</threeno>
+      <itemname>蓝剑</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050102</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050102</id>
+      <threeno>2010</threeno>
+      <itemname>蓝锤子</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060102</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060102</id>
+      <threeno>2011</threeno>
+      <itemname>蓝锤子</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050103</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050103</id>
+      <threeno>2018</threeno>
+      <itemname>蓝匕首</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060103</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060103</id>
+      <threeno>2019</threeno>
+      <itemname>蓝匕首</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050104</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050104</id>
+      <threeno>2026</threeno>
+      <itemname>蓝爪</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060104</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060104</id>
+      <threeno>2027</threeno>
+      <itemname>蓝爪</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050105</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050105</id>
+      <threeno>2034</threeno>
+      <itemname>蓝魔棒</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060105</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060105</id>
+      <threeno>2035</threeno>
+      <itemname>蓝魔棒</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050207</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050207</id>
+      <threeno>2050</threeno>
+      <itemname>蓝男衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060207</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060207</id>
+      <threeno>2051</threeno>
+      <itemname>蓝男衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050208</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050208</id>
+      <threeno>2058</threeno>
+      <itemname>蓝女衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060208</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060208</id>
+      <threeno>2059</threeno>
+      <itemname>蓝女衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050309</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050309</id>
+      <threeno>2066</threeno>
+      <itemname>蓝男头</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060309</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060309</id>
+      <threeno>2067</threeno>
+      <itemname>蓝男头</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050310</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050310</id>
+      <threeno>2074</threeno>
+      <itemname>蓝女头</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060310</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060310</id>
+      <threeno>2075</threeno>
+      <itemname>蓝女头</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050411</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050411</id>
+      <threeno>2082</threeno>
+      <itemname>蓝项链</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060411</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060411</id>
+      <threeno>2083</threeno>
+      <itemname>蓝项链</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050512</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050512</id>
+      <threeno>2090</threeno>
+      <itemname>蓝腰带</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060512</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060512</id>
+      <threeno>2091</threeno>
+      <itemname>蓝腰带</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6050613</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6050613</id>
+      <threeno>2098</threeno>
+      <itemname>蓝鞋</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>6060613</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>6060613</id>
+      <threeno>2099</threeno>
+      <itemname>蓝鞋</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
     <int>8090101</int>
     <fire.pb.shop.MarketThreeTable>
       <id>8090101</id>
@@ -7091,6 +7619,1062 @@
     </fire.pb.shop.MarketThreeTable>
   </entry>
   <entry>
+    <int>4050101</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050101</id>
+      <threeno>3000</threeno>
+      <itemname>50级白装剑</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050102</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050102</id>
+      <threeno>3001</threeno>
+      <itemname>50级白装锤</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050103</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050103</id>
+      <threeno>3002</threeno>
+      <itemname>50级白装匕首</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050104</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050104</id>
+      <threeno>3003</threeno>
+      <itemname>50级白装爪</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050105</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050105</id>
+      <threeno>3004</threeno>
+      <itemname>50级白装魔棒</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050207</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050207</id>
+      <threeno>3006</threeno>
+      <itemname>50级白装男衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050208</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050208</id>
+      <threeno>3007</threeno>
+      <itemname>50级白装女衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050309</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050309</id>
+      <threeno>3008</threeno>
+      <itemname>50级白装男头盔</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050310</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050310</id>
+      <threeno>3009</threeno>
+      <itemname>50级白装女头饰</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050411</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050411</id>
+      <threeno>3010</threeno>
+      <itemname>50级白装项链</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050512</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050512</id>
+      <threeno>3011</threeno>
+      <itemname>50级白装腰带</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4050613</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4050613</id>
+      <threeno>3012</threeno>
+      <itemname>50级白装鞋子</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060101</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060101</id>
+      <threeno>3013</threeno>
+      <itemname>60级白装剑</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060102</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060102</id>
+      <threeno>3014</threeno>
+      <itemname>60级白装锤</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060103</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060103</id>
+      <threeno>3015</threeno>
+      <itemname>60级白装匕首</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060104</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060104</id>
+      <threeno>3016</threeno>
+      <itemname>60级白装爪</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060105</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060105</id>
+      <threeno>3017</threeno>
+      <itemname>60级白装魔棒</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060207</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060207</id>
+      <threeno>3019</threeno>
+      <itemname>60级白装男衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060208</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060208</id>
+      <threeno>3020</threeno>
+      <itemname>60级白装女衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060309</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060309</id>
+      <threeno>3021</threeno>
+      <itemname>60级白装男头盔</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060310</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060310</id>
+      <threeno>3022</threeno>
+      <itemname>60级白装女头饰</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060411</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060411</id>
+      <threeno>3023</threeno>
+      <itemname>60级白装项链</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060512</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060512</id>
+      <threeno>3024</threeno>
+      <itemname>60级白装腰带</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>4060613</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>4060613</id>
+      <threeno>3025</threeno>
+      <itemname>60级白装鞋子</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050101</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050101</id>
+      <threeno>3026</threeno>
+      <itemname>50级绿装剑</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050102</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050102</id>
+      <threeno>3027</threeno>
+      <itemname>50级绿装锤</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050103</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050103</id>
+      <threeno>3028</threeno>
+      <itemname>50级绿装匕首</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050104</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050104</id>
+      <threeno>3029</threeno>
+      <itemname>50级绿装爪</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050105</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050105</id>
+      <threeno>3030</threeno>
+      <itemname>50级绿装魔棒</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050207</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050207</id>
+      <threeno>3032</threeno>
+      <itemname>50级绿装男衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050208</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050208</id>
+      <threeno>3033</threeno>
+      <itemname>50级绿装女衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050309</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050309</id>
+      <threeno>3034</threeno>
+      <itemname>50级绿装男头盔</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050310</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050310</id>
+      <threeno>3035</threeno>
+      <itemname>50级绿装女头饰</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050411</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050411</id>
+      <threeno>3036</threeno>
+      <itemname>50级绿装项链</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050512</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050512</id>
+      <threeno>3037</threeno>
+      <itemname>50级绿装腰带</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5050613</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5050613</id>
+      <threeno>3038</threeno>
+      <itemname>50级绿装鞋子</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>900</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>3</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060101</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060101</id>
+      <threeno>3039</threeno>
+      <itemname>60级绿装剑</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060102</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060102</id>
+      <threeno>3040</threeno>
+      <itemname>60级绿装锤</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060103</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060103</id>
+      <threeno>3041</threeno>
+      <itemname>60级绿装匕首</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060104</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060104</id>
+      <threeno>3042</threeno>
+      <itemname>60级绿装爪</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060105</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060105</id>
+      <threeno>3043</threeno>
+      <itemname>60级绿装魔棒</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060207</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060207</id>
+      <threeno>3045</threeno>
+      <itemname>60级绿装男衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060208</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060208</id>
+      <threeno>3046</threeno>
+      <itemname>60级绿装女衣</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060309</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060309</id>
+      <threeno>3047</threeno>
+      <itemname>60级绿装男头盔</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060310</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060310</id>
+      <threeno>3048</threeno>
+      <itemname>60级绿装女头饰</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060411</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060411</id>
+      <threeno>3049</threeno>
+      <itemname>60级绿装项链</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060512</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060512</id>
+      <threeno>3050</threeno>
+      <itemname>60级绿装腰带</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
+    <int>5060613</int>
+    <fire.pb.shop.MarketThreeTable>
+      <id>5060613</id>
+      <threeno>3051</threeno>
+      <itemname>60级绿装鞋子</itemname>
+      <itemtype>3</itemtype>
+      <logictype>2</logictype>
+      <israrity>0</israrity>
+      <firstno>10</firstno>
+      <twono>901</twono>
+      <成交量>5</成交量>
+      <挂单量>10</挂单量>
+      <limitlooklv>1</limitlooklv>
+      <lvmin>1</lvmin>
+      <lvmax>155</lvmax>
+      <floatingmin>0.6</floatingmin>
+      <floatingmax>2.5</floatingmax>
+      <floatingprice>0.1</floatingprice>
+      <canstall>1</canstall>
+    </fire.pb.shop.MarketThreeTable>
+  </entry>
+  <entry>
     <int>311190</int>
     <fire.pb.shop.MarketThreeTable>
       <id>311190</id>
@@ -7736,7 +9320,7 @@
       <itemname>驱魔</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>429</twono>
       <成交量>5</成交量>
@@ -7758,7 +9342,7 @@
       <itemname>潜行</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>430</twono>
       <成交量>5</成交量>
@@ -7780,7 +9364,7 @@
       <itemname>夜枭感知</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>431</twono>
       <成交量>5</成交量>
@@ -7802,7 +9386,7 @@
       <itemname>永恒</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>432</twono>
       <成交量>5</成交量>
@@ -7824,7 +9408,7 @@
       <itemname>清心</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>433</twono>
       <成交量>5</成交量>
@@ -7846,7 +9430,7 @@
       <itemname>瘟疫</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>434</twono>
       <成交量>5</成交量>
@@ -7868,7 +9452,7 @@
       <itemname>追击</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>435</twono>
       <成交量>5</成交量>
@@ -7890,7 +9474,7 @@
       <itemname>溅射</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>436</twono>
       <成交量>5</成交量>
@@ -7912,7 +9496,7 @@
       <itemname>烈火</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>437</twono>
       <成交量>5</成交量>
@@ -7934,7 +9518,7 @@
       <itemname>霜冻</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>438</twono>
       <成交量>5</成交量>
@@ -7956,7 +9540,7 @@
       <itemname>陨石</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>439</twono>
       <成交量>5</成交量>
@@ -7978,7 +9562,7 @@
       <itemname>雷击</itemname>
       <itemtype>1</itemtype>
       <logictype>0</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>5</firstno>
       <twono>440</twono>
       <成交量>5</成交量>
@@ -8901,7 +10485,7 @@
       <itemname>60级打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -8923,7 +10507,7 @@
       <itemname>70级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -8945,7 +10529,7 @@
       <itemname>80级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -8967,7 +10551,7 @@
       <itemname>90级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -8989,7 +10573,7 @@
       <itemname>100级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9011,7 +10595,7 @@
       <itemname>110级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9033,7 +10617,7 @@
       <itemname>120级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9055,7 +10639,7 @@
       <itemname>130级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9077,7 +10661,7 @@
       <itemname>140级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9099,7 +10683,7 @@
       <itemname>150级★打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9121,7 +10705,7 @@
       <itemname>60级裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9143,7 +10727,7 @@
       <itemname>70级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9165,7 +10749,7 @@
       <itemname>80级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9187,7 +10771,7 @@
       <itemname>90级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9209,7 +10793,7 @@
       <itemname>100级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9231,7 +10815,7 @@
       <itemname>110级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9253,7 +10837,7 @@
       <itemname>120级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9275,7 +10859,7 @@
       <itemname>130级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9297,7 +10881,7 @@
       <itemname>140级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9319,7 +10903,7 @@
       <itemname>150级★裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9341,7 +10925,7 @@
       <itemname>60级炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9363,7 +10947,7 @@
       <itemname>70级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9385,7 +10969,7 @@
       <itemname>80级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9407,7 +10991,7 @@
       <itemname>90级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9429,7 +11013,7 @@
       <itemname>100级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9451,7 +11035,7 @@
       <itemname>110级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9473,7 +11057,7 @@
       <itemname>120级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9495,7 +11079,7 @@
       <itemname>130级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9517,7 +11101,7 @@
       <itemname>140级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9539,7 +11123,7 @@
       <itemname>150级★炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9561,7 +11145,7 @@
       <itemname>神器炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9583,7 +11167,7 @@
       <itemname>神器+1炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9605,7 +11189,7 @@
       <itemname>神器+2炼金符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>702</twono>
       <成交量>5</成交量>
@@ -9627,7 +11211,7 @@
       <itemname>神器打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9649,7 +11233,7 @@
       <itemname>神器+1打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9671,7 +11255,7 @@
       <itemname>神器+2打造符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>700</twono>
       <成交量>5</成交量>
@@ -9693,7 +11277,7 @@
       <itemname>神器裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9715,7 +11299,7 @@
       <itemname>神器+1裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9737,7 +11321,7 @@
       <itemname>神器+2裁缝符</itemname>
       <itemtype>1</itemtype>
       <logictype>1</logictype>
-      <israrity>1</israrity>
+      <israrity>0</israrity>
       <firstno>8</firstno>
       <twono>701</twono>
       <成交量>5</成交量>
@@ -9781,7 +11365,6 @@
         <int>130</int>
         <int>220</int>
         <int>350</int>
-        <int>400</int>
         <int>400</int>
         <int>450</int>
         <int>500</int>
@@ -9831,7 +11414,6 @@
         <int>160</int>
         <int>350</int>
         <int>400</int>
-        <int>400</int>
         <int>450</int>
         <int>500</int>
         <int>550</int>
@@ -9879,7 +11461,6 @@
         <int>130</int>
         <int>160</int>
         <int>350</int>
-        <int>400</int>
         <int>400</int>
         <int>450</int>
         <int>500</int>
@@ -9929,7 +11510,6 @@
         <int>160</int>
         <int>350</int>
         <int>400</int>
-        <int>400</int>
         <int>450</int>
         <int>500</int>
         <int>550</int>
@@ -9977,7 +11557,6 @@
         <int>130</int>
         <int>160</int>
         <int>350</int>
-        <int>400</int>
         <int>400</int>
         <int>450</int>
         <int>500</int>
@@ -10027,7 +11606,6 @@
         <int>160</int>
         <int>350</int>
         <int>400</int>
-        <int>400</int>
         <int>450</int>
         <int>500</int>
         <int>550</int>
@@ -10075,7 +11653,6 @@
         <int>130</int>
         <int>160</int>
         <int>350</int>
-        <int>400</int>
         <int>400</int>
         <int>450</int>
         <int>500</int>
@@ -10125,7 +11702,6 @@
         <int>160</int>
         <int>350</int>
         <int>400</int>
-        <int>400</int>
         <int>450</int>
         <int>500</int>
         <int>550</int>
@@ -10174,7 +11750,6 @@
         <int>160</int>
         <int>350</int>
         <int>400</int>
-        <int>400</int>
         <int>450</int>
         <int>500</int>
         <int>550</int>
@@ -10203,19 +11778,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1002</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>220</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10238,19 +11800,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1002</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10273,19 +11822,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1002</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10308,19 +11844,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1002</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10343,19 +11866,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1002</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10378,19 +11888,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1000</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10413,19 +11910,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1000</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10448,19 +11932,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1000</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10483,19 +11954,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1000</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10518,19 +11976,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1000</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10553,19 +11998,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1001</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10588,19 +12020,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1001</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>
@@ -10623,19 +12042,6 @@
       <israrity>0</israrity>
       <firstno>11</firstno>
       <twono>1001</twono>
-      <prices>
-        <int>100</int>
-        <int>130</int>
-        <int>160</int>
-        <int>350</int>
-        <int>400</int>
-        <int>400</int>
-        <int>450</int>
-        <int>500</int>
-        <int>550</int>
-        <int>600</int>
-        <int>650</int>
-      </prices>
       <成交量>5</成交量>
       <挂单量>10</挂单量>
       <limitlooklv>1</limitlooklv>

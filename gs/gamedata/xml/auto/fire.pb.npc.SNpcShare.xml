@@ -1187,7 +1187,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540042</shape>
+      <shape>1540042</shape>
       <name>孙婆婆</name>
       <mulbattle>1</mulbattle>
       <杂学id>-1</杂学id>
@@ -1279,7 +1279,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540043</shape>
+      <shape>1540043</shape>
       <name>巫奎虎</name>
       <mulbattle>1</mulbattle>
       <杂学id>-1</杂学id>
@@ -1371,7 +1371,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540041</shape>
+      <shape>1540041</shape>
       <name>地涌夫人</name>
       <mulbattle>1</mulbattle>
       <杂学id>-1</杂学id>
@@ -1967,7 +1967,7 @@
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530100</shape>
+      <shape>1530100</shape>
       <name>黑龙公主</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3515,7 +3515,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540030</shape>
+      <shape>1540030</shape>
       <name>酒店老板</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3533,7 +3533,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540030</shape>
+      <shape>1540030</shape>
       <name>兵器铺老板</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3551,7 +3551,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>530052</shape>
+      <shape>1530052</shape>
       <name>花香香</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3623,7 +3623,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540025</shape>
+      <shape>1540025</shape>
       <name>神兽商店</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3732,7 +3732,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>530060</shape>
+      <shape>1540035</shape>
       <name>染色师</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3930,7 +3930,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>孩子孕育</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3948,7 +3948,7 @@
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540013</shape>
+      <shape>1540013</shape>
       <name>孩子技能书兑换</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -4438,7 +4438,7 @@
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530084</shape>
+      <shape>1530084</shape>
       <name>野猪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -4456,7 +4456,7 @@
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530084</shape>
+      <shape>1530084</shape>
       <name>野猪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8149,7 +8149,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>亢金龙</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8168,7 +8168,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>尾火虎</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8187,7 +8187,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>房日兔</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8206,7 +8206,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>氐土貉</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8225,7 +8225,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>角木蛟</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8244,7 +8244,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>心月狐</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8263,7 +8263,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>箕水豹</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8339,7 +8339,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>亢金龙之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8358,7 +8358,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>尾火虎之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8377,7 +8377,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>房日兔之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8396,7 +8396,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>氐土貉之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8415,7 +8415,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>角木蛟之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8434,7 +8434,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>心月狐之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -8453,7 +8453,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>箕水豹之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10621,7 +10621,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530085</shape>
+      <shape>1530085</shape>
       <name>亥猪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10659,7 +10659,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530037</shape>
+      <shape>1530037</shape>
       <name>酉鸡</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10697,7 +10697,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540005</shape>
+      <shape>1540005</shape>
       <name>末羊</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10716,7 +10716,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540001</shape>
+      <shape>1540001</shape>
       <name>午马</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10735,7 +10735,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540003</shape>
+      <shape>1540003</shape>
       <name>巳蛇</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10754,7 +10754,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530040</shape>
+      <shape>1530040</shape>
       <name>辰龙</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10773,7 +10773,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540004</shape>
+      <shape>1540004</shape>
       <name>卯兔</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10792,7 +10792,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540000</shape>
+      <shape>1540000</shape>
       <name>寅虎</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10811,7 +10811,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540002</shape>
+      <shape>1540002</shape>
       <name>丑牛</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10830,7 +10830,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530080</shape>
+      <shape>1530080</shape>
       <name>子鼠</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10849,7 +10849,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530088</shape>
+      <shape>1530088</shape>
       <name>巡山小妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10868,7 +10868,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530092</shape>
+      <shape>1530092</shape>
       <name>巡山小妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10887,7 +10887,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530096</shape>
+      <shape>1530096</shape>
       <name>巡山小妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10906,7 +10906,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530112</shape>
+      <shape>1530112</shape>
       <name>巡山小妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10925,7 +10925,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530144</shape>
+      <shape>1530144</shape>
       <name>巡山-傀儡妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10944,7 +10944,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530140</shape>
+      <shape>1530140</shape>
       <name>巡山-傀儡鬼</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -10963,7 +10963,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530000</shape>
+      <shape>1530000</shape>
       <name>巡山-黑老妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -16892,7 +16892,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530084</shape>
+      <shape>1530084</shape>
       <name>海底猪妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -16911,7 +16911,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530109</shape>
+      <shape>1530109</shape>
       <name>海底虎怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -16930,7 +16930,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540005</shape>
+      <shape>1540005</shape>
       <name>羊怪冤魂</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17063,7 +17063,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530028</shape>
+      <shape>1530028</shape>
       <name>蚌精守卫</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17082,7 +17082,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530044</shape>
+      <shape>1530044</shape>
       <name>鲛人守卫</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17196,7 +17196,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540017</shape>
+      <shape>1540017</shape>
       <name>踏浪元帅</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17215,7 +17215,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540018</shape>
+      <shape>1540018</shape>
       <name>龙卫军头领</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17234,7 +17234,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540019</shape>
+      <shape>1540019</shape>
       <name>龙宫公主</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17253,7 +17253,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540020</shape>
+      <shape>1540020</shape>
       <name>龙宫驸马</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17272,7 +17272,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540021</shape>
+      <shape>1540021</shape>
       <name>勇武龙子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17291,7 +17291,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540022</shape>
+      <shape>1540022</shape>
       <name>多谋龙孙</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17329,7 +17329,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540021</shape>
+      <shape>1540021</shape>
       <name>灵感大王</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18070,7 +18070,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530048</shape>
+      <shape>1530048</shape>
       <name>雨师</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18203,7 +18203,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540017</shape>
+      <shape>1540017</shape>
       <name>摇光</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18222,7 +18222,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540018</shape>
+      <shape>1540018</shape>
       <name>开阳</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18241,7 +18241,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540019</shape>
+      <shape>1540019</shape>
       <name>玉衡</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18260,7 +18260,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540020</shape>
+      <shape>1540020</shape>
       <name>天权</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18279,7 +18279,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540021</shape>
+      <shape>1540021</shape>
       <name>天玑</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18298,7 +18298,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540022</shape>
+      <shape>1540022</shape>
       <name>天璇</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18317,7 +18317,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540023</shape>
+      <shape>1540023</shape>
       <name>天枢</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18336,7 +18336,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540024</shape>
+      <shape>1540024</shape>
       <name>广目天王</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18355,7 +18355,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540025</shape>
+      <shape>1540025</shape>
       <name>增长天王</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18374,7 +18374,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540026</shape>
+      <shape>1540026</shape>
       <name>多闻天王</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18393,7 +18393,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540027</shape>
+      <shape>1540027</shape>
       <name>持国天王</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -19944,7 +19944,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530129</shape>
+      <shape>1530129</shape>
       <name>远古蛇妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -19963,7 +19963,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530085</shape>
+      <shape>1530085</shape>
       <name>远古猪妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20419,7 +20419,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>箕水豹之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20438,7 +20438,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>箕水豹</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20457,7 +20457,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530021</shape>
+      <shape>1530021</shape>
       <name>尾火虎之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20630,7 +20630,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>尾火虎之影</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20649,7 +20649,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>尾火虎之影</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20668,7 +20668,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>尾火虎</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20687,7 +20687,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>氐土貉之怒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20706,7 +20706,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530025</shape>
+      <shape>1530025</shape>
       <name>氐土貉</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20858,7 +20858,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540017</shape>
+      <shape>1540017</shape>
       <name>小有所成·天贼星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20877,7 +20877,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540018</shape>
+      <shape>1540018</shape>
       <name>伏虎斩妖·天退星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20896,7 +20896,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540019</shape>
+      <shape>1540019</shape>
       <name>御风神行·天壮星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20915,7 +20915,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540020</shape>
+      <shape>1540020</shape>
       <name>履水吐焰·天刑星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20934,7 +20934,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540021</shape>
+      <shape>1540021</shape>
       <name>初出茅庐·地狗星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20953,7 +20953,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540022</shape>
+      <shape>1540022</shape>
       <name>初出茅庐·地狗星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20972,7 +20972,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540023</shape>
+      <shape>1540023</shape>
       <name>初出茅庐·地狗星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20991,7 +20991,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540024</shape>
+      <shape>1540024</shape>
       <name>初出茅庐·地狗星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21010,7 +21010,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540025</shape>
+      <shape>1540025</shape>
       <name>移山覆海·天狂星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21029,7 +21029,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540026</shape>
+      <shape>1540026</shape>
       <name>举火燎原·天俊星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21048,7 +21048,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540027</shape>
+      <shape>1540027</shape>
       <name>华光曜日·天奇星</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21067,7 +21067,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540006</shape>
+      <shape>1540006</shape>
       <name>散财童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21086,7 +21086,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540007</shape>
+      <shape>1540007</shape>
       <name>善财童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21105,7 +21105,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540008</shape>
+      <shape>1540008</shape>
       <name>欢喜童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21124,7 +21124,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540009</shape>
+      <shape>1540009</shape>
       <name>如意童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21143,7 +21143,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540010</shape>
+      <shape>1540010</shape>
       <name>送子童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21162,7 +21162,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540011</shape>
+      <shape>1540011</shape>
       <name>送子童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21181,7 +21181,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540008</shape>
+      <shape>1540008</shape>
       <name>祈福童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21200,7 +21200,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540009</shape>
+      <shape>1540009</shape>
       <name>祈福童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21219,7 +21219,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540010</shape>
+      <shape>1540010</shape>
       <name>善财童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21238,7 +21238,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540011</shape>
+      <shape>1540011</shape>
       <name>散财童子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21778,7 +21778,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540015</shape>
+      <shape>1540015</shape>
       <name>六耳★猕猴</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21797,7 +21797,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540014</shape>
+      <shape>1540014</shape>
       <name>齐天★大圣</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -21987,7 +21987,7 @@
       <npctype>28</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>530100</shape>
+      <shape>1530100</shape>
       <name>酉时三刻含碜鬼</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22006,7 +22006,7 @@
       <npctype>28</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>530097</shape>
+      <shape>1530097</shape>
       <name>戌时四刻耍碗鬼</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22285,7 +22285,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540015</shape>
+      <shape>1540015</shape>
       <name>发财币兑换</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22412,7 +22412,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540028</shape>
+      <shape>1540028</shape>
       <name>大内密探</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22431,7 +22431,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540029</shape>
+      <shape>1540029</shape>
       <name>大内密探</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22450,7 +22450,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540023</shape>
+      <shape>1540023</shape>
       <name>大内密探</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22487,7 +22487,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540017</shape>
+      <shape>1540017</shape>
       <name>渡劫飞升</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22505,7 +22505,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540018</shape>
+      <shape>1540018</shape>
       <name>大内密探</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22517,6 +22517,42 @@
     </fire.pb.npc.SNpcShare>
   </entry>
   <entry>
+    <int>170127</int>
+    <fire.pb.npc.SNpcShare>
+      <id>170127</id>
+      <bodytype>1</bodytype>
+      <npctype>1</npctype>
+      <minimapshow>1</minimapshow>
+      <share>0</share>
+      <shape>1540036</shape>
+      <name>装备点化使者</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1615</mapid>
+      <xPos>258</xPos>
+      <yPos>196</yPos>
+      <zPos>0</zPos>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>170128</int>
+    <fire.pb.npc.SNpcShare>
+      <id>170128</id>
+      <bodytype>1</bodytype>
+      <npctype>1</npctype>
+      <minimapshow>1</minimapshow>
+      <share>0</share>
+      <shape>1540038</shape>
+      <name>套装点化使者</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1615</mapid>
+      <xPos>258</xPos>
+      <yPos>196</yPos>
+      <zPos>0</zPos>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
     <int>168802</int>
     <fire.pb.npc.SNpcShare>
       <id>168802</id>
@@ -22524,7 +22560,7 @@
       <npctype>7</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>540016</shape>
+      <shape>1540016</shape>
       <name>自在天魔</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23048,7 +23084,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530013</shape>
+      <shape>1530013</shape>
       <name>拘灵妖怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23066,7 +23102,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530013</shape>
+      <shape>1530013</shape>
       <name>囚神妖怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23084,7 +23120,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530013</shape>
+      <shape>1530013</shape>
       <name>缚仙妖怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23192,7 +23228,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530109</shape>
+      <shape>1530109</shape>
       <name>翼虎将军</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23228,7 +23264,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530081</shape>
+      <shape>1530081</shape>
       <name>巡山小妖</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23246,7 +23282,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530013</shape>
+      <shape>1530013</shape>
       <name>上古妖兽头领</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23264,7 +23300,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530085</shape>
+      <shape>1530085</shape>
       <name>妖将军</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23678,7 +23714,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>530109</shape>
+      <shape>1530109</shape>
       <name>虎力大仙</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23750,7 +23786,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>盗宝小龙</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23769,7 +23805,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>强化大佬</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23788,7 +23824,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>澡堂歌王</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23807,7 +23843,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>八仙分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23826,7 +23862,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>元神分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23845,7 +23881,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>圣贤分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23864,7 +23900,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>大帝分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23883,7 +23919,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>天劫分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23902,7 +23938,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>技能boss分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23921,7 +23957,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>搬砖boss分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23940,7 +23976,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>荣誉boss分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23959,7 +23995,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>世界boss分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23978,7 +24014,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>神器boss分身</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23997,7 +24033,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24016,7 +24052,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24035,7 +24071,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24054,7 +24090,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24073,7 +24109,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24092,7 +24128,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24111,7 +24147,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24130,7 +24166,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24149,7 +24185,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24168,7 +24204,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540012</shape>
+      <shape>1540012</shape>
       <name>聚灵材料怪</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -24187,7 +24223,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>540040</shape>
+      <shape>1540040</shape>
       <name>魔化龙王</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>

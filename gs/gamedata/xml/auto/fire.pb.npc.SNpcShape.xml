@@ -239,9 +239,9 @@
     <int>10</int>
     <fire.pb.npc.SNpcShape>
       <id>10</id>
-      <shape>mhxy_xuancaiebang</shape>
-      <headID>9114</headID>
-      <littleheadID>30450</littleheadID>
+      <shape>juese-wutianji</shape>
+      <headID>9027</headID>
+      <littleheadID>40254</littleheadID>
       <name>舞天姬</name>
       <dir>8</dir>
       <shadow>2</shadow>
@@ -258,7 +258,215 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>0</showWeaponId>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>11</int>
+    <fire.pb.npc.SNpcShape>
+      <id>11</id>
+      <shape>juese-taoyaoyao</shape>
+      <headID>9087</headID>
+      <littleheadID>40253</littleheadID>
+      <name>桃夭夭</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>12</int>
+    <fire.pb.npc.SNpcShape>
+      <id>12</id>
+      <shape>juese-humeiren</shape>
+      <headID>9087</headID>
+      <littleheadID>40278</littleheadID>
+      <name>狐美人</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>13</int>
+    <fire.pb.npc.SNpcShape>
+      <id>13</id>
+      <shape>juese_jmw</shape>
+      <headID>9087</headID>
+      <littleheadID>40251</littleheadID>
+      <name>杀破狼</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>14</int>
+    <fire.pb.npc.SNpcShape>
+      <id>14</id>
+      <shape>juese_jws</shape>
+      <headID>9087</headID>
+      <littleheadID>40279</littleheadID>
+      <name>偃无师</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>15</int>
+    <fire.pb.npc.SNpcShape>
+      <id>15</id>
+      <shape>juese_yls</shape>
+      <headID>9087</headID>
+      <littleheadID>40267</littleheadID>
+      <name>羽灵神</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>16</int>
+    <fire.pb.npc.SNpcShape>
+      <id>16</id>
+      <shape>juese_wmr</shape>
+      <headID>9087</headID>
+      <littleheadID>40276</littleheadID>
+      <name>巫蛮儿</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>17</int>
+    <fire.pb.npc.SNpcShape>
+      <id>17</id>
+      <shape>juese_gxx</shape>
+      <headID>9087</headID>
+      <littleheadID>40256</littleheadID>
+      <name>鬼潇潇</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>18</int>
+    <fire.pb.npc.SNpcShape>
+      <id>18</id>
+      <shape>juese_ynx</shape>
+      <headID>9087</headID>
+      <littleheadID>40261</littleheadID>
+      <name>英女侠</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -499,11 +707,11 @@
     <int>1000110</int>
     <fire.pb.npc.SNpcShape>
       <id>1000110</id>
-      <shape>mhxy_xuancaiebang</shape>
-      <headID>9121</headID>
-      <littleheadID>30326</littleheadID>
-      <name>玄彩娥</name>
-      <dir>4</dir>
+      <shape>juese-wutianji</shape>
+      <headID>9027</headID>
+      <littleheadID>40254</littleheadID>
+      <name>舞天姬</name>
+      <dir>8</dir>
       <shadow>2</shadow>
       <attack>mt-_niutouren_gongji1</attack>
       <magic>mt-_niutouren_shifa2</magic>
@@ -518,7 +726,215 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>0</showWeaponId>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000111</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000111</id>
+      <shape>juese-taoyaoyao</shape>
+      <headID>9087</headID>
+      <littleheadID>40253</littleheadID>
+      <name>桃夭夭</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000112</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000112</id>
+      <shape>juese-humeiren</shape>
+      <headID>9087</headID>
+      <littleheadID>40278</littleheadID>
+      <name>狐美人</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000113</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000113</id>
+      <shape>juese_jmw</shape>
+      <headID>9087</headID>
+      <littleheadID>40251</littleheadID>
+      <name>杀破狼</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000114</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000114</id>
+      <shape>juese_jws</shape>
+      <headID>9087</headID>
+      <littleheadID>40279</littleheadID>
+      <name>江无师</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000115</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000115</id>
+      <shape>juese_yls</shape>
+      <headID>9087</headID>
+      <littleheadID>40267</littleheadID>
+      <name>羽灵神</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000116</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000116</id>
+      <shape>juese_wmr</shape>
+      <headID>9087</headID>
+      <littleheadID>40276</littleheadID>
+      <name>巫蛮儿</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000117</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000117</id>
+      <shape>juese_gxx</shape>
+      <headID>9087</headID>
+      <littleheadID>40256</littleheadID>
+      <name>鬼潇潇</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1000118</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1000118</id>
+      <shape>juese_ynx</shape>
+      <headID>9087</headID>
+      <littleheadID>40261</littleheadID>
+      <name>英女侠</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -544,7 +960,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060114</showWeaponId>
+      <showWeaponId>8160101</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -570,7 +986,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060117</showWeaponId>
+      <showWeaponId>8160102</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -596,7 +1012,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060116</showWeaponId>
+      <showWeaponId>8160103</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -622,7 +1038,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060119</showWeaponId>
+      <showWeaponId>8160104</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -648,7 +1064,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060115</showWeaponId>
+      <showWeaponId>8160105</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -674,7 +1090,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060118</showWeaponId>
+      <showWeaponId>8160106</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -700,7 +1116,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060120</showWeaponId>
+      <showWeaponId>8160107</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -726,7 +1142,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060121</showWeaponId>
+      <showWeaponId>8160108</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -752,16 +1168,224 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>9060122</showWeaponId>
+      <showWeaponId>8160109</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
     <int>1010110</int>
     <fire.pb.npc.SNpcShape>
       <id>1010110</id>
-      <shape>mhxy_xuancaiebang</shape>
-      <headID>9114</headID>
-      <littleheadID>30450</littleheadID>
+      <shape>juese-wutianji</shape>
+      <headID>9027</headID>
+      <littleheadID>40254</littleheadID>
+      <name>舞天姬</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>8160109</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010111</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010111</id>
+      <shape>juese-taoyaoyao</shape>
+      <headID>9087</headID>
+      <littleheadID>40253</littleheadID>
+      <name>桃夭夭</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010112</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010112</id>
+      <shape>juese-humeiren</shape>
+      <headID>9087</headID>
+      <littleheadID>40278</littleheadID>
+      <name>狐美人</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010113</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010113</id>
+      <shape>juese_jmw</shape>
+      <headID>9087</headID>
+      <littleheadID>40251</littleheadID>
+      <name>杀破狼</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010114</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010114</id>
+      <shape>juese_jws</shape>
+      <headID>9087</headID>
+      <littleheadID>40279</littleheadID>
+      <name>江无师</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010115</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010115</id>
+      <shape>juese_yls</shape>
+      <headID>9087</headID>
+      <littleheadID>40267</littleheadID>
+      <name>羽灵神</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010116</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010116</id>
+      <shape>juese_wmr</shape>
+      <headID>9087</headID>
+      <littleheadID>40276</littleheadID>
+      <name>巫蛮儿</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010117</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010117</id>
+      <shape>juese_gxx</shape>
+      <headID>9087</headID>
+      <littleheadID>40256</littleheadID>
+      <name>鬼潇潇</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1010118</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1010118</id>
+      <shape>juese_ynx</shape>
+      <headID>9087</headID>
+      <littleheadID>40261</littleheadID>
       <name>英女侠</name>
       <dir>8</dir>
       <shadow>2</shadow>
@@ -778,7 +1402,7 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>0</showWeaponId>
+      <showWeaponId>7090102</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
@@ -1021,8 +1645,8 @@
       <id>1011110</id>
       <shape>wutianjishuanghuan</shape>
       <headID>9114</headID>
-      <littleheadID>30450</littleheadID>
-      <name>xuancaie </name>
+      <littleheadID>40254</littleheadID>
+      <name>舞天姬</name>
       <dir>8</dir>
       <shadow>2</shadow>
       <attack>mt3_xuejingling_gongji1</attack>
@@ -1038,13 +1662,221 @@
       <part2>
         <int>0</int>
       </part2>
-      <showWeaponId>0</showWeaponId>
+      <showWeaponId>7090102</showWeaponId>
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>1010112</int>
+    <int>1011111</int>
     <fire.pb.npc.SNpcShape>
-      <id>1010112</id>
+      <id>1011111</id>
+      <shape>juese-taoyaoyao</shape>
+      <headID>9087</headID>
+      <littleheadID>40253</littleheadID>
+      <name>桃夭夭</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1011112</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1011112</id>
+      <shape>juese-humeiren</shape>
+      <headID>9087</headID>
+      <littleheadID>40278</littleheadID>
+      <name>狐美人</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1011113</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1011113</id>
+      <shape>juese_jmw</shape>
+      <headID>9087</headID>
+      <littleheadID>40251</littleheadID>
+      <name>杀破狼</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1011114</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1011114</id>
+      <shape>juese_jws</shape>
+      <headID>9087</headID>
+      <littleheadID>40279</littleheadID>
+      <name>江无师</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1011115</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1011115</id>
+      <shape>juese_yls</shape>
+      <headID>9087</headID>
+      <littleheadID>40267</littleheadID>
+      <name>羽灵神</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1011116</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1011116</id>
+      <shape>juese_wmr</shape>
+      <headID>9087</headID>
+      <littleheadID>40276</littleheadID>
+      <name>巫蛮儿</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1011117</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1011117</id>
+      <shape>juese_gxx</shape>
+      <headID>9087</headID>
+      <littleheadID>40256</littleheadID>
+      <name>鬼潇潇</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1011118</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1011118</id>
+      <shape>juese_ynx</shape>
+      <headID>9087</headID>
+      <littleheadID>40261</littleheadID>
+      <name>英女侠</name>
+      <dir>8</dir>
+      <shadow>2</shadow>
+      <attack>mt3_xuejingling_gongji1</attack>
+      <magic>mt3_xuejingling_shifa1</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>7090102</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1110112</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1110112</id>
       <shape>bb_dahaigui</shape>
       <headID>9119</headID>
       <littleheadID>40356</littleheadID>
@@ -1066,9 +1898,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>1010113</int>
+    <int>1110113</int>
     <fire.pb.npc.SNpcShape>
-      <id>1010113</id>
+      <id>1110113</id>
       <shape>bb_juwa</shape>
       <headID>9060</headID>
       <littleheadID>40357</littleheadID>
@@ -1090,9 +1922,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>1010115</int>
+    <int>1110114</int>
     <fire.pb.npc.SNpcShape>
-      <id>1010115</id>
+      <id>1110114</id>
       <shape>bb_paopao</shape>
       <headID>9080</headID>
       <littleheadID>40358</littleheadID>
@@ -1114,9 +1946,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>1010116</int>
+    <int>1110115</int>
     <fire.pb.npc.SNpcShape>
-      <id>1010116</id>
+      <id>1110115</id>
       <shape>bb_haimaochong</shape>
       <headID>9076</headID>
       <littleheadID>40359</littleheadID>
@@ -1138,9 +1970,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>1010117</int>
+    <int>1110116</int>
     <fire.pb.npc.SNpcShape>
-      <id>1010117</id>
+      <id>1110116</id>
       <shape>bb_mamian</shape>
       <headID>9070</headID>
       <littleheadID>40360</littleheadID>
@@ -1162,9 +1994,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>1010118</int>
+    <int>1110117</int>
     <fire.pb.npc.SNpcShape>
-      <id>1010118</id>
+      <id>1110117</id>
       <shape>bb_dutu</shape>
       <headID>9034</headID>
       <littleheadID>40361</littleheadID>
@@ -5926,13 +6758,37 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
+    <int>2010111</int>
+    <fire.pb.npc.SNpcShape>
+      <id>2010111</id>
+      <shape>juese-taoyaoyao</shape>
+      <headID>9087</headID>
+      <littleheadID>40253</littleheadID>
+      <name>桃夭夭</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
     <int>2010112</int>
     <fire.pb.npc.SNpcShape>
       <id>2010112</id>
-      <shape>bb_dahaigui</shape>
-      <headID>9119</headID>
-      <littleheadID>40356</littleheadID>
-      <name>大海龟</name>
+      <shape>juese-humeiren</shape>
+      <headID>9087</headID>
+      <littleheadID>40278</littleheadID>
+      <name>狐美人</name>
       <dir>4</dir>
       <shadow>2</shadow>
       <nearorfar>0</nearorfar>
@@ -5953,10 +6809,34 @@
     <int>2010113</int>
     <fire.pb.npc.SNpcShape>
       <id>2010113</id>
-      <shape>bb_juwa</shape>
-      <headID>9060</headID>
-      <littleheadID>40357</littleheadID>
-      <name>巨蛙</name>
+      <shape>juese_jmw</shape>
+      <headID>9087</headID>
+      <littleheadID>40251</littleheadID>
+      <name>杀破狼</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>2010114</int>
+    <fire.pb.npc.SNpcShape>
+      <id>2010114</id>
+      <shape>juese_jws</shape>
+      <headID>9087</headID>
+      <littleheadID>40279</littleheadID>
+      <name>偃无师</name>
       <dir>4</dir>
       <shadow>2</shadow>
       <nearorfar>0</nearorfar>
@@ -5977,10 +6857,10 @@
     <int>2010115</int>
     <fire.pb.npc.SNpcShape>
       <id>2010115</id>
-      <shape>bb_paopao_by</shape>
-      <headID>9080</headID>
-      <littleheadID>40358</littleheadID>
-      <name>泡泡</name>
+      <shape>juese_yls</shape>
+      <headID>9087</headID>
+      <littleheadID>40267</littleheadID>
+      <name>羽灵神</name>
       <dir>4</dir>
       <shadow>2</shadow>
       <nearorfar>0</nearorfar>
@@ -6001,10 +6881,10 @@
     <int>2010116</int>
     <fire.pb.npc.SNpcShape>
       <id>2010116</id>
-      <shape>bb_haimaochong</shape>
-      <headID>9076</headID>
-      <littleheadID>40359</littleheadID>
-      <name>海毛虫</name>
+      <shape>juese_wmr</shape>
+      <headID>9087</headID>
+      <littleheadID>40276</littleheadID>
+      <name>巫蛮儿</name>
       <dir>4</dir>
       <shadow>2</shadow>
       <nearorfar>0</nearorfar>
@@ -6025,11 +6905,11 @@
     <int>2010117</int>
     <fire.pb.npc.SNpcShape>
       <id>2010117</id>
-      <shape>bb_mamian</shape>
-      <headID>9070</headID>
-      <littleheadID>40360</littleheadID>
-      <name>马面</name>
-      <dir>4</dir>
+      <shape>juese_gxx</shape>
+      <headID>9087</headID>
+      <littleheadID>40256</littleheadID>
+      <name>鬼潇潇</name>
+      <dir>2</dir>
       <shadow>2</shadow>
       <nearorfar>0</nearorfar>
       <shadertype>0</shadertype>
@@ -6049,58 +6929,10 @@
     <int>2010118</int>
     <fire.pb.npc.SNpcShape>
       <id>2010118</id>
-      <shape>bb_dutu</shape>
-      <headID>9034</headID>
-      <littleheadID>40361</littleheadID>
-      <name>赌徒</name>
-      <dir>4</dir>
-      <shadow>2</shadow>
-      <nearorfar>0</nearorfar>
-      <shadertype>0</shadertype>
-      <part0>
-        <int>0</int>
-      </part0>
-      <part1>
-        <int>0</int>
-      </part1>
-      <part2>
-        <int>0</int>
-      </part2>
-      <showWeaponId>0</showWeaponId>
-    </fire.pb.npc.SNpcShape>
-  </entry>
-  <entry>
-    <int>2010119</int>
-    <fire.pb.npc.SNpcShape>
-      <id>2010119</id>
-      <shape>bb_dalijingang</shape>
-      <headID>0</headID>
-      <littleheadID>40362</littleheadID>
-      <name>大力金刚</name>
-      <dir>2</dir>
-      <shadow>2</shadow>
-      <nearorfar>0</nearorfar>
-      <shadertype>0</shadertype>
-      <part0>
-        <int>0</int>
-      </part0>
-      <part1>
-        <int>0</int>
-      </part1>
-      <part2>
-        <int>0</int>
-      </part2>
-      <showWeaponId>0</showWeaponId>
-    </fire.pb.npc.SNpcShape>
-  </entry>
-  <entry>
-    <int>2010120</int>
-    <fire.pb.npc.SNpcShape>
-      <id>2010120</id>
-      <shape>bb_dabianfu</shape>
-      <headID>9110</headID>
-      <littleheadID>40363</littleheadID>
-      <name>大蝙蝠</name>
+      <shape>juese_ynx</shape>
+      <headID>9087</headID>
+      <littleheadID>40261</littleheadID>
+      <name>英女侠</name>
       <dir>4</dir>
       <shadow>2</shadow>
       <nearorfar>0</nearorfar>
@@ -7050,9 +7882,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530000</int>
+    <int>1530000</int>
     <fire.pb.npc.SNpcShape>
-      <id>530000</id>
+      <id>1530000</id>
       <shape>bb_heishanlaoyao</shape>
       <headID>9097</headID>
       <littleheadID>40403</littleheadID>
@@ -7074,9 +7906,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530001</int>
+    <int>1530001</int>
     <fire.pb.npc.SNpcShape>
-      <id>530001</id>
+      <id>1530001</id>
       <shape>bb_heishanlaoyao</shape>
       <headID>9097</headID>
       <littleheadID>40403</littleheadID>
@@ -7098,9 +7930,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530004</int>
+    <int>1530004</int>
     <fire.pb.npc.SNpcShape>
-      <id>530004</id>
+      <id>1530004</id>
       <shape>bb_hudiexianzi</shape>
       <headID>9097</headID>
       <littleheadID>40404</littleheadID>
@@ -7122,9 +7954,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530005</int>
+    <int>1530005</int>
     <fire.pb.npc.SNpcShape>
-      <id>530005</id>
+      <id>1530005</id>
       <shape>bb_hudiexianzi</shape>
       <headID>9097</headID>
       <littleheadID>40404</littleheadID>
@@ -7146,9 +7978,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530008</int>
+    <int>1530008</int>
     <fire.pb.npc.SNpcShape>
-      <id>530008</id>
+      <id>1530008</id>
       <shape>bb_leiniaoren</shape>
       <headID>9097</headID>
       <littleheadID>40405</littleheadID>
@@ -7170,9 +8002,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530009</int>
+    <int>1530009</int>
     <fire.pb.npc.SNpcShape>
-      <id>530009</id>
+      <id>1530009</id>
       <shape>bb_leiniaoren</shape>
       <headID>9097</headID>
       <littleheadID>40405</littleheadID>
@@ -7194,9 +8026,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530012</int>
+    <int>1530012</int>
     <fire.pb.npc.SNpcShape>
-      <id>530012</id>
+      <id>1530012</id>
       <shape>bb_diyuzhanshen</shape>
       <headID>9097</headID>
       <littleheadID>30288</littleheadID>
@@ -7218,9 +8050,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530013</int>
+    <int>1530013</int>
     <fire.pb.npc.SNpcShape>
-      <id>530013</id>
+      <id>1530013</id>
       <shape>bb_diyuzhanshen</shape>
       <headID>9097</headID>
       <littleheadID>30288</littleheadID>
@@ -7242,9 +8074,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530016</int>
+    <int>1530016</int>
     <fire.pb.npc.SNpcShape>
-      <id>530016</id>
+      <id>1530016</id>
       <shape>bb_fengbo</shape>
       <headID>9097</headID>
       <littleheadID>30289</littleheadID>
@@ -7266,9 +8098,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530017</int>
+    <int>1530017</int>
     <fire.pb.npc.SNpcShape>
-      <id>530017</id>
+      <id>1530017</id>
       <shape>bb_fengbo</shape>
       <headID>9097</headID>
       <littleheadID>30289</littleheadID>
@@ -7290,9 +8122,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530020</int>
+    <int>1530020</int>
     <fire.pb.npc.SNpcShape>
-      <id>530020</id>
+      <id>1530020</id>
       <shape>bb_tianbing</shape>
       <headID>9097</headID>
       <littleheadID>30290</littleheadID>
@@ -7314,9 +8146,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530021</int>
+    <int>1530021</int>
     <fire.pb.npc.SNpcShape>
-      <id>530021</id>
+      <id>1530021</id>
       <shape>bb_tianbing</shape>
       <headID>9097</headID>
       <littleheadID>30290</littleheadID>
@@ -7338,9 +8170,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530024</int>
+    <int>1530024</int>
     <fire.pb.npc.SNpcShape>
-      <id>530024</id>
+      <id>1530024</id>
       <shape>bb_tianjiang</shape>
       <headID>9097</headID>
       <littleheadID>30291</littleheadID>
@@ -7362,9 +8194,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530025</int>
+    <int>1530025</int>
     <fire.pb.npc.SNpcShape>
-      <id>530025</id>
+      <id>1530025</id>
       <shape>bb_tianjiang</shape>
       <headID>9097</headID>
       <littleheadID>30291</littleheadID>
@@ -7386,9 +8218,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530028</int>
+    <int>1530028</int>
     <fire.pb.npc.SNpcShape>
-      <id>530028</id>
+      <id>1530028</id>
       <shape>bb_bangjing</shape>
       <headID>9097</headID>
       <littleheadID>30292</littleheadID>
@@ -7410,9 +8242,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530029</int>
+    <int>1530029</int>
     <fire.pb.npc.SNpcShape>
-      <id>530029</id>
+      <id>1530029</id>
       <shape>bb_bangjing</shape>
       <headID>9097</headID>
       <littleheadID>30292</littleheadID>
@@ -7434,9 +8266,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530032</int>
+    <int>1530032</int>
     <fire.pb.npc.SNpcShape>
-      <id>530032</id>
+      <id>1530032</id>
       <shape>bb_bishuiyecha</shape>
       <headID>9097</headID>
       <littleheadID>30293</littleheadID>
@@ -7458,9 +8290,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530033</int>
+    <int>1530033</int>
     <fire.pb.npc.SNpcShape>
-      <id>530033</id>
+      <id>1530033</id>
       <shape>bb_bishuiyecha</shape>
       <headID>9097</headID>
       <littleheadID>30293</littleheadID>
@@ -7482,9 +8314,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530036</int>
+    <int>1530036</int>
     <fire.pb.npc.SNpcShape>
-      <id>530036</id>
+      <id>1530036</id>
       <shape>bb_fenghuang</shape>
       <headID>9097</headID>
       <littleheadID>30294</littleheadID>
@@ -7506,9 +8338,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530037</int>
+    <int>1530037</int>
     <fire.pb.npc.SNpcShape>
-      <id>530037</id>
+      <id>1530037</id>
       <shape>bb_fenghuang</shape>
       <headID>9097</headID>
       <littleheadID>30294</littleheadID>
@@ -7530,9 +8362,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530040</int>
+    <int>1530040</int>
     <fire.pb.npc.SNpcShape>
-      <id>530040</id>
+      <id>1530040</id>
       <shape>bb_jiaolong</shape>
       <headID>9097</headID>
       <littleheadID>30295</littleheadID>
@@ -7554,9 +8386,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530041</int>
+    <int>1530041</int>
     <fire.pb.npc.SNpcShape>
-      <id>530041</id>
+      <id>1530041</id>
       <shape>bb_jiaolong</shape>
       <headID>9097</headID>
       <littleheadID>30295</littleheadID>
@@ -7578,9 +8410,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530044</int>
+    <int>1530044</int>
     <fire.pb.npc.SNpcShape>
-      <id>530044</id>
+      <id>1530044</id>
       <shape>bb_jiaoren</shape>
       <headID>9097</headID>
       <littleheadID>30296</littleheadID>
@@ -7602,9 +8434,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530045</int>
+    <int>1530045</int>
     <fire.pb.npc.SNpcShape>
-      <id>530045</id>
+      <id>1530045</id>
       <shape>bb_jiaoren</shape>
       <headID>9097</headID>
       <littleheadID>30296</littleheadID>
@@ -7626,9 +8458,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530048</int>
+    <int>1530048</int>
     <fire.pb.npc.SNpcShape>
-      <id>530048</id>
+      <id>1530048</id>
       <shape>bb_yushi</shape>
       <headID>9097</headID>
       <littleheadID>30297</littleheadID>
@@ -7650,9 +8482,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530049</int>
+    <int>1530049</int>
     <fire.pb.npc.SNpcShape>
-      <id>530049</id>
+      <id>1530049</id>
       <shape>bb_yushi</shape>
       <headID>9097</headID>
       <littleheadID>30297</littleheadID>
@@ -7674,9 +8506,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530052</int>
+    <int>1530052</int>
     <fire.pb.npc.SNpcShape>
-      <id>530052</id>
+      <id>1530052</id>
       <shape>bb_furongxianzi</shape>
       <headID>9097</headID>
       <littleheadID>30298</littleheadID>
@@ -7698,9 +8530,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530053</int>
+    <int>1530053</int>
     <fire.pb.npc.SNpcShape>
-      <id>530053</id>
+      <id>1530053</id>
       <shape>bb_furongxianzi</shape>
       <headID>9097</headID>
       <littleheadID>30298</littleheadID>
@@ -7722,9 +8554,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530056</int>
+    <int>1530056</int>
     <fire.pb.npc.SNpcShape>
-      <id>530056</id>
+      <id>1530056</id>
       <shape>bb_jinmaodiaojing</shape>
       <headID>9097</headID>
       <littleheadID>30299</littleheadID>
@@ -7746,9 +8578,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530057</int>
+    <int>1530057</int>
     <fire.pb.npc.SNpcShape>
-      <id>530057</id>
+      <id>1530057</id>
       <shape>bb_jinmaodiaojing</shape>
       <headID>9097</headID>
       <littleheadID>30299</littleheadID>
@@ -7770,9 +8602,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530060</int>
+    <int>1530060</int>
     <fire.pb.npc.SNpcShape>
-      <id>530060</id>
+      <id>1530060</id>
       <shape>bb_qiannianshemei</shape>
       <headID>9097</headID>
       <littleheadID>30300</littleheadID>
@@ -7794,9 +8626,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530061</int>
+    <int>1530061</int>
     <fire.pb.npc.SNpcShape>
-      <id>530061</id>
+      <id>1530061</id>
       <shape>bb_qiannianshemei</shape>
       <headID>9097</headID>
       <littleheadID>30300</littleheadID>
@@ -7818,9 +8650,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530064</int>
+    <int>1530064</int>
     <fire.pb.npc.SNpcShape>
-      <id>530064</id>
+      <id>1530064</id>
       <shape>bb_ruyixianzi</shape>
       <headID>9097</headID>
       <littleheadID>30301</littleheadID>
@@ -7842,9 +8674,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530065</int>
+    <int>1530065</int>
     <fire.pb.npc.SNpcShape>
-      <id>530065</id>
+      <id>1530065</id>
       <shape>bb_ruyixianzi</shape>
       <headID>9097</headID>
       <littleheadID>30301</littleheadID>
@@ -7866,9 +8698,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530068</int>
+    <int>1530068</int>
     <fire.pb.npc.SNpcShape>
-      <id>530068</id>
+      <id>1530068</id>
       <shape>bb_xinglingxianzi</shape>
       <headID>9097</headID>
       <littleheadID>30302</littleheadID>
@@ -7890,9 +8722,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530069</int>
+    <int>1530069</int>
     <fire.pb.npc.SNpcShape>
-      <id>530069</id>
+      <id>1530069</id>
       <shape>bb_xinglingxianzi</shape>
       <headID>9097</headID>
       <littleheadID>30302</littleheadID>
@@ -7914,9 +8746,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530072</int>
+    <int>1530072</int>
     <fire.pb.npc.SNpcShape>
-      <id>530072</id>
+      <id>1530072</id>
       <shape>bb_xunyoutianshen</shape>
       <headID>9097</headID>
       <littleheadID>30303</littleheadID>
@@ -7938,9 +8770,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530073</int>
+    <int>1530073</int>
     <fire.pb.npc.SNpcShape>
-      <id>530073</id>
+      <id>1530073</id>
       <shape>bb_xunyoutianshen</shape>
       <headID>9097</headID>
       <littleheadID>30303</littleheadID>
@@ -7962,9 +8794,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530076</int>
+    <int>1530076</int>
     <fire.pb.npc.SNpcShape>
-      <id>530076</id>
+      <id>1530076</id>
       <shape>bb_baizujiangjun</shape>
       <headID>9097</headID>
       <littleheadID>30304</littleheadID>
@@ -7986,9 +8818,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530077</int>
+    <int>1530077</int>
     <fire.pb.npc.SNpcShape>
-      <id>530077</id>
+      <id>1530077</id>
       <shape>bb_baizujiangjun</shape>
       <headID>9097</headID>
       <littleheadID>30304</littleheadID>
@@ -8010,9 +8842,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530080</int>
+    <int>1530080</int>
     <fire.pb.npc.SNpcShape>
-      <id>530080</id>
+      <id>1530080</id>
       <shape>bb_shuxianfeng</shape>
       <headID>9097</headID>
       <littleheadID>30305</littleheadID>
@@ -8034,9 +8866,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530081</int>
+    <int>1530081</int>
     <fire.pb.npc.SNpcShape>
-      <id>530081</id>
+      <id>1530081</id>
       <shape>bb_shuxianfeng</shape>
       <headID>9097</headID>
       <littleheadID>30305</littleheadID>
@@ -8058,9 +8890,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530084</int>
+    <int>1530084</int>
     <fire.pb.npc.SNpcShape>
-      <id>530084</id>
+      <id>1530084</id>
       <shape>bb_yezhujing</shape>
       <headID>9097</headID>
       <littleheadID>30306</littleheadID>
@@ -8082,9 +8914,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530085</int>
+    <int>1530085</int>
     <fire.pb.npc.SNpcShape>
-      <id>530085</id>
+      <id>1530085</id>
       <shape>bb_yezhujing</shape>
       <headID>9097</headID>
       <littleheadID>30306</littleheadID>
@@ -8106,9 +8938,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530088</int>
+    <int>1530088</int>
     <fire.pb.npc.SNpcShape>
-      <id>530088</id>
+      <id>1530088</id>
       <shape>bb_lingfunvwa_by</shape>
       <headID>9097</headID>
       <littleheadID>40204</littleheadID>
@@ -8130,9 +8962,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530089</int>
+    <int>1530089</int>
     <fire.pb.npc.SNpcShape>
-      <id>530089</id>
+      <id>1530089</id>
       <shape>bb_lingfunvwa</shape>
       <headID>9097</headID>
       <littleheadID>30332</littleheadID>
@@ -8154,9 +8986,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530092</int>
+    <int>1530092</int>
     <fire.pb.npc.SNpcShape>
-      <id>530092</id>
+      <id>1530092</id>
       <shape>bb_lvfanvwa</shape>
       <headID>9097</headID>
       <littleheadID>30333</littleheadID>
@@ -8178,9 +9010,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530093</int>
+    <int>1530093</int>
     <fire.pb.npc.SNpcShape>
-      <id>530093</id>
+      <id>1530093</id>
       <shape>bb_lvfanvwa</shape>
       <headID>9097</headID>
       <littleheadID>30333</littleheadID>
@@ -8202,9 +9034,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530096</int>
+    <int>1530096</int>
     <fire.pb.npc.SNpcShape>
-      <id>530096</id>
+      <id>1530096</id>
       <shape>bb_xixuegui_by</shape>
       <headID>9097</headID>
       <littleheadID>40204</littleheadID>
@@ -8226,9 +9058,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530097</int>
+    <int>1530097</int>
     <fire.pb.npc.SNpcShape>
-      <id>530097</id>
+      <id>1530097</id>
       <shape>bb_xixuegui</shape>
       <headID>9097</headID>
       <littleheadID>30334</littleheadID>
@@ -8250,9 +9082,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530100</int>
+    <int>1530100</int>
     <fire.pb.npc.SNpcShape>
-      <id>530100</id>
+      <id>1530100</id>
       <shape>bb_youling</shape>
       <headID>9097</headID>
       <littleheadID>30335</littleheadID>
@@ -8274,9 +9106,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530101</int>
+    <int>1530101</int>
     <fire.pb.npc.SNpcShape>
-      <id>530101</id>
+      <id>1530101</id>
       <shape>bb_youling</shape>
       <headID>9097</headID>
       <littleheadID>30335</littleheadID>
@@ -8298,9 +9130,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530104</int>
+    <int>1530104</int>
     <fire.pb.npc.SNpcShape>
-      <id>530104</id>
+      <id>1530104</id>
       <shape>bb_linghe</shape>
       <headID>9097</headID>
       <littleheadID>30336</littleheadID>
@@ -8322,9 +9154,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530105</int>
+    <int>1530105</int>
     <fire.pb.npc.SNpcShape>
-      <id>530105</id>
+      <id>1530105</id>
       <shape>bb_linghe</shape>
       <headID>9097</headID>
       <littleheadID>30336</littleheadID>
@@ -8346,9 +9178,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530108</int>
+    <int>1530108</int>
     <fire.pb.npc.SNpcShape>
-      <id>530108</id>
+      <id>1530108</id>
       <shape>bb_shitianhu</shape>
       <headID>9097</headID>
       <littleheadID>40430</littleheadID>
@@ -8370,9 +9202,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530109</int>
+    <int>1530109</int>
     <fire.pb.npc.SNpcShape>
-      <id>530109</id>
+      <id>1530109</id>
       <shape>bb_shitianhu</shape>
       <headID>9097</headID>
       <littleheadID>40430</littleheadID>
@@ -8394,9 +9226,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530112</int>
+    <int>1530112</int>
     <fire.pb.npc.SNpcShape>
-      <id>530112</id>
+      <id>1530112</id>
       <shape>bb_yanmoshen</shape>
       <headID>9097</headID>
       <littleheadID>40431</littleheadID>
@@ -8418,9 +9250,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530113</int>
+    <int>1530113</int>
     <fire.pb.npc.SNpcShape>
-      <id>530113</id>
+      <id>1530113</id>
       <shape>bb_yanmoshen</shape>
       <headID>9097</headID>
       <littleheadID>40431</littleheadID>
@@ -8442,9 +9274,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530116</int>
+    <int>1530116</int>
     <fire.pb.npc.SNpcShape>
-      <id>530116</id>
+      <id>1530116</id>
       <shape>bb_hongexianzi</shape>
       <headID>9097</headID>
       <littleheadID>40432</littleheadID>
@@ -8466,9 +9298,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530117</int>
+    <int>1530117</int>
     <fire.pb.npc.SNpcShape>
-      <id>530117</id>
+      <id>1530117</id>
       <shape>bb_hongexianzi</shape>
       <headID>9097</headID>
       <littleheadID>40432</littleheadID>
@@ -8490,9 +9322,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530120</int>
+    <int>1530120</int>
     <fire.pb.npc.SNpcShape>
-      <id>530120</id>
+      <id>1530120</id>
       <shape>mhxy_jiguanshou</shape>
       <headID>9097</headID>
       <littleheadID>40433</littleheadID>
@@ -8514,9 +9346,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530121</int>
+    <int>1530121</int>
     <fire.pb.npc.SNpcShape>
-      <id>530121</id>
+      <id>1530121</id>
       <shape>mhxy_jiguanshou</shape>
       <headID>9097</headID>
       <littleheadID>40433</littleheadID>
@@ -8538,9 +9370,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530124</int>
+    <int>1530124</int>
     <fire.pb.npc.SNpcShape>
-      <id>530124</id>
+      <id>1530124</id>
       <shape>bb_tayunshou</shape>
       <headID>9097</headID>
       <littleheadID>40434</littleheadID>
@@ -8562,9 +9394,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530125</int>
+    <int>1530125</int>
     <fire.pb.npc.SNpcShape>
-      <id>530125</id>
+      <id>1530125</id>
       <shape>bb_tayunshou</shape>
       <headID>9097</headID>
       <littleheadID>40434</littleheadID>
@@ -8586,9 +9418,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530128</int>
+    <int>1530128</int>
     <fire.pb.npc.SNpcShape>
-      <id>530128</id>
+      <id>1530128</id>
       <shape>bb_bashe</shape>
       <headID>9097</headID>
       <littleheadID>40435</littleheadID>
@@ -8610,9 +9442,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530129</int>
+    <int>1530129</int>
     <fire.pb.npc.SNpcShape>
-      <id>530129</id>
+      <id>1530129</id>
       <shape>bb_bashe</shape>
       <headID>9097</headID>
       <littleheadID>40435</littleheadID>
@@ -8634,9 +9466,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530132</int>
+    <int>1530132</int>
     <fire.pb.npc.SNpcShape>
-      <id>530132</id>
+      <id>1530132</id>
       <shape>bb_jiguanniao</shape>
       <headID>9097</headID>
       <littleheadID>30337</littleheadID>
@@ -8658,9 +9490,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530133</int>
+    <int>1530133</int>
     <fire.pb.npc.SNpcShape>
-      <id>530133</id>
+      <id>1530133</id>
       <shape>bb_jiguanniao</shape>
       <headID>9097</headID>
       <littleheadID>30337</littleheadID>
@@ -8682,9 +9514,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530136</int>
+    <int>1530136</int>
     <fire.pb.npc.SNpcShape>
-      <id>530136</id>
+      <id>1530136</id>
       <shape>mhxy_jiguanshou</shape>
       <headID>9097</headID>
       <littleheadID>30338</littleheadID>
@@ -8706,9 +9538,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530137</int>
+    <int>1530137</int>
     <fire.pb.npc.SNpcShape>
-      <id>530137</id>
+      <id>1530137</id>
       <shape>mhxy_jiguanshou</shape>
       <headID>9097</headID>
       <littleheadID>30338</littleheadID>
@@ -8730,9 +9562,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530140</int>
+    <int>1530140</int>
     <fire.pb.npc.SNpcShape>
-      <id>530140</id>
+      <id>1530140</id>
       <shape>mhxy_xiuluokuileigui</shape>
       <headID>9097</headID>
       <littleheadID>30339</littleheadID>
@@ -8754,9 +9586,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530141</int>
+    <int>1530141</int>
     <fire.pb.npc.SNpcShape>
-      <id>530141</id>
+      <id>1530141</id>
       <shape>mhxy_xiuluokuileigui</shape>
       <headID>9097</headID>
       <littleheadID>30339</littleheadID>
@@ -8778,9 +9610,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530144</int>
+    <int>1530144</int>
     <fire.pb.npc.SNpcShape>
-      <id>530144</id>
+      <id>1530144</id>
       <shape>mhxy_xiuluokuileiyao</shape>
       <headID>9097</headID>
       <littleheadID>30340</littleheadID>
@@ -8802,9 +9634,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530145</int>
+    <int>1530145</int>
     <fire.pb.npc.SNpcShape>
-      <id>530145</id>
+      <id>1530145</id>
       <shape>mhxy_xiuluokuileiyao</shape>
       <headID>9097</headID>
       <littleheadID>30340</littleheadID>
@@ -8826,9 +9658,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530152</int>
+    <int>1530152</int>
     <fire.pb.npc.SNpcShape>
-      <id>530152</id>
+      <id>1530152</id>
       <shape>mhxy_heisetongzi</shape>
       <headID>9097</headID>
       <littleheadID>40440</littleheadID>
@@ -8850,9 +9682,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>530149</int>
+    <int>1530149</int>
     <fire.pb.npc.SNpcShape>
-      <id>530149</id>
+      <id>1530149</id>
       <shape>mhxy_heisetongzi</shape>
       <headID>9097</headID>
       <littleheadID>40440</littleheadID>
@@ -9090,9 +9922,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>1010111</int>
+    <int>1010170</int>
     <fire.pb.npc.SNpcShape>
-      <id>1010111</id>
+      <id>1010170</id>
       <shape>mhxy_chaojishenhou</shape>
       <headID>0</headID>
       <littleheadID>30354</littleheadID>
@@ -9114,9 +9946,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540000</int>
+    <int>1540000</int>
     <fire.pb.npc.SNpcShape>
-      <id>540000</id>
+      <id>1540000</id>
       <shape>mhxy_chaojishenhu</shape>
       <headID>0</headID>
       <littleheadID>30355</littleheadID>
@@ -9138,9 +9970,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540001</int>
+    <int>1540001</int>
     <fire.pb.npc.SNpcShape>
-      <id>540001</id>
+      <id>1540001</id>
       <shape>mhxy_chaojishenma</shape>
       <headID>9134</headID>
       <littleheadID>40458</littleheadID>
@@ -9162,9 +9994,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540002</int>
+    <int>1540002</int>
     <fire.pb.npc.SNpcShape>
-      <id>540002</id>
+      <id>1540002</id>
       <shape>mhxy_chaojishenniu</shape>
       <headID>0</headID>
       <littleheadID>40459</littleheadID>
@@ -9186,9 +10018,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540003</int>
+    <int>1540003</int>
     <fire.pb.npc.SNpcShape>
-      <id>540003</id>
+      <id>1540003</id>
       <shape>mhxy_chaojishenshe</shape>
       <headID>0</headID>
       <littleheadID>40460</littleheadID>
@@ -9210,9 +10042,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540004</int>
+    <int>1540004</int>
     <fire.pb.npc.SNpcShape>
-      <id>540004</id>
+      <id>1540004</id>
       <shape>mhxy_chaojishentu</shape>
       <headID>0</headID>
       <littleheadID>40461</littleheadID>
@@ -9234,9 +10066,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540005</int>
+    <int>1540005</int>
     <fire.pb.npc.SNpcShape>
-      <id>540005</id>
+      <id>1540005</id>
       <shape>mhxy_chaojishenyang</shape>
       <headID>9136</headID>
       <littleheadID>40462</littleheadID>
@@ -9308,9 +10140,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540006</int>
+    <int>1540006</int>
     <fire.pb.npc.SNpcShape>
-      <id>540006</id>
+      <id>1540006</id>
       <shape>mhxy_xiaoyaya</shape>
       <littleheadID>135</littleheadID>
       <name>小丫丫</name>
@@ -9331,9 +10163,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540007</int>
+    <int>1540007</int>
     <fire.pb.npc.SNpcShape>
-      <id>540007</id>
+      <id>1540007</id>
       <shape>mhxy_xiaoxiannv</shape>
       <littleheadID>136</littleheadID>
       <name>小仙女</name>
@@ -9354,9 +10186,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540008</int>
+    <int>1540008</int>
     <fire.pb.npc.SNpcShape>
-      <id>540008</id>
+      <id>1540008</id>
       <shape>mhxy_xiaoshenling</shape>
       <littleheadID>137</littleheadID>
       <name>小神灵</name>
@@ -9377,9 +10209,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540009</int>
+    <int>1540009</int>
     <fire.pb.npc.SNpcShape>
-      <id>540009</id>
+      <id>1540009</id>
       <shape>mhxy_xiaomotou</shape>
       <littleheadID>138</littleheadID>
       <name>小魔头</name>
@@ -9400,9 +10232,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540010</int>
+    <int>1540010</int>
     <fire.pb.npc.SNpcShape>
-      <id>540010</id>
+      <id>1540010</id>
       <shape>mhxy_xiaomaotou</shape>
       <littleheadID>139</littleheadID>
       <name>小毛头</name>
@@ -9423,9 +10255,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540011</int>
+    <int>1540011</int>
     <fire.pb.npc.SNpcShape>
-      <id>540011</id>
+      <id>1540011</id>
       <shape>mhxy_xiaojingling</shape>
       <littleheadID>140</littleheadID>
       <name>小精灵</name>
@@ -9446,9 +10278,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540012</int>
+    <int>1540012</int>
     <fire.pb.npc.SNpcShape>
-      <id>540012</id>
+      <id>1540012</id>
       <shape>mhxy_xiaoshenling</shape>
       <littleheadID>138</littleheadID>
       <name>幸福男孩</name>
@@ -9469,9 +10301,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540013</int>
+    <int>1540013</int>
     <fire.pb.npc.SNpcShape>
-      <id>540013</id>
+      <id>1540013</id>
       <shape>mhxy_xiaoyaya</shape>
       <littleheadID>135</littleheadID>
       <name>幸福女孩</name>
@@ -9492,9 +10324,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540014</int>
+    <int>1540014</int>
     <fire.pb.npc.SNpcShape>
-      <id>540014</id>
+      <id>1540014</id>
       <shape>amhxy-zhaocao</shape>
       <littleheadID>40402</littleheadID>
       <name>齐天大圣</name>
@@ -9515,9 +10347,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540015</int>
+    <int>1540015</int>
     <fire.pb.npc.SNpcShape>
-      <id>540015</id>
+      <id>1540015</id>
       <shape>amhxy-jinbao</shape>
       <littleheadID>40402</littleheadID>
       <name>六耳猕猴</name>
@@ -9538,9 +10370,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540016</int>
+    <int>1540016</int>
     <fire.pb.npc.SNpcShape>
-      <id>540016</id>
+      <id>1540016</id>
       <shape>zizaitianmo</shape>
       <littleheadID>140</littleheadID>
       <name>自在天魔</name>
@@ -9561,9 +10393,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540017</int>
+    <int>1540017</int>
     <fire.pb.npc.SNpcShape>
-      <id>540017</id>
+      <id>1540017</id>
       <shape>wutianjishuanghuan</shape>
       <name>舞天姬双环</name>
       <dir>4</dir>
@@ -9585,9 +10417,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540018</int>
+    <int>1540018</int>
     <fire.pb.npc.SNpcShape>
-      <id>540018</id>
+      <id>1540018</id>
       <shape>wumanerbang</shape>
       <name>巫蛮儿棒子</name>
       <dir>4</dir>
@@ -9609,9 +10441,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540019</int>
+    <int>1540019</int>
     <fire.pb.npc.SNpcShape>
-      <id>540019</id>
+      <id>1540019</id>
       <shape>shentianbingqiang</shape>
       <name>神天兵枪</name>
       <dir>4</dir>
@@ -9633,9 +10465,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540020</int>
+    <int>1540020</int>
     <fire.pb.npc.SNpcShape>
-      <id>540020</id>
+      <id>1540020</id>
       <shape>longtaiziqiang</shape>
       <name>龙太子枪</name>
       <dir>4</dir>
@@ -9657,9 +10489,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540021</int>
+    <int>1540021</int>
     <fire.pb.npc.SNpcShape>
-      <id>540021</id>
+      <id>1540021</id>
       <shape>jumowangfuzi</shape>
       <name>巨魔王斧子</name>
       <dir>4</dir>
@@ -9681,9 +10513,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540022</int>
+    <int>1540022</int>
     <fire.pb.npc.SNpcShape>
-      <id>540022</id>
+      <id>1540022</id>
       <shape>jumowangdao</shape>
       <name>巨魔王刀</name>
       <dir>4</dir>
@@ -9705,9 +10537,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540023</int>
+    <int>1540023</int>
     <fire.pb.npc.SNpcShape>
-      <id>540023</id>
+      <id>1540023</id>
       <shape>jianxiakedao</shape>
       <name>剑侠客刀</name>
       <dir>4</dir>
@@ -9729,9 +10561,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540024</int>
+    <int>1540024</int>
     <fire.pb.npc.SNpcShape>
-      <id>540024</id>
+      <id>1540024</id>
       <shape>hutouguaichuizi</shape>
       <name>虎头怪锤子</name>
       <dir>4</dir>
@@ -9753,9 +10585,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540025</int>
+    <int>1540025</int>
     <fire.pb.npc.SNpcShape>
-      <id>540025</id>
+      <id>1540025</id>
       <shape>humeirenbianzi</shape>
       <name>狐美人鞭子</name>
       <dir>4</dir>
@@ -9777,9 +10609,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540026</int>
+    <int>1540026</int>
     <fire.pb.npc.SNpcShape>
-      <id>540026</id>
+      <id>1540026</id>
       <shape>gujinglingbang</shape>
       <name>骨精灵棒子</name>
       <dir>4</dir>
@@ -9801,9 +10633,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540027</int>
+    <int>1540027</int>
     <fire.pb.npc.SNpcShape>
-      <id>540027</id>
+      <id>1540027</id>
       <shape>feiyannvshuanghuan</shape>
       <name>飞燕女双环</name>
       <dir>4</dir>
@@ -9825,9 +10657,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540028</int>
+    <int>1540028</int>
     <fire.pb.npc.SNpcShape>
-      <id>540028</id>
+      <id>1540028</id>
       <shape>xioayaoshengjian</shape>
       <name>逍遥生剑</name>
       <dir>4</dir>
@@ -9849,9 +10681,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540029</int>
+    <int>1540029</int>
     <fire.pb.npc.SNpcShape>
-      <id>540029</id>
+      <id>1540029</id>
       <shape>huasheng</shape>
       <name>剑侠客剑</name>
       <dir>4</dir>
@@ -9873,9 +10705,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540030</int>
+    <int>1540030</int>
     <fire.pb.npc.SNpcShape>
-      <id>540030</id>
+      <id>1540030</id>
       <shape>baoshishangren</shape>
       <headID>9011</headID>
       <littleheadID>30205</littleheadID>
@@ -9899,9 +10731,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540031</int>
+    <int>1540031</int>
     <fire.pb.npc.SNpcShape>
-      <id>540031</id>
+      <id>1540031</id>
       <shape>amhxy-nanhai</shape>
       <littleheadID>40221</littleheadID>
       <name>招财猪</name>
@@ -9922,9 +10754,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540032</int>
+    <int>1540032</int>
     <fire.pb.npc.SNpcShape>
-      <id>540032</id>
+      <id>1540032</id>
       <shape>amhxy-nvhai</shape>
       <littleheadID>40215</littleheadID>
       <name>小白龙</name>
@@ -9945,9 +10777,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540033</int>
+    <int>1540033</int>
     <fire.pb.npc.SNpcShape>
-      <id>540033</id>
+      <id>1540033</id>
       <shape>mhxy_chaojishenshu</shape>
       <littleheadID>40202</littleheadID>
       <name>超级神鼠</name>
@@ -9968,9 +10800,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540034</int>
+    <int>1540034</int>
     <fire.pb.npc.SNpcShape>
-      <id>540034</id>
+      <id>1540034</id>
       <shape>mhxy_chaojizhuxiaojie</shape>
       <littleheadID>40211</littleheadID>
       <name>超级猪小八戒</name>
@@ -9991,9 +10823,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540035</int>
+    <int>1540035</int>
     <fire.pb.npc.SNpcShape>
-      <id>540035</id>
+      <id>1540035</id>
       <shape>bb_hualing</shape>
       <littleheadID>40200</littleheadID>
       <name>花灵</name>
@@ -10014,9 +10846,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540036</int>
+    <int>1540036</int>
     <fire.pb.npc.SNpcShape>
-      <id>540036</id>
+      <id>1540036</id>
       <shape>bb_tushanxue</shape>
       <littleheadID>40209</littleheadID>
       <name>涂山雪</name>
@@ -10037,9 +10869,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540037</int>
+    <int>1540037</int>
     <fire.pb.npc.SNpcShape>
-      <id>540037</id>
+      <id>1540037</id>
       <shape>bb_yuemei</shape>
       <littleheadID>40206</littleheadID>
       <name>月魅</name>
@@ -10060,9 +10892,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540038</int>
+    <int>1540038</int>
     <fire.pb.npc.SNpcShape>
-      <id>540038</id>
+      <id>1540038</id>
       <shape>bb_yueyingxian</shape>
       <littleheadID>40218</littleheadID>
       <name>月影仙</name>
@@ -10083,9 +10915,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540039</int>
+    <int>1540039</int>
     <fire.pb.npc.SNpcShape>
-      <id>540039</id>
+      <id>1540039</id>
       <shape>bb_yunyouhuo</shape>
       <littleheadID>40219</littleheadID>
       <name>云游火</name>
@@ -10106,9 +10938,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540040</int>
+    <int>1540040</int>
     <fire.pb.npc.SNpcShape>
-      <id>540040</id>
+      <id>1540040</id>
       <shape>ma_aheilonboss</shape>
       <littleheadID>40219</littleheadID>
       <name>黑龙BOSS</name>
@@ -10129,9 +10961,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540041</int>
+    <int>1540041</int>
     <fire.pb.npc.SNpcShape>
-      <id>540041</id>
+      <id>1540041</id>
       <shape>dyfr</shape>
       <littleheadID>40218</littleheadID>
       <name>地涌夫人</name>
@@ -10152,9 +10984,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540042</int>
+    <int>1540042</int>
     <fire.pb.npc.SNpcShape>
-      <id>540042</id>
+      <id>1540042</id>
       <shape>sunpopo</shape>
       <littleheadID>40219</littleheadID>
       <name>孙婆婆</name>
@@ -10175,9 +11007,9 @@
     </fire.pb.npc.SNpcShape>
   </entry>
   <entry>
-    <int>540043</int>
+    <int>1540043</int>
     <fire.pb.npc.SNpcShape>
-      <id>540043</id>
+      <id>1540043</id>
       <shape>wukuihu</shape>
       <littleheadID>40219</littleheadID>
       <name>巫奎虎</name>

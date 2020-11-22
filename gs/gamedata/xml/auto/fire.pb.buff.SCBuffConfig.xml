@@ -1531,6 +1531,7 @@
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
       <overrideSelfType>0</overrideSelfType>
+      <instantbuff>510143</instantbuff>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>

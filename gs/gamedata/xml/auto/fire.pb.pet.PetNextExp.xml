@@ -999,133 +999,133 @@
     <int>142</int>
     <fire.pb.pet.PetNextExp>
       <id>142</id>
-      <exp>1008220</exp>
+      <exp>1000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>143</int>
     <fire.pb.pet.PetNextExp>
       <id>143</id>
-      <exp>1022470</exp>
+      <exp>1500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>144</int>
     <fire.pb.pet.PetNextExp>
       <id>144</id>
-      <exp>1036820</exp>
+      <exp>2000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>145</int>
     <fire.pb.pet.PetNextExp>
       <id>145</id>
-      <exp>1051270</exp>
+      <exp>2500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>146</int>
     <fire.pb.pet.PetNextExp>
       <id>146</id>
-      <exp>1065820</exp>
+      <exp>3000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>147</int>
     <fire.pb.pet.PetNextExp>
       <id>147</id>
-      <exp>1080470</exp>
+      <exp>3500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>148</int>
     <fire.pb.pet.PetNextExp>
       <id>148</id>
-      <exp>1095220</exp>
+      <exp>4000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>149</int>
     <fire.pb.pet.PetNextExp>
       <id>149</id>
-      <exp>1110070</exp>
+      <exp>4500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>150</int>
     <fire.pb.pet.PetNextExp>
       <id>150</id>
-      <exp>1125020</exp>
+      <exp>5000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>151</int>
     <fire.pb.pet.PetNextExp>
       <id>151</id>
-      <exp>1500000</exp>
+      <exp>5500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>152</int>
     <fire.pb.pet.PetNextExp>
       <id>152</id>
-      <exp>1500000</exp>
+      <exp>6000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>153</int>
     <fire.pb.pet.PetNextExp>
       <id>153</id>
-      <exp>1500000</exp>
+      <exp>6500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>154</int>
     <fire.pb.pet.PetNextExp>
       <id>154</id>
-      <exp>1500000</exp>
+      <exp>7000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>155</int>
     <fire.pb.pet.PetNextExp>
       <id>155</id>
-      <exp>1500000</exp>
+      <exp>7500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>156</int>
     <fire.pb.pet.PetNextExp>
       <id>156</id>
-      <exp>1500000</exp>
+      <exp>8000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>157</int>
     <fire.pb.pet.PetNextExp>
       <id>157</id>
-      <exp>1500000</exp>
+      <exp>8500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>158</int>
     <fire.pb.pet.PetNextExp>
       <id>158</id>
-      <exp>1500000</exp>
+      <exp>9000000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>159</int>
     <fire.pb.pet.PetNextExp>
       <id>159</id>
-      <exp>1500000</exp>
+      <exp>9500000</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
   <entry>
     <int>160</int>
     <fire.pb.pet.PetNextExp>
       <id>160</id>
-      <exp>1500000</exp>
+      <exp>99999999</exp>
     </fire.pb.pet.PetNextExp>
   </entry>
 </tree-map>
