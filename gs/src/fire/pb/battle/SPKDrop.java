@@ -25,6 +25,7 @@ public class SPKDrop implements mytools.ConvMain.Checkable ,Comparable<SPKDrop>{
 		this.dropLevel=arg.dropLevel ;
 		this.dropGoldCoin=arg.dropGoldCoin ;
 		this.levelLimit=arg.levelLimit ;
+		this.safeMapid=arg.safeMapid ;
 	}
 	public void checkValid(java.util.Map<String,java.util.Map<Integer,? extends Object> > objs){
 	}
@@ -78,6 +79,19 @@ public class SPKDrop implements mytools.ConvMain.Checkable ,Comparable<SPKDrop>{
 	
 	public void setLevelLimit(int v){
 		this.levelLimit=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int safeMapid  = 0  ;
+	
+	public int getSafeMapid(){
+		return this.safeMapid;
+	}
+	
+	public void setSafeMapid(int v){
+		this.safeMapid=v;
 	}
 	
 	

@@ -103,6 +103,13 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 			return ;
 		}
+
+		// 判断是否在安全地图中
+		if(hostRole.getMapId() == PKDropConfig_CFGS.get(1).safeMapid)
+		{
+			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
+			sendremoveTickTime(hostid);//通知客户端取消定时器
+		}
 		
 		//判断自己是否在战斗或者观战
 		BuffAgent hostAgent = new BuffRoleImpl(hostid, true);
