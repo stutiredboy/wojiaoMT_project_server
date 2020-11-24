@@ -313,7 +313,7 @@
     <int>510132</int>
     <fire.pb.buff.SIBuffConfig>
       <id>510132</id>
-      <name>普通驱散异常buff（药和牧师技能使用，只能驱散弱控制）</name>
+      <name>神迹</name>
       <bufftype>3</bufftype>
       <classname>fire.pb.buff.single.CleanBuff</classname>
       <buffclass>61</buffclass>
@@ -464,6 +464,16 @@
       <name>回春专用无浮动加蓝</name>
       <bufftype>4</bufftype>
       <classname>fire.pb.buff.single.HotItemCure</classname>
+      <buffclass>53</buffclass>
+    </fire.pb.buff.SIBuffConfig>
+  </entry>
+  <entry>
+    <int>510301</int>
+    <fire.pb.buff.SIBuffConfig>
+      <id>510301</id>
+      <name>召唤单位</name>
+      <bufftype>0</bufftype>
+      <classname>fire.pb.buff.single.SingleBuff</classname>
       <buffclass>53</buffclass>
     </fire.pb.buff.SIBuffConfig>
   </entry>

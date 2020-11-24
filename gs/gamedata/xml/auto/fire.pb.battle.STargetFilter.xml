@@ -1316,7 +1316,7 @@
       <id>95060</id>
       <unitcamp>3</unitcamp>
       <includehide>1</includehide>
-      <hppercentmin>0.55000000000000004</hppercentmin>
+      <hppercentmin>0.55</hppercentmin>
       <attributesort>curhp_percent@0</attributesort>
       <levelmin>0</levelmin>
       <levelmax>150</levelmax>

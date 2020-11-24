@@ -101,6 +101,72 @@
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
   <entry>
+    <int>13109</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>13109</id>
+      <services>
+        <int>3022</int>
+        <int>3025</int>
+        <int>999221</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>13110</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>13110</id>
+      <services>
+        <int>3023</int>
+        <int>3026</int>
+        <int>999222</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>13111</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>13111</id>
+      <services>
+        <int>3024</int>
+        <int>3027</int>
+        <int>999223</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>13112</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>13112</id>
+      <services>
+        <int>3028</int>
+        <int>3029</int>
+        <int>999250</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>13113</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>13113</id>
+      <services>
+        <int>3030</int>
+        <int>3031</int>
+        <int>999251</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>13114</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>13114</id>
+      <services>
+        <int>3032</int>
+        <int>3033</int>
+        <int>999252</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
     <int>99998</int>
     <fire.pb.npc.SNpcServiceConfig>
       <id>99998</id>
@@ -223,9 +289,6 @@
       <services>
         <int>200001</int>
         <int>200002</int>
-        <int>910301</int>
-        <int>910302</int>
-        <int>910303</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -267,7 +330,11 @@
     <fire.pb.npc.SNpcServiceConfig>
       <id>161513</id>
       <services>
-        <int>100600</int>
+        <int>910304</int>
+        <int>910305</int>
+        <int>910306</int>
+        <int>911854</int>
+        <int>911855</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -287,7 +354,6 @@
       <id>161516</id>
       <services>
         <int>100800</int>
-        <int>100801</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -339,7 +405,7 @@
     <fire.pb.npc.SNpcServiceConfig>
       <id>161522</id>
       <services>
-        <int>100704</int>
+        <int>600000</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -357,13 +423,33 @@
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
   <entry>
-    <int>161527</int>
+    <int>161509</int>
     <fire.pb.npc.SNpcServiceConfig>
-      <id>161527</id>
+      <id>161509</id>
       <services>
         <int>910106</int>
+        <int>910112</int>
         <int>910107</int>
-        <int>910111</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>161540</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>161540</id>
+      <services>
+        <int>910106</int>
+        <int>910112</int>
+        <int>30001</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>161541</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>161541</id>
+      <services>
+        <int>910106</int>
         <int>910112</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
@@ -1052,7 +1138,7 @@
     <fire.pb.npc.SNpcServiceConfig>
       <id>170107</id>
       <services>
-        <int>4005</int>
+        <int>30000</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -1061,7 +1147,7 @@
     <fire.pb.npc.SNpcServiceConfig>
       <id>170108</id>
       <services>
-        <int>4005</int>
+        <int>30001</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -1070,7 +1156,7 @@
     <fire.pb.npc.SNpcServiceConfig>
       <id>170109</id>
       <services>
-        <int>4005</int>
+        <int>30002</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -1079,7 +1165,16 @@
     <fire.pb.npc.SNpcServiceConfig>
       <id>170110</id>
       <services>
-        <int>4005</int>
+        <int>30002</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170112</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170112</id>
+      <services>
+        <int>30002</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
@@ -5311,9 +5406,6 @@
     <int>161508</int>
     <fire.pb.npc.SNpcServiceConfig>
       <id>161508</id>
-      <services>
-        <int>30005</int>
-      </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
   <entry>
@@ -5395,6 +5487,395 @@
         <int>910206</int>
         <int>910208</int>
         <int>910214</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170113</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170113</id>
+      <services>
+        <int>910306</int>
+        <int>811100</int>
+        <int>850045</int>
+        <int>860045</int>
+        <int>870045</int>
+        <int>880045</int>
+        <int>890045</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170114</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170114</id>
+      <services>
+        <int>911431</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170115</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170115</id>
+      <services>
+        <int>600001</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>161527</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>161527</id>
+      <services>
+        <int>800000</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>161528</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>161528</id>
+      <services>
+        <int>800003</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170117</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170117</id>
+      <services>
+        <int>600002</int>
+        <int>200102</int>
+        <int>200103</int>
+        <int>200104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170118</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170118</id>
+      <services>
+        <int>30002</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170119</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170119</id>
+      <services>
+        <int>820001</int>
+        <int>850012</int>
+        <int>910302</int>
+        <int>910303</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170120</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170120</id>
+      <services>
+        <int>830001</int>
+        <int>840001</int>
+        <int>850001</int>
+        <int>850014</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>161535</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>161535</id>
+      <services>
+        <int>200102</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>169204</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>169204</id>
+      <services>
+        <int>200103</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>161431</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>161431</id>
+      <services>
+        <int>200104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310000</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310000</id>
+      <services>
+        <int>101101</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310001</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310001</id>
+      <services>
+        <int>101102</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310002</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310002</id>
+      <services>
+        <int>101103</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310003</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310003</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310004</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310004</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310005</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310005</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310006</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310006</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310007</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310007</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310008</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310008</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310009</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310009</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310010</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310010</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310011</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310011</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310012</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310012</id>
+      <services>
+        <int>101100</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310089</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310089</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310090</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310090</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310091</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310091</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310092</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310092</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310093</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310093</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310094</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310094</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310095</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310095</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310096</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310096</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310097</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310097</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>310098</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>310098</id>
+      <services>
+        <int>101104</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170124</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170124</id>
+      <services>
+        <int>101005</int>
+        <int>101006</int>
+        <int>101007</int>
+        <int>101008</int>
+        <int>101009</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>169505</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>169505</id>
+      <services>
+        <int>101106</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>168802</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>168802</id>
+      <services>
+        <int>101108</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170125</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170125</id>
+      <services>
+        <int>101105</int>
+        <int>101107</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170127</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170127</id>
+      <services>
+        <int>910302</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
+  <entry>
+    <int>170128</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170128</id>
+      <services>
+        <int>910303</int>
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>

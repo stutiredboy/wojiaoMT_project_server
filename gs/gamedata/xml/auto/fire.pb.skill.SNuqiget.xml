@@ -7,7 +7,7 @@
       <id>1</id>
       <hurtmin>0</hurtmin>
       <hurtmax>5</hurtmax>
-      <nuqiget>1</nuqiget>
+      <nuqiget>5</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -16,7 +16,7 @@
       <id>2</id>
       <hurtmin>5</hurtmin>
       <hurtmax>10</hurtmax>
-      <nuqiget>3</nuqiget>
+      <nuqiget>10</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -25,7 +25,7 @@
       <id>3</id>
       <hurtmin>10</hurtmin>
       <hurtmax>15</hurtmax>
-      <nuqiget>5</nuqiget>
+      <nuqiget>15</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -34,7 +34,7 @@
       <id>4</id>
       <hurtmin>15</hurtmin>
       <hurtmax>20</hurtmax>
-      <nuqiget>7</nuqiget>
+      <nuqiget>15</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -43,7 +43,7 @@
       <id>5</id>
       <hurtmin>20</hurtmin>
       <hurtmax>25</hurtmax>
-      <nuqiget>9</nuqiget>
+      <nuqiget>20</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -52,7 +52,7 @@
       <id>6</id>
       <hurtmin>25</hurtmin>
       <hurtmax>30</hurtmax>
-      <nuqiget>11</nuqiget>
+      <nuqiget>20</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -61,7 +61,7 @@
       <id>7</id>
       <hurtmin>30</hurtmin>
       <hurtmax>35</hurtmax>
-      <nuqiget>13</nuqiget>
+      <nuqiget>25</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -70,7 +70,7 @@
       <id>8</id>
       <hurtmin>35</hurtmin>
       <hurtmax>40</hurtmax>
-      <nuqiget>15</nuqiget>
+      <nuqiget>25</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -79,7 +79,7 @@
       <id>9</id>
       <hurtmin>40</hurtmin>
       <hurtmax>45</hurtmax>
-      <nuqiget>18</nuqiget>
+      <nuqiget>30</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -88,7 +88,7 @@
       <id>10</id>
       <hurtmin>45</hurtmin>
       <hurtmax>50</hurtmax>
-      <nuqiget>21</nuqiget>
+      <nuqiget>30</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -97,7 +97,7 @@
       <id>11</id>
       <hurtmin>50</hurtmin>
       <hurtmax>55</hurtmax>
-      <nuqiget>24</nuqiget>
+      <nuqiget>35</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -106,7 +106,7 @@
       <id>12</id>
       <hurtmin>55</hurtmin>
       <hurtmax>60</hurtmax>
-      <nuqiget>27</nuqiget>
+      <nuqiget>35</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -115,7 +115,7 @@
       <id>13</id>
       <hurtmin>60</hurtmin>
       <hurtmax>65</hurtmax>
-      <nuqiget>30</nuqiget>
+      <nuqiget>45</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -124,7 +124,7 @@
       <id>14</id>
       <hurtmin>65</hurtmin>
       <hurtmax>70</hurtmax>
-      <nuqiget>33</nuqiget>
+      <nuqiget>45</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -133,7 +133,7 @@
       <id>15</id>
       <hurtmin>70</hurtmin>
       <hurtmax>75</hurtmax>
-      <nuqiget>36</nuqiget>
+      <nuqiget>50</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -142,7 +142,7 @@
       <id>16</id>
       <hurtmin>75</hurtmin>
       <hurtmax>80</hurtmax>
-      <nuqiget>40</nuqiget>
+      <nuqiget>50</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -151,7 +151,7 @@
       <id>17</id>
       <hurtmin>80</hurtmin>
       <hurtmax>85</hurtmax>
-      <nuqiget>44</nuqiget>
+      <nuqiget>55</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -160,7 +160,7 @@
       <id>18</id>
       <hurtmin>85</hurtmin>
       <hurtmax>90</hurtmax>
-      <nuqiget>48</nuqiget>
+      <nuqiget>55</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -169,7 +169,7 @@
       <id>19</id>
       <hurtmin>90</hurtmin>
       <hurtmax>95</hurtmax>
-      <nuqiget>52</nuqiget>
+      <nuqiget>60</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
   <entry>
@@ -178,7 +178,7 @@
       <id>20</id>
       <hurtmin>95</hurtmin>
       <hurtmax>100</hurtmax>
-      <nuqiget>56</nuqiget>
+      <nuqiget>60</nuqiget>
     </fire.pb.skill.SNuqiget>
   </entry>
 </tree-map>

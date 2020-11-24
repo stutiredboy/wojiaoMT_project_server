@@ -89,13 +89,11 @@ public class PChangeWeapon extends Procedure {
 			logger.error("拍卖的武器无法使用点化功能");
 			return false;
 		}
-		logger.error("-------------装备点化99999999999--");
 		
 		// 随机增加属性
 		// 处理基础属性
 		EquipItemShuXing attr = oldWeapon.getItemAttr();
 		int BaseEffectId = attr.getBaseAttrId();
-		logger.error("-------------errectvalue--"+BaseEffectId);
 		// 从ItemMakeUtil.effectConfigs 中获取基础装备的属性
 		ZhuangBeiShuXing equipAttrCnf = ItemMakeUtil.effectConfigs
 				.get(BaseEffectId);
@@ -120,14 +118,14 @@ public class PChangeWeapon extends Procedure {
 		if (ret != -confWeaponChangeCostMoney) {
 			return false;
 		}
-		Map<Integer, Integer> baseAttrs = oldWeapon.getBaseAttr();
+		Map<Integer, Integer> baseAttrs = oldWeapon.getEquipAttr().getAttr();
 		Map<Integer, Integer> baseAddAttrs = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> plusAddAttrs = new HashMap<Integer, Integer>();
+		Map<Integer, Integer> AddAttrs = oldWeapon.getEquipAttr().getAddattr();
 		for (Integer key: baseAttrs.keySet()) {
-			logger.error("--------effectid:"+key+" -----errectvalue--"+baseAttrs.get(key));
 			int id = key / 10;
 			int value = 0;
 			int randomval = 0;
-			int errectvalue = baseAttrs.get(key);
 			for (SXilianEffect sequipIteminfo : XILIANEFFECT_CFGS.values()) 
 			{
 				if(sequipIteminfo.id == id)
@@ -136,13 +134,32 @@ public class PChangeWeapon extends Procedure {
 					break;
 				}
 			}
-			value = randomval + errectvalue;
+			if(baseAttrs.containsKey(key) && baseAttrs.get(key) != 0)
+			{
+				value = baseAttrs.get(key) + randomval;
+			}
 			baseAddAttrs.put(key,value);
-			logger.error("--------ID:"+id+" -----VALUE--"+value);
+		}
+		for (Integer key: AddAttrs.keySet()) {
+			int id = key / 10;
+			int value = 0;
+			int randomval = 0;
+			for (SXilianEffect sequipIteminfo : XILIANEFFECT_CFGS.values()) 
+			{  
+				if(sequipIteminfo.id == id)
+				{
+					randomval = Misc.getRandomBetween(sequipIteminfo.attrInitvalue,sequipIteminfo.attrAddvalue);
+					break;
+				}
+			}
+			if(AddAttrs.containsKey(key) && AddAttrs.get(key) != 0)
+			{
+				value = AddAttrs.get(key) + randomval;
+			}
+			plusAddAttrs.put(key,value);
 		}
 		oldWeapon.SetBaseAttr(baseAddAttrs);
-
-		
+		oldWeapon.SetAddAttr(plusAddAttrs);
 		// 设置冷却时间
 		//nt coolDownCostTime = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(432).getValue());
 		//long targetTimeMillis = System.currentTimeMillis() + coolDownCostTime * MarketUtils.ONE_DAY;

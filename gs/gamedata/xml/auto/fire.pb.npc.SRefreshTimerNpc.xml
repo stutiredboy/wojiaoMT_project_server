@@ -6,24 +6,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>200001</id>
       <startTime>00:10:00</startTime>
-      <intervalRefresh>1200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>150222</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>60</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170100,170101,170102</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>10</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5790</awardId>
-      <awardOverStepNotice>150231</awardOverStepNotice>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170291,170292,170293,170294,170295,170296,170297,170298,170299,170300,170301,170302</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>4</sceneCnt>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6916</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>35</levelMin>
-      <levelMax>49</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -36,24 +36,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>200002</id>
       <startTime>00:10:00</startTime>
-      <intervalRefresh>1200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>150222</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>60</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170100,170101,170102</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>10</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5790</awardId>
-      <awardOverStepNotice>150231</awardOverStepNotice>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170291,170292,170293,170294,170295,170296,170297,170298,170299,170300,170301,170302</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>4</sceneCnt>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6916</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>35</levelMin>
-      <levelMax>49</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -66,24 +66,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>200003</id>
       <startTime>00:10:00</startTime>
-      <intervalRefresh>1200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>150222</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>60</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170100,170101,170102</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>10</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5790</awardId>
-      <awardOverStepNotice>150231</awardOverStepNotice>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170291,170292,170293,170294,170295,170296,170297,170298,170299,170300,170301,170302</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>4</sceneCnt>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6916</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>35</levelMin>
-      <levelMax>49</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -96,24 +96,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>200004</id>
       <startTime>00:10:00</startTime>
-      <intervalRefresh>1200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>150222</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>60</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170100,170101,170102</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>10</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5790</awardId>
-      <awardOverStepNotice>150231</awardOverStepNotice>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170291,170292,170293,170294,170295,170296,170297,170298,170299,170300,170301,170302</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>4</sceneCnt>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6916</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>35</levelMin>
-      <levelMax>49</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -126,24 +126,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>200005</id>
       <startTime>00:10:00</startTime>
-      <intervalRefresh>1200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>150222</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>60</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170100,170101,170102</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>10</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5790</awardId>
-      <awardOverStepNotice>150231</awardOverStepNotice>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170291,170292,170293,170294,170295,170296,170297,170298,170299,170300,170301,170302</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>4</sceneCnt>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6916</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>35</levelMin>
-      <levelMax>49</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -156,24 +156,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>200006</id>
       <startTime>00:10:00</startTime>
-      <intervalRefresh>1200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>150222</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>60</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170100,170101,170102</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>10</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5790</awardId>
-      <awardOverStepNotice>150231</awardOverStepNotice>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170291,170292,170293,170294,170295,170296,170297,170298,170299,170300,170301,170302</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>4</sceneCnt>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6916</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>35</levelMin>
-      <levelMax>49</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -186,24 +186,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>200007</id>
       <startTime>00:10:00</startTime>
-      <intervalRefresh>1200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>150222</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>60</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170100,170101,170102</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>10</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5790</awardId>
-      <awardOverStepNotice>150231</awardOverStepNotice>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170291,170292,170293,170294,170295,170296,170297,170298,170299,170300,170301,170302</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>4</sceneCnt>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6916</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>35</levelMin>
-      <levelMax>49</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -218,22 +218,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150223</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170051,170052,170053,170054,170055</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170303,170304,170305,170306</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5800</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6917</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -248,22 +248,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150223</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170051,170052,170053,170054,170055</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170303,170304,170305,170306</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5800</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6917</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -278,22 +278,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150223</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170051,170052,170053,170054,170055</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170303,170304,170305,170306</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5800</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6917</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -308,22 +308,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150223</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170051,170052,170053,170054,170055</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170303,170304,170305,170306</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5800</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6917</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -338,22 +338,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150223</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170051,170052,170053,170054,170055</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170303,170304,170305,170306</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5800</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6917</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -368,22 +368,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150223</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170051,170052,170053,170054,170055</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>50</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170303,170304,170305,170306</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5800</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6917</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -398,22 +398,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150223</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170051,170052,170053,170054,170055</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170303,170304,170305,170306</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
-      <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5800</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <npcLastTime>1800</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6917</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -428,22 +428,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150224</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170061,170062,170063,170064,170065</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170051,170052,170053,170054,170055,170056,170057</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5802</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <awardCnt>60</awardCnt>
+      <awardId>6914</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -458,22 +458,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150224</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170061,170062,170063,170064,170065</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170051,170052,170053,170054,170055,170056,170057</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5802</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <awardCnt>60</awardCnt>
+      <awardId>6914</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -488,22 +488,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150224</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170061,170062,170063,170064,170065</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170051,170052,170053,170054,170055,170056,170057</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5802</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <awardCnt>60</awardCnt>
+      <awardId>6914</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -518,22 +518,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150224</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170061,170062,170063,170064,170065</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170051,170052,170053,170054,170055,170056,170057</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5802</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <awardCnt>60</awardCnt>
+      <awardId>6914</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -548,22 +548,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150224</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170061,170062,170063,170064,170065</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170051,170052,170053,170054,170055,170056,170057</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5802</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <awardCnt>60</awardCnt>
+      <awardId>6914</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -578,22 +578,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150224</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170061,170062,170063,170064,170065</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170051,170052,170053,170054,170055,170056,170057</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5802</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <awardCnt>60</awardCnt>
+      <awardId>6914</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -608,22 +608,22 @@
       <startTime>00:00:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <messageId>150224</messageId>
-      <freshType>1</freshType>
-      <maxNpcCount>30</maxNpcCount>
-      <addNpcTime>1200</addNpcTime>
-      <npcList>170061,170062,170063,170064,170065</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>6</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
+      <freshType>0</freshType>
+      <maxNpcCount>60</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>170051,170052,170053,170054,170055,170056,170057</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
       <sceneCnt>4</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>5</awardCnt>
-      <awardId>5802</awardId>
-      <awardOverStepNotice>150524</awardOverStepNotice>
+      <awardCnt>60</awardCnt>
+      <awardId>6914</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -643,7 +643,7 @@
       <addNpcTime>0</addNpcTime>
       <npcList>183706</npcList>
       <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
+      <npcCount>50</npcCount>
       <sceneList>1614@8;1615@8;1616@8</sceneList>
       <sceneCnt>3</sceneCnt>
       <npcLastTime>0</npcLastTime>
@@ -653,7 +653,7 @@
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
       <addnpctype>1</addnpctype>
       <canwatchbattle>0</canwatchbattle>
@@ -672,7 +672,7 @@
       <addNpcTime>0</addNpcTime>
       <npcList>183706</npcList>
       <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
+      <npcCount>50</npcCount>
       <sceneList>1614@8;1615@8;1616@8</sceneList>
       <sceneCnt>3</sceneCnt>
       <npcLastTime>0</npcLastTime>
@@ -682,7 +682,7 @@
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
       <addnpctype>1</addnpctype>
       <canwatchbattle>0</canwatchbattle>
@@ -701,7 +701,7 @@
       <addNpcTime>0</addNpcTime>
       <npcList>183706</npcList>
       <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
+      <npcCount>50</npcCount>
       <sceneList>1614@8;1615@8;1616@8</sceneList>
       <sceneCnt>3</sceneCnt>
       <npcLastTime>0</npcLastTime>
@@ -711,7 +711,7 @@
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
       <addnpctype>1</addnpctype>
       <canwatchbattle>0</canwatchbattle>
@@ -730,7 +730,7 @@
       <addNpcTime>0</addNpcTime>
       <npcList>183706</npcList>
       <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
+      <npcCount>50</npcCount>
       <sceneList>1614@8;1615@8;1616@8</sceneList>
       <sceneCnt>3</sceneCnt>
       <npcLastTime>0</npcLastTime>
@@ -740,7 +740,7 @@
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
       <addnpctype>1</addnpctype>
       <canwatchbattle>0</canwatchbattle>
@@ -759,7 +759,7 @@
       <addNpcTime>0</addNpcTime>
       <npcList>183706</npcList>
       <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
+      <npcCount>50</npcCount>
       <sceneList>1614@8;1615@8;1616@8</sceneList>
       <sceneCnt>3</sceneCnt>
       <npcLastTime>0</npcLastTime>
@@ -769,7 +769,7 @@
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
       <addnpctype>1</addnpctype>
       <canwatchbattle>0</canwatchbattle>
@@ -788,7 +788,7 @@
       <addNpcTime>0</addNpcTime>
       <npcList>183706</npcList>
       <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
+      <npcCount>50</npcCount>
       <sceneList>1614@8;1615@8;1616@8</sceneList>
       <sceneCnt>3</sceneCnt>
       <npcLastTime>0</npcLastTime>
@@ -798,7 +798,7 @@
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
       <addnpctype>1</addnpctype>
       <canwatchbattle>0</canwatchbattle>
@@ -817,7 +817,7 @@
       <addNpcTime>0</addNpcTime>
       <npcList>183706</npcList>
       <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
+      <npcCount>50</npcCount>
       <sceneList>1614@8;1615@8;1616@8</sceneList>
       <sceneCnt>3</sceneCnt>
       <npcLastTime>0</npcLastTime>
@@ -827,7 +827,7 @@
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
       <addnpctype>1</addnpctype>
       <canwatchbattle>0</canwatchbattle>
@@ -838,203 +838,210 @@
     <int>231001</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>231001</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>0</intervalRefresh>
-      <messageId>170016</messageId>
+      <startTime>00:35:00</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>150230</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>1</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>183707</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>0</npcLastTime>
-      <awardCnt>0</awardCnt>
-      <awardId>0</awardId>
-      <awardOverStepNotice>0</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170061,170062,170063,170064,170065,170066,170067</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6915</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
-      <addnpctype>1</addnpctype>
+      <addnpctype>0</addnpctype>
       <canwatchbattle>0</canwatchbattle>
       <xiaoshi>0</xiaoshi>
+      <actid>231</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>231002</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>231002</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>0</intervalRefresh>
-      <messageId>170016</messageId>
+      <startTime>00:35:00</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>150230</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>1</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>183707</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>0</npcLastTime>
-      <awardCnt>0</awardCnt>
-      <awardId>0</awardId>
-      <awardOverStepNotice>0</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170061,170062,170063,170064,170065,170066,170067</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6915</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
-      <addnpctype>1</addnpctype>
+      <addnpctype>0</addnpctype>
       <canwatchbattle>0</canwatchbattle>
       <xiaoshi>0</xiaoshi>
+      <actid>231</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>231003</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>231003</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>0</intervalRefresh>
-      <messageId>170016</messageId>
+      <startTime>00:35:00</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>150230</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>1</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>183707</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>0</npcLastTime>
-      <awardCnt>0</awardCnt>
-      <awardId>0</awardId>
-      <awardOverStepNotice>0</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170061,170062,170063,170064,170065,170066,170067</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6915</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
-      <addnpctype>1</addnpctype>
+      <addnpctype>0</addnpctype>
       <canwatchbattle>0</canwatchbattle>
       <xiaoshi>0</xiaoshi>
+      <actid>231</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>231004</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>231004</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>0</intervalRefresh>
-      <messageId>170016</messageId>
+      <startTime>00:35:00</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>150230</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>1</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>183707</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>0</npcLastTime>
-      <awardCnt>0</awardCnt>
-      <awardId>0</awardId>
-      <awardOverStepNotice>0</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170061,170062,170063,170064,170065,170066,170067</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6915</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
-      <addnpctype>1</addnpctype>
+      <addnpctype>0</addnpctype>
       <canwatchbattle>0</canwatchbattle>
       <xiaoshi>0</xiaoshi>
+      <actid>231</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>231005</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>231005</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>0</intervalRefresh>
-      <messageId>170016</messageId>
+      <startTime>00:35:00</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>150230</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>1</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>183707</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>0</npcLastTime>
-      <awardCnt>0</awardCnt>
-      <awardId>0</awardId>
-      <awardOverStepNotice>0</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170061,170062,170063,170064,170065,170066,170067</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6915</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
-      <addnpctype>1</addnpctype>
+      <addnpctype>0</addnpctype>
       <canwatchbattle>0</canwatchbattle>
       <xiaoshi>0</xiaoshi>
+      <actid>231</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>231006</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>231006</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>0</intervalRefresh>
-      <messageId>170016</messageId>
+      <startTime>00:35:00</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>150230</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>1</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>183707</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>0</npcLastTime>
-      <awardCnt>0</awardCnt>
-      <awardId>0</awardId>
-      <awardOverStepNotice>0</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170061,170062,170063,170064,170065,170066,170067</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6915</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
-      <addnpctype>1</addnpctype>
+      <addnpctype>0</addnpctype>
       <canwatchbattle>0</canwatchbattle>
       <xiaoshi>0</xiaoshi>
+      <actid>231</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>231007</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>231007</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>0</intervalRefresh>
-      <messageId>170016</messageId>
+      <startTime>00:35:00</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>150230</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>1</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>183707</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>24</npcCount>
-      <sceneList>1608@8;1609@8;1605@8</sceneList>
-      <sceneCnt>3</sceneCnt>
-      <npcLastTime>0</npcLastTime>
-      <awardCnt>0</awardCnt>
-      <awardId>0</awardId>
-      <awardOverStepNotice>0</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170061,170062,170063,170064,170065,170066,170067</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6915</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>1</levelMin>
-      <levelMax>155</levelMax>
+      <levelMax>300</levelMax>
       <battletime>0</battletime>
-      <addnpctype>1</addnpctype>
+      <addnpctype>0</addnpctype>
       <canwatchbattle>0</canwatchbattle>
       <xiaoshi>0</xiaoshi>
+      <actid>231</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -1044,27 +1051,26 @@
       <startTime>00:05:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211107,211108</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
+      <npcList>211107,211108,211109,211110,211111,211123</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>30</npcCount>
       <sceneList>1616@1</sceneList>
       <sceneCnt>1</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5740</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
+      <awardCnt>50</awardCnt>
+      <awardId>6913</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>232</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -1074,27 +1080,26 @@
       <startTime>00:05:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211107,211108</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
+      <npcList>211107,211108,211109,211110,211111,211123</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>30</npcCount>
       <sceneList>1616@1</sceneList>
       <sceneCnt>1</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5740</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
+      <awardCnt>50</awardCnt>
+      <awardId>6913</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>232</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -1104,27 +1109,26 @@
       <startTime>00:05:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211107,211108</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
+      <npcList>211107,211108,211109,211110,211111,211123</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>30</npcCount>
       <sceneList>1616@1</sceneList>
       <sceneCnt>1</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5740</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
+      <awardCnt>50</awardCnt>
+      <awardId>6913</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>232</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -1134,27 +1138,26 @@
       <startTime>00:05:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211107,211108</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
+      <npcList>211107,211108,211109,211110,211111,211123</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>30</npcCount>
       <sceneList>1616@1</sceneList>
       <sceneCnt>1</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5740</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
+      <awardCnt>50</awardCnt>
+      <awardId>6913</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>232</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -1164,27 +1167,26 @@
       <startTime>00:05:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211107,211108</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
+      <npcList>211107,211108,211109,211110,211111,211123</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>30</npcCount>
       <sceneList>1616@1</sceneList>
       <sceneCnt>1</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5740</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
+      <awardCnt>50</awardCnt>
+      <awardId>6913</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>232</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -1194,27 +1196,26 @@
       <startTime>00:05:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211107,211108</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
+      <npcList>211107,211108,211109,211110,211111,211123</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>30</npcCount>
       <sceneList>1616@1</sceneList>
       <sceneCnt>1</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5740</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
+      <awardCnt>50</awardCnt>
+      <awardId>6913</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>232</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -1224,1497 +1225,1496 @@
       <startTime>00:05:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>60</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211107,211108</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
+      <npcList>211107,211108,211109,211110,211111,211123</npcList>
+      <npcGroup>28</npcGroup>
+      <npcCount>30</npcCount>
       <sceneList>1616@1</sceneList>
       <sceneCnt>1</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5740</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
+      <awardCnt>50</awardCnt>
+      <awardId>6913</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>0</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>232</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
-    <int>233001</int>
+    <int>245001</int>
     <fire.pb.npc.SRefreshTimerNpc>
-      <id>233001</id>
-      <startTime>00:05:00</startTime>
+      <id>245001</id>
+      <startTime>00:45:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191061</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211131,211132</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
-      <sceneList>1616@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5750</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>211172,211173,211174,211175,211176,211177,211178,211179,211180,211181</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>30</awardCnt>
+      <awardId>6922</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>0</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>245</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
-    <int>233002</int>
+    <int>245002</int>
     <fire.pb.npc.SRefreshTimerNpc>
-      <id>233002</id>
-      <startTime>00:05:00</startTime>
+      <id>245002</id>
+      <startTime>00:45:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191061</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211131,211132</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
-      <sceneList>1616@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5750</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>211172,211173,211174,211175,211176,211177,211178,211179,211180,211181</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>30</awardCnt>
+      <awardId>6922</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>0</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>245</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
-    <int>233003</int>
+    <int>245003</int>
     <fire.pb.npc.SRefreshTimerNpc>
-      <id>233003</id>
-      <startTime>00:05:00</startTime>
+      <id>245003</id>
+      <startTime>00:45:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191061</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211131,211132</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
-      <sceneList>1616@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5750</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>211172,211173,211174,211175,211176,211177,211178,211179,211180,211181</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>30</awardCnt>
+      <awardId>6922</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>0</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>245</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
-    <int>233004</int>
+    <int>245004</int>
     <fire.pb.npc.SRefreshTimerNpc>
-      <id>233004</id>
-      <startTime>00:05:00</startTime>
+      <id>245004</id>
+      <startTime>00:45:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191061</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211131,211132</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
-      <sceneList>1616@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5750</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>211172,211173,211174,211175,211176,211177,211178,211179,211180,211181</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>30</awardCnt>
+      <awardId>6922</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>0</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>245</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
-    <int>233005</int>
+    <int>245005</int>
     <fire.pb.npc.SRefreshTimerNpc>
-      <id>233005</id>
-      <startTime>00:05:00</startTime>
+      <id>245005</id>
+      <startTime>00:45:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191061</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211131,211132</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
-      <sceneList>1616@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5750</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>211172,211173,211174,211175,211176,211177,211178,211179,211180,211181</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>30</awardCnt>
+      <awardId>6922</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>0</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>245</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
-    <int>233006</int>
+    <int>245006</int>
     <fire.pb.npc.SRefreshTimerNpc>
-      <id>233006</id>
-      <startTime>00:05:00</startTime>
+      <id>245006</id>
+      <startTime>00:45:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191061</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211131,211132</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
-      <sceneList>1616@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5750</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>211172,211173,211174,211175,211176,211177,211178,211179,211180,211181</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>30</awardCnt>
+      <awardId>6922</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>0</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>245</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
-    <int>233007</int>
+    <int>245007</int>
     <fire.pb.npc.SRefreshTimerNpc>
-      <id>233007</id>
-      <startTime>00:05:00</startTime>
+      <id>245007</id>
+      <startTime>00:45:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191061</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211131,211132</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>3</npcCount>
-      <sceneList>1616@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5750</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>211172,211173,211174,211175,211176,211177,211178,211179,211180,211181</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>30</awardCnt>
+      <awardId>6922</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>25</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>0</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>1</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>245</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>234001</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>234001</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:25:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191060</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>10</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211110,211111,211112</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1614@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5760</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170307,170308,170309</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6918</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>40</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>2</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>234</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>234002</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>234002</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:25:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191060</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>10</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211110,211111,211112</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1614@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5760</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170307,170308,170309</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6918</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>40</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>2</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>234</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>234003</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>234003</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:25:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191060</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>10</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211110,211111,211112</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1614@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5760</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170307,170308,170309</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6918</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>40</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>2</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>234</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>234004</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>234004</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:25:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191060</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>10</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211110,211111,211112</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1614@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5760</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170307,170308,170309</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6918</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>40</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>2</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>234</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>234005</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>234005</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:25:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191060</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>10</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211110,211111,211112</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1614@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5760</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170307,170308,170309</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6918</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>40</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>2</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>234</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>234006</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>234006</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:25:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191060</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>10</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211110,211111,211112</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1614@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5760</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170307,170308,170309</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6918</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>40</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>2</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>234</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>234007</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>234007</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:25:05</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191060</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>10</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211110,211111,211112</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1614@1</sceneList>
-      <sceneCnt>1</sceneCnt>
-      <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5760</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <npcList>170307,170308,170309</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>15</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>60</awardCnt>
+      <awardId>6918</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>40</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>2</eventbiaoid>
       <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <xiaoshi>0</xiaoshi>
+      <actid>234</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>235001</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>235001</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:20:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191057</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211113,211114,211115</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1606@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>170100,170101,170102,170103,170104,170105,170106</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5770</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>60</awardCnt>
+      <awardId>6921</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>3</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>235</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>235002</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>235002</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:20:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191057</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211113,211114,211115</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1606@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>170100,170101,170102,170103,170104,170105,170106</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5770</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>60</awardCnt>
+      <awardId>6921</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>3</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>235</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>235003</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>235003</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:20:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191057</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211113,211114,211115</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1606@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>170100,170101,170102,170103,170104,170105,170106</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5770</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>60</awardCnt>
+      <awardId>6921</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>3</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>235</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>235004</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>235004</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:20:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191057</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211113,211114,211115</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1606@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>170100,170101,170102,170103,170104,170105,170106</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5770</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>60</awardCnt>
+      <awardId>6921</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>3</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>235</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>235005</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>235005</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:20:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191057</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211113,211114,211115</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1606@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>170100,170101,170102,170103,170104,170105,170106</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5770</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>60</awardCnt>
+      <awardId>6921</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>3</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>235</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>235006</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>235006</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:20:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191057</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211113,211114,211115</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1606@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>170100,170101,170102,170103,170104,170105,170106</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5770</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>60</awardCnt>
+      <awardId>6921</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>3</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>235</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>235007</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>235007</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:20:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191057</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211113,211114,211115</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1606@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>170100,170101,170102,170103,170104,170105,170106</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5770</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>60</awardCnt>
+      <awardId>6921</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>50</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>3</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>235</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>236001</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>236001</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:30:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191054</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211116,211117,211118</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1605@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221171</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6923</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>60</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>4</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>236</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>236002</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>236002</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:30:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191054</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211116,211117,211118</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1605@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221171</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6923</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>60</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>4</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>236</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>236003</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>236003</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:30:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191054</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211116,211117,211118</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1605@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221171</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6923</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>60</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>4</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>236</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>236004</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>236004</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:30:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191054</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211116,211117,211118</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1605@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221171</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6923</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>60</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>4</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>236</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>236005</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>236005</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:30:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191054</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211116,211117,211118</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1605@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221171</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6923</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>60</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>4</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>236</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>236006</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>236006</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:30:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191054</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211116,211117,211118</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1605@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221171</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6923</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>60</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>4</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>236</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>236007</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>236007</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:30:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191054</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211116,211117,211118</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1605@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221171</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6923</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
       <levelMin>60</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>4</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>236</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>237001</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>237001</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:40:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191059</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211119,211120,211121</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1607@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221172</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6924</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>5</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>237</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>237002</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>237002</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:40:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191059</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211119,211120,211121</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1607@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221172</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6924</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>5</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>237</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>237003</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>237003</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:40:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191059</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211119,211120,211121</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1607@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221172</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6924</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>5</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>237</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>237004</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>237004</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:40:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191059</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211119,211120,211121</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1607@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221172</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6924</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>5</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>237</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>237005</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>237005</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:40:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191059</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211119,211120,211121</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1607@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221172</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6924</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>5</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>237</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>237006</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>237006</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:40:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191059</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211119,211120,211121</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1607@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221172</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6924</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>5</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>237</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>237007</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>237007</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:40:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191059</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211119,211120,211121</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1607@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221172</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>20</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>30</awardCnt>
+      <awardId>6924</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>5</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>237</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>238001</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>238001</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>3600</intervalRefresh>
+      <startTime>00:50:00</startTime>
+      <intervalRefresh>7200</intervalRefresh>
+      <messageId>191056</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211122,211123,211124</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1610@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221173</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>8</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>20</awardCnt>
+      <awardId>6925</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>80</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>6</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>238</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>238002</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>238002</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>3600</intervalRefresh>
+      <startTime>00:50:00</startTime>
+      <intervalRefresh>7200</intervalRefresh>
+      <messageId>191056</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211122,211123,211124</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1610@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221173</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>8</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>20</awardCnt>
+      <awardId>6925</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>80</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>6</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>238</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>238003</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>238003</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>3600</intervalRefresh>
+      <startTime>00:50:00</startTime>
+      <intervalRefresh>7200</intervalRefresh>
+      <messageId>191056</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211122,211123,211124</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1610@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221173</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>8</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>20</awardCnt>
+      <awardId>6925</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>80</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>6</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>238</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>238004</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>238004</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>3600</intervalRefresh>
+      <startTime>00:50:00</startTime>
+      <intervalRefresh>7200</intervalRefresh>
+      <messageId>191056</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211122,211123,211124</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1610@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221173</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>8</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>20</awardCnt>
+      <awardId>6925</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>80</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>6</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>238</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>238005</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>238005</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>3600</intervalRefresh>
+      <startTime>00:50:00</startTime>
+      <intervalRefresh>7200</intervalRefresh>
+      <messageId>191056</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211122,211123,211124</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1610@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221173</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>8</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>20</awardCnt>
+      <awardId>6925</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>80</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>6</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>238</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>238006</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>238006</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>3600</intervalRefresh>
+      <startTime>00:50:00</startTime>
+      <intervalRefresh>7200</intervalRefresh>
+      <messageId>191056</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211122,211123,211124</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1610@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221173</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>8</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>20</awardCnt>
+      <awardId>6925</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>80</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>6</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>238</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>238007</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>238007</id>
-      <startTime>00:05:00</startTime>
-      <intervalRefresh>3600</intervalRefresh>
+      <startTime>00:50:00</startTime>
+      <intervalRefresh>7200</intervalRefresh>
+      <messageId>191056</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211122,211123,211124</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1610@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>221173</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>8</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>20</awardCnt>
+      <awardId>6925</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>80</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>6</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>238</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>239001</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>239001</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:10:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211125,211126,211127</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1609@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>211161,211162,211163,211164</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>50</awardCnt>
+      <awardId>6920</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>90</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>7</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>239</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>239002</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>239002</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:10:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211125,211126,211127</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1609@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>211161,211162,211163,211164</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>50</awardCnt>
+      <awardId>6920</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>90</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>7</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>239</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>239003</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>239003</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:10:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211125,211126,211127</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1609@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>211161,211162,211163,211164</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>50</awardCnt>
+      <awardId>6920</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>90</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>7</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>239</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>239004</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>239004</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:10:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211125,211126,211127</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1609@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>211161,211162,211163,211164</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>50</awardCnt>
+      <awardId>6920</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>90</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>7</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>239</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>239005</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>239005</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:10:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211125,211126,211127</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1609@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>211161,211162,211163,211164</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>50</awardCnt>
+      <awardId>6920</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>90</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>7</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>239</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>239006</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>239006</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:10:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211125,211126,211127</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1609@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>211161,211162,211163,211164</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>50</awardCnt>
+      <awardId>6920</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>90</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>7</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>239</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
     <int>239007</int>
     <fire.pb.npc.SRefreshTimerNpc>
       <id>239007</id>
-      <startTime>00:05:00</startTime>
+      <startTime>00:10:00</startTime>
       <intervalRefresh>3600</intervalRefresh>
+      <messageId>191055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211125,211126,211127</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>2</npcCount>
-      <sceneList>1609@1</sceneList>
-      <sceneCnt>1</sceneCnt>
+      <npcList>211161,211162,211163,211164</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3300</npcLastTime>
-      <awardCnt>10</awardCnt>
-      <awardId>5780</awardId>
-      <awardOverStepNotice>150210</awardOverStepNotice>
-      <teamRequire>0</teamRequire>
+      <awardCnt>50</awardCnt>
+      <awardId>6920</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
       <teamCount>0</teamCount>
-      <levelMin>90</levelMin>
-      <levelMax>155</levelMax>
-      <battletime>5</battletime>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
       <addnpctype>0</addnpctype>
-      <eventbiaoid>7</eventbiaoid>
-      <canwatchbattle>0</canwatchbattle>
-      <xiaoshi>1</xiaoshi>
-      <actid>105</actid>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>239</actid>
     </fire.pb.npc.SRefreshTimerNpc>
   </entry>
   <entry>
@@ -2722,24 +2722,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>244001</id>
       <startTime>00:00:10</startTime>
-      <intervalRefresh>7200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>170055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211161,211162,211163,211164,211165,211166,211167,211168</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>1</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
-      <sceneCnt>4</sceneCnt>
+      <npcList>211165,211166,211167,211168</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>2</awardCnt>
-      <awardId>5780</awardId>
+      <awardCnt>50</awardCnt>
+      <awardId>6919</awardId>
       <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -2752,24 +2752,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>244002</id>
       <startTime>00:00:10</startTime>
-      <intervalRefresh>7200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>170055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211161,211162,211163,211164,211165,211166,211167,211168</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>1</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
-      <sceneCnt>4</sceneCnt>
+      <npcList>211165,211166,211167,211168</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>2</awardCnt>
-      <awardId>5780</awardId>
+      <awardCnt>50</awardCnt>
+      <awardId>6919</awardId>
       <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -2782,24 +2782,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>244003</id>
       <startTime>00:00:10</startTime>
-      <intervalRefresh>7200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>170055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211161,211162,211163,211164,211165,211166,211167,211168</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>1</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
-      <sceneCnt>4</sceneCnt>
+      <npcList>211165,211166,211167,211168</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>2</awardCnt>
-      <awardId>5780</awardId>
+      <awardCnt>50</awardCnt>
+      <awardId>6919</awardId>
       <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -2812,24 +2812,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>244004</id>
       <startTime>00:00:10</startTime>
-      <intervalRefresh>7200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>170055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211161,211162,211163,211164,211165,211166,211167,211168</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>1</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
-      <sceneCnt>4</sceneCnt>
+      <npcList>211165,211166,211167,211168</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>2</awardCnt>
-      <awardId>5780</awardId>
+      <awardCnt>50</awardCnt>
+      <awardId>6919</awardId>
       <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -2842,24 +2842,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>244005</id>
       <startTime>00:00:10</startTime>
-      <intervalRefresh>7200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>170055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211161,211162,211163,211164,211165,211166,211167,211168</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>1</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
-      <sceneCnt>4</sceneCnt>
+      <npcList>211165,211166,211167,211168</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>2</awardCnt>
-      <awardId>5780</awardId>
+      <awardCnt>50</awardCnt>
+      <awardId>6919</awardId>
       <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -2872,24 +2872,24 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>244006</id>
       <startTime>00:00:10</startTime>
-      <intervalRefresh>7200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>170055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211161,211162,211163,211164,211165,211166,211167,211168</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>1</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
-      <sceneCnt>4</sceneCnt>
+      <npcList>211165,211166,211167,211168</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>2</awardCnt>
-      <awardId>5780</awardId>
+      <awardCnt>50</awardCnt>
+      <awardId>6919</awardId>
       <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>
@@ -2902,24 +2902,234 @@
     <fire.pb.npc.SRefreshTimerNpc>
       <id>244007</id>
       <startTime>00:00:10</startTime>
-      <intervalRefresh>7200</intervalRefresh>
+      <intervalRefresh>3600</intervalRefresh>
       <messageId>170055</messageId>
       <freshType>0</freshType>
-      <maxNpcCount>0</maxNpcCount>
+      <maxNpcCount>20</maxNpcCount>
       <addNpcTime>0</addNpcTime>
-      <npcList>211161,211162,211163,211164,211165,211166,211167,211168</npcList>
-      <npcGroup>1</npcGroup>
-      <npcCount>1</npcCount>
-      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8</sceneList>
-      <sceneCnt>4</sceneCnt>
+      <npcList>211165,211166,211167,211168</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
       <npcLastTime>3600</npcLastTime>
-      <awardCnt>2</awardCnt>
-      <awardId>5780</awardId>
+      <awardCnt>50</awardCnt>
+      <awardId>6919</awardId>
       <awardOverStepNotice>170057</awardOverStepNotice>
       <teamRequire>1</teamRequire>
-      <teamCount>3</teamCount>
-      <levelMin>70</levelMin>
-      <levelMax>155</levelMax>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
+      <addnpctype>0</addnpctype>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>244</actid>
+    </fire.pb.npc.SRefreshTimerNpc>
+  </entry>
+  <entry>
+    <int>244008</int>
+    <fire.pb.npc.SRefreshTimerNpc>
+      <id>244008</id>
+      <startTime>00:00:10</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>191155</messageId>
+      <freshType>0</freshType>
+      <maxNpcCount>20</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>310099</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6948</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
+      <addnpctype>0</addnpctype>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>244</actid>
+    </fire.pb.npc.SRefreshTimerNpc>
+  </entry>
+  <entry>
+    <int>244009</int>
+    <fire.pb.npc.SRefreshTimerNpc>
+      <id>244009</id>
+      <startTime>00:00:10</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>191155</messageId>
+      <freshType>0</freshType>
+      <maxNpcCount>20</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>310099</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6948</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
+      <addnpctype>0</addnpctype>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>244</actid>
+    </fire.pb.npc.SRefreshTimerNpc>
+  </entry>
+  <entry>
+    <int>244010</int>
+    <fire.pb.npc.SRefreshTimerNpc>
+      <id>244010</id>
+      <startTime>00:00:10</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>191155</messageId>
+      <freshType>0</freshType>
+      <maxNpcCount>20</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>310099</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6948</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
+      <addnpctype>0</addnpctype>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>244</actid>
+    </fire.pb.npc.SRefreshTimerNpc>
+  </entry>
+  <entry>
+    <int>244011</int>
+    <fire.pb.npc.SRefreshTimerNpc>
+      <id>244011</id>
+      <startTime>00:00:10</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>191155</messageId>
+      <freshType>0</freshType>
+      <maxNpcCount>20</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>310099</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6948</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
+      <addnpctype>0</addnpctype>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>244</actid>
+    </fire.pb.npc.SRefreshTimerNpc>
+  </entry>
+  <entry>
+    <int>244012</int>
+    <fire.pb.npc.SRefreshTimerNpc>
+      <id>244012</id>
+      <startTime>00:00:10</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>191155</messageId>
+      <freshType>0</freshType>
+      <maxNpcCount>20</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>310099</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6948</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
+      <addnpctype>0</addnpctype>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>244</actid>
+    </fire.pb.npc.SRefreshTimerNpc>
+  </entry>
+  <entry>
+    <int>244013</int>
+    <fire.pb.npc.SRefreshTimerNpc>
+      <id>244013</id>
+      <startTime>00:00:10</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>191155</messageId>
+      <freshType>0</freshType>
+      <maxNpcCount>20</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>310099</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6948</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
+      <battletime>1</battletime>
+      <addnpctype>0</addnpctype>
+      <canwatchbattle>1</canwatchbattle>
+      <xiaoshi>0</xiaoshi>
+      <actid>244</actid>
+    </fire.pb.npc.SRefreshTimerNpc>
+  </entry>
+  <entry>
+    <int>244014</int>
+    <fire.pb.npc.SRefreshTimerNpc>
+      <id>244014</id>
+      <startTime>00:00:10</startTime>
+      <intervalRefresh>3600</intervalRefresh>
+      <messageId>191155</messageId>
+      <freshType>0</freshType>
+      <maxNpcCount>20</maxNpcCount>
+      <addNpcTime>0</addNpcTime>
+      <npcList>310099</npcList>
+      <npcGroup>2</npcGroup>
+      <npcCount>10</npcCount>
+      <sceneList>1606@8;1607@8;1610@8;1611@8;1612@8;1614@8;1616@8;1608@8;1609@8;1605@8</sceneList>
+      <sceneCnt>7</sceneCnt>
+      <npcLastTime>3600</npcLastTime>
+      <awardCnt>50</awardCnt>
+      <awardId>6948</awardId>
+      <awardOverStepNotice>170057</awardOverStepNotice>
+      <teamRequire>1</teamRequire>
+      <teamCount>0</teamCount>
+      <levelMin>60</levelMin>
+      <levelMax>300</levelMax>
       <battletime>1</battletime>
       <addnpctype>0</addnpctype>
       <canwatchbattle>1</canwatchbattle>

@@ -109,7 +109,7 @@
     <int>31</int>
     <fire.pb.item.SRankListNumConfig>
       <id>31</id>
-      <personNum>50</personNum>
+      <personNum>20</personNum>
       <namename>公会排行榜</namename>
     </fire.pb.item.SRankListNumConfig>
   </entry>

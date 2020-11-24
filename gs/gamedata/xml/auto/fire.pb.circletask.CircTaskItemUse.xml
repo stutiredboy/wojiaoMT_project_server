@@ -10,10 +10,10 @@
       <levelmin>15</levelmin>
       <levelmax>29</levelmax>
       <mapid>1605</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>47</xpos>
+      <ypos>36</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50350</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -26,10 +26,10 @@
       <levelmin>30</levelmin>
       <levelmax>39</levelmax>
       <mapid>1606</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>49</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50351</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -42,10 +42,10 @@
       <levelmin>40</levelmin>
       <levelmax>49</levelmax>
       <mapid>1607</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>22</xpos>
+      <ypos>60</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50352</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -58,10 +58,10 @@
       <levelmin>50</levelmin>
       <levelmax>59</levelmax>
       <mapid>1608</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>44</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50353</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -74,10 +74,10 @@
       <levelmin>60</levelmin>
       <levelmax>69</levelmax>
       <mapid>1609</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>55</xpos>
+      <ypos>63</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50354</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -90,10 +90,10 @@
       <levelmin>70</levelmin>
       <levelmax>155</levelmax>
       <mapid>1610</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>70</xpos>
+      <ypos>57</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50355</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -106,10 +106,10 @@
       <levelmin>15</levelmin>
       <levelmax>29</levelmax>
       <mapid>1605</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>47</xpos>
+      <ypos>36</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50356</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -122,10 +122,10 @@
       <levelmin>30</levelmin>
       <levelmax>39</levelmax>
       <mapid>1606</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>49</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50357</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -138,10 +138,10 @@
       <levelmin>40</levelmin>
       <levelmax>49</levelmax>
       <mapid>1607</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>22</xpos>
+      <ypos>60</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50358</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -154,10 +154,10 @@
       <levelmin>50</levelmin>
       <levelmax>59</levelmax>
       <mapid>1608</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>44</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50359</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -170,10 +170,10 @@
       <levelmin>60</levelmin>
       <levelmax>69</levelmax>
       <mapid>1609</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>55</xpos>
+      <ypos>63</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50360</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -186,10 +186,10 @@
       <levelmin>70</levelmin>
       <levelmax>155</levelmax>
       <mapid>1610</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>70</xpos>
+      <ypos>57</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50361</itemid>
     </fire.pb.circletask.CircTaskItemUse>
   </entry>
@@ -202,10 +202,10 @@
       <levelmin>15</levelmin>
       <levelmax>29</levelmax>
       <mapid>1605</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>47</xpos>
+      <ypos>36</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50362</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -219,10 +219,10 @@
       <levelmin>30</levelmin>
       <levelmax>39</levelmax>
       <mapid>1606</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>49</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50363</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -236,10 +236,10 @@
       <levelmin>40</levelmin>
       <levelmax>49</levelmax>
       <mapid>1607</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>21</xpos>
+      <ypos>59</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50364</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -253,10 +253,10 @@
       <levelmin>50</levelmin>
       <levelmax>59</levelmax>
       <mapid>1608</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>44</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50365</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -270,10 +270,10 @@
       <levelmin>60</levelmin>
       <levelmax>69</levelmax>
       <mapid>1609</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>55</xpos>
+      <ypos>63</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50366</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -287,10 +287,10 @@
       <levelmin>70</levelmin>
       <levelmax>155</levelmax>
       <mapid>1610</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>70</xpos>
+      <ypos>57</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50367</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -304,10 +304,10 @@
       <levelmin>15</levelmin>
       <levelmax>29</levelmax>
       <mapid>1605</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>47</xpos>
+      <ypos>36</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50368</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -321,10 +321,10 @@
       <levelmin>30</levelmin>
       <levelmax>39</levelmax>
       <mapid>1606</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>49</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50369</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -338,10 +338,10 @@
       <levelmin>40</levelmin>
       <levelmax>49</levelmax>
       <mapid>1607</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>21</xpos>
+      <ypos>59</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50370</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -355,10 +355,10 @@
       <levelmin>50</levelmin>
       <levelmax>59</levelmax>
       <mapid>1608</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>41</xpos>
+      <ypos>44</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50371</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -372,10 +372,10 @@
       <levelmin>60</levelmin>
       <levelmax>69</levelmax>
       <mapid>1609</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>55</xpos>
+      <ypos>63</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50372</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>
@@ -389,10 +389,10 @@
       <levelmin>70</levelmin>
       <levelmax>155</levelmax>
       <mapid>1610</mapid>
-      <xpos>100</xpos>
-      <ypos>100</ypos>
+      <xpos>70</xpos>
+      <ypos>57</ypos>
       <excurs>10</excurs>
-      <israndompos>1</israndompos>
+      <israndompos>0</israndompos>
       <itemid>50373</itemid>
       <hanhua>296</hanhua>
     </fire.pb.circletask.CircTaskItemUse>

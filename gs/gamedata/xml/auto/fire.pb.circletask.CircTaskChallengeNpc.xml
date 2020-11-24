@@ -2997,4 +2997,30 @@
       <npcsrv>100200</npcsrv>
     </fire.pb.circletask.CircTaskChallengeNpc>
   </entry>
+  <entry>
+    <int>235</int>
+    <fire.pb.circletask.CircTaskChallengeNpc>
+      <id>235</id>
+      <ctgroup>231</ctgroup>
+      <school>0</school>
+      <levelmin>40</levelmin>
+      <levelmax>155</levelmax>
+      <npcid>169505@100</npcid>
+      <battleinfo>3248@100</battleinfo>
+      <npcsrv>101106</npcsrv>
+    </fire.pb.circletask.CircTaskChallengeNpc>
+  </entry>
+  <entry>
+    <int>236</int>
+    <fire.pb.circletask.CircTaskChallengeNpc>
+      <id>236</id>
+      <ctgroup>232</ctgroup>
+      <school>0</school>
+      <levelmin>40</levelmin>
+      <levelmax>155</levelmax>
+      <npcid>168802@100</npcid>
+      <battleinfo>3247@100</battleinfo>
+      <npcsrv>101108</npcsrv>
+    </fire.pb.circletask.CircTaskChallengeNpc>
+  </entry>
 </tree-map>

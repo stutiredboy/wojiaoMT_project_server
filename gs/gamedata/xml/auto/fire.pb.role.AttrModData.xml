@@ -5,7 +5,7 @@
     <int>60</int>
     <fire.pb.role.AttrModData>
       <id>60</id>
-      <consfactor>8</consfactor>
+      <consfactor>10</consfactor>
       <iqfactor>0</iqfactor>
       <strfactor>0</strfactor>
       <endufactor>0</endufactor>
@@ -17,7 +17,7 @@
     <fire.pb.role.AttrModData>
       <id>90</id>
       <consfactor>0</consfactor>
-      <iqfactor>5</iqfactor>
+      <iqfactor>7</iqfactor>
       <strfactor>0</strfactor>
       <endufactor>0</endufactor>
       <agifactor>0</agifactor>
@@ -41,7 +41,7 @@
       <consfactor>0</consfactor>
       <iqfactor>0</iqfactor>
       <strfactor>0</strfactor>
-      <endufactor>2.2000000000000002</endufactor>
+      <endufactor>2.2</endufactor>
       <agifactor>0</agifactor>
     </fire.pb.role.AttrModData>
   </entry>
@@ -86,7 +86,7 @@
       <iqfactor>0.0</iqfactor>
       <strfactor>0.0</strfactor>
       <endufactor>0.0</endufactor>
-      <agifactor>0.0</agifactor>
+      <agifactor>1.5</agifactor>
     </fire.pb.role.AttrModData>
   </entry>
   <entry>

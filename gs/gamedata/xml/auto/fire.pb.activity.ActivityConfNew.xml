@@ -6,7 +6,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>101</id>
       <level>15</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>20</maxnum>
       <resettype>1</resettype>
       <maxact>20</maxact>
@@ -27,7 +27,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>102</id>
       <level>20</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>-1</maxnum>
       <resettype>1</resettype>
       <maxact>20</maxact>
@@ -47,7 +47,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>103</id>
       <level>30</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>1</maxnum>
       <resettype>1</resettype>
       <maxact>5</maxact>
@@ -65,7 +65,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>104</id>
       <level>25</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>15</maxnum>
       <resettype>1</resettype>
       <maxact>15</maxact>
@@ -83,8 +83,8 @@
     <fire.pb.activity.ActivityConfNew>
       <id>105</id>
       <level>25</level>
-      <maxlevel>155</maxlevel>
-      <maxnum>10</maxnum>
+      <maxlevel>300</maxlevel>
+      <maxnum>-1</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
       <peract>1</peract>
@@ -104,7 +104,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>118</id>
       <level>35</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>70</maxnum>
       <resettype>2</resettype>
       <maxact>0</maxact>
@@ -124,7 +124,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>119</id>
       <level>40</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>-1</maxnum>
       <resettype>1</resettype>
       <maxact>25</maxact>
@@ -146,7 +146,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>120</id>
       <level>30</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>2</maxnum>
       <resettype>1</resettype>
       <maxact>20</maxact>
@@ -168,7 +168,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>121</id>
       <level>50</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>160</maxnum>
       <resettype>2</resettype>
       <maxact>0</maxact>
@@ -190,7 +190,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>122</id>
       <level>1</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>1</maxnum>
       <resettype>2</resettype>
       <maxact>0</maxact>
@@ -209,7 +209,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>123</id>
       <level>1</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>1</maxnum>
       <resettype>2</resettype>
       <maxact>0</maxact>
@@ -227,9 +227,9 @@
     <int>200</int>
     <fire.pb.activity.ActivityConfNew>
       <id>200</id>
-      <level>35</level>
-      <maxlevel>49</maxlevel>
-      <maxnum>10</maxnum>
+      <level>60</level>
+      <maxlevel>300</maxlevel>
+      <maxnum>20</maxnum>
       <resettype>1</resettype>
       <maxact>0</maxact>
       <peract>0</peract>
@@ -238,7 +238,7 @@
       <recommend>0</recommend>
       <yingfu>0</yingfu>
       <yingfuawardid>0</yingfuawardid>
-      <yingfutimes>0</yingfutimes>
+      <yingfutimes>50</yingfutimes>
       <weekrepeat>1,2,3,4,5,6,7</weekrepeat>
     </fire.pb.activity.ActivityConfNew>
   </entry>
@@ -246,9 +246,9 @@
     <int>201</int>
     <fire.pb.activity.ActivityConfNew>
       <id>201</id>
-      <level>50</level>
-      <maxlevel>155</maxlevel>
-      <maxnum>5</maxnum>
+      <level>60</level>
+      <maxlevel>300</maxlevel>
+      <maxnum>20</maxnum>
       <resettype>1</resettype>
       <maxact>0</maxact>
       <peract>0</peract>
@@ -259,7 +259,7 @@
       <recommend>0</recommend>
       <yingfu>0</yingfu>
       <yingfuawardid>0</yingfuawardid>
-      <yingfutimes>0</yingfutimes>
+      <yingfutimes>50</yingfutimes>
       <weekrepeat>1,2,3,4,5,6,7</weekrepeat>
     </fire.pb.activity.ActivityConfNew>
   </entry>
@@ -268,7 +268,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>208</id>
       <level>40</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>-1</maxnum>
       <resettype>1</resettype>
       <maxact>15</maxact>
@@ -290,7 +290,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>213</id>
       <level>30</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>10</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
@@ -309,7 +309,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>218</id>
       <level>40</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>-1</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
@@ -331,7 +331,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>214</id>
       <level>30</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>20</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
@@ -350,7 +350,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>215</id>
       <level>30</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>20</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
@@ -369,7 +369,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>216</id>
       <level>30</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>10</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
@@ -391,7 +391,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>240</id>
       <level>40</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>10</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
@@ -405,7 +405,7 @@
       <yingfu>1</yingfu>
       <yingfuawardid>6082</yingfuawardid>
       <yingfutimes>10</yingfutimes>
-      <weekrepeat>1,5</weekrepeat>
+      <weekrepeat>1,2,3,4,5,6,7</weekrepeat>
     </fire.pb.activity.ActivityConfNew>
   </entry>
   <entry>
@@ -413,7 +413,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>241</id>
       <level>45</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>15</maxnum>
       <resettype>1</resettype>
       <maxact>15</maxact>
@@ -435,7 +435,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>242</id>
       <level>50</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>-1</maxnum>
       <resettype>1</resettype>
       <maxact>20</maxact>
@@ -449,7 +449,7 @@
       <yingfu>1</yingfu>
       <yingfuawardid>6257</yingfuawardid>
       <yingfutimes>2</yingfutimes>
-      <weekrepeat>7</weekrepeat>
+      <weekrepeat>1,3,5,7</weekrepeat>
     </fire.pb.activity.ActivityConfNew>
   </entry>
   <entry>
@@ -457,7 +457,7 @@
     <fire.pb.activity.ActivityConfNew>
       <id>243</id>
       <level>60</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>15</maxnum>
       <resettype>1</resettype>
       <maxact>15</maxact>
@@ -479,16 +479,12 @@
     <fire.pb.activity.ActivityConfNew>
       <id>281</id>
       <level>50</level>
-      <maxlevel>155</maxlevel>
+      <maxlevel>300</maxlevel>
       <maxnum>-1</maxnum>
       <resettype>1</resettype>
       <maxact>10</maxact>
       <peract>1</peract>
-      <getfoodid1>336009</getfoodid1>
-      <getfoodid2>336008</getfoodid2>
-      <getfoodid3>310100</getfoodid3>
-      <getfoodid4>340002</getfoodid4>
-      <getfoodid5>340001</getfoodid5>
+      <getfoodid1>340141</getfoodid1>
       <recommend>0</recommend>
       <yingfu>0</yingfu>
       <yingfuawardid>0</yingfuawardid>
@@ -500,9 +496,9 @@
     <int>244</int>
     <fire.pb.activity.ActivityConfNew>
       <id>244</id>
-      <level>70</level>
-      <maxlevel>155</maxlevel>
-      <maxnum>2</maxnum>
+      <level>60</level>
+      <maxlevel>300</maxlevel>
+      <maxnum>20</maxnum>
       <resettype>1</resettype>
       <maxact>2</maxact>
       <peract>1</peract>
@@ -513,7 +509,28 @@
       <recommend>0</recommend>
       <yingfu>0</yingfu>
       <yingfuawardid>0</yingfuawardid>
-      <yingfutimes>0</yingfutimes>
+      <yingfutimes>50</yingfutimes>
+      <weekrepeat>1,2,3,4,5,6,7</weekrepeat>
+    </fire.pb.activity.ActivityConfNew>
+  </entry>
+  <entry>
+    <int>261</int>
+    <fire.pb.activity.ActivityConfNew>
+      <id>261</id>
+      <level>60</level>
+      <maxlevel>300</maxlevel>
+      <maxnum>30</maxnum>
+      <resettype>1</resettype>
+      <maxact>0</maxact>
+      <peract>0</peract>
+      <getfoodid1>40013</getfoodid1>
+      <getfoodid2>331300</getfoodid2>
+      <getfoodid3>331353</getfoodid3>
+      <getfoodid4>334100</getfoodid4>
+      <recommend>0</recommend>
+      <yingfu>0</yingfu>
+      <yingfuawardid>0</yingfuawardid>
+      <yingfutimes>20</yingfutimes>
       <weekrepeat>1,2,3,4,5,6,7</weekrepeat>
     </fire.pb.activity.ActivityConfNew>
   </entry>
@@ -521,8 +538,8 @@
     <int>282</int>
     <fire.pb.activity.ActivityConfNew>
       <id>282</id>
-      <level>60</level>
-      <maxlevel>155</maxlevel>
+      <level>70</level>
+      <maxlevel>300</maxlevel>
       <maxnum>0</maxnum>
       <resettype>1</resettype>
       <maxact>0</maxact>

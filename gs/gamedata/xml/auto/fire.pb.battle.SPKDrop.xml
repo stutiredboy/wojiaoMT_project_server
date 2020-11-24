@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tree-map>
+  <no-comparator/>
+  <entry>
+    <int>1</int>
+    <fire.pb.battle.SPKDrop>
+      <id>1</id>
+      <dropLevel>1</dropLevel>
+      <dropGoldCoin>10</dropGoldCoin>
+      <levelLimit>20</levelLimit>
+      <safeMapid>1615</safeMapid>
+    </fire.pb.battle.SPKDrop>
+  </entry>
+</tree-map>

@@ -7,7 +7,7 @@
       <id>1</id>
       <taskname>巨魔之都</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>202001</activityid>
@@ -33,7 +33,7 @@
       <id>2</id>
       <taskname>巨魔之都</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>202002</activityid>
@@ -59,7 +59,7 @@
       <id>3</id>
       <taskname>巨魔之都</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>202003</activityid>
@@ -85,7 +85,7 @@
       <id>4</id>
       <taskname>巨魔之都</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>202004</activityid>
@@ -111,7 +111,7 @@
       <id>5</id>
       <taskname>巨魔之都</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>202005</activityid>
@@ -137,7 +137,7 @@
       <id>6</id>
       <taskname>巨魔之都</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>202006</activityid>
@@ -163,7 +163,7 @@
       <id>7</id>
       <taskname>巨魔之都</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>202007</activityid>
@@ -189,7 +189,7 @@
       <id>8</id>
       <taskname>诅咒之塔</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>203001</activityid>
@@ -215,7 +215,7 @@
       <id>9</id>
       <taskname>诅咒之塔</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>203002</activityid>
@@ -241,7 +241,7 @@
       <id>10</id>
       <taskname>诅咒之塔</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>203003</activityid>
@@ -267,7 +267,7 @@
       <id>11</id>
       <taskname>诅咒之塔</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>203004</activityid>
@@ -293,7 +293,7 @@
       <id>12</id>
       <taskname>诅咒之塔</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>203005</activityid>
@@ -319,7 +319,7 @@
       <id>13</id>
       <taskname>诅咒之塔</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>203006</activityid>
@@ -345,7 +345,7 @@
       <id>14</id>
       <taskname>诅咒之塔</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>203007</activityid>
@@ -371,7 +371,7 @@
       <id>15</id>
       <taskname>巨魔之都(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>204001</activityid>
@@ -397,7 +397,7 @@
       <id>16</id>
       <taskname>巨魔之都(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>204002</activityid>
@@ -423,7 +423,7 @@
       <id>17</id>
       <taskname>巨魔之都(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>204003</activityid>
@@ -449,7 +449,7 @@
       <id>18</id>
       <taskname>巨魔之都(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>204004</activityid>
@@ -475,7 +475,7 @@
       <id>19</id>
       <taskname>巨魔之都(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>204005</activityid>
@@ -501,7 +501,7 @@
       <id>20</id>
       <taskname>巨魔之都(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>204006</activityid>
@@ -527,7 +527,7 @@
       <id>21</id>
       <taskname>巨魔之都(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>40</minlevel>
+      <minlevel>110</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>204007</activityid>
@@ -553,7 +553,7 @@
       <id>22</id>
       <taskname>诅咒之塔(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>205001</activityid>
@@ -579,7 +579,7 @@
       <id>23</id>
       <taskname>诅咒之塔(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>205002</activityid>
@@ -605,7 +605,7 @@
       <id>24</id>
       <taskname>诅咒之塔(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>205003</activityid>
@@ -631,7 +631,7 @@
       <id>25</id>
       <taskname>诅咒之塔(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>205004</activityid>
@@ -657,7 +657,7 @@
       <id>26</id>
       <taskname>诅咒之塔(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>205005</activityid>
@@ -683,7 +683,7 @@
       <id>27</id>
       <taskname>诅咒之塔(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>205006</activityid>
@@ -709,7 +709,7 @@
       <id>28</id>
       <taskname>诅咒之塔(精英)</taskname>
       <taskready>1</taskready>
-      <minlevel>60</minlevel>
+      <minlevel>130</minlevel>
       <maxlevel>155</maxlevel>
       <teamnum>3</teamnum>
       <activityid>205007</activityid>

@@ -8,73 +8,73 @@
       <npcPoses>
           <fire.pb.npc.SNpcPos>
             <npcid>161515</npcid>
-            <npcName>吉MM</npcName>
+            <npcName>武林盟主</npcName>
             <npcMap>1615</npcMap>
             <npcPosx>141</npcPosx>
             <npcPosy>130</npcPosy>
           </fire.pb.npc.SNpcPos>
           <fire.pb.npc.SNpcPos>
             <npcid>161702</npcid>
-            <npcName>法师代表队</npcName>
+            <npcName>龙宫代表队</npcName>
             <npcMap>1617</npcMap>
             <npcPosx>42</npcPosx>
-            <npcPosy>42</npcPosy>
+            <npcPosy>60</npcPosy>
           </fire.pb.npc.SNpcPos>
           <fire.pb.npc.SNpcPos>
             <npcid>161803</npcid>
-            <npcName>战士代表队</npcName>
+            <npcName>大唐官府代表队</npcName>
             <npcMap>1618</npcMap>
-            <npcPosx>56</npcPosx>
-            <npcPosy>23</npcPosy>
+            <npcPosx>42</npcPosx>
+            <npcPosy>53</npcPosy>
           </fire.pb.npc.SNpcPos>
           <fire.pb.npc.SNpcPos>
             <npcid>161902</npcid>
-            <npcName>牧师代表队</npcName>
+            <npcName>普陀山代表队</npcName>
             <npcMap>1619</npcMap>
-            <npcPosx>25</npcPosx>
-            <npcPosy>47</npcPosy>
+            <npcPosx>36</npcPosx>
+            <npcPosy>36</npcPosy>
           </fire.pb.npc.SNpcPos>
           <fire.pb.npc.SNpcPos>
             <npcid>162002</npcid>
-            <npcName>猎人代表队</npcName>
+            <npcName>狮驼岭代表队</npcName>
             <npcMap>1620</npcMap>
-            <npcPosx>61</npcPosx>
-            <npcPosy>30</npcPosy>
+            <npcPosx>34</npcPosx>
+            <npcPosy>54</npcPosy>
           </fire.pb.npc.SNpcPos>
           <fire.pb.npc.SNpcPos>
             <npcid>162102</npcid>
-            <npcName>圣骑代表队</npcName>
+            <npcName>方寸山代表队</npcName>
             <npcMap>1621</npcMap>
-            <npcPosx>22</npcPosx>
-            <npcPosy>39</npcPosy>
-          </fire.pb.npc.SNpcPos>
-          <fire.pb.npc.SNpcPos>
-            <npcid>162202</npcid>
-            <npcName>德鲁伊代表队</npcName>
-            <npcMap>1622</npcMap>
-            <npcPosx>57</npcPosx>
-            <npcPosy>28</npcPosy>
-          </fire.pb.npc.SNpcPos>
-          <fire.pb.npc.SNpcPos>
-            <npcid>169002</npcid>
-            <npcName>盗贼代表队</npcName>
-            <npcMap>1690</npcMap>
-            <npcPosx>32</npcPosx>
+            <npcPosx>30</npcPosx>
             <npcPosy>38</npcPosy>
           </fire.pb.npc.SNpcPos>
           <fire.pb.npc.SNpcPos>
+            <npcid>162202</npcid>
+            <npcName>阴曹地府代表队</npcName>
+            <npcMap>1622</npcMap>
+            <npcPosx>48</npcPosx>
+            <npcPosy>55</npcPosy>
+          </fire.pb.npc.SNpcPos>
+          <fire.pb.npc.SNpcPos>
+            <npcid>169002</npcid>
+            <npcName>月宫代表队</npcName>
+            <npcMap>1690</npcMap>
+            <npcPosx>47</npcPosx>
+            <npcPosy>62</npcPosy>
+          </fire.pb.npc.SNpcPos>
+          <fire.pb.npc.SNpcPos>
             <npcid>169102</npcid>
-            <npcName>萨满代表队</npcName>
+            <npcName>魔王寨代表队</npcName>
             <npcMap>1691</npcMap>
-            <npcPosx>58</npcPosx>
-            <npcPosy>30</npcPosy>
+            <npcPosx>23</npcPosx>
+            <npcPosy>47</npcPosy>
           </fire.pb.npc.SNpcPos>
           <fire.pb.npc.SNpcPos>
             <npcid>169202</npcid>
-            <npcName>术士代表队</npcName>
+            <npcName>化生代表队</npcName>
             <npcMap>1692</npcMap>
-            <npcPosx>55</npcPosx>
-            <npcPosy>36</npcPosy>
+            <npcPosx>22</npcPosx>
+            <npcPosy>57</npcPosy>
           </fire.pb.npc.SNpcPos>
       </npcPoses>
     </fire.pb.npc.SActivityNpcPos>
@@ -86,10 +86,10 @@
       <npcPoses>
           <fire.pb.npc.SNpcPos>
             <npcid>161518</npcid>
-            <npcName>竞技大师</npcName>
+            <npcName>单人竞技场</npcName>
             <npcMap>1615</npcMap>
-            <npcPosx>167</npcPosx>
-            <npcPosy>217</npcPosy>
+            <npcPosx>73</npcPosx>
+            <npcPosy>126</npcPosy>
           </fire.pb.npc.SNpcPos>
       </npcPoses>
     </fire.pb.npc.SActivityNpcPos>
@@ -101,10 +101,10 @@
       <npcPoses>
           <fire.pb.npc.SNpcPos>
             <npcid>161519</npcid>
-            <npcName>竞技大师</npcName>
+            <npcName>决战华山</npcName>
             <npcMap>1615</npcMap>
-            <npcPosx>167</npcPosx>
-            <npcPosy>217</npcPosy>
+            <npcPosx>73</npcPosx>
+            <npcPosy>126</npcPosy>
           </fire.pb.npc.SNpcPos>
       </npcPoses>
     </fire.pb.npc.SActivityNpcPos>
@@ -116,10 +116,10 @@
       <npcPoses>
           <fire.pb.npc.SNpcPos>
             <npcid>161520</npcid>
-            <npcName>竞技大师</npcName>
+            <npcName>天下比武大会</npcName>
             <npcMap>1615</npcMap>
-            <npcPosx>167</npcPosx>
-            <npcPosy>217</npcPosy>
+            <npcPosx>73</npcPosx>
+            <npcPosy>126</npcPosy>
           </fire.pb.npc.SNpcPos>
       </npcPoses>
     </fire.pb.npc.SActivityNpcPos>

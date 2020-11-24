@@ -39,6 +39,8 @@ import fire.pb.instancezone.conf.InstanceSaveConfig;
 import fire.pb.instancezone.faction.FactionInstZone;
 import fire.pb.item.Equip;
 import fire.pb.item.EquipItem;
+import fire.pb.item.BagTypes;
+import fire.pb.item.ItemMaps;
 import fire.pb.item.ItemBase;
 import fire.pb.item.PEnhancementTimeout;
 import fire.pb.item.TimeOutItem;
@@ -52,6 +54,7 @@ import fire.pb.school.SchoolConst;
 import fire.pb.skill.BuffUnit;
 import fire.pb.skill.Result;
 import fire.pb.skill.SkillAgent;
+import fire.pb.skill.SkillRole;
 import fire.pb.skill.SkillConstant;
 import fire.pb.skill.SubSkillConfig;
 import fire.pb.skill.fight.FightSkillConfig;
@@ -59,6 +62,9 @@ import fire.pb.state.State;
 import fire.pb.talk.MessageMgr;
 import fire.pb.team.Team;
 import fire.pb.team.TeamManager;
+import fire.pb.item.EquipItemShuXing;
+import fire.pb.item.STaozhuangEffect;
+import fire.pb.main.ConfigManager;
 import fire.script.FightJSEngine;
 import fire.script.JavaScript;
 
@@ -81,7 +87,7 @@ public class PNewBattle extends Procedure {
 	private List<Long> hostRoleIds;
 	private List<Long> guestRoleIds; 
 	
-	
+	public static final Map<Integer, STaozhuangEffect> DIANHUASHIEFFECT_CFGS = ConfigManager.getInstance().getConf(STaozhuangEffect.class);
 	private boolean ispvp; //是否是pvp战斗
 	private boolean babyfight=false;//是否是含有宝宝的战斗
 	private int battleType = 0;//battle的类型，参见fire.pb.battle.BattleType,%10 == 0为pve战斗，%10 == 1为pvp战斗
@@ -1005,6 +1011,46 @@ public class PNewBattle extends Procedure {
 				break;
 			}
 		} */
+		// 获取装备信息，统计装备是否有套装技能效果
+		ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(hostRoleID, BagTypes.EQUIP, true);
+		Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
+		for (ItemBase basicItem : bag){
+			EquipItem oldWeapon = ((EquipItem) basicItem);
+			if(oldWeapon.getEquipAttr().getSuitID() != 0)
+			{
+				STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(oldWeapon.getEquipAttr().getSuitID());
+				if(effect != null && effect.effect1 != 0){
+					if(suitingMaps.containsKey(effect.effect1))
+					{
+						int value = suitingMaps.get(effect.effect1) + 1;
+						suitingMaps.put(effect.effect1,value);
+					}
+					else
+					{
+						suitingMaps.put(effect.effect1,1);
+					}
+					
+				}
+			}
+		}
+		SkillRole srole = new SkillRole(hostRoleID);
+		srole.removeExtSkillWithSP();
+		if(suitingMaps.size()> 0)
+		{
+			Map<Integer, Integer> sextskill = new HashMap<Integer, Integer>();	
+			
+			for(Integer i : suitingMaps.keySet())
+			{
+				if(suitingMaps.get(i) >= 3)
+				{
+					int level = suitingMaps.get(i) / 3;
+					sextskill.put(i, level);
+				}
+			}
+			srole.addExtSkillWithSP(sextskill);
+			BattleField.logger.error("------------------------战斗开始，添加一个技能---------"+hostRoleID+"-----"+sextskill+"---------------------------------");
+		}
+		srole.sendAllSkillsWhileOnline();
 		//如果是生死战，发送观战连接
 		if(battle.getBattletype() == BattleType.BATTLE_LIVEDIE){
 			//发送链接

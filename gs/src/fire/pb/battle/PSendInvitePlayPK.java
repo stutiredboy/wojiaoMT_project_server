@@ -2,6 +2,8 @@ package fire.pb.battle;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import org.apache.log4j.Logger;
 
 import fire.msp.npc.GCheckCanPlayPK;
 import fire.pb.GsClient;
@@ -21,7 +23,6 @@ import mkdb.Procedure;
 public class PSendInvitePlayPK extends Procedure {
 	private final long hostid;
 	private long guestid;
-	
 	public PSendInvitePlayPK(long roleid,long otherid){
 		super();
 		this.hostid = roleid;
@@ -79,6 +80,7 @@ public class PSendInvitePlayPK extends Procedure {
 				}
 			}
 		}
+
 		if (guestBuff.existBuff(500343)) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 144999, 0, null);
 			return false;

@@ -12,77 +12,343 @@
     <int>2</int>
     <fire.pb.npc.SRide>
       <id>2</id>
-      <ridemodel>701</ridemodel>
+      <ridemodel>102</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>3</int>
     <fire.pb.npc.SRide>
       <id>3</id>
-      <ridemodel>301</ridemodel>
+      <ridemodel>103</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>4</int>
     <fire.pb.npc.SRide>
       <id>4</id>
-      <ridemodel>401</ridemodel>
+      <ridemodel>104</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>5</int>
     <fire.pb.npc.SRide>
       <id>5</id>
-      <ridemodel>501</ridemodel>
+      <ridemodel>105</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>6</int>
     <fire.pb.npc.SRide>
       <id>6</id>
-      <ridemodel>601</ridemodel>
+      <ridemodel>106</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>7</int>
     <fire.pb.npc.SRide>
       <id>7</id>
-      <ridemodel>201</ridemodel>
+      <ridemodel>107</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>8</int>
     <fire.pb.npc.SRide>
       <id>8</id>
-      <ridemodel>401</ridemodel>
+      <ridemodel>108</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>9</int>
     <fire.pb.npc.SRide>
       <id>9</id>
-      <ridemodel>601</ridemodel>
+      <ridemodel>109</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>10</int>
     <fire.pb.npc.SRide>
       <id>10</id>
-      <ridemodel>501</ridemodel>
+      <ridemodel>201</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>11</int>
     <fire.pb.npc.SRide>
       <id>11</id>
-      <ridemodel>201</ridemodel>
+      <ridemodel>202</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
   <entry>
     <int>12</int>
     <fire.pb.npc.SRide>
       <id>12</id>
-      <ridemodel>701</ridemodel>
+      <ridemodel>203</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>13</int>
+    <fire.pb.npc.SRide>
+      <id>13</id>
+      <ridemodel>204</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>14</int>
+    <fire.pb.npc.SRide>
+      <id>14</id>
+      <ridemodel>205</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>15</int>
+    <fire.pb.npc.SRide>
+      <id>15</id>
+      <ridemodel>206</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>16</int>
+    <fire.pb.npc.SRide>
+      <id>16</id>
+      <ridemodel>207</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>17</int>
+    <fire.pb.npc.SRide>
+      <id>17</id>
+      <ridemodel>208</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>18</int>
+    <fire.pb.npc.SRide>
+      <id>18</id>
+      <ridemodel>209</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>19</int>
+    <fire.pb.npc.SRide>
+      <id>19</id>
+      <ridemodel>301</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>20</int>
+    <fire.pb.npc.SRide>
+      <id>20</id>
+      <ridemodel>302</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>21</int>
+    <fire.pb.npc.SRide>
+      <id>21</id>
+      <ridemodel>309</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>22</int>
+    <fire.pb.npc.SRide>
+      <id>22</id>
+      <ridemodel>308</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>23</int>
+    <fire.pb.npc.SRide>
+      <id>23</id>
+      <ridemodel>301</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>24</int>
+    <fire.pb.npc.SRide>
+      <id>24</id>
+      <ridemodel>302</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>25</int>
+    <fire.pb.npc.SRide>
+      <id>25</id>
+      <ridemodel>303</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>26</int>
+    <fire.pb.npc.SRide>
+      <id>26</id>
+      <ridemodel>304</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>27</int>
+    <fire.pb.npc.SRide>
+      <id>27</id>
+      <ridemodel>305</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>28</int>
+    <fire.pb.npc.SRide>
+      <id>28</id>
+      <ridemodel>306</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>29</int>
+    <fire.pb.npc.SRide>
+      <id>29</id>
+      <ridemodel>307</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>30</int>
+    <fire.pb.npc.SRide>
+      <id>30</id>
+      <ridemodel>666</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>31</int>
+    <fire.pb.npc.SRide>
+      <id>31</id>
+      <ridemodel>401</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>32</int>
+    <fire.pb.npc.SRide>
+      <id>32</id>
+      <ridemodel>402</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>33</int>
+    <fire.pb.npc.SRide>
+      <id>33</id>
+      <ridemodel>403</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>34</int>
+    <fire.pb.npc.SRide>
+      <id>34</id>
+      <ridemodel>404</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>35</int>
+    <fire.pb.npc.SRide>
+      <id>35</id>
+      <ridemodel>405</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>36</int>
+    <fire.pb.npc.SRide>
+      <id>36</id>
+      <ridemodel>406</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>37</int>
+    <fire.pb.npc.SRide>
+      <id>37</id>
+      <ridemodel>407</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>38</int>
+    <fire.pb.npc.SRide>
+      <id>38</id>
+      <ridemodel>408</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>39</int>
+    <fire.pb.npc.SRide>
+      <id>39</id>
+      <ridemodel>409</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>40</int>
+    <fire.pb.npc.SRide>
+      <id>40</id>
+      <ridemodel>410</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>41</int>
+    <fire.pb.npc.SRide>
+      <id>41</id>
+      <ridemodel>411</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>42</int>
+    <fire.pb.npc.SRide>
+      <id>42</id>
+      <ridemodel>412</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>43</int>
+    <fire.pb.npc.SRide>
+      <id>43</id>
+      <ridemodel>413</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>44</int>
+    <fire.pb.npc.SRide>
+      <id>44</id>
+      <ridemodel>414</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>45</int>
+    <fire.pb.npc.SRide>
+      <id>45</id>
+      <ridemodel>415</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>46</int>
+    <fire.pb.npc.SRide>
+      <id>46</id>
+      <ridemodel>416</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>47</int>
+    <fire.pb.npc.SRide>
+      <id>47</id>
+      <ridemodel>417</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>48</int>
+    <fire.pb.npc.SRide>
+      <id>48</id>
+      <ridemodel>418</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>49</int>
+    <fire.pb.npc.SRide>
+      <id>49</id>
+      <ridemodel>419</ridemodel>
+    </fire.pb.npc.SRide>
+  </entry>
+  <entry>
+    <int>50</int>
+    <fire.pb.npc.SRide>
+      <id>50</id>
+      <ridemodel>420</ridemodel>
     </fire.pb.npc.SRide>
   </entry>
 </tree-map>

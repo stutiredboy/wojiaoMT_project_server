@@ -28,6 +28,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 	private java.util.HashMap<Integer, Integer> addattr; // 附加属性
 	private int totalattr; // 属性总和
 	private int equipscore; // 装备评分
+	private int suitid;  // 套装效果ID
 
 	@Override
 	public void _reset_unsafe_() {
@@ -54,6 +55,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		addattr.clear();
 		totalattr = 0;
 		equipscore = 0;
+		suitid = 0;
 	}
 
 	EquipItem(int __, mkdb.XBean _xp_, String _vn_) {
@@ -81,6 +83,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		addattr = new java.util.HashMap<Integer, Integer>();
 		totalattr = 0;
 		equipscore = 0;
+		suitid = 0;
 	}
 
 	public EquipItem() {
@@ -128,6 +131,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			addattr.put(_e_.getKey(), _e_.getValue());
 		totalattr = _o_.totalattr;
 		equipscore = _o_.equipscore;
+		suitid = _o_.suitid;
 	}
 
 	private void assign(EquipItem.Data _o_) {
@@ -158,6 +162,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			addattr.put(_e_.getKey(), _e_.getValue());
 		totalattr = _o_.totalattr;
 		equipscore = _o_.equipscore;
+		suitid = _o_.suitid;
 	}
 
 	@Override
@@ -196,6 +201,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		}
 		_os_.marshal(totalattr);
 		_os_.marshal(equipscore);
+		_os_.marshal(suitid);
 		return _os_;
 	}
 
@@ -251,6 +257,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		}
 		totalattr = _os_.unmarshal_int();
 		equipscore = _os_.unmarshal_int();
+		suitid = _os_.unmarshal_int();
 		return _os_;
 	}
 
@@ -452,6 +459,12 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 	public int getEquipscore() { // 装备评分
 		_xdb_verify_unsafe_();
 		return equipscore;
+	}
+
+	@Override
+	public int getSuitID() { // 套装效果ID
+		_xdb_verify_unsafe_();
+		return suitid;
 	}
 
 	@Override
@@ -694,6 +707,17 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 	}
 
 	@Override
+	public void setSuitID(int _v_) { // 套装效果ID
+		_xdb_verify_unsafe_();
+		mkdb.Logs.logIf(new mkdb.LogKey(this, "suitid") {
+			protected mkdb.Log create() {
+				return new mkdb.logs.LogInt(this, suitid) {
+					public void rollback() { suitid = _xdb_saved; }
+				};}});
+		suitid = _v_;
+	}
+
+	@Override
 	public final boolean equals(Object _o1_) {
 		_xdb_verify_unsafe_();
 		EquipItem _o_ = null;
@@ -723,6 +747,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		if (!addattr.equals(_o_.addattr)) return false;
 		if (totalattr != _o_.totalattr) return false;
 		if (equipscore != _o_.equipscore) return false;
+		if (suitid != _o_.suitid) return false;
 		return true;
 	}
 
@@ -753,6 +778,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		_h_ += addattr.hashCode();
 		_h_ += totalattr;
 		_h_ += equipscore;
+		_h_ += suitid;
 		return _h_;
 	}
 
@@ -806,6 +832,8 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		_sb_.append(totalattr);
 		_sb_.append(",");
 		_sb_.append(equipscore);
+		_sb_.append(",");
+		_sb_.append(suitid);
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -836,6 +864,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		lb.add(new mkdb.logs.ListenableMap().setVarName("addattr"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("totalattr"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("equipscore"));
+		lb.add(new mkdb.logs.ListenableChanged().setVarName("suitid"));
 		return lb;
 	}
 
@@ -1039,6 +1068,12 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		}
 
 		@Override
+		public int getSuitID() { // 装备评分
+			_xdb_verify_unsafe_();
+			return suitid;
+		}
+
+		@Override
 		public void setId(long _v_) { // 主键id
 			_xdb_verify_unsafe_();
 			throw new UnsupportedOperationException();
@@ -1171,6 +1206,12 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		}
 
 		@Override
+		public void setSuitID(int _v_) { // 套装效果ID
+			_xdb_verify_unsafe_();
+			throw new UnsupportedOperationException();
+		}
+
+		@Override
 		public mkdb.Bean toConst() {
 			_xdb_verify_unsafe_();
 			return this;
@@ -1259,6 +1300,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		private java.util.HashMap<Integer, Integer> addattr; // 附加属性
 		private int totalattr; // 属性总和
 		private int equipscore; // 装备评分
+		private int suitid; // 套装效果ID
 
 		@Override
 		public void _reset_unsafe_() {
@@ -1289,6 +1331,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			addattr = new java.util.HashMap<Integer, Integer>();
 			totalattr = 0;
 			equipscore = 0;
+			suitid = 0;
 		}
 
 		Data(xbean.EquipItem _o1_) {
@@ -1326,6 +1369,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 				addattr.put(_e_.getKey(), _e_.getValue());
 			totalattr = _o_.totalattr;
 			equipscore = _o_.equipscore;
+			suitid = _o_.suitid;
 		}
 
 		private void assign(EquipItem.Data _o_) {
@@ -1356,6 +1400,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 				addattr.put(_e_.getKey(), _e_.getValue());
 			totalattr = _o_.totalattr;
 			equipscore = _o_.equipscore;
+			suitid = _o_.suitid;
 		}
 
 		@Override
@@ -1393,6 +1438,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			}
 			_os_.marshal(totalattr);
 			_os_.marshal(equipscore);
+			_os_.marshal(suitid);
 			return _os_;
 		}
 
@@ -1447,6 +1493,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			}
 			totalattr = _os_.unmarshal_int();
 			equipscore = _os_.unmarshal_int();
+			suitid = _os_.unmarshal_int();
 			return _os_;
 		}
 
@@ -1613,6 +1660,11 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		}
 
 		@Override
+		public int getSuitID() { // 套装效果ID
+			return suitid;
+		}
+
+		@Override
 		public void setId(long _v_) { // 主键id
 			id = _v_;
 		}
@@ -1725,6 +1777,11 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 		}
 
 		@Override
+		public void setSuitID(int _v_) { // 套装效果ID
+			suitid = _v_;
+		}
+
+		@Override
 		public final boolean equals(Object _o1_) {
 			if (!(_o1_ instanceof EquipItem.Data)) return false;
 			EquipItem.Data _o_ = (EquipItem.Data) _o1_;
@@ -1751,6 +1808,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			if (!addattr.equals(_o_.addattr)) return false;
 			if (totalattr != _o_.totalattr) return false;
 			if (equipscore != _o_.equipscore) return false;
+			if (suitid != _o_.suitid) return false;
 			return true;
 		}
 
@@ -1780,6 +1838,7 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			_h_ += addattr.hashCode();
 			_h_ += totalattr;
 			_h_ += equipscore;
+			_h_ += suitid;
 			return _h_;
 		}
 
@@ -1832,6 +1891,8 @@ public final class EquipItem extends mkdb.XBean implements xbean.EquipItem {
 			_sb_.append(totalattr);
 			_sb_.append(",");
 			_sb_.append(equipscore);
+			_sb_.append(",");
+			_sb_.append(suitid);
 			_sb_.append(")");
 			return _sb_.toString();
 		}

@@ -44,7 +44,7 @@
       <type>1</type>
       <flag>0</flag>
       <level1>70</level1>
-      <level2>150</level2>
+      <level2>155</level2>
       <winawardid>6030</winawardid>
       <loseawardid>6070</loseawardid>
     </fire.pb.circletask.PVPAwardConfig>
@@ -92,7 +92,7 @@
       <type>2</type>
       <flag>0</flag>
       <level1>70</level1>
-      <level2>150</level2>
+      <level2>155</level2>
       <winawardid>6120</winawardid>
       <loseawardid>6160</loseawardid>
     </fire.pb.circletask.PVPAwardConfig>
@@ -128,7 +128,7 @@
       <type>3</type>
       <flag>1</flag>
       <level1>70</level1>
-      <level2>150</level2>
+      <level2>155</level2>
       <winawardid>6210</winawardid>
       <loseawardid>6250</loseawardid>
     </fire.pb.circletask.PVPAwardConfig>
@@ -141,8 +141,8 @@
       <flag>0</flag>
       <level1>50</level1>
       <level2>59</level2>
-      <winawardid>0</winawardid>
-      <loseawardid>0</loseawardid>
+      <winawardid>6190</winawardid>
+      <loseawardid>6230</loseawardid>
     </fire.pb.circletask.PVPAwardConfig>
   </entry>
   <entry>
@@ -153,8 +153,8 @@
       <flag>0</flag>
       <level1>60</level1>
       <level2>69</level2>
-      <winawardid>0</winawardid>
-      <loseawardid>0</loseawardid>
+      <winawardid>6200</winawardid>
+      <loseawardid>6240</loseawardid>
     </fire.pb.circletask.PVPAwardConfig>
   </entry>
   <entry>
@@ -164,9 +164,9 @@
       <type>3</type>
       <flag>0</flag>
       <level1>70</level1>
-      <level2>150</level2>
-      <winawardid>0</winawardid>
-      <loseawardid>0</loseawardid>
+      <level2>155</level2>
+      <winawardid>6210</winawardid>
+      <loseawardid>6250</loseawardid>
     </fire.pb.circletask.PVPAwardConfig>
   </entry>
 </tree-map>

@@ -194,7 +194,7 @@
       <mapid>1902</mapid>
       <solonpcid>180609</solonpcid>
       <step>4</step>
-      <lefttopx>99</lefttopx>
+      <lefttopx>79</lefttopx>
       <lefttopy>53</lefttopy>
       <end>0</end>
       <decoratenpc1>0</decoratenpc1>
@@ -493,8 +493,8 @@
       <mapid>1905</mapid>
       <solonpcid>180622</solonpcid>
       <step>2</step>
-      <lefttopx>6</lefttopx>
-      <lefttopy>103</lefttopy>
+      <lefttopx>28</lefttopx>
+      <lefttopy>69</lefttopy>
       <end>0</end>
       <decoratenpc1>0</decoratenpc1>
       <x1>12</x1>

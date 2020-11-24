@@ -62,6 +62,7 @@ public class BeanCopy {
 		dest.setNumber(orig.getNumber());
 		dest.setPrice(orig.getPrice());
 		dest.setAttentionnumber(orig.getAttentionnumber());
+		dest.setSuitID(orig.getSuitID());
 		return dest;
 	}
 	
@@ -147,6 +148,7 @@ public class BeanCopy {
 		dest.setNumber(orig.getNumber());
 		dest.setPrice(orig.getPrice());
 		dest.setAttentionnumber(orig.getAttentionnumber());
+		dest.setSuitID(orig.getSuitID());
 		return dest;
 	}
 	

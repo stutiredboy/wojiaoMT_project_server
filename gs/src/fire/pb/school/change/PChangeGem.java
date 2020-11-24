@@ -19,6 +19,13 @@ import fire.pb.shop.srv.floating.FloatingOneManager;
 import fire.pb.talk.MessageMgr;
 import fire.pb.item.STaozhuangEffect;
 import fire.pb.item.STaozhuangEffectConfig;
+import fire.pb.item.EquipItemShuXing;
+import java.util.Map;
+import java.util.Set;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Random;
+import fire.pb.skill.SceneSkillRole;
 
 public class PChangeGem extends Procedure {
 	private static Logger logger = Logger.getLogger("ITEM");
@@ -60,14 +67,12 @@ public class PChangeGem extends Procedure {
 			return false;
 		}
 
-		EquipItem oldWeapon = ((EquipItem) oldWeaponIB);
-				
+		EquipItem oldWeapon = ((EquipItem) oldWeaponIB);		
 		// 是否拍卖中
 		if ((oldWeaponIB.getFlags() & fire.pb.Item.ONSTALL) != 0) {
 			logger.error("拍卖的套装无法使用点化功能");
 			return false;
 		}
-		logger.error("-------------套装点化------------");
 		
 		// 扣道具
 		ItemMaps bagContainer = fire.pb.item.Module.getInstance().getItemMaps(roleId, BagTypes.BAG, false);
@@ -79,15 +84,26 @@ public class PChangeGem extends Procedure {
 		int usedNum = bagContainer.removeItemById(xilianshiId, needItemNum, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shenshoucost, xilianshiId,
 					"点化套装");
 		if (usedNum != needItemNum) {
+			logger.error("角色id " + roleId + "点化套装" + "扣除洗练石失败");
 			return false;
 		}
 		// 扣钱
-		int confWeaponChangeCostMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(473).getValue());
+		int confWeaponChangeCostMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(474).getValue());
 		long ret = bag.subGold(-confWeaponChangeCostMoney, "点化套装消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
 		if (ret != -confWeaponChangeCostMoney) {
 			return false;
 		}
 
+		// 设置套装效果
+		xbean.Equip equipAttr = oldWeapon.getEquipAttr();
+		int suitid = equipAttr.getSuitID();
+		Set<Integer> keys = DIANHUASHIEFFECT_CFGS.keySet();
+		List<Integer> list=new ArrayList<>(keys);
+		Random random = new Random();
+		Integer randomKey = list.get(random.nextInt(list.size()));
+		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomKey);
+		suitid = effect.id;
+		equipAttr.setSuitID(suitid);
 		// 是否珍品检测
 		int score = fire.pb.item.Module.getInstance().getEquipScore(oldWeapon);
 		oldWeapon.getEquipAttr().setEquipscore(score);
@@ -95,7 +111,7 @@ public class PChangeGem extends Procedure {
 			oldWeapon.getEquipAttr().setTreasure(1);
 		} else {
 			oldWeapon.getEquipAttr().setTreasure(0);
-		}
+		}	
 
 		// 发消息
 		SAddItem sAddItem = new SAddItem();

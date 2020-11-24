@@ -5,7 +5,7 @@
     <int>1</int>
     <fire.pb.clan.SClanPosition>
       <id>1</id>
-      <posname>会长</posname>
+      <posname>帮主</posname>
       <posmaxnum>1</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -13,7 +13,7 @@
     <int>2</int>
     <fire.pb.clan.SClanPosition>
       <id>2</id>
-      <posname>副会长</posname>
+      <posname>副帮主</posname>
       <posmaxnum>1</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -21,7 +21,7 @@
     <int>3</int>
     <fire.pb.clan.SClanPosition>
       <id>3</id>
-      <posname>第一军团长</posname>
+      <posname>青龙堂堂主</posname>
       <posmaxnum>1</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -29,7 +29,7 @@
     <int>4</int>
     <fire.pb.clan.SClanPosition>
       <id>4</id>
-      <posname>第二军团长</posname>
+      <posname>白虎堂堂主</posname>
       <posmaxnum>1</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -37,7 +37,7 @@
     <int>5</int>
     <fire.pb.clan.SClanPosition>
       <id>5</id>
-      <posname>第三军团长</posname>
+      <posname>朱雀堂堂主</posname>
       <posmaxnum>1</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -45,7 +45,7 @@
     <int>6</int>
     <fire.pb.clan.SClanPosition>
       <id>6</id>
-      <posname>第四军团长</posname>
+      <posname>玄武堂堂主</posname>
       <posmaxnum>1</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -53,7 +53,7 @@
     <int>7</int>
     <fire.pb.clan.SClanPosition>
       <id>7</id>
-      <posname>第一军团精英</posname>
+      <posname>青龙堂精英</posname>
       <posmaxnum>60</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -61,7 +61,7 @@
     <int>8</int>
     <fire.pb.clan.SClanPosition>
       <id>8</id>
-      <posname>第二军团精英</posname>
+      <posname>白虎堂精英</posname>
       <posmaxnum>60</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -69,7 +69,7 @@
     <int>9</int>
     <fire.pb.clan.SClanPosition>
       <id>9</id>
-      <posname>第三军团精英</posname>
+      <posname>朱雀堂精英</posname>
       <posmaxnum>60</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>
@@ -77,7 +77,7 @@
     <int>10</int>
     <fire.pb.clan.SClanPosition>
       <id>10</id>
-      <posname>第四军团精英</posname>
+      <posname>玄武堂精英</posname>
       <posmaxnum>60</posmaxnum>
     </fire.pb.clan.SClanPosition>
   </entry>

@@ -7,10 +7,17 @@
       <id>6801</id>
       <shapeid>540016</shapeid>
       <color>FFff5900</color>
-      <phyattack__value>1000</phyattack__value>
-      <magicdouble__value>50</magicdouble__value>
-      <phycruellv__value>50</phycruellv__value>
-      <magiccruellv__value>50</magiccruellv__value>
+      <skills>
+        <int>130008</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -19,10 +26,17 @@
       <id>6802</id>
       <shapeid>540017</shapeid>
       <color>FFff5900</color>
-      <phyattack__value>1001</phyattack__value>
-      <magicdouble__value>51</magicdouble__value>
-      <phycruellv__value>51</phycruellv__value>
-      <magiccruellv__value>51</magiccruellv__value>
+      <skills>
+        <int>206038</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -31,10 +45,17 @@
       <id>6803</id>
       <shapeid>540018</shapeid>
       <color>FFff5900</color>
-      <speed__value>100</speed__value>
-      <magicdouble__value>52</magicdouble__value>
-      <phycruellv__value>52</phycruellv__value>
-      <magiccruellv__value>52</magiccruellv__value>
+      <skills>
+        <int>206040</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -43,10 +64,17 @@
       <id>6804</id>
       <shapeid>540019</shapeid>
       <color>FFff5900</color>
-      <phyattack__value>1000</phyattack__value>
-      <magicdouble__value>53</magicdouble__value>
-      <phycruellv__value>53</phycruellv__value>
-      <magiccruellv__value>53</magiccruellv__value>
+      <skills>
+        <int>206042</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -55,10 +83,17 @@
       <id>6805</id>
       <shapeid>540020</shapeid>
       <color>FFff5900</color>
-      <phyattack__value>1001</phyattack__value>
-      <magicdouble__value>54</magicdouble__value>
-      <phycruellv__value>54</phycruellv__value>
-      <magiccruellv__value>54</magiccruellv__value>
+      <skills>
+        <int>206038</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -67,10 +102,17 @@
       <id>6806</id>
       <shapeid>540021</shapeid>
       <color>FFff5900</color>
-      <speed__value>100</speed__value>
-      <magicdouble__value>55</magicdouble__value>
-      <phycruellv__value>55</phycruellv__value>
-      <magiccruellv__value>55</magiccruellv__value>
+      <skills>
+        <int>206040</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -79,9 +121,17 @@
       <id>6807</id>
       <shapeid>540022</shapeid>
       <color>FFff5900</color>
-      <magicdouble__value>56</magicdouble__value>
-      <phycruellv__value>56</phycruellv__value>
-      <magiccruellv__value>56</magiccruellv__value>
+      <skills>
+        <int>206042</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -90,10 +140,17 @@
       <id>6808</id>
       <shapeid>540023</shapeid>
       <color>FFff5900</color>
-      <speed__value>100</speed__value>
-      <magicdouble__value>57</magicdouble__value>
-      <phycruellv__value>57</phycruellv__value>
-      <magiccruellv__value>57</magiccruellv__value>
+      <skills>
+        <int>206038</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -102,10 +159,17 @@
       <id>6809</id>
       <shapeid>540024</shapeid>
       <color>FFff5900</color>
-      <curmp__value>1000</curmp__value>
-      <magicdouble__value>58</magicdouble__value>
-      <phycruellv__value>58</phycruellv__value>
-      <magiccruellv__value>58</magiccruellv__value>
+      <skills>
+        <int>206019</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -114,10 +178,15 @@
       <id>6810</id>
       <shapeid>540025</shapeid>
       <color>FFff5900</color>
-      <curmp__value>1000</curmp__value>
-      <magicdouble__value>59</magicdouble__value>
-      <phycruellv__value>59</phycruellv__value>
-      <magiccruellv__value>59</magiccruellv__value>
+      <skills>
+        <int>206001</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -126,10 +195,15 @@
       <id>6811</id>
       <shapeid>540026</shapeid>
       <color>FFff5900</color>
-      <phyattack__value>1001</phyattack__value>
-      <magicdouble__value>60</magicdouble__value>
-      <phycruellv__value>60</phycruellv__value>
-      <magiccruellv__value>60</magiccruellv__value>
+      <skills>
+        <int>206003</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -138,10 +212,17 @@
       <id>6812</id>
       <shapeid>540027</shapeid>
       <color>FFff5900</color>
-      <magicattack__value>1000</magicattack__value>
-      <magicdouble__value>61</magicdouble__value>
-      <phycruellv__value>61</phycruellv__value>
-      <magiccruellv__value>61</magiccruellv__value>
+      <skills>
+        <int>206046</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -150,10 +231,17 @@
       <id>6813</id>
       <shapeid>540028</shapeid>
       <color>FFff5900</color>
-      <magicattack__value>1001</magicattack__value>
-      <magicdouble__value>62</magicdouble__value>
-      <phycruellv__value>62</phycruellv__value>
-      <magiccruellv__value>62</magiccruellv__value>
+      <skills>
+        <int>206046</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -162,10 +250,17 @@
       <id>6814</id>
       <shapeid>540029</shapeid>
       <color>FFff5900</color>
-      <magicdef__value>1002</magicdef__value>
-      <magicdouble__value>63</magicdouble__value>
-      <phycruellv__value>63</phycruellv__value>
-      <magiccruellv__value>63</magiccruellv__value>
+      <skills>
+        <int>206043</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -174,10 +269,17 @@
       <id>6815</id>
       <shapeid>540030</shapeid>
       <color>FFff5900</color>
-      <magicdef__value>1003</magicdef__value>
-      <magicdouble__value>64</magicdouble__value>
-      <phycruellv__value>64</phycruellv__value>
-      <magiccruellv__value>64</magiccruellv__value>
+      <skills>
+        <int>206046</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -186,10 +288,17 @@
       <id>6816</id>
       <shapeid>540031</shapeid>
       <color>FFff5900</color>
-      <magicattack__value>1004</magicattack__value>
-      <magicdouble__value>65</magicdouble__value>
-      <phycruellv__value>65</phycruellv__value>
-      <magiccruellv__value>65</magiccruellv__value>
+      <skills>
+        <int>206046</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -198,10 +307,17 @@
       <id>6817</id>
       <shapeid>540032</shapeid>
       <color>FFff5900</color>
-      <magicattack__value>1005</magicattack__value>
-      <magicdouble__value>66</magicdouble__value>
-      <phycruellv__value>66</phycruellv__value>
-      <magiccruellv__value>66</magiccruellv__value>
+      <skills>
+        <int>206046</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -210,11 +326,17 @@
       <id>6818</id>
       <shapeid>540033</shapeid>
       <color>FFff5900</color>
-      <magicdef__value>1006</magicdef__value>
-      <magicattack__value>1006</magicattack__value>
-      <magicdouble__value>67</magicdouble__value>
-      <phycruellv__value>67</phycruellv__value>
-      <magiccruellv__value>67</magiccruellv__value>
+      <skills>
+        <int>206009</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -223,11 +345,15 @@
       <id>6819</id>
       <shapeid>540034</shapeid>
       <color>FFff5900</color>
-      <magicdef__value>1007</magicdef__value>
-      <magicattack__value>1007</magicattack__value>
-      <magicdouble__value>68</magicdouble__value>
-      <phycruellv__value>68</phycruellv__value>
-      <magiccruellv__value>68</magiccruellv__value>
+      <skills>
+        <int>206010</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -236,10 +362,17 @@
       <id>6820</id>
       <shapeid>540035</shapeid>
       <color>FFff5900</color>
-      <defend__value>1000</defend__value>
-      <magicdouble__value>69</magicdouble__value>
-      <phycruellv__value>69</phycruellv__value>
-      <magiccruellv__value>69</magiccruellv__value>
+      <skills>
+        <int>206058</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -248,11 +381,17 @@
       <id>6821</id>
       <shapeid>540036</shapeid>
       <color>FFff5900</color>
-      <magicdef__value>1000</magicdef__value>
-      <phyattack__value>1007</phyattack__value>
-      <magicdouble__value>70</magicdouble__value>
-      <phycruellv__value>70</phycruellv__value>
-      <magiccruellv__value>70</magiccruellv__value>
+      <skills>
+        <int>206059</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -261,11 +400,17 @@
       <id>6822</id>
       <shapeid>540037</shapeid>
       <color>FFff5900</color>
-      <uplimithp__value>10000</uplimithp__value>
-      <defend__value>1000</defend__value>
-      <magicdouble__value>71</magicdouble__value>
-      <phycruellv__value>71</phycruellv__value>
-      <magiccruellv__value>71</magiccruellv__value>
+      <skills>
+        <int>206058</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -274,10 +419,17 @@
       <id>6823</id>
       <shapeid>540038</shapeid>
       <color>FFff5900</color>
-      <uplimithp__value>10000</uplimithp__value>
-      <magicdouble__value>72</magicdouble__value>
-      <phycruellv__value>72</phycruellv__value>
-      <magiccruellv__value>72</magiccruellv__value>
+      <skills>
+        <int>206057</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -286,11 +438,17 @@
       <id>6824</id>
       <shapeid>540039</shapeid>
       <color>FFff5900</color>
-      <uplimithp__value>10000</uplimithp__value>
-      <defend__value>1000</defend__value>
-      <magicdouble__value>73</magicdouble__value>
-      <phycruellv__value>73</phycruellv__value>
-      <magiccruellv__value>73</magiccruellv__value>
+      <skills>
+        <int>206058</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
   <entry>
@@ -299,16 +457,17 @@
       <id>6825</id>
       <shapeid>540007</shapeid>
       <color>FFff5900</color>
-      <speed__value>0</speed__value>
-      <uplimithp__value>0</uplimithp__value>
-      <curmp__value>0</curmp__value>
-      <magicdef__value>0</magicdef__value>
-      <magicattack__value>0</magicattack__value>
-      <phyattack__value>0</phyattack__value>
-      <defend__value>0</defend__value>
-      <magicdouble__value>74</magicdouble__value>
-      <phycruellv__value>74</phycruellv__value>
-      <magiccruellv__value>74</magiccruellv__value>
+      <skills>
+        <int>206059</int>
+      </skills>
+      <skillfactors>
+        <int>1</int>
+        <int>1</int>
+      </skillfactors>
+      <skillconstants>
+        <int>1</int>
+        <int>1</int>
+      </skillconstants>
     </fire.pb.item.STransformationEffectConfig>
   </entry>
 </tree-map>
