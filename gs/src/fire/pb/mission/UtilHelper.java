@@ -69,12 +69,22 @@ public final class UtilHelper {
 		}
 	}
 	
+	// 清除变身卡效果
 	public static void clearItemTransformID(final long roleid) {
-		
 		xbean.TransfromByItemData tibyItem = xtable.Transformbyitem.get(roleid);
 		if (tibyItem == null) {
 			return;
 		}
+		Map<Integer, fire.pb.item.STransformationConfig> sTransConfigs = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.item.STransformationConfig.class);
+		Map<Integer, fire.pb.item.STransformationEffectConfig> sTransEffectConfigs = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.item.STransformationEffectConfig.class);
+
+		fire.pb.item.STransformationConfig sTransConfig = sTransConfigs.get(tibyItem.getUseitemid());
+		if (sTransConfig == null)
+			return;
+		fire.pb.item.STransformationEffectConfig sTransEffectConfig = sTransEffectConfigs.get(sTransConfig.effectid);
+		if (sTransEffectConfig == null)
+			return;
+		
 		xtable.Transformbyitem.delete(roleid);
 		fire.msp.task.GChangeShape send2Scene = 
 				new fire.msp.task.GChangeShape();
@@ -83,9 +93,56 @@ public final class UtilHelper {
 		send2Scene.changetype = 0;
 		fire.pb.GsClient.pSendWhileCommit( send2Scene );
 
-		SkillRole srole = new SkillRole(roleid);  
-		Map<Integer, Integer> sextskill = new HashMap<Integer, Integer>();
-		srole.addExtSkillWithSP(sextskill);		
+		// 属性加成
+		fire.pb.effect.RoleImpl role = new fire.pb.effect.RoleImpl( roleid );
+		if(role == null)
+		{
+			return UseResult.FAIL;
+		}
+		// 判断是否有速度加成
+		if(sTransEffectConfig.getSpeed_value() != 0)
+		{
+			role.detachEffect(AttrType.SPEED,sTransConfig.getSpeed_value());
+		}
+
+		// 判断是否有气血上限加成
+		if(sTransEffectConfig.getUplimithp_value() != 0)
+		{
+			role.detachEffect(AttrType.MAX_HP,sTransEffectConfig.getUplimithp_value());
+		}
+
+		// 判断是否有增加魔法值
+		if(sTransEffectConfig.getCurmp_value() != 0)
+		{
+			role.detachEffect(AttrType.MAX_MP,sTransEffectConfig.getCurmp_value());
+		}
+
+		// 判断是否有增加物理伤害
+		if(sTransEffectConfig.getPhyattack_value() != 0)
+		{
+			role.detachEffect(AttrType.ATTACK,sTransEffectConfig.getPhyattack_value());
+		}
+
+		// 判断是否有增加法术伤害
+		if(sTransEffectConfig.getMagicattack_value() != 0)
+		{
+			role.detachEffect(AttrType.MAGIC_ATTACK,sTransEffectConfig.getMagicattack_value());
+		}
+
+		// 判断是否有增加物理防御
+		if(sTransEffectConfig.getDefend_value() != 0)
+		{
+			role.detachEffect(AttrType.DEFEND,sTransEffectConfig.getDefend_value());
+		}
+
+		// 判断是否有增加法术防御
+		if(sTransEffectConfig.getMagicdef_value() != 0)
+		{
+			role.detachEffect(AttrType.MAGIC_DEF,sTransEffectConfig.getMagicdef_value());
+		}
+
+
+	
 	}
 	
 	public static void clearNpcFollowID(final long roleid, final long questid) {
