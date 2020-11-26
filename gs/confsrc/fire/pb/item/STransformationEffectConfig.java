@@ -1,16 +1,13 @@
 package fire.pb.item;
 
 
-public class STransformationEffectConfig  extends TransformationEffectConfig {
+public class STransformationEffectConfig implements mytools.ConvMain.Checkable ,Comparable<STransformationEffectConfig>{
 
 	public int compareTo(STransformationEffectConfig o){
 		return this.id-o.id;
 	}
 
 	
-	public STransformationEffectConfig(TransformationEffectConfig arg){
-		super(arg);
-	}
 	
 	static class NeedId extends RuntimeException{
 
@@ -24,7 +21,6 @@ public class STransformationEffectConfig  extends TransformationEffectConfig {
 		super();
 	}
 	public STransformationEffectConfig(STransformationEffectConfig arg){
-		super(arg);
 		this.id=arg.id ;
 		this.shapeid=arg.shapeid ;
 		this.color=arg.color ;
@@ -41,7 +37,6 @@ public class STransformationEffectConfig  extends TransformationEffectConfig {
 		this.magiccruellv_value=arg.magiccruellv_value ;
 	}
 	public void checkValid(java.util.Map<String,java.util.Map<Integer,? extends Object> > objs){
-			super.checkValid(objs);
 	}
 	/**
 	 * id

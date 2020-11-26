@@ -51,9 +51,16 @@ public class CCreateRole extends __CCreateRole__ {
 		// 检查玩家选择的角色与门派是否对应
 		final fire.pb.role.SCreateRoleConfig config = RoleConfigManager.getCreateRoleConfig(shape);
 		if (config == null)
+		{
+			logger.error("-------------------------没有找到对应的配置文件!!!--------"+shape);
 			return;
+		}
+			
 		if (!config.schools.contains(school))
+		{
+			logger.error("------"+shape+"-------------------没有找到对应的职业!!!------"+school);
 			return;
+		}
 		
 		
 		//检查用用户名长度是否合理
@@ -64,34 +71,34 @@ public class CCreateRole extends __CCreateRole__ {
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			sendError(SCreateRoleError.CREATE_OVERLEN);
-			logger.debug("名字长度不对");
+			logger.error("名字长度不对");
 			return;
 		} 
 		
 		
 		if(length > nameLen){
 			sendError(SCreateRoleError.CREATE_OVERLEN);
-			logger.debug("名字长度不对");
+			logger.error("名字长度不对");
 			return;
 		}
 		else if (length < CCreateRole.NAMELEN_MIN){
 			sendError(SCreateRoleError.CREATE_SHORTLEN);
-			logger.debug("名字长度不对");
+			logger.error("名字长度不对");
 			return;
 		}
 		
 		int resultCode = fire.pb.util.CheckName.checkValid(name);
 		if(resultCode == CheckName.WORD_ILLEGALITY){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.debug("只能输入2-7个中文，4-14个英文或者、数字并且不能含有非法字符");
+			logger.error("只能输入2-7个中文，4-14个英文或者、数字并且不能含有非法字符");
 			return;	
 		}else if(resultCode == CheckName.SPECIAL_WORD_TOO_MANY){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.debug("特殊字符过多");
+			logger.error("特殊字符过多");
 			return;
 		}else if(resultCode == CheckName.NONE_CHARACTER){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.debug("命名必须包含一个汉字或者字母");
+			logger.error("命名必须包含一个汉字或者字母");
 			return;
 		}
 		
@@ -104,6 +111,7 @@ public class CCreateRole extends __CCreateRole__ {
 					roleNum++;
 			}
 			if(roleNum >= PCreateRole.maxCreateRoleNum){
+				logger.error("-----------------------角色创建已经达到最大数");
 				sendError(SCreateRoleError.CREATE_OVERCOUNT);
 				return;
 			}

@@ -22,7 +22,16 @@ public class RoleConfigManager {
 	 * @return
 	 */
 	public static fire.pb.role.SCreateRoleConfig getCreateRoleConfig(Integer shapeid){
-		final int id = shapeid % 10 == 0 ? 10 : shapeid % 10;
+		int id = 0;
+		if(shapeid < 10)
+		{
+			id = shapeid % 10 == 0 ? 10 : shapeid % 10;
+		}
+		else
+		{
+			id = shapeid;
+		}
+		
 		return fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.role.SCreateRoleConfig.class).get(id);
 	}
 	
