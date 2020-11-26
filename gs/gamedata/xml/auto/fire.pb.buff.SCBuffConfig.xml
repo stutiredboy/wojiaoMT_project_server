@@ -8055,703 +8055,6 @@
     <int>509241</int>
     <fire.pb.buff.SCBuffConfig>
       <id>509241</id>
-      <name>生死决</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>physicdikang_value=0.05;hit_value=0.35</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509242</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509242</id>
-      <name>连环</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>comborate_value=0.05</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509243</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509243</id>
-      <name>矫健</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>speed_percent=0.05;maxhp_percent=0.05</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509244</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509244</id>
-      <name>狂怒</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>phyattack_value=0.6</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509245</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509245</id>
-      <name>碎甲刃</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>phynodefrate_value=1;phynodefdegree_percent=0.3</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509246</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509246</id>
-      <name>通灵法</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magicnodefrate_value=1;magicnodefdegree_percent=0.04</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509247</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509247</id>
-      <name>双星爆</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magiccombo_value=0.15;magiccombolimit=1</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509248</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509248</id>
-      <name>催心浪</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magiccruel_value=0.03</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509249</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509249</id>
-      <name>圣洁</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <overrideSelfType>1</overrideSelfType>
-      <instantbuff>510143</instantbuff>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509250</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509250</id>
-      <name>闪电魂</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509251</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509251</id>
-      <name>阴伤</name>
-      <classname>fire.pb.buff.continual.RoundBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>220</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>physicrevise_value=0.05</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509252</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509252</id>
-      <name>迅敏</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>speed_percent=0.03</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509253</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509253</id>
-      <name>擅咒</name>
-      <classname>fire.pb.buff.continual.RoundBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>220</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magicrevise_value=0.018</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509254</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509254</id>
-      <name>灵身</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magiccrueldegree_value=0.07</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509255</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509255</id>
-      <name>愤恨</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>physicrevise_value=0.05</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509256</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509256</id>
-      <name>静岳</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>maxhp_percent=0.03</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509257</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509257</id>
-      <name>狙刺</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magicrevise_value=0.01</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509258</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509258</id>
-      <name>深思</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509259</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509259</id>
-      <name>神机步</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>healdegree_value=0.01</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509260</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509260</id>
-      <name>玄武躯</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>maxhp_percent=0.1</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509261</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509261</id>
-      <name>腾挪劲</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>phyoncruelrate_value=0.05</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509262</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509262</id>
-      <name>龙胄铠</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>blockrate_value=0.1</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509263</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509263</id>
-      <name>钢化</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>blockrate_value=0.1</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509264</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509264</id>
-      <name>玉砥柱</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magicattack_value=0.1</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509265</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509265</id>
-      <name>通灵法</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>fireabsorb_value=0.33;fireabsorbdegree_value=1</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509266</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509266</id>
-      <name>血债偿</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509267</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509267</id>
-      <name>凛冽气</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509268</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509268</id>
-      <name>阴阳护</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>phynodefrate_value=0.01</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509269</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509269</id>
-      <name>坚甲</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>fanzhendegree_value=0.03</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509270</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509270</id>
-      <name>电魂闪</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509271</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509271</id>
-      <name>隐匿击</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509272</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509272</id>
-      <name>慧心</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>onpoisonrate_value=0.06;ondeadjingurate_value=0.06</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509273</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509273</id>
-      <name>撞击</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>hit_value=0.01</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509274</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509274</id>
-      <name>无畏</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>fanzhendegree_value=0.01</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509275</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509275</id>
-      <name>淬毒</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>poisonrate_value=0.08</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509276</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509276</id>
-      <name>灵光</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>magicrevise_value=0.03</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>509277</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>509277</id>
-      <name>舍身击</name>
-      <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
-      <initTime>-1</initTime>
-      <initCount>-1</initCount>
-      <initAmount>-1</initAmount>
-      <clearType>1</clearType>
-      <storeToDisk>false</storeToDisk>
-      <time>0</time>
-      <buffclass>310</buffclass>
-      <sendtoclient>1</sendtoclient>
-      <inBattleScript>true</inBattleScript>
-      <effects>physicrevise_value=0.06</effects>
-      <overrideSelfType>1</overrideSelfType>
-    </fire.pb.buff.SCBuffConfig>
-  </entry>
-  <entry>
-    <int>510000</int>
-    <fire.pb.buff.SCBuffConfig>
-      <id>510000</id>
       <name>超级暴击</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8763,14 +8066,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>phycruelrate_value=0.4</effects>
+      <effects>phycruelrate_value=0.33</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510001</int>
+    <int>509242</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510001</id>
+      <id>509242</id>
       <name>超级连击</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8782,14 +8085,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>comborate_value=0.45;physicrevise_value=-0.17;phycombolimit_value=1</effects>
+      <effects>comborate_value=0.60;physicrevise_value=-0.10;phycombolimit_value=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510002</int>
+    <int>509243</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510002</id>
+      <id>509243</id>
       <name>超级强劲</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8805,9 +8108,9 @@
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510003</int>
+    <int>509244</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510003</id>
+      <id>509244</id>
       <name>超级穿刺</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8819,14 +8122,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>phynodefrate_value=0.6;phynodefdegree_value=0.25</effects>
+      <effects>phynodefrate_value=1;phynodefdegree_value=0.25</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510004</int>
+    <int>509245</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510004</id>
+      <id>509245</id>
       <name>超级偷袭</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8838,14 +8141,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>onfanzhenrate_value=9.99;onfanjinum_value=9.99;physicrevise_value=0.7</effects>
+      <effects>onfanzhenrate_value=9.99;onfanjinum_value=9.99;physicrevise_value=0.20</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510005</int>
+    <int>509246</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510005</id>
+      <id>509246</id>
       <name>超级法术暴击</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8857,14 +8160,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>magiccruel_value=0.35</effects>
+      <effects>magiccruel_value=0.30</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510006</int>
+    <int>509247</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510006</id>
+      <id>509247</id>
       <name>超级法术连击</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8876,14 +8179,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>magicdouble_value=0.70;magiccombo_value=0.5;magiccombolimit=1</effects>
+      <effects>magicdouble_value=0.40;magiccombo_value=0.7;magiccombolimit=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510007</int>
+    <int>509248</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510007</id>
+      <id>509248</id>
       <name>超级法术波动</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8895,14 +8198,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>fashubodong_value=0.49</effects>
+      <effects>fashubodong_value=0.35</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510008</int>
+    <int>509249</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510008</id>
+      <id>509249</id>
       <name>超级魔之心</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8914,14 +8217,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>magicrevise_value=0.50</effects>
+      <effects>magicrevise_value=0.25</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510009</int>
+    <int>509250</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510009</id>
+      <id>509250</id>
       <name>超级法术穿刺</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8933,14 +8236,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>magicnodefrate_value=0.7;magicnodefdegree_value=0.08</effects>
+      <effects>magicnodefrate_value=1;magicnodefdegree_value=0.12</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510010</int>
+    <int>509251</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510010</id>
+      <id>509251</id>
       <name>超级吸血</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8952,14 +8255,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>xixuerate_value=1;xixuedegree_value=0.66</effects>
+      <effects>xixuerate_value=1;xixuedegree_value=0.42</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510011</int>
+    <int>509252</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510011</id>
+      <id>509252</id>
       <name>超级凤凰之心</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8971,14 +8274,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>reviverate_value=0.6;revivedegree_value=1</effects>
+      <effects>reviverate_value=0.45;revivedegree_value=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510012</int>
+    <int>509253</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510012</id>
+      <id>509253</id>
       <name>超级格挡</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -8990,14 +8293,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>blockrate_value=0.30</effects>
+      <effects>blockrate_value=0.35</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510013</int>
+    <int>509254</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510013</id>
+      <id>509254</id>
       <name>超级反弹</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9009,14 +8312,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>fanzhenrate_value=0.29;fanzhendegree_value=0.5</effects>
+      <effects>fanzhenrate_value=0.43;fanzhendegree_value=0.7</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510014</int>
+    <int>509255</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510014</id>
+      <id>509255</id>
       <name>超级神迹</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9033,9 +8336,9 @@
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510015</int>
+    <int>509256</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510015</id>
+      <id>509256</id>
       <name>超级反击</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9047,14 +8350,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>fanjirate_value=0.43;fanjidegree_value=0.8</effects>
+      <effects>fanjirate_value=0.4;fanjidegree_value=0.5</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510016</int>
+    <int>509257</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510016</id>
+      <id>509257</id>
       <name>超级灵敏</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9066,14 +8369,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>speed_percent=0.80</effects>
+      <effects>speed_percent=0.33</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510017</int>
+    <int>509258</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510017</id>
+      <id>509258</id>
       <name>超级强壮</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9085,14 +8388,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>maxhp_percent=0.4</effects>
+      <effects>maxhp_percent=0.33</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510018</int>
+    <int>509259</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510018</id>
+      <id>509259</id>
       <name>超级幸运</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9104,14 +8407,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>phyoncruelrate_value=0.3</effects>
+      <effects>phyoncruelrate_value=0.30</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510019</int>
+    <int>509260</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510019</id>
+      <id>509260</id>
       <name>超级迟钝</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9123,14 +8426,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>speed_percent=-0.22;maxhp_percent=0.2</effects>
+      <effects>speed_percent=-0.10;maxhp_percent=0.06</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510020</int>
+    <int>509261</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510020</id>
+      <id>509261</id>
       <name>超级火元素吸收</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9142,14 +8445,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>fireabsorb_value=0.66;fireabsorbdegree_value=1</effects>
+      <effects>fireabsorb_value=0.43;fireabsorbdegree_value=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510021</int>
+    <int>509262</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510021</id>
+      <id>509262</id>
       <name>超级水元素吸收</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9161,14 +8464,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>waterabsorb_value=0.66;waterabsorbdegree_value=1</effects>
+      <effects>waterabsorb_value=0.43;waterabsorbdegree_value=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510022</int>
+    <int>509263</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510022</id>
+      <id>509263</id>
       <name>超级土元素吸收</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9180,14 +8483,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>stoneabsorb_value=0.66;stoneabsorbdegree_value=1</effects>
+      <effects>stoneabsorb_value=0.43;stoneabsorbdegree_value=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510023</int>
+    <int>509264</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510023</id>
+      <id>509264</id>
       <name>超级雷元素吸收</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9199,14 +8502,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>thunderabsorb_value=0.66;thunderabsorbdegree_value=1</effects>
+      <effects>thunderabsorb_value=0.43;thunderabsorbdegree_value=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510024</int>
+    <int>509265</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510024</id>
+      <id>509265</id>
       <name>超级夜枭感知</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9218,14 +8521,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>blockrate_value=0.15</effects>
+      <effects>blockrate_value=0.1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510025</int>
+    <int>509266</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510025</id>
+      <id>509266</id>
       <name>超级精神集中</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9237,14 +8540,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>blockrate_value=0.07;physicrevise_value=-0.18</effects>
+      <effects>blockrate_value=0.1;physicrevise_value=-0.12</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510026</int>
+    <int>509267</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510026</id>
+      <id>509267</id>
       <name>超级瘟疫</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9256,14 +8559,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>poisonrate_value=0.19;poisonxue_value=0.1;poisonlan_value=0.05;poisonhuihe_value=3;onpoisonrate_value=9.99</effects>
+      <effects>poisonrate_value=0.33;poisonxue_value=0.15;poisonlan_value=0.07;poisonhuihe_value=3;onpoisonrate_value=9.99</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510027</int>
+    <int>509268</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510027</id>
+      <id>509268</id>
       <name>超级追击</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9275,14 +8578,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>zhuijirate_value=0.55;zhuijidegree_value=1;zhuijinum_value=1</effects>
+      <effects>zhuijirate_value=0.80;zhuijidegree_value=1;zhuijinum_value=1</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510028</int>
+    <int>509269</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510028</id>
+      <id>509269</id>
       <name>超级溅射</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9294,14 +8597,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>splashrate_value=0.55;splashdegree_value=0.3;splashnum_value=2</effects>
+      <effects>splashrate_value=0.3;splashdegree_value=0.5;splashnum_value=3</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510029</int>
+    <int>509270</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510029</id>
+      <id>509270</id>
       <name>超级驱魔</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9313,14 +8616,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>fashubodong_value=0.41</effects>
+      <effects>fashubodong_value=0.43</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510030</int>
+    <int>509271</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510030</id>
+      <id>509271</id>
       <name>超级潜行</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9337,9 +8640,9 @@
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510031</int>
+    <int>509272</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510031</id>
+      <id>509272</id>
       <name>超级冥思</name>
       <classname>fire.pb.buff.continual.RoundBuff</classname>
       <initTime>-1</initTime>
@@ -9356,9 +8659,9 @@
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510032</int>
+    <int>509273</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510032</id>
+      <id>509273</id>
       <name>超级回春</name>
       <classname>fire.pb.buff.continual.RoundBuff</classname>
       <initTime>-1</initTime>
@@ -9375,9 +8678,9 @@
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510033</int>
+    <int>509274</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510033</id>
+      <id>509274</id>
       <name>超级灵力</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9389,14 +8692,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>speed_percent=0.90</effects>
+      <effects>magicattack_percent=0.33</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510034</int>
+    <int>509275</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510034</id>
+      <id>509275</id>
       <name>逃跑限制</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <limitOperations>9;12</limitOperations>
@@ -9416,9 +8719,9 @@
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510035</int>
+    <int>509276</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510035</id>
+      <id>509276</id>
       <name>生死决</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9430,14 +8733,14 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>physicdikang_value=0.05;hit_value=0.35</effects>
+      <effects>defend_percent=-0.10;phyattack_percent=0.06;magicattack_percent=0.03</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>
-    <int>510036</int>
+    <int>509277</int>
     <fire.pb.buff.SCBuffConfig>
-      <id>510036</id>
+      <id>509277</id>
       <name>神机步</name>
       <classname>fire.pb.buff.continual.ConstantlyBuff</classname>
       <initTime>-1</initTime>
@@ -9449,7 +8752,7 @@
       <buffclass>310</buffclass>
       <sendtoclient>1</sendtoclient>
       <inBattleScript>true</inBattleScript>
-      <effects>dodge_value=0.10</effects>
+      <effects>dodge_percent=0.10</effects>
       <overrideSelfType>0</overrideSelfType>
     </fire.pb.buff.SCBuffConfig>
   </entry>

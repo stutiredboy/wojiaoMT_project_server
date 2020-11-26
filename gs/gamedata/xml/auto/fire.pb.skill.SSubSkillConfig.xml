@@ -1594,7 +1594,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510000</buff0__id>
+      <buff0__id>509241</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1605,7 +1605,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510001</buff0__id>
+      <buff0__id>509242</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1616,7 +1616,8 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510002</buff0__id>
+      <buff0__id>509243</buff0__id>
+      <buff0__values>phyattack_value=gradea*2.2</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1627,7 +1628,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510003</buff0__id>
+      <buff0__id>509244</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1638,7 +1639,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510004</buff0__id>
+      <buff0__id>509245</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1649,7 +1650,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510005</buff0__id>
+      <buff0__id>509246</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1660,7 +1661,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510006</buff0__id>
+      <buff0__id>509247</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1671,7 +1672,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510007</buff0__id>
+      <buff0__id>509248</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1682,7 +1683,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510008</buff0__id>
+      <buff0__id>509249</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1693,7 +1694,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510009</buff0__id>
+      <buff0__id>509250</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1704,7 +1705,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510010</buff0__id>
+      <buff0__id>509251</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1715,7 +1716,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510011</buff0__id>
+      <buff0__id>509252</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1726,7 +1727,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510012</buff0__id>
+      <buff0__id>509253</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1737,7 +1738,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510013</buff0__id>
+      <buff0__id>509254</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1748,7 +1749,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510014</buff0__id>
+      <buff0__id>509255</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1759,7 +1760,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510015</buff0__id>
+      <buff0__id>509256</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1770,7 +1771,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510016</buff0__id>
+      <buff0__id>509257</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1781,7 +1782,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510017</buff0__id>
+      <buff0__id>509258</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1792,7 +1793,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510018</buff0__id>
+      <buff0__id>509259</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1803,7 +1804,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510019</buff0__id>
+      <buff0__id>509260</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1814,7 +1815,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510020</buff0__id>
+      <buff0__id>509261</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1825,7 +1826,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510021</buff0__id>
+      <buff0__id>509262</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1836,7 +1837,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510022</buff0__id>
+      <buff0__id>509263</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1847,7 +1848,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510023</buff0__id>
+      <buff0__id>509264</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1858,7 +1859,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510024</buff0__id>
+      <buff0__id>509265</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1869,7 +1870,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510025</buff0__id>
+      <buff0__id>509266</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1880,7 +1881,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510026</buff0__id>
+      <buff0__id>509267</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1891,7 +1892,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510027</buff0__id>
+      <buff0__id>509268</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -1902,7 +1903,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510028</buff0__id>
+      <buff0__id>509269</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -28364,139 +28365,50 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210013</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210013</id>
-      <name>生死决</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509241</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210014</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210014</id>
-      <name>连环</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509242</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210015</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210015</id>
-      <name>矫健</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509243</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210016</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210016</id>
-      <name>狂怒</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509244</buff0__id>
-      <buff0__values>phycrueldegree_percent=0.5;magicdef_percent=-0.6</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210017</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210017</id>
-      <name>碎甲刃</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509245</buff0__id>
-      <buff0__round>5</buff0__round>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210018</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210018</id>
-      <name>通灵法</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509246</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210019</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210019</id>
-      <name>双星爆</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509247</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210020</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210020</id>
-      <name>催心浪</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509248</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
     <int>8210021</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>8210021</id>
       <name>圣洁</name>
+      <requiredBuffs>509067</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509249</buff0__id>
+      <buff0__id>509270</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210022</int>
+    <int>8210041</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210022</id>
-      <name>闪电魂</name>
+      <id>8210041</id>
+      <name>坚甲</name>
+      <requiredBuffs>509053</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509250</buff0__id>
+      <buff0__id>509254</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210023</int>
+    <int>8210027</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210023</id>
-      <name>阴伤</name>
+      <id>8210027</id>
+      <name>愤恨</name>
+      <requiredBuffs>509060</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509251</buff0__id>
-      <buff0__values>magicdef_percent=-0.05</buff0__values>
+      <buff0__id>509259</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210024</int>
+    <int>8210044</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210024</id>
-      <name>迅敏</name>
+      <id>8210044</id>
+      <name>慧心</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509252</buff0__id>
-      <buff0__values>phyattack_value=gradea*1.6</buff0__values>
+      <buff0__id>509255</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -28507,8 +28419,55 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509253</buff0__id>
-      <buff0__values>defend_value=gradea*1.3</buff0__values>
+      <buff0__id>509248</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210046</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210046</id>
+      <name>无畏</name>
+      <requiredBuffs>509053</requiredBuffs>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509244</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210047</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210047</id>
+      <name>淬毒</name>
+      <requiredBuffs>509035</requiredBuffs>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509267</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210030</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210030</id>
+      <name>深思</name>
+      <requiredBuffs>509048</requiredBuffs>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509048</buff0__id>
+      <buff0__values>curmp_value=gradea*0.9</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210048</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210048</id>
+      <name>灵光</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509249</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -28516,34 +28475,23 @@
     <fire.pb.skill.SSubSkillConfig>
       <id>8210026</id>
       <name>灵身</name>
+      <requiredBuffs>509043</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509254</buff0__id>
-      <buff0__values>defend_percent=-0.1</buff0__values>
+      <buff0__id>509246</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210027</int>
+    <int>8210016</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210027</id>
-      <name>愤恨</name>
+      <id>8210016</id>
+      <name>狂怒</name>
+      <requiredBuffs>509038</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509255</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210028</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210028</id>
-      <name>静岳</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509256</buff0__id>
-      <buff0__values>defend_value=gradea*0.4;magicdef_value=gradea*0.4</buff0__values>
+      <buff0__id>509241</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -28554,29 +28502,125 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
+      <buff0__id>509250</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210015</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210015</id>
+      <name>矫健</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
       <buff0__id>509257</buff0__id>
+      <buff1__id>509258</buff1__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210030</int>
+    <int>8210014</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210030</id>
-      <name>深思</name>
+      <id>8210014</id>
+      <name>连环</name>
+      <requiredBuffs>509039</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509258</buff0__id>
+      <buff0__id>509242</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210031</int>
+    <int>8210035</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210031</id>
-      <name>神机步</name>
+      <id>8210035</id>
+      <name>钢化</name>
+      <requiredBuffs>509058</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509259</buff0__id>
+      <buff0__id>509253</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210028</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210028</id>
+      <name>静岳</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509274</buff0__id>
+      <buff1__id>509258</buff1__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210023</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210023</id>
+      <name>阴伤</name>
+      <requiredBuffs>509039</requiredBuffs>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509242</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210024</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210024</id>
+      <name>迅敏</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509257</buff0__id>
+      <buff1__id>509243</buff1__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210045</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210045</id>
+      <name>撞击</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509245</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210020</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210020</id>
+      <name>催心浪</name>
+      <requiredBuffs>509045</requiredBuffs>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509248</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210039</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210039</id>
+      <name>凛冽气</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509275</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210019</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210019</id>
+      <name>双星爆</name>
+      <requiredBuffs>509044</requiredBuffs>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509247</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -28588,42 +28632,6 @@
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>509260</buff0__id>
-      <buff0__values>magicrevise_value=-0.5</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210033</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210033</id>
-      <name>腾挪劲</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509261</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210034</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210034</id>
-      <name>龙胄铠</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509262</buff0__id>
-      <buff0__values>defend_value=gradea*1.6;physicrevise_value=-0.5</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210035</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210035</id>
-      <name>钢化</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509263</buff0__id>
-      <buff0__values>defend_value=gradea*0.6;magicdef_percent=-0.05</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -28634,139 +28642,64 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509264</buff0__id>
+      <buff0__id>509052</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210037</int>
+    <int>8210013</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210037</id>
-      <name>通灵法</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509265</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210038</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210038</id>
-      <name>血债偿</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509266</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210039</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210039</id>
-      <name>凛冽气</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509267</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210040</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210040</id>
-      <name>阴阳护</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509268</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210041</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210041</id>
-      <name>坚甲</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509269</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210042</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210042</id>
-      <name>电魂闪</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509270</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210043</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210043</id>
-      <name>隐匿击</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509271</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210044</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210044</id>
-      <name>慧心</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509272</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210045</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210045</id>
-      <name>撞击</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509273</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210046</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210046</id>
-      <name>无畏</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509274</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210047</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210047</id>
-      <name>淬毒</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509275</buff0__id>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>8210048</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>8210048</id>
-      <name>灵光</name>
+      <id>8210013</id>
+      <name>生死决</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>509276</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210022</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210022</id>
+      <name>电魂闪</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509250</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210017</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210017</id>
+      <name>碎甲刃</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509243</buff0__id>
+      <buff0__round>2</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210031</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210031</id>
+      <name>神机步</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509277</buff0__id>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210033</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210033</id>
+      <name>腾挪劲</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509253</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -28777,7 +28710,64 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509277</buff0__id>
+      <buff0__id>509243</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210038</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210038</id>
+      <name>血债偿</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509250</buff0__id>
+      <buff0__round>5</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210018</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210018</id>
+      <name>通灵法</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509250</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210040</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210040</id>
+      <name>阴阳护</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509060</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210043</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210043</id>
+      <name>隐匿击</name>
+      <requiredBuffs>509068</requiredBuffs>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509271</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210034</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210034</id>
+      <name>龙胄铠</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509060</buff0__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
 </tree-map>
