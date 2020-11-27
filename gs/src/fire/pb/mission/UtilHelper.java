@@ -17,6 +17,10 @@ import fire.pb.item.PEquipRideProc;
 import fire.pb.item.Pack;
 import fire.pb.skill.SkillRole;
 import fire.pb.state.StateManager;
+import fire.pb.attr.AttrType;
+import fire.pb.SAddPointAttrData;
+import fire.pb.attr.EffectType;
+import mkdb.Procedure;
 
 public final class UtilHelper {
 	public enum AnimeType {
@@ -97,52 +101,53 @@ public final class UtilHelper {
 		fire.pb.effect.RoleImpl role = new fire.pb.effect.RoleImpl( roleid );
 		if(role == null)
 		{
-			return UseResult.FAIL;
+			return;
 		}
 		// 判断是否有速度加成
 		if(sTransEffectConfig.getSpeed_value() != 0)
 		{
-			role.detachEffect(AttrType.SPEED,sTransConfig.getSpeed_value());
+			role.detachEffect(EffectType.SPEED_ABL,sTransEffectConfig.getSpeed_value());
 		}
 
 		// 判断是否有气血上限加成
 		if(sTransEffectConfig.getUplimithp_value() != 0)
 		{
-			role.detachEffect(AttrType.MAX_HP,sTransEffectConfig.getUplimithp_value());
+			role.detachEffect(EffectType.MAX_HP_ABL,sTransEffectConfig.getUplimithp_value());
 		}
 
 		// 判断是否有增加魔法值
 		if(sTransEffectConfig.getCurmp_value() != 0)
 		{
-			role.detachEffect(AttrType.MAX_MP,sTransEffectConfig.getCurmp_value());
+			role.detachEffect(EffectType.MAX_MP_ABL,sTransEffectConfig.getCurmp_value());
 		}
 
 		// 判断是否有增加物理伤害
 		if(sTransEffectConfig.getPhyattack_value() != 0)
 		{
-			role.detachEffect(AttrType.ATTACK,sTransEffectConfig.getPhyattack_value());
+			role.detachEffect(EffectType.DAMAGE_ABL,sTransEffectConfig.getPhyattack_value());
 		}
 
 		// 判断是否有增加法术伤害
 		if(sTransEffectConfig.getMagicattack_value() != 0)
 		{
-			role.detachEffect(AttrType.MAGIC_ATTACK,sTransEffectConfig.getMagicattack_value());
+			role.detachEffect(EffectType.MAGIC_ATTACK_ABL,sTransEffectConfig.getMagicattack_value());
 		}
 
 		// 判断是否有增加物理防御
 		if(sTransEffectConfig.getDefend_value() != 0)
 		{
-			role.detachEffect(AttrType.DEFEND,sTransEffectConfig.getDefend_value());
+			role.detachEffect(EffectType.DEFEND_ABL,sTransEffectConfig.getDefend_value());
 		}
 
 		// 判断是否有增加法术防御
 		if(sTransEffectConfig.getMagicdef_value() != 0)
 		{
-			role.detachEffect(AttrType.MAGIC_DEF,sTransEffectConfig.getMagicdef_value());
+			role.detachEffect(EffectType.MAGIC_DEF_ABL,sTransEffectConfig.getMagicdef_value());
 		}
-
-
-	
+		java.util.Map<Integer,Float> res = role.updateAllFinalAttrs();
+		final fire.pb.attr.SRefreshRoleData send = new fire.pb.attr.SRefreshRoleData();
+		send.datas.putAll(res);
+		Procedure.psendWhileCommit(roleid, send);
 	}
 	
 	public static void clearNpcFollowID(final long roleid, final long questid) {
