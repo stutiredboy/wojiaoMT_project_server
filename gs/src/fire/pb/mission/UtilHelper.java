@@ -17,6 +17,10 @@ import fire.pb.item.PEquipRideProc;
 import fire.pb.item.Pack;
 import fire.pb.skill.SkillRole;
 import fire.pb.state.StateManager;
+import fire.pb.attr.AttrType;
+import fire.pb.SAddPointAttrData;
+import fire.pb.attr.EffectType;
+import mkdb.Procedure;
 
 public final class UtilHelper {
 	public enum AnimeType {
@@ -69,12 +73,22 @@ public final class UtilHelper {
 		}
 	}
 	
+	// 清除变身卡效果
 	public static void clearItemTransformID(final long roleid) {
-		
 		xbean.TransfromByItemData tibyItem = xtable.Transformbyitem.get(roleid);
 		if (tibyItem == null) {
 			return;
 		}
+		Map<Integer, fire.pb.item.STransformationConfig> sTransConfigs = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.item.STransformationConfig.class);
+		Map<Integer, fire.pb.item.STransformationEffectConfig> sTransEffectConfigs = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.item.STransformationEffectConfig.class);
+
+		fire.pb.item.STransformationConfig sTransConfig = sTransConfigs.get(tibyItem.getUseitemid());
+		if (sTransConfig == null)
+			return;
+		fire.pb.item.STransformationEffectConfig sTransEffectConfig = sTransEffectConfigs.get(sTransConfig.effectid);
+		if (sTransEffectConfig == null)
+			return;
+		
 		xtable.Transformbyitem.delete(roleid);
 		fire.msp.task.GChangeShape send2Scene = 
 				new fire.msp.task.GChangeShape();
@@ -83,9 +97,57 @@ public final class UtilHelper {
 		send2Scene.changetype = 0;
 		fire.pb.GsClient.pSendWhileCommit( send2Scene );
 
-		SkillRole srole = new SkillRole(roleid);  
-		Map<Integer, Integer> sextskill = new HashMap<Integer, Integer>();
-		srole.addExtSkillWithSP(sextskill);		
+		// 属性加成
+		fire.pb.effect.RoleImpl role = new fire.pb.effect.RoleImpl( roleid );
+		if(role == null)
+		{
+			return;
+		}
+		// 判断是否有速度加成
+		if(sTransEffectConfig.getSpeed_value() != 0)
+		{
+			role.detachEffect(EffectType.SPEED_ABL,sTransEffectConfig.getSpeed_value());
+		}
+
+		// 判断是否有气血上限加成
+		if(sTransEffectConfig.getUplimithp_value() != 0)
+		{
+			role.detachEffect(EffectType.MAX_HP_ABL,sTransEffectConfig.getUplimithp_value());
+		}
+
+		// 判断是否有增加魔法值
+		if(sTransEffectConfig.getCurmp_value() != 0)
+		{
+			role.detachEffect(EffectType.MAX_MP_ABL,sTransEffectConfig.getCurmp_value());
+		}
+
+		// 判断是否有增加物理伤害
+		if(sTransEffectConfig.getPhyattack_value() != 0)
+		{
+			role.detachEffect(EffectType.DAMAGE_ABL,sTransEffectConfig.getPhyattack_value());
+		}
+
+		// 判断是否有增加法术伤害
+		if(sTransEffectConfig.getMagicattack_value() != 0)
+		{
+			role.detachEffect(EffectType.MAGIC_ATTACK_ABL,sTransEffectConfig.getMagicattack_value());
+		}
+
+		// 判断是否有增加物理防御
+		if(sTransEffectConfig.getDefend_value() != 0)
+		{
+			role.detachEffect(EffectType.DEFEND_ABL,sTransEffectConfig.getDefend_value());
+		}
+
+		// 判断是否有增加法术防御
+		if(sTransEffectConfig.getMagicdef_value() != 0)
+		{
+			role.detachEffect(EffectType.MAGIC_DEF_ABL,sTransEffectConfig.getMagicdef_value());
+		}
+		java.util.Map<Integer,Float> res = role.updateAllFinalAttrs();
+		final fire.pb.attr.SRefreshRoleData send = new fire.pb.attr.SRefreshRoleData();
+		send.datas.putAll(res);
+		Procedure.psendWhileCommit(roleid, send);
 	}
 	
 	public static void clearNpcFollowID(final long roleid, final long questid) {

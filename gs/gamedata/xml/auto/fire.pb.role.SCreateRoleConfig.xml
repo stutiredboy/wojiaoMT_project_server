@@ -12,12 +12,12 @@
         <int>24</int>
       </schools>
       <initequip>
-        <int>7090101</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100101</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -32,12 +32,12 @@
         <int>11</int>
       </schools>
       <initequip>
-        <int>7090104</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100104</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -52,12 +52,12 @@
         <int>17</int>
       </schools>
       <initequip>
-        <int>7090103</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100103</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -72,12 +72,12 @@
         <int>22</int>
       </schools>
       <initequip>
-        <int>7090106</int>
-        <int>7090208</int>
-        <int>7090310</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100106</int>
+        <int>8100208</int>
+        <int>8100310</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -92,12 +92,12 @@
         <int>20</int>
       </schools>
       <initequip>
-        <int>7090102</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100102</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -112,12 +112,12 @@
         <int>18</int>
       </schools>
       <initequip>
-        <int>7090105</int>
-        <int>7090208</int>
-        <int>7090310</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100105</int>
+        <int>8100208</int>
+        <int>8100310</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -132,12 +132,12 @@
         <int>20</int>
       </schools>
       <initequip>
-        <int>7090107</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100107</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -152,12 +152,12 @@
         <int>23</int>
       </schools>
       <initequip>
-        <int>7090108</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100108</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -172,12 +172,12 @@
         <int>25</int>
       </schools>
       <initequip>
-        <int>7090109</int>
-        <int>7090208</int>
-        <int>7090310</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100109</int>
+        <int>8100208</int>
+        <int>8100310</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -192,12 +192,12 @@
         <int>20</int>
       </schools>
       <initequip>
-        <int>7090109</int>
-        <int>7090208</int>
-        <int>7090310</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100110</int>
+        <int>8100208</int>
+        <int>8100310</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -212,12 +212,12 @@
         <int>20</int>
       </schools>
       <initequip>
-        <int>7090102</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100111</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -232,12 +232,12 @@
         <int>22</int>
       </schools>
       <initequip>
-        <int>7090106</int>
-        <int>7090208</int>
-        <int>7090310</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100112</int>
+        <int>8100208</int>
+        <int>8100310</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -252,12 +252,12 @@
         <int>17</int>
       </schools>
       <initequip>
-        <int>7090103</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100113</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -272,12 +272,12 @@
         <int>11</int>
       </schools>
       <initequip>
-        <int>7090104</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100114</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -292,12 +292,12 @@
         <int>20</int>
       </schools>
       <initequip>
-        <int>7090107</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100115</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -312,12 +312,12 @@
         <int>24</int>
       </schools>
       <initequip>
-        <int>7090101</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100116</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -332,12 +332,12 @@
         <int>23</int>
       </schools>
       <initequip>
-        <int>7090108</int>
-        <int>7090207</int>
-        <int>7090309</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100117</int>
+        <int>8100207</int>
+        <int>8100309</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>
@@ -352,12 +352,12 @@
         <int>25</int>
       </schools>
       <initequip>
-        <int>7090109</int>
-        <int>7090208</int>
-        <int>7090310</int>
-        <int>7090411</int>
-        <int>7090512</int>
-        <int>7090613</int>
+        <int>8100118</int>
+        <int>8100208</int>
+        <int>8100310</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </initequip>
     </fire.pb.role.SCreateRoleConfig>
   </entry>

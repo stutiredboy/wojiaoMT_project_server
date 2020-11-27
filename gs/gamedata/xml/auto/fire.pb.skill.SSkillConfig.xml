@@ -15137,7 +15137,7 @@
       <type>10</type>
       <targetType>1</targetType>
       <initSpeedBonus>0</initSpeedBonus>
-      <subskillIDs>8210037</subskillIDs>
+      <subskillIDs>8210018</subskillIDs>
       <subskillstarttimes>0</subskillstarttimes>
     </fire.pb.skill.SSkillConfig>
   </entry>
@@ -15227,7 +15227,7 @@
       <type>10</type>
       <targetType>1</targetType>
       <initSpeedBonus>0</initSpeedBonus>
-      <subskillIDs>8210042</subskillIDs>
+      <subskillIDs>8210022</subskillIDs>
       <subskillstarttimes>0</subskillstarttimes>
     </fire.pb.skill.SSkillConfig>
   </entry>

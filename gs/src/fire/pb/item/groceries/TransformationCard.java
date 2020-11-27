@@ -12,6 +12,9 @@ import fire.pb.item.GroceryItem;
 import fire.pb.item.ItemMgr;
 import fire.pb.item.Commontext.UseResult;
 import fire.pb.skill.SkillRole;
+import fire.pb.attr.AttrType;
+import fire.pb.attr.EffectType;
+import mkdb.Procedure;
 
 public class TransformationCard extends GroceryItem {
 
@@ -59,22 +62,59 @@ public class TransformationCard extends GroceryItem {
 		paramLst.add(String.valueOf(sTransConfig.time));
 		fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(roleId, 145324, paramLst);
 		
-		if(sTransEffectConfig.getSkills() != null && sTransEffectConfig.getSkills().size() > 0){
-			SkillRole skillRole = new SkillRole(roleId);  
-			Map<Integer, Integer> SExtSkill = new HashMap<Integer, Integer>();
-			int index = 0;
-			PropRole pRole = new PropRole(roleId, false);
-			skillRole.removeExtSkill();
-			for(int skillid: sTransEffectConfig.getSkills()){
-				if(sTransEffectConfig.getSkillfactors().size() > index 
-						&& sTransEffectConfig.getSkillconstants().size() > index){
-					int nlv = sTransEffectConfig.getSkillfactors().get(index)*pRole.getLevel() + sTransEffectConfig.getSkillconstants().get(index);
-					SExtSkill.put(skillid, nlv);
-				}
-				index++;
-			}
-			skillRole.addExtSkillWithSP(SExtSkill);
+
+		// 属性加成
+		fire.pb.effect.RoleImpl role = new fire.pb.effect.RoleImpl( roleid );
+		if(role == null)
+		{
+			return UseResult.FAIL;
 		}
+		// 判断是否有速度加成
+		if(sTransEffectConfig.getSpeed_value() != 0)
+		{
+			role.attachEffect(EffectType.SPEED_ABL,sTransEffectConfig.getSpeed_value());
+		}
+
+		// 判断是否有气血上限加成
+		if(sTransEffectConfig.getUplimithp_value() != 0)
+		{
+			role.attachEffect(EffectType.MAX_HP_ABL,sTransEffectConfig.getUplimithp_value());
+		}
+
+		// 判断是否有增加魔法值
+		if(sTransEffectConfig.getCurmp_value() != 0)
+		{
+			role.attachEffect(EffectType.MAX_MP_ABL,sTransEffectConfig.getCurmp_value());
+		}
+
+		// 判断是否有增加物理伤害
+		if(sTransEffectConfig.getPhyattack_value() != 0)
+		{
+			role.attachEffect(EffectType.DAMAGE_ABL,sTransEffectConfig.getPhyattack_value());
+		}
+
+		// 判断是否有增加法术伤害
+		if(sTransEffectConfig.getMagicattack_value() != 0)
+		{
+			role.attachEffect(EffectType.MAGIC_ATTACK_ABL,sTransEffectConfig.getMagicattack_value());
+		}
+
+		// 判断是否有增加物理防御
+		if(sTransEffectConfig.getDefend_value() != 0)
+		{
+			role.attachEffect(EffectType.DEFEND_ABL,sTransEffectConfig.getDefend_value());
+		}
+
+		// 判断是否有增加法术防御
+		if(sTransEffectConfig.getMagicdef_value() != 0)
+		{
+			role.attachEffect(EffectType.MAGIC_DEF_ABL,sTransEffectConfig.getMagicdef_value());
+		}
+		java.util.Map<Integer,Float> res = role.updateAllFinalAttrs();
+		final fire.pb.attr.SRefreshRoleData send = new fire.pb.attr.SRefreshRoleData();
+		send.datas.putAll(res);
+		Procedure.psendWhileCommit(roleId, send);
+		
 		return UseResult.SUCC;
 	}
 }
