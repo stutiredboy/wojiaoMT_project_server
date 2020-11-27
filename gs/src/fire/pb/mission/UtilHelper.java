@@ -461,7 +461,7 @@ public final class UtilHelper {
 		return false;
 	}
 	
-	public static void itemTransform(final long roleid, final int newshapeid, final int time) {
+	public static void itemTransform(final long roleid, final int newshapeid, int time,long oldItemid) {
 		final xbean.Properties prop = xtable.Properties.select(roleid);
 		xbean.TransfromByItemData ti = xtable.Transformbyitem.get(roleid);
 		if (ti == null) {
@@ -469,6 +469,10 @@ public final class UtilHelper {
 			xtable.Transformbyitem.insert(roleid, ti);
 		}
 		final int curTransformid = ti.getTransformid();
+		if(ti.getUseitemid() == oldItemid)
+		{
+			time = time + (int)ti.getValiddate();
+		}
 		if (curTransformid != newshapeid) {
 			// 告诉客户端变身,周围玩家也要看到
 			ti.setTransformid(newshapeid);

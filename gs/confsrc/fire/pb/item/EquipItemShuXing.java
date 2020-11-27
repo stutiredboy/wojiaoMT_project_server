@@ -61,6 +61,10 @@ public class EquipItemShuXing  extends ItemShuXing {
 		this.分解额外获得物品4=arg.分解额外获得物品4 ;
 		this.分解额外获得物品5=arg.分解额外获得物品5 ;
 		this.treasureScore=arg.treasureScore ;
+		this.ncanChongzhu=arg.ncanChongzhu ;
+		this.needGoldCoin=arg.needGoldCoin ;
+		this.needItemId=arg.needItemId ;
+		this.needItemCount=arg.needItemCount ;
 	}
 	public void checkValid(java.util.Map<String,java.util.Map<Integer,? extends Object> > objs){
 			super.checkValid(objs);
@@ -531,6 +535,58 @@ public class EquipItemShuXing  extends ItemShuXing {
 	
 	public void setTreasureScore(int v){
 		this.treasureScore=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int ncanChongzhu  = 0  ;
+	
+	public int getNcanChongzhu(){
+		return this.ncanChongzhu;
+	}
+	
+	public void setNcanChongzhu(int v){
+		this.ncanChongzhu=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int needGoldCoin  = 0  ;
+	
+	public int getNeedGoldCoin(){
+		return this.needGoldCoin;
+	}
+	
+	public void setNeedGoldCoin(int v){
+		this.needGoldCoin=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int needItemId  = 0  ;
+	
+	public int getNeedItemId(){
+		return this.needItemId;
+	}
+	
+	public void setNeedItemId(int v){
+		this.needItemId=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int needItemCount  = 0  ;
+	
+	public int getNeedItemCount(){
+		return this.needItemCount;
+	}
+	
+	public void setNeedItemCount(int v){
+		this.needItemCount=v;
 	}
 	
 	

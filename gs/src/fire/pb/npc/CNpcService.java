@@ -203,7 +203,7 @@ public class CNpcService extends __CNpcService__ {
 		
 		//serviceid -> type -> params 映射关系表
 		if (dealNpcServiceMapping(roleid, serviceid)) {
-			Module.logger.info("NPC服务映射表处理了角色[" + roleid + "]的服务[" + serviceid + "].");
+			Module.logger.error("NPC服务映射表处理了角色[" + roleid + "]的服务[" + serviceid + "].");
 			return;
 		}
 		
