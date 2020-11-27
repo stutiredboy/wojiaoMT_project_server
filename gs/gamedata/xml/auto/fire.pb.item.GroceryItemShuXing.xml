@@ -47169,4 +47169,12 @@
       <treasure>1</treasure>
     </fire.pb.item.GroceryItemShuXing>
   </entry>
+  <entry>
+    <int>340613</int>
+    <fire.pb.item.GroceryItemShuXing>
+      <id>340613</id>
+      <name>套装重铸石</name>
+      <typeid>689</typeid>
+    </fire.pb.item.GroceryItemShuXing>
+  </entry>
 </tree-map>
