@@ -1,25 +1,25 @@
 
 package fire.pb.school.change;
-import org.apache.log4j.Logger;
+
 // {{{ RPCGEN_IMPORT_BEGIN
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-
+import org.apache.log4j.Logger;
 abstract class __CChangeWeapon__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 
 public class CChangeWeapon extends __CChangeWeapon__ {
-	public static final Logger logger = Logger.getLogger("ITEM");
+	private static Logger logger = Logger.getLogger("ITEM");
 	@Override
 	protected void process() {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		logger.error("-----------------------------装备点化--武器key-"+srcweaponkey+"--点化石key-"+dianhuashiTypeId+"-----------------------------");
-		new PChangeWeapon(roleId, srcweaponkey, dianhuashiTypeId).submit();
+		logger.error("-----------------------------装备点化--武器key-"+srcweaponkey+"--点化石key-"+newweapontypeid+"-----------------------------"+operatetype);
+		new PChangeWeapon(roleId, srcweaponkey, newweapontypeid).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
@@ -30,15 +30,17 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 		return 810489;
 	}
 
-	public int srcweaponkey; // 武器的Key
-	public int dianhuashiTypeId; // 点化石itemId
+	public int srcweaponkey; // ��������Key
+	public int newweapontypeid; // ������ItemId
+	public int operatetype; // ��������
 
 	public CChangeWeapon() {
 	}
 
-	public CChangeWeapon(int _srcweaponkey_, int dianhuashiTypeId) {
+	public CChangeWeapon(int _srcweaponkey_, int _newweapontypeid_, int _operatetype_) {
 		this.srcweaponkey = _srcweaponkey_;
-		this.dianhuashiTypeId = dianhuashiTypeId;
+		this.newweapontypeid = _newweapontypeid_;
+		this.operatetype = _operatetype_;
 	}
 
 	public final boolean _validator_() {
@@ -50,13 +52,15 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 			throw new VerifyError("validator failed");
 		}
 		_os_.marshal(srcweaponkey);
-		_os_.marshal(dianhuashiTypeId);
+		_os_.marshal(newweapontypeid);
+		_os_.marshal(operatetype);
 		return _os_;
 	}
 
 	public OctetsStream unmarshal(OctetsStream _os_) throws MarshalException {
 		srcweaponkey = _os_.unmarshal_int();
-		dianhuashiTypeId = _os_.unmarshal_int();
+		newweapontypeid = _os_.unmarshal_int();
+		operatetype = _os_.unmarshal_int();
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
@@ -68,7 +72,8 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 		if (_o1_ instanceof CChangeWeapon) {
 			CChangeWeapon _o_ = (CChangeWeapon)_o1_;
 			if (srcweaponkey != _o_.srcweaponkey) return false;
-			if (dianhuashiTypeId != _o_.dianhuashiTypeId) return false;
+			if (newweapontypeid != _o_.newweapontypeid) return false;
+			if (operatetype != _o_.operatetype) return false;
 			return true;
 		}
 		return false;
@@ -77,7 +82,8 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 	public int hashCode() {
 		int _h_ = 0;
 		_h_ += srcweaponkey;
-		_h_ += dianhuashiTypeId;
+		_h_ += newweapontypeid;
+		_h_ += operatetype;
 		return _h_;
 	}
 
@@ -85,7 +91,8 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 		StringBuilder _sb_ = new StringBuilder();
 		_sb_.append("(");
 		_sb_.append(srcweaponkey).append(",");
-		_sb_.append(dianhuashiTypeId).append(",");
+		_sb_.append(newweapontypeid).append(",");
+		_sb_.append(operatetype).append(",");
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -95,7 +102,9 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 		int _c_ = 0;
 		_c_ = srcweaponkey - _o_.srcweaponkey;
 		if (0 != _c_) return _c_;
-		_c_ = dianhuashiTypeId - _o_.dianhuashiTypeId;
+		_c_ = newweapontypeid - _o_.newweapontypeid;
+		if (0 != _c_) return _c_;
+		_c_ = operatetype - _o_.operatetype;
 		if (0 != _c_) return _c_;
 		return _c_;
 	}

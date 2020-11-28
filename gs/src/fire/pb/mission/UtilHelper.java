@@ -74,9 +74,13 @@ public final class UtilHelper {
 	}
 	
 	// 清除变身卡效果
-	public static void clearItemTransformID(final long roleid) {
+	public static void clearItemTransformID(final long roleid,long olditemid) {
 		xbean.TransfromByItemData tibyItem = xtable.Transformbyitem.get(roleid);
 		if (tibyItem == null) {
+			return;
+		}
+		if(tibyItem.getUseitemid() != olditemid)
+		{
 			return;
 		}
 		Map<Integer, fire.pb.item.STransformationConfig> sTransConfigs = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.item.STransformationConfig.class);
@@ -473,6 +477,7 @@ public final class UtilHelper {
 		{
 			time = time + (int)ti.getValiddate();
 		}
+		long dstItemID = ti.getUseitemid();
 		if (curTransformid != newshapeid) {
 			// 告诉客户端变身,周围玩家也要看到
 			ti.setTransformid(newshapeid);
@@ -499,7 +504,7 @@ public final class UtilHelper {
 
 						@Override
 						protected boolean process() throws Exception {
-							clearItemTransformID(roleid);
+							clearItemTransformID(roleid,dstItemID);
 							return true;
 						}
 						

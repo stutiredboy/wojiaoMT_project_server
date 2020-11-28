@@ -19,8 +19,8 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		logger.error("-----------------------------装备重铸--武器key-"+srcweaponkey+"--重铸石key-"+itemid+"-----------------------------");
-		new PChangeWeapon(roleId, srcweaponkey, itemid).submit();
+		logger.error("-----------------------------装备重铸--武器key-"+this.srcweaponkey+"--重铸石key-"+this.itemid+"-----------------------------");
+		new PChongzhuWeapon(roleId, this.srcweaponkey, this.itemid).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
