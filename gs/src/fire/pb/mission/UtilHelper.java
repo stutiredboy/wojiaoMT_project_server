@@ -107,51 +107,56 @@ public final class UtilHelper {
 		{
 			return;
 		}
-		// 判断是否有速度加成
-		if(sTransEffectConfig.getSpeed_value() != 0)
+		if(sTransEffectConfig.getBuffid() != 0)
 		{
-			role.detachEffect(EffectType.SPEED_ABL,sTransEffectConfig.getSpeed_value());
+			fire.pb.buff.BuffAgent agent = new fire.pb.buff.BuffRoleImpl(roleid);
+			agent.removeCBuffWithSP(sTransEffectConfig.getBuffid());
 		}
+		// // 判断是否有速度加成
+		// if(sTransEffectConfig.getSpeed_value() != 0)
+		// {
+		// 	role.detachEffect(EffectType.SPEED_ABL,sTransEffectConfig.getSpeed_value());
+		// }
 
-		// 判断是否有气血上限加成
-		if(sTransEffectConfig.getUplimithp_value() != 0)
-		{
-			role.detachEffect(EffectType.MAX_HP_ABL,sTransEffectConfig.getUplimithp_value());
-		}
+		// // 判断是否有气血上限加成
+		// if(sTransEffectConfig.getUplimithp_value() != 0)
+		// {
+		// 	role.detachEffect(EffectType.MAX_HP_ABL,sTransEffectConfig.getUplimithp_value());
+		// }
 
-		// 判断是否有增加魔法值
-		if(sTransEffectConfig.getCurmp_value() != 0)
-		{
-			role.detachEffect(EffectType.MAX_MP_ABL,sTransEffectConfig.getCurmp_value());
-		}
+		// // 判断是否有增加魔法值
+		// if(sTransEffectConfig.getCurmp_value() != 0)
+		// {
+		// 	role.detachEffect(EffectType.MAX_MP_ABL,sTransEffectConfig.getCurmp_value());
+		// }
 
-		// 判断是否有增加物理伤害
-		if(sTransEffectConfig.getPhyattack_value() != 0)
-		{
-			role.detachEffect(EffectType.DAMAGE_ABL,sTransEffectConfig.getPhyattack_value());
-		}
+		// // 判断是否有增加物理伤害
+		// if(sTransEffectConfig.getPhyattack_value() != 0)
+		// {
+		// 	role.detachEffect(EffectType.DAMAGE_ABL,sTransEffectConfig.getPhyattack_value());
+		// }
 
-		// 判断是否有增加法术伤害
-		if(sTransEffectConfig.getMagicattack_value() != 0)
-		{
-			role.detachEffect(EffectType.MAGIC_ATTACK_ABL,sTransEffectConfig.getMagicattack_value());
-		}
+		// // 判断是否有增加法术伤害
+		// if(sTransEffectConfig.getMagicattack_value() != 0)
+		// {
+		// 	role.detachEffect(EffectType.MAGIC_ATTACK_ABL,sTransEffectConfig.getMagicattack_value());
+		// }
 
-		// 判断是否有增加物理防御
-		if(sTransEffectConfig.getDefend_value() != 0)
-		{
-			role.detachEffect(EffectType.DEFEND_ABL,sTransEffectConfig.getDefend_value());
-		}
+		// // 判断是否有增加物理防御
+		// if(sTransEffectConfig.getDefend_value() != 0)
+		// {
+		// 	role.detachEffect(EffectType.DEFEND_ABL,sTransEffectConfig.getDefend_value());
+		// }
 
-		// 判断是否有增加法术防御
-		if(sTransEffectConfig.getMagicdef_value() != 0)
-		{
-			role.detachEffect(EffectType.MAGIC_DEF_ABL,sTransEffectConfig.getMagicdef_value());
-		}
-		java.util.Map<Integer,Float> res = role.updateAllFinalAttrs();
-		final fire.pb.attr.SRefreshRoleData send = new fire.pb.attr.SRefreshRoleData();
-		send.datas.putAll(res);
-		Procedure.psendWhileCommit(roleid, send);
+		// // 判断是否有增加法术防御
+		// if(sTransEffectConfig.getMagicdef_value() != 0)
+		// {
+		// 	role.detachEffect(EffectType.MAGIC_DEF_ABL,sTransEffectConfig.getMagicdef_value());
+		// }
+		// java.util.Map<Integer,Float> res = role.updateAllFinalAttrs();
+		// final fire.pb.attr.SRefreshRoleData send = new fire.pb.attr.SRefreshRoleData();
+		// send.datas.putAll(res);
+		// Procedure.psendWhileCommit(roleid, send);
 	}
 	
 	public static void clearNpcFollowID(final long roleid, final long questid) {

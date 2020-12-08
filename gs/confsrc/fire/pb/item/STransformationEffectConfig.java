@@ -35,6 +35,7 @@ public class STransformationEffectConfig implements mytools.ConvMain.Checkable ,
 		this.medical_value=arg.medical_value ;
 		this.phycruellv_value=arg.phycruellv_value ;
 		this.magiccruellv_value=arg.magiccruellv_value ;
+		this.buffid=arg.buffid ;
 	}
 	public void checkValid(java.util.Map<String,java.util.Map<Integer,? extends Object> > objs){
 	}
@@ -218,6 +219,19 @@ public class STransformationEffectConfig implements mytools.ConvMain.Checkable ,
 	
 	public void setMagiccruellv_value(int v){
 		this.magiccruellv_value=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int buffid  = 0  ;
+	
+	public int getBuffid(){
+		return this.buffid;
+	}
+	
+	public void setBuffid(int v){
+		this.buffid=v;
 	}
 	
 	

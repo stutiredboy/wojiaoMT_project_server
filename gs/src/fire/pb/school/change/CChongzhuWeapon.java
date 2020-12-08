@@ -5,22 +5,20 @@ package fire.pb.school.change;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-import org.apache.log4j.Logger;
+
 abstract class __CChongzhuWeapon__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 
 public class CChongzhuWeapon extends __CChongzhuWeapon__ {
-	private static Logger logger = Logger.getLogger("ITEM");
 	@Override
 	protected void process() {
 		// protocol handle
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		logger.error("-----------------------------装备重铸--武器key-"+this.srcweaponkey+"--重铸石key-"+this.itemid+"-----------------------------");
-		new PChongzhuWeapon(roleId, this.srcweaponkey, this.itemid).submit();
+		new PChongzhuWeapon(roleId, oldwuqikey, itemid).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
@@ -31,14 +29,14 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 		return 810493;
 	}
 
-	public int srcweaponkey; // ��������Key
-	public int itemid; // ������ItemId
+	public int oldwuqikey; // ��������Key
+	public int itemid; // ����ItemId
 
 	public CChongzhuWeapon() {
 	}
 
-	public CChongzhuWeapon(int _srcweaponkey_, int _itemid_) {
-		this.srcweaponkey = _srcweaponkey_;
+	public CChongzhuWeapon(int _oldwuqikey_, int _itemid_) {
+		this.oldwuqikey = _oldwuqikey_;
 		this.itemid = _itemid_;
 	}
 
@@ -50,13 +48,13 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
-		_os_.marshal(srcweaponkey);
+		_os_.marshal(oldwuqikey);
 		_os_.marshal(itemid);
 		return _os_;
 	}
 
 	public OctetsStream unmarshal(OctetsStream _os_) throws MarshalException {
-		srcweaponkey = _os_.unmarshal_int();
+		oldwuqikey = _os_.unmarshal_int();
 		itemid = _os_.unmarshal_int();
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
@@ -68,7 +66,7 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 		if (_o1_ == this) return true;
 		if (_o1_ instanceof CChongzhuWeapon) {
 			CChongzhuWeapon _o_ = (CChongzhuWeapon)_o1_;
-			if (srcweaponkey != _o_.srcweaponkey) return false;
+			if (oldwuqikey != _o_.oldwuqikey) return false;
 			if (itemid != _o_.itemid) return false;
 			return true;
 		}
@@ -77,7 +75,7 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 
 	public int hashCode() {
 		int _h_ = 0;
-		_h_ += srcweaponkey;
+		_h_ += oldwuqikey;
 		_h_ += itemid;
 		return _h_;
 	}
@@ -85,7 +83,7 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 	public String toString() {
 		StringBuilder _sb_ = new StringBuilder();
 		_sb_.append("(");
-		_sb_.append(srcweaponkey).append(",");
+		_sb_.append(oldwuqikey).append(",");
 		_sb_.append(itemid).append(",");
 		_sb_.append(")");
 		return _sb_.toString();
@@ -94,7 +92,7 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 	public int compareTo(CChongzhuWeapon _o_) {
 		if (_o_ == this) return 0;
 		int _c_ = 0;
-		_c_ = srcweaponkey - _o_.srcweaponkey;
+		_c_ = oldwuqikey - _o_.oldwuqikey;
 		if (0 != _c_) return _c_;
 		_c_ = itemid - _o_.itemid;
 		if (0 != _c_) return _c_;
