@@ -389,6 +389,17 @@
         <int>3142</int>
         <int>4182</int>
         <int>4183</int>
+        <int>3143</int>
+        <int>3144</int>
+        <int>3145</int>
+        <int>3146</int>
+        <int>3147</int>
+        <int>3148</int>
+        <int>3149</int>
+        <int>3150</int>
+        <int>3151</int>
+        <int>3152</int>
+        <int>3153</int>
       </goodsids>
     </fire.pb.shop.SNpcSale>
   </entry>
@@ -425,21 +436,6 @@
       <floatingtime>0</floatingtime>
       <goodsids>
         <int>6615</int>
-        <int>6616</int>
-        <int>6617</int>
-        <int>6618</int>
-        <int>6619</int>
-        <int>6620</int>
-        <int>6621</int>
-        <int>6622</int>
-        <int>6623</int>
-        <int>6624</int>
-        <int>6625</int>
-        <int>6626</int>
-        <int>6627</int>
-        <int>6628</int>
-        <int>6629</int>
-        <int>6630</int>
       </goodsids>
     </fire.pb.shop.SNpcSale>
   </entry>
@@ -823,6 +819,71 @@
         <int>8094</int>
         <int>8095</int>
         <int>8096</int>
+      </goodsids>
+    </fire.pb.shop.SNpcSale>
+  </entry>
+  <entry>
+    <int>18</int>
+    <fire.pb.shop.SNpcSale>
+      <id>18</id>
+      <floating>0</floating>
+      <floatingtime>0</floatingtime>
+      <goodsids>
+        <int>8097</int>
+        <int>8098</int>
+        <int>8099</int>
+        <int>8100</int>
+        <int>8101</int>
+        <int>8102</int>
+        <int>8103</int>
+        <int>8104</int>
+        <int>8105</int>
+        <int>8106</int>
+        <int>8107</int>
+        <int>8108</int>
+        <int>8109</int>
+        <int>8110</int>
+        <int>8111</int>
+        <int>8112</int>
+        <int>8113</int>
+        <int>8114</int>
+        <int>8115</int>
+        <int>8116</int>
+        <int>8117</int>
+        <int>8118</int>
+        <int>8119</int>
+        <int>8120</int>
+        <int>8121</int>
+        <int>8122</int>
+        <int>8123</int>
+        <int>8124</int>
+        <int>8125</int>
+        <int>8126</int>
+        <int>8127</int>
+        <int>8128</int>
+        <int>8129</int>
+        <int>8130</int>
+        <int>8131</int>
+        <int>8132</int>
+        <int>8133</int>
+        <int>8134</int>
+        <int>8135</int>
+        <int>8136</int>
+        <int>8137</int>
+        <int>8138</int>
+        <int>8139</int>
+        <int>8140</int>
+        <int>8141</int>
+        <int>8142</int>
+        <int>8143</int>
+        <int>8144</int>
+        <int>8145</int>
+        <int>8146</int>
+        <int>8147</int>
+        <int>8148</int>
+        <int>8149</int>
+        <int>8149</int>
+        <int>8150</int>
       </goodsids>
     </fire.pb.shop.SNpcSale>
   </entry>

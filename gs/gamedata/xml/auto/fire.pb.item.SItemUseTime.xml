@@ -81,4 +81,20 @@
       <types>0</types>
     </fire.pb.item.SItemUseTime>
   </entry>
+  <entry>
+    <int>340452</int>
+    <fire.pb.item.SItemUseTime>
+      <id>340452</id>
+      <times>10</times>
+      <types>0</types>
+    </fire.pb.item.SItemUseTime>
+  </entry>
+  <entry>
+    <int>340453</int>
+    <fire.pb.item.SItemUseTime>
+      <id>340453</id>
+      <times>10</times>
+      <types>0</types>
+    </fire.pb.item.SItemUseTime>
+  </entry>
 </tree-map>

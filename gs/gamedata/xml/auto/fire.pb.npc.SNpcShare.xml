@@ -10678,7 +10678,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010111</shape>
+      <shape>1010163</shape>
       <name>申猴</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22544,6 +22544,24 @@
       <share>0</share>
       <shape>1540038</shape>
       <name>套装点化使者</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1615</mapid>
+      <xPos>258</xPos>
+      <yPos>196</yPos>
+      <zPos>0</zPos>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>170129</int>
+    <fire.pb.npc.SNpcShare>
+      <id>170129</id>
+      <bodytype>1</bodytype>
+      <npctype>1</npctype>
+      <minimapshow>1</minimapshow>
+      <share>0</share>
+      <shape>1540039</shape>
+      <name>新角色打造商城</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>

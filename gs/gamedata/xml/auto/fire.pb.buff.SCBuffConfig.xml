@@ -8523,6 +8523,7 @@
       <inBattleScript>true</inBattleScript>
       <effects>blockrate_value=0.1</effects>
       <overrideSelfType>0</overrideSelfType>
+      <instantbuff>510143</instantbuff>
     </fire.pb.buff.SCBuffConfig>
   </entry>
   <entry>

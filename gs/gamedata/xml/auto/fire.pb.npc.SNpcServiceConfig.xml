@@ -5879,4 +5879,13 @@
       </services>
     </fire.pb.npc.SNpcServiceConfig>
   </entry>
+  <entry>
+    <int>170129</int>
+    <fire.pb.npc.SNpcServiceConfig>
+      <id>170129</id>
+      <services>
+        <int>30002</int>
+      </services>
+    </fire.pb.npc.SNpcServiceConfig>
+  </entry>
 </tree-map>

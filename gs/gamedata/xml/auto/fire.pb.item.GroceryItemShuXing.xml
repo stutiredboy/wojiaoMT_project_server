@@ -11581,7 +11581,7 @@
     <int>341107</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341107</id>
-      <name>70级★精铁</name>
+      <name>70级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>70</level>
@@ -11615,7 +11615,7 @@
     <int>341108</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341108</id>
-      <name>80级★精铁</name>
+      <name>80级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>80</level>
@@ -11651,7 +11651,7 @@
     <int>341109</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341109</id>
-      <name>90级★精铁</name>
+      <name>90级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>90</level>
@@ -11687,7 +11687,7 @@
     <int>341110</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341110</id>
-      <name>100级★精铁</name>
+      <name>100级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>100</level>
@@ -11723,7 +11723,7 @@
     <int>341111</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341111</id>
-      <name>110级★精铁</name>
+      <name>110级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>110</level>
@@ -11759,7 +11759,7 @@
     <int>341112</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341112</id>
-      <name>120级★精铁</name>
+      <name>120级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>120</level>
@@ -11795,7 +11795,7 @@
     <int>341113</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341113</id>
-      <name>130级★精铁</name>
+      <name>130级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>130</level>
@@ -11831,7 +11831,7 @@
     <int>341114</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341114</id>
-      <name>140级★精铁</name>
+      <name>140级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>140</level>
@@ -11867,7 +11867,7 @@
     <int>341115</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>341115</id>
-      <name>150级★精铁</name>
+      <name>150级百炼精铁</name>
       <unit>块</unit>
       <typeid>2470</typeid>
       <level>150</level>
@@ -11903,7 +11903,7 @@
     <int>350000</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350000</id>
-      <name>1刀</name>
+      <name>1剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>1</level>
@@ -11937,7 +11937,7 @@
     <int>350001</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350001</id>
-      <name>1枪</name>
+      <name>1龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>1</level>
@@ -11971,7 +11971,7 @@
     <int>350002</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350002</id>
-      <name>1斧</name>
+      <name>1虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>1</level>
@@ -12005,7 +12005,7 @@
     <int>350003</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350003</id>
-      <name>1扇</name>
+      <name>1逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>1</level>
@@ -12345,7 +12345,7 @@
     <int>350100</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350100</id>
-      <name>10刀</name>
+      <name>10剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>10</level>
@@ -12379,7 +12379,7 @@
     <int>350101</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350101</id>
-      <name>10枪</name>
+      <name>10龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>10</level>
@@ -12413,7 +12413,7 @@
     <int>350102</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350102</id>
-      <name>10斧</name>
+      <name>10虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>10</level>
@@ -12447,7 +12447,7 @@
     <int>350103</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350103</id>
-      <name>10扇</name>
+      <name>10逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>10</level>
@@ -12481,7 +12481,7 @@
     <int>350104</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350104</id>
-      <name>10魔棒</name>
+      <name>10魔玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>10</level>
@@ -12515,7 +12515,7 @@
     <int>350105</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350105</id>
-      <name>10爪刺</name>
+      <name>10骨精灵爪刺</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>10</level>
@@ -12549,7 +12549,7 @@
     <int>350106</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350106</id>
-      <name>10锤</name>
+      <name>10神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -12583,7 +12583,7 @@
     <int>350107</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350107</id>
-      <name>10长斧（巨魔王）</name>
+      <name>10长虎头怪斧（巨魔王）</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -12617,7 +12617,7 @@
     <int>350108</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350108</id>
-      <name>10双环</name>
+      <name>10双飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -12889,7 +12889,7 @@
     <int>350200</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350200</id>
-      <name>20刀</name>
+      <name>20剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>20</level>
@@ -12923,7 +12923,7 @@
     <int>350201</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350201</id>
-      <name>20枪</name>
+      <name>20龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>20</level>
@@ -12957,7 +12957,7 @@
     <int>350202</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350202</id>
-      <name>20斧</name>
+      <name>20虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>20</level>
@@ -12991,7 +12991,7 @@
     <int>350203</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350203</id>
-      <name>20扇</name>
+      <name>20逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>20</level>
@@ -13025,7 +13025,7 @@
     <int>350204</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350204</id>
-      <name>20魔棒</name>
+      <name>20魔玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>20</level>
@@ -13059,7 +13059,7 @@
     <int>350205</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350205</id>
-      <name>20爪刺</name>
+      <name>20骨精灵爪刺</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>20</level>
@@ -13093,7 +13093,7 @@
     <int>350206</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350206</id>
-      <name>20锤</name>
+      <name>20神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -13127,7 +13127,7 @@
     <int>350207</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350207</id>
-      <name>20长斧（巨魔王）</name>
+      <name>20长虎头怪斧（巨魔王）</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -13161,7 +13161,7 @@
     <int>350208</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350208</id>
-      <name>20双环</name>
+      <name>20双飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -13433,7 +13433,7 @@
     <int>350300</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350300</id>
-      <name>30刀</name>
+      <name>30剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>30</level>
@@ -13467,7 +13467,7 @@
     <int>350301</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350301</id>
-      <name>30枪</name>
+      <name>30龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>30</level>
@@ -13501,7 +13501,7 @@
     <int>350302</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350302</id>
-      <name>30斧</name>
+      <name>30虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>30</level>
@@ -13535,7 +13535,7 @@
     <int>350303</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350303</id>
-      <name>30扇</name>
+      <name>30逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>30</level>
@@ -13569,7 +13569,7 @@
     <int>350304</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350304</id>
-      <name>30魔棒</name>
+      <name>30魔玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>30</level>
@@ -13603,7 +13603,7 @@
     <int>350305</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350305</id>
-      <name>30爪刺</name>
+      <name>30骨精灵爪刺</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>30</level>
@@ -13637,7 +13637,7 @@
     <int>350306</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350306</id>
-      <name>30锤</name>
+      <name>30神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -13671,7 +13671,7 @@
     <int>350307</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350307</id>
-      <name>30长斧（巨魔王）</name>
+      <name>30长虎头怪斧（巨魔王）</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -13705,7 +13705,7 @@
     <int>350308</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350308</id>
-      <name>30双环</name>
+      <name>30双飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -13977,7 +13977,7 @@
     <int>350400</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350400</id>
-      <name>40刀</name>
+      <name>40剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>40</level>
@@ -14011,7 +14011,7 @@
     <int>350401</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350401</id>
-      <name>40枪</name>
+      <name>40龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>40</level>
@@ -14045,7 +14045,7 @@
     <int>350402</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350402</id>
-      <name>40斧</name>
+      <name>40虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>40</level>
@@ -14079,7 +14079,7 @@
     <int>350403</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350403</id>
-      <name>40扇</name>
+      <name>40逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>40</level>
@@ -14113,7 +14113,7 @@
     <int>350404</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350404</id>
-      <name>40魔棒</name>
+      <name>40魔玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>40</level>
@@ -14147,7 +14147,7 @@
     <int>350405</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350405</id>
-      <name>40爪刺</name>
+      <name>40骨精灵爪刺</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>40</level>
@@ -14181,7 +14181,7 @@
     <int>350406</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350406</id>
-      <name>40锤</name>
+      <name>40神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -14215,7 +14215,7 @@
     <int>350407</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350407</id>
-      <name>40长斧（巨魔王）</name>
+      <name>40长虎头怪斧（巨魔王）</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -14249,7 +14249,7 @@
     <int>350408</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350408</id>
-      <name>40双环</name>
+      <name>40双飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -14521,7 +14521,7 @@
     <int>350500</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350500</id>
-      <name>50刀</name>
+      <name>50剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>50</level>
@@ -14555,7 +14555,7 @@
     <int>350501</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350501</id>
-      <name>50枪</name>
+      <name>50龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>50</level>
@@ -14589,7 +14589,7 @@
     <int>350502</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350502</id>
-      <name>50斧</name>
+      <name>50虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>50</level>
@@ -14623,7 +14623,7 @@
     <int>350503</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350503</id>
-      <name>50扇</name>
+      <name>50逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>50</level>
@@ -14657,7 +14657,7 @@
     <int>350504</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350504</id>
-      <name>50魔棒</name>
+      <name>50魔玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>50</level>
@@ -14691,7 +14691,7 @@
     <int>350505</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350505</id>
-      <name>50爪刺</name>
+      <name>50骨精灵爪刺</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>50</level>
@@ -14725,7 +14725,7 @@
     <int>350506</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350506</id>
-      <name>50锤</name>
+      <name>50神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -14759,7 +14759,7 @@
     <int>350507</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350507</id>
-      <name>50长斧（巨魔王）</name>
+      <name>50长虎头怪斧（巨魔王）</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -14793,7 +14793,7 @@
     <int>350508</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350508</id>
-      <name>50双环</name>
+      <name>50双飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15065,7 +15065,7 @@
     <int>350600</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350600</id>
-      <name>60刀</name>
+      <name>60剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>60</level>
@@ -15099,7 +15099,7 @@
     <int>350601</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350601</id>
-      <name>60枪</name>
+      <name>60龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>60</level>
@@ -15133,7 +15133,7 @@
     <int>350602</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350602</id>
-      <name>60斧</name>
+      <name>60虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>60</level>
@@ -15167,7 +15167,7 @@
     <int>350603</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350603</id>
-      <name>60扇</name>
+      <name>60逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>60</level>
@@ -15201,7 +15201,7 @@
     <int>350604</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350604</id>
-      <name>60魔棒</name>
+      <name>60魔玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>60</level>
@@ -15235,7 +15235,7 @@
     <int>350605</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350605</id>
-      <name>60爪刺</name>
+      <name>60骨精灵爪刺</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>60</level>
@@ -15269,7 +15269,7 @@
     <int>350606</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350606</id>
-      <name>60锤</name>
+      <name>60神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15303,7 +15303,7 @@
     <int>350607</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350607</id>
-      <name>60长斧（巨魔王）</name>
+      <name>60长虎头怪斧（巨魔王）</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15337,7 +15337,7 @@
     <int>350608</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350608</id>
-      <name>60双环</name>
+      <name>60双飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15609,7 +15609,7 @@
     <int>350700</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350700</id>
-      <name>70级★刀</name>
+      <name>70级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15643,7 +15643,7 @@
     <int>350701</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350701</id>
-      <name>70级★枪</name>
+      <name>70级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15677,7 +15677,7 @@
     <int>350702</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350702</id>
-      <name>70级★斧</name>
+      <name>70级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15711,7 +15711,7 @@
     <int>350703</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350703</id>
-      <name>70级★扇</name>
+      <name>70级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15745,7 +15745,7 @@
     <int>350704</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350704</id>
-      <name>70级★棒</name>
+      <name>70级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15779,7 +15779,7 @@
     <int>350705</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350705</id>
-      <name>70级★爪</name>
+      <name>70级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15813,7 +15813,7 @@
     <int>350706</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350706</id>
-      <name>70级★锤</name>
+      <name>70级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15847,7 +15847,7 @@
     <int>350707</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350707</id>
-      <name>70级★镰</name>
+      <name>70级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -15881,7 +15881,7 @@
     <int>350708</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350708</id>
-      <name>70级★环</name>
+      <name>70级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>70</level>
@@ -16153,7 +16153,7 @@
     <int>350800</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350800</id>
-      <name>80级★刀</name>
+      <name>80级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16190,7 +16190,7 @@
     <int>350801</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350801</id>
-      <name>80级★枪</name>
+      <name>80级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16227,7 +16227,7 @@
     <int>350802</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350802</id>
-      <name>80级★斧</name>
+      <name>80级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16264,7 +16264,7 @@
     <int>350803</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350803</id>
-      <name>80级★扇</name>
+      <name>80级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16301,7 +16301,7 @@
     <int>350804</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350804</id>
-      <name>80级★棒</name>
+      <name>80级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16338,7 +16338,7 @@
     <int>350805</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350805</id>
-      <name>80级★爪</name>
+      <name>80级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16375,7 +16375,7 @@
     <int>350806</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350806</id>
-      <name>80级★锤</name>
+      <name>80级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16412,7 +16412,7 @@
     <int>350807</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350807</id>
-      <name>80级★镰</name>
+      <name>80级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16449,7 +16449,7 @@
     <int>350808</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350808</id>
-      <name>80级★环</name>
+      <name>80级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>80</level>
@@ -16745,7 +16745,7 @@
     <int>350900</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350900</id>
-      <name>90级★刀</name>
+      <name>90级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -16782,7 +16782,7 @@
     <int>350901</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350901</id>
-      <name>90级★枪</name>
+      <name>90级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -16819,7 +16819,7 @@
     <int>350902</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350902</id>
-      <name>90级★斧</name>
+      <name>90级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -16856,7 +16856,7 @@
     <int>350903</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350903</id>
-      <name>90级★扇</name>
+      <name>90级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -16893,7 +16893,7 @@
     <int>350904</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350904</id>
-      <name>90级★棒</name>
+      <name>90级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -16930,7 +16930,7 @@
     <int>350905</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350905</id>
-      <name>90级★爪</name>
+      <name>90级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -16967,7 +16967,7 @@
     <int>350906</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350906</id>
-      <name>90级★锤</name>
+      <name>90级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -17004,7 +17004,7 @@
     <int>350907</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350907</id>
-      <name>90级★镰</name>
+      <name>90级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -17041,7 +17041,7 @@
     <int>350908</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>350908</id>
-      <name>90级★环</name>
+      <name>90级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>90</level>
@@ -17337,7 +17337,7 @@
     <int>351000</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351000</id>
-      <name>100级★刀</name>
+      <name>100级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17374,7 +17374,7 @@
     <int>351001</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351001</id>
-      <name>100级★枪</name>
+      <name>100级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17411,7 +17411,7 @@
     <int>351002</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351002</id>
-      <name>100级★斧</name>
+      <name>100级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17448,7 +17448,7 @@
     <int>351003</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351003</id>
-      <name>100级★扇</name>
+      <name>100级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17485,7 +17485,7 @@
     <int>351004</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351004</id>
-      <name>100级★棒</name>
+      <name>100级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17522,7 +17522,7 @@
     <int>351005</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351005</id>
-      <name>100级★爪</name>
+      <name>100级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17559,7 +17559,7 @@
     <int>351006</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351006</id>
-      <name>100级★锤</name>
+      <name>100级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17596,7 +17596,7 @@
     <int>351007</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351007</id>
-      <name>100级★镰</name>
+      <name>100级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17633,7 +17633,7 @@
     <int>351008</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351008</id>
-      <name>100级★环</name>
+      <name>100级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -17929,7 +17929,7 @@
     <int>351100</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351100</id>
-      <name>110级★刀</name>
+      <name>110级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -17966,7 +17966,7 @@
     <int>351101</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351101</id>
-      <name>110级★枪</name>
+      <name>110级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18003,7 +18003,7 @@
     <int>351102</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351102</id>
-      <name>110级★斧</name>
+      <name>110级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18040,7 +18040,7 @@
     <int>351103</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351103</id>
-      <name>110级★扇</name>
+      <name>110级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18077,7 +18077,7 @@
     <int>351104</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351104</id>
-      <name>110级★棒</name>
+      <name>110级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18114,7 +18114,7 @@
     <int>351105</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351105</id>
-      <name>110级★爪</name>
+      <name>110级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18151,7 +18151,7 @@
     <int>351106</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351106</id>
-      <name>110级★锤</name>
+      <name>110级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18188,7 +18188,7 @@
     <int>351107</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351107</id>
-      <name>110级★镰</name>
+      <name>110级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18225,7 +18225,7 @@
     <int>351108</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351108</id>
-      <name>110级★环</name>
+      <name>110级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -18521,7 +18521,7 @@
     <int>351200</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351200</id>
-      <name>120级★刀</name>
+      <name>120级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18558,7 +18558,7 @@
     <int>351201</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351201</id>
-      <name>120级★枪</name>
+      <name>120级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18595,7 +18595,7 @@
     <int>351202</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351202</id>
-      <name>120级★斧</name>
+      <name>120级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18632,7 +18632,7 @@
     <int>351203</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351203</id>
-      <name>120级★扇</name>
+      <name>120级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18669,7 +18669,7 @@
     <int>351204</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351204</id>
-      <name>120级★棒</name>
+      <name>120级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18706,7 +18706,7 @@
     <int>351205</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351205</id>
-      <name>120级★爪</name>
+      <name>120级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18743,7 +18743,7 @@
     <int>351206</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351206</id>
-      <name>120级★锤</name>
+      <name>120级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18780,7 +18780,7 @@
     <int>351207</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351207</id>
-      <name>120级★镰</name>
+      <name>120级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -18817,7 +18817,7 @@
     <int>351208</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351208</id>
-      <name>120级★环</name>
+      <name>120级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -19113,7 +19113,7 @@
     <int>351300</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351300</id>
-      <name>130级★刀</name>
+      <name>130级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19150,7 +19150,7 @@
     <int>351301</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351301</id>
-      <name>130级★枪</name>
+      <name>130级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19187,7 +19187,7 @@
     <int>351302</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351302</id>
-      <name>130级★斧</name>
+      <name>130级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19224,7 +19224,7 @@
     <int>351303</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351303</id>
-      <name>130级★扇</name>
+      <name>130级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19261,7 +19261,7 @@
     <int>351304</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351304</id>
-      <name>130级★棒</name>
+      <name>130级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19298,7 +19298,7 @@
     <int>351305</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351305</id>
-      <name>130级★爪</name>
+      <name>130级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19335,7 +19335,7 @@
     <int>351306</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351306</id>
-      <name>130级★锤</name>
+      <name>130级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19372,7 +19372,7 @@
     <int>351307</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351307</id>
-      <name>130级★镰</name>
+      <name>130级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19409,7 +19409,7 @@
     <int>351308</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351308</id>
-      <name>130级★环</name>
+      <name>130级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -19705,7 +19705,7 @@
     <int>351400</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351400</id>
-      <name>140级★刀</name>
+      <name>140级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -19742,7 +19742,7 @@
     <int>351401</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351401</id>
-      <name>140级★枪</name>
+      <name>140级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -19779,7 +19779,7 @@
     <int>351402</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351402</id>
-      <name>140级★斧</name>
+      <name>140级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -19816,7 +19816,7 @@
     <int>351403</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351403</id>
-      <name>140级★扇</name>
+      <name>140级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -19853,7 +19853,7 @@
     <int>351404</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351404</id>
-      <name>140级★棒</name>
+      <name>140级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -19890,7 +19890,7 @@
     <int>351405</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351405</id>
-      <name>140级★爪</name>
+      <name>140级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -19927,7 +19927,7 @@
     <int>351406</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351406</id>
-      <name>140级★锤</name>
+      <name>140级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -19964,7 +19964,7 @@
     <int>351407</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351407</id>
-      <name>140级★镰</name>
+      <name>140级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -20001,7 +20001,7 @@
     <int>351408</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351408</id>
-      <name>140级★环</name>
+      <name>140级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -20297,7 +20297,7 @@
     <int>351500</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351500</id>
-      <name>150级★刀</name>
+      <name>150级★剑侠客剑</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20334,7 +20334,7 @@
     <int>351501</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351501</id>
-      <name>150级★枪</name>
+      <name>150级★龙太子枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20371,7 +20371,7 @@
     <int>351502</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351502</id>
-      <name>150级★斧</name>
+      <name>150级★虎头怪斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20408,7 +20408,7 @@
     <int>351503</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351503</id>
-      <name>150级★扇</name>
+      <name>150级★逍遥生扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20445,7 +20445,7 @@
     <int>351504</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351504</id>
-      <name>150级★棒</name>
+      <name>150级★玄彩娥棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20482,7 +20482,7 @@
     <int>351505</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351505</id>
-      <name>150级★爪</name>
+      <name>150级★骨精灵爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20519,7 +20519,7 @@
     <int>351506</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351506</id>
-      <name>150级★锤</name>
+      <name>150级★神天兵锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20556,7 +20556,7 @@
     <int>351507</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351507</id>
-      <name>150级★镰</name>
+      <name>150级★巨魔王镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -20593,7 +20593,7 @@
     <int>351508</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351508</id>
-      <name>150级★环</name>
+      <name>150级★飞燕女双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -22881,7 +22881,7 @@
     <int>335070</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>335070</id>
-      <name>5招财币</name>
+      <name>5发财币</name>
       <unit>个</unit>
       <typeid>4262</typeid>
       <level>0</level>
@@ -22914,7 +22914,7 @@
     <int>335071</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>335071</id>
-      <name>10招财币</name>
+      <name>10发财币</name>
       <unit>个</unit>
       <typeid>4262</typeid>
       <level>0</level>
@@ -22947,7 +22947,7 @@
     <int>335072</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>335072</id>
-      <name>20招财币</name>
+      <name>20发财币</name>
       <unit>个</unit>
       <typeid>4262</typeid>
       <level>0</level>
@@ -30488,7 +30488,7 @@
     <int>101000</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101000</id>
-      <name>夏日男</name>
+      <name>速度锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
       <level>9</level>
@@ -30523,7 +30523,7 @@
     <int>101001</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101001</id>
-      <name>夏日女</name>
+      <name>气血上限锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
       <level>8</level>
@@ -30558,10 +30558,10 @@
     <int>101002</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101002</id>
-      <name>男人锦衣</name>
+      <name>魔法值锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>7</level>
+      <level>9</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30579,8 +30579,8 @@
       <canstore>0</canstore>
       <recycletime>0</recycletime>
       <recovercost>0</recovercost>
-      <namecolor>FFff46f0</namecolor>
-      <nquality>4</nquality>
+      <namecolor>FFff5900</namecolor>
+      <nquality>5</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
       <period>3600</period>
@@ -30593,10 +30593,10 @@
     <int>101003</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101003</id>
-      <name>女魔锦衣</name>
+      <name>物理伤害锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>9</level>
+      <level>8</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30628,10 +30628,10 @@
     <int>101004</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101004</id>
-      <name>女仙锦衣</name>
+      <name>法术伤害锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>8</level>
+      <level>9</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30663,10 +30663,10 @@
     <int>101005</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101005</id>
-      <name>女人锦衣</name>
+      <name>物理防御锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>7</level>
+      <level>8</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30684,8 +30684,8 @@
       <canstore>0</canstore>
       <recycletime>0</recycletime>
       <recovercost>0</recovercost>
-      <namecolor>FFff46f0</namecolor>
-      <nquality>4</nquality>
+      <namecolor>FFff5900</namecolor>
+      <nquality>5</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
       <period>3600</period>
@@ -30698,10 +30698,10 @@
     <int>101006</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101006</id>
-      <name>取消锦衣</name>
+      <name>魔法防御锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>6</level>
+      <level>9</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30719,8 +30719,8 @@
       <canstore>0</canstore>
       <recycletime>0</recycletime>
       <recovercost>0</recovercost>
-      <namecolor>FFff46f0</namecolor>
-      <nquality>4</nquality>
+      <namecolor>FFff5900</namecolor>
+      <nquality>5</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
       <period>3600</period>
@@ -30733,10 +30733,10 @@
     <int>101007</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101007</id>
-      <name>幽灵</name>
+      <name>全属性锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>5</level>
+      <level>8</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30754,8 +30754,8 @@
       <canstore>0</canstore>
       <recycletime>0</recycletime>
       <recovercost>0</recovercost>
-      <namecolor>FF00b1ff</namecolor>
-      <nquality>3</nquality>
+      <namecolor>FFff5900</namecolor>
+      <nquality>5</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
       <period>3600</period>
@@ -30768,10 +30768,10 @@
     <int>101008</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101008</id>
-      <name>灵鹤</name>
+      <name>全属性锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>4</level>
+      <level>9</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30789,8 +30789,8 @@
       <canstore>0</canstore>
       <recycletime>0</recycletime>
       <recovercost>0</recovercost>
-      <namecolor>FF00b1ff</namecolor>
-      <nquality>3</nquality>
+      <namecolor>FFff5900</namecolor>
+      <nquality>5</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
       <period>3600</period>
@@ -30803,10 +30803,10 @@
     <int>101009</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101009</id>
-      <name>噬天虎</name>
+      <name>全属性锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
-      <level>2</level>
+      <level>8</level>
       <pickupbind>false</pickupbind>
       <maxstack>9999</maxstack>
       <maxown>0</maxown>
@@ -30824,8 +30824,8 @@
       <canstore>0</canstore>
       <recycletime>0</recycletime>
       <recovercost>0</recovercost>
-      <namecolor>FF06cc11</namecolor>
-      <nquality>2</nquality>
+      <namecolor>FFff5900</namecolor>
+      <nquality>5</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
       <period>3600</period>
@@ -30838,77 +30838,7 @@
     <int>101010</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>101010</id>
-      <name>炎魔神</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>1</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>fffff2df</namecolor>
-      <nquality>1</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101011</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101011</id>
-      <name>红萼仙子</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>9</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101012</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101012</id>
-      <name>机关人</name>
+      <name>取消锦衣</name>
       <unit>张</unit>
       <typeid>3734</typeid>
       <level>8</level>
@@ -30931,636 +30861,6 @@
       <recovercost>0</recovercost>
       <namecolor>FFff5900</namecolor>
       <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101013</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101013</id>
-      <name>踏云兽</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>7</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101014</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101014</id>
-      <name>巴蛇</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>9</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101015</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101015</id>
-      <name>机关鸟</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>8</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101016</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101016</id>
-      <name>机关兽</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>7</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff46f0</namecolor>
-      <nquality>4</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101017</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101017</id>
-      <name>修罗傀儡鬼</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>6</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff46f0</namecolor>
-      <nquality>4</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101018</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101018</id>
-      <name>修罗傀儡妖</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>1</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>fffff2df</namecolor>
-      <nquality>1</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101019</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101019</id>
-      <name>毗舍童子</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>9</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101020</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101020</id>
-      <name>超级白泽</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>8</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101021</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101021</id>
-      <name>超级赤炎兽</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>9</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101022</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101022</id>
-      <name>超级大象</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>7</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff46f0</namecolor>
-      <nquality>4</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101023</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101023</id>
-      <name>超级大熊猫</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>9</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101024</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101024</id>
-      <name>超级金猴</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>8</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff5900</namecolor>
-      <nquality>5</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101025</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101025</id>
-      <name>超级筋斗云</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>5</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FF00b1ff</namecolor>
-      <nquality>3</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101026</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101026</id>
-      <name>超级灵鹿</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>4</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FF00b1ff</namecolor>
-      <nquality>3</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101027</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101027</id>
-      <name>超级泡泡</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>3</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FF06cc11</namecolor>
-      <nquality>2</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101028</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101028</id>
-      <name>超级人参果</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>2</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FF06cc11</namecolor>
-      <nquality>2</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101029</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101029</id>
-      <name>超级六耳猕猴</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>1</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>fffff2df</namecolor>
-      <nquality>1</nquality>
-      <rare>1</rare>
-      <dcansale>0</dcansale>
-      <period>3600</period>
-      <effectdate>0</effectdate>
-      <overduedate>0</overduedate>
-      <treasure>1</treasure>
-    </fire.pb.item.GroceryItemShuXing>
-  </entry>
-  <entry>
-    <int>101030</int>
-    <fire.pb.item.GroceryItemShuXing>
-      <id>101030</id>
-      <name>超级神虎</name>
-      <unit>张</unit>
-      <typeid>3734</typeid>
-      <level>7</level>
-      <pickupbind>false</pickupbind>
-      <maxstack>9999</maxstack>
-      <maxown>0</maxown>
-      <inbattle>0</inbattle>
-      <outbattle>1</outbattle>
-      <inbattleuseto>0</inbattleuseto>
-      <useup>1</useup>
-      <needlevel>65</needlevel>
-      <offlineclear>false</offlineclear>
-      <bindable>false</bindable>
-      <destroy>true</destroy>
-      <validtime>0</validtime>
-      <sortid>8800</sortid>
-      <cansale>1</cansale>
-      <canstore>0</canstore>
-      <recycletime>0</recycletime>
-      <recovercost>0</recovercost>
-      <namecolor>FFff46f0</namecolor>
-      <nquality>4</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
       <period>3600</period>
@@ -38371,7 +37671,7 @@
     <int>351516</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351516</id>
-      <name>神器刀</name>
+      <name>神器剑(剑侠客)</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38408,7 +37708,7 @@
     <int>351517</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351517</id>
-      <name>神器枪</name>
+      <name>神器(龙太子)枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38445,7 +37745,7 @@
     <int>351518</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351518</id>
-      <name>神器斧</name>
+      <name>神器(虎头怪)斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38482,7 +37782,7 @@
     <int>351519</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351519</id>
-      <name>神器扇</name>
+      <name>神器(逍遥生)扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38519,7 +37819,7 @@
     <int>351520</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351520</id>
-      <name>神器棒</name>
+      <name>神器(玄彩娥)棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38556,7 +37856,7 @@
     <int>351521</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351521</id>
-      <name>神器爪</name>
+      <name>神器(骨精灵)爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38593,7 +37893,7 @@
     <int>351522</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351522</id>
-      <name>神器锤</name>
+      <name>神器(神天兵)锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38630,7 +37930,7 @@
     <int>351523</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351523</id>
-      <name>神器镰</name>
+      <name>神器(巨魔王)镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38667,7 +37967,7 @@
     <int>351524</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351524</id>
-      <name>神器环</name>
+      <name>神器(飞燕女)双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>160</level>
@@ -38963,7 +38263,7 @@
     <int>351532</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351532</id>
-      <name>神器+1刀</name>
+      <name>神器+1剑(剑侠客)</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39000,7 +38300,7 @@
     <int>351533</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351533</id>
-      <name>神器+1枪</name>
+      <name>神器+1(龙太子)枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39037,7 +38337,7 @@
     <int>351534</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351534</id>
-      <name>神器+1斧</name>
+      <name>神器+1(虎头怪)斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39074,7 +38374,7 @@
     <int>351535</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351535</id>
-      <name>神器+1扇</name>
+      <name>神器+1(逍遥生)扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39111,7 +38411,7 @@
     <int>351536</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351536</id>
-      <name>神器+1棒</name>
+      <name>神器+1(玄彩娥)棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39148,7 +38448,7 @@
     <int>351537</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351537</id>
-      <name>神器+1爪</name>
+      <name>神器+1(骨精灵)爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39185,7 +38485,7 @@
     <int>351538</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351538</id>
-      <name>神器+1锤</name>
+      <name>神器+1(神天兵)锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39222,7 +38522,7 @@
     <int>351539</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351539</id>
-      <name>神器+1镰</name>
+      <name>神器+1(巨魔王)镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39259,7 +38559,7 @@
     <int>351540</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351540</id>
-      <name>神器+1环</name>
+      <name>神器+1(飞燕女)双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>170</level>
@@ -39555,7 +38855,7 @@
     <int>351548</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351548</id>
-      <name>神器+2刀</name>
+      <name>神器+2剑(剑侠客)</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39592,7 +38892,7 @@
     <int>351549</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351549</id>
-      <name>神器+2枪</name>
+      <name>神器+2(龙太子)枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39629,7 +38929,7 @@
     <int>351550</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351550</id>
-      <name>神器+2斧</name>
+      <name>神器+2(虎头怪)斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39666,7 +38966,7 @@
     <int>351551</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351551</id>
-      <name>神器+2扇</name>
+      <name>神器+2(逍遥生)扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39703,7 +39003,7 @@
     <int>351552</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351552</id>
-      <name>神器+2棒</name>
+      <name>神器+2(玄彩娥)棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39740,7 +39040,7 @@
     <int>351553</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351553</id>
-      <name>神器+2爪</name>
+      <name>神器+2(骨精灵)爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39777,7 +39077,7 @@
     <int>351554</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351554</id>
-      <name>神器+2锤</name>
+      <name>神器+2(神天兵)锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39814,7 +39114,7 @@
     <int>351555</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351555</id>
-      <name>神器+2镰</name>
+      <name>神器+2(巨魔王)镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -39851,7 +39151,7 @@
     <int>351556</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>351556</id>
-      <name>神器+2环</name>
+      <name>神器+2(飞燕女)双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>180</level>
@@ -42185,7 +41485,7 @@
     <int>340480</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340480</id>
-      <name>神器+3刀</name>
+      <name>神器+3剑(剑侠客)</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42222,7 +41522,7 @@
     <int>340481</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340481</id>
-      <name>神器+3枪</name>
+      <name>神器+3(龙太子)枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42259,7 +41559,7 @@
     <int>340482</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340482</id>
-      <name>神器+3斧</name>
+      <name>神器+3(虎头怪)斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42296,7 +41596,7 @@
     <int>340483</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340483</id>
-      <name>神器+3扇</name>
+      <name>神器+3(逍遥生)扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42333,7 +41633,7 @@
     <int>340484</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340484</id>
-      <name>神器+3棒</name>
+      <name>神器+3(玄彩娥)棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42370,7 +41670,7 @@
     <int>340485</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340485</id>
-      <name>神器+3爪</name>
+      <name>神器+3(骨精灵)爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42407,7 +41707,7 @@
     <int>340486</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340486</id>
-      <name>神器+3锤</name>
+      <name>神器+3(神天兵)锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42444,7 +41744,7 @@
     <int>340487</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340487</id>
-      <name>神器+3镰</name>
+      <name>神器+3(巨魔王)镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42481,7 +41781,7 @@
     <int>340488</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340488</id>
-      <name>神器+3环</name>
+      <name>神器+3(飞燕女)双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>190</level>
@@ -42777,7 +42077,7 @@
     <int>340496</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340496</id>
-      <name>至尊神器刀</name>
+      <name>至尊神器剑(剑侠客)</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -42814,7 +42114,7 @@
     <int>340497</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340497</id>
-      <name>至尊神器枪</name>
+      <name>至尊神器(龙太子)枪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -42851,7 +42151,7 @@
     <int>340498</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340498</id>
-      <name>至尊神器斧</name>
+      <name>至尊神器(虎头怪)斧</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -42888,7 +42188,7 @@
     <int>340499</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340499</id>
-      <name>至尊神器扇</name>
+      <name>至尊神器(逍遥生)扇</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -42925,7 +42225,7 @@
     <int>340500</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340500</id>
-      <name>至尊神器棒</name>
+      <name>至尊神器(玄彩娥)棒</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -42962,7 +42262,7 @@
     <int>340501</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340501</id>
-      <name>至尊神器爪</name>
+      <name>至尊神器(骨精灵)爪</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -42999,7 +42299,7 @@
     <int>340502</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340502</id>
-      <name>至尊神器锤</name>
+      <name>至尊神器(神天兵)锤</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -43036,7 +42336,7 @@
     <int>340503</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340503</id>
-      <name>至尊神器镰</name>
+      <name>至尊神器(巨魔王)镰刀</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -43073,7 +42373,7 @@
     <int>340504</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340504</id>
-      <name>至尊神器环</name>
+      <name>至尊神器(飞燕女)双环</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>200</level>
@@ -43547,7 +42847,7 @@
     <int>340515</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340515</id>
-      <name>100级桃夭夭飘带</name>
+      <name>100级桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -43769,7 +43069,7 @@
     <int>340521</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340521</id>
-      <name>100级鬼潇潇爪刺</name>
+      <name>100级鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>100</level>
@@ -43880,7 +43180,7 @@
     <int>340524</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340524</id>
-      <name>110级桃夭夭飘带</name>
+      <name>110级桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -44102,7 +43402,7 @@
     <int>340530</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340530</id>
-      <name>110级鬼潇潇爪刺</name>
+      <name>110级鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>110</level>
@@ -44213,7 +43513,7 @@
     <int>340533</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340533</id>
-      <name>120级桃夭夭飘带</name>
+      <name>120级桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -44435,7 +43735,7 @@
     <int>340539</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340539</id>
-      <name>120级鬼潇潇爪刺</name>
+      <name>120级鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>120</level>
@@ -44546,7 +43846,7 @@
     <int>340542</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340542</id>
-      <name>130级桃夭夭飘带</name>
+      <name>130级桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -44768,7 +44068,7 @@
     <int>340548</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340548</id>
-      <name>130级鬼潇潇爪刺</name>
+      <name>130级鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>130</level>
@@ -44879,7 +44179,7 @@
     <int>340551</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340551</id>
-      <name>140级桃夭夭飘带</name>
+      <name>140级桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -45101,7 +44401,7 @@
     <int>340557</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340557</id>
-      <name>140级鬼潇潇爪刺</name>
+      <name>140级鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>140</level>
@@ -45212,7 +44512,7 @@
     <int>340560</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340560</id>
-      <name>150级桃夭夭飘带</name>
+      <name>150级桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -45434,7 +44734,7 @@
     <int>340566</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340566</id>
-      <name>150级鬼潇潇爪刺</name>
+      <name>150级鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -45545,7 +44845,7 @@
     <int>340569</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340569</id>
-      <name>神器桃夭夭飘带</name>
+      <name>神器桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -45767,7 +45067,7 @@
     <int>340575</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340575</id>
-      <name>神器鬼潇潇爪刺</name>
+      <name>神器鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -45878,7 +45178,7 @@
     <int>340578</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340578</id>
-      <name>神器+1桃夭夭飘带</name>
+      <name>神器+1桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -46100,7 +45400,7 @@
     <int>340584</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340584</id>
-      <name>神器+1鬼潇潇爪刺</name>
+      <name>神器+1鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -46211,7 +45511,7 @@
     <int>340587</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340587</id>
-      <name>神器+2桃夭夭飘带</name>
+      <name>神器+2桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -46433,7 +45733,7 @@
     <int>340593</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340593</id>
-      <name>神器+2鬼潇潇爪刺</name>
+      <name>神器+2鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -46544,7 +45844,7 @@
     <int>340596</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340596</id>
-      <name>神器+3桃夭夭飘带</name>
+      <name>神器+3桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -46766,7 +46066,7 @@
     <int>340602</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340602</id>
-      <name>神器+3鬼潇潇爪刺</name>
+      <name>神器+3鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -46877,7 +46177,7 @@
     <int>340605</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340605</id>
-      <name>至尊神器桃夭夭飘带</name>
+      <name>至尊神器桃夭夭灯笼</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>
@@ -47099,7 +46399,7 @@
     <int>340611</int>
     <fire.pb.item.GroceryItemShuXing>
       <id>340611</id>
-      <name>至尊神器鬼潇潇爪刺</name>
+      <name>至尊神器鬼潇潇伞</name>
       <unit>张</unit>
       <typeid>422</typeid>
       <level>150</level>

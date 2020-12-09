@@ -423,7 +423,7 @@
       <id>17</id>
       <shape>juese_gxx</shape>
       <headID>9087</headID>
-      <littleheadID>40256</littleheadID>
+      <littleheadID>40255</littleheadID>
       <name>鬼潇潇</name>
       <dir>8</dir>
       <shadow>2</shadow>
@@ -891,7 +891,7 @@
       <id>1000117</id>
       <shape>juese_gxx</shape>
       <headID>9087</headID>
-      <littleheadID>40256</littleheadID>
+      <littleheadID>40255</littleheadID>
       <name>鬼潇潇</name>
       <dir>8</dir>
       <shadow>2</shadow>
@@ -1359,7 +1359,7 @@
       <id>1010117</id>
       <shape>juese_gxx</shape>
       <headID>9087</headID>
-      <littleheadID>40256</littleheadID>
+      <littleheadID>40255</littleheadID>
       <name>鬼潇潇</name>
       <dir>8</dir>
       <shadow>2</shadow>
@@ -1827,7 +1827,7 @@
       <id>1011117</id>
       <shape>juese_gxx</shape>
       <headID>9087</headID>
-      <littleheadID>40256</littleheadID>
+      <littleheadID>40255</littleheadID>
       <name>鬼潇潇</name>
       <dir>8</dir>
       <shadow>2</shadow>
@@ -6907,7 +6907,7 @@
       <id>2010117</id>
       <shape>juese_gxx</shape>
       <headID>9087</headID>
-      <littleheadID>40256</littleheadID>
+      <littleheadID>40255</littleheadID>
       <name>鬼潇潇</name>
       <dir>2</dir>
       <shadow>2</shadow>
@@ -11015,6 +11015,246 @@
       <name>巫奎虎</name>
       <dir>2</dir>
       <shadow>2</shadow>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540044</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540044</id>
+      <shape>zdjy_xcr</shape>
+      <name>变身卡1</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540045</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540045</id>
+      <shape>zdjy_xys</shape>
+      <name>变身卡2</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540046</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540046</id>
+      <shape>zdjy_fyn</shape>
+      <name>变身卡3</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540047</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540047</id>
+      <shape>zdjy_gjl</shape>
+      <name>变身卡4</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540048</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540048</id>
+      <shape>zdjy_hmr</shape>
+      <name>变身卡5</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540049</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540049</id>
+      <shape>zdjy_htg</shape>
+      <name>变身卡6</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540050</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540050</id>
+      <shape>zdjy_jmw</shape>
+      <name>变身卡7</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540051</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540051</id>
+      <shape>zdjy_jxk</shape>
+      <name>变身卡8</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540052</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540052</id>
+      <shape>zdjy_ltz</shape>
+      <name>变身卡9</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
+      <nearorfar>0</nearorfar>
+      <shadertype>0</shadertype>
+      <part0>
+        <int>0</int>
+      </part0>
+      <part1>
+        <int>0</int>
+      </part1>
+      <part2>
+        <int>0</int>
+      </part2>
+      <showWeaponId>0</showWeaponId>
+    </fire.pb.npc.SNpcShape>
+  </entry>
+  <entry>
+    <int>1540053</int>
+    <fire.pb.npc.SNpcShape>
+      <id>1540053</id>
+      <shape>zdjy_stb</shape>
+      <name>变身卡10</name>
+      <dir>4</dir>
+      <shadow>2</shadow>
+      <attack>mt-_niutouren_gongji1</attack>
+      <magic>mt-_niutouren_shifa2</magic>
       <nearorfar>0</nearorfar>
       <shadertype>0</shadertype>
       <part0>
