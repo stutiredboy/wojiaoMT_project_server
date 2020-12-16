@@ -11542,6 +11542,7 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 		super.addTable("srredpacknumlisttab", "DB", "long", false, "SRRedPackNumList", "", "");
 		super.addTable("wheelprogress", "DB", "long", false, "WheelInfos", "key:properties", "");
 		super.addTable("equip", "DB", "long", false, "Bag", "key:properties", "");
+		super.addTable("petequip", "DB", "long", false, "Bag", "key:properties", "");
 		super.addTable("rolebestow", "DB", "long", false, "RoleBestowInfo", "key:properties", "");
 		super.addTable("giveflowerlist", "DB", "long", false, "GiveFlowerRankList", "", "");
 		super.addTable("accusationinfos", "DB", "long", false, "AccusationInfo", "", "");

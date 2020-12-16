@@ -300,6 +300,7 @@ public class _Tables_ extends mkdb.Tables {
 		add(roletasks);
 		add(appstoretidstatus);
 		add(petequip);
+		add(petequips);
 	}
 
 	// visible in package
