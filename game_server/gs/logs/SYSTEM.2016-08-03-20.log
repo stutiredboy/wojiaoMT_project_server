@@ -1,0 +1,26 @@
+2016-08-03 19:02:18:960  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:11gametime:0
+2016-08-03 19:04:48:951  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:0gametime:1
+2016-08-03 19:07:18:947  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:1gametime:2
+2016-08-03 19:09:48:957  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:2gametime:3
+2016-08-03 19:12:18:947  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:3gametime:4
+2016-08-03 19:14:48:958  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:4gametime:5
+2016-08-03 19:17:18:961  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:5gametime:6
+2016-08-03 19:19:48:266  INFO SYSTEM:mkdb.Worker.scheduled.30 - TotalMemory:823FreeMemory:365MaxMemory:1808
+2016-08-03 19:19:48:955  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:6gametime:7
+2016-08-03 19:22:18:951  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:7gametime:8
+2016-08-03 19:24:48:960  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:8gametime:9
+2016-08-03 19:27:18:947  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:9gametime:10
+2016-08-03 19:29:48:959  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:10gametime:11
+2016-08-03 19:32:18:958  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:11gametime:0
+2016-08-03 19:33:29:359  INFO SYSTEM:mkdb.Worker.procedure.49 - PRoleLockScreen roleid:4097
+2016-08-03 19:34:48:958  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:0gametime:1
+2016-08-03 19:37:18:958  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:1gametime:2
+2016-08-03 19:39:48:956  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:2gametime:3
+2016-08-03 19:42:18:952  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:3gametime:4
+2016-08-03 19:44:48:961  INFO SYSTEM:mkdb.Worker.scheduled.30 - gametime update.curGameTime:4gametime:5
+2016-08-03 19:47:18:961  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:5gametime:6
+2016-08-03 19:49:48:949  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:6gametime:7
+2016-08-03 19:52:18:960  INFO SYSTEM:mkdb.Worker.scheduled.28 - gametime update.curGameTime:7gametime:8
+2016-08-03 19:54:48:956  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:8gametime:9
+2016-08-03 19:57:18:960  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:9gametime:10
+2016-08-03 19:59:48:952  INFO SYSTEM:mkdb.Worker.scheduled.29 - gametime update.curGameTime:10gametime:11

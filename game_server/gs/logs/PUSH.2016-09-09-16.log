@@ -1,0 +1,3 @@
+2016-09-09 15:00:19:062 ERROR PUSH:mkdb.Worker.procedure.56 - 收到客户端推送消息, RoleId=4097, Token=0
+2016-09-09 15:14:49:860 ERROR PUSH:mkdb.Worker.procedure.50 - 收到客户端推送消息, RoleId=4097, Token=0
+2016-09-09 15:19:41:394 ERROR PUSH:mkdb.Worker.procedure.38 - 收到客户端推送消息, RoleId=4097, Token=0

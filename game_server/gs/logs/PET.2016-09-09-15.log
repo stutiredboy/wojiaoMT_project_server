@@ -1,0 +1,12 @@
+2016-09-09 14:46:26:719  INFO PET:main - Pet module init start
+2016-09-09 14:46:26:735  INFO PET:main - PetAttr load size=221
+2016-09-09 14:46:26:766  INFO PET:main - 宠物回收站删除 0 个过期宠物
+2016-09-09 14:46:26:766  INFO PET:main - Pet module init end
+2016-09-09 14:56:09:081  INFO PET:main - Pet module init start
+2016-09-09 14:56:09:096  INFO PET:main - PetAttr load size=221
+2016-09-09 14:56:09:159  INFO PET:main - 宠物回收站删除 0 个过期宠物
+2016-09-09 14:56:09:159  INFO PET:main - Pet module init end
+2016-09-09 14:59:34:282  INFO PET:main - Pet module init start
+2016-09-09 14:59:34:282  INFO PET:main - PetAttr load size=221
+2016-09-09 14:59:34:344  INFO PET:main - 宠物回收站删除 0 个过期宠物
+2016-09-09 14:59:34:344  INFO PET:main - Pet module init end

@@ -1,0 +1,6 @@
+2016-08-03 16:27:19:355  INFO ITEM:main - 物品模块开始初始化
+2016-08-03 16:27:19:365  INFO ITEM:main - 物品信息载入完毕,共3069个
+2016-08-03 16:27:19:365 ERROR ITEM:main - 重复的礼包配置 4104
+2016-08-03 16:27:19:396  INFO ITEM:main - 物品模块初始化完成
+2016-08-03 16:45:19:511  INFO ITEM:mkdb.Worker.procedure.38 - 4097 添加货币:5000 类型:13 理由: 创建人物时赠送
+2016-08-03 16:50:16:112  INFO ITEM:mkdb.Worker.procedure.49 - roleId:4097 添加物品:50352 数量:1 类型:tujing_Value_Task 理由:circtask school quest itemuse

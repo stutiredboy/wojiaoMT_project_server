@@ -1,0 +1,10 @@
+2016-09-09 18:01:50:575  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:11gametime:0
+2016-09-09 18:04:20:579  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:0gametime:1
+2016-09-09 18:06:50:580  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:1gametime:2
+2016-09-09 18:09:20:567  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:2gametime:3
+2016-09-09 18:11:50:567  INFO SYSTEM:mkdb.Worker.scheduled.24 - gametime update.curGameTime:3gametime:4
+2016-09-09 18:14:20:572  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:4gametime:5
+2016-09-09 18:16:50:569  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:5gametime:6
+2016-09-09 18:19:20:573  INFO SYSTEM:mkdb.Worker.scheduled.27 - gametime update.curGameTime:6gametime:7
+2016-09-09 18:21:50:573  INFO SYSTEM:mkdb.Worker.scheduled.56 - gametime update.curGameTime:7gametime:8
+2016-09-09 18:24:20:567  INFO SYSTEM:mkdb.Worker.scheduled.55 - gametime update.curGameTime:8gametime:9

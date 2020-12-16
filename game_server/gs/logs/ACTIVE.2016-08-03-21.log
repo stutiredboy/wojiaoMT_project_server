@@ -1,0 +1,14 @@
+2016-08-03 20:48:36:489  INFO ACTIVE:mkdb.Worker.procedure.43 - 角色[4097]准备处理活动[214]的活跃度相关.
+2016-08-03 20:48:36:489  INFO ACTIVE:mkdb.Worker.procedure.43 - 角色[4097]活动:214,推荐度:0
+2016-08-03 20:48:36:489  INFO ACTIVE:mkdb.Worker.procedure.43 - 角色[4097]加活动[214]计数:1
+2016-08-03 20:48:36:505  INFO ACTIVE:mkdb.Worker.procedure.43 - 角色[4097]加活跃度:0.5
+2016-08-03 20:48:36:505  INFO ACTIVE:mkdb.Worker.procedure.43 - 角色[4097]加活动[214]活跃度0.5,结果:0.5
+2016-08-03 20:48:36:521  INFO ACTIVE:mkdb.Worker.procedure.43 - 角色[4097]处理活动[214]的活跃度相关数据正常完毕！
+2016-08-03 20:49:00:288  INFO ACTIVE:mkdb.Worker.procedure.54 - 角色[4097]准备处理活动[214]的活跃度相关.
+2016-08-03 20:49:00:288  INFO ACTIVE:mkdb.Worker.procedure.54 - 角色[4097]活动:214,推荐度:0
+2016-08-03 20:49:00:288  INFO ACTIVE:mkdb.Worker.procedure.54 - 角色[4097]加活动[214]计数:2
+2016-08-03 20:49:00:288  INFO ACTIVE:mkdb.Worker.procedure.54 - 角色[4097]加活跃度:0.5
+2016-08-03 20:49:00:288  INFO ACTIVE:mkdb.Worker.procedure.54 - 角色[4097]加活动[214]活跃度0.5,结果:1.0
+2016-08-03 20:49:00:288  INFO ACTIVE:mkdb.Worker.procedure.54 - 角色[4097]处理活动[214]的活跃度相关数据正常完毕！
+2016-08-03 20:55:00:451  INFO ACTIVE:mkdb.Worker.scheduled.24 - try to start activity.activity id:241001
+2016-08-03 20:55:00:609  INFO ACTIVE:mkdb.Worker.scheduled.24 - activity started.activity id:241001

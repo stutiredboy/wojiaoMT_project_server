@@ -1,0 +1,4 @@
+2016-08-03 23:59:59:484  INFO PVP:mkdb.Worker.scheduled.28 - PVP::[PvPControl.removeNpc] remove npc.
+2016-08-03 23:59:59:484  INFO PVP:mkdb.Worker.procedure.51 - PVP3::[PvP3RaceProxy.clear] remove race grade:3
+2016-08-03 23:59:59:484  INFO PVP:mkdb.Worker.procedure.53 - PVP3::[PvP3RaceProxy.clear] remove race grade:1
+2016-08-03 23:59:59:484  INFO PVP:mkdb.Worker.procedure.35 - PVP3::[PvP3RaceProxy.clear] remove race grade:2

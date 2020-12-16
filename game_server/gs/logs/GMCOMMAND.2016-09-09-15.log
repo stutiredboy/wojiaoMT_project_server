@@ -1,0 +1,4 @@
+2016-09-09 14:48:05:356  INFO GMCOMMAND:mkdb.Worker..30 - 准备执行命令	uid=61685	roleId=4097	cmd=//addlevel 20
+2016-09-09 14:48:05:388  INFO GMCOMMAND:mkdb.Worker..30 - 执行GM指令成功	userId=616854097	roleId=	rolename=浪漫榭木		username=wangjianfengw1//addlevel 20
+2016-09-09 14:57:21:541  INFO GMCOMMAND:mkdb.Worker..45 - 准备执行命令	uid=61685	roleId=4097	cmd=//checkcode 1
+2016-09-09 14:57:21:558  INFO GMCOMMAND:mkdb.Worker..45 - 执行GM指令成功	userId=616854097	roleId=	rolename=浪漫榭木		username=wangjianfengw1//checkcode 1

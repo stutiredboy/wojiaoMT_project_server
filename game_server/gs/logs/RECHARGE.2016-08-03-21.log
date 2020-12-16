@@ -1,0 +1,6 @@
+2016-08-03 20:46:05:894  INFO RECHARGE:mkdb.Worker.procedure.43 - PReceiveDataFromAuany.qtype:9002,user:22
+2016-08-03 20:46:05:894  INFO RECHARGE:mkdb.Worker.procedure.43 - PReceiveDataFromAuany.user:22,role:4097,info:0#
+2016-08-03 20:46:05:894  INFO RECHARGE:mkdb.Worker.procedure.43 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
+2016-08-03 20:46:06:410  INFO RECHARGE:mkdb.Worker.procedure.56 - PReceiveDataFromAuany.qtype:9002,user:22
+2016-08-03 20:46:06:410  INFO RECHARGE:mkdb.Worker.procedure.56 - PReceiveDataFromAuany.user:22,role:4097,info:0#
+2016-08-03 20:46:06:410  INFO RECHARGE:mkdb.Worker.procedure.56 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
