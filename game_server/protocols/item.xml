@@ -10,6 +10,7 @@
         <enum name="QUEST" value="5" />	任务背包
 		<enum name="MARKET" value="6" /> 拍卖背包
 		<enum name="BLACKMARKET" value="7" /> 黑市背包
+		<enum name="PETEQUIP" value="8" /> 宠物装备背包
     </bean>
 	
 	<bean name="EquipItemType">

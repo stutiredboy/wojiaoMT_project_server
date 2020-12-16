@@ -14,6 +14,7 @@ public class BagTypes implements Marshal , Comparable<BagTypes>{
 	public final static int QUEST = 5; // 任务背包
 	public final static int MARKET = 6; // 拍卖背包
 	public final static int BLACKMARKET = 7; // 黑市背包
+	public final static int PETEQUIP = 8; // 宠物装备背包
 
 
 	public BagTypes() {
