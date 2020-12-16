@@ -49,6 +49,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	private int petdye2; // 宠物染色信息部位2
 	private int shenshouinccount; // 神兽养成次数
 	private long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
+	private java.util.Map<int, int> equipMap; // 宠物装备 位置 -> 装备
 
 	@Override
 	public void _reset_unsafe_() {
@@ -96,6 +97,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		petdye2 = 0;
 		shenshouinccount = 0;
 		marketfreezeexpire = 0;
+		equipMap.clear();
 	}
 
 	PetInfo(int __, mkdb.XBean _xp_, String _vn_) {
@@ -115,6 +117,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		petdye2 = 0;
 		shenshouinccount = 0;
 		marketfreezeexpire = 0;
+		equipMap = new java.util.HashMap<int, int>();
 	}
 
 	public PetInfo() {
@@ -170,6 +173,9 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		skills = new java.util.LinkedList<xbean.PetSkill>();
 		for (xbean.PetSkill _v_ : _o_.skills)
 			skills.add(new PetSkill(_v_, this, "skills"));
+		equipMap = new java.util.HashMap<int, int>();
+		for (java.util.Map.Entry<int, int> _e_ : _o_.equipMap.entrySet())
+			equipMap.put(_e_.getKey(), _e_.getValue());
 		point = _o_.point;
 		autoaddcons = _o_.autoaddcons;
 		autoaddiq = _o_.autoaddiq;
@@ -223,6 +229,9 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		skills = new java.util.LinkedList<xbean.PetSkill>();
 		for (xbean.PetSkill _v_ : _o_.skills)
 			skills.add(new PetSkill(_v_, this, "skills"));
+		equipMap = new java.util.HashMap<int, int>();
+		for (java.util.Map.Entry<int, int> _e_ : _o_.equipMap.entrySet())
+			equipMap.put(_e_.getKey(), _e_.getValue());
 		point = _o_.point;
 		autoaddcons = _o_.autoaddcons;
 		autoaddiq = _o_.autoaddiq;
@@ -284,6 +293,12 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_os_.compact_uint32(skills.size());
 		for (xbean.PetSkill _v_ : skills) {
 			_v_.marshal(_os_);
+		}
+		_os_.compact_uint32(finalattrs.size());
+		for (java.util.Map.Entry<int, int> _e_ : equipMap.entrySet())
+		{
+			_os_.marshal(_e_.getKey());
+			_os_.marshal(_e_.getValue());
 		}
 		_os_.marshal(point);
 		_os_.marshal(autoaddcons);
@@ -364,6 +379,20 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			xbean.PetSkill _v_ = new PetSkill(0, this, "skills");
 			_v_.unmarshal(_os_);
 			skills.add(_v_);
+		}
+		{
+			int size = _os_.uncompact_uint32();
+			if (size >= 3) { // {java.util.HashMap} 16 * 0.75 = 12
+				equipMap = new java.util.HashMap<int, int>(size * 2);
+			}
+			for (; size > 0; --size)
+			{
+				int _k_ = 0;
+				_k_ = _os_.unmarshal_int();
+				int _v_ = 0;
+				_v_ = _os_.unmarshal_int();
+				equipMap.put(_k_, _v_);
+			}
 		}
 		point = _os_.unmarshal_int();
 		autoaddcons = _os_.unmarshal_int();
@@ -617,6 +646,12 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	public java.util.List<xbean.PetSkill> getSkills() { // 宠物拥有的战斗技能
 		_xdb_verify_unsafe_();
 		return mkdb.Logs.logList(new mkdb.LogKey(this, "skills"), skills);
+	}
+
+	@Override
+	public java.util.Map<int, int> getEquipMap() { // 宠物拥有的装备
+		_xdb_verify_unsafe_();
+		return mkdb.Logs.logList(new mkdb.LogKey(this, "PetequipMap"), equipMap);
 	}
 
 	public java.util.List<xbean.PetSkill> getSkillsAsData() { // 宠物拥有的战斗技能
@@ -2823,6 +2858,12 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		}
 
 		@Override
+		public void setEquipMap(java.util.HashMap<int, int> _v_) // 写入宠物装备
+		{
+			equipMap = _v_;
+		}
+
+		@Override
 		public final boolean equals(Object _o1_) {
 			if (!(_o1_ instanceof PetInfo.Data)) return false;
 			PetInfo.Data _o_ = (PetInfo.Data) _o1_;
@@ -2870,6 +2911,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			if (petdye2 != _o_.petdye2) return false;
 			if (shenshouinccount != _o_.shenshouinccount) return false;
 			if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
+			if (equipMap != _o_.equipMap) return false;
 			return true;
 		}
 
@@ -2920,6 +2962,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_h_ += petdye2;
 			_h_ += shenshouinccount;
 			_h_ += marketfreezeexpire;
+			_h_ += equipMap.hashCode();
 			return _h_;
 		}
 
@@ -3014,6 +3057,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_sb_.append(shenshouinccount);
 			_sb_.append(",");
 			_sb_.append(marketfreezeexpire);
+			_sb_.append(",");
+			_sb_.append(equipMap);
 			_sb_.append(")");
 			return _sb_.toString();
 		}

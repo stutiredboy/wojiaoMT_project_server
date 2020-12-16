@@ -29,8 +29,8 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 		return 810489;
 	}
 
-	public int srcweaponkey; // 旧武器的Key
-	public int newweapontypeid; // 新武器ItemId
+	public int srcweaponkey; // ��������Key
+	public int newweapontypeid; // ������ItemId
 
 	public CChangeWeapon() {
 	}

@@ -5,8 +5,8 @@
     <int>1</int>
     <fire.pb.mission.SLineTask>
       <id>101</id>
-      <taskname>废矿（30级）</taskname>
-      <minlevel>30</minlevel>
+      <taskname>废矿（60级）</taskname>
+      <minlevel>60</minlevel>
       <teamnum>3</teamnum>
       <awardtype>3</awardtype>
       <xzuobiao>6</xzuobiao>
@@ -29,8 +29,8 @@
     <int>2</int>
     <fire.pb.mission.SLineTask>
       <id>102</id>
-      <taskname>银堡（40级）</taskname>
-      <minlevel>40</minlevel>
+      <taskname>银堡（70级）</taskname>
+      <minlevel>70</minlevel>
       <teamnum>3</teamnum>
       <afterid>101</afterid>
       <awardtype>3</awardtype>
@@ -54,8 +54,8 @@
     <int>3</int>
     <fire.pb.mission.SLineTask>
       <id>103</id>
-      <taskname>荒泽（50级）</taskname>
-      <minlevel>50</minlevel>
+      <taskname>荒泽（80级）</taskname>
+      <minlevel>80</minlevel>
       <teamnum>3</teamnum>
       <afterid>102</afterid>
       <awardtype>3</awardtype>
@@ -79,8 +79,8 @@
     <int>4</int>
     <fire.pb.mission.SLineTask>
       <id>104</id>
-      <taskname>教堂（60级）</taskname>
-      <minlevel>60</minlevel>
+      <taskname>教堂（90级）</taskname>
+      <minlevel>90</minlevel>
       <teamnum>3</teamnum>
       <afterid>103</afterid>
       <awardtype>3</awardtype>
@@ -104,8 +104,8 @@
     <int>5</int>
     <fire.pb.mission.SLineTask>
       <id>105</id>
-      <taskname>埋骨圣地（70级）</taskname>
-      <minlevel>70</minlevel>
+      <taskname>埋骨圣地（100级）</taskname>
+      <minlevel>100</minlevel>
       <teamnum>3</teamnum>
       <afterid>104</afterid>
       <awardtype>3</awardtype>

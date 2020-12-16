@@ -123,21 +123,21 @@
     <int>270</int>
     <fire.pb.message.SStringRes>
       <id>270</id>
-      <msg>&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='创建公会' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='创建帮派' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
     <int>271</int>
     <fire.pb.message.SStringRes>
       <id>271</id>
-      <msg>&lt;T t='恭喜新成员' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='加入公会。' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='恭喜新成员' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='加入帮派。' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
     <int>272</int>
     <fire.pb.message.SStringRes>
       <id>272</id>
-      <msg>&lt;T t='很遗憾' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='离开了公会。' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='很遗憾' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='离开了帮派。' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
@@ -151,14 +151,14 @@
     <int>274</int>
     <fire.pb.message.SStringRes>
       <id>274</id>
-      <msg>&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='因' c='ff50321a'/&gt;&lt;T t='$parameter2$' c='ff005b0f'/&gt;&lt;T t='被' c='ff50321a'/&gt;&lt;T t='$parameter3$' c='ff005b0f'/&gt;&lt;T t='踢出公会。' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='因' c='ff50321a'/&gt;&lt;T t='$parameter2$' c='ff005b0f'/&gt;&lt;T t='被' c='ff50321a'/&gt;&lt;T t='$parameter3$' c='ff005b0f'/&gt;&lt;T t='踢出帮派。' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
     <int>275</int>
     <fire.pb.message.SStringRes>
       <id>275</id>
-      <msg>&lt;T t='公会维护消耗了' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='公会资金。' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='帮派维护消耗了' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='帮派资金。' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
@@ -172,14 +172,14 @@
     <int>277</int>
     <fire.pb.message.SStringRes>
       <id>277</id>
-      <msg>&lt;T t='因公会资金不足，公会建筑效果降至' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff50321a'/&gt;&lt;T t='级' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='因帮派资金不足，帮派建筑效果降至' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff50321a'/&gt;&lt;T t='级' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
     <int>278</int>
     <fire.pb.message.SStringRes>
       <id>278</id>
-      <msg>公会</msg>
+      <msg>帮派</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
@@ -214,7 +214,7 @@
     <int>283</int>
     <fire.pb.message.SStringRes>
       <id>283</id>
-      <msg>会长</msg>
+      <msg>帮主</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
@@ -298,14 +298,14 @@
     <int>295</int>
     <fire.pb.message.SStringRes>
       <id>295</id>
-      <msg>&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='将公会名称修改为' c='ff50321a'/&gt;&lt;T t='$parameter2$' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='将帮派名称修改为' c='ff50321a'/&gt;&lt;T t='$parameter2$' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
     <int>296</int>
     <fire.pb.message.SStringRes>
       <id>296</id>
-      <msg>&lt;T t=&quot;欢迎来到$parameter1$公会, 【公会ID：$parameter2$】&quot; c=&quot;ff50321a&quot;&gt; &lt;/T&gt;</msg>
+      <msg>&lt;T t=&quot;欢迎来到$parameter1$帮派, 【帮派ID：$parameter2$】&quot; c=&quot;ff50321a&quot;&gt; &lt;/T&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
@@ -410,14 +410,14 @@
     <int>311</int>
     <fire.pb.message.SStringRes>
       <id>311</id>
-      <msg>雷毛</msg>
+      <msg>青龙</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
     <int>312</int>
     <fire.pb.message.SStringRes>
       <id>312</id>
-      <msg>双狼</msg>
+      <msg>白虎</msg>
     </fire.pb.message.SStringRes>
   </entry>
   <entry>
@@ -445,7 +445,7 @@
     <int>316</int>
     <fire.pb.message.SStringRes>
       <id>316</id>
-      <msg>&lt;T t='弹劾成功，' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='成为新的会长' c='ff50321a'/&gt;</msg>
+      <msg>&lt;T t='弹劾成功，' c='ff50321a'/&gt;&lt;T t='$parameter1$' c='ff005b0f'/&gt;&lt;T t='成为新的帮主' c='ff50321a'/&gt;</msg>
     </fire.pb.message.SStringRes>
   </entry>
 </tree-map>

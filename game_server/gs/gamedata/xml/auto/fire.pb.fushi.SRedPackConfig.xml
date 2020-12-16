@@ -7,12 +7,12 @@
       <id>1</id>
       <fushimin>20</fushimin>
       <fishimax>2000</fishimax>
-      <daysendmax>9999999</daysendmax>
-      <dayreceivemax>999999999</dayreceivemax>
-      <dayfushisendmax>999999999</dayfushisendmax>
+      <daysendmax>0</daysendmax>
+      <dayreceivemax>0</dayreceivemax>
+      <dayfushisendmax>0</dayfushisendmax>
       <packmin>100</packmin>
       <packmax>500</packmax>
-      <level>10</level>
+      <level>200</level>
     </fire.pb.fushi.SRedPackConfig>
   </entry>
   <entry>
@@ -21,12 +21,12 @@
       <id>2</id>
       <fushimin>20</fushimin>
       <fishimax>2000</fishimax>
-      <daysendmax>9999999</daysendmax>
-      <dayreceivemax>999999999</dayreceivemax>
-      <dayfushisendmax>999999999</dayfushisendmax>
+      <daysendmax>0</daysendmax>
+      <dayreceivemax>0</dayreceivemax>
+      <dayfushisendmax>0</dayfushisendmax>
       <packmin>1</packmin>
       <packmax>100</packmax>
-      <level>10</level>
+      <level>200</level>
     </fire.pb.fushi.SRedPackConfig>
   </entry>
   <entry>
@@ -35,12 +35,12 @@
       <id>3</id>
       <fushimin>20</fushimin>
       <fishimax>2000</fishimax>
-      <daysendmax>9999999</daysendmax>
-      <dayreceivemax>999999999</dayreceivemax>
-      <dayfushisendmax>999999999</dayfushisendmax>
+      <daysendmax>0</daysendmax>
+      <dayreceivemax>0</dayreceivemax>
+      <dayfushisendmax>0</dayfushisendmax>
       <packmin>1</packmin>
       <packmax>5</packmax>
-      <level>10</level>
+      <level>200</level>
     </fire.pb.fushi.SRedPackConfig>
   </entry>
   <entry>
@@ -49,12 +49,12 @@
       <id>1001</id>
       <fushimin>2000</fushimin>
       <fishimax>200000</fishimax>
-      <daysendmax>9999999</daysendmax>
-      <dayreceivemax>999999999</dayreceivemax>
-      <dayfushisendmax>999999999</dayfushisendmax>
+      <daysendmax>0</daysendmax>
+      <dayreceivemax>0</dayreceivemax>
+      <dayfushisendmax>0</dayfushisendmax>
       <packmin>100</packmin>
       <packmax>500</packmax>
-      <level>10</level>
+      <level>200</level>
     </fire.pb.fushi.SRedPackConfig>
   </entry>
   <entry>
@@ -63,12 +63,12 @@
       <id>1002</id>
       <fushimin>2000</fushimin>
       <fishimax>200000</fishimax>
-      <daysendmax>9999999</daysendmax>
-      <dayreceivemax>999999999</dayreceivemax>
-      <dayfushisendmax>999999999</dayfushisendmax>
+      <daysendmax>0</daysendmax>
+      <dayreceivemax>0</dayreceivemax>
+      <dayfushisendmax>0</dayfushisendmax>
       <packmin>1</packmin>
       <packmax>100</packmax>
-      <level>10</level>
+      <level>200</level>
     </fire.pb.fushi.SRedPackConfig>
   </entry>
   <entry>
@@ -77,12 +77,12 @@
       <id>1003</id>
       <fushimin>100</fushimin>
       <fishimax>200000</fishimax>
-      <daysendmax>9999999</daysendmax>
-      <dayreceivemax>999999999</dayreceivemax>
-      <dayfushisendmax>999999999</dayfushisendmax>
+      <daysendmax>0</daysendmax>
+      <dayreceivemax>0</dayreceivemax>
+      <dayfushisendmax>0</dayfushisendmax>
       <packmin>1</packmin>
       <packmax>5</packmax>
-      <level>10</level>
+      <level>200</level>
     </fire.pb.fushi.SRedPackConfig>
   </entry>
 </tree-map>

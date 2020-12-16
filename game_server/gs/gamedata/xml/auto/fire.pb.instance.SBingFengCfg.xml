@@ -10,7 +10,7 @@
       <instzoneid>1</instzoneid>
       <state>0</state>
       <Map>1821</Map>
-      <ZuoBiao>18,47</ZuoBiao>
+      <ZuoBiao>21,24</ZuoBiao>
       <FocusNpc>182101</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1483</serviceid>
@@ -33,7 +33,7 @@
       <instzoneid>1</instzoneid>
       <state>1</state>
       <Map>1821</Map>
-      <ZuoBiao>11,81</ZuoBiao>
+      <ZuoBiao>50,17</ZuoBiao>
       <FocusNpc>182102</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1484</serviceid>
@@ -56,7 +56,7 @@
       <instzoneid>1</instzoneid>
       <state>2</state>
       <Map>1821</Map>
-      <ZuoBiao>62,89</ZuoBiao>
+      <ZuoBiao>61,62</ZuoBiao>
       <FocusNpc>182103</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1485</serviceid>
@@ -79,7 +79,7 @@
       <instzoneid>1</instzoneid>
       <state>3</state>
       <Map>1821</Map>
-      <ZuoBiao>94,47</ZuoBiao>
+      <ZuoBiao>86,45</ZuoBiao>
       <FocusNpc>182104</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1486</serviceid>
@@ -102,7 +102,7 @@
       <instzoneid>1</instzoneid>
       <state>4</state>
       <Map>1821</Map>
-      <ZuoBiao>52,10</ZuoBiao>
+      <ZuoBiao>100,32</ZuoBiao>
       <FocusNpc>182105</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1487</serviceid>
@@ -131,7 +131,7 @@
       <instzoneid>1</instzoneid>
       <state>5</state>
       <Map>1822</Map>
-      <ZuoBiao>20,34</ZuoBiao>
+      <ZuoBiao>21,24</ZuoBiao>
       <FocusNpc>182201</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1488</serviceid>
@@ -139,8 +139,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1822</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>20</destx>
+      <desty>26</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -154,7 +154,7 @@
       <instzoneid>1</instzoneid>
       <state>6</state>
       <Map>1822</Map>
-      <ZuoBiao>19,80</ZuoBiao>
+      <ZuoBiao>50,17</ZuoBiao>
       <FocusNpc>182202</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1489</serviceid>
@@ -177,7 +177,7 @@
       <instzoneid>1</instzoneid>
       <state>7</state>
       <Map>1822</Map>
-      <ZuoBiao>60,51</ZuoBiao>
+      <ZuoBiao>61,62</ZuoBiao>
       <FocusNpc>182203</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1490</serviceid>
@@ -200,7 +200,7 @@
       <instzoneid>1</instzoneid>
       <state>8</state>
       <Map>1822</Map>
-      <ZuoBiao>77,95</ZuoBiao>
+      <ZuoBiao>86,45</ZuoBiao>
       <FocusNpc>182204</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1491</serviceid>
@@ -223,7 +223,7 @@
       <instzoneid>1</instzoneid>
       <state>9</state>
       <Map>1822</Map>
-      <ZuoBiao>121,62</ZuoBiao>
+      <ZuoBiao>100,32</ZuoBiao>
       <FocusNpc>182205</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1492</serviceid>
@@ -252,7 +252,7 @@
       <instzoneid>1</instzoneid>
       <state>10</state>
       <Map>1823</Map>
-      <ZuoBiao>18,47</ZuoBiao>
+      <ZuoBiao>21,24</ZuoBiao>
       <FocusNpc>182301</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1493</serviceid>
@@ -260,8 +260,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1823</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>20</destx>
+      <desty>26</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -275,7 +275,7 @@
       <instzoneid>1</instzoneid>
       <state>11</state>
       <Map>1823</Map>
-      <ZuoBiao>11,81</ZuoBiao>
+      <ZuoBiao>50,17</ZuoBiao>
       <FocusNpc>182302</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1494</serviceid>
@@ -298,7 +298,7 @@
       <instzoneid>1</instzoneid>
       <state>12</state>
       <Map>1823</Map>
-      <ZuoBiao>62,89</ZuoBiao>
+      <ZuoBiao>61,62</ZuoBiao>
       <FocusNpc>182303</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1495</serviceid>
@@ -321,7 +321,7 @@
       <instzoneid>1</instzoneid>
       <state>13</state>
       <Map>1823</Map>
-      <ZuoBiao>94,47</ZuoBiao>
+      <ZuoBiao>86,45</ZuoBiao>
       <FocusNpc>182304</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1496</serviceid>
@@ -344,7 +344,7 @@
       <instzoneid>1</instzoneid>
       <state>14</state>
       <Map>1823</Map>
-      <ZuoBiao>52,10</ZuoBiao>
+      <ZuoBiao>100,32</ZuoBiao>
       <FocusNpc>182305</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1497</serviceid>
@@ -373,7 +373,7 @@
       <instzoneid>1</instzoneid>
       <state>15</state>
       <Map>1824</Map>
-      <ZuoBiao>20,34</ZuoBiao>
+      <ZuoBiao>21,24</ZuoBiao>
       <FocusNpc>182401</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1498</serviceid>
@@ -381,8 +381,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1824</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>20</destx>
+      <desty>26</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -396,7 +396,7 @@
       <instzoneid>1</instzoneid>
       <state>16</state>
       <Map>1824</Map>
-      <ZuoBiao>19,80</ZuoBiao>
+      <ZuoBiao>50,17</ZuoBiao>
       <FocusNpc>182402</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1499</serviceid>
@@ -419,7 +419,7 @@
       <instzoneid>1</instzoneid>
       <state>17</state>
       <Map>1824</Map>
-      <ZuoBiao>60,51</ZuoBiao>
+      <ZuoBiao>61,62</ZuoBiao>
       <FocusNpc>182403</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1500</serviceid>
@@ -442,7 +442,7 @@
       <instzoneid>1</instzoneid>
       <state>18</state>
       <Map>1824</Map>
-      <ZuoBiao>77,95</ZuoBiao>
+      <ZuoBiao>86,45</ZuoBiao>
       <FocusNpc>182404</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1501</serviceid>
@@ -465,7 +465,7 @@
       <instzoneid>1</instzoneid>
       <state>19</state>
       <Map>1824</Map>
-      <ZuoBiao>121,62</ZuoBiao>
+      <ZuoBiao>100,32</ZuoBiao>
       <FocusNpc>182405</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1502</serviceid>
@@ -494,7 +494,7 @@
       <instzoneid>1</instzoneid>
       <state>20</state>
       <Map>1839</Map>
-      <ZuoBiao>18,47</ZuoBiao>
+      <ZuoBiao>21,24</ZuoBiao>
       <FocusNpc>183901</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1503</serviceid>
@@ -517,7 +517,7 @@
       <instzoneid>1</instzoneid>
       <state>21</state>
       <Map>1839</Map>
-      <ZuoBiao>11,81</ZuoBiao>
+      <ZuoBiao>50,17</ZuoBiao>
       <FocusNpc>183902</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1504</serviceid>
@@ -540,7 +540,7 @@
       <instzoneid>1</instzoneid>
       <state>22</state>
       <Map>1839</Map>
-      <ZuoBiao>62,89</ZuoBiao>
+      <ZuoBiao>61,62</ZuoBiao>
       <FocusNpc>183903</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1505</serviceid>
@@ -563,7 +563,7 @@
       <instzoneid>1</instzoneid>
       <state>23</state>
       <Map>1839</Map>
-      <ZuoBiao>94,47</ZuoBiao>
+      <ZuoBiao>86,45</ZuoBiao>
       <FocusNpc>183904</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1506</serviceid>
@@ -586,7 +586,7 @@
       <instzoneid>1</instzoneid>
       <state>24</state>
       <Map>1839</Map>
-      <ZuoBiao>52,10</ZuoBiao>
+      <ZuoBiao>100,32</ZuoBiao>
       <FocusNpc>183905</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1507</serviceid>
@@ -636,7 +636,7 @@
       <instzoneid>2</instzoneid>
       <state>0</state>
       <Map>1825</Map>
-      <ZuoBiao>35,26</ZuoBiao>
+      <ZuoBiao>37,39</ZuoBiao>
       <FocusNpc>182501</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1508</serviceid>
@@ -659,7 +659,7 @@
       <instzoneid>2</instzoneid>
       <state>1</state>
       <Map>1825</Map>
-      <ZuoBiao>19,45</ZuoBiao>
+      <ZuoBiao>57,49</ZuoBiao>
       <FocusNpc>182502</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1509</serviceid>
@@ -682,7 +682,7 @@
       <instzoneid>2</instzoneid>
       <state>2</state>
       <Map>1825</Map>
-      <ZuoBiao>38,68</ZuoBiao>
+      <ZuoBiao>70,63</ZuoBiao>
       <FocusNpc>182503</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1510</serviceid>
@@ -705,7 +705,7 @@
       <instzoneid>2</instzoneid>
       <state>3</state>
       <Map>1825</Map>
-      <ZuoBiao>56,52</ZuoBiao>
+      <ZuoBiao>81,50</ZuoBiao>
       <FocusNpc>182504</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1511</serviceid>
@@ -728,7 +728,7 @@
       <instzoneid>2</instzoneid>
       <state>4</state>
       <Map>1825</Map>
-      <ZuoBiao>82,71</ZuoBiao>
+      <ZuoBiao>96,36</ZuoBiao>
       <FocusNpc>182505</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1512</serviceid>
@@ -757,7 +757,7 @@
       <instzoneid>2</instzoneid>
       <state>5</state>
       <Map>1826</Map>
-      <ZuoBiao>91,51</ZuoBiao>
+      <ZuoBiao>37,39</ZuoBiao>
       <FocusNpc>182601</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1513</serviceid>
@@ -765,8 +765,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1826</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -780,7 +780,7 @@
       <instzoneid>2</instzoneid>
       <state>6</state>
       <Map>1826</Map>
-      <ZuoBiao>82,29</ZuoBiao>
+      <ZuoBiao>57,49</ZuoBiao>
       <FocusNpc>182602</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1514</serviceid>
@@ -803,7 +803,7 @@
       <instzoneid>2</instzoneid>
       <state>7</state>
       <Map>1826</Map>
-      <ZuoBiao>59,54</ZuoBiao>
+      <ZuoBiao>70,63</ZuoBiao>
       <FocusNpc>182603</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1515</serviceid>
@@ -826,7 +826,7 @@
       <instzoneid>2</instzoneid>
       <state>8</state>
       <Map>1826</Map>
-      <ZuoBiao>37,75</ZuoBiao>
+      <ZuoBiao>81,50</ZuoBiao>
       <FocusNpc>182604</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1516</serviceid>
@@ -849,7 +849,7 @@
       <instzoneid>2</instzoneid>
       <state>9</state>
       <Map>1826</Map>
-      <ZuoBiao>20,68</ZuoBiao>
+      <ZuoBiao>96,36</ZuoBiao>
       <FocusNpc>182605</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1517</serviceid>
@@ -878,7 +878,7 @@
       <instzoneid>2</instzoneid>
       <state>10</state>
       <Map>1827</Map>
-      <ZuoBiao>35,26</ZuoBiao>
+      <ZuoBiao>37,39</ZuoBiao>
       <FocusNpc>182701</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1518</serviceid>
@@ -886,8 +886,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1827</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -901,7 +901,7 @@
       <instzoneid>2</instzoneid>
       <state>11</state>
       <Map>1827</Map>
-      <ZuoBiao>19,45</ZuoBiao>
+      <ZuoBiao>57,49</ZuoBiao>
       <FocusNpc>182702</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1519</serviceid>
@@ -924,7 +924,7 @@
       <instzoneid>2</instzoneid>
       <state>12</state>
       <Map>1827</Map>
-      <ZuoBiao>38,68</ZuoBiao>
+      <ZuoBiao>70,63</ZuoBiao>
       <FocusNpc>182703</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1520</serviceid>
@@ -947,7 +947,7 @@
       <instzoneid>2</instzoneid>
       <state>13</state>
       <Map>1827</Map>
-      <ZuoBiao>56,52</ZuoBiao>
+      <ZuoBiao>81,50</ZuoBiao>
       <FocusNpc>182704</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1521</serviceid>
@@ -970,7 +970,7 @@
       <instzoneid>2</instzoneid>
       <state>14</state>
       <Map>1827</Map>
-      <ZuoBiao>82,71</ZuoBiao>
+      <ZuoBiao>96,36</ZuoBiao>
       <FocusNpc>182705</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1522</serviceid>
@@ -999,7 +999,7 @@
       <instzoneid>2</instzoneid>
       <state>15</state>
       <Map>1828</Map>
-      <ZuoBiao>91,51</ZuoBiao>
+      <ZuoBiao>37,39</ZuoBiao>
       <FocusNpc>182801</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1523</serviceid>
@@ -1007,8 +1007,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1828</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -1022,7 +1022,7 @@
       <instzoneid>2</instzoneid>
       <state>16</state>
       <Map>1828</Map>
-      <ZuoBiao>82,29</ZuoBiao>
+      <ZuoBiao>57,49</ZuoBiao>
       <FocusNpc>182802</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1524</serviceid>
@@ -1045,7 +1045,7 @@
       <instzoneid>2</instzoneid>
       <state>17</state>
       <Map>1828</Map>
-      <ZuoBiao>59,54</ZuoBiao>
+      <ZuoBiao>70,63</ZuoBiao>
       <FocusNpc>182803</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1525</serviceid>
@@ -1068,7 +1068,7 @@
       <instzoneid>2</instzoneid>
       <state>18</state>
       <Map>1828</Map>
-      <ZuoBiao>37,75</ZuoBiao>
+      <ZuoBiao>81,50</ZuoBiao>
       <FocusNpc>182804</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1526</serviceid>
@@ -1091,7 +1091,7 @@
       <instzoneid>2</instzoneid>
       <state>19</state>
       <Map>1828</Map>
-      <ZuoBiao>20,68</ZuoBiao>
+      <ZuoBiao>96,36</ZuoBiao>
       <FocusNpc>182805</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1527</serviceid>
@@ -1120,7 +1120,7 @@
       <instzoneid>2</instzoneid>
       <state>20</state>
       <Map>1829</Map>
-      <ZuoBiao>35,26</ZuoBiao>
+      <ZuoBiao>37,39</ZuoBiao>
       <FocusNpc>182901</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1528</serviceid>
@@ -1128,8 +1128,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1829</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -1143,7 +1143,7 @@
       <instzoneid>2</instzoneid>
       <state>21</state>
       <Map>1829</Map>
-      <ZuoBiao>19,45</ZuoBiao>
+      <ZuoBiao>57,49</ZuoBiao>
       <FocusNpc>182902</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1529</serviceid>
@@ -1166,7 +1166,7 @@
       <instzoneid>2</instzoneid>
       <state>22</state>
       <Map>1829</Map>
-      <ZuoBiao>38,68</ZuoBiao>
+      <ZuoBiao>70,63</ZuoBiao>
       <FocusNpc>182903</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1530</serviceid>
@@ -1189,7 +1189,7 @@
       <instzoneid>2</instzoneid>
       <state>23</state>
       <Map>1829</Map>
-      <ZuoBiao>56,52</ZuoBiao>
+      <ZuoBiao>81,50</ZuoBiao>
       <FocusNpc>182904</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1531</serviceid>
@@ -1212,7 +1212,7 @@
       <instzoneid>2</instzoneid>
       <state>24</state>
       <Map>1829</Map>
-      <ZuoBiao>82,71</ZuoBiao>
+      <ZuoBiao>96,36</ZuoBiao>
       <FocusNpc>182905</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1532</serviceid>
@@ -1241,7 +1241,7 @@
       <instzoneid>2</instzoneid>
       <state>25</state>
       <Map>1830</Map>
-      <ZuoBiao>91,51</ZuoBiao>
+      <ZuoBiao>37,39</ZuoBiao>
       <FocusNpc>183001</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1533</serviceid>
@@ -1249,8 +1249,8 @@
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1830</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -1264,7 +1264,7 @@
       <instzoneid>2</instzoneid>
       <state>26</state>
       <Map>1830</Map>
-      <ZuoBiao>82,29</ZuoBiao>
+      <ZuoBiao>57,49</ZuoBiao>
       <FocusNpc>183002</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1534</serviceid>
@@ -1287,7 +1287,7 @@
       <instzoneid>2</instzoneid>
       <state>27</state>
       <Map>1830</Map>
-      <ZuoBiao>59,54</ZuoBiao>
+      <ZuoBiao>70,63</ZuoBiao>
       <FocusNpc>183003</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1535</serviceid>
@@ -1310,7 +1310,7 @@
       <instzoneid>2</instzoneid>
       <state>28</state>
       <Map>1830</Map>
-      <ZuoBiao>37,75</ZuoBiao>
+      <ZuoBiao>81,50</ZuoBiao>
       <FocusNpc>183004</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1536</serviceid>
@@ -1333,7 +1333,7 @@
       <instzoneid>2</instzoneid>
       <state>29</state>
       <Map>1830</Map>
-      <ZuoBiao>38,30</ZuoBiao>
+      <ZuoBiao>96,36</ZuoBiao>
       <FocusNpc>183005</FocusNpc>
       <expawardid>5290</expawardid>
       <serviceid>1537</serviceid>
@@ -1379,13 +1379,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>300</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>0</state>
       <Map>1831</Map>
-      <ZuoBiao>33,12</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>183101</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1538</serviceid>
       <Fightid>3056</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1402,13 +1402,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>301</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>1</state>
       <Map>1831</Map>
-      <ZuoBiao>33,12</ZuoBiao>
+      <ZuoBiao>41,56</ZuoBiao>
       <FocusNpc>183102</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1539</serviceid>
       <Fightid>3057</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1425,13 +1425,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>302</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>2</state>
       <Map>1831</Map>
-      <ZuoBiao>33,12</ZuoBiao>
+      <ZuoBiao>70,66</ZuoBiao>
       <FocusNpc>183103</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1540</serviceid>
       <Fightid>3058</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1448,13 +1448,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>303</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>3</state>
       <Map>1831</Map>
-      <ZuoBiao>33,12</ZuoBiao>
+      <ZuoBiao>94,61</ZuoBiao>
       <FocusNpc>183104</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1541</serviceid>
       <Fightid>3059</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1471,13 +1471,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>304</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>4</state>
       <Map>1831</Map>
-      <ZuoBiao>33,12</ZuoBiao>
+      <ZuoBiao>98,43</ZuoBiao>
       <FocusNpc>183105</FocusNpc>
-      <expawardid>1935</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1542</serviceid>
       <Fightid>3060</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1500,20 +1500,20 @@
     <fire.pb.instance.SBingFengCfg>
       <id>305</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>5</state>
       <Map>1832</Map>
-      <ZuoBiao>68,18</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>183201</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1543</serviceid>
       <Fightid>3061</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1832</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -1523,13 +1523,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>306</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>6</state>
       <Map>1832</Map>
-      <ZuoBiao>68,18</ZuoBiao>
+      <ZuoBiao>41,56</ZuoBiao>
       <FocusNpc>183202</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1544</serviceid>
       <Fightid>3062</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1546,13 +1546,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>307</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>7</state>
       <Map>1832</Map>
-      <ZuoBiao>68,18</ZuoBiao>
+      <ZuoBiao>70,66</ZuoBiao>
       <FocusNpc>183203</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1545</serviceid>
       <Fightid>3063</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1569,13 +1569,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>308</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>8</state>
       <Map>1832</Map>
-      <ZuoBiao>68,18</ZuoBiao>
+      <ZuoBiao>94,61</ZuoBiao>
       <FocusNpc>183204</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1546</serviceid>
       <Fightid>3064</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1592,13 +1592,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>309</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>9</state>
       <Map>1832</Map>
-      <ZuoBiao>68,18</ZuoBiao>
+      <ZuoBiao>98,43</ZuoBiao>
       <FocusNpc>183205</FocusNpc>
-      <expawardid>1935</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1547</serviceid>
       <Fightid>3065</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1621,20 +1621,20 @@
     <fire.pb.instance.SBingFengCfg>
       <id>310</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>10</state>
       <Map>1833</Map>
-      <ZuoBiao>31,29</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>183301</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1548</serviceid>
       <Fightid>3066</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1833</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -1644,13 +1644,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>311</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>11</state>
       <Map>1833</Map>
-      <ZuoBiao>31,29</ZuoBiao>
+      <ZuoBiao>41,56</ZuoBiao>
       <FocusNpc>183302</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1549</serviceid>
       <Fightid>3067</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1667,13 +1667,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>312</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>12</state>
       <Map>1833</Map>
-      <ZuoBiao>31,29</ZuoBiao>
+      <ZuoBiao>70,66</ZuoBiao>
       <FocusNpc>183303</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1550</serviceid>
       <Fightid>3068</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1690,13 +1690,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>313</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>13</state>
       <Map>1833</Map>
-      <ZuoBiao>31,29</ZuoBiao>
+      <ZuoBiao>94,61</ZuoBiao>
       <FocusNpc>183304</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1551</serviceid>
       <Fightid>3069</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1713,13 +1713,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>314</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>14</state>
       <Map>1833</Map>
-      <ZuoBiao>31,29</ZuoBiao>
+      <ZuoBiao>98,43</ZuoBiao>
       <FocusNpc>183305</FocusNpc>
-      <expawardid>1935</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1552</serviceid>
       <Fightid>3070</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1742,20 +1742,20 @@
     <fire.pb.instance.SBingFengCfg>
       <id>315</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>15</state>
       <Map>1834</Map>
-      <ZuoBiao>80,39</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>183401</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1553</serviceid>
       <Fightid>3071</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1834</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -1765,13 +1765,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>316</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>16</state>
       <Map>1834</Map>
-      <ZuoBiao>80,39</ZuoBiao>
+      <ZuoBiao>41,56</ZuoBiao>
       <FocusNpc>183402</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1554</serviceid>
       <Fightid>3072</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1788,13 +1788,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>317</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>17</state>
       <Map>1834</Map>
-      <ZuoBiao>80,39</ZuoBiao>
+      <ZuoBiao>70,66</ZuoBiao>
       <FocusNpc>183403</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1555</serviceid>
       <Fightid>3073</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1811,13 +1811,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>318</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>18</state>
       <Map>1834</Map>
-      <ZuoBiao>80,39</ZuoBiao>
+      <ZuoBiao>94,61</ZuoBiao>
       <FocusNpc>183404</FocusNpc>
-      <expawardid>1934</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1556</serviceid>
       <Fightid>3074</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1834,13 +1834,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>319</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>19</state>
       <Map>1834</Map>
-      <ZuoBiao>80,39</ZuoBiao>
+      <ZuoBiao>98,43</ZuoBiao>
       <FocusNpc>183405</FocusNpc>
-      <expawardid>1935</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1557</serviceid>
       <Fightid>3075</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1863,20 +1863,20 @@
     <fire.pb.instance.SBingFengCfg>
       <id>320</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>20</state>
       <Map>1835</Map>
-      <ZuoBiao>54,44</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>183501</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1558</serviceid>
       <Fightid>3076</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1835</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -1886,13 +1886,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>321</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>21</state>
       <Map>1835</Map>
-      <ZuoBiao>54,44</ZuoBiao>
+      <ZuoBiao>41,56</ZuoBiao>
       <FocusNpc>183502</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1559</serviceid>
       <Fightid>3077</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1909,13 +1909,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>322</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>22</state>
       <Map>1835</Map>
-      <ZuoBiao>54,44</ZuoBiao>
+      <ZuoBiao>70,66</ZuoBiao>
       <FocusNpc>183503</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1560</serviceid>
       <Fightid>3078</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1932,13 +1932,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>323</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>23</state>
       <Map>1835</Map>
-      <ZuoBiao>54,44</ZuoBiao>
+      <ZuoBiao>94,61</ZuoBiao>
       <FocusNpc>183504</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1561</serviceid>
       <Fightid>3079</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1955,13 +1955,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>324</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>24</state>
       <Map>1835</Map>
-      <ZuoBiao>54,44</ZuoBiao>
+      <ZuoBiao>98,43</ZuoBiao>
       <FocusNpc>183505</FocusNpc>
-      <expawardid>2212</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1562</serviceid>
       <Fightid>3080</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -1984,20 +1984,20 @@
     <fire.pb.instance.SBingFengCfg>
       <id>325</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>25</state>
       <Map>1836</Map>
-      <ZuoBiao>32,69</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>183601</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1563</serviceid>
       <Fightid>3081</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>0</awardid>
       <destmap>1836</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>0</boss>
       <fanpaitime>0</fanpaitime>
     </fire.pb.instance.SBingFengCfg>
@@ -2007,13 +2007,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>326</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>26</state>
       <Map>1836</Map>
-      <ZuoBiao>32,69</ZuoBiao>
+      <ZuoBiao>41,56</ZuoBiao>
       <FocusNpc>183602</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1564</serviceid>
       <Fightid>3082</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -2030,13 +2030,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>327</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>27</state>
       <Map>1836</Map>
-      <ZuoBiao>32,69</ZuoBiao>
+      <ZuoBiao>70,66</ZuoBiao>
       <FocusNpc>183603</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1565</serviceid>
       <Fightid>3083</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -2053,13 +2053,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>328</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>28</state>
       <Map>1836</Map>
-      <ZuoBiao>32,69</ZuoBiao>
+      <ZuoBiao>94,61</ZuoBiao>
       <FocusNpc>183604</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1566</serviceid>
       <Fightid>3084</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -2076,20 +2076,20 @@
     <fire.pb.instance.SBingFengCfg>
       <id>329</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>29</state>
       <Map>1836</Map>
-      <ZuoBiao>32,69</ZuoBiao>
+      <ZuoBiao>98,43</ZuoBiao>
       <FocusNpc>183605</FocusNpc>
-      <expawardid>2213</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1567</serviceid>
       <Fightid>3085</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>11702;11702;11702;11702</awardid>
       <destmap>1837</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>1</boss>
       <fanpaitime>1</fanpaitime>
       <fanpailist>
@@ -2105,13 +2105,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>330</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>30</state>
       <Map>1837</Map>
-      <ZuoBiao>72,77</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>183701</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1568</serviceid>
       <Fightid>3086</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -2128,13 +2128,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>331</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>31</state>
       <Map>1837</Map>
-      <ZuoBiao>72,77</ZuoBiao>
+      <ZuoBiao>41,56</ZuoBiao>
       <FocusNpc>183702</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1569</serviceid>
       <Fightid>3087</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -2151,13 +2151,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>332</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>32</state>
       <Map>1837</Map>
-      <ZuoBiao>72,77</ZuoBiao>
+      <ZuoBiao>70,66</ZuoBiao>
       <FocusNpc>183703</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1570</serviceid>
       <Fightid>3088</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -2174,13 +2174,13 @@
     <fire.pb.instance.SBingFengCfg>
       <id>333</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>33</state>
       <Map>1837</Map>
-      <ZuoBiao>72,77</ZuoBiao>
+      <ZuoBiao>94,61</ZuoBiao>
       <FocusNpc>183704</FocusNpc>
-      <expawardid>2214</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1571</serviceid>
       <Fightid>3089</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
@@ -2197,20 +2197,20 @@
     <fire.pb.instance.SBingFengCfg>
       <id>334</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>34</state>
       <Map>1837</Map>
-      <ZuoBiao>72,77</ZuoBiao>
+      <ZuoBiao>98,43</ZuoBiao>
       <FocusNpc>183705</FocusNpc>
-      <expawardid>2213</expawardid>
+      <expawardid>5290</expawardid>
       <serviceid>1572</serviceid>
       <Fightid>3090</Fightid>
       <BaoxiangRate>0;0;0</BaoxiangRate>
       <awardid>11702;11702;11702;11702</awardid>
       <destmap>1838</destmap>
-      <destx>37</destx>
-      <desty>13</desty>
+      <destx>25</destx>
+      <desty>31</desty>
       <boss>1</boss>
       <fanpaitime>1</fanpaitime>
       <fanpailist>
@@ -2226,11 +2226,11 @@
     <fire.pb.instance.SBingFengCfg>
       <id>335</id>
       <minlevel>90</minlevel>
-      <maxlevel>99</maxlevel>
+      <maxlevel>155</maxlevel>
       <instzoneid>3</instzoneid>
       <state>37</state>
       <Map>1838</Map>
-      <ZuoBiao>85,54</ZuoBiao>
+      <ZuoBiao>21,31</ZuoBiao>
       <FocusNpc>0</FocusNpc>
       <expawardid>0</expawardid>
       <serviceid>0</serviceid>

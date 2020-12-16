@@ -195,4 +195,10 @@ public class Equiptab {
 			});
 	}
 
+	public static Integer selectSuitID(Long key) {
+		return getTable().select(key, new mkdb.TField<xbean.EquipItem, Integer>() {
+				public Integer get(xbean.EquipItem v) { return v.getSuitID(); }
+			});
+	}
+
 }

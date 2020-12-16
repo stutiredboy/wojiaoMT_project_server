@@ -19,6 +19,7 @@ public class EquipDaoBean extends DaoBean {
 	
 	private int totalattr;// 附加属性总和
 	private int equipscore; // 评分
+	private int suitid;
 	
 
 	public Map<Integer, Integer> getAttr() {
@@ -43,6 +44,14 @@ public class EquipDaoBean extends DaoBean {
 
 	public void setEquipscore(int equipscore) {
 		this.equipscore = equipscore;
+	}
+
+	public int getSuitID() {
+		return suitid;
+	}
+
+	public void setSuitID(int suitid) {
+		this.suitid = suitid;
 	}
 	
 	public int getSkill() {
@@ -94,6 +103,8 @@ public class EquipDaoBean extends DaoBean {
 		builder.append(totalattr);
 		builder.append(", equipscore=");
 		builder.append(equipscore);
+		builder.append(", suitid=");
+		builder.append(suitid);
 		builder.append("]");
 		return builder.toString();
 	}

@@ -28,6 +28,7 @@ public interface Equip extends mkdb.Bean {
 	public int getEquipscore(); // 装备评分
 	public java.util.List<Integer> getDiamonds(); // 宝石列表
 	public java.util.List<Integer> getDiamondsAsData(); // 宝石列表
+	public int getSuitID(); // 套装效果ID
 
 	public void setEquiplevel(int _v_); // 装备等级
 	public void setRepairtimes(int _v_); // 修理失败次数
@@ -41,4 +42,5 @@ public interface Equip extends mkdb.Bean {
 	public void setEffect(int _v_); // 特效
 	public void setTreasure(int _v_); // 0表示不是珍品;1表示是珍品
 	public void setEquipscore(int _v_); // 装备评分
+	public void setSuitID(int _v_); // 套装效果ID
 }

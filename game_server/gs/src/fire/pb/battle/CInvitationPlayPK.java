@@ -3,6 +3,8 @@ package fire.pb.battle;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Map;
+import java.lang.Math;
 
 import gnet.link.Onlines;
 import fire.pb.GameSystemConfig;
@@ -23,8 +25,9 @@ import fire.pb.talk.MessageMgr;
 import fire.pb.team.Team;
 import fire.pb.team.TeamManager;
 import fire.pb.util.MapUtil;
-
-
+import fire.pb.main.ConfigManager;
+import fire.pb.battle.SPKDrop;
+import org.apache.log4j.Logger;
 
 
 
@@ -40,6 +43,8 @@ abstract class __CInvitationPlayPK__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CInvitationPlayPK extends __CInvitationPlayPK__ {
+	public static final Map<Integer, SPKDrop> PKDropConfig_CFGS = ConfigManager.getInstance().getConf(SPKDrop.class);
+	static private final Logger logger = Logger.getLogger("BATTLE");
 	@Override
 	protected void process() {
 		// protocol handle
@@ -80,6 +85,11 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 			return ;
 		}
+		if(hostTeam != null && guestteam == null )
+		{
+			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,194038, null);
+			return;
+		}
 		//判断自己是否在副本，在副本无法发送请求
 		MapConfig cfg = ConfigManager.getInstance().getConf(MapConfig.class).get(hostRole.getMapId());
 		if(cfg.dynamic ==1){
@@ -92,6 +102,13 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 			return ;
+		}
+
+		// 判断是否在安全地图中
+		if(hostRole.getMapId() == PKDropConfig_CFGS.get(1).safeMapid)
+		{
+			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
+			sendremoveTickTime(hostid);//通知客户端取消定时器
 		}
 		
 		//判断自己是否在战斗或者观战
@@ -188,6 +205,19 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 				return ;
 			}
 		}
+		// 如果强P的人有大于被强P的人20级的则不予强P
+		if(hostRole != null && gRole != null )
+		{
+			int levelLimit = PKDropConfig_CFGS.get(1).levelLimit;
+			PropRole role = new PropRole(hostid, true);
+			PropRole guestrole = new PropRole(objectid, true);
+			if ( Math.abs(role.getLevel() - guestrole.getLevel()) >= levelLimit) {
+				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 194037 ,null);
+				sendremoveTickTime(hostid);//通知客户端取消定时器
+				return ;
+			}
+		}
+		
 		
 		//判断目标是否在正常地图
 		MapConfig cfg2 = ConfigManager.getInstance().getConf(MapConfig.class).get(gRole.getMapId());

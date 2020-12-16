@@ -43,7 +43,7 @@
       <id>2885</id>
       <libaoid>334000</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -187,7 +187,7 @@
       <id>2718</id>
       <libaoid>334000</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -403,7 +403,7 @@
       <id>2890</id>
       <libaoid>334000</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -511,7 +511,7 @@
       <id>2892</id>
       <libaoid>334000</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -619,7 +619,7 @@
       <id>2894</id>
       <libaoid>334000</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -706,7 +706,7 @@
       <id>2895</id>
       <libaoid>334001</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -910,7 +910,7 @@
       <id>5004</id>
       <libaoid>334001</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -1063,7 +1063,7 @@
       <id>2898</id>
       <libaoid>334001</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -1216,7 +1216,7 @@
       <id>2900</id>
       <libaoid>334001</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -1369,7 +1369,7 @@
       <id>2902</id>
       <libaoid>334001</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -1522,7 +1522,7 @@
       <id>2904</id>
       <libaoid>334001</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -1621,7 +1621,7 @@
       <id>2905</id>
       <libaoid>334002</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -1813,7 +1813,7 @@
       <id>5006</id>
       <libaoid>334002</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -1957,7 +1957,7 @@
       <id>2908</id>
       <libaoid>334002</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -2101,7 +2101,7 @@
       <id>2910</id>
       <libaoid>334002</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -2245,7 +2245,7 @@
       <id>2912</id>
       <libaoid>334002</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -2389,7 +2389,7 @@
       <id>2914</id>
       <libaoid>334002</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -2488,7 +2488,7 @@
       <id>2915</id>
       <libaoid>334003</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -2692,7 +2692,7 @@
       <id>5008</id>
       <libaoid>334003</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -2845,7 +2845,7 @@
       <id>2918</id>
       <libaoid>334003</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -2998,7 +2998,7 @@
       <id>2920</id>
       <libaoid>334003</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -3151,7 +3151,7 @@
       <id>2922</id>
       <libaoid>334003</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -3304,7 +3304,7 @@
       <id>2924</id>
       <libaoid>334003</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -3406,7 +3406,7 @@
       <id>2925</id>
       <libaoid>334004</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -3610,7 +3610,7 @@
       <id>5010</id>
       <libaoid>334004</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -3763,7 +3763,7 @@
       <id>2928</id>
       <libaoid>334004</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -3916,7 +3916,7 @@
       <id>2930</id>
       <libaoid>334004</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4069,7 +4069,7 @@
       <id>2932</id>
       <libaoid>334004</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4222,7 +4222,7 @@
       <id>2934</id>
       <libaoid>334004</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4281,37 +4281,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4324,7 +4303,7 @@
       <id>2935</id>
       <libaoid>334005</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4332,37 +4311,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4383,37 +4341,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4434,37 +4371,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4485,37 +4401,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4528,7 +4423,7 @@
       <id>5012</id>
       <libaoid>334005</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4536,37 +4431,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4587,37 +4461,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4638,37 +4491,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4681,7 +4513,7 @@
       <id>2938</id>
       <libaoid>334005</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4689,37 +4521,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4740,37 +4551,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4791,37 +4581,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4834,7 +4603,7 @@
       <id>2940</id>
       <libaoid>334005</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4842,37 +4611,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4893,37 +4641,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4944,37 +4671,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -4987,7 +4693,7 @@
       <id>2942</id>
       <libaoid>334005</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -4995,37 +4701,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050220</int>
-        <int>5050322</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5046,37 +4731,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5097,37 +4761,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5140,7 +4783,7 @@
       <id>2944</id>
       <libaoid>334005</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5148,37 +4791,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6050221</int>
-        <int>5050323</int>
-        <int>5050424</int>
-        <int>5050525</int>
-        <int>5050626</int>
-        <int>311003</int>
-        <int>311009</int>
-        <int>334100</int>
-        <int>335006</int>
-        <int>334006</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
         <int>1</int>
         <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>10</int>
-        <int>1</int>
-        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5199,28 +4821,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060117</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5233,7 +4843,7 @@
       <id>2945</id>
       <libaoid>334006</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5241,28 +4851,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060115</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5283,28 +4881,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060117</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5325,28 +4911,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060117</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5367,28 +4941,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060117</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5401,7 +4963,7 @@
       <id>5014</id>
       <libaoid>334006</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5409,28 +4971,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060115</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5451,28 +5001,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060116</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5493,28 +5031,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060115</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5527,7 +5053,7 @@
       <id>2948</id>
       <libaoid>334006</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5535,28 +5061,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060114</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5577,28 +5091,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060116</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5619,28 +5121,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060115</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5653,7 +5143,7 @@
       <id>2950</id>
       <libaoid>334006</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5661,28 +5151,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060114</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5703,28 +5181,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060118</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5745,28 +5211,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060118</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5779,7 +5233,7 @@
       <id>2952</id>
       <libaoid>334006</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5787,28 +5241,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060114</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5829,28 +5271,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060118</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5871,28 +5301,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060118</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5905,7 +5323,7 @@
       <id>2954</id>
       <libaoid>334006</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5913,28 +5331,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6060114</int>
-        <int>6060525</int>
-        <int>35003</int>
-        <int>334101</int>
-        <int>335005</int>
-        <int>335014</int>
-        <int>334007</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>5</int>
-        <int>10</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5955,22 +5361,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -5983,7 +5383,7 @@
       <id>2955</id>
       <libaoid>334007</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -5991,22 +5391,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6027,22 +5421,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6063,22 +5451,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6099,22 +5481,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6127,7 +5503,7 @@
       <id>5016</id>
       <libaoid>334007</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6135,22 +5511,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6171,22 +5541,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6207,22 +5571,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6235,7 +5593,7 @@
       <id>2958</id>
       <libaoid>334007</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6243,22 +5601,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6279,22 +5631,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6315,22 +5661,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6343,7 +5683,7 @@
       <id>2960</id>
       <libaoid>334007</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6351,22 +5691,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6387,22 +5721,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6423,22 +5751,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6451,7 +5773,7 @@
       <id>2962</id>
       <libaoid>334007</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6459,22 +5781,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6495,22 +5811,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6531,22 +5841,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6559,7 +5863,7 @@
       <id>2964</id>
       <libaoid>334007</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6567,22 +5871,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>35012</int>
-        <int>35030</int>
-        <int>335007</int>
-        <int>335014</int>
-        <int>334008</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>5</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6603,31 +5901,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350803</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6640,7 +5923,7 @@
       <id>2965</id>
       <libaoid>334008</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6648,31 +5931,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350801</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6693,31 +5961,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350803</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6738,31 +5991,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350803</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6783,31 +6021,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350803</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6820,7 +6043,7 @@
       <id>5018</id>
       <libaoid>334008</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6828,31 +6051,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350801</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6873,31 +6081,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350802</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6918,31 +6111,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350801</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -6955,7 +6133,7 @@
       <id>2968</id>
       <libaoid>334008</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -6963,31 +6141,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350800</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7008,31 +6171,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350802</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7053,31 +6201,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350801</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7090,7 +6223,7 @@
       <id>2970</id>
       <libaoid>334008</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7098,31 +6231,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350800</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7143,31 +6261,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350804</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7188,31 +6291,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350804</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7225,7 +6313,7 @@
       <id>2972</id>
       <libaoid>334008</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7233,31 +6321,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350800</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7278,31 +6351,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350804</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7323,31 +6381,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350804</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7360,7 +6403,7 @@
       <id>2974</id>
       <libaoid>334008</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7368,31 +6411,16 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>360000</int>
-        <int>334101</int>
-        <int>334100</int>
-        <int>341108</int>
-        <int>350800</int>
-        <int>335008</int>
-        <int>335014</int>
-        <int>334009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
-        <int>15</int>
-        <int>20</int>
-        <int>20</int>
-        <int>1</int>
-        <int>1</int>
         <int>1</int>
         <int>1</int>
         <int>1</int>
       </itemnums>
       <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>1</int>
-        <int>1</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
@@ -7413,12 +6441,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7429,7 +6463,7 @@
       <id>2975</id>
       <libaoid>334009</libaoid>
       <roletype>1</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7437,12 +6471,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7461,12 +6501,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7485,12 +6531,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7509,12 +6561,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7525,7 +6583,7 @@
       <id>5020</id>
       <libaoid>334009</libaoid>
       <roletype>2</roletype>
-      <school>17</school>
+      <school>19</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7533,12 +6591,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7557,12 +6621,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7581,12 +6651,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7597,7 +6673,7 @@
       <id>2978</id>
       <libaoid>334009</libaoid>
       <roletype>3</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7605,12 +6681,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7629,12 +6711,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7653,12 +6741,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7669,7 +6763,7 @@
       <id>2980</id>
       <libaoid>334009</libaoid>
       <roletype>4</roletype>
-      <school>18</school>
+      <school>17</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7677,12 +6771,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7701,12 +6801,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7725,12 +6831,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7741,7 +6853,7 @@
       <id>2982</id>
       <libaoid>334009</libaoid>
       <roletype>5</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7749,12 +6861,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7773,12 +6891,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7797,12 +6921,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7813,7 +6943,7 @@
       <id>2984</id>
       <libaoid>334009</libaoid>
       <roletype>6</roletype>
-      <school>19</school>
+      <school>18</school>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>0</awardtableid>
@@ -7821,12 +6951,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>335009</int>
+        <int>340062</int>
+        <int>340062</int>
+        <int>340062</int>
       </itemids>
       <itemnums>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
+        <int>0</int>
+        <int>0</int>
         <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
@@ -7924,7 +7060,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>2</currencytype>
-      <currencyvalue>1000</currencyvalue>
+      <currencyvalue>5000</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -7940,7 +7076,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>3</currencytype>
-      <currencyvalue>10</currencyvalue>
+      <currencyvalue>20000</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -7956,7 +7092,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>3</currencytype>
-      <currencyvalue>50</currencyvalue>
+      <currencyvalue>88888</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -7972,7 +7108,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>3</currencytype>
-      <currencyvalue>100</currencyvalue>
+      <currencyvalue>888888</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8079,12 +7215,10 @@
       <roletype>0</roletype>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
-      <awardtableid>0</awardtableid>
+      <awardtableid>6945</awardtableid>
       <moneyaward1>0</moneyaward1>
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
-      <currencytype>6</currencytype>
-      <currencyvalue>10</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8095,12 +7229,10 @@
       <roletype>0</roletype>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
-      <awardtableid>0</awardtableid>
+      <awardtableid>6946</awardtableid>
       <moneyaward1>0</moneyaward1>
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
-      <currencytype>6</currencytype>
-      <currencyvalue>50</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8111,12 +7243,10 @@
       <roletype>0</roletype>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
-      <awardtableid>0</awardtableid>
+      <awardtableid>6947</awardtableid>
       <moneyaward1>0</moneyaward1>
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
-      <currencytype>6</currencytype>
-      <currencyvalue>100</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8180,7 +7310,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>8</currencytype>
-      <currencyvalue>10</currencyvalue>
+      <currencyvalue>5</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8196,7 +7326,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>8</currencytype>
-      <currencyvalue>50</currencyvalue>
+      <currencyvalue>10</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8212,7 +7342,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>8</currencytype>
-      <currencyvalue>100</currencyvalue>
+      <currencyvalue>20</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8308,7 +7438,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>10</currencytype>
-      <currencyvalue>50000</currencyvalue>
+      <currencyvalue>100000000</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8570,7 +7700,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>2</currencytype>
-      <currencyvalue>10000</currencyvalue>
+      <currencyvalue>50000</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -8754,12 +7884,18 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <itemids>
-        <int>6040114</int>
-        <int>6040220</int>
-        <int>6040322</int>
-        <int>6040424</int>
-        <int>6040525</int>
-        <int>6040626</int>
+        <int>311079</int>
+        <int>311080</int>
+        <int>311081</int>
+        <int>311082</int>
+        <int>311083</int>
+        <int>311084</int>
+        <int>311085</int>
+        <int>311086</int>
+        <int>311087</int>
+        <int>311088</int>
+        <int>311089</int>
+        <int>311091</int>
       </itemids>
       <itemnums>
         <int>1</int>
@@ -8768,14 +7904,26 @@
         <int>1</int>
         <int>1</int>
         <int>1</int>
+        <int>1</int>
+        <int>1</int>
+        <int>1</int>
+        <int>1</int>
+        <int>1</int>
+        <int>1</int>
       </itemnums>
       <itembinds>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
       </itembinds>
     </fire.pb.item.SLibaoConfig>
   </entry>
@@ -10633,7 +9781,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>1</currencytype>
-      <currencyvalue>1000000</currencyvalue>
+      <currencyvalue>999999999</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -10649,7 +9797,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>3</currencytype>
-      <currencyvalue>500</currencyvalue>
+      <currencyvalue>99999999</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -10769,7 +9917,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>2</currencytype>
-      <currencyvalue>80000</currencyvalue>
+      <currencyvalue>16000</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -11105,33 +10253,13 @@
     <int>4104</int>
     <fire.pb.item.SLibaoConfig>
       <id>4104</id>
-      <libaoid>337011</libaoid>
-      <roletype>5</roletype>
-      <school>19</school>
+      <libaoid>340090</libaoid>
       <sextype>0</sextype>
       <opennotice>0</opennotice>
-      <awardtableid>0</awardtableid>
+      <awardtableid>6759</awardtableid>
       <moneyaward1>0</moneyaward1>
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
-      <itemids>
-        <int>350400</int>
-        <int>331104</int>
-        <int>341104</int>
-        <int>40008</int>
-      </itemids>
-      <itemnums>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-        <int>1</int>
-      </itemnums>
-      <itembinds>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </itembinds>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -11311,7 +10439,7 @@
       <awardtableid>0</awardtableid>
       <moneyaward1>0</moneyaward1>
       <moneyaward2>0</moneyaward2>
-      <vipexpaward>2000</vipexpaward>
+      <vipexpaward>2300</vipexpaward>
       <currencytype>0</currencytype>
       <currencyvalue>0</currencyvalue>
     </fire.pb.item.SLibaoConfig>
@@ -11423,7 +10551,7 @@
       <awardtableid>0</awardtableid>
       <moneyaward1>0</moneyaward1>
       <moneyaward2>0</moneyaward2>
-      <vipexpaward>200000</vipexpaward>
+      <vipexpaward>300000</vipexpaward>
       <currencytype>0</currencytype>
       <currencyvalue>0</currencyvalue>
     </fire.pb.item.SLibaoConfig>
@@ -11578,7 +10706,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>6</currencytype>
-      <currencyvalue>1000</currencyvalue>
+      <currencyvalue>1000000</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -11594,7 +10722,7 @@
       <moneyaward2>0</moneyaward2>
       <vipexpaward>0</vipexpaward>
       <currencytype>6</currencytype>
-      <currencyvalue>10000</currencyvalue>
+      <currencyvalue>10000000</currencyvalue>
     </fire.pb.item.SLibaoConfig>
   </entry>
   <entry>
@@ -12711,6 +11839,1080 @@
       <sextype>0</sextype>
       <opennotice>0</opennotice>
       <awardtableid>6756</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4180</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4180</id>
+      <libaoid>340100</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6780</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4181</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4181</id>
+      <libaoid>340101</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6781</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4200</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4200</id>
+      <libaoid>340200</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6800</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4201</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4201</id>
+      <libaoid>340201</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6801</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4202</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4202</id>
+      <libaoid>340202</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6802</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4203</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4203</id>
+      <libaoid>340203</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6803</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4204</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4204</id>
+      <libaoid>340204</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6804</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4205</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4205</id>
+      <libaoid>340205</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6805</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4206</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4206</id>
+      <libaoid>340206</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6806</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4207</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4207</id>
+      <libaoid>340207</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6807</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4208</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4208</id>
+      <libaoid>340208</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6808</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4209</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4209</id>
+      <libaoid>340209</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6809</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4210</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4210</id>
+      <libaoid>340210</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6810</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4211</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4211</id>
+      <libaoid>340211</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6811</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4212</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4212</id>
+      <libaoid>340212</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6812</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4213</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4213</id>
+      <libaoid>340213</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6813</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4214</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4214</id>
+      <libaoid>340214</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6814</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4215</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4215</id>
+      <libaoid>340215</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6815</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4216</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4216</id>
+      <libaoid>340216</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6816</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4217</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4217</id>
+      <libaoid>340217</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6817</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4218</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4218</id>
+      <libaoid>340218</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6818</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4219</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4219</id>
+      <libaoid>340219</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6819</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4220</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4220</id>
+      <libaoid>340220</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6820</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4221</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4221</id>
+      <libaoid>340221</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6821</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4222</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4222</id>
+      <libaoid>340222</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6822</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4223</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4223</id>
+      <libaoid>340223</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6823</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4224</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4224</id>
+      <libaoid>340224</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6824</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4225</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4225</id>
+      <libaoid>340225</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6825</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4226</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4226</id>
+      <libaoid>340226</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6826</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4227</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4227</id>
+      <libaoid>340227</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6827</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4228</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4228</id>
+      <libaoid>340228</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6828</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4229</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4229</id>
+      <libaoid>340229</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6829</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4230</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4230</id>
+      <libaoid>340230</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6830</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4231</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4231</id>
+      <libaoid>340231</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6831</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4232</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4232</id>
+      <libaoid>340232</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6832</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4233</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4233</id>
+      <libaoid>340233</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6833</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4234</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4234</id>
+      <libaoid>340234</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6834</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4235</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4235</id>
+      <libaoid>340235</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6835</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4236</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4236</id>
+      <libaoid>340236</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6836</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4237</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4237</id>
+      <libaoid>340237</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6837</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4238</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4238</id>
+      <libaoid>340238</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6838</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4239</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4239</id>
+      <libaoid>337015</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6900</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4240</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4240</id>
+      <libaoid>337016</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6901</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4241</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4241</id>
+      <libaoid>337017</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6902</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4242</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4242</id>
+      <libaoid>340332</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6903</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4243</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4243</id>
+      <libaoid>340137</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6904</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4244</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4244</id>
+      <libaoid>340138</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6905</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4245</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4245</id>
+      <libaoid>340139</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6906</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4246</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4246</id>
+      <libaoid>340140</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6907</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4247</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4247</id>
+      <libaoid>340143</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6910</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4248</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4248</id>
+      <libaoid>340144</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6911</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4249</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4249</id>
+      <libaoid>340145</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6912</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4250</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4250</id>
+      <libaoid>340151</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>50</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4251</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4251</id>
+      <libaoid>340152</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>300</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4252</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4252</id>
+      <libaoid>340153</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>500</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4253</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4253</id>
+      <libaoid>340154</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>1000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4254</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4254</id>
+      <libaoid>340155</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>4000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4255</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4255</id>
+      <libaoid>340156</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>8000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4256</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4256</id>
+      <libaoid>340157</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>16000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4257</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4257</id>
+      <libaoid>340158</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>32000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4258</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4258</id>
+      <libaoid>340159</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>64000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4259</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4259</id>
+      <libaoid>340160</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>128000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4260</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4260</id>
+      <libaoid>522131</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>10000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4261</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4261</id>
+      <libaoid>522132</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>50000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4262</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4262</id>
+      <libaoid>522133</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>100000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4263</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4263</id>
+      <libaoid>522134</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>200000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4264</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4264</id>
+      <libaoid>522135</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>500000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4265</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4265</id>
+      <libaoid>522136</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>1000000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4266</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4266</id>
+      <libaoid>522137</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>1500000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4267</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4267</id>
+      <libaoid>522138</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+      <currencytype>2</currencytype>
+      <currencyvalue>10000000</currencyvalue>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4268</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4268</id>
+      <libaoid>333175</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6927</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4269</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4269</id>
+      <libaoid>631134</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6928</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4270</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4270</id>
+      <libaoid>631135</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6929</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4271</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4271</id>
+      <libaoid>631136</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6930</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4272</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4272</id>
+      <libaoid>631137</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6931</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4273</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4273</id>
+      <libaoid>631138</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6932</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4274</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4274</id>
+      <libaoid>631140</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6933</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4275</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4275</id>
+      <libaoid>631141</libaoid>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6934</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+      <vipexpaward>0</vipexpaward>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4276</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4276</id>
+      <libaoid>520270</libaoid>
+      <roletype>0</roletype>
+      <school>0</school>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6935</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4277</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4277</id>
+      <libaoid>520271</libaoid>
+      <roletype>0</roletype>
+      <school>0</school>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6936</awardtableid>
+      <moneyaward1>0</moneyaward1>
+      <moneyaward2>0</moneyaward2>
+    </fire.pb.item.SLibaoConfig>
+  </entry>
+  <entry>
+    <int>4278</int>
+    <fire.pb.item.SLibaoConfig>
+      <id>4278</id>
+      <libaoid>520272</libaoid>
+      <roletype>0</roletype>
+      <school>0</school>
+      <sextype>0</sextype>
+      <opennotice>0</opennotice>
+      <awardtableid>6937</awardtableid>
       <moneyaward1>0</moneyaward1>
       <moneyaward2>0</moneyaward2>
     </fire.pb.item.SLibaoConfig>

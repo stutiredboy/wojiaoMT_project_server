@@ -42,7 +42,7 @@ public class MulDayLogin {
 		Integer rewardIndex = roleShape - 1;
 		
 		Integer roleSchool = xtable.Properties.selectSchool(roleId);
-		
+		logger.error("--------七天登录奖励--------"+roleShape+"-------------"+rewardIndex);
 		Smuldayloginreward cfg = mulDayLoginRewardConf.get(loginDays);
 		if(cfg == null) 
 			return false;

@@ -5,7 +5,7 @@
     <int>200</int>
     <fire.pb.clan.SClanFight>
       <id>200</id>
-      <name>公会战副本</name>
+      <name>帮战副本</name>
       <mapid>1711</mapid>
       <x1>20</x1>
       <y1>20</y1>

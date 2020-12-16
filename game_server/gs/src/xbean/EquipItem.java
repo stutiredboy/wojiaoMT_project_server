@@ -34,6 +34,7 @@ public interface EquipItem extends mkdb.Bean {
 	public java.util.Map<Integer, Integer> getAddattrAsData(); // 附加属性
 	public int getTotalattr(); // 属性总和
 	public int getEquipscore(); // 装备评分
+	public int getSuitID(); // 套装效果ID
 
 	public void setId(long _v_); // 主键id
 	public void setFirstno(int _v_); // 一级菜单
@@ -57,4 +58,5 @@ public interface EquipItem extends mkdb.Bean {
 	public void setColor(int _v_); // 品质
 	public void setTotalattr(int _v_); // 属性总和
 	public void setEquipscore(int _v_); // 装备评分
+	public void setSuitID(int _v_); // 套装效果ID
 }

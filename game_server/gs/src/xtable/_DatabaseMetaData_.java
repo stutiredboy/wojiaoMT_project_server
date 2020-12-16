@@ -3724,6 +3724,11 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				, "list", "", "int", ""
 				, "", "", "32"
 				);
+			super.addVariableFor(bean
+				, "suitid"
+				, "int", "", "", ""
+				, "", "", ""
+				);
 			super.addBean(bean);
 		}
 		{
@@ -9997,6 +10002,11 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				);
 			super.addVariableFor(bean
 				, "equipscore"
+				, "int", "", "", ""
+				, "0", "", ""
+				);
+			super.addVariableFor(bean
+				, "suitid"
 				, "int", "", "", ""
 				, "0", "", ""
 				);

@@ -16,15 +16,15 @@
       <awardtime>20</awardtime>
       <questrate>
         <string>1010001@20</string>
-        <string>1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20</string>
         <string>1010001@20</string>
-        <string>1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20</string>
         <string>1010001@20</string>
-        <string>1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20</string>
-        <string>1010001@20;1010002@20;1010003@20;1010004@20;1010005@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -70,16 +70,16 @@
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010006@20;1010010@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -125,16 +125,16 @@
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010006@40;1010008@10;1010009@20;1010010@40</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010006@40;1010008@10;1010009@20;1010010@40</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010006@40;1010008@10;1010009@20;1010010@40</string>
-        <string>1010006@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -180,16 +180,16 @@
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010006@40;1010008@10;1010009@20;1010010@40</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010006@40;1010008@10;1010009@20;1010010@40</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010006@40;1010008@10;1010009@20;1010010@40</string>
-        <string>1010006@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -235,16 +235,16 @@
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@10;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@10;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@10;1010008@10;1010009@20;1010010@20</string>
-        <string>1010007@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -290,16 +290,16 @@
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010007@20;1010011@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -345,16 +345,16 @@
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010007@20;1010011@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -400,16 +400,16 @@
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010007@20;1010011@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -448,23 +448,23 @@
       <type>1010000</type>
       <levelgroup>9</levelgroup>
       <levelmin>90</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <round>2</round>
       <ring>10</ring>
       <totaltime>20</totaltime>
       <awardtime>20</awardtime>
       <questrate>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010001@20;1010002@20;1010003@20</string>
-        <string>1010004@20;1010005@20;1010006@20</string>
-        <string>1010002@20;1010003@20;1010004@20;1010007@5;1010011@5;1010008@10;1010009@20;1010010@20</string>
-        <string>1010007@20;1010011@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
+        <string>1010001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -503,12 +503,12 @@
       <type>1030000</type>
       <levelgroup>1</levelgroup>
       <levelmin>20</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <round>0</round>
-      <ring>10</ring>
-      <totaltime>0</totaltime>
-      <awardtime>40</awardtime>
+      <ring>9999</ring>
+      <totaltime>9999</totaltime>
+      <awardtime>99999</awardtime>
       <questrate>
         <string>1030004@20;1030005@20;1030006@20;1030007@20</string>
         <string>1030008@20;1030009@20;1030010@20;1030011@20;1030012@20</string>
@@ -521,9 +521,9 @@
         <string>1030004@20;1030005@20;1030006@20;1030007@20</string>
         <string>1030008@20;1030009@20;1030010@20;1030011@20;1030012@20</string>
       </questrate>
-      <doublepoint>5</doublepoint>
+      <doublepoint>1</doublepoint>
       <teamshare>1</teamshare>
-      <teamnum>3</teamnum>
+      <teamnum>1</teamnum>
       <renxing>0</renxing>
       <renxingfushi>0</renxingfushi>
       <giveup>1</giveup>
@@ -556,7 +556,7 @@
       <type>1040000</type>
       <levelgroup>1</levelgroup>
       <levelmin>25</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <clearround>1</clearround>
       <round>1</round>
@@ -588,7 +588,7 @@
       <isopenaward>0</isopenaward>
       <specialtaskrate>0</specialtaskrate>
       <gjhuanshu>0</gjhuanshu>
-      <ptitemaward>5491</ptitemaward>
+      <ptitemaward>5493</ptitemaward>
       <maxnumtips>150209</maxnumtips>
       <dayauto>0</dayauto>
       <activeid>104</activeid>
@@ -602,7 +602,7 @@
       <type>1050000</type>
       <levelgroup>1</levelgroup>
       <levelmin>30</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <round>1</round>
       <ring>1</ring>
@@ -651,22 +651,22 @@
       <levelmin>35</levelmin>
       <levelmax>44</levelmax>
       <levelrate>100</levelrate>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>7</round>
       <ring>10</ring>
       <totaltime>70</totaltime>
       <awardtime>70</awardtime>
       <questrate>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -698,24 +698,24 @@
       <type>1060000</type>
       <levelgroup>2</levelgroup>
       <levelmin>45</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <levelrate>100</levelrate>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>7</round>
       <ring>10</ring>
       <totaltime>70</totaltime>
       <awardtime>70</awardtime>
       <questrate>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20;1060006@20;1060007@20;1060008@20;1060010@20;1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -749,22 +749,22 @@
       <levelmin>35</levelmin>
       <levelmax>44</levelmax>
       <levelrate>100</levelrate>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>7</round>
       <ring>10</ring>
       <totaltime>70</totaltime>
       <awardtime>70</awardtime>
       <questrate>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -796,24 +796,24 @@
       <type>1060000</type>
       <levelgroup>2</levelgroup>
       <levelmin>45</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <levelrate>100</levelrate>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>7</round>
       <ring>10</ring>
       <totaltime>70</totaltime>
       <awardtime>70</awardtime>
       <questrate>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20;1060006@20;1060007@20;1060008@20;1060010@20;1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -847,22 +847,22 @@
       <levelmin>35</levelmin>
       <levelmax>44</levelmax>
       <levelrate>100</levelrate>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>7</round>
       <ring>10</ring>
       <totaltime>70</totaltime>
       <awardtime>70</awardtime>
       <questrate>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -894,24 +894,24 @@
       <type>1060000</type>
       <levelgroup>2</levelgroup>
       <levelmin>45</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <levelrate>100</levelrate>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>7</round>
       <ring>10</ring>
       <totaltime>70</totaltime>
       <awardtime>70</awardtime>
       <questrate>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20</string>
-        <string>1060006@20;1060007@20;1060008@20;1060010@20</string>
-        <string>1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
-        <string>1060001@20;1060002@20;1060003@20;1060004@20;1060006@20;1060007@20;1060008@20;1060010@20;1060011@20;1060012@20;1060013@20;1060015@20</string>
-        <string>1060005@30;1060009@20;1060014@10</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
+        <string>1060001@20</string>
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>0</teamshare>
@@ -984,11 +984,11 @@
       <levelgroup>1</levelgroup>
       <levelmin>50</levelmin>
       <levelmax>59</levelmax>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1005,7 +1005,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1029,11 +1029,11 @@
       <levelgroup>2</levelgroup>
       <levelmin>60</levelmin>
       <levelmax>69</levelmax>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1050,7 +1050,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1074,11 +1074,11 @@
       <levelgroup>3</levelgroup>
       <levelmin>70</levelmin>
       <levelmax>79</levelmax>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1095,7 +1095,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1119,11 +1119,11 @@
       <levelgroup>4</levelgroup>
       <levelmin>80</levelmin>
       <levelmax>89</levelmax>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1140,7 +1140,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1164,11 +1164,11 @@
       <levelgroup>5</levelgroup>
       <levelmin>90</levelmin>
       <levelmax>99</levelmax>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1185,7 +1185,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1209,11 +1209,11 @@
       <levelgroup>6</levelgroup>
       <levelmin>100</levelmin>
       <levelmax>109</levelmax>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1230,7 +1230,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1254,11 +1254,11 @@
       <levelgroup>7</levelgroup>
       <levelmin>110</levelmin>
       <levelmax>119</levelmax>
-      <cycle>2</cycle>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1275,7 +1275,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1298,12 +1298,12 @@
       <type>1080000</type>
       <levelgroup>8</levelgroup>
       <levelmin>120</levelmin>
-      <levelmax>155</levelmax>
-      <cycle>2</cycle>
+      <levelmax>200</levelmax>
+      <cycle>1</cycle>
       <round>1</round>
-      <ring>140</ring>
-      <totaltime>140</totaltime>
-      <awardtime>140</awardtime>
+      <ring>300</ring>
+      <totaltime>300</totaltime>
+      <awardtime>300</awardtime>
       <questrate>
         <string>1080001@100</string>
         <string>1080001@100</string>
@@ -1320,7 +1320,7 @@
       <teamshare>0</teamshare>
       <teamnum>0</teamnum>
       <renxing>1</renxing>
-      <renxingfushi>50</renxingfushi>
+      <renxingfushi>500</renxingfushi>
       <giveup>1</giveup>
       <teamgiveup>0</teamgiveup>
       <giveupreset>1</giveupreset>
@@ -1343,7 +1343,7 @@
       <type>1090000</type>
       <levelgroup>1</levelgroup>
       <levelmin>0</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <round>5</round>
       <ring>10</ring>
@@ -1363,7 +1363,7 @@
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>1</teamshare>
-      <teamnum>2</teamnum>
+      <teamnum>1</teamnum>
       <renxing>0</renxing>
       <renxingfushi>0</renxingfushi>
       <giveup>1</giveup>
@@ -1386,7 +1386,7 @@
       <type>1110000</type>
       <levelgroup>1</levelgroup>
       <levelmin>0</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <round>5</round>
       <ring>10</ring>
@@ -1406,7 +1406,7 @@
       </questrate>
       <doublepoint>0</doublepoint>
       <teamshare>1</teamshare>
-      <teamnum>2</teamnum>
+      <teamnum>1</teamnum>
       <renxing>0</renxing>
       <renxingfushi>0</renxingfushi>
       <giveup>1</giveup>
@@ -1430,7 +1430,7 @@
       <type>1120000</type>
       <levelgroup>1</levelgroup>
       <levelmin>30</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>0</cycle>
       <round>1</round>
       <ring>1</ring>
@@ -1462,7 +1462,7 @@
       <type>1130000</type>
       <levelgroup>2</levelgroup>
       <levelmin>50</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>0</cycle>
       <round>1</round>
       <ring>1</ring>
@@ -1494,7 +1494,7 @@
       <type>1140000</type>
       <levelgroup>3</levelgroup>
       <levelmin>70</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>0</cycle>
       <round>1</round>
       <ring>1</ring>
@@ -1526,7 +1526,7 @@
       <type>1910000</type>
       <levelgroup>1</levelgroup>
       <levelmin>30</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <clearround>1</clearround>
       <round>1</round>
@@ -1558,7 +1558,6 @@
       <isopenaward>0</isopenaward>
       <specialtaskrate>0</specialtaskrate>
       <gjhuanshu>0</gjhuanshu>
-      <ptitemaward>5493</ptitemaward>
       <maxnumtips>150209</maxnumtips>
       <dayauto>0</dayauto>
       <activeid>104</activeid>
@@ -1572,7 +1571,7 @@
       <type>1920000</type>
       <levelgroup>1</levelgroup>
       <levelmin>30</levelmin>
-      <levelmax>155</levelmax>
+      <levelmax>200</levelmax>
       <cycle>1</cycle>
       <clearround>1</clearround>
       <round>1</round>
@@ -1608,6 +1607,311 @@
       <maxnumtips>166138</maxnumtips>
       <dayauto>0</dayauto>
       <activeid>107</activeid>
+      <isoutrandom>0</isoutrandom>
+    </fire.pb.circletask.CircTask>
+  </entry>
+  <entry>
+    <int>35</int>
+    <fire.pb.circletask.CircTask>
+      <id>35</id>
+      <type>1500000</type>
+      <levelgroup>1</levelgroup>
+      <levelmin>30</levelmin>
+      <levelmax>300</levelmax>
+      <cycle>1</cycle>
+      <clearround>1</clearround>
+      <round>1</round>
+      <ring>10</ring>
+      <totaltime>10</totaltime>
+      <awardtime>10</awardtime>
+      <questrate>
+        <string>1500001@100</string>
+        <string>1500002@100</string>
+        <string>1500003@100</string>
+        <string>1500004@100</string>
+        <string>1500005@100</string>
+        <string>1500006@100</string>
+        <string>1500007@100</string>
+        <string>1500008@100</string>
+        <string>1500009@100</string>
+        <string>1500010@100</string>
+      </questrate>
+      <doublepoint>0</doublepoint>
+      <teamshare>1</teamshare>
+      <teamnum>1</teamnum>
+      <renxing>0</renxing>
+      <renxingfushi>0</renxingfushi>
+      <giveup>1</giveup>
+      <teamgiveup>1</teamgiveup>
+      <giveupreset>0</giveupreset>
+      <taskcnt>2</taskcnt>
+      <timeover>72000</timeover>
+      <isopenaward>0</isopenaward>
+      <specialtaskrate>0</specialtaskrate>
+      <gjhuanshu>0</gjhuanshu>
+      <ptitemaward>6938</ptitemaward>
+      <matchtype>2</matchtype>
+      <maxnumtips>194022</maxnumtips>
+      <dayauto>0</dayauto>
+      <activeid>107</activeid>
+      <isoutrandom>0</isoutrandom>
+    </fire.pb.circletask.CircTask>
+  </entry>
+  <entry>
+    <int>36</int>
+    <fire.pb.circletask.CircTask>
+      <id>36</id>
+      <type>1510000</type>
+      <levelgroup>1</levelgroup>
+      <levelmin>30</levelmin>
+      <levelmax>300</levelmax>
+      <cycle>1</cycle>
+      <clearround>1</clearround>
+      <round>1</round>
+      <ring>10</ring>
+      <totaltime>10</totaltime>
+      <awardtime>10</awardtime>
+      <questrate>
+        <string>1510001@100</string>
+        <string>1510002@100</string>
+        <string>1510003@100</string>
+        <string>1510004@100</string>
+        <string>1510005@100</string>
+        <string>1510006@100</string>
+        <string>1510007@100</string>
+        <string>1510008@100</string>
+        <string>1510009@100</string>
+        <string>1510010@100</string>
+      </questrate>
+      <doublepoint>1</doublepoint>
+      <teamshare>1</teamshare>
+      <teamnum>1</teamnum>
+      <renxing>0</renxing>
+      <renxingfushi>0</renxingfushi>
+      <giveup>1</giveup>
+      <teamgiveup>0</teamgiveup>
+      <giveupreset>0</giveupreset>
+      <taskcnt>2</taskcnt>
+      <timeover>72000</timeover>
+      <isopenaward>0</isopenaward>
+      <specialtaskrate>0</specialtaskrate>
+      <gjhuanshu>0</gjhuanshu>
+      <ptitemaward>6939</ptitemaward>
+      <matchtype>2</matchtype>
+      <maxnumtips>194023</maxnumtips>
+      <dayauto>0</dayauto>
+      <activeid>107</activeid>
+      <isoutrandom>0</isoutrandom>
+    </fire.pb.circletask.CircTask>
+  </entry>
+  <entry>
+    <int>37</int>
+    <fire.pb.circletask.CircTask>
+      <id>37</id>
+      <type>1520000</type>
+      <levelgroup>1</levelgroup>
+      <levelmin>30</levelmin>
+      <levelmax>300</levelmax>
+      <cycle>1</cycle>
+      <clearround>1</clearround>
+      <round>1</round>
+      <ring>10</ring>
+      <totaltime>10</totaltime>
+      <awardtime>10</awardtime>
+      <questrate>
+        <string>1520001@100</string>
+        <string>1520002@100</string>
+        <string>1520003@100</string>
+        <string>1520004@100</string>
+        <string>1520005@100</string>
+        <string>1520006@100</string>
+        <string>1520007@100</string>
+        <string>1520008@100</string>
+        <string>1520009@100</string>
+        <string>1520010@100</string>
+      </questrate>
+      <doublepoint>1</doublepoint>
+      <teamshare>1</teamshare>
+      <teamnum>1</teamnum>
+      <renxing>0</renxing>
+      <renxingfushi>0</renxingfushi>
+      <giveup>1</giveup>
+      <teamgiveup>0</teamgiveup>
+      <giveupreset>0</giveupreset>
+      <taskcnt>2</taskcnt>
+      <timeover>72000</timeover>
+      <isopenaward>0</isopenaward>
+      <specialtaskrate>0</specialtaskrate>
+      <gjhuanshu>0</gjhuanshu>
+      <ptitemaward>6940</ptitemaward>
+      <matchtype>2</matchtype>
+      <maxnumtips>194024</maxnumtips>
+      <dayauto>0</dayauto>
+      <activeid>107</activeid>
+      <isoutrandom>0</isoutrandom>
+    </fire.pb.circletask.CircTask>
+  </entry>
+  <entry>
+    <int>38</int>
+    <fire.pb.circletask.CircTask>
+      <id>38</id>
+      <type>1530000</type>
+      <levelgroup>1</levelgroup>
+      <levelmin>30</levelmin>
+      <levelmax>300</levelmax>
+      <cycle>1</cycle>
+      <clearround>1</clearround>
+      <round>1</round>
+      <ring>10</ring>
+      <totaltime>10</totaltime>
+      <awardtime>10</awardtime>
+      <questrate>
+        <string>1530001@100</string>
+        <string>1530002@100</string>
+        <string>1530003@100</string>
+        <string>1530004@100</string>
+        <string>1530005@100</string>
+        <string>1530006@100</string>
+        <string>1530007@100</string>
+        <string>1530008@100</string>
+        <string>1530009@100</string>
+        <string>1530010@100</string>
+      </questrate>
+      <doublepoint>1</doublepoint>
+      <teamshare>1</teamshare>
+      <teamnum>1</teamnum>
+      <renxing>0</renxing>
+      <renxingfushi>0</renxingfushi>
+      <giveup>1</giveup>
+      <teamgiveup>0</teamgiveup>
+      <giveupreset>0</giveupreset>
+      <taskcnt>2</taskcnt>
+      <timeover>72000</timeover>
+      <isopenaward>0</isopenaward>
+      <specialtaskrate>0</specialtaskrate>
+      <gjhuanshu>0</gjhuanshu>
+      <ptitemaward>6941</ptitemaward>
+      <matchtype>2</matchtype>
+      <maxnumtips>194025</maxnumtips>
+      <dayauto>0</dayauto>
+      <activeid>107</activeid>
+      <isoutrandom>0</isoutrandom>
+    </fire.pb.circletask.CircTask>
+  </entry>
+  <entry>
+    <int>39</int>
+    <fire.pb.circletask.CircTask>
+      <id>39</id>
+      <type>1540000</type>
+      <levelgroup>1</levelgroup>
+      <levelmin>30</levelmin>
+      <levelmax>300</levelmax>
+      <cycle>1</cycle>
+      <clearround>1</clearround>
+      <round>1</round>
+      <ring>10</ring>
+      <totaltime>10</totaltime>
+      <awardtime>10</awardtime>
+      <questrate>
+        <string>1540001@100</string>
+        <string>1540002@100</string>
+        <string>1540003@100</string>
+        <string>1540004@100</string>
+        <string>1540005@100</string>
+        <string>1540006@100</string>
+        <string>1540007@100</string>
+        <string>1540008@100</string>
+        <string>1540009@100</string>
+        <string>1540010@100</string>
+      </questrate>
+      <doublepoint>1</doublepoint>
+      <teamshare>1</teamshare>
+      <teamnum>1</teamnum>
+      <renxing>0</renxing>
+      <renxingfushi>0</renxingfushi>
+      <giveup>1</giveup>
+      <teamgiveup>1</teamgiveup>
+      <giveupreset>0</giveupreset>
+      <taskcnt>2</taskcnt>
+      <timeover>72000</timeover>
+      <isopenaward>0</isopenaward>
+      <specialtaskrate>0</specialtaskrate>
+      <gjhuanshu>0</gjhuanshu>
+      <ptitemaward>6942</ptitemaward>
+      <matchtype>2</matchtype>
+      <maxnumtips>194033</maxnumtips>
+      <dayauto>0</dayauto>
+      <activeid>107</activeid>
+      <isoutrandom>0</isoutrandom>
+    </fire.pb.circletask.CircTask>
+  </entry>
+  <entry>
+    <int>40</int>
+    <fire.pb.circletask.CircTask>
+      <id>40</id>
+      <type>1150000</type>
+      <levelgroup>1</levelgroup>
+      <levelmin>145</levelmin>
+      <levelmax>155</levelmax>
+      <cycle>1</cycle>
+      <round>1</round>
+      <ring>1</ring>
+      <totaltime>1</totaltime>
+      <awardtime>1</awardtime>
+      <questrate>
+        <string>1150001@100</string>
+        <string>1150001@100</string>
+        <string>1150001@100</string>
+      </questrate>
+      <doublepoint>1</doublepoint>
+      <teamshare>1</teamshare>
+      <teamnum>1</teamnum>
+      <renxing>0</renxing>
+      <renxingfushi>0</renxingfushi>
+      <giveup>1</giveup>
+      <teamgiveup>1</teamgiveup>
+      <giveupreset>1</giveupreset>
+      <taskcnt>2</taskcnt>
+      <timeover>0</timeover>
+      <isopenaward>0</isopenaward>
+      <specialtaskrate>0</specialtaskrate>
+      <gjhuanshu>0</gjhuanshu>
+      <ptitemaward>6943</ptitemaward>
+      <dayauto>0</dayauto>
+      <isoutrandom>0</isoutrandom>
+    </fire.pb.circletask.CircTask>
+  </entry>
+  <entry>
+    <int>41</int>
+    <fire.pb.circletask.CircTask>
+      <id>41</id>
+      <type>1160000</type>
+      <levelgroup>1</levelgroup>
+      <levelmin>145</levelmin>
+      <levelmax>155</levelmax>
+      <cycle>1</cycle>
+      <round>1</round>
+      <ring>1</ring>
+      <totaltime>1</totaltime>
+      <awardtime>1</awardtime>
+      <questrate>
+        <string>1160001@100</string>
+      </questrate>
+      <doublepoint>1</doublepoint>
+      <teamshare>1</teamshare>
+      <teamnum>1</teamnum>
+      <renxing>0</renxing>
+      <renxingfushi>0</renxingfushi>
+      <giveup>1</giveup>
+      <teamgiveup>1</teamgiveup>
+      <giveupreset>1</giveupreset>
+      <taskcnt>2</taskcnt>
+      <timeover>0</timeover>
+      <isopenaward>0</isopenaward>
+      <specialtaskrate>0</specialtaskrate>
+      <gjhuanshu>0</gjhuanshu>
+      <ptitemaward>6944</ptitemaward>
+      <dayauto>0</dayauto>
       <isoutrandom>0</isoutrandom>
     </fire.pb.circletask.CircTask>
   </entry>

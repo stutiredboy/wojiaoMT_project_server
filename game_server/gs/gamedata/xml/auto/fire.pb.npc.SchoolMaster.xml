@@ -64,4 +64,46 @@
       <masterid>13108</masterid>
     </fire.pb.npc.SchoolMaster>
   </entry>
+  <entry>
+    <int>20</int>
+    <fire.pb.npc.SchoolMaster>
+      <id>20</id>
+      <masterid>13109</masterid>
+    </fire.pb.npc.SchoolMaster>
+  </entry>
+  <entry>
+    <int>21</int>
+    <fire.pb.npc.SchoolMaster>
+      <id>21</id>
+      <masterid>13110</masterid>
+    </fire.pb.npc.SchoolMaster>
+  </entry>
+  <entry>
+    <int>22</int>
+    <fire.pb.npc.SchoolMaster>
+      <id>22</id>
+      <masterid>13111</masterid>
+    </fire.pb.npc.SchoolMaster>
+  </entry>
+  <entry>
+    <int>23</int>
+    <fire.pb.npc.SchoolMaster>
+      <id>23</id>
+      <masterid>13112</masterid>
+    </fire.pb.npc.SchoolMaster>
+  </entry>
+  <entry>
+    <int>24</int>
+    <fire.pb.npc.SchoolMaster>
+      <id>24</id>
+      <masterid>13113</masterid>
+    </fire.pb.npc.SchoolMaster>
+  </entry>
+  <entry>
+    <int>25</int>
+    <fire.pb.npc.SchoolMaster>
+      <id>25</id>
+      <masterid>13114</masterid>
+    </fire.pb.npc.SchoolMaster>
+  </entry>
 </tree-map>

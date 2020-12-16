@@ -21,7 +21,7 @@
     <int>500001</int>
     <fire.pb.mission.SQuestCanAcceptList>
       <id>500001</id>
-      <任务等级min>10</任务等级min>
+      <任务等级min>100</任务等级min>
       <任务等级max>155</任务等级max>
     </fire.pb.mission.SQuestCanAcceptList>
   </entry>
@@ -29,16 +29,40 @@
     <int>510001</int>
     <fire.pb.mission.SQuestCanAcceptList>
       <id>510001</id>
-      <任务等级min>69</任务等级min>
-      <任务等级max>69</任务等级max>
+      <任务等级min>109</任务等级min>
+      <任务等级max>109</任务等级max>
     </fire.pb.mission.SQuestCanAcceptList>
   </entry>
   <entry>
     <int>510101</int>
     <fire.pb.mission.SQuestCanAcceptList>
       <id>510101</id>
+      <任务等级min>129</任务等级min>
+      <任务等级max>129</任务等级max>
+    </fire.pb.mission.SQuestCanAcceptList>
+  </entry>
+  <entry>
+    <int>200000</int>
+    <fire.pb.mission.SQuestCanAcceptList>
+      <id>200000</id>
       <任务等级min>89</任务等级min>
-      <任务等级max>89</任务等级max>
+      <任务等级max>200</任务等级max>
+    </fire.pb.mission.SQuestCanAcceptList>
+  </entry>
+  <entry>
+    <int>200033</int>
+    <fire.pb.mission.SQuestCanAcceptList>
+      <id>200033</id>
+      <任务等级min>109</任务等级min>
+      <任务等级max>200</任务等级max>
+    </fire.pb.mission.SQuestCanAcceptList>
+  </entry>
+  <entry>
+    <int>200045</int>
+    <fire.pb.mission.SQuestCanAcceptList>
+      <id>200045</id>
+      <任务等级min>130</任务等级min>
+      <任务等级max>200</任务等级max>
     </fire.pb.mission.SQuestCanAcceptList>
   </entry>
 </tree-map>

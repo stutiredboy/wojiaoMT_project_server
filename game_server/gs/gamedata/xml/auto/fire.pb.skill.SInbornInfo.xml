@@ -5,11 +5,11 @@
     <int>1111</int>
     <fire.pb.skill.SInbornInfo>
       <id>1111</id>
-      <skillname>武器大师</skillname>
+      <skillname>为官之道</skillname>
       <school>11</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -22,11 +22,11 @@
     <int>1112</int>
     <fire.pb.skill.SInbornInfo>
       <id>1112</id>
-      <skillname>幻影冲锋</skillname>
+      <skillname>破釜沉舟</skillname>
       <school>11</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1111</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -39,11 +39,11 @@
     <int>1113</int>
     <fire.pb.skill.SInbornInfo>
       <id>1113</id>
-      <skillname>嘲讽</skillname>
+      <skillname>翩鸿一击</skillname>
       <school>11</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1111</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -56,11 +56,11 @@
     <int>1114</int>
     <fire.pb.skill.SInbornInfo>
       <id>1114</id>
-      <skillname>毁灭打击</skillname>
+      <skillname>横扫千军</skillname>
       <school>11</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1111</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -74,11 +74,11 @@
     <int>1115</int>
     <fire.pb.skill.SInbornInfo>
       <id>1115</id>
-      <skillname>蓄力猛击</skillname>
+      <skillname>后发制人</skillname>
       <school>11</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1111</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -93,11 +93,11 @@
     <int>1116</int>
     <fire.pb.skill.SInbornInfo>
       <id>1116</id>
-      <skillname>破甲</skillname>
+      <skillname>杀气诀</skillname>
       <school>11</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1111</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -111,14 +111,14 @@
     <int>1117</int>
     <fire.pb.skill.SInbornInfo>
       <id>1117</id>
-      <skillname>钢铁之躯</skillname>
+      <skillname>嗜血</skillname>
       <school>11</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1111</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>110006</int>
         <int>300401</int>
@@ -129,7 +129,7 @@
     <int>1118</int>
     <fire.pb.skill.SInbornInfo>
       <id>1118</id>
-      <skillname>无敌斩</skillname>
+      <skillname>绝技万剑归一</skillname>
       <school>11</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -145,11 +145,11 @@
     <int>1211</int>
     <fire.pb.skill.SInbornInfo>
       <id>1211</id>
-      <skillname>王者祝福</skillname>
+      <skillname>虚幻咒</skillname>
       <school>12</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -162,11 +162,11 @@
     <int>1212</int>
     <fire.pb.skill.SInbornInfo>
       <id>1212</id>
-      <skillname>审判之锤</skillname>
+      <skillname>五雷咒</skillname>
       <school>12</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1211</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -179,11 +179,11 @@
     <int>1213</int>
     <fire.pb.skill.SInbornInfo>
       <id>1213</id>
-      <skillname>无边定罪</skillname>
+      <skillname>定身符</skillname>
       <school>12</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1211</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -196,11 +196,11 @@
     <int>1214</int>
     <fire.pb.skill.SInbornInfo>
       <id>1214</id>
-      <skillname>复仇之盾</skillname>
+      <skillname>失忆符</skillname>
       <school>12</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1211</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -214,11 +214,11 @@
     <int>1215</int>
     <fire.pb.skill.SInbornInfo>
       <id>1215</id>
-      <skillname>圣光洗礼</skillname>
+      <skillname>离魂符</skillname>
       <school>12</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1211</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -232,11 +232,11 @@
     <int>1216</int>
     <fire.pb.skill.SInbornInfo>
       <id>1216</id>
-      <skillname>神谕责难</skillname>
+      <skillname>失心符</skillname>
       <school>12</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1211</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -250,14 +250,14 @@
     <int>1217</int>
     <fire.pb.skill.SInbornInfo>
       <id>1217</id>
-      <skillname>神圣庇护</skillname>
+      <skillname>神兵护法</skillname>
       <school>12</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1211</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>120006</int>
         <int>300409</int>
@@ -268,7 +268,7 @@
     <int>1218</int>
     <fire.pb.skill.SInbornInfo>
       <id>1218</id>
-      <skillname>守护圣盾</skillname>
+      <skillname>绝技幻音古钟</skillname>
       <school>12</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -284,11 +284,11 @@
     <int>1311</int>
     <fire.pb.skill.SInbornInfo>
       <id>1311</id>
-      <skillname>狩猎姿态</skillname>
+      <skillname>变身</skillname>
       <school>13</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -302,11 +302,11 @@
     <int>1312</int>
     <fire.pb.skill.SInbornInfo>
       <id>1312</id>
-      <skillname>多重打击</skillname>
+      <skillname>鹰击</skillname>
       <school>13</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1311</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -319,11 +319,11 @@
     <int>1313</int>
     <fire.pb.skill.SInbornInfo>
       <id>1313</id>
-      <skillname>穿刺打击</skillname>
+      <skillname>狮搏</skillname>
       <school>13</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1311</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -336,11 +336,11 @@
     <int>1314</int>
     <fire.pb.skill.SInbornInfo>
       <id>1314</id>
-      <skillname>野性召唤</skillname>
+      <skillname>魔息术</skillname>
       <school>13</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1311</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -354,11 +354,11 @@
     <int>1315</int>
     <fire.pb.skill.SInbornInfo>
       <id>1315</id>
-      <skillname>生命献祭</skillname>
+      <skillname>象形</skillname>
       <school>13</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1311</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -372,11 +372,11 @@
     <int>1316</int>
     <fire.pb.skill.SInbornInfo>
       <id>1316</id>
-      <skillname>精准打击</skillname>
+      <skillname>连环击</skillname>
       <school>13</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1311</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -390,14 +390,14 @@
     <int>1317</int>
     <fire.pb.skill.SInbornInfo>
       <id>1317</id>
-      <skillname>杀戮命令</skillname>
+      <skillname>神力无穷</skillname>
       <school>13</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1311</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>130006</int>
         <int>300406</int>
@@ -408,7 +408,7 @@
     <int>1318</int>
     <fire.pb.skill.SInbornInfo>
       <id>1318</id>
-      <skillname>美拉冲击</skillname>
+      <skillname>绝技鹰击长空</skillname>
       <school>13</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -428,7 +428,7 @@
       <school>14</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -445,7 +445,7 @@
       <school>14</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1411</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -462,7 +462,7 @@
       <school>14</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1411</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -479,7 +479,7 @@
       <school>14</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1411</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -497,7 +497,7 @@
       <school>14</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1411</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -515,7 +515,7 @@
       <school>14</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1411</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -533,10 +533,10 @@
       <school>14</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1411</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>140006</int>
         <int>300405</int>
@@ -563,11 +563,11 @@
     <int>1511</int>
     <fire.pb.skill.SInbornInfo>
       <id>1511</id>
-      <skillname>奥术智慧</skillname>
+      <skillname>九龙诀</skillname>
       <school>15</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -580,11 +580,11 @@
     <int>1512</int>
     <fire.pb.skill.SInbornInfo>
       <id>1512</id>
-      <skillname>暴风雪</skillname>
+      <skillname>龙卷雨击</skillname>
       <school>15</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1511</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -597,11 +597,11 @@
     <int>1513</int>
     <fire.pb.skill.SInbornInfo>
       <id>1513</id>
-      <skillname>奥术冲击</skillname>
+      <skillname>龙腾</skillname>
       <school>15</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1511</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -614,11 +614,11 @@
     <int>1514</int>
     <fire.pb.skill.SInbornInfo>
       <id>1514</id>
-      <skillname>变形术</skillname>
+      <skillname>逆鳞</skillname>
       <school>15</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1511</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -632,11 +632,11 @@
     <int>1515</int>
     <fire.pb.skill.SInbornInfo>
       <id>1515</id>
-      <skillname>魔爆术</skillname>
+      <skillname>龙吟</skillname>
       <school>15</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1511</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -650,11 +650,11 @@
     <int>1516</int>
     <fire.pb.skill.SInbornInfo>
       <id>1516</id>
-      <skillname>冰霜血脉</skillname>
+      <skillname>清心</skillname>
       <school>15</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1511</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -668,14 +668,14 @@
     <int>1517</int>
     <fire.pb.skill.SInbornInfo>
       <id>1517</id>
-      <skillname>魔能武器</skillname>
+      <skillname>龙附</skillname>
       <school>15</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1511</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>150006</int>
         <int>300402</int>
@@ -686,7 +686,7 @@
     <int>1518</int>
     <fire.pb.skill.SInbornInfo>
       <id>1518</id>
-      <skillname>烈焰风暴</skillname>
+      <skillname>绝技魔浪滔天</skillname>
       <school>15</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -702,11 +702,11 @@
     <int>1611</int>
     <fire.pb.skill.SInbornInfo>
       <id>1611</id>
-      <skillname>虔诚信仰</skillname>
+      <skillname>金刚经</skillname>
       <school>16</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -719,11 +719,11 @@
     <int>1612</int>
     <fire.pb.skill.SInbornInfo>
       <id>1612</id>
-      <skillname>神圣新星</skillname>
+      <skillname>五行咒</skillname>
       <school>16</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1611</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -736,11 +736,11 @@
     <int>1613</int>
     <fire.pb.skill.SInbornInfo>
       <id>1613</id>
-      <skillname>治疗祷言</skillname>
+      <skillname>普渡众生</skillname>
       <school>16</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1611</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -753,11 +753,11 @@
     <int>1614</int>
     <fire.pb.skill.SInbornInfo>
       <id>1614</id>
-      <skillname>复生</skillname>
+      <skillname>杨柳甘露</skillname>
       <school>16</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1611</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -771,11 +771,11 @@
     <int>1615</int>
     <fire.pb.skill.SInbornInfo>
       <id>1615</id>
-      <skillname>心灵之火</skillname>
+      <skillname>灵动九天</skillname>
       <school>16</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1611</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -789,11 +789,11 @@
     <int>1616</int>
     <fire.pb.skill.SInbornInfo>
       <id>1616</id>
-      <skillname>神圣救赎</skillname>
+      <skillname>微风拂柳</skillname>
       <school>16</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1611</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -807,14 +807,14 @@
     <int>1617</int>
     <fire.pb.skill.SInbornInfo>
       <id>1617</id>
-      <skillname>纳鲁恩赐</skillname>
+      <skillname>莲花妙法</skillname>
       <school>16</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1611</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>160006</int>
         <int>300403</int>
@@ -825,7 +825,7 @@
     <int>1618</int>
     <fire.pb.skill.SInbornInfo>
       <id>1618</id>
-      <skillname>天定之国</skillname>
+      <skillname>绝技沐日慈悲</skillname>
       <school>16</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -841,11 +841,11 @@
     <int>1711</int>
     <fire.pb.skill.SInbornInfo>
       <id>1711</id>
-      <skillname>先祖智慧</skillname>
+      <skillname>氏族之力</skillname>
       <school>17</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -858,11 +858,11 @@
     <int>1712</int>
     <fire.pb.skill.SInbornInfo>
       <id>1712</id>
-      <skillname>闪电链</skillname>
+      <skillname>闪电风暴</skillname>
       <school>17</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1711</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -875,11 +875,11 @@
     <int>1713</int>
     <fire.pb.skill.SInbornInfo>
       <id>1713</id>
-      <skillname>治疗图腾</skillname>
+      <skillname>守护印记</skillname>
       <school>17</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1711</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -892,11 +892,11 @@
     <int>1714</int>
     <fire.pb.skill.SInbornInfo>
       <id>1714</id>
-      <skillname>闪电箭</skillname>
+      <skillname>五雷轰顶</skillname>
       <school>17</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1711</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -910,11 +910,11 @@
     <int>1715</int>
     <fire.pb.skill.SInbornInfo>
       <id>1715</id>
-      <skillname>先祖之魂</skillname>
+      <skillname>先祖印记</skillname>
       <school>17</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1711</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -928,11 +928,11 @@
     <int>1716</int>
     <fire.pb.skill.SInbornInfo>
       <id>1716</id>
-      <skillname>狂热图腾</skillname>
+      <skillname>魔王降临</skillname>
       <school>17</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1711</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -946,14 +946,14 @@
     <int>1717</int>
     <fire.pb.skill.SInbornInfo>
       <id>1717</id>
-      <skillname>元素之怒</skillname>
+      <skillname>引火乘风</skillname>
       <school>17</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1711</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>161006</int>
         <int>300408</int>
@@ -964,7 +964,7 @@
     <int>1718</int>
     <fire.pb.skill.SInbornInfo>
       <id>1718</id>
-      <skillname>风暴轰击</skillname>
+      <skillname>绝技飞星流火</skillname>
       <school>17</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -980,11 +980,11 @@
     <int>1811</int>
     <fire.pb.skill.SInbornInfo>
       <id>1811</id>
-      <skillname>盗贼尊严</skillname>
+      <skillname>时之月</skillname>
       <school>18</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -997,11 +997,11 @@
     <int>1812</int>
     <fire.pb.skill.SInbornInfo>
       <id>1812</id>
-      <skillname>淬毒刀扇</skillname>
+      <skillname>月影摇光</skillname>
       <school>18</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1811</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -1014,11 +1014,11 @@
     <int>1813</int>
     <fire.pb.skill.SInbornInfo>
       <id>1813</id>
-      <skillname>穿刺影袭</skillname>
+      <skillname>碎玉击</skillname>
       <school>18</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1811</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -1031,11 +1031,11 @@
     <int>1814</int>
     <fire.pb.skill.SInbornInfo>
       <id>1814</id>
-      <skillname>剔骨</skillname>
+      <skillname>月刃</skillname>
       <school>18</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1811</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -1049,11 +1049,11 @@
     <int>1815</int>
     <fire.pb.skill.SInbornInfo>
       <id>1815</id>
-      <skillname>潜行</skillname>
+      <skillname>桂花醉</skillname>
       <school>18</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1811</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -1067,11 +1067,11 @@
     <int>1816</int>
     <fire.pb.skill.SInbornInfo>
       <id>1816</id>
-      <skillname>闷棍</skillname>
+      <skillname>月凝</skillname>
       <school>18</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1811</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -1085,14 +1085,14 @@
     <int>1817</int>
     <fire.pb.skill.SInbornInfo>
       <id>1817</id>
-      <skillname>鲜血饥渴</skillname>
+      <skillname>羽衣曲</skillname>
       <school>18</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1811</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>162006</int>
         <int>300407</int>
@@ -1103,7 +1103,7 @@
     <int>1818</int>
     <fire.pb.skill.SInbornInfo>
       <id>1818</id>
-      <skillname>杀戮盛筵</skillname>
+      <skillname>绝技广寒清辉</skillname>
       <school>18</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -1119,11 +1119,11 @@
     <int>1911</int>
     <fire.pb.skill.SInbornInfo>
       <id>1911</id>
-      <skillname>恶魔学识</skillname>
+      <skillname>法华经</skillname>
       <school>19</school>
       <isMain>true</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>0</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -1136,11 +1136,11 @@
     <int>1912</int>
     <fire.pb.skill.SInbornInfo>
       <id>1912</id>
-      <skillname>火焰之雨</skillname>
+      <skillname>唧唧歪歪</skillname>
       <school>19</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1911</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -1153,11 +1153,11 @@
     <int>1913</int>
     <fire.pb.skill.SInbornInfo>
       <id>1913</id>
-      <skillname>沉默诅咒</skillname>
+      <skillname>一苇渡江</skillname>
       <school>19</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1911</dependInborn>
       <dependLevel>0</dependLevel>
       <consumerule>1</consumerule>
@@ -1170,11 +1170,11 @@
     <int>1914</int>
     <fire.pb.skill.SInbornInfo>
       <id>1914</id>
-      <skillname>生命虹吸</skillname>
+      <skillname>推气过宫</skillname>
       <school>19</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1911</dependInborn>
       <dependLevel>10</dependLevel>
       <consumerule>1</consumerule>
@@ -1188,11 +1188,11 @@
     <int>1915</int>
     <fire.pb.skill.SInbornInfo>
       <id>1915</id>
-      <skillname>恶魔降临</skillname>
+      <skillname>金刚护法</skillname>
       <school>19</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1911</dependInborn>
       <dependLevel>20</dependLevel>
       <consumerule>1</consumerule>
@@ -1206,11 +1206,11 @@
     <int>1916</int>
     <fire.pb.skill.SInbornInfo>
       <id>1916</id>
-      <skillname>失忆诅咒</skillname>
+      <skillname>当头棒喝</skillname>
       <school>19</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1911</dependInborn>
       <dependLevel>30</dependLevel>
       <consumerule>1</consumerule>
@@ -1224,14 +1224,14 @@
     <int>1917</int>
     <fire.pb.skill.SInbornInfo>
       <id>1917</id>
-      <skillname>暗影之力</skillname>
+      <skillname>佛光普照</skillname>
       <school>19</school>
       <isMain>false</isMain>
       <isnbskill>false</isnbskill>
-      <maxLevel>150</maxLevel>
+      <maxLevel>200</maxLevel>
       <dependInborn>1911</dependInborn>
       <dependLevel>40</dependLevel>
-      <consumerule>1</consumerule>
+      <consumerule>2</consumerule>
       <pointToSkillList>
         <int>163006</int>
         <int>300404</int>
@@ -1242,7 +1242,7 @@
     <int>1918</int>
     <fire.pb.skill.SInbornInfo>
       <id>1918</id>
-      <skillname>群魔乱舞</skillname>
+      <skillname>绝技一元复始</skillname>
       <school>19</school>
       <isMain>false</isMain>
       <isnbskill>true</isnbskill>
@@ -1251,6 +1251,1089 @@
       <nbskilldependLevel>50,70,90</nbskilldependLevel>
       <pointToSkillList>
         <int>163007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2011</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2011</id>
+      <skillname>气吞山河</skillname>
+      <school>20</school>
+      <isMain>true</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>0</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>164000</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2012</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2012</id>
+      <skillname>裂石</skillname>
+      <school>20</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2011</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>164001</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2013</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2013</id>
+      <skillname>断岳势</skillname>
+      <school>20</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2011</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>164002</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2014</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2014</id>
+      <skillname>天崩地裂</skillname>
+      <school>20</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2011</dependInborn>
+      <dependLevel>10</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>164003</int>
+        <int>164008</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2015</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2015</id>
+      <skillname>浪涌</skillname>
+      <school>20</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2011</dependInborn>
+      <dependLevel>20</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>164004</int>
+        <int>164009</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2016</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2016</id>
+      <skillname>惊涛怒</skillname>
+      <school>20</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2011</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>164005</int>
+        <int>164010</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2017</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2017</id>
+      <skillname>翻江搅海</skillname>
+      <school>20</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2011</dependInborn>
+      <dependLevel>40</dependLevel>
+      <consumerule>2</consumerule>
+      <pointToSkillList>
+        <int>164006</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2018</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2018</id>
+      <skillname>无穷妙道</skillname>
+      <school>20</school>
+      <isMain>false</isMain>
+      <isnbskill>true</isnbskill>
+      <maxLevel>3</maxLevel>
+      <dependInborn>2011,2012,2013,2014,2015,2016,2017</dependInborn>
+      <nbskilldependLevel>50,70,90</nbskilldependLevel>
+      <pointToSkillList>
+        <int>164007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2111</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2111</id>
+      <skillname>周易学</skillname>
+      <school>21</school>
+      <isMain>true</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>0</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>165000</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2112</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2112</id>
+      <skillname>日月乾坤</skillname>
+      <school>21</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2111</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>165001</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2113</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2113</id>
+      <skillname>炼气化神</skillname>
+      <school>21</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2111</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>165002</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2114</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2114</id>
+      <skillname>生命之泉</skillname>
+      <school>21</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2111</dependInborn>
+      <dependLevel>10</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>165003</int>
+        <int>165008</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2115</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2115</id>
+      <skillname>烟雨剑法</skillname>
+      <school>21</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2111</dependInborn>
+      <dependLevel>20</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>165004</int>
+        <int>165009</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2116</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2116</id>
+      <skillname>飘渺式</skillname>
+      <school>21</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2111</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>165005</int>
+        <int>165010</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2117</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2117</id>
+      <skillname>乾坤妙法</skillname>
+      <school>21</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2111</dependInborn>
+      <dependLevel>40</dependLevel>
+      <consumerule>2</consumerule>
+      <pointToSkillList>
+        <int>165006</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2118</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2118</id>
+      <skillname>一气化三清</skillname>
+      <school>21</school>
+      <isMain>false</isMain>
+      <isnbskill>true</isnbskill>
+      <maxLevel>3</maxLevel>
+      <dependInborn>2111,2112,2113,2113,2115,2116,2117</dependInborn>
+      <nbskilldependLevel>50,70,90</nbskilldependLevel>
+      <pointToSkillList>
+        <int>165007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2211</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2211</id>
+      <skillname>蛛丝阵法</skillname>
+      <school>22</school>
+      <isMain>true</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>0</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>166000</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2212</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2212</id>
+      <skillname>勾魂</skillname>
+      <school>22</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2211</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>166001</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2213</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2213</id>
+      <skillname>摄魄</skillname>
+      <school>22</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2211</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>166002</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2214</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2214</id>
+      <skillname>魔音摄魂</skillname>
+      <school>22</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2211</dependInborn>
+      <dependLevel>10</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>166003</int>
+        <int>166008</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2215</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2215</id>
+      <skillname>含情脉脉</skillname>
+      <school>22</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2211</dependInborn>
+      <dependLevel>20</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>166004</int>
+        <int>166009</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2216</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2216</id>
+      <skillname>天罗地网</skillname>
+      <school>22</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2211</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>166005</int>
+        <int>166010</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2217</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2217</id>
+      <skillname>姐妹同心</skillname>
+      <school>22</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2211</dependInborn>
+      <dependLevel>40</dependLevel>
+      <consumerule>2</consumerule>
+      <pointToSkillList>
+        <int>166006</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2218</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2218</id>
+      <skillname>幻镜术</skillname>
+      <school>22</school>
+      <isMain>false</isMain>
+      <isnbskill>true</isnbskill>
+      <maxLevel>3</maxLevel>
+      <dependInborn>2211,2212,2213,2214,2215,2216,2217</dependInborn>
+      <nbskilldependLevel>50,70,90</nbskilldependLevel>
+      <pointToSkillList>
+        <int>166007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2311</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2311</id>
+      <skillname>枯骨心法</skillname>
+      <school>23</school>
+      <isMain>true</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>0</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>167000</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2312</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2312</id>
+      <skillname>移魂化骨</skillname>
+      <school>23</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2311</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>167001</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2313</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2313</id>
+      <skillname>夺魄令</skillname>
+      <school>23</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2311</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>167002</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2314</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2314</id>
+      <skillname>煞气诀</skillname>
+      <school>23</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2311</dependInborn>
+      <dependLevel>10</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>167003</int>
+        <int>167008</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2315</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2315</id>
+      <skillname>惊魂掌</skillname>
+      <school>23</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2311</dependInborn>
+      <dependLevel>20</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>167004</int>
+        <int>167009</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2316</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2316</id>
+      <skillname>夺命咒</skillname>
+      <school>23</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2311</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>167005</int>
+        <int>167010</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2317</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2317</id>
+      <skillname>地涌金莲</skillname>
+      <school>23</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2311</dependInborn>
+      <dependLevel>40</dependLevel>
+      <consumerule>2</consumerule>
+      <pointToSkillList>
+        <int>167006</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2318</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2318</id>
+      <skillname>万木凋枯</skillname>
+      <school>23</school>
+      <isMain>false</isMain>
+      <isnbskill>true</isnbskill>
+      <maxLevel>3</maxLevel>
+      <dependInborn>2311,2312,2313,2314,2315,2316,2317</dependInborn>
+      <nbskilldependLevel>50,70,90</nbskilldependLevel>
+      <pointToSkillList>
+        <int>167007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2411</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2411</id>
+      <skillname>瞬息万变</skillname>
+      <school>24</school>
+      <isMain>true</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>0</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>168000</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2412</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2412</id>
+      <skillname>落叶萧萧</skillname>
+      <school>24</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2411</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>168001</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2413</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2413</id>
+      <skillname>荆棘舞</skillname>
+      <school>24</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2411</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>168002</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2414</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2414</id>
+      <skillname>尘土刃</skillname>
+      <school>24</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2411</dependInborn>
+      <dependLevel>10</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>168003</int>
+        <int>168008</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2415</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2415</id>
+      <skillname>冰川怒</skillname>
+      <school>24</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2411</dependInborn>
+      <dependLevel>20</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>168004</int>
+        <int>168009</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2416</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2416</id>
+      <skillname>雾杀</skillname>
+      <school>24</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2411</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>168005</int>
+        <int>168010</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2417</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2417</id>
+      <skillname>星月之惠</skillname>
+      <school>24</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2411</dependInborn>
+      <dependLevel>40</dependLevel>
+      <consumerule>2</consumerule>
+      <pointToSkillList>
+        <int>168006</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2418</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2418</id>
+      <skillname>蝼蚁蚀天</skillname>
+      <school>24</school>
+      <isMain>false</isMain>
+      <isnbskill>true</isnbskill>
+      <maxLevel>3</maxLevel>
+      <dependInborn>2411,2412,2413,2414,2415,2416,2417</dependInborn>
+      <nbskilldependLevel>50,70,90</nbskilldependLevel>
+      <pointToSkillList>
+        <int>168007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2511</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2511</id>
+      <skillname>毒经</skillname>
+      <school>25</school>
+      <isMain>true</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>0</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>169000</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2512</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2512</id>
+      <skillname>楚楚可怜</skillname>
+      <school>25</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>169001</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2513</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2513</id>
+      <skillname>满天花雨</skillname>
+      <school>25</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>0</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>169002</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2514</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2514</id>
+      <skillname>莲步轻舞</skillname>
+      <school>25</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>10</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>169003</int>
+        <int>169008</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2515</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2515</id>
+      <skillname>如花解语</skillname>
+      <school>25</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>20</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>169004</int>
+        <int>169009</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2516</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2516</id>
+      <skillname>似玉生香</skillname>
+      <school>25</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>169005</int>
+        <int>169010</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2517</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2517</id>
+      <skillname>飞花摘叶</skillname>
+      <school>25</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>40</dependLevel>
+      <consumerule>2</consumerule>
+      <pointToSkillList>
+        <int>169006</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2518</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2518</id>
+      <skillname>情天恨海</skillname>
+      <school>25</school>
+      <isMain>false</isMain>
+      <isnbskill>true</isnbskill>
+      <maxLevel>3</maxLevel>
+      <dependInborn>2511,2512,2513,2514,2515,2516,2517</dependInborn>
+      <nbskilldependLevel>50,70,90</nbskilldependLevel>
+      <pointToSkillList>
+        <int>169007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2519</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2519</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170000</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2520</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2520</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170001</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2521</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2521</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170002</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2522</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2522</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170003</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2523</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2523</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170004</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2524</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2524</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170005</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2525</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2525</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170006</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2526</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2526</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170007</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2527</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2527</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170008</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2528</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2528</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170009</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2529</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2529</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170010</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2530</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2530</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170011</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2531</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2531</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170012</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2532</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2532</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170013</int>
+      </pointToSkillList>
+    </fire.pb.skill.SInbornInfo>
+  </entry>
+  <entry>
+    <int>2533</int>
+    <fire.pb.skill.SInbornInfo>
+      <id>2533</id>
+      <skillname>魔王降临</skillname>
+      <school>17</school>
+      <isMain>false</isMain>
+      <isnbskill>false</isnbskill>
+      <maxLevel>200</maxLevel>
+      <dependInborn>2511</dependInborn>
+      <dependLevel>30</dependLevel>
+      <consumerule>1</consumerule>
+      <pointToSkillList>
+        <int>170014</int>
       </pointToSkillList>
     </fire.pb.skill.SInbornInfo>
   </entry>

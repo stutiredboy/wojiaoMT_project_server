@@ -6,7 +6,7 @@
     <fire.pb.mission.SActiveChestConfig>
       <id>1</id>
       <activeness>20</activeness>
-      <itemid>334100</itemid>
+      <itemid>339102</itemid>
     </fire.pb.mission.SActiveChestConfig>
   </entry>
   <entry>
@@ -14,7 +14,7 @@
     <fire.pb.mission.SActiveChestConfig>
       <id>2</id>
       <activeness>40</activeness>
-      <itemid>337008</itemid>
+      <itemid>339102</itemid>
     </fire.pb.mission.SActiveChestConfig>
   </entry>
   <entry>
@@ -22,7 +22,7 @@
     <fire.pb.mission.SActiveChestConfig>
       <id>3</id>
       <activeness>60</activeness>
-      <itemid>310102</itemid>
+      <itemid>339102</itemid>
     </fire.pb.mission.SActiveChestConfig>
   </entry>
   <entry>
@@ -30,7 +30,7 @@
     <fire.pb.mission.SActiveChestConfig>
       <id>4</id>
       <activeness>80</activeness>
-      <itemid>331300</itemid>
+      <itemid>340141</itemid>
     </fire.pb.mission.SActiveChestConfig>
   </entry>
   <entry>
@@ -38,7 +38,7 @@
     <fire.pb.mission.SActiveChestConfig>
       <id>5</id>
       <activeness>100</activeness>
-      <itemid>335012</itemid>
+      <itemid>340438</itemid>
     </fire.pb.mission.SActiveChestConfig>
   </entry>
 </tree-map>
