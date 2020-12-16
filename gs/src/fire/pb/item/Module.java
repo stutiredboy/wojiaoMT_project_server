@@ -296,6 +296,8 @@ public class Module implements ModuleInterface {
 			return new Market(roleId, readonly);
 		case BagTypes.BLACKMARKET:
 			return new BlackMarket(roleId, readonly);
+		case BagTypes.PETEQUIP:
+			return new PetEquip(roleId, readonly);
 		}
 		return null;
 	}

@@ -1,5 +1,6 @@
 
 package fire.pb.pet;
+import org.apache.log4j.Logger;
 
 // {{{ RPCGEN_IMPORT_BEGIN
 // {{{ DO NOT EDIT THIS
@@ -12,8 +13,53 @@ abstract class __CPetTakeOffEquip__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
+	public static final Logger logger = Logger.getLogger("SYSTEM");
 	@Override
 	protected void process() {
+		logger.info("RECV CPetTakeOffEquip\t" + pet_equipkey +" --" + pet_posinpack +"--"+ petkey);
+		return;
+		final long roleId = gnet.link.Onlines.getInstance().findRoleid( this );
+		if (roleId < 0)
+			return;
+		
+		if (fire.pb.buff.Module.existState(roleId, fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER)) {
+			fire.pb.talk.MessageMgr.sendMsgNotify(roleId, 131451, null);
+			return;
+		}
+		// protocol handle
+		new mkdb.Procedure(){
+
+			@Override
+			protected boolean process() throws Exception {
+				final PetEquip srcbag = new PetEquip(roleId, false);
+				final ItemMaps dstbag = new Pack(roleId, false);
+				
+				ItemBase bi = srcbag.TransOut(equipkey, -1, "卸下装备");
+				if (bi == null)
+					return false;
+				ItemBase dstitem;
+				java.util.List<Integer> freepos = dstbag.getFreepos();
+				if (freepos.size() > 0) {
+					posinpack = freepos.get(0);
+				} else {
+					return false;
+				}
+				if (posinpack != -1)
+					dstitem = dstbag.getItemByPos(posinpack);
+				else
+					dstitem = null;
+				if (dstitem != null) {
+					return false;
+				}
+				if (!dstbag.TransIn(bi, posinpack))
+					return false;
+				if (bi instanceof EquipItem)
+					srcbag.onUnequip((EquipItem) bi);
+				
+				return true;
+			}
+			
+		}.submit();
 		// protocol handle
 	}
 
