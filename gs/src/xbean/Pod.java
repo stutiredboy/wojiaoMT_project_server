@@ -2397,6 +2397,33 @@ public final class Pod {
 		return new xbean.__.Equip.Data();
 	}
 
+	public static mkdb.util.BeanPool<PetEquip> poolPetEquip = new mkdb.util.BeanPool<PetEquip>() {
+		@Override
+		protected PetEquip newBean() {
+			return new xbean.__.PetEquip();
+		}
+	};
+
+	public static PetEquip newPetEquip() {
+		return poolPetEquip.get();
+	}
+
+	public static PetEquip newPetEquip() {
+		return poolPetEquip.get();
+	}
+
+	public static void _reset_unsafe_add_(PetEquip bean) {
+		poolEquip._reset_unsafe_add_(bean);
+	}
+
+	public static void padd(PetEquip bean) {
+		mkdb.Procedure.padd(bean, poolPetEquip);
+	}
+
+	public static PetEquip newPetEquipData() {
+		return new xbean.__.PetEquip.Data();
+	}	
+
 	public static mkdb.util.BeanPool<FriendBean> poolFriendBean = new mkdb.util.BeanPool<FriendBean>() {
 		@Override
 		protected FriendBean newBean() {

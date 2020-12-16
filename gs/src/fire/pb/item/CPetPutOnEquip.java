@@ -30,7 +30,7 @@ public class CPetPutOnEquip extends __CPetPutOnEquip__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleId, 131451, null);
 			return;
 		}
-		new PPutOnPetEquip(roleId, packkey, dstpos).submit();
+		new PPutOnPetEquip(roleId, pet_packkey, pet_dstpos).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

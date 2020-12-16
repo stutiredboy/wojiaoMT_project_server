@@ -3287,6 +3287,53 @@ public class _Tables_ extends mkdb.Tables {
 		}
 
 	};
+	
+	mkdb.TTable<Long, xbean.PetEquip> petequips = new mkdb.TTable<Long, xbean.PetEquip>() {
+		@Override
+		public String getName() {
+			return "petequips";
+		}
+
+		@Override
+		protected mkdb.util.AutoKey<Long> bindAutoKey() {
+			return getInstance().getTableSys().getAutoKeys().getAutoKeyLong(getName());
+		}
+
+		@Override
+		public OctetsStream marshalKey(Long key) {
+			OctetsStream _os_ = new OctetsStream();
+			_os_.marshal(key);
+			return _os_;
+		}
+
+		@Override
+		public OctetsStream marshalValue(xbean.PetEquip value) {
+			OctetsStream _os_ = new OctetsStream();
+			value.marshal(_os_);
+			return _os_;
+		}
+
+		@Override
+		public Long unmarshalKey(OctetsStream _os_) throws MarshalException {
+			long key = 0;
+			key = _os_.unmarshal_long();
+			return key;
+		}
+
+		@Override
+		public xbean.PetEquip unmarshalValue(OctetsStream _os_) throws MarshalException {
+			xbean.PetEquip value = xbean.Pod.newPetEquip();
+			value.unmarshal(_os_);
+			return value;
+		}
+
+		@Override
+		public xbean.PetEquip newValue() {
+			xbean.PetEquip value = xbean.Pod.newPetEquip();
+			return value;
+		}
+
+	};
 
 	mkdb.TTable<Long, xbean.SingleCompensation> singlecompensations = new mkdb.TTable<Long, xbean.SingleCompensation>() {
 		@Override
