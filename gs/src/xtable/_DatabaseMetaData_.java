@@ -4728,6 +4728,90 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 			super.addBean(bean);
 		}
 		{
+			Bean bean = new Bean("PetEquip", false, false);
+			super.addVariableFor(bean
+				, "equiplevel"
+				, "int", "", "", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "repairtimes"
+				, "int", "", "", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "endure"
+				, "int", "", "", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "curmaxendure"
+				, "int", "", "", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "producer"
+				, "string", "", "", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "extendure"
+				, "int", "", "", ""
+				, "0", "", ""
+				);
+			super.addVariableFor(bean
+				, "maxendure"
+				, "int", "", "", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "skill"
+				, "int", "", "", ""
+				, "0", "", ""
+				);
+			super.addVariableFor(bean
+				, "effect"
+				, "int", "", "", ""
+				, "0", "", ""
+				);
+			super.addVariableFor(bean
+				, "treasure"
+				, "int", "", "", ""
+				, "0", "", ""
+				);
+			super.addVariableFor(bean
+				, "attr"
+				, "map", "int", "int", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "addattr"
+				, "map", "int", "int", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "enhancement"
+				, "map", "int", "EnhancementData", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "equipscore"
+				, "int", "", "", ""
+				, "", "", ""
+				);
+			super.addVariableFor(bean
+				, "diamonds"
+				, "list", "", "int", ""
+				, "", "", "32"
+				);
+			super.addVariableFor(bean
+				, "suitid"
+				, "int", "", "", ""
+				, "", "", ""
+				);
+			super.addBean(bean);
+		}
+		{
 			Bean bean = new Bean("RoleApplyClan", false, false);
 			super.addVariableFor(bean
 				, "clankey"
@@ -11264,6 +11348,7 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 		super.addTable("roleonoffstate", "MEMORY", "long", false, "int", "", "");
 		super.addTable("courses", "DB", "long", false, "lichengxinxi", "key:properties", "");
 		super.addTable("requestruneinfotab", "DB", "long", false, "RequestRuneInfoList", "", "");
+		super.addTable("petequips", "DB", "long", true, "PetEquip", "", "");
 	}
 	public void DatabaseMetaData6(){
 		super.addTable("pvp3historyscorelist", "DB", "int", false, "PvP3ScoreRankList", "", "");

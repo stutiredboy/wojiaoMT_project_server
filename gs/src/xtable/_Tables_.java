@@ -299,6 +299,7 @@ public class _Tables_ extends mkdb.Tables {
 		add(properties);
 		add(roletasks);
 		add(appstoretidstatus);
+		add(petequip);
 	}
 
 	// visible in package
@@ -12045,7 +12046,47 @@ public class _Tables_ extends mkdb.Tables {
 		}
 
 	};
+	mkdb.TTable<Long, xbean.Bag> petequip = new mkdb.TTable<Long, xbean.Bag>() {
+		@Override
+		public String getName() {
+			return "petequip";
+		}
 
+		@Override
+		public OctetsStream marshalKey(Long key) {
+			OctetsStream _os_ = new OctetsStream();
+			_os_.marshal(key);
+			return _os_;
+		}
+
+		@Override
+		public OctetsStream marshalValue(xbean.Bag value) {
+			OctetsStream _os_ = new OctetsStream();
+			value.marshal(_os_);
+			return _os_;
+		}
+
+		@Override
+		public Long unmarshalKey(OctetsStream _os_) throws MarshalException {
+			long key = 0;
+			key = _os_.unmarshal_long();
+			return key;
+		}
+
+		@Override
+		public xbean.Bag unmarshalValue(OctetsStream _os_) throws MarshalException {
+			xbean.Bag value = xbean.Pod.newBag();
+			value.unmarshal(_os_);
+			return value;
+		}
+
+		@Override
+		public xbean.Bag newValue() {
+			xbean.Bag value = xbean.Pod.newBag();
+			return value;
+		}
+
+	};
 	mkdb.TTable<Long, xbean.RoleBestowInfo> rolebestow = new mkdb.TTable<Long, xbean.RoleBestowInfo>() {
 		@Override
 		public String getName() {
