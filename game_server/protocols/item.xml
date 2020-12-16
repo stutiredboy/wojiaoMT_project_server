@@ -10,6 +10,7 @@
         <enum name="QUEST" value="5" />	任务背包
 		<enum name="MARKET" value="6" /> 拍卖背包
 		<enum name="BLACKMARKET" value="7" /> 黑市背包
+		<enum name="PETEQUIP" value="8" /> 宠物装备背包
     </bean>
 	
 	<bean name="EquipItemType">
@@ -94,12 +95,12 @@
 		<variable name="npcid" type="long"  />
 	</protocol>
     
-	<protocol name="CPutOnEquip" type="1013" maxsize="128"  prior="101" tolua="3">
+	<protocol name="CPutOnEquip" type="1013" maxsize="128"  prior="101" tolua="3">  角色穿戴装备
 		<variable name="packkey" type="int" validator="value=[1,)" />
 		<variable name="dstPos" type="int" validator="value=[0,)" />
 	</protocol>
 	
-	<protocol name="CTakeOffEquip" type="1014" maxsize="128"  prior="101" tolua="3">
+	<protocol name="CTakeOffEquip" type="1014" maxsize="128"  prior="101" tolua="3"> 角色脱下装备
 		<variable name="equipkey" type="int" validator="value=[1,)" />
 		<variable name="posinpack" type="int" validator="value=[-1,)" />
 	</protocol>
@@ -507,5 +508,4 @@
 		<variable name="tips" type="octets"/>
 	</protocol>
 	<!-- 道具找回 1361-1670 -->
-
 </namespace>

@@ -1,0 +1,6 @@
+2016-09-09 15:17:55:522  INFO GMCOMMAND:mkdb.Worker..48 - 准备执行命令	uid=61685	roleId=4097	cmd=//additem 41600
+2016-09-09 15:17:55:554  INFO GMCOMMAND:mkdb.Worker..48 - 执行GM指令成功	userId=616854097	roleId=	rolename=浪漫榭木		username=wangjianfengw1//additem 41600
+2016-09-09 15:19:53:637  INFO GMCOMMAND:mkdb.Worker..45 - 准备执行命令	uid=64433	roleId=4097	cmd=//addlevel 30
+2016-09-09 15:19:53:654  INFO GMCOMMAND:mkdb.Worker..45 - 执行GM指令成功	userId=644334097	roleId=	rolename=旋律飞烟		username=wangjianfengw12//addlevel 30
+2016-09-09 15:20:17:652  INFO GMCOMMAND:mkdb.Worker..44 - 准备执行命令	uid=64433	roleId=4097	cmd=//checkcode 1
+2016-09-09 15:20:17:669  INFO GMCOMMAND:mkdb.Worker..44 - 执行GM指令成功	userId=644334097	roleId=	rolename=旋律飞烟		username=wangjianfengw12//checkcode 1

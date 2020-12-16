@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tree-map>
+  <no-comparator/>
+  <entry>
+    <int>331300</int>
+    <fire.pb.map.SItemToPos>
+      <id>331300</id>
+      <mapList>1610@50;1612@50</mapList>
+      <mapRemotePos>10</mapRemotePos>
+    </fire.pb.map.SItemToPos>
+  </entry>
+  <entry>
+    <int>331301</int>
+    <fire.pb.map.SItemToPos>
+      <id>331301</id>
+      <mapList>1610@50;1612@50</mapList>
+      <mapRemotePos>10</mapRemotePos>
+    </fire.pb.map.SItemToPos>
+  </entry>
+</tree-map>

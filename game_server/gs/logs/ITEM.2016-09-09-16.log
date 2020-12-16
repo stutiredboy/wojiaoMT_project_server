@@ -1,0 +1,33 @@
+2016-09-09 15:00:33:519  INFO ITEM:mkdb.Worker.procedure.43 - roleId:4097 添加物品:335000 数量:1 添加后数量:1 类型:tujing_Value_jianglizhongxin 理由:签到奖励
+2016-09-09 15:00:35:699  INFO ITEM:mkdb.Worker.procedure.31 - 4097 添加货币:50000 类型:1 理由: 礼包赠送
+2016-09-09 15:00:35:715  INFO ITEM:mkdb.Worker.procedure.31 - roleId:4097 删除物品id:335000 数量:1 类型:tujing_Value_use 理由:使用消耗
+2016-09-09 15:18:35:579  INFO ITEM:main - 物品模块开始初始化
+2016-09-09 15:18:35:590  INFO ITEM:main - 物品信息载入完毕,共3117个
+2016-09-09 15:18:35:590 ERROR ITEM:main - 重复的礼包配置 4104
+2016-09-09 15:18:35:621  INFO ITEM:main - 物品模块初始化完成
+2016-09-09 15:19:12:961  INFO ITEM:main - 物品模块开始初始化
+2016-09-09 15:19:12:961  INFO ITEM:main - 物品信息载入完毕,共3117个
+2016-09-09 15:19:12:977 ERROR ITEM:main - 重复的礼包配置 4104
+2016-09-09 15:19:13:007  INFO ITEM:main - 物品模块初始化完成
+2016-09-09 15:19:40:882  INFO ITEM:mkdb.Worker.procedure.38 - roleId:4097 添加物品:4001221 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 15:19:40:894  INFO ITEM:mkdb.Worker.procedure.38 - roleId:4097 添加物品:4001323 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 15:19:40:894  INFO ITEM:mkdb.Worker.procedure.38 - roleId:4097 添加物品:4001424 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 15:19:40:894  INFO ITEM:mkdb.Worker.procedure.38 - roleId:4097 添加物品:4001525 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 15:19:40:894  INFO ITEM:mkdb.Worker.procedure.38 - roleId:4097 添加物品:4001626 数量:1 添加后数量:0 类型:tujing_Value_xitongzengsong 理由:物品赠送
+2016-09-09 15:19:41:066  INFO ITEM:mkdb.Worker.procedure.38 - 4097 添加货币:2000 类型:13 理由: 创建人物时赠送
+2016-09-09 15:20:45:644  INFO ITEM:mkdb.Worker.procedure.48 - 4097 添加货币:0 类型:13 理由: 充值加信用值
+2016-09-09 15:20:48:313  INFO ITEM:mkdb.Worker.procedure.38 - 4097 添加货币:0 类型:13 理由: 发红包扣除
+2016-09-09 15:20:49:356  INFO ITEM:mkdb.Worker.procedure.29 - 4097 添加货币:11 类型:2 理由: 领取红包
+2016-09-09 15:20:49:356  INFO ITEM:mkdb.Worker.procedure.29 - 4097 添加货币:11 类型:13 理由: 领红包中获得
+2016-09-09 15:20:51:782  INFO ITEM:mkdb.Worker.procedure.41 - 4097 添加货币:0 类型:13 理由: 发红包扣除
+2016-09-09 15:21:19:657  INFO ITEM:mkdb.Worker.procedure.28 - 4097 添加货币:2 类型:2 理由: 领取红包
+2016-09-09 15:21:19:666  INFO ITEM:mkdb.Worker.procedure.28 - 4097 添加货币:2 类型:13 理由: 领红包中获得
+2016-09-09 15:22:03:842  INFO ITEM:mkdb.Worker.procedure.48 - 4097 添加货币:0 类型:13 理由: 发红包扣除
+2016-09-09 15:22:17:183  INFO ITEM:mkdb.Worker.procedure.50 - 4097 添加货币:19 类型:2 理由: 领取红包
+2016-09-09 15:22:17:195  INFO ITEM:mkdb.Worker.procedure.50 - 4097 添加货币:19 类型:13 理由: 领红包中获得
+2016-09-09 15:22:22:126  INFO ITEM:mkdb.Worker.procedure.37 - 4097 添加货币:0 类型:13 理由: 发红包扣除
+2016-09-09 15:22:30:294  INFO ITEM:mkdb.Worker.procedure.35 - 4097 添加货币:22 类型:2 理由: 领取红包
+2016-09-09 15:22:30:298  INFO ITEM:mkdb.Worker.procedure.35 - 4097 添加货币:22 类型:13 理由: 领红包中获得
+2016-09-09 15:23:09:726  INFO ITEM:mkdb.Worker.procedure.52 - 4097 添加货币:0 类型:13 理由: 发红包扣除
+2016-09-09 15:24:40:654  INFO ITEM:mkdb.Worker.procedure.39 - 4097 添加货币:29 类型:2 理由: 领取红包
+2016-09-09 15:24:40:665  INFO ITEM:mkdb.Worker.procedure.39 - 4097 添加货币:29 类型:13 理由: 领红包中获得

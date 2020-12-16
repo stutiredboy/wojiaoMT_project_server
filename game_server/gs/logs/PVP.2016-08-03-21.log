@@ -1,0 +1,5 @@
+2016-08-03 20:55:00:484  INFO PVP:mkdb.Worker.scheduled.24 - PVP::[PvPControl.createNpc] create npc npcId:161519 npcName:竞技大师 mapId:1615 posX:167 posY:217
+2016-08-03 20:55:00:609  INFO PVP:mkdb.Worker.scheduled.24 - PVP3::[PvP3Control.init] .
+2016-08-03 20:55:00:625  INFO PVP:mkdb.Worker.procedure.49 - PVP3::[PvP3RaceProxy.begin] new race grade:1
+2016-08-03 20:55:00:625  INFO PVP:mkdb.Worker.procedure.49 - PVP3::[PvP3RaceProxy.begin] new race grade:2
+2016-08-03 20:55:00:625  INFO PVP:mkdb.Worker.procedure.49 - PVP3::[PvP3RaceProxy.begin] new race grade:3

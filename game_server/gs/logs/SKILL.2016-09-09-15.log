@@ -1,0 +1,13 @@
+2016-09-09 14:46:46:453  INFO SKILL:main - skill模块初始化开始
+2016-09-09 14:46:46:499  INFO SKILL:main - 加载战斗技能，个数：647
+2016-09-09 14:46:46:531  INFO SKILL:main - 加载场景技能，个数：1
+2016-09-09 14:46:46:531  INFO SKILL:main - skill模块初始化完成
+2016-09-09 14:47:25:237  INFO SKILL:mkdb.Worker.procedure.41 - 玩家:4097加载上线时加载PracticleSkill技能
+2016-09-09 14:56:28:029  INFO SKILL:main - skill模块初始化开始
+2016-09-09 14:56:28:076  INFO SKILL:main - 加载战斗技能，个数：647
+2016-09-09 14:56:28:107  INFO SKILL:main - 加载场景技能，个数：1
+2016-09-09 14:56:28:107  INFO SKILL:main - skill模块初始化完成
+2016-09-09 14:59:52:704  INFO SKILL:main - skill模块初始化开始
+2016-09-09 14:59:52:798  INFO SKILL:main - 加载战斗技能，个数：647
+2016-09-09 14:59:52:814  INFO SKILL:main - 加载场景技能，个数：1
+2016-09-09 14:59:52:814  INFO SKILL:main - skill模块初始化完成

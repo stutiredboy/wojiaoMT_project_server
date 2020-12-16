@@ -1,0 +1,9 @@
+2016-08-03 20:45:52:994  INFO TASK:mkdb.Worker.procedure.41 - refresh2roleOnEnterWorld:4097,questid:1010000
+2016-08-03 20:45:52:994  INFO TASK:mkdb.Worker.procedure.41 - refresh2roleOnEnterWorld:4097,questid:1010000,send!
+2016-08-03 20:45:52:994  INFO TASK:mkdb.Worker.procedure.41 - 角色[4097]暗夜马戏团任务一周数据刷新，随机新任务。
+2016-08-03 20:45:52:994  WARN TASK:mkdb.Worker.procedure.41 - 角色[4097]当前等级:41！随机任务总权重:0错误(<=0)！
+2016-08-03 20:45:53:010  INFO TASK:mkdb.Worker.procedure.31 - 角色[4097]循环任务1010000,强制:false,AutoAddCircTask!
+2016-08-03 20:45:53:010  INFO TASK:mkdb.Worker.procedure.56 - refresh2roleOnEnterWorld:4097,questid:1010000
+2016-08-03 20:45:53:010  INFO TASK:mkdb.Worker.procedure.56 - refresh2roleOnEnterWorld:4097,questid:1010000,send!
+2016-08-03 20:45:53:010  INFO TASK:mkdb.Worker.procedure.56 - 玩家-狗头人炎矢(4097)当前的循环师门总次数:0当前等级:41
+2016-08-03 20:45:53:010 ERROR TASK:mkdb.Worker.procedure.31 - 角色[4097]循环任务1010000状态是DONE或者UNDONE ！

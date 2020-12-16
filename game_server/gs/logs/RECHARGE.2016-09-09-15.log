@@ -1,0 +1,23 @@
+2016-09-09 14:46:48:004  INFO RECHARGE:mkdb.Worker.procedure.53 - 乐动TCP方式直接回调!
+2016-09-09 14:46:50:909  INFO RECHARGE:ChargeCBServer - 充值Callback Server listen at 0.0.0.0:8800
+2016-09-09 14:47:44:899 ERROR RECHARGE:mkdb.Worker..30 - CReqChargeRefundsInfo.等级不足,不返还!userid:61685,roleid:4097
+2016-09-09 14:48:07:736  INFO RECHARGE:mkdb.Worker.procedure.29 - PReceiveDataFromAuany.qtype:9002,user:61685
+2016-09-09 14:48:07:736  INFO RECHARGE:mkdb.Worker.procedure.29 - PReceiveDataFromAuany.user:61685,role:4097,info:0#
+2016-09-09 14:48:07:736  INFO RECHARGE:mkdb.Worker.procedure.29 - PReceiveDataFromAuany.send SReqChargeRefundsInfo.result=0,roleid:4097
+2016-09-09 14:56:29:390  INFO RECHARGE:mkdb.Worker.procedure.42 - 乐动TCP方式直接回调!
+2016-09-09 14:57:53:360  INFO RECHARGE:mkdb.Worker.procedure.34 - 角色[4097]确认充值.商品:8,数量:1
+2016-09-09 14:57:53:376  INFO RECHARGE:mkdb.Worker.procedure.34 - 角色[4097]确认充值.Nickname:ljpl
+2016-09-09 14:57:53:376  INFO RECHARGE:mkdb.Worker.procedure.34 - 角色[4097]确认充值.platType:xxxx
+2016-09-09 14:57:53:469  INFO RECHARGE:mkdb.Worker.procedure.34 - 角色[4097],[wangjianfengw1]请求订单号:4097
+2016-09-09 14:57:53:485  INFO RECHARGE:mkdb.Worker.procedure.34 - 角色[4097]确认充值.测试用绕过第三方直接响应充值请求,单号:4097
+2016-09-09 14:57:53:501  INFO RECHARGE:mkdb.Worker.procedure.34 - 订单响应类型restype:1,开始处理充值订单.gamesn:4097,userid:61685
+2016-09-09 14:57:53:501  INFO RECHARGE:mkdb.Worker.procedure.34 - userid:61685,收到充值订单.gamesn:4097,platformsn:4097,retcode:0,detail:{}
+2016-09-09 14:57:53:501  INFO RECHARGE:mkdb.Worker.procedure.34 - userid:61685,角色[4097]处理充值订单,AddCash.kind:1
+2016-09-09 14:57:53:548  INFO RECHARGE:mkdb.Worker.procedure.34 - userid:61685,角色[4097]处理充值订单,准备PAddCoin,数量:7768
+2016-09-09 14:57:53:829  INFO RECHARGE:mkdb.Worker.procedure.34 - PAddCoin.process:User[61685],角色[4097]充值符石数:6480,现有总量:7768
+2016-09-09 14:57:54:063  INFO RECHARGE:mkdb.Worker.procedure.34 - userid:61685,角色[4097]充值流程就要结束啦~
+2016-09-09 14:57:54:079  INFO RECHARGE:mkdb.Worker.procedure.34 - userid:61685,角色[4097]充值订单从Chargeorder删除:4097
+2016-09-09 14:57:54:110  INFO RECHARGE:mkdb.Worker.procedure.34 - userid:61685,角色[4097]本次充值流程终于结束！
+2016-09-09 14:57:59:558  INFO RECHARGE:mkdb.Worker.procedure.40 - FushiManager.subFushiFromUser:User[61685]Role[4097]减少符石数:20,现有总量:7748
+2016-09-09 14:59:55:858  INFO RECHARGE:mkdb.Worker.procedure.43 - 乐动TCP方式直接回调!
+2016-09-09 14:59:57:482  INFO RECHARGE:ChargeCBServer - 充值Callback Server listen at 0.0.0.0:8800

@@ -1,0 +1,3 @@
+2016-08-03 16:27:24:982  INFO HUOBAN:main - huoban模块初始化开始
+2016-08-03 16:27:24:982  INFO HUOBAN:mkdb.Worker.procedure.30 - freeIndex:1
+2016-08-03 16:27:25:044  INFO HUOBAN:mkdb.Worker.procedure.37 - 伙伴内存表初始化成功
