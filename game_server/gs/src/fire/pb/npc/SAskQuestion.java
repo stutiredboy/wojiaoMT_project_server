@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SAskQuestion__ extends mkio.Protocol { }
 
-/** ç­”é¢˜ç»Ÿä¸€åè®®
+/** ´ğÌâÍ³Ò»Ğ­Òé
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,26 +27,26 @@ public class SAskQuestion extends __SAskQuestion__ {
 		return 795520;
 	}
 
-	public final static int QUEST = 1; // ä»»åŠ¡
-	public final static int INSTANCE_ZONE = 2; // å‰¯æœ¬ç©æ³•
-	public final static int FRIEND_NPC_CHAT = 3; // ä¸ç»“äº¤çš„npcèŠå¤©ç­”é¢˜
-	public final static int SPECIALQUEST_ANSWER = 5; // èŒä¸šç­”é¢˜åˆ†æ”¯ä»»åŠ¡
-	public final static int GUILD_ANSWER = 7; // å…¬ä¼šå‰¯æœ¬ä»»åŠ¡
-	public final static int ACTIVITY_ANSWER = 8; // æ´»åŠ¨ç­”é¢˜ by changhao
+	public final static int QUEST = 1; // ÈÎÎñ
+	public final static int INSTANCE_ZONE = 2; // ¸±±¾Íæ·¨
+	public final static int FRIEND_NPC_CHAT = 3; // Óë½á½»µÄnpcÁÄÌì´ğÌâ
+	public final static int SPECIALQUEST_ANSWER = 5; // Ö°Òµ´ğÌâ·ÖÖ§ÈÎÎñ
+	public final static int GUILD_ANSWER = 7; // ¹«»á¸±±¾ÈÎÎñ
+	public final static int ACTIVITY_ANSWER = 8; // »î¶¯´ğÌâ by changhao
 
-	public byte lastresult; // 0 = æ²¡æœ‰ä¸Šä¸€é“é¢˜ï¼Œ1 = æ­£ç¡®ï¼Œ-1 = é”™è¯¯
-	public int questionid; // ä¸‹ä¸€é“é¢˜IDï¼Œå¦‚æœæ²¡æœ‰ä¸‹ä¸€é“ä¸º-1
-	public int questiontype; // ç­”é¢˜ç±»å‹ï¼Œæ ¹æ®ä¸åŒçš„ç±»å‹ï¼Œå®¢æˆ·ç«¯/æœåŠ¡å™¨å¯èƒ½ä¼šæœ‰ä¸åŒçš„å¤„ç†
+	public byte lastresult; // 0 = Ã»ÓĞÉÏÒ»µÀÌâ£¬1 = ÕıÈ·£¬-1 = ´íÎó
+	public int questionid; // ÏÂÒ»µÀÌâID£¬Èç¹ûÃ»ÓĞÏÂÒ»µÀÎª-1
+	public int questiontype; // ´ğÌâÀàĞÍ£¬¸ù¾İ²»Í¬µÄÀàĞÍ£¬¿Í»§¶Ë/·şÎñÆ÷¿ÉÄÜ»áÓĞ²»Í¬µÄ´¦Àí
 	public long npckey; // npckey
-	public int xiangguanid; // å¯èƒ½éœ€è¦çš„ç›¸å…³id
-	public int lasttime; // è¯¥é¢˜å‰©ä½™æ—¶é—´(ç§’)
-	public int cur; // å½“å‰ç­”å¯¹å‡ é“ by changhao
-	public int num; // å·²ç»ç­”äº†å¤šå°‘é“ by changhao
-	public int totalexp; // ç»™çš„æ€»ç»éªŒ by changhao
-	public int totalmoney; // ç»™çš„æ€»é‡‘é’± by changhao
-	public int helptimes; // å·²ç»æ±‚åŠ©çš„æ¬¡æ•° by changhao
-	public int grab; // 1æ˜¯å¯ä»¥é¢†å–2æ˜¯å·²ç»é¢†å–3æ˜¯ä¸èƒ½é¢†å– by changhao
-	public java.util.LinkedList<Integer> rightanswer; // å·²ç»å›ç­”è¿‡çš„å¤šé€‰æ­£ç¡®ç­”æ¡ˆ
+	public int xiangguanid; // ¿ÉÄÜĞèÒªµÄÏà¹Øid
+	public int lasttime; // ¸ÃÌâÊ£ÓàÊ±¼ä(Ãë)
+	public int cur; // µ±Ç°´ğ¶Ô¼¸µÀ by changhao
+	public int num; // ÒÑ¾­´ğÁË¶àÉÙµÀ by changhao
+	public int totalexp; // ¸øµÄ×Ü¾­Ñé by changhao
+	public int totalmoney; // ¸øµÄ×Ü½ğÇ® by changhao
+	public int helptimes; // ÒÑ¾­ÇóÖúµÄ´ÎÊı by changhao
+	public int grab; // 1ÊÇ¿ÉÒÔÁìÈ¡2ÊÇÒÑ¾­ÁìÈ¡3ÊÇ²»ÄÜÁìÈ¡ by changhao
+	public java.util.LinkedList<Integer> rightanswer; // ÒÑ¾­»Ø´ğ¹ıµÄ¶àÑ¡ÕıÈ·´ğ°¸
 
 	public SAskQuestion() {
 		rightanswer = new java.util.LinkedList<Integer>();

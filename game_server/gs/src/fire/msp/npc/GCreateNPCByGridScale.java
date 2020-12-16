@@ -29,10 +29,10 @@ public class GCreateNPCByGridScale extends __GCreateNPCByGridScale__ {
 	}
 
 	public fire.msp.npc.CreateNpcInfo npc;
-	public int posx; // æŒ‡å®šçš„åæ ‡x
-	public int posy; // æŒ‡å®šçš„åæ ‡y
-	public int scale; // èŒƒå›´ï¼Œå•ä½ä¸ºæ ¼å­ï¼ˆGridPosï¼‰çš„ä¸ªæ•°
-	public int toufangarea; // å€¼ä¸º0çš„æ—¶å€™ å¿…é¡»æ”¾å…¥æŠ•æ”¾åŒºï¼Œ å¦åˆ™åœ¨åœ°å›¾ä¸Šéšæœºæ”¾
+	public int posx; // Ö¸¶¨µÄ×ø±êx
+	public int posy; // Ö¸¶¨µÄ×ø±êy
+	public int scale; // ·¶Î§£¬µ¥Î»Îª¸ñ×Ó£¨GridPos£©µÄ¸öÊı
+	public int toufangarea; // ÖµÎª0µÄÊ±ºò ±ØĞë·ÅÈëÍ¶·ÅÇø£¬ ·ñÔòÔÚµØÍ¼ÉÏËæ»ú·Å
 
 	public GCreateNPCByGridScale() {
 		npc = new fire.msp.npc.CreateNpcInfo();

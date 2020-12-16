@@ -6,24 +6,24 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class FighterInfo implements Marshal {
-	public int fightertype; // æˆ˜æ–—å•å…ƒç±»å‹
-	public long dataid; // æˆ˜æ–—å•å…ƒçš„æ ‡è®° äººç‰©ä¸ºäººç‰©çš„roleid å® ç‰©å’Œæ€ªç‰©åˆ™ä¸ºè¡¨ä¸­çš„baseID
-	public java.lang.String fightername; // æˆ˜æ–—å•å…ƒåç§°
-	public java.lang.String title; // æˆ˜æ–—å•å…ƒç§°è°“
-	public int titleid; // æˆ˜æ–—å•å…ƒç§°è°“ID
-	public int awakestate; // è§‰é†’çŠ¶æ€ 00000 5ä¸ªbitä½ï¼Œä»ä½ä½åˆ°é«˜ä½åˆ†åˆ«æ ‡è¯†95è‡³99çŠ¶æ€ï¼Œ0-æœªè§‰é†’ï¼Œ1-è§‰é†’ï¼ˆå…·ä½“å€¼æ˜¯intæ•°å€¼ï¼‰
-	public int index; // æˆ˜æ–—å•å…ƒåœ¨æˆ˜æ–—ä¸­çš„ç›¸å¯¹ä½ç½®
-	public byte bgm; // æ˜¯å¦æ˜¯GM,0:å¦ 1ï¼šæ˜¯
-	public int maxhp; // æœ€å¤§è¡€é‡
-	public int uplimithp; // è¡€é‡ä¸Šé™
-	public int hp; // å½“å‰è¡€é‡
-	public int ep; // å½“å‰æ•ˆæœç‚¹
-	public int shape; // é€ å‹	é€ å‹ä¸ºshortå€¼
-	public int subtype; // å­ç±»å‹ï¼Œå® ç‰©ä¸ºèµ„è´¨ï¼Œæ€ªç‰©ä¸ºå®å®é‡å® ç­‰
-	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
-	public java.util.HashMap<Integer,Integer> buffs; // æ·»åŠ çš„æˆ˜æ–—è€…æ‹¥æœ‰çš„åœ¨æˆ˜æ–—å†…æ˜¾ç¤ºçš„buffï¼Œvalueä¸ºå›åˆæ•°ï¼ˆä¸º0åˆ™æ²¡æœ‰å›åˆé™åˆ¶ï¼‰
-	public int footlogoid; // è¶³å°id
-	public java.util.LinkedList<Integer> petkeys; // å·²ç»å‡ºæˆ˜çš„å® ç‰©
+	public int fightertype; // Õ½¶·µ¥ÔªÀàĞÍ
+	public long dataid; // Õ½¶·µ¥ÔªµÄ±ê¼Ç ÈËÎïÎªÈËÎïµÄroleid ³èÎïºÍ¹ÖÎïÔòÎª±íÖĞµÄbaseID
+	public java.lang.String fightername; // Õ½¶·µ¥ÔªÃû³Æ
+	public java.lang.String title; // Õ½¶·µ¥Ôª³ÆÎ½
+	public int titleid; // Õ½¶·µ¥Ôª³ÆÎ½ID
+	public int awakestate; // ¾õĞÑ×´Ì¬ 00000 5¸öbitÎ»£¬´ÓµÍÎ»µ½¸ßÎ»·Ö±ğ±êÊ¶95ÖÁ99×´Ì¬£¬0-Î´¾õĞÑ£¬1-¾õĞÑ£¨¾ßÌåÖµÊÇintÊıÖµ£©
+	public int index; // Õ½¶·µ¥ÔªÔÚÕ½¶·ÖĞµÄÏà¶ÔÎ»ÖÃ
+	public byte bgm; // ÊÇ·ñÊÇGM,0:·ñ 1£ºÊÇ
+	public int maxhp; // ×î´óÑªÁ¿
+	public int uplimithp; // ÑªÁ¿ÉÏÏŞ
+	public int hp; // µ±Ç°ÑªÁ¿
+	public int ep; // µ±Ç°Ğ§¹ûµã
+	public int shape; // ÔìĞÍ	ÔìĞÍÎªshortÖµ
+	public int subtype; // ×ÓÀàĞÍ£¬³èÎïÎª×ÊÖÊ£¬¹ÖÎïÎª±¦±¦Ò°³èµÈ
+	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
+	public java.util.HashMap<Integer,Integer> buffs; // Ìí¼ÓµÄÕ½¶·ÕßÓµÓĞµÄÔÚÕ½¶·ÄÚÏÔÊ¾µÄbuff£¬valueÎª»ØºÏÊı£¨Îª0ÔòÃ»ÓĞ»ØºÏÏŞÖÆ£©
+	public int footlogoid; // ×ãÓ¡id
+	public java.util.LinkedList<Integer> petkeys; // ÒÑ¾­³öÕ½µÄ³èÎï
 
 	public FighterInfo() {
 		fightername = "";

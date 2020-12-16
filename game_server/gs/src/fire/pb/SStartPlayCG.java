@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SStartPlayCG__ extends mkio.Protocol { }
 
-/** è¿”å›ç©å®¶è¯·æ±‚çš„å±æ€§å¯¹åº”çš„å±æ€§å€¼
+/** ·µ»ØÍæ¼ÒÇëÇóµÄÊôĞÔ¶ÔÓ¦µÄÊôĞÔÖµ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SStartPlayCG extends __SStartPlayCG__ {
 		return 786455;
 	}
 
-	public int id; // åŠ¨ç”»çš„id
+	public int id; // ¶¯»­µÄid
 
 	public SStartPlayCG() {
 	}

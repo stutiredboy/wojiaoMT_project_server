@@ -33,8 +33,8 @@ public class CChangePosition extends __CChangePosition__ {
 		return 808464;
 	}
 
-	public long memberroleid; // 鍏細鎴愬憳鐨刬d
-	public int position; // 鐢宠鐨勬柊鑱屼綅
+	public long memberroleid; // 公会成员的id
+	public int position; // 申请的新职位
 
 	public CChangePosition() {
 	}

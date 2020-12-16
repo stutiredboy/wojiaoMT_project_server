@@ -8,10 +8,10 @@ import com.locojoy.base.Marshal.MarshalException;
 /** AI protocol
 */
 public class AIOperation implements Marshal , Comparable<AIOperation>{
-	public int actionseq; // åœ¨ä¸€å›åˆçš„è„šæœ¬ä¸­ï¼Œç¬¬å‡ ä¸ªResultItem
-	public int actionmoment; // -1:æ”»å‡»è€…è¡ŒåŠ¨å‰ï¼›0ï¼šæ”»å‡»è€…è¡ŒåŠ¨å;1-28ï¼šå¯¹åº”IDçš„æˆ˜æ–—è€…æ­»äº¡æ—¶
-	public int actionfighterid; // åšåŠ¨ä½œçš„æˆ˜æ–—è€…
-	public int actionid; // éœ€è¦åšçš„AIAction ID
+	public int actionseq; // ÔÚÒ»»ØºÏµÄ½Å±¾ÖĞ£¬µÚ¼¸¸öResultItem
+	public int actionmoment; // -1:¹¥»÷ÕßĞĞ¶¯Ç°£»0£º¹¥»÷ÕßĞĞ¶¯ºó;1-28£º¶ÔÓ¦IDµÄÕ½¶·ÕßËÀÍöÊ±
+	public int actionfighterid; // ×ö¶¯×÷µÄÕ½¶·Õß
+	public int actionid; // ĞèÒª×öµÄAIAction ID
 
 	public AIOperation() {
 	}

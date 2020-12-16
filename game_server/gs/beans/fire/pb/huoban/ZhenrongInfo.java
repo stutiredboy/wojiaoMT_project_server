@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ZhenrongInfo implements Marshal {
-	public int zhenfa; // 鍏夌幆缂栧彿
-	public java.util.ArrayList<Integer> huobanlist; // 鍙傛垬浼欎即
+	public int zhenfa; // 光环编号
+	public java.util.ArrayList<Integer> huobanlist; // 参战伙伴
 
 	public ZhenrongInfo() {
 		huobanlist = new java.util.ArrayList<Integer>();

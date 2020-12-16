@@ -25,7 +25,7 @@ public class SLengendAnYetask extends __SLengendAnYetask__ {
 		return 807459;
 	}
 
-	public int result; // 缁撴灉1鎴愬姛
+	public int result; // 结果1成功
 
 	public SLengendAnYetask() {
 	}

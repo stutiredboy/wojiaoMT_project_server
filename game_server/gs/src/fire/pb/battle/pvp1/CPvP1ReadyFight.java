@@ -49,7 +49,7 @@ public class CPvP1ReadyFight extends __CPvP1ReadyFight__ {
 		return 793538;
 	}
 
-	public byte ready; // 1:å‡†å¤‡ï¼Œ0ï¼šå–æ¶ˆå‡†å¤‡
+	public byte ready; // 1:×¼±¸£¬0£ºÈ¡Ïû×¼±¸
 
 	public CPvP1ReadyFight() {
 	}

@@ -30,8 +30,8 @@ public class CMakeEquip extends __CMakeEquip__ {
 		return 803451;
 	}
 
-	public int equipid; // è£…å¤‡ID
-	public short maketype; // æ‰“é€ ç±»å‹ 0 æ™®é€šæ‰“é€ ; 1 å¼ºåŒ–æ‰“é€ 
+	public int equipid; // ×°±¸ID
+	public short maketype; // ´òÔìÀàĞÍ 0 ÆÕÍ¨´òÔì; 1 Ç¿»¯´òÔì
 
 	public CMakeEquip() {
 	}

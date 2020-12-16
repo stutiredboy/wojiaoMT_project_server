@@ -25,10 +25,10 @@ public class SMailState extends __SMailState__ {
 		return 787706;
 	}
 
-	public byte kind; // ç±»å‹ 0=å®šæ—¶é‚®ä»¶ 1=GMé‚®ä»¶
+	public byte kind; // ÀàĞÍ 0=¶¨Ê±ÓÊ¼ş 1=GMÓÊ¼ş
 	public long id; // id
-	public byte statetype; // çŠ¶æ€ç±»å‹ 0=è¯»å–çŠ¶æ€ 1=é¢†å–çŠ¶æ€
-	public byte statevalue; // çŠ¶æ€å€¼ 0=å¦ 1=æ˜¯
+	public byte statetype; // ×´Ì¬ÀàĞÍ 0=¶ÁÈ¡×´Ì¬ 1=ÁìÈ¡×´Ì¬
+	public byte statevalue; // ×´Ì¬Öµ 0=·ñ 1=ÊÇ
 
 	public SMailState() {
 	}

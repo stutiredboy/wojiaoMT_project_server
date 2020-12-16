@@ -25,7 +25,7 @@ public class SBattleToNpcError extends __SBattleToNpcError__ {
 		return 795453;
 	}
 
-	public int battleerror; // é”™è¯¯ä»£å·
+	public int battleerror; // ´íÎó´úºÅ
 
 	public SBattleToNpcError() {
 	}

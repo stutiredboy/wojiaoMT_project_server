@@ -25,11 +25,11 @@ public class SPlayPKFightView extends __SPlayPKFightView__ {
 		return 793684;
 	}
 
-	public int modeltype; // æ¨¡å—ç±»å‹
-	public int school; // åˆ é€‰çš„èŒä¸š -1è¡¨ç¤ºå…¨èŒä¸š
-	public int levelindex; // åˆ é€‰çš„è§’è‰²ç­‰çº§åŒºé—´ 0è¡¨ç¤ºå…¨é€‰
+	public int modeltype; // Ä£¿éÀàĞÍ
+	public int school; // É¾Ñ¡µÄÖ°Òµ -1±íÊ¾È«Ö°Òµ
+	public int levelindex; // É¾Ñ¡µÄ½ÇÉ«µÈ¼¶Çø¼ä 0±íÊ¾È«Ñ¡
 	public java.util.ArrayList<fire.pb.battle.QCRoleInfoDes> rolelist;
-	public java.util.ArrayList<fire.pb.battle.QCRoleInfoWatchDes> rolewatchlist; // è§‚æˆ˜å¯¹æ‰‹ä¿¡æ¯
+	public java.util.ArrayList<fire.pb.battle.QCRoleInfoWatchDes> rolewatchlist; // ¹ÛÕ½¶ÔÊÖĞÅÏ¢
 
 	public SPlayPKFightView() {
 		rolelist = new java.util.ArrayList<fire.pb.battle.QCRoleInfoDes>();

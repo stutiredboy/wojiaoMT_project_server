@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SBuffChangeResult__ extends mkio.Protocol { }
 
-/** buff鏀瑰彉缁撴灉鏇存柊鍗忚
+/** buff改变结果更新协议
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,8 +30,8 @@ public class SBuffChangeResult extends __SBuffChangeResult__ {
 	public int agenttype;
 	public long id;
 	public int petid;
-	public java.util.HashMap<Integer,fire.pb.buff.Buff> addedbuffs; // 娣诲姞鐨刡uff, key=buff type id,鏇存柊buff鏃朵篃鐢ㄦ閮ㄥ垎
-	public java.util.LinkedList<Integer> deletedbuffs; // 鍒犻櫎鐨刡uff id
+	public java.util.HashMap<Integer,fire.pb.buff.Buff> addedbuffs; // 添加的buff, key=buff type id,更新buff时也用此部分
+	public java.util.LinkedList<Integer> deletedbuffs; // 删除的buff id
 
 	public SBuffChangeResult() {
 		addedbuffs = new java.util.HashMap<Integer,fire.pb.buff.Buff>();

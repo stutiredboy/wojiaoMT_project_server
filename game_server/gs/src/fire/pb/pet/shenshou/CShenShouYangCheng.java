@@ -27,7 +27,7 @@ public class CShenShouYangCheng extends __CShenShouYangCheng__ {
 		return 788530;
 	}
 
-	public int petkey; // å® ç‰©key
+	public int petkey; // ³èÎïkey
 
 	public CShenShouYangCheng() {
 	}

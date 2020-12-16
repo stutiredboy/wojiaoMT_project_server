@@ -5,13 +5,13 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ä»»åŠ¡ç»“æ„
+/** ÈÎÎñ½á¹¹
 */
 public class MissionInfo implements Marshal , Comparable<MissionInfo>{
 	public int missionid;
 	public int missionstatus;
-	public int missionvalue; // ä»»åŠ¡çŠ¶æ€å€¼
-	public int missionround; // ä»»åŠ¡çš„ç¯æ•°
+	public int missionvalue; // ÈÎÎñ×´Ì¬Öµ
+	public int missionround; // ÈÎÎñµÄ»·Êı
 	public long dstnpckey;
 
 	public MissionInfo() {

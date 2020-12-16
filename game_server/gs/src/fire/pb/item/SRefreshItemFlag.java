@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshItemFlag__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨é€šçŸ¥å®¢æˆ·ç«¯åˆ·æ–°é“å…·çš„flag
+/** ·şÎñÆ÷Í¨Öª¿Í»§¶ËË¢ĞÂµÀ¾ßµÄflag
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SRefreshItemFlag extends __SRefreshItemFlag__ {
 		return 787437;
 	}
 
-	public int itemkey; // é“å…·key
-	public int flag; // é“å…·flag
-	public int packid; // packçš„ç±»å‹
+	public int itemkey; // µÀ¾ßkey
+	public int flag; // µÀ¾ßflag
+	public int packid; // packµÄÀàĞÍ
 
 	public SRefreshItemFlag() {
 	}

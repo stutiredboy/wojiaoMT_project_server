@@ -46,9 +46,9 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	
 	@Override
 	protected void process() {
-		//判断客户端发送的门派和等级以及模块数据是否正确
+		//判断客户端发送的门派和等级以及模块数据是否正�?
 		if(modeltype!=QCmodelType.ONE_FIGHT&&modeltype!=QCmodelType.TEAM_FIGHT&&modeltype!=QCmodelType.WATCH_FIGHT){
-			logger.error("切磋模块数据错误，模块错误");
+			logger.error("切磋模块数据错误，模块错�?");
 			return ;
 		}
 		
@@ -64,7 +64,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 			levelmax=sLeitaiLevel.getLevelmax();
 		}
 		//获得当前场景是所有玩家，并且是在擂台上的
-		LinkedList<Long> rolelistid=new LinkedList<Long>();//符合条件的所有玩家
+		LinkedList<Long> rolelistid=new LinkedList<Long>();//符合条件的所有玩�?
 		HashMap<Long, Long> watchfight=new HashMap<Long, Long>();
 		Scene scene = SceneManager.getInstance().getSceneByID(CQMAPID);
 		Set<Integer> aroundIndexs = new java.util.HashSet<Integer>();
@@ -74,7 +74,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 		int num=0;
 		for(Role role : roles.values()){
 			GridPos hostGridPos = role.getPos().toGridPos();
-			//是否在擂台
+			//是否在擂�?
 			if (!role.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(hostGridPos.getX(), hostGridPos.getY())) {
 				continue;
 			}
@@ -82,7 +82,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 			if(role.getLevel()<fire.pb.battle.CSendInvitePlayPK.PVP_LEVEL){
 				continue;
 			}
-			//判断删选等级
+			//判断删�?�等�?
 			if(role.getLevel()<levelmin||role.getLevel()>levelmax){
 				continue;
 			}
@@ -95,7 +95,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 			if(role.getRoleID()==hostid){
 				continue;
 			}
-			//判断玩家是否组队，过滤队员
+			//判断玩家是否组队，过滤队�?
 			Team host_Team = TeamManager.selectTeamByRoleId(role.getRoleID());
 			if (host_Team != null && host_Team.isNormalMember(role.getRoleID())){
 				continue;
@@ -110,7 +110,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 				if(host_Team.getTeamLeaderId()!=role.getRoleID()){
 					continue;
 				}
-				//这里需要判断当前的队伍是否是自己所在的队伍
+				//这里�?要判断当前的队伍是否是自己所在的队伍
 				Team selfTeam = TeamManager.selectTeamByRoleId(hostid);
 				if(selfTeam!=null){
 					if(host_Team.getTeamId()==selfTeam.getTeamId()){
@@ -144,19 +144,19 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	}
 	
 	/**
-	 * 添加观战的玩家
+	 * 添加观战的玩�?
 	 * @param role
 	 * @param watchfight
 	 */
 	private  void watchFightView(Role role,HashMap<Long, Long> watchfight){
 		//过滤没有在战斗的玩家
-		//不在战斗中
+		//不在战斗�?
 		if(!fire.pb.buff.Module.existState(role.getRoleID(), fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER)){			
 			return;
 		}
 		//过滤掉不是主方的
 		Long battleid = xtable.Roleid2battleid.select(role.getRoleID());
-		if (battleid==null){//玩家可能是点击观战者进入观战的
+		if (battleid==null){//玩家可能是点击观战�?�进入观战的
 			battleid = xtable.Watcherid2battleid.select(role.getRoleID());
 		}
 		if(battleid == null){
@@ -186,9 +186,9 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	}
 
 	public long hostid;
-	public int modeltype; // 模块类型
-	public int school; // 删选的职业 -1表示全职业
-	public int levelindex; // 删选的角色等级区间 0表示全选
+	public int modeltype; // ģ������
+	public int school; // ɾѡ��ְҵ -1��ʾȫְҵ
+	public int levelindex; // ɾѡ�Ľ�ɫ�ȼ����� 0��ʾȫѡ
 
 	public GCheckCanPlayPKView() {
 	}

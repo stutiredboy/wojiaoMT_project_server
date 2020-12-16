@@ -35,7 +35,7 @@ public class CStartFortuneWheel extends __CStartFortuneWheel__ {
 		return 795494;
 	}
 
-	public long npckey; // 姝ｅ湪浜や簰鐨凬pckey
+	public long npckey; // 正在交互的Npckey
 
 	public CStartFortuneWheel() {
 	}

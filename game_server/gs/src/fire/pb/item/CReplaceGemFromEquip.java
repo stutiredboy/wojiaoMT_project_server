@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReplaceGemFromEquip__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯ç”³è¯·æ›¿æ¢å®çŸ³
+/** ¿Í»§¶ËÉêÇëÌæ»»±¦Ê¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -31,10 +31,10 @@ public class CReplaceGemFromEquip extends __CReplaceGemFromEquip__ {
 		return 787759;
 	}
 
-	public int equipitemkey; // è£…å¤‡çš„keyinpack
-	public byte equipbag; // ä¸º0ä¸ºèƒŒåŒ…æ ï¼Œä¸º1ä¸ºè£…å¤‡æ 
-	public int gemindex; // å®çŸ³æ§½ç´¢å¼•
-	public int gemitemkey; // å®çŸ³çš„keyinpack,æˆåŠŸåæ‰£é™¤æŒ‡å®šçš„è¿™é¢—å®çŸ³
+	public int equipitemkey; // ×°±¸µÄkeyinpack
+	public byte equipbag; // Îª0Îª±³°üÀ¸£¬Îª1Îª×°±¸À¸
+	public int gemindex; // ±¦Ê¯²ÛË÷Òı
+	public int gemitemkey; // ±¦Ê¯µÄkeyinpack,³É¹¦ºó¿Û³ıÖ¸¶¨µÄÕâ¿Å±¦Ê¯
 
 	public CReplaceGemFromEquip() {
 	}

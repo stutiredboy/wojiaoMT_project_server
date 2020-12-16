@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPetSetAutoAddPoint__ extends mkio.Protocol { }
 
-/** å® ç‰©åŠ ç‚¹æ–¹æ¡ˆ
+/** ³èÎï¼Óµã·½°¸
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,12 +27,12 @@ public class SPetSetAutoAddPoint extends __SPetSetAutoAddPoint__ {
 		return 788513;
 	}
 
-	public int petkey; // å® ç‰©key
-	public int str; // åŠ›é‡åŠ ç‚¹æ•°
-	public int iq; // æ™ºåŠ›åŠ ç‚¹æ•°
-	public int cons; // ä½“è´¨åŠ ç‚¹æ•°
-	public int endu; // è€åŠ›åŠ ç‚¹æ•°
-	public int agi; // æ•æ·åŠ ç‚¹æ•°
+	public int petkey; // ³èÎïkey
+	public int str; // Á¦Á¿¼ÓµãÊı
+	public int iq; // ÖÇÁ¦¼ÓµãÊı
+	public int cons; // ÌåÖÊ¼ÓµãÊı
+	public int endu; // ÄÍÁ¦¼ÓµãÊı
+	public int agi; // Ãô½İ¼ÓµãÊı
 
 	public SPetSetAutoAddPoint() {
 	}

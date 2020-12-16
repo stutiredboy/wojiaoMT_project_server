@@ -30,8 +30,8 @@ public class GGotoRandom extends __GGotoRandom__ {
 	}
 
 	public long roleid;
-	public long sceneid; // åœºæ™¯id
-	public int gototype; // è·³è½¬ç±»åž‹
+	public long sceneid; // ³¡¾°id
+	public int gototype; // Ìø×ªÀàÐÍ
 
 	public GGotoRandom() {
 	}

@@ -25,10 +25,10 @@ public class SCantRequestAsMaster extends __SCantRequestAsMaster__ {
 		return 816467;
 	}
 
-	public final static int Mask_Word = 0; // å±è”½å­—
+	public final static int Mask_Word = 0; // ÆÁ±Î×Ö
 
-	public long roleid; // è¯·æ±‚å¾’å¼Ÿçš„id
-	public int reason; // å¤±è´¥åŸå› 
+	public long roleid; // ÇëÇóÍ½µÜµÄid
+	public int reason; // Ê§°ÜÔ­Òò
 
 	public SCantRequestAsMaster() {
 	}

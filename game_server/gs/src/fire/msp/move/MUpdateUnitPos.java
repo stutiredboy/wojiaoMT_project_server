@@ -53,7 +53,7 @@ public class MUpdateUnitPos extends __MUpdateUnitPos__ {
 	}
 
 	public int unittype; // 1 = role, 2 = npc
-	public long key; // roleidæˆ–è€…npckey
+	public long key; // roleid»òÕßnpckey
 	public long sceneid;
 	public int posx;
 	public int posy;

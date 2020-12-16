@@ -18,7 +18,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CVisitNpc__ extends mkio.Protocol { }
 
-/** 客户端请求访问 NPC
+/** �ͻ���������� NPC
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -38,7 +38,7 @@ public class CVisitNpc extends __CVisitNpc__ {
 		// 
 		SGatherConfig conf = ConfigManager.getInstance().getConf(fire.pb.npc.SGatherConfig.class).get(gatherid );
 		if ( conf == null ) {
-			Module.logger.error( "没有该采集物的配置" + gatherid );
+			Module.logger.error( "没有该采集物的配�?" + gatherid );
 			return;
 		}
 
@@ -66,7 +66,7 @@ public class CVisitNpc extends __CVisitNpc__ {
 	}
 	
 	private void onVisitNpc( final long roleid, final SNpcShare share ) {
-		//如果是副本玩法内的npc，截走
+		//如果是副本玩法内的npc，截�?
 		if (share.npctype == 16) {
 			fire.pb.instancezone.Module.visitNpc(roleid, npckey, share);
 			return;
@@ -87,20 +87,20 @@ public class CVisitNpc extends __CVisitNpc__ {
 			return;
 		}
 		
-		//一次性副本玩法内的npc
+		//�?次�?�副本玩法内的npc
 		if (fire.pb.mission.instance.line.LineInstManager.getInstance().checkLineNpc(share.getId())) {
 			fire.pb.mission.instance.line.LineInstManager.visitNpc(roleid, npckey, share);
 			return;
 		}
 		// added by cn
-		// 有的任务中,玩家可能根本没有访问npc的资格,直接返回提示信息,不需要弹出服务列表,如果有这种情况,统一写在这个
-		// 方法里
+		// 有的任务�?,玩家可能根本没有访问npc的资�?,直接返回提示信息,不需要弹出服务列�?,如果有这种情�?,统一写在这个
+		// 方法�?
 		if (!checkNpcVisitable(roleid)){
 			Module.logger.info("npc is unvisitable");
 			return;
 		}
 		
-		//如果是特殊的npc访问处理框
+		//如果是特殊的npc访问处理�?
 		SpecialNpcDialogProcessor processor = SpecialVisitProcessCreator.getInstance().createNpcDialogProcessor(roleid, npckey);
 		if(null != processor){
 			Module.logger.info("specialNpcDialog. npcid:"+share.id);
@@ -142,41 +142,41 @@ public class CVisitNpc extends __CVisitNpc__ {
 		//Module.logger.info("当前访问npc id + " + NpcServiceManager.getNpcIDByKey(npckey));
 		
 		// protocol handle
-		// TODO:人能否访问NPC,人物状态的判断，例如交易，战斗中...
+		// TODO:人能否访问NPC,人物状�?�的判断，例如交易，战斗�?...
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0){
-			Module.logger.error("访问npc的角色 ： " + roleid + "有错");
+			Module.logger.error("访问npc的角�? �? " + roleid + "有错");
 			return;
 		}
 		
 		PropRole prole = new PropRole(roleid, true);	
 		if(prole.getProperties().getCruise() > 0) {
-			Module.logger.error("访问npc的角色 ： " + roleid + "巡游状态，禁止访问.");
+			Module.logger.error("访问npc的角�? �? " + roleid + "巡游状�?�，禁止访问.");
 			return;
 		}
 
-		// 可分享的npc？
+		// 可分享的npc�?
 		Npc npc = SceneNpcManager.selectNpcByKey(npckey);
 		if (npc == null){
-			Module.logger.error("访问npc不存在 ： " + npckey);
+			Module.logger.error("访问npc不存�? �? " + npckey);
 			return;
 		}
 		final SNpcShare share = NpcManager.getInstance().getNpcShareByID( npc.getNpcID() );
 		if ( share == null ){
-			Module.logger.error("访问npc的id ： " + npc.getNpcID() + "有错 share为null");
+			Module.logger.error("访问npc的id �? " + npc.getNpcID() + "有错 share为null");
 			return;
 		}
 		if ( share.npctype == 5 ) {
 			Role role = RoleManager.getInstance().getRoleByID(roleid);
 			if(!role.checkDistance(npc,400)){
-				Module.logger.error("访问npc的距离过远 ： " + npc.getNpcID());
+				Module.logger.error("访问npc的距离过�? �? " + npc.getNpcID());
 				return;
 			}
 			gatherProcess( roleid, share.id );
 			return;
 		}
 		if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, roleid)){
-			Module.logger.error("npc的距离过远 ： " + npc.getNpcID());
+			Module.logger.error("npc的距离过�? �? " + npc.getNpcID());
 			return;
 		}
 		fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
@@ -203,12 +203,12 @@ public class CVisitNpc extends __CVisitNpc__ {
 
 	private boolean checkNpcVisitable(long roleid) {
 
-		// 智力试练的特殊处理
+		// 智力试练的特殊处�?
 //		if(!fire.pb.activity.keju.KejuManager.getInstance().checkNpcVisitable(roleid,npckey)){
 //			Module.logger.info("智力试练npc,玩家不能访问:"+roleid);
 //			return false;
 //		}
-		// 智力试练的特殊处理 end
+		// 智力试练的特殊处�? end
 		return true;
 	}
 
@@ -220,7 +220,7 @@ public class CVisitNpc extends __CVisitNpc__ {
 		return 795433;
 	}
 
-	public long npckey; // npckey为npc的唯一ID
+	public long npckey; // npckeyΪnpc��ΨһID
 
 	public CVisitNpc() {
 	}

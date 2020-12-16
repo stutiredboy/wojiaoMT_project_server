@@ -107,11 +107,11 @@ public class CSubmitThings extends __CSubmitThings__ {
 		return 807455;
 	}
 
-	public int taskpos; // ä»»åŠ¡æ ä½
-	public int taskid; // ä»»åŠ¡id
-	public long taskrole; // ä»»åŠ¡æ‰€å±è§’è‰²id(å¸®åˆ«äººæäº¤ç‰©å“æ—¶ç”¨åˆ°)
-	public int submittype; // æäº¤çš„ç±»å‹ 1é“å…· 2å® ç‰© 3é‡‘é’±
-	public java.util.ArrayList<fire.pb.circletask.anye.SubmitThing> things; // æäº¤çš„é“å…·key æˆ–è€…å® ç‰©çš„key
+	public int taskpos; // ÈÎÎñÀ¸Î»
+	public int taskid; // ÈÎÎñid
+	public long taskrole; // ÈÎÎñËùÊô½ÇÉ«id(°ï±ğÈËÌá½»ÎïÆ·Ê±ÓÃµ½)
+	public int submittype; // Ìá½»µÄÀàĞÍ 1µÀ¾ß 2³èÎï 3½ğÇ®
+	public java.util.ArrayList<fire.pb.circletask.anye.SubmitThing> things; // Ìá½»µÄµÀ¾ßkey »òÕß³èÎïµÄkey
 
 	public CSubmitThings() {
 		things = new java.util.ArrayList<fire.pb.circletask.anye.SubmitThing>();

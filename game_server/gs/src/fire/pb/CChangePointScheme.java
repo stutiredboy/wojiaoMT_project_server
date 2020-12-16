@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CChangePointScheme__ extends mkio.Protocol { }
 
-/** 客户端请求切换加点方案
+/** �ͻ��������л��ӵ㷽��
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -17,7 +17,7 @@ public class CChangePointScheme extends __CChangePointScheme__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		// 数据合法性检查
+		// 数据合法性检�?
 		long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId <= 0)
 			return;

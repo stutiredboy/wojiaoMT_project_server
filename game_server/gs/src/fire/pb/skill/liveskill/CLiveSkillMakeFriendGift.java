@@ -23,7 +23,7 @@ abstract class __CLiveSkillMakeFriendGift__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 同心圆
+ * 同心�?
  * @author changhao
  *
  */
@@ -64,7 +64,7 @@ public class CLiveSkillMakeFriendGift extends __CLiveSkillMakeFriendGift__ {
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FRIEND_GIFT, 
 						skilllevel,"好友礼物", YYLoggerTuJingEnum.tujing_Value_friendgive, false);
 				
-				if (energyenough == false) //消耗活力 by changhao
+				if (energyenough == false) //消�?�活�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						

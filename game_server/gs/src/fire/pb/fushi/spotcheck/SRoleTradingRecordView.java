@@ -25,7 +25,7 @@ public class SRoleTradingRecordView extends __SRoleTradingRecordView__ {
 		return 812642;
 	}
 
-	public java.util.ArrayList<fire.pb.fushi.spotcheck.RoleTradingRecord> roletradingrecordlist; // è®°å½•ä¿¡æ¯
+	public java.util.ArrayList<fire.pb.fushi.spotcheck.RoleTradingRecord> roletradingrecordlist; // ¼ÇÂ¼ĞÅÏ¢
 
 	public SRoleTradingRecordView() {
 		roletradingrecordlist = new java.util.ArrayList<fire.pb.fushi.spotcheck.RoleTradingRecord>();

@@ -41,7 +41,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 				else
 					role.components.remove((byte) SpriteComponents.SPRITE_WEAPONCOLOR);
 			}
-			// 这里特殊处理一下时装2
+			// 这里特殊处理�?下时�?2
 			if (changetype == SpriteComponents.ROLE_COLOR1) {
 				xbean.Properties prop = xtable.Properties.select(roleid);
 				role.components.put((byte) SpriteComponents.ROLE_COLOR2,
@@ -71,7 +71,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 					else
 						send.components.put((byte) SpriteComponents.SPRITE_WEAPONCOLOR, 0);
 				}
-				// 这里特殊处理一下时装2
+				// 这里特殊处理�?下时�?2
 				if (changetype == SpriteComponents.ROLE_COLOR1) {
 					xbean.Properties prop = xtable.Properties.select(roleid);
 					send.components.put((byte) SpriteComponents.ROLE_COLOR2, prop.getRolecolor2());
@@ -86,7 +86,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 			}
 			send.spritetype = 0;
 			role.sendAround(send);
-			// 发送给队员,如果有的话
+			// 发�?�给队员,如果有的�?
 			fire.pb.scene.movable.SceneTeam team = SceneTeamManager.getInstance().getTeamByID(roleid);
 			if (team == null) {
 				gnet.link.Onlines.getInstance().send(roleid, send);

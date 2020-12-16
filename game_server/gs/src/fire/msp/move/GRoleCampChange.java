@@ -38,9 +38,9 @@ public class GRoleCampChange extends __GRoleCampChange__ {
 		return 724934;
 	}
 
-	public long roleid; // 瑙掕壊
-	public byte camptype; // 0=涓珛  1= 閮ㄨ惤 2= 鑱旂洘
-	public byte selecttype; // 0=閫夋嫨闃佃惀 1=鏇存崲闃佃惀
+	public long roleid; // 角色
+	public byte camptype; // 0=中立  1= 部落 2= 联盟
+	public byte selecttype; // 0=选择阵营 1=更换阵营
 
 	public GRoleCampChange() {
 	}

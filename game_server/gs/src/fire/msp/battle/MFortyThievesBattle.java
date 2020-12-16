@@ -29,8 +29,8 @@ public class MFortyThievesBattle extends __MFortyThievesBattle__ {
 	}
 
 	public long roleid;
-	public long npckey; // 鍥涘崄澶х洍鐨刵pckey
-	public int areaconfig; // 鍥涘崄澶х洍NPC鎵�鍦ㄥ湴鐐圭殑鏆楅浄鍖哄煙绛夌骇
+	public long npckey; // 四十大盗的npckey
+	public int areaconfig; // 四十大盗NPC所在地点的暗雷区域等级
 
 	public MFortyThievesBattle() {
 	}

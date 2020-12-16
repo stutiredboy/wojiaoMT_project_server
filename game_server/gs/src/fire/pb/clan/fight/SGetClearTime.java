@@ -25,7 +25,7 @@ public class SGetClearTime extends __SGetClearTime__ {
 		return 808546;
 	}
 
-	public long cleartime; // æ¸…é™¤æ—¶é—´æˆ³ by changhao
+	public long cleartime; // Çå³ýÊ±¼ä´Á by changhao
 
 	public SGetClearTime() {
 	}

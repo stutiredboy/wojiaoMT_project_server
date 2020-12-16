@@ -25,8 +25,8 @@ public class SBeginnerTip extends __SBeginnerTip__ {
 		return 786458;
 	}
 
-	public int tipid; // id涓築eginnerTipType
-	public int tipvalue; // 0涓烘湭鏄剧ず,1涓哄凡鏄剧ず
+	public int tipid; // id为BeginnerTipType
+	public int tipvalue; // 0为未显示,1为已显示
 
 	public SBeginnerTip() {
 	}

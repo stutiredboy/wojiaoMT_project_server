@@ -25,7 +25,7 @@ public class SPvP1MatchResult extends __SPvP1MatchResult__ {
 		return 793542;
 	}
 
-	public fire.pb.battle.pvp1.PvP1RoleSingleMatch target; // ç›®æ ‡
+	public fire.pb.battle.pvp1.PvP1RoleSingleMatch target; // Ä¿±ê
 
 	public SPvP1MatchResult() {
 		target = new fire.pb.battle.pvp1.PvP1RoleSingleMatch();

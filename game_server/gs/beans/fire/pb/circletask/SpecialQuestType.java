@@ -5,28 +5,28 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ç‰¹æ®Šä»»åŠ¡çš„ç±»å‹,åŒ…æ‹¬èŒä¸šä»»åŠ¡ä¸­çš„å„ç§ä¸åŒç±»å‹ä»¥åŠå¤©-å°Šå’Œå…¶ä»–ç‰¹æ®Šä»»åŠ¡
+/** ÌØÊâÈÎÎñµÄÀàĞÍ,°üÀ¨Ö°ÒµÈÎÎñÖĞµÄ¸÷ÖÖ²»Í¬ÀàĞÍÒÔ¼°Ìì-×ğºÍÆäËûÌØÊâÈÎÎñ
 */
 public class SpecialQuestType implements Marshal , Comparable<SpecialQuestType>{
-	public final static int Mail = 801001; // é€ä¿¡
-	public final static int Patrol = 801002; // å·¡é€»
-	public final static int BuyItem = 801003; // ä¹°é“å…·
-	public final static int CatchPet = 801004; // æŠ“å®ˆæŠ¤
-	public final static int Demonstrate = 801005; // ç¤ºå¨
-	public final static int DemonstrateEye = 801006; // ç¤ºå¨
-	public final static int Rescue = 801007; // æ´æ•‘
-	public final static int Tame = 801008; // é™æœ
-	public final static int CaiJi = 801010; // é‡‡é›†
-	public final static int CaiJiFinish = 801030; // é‡‡é›†å®Œæˆ
-	public final static int ChuanDiXiaoXi = 801011; // ä¼ é€’æ¶ˆæ¯
-	public final static int KillMonster = 801012; // æ‰“æ€ª
-	public final static int KillMonsterFinish = 801032; // æ‰“æ€ªå®Œæˆ
-	public final static int FindItem = 801013; // æ‰“æ€ªå¯»ç‰©
-	public final static int FindItemFinish = 801033; // æ‰“æ€ªå¯»ç‰©å®Œæˆ
-	public final static int Answer = 801014; // ç­”é¢˜
-	public final static int AnswerFinish = 801034; // ç­”é¢˜å®Œæˆ
-	public final static int CatchIt_Normal = 1030001; // æ‰é¬¼
-	public final static int CatchIt_Increase = 1030002; // é¬¼ç‹
+	public final static int Mail = 801001; // ËÍĞÅ
+	public final static int Patrol = 801002; // Ñ²Âß
+	public final static int BuyItem = 801003; // ÂòµÀ¾ß
+	public final static int CatchPet = 801004; // ×¥ÊØ»¤
+	public final static int Demonstrate = 801005; // Ê¾Íş
+	public final static int DemonstrateEye = 801006; // Ê¾Íş
+	public final static int Rescue = 801007; // Ô®¾È
+	public final static int Tame = 801008; // ½µ·ş
+	public final static int CaiJi = 801010; // ²É¼¯
+	public final static int CaiJiFinish = 801030; // ²É¼¯Íê³É
+	public final static int ChuanDiXiaoXi = 801011; // ´«µİÏûÏ¢
+	public final static int KillMonster = 801012; // ´ò¹Ö
+	public final static int KillMonsterFinish = 801032; // ´ò¹ÖÍê³É
+	public final static int FindItem = 801013; // ´ò¹ÖÑ°Îï
+	public final static int FindItemFinish = 801033; // ´ò¹ÖÑ°ÎïÍê³É
+	public final static int Answer = 801014; // ´ğÌâ
+	public final static int AnswerFinish = 801034; // ´ğÌâÍê³É
+	public final static int CatchIt_Normal = 1030001; // ×½¹í
+	public final static int CatchIt_Increase = 1030002; // ¹íÍõ
 
 
 	public SpecialQuestType() {

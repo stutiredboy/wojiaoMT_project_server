@@ -54,12 +54,12 @@ public class MScenarioQuestUseItemVerifyPosSucc extends __MScenarioQuestUseItemV
 			if (buffagent.existBuff(BuffConstant.StateType.STATE_TEAM) && buffagent.existBuff(BuffConstant.StateType.STATE_TEAM_LEADER)) {
 				if (task.getConf().exeIndo.teamState == 0) {
 				//	onFail(roleid);
-					Module.logger.info("角色[" + roleid + "]使用道具[" + useitemid + "],任务[" + scenarioquestid + "],有队伍且为队长,但配置teamState==0.");
+					Module.logger.info("角色[" + roleid + "]使用道具[" + useitemid + "],任务[" + scenarioquestid + "],有队伍且为队�?,但配置teamState==0.");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141711, null);
 					return false;
 				}
 				if (task.getConf().exeIndo.share == 0) {
-					//不共享
+					//不共�?
 					fire.pb.mission.PCommitMajorMission taskproc=
 							new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true, true);
 					if (mkdb.Transaction.current() == null)
@@ -67,7 +67,7 @@ public class MScenarioQuestUseItemVerifyPosSucc extends __MScenarioQuestUseItemV
 					else
 						taskproc.call();
 				} else {
-					//共享也没用
+					//共享也没�?
 					fire.pb.mission.PCommitMajorMission taskproc=
 							new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true, true);
 					if (mkdb.Transaction.current() == null)

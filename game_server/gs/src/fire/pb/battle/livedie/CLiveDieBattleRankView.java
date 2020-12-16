@@ -14,7 +14,7 @@ abstract class __CLiveDieBattleRankView__ extends mkio.Protocol { }
 public class CLiveDieBattleRankView extends __CLiveDieBattleRankView__ {
 	@Override
 	protected void process() {
-		// 请求生死战排行界面
+		// 请求生死战排行界�?
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
@@ -30,7 +30,7 @@ public class CLiveDieBattleRankView extends __CLiveDieBattleRankView__ {
 		return 793842;
 	}
 
-	public int modeltype; // 类型
+	public int modeltype; // ����
 
 	public CLiveDieBattleRankView() {
 	}

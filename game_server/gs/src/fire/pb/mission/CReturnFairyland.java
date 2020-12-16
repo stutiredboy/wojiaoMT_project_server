@@ -22,7 +22,7 @@ public class CReturnFairyland extends __CReturnFairyland__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		//先根据任务来判断是否能返回梦境
+		//先根据任务来判断是否能返回梦�?
 		
 		final fire.pb.map.Role role = fire.pb.map.RoleManager.getInstance().getRoleByID(roleid);
 		if (role==null)
@@ -34,7 +34,7 @@ public class CReturnFairyland extends __CReturnFairyland__ {
 		}
 		xbean.RolePos rolePos = xtable.Roleposes.select(roleid);
 		//if (rolePos==null||rolePos.getDynamicmap()<1500) {
-		//都按照任务来找跳转的地图,因为之前存的坐标可能因为组队暂离离队等原因不准
+		//都按照任务来找跳转的地图,因为之前存的坐标可能因为组队暂离离队等原因不�?
 			MissionMajorScenario majorTask = new MissionMajorScenario( roleid, true );
 			MissionConfig conf = majorTask.getConf();
 			if ( conf == null )

@@ -25,7 +25,7 @@ public class SRelocateRolePos extends __SRelocateRolePos__ {
 		return 790459;
 	}
 
-	public final static int MAX_DISTANCE = 600; // ç¦»é˜Ÿé•¿æœ€è¿œè·ç¦»
+	public final static int MAX_DISTANCE = 600; // Àë¶Ó³¤×îÔ¶¾àÀë
 
 
 	public SRelocateRolePos() {

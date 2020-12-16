@@ -29,8 +29,8 @@ public class GCreateTeam extends __GCreateTeam__ {
 		return 728900;
 	}
 
-	public long roleid; // é˜Ÿé•¿roleId
-	public long teamid; // é˜Ÿä¼ID
+	public long roleid; // ¶Ó³¤roleId
+	public long teamid; // ¶ÓÎéID
 
 	public GCreateTeam() {
 	}

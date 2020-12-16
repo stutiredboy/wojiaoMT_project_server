@@ -25,8 +25,8 @@ public class SRefreshRoleClan extends __SRefreshRoleClan__ {
 		return 808519;
 	}
 
-	public long clankey; // å…¬ä¼škey å¤§äº0è¡¨ç¤ºæœ‰å…¬ä¼š
-	public java.lang.String clanname; // å…¬ä¼šåç§°
+	public long clankey; // ¹«»ákey ´óÓÚ0±íÊ¾ÓĞ¹«»á
+	public java.lang.String clanname; // ¹«»áÃû³Æ
 
 	public SRefreshRoleClan() {
 		clanname = "";

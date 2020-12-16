@@ -25,8 +25,8 @@ public class SReplaceGem extends __SReplaceGem__ {
 		return 787765;
 	}
 
-	public int srckey; // 鍦ㄨ儗鍖呮爮閲屾簮瑁呭鐨刱ey
-	public int deskey; // 鍦ㄨ澶囨爮閲岀洰鏍囪澶囩殑key
+	public int srckey; // 在背包栏里源装备的key
+	public int deskey; // 在装备栏里目标装备的key
 
 	public SReplaceGem() {
 	}

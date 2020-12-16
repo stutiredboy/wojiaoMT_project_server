@@ -31,7 +31,7 @@ public class GCreateNPCByPos extends __GCreateNPCByPos__ {
 			NPC n = SceneNpcManager.getInstance().createNpcWithKey(npc.npckey,npc.npcbaseid, npc.name, npc.dir);
 			if (n == null) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("公会副本刷怪:").append(npc.npcbaseid)
+					SceneManager.logger.info(new StringBuilder().append("公会副本刷�??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid));
 				}
@@ -45,7 +45,7 @@ public class GCreateNPCByPos extends __GCreateNPCByPos__ {
 							npc.ownerid, "", -1, DynamicSceneType.NORMAL_SCENE,
 							params.marshal(new OctetsStream()));
 					
-					SceneManager.logger.error(new StringBuilder().append("公会副本刷怪:").append(npc.npcbaseid)
+					SceneManager.logger.error(new StringBuilder().append("公会副本刷�??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid)
 							.append(",sceneidlong:").append(scene.getSceneID()));
@@ -58,9 +58,9 @@ public class GCreateNPCByPos extends __GCreateNPCByPos__ {
 			int mapid = (int) npc.sceneid;
 			if (mapid >= 1851 && mapid <= 1870) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("公会副本刷怪:").append(npc.npcbaseid)
-							.append("坐标是： X ——").append(posx)
-							.append("坐标是： Y ——").append(posx)
+					SceneManager.logger.info(new StringBuilder().append("公会副本刷�??:").append(npc.npcbaseid)
+							.append("坐标是： X —�??").append(posx)
+							.append("坐标是： Y —�??").append(posx)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid)
 							.append(",sceneidlong:").append(scene.getSceneID()));

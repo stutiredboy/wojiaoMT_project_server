@@ -30,8 +30,8 @@ public class CBuySpotCard extends __CBuySpotCard__ {
 		return 812633;
 	}
 
-	public int buynum; // 姹傝喘鏁伴噺
-	public int buyprice; // 姹傝喘鍗曚环
+	public int buynum; // 求购数量
+	public int buyprice; // 求购单价
 
 	public CBuySpotCard() {
 	}

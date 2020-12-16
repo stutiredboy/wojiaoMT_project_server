@@ -64,7 +64,7 @@ public class CShouxiShape extends __CShouxiShape__ {
 		return 810439;
 	}
 
-	public long shouxikey; // 棣栧腑-寮熷瓙鐨刡aseid
+	public long shouxikey; // 首席-弟子的baseid
 
 	public CShouxiShape() {
 	}

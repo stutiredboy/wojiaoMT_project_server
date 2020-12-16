@@ -25,8 +25,8 @@ public class SRoleTurn extends __SRoleTurn__ {
 		return 790440;
 	}
 
-	public long roleid; // è§’è‰²ID
-	public int direction; // æ‰€è½¬å‘çš„æ–¹å‘
+	public long roleid; // ½ÇÉ«ID
+	public int direction; // Ëù×ªÏòµÄ·½Ïò
 
 	public SRoleTurn() {
 	}

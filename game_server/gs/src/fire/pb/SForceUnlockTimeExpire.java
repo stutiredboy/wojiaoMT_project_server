@@ -25,7 +25,7 @@ public class SForceUnlockTimeExpire extends __SForceUnlockTimeExpire__ {
 		return 786587;
 	}
 
-	public byte status; // 1 成功 0失败时间还未到
+	public byte status; // 1 �ɹ� 0ʧ��ʱ�仹δ��
 
 	public SForceUnlockTimeExpire() {
 	}

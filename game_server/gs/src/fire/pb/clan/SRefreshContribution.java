@@ -25,7 +25,7 @@ public class SRefreshContribution extends __SRefreshContribution__ {
 		return 808497;
 	}
 
-	public int currentcontribution; // 当前帮贡
+	public int currentcontribution; // ��ǰ�ﹱ
 
 	public SRefreshContribution() {
 	}

@@ -33,7 +33,7 @@ public class CSetAutoBattle extends __CSetAutoBattle__ {
 		return 810334;
 	}
 
-	public byte isautobattle; // 璁剧疆鏄惁鑷姩鎴樻枟
+	public byte isautobattle; // 设置是否自动战斗
 
 	public CSetAutoBattle() {
 	}

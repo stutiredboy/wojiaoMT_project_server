@@ -65,13 +65,13 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 					logger.info("角色id "+roleid+"染色的宠物不存在"+"\t数据错误");
 					return false;
 				}
-				//必须是变异的宠物才可以染色
+				//必须是变异的宠物才可以染�?
 				if(pet.getKind()!=PetTypeEnum.VARIATION){
 					logger.info("角色id "+roleid+"染色"+"\t错误1");
 					return false;
 				}
 				if(petInfo.getPetdye1()==colorpos1){
-					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无需染色");
+					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无�?染色");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
@@ -81,7 +81,7 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 					return false;
 				}
 				
-				//判断道具是否够
+				//判断道具是否�?
 				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//捐赠的人背包容器
 				if(bagContainer==null){
 					logger.info("角色id "+roleid+"染色"+"\t背包错误");
@@ -169,9 +169,9 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 		return 786545;
 	}
 
-	public int petkey; // 宠物ID
-	public int colorpos1; // 部位1
-	public int colorpos2; // 部位2
+	public int petkey; // ����ID
+	public int colorpos1; // ��λ1
+	public int colorpos2; // ��λ2
 
 	public CReqUsePetColor() {
 	}

@@ -31,7 +31,7 @@ public class CGetArchiveAward extends __CGetArchiveAward__ {
 		return 805542;
 	}
 
-	public int archiveid; // åŽ†ç¨‹id
+	public int archiveid; // Àú³Ìid
 
 	public CGetArchiveAward() {
 	}

@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSetFightPet__ extends mkio.Protocol { }
 
-/** 请求宠物参战
+/** ��������ս
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -24,7 +24,7 @@ public class CSetFightPet extends __CSetFightPet__ {
 			PSetFightPetProc proc = new PSetFightPetProc(roleid, petkey, true);
 			proc.submit();
 		} else {
-			// 如果战斗中换宠,则战斗结束后生效
+			// 如果战斗中换�?,则战斗结束后生效
 			mkdb.Procedure proc = new mkdb.Procedure() {
 				@Override
 				protected boolean process() throws Exception {
@@ -54,7 +54,7 @@ public class CSetFightPet extends __CSetFightPet__ {
 		return 788440;
 	}
 
-	public int petkey; // 请求参战的宠物
+	public int petkey; // �����ս�ĳ���
 
 	public CSetFightPet() {
 	}

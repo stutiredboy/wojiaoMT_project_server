@@ -25,7 +25,7 @@ public class SFirstDayExitGame extends __SFirstDayExitGame__ {
 		return 786489;
 	}
 
-	public int firstdayleftsecond; // ä»Šå¤©è¿˜å‰©å¤šå°‘ç§’
+	public int firstdayleftsecond; // ½ñÌì»¹Ê£¶àÉÙÃë
 
 	public SFirstDayExitGame() {
 	}

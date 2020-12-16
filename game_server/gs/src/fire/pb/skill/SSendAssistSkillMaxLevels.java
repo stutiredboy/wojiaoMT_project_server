@@ -26,7 +26,7 @@ public class SSendAssistSkillMaxLevels extends __SSendAssistSkillMaxLevels__ {
 	}
 
 	public long npckey;
-	public java.util.HashMap<Integer,Integer> maxlevels; // key=è¾…åŠ©æŠ€èƒ½ID value=æŠ€èƒ½ç­‰çº§ä¸Šé™
+	public java.util.HashMap<Integer,Integer> maxlevels; // key=¸¨Öú¼¼ÄÜID value=¼¼ÄÜµÈ¼¶ÉÏÏŞ
 
 	public SSendAssistSkillMaxLevels() {
 		maxlevels = new java.util.HashMap<Integer,Integer>();

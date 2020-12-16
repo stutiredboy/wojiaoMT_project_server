@@ -33,7 +33,7 @@ public class COpenClanList extends __COpenClanList__ {
 		return 808447;
 	}
 
-	public int currpage; // 当前页
+	public int currpage; // ��ǰҳ
 
 	public COpenClanList() {
 	}

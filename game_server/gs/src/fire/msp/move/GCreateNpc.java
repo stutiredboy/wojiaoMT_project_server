@@ -23,7 +23,7 @@ public class GCreateNpc extends __GCreateNpc__ {
 				npc.npcid, npc.npcname, npc.dir);
 			fire.pb.scene.Scene dstscene = SceneManager.getInstance().getSceneByID(npc.sceneid);
 			if (dstscene == null){
-				SceneManager.logger.error("帮派日常任务--江湖恶贼找到不目的地图");
+				SceneManager.logger.error("帮派日常任务--江湖恶贼找到不目的地�?");
 				continue;
 			}
 			

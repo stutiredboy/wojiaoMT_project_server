@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetXshSpaceInfo__ extends mkio.Protocol { }
 
-/** è·å–è¯´ä¸å¾—å¤§å¸ˆç©ºé—´æ•°æ®
+/** »ñÈ¡Ëµ²»µÃ´óÊ¦¿Õ¼äÊı¾İ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

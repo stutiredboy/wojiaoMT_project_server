@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PvP3RoleSingleMatch implements Marshal , Comparable<PvP3RoleSingleMatch>{
-	public long roleid; // 瑙掕壊ID
-	public short level; // 瑙掕壊绛夌骇
-	public int shape; // 閫犲瀷
-	public int school; // 鑱屼笟
+	public long roleid; // 角色ID
+	public short level; // 角色等级
+	public int shape; // 造型
+	public int school; // 职业
 
 	public PvP3RoleSingleMatch() {
 	}

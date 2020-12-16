@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SShowPetAround__ extends mkio.Protocol { }
 
-/** 鏈嶅姟鍣ㄩ�氱煡鍛ㄥ洿鐜╁锛岀帺瀹秗oleid灞曠ず浜嗗疇鐗﹑et
+/** 服务器通知周围玩家，玩家roleid展示了宠物pet
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

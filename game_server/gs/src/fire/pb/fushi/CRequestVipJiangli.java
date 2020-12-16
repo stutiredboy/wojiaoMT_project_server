@@ -30,7 +30,7 @@ public class CRequestVipJiangli extends __CRequestVipJiangli__ {
 		return 812488;
 	}
 
-	public int bounusindex; // é‚£ä¸ªç­‰çº§çš„å¥–åŠ±
+	public int bounusindex; // ÄÇ¸öµÈ¼¶µÄ½±Àø
 
 	public CRequestVipJiangli() {
 	}

@@ -6,7 +6,7 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RuneRequestInfo implements Marshal , Comparable<RuneRequestInfo>{
-	public int itemid; // ç‰©å“id
+	public int itemid; // ÎïÆ·id
 
 	public RuneRequestInfo() {
 	}

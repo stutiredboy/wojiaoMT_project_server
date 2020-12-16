@@ -5,14 +5,14 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** åŸºç¡€æˆ˜æ–—å±æ€§
+/** »ù´¡Õ½¶·ÊôĞÔ
 */
 public class BasicFightProperties implements Marshal , Comparable<BasicFightProperties>{
-	public short cons; // ä½“è´¨
-	public short iq; // æ™ºåŠ›
-	public short str; // åŠ›é‡
-	public short endu; // è€åŠ›
-	public short agi; // æ•æ·
+	public short cons; // ÌåÖÊ
+	public short iq; // ÖÇÁ¦
+	public short str; // Á¦Á¿
+	public short endu; // ÄÍÁ¦
+	public short agi; // Ãô½İ
 
 	public BasicFightProperties() {
 	}

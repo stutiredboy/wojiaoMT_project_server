@@ -37,10 +37,10 @@ public class CRuneGive extends __CRuneGive__ {
 	}
 
 	public long roleid;
-	public int givetype; // 鎹愯禒绫诲瀷  0娲诲姏  1閬撳叿
-	public int givevalue; // 鐗╁搧code
-	public int itemkey; // 鐗╁搧key
-	public int bagtype; // 鑳屽寘绫诲瀷
+	public int givetype; // 捐赠类型  0活力  1道具
+	public int givevalue; // 物品code
+	public int itemkey; // 物品key
+	public int bagtype; // 背包类型
 
 	public CRuneGive() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRoleList__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨å‘ç»™å®¢æˆ·ç«¯ï¼Œå·²æœ‰è§’è‰²ä¿¡æ¯åˆ—è¡¨
+/** ·şÎñÆ÷·¢¸ø¿Í»§¶Ë£¬ÒÑÓĞ½ÇÉ«ĞÅÏ¢ÁĞ±í
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,9 +28,9 @@ public class SRoleList extends __SRoleList__ {
 	}
 
 	public long prevloginroleid;
-	public byte prevroleinbattle; // 1 = åœ¨æˆ˜æ–—æ‰˜ç®¡ä¸­ï¼›0 = ä¸åœ¨æ¸¸æˆä¸­
+	public byte prevroleinbattle; // 1 = ÔÚÕ½¶·ÍĞ¹ÜÖĞ£»0 = ²»ÔÚÓÎÏ·ÖĞ
 	public java.util.LinkedList<fire.pb.RoleInfo> roles;
-	public int gacdon; // gacdæ˜¯å¦å¼€å¯,1ä¸ºå¼€å¯,0ä¸ºå…³é—­
+	public int gacdon; // gacdÊÇ·ñ¿ªÆô,1Îª¿ªÆô,0Îª¹Ø±Õ
 
 	public SRoleList() {
 		roles = new java.util.LinkedList<fire.pb.RoleInfo>();

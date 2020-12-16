@@ -28,11 +28,11 @@ public class CReqGoto extends __CReqGoto__ {
 			return;
 		}
 		
-		Team temp = TeamManager.selectTeamByRoleId(roleid); //有队伍不行 by 机贼的changhao
+		Team temp = TeamManager.selectTeamByRoleId(roleid); //有队伍不�? by 机贼的changhao
 		if(temp != null && temp.isNormalMember(roleid) ){
 			return;
 		}
-		if(mapid==fire.pb.clan.ClanUtils.MAPID){ //如果是帮派地图 by 机智又机贼的changhao
+		if(mapid==fire.pb.clan.ClanUtils.MAPID){ //如果是帮派地�? by 机智又机贼的changhao
 			//帮派地图跳转
 			fire.pb.clan.ClanUtils.enterClanMap(roleid, xpos, ypos);
 			return;

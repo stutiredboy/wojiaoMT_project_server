@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReMarketUp__ extends mkio.Protocol { }
 
-/** æ‘†æ‘Šé‡æ–°ä¸Šæ¶
+/** °ÚÌ¯ÖØĞÂÉÏ¼Ü
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -45,9 +45,9 @@ public class CReMarketUp extends __CReMarketUp__ {
 		return 810656;
 	}
 
-	public int itemtype; // 1æ™®é€šé“å…· 2å® ç‰© 3è£…å¤‡
-	public long id; // å”¯ä¸€id(æ˜¯æˆ‘æœåŠ¡å™¨æ•°æ®åº“çš„id,ä¼ ç»™å‰ç«¯çš„ç›®çš„æ˜¯åœ¨é‡æ–°ä¸Šæ¶ç‰©å“æ—¶ç»™æˆ‘è¿”å›)
-	public int money; // ä»·é’±
+	public int itemtype; // 1ÆÕÍ¨µÀ¾ß 2³èÎï 3×°±¸
+	public long id; // Î¨Ò»id(ÊÇÎÒ·şÎñÆ÷Êı¾İ¿âµÄid,´«¸øÇ°¶ËµÄÄ¿µÄÊÇÔÚÖØĞÂÉÏ¼ÜÎïÆ·Ê±¸øÎÒ·µ»Ø)
+	public int money; // ¼ÛÇ®
 
 	public CReMarketUp() {
 	}

@@ -21,7 +21,7 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// ÂèëÈÄÅËΩ¨ËÅå‰ø°ÊÅØ
+				// ÂèëÈ?ÅËΩ¨ËÅå‰ø°ÊÅ?
 				SChangeSchoolExtInfo send = new SChangeSchoolExtInfo();
 				xbean.ChangeSchoolInfo info = xtable.Changeschool.select(roleId);
 				if (info != null) {
@@ -44,8 +44,13 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 		return 810487;
 	}
 
+	public int oldkey; // æ…Œ‰∆˜µƒKey
 
 	public CChangeSchoolExtInfo() {
+	}
+
+	public CChangeSchoolExtInfo(int _oldkey_) {
+		this.oldkey = _oldkey_;
 	}
 
 	public final boolean _validator_() {
@@ -56,10 +61,12 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
+		_os_.marshal(oldkey);
 		return _os_;
 	}
 
 	public OctetsStream unmarshal(OctetsStream _os_) throws MarshalException {
+		oldkey = _os_.unmarshal_int();
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
@@ -69,6 +76,8 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 	public boolean equals(Object _o1_) {
 		if (_o1_ == this) return true;
 		if (_o1_ instanceof CChangeSchoolExtInfo) {
+			CChangeSchoolExtInfo _o_ = (CChangeSchoolExtInfo)_o1_;
+			if (oldkey != _o_.oldkey) return false;
 			return true;
 		}
 		return false;
@@ -76,12 +85,14 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 
 	public int hashCode() {
 		int _h_ = 0;
+		_h_ += oldkey;
 		return _h_;
 	}
 
 	public String toString() {
 		StringBuilder _sb_ = new StringBuilder();
 		_sb_.append("(");
+		_sb_.append(oldkey).append(",");
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -89,6 +100,8 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 	public int compareTo(CChangeSchoolExtInfo _o_) {
 		if (_o_ == this) return 0;
 		int _c_ = 0;
+		_c_ = oldkey - _o_.oldkey;
+		if (0 != _c_) return _c_;
 		return _c_;
 	}
 

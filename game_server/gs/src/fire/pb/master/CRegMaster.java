@@ -25,7 +25,7 @@ public class CRegMaster extends __CRegMaster__ {
 		return 816435;
 	}
 
-	public java.lang.String declaration; // å®£è¨€
+	public java.lang.String declaration; // ÐûÑÔ
 
 	public CRegMaster() {
 		declaration = "";

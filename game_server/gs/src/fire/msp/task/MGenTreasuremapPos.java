@@ -26,7 +26,7 @@ public class MGenTreasuremapPos extends __MGenTreasuremapPos__ {
 		return 739902;
 	}
 
-	public long roleid; // ç©å®¶id
+	public long roleid; // Íæ¼Òid
 	public int bagid; // bagid
 	public int key; // key
 	public int mapid;

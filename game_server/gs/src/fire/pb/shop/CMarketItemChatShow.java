@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketItemChatShow__ extends mkio.Protocol { }
 
-/** 聊天发送摆摊道具协议
+/** ���췢�Ͱ�̯����Э��
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -39,7 +39,7 @@ public class CMarketItemChatShow extends __CMarketItemChatShow__ {
 				long excuteTime = endTime - beginTime;
 				if (excuteTime > 50) {
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("展示触发定位拍卖浏览道具用时：").append(excuteTime).append("毫秒");
+					sbd.append("展示触发定位拍卖浏览道具用时�?").append(excuteTime).append("毫秒");
 					fire.pb.shop.srv.market.MarketManager.LOG.error(sbd.toString());
 				}
 				return true;
@@ -57,8 +57,8 @@ public class CMarketItemChatShow extends __CMarketItemChatShow__ {
 		return 810665;
 	}
 
-	public long id; // 数据库唯一id
-	public int itemtype; // 物品类型:  1普通、2宠物、3装备 4范围
+	public long id; // ���ݿ�Ψһid
+	public int itemtype; // ��Ʒ����:  1��ͨ��2���3װ�� 4��Χ
 
 	public CMarketItemChatShow() {
 	}

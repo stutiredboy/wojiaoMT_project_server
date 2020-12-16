@@ -26,8 +26,8 @@ public class PassportGetRoleListRep extends __PassportGetRoleListRep__ {
 	}
 
 	public int xid;
-	public int retcode; // 0æˆåŠŸï¼Œ1æ²¡æœ‰è§’è‰²,2ç½‘ç»œé€šä¿¡é”™è¯¯
-	public java.util.ArrayList<gnet.RoleSimpleInfo> rolelist; // è§’è‰²åˆ—è¡¨
+	public int retcode; // 0³É¹¦£¬1Ã»ÓĞ½ÇÉ«,2ÍøÂçÍ¨ĞÅ´íÎó
+	public java.util.ArrayList<gnet.RoleSimpleInfo> rolelist; // ½ÇÉ«ÁĞ±í
 
 	public PassportGetRoleListRep() {
 		retcode = 0;

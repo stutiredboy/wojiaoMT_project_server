@@ -46,7 +46,7 @@ public class CExpelMember extends __CExpelMember__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//先验证队伍是否为空
+				//先验证队伍是否为�?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
@@ -73,8 +73,8 @@ public class CExpelMember extends __CExpelMember__ {
 
 				if(!checkLeaderInTeam(leaderRoleId, team))
 				{
-					//踢人者不在队伍中或者不是队长(illegal)
-					TeamManager.logger.debug("FAIL:踢人者不在队伍中或者不是队长,踢人者Id: "+ leaderRoleId);
+					//踢人者不在队伍中或�?�不是队�?(illegal)
+					TeamManager.logger.debug("FAIL:踢人者不在队伍中或�?�不是队�?,踢人者Id: "+ leaderRoleId);
 				}
 				else if(!checkLeaderOnline(leaderRoleId))
 				{
@@ -83,19 +83,19 @@ public class CExpelMember extends __CExpelMember__ {
 				}
 				else if(!checkExpeledIsMember(team, expeledRoleId))
 				{
-					//TODO 被踢者不是踢人者队伍成员(illegal)
-					TeamManager.logger.debug("FAIL:被踢者不是踢人者队伍成员,被踢者Id: "+ expeledRoleId);
+					//TODO 被踢者不是踢人�?�队伍成�?(illegal)
+					TeamManager.logger.debug("FAIL:被踢者不是踢人�?�队伍成�?,被踢者Id: "+ expeledRoleId);
 				}
 				else if(!checkTeamLeaderState(leaderRoleId))
 				{
-					//TODO 队伍状态不允许(illegal)
-					TeamManager.logger.debug("FAIL:队伍状态不允许,被踢者Id: "+ expeledRoleId);
+					//TODO 队伍状�?�不允许(illegal)
+					TeamManager.logger.debug("FAIL:队伍状�?�不允许,被踢者Id: "+ expeledRoleId);
 				}
 				else
 				{
 					team.removeTeamMemberWithSP(expeledRoleId,false);
 					
-					//向被离队者发送消息
+					//向被离队者发送消�?
 					PropRole prole = new PropRole(team.getTeamInfo().getTeamleaderid(), true);
 					List<String> name = new ArrayList<String>();
 					name.add(prole.getName());
@@ -107,7 +107,7 @@ public class CExpelMember extends __CExpelMember__ {
 						fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(memberId,141208,expelname);
 					TeamManager.logger.debug("SUCC:队伍踢人,被踢者Id: "+ expeledRoleId);
 				}
-	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //被踢出队伍后，有帮派四方巡视任务的角色要记任务失败
+	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //被踢出队伍后，有帮派四方巡视任务的角色要记任务失�?
 				fire.pb.event.Poster.getPoster().dispatchEvent(new LeaveTeamSpecialQuestEvent(expeledRoleId));
 				return true;
 			}
@@ -116,13 +116,13 @@ public class CExpelMember extends __CExpelMember__ {
 		
 	}
 
-	// 检测PVP
+	// �?测PVP
 	private static int checkPvP(long leaderRoleId, long expeledRoleId) {
 		// 请离队员
 		return fire.pb.battle.pvp.PvPTeamHandle.onExpelMember(leaderRoleId, expeledRoleId);
 	}
 	
-	// 踢人者是一个队伍的队长？?只能在Procedure中被调用
+	// 踢人者是�?个队伍的队长�??只能在Procedure中被调用
 	private boolean checkLeaderInTeam(long leaderRoleId,Team team)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -133,7 +133,7 @@ public class CExpelMember extends __CExpelMember__ {
 
 	}
 	
-	// 踢人者在线?只能在Procedure中被调用
+	// 踢人者在�??只能在Procedure中被调用
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -154,7 +154,7 @@ public class CExpelMember extends __CExpelMember__ {
 		return false;
 	}
 	
-	// 邀请者状态不允许? 只能在Procedure中被调用
+	// �?请�?�状态不允许? 只能在Procedure中被调用
 	private boolean checkTeamLeaderState(long roleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(roleId);

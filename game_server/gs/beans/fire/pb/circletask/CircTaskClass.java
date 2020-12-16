@@ -5,18 +5,18 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** å¾ªç¯ä»»åŠ¡çš„ä¸­ç±»å‹
+/** Ñ­»·ÈÎÎñµÄÖĞÀàĞÍ
 */
 public class CircTaskClass implements Marshal , Comparable<CircTaskClass>{
-	public final static int CircTask_Mail = 1; // é€ä¿¡
-	public final static int CircTask_ItemUse = 2; // é“å…·åˆ¶é€ 
-	public final static int CircTask_ItemCollect = 3; // é“å…·æ”¶é›†
-	public final static int CircTask_ItemFind = 4; // å¯»æ‰¾é“å…·
-	public final static int CircTask_PetCatch = 5; // æ•è·å® ç‰©
-	public final static int CircTask_Patrol = 6; // å·¡é€»
-	public final static int CircTask_CatchIt = 7; // æ‰é¬¼
-	public final static int CircTask_KillMonster = 8; // æ€æ€ªè®¡æ•°
-	public final static int CircTask_ChallengeNpc = 9; // æŒ‘æˆ˜npc
+	public final static int CircTask_Mail = 1; // ËÍĞÅ
+	public final static int CircTask_ItemUse = 2; // µÀ¾ßÖÆÔì
+	public final static int CircTask_ItemCollect = 3; // µÀ¾ßÊÕ¼¯
+	public final static int CircTask_ItemFind = 4; // Ñ°ÕÒµÀ¾ß
+	public final static int CircTask_PetCatch = 5; // ²¶»ñ³èÎï
+	public final static int CircTask_Patrol = 6; // Ñ²Âß
+	public final static int CircTask_CatchIt = 7; // ×½¹í
+	public final static int CircTask_KillMonster = 8; // É±¹Ö¼ÆÊı
+	public final static int CircTask_ChallengeNpc = 9; // ÌôÕ½npc
 
 
 	public CircTaskClass() {

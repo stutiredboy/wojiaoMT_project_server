@@ -36,7 +36,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 				}
 				
 				int side = 0;
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //检测是否在战场中 by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //�?测是否在战场�? by changhao
 				if (c1 == null)
 				{
 					return false;
@@ -106,7 +106,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 								}
 								
 								xbean.TeamInfo teaminfo = xtable.Team.select(teamid);
-								if (teaminfo != null && !teamidset.contains(teamid)) //没满的才发送过去 by changhao
+								if (teaminfo != null && !teamidset.contains(teamid)) //没满的才发�?�过�? by changhao
 								{
 									fire.pb.team.TeamInfoBasicWithMembers t = new fire.pb.team.TeamInfoBasicWithMembers();
 									t.teaminfobasic = newTeamInfoBasic(teamid, teaminfo);
@@ -174,7 +174,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 		teamInfoBasic.maxlevel = 0;
 		teamInfoBasic.membernum = teaminfo.getMembers().size() + 1;
 		teamInfoBasic.teamid = teamid;
-		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //表还没有要在表里取 by changhao 
+		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //表还没有要在表里�? by changhao 
 		teamInfoBasic.targetid = 0;
 		
 		return teamInfoBasic;
@@ -188,9 +188,9 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 		return 794557;
 	}
 
-	public int isfresh; // 客户端用 0刷新 1不刷新  by qyl
-	public long start; // 起始teamid by changhao
-	public int num; // 请求的数量 by changhao
+	public int isfresh; // �ͻ����� 0ˢ�� 1��ˢ��  by qyl
+	public long start; // ��ʼteamid by changhao
+	public int num; // ��������� by changhao
 
 	public CRequestClanFightTeamList() {
 	}

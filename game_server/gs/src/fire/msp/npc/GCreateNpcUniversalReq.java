@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GCreateNpcUniversalReq__ extends mkio.Protocol { }
 
-/** GS å‘é€åœ°å›¾æ¨¡å— è¯·æ±‚åˆ›å»ºNPC
+/** GS ·¢ËÍµØÍ¼Ä£¿é ÇëÇó´´½¨NPC
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -35,7 +35,7 @@ public class GCreateNpcUniversalReq extends __GCreateNpcUniversalReq__ {
 				// æˆåŠŸ
 				resultlist.addAll(rlist);
 			}
-			//åŒæ­¥åˆ°GS NPCçš„ä¿¡æ¯
+			//åŒæ­¥åˆ°GS NPCçš„ä¿¡æ?
 			MUpdateNpcInfo mUpdateNpcInfo = new MUpdateNpcInfo();
 			mUpdateNpcInfo.npcs.addAll(resultlist);
 			fire.pb.scene.SceneClient.pSend(mUpdateNpcInfo);
@@ -59,9 +59,9 @@ public class GCreateNpcUniversalReq extends __GCreateNpcUniversalReq__ {
 		return 730416;
 	}
 
-	public long interfaceid; // é€»è¾‘æ¥å£IDï¼Œä¸éœ€è¦è¿”å›çš„ï¼Œinterfaceid = 0
-	public java.util.LinkedList<fire.msp.npc.CreateNpcInfoUniverse> npclist; // GSå¬NPCçš„è¦æ±‚æ¡ä»¶
-	public int toufangareatype; // 0-æ™®é€šçš„æŠ•æ”¾åŒºåŸŸ,1-æ–°çš„æŠ•æ”¾åŒºåŸŸ,åŒ…å«1çº§è½»åŠŸ
+	public long interfaceid; // Âß¼­½Ó¿ÚID£¬²»ĞèÒª·µ»ØµÄ£¬interfaceid = 0
+	public java.util.LinkedList<fire.msp.npc.CreateNpcInfoUniverse> npclist; // GSÕÙNPCµÄÒªÇóÌõ¼ş
+	public int toufangareatype; // 0-ÆÕÍ¨µÄÍ¶·ÅÇøÓò,1-ĞÂµÄÍ¶·ÅÇøÓò,°üº¬1¼¶Çá¹¦
 
 	public GCreateNpcUniversalReq() {
 		npclist = new java.util.LinkedList<fire.msp.npc.CreateNpcInfoUniverse>();

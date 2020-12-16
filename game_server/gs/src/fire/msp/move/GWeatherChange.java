@@ -25,8 +25,8 @@ public class GWeatherChange extends __GWeatherChange__ {
 		return 724931;
 	}
 
-	public byte weatherid; // 澶╂皵Id
-	public java.lang.String tipsparm; // tips鍙傛暟
+	public byte weatherid; // 天气Id
+	public java.lang.String tipsparm; // tips参数
 	public long sceneid;
 
 	public GWeatherChange() {

@@ -19,7 +19,7 @@ abstract class __CAnswerforSetLeader__ extends mkio.Protocol { }
 
 public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 	
-	private long now = 0L;//procedure开始时保存一个当前时间，保证此procedure中时间的统一性
+	private long now = 0L;//procedure�?始时保存�?个当前时间，保证此procedure中时间的统一�?
 	Team team;
 	
 	@Override
@@ -39,7 +39,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 				Long teamId = xtable.Roleid2teamid.select(newLeaderRoleId);
 				now = System.currentTimeMillis();
 				
-				//先验证队伍是否为空
+				//先验证队伍是否为�?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
@@ -100,8 +100,8 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 				}
 				else if(!checkNewLeaderNormal(team, newLeaderRoleId))
 				{
-					//回应者处于非正常状态（暂离、下线等）(illegal)
-					TeamManager.logger.debug("FAIL:回应者处于非正常状态（暂离、下线等）, roleid: " + newLeaderRoleId);
+					//回应者处于非正常状�?�（暂离、下线等�?(illegal)
+					TeamManager.logger.debug("FAIL:回应者处于非正常状�?�（暂离、下线等�?, roleid: " + newLeaderRoleId);
 					MessageMgr.psendMsgNotifyWhileCommit(team.getTeamLeaderId(), 141671, null);
 					MessageMgr.psendMsgNotifyWhileCommit(newLeaderRoleId, 141671, null);
 				}
@@ -112,8 +112,8 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 				}
 				else if(!checkTeamInSwitchStatus(team))
 				{
-					//队伍不处于更换队长申请状态或者超时(illegal)
-					TeamManager.logger.debug("FAIL:队伍不处于更换队长申请状态或者超时, teamId: " + teamId);
+					//队伍不处于更换队长申请状态或者超�?(illegal)
+					TeamManager.logger.debug("FAIL:队伍不处于更换队长申请状态或者超�?, teamId: " + teamId);
 				}
 				else if(!checkAnwserIsNewLeader(team, newLeaderRoleId))
 				{
@@ -122,9 +122,9 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 				}
 				/*else if(!checkTeamNoSuccSwitchIn2min(team))
 				{
-					//队伍2分钟只能更换队长一次
+					//队伍2分钟只能更换队长�?�?
 					psend(newLeaderRoleId, new STeamError(TeamError.ChangeLeaderInCD));
-					TeamManager.logger.debug("FAIL:队伍2分钟只能更换队长一次, teamId: " + teamId);
+					TeamManager.logger.debug("FAIL:队伍2分钟只能更换队长�?�?, teamId: " + teamId);
 				}*/
 				else
 				{
@@ -145,13 +145,13 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 		setTeamLeaderP.submit();
 	}
 
-	// 检测PVP
+	// �?测PVP
 	private static int checkPvP(long oldLeaderRoleId, long newLeaderRoleId) {
 		// 回答是否接受队长任命
 		return fire.pb.battle.pvp.PvPTeamHandle.onAnswerforSetLeader(oldLeaderRoleId, newLeaderRoleId);
 	}
 
-	// 回应者在线?只能在Procedure中被调用，锁leaderRoleId的rolelock
+	// 回应者在�??只能在Procedure中被调用，锁leaderRoleId的rolelock
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -173,7 +173,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 	}
 	
 	
-	//队伍处于可以换队长的状态？（飞行，战斗中不能换队长，还有其他状态吗？）
+	//队伍处于可以换队长的状�?�？（飞行，战斗中不能换队长，还有其他状态吗？）
 	private boolean checkTeamStatusValid(Team team)
 	{
 		BuffAgent agent = new BuffRoleImpl(team.getTeamLeaderId(),true);
@@ -181,7 +181,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 		return conflictId == 0;
 	}
 	
-	//队伍处于更换队长申请状态并且未超时？
+	//队伍处于更换队长申请状�?�并且未超时�?
 	private boolean checkTeamInSwitchStatus(Team team)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -196,7 +196,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 			return true;
 	}
 	
-	//回应者就是新队长？
+	//回应者就是新队长�?
 	private boolean checkAnwserIsNewLeader(Team team , long newLeaderId)
 	{
 		if(team.getTeamInfo().getSwitchleaderid() == newLeaderId)
@@ -225,7 +225,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 		return 794455;
 	}
 
-	public byte agree; // 0 拒绝 1同意
+	public byte agree; // 0 �ܾ� 1ͬ��
 
 	public CAnswerforSetLeader() {
 	}

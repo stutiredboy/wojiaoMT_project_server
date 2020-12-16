@@ -25,10 +25,10 @@ public class SInvitationPlayPK extends __SInvitationPlayPK__ {
 		return 793688;
 	}
 
-	public long sourceid; // 鍙戣捣閭�璇蜂汉鐨刬d
-	public java.lang.String rolename; // 鐜╁鍚嶇О
-	public int rolelevel; // 绛夌骇
-	public int teamnum; // 褰撳墠闃熶紞浜烘暟
+	public long sourceid; // 发起邀请人的id
+	public java.lang.String rolename; // 玩家名称
+	public int rolelevel; // 等级
+	public int teamnum; // 当前队伍人数
 
 	public SInvitationPlayPK() {
 		rolename = "";

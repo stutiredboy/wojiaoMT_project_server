@@ -26,7 +26,7 @@ public class SAddActivityNpc extends __SAddActivityNpc__ {
 	}
 
 	public java.util.ArrayList<Integer> npcids;
-	public java.util.ArrayList<fire.pb.move.Pos> poslist; // éœ€è¦æ·»åŠ çš„npcçš„åæ ‡
+	public java.util.ArrayList<fire.pb.move.Pos> poslist; // ĞèÒªÌí¼ÓµÄnpcµÄ×ø±ê
 
 	public SAddActivityNpc() {
 		npcids = new java.util.ArrayList<Integer>();

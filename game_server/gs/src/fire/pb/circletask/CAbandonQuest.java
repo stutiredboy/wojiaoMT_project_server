@@ -29,9 +29,9 @@ public class CAbandonQuest extends __CAbandonQuest__ {
 		if (roleid < 0)
 			return;
 		
-		CircleTaskManager.logger.info("收到放弃任务消息.角色[" + roleid + "]要放弃任务:" + questid);
+		CircleTaskManager.logger.info("收到放弃任务消息.角色[" + roleid + "]要放弃任�?:" + questid);
 		if(questid == 1080000) {
-			//放弃暗夜马戏团任务传说
+			//放弃暗夜马戏团任务传�?
 			new mkdb.Procedure() {
 				@Override
 				protected boolean process() {
@@ -72,7 +72,7 @@ public class CAbandonQuest extends __CAbandonQuest__ {
 		return 807434;
 	}
 
-	public int questid; // 放弃的任务id
+	public int questid; // ����������id
 
 	public CAbandonQuest() {
 	}

@@ -62,9 +62,9 @@ public class CRoleMove extends __CRoleMove__ {
 		return 790433;
 	}
 
-	public fire.pb.move.Pos srcpos; // å‡ºå‘ç‚¹
-	public fire.pb.move.Pos destpos; // åˆ°è¾¾ç‚¹
-	public long sceneid; // åœºæ™¯id
+	public fire.pb.move.Pos srcpos; // ³ö·¢µã
+	public fire.pb.move.Pos destpos; // µ½´ïµã
+	public long sceneid; // ³¡¾°id
 
 	public CRoleMove() {
 		srcpos = new fire.pb.move.Pos();

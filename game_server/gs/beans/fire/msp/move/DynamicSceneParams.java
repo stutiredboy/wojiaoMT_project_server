@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class DynamicSceneParams implements Marshal {
-	public int mazeid; // 鍦板浘鍙栧摢涓猰aze
-	public java.util.LinkedList<fire.msp.move.CreateNpcInfo> addnpcs; // 闇�瑕佹坊鍔犵殑npcs
-	public java.util.LinkedList<Integer> delnpcs; // 闇�瑕佸垹闄ょ殑npcs
+	public int mazeid; // 地图取哪个maze
+	public java.util.LinkedList<fire.msp.move.CreateNpcInfo> addnpcs; // 需要添加的npcs
+	public java.util.LinkedList<Integer> delnpcs; // 需要删除的npcs
 	public java.util.HashMap<Integer,Integer> npcstates; // key:npcid   value:show = 0,hide = 1
 
 	public DynamicSceneParams() {

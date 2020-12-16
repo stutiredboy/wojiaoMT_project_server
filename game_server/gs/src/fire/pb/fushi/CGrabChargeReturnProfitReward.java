@@ -12,7 +12,7 @@ abstract class __CGrabChargeReturnProfitReward__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 领取充值返利奖励
+ * 领取充�?�返利奖�?
  * @author changhao
  *
  */
@@ -34,21 +34,21 @@ public class CGrabChargeReturnProfitReward extends __CGrabChargeReturnProfitRewa
 				
 				if (profits == null)
 				{
-					FushiManager.logger.info("没充值不能领取");
+					FushiManager.logger.info("没充值不能领�?");
 					return true;
 				}
 				
 				xbean.ChargeReturnProfit profit = profits.getReturnprofitmap().get(id);
 				if (profit == null)
 				{
-					FushiManager.logger.info("没有这个充值返利项目");
+					FushiManager.logger.info("没有这个充�?�返利项�?");
 					return true;					
 				}
 				
 				SChargeReturnProfit config = fire.pb.main.ConfigManager.getInstance().getConf(SChargeReturnProfit.class).get(id);
 				if (config == null)
 				{
-					FushiManager.logger.info("没有这个充值返利项目");
+					FushiManager.logger.info("没有这个充�?�返利项�?");
 					return true;						
 				}
 				
@@ -60,13 +60,13 @@ public class CGrabChargeReturnProfitReward extends __CGrabChargeReturnProfitRewa
 						int c1 = 0; //稍微有点晦涩 by changhao
 						for (Integer num : config.getRewarditemnums())
 						{
-							if (c == c1) //得到奖励对应的数量 by changhao
+							if (c == c1) //得到奖励对应的数�? by changhao
 							{
 								int added = fire.pb.util.BagUtil.addItem(roleid, id, num, fire.pb.skill.liveskill.LiveSkillManager.ChargetGrab, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_chongzhifanli, 1, true);
 								
 								if (num != added)
 								{
-									FushiManager.logger.info("发放奖励失败可能是背包满了");
+									FushiManager.logger.info("发放奖励失败可能是背包满�?");
 									fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 140655, null);
 									return false;						
 								}									
@@ -78,7 +78,7 @@ public class CGrabChargeReturnProfitReward extends __CGrabChargeReturnProfitRewa
 						c ++;
 					}
 					 
-					profit.setStatus(0); //设置为已领取状态 by changhao
+					profit.setStatus(0); //设置为已领取状�?? by changhao
 					SGrabChargeReturnProfitReward msg = new SGrabChargeReturnProfitReward();
 					msg.id = profit.getId();
 					msg.status = 0;
@@ -103,7 +103,7 @@ public class CGrabChargeReturnProfitReward extends __CGrabChargeReturnProfitRewa
 		return 812481;
 	}
 
-	public int id; // 充值返利项目ID by changhao
+	public int id; // ��ֵ������ĿID by changhao
 
 	public CGrabChargeReturnProfitReward() {
 	}

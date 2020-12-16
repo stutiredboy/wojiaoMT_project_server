@@ -5,13 +5,13 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** å® ç‰©æ‰¾å›ä¿¡æ¯
+/** ³èÎïÕÒ»ØĞÅÏ¢
 */
 public class PetRecoverInfoBean implements Marshal , Comparable<PetRecoverInfoBean>{
-	public int petid; // å® ç‰©id
-	public long uniqid; // å”¯ä¸€id
-	public int remaintime; // å‰©ä½™æ—¶é—´(å•ä½:ç§’æ•°)
-	public int cost; // æ‰¾å›æ¶ˆè€—é‡‘å¸
+	public int petid; // ³èÎïid
+	public long uniqid; // Î¨Ò»id
+	public int remaintime; // Ê£ÓàÊ±¼ä(µ¥Î»:ÃëÊı)
+	public int cost; // ÕÒ»ØÏûºÄ½ğ±Ò
 
 	public PetRecoverInfoBean() {
 	}

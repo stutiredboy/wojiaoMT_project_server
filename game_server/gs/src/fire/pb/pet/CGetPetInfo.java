@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetPetInfo__ extends mkio.Protocol { }
 
-/** 瀹㈡埛绔姹傛煡鐪嬫煇浜虹殑瀹犵墿淇℃伅
+/** 客户端请求查看某人的宠物信息
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -39,7 +39,7 @@ public class CGetPetInfo extends __CGetPetInfo__ {
 		return 788525;
 	}
 
-	public long roleid; // 瑙掕壊id
+	public long roleid; // 角色id
 	public int petkey;
 
 	public CGetPetInfo() {

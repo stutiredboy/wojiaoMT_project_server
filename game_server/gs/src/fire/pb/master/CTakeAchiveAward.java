@@ -30,8 +30,8 @@ public class CTakeAchiveAward extends __CTakeAchiveAward__ {
 		return 816482;
 	}
 
-	public long roleid; // å¾’å¼Ÿçš„roleid
-	public int key; // æˆå°±é€‰é¡¹å¥–åŠ±key ï¼ˆ1~13ï¼‰
+	public long roleid; // Í½µÜµÄroleid
+	public int key; // ³É¾ÍÑ¡Ïî½±Àøkey £¨1~13£©
 
 	public CTakeAchiveAward() {
 	}

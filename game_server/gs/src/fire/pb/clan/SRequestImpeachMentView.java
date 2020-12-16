@@ -25,11 +25,11 @@ public class SRequestImpeachMentView extends __SRequestImpeachMentView__ {
 		return 808527;
 	}
 
-	public byte impeachstate; // å¼¹åŠ¾çŠ¶æ€  0å‘èµ·å¼¹åŠ¾    1å“åº”å¼¹åŠ¾
-	public short maxnum; // å¼¹åŠ¾æˆåŠŸéœ€è¦çš„äººæ•°
-	public java.lang.String impeachname; // å‘èµ·å¼¹åŠ¾äººçš„åç§°
-	public long impeachtime; // å‘èµ·å¼¹åŠ¾æ—¶é—´
-	public short curnum; // å½“å‰å“åº”äººæ•°
+	public byte impeachstate; // µ¯ÛÀ×´Ì¬  0·¢Æğµ¯ÛÀ    1ÏìÓ¦µ¯ÛÀ
+	public short maxnum; // µ¯ÛÀ³É¹¦ĞèÒªµÄÈËÊı
+	public java.lang.String impeachname; // ·¢Æğµ¯ÛÀÈËµÄÃû³Æ
+	public long impeachtime; // ·¢Æğµ¯ÛÀÊ±¼ä
+	public short curnum; // µ±Ç°ÏìÓ¦ÈËÊı
 
 	public SRequestImpeachMentView() {
 		impeachname = "";

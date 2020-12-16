@@ -46,7 +46,7 @@ public class CEndPlayCG extends __CEndPlayCG__ {
 		return 786456;
 	}
 
-	public int id; // åŠ¨ç”»çš„id
+	public int id; // ¶¯»­µÄid
 
 	public CEndPlayCG() {
 	}

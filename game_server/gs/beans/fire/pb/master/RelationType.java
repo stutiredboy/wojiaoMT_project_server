@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RelationType implements Marshal , Comparable<RelationType>{
-	public final static int MASTER = 0; // å¸ˆçˆ¶
-	public final static int PRENTICE = 1; // å¾’å¼Ÿ
+	public final static int MASTER = 0; // Ê¦¸¸
+	public final static int PRENTICE = 1; // Í½µÜ
 
 
 	public RelationType() {

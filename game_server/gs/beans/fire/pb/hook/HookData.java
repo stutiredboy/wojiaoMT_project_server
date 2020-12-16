@@ -6,14 +6,14 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HookData implements Marshal , Comparable<HookData>{
-	public short cangetdpoint; // å¯é¢†å–åŒå€ç‚¹æ•°
-	public short getdpoint; // å·²é¢†å–åŒå€ç‚¹æ•°
-	public byte isautobattle; // æ˜¯å¦è‡ªåŠ¨æˆ˜æ–—
-	public short charoptype; // äººç‰©æ“ä½œç±»å‹
-	public int charopid; // äººç‰©æ“ä½œid
-	public short petoptype; // å® ç‰©æ“ä½œç±»å‹
-	public int petopid; // å® ç‰©æ“ä½œç±»å‹
-	public long offlineexp; // ç¦»çº¿ç»éªŒ
+	public short cangetdpoint; // ¿ÉÁìÈ¡Ë«±¶µãÊı
+	public short getdpoint; // ÒÑÁìÈ¡Ë«±¶µãÊı
+	public byte isautobattle; // ÊÇ·ñ×Ô¶¯Õ½¶·
+	public short charoptype; // ÈËÎï²Ù×÷ÀàĞÍ
+	public int charopid; // ÈËÎï²Ù×÷id
+	public short petoptype; // ³èÎï²Ù×÷ÀàĞÍ
+	public int petopid; // ³èÎï²Ù×÷ÀàĞÍ
+	public long offlineexp; // ÀëÏß¾­Ñé
 
 	public HookData() {
 	}

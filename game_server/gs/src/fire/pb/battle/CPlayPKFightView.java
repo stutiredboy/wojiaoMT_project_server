@@ -30,9 +30,9 @@ public class CPlayPKFightView extends __CPlayPKFightView__ {
 		return 793683;
 	}
 
-	public int modeltype; // 模块类型
-	public int school; // 删选的职业 -1表示全职业
-	public int levelindex; // 删选的角色等级区间 0表示全选
+	public int modeltype; // ģ������
+	public int school; // ɾѡ��ְҵ -1��ʾȫְҵ
+	public int levelindex; // ɾѡ�Ľ�ɫ�ȼ����� 0��ʾȫѡ
 
 	public CPlayPKFightView() {
 	}

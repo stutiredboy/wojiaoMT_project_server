@@ -6,17 +6,17 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SpriteComponents implements Marshal , Comparable<SpriteComponents>{
-	public final static int SPRITE_WEAPON = 1; // æ­¦å™¨
-	public final static int SPRITE_HEADDRESS = 2; // å¤´é¥°
-	public final static int SPRITE_BACKDRESS = 3; // èƒŒé¥°
-	public final static int SPRITE_FACEDRESS1 = 4; // é¢é¥°1
-	public final static int SPRITE_FACEDRESS2 = 5; // é¢é¥°2
-	public final static int SPRITE_HORSEDRESS = 6; // åéª‘
-	public final static int SPRITE_WEAPONCOLOR = 7; // æ­¦å™¨é¢œè‰²	æ­¦å™¨é¢œè‰²	byte 1ä¸ºç™½è‰²ï¼Œ2ä¸ºç»¿è‰²ã€‚ã€‚4ä¸ºç´«è‰² 5ä¸ºæ©™è‰²
-	public final static int SPRITE_FASHION = 8; // æ—¶è£…
-	public final static int ROLE_COLOR1 = 50; // æŸ“è‰²éƒ¨ä½1
-	public final static int ROLE_COLOR2 = 51; // æŸ“è‰²éƒ¨ä½2
-	public final static int SPRITE_EQUIP_EFFECT = 60; // è£…å¤‡ç‰¹æ•ˆ
+	public final static int SPRITE_WEAPON = 1; // ÎäÆ÷
+	public final static int SPRITE_HEADDRESS = 2; // Í·ÊÎ
+	public final static int SPRITE_BACKDRESS = 3; // ±³ÊÎ
+	public final static int SPRITE_FACEDRESS1 = 4; // ÃæÊÎ1
+	public final static int SPRITE_FACEDRESS2 = 5; // ÃæÊÎ2
+	public final static int SPRITE_HORSEDRESS = 6; // ×øÆï
+	public final static int SPRITE_WEAPONCOLOR = 7; // ÎäÆ÷ÑÕÉ«	ÎäÆ÷ÑÕÉ«	byte 1Îª°×É«£¬2ÎªÂÌÉ«¡£¡£4Îª×ÏÉ« 5Îª³ÈÉ«
+	public final static int SPRITE_FASHION = 8; // Ê±×°
+	public final static int ROLE_COLOR1 = 50; // È¾É«²¿Î»1
+	public final static int ROLE_COLOR2 = 51; // È¾É«²¿Î»2
+	public final static int SPRITE_EQUIP_EFFECT = 60; // ×°±¸ÌØĞ§
 
 
 	public SpriteComponents() {

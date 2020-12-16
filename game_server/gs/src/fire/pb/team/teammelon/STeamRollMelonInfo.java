@@ -26,10 +26,10 @@ public class STeamRollMelonInfo extends __STeamRollMelonInfo__ {
 	}
 
 	public long melonid;
-	public java.util.LinkedList<fire.pb.team.teammelon.RoleRollInfo> rollinfolist; // æ¯äººçš„ROLLç‚¹ä¿¡æ¯ by changhao
-	public long grabroleid; // è°è·å¾—äº†é“å…·å¦‚æœæ˜¯0å°±æ˜¯å¤§å®¶éƒ½æ”¾å¼ƒäº† by changhao
-	public java.lang.String grabrolename; // åå­— by changhao
-	public java.util.LinkedList<fire.pb.team.teammelon.MelonItemBagInfo> melonitemlist; // æˆ˜åŠ›å“è¯¦ç»†ä¿¡æ¯ by changaho
+	public java.util.LinkedList<fire.pb.team.teammelon.RoleRollInfo> rollinfolist; // Ã¿ÈËµÄROLLµãĞÅÏ¢ by changhao
+	public long grabroleid; // Ë­»ñµÃÁËµÀ¾ßÈç¹ûÊÇ0¾ÍÊÇ´ó¼Ò¶¼·ÅÆúÁË by changhao
+	public java.lang.String grabrolename; // Ãû×Ö by changhao
+	public java.util.LinkedList<fire.pb.team.teammelon.MelonItemBagInfo> melonitemlist; // Õ½Á¦Æ·ÏêÏ¸ĞÅÏ¢ by changaho
 
 	public STeamRollMelonInfo() {
 		rollinfolist = new java.util.LinkedList<fire.pb.team.teammelon.RoleRollInfo>();

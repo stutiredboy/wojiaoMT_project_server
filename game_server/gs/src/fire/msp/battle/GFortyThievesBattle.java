@@ -35,7 +35,7 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 		//if(team.getNormalTeamMemebers().size()<2)
 		if(team.size() < 2)
 		{
-			//队伍人数小于3人
+			//队伍人数小于3�?
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141485, npc.getNpcID(),null);
 			return;
 		}
@@ -44,7 +44,7 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 		
 		MonsterInfo monsterInfo = npc.getScene().getMapInfo().getMonsterInfo();	
 		if(monsterInfo == null)
-			return;//区域暗雷怪信息为空
+			return;//区域暗雷怪信息为�?
 		
 		GridPos pos = npc.getPos().toGridPos();
 		int areaconf = monsterInfo.getMonsterConfig(pos.getX(), pos.getY());
@@ -65,7 +65,7 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 	}
 
 	public long roleid;
-	public long npckey; // 四十大盗的npckey
+	public long npckey; // ��ʮ�����npckey
 
 	public GFortyThievesBattle() {
 	}

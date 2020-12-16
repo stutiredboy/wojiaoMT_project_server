@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SModPetName__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨é€šçŸ¥å®¢æˆ·ç«¯ä¿®æ”¹å® ç‰©çš„åå­—
+/** ·şÎñÆ÷Í¨Öª¿Í»§¶ËĞŞ¸Ä³èÎïµÄÃû×Ö
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SModPetName extends __SModPetName__ {
 		return 788451;
 	}
 
-	public long roleid; // è§’è‰²id
-	public int petkey; // å® ç‰©key
-	public java.lang.String petname; // å® ç‰©çš„åå­—
+	public long roleid; // ½ÇÉ«id
+	public int petkey; // ³èÎïkey
+	public java.lang.String petname; // ³èÎïµÄÃû×Ö
 
 	public SModPetName() {
 		petname = "";

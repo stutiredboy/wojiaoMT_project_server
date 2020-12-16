@@ -58,7 +58,7 @@ public class GAddNpcToMiniMap extends __GAddNpcToMiniMap__ {
 
 	public java.util.ArrayList<fire.msp.npc.Pos> poses;
 	public java.util.ArrayList<Integer> baseids;
-	public long roleid; // å¦‚æœå‘ç»™ä¸€ä¸ªäºº,roleidä¸èƒ½ä¸º0ï¼Œå¦‚æœæ˜¯å‘ç»™åœ°å›¾ä¸Šæ‰€æœ‰äºº,è®¾ä¸º0å³å¯
+	public long roleid; // Èç¹û·¢¸øÒ»¸öÈË,roleid²»ÄÜÎª0£¬Èç¹ûÊÇ·¢¸øµØÍ¼ÉÏËùÓĞÈË,ÉèÎª0¼´¿É
 	public long sceneid;
 
 	public GAddNpcToMiniMap() {

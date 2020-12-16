@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PBaseInfo implements Marshal {
-	public long roleid; // 徒弟的roleid
-	public java.lang.String rolename; // 徒弟的名字
-	public int level; // 徒弟等级
-	public int school; // 徒弟职业id
-	public int camp; // 阵营
+	public long roleid; // ͽ�ܵ�roleid
+	public java.lang.String rolename; // ͽ�ܵ�����
+	public int level; // ͽ�ܵȼ�
+	public int school; // ͽ��ְҵid
+	public int camp; // ��Ӫ
 	public int shap;
 
 	public PBaseInfo() {

@@ -25,7 +25,7 @@ public class SResetPassword extends __SResetPassword__ {
 		return 786567;
 	}
 
-	public byte status; // 1 æˆåŠŸ 0å¤±è´¥
+	public byte status; // 1 ³É¹¦ 0Ê§°Ü
 
 	public SResetPassword() {
 	}

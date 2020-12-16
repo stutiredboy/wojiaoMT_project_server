@@ -38,8 +38,8 @@ public class CBannedtalk extends __CBannedtalk__ {
 		return 808489;
 	}
 
-	public long memberid; // è§’è‰²id
-	public int flag; // æ“ä½œæ ‡ç¤ºï¼š1ç¦è¨€  2è§£ç¦
+	public long memberid; // ½ÇÉ«id
+	public int flag; // ²Ù×÷±êÊ¾£º1½ûÑÔ  2½â½û
 
 	public CBannedtalk() {
 	}

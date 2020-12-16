@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CShowPetInfo__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚æŸ¥çœ‹åœºæ™¯ä¸­çš„å® ç‰©ä¿¡æ¯
+/** ¿Í»§¶ËÇëÇó²é¿´³¡¾°ÖĞµÄ³èÎïĞÅÏ¢
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -36,7 +36,7 @@ public class CShowPetInfo extends __CShowPetInfo__ {
 		return 788456;
 	}
 
-	public long masterid; // å® ç‰©ä¸»äººçš„è§’è‰²id
+	public long masterid; // ³èÎïÖ÷ÈËµÄ½ÇÉ«id
 
 	public CShowPetInfo() {
 	}

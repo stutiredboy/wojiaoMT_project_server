@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CItemRecoverList__ extends mkio.Protocol { }
 
-/** 客户端请求道具找回列表
+/** �ͻ�����������һ��б�
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -23,7 +23,7 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 发送道具找回列表
+				// 发�?�道具找回列�?
 				SItemRecoverList send = new SItemRecoverList();
 
 				// 通过key在回收站中找到对应的道具
@@ -34,7 +34,7 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 					for (Long uniqId : itemRecoverList.getUniqids()) {
 						xbean.DiscardItem ditem = xtable.Itemrecyclebin.select(uniqId);
 						if (ditem != null) {
-//							// 判断是否过期,如果过期就不发
+//							// 判断是否过期,如果过期就不�?
 //							fire.pb.item.ItemShuXing attr = Module.getInstance().getItemManager().getAttr(ditem.getItem().getId());
 //							if (attr == null) {
 //								Module.logger.error("[CItemRecoverList] roleId:" + roleId
@@ -44,12 +44,12 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 //								continue;
 //							}
 //							long day = attr.getRecycletime(); // 保留时间:天数
-//							long validTime = day * 24L * 3600L * 1000L; // 保留时间:毫秒数
-//							long elapseTime = now - ditem.getDeletedate(); // 过去时间:毫秒数
-//							long remainTime = validTime - elapseTime; // 剩余时间:毫秒数
+//							long validTime = day * 24L * 3600L * 1000L; // 保留时间:毫秒�?
+//							long elapseTime = now - ditem.getDeletedate(); // 过去时间:毫秒�?
+//							long remainTime = validTime - elapseTime; // 剩余时间:毫秒�?
 							long remainTime = ditem.getDeletedate() - now;
 							if (remainTime > 0) {
-								int cost = -1; // -1:表示没有这个道具的配置
+								int cost = -1; // -1:表示没有这个道具的配�?
 								ItemShuXing itemAttrConf = Module.getInstance().getItemManager().getAttr(ditem.getItem().getId());
 								if (itemAttrConf != null) {
 									cost = itemAttrConf.getRecovercost();
@@ -62,11 +62,11 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 								send.items.add(info);
 							}
 						} else {
-							// 移除无效的
+							// 移除无效�?
 							removeList.add(uniqId);
 						}
 					}
-					// 移除无效的列表
+					// 移除无效的列�?
 					itemRecoverList.getUniqids().removeAll(removeList);
 				}
 				mkdb.Procedure.psendWhileCommit(roleId, send);

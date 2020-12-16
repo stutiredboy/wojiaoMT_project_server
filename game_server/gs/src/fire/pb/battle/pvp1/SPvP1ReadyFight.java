@@ -25,7 +25,7 @@ public class SPvP1ReadyFight extends __SPvP1ReadyFight__ {
 		return 793539;
 	}
 
-	public byte ready; // 1:å‡†å¤‡ï¼Œ0ï¼šå–æ¶ˆå‡†å¤‡
+	public byte ready; // 1:×¼±¸£¬0£ºÈ¡Ïû×¼±¸
 
 	public SPvP1ReadyFight() {
 	}

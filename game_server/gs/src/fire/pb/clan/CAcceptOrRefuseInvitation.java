@@ -38,8 +38,8 @@ public class CAcceptOrRefuseInvitation extends __CAcceptOrRefuseInvitation__ {
 		return 808470;
 	}
 
-	public long hostroleid; // é‚€è¯·äººroleid
-	public byte accept; // 0æ‹’ç»,1æ¥å—
+	public long hostroleid; // ÑûÇëÈËroleid
+	public byte accept; // 0¾Ü¾ø,1½ÓÊÜ
 
 	public CAcceptOrRefuseInvitation() {
 	}

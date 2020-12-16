@@ -25,9 +25,9 @@ public class SRefreshMissionValue extends __SRefreshMissionValue__ {
 		return 805449;
 	}
 
-	public int missionid; // ä»»åŠ¡id
-	public int missionidvalue; // ä»»åŠ¡çŠ¶æ€å€¼
-	public int missionidround; // ä»»åŠ¡çš„ç¯æ•°
+	public int missionid; // ÈÎÎñid
+	public int missionidvalue; // ÈÎÎñ×´Ì¬Öµ
+	public int missionidround; // ÈÎÎñµÄ»·Êı
 
 	public SRefreshMissionValue() {
 	}

@@ -25,8 +25,8 @@ public class SReceiveNewPrentice extends __SReceiveNewPrentice__ {
 		return 816457;
 	}
 
-	public long prenticeid; // å¾’å¼Ÿid
-	public java.lang.String prenticename; // å¾’å¼Ÿåå­—
+	public long prenticeid; // Í½µÜid
+	public java.lang.String prenticename; // Í½µÜÃû×Ö
 
 	public SReceiveNewPrentice() {
 		prenticename = "";

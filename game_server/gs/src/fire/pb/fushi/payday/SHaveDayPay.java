@@ -25,7 +25,7 @@ public class SHaveDayPay extends __SHaveDayPay__ {
 		return 812593;
 	}
 
-	public int daypay; // 0æ˜¯æ²¡æœ‰1æ˜¯å·²ç»æ¶ˆè€— by changhao
+	public int daypay; // 0ÊÇÃ»ÓĞ1ÊÇÒÑ¾­ÏûºÄ by changhao
 
 	public SHaveDayPay() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __STransfromShape__ extends mkio.Protocol { }
 
-/** 鏀瑰彉鐜╁閫犲瀷
+/** 改变玩家造型
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class STransfromShape extends __STransfromShape__ {
 		return 790465;
 	}
 
-	public long playerid; // 鐜╁id
-	public int shape; // 鐜╁鏂伴�犲瀷
+	public long playerid; // 玩家id
+	public int shape; // 玩家新造型
 
 	public STransfromShape() {
 	}

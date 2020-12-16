@@ -40,8 +40,8 @@ public class GCreateNpcInRegion extends __GCreateNpcInRegion__ {
 	}
 
 	public fire.msp.npc.CreateNpcInfo npc;
-	public int lefttopx; // 鎸囧畾鐨勫乏涓婅鍧愭爣x
-	public int lefttopy; // 鎸囧畾鐨勫乏涓婅鍧愭爣y
+	public int lefttopx; // 指定的左上角坐标x
+	public int lefttopy; // 指定的左上角坐标y
 	public int width;
 	public int height;
 

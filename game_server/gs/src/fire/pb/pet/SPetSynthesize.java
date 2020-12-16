@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPetSynthesize__ extends mkio.Protocol { }
 
-/** 瀹犵墿鍚堟垚
+/** 宠物合成
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SPetSynthesize extends __SPetSynthesize__ {
 		return 788518;
 	}
 
-	public int petkey; // 瀹犵墿key
+	public int petkey; // 宠物key
 
 	public SPetSynthesize() {
 	}

@@ -25,8 +25,8 @@ public class SSetFightPet extends __SSetFightPet__ {
 		return 788441;
 	}
 
-	public int petkey; // å‚æˆ˜å® ç‰©ï¼Œå¦‚æœå½“å‰æœ‰å‚æˆ˜å® ç‰©ï¼Œåˆ™æ›¿æ¢ã€‚
-	public byte isinbattle; // 0=æˆ˜æ–—å¤–è®¾ç½®å‚æˆ˜ 1=æˆ˜æ–—ä¸­å¬å”¤
+	public int petkey; // ²ÎÕ½³èÎï£¬Èç¹ûµ±Ç°ÓĞ²ÎÕ½³èÎï£¬ÔòÌæ»»¡£
+	public byte isinbattle; // 0=Õ½¶·ÍâÉèÖÃ²ÎÕ½ 1=Õ½¶·ÖĞÕÙ»½
 
 	public SSetFightPet() {
 	}

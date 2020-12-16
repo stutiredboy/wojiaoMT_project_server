@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SBeginCorssServer__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨å’Œå®¢æˆ·ç«¯ä¹‹é—´çš„åè®® 32683 åˆ° 32765  start
+/** ·şÎñÆ÷ºÍ¿Í»§¶ËÖ®¼äµÄĞ­Òé 32683 µ½ 32765  start
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SBeginCorssServer extends __SBeginCorssServer__ {
 		return 819115;
 	}
 
-	public java.lang.String account; // å¸å·
-	public java.lang.String ticket; // é—¨ç¥¨
+	public java.lang.String account; // ÕÊºÅ
+	public java.lang.String ticket; // ÃÅÆ±
 	public java.lang.String crossip;
 	public int crossport;
 	public int crossnum;

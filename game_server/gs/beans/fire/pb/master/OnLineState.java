@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class OnLineState implements Marshal , Comparable<OnLineState>{
-	public final static int NOT_ON_LINE = 0; // ä¸åœ¨çº¿
-	public final static int ON_LINE = 1; // åœ¨çº¿
+	public final static int NOT_ON_LINE = 0; // ²»ÔÚÏß
+	public final static int ON_LINE = 1; // ÔÚÏß
 
 
 	public OnLineState() {

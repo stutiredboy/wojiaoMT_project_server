@@ -22,7 +22,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSubmit2Npc__ extends mkio.Protocol { }
 
-/** 客户端请求提交任务物品或者任务宠物
+/** �ͻ��������ύ������Ʒ�����������
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -74,7 +74,7 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 				}
 			}
 		}
-		// 对提交的宠物的判断，不能是参战和展示的宠物
+		// 对提交的宠物的判断，不能是参战和展示的宠�?
 		java.util.List<xbean.PetInfo> pis = null;
 		if (submittype == SubmitType.PET) {
 			pis = new java.util.ArrayList<xbean.PetInfo>();
@@ -92,7 +92,7 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 				pis.add(pet.getPetInfo().copy());
 			}
 		}
-		// 对提交物品的判断，不能有锁
+		// 对提交物品的判断，不能有�?
 		if (submittype == SubmitType.ITEM) {
 			Pack bag = new Pack(roleid, true);
 			for (SubmitUnit unit : things) {
@@ -109,7 +109,7 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 			new fire.pb.instancezone.PSubmit2Npc(roleid, this).submit();
 		}
 
-		// 如果是剧情任务
+		// 如果是剧情任�?
 		if (fire.pb.mission.UtilHelper.isMajorScenarioMission(questid)
 				|| fire.pb.mission.UtilHelper.isBranchScenarioMission(questid)) {
 			// if ( things.size() != 1 )
@@ -171,7 +171,7 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 					int teamshare = new MissionColumn(roleid, true).getMission(
 							questid).getConf().exeIndo.share;
 					if (teamshare == 0) {
-						// 不共享
+						// 不共�?
 						mkdb.Procedure.execute(new PCommitMajorMission(roleid,
 								questid, new fire.pb.mission.util.PetCommitParam(
 										npckey, petkey), true),
@@ -267,10 +267,10 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 		return 795456;
 	}
 
-	public int questid; // 提交物品相关的任务或者其他相关id
+	public int questid; // �ύ��Ʒ��ص���������������id
 	public long npckey; // npckey
-	public int submittype; // 提交的类型
-	public java.util.ArrayList<fire.pb.npc.SubmitUnit> things; // 提交的道具key 或者宠物的key
+	public int submittype; // �ύ������
+	public java.util.ArrayList<fire.pb.npc.SubmitUnit> things; // �ύ�ĵ���key ���߳����key
 
 	public CSubmit2Npc() {
 		things = new java.util.ArrayList<fire.pb.npc.SubmitUnit>();

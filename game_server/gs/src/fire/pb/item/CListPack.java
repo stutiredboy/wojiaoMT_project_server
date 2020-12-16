@@ -5,7 +5,7 @@ package fire.pb.item;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-import org.apache.log4j.Logger;
+
 abstract class __CListPack__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}

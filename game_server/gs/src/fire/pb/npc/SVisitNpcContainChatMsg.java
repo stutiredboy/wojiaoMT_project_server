@@ -25,11 +25,11 @@ public class SVisitNpcContainChatMsg extends __SVisitNpcContainChatMsg__ {
 		return 795526;
 	}
 
-	public long npckey; // npckeyä¸ºnpcçš„å”¯ä¸€ID
-	public java.util.ArrayList<Integer> services; // services ä¸ºnpcæ‰€æä¾›çš„æœåŠ¡ IDs.
-	public java.util.ArrayList<Integer> scenarioquests; // å‰§æƒ…ä»»åŠ¡
-	public int msgid; // æ¶ˆæ¯æç¤ºID
-	public java.util.ArrayList<com.locojoy.base.Octets> parameters; // å‚æ•°
+	public long npckey; // npckeyÎªnpcµÄÎ¨Ò»ID
+	public java.util.ArrayList<Integer> services; // services ÎªnpcËùÌá¹©µÄ·şÎñ IDs.
+	public java.util.ArrayList<Integer> scenarioquests; // ¾çÇéÈÎÎñ
+	public int msgid; // ÏûÏ¢ÌáÊ¾ID
+	public java.util.ArrayList<com.locojoy.base.Octets> parameters; // ²ÎÊı
 
 	public SVisitNpcContainChatMsg() {
 		services = new java.util.ArrayList<Integer>();

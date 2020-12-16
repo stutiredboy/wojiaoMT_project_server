@@ -112,7 +112,7 @@ public class COpenChest extends __COpenChest__ {
 				}
 				
 				int mapid = role.getMapId();
-				if (mapid == ClanUtils.MAPID && npc.getNpcID() == ActivityClanFightManager.CELEBRATE_BOX) //如果玩家在公会领地 by changhao
+				if (mapid == ClanUtils.MAPID && npc.getNpcID() == ActivityClanFightManager.CELEBRATE_BOX) //如果玩家在公会领�? by changhao
 				{
 					xbean.ClanInfo clanInfo = ClanUtils.getClanInfoById(roleId, true);
 					if (clanInfo == null)
@@ -135,7 +135,7 @@ public class COpenChest extends __COpenChest__ {
 							{
 								if (!bf.getClanfightBean().getEnterroleids().containsKey(roleId))
 								{
-									MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾取 by changhao	
+									MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾�? by changhao	
 									return false;
 								}
 								
@@ -146,13 +146,13 @@ public class COpenChest extends __COpenChest__ {
 									return true;
 								}
 								
-								MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾取 by changhao	
+								MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾�? by changhao	
 								return false;
 							}
 						}
 					}
 					
-					MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾取 by changhao	
+					MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾�? by changhao	
 					return false;
 				}					
 /////////////////////////////////////////////
@@ -165,7 +165,7 @@ public class COpenChest extends __COpenChest__ {
 				
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleId);
 				if (null != team && team.isTeamLeader(roleId) && chestcfg.getOpenteam() == 1) {
-					// 全队正常状态成员 加锁
+					// 全队正常状�?�成�? 加锁
 					final java.util.List<Long> members = team.getNormalMemberIds();
 					this.lock(xtable.Locks.ROLELOCK, members);
 					
@@ -181,7 +181,7 @@ public class COpenChest extends __COpenChest__ {
 						}
 						int rolelevel = xtable.Properties.selectLevel(roleId);
 						if (chestcfg.openlevel > rolelevel) {
-							//等级不足的提示
+							//等级不足的提�?
 							MessageMgr.sendMsgNotify(roleId, 166139, null);
 							return false;
 						}
@@ -215,7 +215,7 @@ public class COpenChest extends __COpenChest__ {
 				else {
 					int rolelevel = xtable.Properties.selectLevel(roleId);
 					if (chestcfg.openlevel > rolelevel) {
-						//等级不足的提示
+						//等级不足的提�?
 						MessageMgr.sendMsgNotify(roleId, 166139, null);
 						return false;
 					}
@@ -294,7 +294,7 @@ public class COpenChest extends __COpenChest__ {
 		return 795522;
 	}
 
-	public long chestnpckey; // 宝箱的npckey
+	public long chestnpckey; // �����npckey
 
 	public COpenChest() {
 	}

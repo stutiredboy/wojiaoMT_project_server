@@ -33,8 +33,8 @@ public class GSendToSceneByRole extends __GSendToSceneByRole__ {
 		return 720909;
 	}
 
-	public int protype; // åè®®çš„ç±»å‹
-	public com.locojoy.base.Octets protocol; // åè®®marshalå®Œçš„æ•°æ®
+	public int protype; // Ğ­ÒéµÄÀàĞÍ
+	public com.locojoy.base.Octets protocol; // Ğ­ÒémarshalÍêµÄÊı¾İ
 	public long roleid; // roleID
 
 	public GSendToSceneByRole() {

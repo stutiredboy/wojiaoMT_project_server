@@ -25,17 +25,17 @@ public class SMarketBrowse extends __SMarketBrowse__ {
 		return 810640;
 	}
 
-	public int browsetype; // æµè§ˆç±»å‹  1 æˆ‘è¦è´­ä¹° 2å…¬ç¤ºç‰©å“
-	public int firstno; // ä¸€çº§é¡µç­¾ç±»å‹
-	public int twono; // äºŒçº§é¡µç­¾ç±»å‹
-	public java.util.ArrayList<Integer> threeno; // ä¸‰çº§é¡µç­¾ç±»å‹
-	public int itemtype; // ç‰©å“ç±»å‹
-	public int limitmin; // æ¡ä»¶ä¸‹é™
-	public int limitmax; // æ¡ä»¶ä¸Šé™
-	public int currpage; // å½“å‰é¡µ
-	public int totalpage; // æ€»é¡µæ•°
-	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // æŸ¥çœ‹ç‰©å“åˆ—è¡¨
-	public int pricesort; // ä»·æ ¼æ’åº  1å‡åº  2é™åº
+	public int browsetype; // ä¯ÀÀÀàĞÍ  1 ÎÒÒª¹ºÂò 2¹«Ê¾ÎïÆ·
+	public int firstno; // Ò»¼¶Ò³Ç©ÀàĞÍ
+	public int twono; // ¶ş¼¶Ò³Ç©ÀàĞÍ
+	public java.util.ArrayList<Integer> threeno; // Èı¼¶Ò³Ç©ÀàĞÍ
+	public int itemtype; // ÎïÆ·ÀàĞÍ
+	public int limitmin; // Ìõ¼şÏÂÏŞ
+	public int limitmax; // Ìõ¼şÉÏÏŞ
+	public int currpage; // µ±Ç°Ò³
+	public int totalpage; // ×ÜÒ³Êı
+	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // ²é¿´ÎïÆ·ÁĞ±í
+	public int pricesort; // ¼Û¸ñÅÅĞò  1ÉıĞò  2½µĞò
 
 	public SMarketBrowse() {
 		threeno = new java.util.ArrayList<Integer>();

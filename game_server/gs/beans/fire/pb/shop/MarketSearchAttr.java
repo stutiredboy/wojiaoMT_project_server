@@ -5,11 +5,11 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** æ‘†æ‘Šçå“è£…å¤‡æœç´¢-åŸºç¡€å±æ€§ç»“æ„
+/** °ÚÌ¯ÕäÆ·×°±¸ËÑË÷-»ù´¡ÊôĞÔ½á¹¹
 */
 public class MarketSearchAttr implements Marshal , Comparable<MarketSearchAttr>{
-	public int attrid; // åŸºç¡€å±æ€§id
-	public int attrval; // å±æ€§æœ€å°å€¼
+	public int attrid; // »ù´¡ÊôĞÔid
+	public int attrval; // ÊôĞÔ×îĞ¡Öµ
 
 	public MarketSearchAttr() {
 	}

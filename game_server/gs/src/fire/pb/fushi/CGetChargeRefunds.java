@@ -30,17 +30,17 @@ public class CGetChargeRefunds extends __CGetChargeRefunds__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		final int userid = ((gnet.link.Dispatch) this.getContext()).userid;
 		if (roleid < 0 || userid <0) {
-			logger.error("CGetChargeRefunds.userid:" + userid + ",roleid:" + roleid + ".错误！");
+			logger.error("CGetChargeRefunds.userid:" + userid + ",roleid:" + roleid + ".错误�?");
 			return;
 		}
 		final SCommon cc = RoleConfigManager.getRoleCommonConfig(309);
 		if (cc == null) {
-			logger.error("CGetChargeRefunds.充值返还等级通用配置309为null!userid:" + userid + ",roleid:" + roleid);
+			logger.error("CGetChargeRefunds.充�?�返还等级�?�用配置309为null!userid:" + userid + ",roleid:" + roleid);
 			return;
 		}
 		int rolelevel = xtable.Properties.selectLevel(roleid);
 		if(rolelevel < (cc == null ? 0 : Integer.parseInt(cc.getValue()))) {
-			logger.error("CGetChargeRefunds.等级不足,不返还!userid:" + userid + ",roleid:" + roleid);
+			logger.error("CGetChargeRefunds.等级不足,不返�?!userid:" + userid + ",roleid:" + roleid);
 			return;
 		}
 		

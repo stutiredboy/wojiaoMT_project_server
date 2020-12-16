@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CAttentionGoods__ extends mkio.Protocol { }
 
-/** å…³æ³¨æˆ–å–æ¶ˆå…³æ³¨å•†å“
+/** ¹Ø×¢»òÈ¡Ïû¹Ø×¢ÉÌÆ·
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -44,10 +44,10 @@ public class CAttentionGoods extends __CAttentionGoods__ {
 		return 810658;
 	}
 
-	public int attentype; // å…³æ³¨çŠ¶æ€ 1è´­ä¹°ï¼Œ2å…¬ç¤º
-	public long id; // å”¯ä¸€id(æ˜¯æœåŠ¡å™¨æ•°æ®åº“çš„id)
-	public int attentiontype; // å…³æ³¨ç±»å‹ 1å…³æ³¨  2å–æ¶ˆå…³æ³¨
-	public int itemtype; // 1æ™®é€šé“å…· 2å® ç‰© 3è£…å¤‡
+	public int attentype; // ¹Ø×¢×´Ì¬ 1¹ºÂò£¬2¹«Ê¾
+	public long id; // Î¨Ò»id(ÊÇ·şÎñÆ÷Êı¾İ¿âµÄid)
+	public int attentiontype; // ¹Ø×¢ÀàĞÍ 1¹Ø×¢  2È¡Ïû¹Ø×¢
+	public int itemtype; // 1ÆÕÍ¨µÀ¾ß 2³èÎï 3×°±¸
 
 	public CAttentionGoods() {
 	}

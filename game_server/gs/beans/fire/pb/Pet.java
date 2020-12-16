@@ -9,65 +9,65 @@ public class Pet implements Marshal {
 	public final static int FLAG_LOCK = 1;
 	public final static int FLAG_BIND = 2;
 
-	public int id; // å® ç‰©ID
+	public int id; // ³èÎïID
 	public int key; // key
-	public java.lang.String name; // åç§°
-	public int level; // ç­‰çº§
-	public int uselevel; // å‚æˆ˜ç­‰çº§
-	public int xuemai; // å® ç‰©å½“å‰èµ„è´¨æµ“åº¦å€¼
+	public java.lang.String name; // Ãû³Æ
+	public int level; // µÈ¼¶
+	public int uselevel; // ²ÎÕ½µÈ¼¶
+	public int xuemai; // ³èÎïµ±Ç°×ÊÖÊÅ¨¶ÈÖµ
 	public int gengu; // root-bone
-	public int colour; // é¢œè‰²å€¼
-	public int hp; // å½“å‰ç”Ÿå‘½
-	public int maxhp; // æœ€å¤§ç”Ÿå‘½
-	public int mp; // å½“å‰æ³•åŠ›
-	public int maxmp; // æœ€å¤§æ³•åŠ›
-	public int attack; // æ”»å‡»
-	public int defend; // é˜²å¾¡
-	public int speed; // é€Ÿåº¦
-	public int magicattack; // æ³•æœ¯æ”»å‡»
-	public int magicdef; // æ³•æœ¯é˜²å¾¡
-	public byte scale; // 1,2,3,4åˆ†åˆ«ä»£è¡¨4ä¸ªsize
-	public fire.pb.BasicFightProperties initbfp; // åˆå§‹çš„åŸºç¡€æˆ˜æ–—å±æ€§
-	public fire.pb.BasicFightProperties bfp; // åŸºç¡€æˆ˜æ–—å±æ€§
-	public short point; // æ½œèƒ½ã€‚æœªåˆ†é…ç‚¹æ•°
-	public byte autoaddcons; // åŠ ç‚¹æ–¹æ¡ˆ-å‡çº§è‡ªåŠ¨åŠ ä½“è´¨
-	public byte autoaddiq; // åŠ ç‚¹æ–¹æ¡ˆ-å‡çº§è‡ªåŠ¨åŠ æ™ºåŠ›
-	public byte autoaddstr; // åŠ ç‚¹æ–¹æ¡ˆ-å‡çº§è‡ªåŠ¨åŠ åŠ›é‡
-	public byte autoaddendu; // åŠ ç‚¹æ–¹æ¡ˆ-å‡çº§è‡ªåŠ¨åŠ è€åŠ›
-	public byte autoaddagi; // åŠ ç‚¹æ–¹æ¡ˆ-å‡çº§è‡ªåŠ¨åŠ æ•æ·
-	public short pointresetcount; // å® ç‰©åŠ ç‚¹çš„é‡ç½®æ¬¡æ•°
-	public long exp; // å½“å‰ç»éªŒ
-	public long nexp; // å‡çº§éœ€è¦ç»éªŒ
-	public int attackapt; // æ”»å‡»èµ„è´¨
-	public int defendapt; // é˜²å¾¡èµ„è´¨
-	public int phyforceapt; // ä½“åŠ›èµ„è´¨
-	public int magicapt; // æ³•åŠ›èµ„è´¨
-	public int speedapt; // é€Ÿåº¦èµ„è´¨
-	public int dodgeapt; // èº²é—ªèµ„è´¨
-	public float growrate; // æˆé•¿ç‡
-	public int life; // å¯¿å‘½
-	public int kind; // å® ç‰©ç±»å‹ é‡ç”Ÿã€å®å®
-	public java.util.LinkedList<fire.pb.Petskill> skills; // å® ç‰©æŠ€èƒ½
-	public java.util.HashMap<Integer,Long> skillexpires; // æœ‰æ—¶é™çš„å® ç‰©æŠ€èƒ½çš„åˆ°æœŸæ—¶é—´ã€‚key=æŠ€èƒ½idï¼Œvalue=åˆ°æœŸæ—¶é—´
-	public byte flag; // å® ç‰©æ ‡å¿— 1= é”å®šï¼Œ2 = ç»‘å®š
-	public long timeout; // å¦‚æœæ˜¯æ—¶é—´é”ï¼Œåˆ°æœŸæ—¶é—´ï¼ˆæ¯«ç§’ï¼‰
-	public long ownerid; // ä¸»äººid
-	public java.lang.String ownername; // ä¸»äººå
-	public int rank; // æ’è¡Œæ¦œæ’å
-	public short starid; // å½“å‰æ˜Ÿæ˜Ÿç­‰çº§Id
-	public short practisetimes; // å½“å‰å‰©ä½™çš„è®­ç»ƒæ¬¡æ•°
-	public java.util.HashMap<Integer,Integer> zizhi; // è®­ç»ƒåå¾—åˆ°çš„æœªåˆ†é…çš„èµ„è´¨
-	public int changegengu; // è®­ç»ƒåå¾—åˆ°çš„root-boneå˜åŒ–å€¼
-	public int skill_grids; // å® ç‰©æŠ€èƒ½æ ¼å­æ•°
-	public byte aptaddcount; // èµ„è´¨åŸ¹å…»æ¬¡æ•°
-	public byte growrateaddcount; // æˆé•¿ç‡åŸ¹å…»æ¬¡æ•°
-	public short washcount; // æ´—ç»ƒæ¬¡æ•°
-	public int petscore; // å® ç‰©è¯„åˆ†
-	public int petbasescore; // å® ç‰©ä¸€çº§å±æ€§è¯„åˆ†
-	public int petdye1; // å® ç‰©æŸ“è‰²éƒ¨ä½1
-	public int petdye2; // å® ç‰©æŸ“è‰²éƒ¨ä½2
-	public int shenshouinccount; // ç¥å…½å…»æˆæ¬¡æ•°
-	public long marketfreezeexpire; // æ‘†æ‘Šå†»ç»“æˆªæ­¢æ—¶é—´,é»˜è®¤0ä¸å†»ç»“
+	public int colour; // ÑÕÉ«Öµ
+	public int hp; // µ±Ç°ÉúÃü
+	public int maxhp; // ×î´óÉúÃü
+	public int mp; // µ±Ç°·¨Á¦
+	public int maxmp; // ×î´ó·¨Á¦
+	public int attack; // ¹¥»÷
+	public int defend; // ·ÀÓù
+	public int speed; // ËÙ¶È
+	public int magicattack; // ·¨Êõ¹¥»÷
+	public int magicdef; // ·¨Êõ·ÀÓù
+	public byte scale; // 1,2,3,4·Ö±ğ´ú±í4¸ösize
+	public fire.pb.BasicFightProperties initbfp; // ³õÊ¼µÄ»ù´¡Õ½¶·ÊôĞÔ
+	public fire.pb.BasicFightProperties bfp; // »ù´¡Õ½¶·ÊôĞÔ
+	public short point; // Ç±ÄÜ¡£Î´·ÖÅäµãÊı
+	public byte autoaddcons; // ¼Óµã·½°¸-Éı¼¶×Ô¶¯¼ÓÌåÖÊ
+	public byte autoaddiq; // ¼Óµã·½°¸-Éı¼¶×Ô¶¯¼ÓÖÇÁ¦
+	public byte autoaddstr; // ¼Óµã·½°¸-Éı¼¶×Ô¶¯¼ÓÁ¦Á¿
+	public byte autoaddendu; // ¼Óµã·½°¸-Éı¼¶×Ô¶¯¼ÓÄÍÁ¦
+	public byte autoaddagi; // ¼Óµã·½°¸-Éı¼¶×Ô¶¯¼ÓÃô½İ
+	public short pointresetcount; // ³èÎï¼ÓµãµÄÖØÖÃ´ÎÊı
+	public long exp; // µ±Ç°¾­Ñé
+	public long nexp; // Éı¼¶ĞèÒª¾­Ñé
+	public int attackapt; // ¹¥»÷×ÊÖÊ
+	public int defendapt; // ·ÀÓù×ÊÖÊ
+	public int phyforceapt; // ÌåÁ¦×ÊÖÊ
+	public int magicapt; // ·¨Á¦×ÊÖÊ
+	public int speedapt; // ËÙ¶È×ÊÖÊ
+	public int dodgeapt; // ¶ãÉÁ×ÊÖÊ
+	public float growrate; // ³É³¤ÂÊ
+	public int life; // ÊÙÃü
+	public int kind; // ³èÎïÀàĞÍ Ò°Éú¡¢±¦±¦
+	public java.util.LinkedList<fire.pb.Petskill> skills; // ³èÎï¼¼ÄÜ
+	public java.util.HashMap<Integer,Long> skillexpires; // ÓĞÊ±ÏŞµÄ³èÎï¼¼ÄÜµÄµ½ÆÚÊ±¼ä¡£key=¼¼ÄÜid£¬value=µ½ÆÚÊ±¼ä
+	public byte flag; // ³èÎï±êÖ¾ 1= Ëø¶¨£¬2 = °ó¶¨
+	public long timeout; // Èç¹ûÊÇÊ±¼äËø£¬µ½ÆÚÊ±¼ä£¨ºÁÃë£©
+	public long ownerid; // Ö÷ÈËid
+	public java.lang.String ownername; // Ö÷ÈËÃû
+	public int rank; // ÅÅĞĞ°ñÅÅÃû
+	public short starid; // µ±Ç°ĞÇĞÇµÈ¼¶Id
+	public short practisetimes; // µ±Ç°Ê£ÓàµÄÑµÁ·´ÎÊı
+	public java.util.HashMap<Integer,Integer> zizhi; // ÑµÁ·ºóµÃµ½µÄÎ´·ÖÅäµÄ×ÊÖÊ
+	public int changegengu; // ÑµÁ·ºóµÃµ½µÄroot-bone±ä»¯Öµ
+	public int skill_grids; // ³èÎï¼¼ÄÜ¸ñ×ÓÊı
+	public byte aptaddcount; // ×ÊÖÊÅàÑø´ÎÊı
+	public byte growrateaddcount; // ³É³¤ÂÊÅàÑø´ÎÊı
+	public short washcount; // Ï´Á·´ÎÊı
+	public int petscore; // ³èÎïÆÀ·Ö
+	public int petbasescore; // ³èÎïÒ»¼¶ÊôĞÔÆÀ·Ö
+	public int petdye1; // ³èÎïÈ¾É«²¿Î»1
+	public int petdye2; // ³èÎïÈ¾É«²¿Î»2
+	public int shenshouinccount; // ÉñÊŞÑø³É´ÎÊı
+	public long marketfreezeexpire; // °ÚÌ¯¶³½á½ØÖ¹Ê±¼ä,Ä¬ÈÏ0²»¶³½á
 
 	public Pet() {
 		name = "";

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGoldOrderBrowseBlackMarket__ extends mkio.Protocol { }
 
-/** é‡‘å¸è®¢å•æµè§ˆ
+/** ½ğ±Ò¶©µ¥ä¯ÀÀ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PvP5RoleSingleScoreMid implements Marshal {
-	public byte listid; // æ‰€åœ¨åˆ—è¡¨(1 or 2)
-	public short index; // æ’å
-	public long roleid; // è§’è‰²ID
-	public java.lang.String rolename; // è§’è‰²åç§°
-	public int score; // ç§¯åˆ†
-	public byte battlenum; // æœ¬åœºå·²ç»æˆ˜æ–—çš„æ¬¡æ•°
-	public byte winnum; // æœ¬åœºèƒœåˆ©æ¬¡æ•°
+	public byte listid; // ËùÔÚÁĞ±í(1 or 2)
+	public short index; // ÅÅÃû
+	public long roleid; // ½ÇÉ«ID
+	public java.lang.String rolename; // ½ÇÉ«Ãû³Æ
+	public int score; // »ı·Ö
+	public byte battlenum; // ±¾³¡ÒÑ¾­Õ½¶·µÄ´ÎÊı
+	public byte winnum; // ±¾³¡Ê¤Àû´ÎÊı
 
 	public PvP5RoleSingleScoreMid() {
 		rolename = "";

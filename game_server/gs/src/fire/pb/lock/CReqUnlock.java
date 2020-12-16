@@ -28,7 +28,7 @@ public class CReqUnlock extends __CReqUnlock__ {
 		return 818935;
 	}
 
-	public java.lang.String password; // å¯†ç 
+	public java.lang.String password; // ÃÜÂë
 
 	public CReqUnlock() {
 		password = "";

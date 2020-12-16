@@ -25,9 +25,9 @@ public class SGetClanFightList extends __SGetClanFightList__ {
 		return 808533;
 	}
 
-	public java.util.LinkedList<fire.pb.clan.fight.ClanFight> clanfightlist; // å½“å‰è¿™è½®çš„å¯¹é˜µä¿¡æ¯é“¾è¡¨ by changhao
-	public int curweek; // å½“å‰è½®æ•°(ä»0å¼€å§‹, è¿”å›-1è¡¨ç¤ºè¿˜æ²¡å¼€å§‹æˆ–å·²ç»è¿‡äº†8è½®) by changhao
-	public int over; // 0æ˜¯æ²¡ç»“æŸ1æ˜¯å·²ç»“æŸ by changhao
+	public java.util.LinkedList<fire.pb.clan.fight.ClanFight> clanfightlist; // µ±Ç°ÕâÂÖµÄ¶ÔÕóĞÅÏ¢Á´±í by changhao
+	public int curweek; // µ±Ç°ÂÖÊı(´Ó0¿ªÊ¼, ·µ»Ø-1±íÊ¾»¹Ã»¿ªÊ¼»òÒÑ¾­¹ıÁË8ÂÖ) by changhao
+	public int over; // 0ÊÇÃ»½áÊø1ÊÇÒÑ½áÊø by changhao
 
 	public SGetClanFightList() {
 		clanfightlist = new java.util.LinkedList<fire.pb.clan.fight.ClanFight>();

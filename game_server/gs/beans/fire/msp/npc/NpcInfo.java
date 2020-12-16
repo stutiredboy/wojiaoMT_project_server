@@ -6,17 +6,17 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class NpcInfo implements Marshal {
-	public long npckey; // npckeyç”±GSæ¨¡å—è´Ÿè´£ç”Ÿæˆ
+	public long npckey; // npckeyÓÉGSÄ£¿é¸ºÔğÉú³É
 	public int npcbaseid; // npcbaseId
-	public java.lang.String name; // npcåç§°
-	public int shape; // npcé€ å‹
-	public long sceneid; // åœºæ™¯id
-	public int mapid; // åœ°å›¾id
-	public java.lang.String mapname; // åœºæ™¯å
-	public int posx; // åæ ‡
+	public java.lang.String name; // npcÃû³Æ
+	public int shape; // npcÔìĞÍ
+	public long sceneid; // ³¡¾°id
+	public int mapid; // µØÍ¼id
+	public java.lang.String mapname; // ³¡¾°Ãû
+	public int posx; // ×ø±ê
 	public int posy;
 	public int posz;
-	public long time; // é™æ—¶NPCçš„æŒç»­æ—¶é—´ï¼Œé»˜è®¤ä¸º0æ—¶ä¸æ˜¯é™æ—¶NPC
+	public long time; // ÏŞÊ±NPCµÄ³ÖĞøÊ±¼ä£¬Ä¬ÈÏÎª0Ê±²»ÊÇÏŞÊ±NPC
 
 	public NpcInfo() {
 		name = "";

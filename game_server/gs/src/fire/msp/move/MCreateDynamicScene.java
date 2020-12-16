@@ -32,9 +32,9 @@ public class MCreateDynamicScene extends __MCreateDynamicScene__ {
 		return 724912;
 	}
 
-	public long sceneid; // åœºæ™¯æ¨¡å—åˆ›å»ºçš„åœºæ™¯ID
-	public long ownerid; // å‰¯æœ¬çš„æ‰€æœ‰è€…ID(å¯èƒ½æ˜¯è§’è‰²ID,ä¹Ÿå¯èƒ½æ˜¯å›¢ä½“ID)
-	public int scenetype; // å‰¯æœ¬åœºæ™¯çš„ç±»å‹ï¼Œå¦‚æœä¸º0ï¼Œè¡¨ç¤ºä¸ºé™æ€åœºæ™¯
+	public long sceneid; // ³¡¾°Ä£¿é´´½¨µÄ³¡¾°ID
+	public long ownerid; // ¸±±¾µÄËùÓĞÕßID(¿ÉÄÜÊÇ½ÇÉ«ID,Ò²¿ÉÄÜÊÇÍÅÌåID)
+	public int scenetype; // ¸±±¾³¡¾°µÄÀàĞÍ£¬Èç¹ûÎª0£¬±íÊ¾Îª¾²Ì¬³¡¾°
 
 	public MCreateDynamicScene() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGiveItem__ extends mkio.Protocol { }
 
-/** èµ é€é“å…·ç»“æœ
+/** ÔùËÍµÀ¾ß½á¹û
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SGiveItem extends __SGiveItem__ {
 		return 806636;
 	}
 
-	public long roleid; // èµ é€ç›®æ ‡çš„è§’è‰²id
-	public byte itemnum; // èµ é€é“å…·æ•°é‡
+	public long roleid; // ÔùËÍÄ¿±êµÄ½ÇÉ«id
+	public byte itemnum; // ÔùËÍµÀ¾ßÊıÁ¿
 
 	public SGiveItem() {
 	}

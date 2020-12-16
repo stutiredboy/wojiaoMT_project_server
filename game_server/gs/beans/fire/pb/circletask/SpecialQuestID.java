@@ -6,7 +6,7 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SpecialQuestID implements Marshal , Comparable<SpecialQuestID>{
-	public final static int catchIt = 1030000; // æ‰é¬¼ä»»åŠ¡
+	public final static int catchIt = 1030000; // ×½¹íÈÎÎñ
 
 
 	public SpecialQuestID() {

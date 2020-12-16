@@ -25,8 +25,8 @@ public class SReqColorRoomView extends __SReqColorRoomView__ {
 		return 786535;
 	}
 
-	public int nummax; // æœ€å¤§ç©ºé—´
-	public java.util.LinkedList<fire.pb.RoleColorType> rolecolortypelist; // æŸ“è‰²æ–¹æ¡ˆåˆ—è¡¨
+	public int nummax; // ×î´ó¿Õ¼ä
+	public java.util.LinkedList<fire.pb.RoleColorType> rolecolortypelist; // È¾É«·½°¸ÁÐ±í
 
 	public SReqColorRoomView() {
 		rolecolortypelist = new java.util.LinkedList<fire.pb.RoleColorType>();

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPetError__ extends mkio.Protocol { }
 
-/** å® ç‰©ç›¸å…³æ“ä½œå‡ºé”™
+/** ³èÎïÏà¹Ø²Ù×÷³ö´í
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SPetError extends __SPetError__ {
 		return 788449;
 	}
 
-	public int peterror; // å…·ä½“å‚è§ PetErrçš„å®šä¹‰
+	public int peterror; // ¾ßÌå²Î¼û PetErrµÄ¶¨Òå
 
 	public SPetError() {
 	}

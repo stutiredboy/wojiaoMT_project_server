@@ -25,13 +25,13 @@ public class SAddPointAttrData extends __SAddPointAttrData__ {
 		return 786531;
 	}
 
-	public float max_hp; // 鐢熷懡
-	public float max_mp; // 榄旀硶
-	public float attack; // 鐗╂敾
-	public float defend; // 鐗╅槻
-	public float magic_attack; // 娉曟敾
-	public float magic_def; // 娉曢槻
-	public float speed; // 閫熷害
+	public float max_hp; // 生命
+	public float max_mp; // 魔法
+	public float attack; // 物攻
+	public float defend; // 物防
+	public float magic_attack; // 法攻
+	public float magic_def; // 法防
+	public float speed; // 速度
 
 	public SAddPointAttrData() {
 	}

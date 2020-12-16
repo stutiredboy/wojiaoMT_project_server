@@ -37,7 +37,7 @@ public class CListDepot extends __CListDepot__ {
 		return 787762;
 	}
 
-	public int pageid; // ä»“åº“çš„é¡µæ•°
+	public int pageid; // ²Ö¿âµÄÒ³Êý
 
 	public CListDepot() {
 	}

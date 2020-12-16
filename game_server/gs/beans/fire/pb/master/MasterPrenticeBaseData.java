@@ -7,8 +7,8 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class MasterPrenticeBaseData implements Marshal {
 	public long roleid; // roleid
-	public java.lang.String nickname; // 鍚嶅瓧
-	public int level; // 濡傛灉鏄笀鐖讹紝鍙戦�佸緬寮熸嫓甯堟椂鐨勭瓑绾э紝濡傛灉鏄緬寮燂紝寰掑紵褰撳墠绛夌骇
+	public java.lang.String nickname; // 名字
+	public int level; // 如果是师父，发送徒弟拜师时的等级，如果是徒弟，徒弟当前等级
 
 	public MasterPrenticeBaseData() {
 		nickname = "";

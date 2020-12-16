@@ -29,8 +29,8 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 		return 810489;
 	}
 
-	public int srcweaponkey; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Key
-	public int newweapontypeid; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ItemId
+	public int srcweaponkey; // ¾ÉÎäÆ÷µÄKey
+	public int newweapontypeid; // ĞÂÎäÆ÷ItemId
 
 	public CChangeWeapon() {
 	}

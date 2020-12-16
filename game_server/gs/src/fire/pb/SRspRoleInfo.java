@@ -26,11 +26,11 @@ public class SRspRoleInfo extends __SRspRoleInfo__ {
 	}
 
 	public java.util.HashMap<Integer,Long> hpmpstore;
-	public int wencaivalue; // å€¼
-	public int wuxun; // åŠŸåŠ›å€¼
-	public int gongde; // å…¬å¾·å€¼
-	public long honour; // è£èª‰å€¼
-	public int reqkey; // è¯·æ±‚ç±»å‹ 1è¡¨ç¤ºè¯·æ±‚äººç‰©ä¿¡æ¯ç•Œé¢;2 è¡¨ç¤ºæˆ˜æ–—ç»“æŸ
+	public int wencaivalue; // Öµ
+	public int wuxun; // ¹¦Á¦Öµ
+	public int gongde; // ¹«µÂÖµ
+	public long honour; // ÈÙÓşÖµ
+	public int reqkey; // ÇëÇóÀàĞÍ 1±íÊ¾ÇëÇóÈËÎïĞÅÏ¢½çÃæ;2 ±íÊ¾Õ½¶·½áÊø
 
 	public SRspRoleInfo() {
 		hpmpstore = new java.util.HashMap<Integer,Long>();

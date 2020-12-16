@@ -35,7 +35,7 @@ public class GRoleChangeShape extends __GRoleChangeShape__ {
 			{
 				role.sendAround(send);
 			}
-			// 发送给队员,如果有的话
+			// 发�?�给队员,如果有的�?
 			if (!teammembers.isEmpty())
 				gnet.link.Onlines.getInstance().send(teammembers, send);
 	}

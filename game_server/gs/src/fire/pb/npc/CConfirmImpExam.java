@@ -16,7 +16,7 @@ abstract class __CConfirmImpExam__ extends mkio.Protocol { }
 public class CConfirmImpExam extends __CConfirmImpExam__ {
 	@Override
 	protected void process() {
-		//这个protocal在全村统考,全省统考,全国统考都会用到.
+		//这个protocal在全村统�?,全省统�??,全国统�?�都会用�?.
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid >0){
 			new PConfirmProc(roleid, impexamtype, operate).submit();
@@ -31,8 +31,8 @@ public class CConfirmImpExam extends __CConfirmImpExam__ {
 		return 795459;
 	}
 
-	public int impexamtype; // 考试类型
-	public byte operate; // 0=愿意  1=放弃参加
+	public int impexamtype; // ��������
+	public byte operate; // 0=Ը��  1=�����μ�
 
 	public CConfirmImpExam() {
 	}

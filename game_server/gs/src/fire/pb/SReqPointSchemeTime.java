@@ -25,7 +25,7 @@ public class SReqPointSchemeTime extends __SReqPointSchemeTime__ {
 		return 786542;
 	}
 
-	public int schemetimes; // 鍒囨崲鍔犵偣鏂规娆℃暟
+	public int schemetimes; // 切换加点方案次数
 
 	public SReqPointSchemeTime() {
 	}

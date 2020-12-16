@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRolePlayAction__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨å¹¿æ’­è§’è‰²åšæŸä¸ªåŠ¨ä½œ
+/** ·şÎñÆ÷¹ã²¥½ÇÉ«×öÄ³¸ö¶¯×÷
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,7 +28,7 @@ public class SRolePlayAction extends __SRolePlayAction__ {
 	}
 
 	public long roleid;
-	public byte actionid; // å¦‚æœä¸º0ï¼Œåˆ™ä¸ºå–æ¶ˆå½“å‰çš„æŒç»­æ€§åŠ¨ä½œ
+	public byte actionid; // Èç¹ûÎª0£¬ÔòÎªÈ¡Ïûµ±Ç°µÄ³ÖĞøĞÔ¶¯×÷
 
 	public SRolePlayAction() {
 	}

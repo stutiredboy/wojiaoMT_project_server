@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CItemRecover__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚é“å…·æ‰¾å›
+/** ¿Í»§¶ËÇëÇóµÀ¾ßÕÒ»Ø
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CItemRecover extends __CItemRecover__ {
 		return 787795;
 	}
 
-	public long uniqid; // å”¯ä¸€id
+	public long uniqid; // Î¨Ò»id
 
 	public CItemRecover() {
 	}

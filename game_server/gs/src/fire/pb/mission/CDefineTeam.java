@@ -52,7 +52,7 @@ public class CDefineTeam extends __CDefineTeam__ {
 					return false;
 				
 				if (answer == 1) {
-					//直接进入队长所在的动态场景中
+					//直接进入队长�?在的动�?�场景中
 					long leaderroleId = team.getTeamInfo().getTeamleaderid();
 					
 					Role leaderRole = RoleManager.getInstance().getRoleByID(leaderroleId);
@@ -96,7 +96,7 @@ public class CDefineTeam extends __CDefineTeam__ {
 		return 805548;
 	}
 
-	public short answer; // 1表示同意, 0表示不同意
+	public short answer; // 1��ʾͬ��, 0��ʾ��ͬ��
 
 	public CDefineTeam() {
 	}

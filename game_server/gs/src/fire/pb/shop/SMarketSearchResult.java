@@ -25,13 +25,13 @@ public class SMarketSearchResult extends __SMarketSearchResult__ {
 		return 810663;
 	}
 
-	public int browsetype; // æµè§ˆç±»å‹  1 æˆ‘è¦è´­ä¹° 2å…¬ç¤ºç‰©å“
-	public int firstno; // ä¸€çº§é¡µç­¾ç±»å‹
-	public int twono; // äºŒçº§é¡µç­¾ç±»å‹
-	public java.util.ArrayList<Integer> threeno; // ä¸‰çº§é¡µç­¾ç±»å‹
-	public int currpage; // å½“å‰é¡µ
-	public int totalpage; // æ€»é¡µæ•°
-	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // æŸ¥çœ‹ç‰©å“åˆ—è¡¨
+	public int browsetype; // ä¯ÀÀÀàĞÍ  1 ÎÒÒª¹ºÂò 2¹«Ê¾ÎïÆ·
+	public int firstno; // Ò»¼¶Ò³Ç©ÀàĞÍ
+	public int twono; // ¶ş¼¶Ò³Ç©ÀàĞÍ
+	public java.util.ArrayList<Integer> threeno; // Èı¼¶Ò³Ç©ÀàĞÍ
+	public int currpage; // µ±Ç°Ò³
+	public int totalpage; // ×ÜÒ³Êı
+	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // ²é¿´ÎïÆ·ÁĞ±í
 
 	public SMarketSearchResult() {
 		threeno = new java.util.ArrayList<Integer>();

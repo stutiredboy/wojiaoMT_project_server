@@ -26,9 +26,9 @@ public class SSendPrenticeOnLineState extends __SSendPrenticeOnLineState__ {
 	}
 
 	public long roleid;
-	public java.lang.String rolename; // å¾’å¼Ÿçš„åå­—
-	public long lastofflinetime; // ä¸Šæ¬¡ä¸‹çº¿æ—¶é—´
-	public byte onlinestate; // åœ¨çº¿çŠ¶æ€
+	public java.lang.String rolename; // Í½µÜµÄÃû×Ö
+	public long lastofflinetime; // ÉÏ´ÎÏÂÏßÊ±¼ä
+	public byte onlinestate; // ÔÚÏß×´Ì¬
 
 	public SSendPrenticeOnLineState() {
 		rolename = "";

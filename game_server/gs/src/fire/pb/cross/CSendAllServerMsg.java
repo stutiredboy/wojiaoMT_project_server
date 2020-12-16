@@ -26,7 +26,7 @@ public class CSendAllServerMsg extends __CSendAllServerMsg__ {
 	}
 
 	public java.lang.String worldmsg;
-	public int flag; // 1=è·¨æœæˆ˜é˜Ÿèµ›æ¶ˆæ¯ 2=æ™®é€šä¸–ç•Œæ¶ˆæ¯
+	public int flag; // 1=¿ç·şÕ½¶ÓÈüÏûÏ¢ 2=ÆÕÍ¨ÊÀ½çÏûÏ¢
 
 	public CSendAllServerMsg() {
 		worldmsg = "";

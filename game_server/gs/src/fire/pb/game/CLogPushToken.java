@@ -9,7 +9,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CLogPushToken__ extends mkio.Protocol { }
 
-/** 推送Token日志
+/** ����Token��־
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -25,7 +25,7 @@ public class CLogPushToken extends __CLogPushToken__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				logger.error("收到客户端推送消息, RoleId=" + roleId + ", Token=" + token);
+				logger.error("收到客户端推送消�?, RoleId=" + roleId + ", Token=" + token);
 				return true;
 			}
 		}.submit();
@@ -39,7 +39,7 @@ public class CLogPushToken extends __CLogPushToken__ {
 		return 810374;
 	}
 
-	public int token; // 客户端发来的token
+	public int token; // �ͻ��˷�����token
 
 	public CLogPushToken() {
 	}

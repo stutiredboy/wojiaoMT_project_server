@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class DynamicSceneType implements Marshal , Comparable<DynamicSceneType>{
-	public final static int NORMAL_SCENE = 0; // æ™®é€šåŠ¨æ€åœºæ™¯
-	public final static int FACTION_SCENE = 1; // å…¬ä¼šåœºæ™¯
-	public final static int FAMILY_SCENE = 2; // åœºæ™¯
-	public final static int DREAMLAND_SCENE = 4; // è™šå¹»å¢ƒåœºæ™¯
+	public final static int NORMAL_SCENE = 0; // ÆÕÍ¨¶¯Ì¬³¡¾°
+	public final static int FACTION_SCENE = 1; // ¹«»á³¡¾°
+	public final static int FAMILY_SCENE = 2; // ³¡¾°
+	public final static int DREAMLAND_SCENE = 4; // Ğé»Ã¾³³¡¾°
 
 
 	public DynamicSceneType() {

@@ -25,13 +25,13 @@ public class SGetGoodLocksInfo extends __SGetGoodLocksInfo__ {
 		return 786581;
 	}
 
-	public java.lang.String password; // å®‰å…¨é”å¯†ç 
-	public long forcedelpdtime; // å¼ºåˆ¶åˆ é™¤å¯†ç æ—¶é—´
-	public long forcedelendtime; // å¼ºåˆ¶åˆ é™¤å¯†ç ç»“æŸæ—¶é—´
-	public byte isfistloginofday; // æ˜¯å¦ç¬¬ä¸€æ¬¡ç™»é™†
-	public byte errortimes; // å¯†ç è¾“å…¥é”™è¯¯æ¬¡æ•°
-	public long lockendtime; // é”å®šç»“æŸæ—¶é—´ç‚¹
-	public byte isopensafelock; // æ˜¯å¦å¼€å¯äº†é“å…·å®‰å…¨é”
+	public java.lang.String password; // °²È«ËøÃÜÂë
+	public long forcedelpdtime; // Ç¿ÖÆÉ¾³ıÃÜÂëÊ±¼ä
+	public long forcedelendtime; // Ç¿ÖÆÉ¾³ıÃÜÂë½áÊøÊ±¼ä
+	public byte isfistloginofday; // ÊÇ·ñµÚÒ»´ÎµÇÂ½
+	public byte errortimes; // ÃÜÂëÊäÈë´íÎó´ÎÊı
+	public long lockendtime; // Ëø¶¨½áÊøÊ±¼äµã
+	public byte isopensafelock; // ÊÇ·ñ¿ªÆôÁËµÀ¾ß°²È«Ëø
 
 	public SGetGoodLocksInfo() {
 		password = "";

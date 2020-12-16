@@ -6,15 +6,15 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class InvitationRoleInfo implements Marshal {
-	public long roleid; // è§’è‰²Id
-	public java.lang.String rolename; // è§’è‰²å
-	public int shape; // è§’è‰²é€ å‹
-	public int level; // è§’è‰²ç­‰çº§
-	public int sex; // æ€§åˆ«
-	public int school; // èŒä¸š
-	public int fightvalue; // ç»¼åˆæˆ˜åŠ›
+	public long roleid; // ½ÇÉ«Id
+	public java.lang.String rolename; // ½ÇÉ«Ãû
+	public int shape; // ½ÇÉ«ÔìĞÍ
+	public int level; // ½ÇÉ«µÈ¼¶
+	public int sex; // ĞÔ±ğ
+	public int school; // Ö°Òµ
+	public int fightvalue; // ×ÛºÏÕ½Á¦
 	public int vip; // vip
-	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
+	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
 
 	public InvitationRoleInfo() {
 		rolename = "";

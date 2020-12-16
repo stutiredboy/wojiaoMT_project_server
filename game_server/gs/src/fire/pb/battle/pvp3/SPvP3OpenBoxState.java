@@ -25,8 +25,8 @@ public class SPvP3OpenBoxState extends __SPvP3OpenBoxState__ {
 		return 793654;
 	}
 
-	public byte boxtype; // 1:é¦–èƒœï¼Œ2ï¼šåæˆ˜ï¼Œ3ï¼šäº”èƒœ
-	public byte state; // 0ï¼šä¸å¯é¢†å–ï¼Œ1ï¼šå¯é¢†å–ï¼Œ2ï¼šå·²é¢†å–
+	public byte boxtype; // 1:Ê×Ê¤£¬2£ºÊ®Õ½£¬3£ºÎåÊ¤
+	public byte state; // 0£º²»¿ÉÁìÈ¡£¬1£º¿ÉÁìÈ¡£¬2£ºÒÑÁìÈ¡
 
 	public SPvP3OpenBoxState() {
 	}

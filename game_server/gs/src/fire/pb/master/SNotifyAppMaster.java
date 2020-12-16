@@ -25,7 +25,7 @@ public class SNotifyAppMaster extends __SNotifyAppMaster__ {
 		return 816484;
 	}
 
-	public java.lang.String mastername; // å¸ˆå‚…çš„åå­—
+	public java.lang.String mastername; // Ê¦¸µµÄÃû×Ö
 
 	public SNotifyAppMaster() {
 		mastername = "";

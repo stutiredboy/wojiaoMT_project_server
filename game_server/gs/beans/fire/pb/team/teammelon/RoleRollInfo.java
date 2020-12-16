@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 public class RoleRollInfo implements Marshal {
 	public long roleid;
 	public java.lang.String rolename;
-	public int roll; // å¦‚æžœæ˜¯0å°±æ˜¯æ”¾å¼ƒäº† by changhao
+	public int roll; // Èç¹ûÊÇ0¾ÍÊÇ·ÅÆúÁË by changhao
 
 	public RoleRollInfo() {
 		rolename = "";

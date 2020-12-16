@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGoldOrderTakeOutBlackMarket__ extends mkio.Protocol { }
 
-/** 閲戝竵璁㈠崟鍙栧嚭閲戝竵
+/** 金币订单取出金币
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -38,7 +38,7 @@ public class CGoldOrderTakeOutBlackMarket extends __CGoldOrderTakeOutBlackMarket
 		return 810672;
 	}
 
-	public long pid; // 璁㈠崟缂栧彿
+	public long pid; // 订单编号
 
 	public CGoldOrderTakeOutBlackMarket() {
 	}

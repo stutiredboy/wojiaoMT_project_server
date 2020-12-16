@@ -25,9 +25,9 @@ public class SSearchPrentice extends __SSearchPrentice__ {
 		return 816447;
 	}
 
-	public int pageid; // é¡µæ•°
-	public int totalpage; // æ€»é¡µæ•°
-	public java.util.ArrayList<fire.pb.master.Prentice> prentice; // å¾’å¼Ÿ
+	public int pageid; // Ò³Êý
+	public int totalpage; // ×ÜÒ³Êý
+	public java.util.ArrayList<fire.pb.master.Prentice> prentice; // Í½µÜ
 
 	public SSearchPrentice() {
 		prentice = new java.util.ArrayList<fire.pb.master.Prentice>();

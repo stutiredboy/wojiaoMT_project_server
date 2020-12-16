@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ClanSkill implements Marshal , Comparable<ClanSkill>{
-	public int clanskillid; // æŠ€èƒ½id
-	public int clanskilllevel; // æŠ€èƒ½å½“å‰ç­‰çº§
-	public int clanskillmaxlevel; // æŠ€èƒ½ç­‰çº§ä¸Šé™
-	public int clanskillcurexp; // æŠ€èƒ½å½“å‰ç»éªŒ
-	public int clanskilllevelupexp; // æŠ€èƒ½å‡çº§æ‰€éœ€ç»éªŒ
+	public int clanskillid; // ¼¼ÄÜid
+	public int clanskilllevel; // ¼¼ÄÜµ±Ç°µÈ¼¶
+	public int clanskillmaxlevel; // ¼¼ÄÜµÈ¼¶ÉÏÏŞ
+	public int clanskillcurexp; // ¼¼ÄÜµ±Ç°¾­Ñé
+	public int clanskilllevelupexp; // ¼¼ÄÜÉı¼¶ËùĞè¾­Ñé
 
 	public ClanSkill() {
 	}

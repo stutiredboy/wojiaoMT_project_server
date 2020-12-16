@@ -48,18 +48,18 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//邀请切磋
+		//�?请切�?
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (hostid<0){
 			return;
 		}
-		//自己不能邀请自己
+		//自己不能�?请自�?
 		if(hostid==objectid){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 166006, 0, null);
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 			return;
 		}
-		//判断如果有队伍，不是队长无法邀请
+		//判断如果有队伍，不是队长无法�?�?
 		Team hostTeam = TeamManager.selectTeamByRoleId(hostid);
 		if (hostTeam != null && hostTeam.isNormalMember(hostid)){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 120061, 0, null);
@@ -67,7 +67,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			return;
 		}
 		
-		//判断目标是否有队伍，需要考虑目标在队伍中的状态
+		//判断目标是否有队伍，�?要�?�虑目标在队伍中的状�?
 		Team guestteam = TeamManager.selectTeamByRoleId(objectid);
 		if(guestteam!=null){
 			//判断是否在队伍中，如果在队伍中需要替换队长的id
@@ -90,14 +90,14 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,194038, null);
 			return;
 		}
-		//判断自己是否在副本，在副本无法发送请求
+		//判断自己是否在副本，在副本无法发送请�?
 		MapConfig cfg = ConfigManager.getInstance().getConf(MapConfig.class).get(hostRole.getMapId());
 		if(cfg.dynamic ==1){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 			return ;
 		}
-		//竞技场地图无法切磋
+		//竞技场地图无法切�?
 		if (PvPHelperManager.isPvPMap(hostRole.getMapId())) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
 			sendremoveTickTime(hostid);//通知客户端取消定时器
@@ -111,7 +111,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 		}
 		
-		//判断自己是否在战斗或者观战
+		//判断自己是否在战斗或者观�?
 		BuffAgent hostAgent = new BuffRoleImpl(hostid, true);
 		if (hostAgent.existBuff(BuffConstant.StateType.STATE_REPLAY)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_FIGHTER)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_WATCHER)) {
 			MessageMgr.sendMsgNotify(hostid, 160494, null);
@@ -144,7 +144,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			return ;
 		}
 		
-		// 判断两者之间的距离
+		// 判断两�?�之间的距离
 		if (!fire.pb.battle.PSendInvitePlayPK.checkRoleDistance(hostid, objectid)){
             fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 120063, 0, null);
             sendremoveTickTime(hostid);//通知客户端取消定时器
@@ -154,13 +154,13 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 		//判断是否是一个队伍的成员
 		if (guestteam != null){
 			if(guestteam.getTeamLeaderId()==hostid){
-				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//提示不能邀请同组队员
+				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//提示不能�?请同组队�?
 				sendremoveTickTime(hostid);//通知客户端取消定时器
 				return;
 			}
 			if(hostTeam!=null){
 				if(guestteam.getTeamId()==hostTeam.getTeamId()){
-					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//提示不能邀请同组队员
+					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//提示不能�?请同组队�?
 					sendremoveTickTime(hostid);//通知客户端取消定时器
 					return;
 				}
@@ -178,7 +178,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 				}
 			}
 		}else{
-			//自己等级不足，无法邀请
+			//自己等级不足，无法邀�?
 			PropRole propRole = new PropRole(hostid, true);
 			if(propRole.getLevel()< CSendInvitePlayPK.PVP_LEVEL){
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162000 ,null);
@@ -197,7 +197,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 				}
 			}
 		}else{
-			//目标等级不足，无法邀请
+			//目标等级不足，无法邀�?
 			PropRole propRole = new PropRole(objectid, true);
 			if(propRole.getLevel()< CSendInvitePlayPK.PVP_LEVEL){
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160491 ,null);
@@ -219,7 +219,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 		}
 		
 		
-		//判断目标是否在正常地图
+		//判断目标是否在正常地�?
 		MapConfig cfg2 = ConfigManager.getInstance().getConf(MapConfig.class).get(gRole.getMapId());
 		if(cfg2.dynamic ==1){
 			//提示目标玩家不在正常地图
@@ -227,7 +227,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 			return ;
 		}
-		//判断是否在战斗或者观战     对方在战斗和观战不能发送邀请
+		//判断是否在战斗或者观�?     对方在战斗和观战不能发�?�邀�?
 		BuffAgent guestAgent = new BuffRoleImpl(objectid, true);
 		if (guestAgent.existBuff(BuffConstant.StateType.STATE_REPLAY)||guestAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_FIGHTER)||guestAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_WATCHER)) {
 			MessageMgr.sendMsgNotify(hostid, 144987, null);
@@ -239,13 +239,13 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			sendremoveTickTime(hostid);//通知客户端取消定时器
 			return;
 		}
-		//判断是否都在擂台，如果在擂台直接切磋，如果不是在擂台需要判断距离，并且是否在同屏
+		//判断是否都在擂台，如果在擂台直接切磋，如果不是在擂台�?要判断距离，并且是否在同�?
 		GridPos hpos = hostRole.getPos().toGridPos();
 		AreaInfo hareaInfo = MapUtil.getAreaInfo(hostRole.getMapId(), hpos.getX(), hpos.getY());
 		GridPos gpos = gRole.getPos().toGridPos();
 		AreaInfo gareaInfo = MapUtil.getAreaInfo(hostRole.getMapId(), gpos.getX(), gpos.getY());
 		if(hareaInfo!=null&&hareaInfo.isQiecuoArea()&&gareaInfo!=null&&gareaInfo.isQiecuoArea()){
-			//都是在擂台，直接走切磋逻辑
+			//都是在擂台，直接走切磋�?�辑
 			new PSendInvitePlayPK(hostid,objectid).submit();
 		}
 		else{
@@ -260,10 +260,10 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			String roleName=propRole.getName();//玩家名称
 			int roleLv=propRole.getLevel();//等级
 			int curTeamNum=0;//当前队伍人数
-			//发送邀请
+			//发�?�邀�?
 			SInvitationPlayPK sInvitationPlayPK = new SInvitationPlayPK();
-			//160422	5	玩家$parameter1$($parameter2$级)邀请与你切磋	切磋提示
-			//160423	5	$parameter1$队伍($parameter2$级,$parameter3$/5)邀请与你切磋	切磋提示
+			//160422	5	玩家$parameter1$($parameter2$�?)�?请与你切�?	切磋提示
+			//160423	5	$parameter1$队伍($parameter2$�?,$parameter3$/5)�?请与你切�?	切磋提示
 			if (hostTeam != null){
 				//如果不是队长，暂离的人认为是单人
 				if(!hostTeam.isAbsentMember(hostid)){
@@ -281,7 +281,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 	
 
 	/**
-	 * 发送客户端，让客户端取消定时器
+	 * 发�?�客户端，让客户端取消定时器
 	 * @param roleid
 	 */
 	public static void sendremoveTickTime(long roleid){

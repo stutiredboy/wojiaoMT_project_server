@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RedPackRoleHisInfo implements Marshal {
-	public long roleid; // è§’è‰²Id
-	public java.lang.String rolename; // è§’è‰²å
-	public int redpackmoney; // çº¢åŒ…é‡‘é¢
+	public long roleid; // ½ÇÉ«Id
+	public java.lang.String rolename; // ½ÇÉ«Ãû
+	public int redpackmoney; // ºì°ü½ğ¶î
 
 	public RedPackRoleHisInfo() {
 		rolename = "";

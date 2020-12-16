@@ -25,7 +25,7 @@ public class SRepairResult extends __SRepairResult__ {
 		return 787761;
 	}
 
-	public int ret; // 0为失败，1为成功
+	public int ret; // 0Ϊʧ�ܣ�1Ϊ�ɹ�
 
 	public SRepairResult() {
 	}

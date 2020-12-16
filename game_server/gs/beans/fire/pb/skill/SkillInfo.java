@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SkillInfo implements Marshal , Comparable<SkillInfo>{
-	public int id; // 鎶�鑳絠d
-	public int level; // 绾у埆
+	public int id; // 技能id
+	public int level; // 级别
 
 	public SkillInfo() {
 	}

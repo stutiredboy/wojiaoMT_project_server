@@ -12,7 +12,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CModPetName__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚ä¿®æ”¹å® ç‰©åå­—
+/** ¿Í»§¶ËÇëÇóĞŞ¸Ä³èÎïÃû×Ö
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -52,7 +52,7 @@ public class CModPetName extends __CModPetName__ {
 			return;
 		}
 
-		// åå­—åˆæ³•,è°ƒç”¨ä¿®æ”¹åå­—çš„å­˜å‚¨è¿‡ç¨‹ã€‚
+		// åå­—åˆæ³•,è°ƒç”¨ä¿®æ”¹åå­—çš„å­˜å‚¨è¿‡ç¨‹ã??
 		PModPetName proc = new PModPetName(roleid, petkey, petname);
 		proc.submit();
 	}
@@ -65,11 +65,11 @@ public class CModPetName extends __CModPetName__ {
 		return 788450;
 	}
 
-	public final static int NAMELEN_MAX = 6; // åå­—çš„æœ€å¤§é•¿åº¦
-	public final static int NAMELEN_MIN = 1; // åå­—çš„æœ€çŸ­é•¿åº¦
+	public final static int NAMELEN_MAX = 6; // Ãû×ÖµÄ×î´ó³¤¶È
+	public final static int NAMELEN_MIN = 1; // Ãû×ÖµÄ×î¶Ì³¤¶È
 
-	public int petkey; // å® ç‰©çš„key
-	public java.lang.String petname; // å® ç‰©çš„åå­—
+	public int petkey; // ³èÎïµÄkey
+	public java.lang.String petname; // ³èÎïµÄÃû×Ö
 
 	public CModPetName() {
 		petname = "";

@@ -13,7 +13,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CModifyDepotName__ extends mkio.Protocol { }
 
-/** ä¿®æ”¹ä»“åº“åç§°
+/** ĞŞ¸Ä²Ö¿âÃû³Æ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

@@ -27,7 +27,7 @@ public class CRoleJump extends __CRoleJump__ {
 		
 		if(rs.getMapConfig().qinggong == 0) return;
 		
-		//checkmove ä¸€æ¬¡
+		//checkmove ä¸?æ¬?
 		final long curTick = System.currentTimeMillis();
 		
 		if(!role.isJumping() && !CCheckMove.checkmove(role,sceneid, srcpos, poslist,curTick))
@@ -36,7 +36,7 @@ public class CRoleJump extends __CRoleJump__ {
 				role.getJumpRole().confirmPositionToStart();
 			else
 				JumpRole.confirmPosition(role);
-			return;//checkmoveæ²¡æˆåŠŸ
+			return;//checkmoveæ²¡æˆåŠ?
 		}
 		
 		if(role.jump(new Position(srcpos.x, srcpos.y), new Position(destpos.x, destpos.y), jumptype == 0))
@@ -53,11 +53,11 @@ public class CRoleJump extends __CRoleJump__ {
 		return 790477;
 	}
 
-	public java.util.LinkedList<fire.pb.move.Pos> poslist; // è·³è·ƒä¹‹å‰æœªcheckçš„å…³é”®ç‚¹
-	public fire.pb.move.Pos srcpos; // å‡ºå‘ç‚¹
-	public fire.pb.move.Pos destpos; // åˆ°è¾¾ç‚¹
-	public byte jumptype; // 0ä¸ºæ™®é€šè·³ï¼Œ1ä¸º2æ®µè·³
-	public long sceneid; // åœºæ™¯id
+	public java.util.LinkedList<fire.pb.move.Pos> poslist; // ÌøÔ¾Ö®Ç°Î´checkµÄ¹Ø¼üµã
+	public fire.pb.move.Pos srcpos; // ³ö·¢µã
+	public fire.pb.move.Pos destpos; // µ½´ïµã
+	public byte jumptype; // 0ÎªÆÕÍ¨Ìø£¬1Îª2¶ÎÌø
+	public long sceneid; // ³¡¾°id
 
 	public CRoleJump() {
 		poslist = new java.util.LinkedList<fire.pb.move.Pos>();

@@ -25,8 +25,8 @@ public class CDissolveRelation extends __CDissolveRelation__ {
 		return 816449;
 	}
 
-	public int relation; // å…³ç³»,å¸ˆå‚…orå¾’å¼Ÿ
-	public long playerid; // çŽ©å®¶id
+	public int relation; // ¹ØÏµ,Ê¦¸µorÍ½µÜ
+	public long playerid; // Íæ¼Òid
 
 	public CDissolveRelation() {
 	}

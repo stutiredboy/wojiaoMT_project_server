@@ -25,10 +25,10 @@ public class SRequestTeamMatch extends __SRequestTeamMatch__ {
 		return 794495;
 	}
 
-	public int typematch; // ç±»å‹ä¸º0æ˜¯ä¸ªäººç»„é˜ŸåŒ¹é…1æ˜¯é˜Ÿä¼åŒ¹é…3æ˜¯åªè®¾ç½®é˜Ÿä¼ç›®æ ‡ ä¾¿æ·å®¢æˆ·ç«¯è¿”å› by changhao
-	public int targetid; // ç›®æ ‡id ä¾¿æ·å®¢æˆ·ç«¯è¿”å› by changhao
-	public int levelmin; // ç­‰çº§ä¸‹é™ å¦‚æœæ˜¯ä¸ªäººåŒ¹é…è¿™ä¸ªå¿½ç•¥ ä¾¿æ·å®¢æˆ·ç«¯è¿”å›by changhao
-	public int levelmax; // ç­‰çº§ä¸Šé™ å¦‚æœæ˜¯ä¸ªäººåŒ¹é…è¿™ä¸ªå¿½ç•¥ ä¾¿æ·å®¢æˆ·ç«¯è¿”å›by changhao
+	public int typematch; // ÀàĞÍÎª0ÊÇ¸öÈË×é¶ÓÆ¥Åä1ÊÇ¶ÓÎéÆ¥Åä3ÊÇÖ»ÉèÖÃ¶ÓÎéÄ¿±ê ±ã½İ¿Í»§¶Ë·µ»Ø by changhao
+	public int targetid; // Ä¿±êid ±ã½İ¿Í»§¶Ë·µ»Ø by changhao
+	public int levelmin; // µÈ¼¶ÏÂÏŞ Èç¹ûÊÇ¸öÈËÆ¥ÅäÕâ¸öºöÂÔ ±ã½İ¿Í»§¶Ë·µ»Øby changhao
+	public int levelmax; // µÈ¼¶ÉÏÏŞ Èç¹ûÊÇ¸öÈËÆ¥ÅäÕâ¸öºöÂÔ ±ã½İ¿Í»§¶Ë·µ»Øby changhao
 
 	public SRequestTeamMatch() {
 	}

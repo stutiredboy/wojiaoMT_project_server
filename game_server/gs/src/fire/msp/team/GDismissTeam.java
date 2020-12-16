@@ -29,7 +29,7 @@ public class GDismissTeam extends __GDismissTeam__ {
 		return 728902;
 	}
 
-	public long teamid; // é˜Ÿä¼ID
+	public long teamid; // ¶ÓÎéID
 
 	public GDismissTeam() {
 	}

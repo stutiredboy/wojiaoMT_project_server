@@ -33,9 +33,9 @@ public class GSendAllByScene extends __GSendAllByScene__ {
 		return 720902;
 	}
 
-	public int protype; // åè®®çš„ç±»å‹
-	public com.locojoy.base.Octets protocol; // åè®®marshalå®Œçš„æ•°æ®
-	public long sceneid; // åœºæ™¯ID
+	public int protype; // Ğ­ÒéµÄÀàĞÍ
+	public com.locojoy.base.Octets protocol; // Ğ­ÒémarshalÍêµÄÊı¾İ
+	public long sceneid; // ³¡¾°ID
 
 	public GSendAllByScene() {
 		protocol = new com.locojoy.base.Octets();

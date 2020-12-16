@@ -26,8 +26,8 @@ public class SSetRoleLocation extends __SSetRoleLocation__ {
 	}
 
 	public long roleid;
-	public fire.pb.move.Pos position; // äººç‰©å½“å‰ç‚¹
-	public byte locz; // äººç‰©å½“å‰ç‚¹zåæ ‡
+	public fire.pb.move.Pos position; // ÈËÎïµ±Ç°µã
+	public byte locz; // ÈËÎïµ±Ç°µãz×ø±ê
 
 	public SSetRoleLocation() {
 		position = new fire.pb.move.Pos();

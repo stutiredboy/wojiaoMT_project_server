@@ -26,16 +26,16 @@ public class SSendWatchBattleStart extends __SSendWatchBattleStart__ {
 	}
 
 	public int enemyside;
-	public int leftcount; // å¦‚æœæˆ˜æ–—è€…æ­£åœ¨æ“ä½œçŠ¶æ€ï¼Œåˆ™leftcountä»£è¡¨æ“ä½œå€’è®¡æ—¶æ—¶é—´ï¼Œå¦‚æœä¸º0ä»£è¡¨å¤„äºæˆ˜æ–—æ¼”ç¤ºçŠ¶æ€
-	public int battletype; // æšä¸¾å€¼è§BattleType
-	public int roundnum; // //å›åˆæ•°ï¼Œé»˜è®¤æ˜¯0
-	public int friendsformation; // å·±æ–¹çš„å…‰ç¯
-	public int enemyformation; // æ•Œäººçš„å…‰ç¯
-	public int friendsformationlevel; // å·±æ–¹çš„å…‰ç¯
-	public int enemyformationlevel; // æ•Œäººçš„å…‰ç¯
-	public byte background; // æˆ˜æ–—åº•å›¾id
-	public byte backmusic; // æˆ˜æ–—èƒŒæ™¯éŸ³ä¹id
-	public long battlekey; // è§‚æˆ˜çš„æˆ˜æ–—id
+	public int leftcount; // Èç¹ûÕ½¶·ÕßÕıÔÚ²Ù×÷×´Ì¬£¬Ôòleftcount´ú±í²Ù×÷µ¹¼ÆÊ±Ê±¼ä£¬Èç¹ûÎª0´ú±í´¦ÓÚÕ½¶·ÑİÊ¾×´Ì¬
+	public int battletype; // Ã¶¾ÙÖµ¼ûBattleType
+	public int roundnum; // //»ØºÏÊı£¬Ä¬ÈÏÊÇ0
+	public int friendsformation; // ¼º·½µÄ¹â»·
+	public int enemyformation; // µĞÈËµÄ¹â»·
+	public int friendsformationlevel; // ¼º·½µÄ¹â»·
+	public int enemyformationlevel; // µĞÈËµÄ¹â»·
+	public byte background; // Õ½¶·µ×Í¼id
+	public byte backmusic; // Õ½¶·±³¾°ÒôÀÖid
+	public long battlekey; // ¹ÛÕ½µÄÕ½¶·id
 
 	public SSendWatchBattleStart() {
 	}

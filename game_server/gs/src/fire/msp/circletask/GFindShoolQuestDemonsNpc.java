@@ -44,7 +44,7 @@ public class GFindShoolQuestDemonsNpc extends __GFindShoolQuestDemonsNpc__ {
 			fire.pb.scene.SceneClient.pSend(mret);
 			return;
 		}
-		// æˆåŠŸ  åŒæ­¥åˆ°GS NPCçš„ä¿¡æ¯
+		// æˆåŠŸ  åŒæ­¥åˆ°GS NPCçš„ä¿¡æ?
 		fire.msp.npc.MUpdateNpcInfo mUpdateNpcInfo = new fire.msp.npc.MUpdateNpcInfo();
 		mUpdateNpcInfo.npcs.addAll(rlist);
 		fire.pb.scene.SceneClient.pSend(mUpdateNpcInfo);
@@ -67,10 +67,10 @@ public class GFindShoolQuestDemonsNpc extends __GFindShoolQuestDemonsNpc__ {
 	}
 
 	public long interfaceid;
-	public int objschool; // å¯»æ‰¾ç©å®¶æ‰€å±çš„é—¨æ´¾
-	public int levelmin; // æœ€ä½ç­‰çº§
-	public int levelmax; // æœ€é«˜ç­‰çº§
-	public fire.msp.npc.CreateNpcInfoUniverse npcinfo; // æ‰¾ä¸åˆ°ç©å®¶æ—¶ï¼ŒæŒ‰ç…§npcinfoç”Ÿæˆä»»åŠ¡npc
+	public int objschool; // Ñ°ÕÒÍæ¼ÒËùÊôµÄÃÅÅÉ
+	public int levelmin; // ×îµÍµÈ¼¶
+	public int levelmax; // ×î¸ßµÈ¼¶
+	public fire.msp.npc.CreateNpcInfoUniverse npcinfo; // ÕÒ²»µ½Íæ¼ÒÊ±£¬°´ÕÕnpcinfoÉú³ÉÈÎÎñnpc
 
 	public GFindShoolQuestDemonsNpc() {
 		npcinfo = new fire.msp.npc.CreateNpcInfoUniverse();

@@ -39,7 +39,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				if (eteammelon == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分配"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分�?"+roleid);
 					return true;					
 				}
 				
@@ -47,16 +47,16 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				if (teammelon == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分配"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分�?"+roleid);
 					return true;					
 				}
 				
-				//此人没有资格ROLL点 by changhao
+				//此人没有资格ROLL�? by changhao
 				Integer rollpoint = teammelon.getMelonroleids().get(roleid);
 				if (rollpoint == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分配"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分�?"+roleid);
 					return true;	
 				}
 				
@@ -67,7 +67,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 					return true;
 				}
 				
-				if (status == 0) //某人如果放弃了 by changhao
+				if (status == 0) //某人如果放弃�? by changhao
 				{					
 					teammelon.getMelonroleids().put(roleid, 0);
 				}
@@ -85,13 +85,13 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				msg.rollinfo.rolename = roleprop.getRolename();
 				msg.rollinfo.roll = teammelon.getMelonroleids().get(roleid);
 				
-				for (Long e : eteammelon.getMelonerlist()) //发给所有队员最终的这个人ROLL点情况 by changhao
+				for (Long e : eteammelon.getMelonerlist()) //发给�?有队员最终的这个人ROLL点情�? by changhao
 				{
-					//TeamManager.logger.info("roll点:发送给roleid:" + e + "点数:" + msg.rollinfo.roll);
+					//TeamManager.logger.info("roll�?:发�?�给roleid:" + e + "点数:" + msg.rollinfo.roll);
 					mkdb.Procedure.psendWhileCommit(e, msg);			
 				}
 				
-				for (Long e : eteammelon.getWatchmelonerlist()) //发给观看 ROLL点的人 by changhao
+				for (Long e : eteammelon.getWatchmelonerlist()) //发给观看 ROLL点的�? by changhao
 				{
 					if (e != null)
 						mkdb.Procedure.psendWhileCommit(e, msg);			
@@ -111,7 +111,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 	
 	/*
 	 * 
-	 * 最终决定谁的点最大 by changhao
+	 * �?终决定谁的点�?�? by changhao
 	 */
 	public long calcMaxRollPoint(java.util.ArrayList<Long> roleids, xbean.TeamMelon teammelon)
 	{
@@ -138,8 +138,8 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 		return 794523;
 	}
 
-	public long melonid; // 分赃id by changhao
-	public int status; // 1是ROLL 0是放弃 by changhao
+	public long melonid; // ����id by changhao
+	public int status; // 1��ROLL 0�Ƿ��� by changhao
 
 	public CTeamRollMelon() {
 	}

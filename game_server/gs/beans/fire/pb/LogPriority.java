@@ -6,15 +6,15 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class LogPriority implements Marshal , Comparable<LogPriority>{
-	public final static int LOG_FORMAT = 15; // ç©å®¶è¡Œä¸ºæ ‡å‡†çš„æ—¥å¿—ï¼Œå¦‚ï¼šè´¦å·ç™»é™†ï¼Œå……å€¼ï¼Œä»»åŠ¡ç›¸å…³ã€‚
-	public final static int LOG_STAT = 16; // æ¯5åˆ†é’Ÿè®°å½•é‚®ä»¶æ¬¡æ•°ï¼Œé‡‘é’±ä¿®æ”¹é‡ï¼Œç‰©å“ä¿®æ”¹é‡ç­‰ã€‚
-	public final static int LOG_GM = 17; // è®°å½•GMæ“ä½œçš„log
-	public final static int LOG_MONEY = 18; // è®°å½•é‡‘é’±çš„äº§ç”ŸåŠæ¶ˆè€—æ•°é‡åŸå› ã€‚
-	public final static int LOG_CHAR2 = 19; // èŠå¤©è®°å½•ï¼Œè®°å½•é‡‡ç”¨BASE64ç¼–ç è®°å½•ã€‚
-	public final static int LOG_COUNTER = 20; // æ¯5åˆ†é’Ÿè®°å½•é‚®ä»¶æ¬¡æ•°ï¼Œé‡‘é’±ä¿®æ”¹é‡ï¼Œç‰©å“ä¿®æ”¹é‡ç­‰ã€‚
-	public final static int LOG_XINGCHENG = 21; // ç©å®¶è¯¦ç»†è¡Œä¸ºæ—¥å¿—ï¼Œå¦‚ï¼šç§»åŠ¨ï¼Œæ‰“æ€ªï¼Œç»„é˜Ÿï¼Œæ‹¾å–ç­‰ã€‚
-	public final static int LOG_TRADE = 22; // æ¯æ—¥å•†åŸæ¶ˆè€—è®°å½•ã€‚
-	public final static int LOG_FUSHI = 23; // ç´¯è®¡è®°å½•ç©å®¶å……å€¼ï¼Œä¹°ï¼Œå–ï¼Œæ¶ˆè€—ç¬¦çŸ³æ•°é‡ã€‚
+	public final static int LOG_FORMAT = 15; // Íæ¼ÒĞĞÎª±ê×¼µÄÈÕÖ¾£¬Èç£ºÕËºÅµÇÂ½£¬³äÖµ£¬ÈÎÎñÏà¹Ø¡£
+	public final static int LOG_STAT = 16; // Ã¿5·ÖÖÓ¼ÇÂ¼ÓÊ¼ş´ÎÊı£¬½ğÇ®ĞŞ¸ÄÁ¿£¬ÎïÆ·ĞŞ¸ÄÁ¿µÈ¡£
+	public final static int LOG_GM = 17; // ¼ÇÂ¼GM²Ù×÷µÄlog
+	public final static int LOG_MONEY = 18; // ¼ÇÂ¼½ğÇ®µÄ²úÉú¼°ÏûºÄÊıÁ¿Ô­Òò¡£
+	public final static int LOG_CHAR2 = 19; // ÁÄÌì¼ÇÂ¼£¬¼ÇÂ¼²ÉÓÃBASE64±àÂë¼ÇÂ¼¡£
+	public final static int LOG_COUNTER = 20; // Ã¿5·ÖÖÓ¼ÇÂ¼ÓÊ¼ş´ÎÊı£¬½ğÇ®ĞŞ¸ÄÁ¿£¬ÎïÆ·ĞŞ¸ÄÁ¿µÈ¡£
+	public final static int LOG_XINGCHENG = 21; // Íæ¼ÒÏêÏ¸ĞĞÎªÈÕÖ¾£¬Èç£ºÒÆ¶¯£¬´ò¹Ö£¬×é¶Ó£¬Ê°È¡µÈ¡£
+	public final static int LOG_TRADE = 22; // Ã¿ÈÕÉÌ³ÇÏûºÄ¼ÇÂ¼¡£
+	public final static int LOG_FUSHI = 23; // ÀÛ¼Æ¼ÇÂ¼Íæ¼Ò³äÖµ£¬Âò£¬Âô£¬ÏûºÄ·ûÊ¯ÊıÁ¿¡£
 
 
 	public LogPriority() {

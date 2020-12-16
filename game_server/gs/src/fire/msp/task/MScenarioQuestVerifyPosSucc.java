@@ -34,7 +34,7 @@ public class MScenarioQuestVerifyPosSucc extends __MScenarioQuestVerifyPosSucc__
 			if(task != null) {
 				int teamshare = task.getConf().exeIndo.share;
 				if (teamshare == 0) {
-					//不共享
+					//不共�?
 					new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true).submit();
 				} else {
 					for (long memid : team.getNormalMemberIds()) {

@@ -15,7 +15,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRoleAccusationCheck__ extends mkio.Protocol { }
 
-/** ä¸¾æŠ¥æ—¶å€™å®¢æˆ·ç«¯ç»™æœåŠ¡å™¨å‘æ¶ˆæ¯,ç”¨äºæ‰£è´¹
+/** ¾Ù±¨Ê±ºò¿Í»§¶Ë¸ø·şÎñÆ÷·¢ÏûÏ¢,ÓÃÓÚ¿Û·Ñ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

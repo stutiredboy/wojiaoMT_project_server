@@ -15,7 +15,7 @@ abstract class __CAbsentReturnTeam__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
-//暂离或回归队伍 by changhao
+//暂离或回归队�? by changhao
 public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 
 	private Team team;
@@ -40,7 +40,7 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			absentReturnTeamP.submit();
 		} 
 		/*
-		else if (absent == 2) //请求回归(应对同地图客户端自动开始寻路问题)
+		else if (absent == 2) //请求回归(应对同地图客户端自动�?始寻路问�?)
 		{
 			Long teamId = xtable.Roleid2teamid.select(memberRoleId);
 			if (teamId != null)
@@ -54,7 +54,7 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			PropRole prole = new PropRole(leaderRoleId, true);
 			SAbsentReturnTeam sendret = new SAbsentReturnTeam();		
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("队伍（队长）的巡游状态,此时不能归队,teamId: " + teamId);
+				TeamManager.logger.debug("队伍（队长）的巡游状�?,此时不能归队,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				sendret.ret = 0;
 			} else {
@@ -80,18 +80,18 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			long leaderRoleId = team.getTeamInfo().getTeamleaderid();
 			PropRole prole = new PropRole(leaderRoleId, true);
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("队伍（队长）的巡游状态,此时不能归队,teamId: " + teamId);
+				TeamManager.logger.debug("队伍（队长）的巡游状�?,此时不能归队,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				return;
 			}
 			PropRole pmemrole = new PropRole(memberRoleId, true);
 			if(pmemrole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("队伍（队员）的巡游状态,此时不能归队,teamId: " + teamId);
+				TeamManager.logger.debug("队伍（队员）的巡游状�?,此时不能归队,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160436, null);
 				return;
 			}
 			
-			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //如果队长在公会战场不能回归队伍 by changhao
+			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //如果队长在公会战场不能回归队�? by changhao
 			if (leaderclanfightid != null)
 			{
 				Long memberclanfightid = xtable.Roleid2clanfightid.select(memberRoleId);
@@ -111,25 +111,25 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 				return;
 			}
 			
-			if (memberRole.getScene() == leaderRole.getScene()) //如果和队伍在同一个场景 by changhao
+			if (memberRole.getScene() == leaderRole.getScene()) //如果和队伍在同一个场�? by changhao
 			{
-				//拉到队长那 by changhao
+				//拉到队长�? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 1);
 				go.submit();				
 				//absentReturnTeamP.submit();
 			}
 			else
 			{
-				//拉到队长那 by changhao
+				//拉到队长�? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 2);
 				go.submit();
 			}
 		}
 	}
 
-	// 检测PVP
+	// �?测PVP
 	private static int checkPvP(long roleId, byte absent) {
-		// 暂离或回归
+		// 暂离或回�?
 		return fire.pb.battle.pvp.PvPTeamHandle.onAbsentReturn(roleId, absent);
 	}
 
@@ -141,7 +141,7 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 		return 794441;
 	}
 
-	public byte absent; // 1表示暂离 0表示回归
+	public byte absent; // 1��ʾ���� 0��ʾ�ع�
 
 	public CAbsentReturnTeam() {
 	}

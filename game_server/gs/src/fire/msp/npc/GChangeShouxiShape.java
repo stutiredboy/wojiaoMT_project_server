@@ -53,9 +53,9 @@ public class GChangeShouxiShape extends __GChangeShouxiShape__ {
 	}
 
 	public long npckey;
-	public long roleid; // éœ€è¦æ”¹å˜æˆç©å®¶çš„ID by changhao
+	public long roleid; // ĞèÒª¸Ä±ä³ÉÍæ¼ÒµÄID by changhao
 	public int shape;
-	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
+	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
 	public java.lang.String name;
 
 	public GChangeShouxiShape() {

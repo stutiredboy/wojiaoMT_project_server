@@ -45,7 +45,7 @@ abstract class __CRequestLearnParticleSkill__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 学习修炼技能
+ * 学习修炼�?�?
  * @author changhao
  *
  */
@@ -94,9 +94,9 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					return true;
 				}
 				
-				int curskilllevel = practiceskill.getLevel(); //需要学习到的等级 by changhao
+				int curskilllevel = practiceskill.getLevel(); //�?要学习到的等�? by changhao
 				
-				if (curskilllevel >= config.skillLevelMax) //是否已经达到最大等级 by changhao
+				if (curskilllevel >= config.skillLevelMax) //是否已经达到�?大等�? by changhao
 				{
 					MessageMgr.psendMsgNotify(roleid, 160107, null);	
 					return true;						
@@ -116,7 +116,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					contri = contribution.getHistoryclanpoint();
 				}
 
-				//得到能学的最大等级 by changhao
+				//得到能学的最大等�? by changhao
 				int maxlevel = 0;
 						
 				java.util.Map<Integer, Integer> ret = LiveSkillManager.getInstance().GetPracticeSkillMaxLevel(rolelevel, factionlevel, contri, config.skillLevelMax);
@@ -149,7 +149,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					return true;
 				}
 				
-				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //是否需要公会 by changhao
+				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //是否�?要公�? by changhao
 				{
 					return true;	
 				}
@@ -159,9 +159,9 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 				Pack bag = (Pack)fire.pb.item.Module.getInstance().getItemMaps(
 						roleid, fire.pb.item.BagTypes.BAG, false);
 											
-				int which = LiveSkillManager.getInstance().GetPracticleSkillPlayerOrPet(id); //得到这个修炼技能对应的对象 by changhao
+				int which = LiveSkillManager.getInstance().GetPracticleSkillPlayerOrPet(id); //得到这个修炼�?能对应的对象 by changhao
 			
-				if (itemid != 0) //消耗道具升级 by changhao
+				if (itemid != 0) //消�?�道具升�? by changhao
 				{
 					GroceryItemShuXing grocery = (GroceryItemShuXing) fire.pb.item.Module.getInstance().getItemManager().getAttr(itemid);
 					if (grocery == null)
@@ -172,7 +172,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					//角色 by changhao
 					if (grocery.typeid == LiveSkillManager.ITEM_TYPE_PRACTICE_ROLE_ITEM && which == 2)
 					{
-						//成功消耗道具 by changhao
+						//成功消�?�道�? by changhao
 						if(bag.removeItemById(itemid, times, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuixiulian, 0, LiveSkillManager.Practice) != times)
 						{
 							MessageMgr.psendMsgNotify(roleid, 160105, null);
@@ -185,7 +185,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					}//宠物 by changhao
 					else if (grocery.typeid == LiveSkillManager.ITEM_TYPE_PRACTICE_PET_ITEM && which == 1)
 					{
-						//成功消耗道具 by changhao
+						//成功消�?�道�? by changhao
 						if(bag.removeItemById(itemid, times, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuixiulian, 0, LiveSkillManager.Practice) != times)
 						{
 							MessageMgr.psendMsgNotify(roleid, 160104, null);
@@ -227,12 +227,12 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 				{
 					msg.skill.effects.putAll(CalcSkillEffect(config.skillId, msg.skill.level));
 					msg.skill.nexteffect.putAll(CalcSkillEffect(config.skillId, msg.skill.level + 1));
-					if (practiceskill.getLevel() > curskilllevel) //升级刷新属性 by changhao
+					if (practiceskill.getLevel() > curskilllevel) //升级刷新属�?? by changhao
 					{
 						Result result = new Result(true);
 						
 						//刷新BUFF by changhao
-						Module.logger.info("玩家:" + roleid + "修炼专精技能后加载PracticleSkill技能");
+						Module.logger.info("玩家:" + roleid + "修炼专精�?能后加载PracticleSkill�?�?");
 						if(which == 2)
 							result.updateResult(skillrole.addPracticleSkillBuff());
 						else if(which == 1)
@@ -248,7 +248,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 							}							
 						}
 					
-						if(!result.getChangedAttrs().isEmpty())//通知属性改动 by changhao
+						if(!result.getChangedAttrs().isEmpty())//通知属�?�改�? by changhao
 						{
 							mkdb.Procedure.psendWhileCommit(roleid,new SRefreshRoleData((HashMap<Integer, Float>)result.getChangedAttrs()));
 						}		
@@ -275,7 +275,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 	}
 	
 	/***
-	 * 修炼等级加经验 by changhao
+	 * 修炼等级加经�? by changhao
 	 * @param requirelevel
 	 * @param curexp
 	 * @param skill
@@ -342,9 +342,9 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 		return 800505;
 	}
 
-	public int id; // 技能ID by changhao
-	public int times; // 学习次数 by changhao
-	public int itemid; // 使用的道具 by changhao
+	public int id; // ����ID by changhao
+	public int times; // ѧϰ���� by changhao
+	public int itemid; // ʹ�õĵ��� by changhao
 
 	public CRequestLearnParticleSkill() {
 	}

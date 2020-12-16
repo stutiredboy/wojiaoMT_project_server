@@ -35,7 +35,7 @@ public class CCancelApplyClan extends __CCancelApplyClan__ {
 		return 808495;
 	}
 
-	public long clanid; // å…¬ä¼šid
+	public long clanid; // ¹«»áid
 
 	public CCancelApplyClan() {
 	}

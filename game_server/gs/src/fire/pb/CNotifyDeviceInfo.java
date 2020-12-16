@@ -55,12 +55,12 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 					machineInfos.put(uiu.key, uiu.value);
 				}
 				
-				//这里处理一下日志相关的逻辑
+				//这里处理�?下日志相关的逻辑
 				xbean.UserDeviceInfo userDeviceInfo=xtable.Userdeviceinfotab.get(userid);
 				boolean isfirst=false;
 				int first=1;
 				if(userDeviceInfo==null){
-					//是第一次注册
+					//是第�?次注�?
 					first=0;
 					isfirst=true;
 					userDeviceInfo=xbean.Pod.newUserDeviceInfo();
@@ -68,11 +68,11 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 				}
 				userDeviceInfo.setIp(userinfo!=null?InetAddressUtil.ipInt2String(userinfo.getLoginip()):"auuserinfonull"); // 玩家设备IP
 				//设置相关的客户端机器信息
-				userDeviceInfo.setTelcooper(machineInfos.get("TelcoOper")==null?"":machineInfos.get("TelcoOper")); // 用户网络运营商
+				userDeviceInfo.setTelcooper(machineInfos.get("TelcoOper")==null?"":machineInfos.get("TelcoOper")); // 用户网络运营�?
 				userDeviceInfo.setChid(machineInfos.get("ChId")==null?"":machineInfos.get("ChId")); // 渠道ID
 				userDeviceInfo.setPlattype(machineInfos.get("PlatType")==null?"":machineInfos.get("PlatType")); // 平台ID(IOS,android,wp)
 				userDeviceInfo.setDeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId")); // 玩家设备(mac/idfv)设备唯一标识
-				userDeviceInfo.setImei(machineInfos.get("IMEI")==null?"":machineInfos.get("IMEI")); // 入网标识符
+				userDeviceInfo.setImei(machineInfos.get("IMEI")==null?"":machineInfos.get("IMEI")); // 入网标识�?
 				userDeviceInfo.setNetenvir(machineInfos.get("NetEnvir")==null?"":machineInfos.get("NetEnvir")); // 网络环境(如：3G,4G,wifi)
 				userDeviceInfo.setOsver(machineInfos.get("OsVer")==null?"":machineInfos.get("OsVer")); // 玩家系统版本(具体版本如ios9,android4.1)
 				userDeviceInfo.setBrtype(machineInfos.get("BrType")==null?"":machineInfos.get("BrType")); // 玩家手机类型(如联想，酷派)
@@ -82,7 +82,7 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 				}
 				
 				if(isfirst==true){
-					//注册的运营日志
+					//注册的运营日�?
 					userDeviceInfo.setFirstdeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId"));
 					fire.log.YYLogger.OpRegLog(userid,0,0);
 				}

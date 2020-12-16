@@ -22,7 +22,7 @@ abstract class __COneKeyTeamMatch__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 一键喊话
+ * �?键喊�?
  * @author by changhao
  *
  */
@@ -51,7 +51,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 					return false;
 				}
 				
-				//如果是公会发送，看看是否有公会 by changhao
+				//如果是公会发送，看看是否有公�? by changhao
 				if (channeltype == fire.pb.talk.ChannelType.CHANNEL_CLAN)
 				{
 					xbean.Properties prop = xtable.Properties.select(roleid);
@@ -92,7 +92,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				}
 				
 				teamid = xtable.Roleid2teamid.get(roleid);		
-				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务器 by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
 				{
 					DSTeamMatchInfo config = ConfigManager.getInstance().getConf(DSTeamMatchInfo.class).get(team.getTeamInfo().getTargetid());
 					if (config == null)
@@ -139,7 +139,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				{
 					String s = String.format("%d", (int)-delta / 1000);
 					MessageMgr.sendMsgNotify(roleid, 150028, Arrays.asList(s));
-					TeamManager.logger.info("COneKeyTeamMatch:一键喊话时间间隔60秒。 "+roleid);
+					TeamManager.logger.info("COneKeyTeamMatch:�?键喊话时间间�?60秒�?? "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -207,8 +207,8 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 		return 794498;
 	}
 
-	public int channeltype; // 频道类型 14组队申请 1当前频道 4帮派 5世界频道 by changhao
-	public java.lang.String text; // 发送的文本 by changhao
+	public int channeltype; // Ƶ������ 14������� 1��ǰƵ�� 4���� 5����Ƶ�� by changhao
+	public java.lang.String text; // ���͵��ı� by changhao
 
 	public COneKeyTeamMatch() {
 		text = "";

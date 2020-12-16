@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PetColumnTypes implements Marshal , Comparable<PetColumnTypes>{
-	public final static int PET = 1; // äººç‰©èº«ä¸Šçš„å® ç‰©æ 
-	public final static int DEPOT = 2; // äººç‰©çš„ä»“åº“å® ç‰©æ 
-	public final static int XUNBAOSELLPET = 3; // æ‰¾å®ç½‘å¯„å”®å® ç‰©æ 
-	public final static int XUNBAOBUYPET = 4; // æ‰¾å®ç½‘ä¹°å…¥å® ç‰©æ 
-	public final static int MARKETPET = 5; // æ‹å–å® ç‰©æ 
-	public final static int BLACKMARKETPET = 6; // é»‘å¸‚å® ç‰©æ 
+	public final static int PET = 1; // ÈËÎïÉíÉÏµÄ³èÎïÀ¸
+	public final static int DEPOT = 2; // ÈËÎïµÄ²Ö¿â³èÎïÀ¸
+	public final static int XUNBAOSELLPET = 3; // ÕÒ±¦Íø¼ÄÊÛ³èÎïÀ¸
+	public final static int XUNBAOBUYPET = 4; // ÕÒ±¦ÍøÂòÈë³èÎïÀ¸
+	public final static int MARKETPET = 5; // ÅÄÂô³èÎïÀ¸
+	public final static int BLACKMARKETPET = 6; // ºÚÊĞ³èÎïÀ¸
 
 
 	public PetColumnTypes() {

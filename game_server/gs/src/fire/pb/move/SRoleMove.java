@@ -25,8 +25,8 @@ public class SRoleMove extends __SRoleMove__ {
 		return 790434;
 	}
 
-	public long roleid; // è§’è‰²ID
-	public fire.pb.move.Pos destpos; // åˆ°è¾¾ç‚¹
+	public long roleid; // ½ÇÉ«ID
+	public fire.pb.move.Pos destpos; // µ½´ïµã
 
 	public SRoleMove() {
 		destpos = new fire.pb.move.Pos();

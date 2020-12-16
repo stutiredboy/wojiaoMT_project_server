@@ -25,7 +25,7 @@ public class STrackedMissions extends __STrackedMissions__ {
 		return 805461;
 	}
 
-	public java.util.HashMap<Integer,fire.pb.mission.TrackedMission> trackedmissions; // ä»»åŠ¡id
+	public java.util.HashMap<Integer,fire.pb.mission.TrackedMission> trackedmissions; // ÈÎÎñid
 
 	public STrackedMissions() {
 		trackedmissions = new java.util.HashMap<Integer,fire.pb.mission.TrackedMission>();

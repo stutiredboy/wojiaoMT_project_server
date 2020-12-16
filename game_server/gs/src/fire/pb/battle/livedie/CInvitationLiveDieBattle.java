@@ -17,13 +17,13 @@ abstract class __CInvitationLiveDieBattle__ extends mkio.Protocol { }
 public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 	@Override
 	protected void process() {
-		//下战书
+		//下战�?
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (hostid <= 0)
 			return;
 		new mkdb.Procedure() {
 			protected boolean process() throws Exception {
-				//判断等级需求
+				//判断等级�?�?
 				xbean.Properties hostprop=xtable.Properties.select(hostid);
 				if(hostprop==null){
 					return false;
@@ -44,7 +44,7 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
 					return false;
 				}
-				//自己不能邀请自己
+				//自己不能�?请自�?
 				if(hostid==objectid){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 166006, 0, null);
 					return false;
@@ -86,7 +86,7 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 	}
 
 	public java.lang.String idorname;
-	public int selecttype; // 0单人   1组队
+	public int selecttype; // 0����   1���
 
 	public CInvitationLiveDieBattle() {
 		idorname = "";

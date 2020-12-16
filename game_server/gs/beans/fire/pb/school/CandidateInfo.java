@@ -9,9 +9,9 @@ public class CandidateInfo implements Marshal {
 	public long roleid;
 	public java.lang.String rolename;
 	public int tickets;
-	public java.lang.String words; // ç«é€‰è¯
-	public int shape; // å¤–å½¢,å¦‚æœä¸º0çš„è¯è¡¨ç¤ºç”¨npcé»˜è®¤çš„é€ å‹å°±å¯ä»¥äº† by changhao
-	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£… by changhao
+	public java.lang.String words; // ¾ºÑ¡´Ê
+	public int shape; // ÍâĞÎ,Èç¹ûÎª0µÄ»°±íÊ¾ÓÃnpcÄ¬ÈÏµÄÔìĞÍ¾Í¿ÉÒÔÁË by changhao
+	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×° by changhao
 
 	public CandidateInfo() {
 		rolename = "";

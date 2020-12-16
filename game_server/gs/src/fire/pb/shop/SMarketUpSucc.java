@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SMarketUpSucc__ extends mkio.Protocol { }
 
-/** ä¸Šæ¶çå“æˆåŠŸ
+/** ÉÏ¼ÜÕäÆ·³É¹¦
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SMarketUpSucc extends __SMarketUpSucc__ {
 		return 810654;
 	}
 
-	public int israrity; // 0éçå“ 1çå“
+	public int israrity; // 0·ÇÕäÆ· 1ÕäÆ·
 
 	public SMarketUpSucc() {
 	}

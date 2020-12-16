@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __COneKeyMoveTempToBag__ extends mkio.Protocol { }
 
-/** ä¸€é”®æŠŠç‰©å“ä»ä¸´æ—¶èƒŒåŒ…ç§»åŠ¨åˆ°èƒŒåŒ…
+/** Ò»¼ü°ÑÎïÆ·´ÓÁÙÊ±±³°üÒÆ¶¯µ½±³°ü
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -33,9 +33,9 @@ public class COneKeyMoveTempToBag extends __COneKeyMoveTempToBag__ {
 		return 787760;
 	}
 
-	public int srckey; // ç‰©å“key,-1è¡¨ç¤ºæ‰€æœ‰ç‰©å“
-	public int number; // æ•°é‡,-1è¡¨ç¤ºå…¨éƒ¨
-	public int dstpos; // ç›®æ ‡ä½ç½®,-1,è‡ªåŠ¨é€‰æ‹©
+	public int srckey; // ÎïÆ·key,-1±íÊ¾ËùÓĞÎïÆ·
+	public int number; // ÊıÁ¿,-1±íÊ¾È«²¿
+	public int dstpos; // Ä¿±êÎ»ÖÃ,-1,×Ô¶¯Ñ¡Ôñ
 	public long npcid;
 
 	public COneKeyMoveTempToBag() {

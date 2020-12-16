@@ -31,7 +31,7 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 	public static final Logger logger = Logger.getLogger("BATTLE");
 	@Override
 	protected void process() {
-		//确定是否下战书
+		//确定是否下战�?
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (hostid <= 0)
 			return;
@@ -57,22 +57,22 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 						return false;
 					}
 				}
-				//这里需要判断我是否已经下过战书
+				//这里�?要判断我是否已经下过战书
 				xbean.LiveDieRoleInfo hostliveDieRoleInfo=xtable.Livedieroleinfotab.select(hostid);
 				if(hostliveDieRoleInfo!=null){
 					if(System.currentTimeMillis()-hostliveDieRoleInfo.getInvitationtime()<LiveDieMange.getLiveDieTime()){
 						String name=new PropRole(hostliveDieRoleInfo.getObjectid(),true).getName();
 						if(objectid==hostliveDieRoleInfo.getObjectid()){
-							//提示已经发送过162073
+							//提示已经发�?�过162073
 							fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162073, Arrays.asList(name));
 						}else{
-							//提示已经发送过162074
+							//提示已经发�?�过162074
 							fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162074, Arrays.asList(name));
 						}
 						return false;
 					}
 				}
-				//判断我是否已经接受过别人的战书
+				//判断我是否已经接受过别人的战�?
 				Long selfid=xtable.Livedie2key.select(hostid);
 				if(selfid!=null){
 					xbean.LiveDieRoleInfo otherLiveDieRoleInfo=xtable.Livedieroleinfotab.select(selfid);
@@ -113,7 +113,7 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 						}
 					}
 				}
-				//需要锁
+				//�?要锁
 				List<Long> list = new ArrayList<Long>();
 				list.add(hostid);
 				list.add(objectid);
@@ -125,12 +125,12 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 //					MessageMgr.sendMsgNotify(hostid, 145005, null);
 					return false;
 				}
-				if (bag.subMoney(-cost, "下战书扣除银币", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_xiazhanshu, 0) != -cost) {
+				if (bag.subMoney(-cost, "下战书扣除银�?", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_xiazhanshu, 0) != -cost) {
 //					MessageMgr.sendMsgNotify(hostid, 145005, null);
 					return false;
 				}
 				hostliveDieRoleInfo=xtable.Livedieroleinfotab.get(hostid);
-				//保存数据库
+				//保存数据�?
 				if(hostliveDieRoleInfo==null){
 					hostliveDieRoleInfo=xbean.Pod.newLiveDieRoleInfo();
 					xtable.Livedieroleinfotab.insert(hostid, hostliveDieRoleInfo);
@@ -140,12 +140,12 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 				hostliveDieRoleInfo.setInvitationtime(System.currentTimeMillis());
 				hostliveDieRoleInfo.setAcceptflag(0);
 				
-				//插入关联表
+				//插入关联�?
 				Long object=xtable.Livedie2key.get(objectid);
 				if(object==null){
 					xtable.Livedie2key.insert(objectid, hostid);
 				}else{
-					//时间过期了，重新设置值
+					//时间过期了，重新设置�?
 					xtable.Livedie2key.remove(objectid);
 					xtable.Livedie2key.insert(objectid, hostid);
 				}
@@ -155,12 +155,12 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 				sInvitationLiveDieBattleOK.selecttype=selecttype;
 				Onlines.getInstance().send(objectid, sInvitationLiveDieBattleOK);
 				
-				//发送系统公告
+				//发�?�系统公�?
 				String hostname=new PropRole(hostid,true).getName();
 				String guestname=new PropRole(objectid,true).getName();
 				MessageMgr.sendSystemMsg(162066,Arrays.asList(hostname,guestname));
 				
-				logger.info("生死战，下战书,角色id"+hostid+"\t对手id"+objectid+"\t金钱数量"+cost);
+				logger.info("生死战，下战�?,角色id"+hostid+"\t对手id"+objectid+"\t金钱数量"+cost);
 				return true;
 			};
 		}.submit();
@@ -177,8 +177,8 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 		return 793835;
 	}
 
-	public long objectid; // 目标玩家id
-	public int selecttype; // 0单人   1组队
+	public long objectid; // Ŀ�����id
+	public int selecttype; // 0����   1���
 
 	public CInvitationLiveDieBattleOK() {
 	}

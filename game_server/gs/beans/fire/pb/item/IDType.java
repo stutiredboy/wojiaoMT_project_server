@@ -5,12 +5,12 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 浣跨敤鐗╁搧
+/** 使用物品
 */
 public class IDType implements Marshal , Comparable<IDType>{
-	public final static int ROLE = 0; // 浜虹墿
-	public final static int PET = 1; // 瀹犵墿
-	public final static int ITEM = 2; // 鐗╁搧
+	public final static int ROLE = 0; // 人物
+	public final static int PET = 1; // 宠物
+	public final static int ITEM = 2; // 物品
 
 
 	public IDType() {

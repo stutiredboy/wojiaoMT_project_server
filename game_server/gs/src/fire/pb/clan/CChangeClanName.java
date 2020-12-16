@@ -81,7 +81,7 @@ public class CChangeClanName extends __CChangeClanName__ {
 					fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 145077, null);
 					return false;
 				}
-				//判断修改权限，只有会长可以修改
+				//判断修改权限，只有会长可以修�?
 				if (clanInfo.getClanmaster() != roleid) {
 					fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 150127, null);
 					return false;
@@ -106,12 +106,12 @@ public class CChangeClanName extends __CChangeClanName__ {
 				mkdb.Procedure.psendWhileCommit(roleid, new SChangeClanName(newname));
 				fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(roleid, 160068, null);
 				
-				//公会频道发送消息
+				//公会频道发�?�消�?
 				MessageMgr.psendMsgNotifyWhileCommit(clanInfo.getMembers().keySet(), 160396, 0,Arrays.asList(newname));
 				//好友频道提示
 				MessageMgr.psendSystemMessageToRoles(clanInfo.getMembers().keySet(), 160396, Arrays.asList(newname));
 				
-				fire.pb.clan.srv.ClanManage.logger.info("玩家角色id "+roleid+"\t修改公会名称，消耗符石 "+costHearthStone);
+				fire.pb.clan.srv.ClanManage.logger.info("玩家角色id "+roleid+"\t修改公会名称，消耗符�? "+costHearthStone);
 				
 				for (long members : clanInfo.getMembers().keySet())
 				{
@@ -126,7 +126,7 @@ public class CChangeClanName extends __CChangeClanName__ {
 				//处理帮派事件
 				ClanManage.addDealClanEventInfo(clanInfo,ClanManage.EVENT_CHANGE_NAME,roleid,mastername,newname,"");
 								
-				//工会竞速榜删除 by changhao
+				//工会竞�?�榜删除 by changhao
 				xbean.ClanProgressRankList clanprogressrankmclist = xtable.Clanprogressranklist.get(RankType.FACTION_COPY);
 				if(null != clanprogressrankmclist)
 				{

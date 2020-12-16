@@ -30,7 +30,7 @@ abstract class __CRequestJoinTeam__ extends mkio.Protocol { }
  *
  */
 public class CRequestJoinTeam extends __CRequestJoinTeam__ {
-	private long now = 0L;//procedure开始时保存一个当前时间，保证此procedure中时间的统一性
+	private long now = 0L;//procedure�?始时保存�?个当前时间，保证此procedure中时间的统一�?
 	Team team;
 	@Override
 	protected void process() {
@@ -44,10 +44,10 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 			return;
 		}
 		
-		Long appliedclanfightid = xtable.Roleid2clanfightid.select(roleid);//如果申请的队伍在公会战场中 by changhao
+		Long appliedclanfightid = xtable.Roleid2clanfightid.select(roleid);//如果申请的队伍在公会战场�? by changhao
 		if (appliedclanfightid != null)
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//如果申请者在公会战场中 by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//如果申请者在公会战场�? by changhao
 			if (!appliedclanfightid.equals(applierclanfightid))
 			{
  			    MessageMgr.sendMsgNotify(applierRoleId, 410025,  null);
@@ -71,7 +71,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 		}
 		else
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//申请者在公会战场中 by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//申请者在公会战场�? by changhao
 			if (applierclanfightid != null)
 			{
 				if (!applierclanfightid.equals(appliedclanfightid))
@@ -82,8 +82,8 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 			}
 		}
 		
-		TeamManager.logger.debug("角色（Id = " +applierRoleId+"）申请 入队");
-		//add by cn 如果在单挑决斗状态,不允许加入任何队伍
+		TeamManager.logger.debug("角色（Id = " +applierRoleId+"）申�? 入队");
+		//add by cn 如果在单挑决斗状�?,不允许加入任何队�?
 		BuffAgent agent = new BuffRoleImpl(applierRoleId, true);
 		if (agent.existBuff(PlayPKManage.BuffDuelID)) {
 			MessageMgr.sendMsgNotify(applierRoleId, 141133,  null);
@@ -92,14 +92,14 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 
 		PropRole applierprop = new PropRole(applierRoleId, true);
 		if(applierprop.getProperties().getCruise() > 0) {
-			TeamManager.logger.info("CRequestJoinTeam:申请入队者" + applierRoleId + "在巡游状态,此时不能申请入队");
+			TeamManager.logger.info("CRequestJoinTeam:申请入队�?" + applierRoleId + "在巡游状�?,此时不能申请入队");
 			fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162027, null);
 			return;
 		}
 		
 		PropRole leaderprop = new PropRole(roleid, true);
 		if(leaderprop.getProperties().getCruise() > 0) {
-			TeamManager.logger.info("CRequestJoinTeam:队伍队长" + roleid + "申请人" + applierRoleId + "队伍队长正在巡游状态,不能申请入队");
+			TeamManager.logger.info("CRequestJoinTeam:队伍队长" + roleid + "申请�?" + applierRoleId + "队伍队长正在巡游状�??,不能申请入队");
 			fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162026, null);
 			return;
 		}
@@ -120,12 +120,12 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(roleid);
-				//先验证队伍是否为空
+				//先验证队伍是否为�?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 				{
-					//对方不在队伍中
+					//对方不在队伍�?
 					//psend(applierRoleId, new STeamError(TeamError.ObjectNotInTeam));
 					//TeamManager.logger.debug("FAIL:申请失败，对方不在队伍中,roleid"+ roleid);
 										
@@ -158,22 +158,22 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 				}
 				else if(!checkApplierNotInTeam(applierRoleId))
 				{
-					//申请者在队伍中(illegal)
+					//申请者在队伍�?(illegal)
 					fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 140855, null);
-					TeamManager.logger.debug("FAIL:申请者在队伍中,applierRoleId"+ applierRoleId);
+					TeamManager.logger.debug("FAIL:申请者在队伍�?,applierRoleId"+ applierRoleId);
 				}
 				else if(!checkApplierStatusValid(applierRoleId))
 				{
-					//申请者处于不能申请组队的状态？（飞行，跑商，摆摊，护送等）
+					//申请者处于不能申请组队的状�?�？（飞行，跑商，摆摊，护�?�等�?
 					psend(applierRoleId, new STeamError(TeamError.SelfInUnteamState));
-					TeamManager.logger.debug("FAIL:申请者处于不能申请组队的状态？（飞行，跑商，摆摊，护送等）,applierRoleId"+ applierRoleId);
+					TeamManager.logger.debug("FAIL:申请者处于不能申请组队的状�?�？（飞行，跑商，摆摊，护�?�等�?,applierRoleId"+ applierRoleId);
 				}
 				else if(!checkLeaderTeamFuncEnable(leaderRoleId))
 				{
-					//队长组队开关未打开
+					//队长组队�?关未打开
 					//psend(applierRoleId, new STeamError(TeamError.ObjectTeamFunctionClose));
 					fire.pb.talk.MessageMgr.psendMsgNotify(applierRoleId, 141201, null);
-					TeamManager.logger.debug("FAIL:队长组队开关未打开,leaderRoleId"+ leaderRoleId);
+					TeamManager.logger.debug("FAIL:队长组队�?关未打开,leaderRoleId"+ leaderRoleId);
 				}
 				else if(!checkTeamNotFull(team))
 				{
@@ -187,15 +187,15 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 				}
 				else if(team.isApplyListFull())
 				{
-					//队伍申请列表已满（15个）
+					//队伍申请列表已满�?15个）
 					psend(applierRoleId, new STeamError(TeamError.ApplyListFull));
-					TeamManager.logger.debug("FAIL:队伍申请列表已满（15个）,teamId"+ teamId);
+					TeamManager.logger.debug("FAIL:队伍申请列表已满�?15个）,teamId"+ teamId);
 				}
 				else if(team.getTeamInfo().getApplierids().containsKey(applierRoleId))
 				{
-					//申请者正在该队伍申请列表中
+					//申请者正在该队伍申请列表�?
 					psend(applierRoleId, new STeamError(TeamError.AlreadyApply));
-					TeamManager.logger.debug("FAIL:申请者正在该队伍申请列表中,teamId"+ teamId);
+					TeamManager.logger.debug("FAIL:申请者正在该队伍申请列表�?,teamId"+ teamId);
 				}
 				else if(!checkLevelRequirementValid(team, applierRoleId))
 				{
@@ -208,7 +208,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 					
 					boolean inWaiting1 = false;
 					boolean inWaiting = false;
-					//发起人
+					//发起�?
 					final fire.pb.map.Role  invitMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(applierRoleId);
 					final fire.pb.map.Role  desMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(leaderRoleId);
 					if(invitMaprole == null || desMaprole == null){
@@ -233,7 +233,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 						
 					xbean.Properties applierProperty = xtable.Properties.get(applierRoleId);
 						
-					//检查申请者是否满足这个队伍自动匹配的需求 by changhao
+					//�?查申请�?�是否满足这个队伍自动匹配的�?�? by changhao
 					xbean.TeamMatch teammatch = TeamManager.getInstance().getTeamMatchByTeamid(teamId);
 					if (teammatch != null && applierProperty != null)
 					{
@@ -247,7 +247,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 					
 					team.getTeamInfo().getApplierids().put(applierRoleId, now);
 
-					//向队长更新申请列表
+					//向队长更新申请列�?
 					SAddTeamApply sAddTeamApply = new SAddTeamApply();
 					fire.pb.team.TeamApplyBasic  teamApplyBasic = new fire.pb.team.TeamApplyBasic();
 					//teamApplyBasic.face = applierProperty.getFaction();
@@ -260,7 +260,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 					fire.pb.map.Role.getPlayerComponents(applierRoleId, teamApplyBasic.components);
 					sAddTeamApply.applylist.add(teamApplyBasic);
 					psendWhileCommit(leaderRoleId, sAddTeamApply);
-					//向申请者返回成功信息
+					//向申请�?�返回成功信�?
 					SRequestJoinSucc sRequestJoinSucc = new SRequestJoinSucc();
 					xbean.Properties leaderProperty = xtable.Properties.get(leaderRoleId);
 					sRequestJoinSucc.rolename = leaderProperty.getRolename();
@@ -271,7 +271,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 					
 					fire.pb.talk.MessageMgr.psendMsgNotify(applierRoleId, 150041, param);
 					
-					TeamManager.logger.debug("SUCC:满足条件，队伍可以接受申请者,teamId"+ teamId);
+					TeamManager.logger.debug("SUCC:满足条件，队伍可以接受申请�??,teamId"+ teamId);
 				}
 				return true;
 			}
@@ -279,7 +279,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 		requestJoinTeamP.submit();
 	}
 
-	// 检测PVP
+	// �?测PVP
 	private static int checkPvP(long targetRoleId, long selfRoleId) {
 		// 申请加入别人队伍
 		return fire.pb.battle.pvp.PvPTeamHandle.onRequestJoinTeam(targetRoleId, selfRoleId);
@@ -294,7 +294,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 			return false;
 	}
 	
-	//申请者不在队伍中？
+	//申请者不在队伍中�?
 	private boolean checkApplierNotInTeam(long applierRoleId)
 	{
 		if(xtable.Roleid2teamid.get(applierRoleId) == null)
@@ -303,20 +303,20 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 			return false;
 	}
 	
-	//申请者处于能申请组队的状态？（飞行，跑商，摆摊，护送等不能组队）
+	//申请者处于能申请组队的状态？（飞行，跑商，摆摊，护�?�等不能组队�?
 	private boolean checkApplierStatusValid(long applierRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(applierRoleId,true);
 		if(!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM))
 		{
-			TeamManager.logger.info("玩家(roleId=" + applierRoleId+")处于不能组队的状态");
+			TeamManager.logger.info("玩家(roleId=" + applierRoleId+")处于不能组队的状�?");
 			return true;
 		}
 		return true;
 	}
 	
 	
-	//队长组队开关打开？
+	//队长组队�?关打�?�?
 	private boolean checkLeaderTeamFuncEnable(long leaderRoleId)
 	{
 //		if(fire.pb.SystemSettingConfig.checkRoleSetting(leaderRoleId, fire.pb.SysSetType.AcceptTeam)<=0)
@@ -333,7 +333,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 		return filter.checkRequestJoin(team.getTeamLeaderId(), roleId);
 	}
 	
-	//队伍人数未满？
+	//队伍人数未满�?
 	private boolean checkTeamNotFull(Team team)
 	{
 		if(team.getTeamInfo().getMembers().size() < TeamManager.MAX_MEMBER_COUNT)
@@ -361,7 +361,7 @@ public class CRequestJoinTeam extends __CRequestJoinTeam__ {
 		return 794449;
 	}
 
-	public long roleid; // 别人队伍的队长ID
+	public long roleid; // ���˶���Ķӳ�ID
 
 	public CRequestJoinTeam() {
 	}

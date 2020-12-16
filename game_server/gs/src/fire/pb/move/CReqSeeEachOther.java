@@ -14,7 +14,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReqSeeEachOther__ extends mkio.Protocol { }
 
-/** ä¸»åŠ¨è¯·æ±‚è·ŸæŸä¸ªåœ¨å‘¨å›´çš„è§’è‰²äº’ç›¸çœ‹è§ï¼Œå¦‚æœåœ¨å‘¨å›´ï¼Œå°±æ¨ä¸‹æ¥
+/** Ö÷¶¯ÇëÇó¸úÄ³¸öÔÚÖÜÎ§µÄ½ÇÉ«»¥Ïà¿´¼û£¬Èç¹ûÔÚÖÜÎ§£¬¾ÍÍÆÏÂÀ´
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,7 +30,7 @@ public class CReqSeeEachOther extends __CReqSeeEachOther__ {
 		Role seerole = RoleManager.getInstance().getRoleByID(roleid);
 		
 		if(reqrole == null || seerole == null)
-			return;//ä¸åœ¨çº¿
+			return;//ä¸åœ¨çº?
 		
 		if(reqrole.getScene() != seerole.getScene())
 			return;//ä¸åœ¨åŒä¸€åœºæ™¯
@@ -39,7 +39,7 @@ public class CReqSeeEachOther extends __CReqSeeEachOther__ {
 		int reqscreenindex = s.getScreenIndex(reqrole.getPos());
 		int seescreenindex = s.getScreenIndex(seerole.getPos());
 		if(Math.abs(reqscreenindex - seescreenindex) > 1)
-			return;//ä¸åœ¨é™„è¿‘å±å—ä¸­ï¼Œäº’ç›¸çœ‹ä¸åˆ°
+			return;//ä¸åœ¨é™„è¿‘å±å—ä¸­ï¼Œäº’ç›¸çœ‹ä¸åˆ?
 		
 		MapConfig mapcfg = ConfigManager.getInstance().getConf(MapConfig.class).get(s.getMapID());
 		if(mapcfg == null)

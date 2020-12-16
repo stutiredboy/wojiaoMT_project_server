@@ -6,15 +6,15 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ClanSummaryInfo implements Marshal {
-	public long clanid; // å…¬ä¼škey
-	public int index; // å…¬ä¼šåºå·
-	public java.lang.String clanname; // å…¬ä¼šåç§°
-	public int membernum; // å…¬ä¼šäººæ•°
-	public int clanlevel; // å…¬ä¼šç­‰çº§
-	public java.lang.String clanmastername; // ä¼šé•¿åå­—
-	public long clanmasterid; // ä¼šé•¿id
-	public java.lang.String oldclanname; // å…¬ä¼šæ›¾ç”¨å
-	public int hotellevel; // å…¬ä¼šæ—…é¦†ç­‰çº§
+	public long clanid; // ¹«»ákey
+	public int index; // ¹«»áĞòºÅ
+	public java.lang.String clanname; // ¹«»áÃû³Æ
+	public int membernum; // ¹«»áÈËÊı
+	public int clanlevel; // ¹«»áµÈ¼¶
+	public java.lang.String clanmastername; // »á³¤Ãû×Ö
+	public long clanmasterid; // »á³¤id
+	public java.lang.String oldclanname; // ¹«»áÔøÓÃÃû
+	public int hotellevel; // ¹«»áÂÃ¹İµÈ¼¶
 
 	public ClanSummaryInfo() {
 		clanname = "";

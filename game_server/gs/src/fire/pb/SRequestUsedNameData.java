@@ -25,8 +25,8 @@ public class SRequestUsedNameData extends __SRequestUsedNameData__ {
 		return 786505;
 	}
 
-	public java.util.LinkedList<java.lang.String> usednames; // æ›¾ç”¨å
-	public int itemkey; // ä½¿ç”¨çš„æ”¹åç¬¦itemkey
+	public java.util.LinkedList<java.lang.String> usednames; // ÔøÓÃÃû
+	public int itemkey; // Ê¹ÓÃµÄ¸ÄÃû·ûitemkey
 
 	public SRequestUsedNameData() {
 		usednames = new java.util.LinkedList<java.lang.String>();

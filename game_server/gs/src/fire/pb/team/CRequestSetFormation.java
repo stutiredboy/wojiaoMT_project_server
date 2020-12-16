@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRequestSetFormation__ extends mkio.Protocol { }
 
-/** - 鍏夌幆鐩稿叧   start
+/** - 光环相关   start
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

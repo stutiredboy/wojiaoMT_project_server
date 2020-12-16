@@ -12,7 +12,7 @@ abstract class __CStartClanFightBattle__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 开始公会战 battle PK by changhao
+ * �?始公会战 battle PK by changhao
  * @author Administrator
  *
  */
@@ -50,7 +50,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 					return false;
 				}
 				
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //检测是否在战场中 by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //�?测是否在战场�? by changhao
 				if (c1 == null)
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
@@ -60,7 +60,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 					return false;
 				}
 				
-				Long c2 = xtable.Roleid2clanfightid.select(targetid); //检测是否在战场中 by changhao
+				Long c2 = xtable.Roleid2clanfightid.select(targetid); //�?测是否在战场�? by changhao
 				if (c2 == null)
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
@@ -70,7 +70,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 					return false;
 				}
 				
-				if (!c1.equals(c2)) //是否在同一公会战里 by changhao
+				if (!c1.equals(c2)) //是否在同�?公会战里 by changhao
 				{
 					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")同一公会");
 					return false;
@@ -98,7 +98,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				
 				if (statistics2.getAct() <= 0)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")目标没有行动力 ");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")目标没有行动�? ");
 					return false;
 				}
 				
@@ -113,7 +113,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.clan.fight.ClanFightBattleField bf1 = fire.pb.clan.fight.ClanFightFactory.getClanFightBattleField(c1, true);
 				if (bf1 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")战场不存在");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")战场不存�?");
 					return false;
 				}
 				
@@ -122,13 +122,13 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.clan.fight.ClanFightBattleField bf2 = fire.pb.clan.fight.ClanFightFactory.getClanFightBattleField(c2, true);
 				if (bf2 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")战场不存在");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")战场不存�?");
 					return false;
 				}
 				
 				which2 = bf2.getSideByRoleId(targetid);
 				
-				//判断是否是对立 by changhao
+				//判断是否是对�? by changhao
 				if (!(which1 == 0 && which2 == 1) && !(which1 == 1 && which2 == 0))
 				{
 					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")目标阵营不对");
@@ -149,7 +149,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				
 				if (cur < bf1.getClanfightBean().getActivitypreparetime() || cur > bf1.getClanfightBean().getActivityendtime())
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")不在PK时间内");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")不在PK时间�?");
 					return false;
 				}
 				
@@ -169,7 +169,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(targetid);
 				if (team != null)
 				{
-					if (team.isNormalMember(targetid)) //如果是正常队员 by changhao
+					if (team.isNormalMember(targetid)) //如果是正常队�? by changhao
 					{
 						targetid = team.getTeamLeaderId();
 					}
@@ -199,7 +199,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 		return 808534;
 	}
 
-	public long targetid; // 目标id by changhao
+	public long targetid; // Ŀ��id by changhao
 
 	public CStartClanFightBattle() {
 	}

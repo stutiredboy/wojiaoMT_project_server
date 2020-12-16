@@ -28,9 +28,9 @@ public class CCommitMission extends __CCommitMission__ {
 		return 805444;
 	}
 
-	public int missionid; // 浠诲姟id
-	public long npckey; // npckey涓簄pc鐨勫敮涓�ID
-	public int option; // 閫夐」id
+	public int missionid; // 任务id
+	public long npckey; // npckey为npc的唯一ID
+	public int option; // 选项id
 
 	public CCommitMission() {
 	}

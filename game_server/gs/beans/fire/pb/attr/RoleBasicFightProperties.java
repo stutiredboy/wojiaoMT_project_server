@@ -5,19 +5,19 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** è§’è‰²åŸºç¡€æˆ˜æ–—å±æ€§
+/** ½ÇÉ«»ù´¡Õ½¶·ÊôĞÔ
 */
 public class RoleBasicFightProperties implements Marshal {
-	public short cons; // ä½“è´¨
-	public short iq; // æ™ºåŠ›
-	public short str; // åŠ›é‡
-	public short endu; // è€åŠ›
-	public short agi; // æ•æ·
-	public java.util.HashMap<Integer,Integer> cons_save; // å·²åˆ†é…ä½“è´¨
-	public java.util.HashMap<Integer,Integer> iq_save; // å·²åˆ†é…æ™ºåŠ›
-	public java.util.HashMap<Integer,Integer> str_save; // å·²åˆ†é…åŠ›é‡
-	public java.util.HashMap<Integer,Integer> endu_save; // å·²åˆ†é…è€åŠ›
-	public java.util.HashMap<Integer,Integer> agi_save; // å·²åˆ†é…æ•æ·
+	public short cons; // ÌåÖÊ
+	public short iq; // ÖÇÁ¦
+	public short str; // Á¦Á¿
+	public short endu; // ÄÍÁ¦
+	public short agi; // Ãô½İ
+	public java.util.HashMap<Integer,Integer> cons_save; // ÒÑ·ÖÅäÌåÖÊ
+	public java.util.HashMap<Integer,Integer> iq_save; // ÒÑ·ÖÅäÖÇÁ¦
+	public java.util.HashMap<Integer,Integer> str_save; // ÒÑ·ÖÅäÁ¦Á¿
+	public java.util.HashMap<Integer,Integer> endu_save; // ÒÑ·ÖÅäÄÍÁ¦
+	public java.util.HashMap<Integer,Integer> agi_save; // ÒÑ·ÖÅäÃô½İ
 
 	public RoleBasicFightProperties() {
 		cons_save = new java.util.HashMap<Integer,Integer>();

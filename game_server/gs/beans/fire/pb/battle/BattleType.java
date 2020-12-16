@@ -6,20 +6,20 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class BattleType implements Marshal , Comparable<BattleType>{
-	public final static int BATTLE_PVE = 10; // æ‰“æ€ª ,æ‰€æœ‰pve %10éƒ½æ˜¯0
-	public final static int BATTLE_HIDEAREA = 1100; // æš—é›·åŒºæˆ˜æ–—
-	public final static int BATTLE_SHOWAREA = 1200; // æ˜é›·åŒºæˆ˜æ–—
-	public final static int BATTLE_BOSS = 30; // pveä¸­çš„bossæˆ˜,è¿›æˆ˜æ–—çš„æ—¶å€™éœ€è¦ç»™ä¸€æ¡æç¤º(141614)
-	public final static int BATTLE_LINE = 40; // å‰¯æœ¬æˆ˜æ–—
-	public final static int BATTLE_CLANBOSS = 50; // å…¬ä¼šboss
+	public final static int BATTLE_PVE = 10; // ´ò¹Ö ,ËùÓĞpve %10¶¼ÊÇ0
+	public final static int BATTLE_HIDEAREA = 1100; // °µÀ×ÇøÕ½¶·
+	public final static int BATTLE_SHOWAREA = 1200; // Ã÷À×ÇøÕ½¶·
+	public final static int BATTLE_BOSS = 30; // pveÖĞµÄbossÕ½,½øÕ½¶·µÄÊ±ºòĞèÒª¸øÒ»ÌõÌáÊ¾(141614)
+	public final static int BATTLE_LINE = 40; // ¸±±¾Õ½¶·
+	public final static int BATTLE_CLANBOSS = 50; // ¹«»áboss
 	public final static int BATTLE_SHOUXI = 60; // capital apprentice
-	public final static int BATTLE_PVP = 11; // åˆ‡ç£‹,æ‰€æœ‰pvp %10éƒ½æ˜¯1
-	public final static int BATTLE_LIVEDIE = 21; // ç”Ÿæ­»æˆ˜
-	public final static int BATTLE_DUEL_SINGLE = 31; // å•äººå†³æ–—
-	public final static int BATTLE_DUEL_TEAM = 41; // ç»„é˜Ÿå†³æ–—
-	public final static int BATTLE_BINGFENG_WAR = 100; // å†°å°ç‹åº§æˆ˜æ–—
-	public final static int BATTLE_INST_BATTLE = 110; // å…¬ä¼šå‰¯æœ¬æˆ˜æ–—
-	public final static int BATTLE_CLAN_FIGHT = 201; // å…¬ä¼šæˆ˜ by changhao
+	public final static int BATTLE_PVP = 11; // ÇĞ´è,ËùÓĞpvp %10¶¼ÊÇ1
+	public final static int BATTLE_LIVEDIE = 21; // ÉúËÀÕ½
+	public final static int BATTLE_DUEL_SINGLE = 31; // µ¥ÈË¾ö¶·
+	public final static int BATTLE_DUEL_TEAM = 41; // ×é¶Ó¾ö¶·
+	public final static int BATTLE_BINGFENG_WAR = 100; // ±ù·âÍõ×ùÕ½¶·
+	public final static int BATTLE_INST_BATTLE = 110; // ¹«»á¸±±¾Õ½¶·
+	public final static int BATTLE_CLAN_FIGHT = 201; // ¹«»áÕ½ by changhao
 
 
 	public BattleType() {

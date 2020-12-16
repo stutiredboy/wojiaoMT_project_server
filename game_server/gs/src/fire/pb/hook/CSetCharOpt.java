@@ -33,8 +33,8 @@ public class CSetCharOpt extends __CSetCharOpt__ {
 		return 810335;
 	}
 
-	public short charoptype; // 璁剧疆浜虹墿鎿嶄綔绫诲瀷
-	public int charopid; // 璁剧疆浜虹墿鎿嶄綔id
+	public short charoptype; // 设置人物操作类型
+	public int charopid; // 设置人物操作id
 
 	public CSetCharOpt() {
 	}

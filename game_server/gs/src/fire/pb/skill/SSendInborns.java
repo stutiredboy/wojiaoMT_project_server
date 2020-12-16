@@ -25,7 +25,7 @@ public class SSendInborns extends __SSendInborns__ {
 		return 800447;
 	}
 
-	public java.util.HashMap<Integer,Integer> inborns; // key = IDï¼Œvalue=ç­‰çº§ã€‚é‡Œé¢æ²¡æœ‰çš„ä¸º0çº§
+	public java.util.HashMap<Integer,Integer> inborns; // key = ID£¬value=µÈ¼¶¡£ÀïÃæÃ»ÓĞµÄÎª0¼¶
 
 	public SSendInborns() {
 		inborns = new java.util.HashMap<Integer,Integer>();

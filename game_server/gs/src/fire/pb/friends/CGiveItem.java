@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGiveItem__ extends mkio.Protocol { }
 
-/** èµ é€é“å…·
+/** ÔùËÍµÀ¾ß
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,8 +32,8 @@ public class CGiveItem extends __CGiveItem__ {
 		return 806635;
 	}
 
-	public long roleid; // èµ é€ç›®æ ‡çš„è§’è‰²id
-	public java.util.HashMap<Integer,Integer> itemmap; // èµ é€çš„é“å…·åˆ—è¡¨ key=itemKey value=itemNum
+	public long roleid; // ÔùËÍÄ¿±êµÄ½ÇÉ«id
+	public java.util.HashMap<Integer,Integer> itemmap; // ÔùËÍµÄµÀ¾ßÁĞ±í key=itemKey value=itemNum
 
 	public CGiveItem() {
 		itemmap = new java.util.HashMap<Integer,Integer>();

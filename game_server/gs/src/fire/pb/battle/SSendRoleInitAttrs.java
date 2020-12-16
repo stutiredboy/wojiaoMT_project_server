@@ -27,7 +27,7 @@ public class SSendRoleInitAttrs extends __SSendRoleInitAttrs__ {
 		return 793455;
 	}
 
-	public java.util.HashMap<Integer,Float> roleinitattrs; // è¿›æˆ˜æ–—æ—¶ä¸»è§’çš„äºŒçº§å±žæ€§
+	public java.util.HashMap<Integer,Float> roleinitattrs; // ½øÕ½¶·Ê±Ö÷½ÇµÄ¶þ¼¶ÊôÐÔ
 
 	public SSendRoleInitAttrs() {
 		roleinitattrs = new java.util.HashMap<Integer,Float>();

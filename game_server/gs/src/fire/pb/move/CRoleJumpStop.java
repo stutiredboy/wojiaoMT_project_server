@@ -26,11 +26,11 @@ public class CRoleJumpStop extends __CRoleJumpStop__ {
 		
 		if(! role.isJumping()) return;
 		
-		//checkmove ä¸€æ¬¡
+		//checkmove ä¸?æ¬?
 		/*final long curTick = System.currentTimeMillis();
 		if(!CCheckMove.checkmove(role,sceneid, destpos, poslist,curTick))
 		{
-			return;//checkmoveæ²¡æˆåŠŸ
+			return;//checkmoveæ²¡æˆåŠ?
 		}*/
 		Position stoppos = new Position(destpos.x, destpos.y, destz);
 		role.stopJump(stoppos);
@@ -44,8 +44,8 @@ public class CRoleJumpStop extends __CRoleJumpStop__ {
 		return 790479;
 	}
 
-	public fire.pb.move.Pos destpos; // é£è¶Šåœæ­¢ç‚¹
-	public byte destz; // é£è¶Šåœæ­¢zåæ ‡
+	public fire.pb.move.Pos destpos; // ·ÉÔ½Í£Ö¹µã
+	public byte destz; // ·ÉÔ½Í£Ö¹z×ø±ê
 
 	public CRoleJumpStop() {
 		destpos = new fire.pb.move.Pos();

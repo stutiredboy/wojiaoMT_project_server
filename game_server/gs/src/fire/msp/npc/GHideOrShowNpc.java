@@ -58,8 +58,8 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 		return 730421;
 	}
 
-	public int npcid; // è¦éšè—æˆ–æ˜¾ç¤ºçš„npc
-	public int state; // 1è¡¨ç¤ºéšè—ï¼Œ0è¡¨ç¤ºéšè—
+	public int npcid; // ÒªÒş²Ø»òÏÔÊ¾µÄnpc
+	public int state; // 1±íÊ¾Òş²Ø£¬0±íÊ¾Òş²Ø
 
 	public GHideOrShowNpc() {
 	}

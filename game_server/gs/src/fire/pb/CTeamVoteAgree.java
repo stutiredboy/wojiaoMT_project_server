@@ -25,7 +25,7 @@ public class CTeamVoteAgree extends __CTeamVoteAgree__ {
 		return 786525;
 	}
 
-	public byte result; // 0=åŒæ„ 1= æ‹’ç»
+	public byte result; // 0=Í¬Òâ 1= ¾Ü¾ø
 
 	public CTeamVoteAgree() {
 	}

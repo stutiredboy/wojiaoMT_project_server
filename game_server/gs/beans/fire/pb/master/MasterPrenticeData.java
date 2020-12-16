@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class MasterPrenticeData implements Marshal {
-	public long roleid; // å¾’å¼Ÿçš„roleid
-	public java.lang.String nickname; // å¾’å¼Ÿçš„åå­—
-	public int level; // å¾’å¼Ÿç­‰çº§
-	public int school; // å¾’å¼ŸèŒä¸šid
-	public long lastofflinetime; // ä¸Šæ¬¡ä¸‹çº¿æ—¶é—´
-	public int onlinestate; // åœ¨çº¿çŠ¶æ€
+	public long roleid; // Í½µÜµÄroleid
+	public java.lang.String nickname; // Í½µÜµÄÃû×Ö
+	public int level; // Í½µÜµÈ¼¶
+	public int school; // Í½µÜÖ°Òµid
+	public long lastofflinetime; // ÉÏ´ÎÏÂÏßÊ±¼ä
+	public int onlinestate; // ÔÚÏß×´Ì¬
 
 	public MasterPrenticeData() {
 		nickname = "";

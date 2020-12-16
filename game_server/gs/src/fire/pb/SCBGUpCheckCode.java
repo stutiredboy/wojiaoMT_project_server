@@ -25,7 +25,7 @@ public class SCBGUpCheckCode extends __SCBGUpCheckCode__ {
 		return 786585;
 	}
 
-	public byte status; // 1 æˆåŠŸ 0å¤±è´¥
+	public byte status; // 1 ³É¹¦ 0Ê§°Ü
 
 	public SCBGUpCheckCode() {
 	}

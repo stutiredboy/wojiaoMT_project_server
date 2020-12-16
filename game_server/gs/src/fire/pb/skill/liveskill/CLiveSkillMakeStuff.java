@@ -26,7 +26,7 @@ abstract class __CLiveSkillMakeStuff__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 制作符
+ * 制作�?
  * @author changhao
  *
  */
@@ -60,7 +60,7 @@ public class CLiveSkillMakeStuff extends __CLiveSkillMakeStuff__ {
 				
 				SkillRole skillrole = new SkillRole(roleid);
 				
-				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(skillid);	//得到生活技能等级 by changhao			
+				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(skillid);	//得到生活�?能等�? by changhao			
 				if (liveskill == null)
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.SkillLevelNotEnough));
@@ -80,7 +80,7 @@ public class CLiveSkillMakeStuff extends __CLiveSkillMakeStuff__ {
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, skillid, 
 						needlevel,"打符", YYLoggerTuJingEnum.tujing_Value_liveskillcost, false);
 				
-				if (energyenough == false) //消耗活力 by changhao
+				if (energyenough == false) //消�?�活�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						
@@ -115,8 +115,8 @@ public class CLiveSkillMakeStuff extends __CLiveSkillMakeStuff__ {
 		return 800517;
 	}
 
-	public int itemid; // 物品的ID by changhao
-	public int itemnum; // 物品数量 by changhao
+	public int itemid; // ��Ʒ��ID by changhao
+	public int itemnum; // ��Ʒ���� by changhao
 
 	public CLiveSkillMakeStuff() {
 	}

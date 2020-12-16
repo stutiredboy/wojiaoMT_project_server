@@ -6,19 +6,19 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RuneInfo implements Marshal {
-	public long roleid; // è¯·æ±‚è§’è‰²roleid
-	public java.lang.String rolename; // è§’è‰²å
-	public long targetroleid; // ç›®æ ‡roleid
-	public java.lang.String targetrolename; // ç›®æ ‡è§’è‰²å
-	public int level; // è§’è‰²ç­‰çº§
-	public int school; // èŒä¸šèŒä¸š
-	public int shape; // è§’è‰²é€ å‹å¤´åƒ
-	public int givenum; // æç¬¦æ•°
-	public int acceptnum; // æ”¶ç¬¦æ•°
-	public int actiontype; // åŠ¨ä½œç±»å‹  0 è¯·æ±‚ç¬¦æ–‡    1æçŒ®ç¬¦æ–‡
-	public long requesttime; // è¯·æ±‚æ—¶é—´
-	public int itemid; // ç‰©å“id
-	public int itemlevel; // ç‰©å“ç­‰çº§
+	public long roleid; // ÇëÇó½ÇÉ«roleid
+	public java.lang.String rolename; // ½ÇÉ«Ãû
+	public long targetroleid; // Ä¿±êroleid
+	public java.lang.String targetrolename; // Ä¿±ê½ÇÉ«Ãû
+	public int level; // ½ÇÉ«µÈ¼¶
+	public int school; // Ö°ÒµÖ°Òµ
+	public int shape; // ½ÇÉ«ÔìĞÍÍ·Ïñ
+	public int givenum; // ¾è·ûÊı
+	public int acceptnum; // ÊÕ·ûÊı
+	public int actiontype; // ¶¯×÷ÀàĞÍ  0 ÇëÇó·ûÎÄ    1¾èÏ×·ûÎÄ
+	public long requesttime; // ÇëÇóÊ±¼ä
+	public int itemid; // ÎïÆ·id
+	public int itemlevel; // ÎïÆ·µÈ¼¶
 
 	public RuneInfo() {
 		rolename = "";

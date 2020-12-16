@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSetSpaceGift__ extends mkio.Protocol { }
 
-/** 鏀剧疆瑙掕壊绌洪棿绀肩墿缁撴灉
+/** 放置角色空间礼物结果
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SSetSpaceGift extends __SSetSpaceGift__ {
 		return 806642;
 	}
 
-	public byte result; // 0:鎴愬姛
+	public byte result; // 0:成功
 
 	public SSetSpaceGift() {
 	}

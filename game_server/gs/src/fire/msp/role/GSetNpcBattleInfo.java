@@ -37,7 +37,7 @@ public class GSetNpcBattleInfo extends __GSetNpcBattleInfo__ {
 	}
 
 	public long npckey; // roleid
-	public int battlestate; // 0ï¼šæ— ï¼›1ï¼šæˆ˜æ–—è€…
+	public int battlestate; // 0£ºÎÞ£»1£ºÕ½¶·Õß
 
 	public GSetNpcBattleInfo() {
 	}

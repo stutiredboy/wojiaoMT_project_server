@@ -6,14 +6,14 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ChatMsgId implements Marshal , Comparable<ChatMsgId>{
-	public final static int CHAT_SPEED_LIMIT = 140497; // è¯·ä¸è¦è¯´è¯å¤ªå¿«
-	public final static int CANNOT_USE_TEAM_CHANNEL = 140498; // ä½ è¿˜æ²¡æœ‰é˜Ÿä¼
-	public final static int CHAT_WORLD_CHANNEL_TIME_LIMIT = 140500; // æ¯éš”Nç§’æ‰èƒ½åœ¨ä¸–ç•Œé¢‘é“å‘è¨€
-	public final static int CHAT_WORLD_CHANNEL_LEVEL_LIMIT = 140501; // ç­‰çº§ä¸è¶³Nçº§ä¸èƒ½åœ¨ä¸–ç•Œé¢‘é“å‘è¨€
-	public final static int CANNOT_USE_FACTION_CHANNEL = 141053; // æœªåŠ å…¥å…¬ä¼š,ä¸èƒ½ä½¿ç”¨å…¬ä¼šé¢‘é“
-	public final static int CHAT_TEAM_APPLY_CHANNEL_TIME_LIMIT = 150028; // æ¯éš”Nç§’æ‰èƒ½åœ¨ç»„é˜Ÿç”³è¯·é¢‘é“å‘è¨€
-	public final static int CHAT_SCHOOL_CHANNEL_LEVEL_LIMIT = 160471; // ç­‰çº§ä¸è¶³Nçº§ä¸èƒ½åœ¨èŒä¸šé¢‘é“å‘è¨€
-	public final static int CHAT_CURRENT_CHANNEL_LEVEL_LIMIT = 142924; // ç­‰çº§ä¸è¶³Nçº§ä¸èƒ½åœ¨å½“å‰é¢‘é“å‘è¨€
+	public final static int CHAT_SPEED_LIMIT = 140497; // Çë²»ÒªËµ»°Ì«¿ì
+	public final static int CANNOT_USE_TEAM_CHANNEL = 140498; // Äã»¹Ã»ÓĞ¶ÓÎé
+	public final static int CHAT_WORLD_CHANNEL_TIME_LIMIT = 140500; // Ã¿¸ôNÃë²ÅÄÜÔÚÊÀ½çÆµµÀ·¢ÑÔ
+	public final static int CHAT_WORLD_CHANNEL_LEVEL_LIMIT = 140501; // µÈ¼¶²»×ãN¼¶²»ÄÜÔÚÊÀ½çÆµµÀ·¢ÑÔ
+	public final static int CANNOT_USE_FACTION_CHANNEL = 141053; // Î´¼ÓÈë¹«»á,²»ÄÜÊ¹ÓÃ¹«»áÆµµÀ
+	public final static int CHAT_TEAM_APPLY_CHANNEL_TIME_LIMIT = 150028; // Ã¿¸ôNÃë²ÅÄÜÔÚ×é¶ÓÉêÇëÆµµÀ·¢ÑÔ
+	public final static int CHAT_SCHOOL_CHANNEL_LEVEL_LIMIT = 160471; // µÈ¼¶²»×ãN¼¶²»ÄÜÔÚÖ°ÒµÆµµÀ·¢ÑÔ
+	public final static int CHAT_CURRENT_CHANNEL_LEVEL_LIMIT = 142924; // µÈ¼¶²»×ãN¼¶²»ÄÜÔÚµ±Ç°ÆµµÀ·¢ÑÔ
 
 
 	public ChatMsgId() {

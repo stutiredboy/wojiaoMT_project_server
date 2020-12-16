@@ -28,7 +28,7 @@ public class CCheckMove extends __CCheckMove__ {
 		
 		final long curTick = System.currentTimeMillis();
 		if(! role.checkValidFrequency(curTick)){
-			return;//只忽略，不踢掉
+			return;//只忽略，不踢�?
 		}
 		
 		checkmove(role, sceneid, curpos, poslist,curTick);
@@ -41,7 +41,7 @@ public class CCheckMove extends __CCheckMove__ {
 		
 		if(! role.checkMoveUnit())
 		{
-			//Scene.logger.debug("有角色队伍中, 但非队长发来检测消息\t" + role.getName() + "\t" + role.getTeamIndex());
+			//Scene.logger.debug("有角色队伍中, 但非队长发来�?测消息\t" + role.getName() + "\t" + role.getTeamIndex());
 			return false;
 		}
 		
@@ -60,7 +60,7 @@ public class CCheckMove extends __CCheckMove__ {
 		int z = role.getPos().getZ();
 		final Position destPos = new Position(curpos.x, curpos.y, z);
 		final java.util.List<Position> positions = new java.util.ArrayList<Position>();
-		positions.add(role.getPos());// 将服务器上的当前点 加入到验证点列中
+		positions.add(role.getPos());// 将服务器上的当前�? 加入到验证点列中
 		for(final Pos p : poslist)
 			positions.add(new Position(p.x, p.y, z));
 		
@@ -99,9 +99,9 @@ public class CCheckMove extends __CCheckMove__ {
 		return 790435;
 	}
 
-	public fire.pb.move.Pos curpos; // 人物当前点
-	public java.util.LinkedList<fire.pb.move.Pos> poslist; // 路径上的关键点
-	public long sceneid; // 场景id
+	public fire.pb.move.Pos curpos; // ���ﵱǰ��
+	public java.util.LinkedList<fire.pb.move.Pos> poslist; // ·���ϵĹؼ���
+	public long sceneid; // ����id
 
 	public CCheckMove() {
 		curpos = new fire.pb.move.Pos();

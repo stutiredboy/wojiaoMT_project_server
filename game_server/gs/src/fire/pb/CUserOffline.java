@@ -11,7 +11,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CUserOffline__ extends mkio.Protocol { }
 
-/** 客户端，人物选择界面："退出游戏"，"返回登录界面"，"返回服务器选择"；在排队中："取消排队"
+/** �ͻ��ˣ�����ѡ����棺"�˳���Ϸ"��"���ص�¼����"��"���ط�����ѡ��"�����Ŷ��У�"ȡ���Ŷ�"
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

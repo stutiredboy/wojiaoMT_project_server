@@ -12,7 +12,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CAddPointToAttr__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚å±æ€§åŠ ç‚¹
+/** ¿Í»§¶ËÇëÇóÊôĞÔ¼Óµã
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -22,9 +22,9 @@ public class CAddPointToAttr extends __CAddPointToAttr__ {
 	protected void process() {
 		// protocol handle
 		
-		// TODO: ä¸èƒ½åŠ ç‚¹çš„çŠ¶æ€æ¡ä»¶åˆ¤æ–­:å¦‚ æˆ˜æ–—ä¸­
+		// TODO: ä¸èƒ½åŠ ç‚¹çš„çŠ¶æ€æ¡ä»¶åˆ¤æ–?:å¦? æˆ˜æ–—ä¸?
 		
-		// æ•°æ®åˆæ³•æ€§æ£€æŸ¥
+		// æ•°æ®åˆæ³•æ€§æ£€æŸ?
 		long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId == -1)
 			return;
@@ -65,11 +65,11 @@ public class CAddPointToAttr extends __CAddPointToAttr__ {
 		return 786444;
 	}
 
-	public int cons; // ä½“è´¨
-	public int iq; // æ™ºåŠ›
-	public int str; // åŠ›é‡
-	public int agi; // æ•æ·
-	public int endu; // è€åŠ›
+	public int cons; // ÌåÖÊ
+	public int iq; // ÖÇÁ¦
+	public int str; // Á¦Á¿
+	public int agi; // Ãô½İ
+	public int endu; // ÄÍÁ¦
 
 	public CAddPointToAttr() {
 	}

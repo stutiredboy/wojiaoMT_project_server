@@ -32,24 +32,24 @@ public class CInvitationPlayPKResult extends __CInvitationPlayPKResult__ {
 			return;
 		}
 		if(acceptresult==1){
-			//判断一些逻辑，当前是不是在一张地图，或者是不是距离太远
+			//判断�?些�?�辑，当前是不是在一张地图，或�?�是不是距离太远
 			xbean.Properties guestprop=xtable.Properties.select(guestid);
 			if(guestprop.getCruise() > 0) {
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162103, null);
 				return ;
 			}
-			//判断两个人是不是在同一个队伍中
-			//判断目标是否有队伍，需要考虑目标在队伍中的状态
+			//判断两个人是不是在同�?个队伍中
+			//判断目标是否有队伍，�?要�?�虑目标在队伍中的状�?
 			Team guestteam = TeamManager.selectTeamByRoleId(guestid);
 			//判断是否是一个队伍的成员
 			if (guestteam != null){
 				if(guestteam.getAllMemberIds().contains(sourceid)){
-					fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 160460, null);//提示不能邀请同组队员
+					fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 160460, null);//提示不能�?请同组队�?
 					CInvitationPlayPK.sendremoveTickTime(sourceid);//通知客户端取消定时器
 					return;
 				}
 			}
-			// 判断两者之间的距离
+			// 判断两�?�之间的距离
 			if (!fire.pb.battle.PSendInvitePlayPK.checkRoleDistance(guestid, sourceid)){
 	            fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 120063, 0, null);
 	            fire.pb.talk.MessageMgr.sendMsgNotify(sourceid, 120063, 0, null);
@@ -78,8 +78,8 @@ public class CInvitationPlayPKResult extends __CInvitationPlayPKResult__ {
 		return 793689;
 	}
 
-	public long sourceid; // 发起邀请人的id
-	public int acceptresult; // 0拒绝  1接受
+	public long sourceid; // ���������˵�id
+	public int acceptresult; // 0�ܾ�  1����
 
 	public CInvitationPlayPKResult() {
 	}

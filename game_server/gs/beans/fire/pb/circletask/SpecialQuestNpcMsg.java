@@ -6,7 +6,7 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SpecialQuestNpcMsg implements Marshal , Comparable<SpecialQuestNpcMsg>{
-	public final static int SPECIAL_QUEST_FORTUNEWHEEL_MSG = 142436; // 鑱屼笟澶ц浆鐩樼殑msg
+	public final static int SPECIAL_QUEST_FORTUNEWHEEL_MSG = 142436; // 职业大转盘的msg
 
 
 	public SpecialQuestNpcMsg() {

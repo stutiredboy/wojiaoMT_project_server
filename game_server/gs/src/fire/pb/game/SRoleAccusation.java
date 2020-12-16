@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRoleAccusation__ extends mkio.Protocol { }
 
-/** 涓炬姤
+/** 举报
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SRoleAccusation extends __SRoleAccusation__ {
 		return 810371;
 	}
 
-	public byte isbereported; // 1涓鸿涓炬姤 0涓烘挙閿�涓炬姤
+	public byte isbereported; // 1为被举报 0为撤销举报
 
 	public SRoleAccusation() {
 	}

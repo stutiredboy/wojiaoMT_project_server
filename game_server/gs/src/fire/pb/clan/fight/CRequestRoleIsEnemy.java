@@ -42,7 +42,7 @@ public class CRequestRoleIsEnemy extends __CRequestRoleIsEnemy__ {
 						if (c != null)
 						{
 							if (!c.equals(chanid))
-								msg.rolelist.put(e, 2); //敌对的 by changhao
+								msg.rolelist.put(e, 2); //敌对�? by changhao
 							else
 								msg.rolelist.put(e, 1);
 						}
@@ -70,7 +70,7 @@ public class CRequestRoleIsEnemy extends __CRequestRoleIsEnemy__ {
 		return 808541;
 	}
 
-	public java.util.LinkedList<Long> roleidlist; // 角色list  by changhao
+	public java.util.LinkedList<Long> roleidlist; // ��ɫlist  by changhao
 
 	public CRequestRoleIsEnemy() {
 		roleidlist = new java.util.LinkedList<Long>();

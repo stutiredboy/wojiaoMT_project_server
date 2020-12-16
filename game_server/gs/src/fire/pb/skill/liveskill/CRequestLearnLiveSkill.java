@@ -32,7 +32,7 @@ abstract class __CRequestLearnLiveSkill__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请求学习生活技能
+ * 请求学习生活�?�?
  * @author changhao
  *
  */
@@ -68,14 +68,14 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 				
 				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(id);
 				
-				int requireLevel = 1; //需要学习到的等级 by changhao
+				int requireLevel = 1; //�?要学习到的等�? by changhao
 				
 				if (liveskill != null)
 				{
 					requireLevel = liveskill.getLevel() + 1;
 				}
 				
-				if (requireLevel > config.skillLevelMax) //是否已经达到最大等级 by changhao
+				if (requireLevel > config.skillLevelMax) //是否已经达到�?大等�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.SkillMaxLimit));
 					return false;						
@@ -103,13 +103,13 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 					}					
 				}
 				
-				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //是否需要公会 by changhao
+				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //是否�?要公�? by changhao
 				{
 					MessageMgr.psendMsgNotify(roleid, 150027, null);
 					return false;	
 				}
 				
-				//检测学习消耗 by changhao
+				//�?测学习消�? by changhao
 				
 				if (config.studyCostRule > 0)
 				{
@@ -132,7 +132,7 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 					}
 				}
 				
-				//需要的帮贡 by changhao
+				//�?要的帮贡 by changhao
 				if (config.studyCostRule > 0)
 				{
 					int needfactioncontr = cost.guildContributeCostList.get(config.studyCostRule - 1);
@@ -160,14 +160,14 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 					liveskill.setLevel(requireLevel);					
 				}
 				
-				if (config.skillId != 0) //是被动技能 by changhao
+				if (config.skillId != 0) //是被动技�? by changhao
 				{
 					Result result = new Result(true);
 					
 					//刷新BUFF by changhao
 					result.updateResult(skillrole.addLiveSkillBuff());	
 				
-					if(!result.getChangedAttrs().isEmpty())//通知属性改动 by changhao
+					if(!result.getChangedAttrs().isEmpty())//通知属�?�改�? by changhao
 					{
 						mkdb.Procedure.psendWhileCommit(roleid,new SRefreshRoleData((HashMap<Integer, Float>)result.getChangedAttrs()));
 					}
@@ -181,7 +181,7 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 
 				mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PRoleZongheRankProc(roleid));
 				
-				//历程生活技能达到等级
+				//历程生活�?能达到等�?
 				fire.pb.course.CourseManager.checkAchieveCourse(roleid, fire.pb.course.CourseType.SHENG_HUO_JINENG, liveskill.getLevel());
 				fire.log.YYLogger.roleSkillUPLog(roleid, new RoleSkillUpBean(id, liveskill.getLevel()));
 				return true;

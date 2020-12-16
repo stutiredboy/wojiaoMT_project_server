@@ -17,7 +17,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRequestRolePos__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯ä½¿ç”¨åƒé‡Œå¯»è¸ªè¶è¯·æ±‚ç©å®¶åæ ‡
+/** ¿Í»§¶ËÊ¹ÓÃÇ§ÀïÑ°×ÙµûÇëÇóÍæ¼Ò×ø±ê
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -90,12 +90,12 @@ public class CRequestRolePos extends __CRequestRolePos__ {
 		return 786487;
 	}
 
-	public final static int BYNAME = 1; // æŒ‰åå­—æŸ¥æ‰¾
-	public final static int BYID = 2; // æŒ‰idæŸ¥æ‰¾
+	public final static int BYNAME = 1; // °´Ãû×Ö²éÕÒ
+	public final static int BYID = 2; // °´id²éÕÒ
 
-	public long roleid; // ç©å®¶id
-	public java.lang.String rolename; // ç©å®¶å
-	public byte searchtype; // æŸ¥æ‰¾ç±»å‹
+	public long roleid; // Íæ¼Òid
+	public java.lang.String rolename; // Íæ¼ÒÃû
+	public byte searchtype; // ²éÕÒÀàĞÍ
 
 	public CRequestRolePos() {
 		rolename = "";

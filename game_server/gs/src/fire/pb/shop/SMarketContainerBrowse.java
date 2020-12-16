@@ -25,8 +25,8 @@ public class SMarketContainerBrowse extends __SMarketContainerBrowse__ {
 		return 810648;
 	}
 
-	public int actiontype; // çŠ¶æ€ 1å®¹å™¨ï¼Œ2è´­ä¹°å…³æ³¨ï¼Œ3å…¬ç¤ºå…³æ³¨
-	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // é“å…·ä¿¡æ¯
+	public int actiontype; // ×´Ì¬ 1ÈİÆ÷£¬2¹ºÂò¹Ø×¢£¬3¹«Ê¾¹Ø×¢
+	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // µÀ¾ßĞÅÏ¢
 
 	public SMarketContainerBrowse() {
 		goodslist = new java.util.ArrayList<fire.pb.shop.MarketGoods>();

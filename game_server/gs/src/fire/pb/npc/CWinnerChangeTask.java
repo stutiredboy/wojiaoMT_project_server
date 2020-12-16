@@ -49,7 +49,7 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 					MessageMgr.sendMsgNotify(roleid, 140498, null);
 					return false;
 				}
-				//判断活动是否开启
+				//判断活动是否�?�?
 				long currentTime = System.currentTimeMillis();
 				if (!WinnerManager.getInstance().isInWinnerActiveTime(currentTime)) {
 					return false;
@@ -74,7 +74,7 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 					}
 					//同步玩家当前任务
 					WinnerManager.getInstance().createWinnerTask(WinnerManager.WINNER_TASK_ID,roleid,npc,SpecialQuestState.UNDONE,0,task.getSumnum());//创建任务
-					WinnerManager.getInstance().addWinnerRole(roleid);//添加冠军试炼的玩家
+					WinnerManager.getInstance().addWinnerRole(roleid);//添加冠军试炼的玩�?
 					MessageMgr.psendMsgNotifyWhileCommit(roleid, 140666, npc.getNpcID(), Arrays.asList(task.getSumnum()+"",npc.getName()));
 					
 					//清除队伍积分以及环数信息
@@ -82,17 +82,17 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 					if(record!=null){
 						record.setTeamScore(0);
 						record.setRound(0);
-						//重新同步一下队伍成员，并且清除该玩家上次的队伍信息
+						//重新同步�?下队伍成员，并且清除该玩家上次的队伍信息
 						WinnerManager.getInstance().removeLastTeamidAddNew(record,roleid);
 					}
 					//通知队员
 					xbean.Properties prop=xtable.Properties.select(roleid); 
 					List<Long> teamMembers = team.getNormalMemberIds();
 					for (Long mem : teamMembers) {
-						WinnerManager.clearActiveTeamWinnerScore(mem);//清除活动面板的队伍成绩
+						WinnerManager.clearActiveTeamWinnerScore(mem);//清除活动面板的队伍成�?
 						MessageMgr.sendMsgNotify(mem, 170019, Arrays.asList(prop.getRolename()));
 					}
-					WinnerManager.logger.info("角色id "+roleid+"\t同步冠军试炼任务，成功");
+					WinnerManager.logger.info("角色id "+roleid+"\t同步冠军试炼任务，成�?");
 				}else{
 					//取消统一任务
 					//通知队长
@@ -122,7 +122,7 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 		return 795484;
 	}
 
-	public int acceptflag; // 0表示取消    1表示接受
+	public int acceptflag; // 0��ʾȡ��    1��ʾ����
 
 	public CWinnerChangeTask() {
 	}

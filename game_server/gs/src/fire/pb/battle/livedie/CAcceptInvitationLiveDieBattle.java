@@ -54,16 +54,16 @@ public class CAcceptInvitationLiveDieBattle extends __CAcceptInvitationLiveDieBa
 					return false;
 				}
 				if(System.currentTimeMillis()-hostliveDieRoleInfo.getInvitationtime()>LiveDieMange.getLiveDieTime()){
-					logger.info("战书已经过期了");
+					logger.info("战书已经过期�?");
 					return false;
 				}
-				//被挑战玩家如果拒绝挑战，会弹出系统频道提示XXX胆怯了不敢与YYY一战，如果接受挑战，则弹出系统频道提示XXX接受了YYY的挑战，与他一战
+				//被挑战玩家如果拒绝挑战，会弹出系统频道提示XXX胆�?�了不敢与YYY�?战，如果接受挑战，则弹出系统频道提示XXX接受了YYY的挑战，与他�?�?
 				if(acceptresult==1){//接受
 					hostliveDieRoleInfo.setAcceptflag(1);
 					MessageMgr.sendSystemMsg(162067,Arrays.asList(guestname,hostname));
 					SAcceptInvitationLiveDieBattle sAcceptInvitationLiveDieBattle=new SAcceptInvitationLiveDieBattle();
 					Onlines.getInstance().send(guestid, sAcceptInvitationLiveDieBattle);
-					//给好友提示
+					//给好友提�?
 					MessageMgr.psendSystemMessageToRole(hostid,162115, Arrays.asList(guestname));
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162114, Arrays.asList(guestname));
 					//添加战斗
@@ -74,11 +74,11 @@ public class CAcceptInvitationLiveDieBattle extends __CAcceptInvitationLiveDieBa
 					//对方不敢迎战则把钱还给她
 					fire.pb.item.Pack bag = new fire.pb.item.Pack(hostid, false);
 					int cost=LiveDieMange.getLiveDieCostMoney();
-					bag.addSysMoney(cost, "生死战退回押金", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shengsizhanyajin, 0);
-					//给好友提示
+					bag.addSysMoney(cost, "生死战�??回押�?", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shengsizhanyajin, 0);
+					//给好友提�?
 					MessageMgr.psendSystemMessageToRole(hostid, 162087, Arrays.asList(guestname));
 					MessageMgr.sendSystemMsg(162068,Arrays.asList(guestname,hostname));
-					logger.info("生死战，对手拒绝挑战，退回押金,角色id"+hostid+"金钱数量"+cost);
+					logger.info("生死战，对手拒绝挑战，�??回押�?,角色id"+hostid+"金钱数量"+cost);
 				}
 				return true;
 			};
@@ -93,8 +93,8 @@ public class CAcceptInvitationLiveDieBattle extends __CAcceptInvitationLiveDieBa
 		return 793837;
 	}
 
-	public long sourceid; // 目标玩家id
-	public int acceptresult; // 0拒绝  1接受
+	public long sourceid; // Ŀ�����id
+	public int acceptresult; // 0�ܾ�  1����
 
 	public CAcceptInvitationLiveDieBattle() {
 	}

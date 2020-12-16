@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class BlackRoleInfo implements Marshal {
-	public long roleid; // 瑙掕壊id
-	public java.lang.String name; // 瑙掕壊鍚嶇О
-	public short level; // 瑙掕壊绛夌骇
-	public int shape; // 澶村儚
-	public byte school; // 鑱屼笟
+	public long roleid; // 角色id
+	public java.lang.String name; // 角色名称
+	public short level; // 角色等级
+	public int shape; // 头像
+	public byte school; // 职业
 
 	public BlackRoleInfo() {
 		name = "";

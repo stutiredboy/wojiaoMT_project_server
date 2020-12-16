@@ -25,7 +25,7 @@ public class SLiveSkillMakeStuff extends __SLiveSkillMakeStuff__ {
 		return 800518;
 	}
 
-	public int ret; // è¿”å›ç»“æœ0æ˜¯åˆ¶ä½œæˆåŠŸ1æ˜¯åˆ¶ä½œå¤±è´¥äº† by changhao
+	public int ret; // ·µ»Ø½á¹û0ÊÇÖÆ×÷³É¹¦1ÊÇÖÆ×÷Ê§°ÜÁË by changhao
 
 	public SLiveSkillMakeStuff() {
 	}

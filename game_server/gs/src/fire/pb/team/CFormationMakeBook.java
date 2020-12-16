@@ -12,7 +12,7 @@ abstract class __CFormationMakeBook__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 制作光环书
+ * 制作光环�?
  * @author changhao
  *
  */
@@ -33,14 +33,14 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (config == null)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:不知道的光环书 "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:不知道的光环�? "+roleid);
 					return true;
 				}
 				
 				if (config.getItemtypeid() == TeamManager.ITEMTYPE_FORMBOOK_ID)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:不知道的光环书 "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:不知道的光环�? "+roleid);
 					return true;					
 				}
 					
@@ -55,7 +55,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if(number != TeamManager.FORMBOOKHALF_COMBINE_NUM){
 					
 					psend(roleid, new STeamError(TeamError.FormBookHalfNotEnough));
-					TeamManager.logger.debug("CFormationMakeBook:光环书残卷不足 "+roleid);		
+					TeamManager.logger.debug("CFormationMakeBook:光环书残卷不�? "+roleid);		
 					return false;
 				}				
 				
@@ -64,7 +64,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (1 != added)
 				{
 					psend(roleid, new STeamError(TeamError.UnkownError));
-					TeamManager.logger.debug("CFormationMakeBook:光环书创建失败 "+roleid);	
+					TeamManager.logger.debug("CFormationMakeBook:光环书创建失�? "+roleid);	
 					return false;						
 				}				
 				*/

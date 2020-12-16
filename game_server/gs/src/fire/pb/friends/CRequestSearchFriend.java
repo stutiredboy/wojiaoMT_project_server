@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRequestSearchFriend__ extends mkio.Protocol { }
 
-/** å¥½å‹æœç´¢ç›¸å…³
+/** ºÃÓÑËÑË÷Ïà¹Ø
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

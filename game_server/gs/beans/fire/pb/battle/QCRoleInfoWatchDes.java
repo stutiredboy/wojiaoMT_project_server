@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class QCRoleInfoWatchDes implements Marshal {
-	public fire.pb.battle.QCRoleInfoDes role1; // 瀵规墜1
-	public fire.pb.battle.QCRoleInfoDes role2; // 瀵规墜1
+	public fire.pb.battle.QCRoleInfoDes role1; // 对手1
+	public fire.pb.battle.QCRoleInfoDes role2; // 对手1
 
 	public QCRoleInfoWatchDes() {
 		role1 = new fire.pb.battle.QCRoleInfoDes();

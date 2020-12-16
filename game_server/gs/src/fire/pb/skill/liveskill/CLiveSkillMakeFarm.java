@@ -46,7 +46,7 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 						LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FARM, skilllevel,"打工",
 						YYLoggerTuJingEnum.tujing_Value_dagong, false);
 				
-				if (energyenough == false) //消耗活力 by changhao
+				if (energyenough == false) //消�?�活�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						
@@ -54,7 +54,7 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 				
 				Pack bag = (Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
 				
-				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务器 by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
 				{
 					fire.pb.fushi.SCommonDayPay cost = ConfigManager.getInstance().getConf(fire.pb.fushi.SCommonDayPay.class).get(7);
 					money = cost.getServerdata();

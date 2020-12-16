@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PickUpItem implements Marshal , Comparable<PickUpItem>{
-	public long uniqueid; // 鐗╁搧鐨勫疄渚婭D
-	public int baseid; // 鐗╁搧鐨勬ā鏉縄D
-	public fire.pb.move.Pos pos; // 浣嶇疆
+	public long uniqueid; // 物品的实例ID
+	public int baseid; // 物品的模板ID
+	public fire.pb.move.Pos pos; // 位置
 
 	public PickUpItem() {
 		pos = new fire.pb.move.Pos();

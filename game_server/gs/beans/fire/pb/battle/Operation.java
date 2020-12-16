@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class Operation implements Marshal , Comparable<Operation>{
-	public int operationtype; // æ“ä½œç±»å‹	 å‚è€ƒOperationTypeä¸­çš„å€¼
-	public int aim; // ä½œç”¨ç›®æ ‡
-	public int operationid; // æ“ä½œçš„å€¼ï¼ˆä½¿ç”¨ç‰©å“æ—¶è¡¨ç¤ºç‰©å“IDï¼Œæ‹›å”¤å® ç‰©æ—¶ä¸ºå® ç‰©ï¼‰
+	public int operationtype; // ²Ù×÷ÀàĞÍ	 ²Î¿¼OperationTypeÖĞµÄÖµ
+	public int aim; // ×÷ÓÃÄ¿±ê
+	public int operationid; // ²Ù×÷µÄÖµ£¨Ê¹ÓÃÎïÆ·Ê±±íÊ¾ÎïÆ·ID£¬ÕĞ»½³èÎïÊ±Îª³èÎï£©
 
 	public Operation() {
 	}

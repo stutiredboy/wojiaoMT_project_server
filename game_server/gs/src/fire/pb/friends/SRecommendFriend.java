@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRecommendFriend__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨è¿”å›æ¨èå¥½å‹
+/** ·şÎñÆ÷·µ»ØÍÆ¼öºÃÓÑ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

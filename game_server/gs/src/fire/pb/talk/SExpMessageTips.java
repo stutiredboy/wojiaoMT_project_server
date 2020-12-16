@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SExpMessageTips__ extends mkio.Protocol { }
 
-/** è¿™ä¸ªæ˜¯ç”¨æ¥æç¤ºæœ‰å¤šç§åŠ ç»éªŒçš„æƒ…å†µ
+/** Õâ¸öÊÇÓÃÀ´ÌáÊ¾ÓĞ¶àÖÖ¼Ó¾­ÑéµÄÇé¿ö
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SExpMessageTips extends __SExpMessageTips__ {
 		return 792447;
 	}
 
-	public int messageid; // æç¤ºid
-	public long expvalue; // æ€»çš„ç»éªŒå€¼
-	public java.util.HashMap<Integer,Long> messageinfo; // key ä¸ºå­æç¤ºid, valueä¸ºå­æç¤ºçš„å‚æ•°å€¼
+	public int messageid; // ÌáÊ¾id
+	public long expvalue; // ×ÜµÄ¾­ÑéÖµ
+	public java.util.HashMap<Integer,Long> messageinfo; // key Îª×ÓÌáÊ¾id, valueÎª×ÓÌáÊ¾µÄ²ÎÊıÖµ
 
 	public SExpMessageTips() {
 		messageinfo = new java.util.HashMap<Integer,Long>();

@@ -31,7 +31,7 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 					npc.npcbaseid, npc.name, npc.dir);
 			if (n == null) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("公会副本刷怪:").append(npc.npcbaseid)
+					SceneManager.logger.info(new StringBuilder().append("公会副本刷�??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid));
 				}
@@ -43,7 +43,7 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 					scene = SceneFactory.createDynamicScene((int)npc.sceneid, npc.ownerid, "",
 							-1, DynamicSceneType.NORMAL_SCENE, params.marshal(new OctetsStream()));
 					
-					SceneManager.logger.error(new StringBuilder().append("公会副本刷怪:").append(npc.npcbaseid)
+					SceneManager.logger.error(new StringBuilder().append("公会副本刷�??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid)
 							.append(",sceneidlong:").append(scene.getSceneID())
@@ -56,7 +56,7 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 			int mapid = (int) npc.sceneid;
 			if (mapid >= 1851 && mapid <= 1870) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("公会副本刷怪:").append(npc.npcbaseid)
+					SceneManager.logger.info(new StringBuilder().append("公会副本刷�??:").append(npc.npcbaseid)
 							.append(",坐标是X:").append(gpos.getX())
 							.append(",坐标是Y:").append(gpos.getY())
 							.append(",sceneid:").append(npc.sceneid)
@@ -75,8 +75,8 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 				SceneManager.logger.error("sceneidlong:" + scene.getSceneID());
 			}
 		}
-		// System.out.println("大虫创建了NPC ： " + n.getName() + "坐标是： X ——" +
-		// gpos.getX() + "Y ——" + gpos.getY());
+		// System.out.println("大虫创建了NPC �? " + n.getName() + "坐标是： X —�??" +
+		// gpos.getX() + "Y —�??" + gpos.getY());
 
 	}
 
@@ -89,7 +89,7 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 	}
 
 	public fire.msp.npc.CreateNpcInfo npc;
-	public int toufangareatype; // 0-普通的投放区域,1-新的投放区域,包含1级轻功
+	public int toufangareatype; // 0-��ͨ��Ͷ������,1-�µ�Ͷ������,����1���Ṧ
 
 	public GCreateNPCByMap() {
 		npc = new fire.msp.npc.CreateNpcInfo();

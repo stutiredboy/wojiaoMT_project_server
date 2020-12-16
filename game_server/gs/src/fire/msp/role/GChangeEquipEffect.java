@@ -10,7 +10,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GChangeEquipEffect__ extends mkio.Protocol { }
 
-/** 鏀瑰彉瑙掕壊瑁呭鐗规晥
+/** 改变角色装备特效
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -47,8 +47,8 @@ public class GChangeEquipEffect extends __GChangeEquipEffect__ {
 		return 730916;
 	}
 
-	public long roleid; // 鐜╁id
-	public int effect; // 鐗规晥琛╥d
+	public long roleid; // 玩家id
+	public int effect; // 特效表id
 
 	public GChangeEquipEffect() {
 	}

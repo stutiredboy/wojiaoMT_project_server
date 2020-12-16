@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class MultiExpError implements Marshal , Comparable<MultiExpError>{
-	public final static int LevelConditionErr = -2; // ç­‰çº§ä¸å¤Ÿ
-	public final static int ExistOtherMultiExpBuff = -3; // å­˜åœ¨å…¶ä»–å¤šå€ç»éªŒçš„buffï¼Œä¸èƒ½é¢†å–åˆ«çš„ã€‚
-	public final static int NoOneMultiExpBuff = -4; // ä¸å­˜åœ¨å¤šå€ç»éªŒçš„buffï¼Œä¸èƒ½é€€è¿˜
-	public final static int NoHaveBuffTime = -5; // æ²¡æœ‰å¯ä»¥é¢†å–çš„æ—¶é—´ï¼Œä¸èƒ½é¢†å–
-	public final static int OverMaxHours = -6; // èº«ä¸Šå¤šå€æ—¶é—´çš„buffå¤§äº4å°æ—¶
+	public final static int LevelConditionErr = -2; // µÈ¼¶²»¹»
+	public final static int ExistOtherMultiExpBuff = -3; // ´æÔÚÆäËû¶à±¶¾­ÑéµÄbuff£¬²»ÄÜÁìÈ¡±ğµÄ¡£
+	public final static int NoOneMultiExpBuff = -4; // ²»´æÔÚ¶à±¶¾­ÑéµÄbuff£¬²»ÄÜÍË»¹
+	public final static int NoHaveBuffTime = -5; // Ã»ÓĞ¿ÉÒÔÁìÈ¡µÄÊ±¼ä£¬²»ÄÜÁìÈ¡
+	public final static int OverMaxHours = -6; // ÉíÉÏ¶à±¶Ê±¼äµÄbuff´óÓÚ4Ğ¡Ê±
 
 
 	public MultiExpError() {

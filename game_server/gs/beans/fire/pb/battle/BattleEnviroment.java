@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class BattleEnviroment implements Marshal , Comparable<BattleEnviroment>{
-	public final static int DAY = 1001; // æ˜¼
-	public final static int NIGHT = 1002; // å¤œ
-	public final static int WARM = 1003; // æš–
-	public final static int COLD = 1004; // å¯’
-	public final static int ORCHID = 1005; // å…°
-	public final static int THUNDER = 1006; // é›·
+	public final static int DAY = 1001; // Öç
+	public final static int NIGHT = 1002; // Ò¹
+	public final static int WARM = 1003; // Å¯
+	public final static int COLD = 1004; // º®
+	public final static int ORCHID = 1005; // À¼
+	public final static int THUNDER = 1006; // À×
 
 
 	public BattleEnviroment() {

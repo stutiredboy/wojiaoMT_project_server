@@ -5,12 +5,12 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 鎵�鏈夐渶瑕佸闀跨殑key鍙堜笉鎯崇敤xdb鑷闀跨殑
+/** 所有需要增长的key又不想用xdb自增长的
 */
 public class KeyCounterIndex implements Marshal , Comparable<KeyCounterIndex>{
-	public final static int FACTION_KEY = 1000; // 鍏細
+	public final static int FACTION_KEY = 1000; // 公会
 	public final static int FAMILY_KEY = 2000;
-	public final static int ITEM_KEY = 3000; // 鐗╁搧
+	public final static int ITEM_KEY = 3000; // 物品
 
 
 	public KeyCounterIndex() {

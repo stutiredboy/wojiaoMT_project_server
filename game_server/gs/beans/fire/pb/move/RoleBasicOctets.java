@@ -6,35 +6,35 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleBasicOctets implements Marshal {
-	public final static int SHOW_PET = 1; // å±•ç¤ºå® ç‰© ShowPetOctets
-	public final static int TEAM_INFO = 2; // ç»„é˜Ÿä¿¡æ¯ TeamInfoOctets
-	public final static int TITLE_ID = 3; // ç§°è°“ID byte [-1,)
-	public final static int TITLE_NAME = 4; // ç§°è°“åç§° String
-	public final static int STALL_NAME = 5; // æ‹›ç‰Œåç§° String
-	public final static int MODEL_TEMPLATE = 6; // äººç‰©é€ å‹æ¨¡æ¿ byte [0,255]
-	public final static int HEADRESS_SHAPE = 7; // å¤´é¥°é€ å‹ byte [0,255]
-	public final static int SCENE_STATE = 8; // åœ°å›¾çŠ¶æ€ int ï¼Œå‚è€ƒSceneState
-	public final static int WEAPON_BASEID = 9; // å½“å‰è£…å¤‡æ­¦å™¨çš„baseID int æ²¡è£…å¤‡åˆ™ä¸º0
-	public final static int WEAPON_COLOR = 10; // å½“å‰è£…å¤‡æ­¦å™¨çš„é¢œè‰² byte 1ä¸ºç™½è‰²ï¼Œ2ä¸ºç»¿è‰²ã€‚ã€‚ã€‚6ä¸ºæš—é‡‘è‰²
-	public final static int ROLE_ACTUALLY_SHAPE = 12; // è§’è‰²å˜é€ å‹æ—¶çš„é€ å‹ int
-	public final static int PLAYING_ACTION = 13; // è§’è‰²æ­£åœ¨åšçš„æŒç»­æ€§åŠ¨ä½œid byte
-	public final static int STALL_BOARD = 14; // æ‘Šä½æ‹›ç‰Œid byte
+	public final static int SHOW_PET = 1; // Õ¹Ê¾³èÎï ShowPetOctets
+	public final static int TEAM_INFO = 2; // ×é¶ÓĞÅÏ¢ TeamInfoOctets
+	public final static int TITLE_ID = 3; // ³ÆÎ½ID byte [-1,)
+	public final static int TITLE_NAME = 4; // ³ÆÎ½Ãû³Æ String
+	public final static int STALL_NAME = 5; // ÕĞÅÆÃû³Æ String
+	public final static int MODEL_TEMPLATE = 6; // ÈËÎïÔìĞÍÄ£°å byte [0,255]
+	public final static int HEADRESS_SHAPE = 7; // Í·ÊÎÔìĞÍ byte [0,255]
+	public final static int SCENE_STATE = 8; // µØÍ¼×´Ì¬ int £¬²Î¿¼SceneState
+	public final static int WEAPON_BASEID = 9; // µ±Ç°×°±¸ÎäÆ÷µÄbaseID int Ã»×°±¸ÔòÎª0
+	public final static int WEAPON_COLOR = 10; // µ±Ç°×°±¸ÎäÆ÷µÄÑÕÉ« byte 1Îª°×É«£¬2ÎªÂÌÉ«¡£¡£¡£6Îª°µ½ğÉ«
+	public final static int ROLE_ACTUALLY_SHAPE = 12; // ½ÇÉ«±äÔìĞÍÊ±µÄÔìĞÍ int
+	public final static int PLAYING_ACTION = 13; // ½ÇÉ«ÕıÔÚ×öµÄ³ÖĞøĞÔ¶¯×÷id byte
+	public final static int STALL_BOARD = 14; // Ì¯Î»ÕĞÅÆid byte
 	public final static int FOOT_LOGO_ID = 15; // id int
-	public final static int AWAKE_STATE = 16; // è§‰é†’çŠ¶æ€ 95åˆ°99 00000 5ä¸ªbitä½ï¼Œ0ä»£è¡¨å¯¹åº”é˜¶æ®µæœªè§‰é†’ï¼Œ1ä»£è¡¨å·²ç»è§‰é†’ï¼ˆå…·ä½“å€¼æ˜¯intæ•°å€¼ï¼‰
-	public final static int FOLLOW_NPC = 17; // è·Ÿéšnpc id
-	public final static int CRUISE = 18; // å·¡æ¸¸id int,0ä¸ºæ²¡æœ‰å·¡æ¸¸ï¼Œé0ä¸ºå·¡æ¸¸è¡¨çš„id
-	public final static int EFFECT_EQUIP = 19; // è£…å¤‡ç‰¹æ•ˆ
-	public final static int CRUISE2 = 20; // å·¡æ¸¸id2 int,è·¯çº¿id
-	public final static int CRUISE3 = 21; // å·¡æ¸¸id3 int,è·¯çº¿id
+	public final static int AWAKE_STATE = 16; // ¾õĞÑ×´Ì¬ 95µ½99 00000 5¸öbitÎ»£¬0´ú±í¶ÔÓ¦½×¶ÎÎ´¾õĞÑ£¬1´ú±íÒÑ¾­¾õĞÑ£¨¾ßÌåÖµÊÇintÊıÖµ£©
+	public final static int FOLLOW_NPC = 17; // ¸úËænpc id
+	public final static int CRUISE = 18; // Ñ²ÓÎid int,0ÎªÃ»ÓĞÑ²ÓÎ£¬·Ç0ÎªÑ²ÓÎ±íµÄid
+	public final static int EFFECT_EQUIP = 19; // ×°±¸ÌØĞ§
+	public final static int CRUISE2 = 20; // Ñ²ÓÎid2 int,Â·Ïßid
+	public final static int CRUISE3 = 21; // Ñ²ÓÎid3 int,Â·Ïßid
 
 	public long roleid;
 	public java.lang.String rolename;
-	public byte dirandschool; // dirä¸ºé«˜å››ä½ï¼š[0,7] ï¼›schoolä¸ºä½4ä½ [1,9],è½¬åŒ–ä¸ºèŒä¸šID[11,19]
-	public int shape; // ç©å®¶é€ å‹	åªèƒ½æ˜¯1-10ï¼Œæ¢é€ å‹ä¹‹åï¼Œä¸è¦æ”¹å˜è¿™ä¸ªshapeå€¼ï¼Œè€Œæ˜¯æ”¹å˜äººç‰©å¯é€‰æ•°æ®æšä¸¾å€¼é‡Œçš„ROLE_ACTUALLY_SHAPE
+	public byte dirandschool; // dirÎª¸ßËÄÎ»£º[0,7] £»schoolÎªµÍ4Î» [1,9],×ª»¯ÎªÖ°ÒµID[11,19]
+	public int shape; // Íæ¼ÒÔìĞÍ	Ö»ÄÜÊÇ1-10£¬»»ÔìĞÍÖ®ºó£¬²»Òª¸Ä±äÕâ¸öshapeÖµ£¬¶øÊÇ¸Ä±äÈËÎï¿ÉÑ¡Êı¾İÃ¶¾ÙÖµÀïµÄROLE_ACTUALLY_SHAPE
 	public int level;
-	public byte camp; // 0ä¸­ç«‹  1éƒ¨è½ 2è”ç›Ÿ
-	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾
-	public java.util.HashMap<Byte,com.locojoy.base.Octets> datas; // å¯é€‰æ•°æ®ï¼Œkeyå€¼å‚è€ƒä¸‹é¢çš„æšä¸¾(keyå°†æ¥ä¼šå˜ä¸ºbyteç±»å‹ï¼Œå› ä¸ºintå¤ªå¤§)
+	public byte camp; // 0ÖĞÁ¢  1²¿Âä 2ÁªÃË
+	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù
+	public java.util.HashMap<Byte,com.locojoy.base.Octets> datas; // ¿ÉÑ¡Êı¾İ£¬keyÖµ²Î¿¼ÏÂÃæµÄÃ¶¾Ù(key½«À´»á±äÎªbyteÀàĞÍ£¬ÒòÎªintÌ«´ó)
 
 	public RoleBasicOctets() {
 		rolename = "";

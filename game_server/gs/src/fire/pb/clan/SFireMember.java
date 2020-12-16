@@ -25,7 +25,7 @@ public class SFireMember extends __SFireMember__ {
 		return 808468;
 	}
 
-	public long memberroleid; // 琚┍閫愬叕浼氭垚鍛樼殑id
+	public long memberroleid; // 被驱逐公会成员的id
 
 	public SFireMember() {
 	}

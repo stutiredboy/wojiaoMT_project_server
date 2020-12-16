@@ -25,8 +25,8 @@ public class SMarketTradeLog extends __SMarketTradeLog__ {
 		return 810646;
 	}
 
-	public java.util.ArrayList<fire.pb.shop.LogBean> buylog; // ä¹°è®°å½•
-	public java.util.ArrayList<fire.pb.shop.LogBean> salelog; // å–è®°å½•
+	public java.util.ArrayList<fire.pb.shop.LogBean> buylog; // Âò¼ÇÂ¼
+	public java.util.ArrayList<fire.pb.shop.LogBean> salelog; // Âô¼ÇÂ¼
 
 	public SMarketTradeLog() {
 		buylog = new java.util.ArrayList<fire.pb.shop.LogBean>();

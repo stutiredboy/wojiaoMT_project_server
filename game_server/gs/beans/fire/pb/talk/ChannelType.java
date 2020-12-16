@@ -6,16 +6,16 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ChannelType implements Marshal , Comparable<ChannelType>{
-	public final static int CHANNEL_CURRENT = 1; // 褰撳墠棰戦亾
-	public final static int CHANNEL_TEAM = 2; // 闃熶紞棰戦亾
-	public final static int CHANNEL_PROFESSION = 3; // 鑱屼笟棰戦亾
-	public final static int CHANNEL_CLAN = 4; // 鍏細棰戦亾
-	public final static int CHANNEL_WORLD = 5; // 涓栫晫棰戦亾
-	public final static int CHANNEL_SYSTEM = 6; // 绯荤粺棰戦亾
-	public final static int CHANNEL_MESSAGE = 7; // 娑堟伅棰戦亾
-	public final static int CHANNEL_BUBBLE = 8; // 姘旀场娑堟伅
-	public final static int CHANNEL_SLIDE = 9; // 婊戝姩娑堟伅
-	public final static int CHANNEL_TEAM_APPLY = 14; // 缁勯槦鐢宠棰戦亾
+	public final static int CHANNEL_CURRENT = 1; // 当前频道
+	public final static int CHANNEL_TEAM = 2; // 队伍频道
+	public final static int CHANNEL_PROFESSION = 3; // 职业频道
+	public final static int CHANNEL_CLAN = 4; // 公会频道
+	public final static int CHANNEL_WORLD = 5; // 世界频道
+	public final static int CHANNEL_SYSTEM = 6; // 系统频道
+	public final static int CHANNEL_MESSAGE = 7; // 消息频道
+	public final static int CHANNEL_BUBBLE = 8; // 气泡消息
+	public final static int CHANNEL_SLIDE = 9; // 滑动消息
+	public final static int CHANNEL_TEAM_APPLY = 14; // 组队申请频道
 
 
 	public ChannelType() {

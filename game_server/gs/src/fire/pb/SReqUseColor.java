@@ -25,7 +25,7 @@ public class SReqUseColor extends __SReqUseColor__ {
 		return 786539;
 	}
 
-	public fire.pb.RoleColorType rolecolorinfo; // 染色信息
+	public fire.pb.RoleColorType rolecolorinfo; // Ⱦɫ��Ϣ
 
 	public SReqUseColor() {
 		rolecolorinfo = new fire.pb.RoleColorType();

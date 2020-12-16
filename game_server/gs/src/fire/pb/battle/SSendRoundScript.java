@@ -28,11 +28,11 @@ public class SSendRoundScript extends __SSendRoundScript__ {
 	}
 
 	public java.util.LinkedList<fire.pb.battle.NewResultItem> playitem;
-	public java.util.LinkedList<fire.pb.battle.AIOperation> aiactions; // éšæˆ˜æ–—è„šæœ¬æ’­æ”¾çš„å®¢æˆ·ç«¯AIåŠ¨ä½œ
-	public java.util.HashMap<Integer,Float> rolechangedattrs; // å›åˆç»“æŸæ—¶ä¸»è§’å±æ€§çš„å˜åŒ–ï¼ˆæˆ˜æ–—ä¸­å±æ€§å®æ—¶å˜åŒ–ï¼‰
-	public java.util.HashMap<Integer,Float> petchangedattrs; // å›åˆç»“æŸæ—¶ä¸»è§’å® ç‰©å±æ€§çš„å˜åŒ–
-	public java.util.HashMap<Integer,Integer> fighterfinallyhps; // å›åˆç»“æŸæ—¶æˆ˜æ–—è€…è¡€é‡çš„æœ€ç»ˆå€¼
-	public java.util.HashMap<Integer,Integer> fighterfinallymps; // å›åˆç»“æŸæ—¶æˆ˜æ–—è€…å…°é‡çš„æœ€ç»ˆå€¼
+	public java.util.LinkedList<fire.pb.battle.AIOperation> aiactions; // ËæÕ½¶·½Å±¾²¥·ÅµÄ¿Í»§¶ËAI¶¯×÷
+	public java.util.HashMap<Integer,Float> rolechangedattrs; // »ØºÏ½áÊøÊ±Ö÷½ÇÊôĞÔµÄ±ä»¯£¨Õ½¶·ÖĞÊôĞÔÊµÊ±±ä»¯£©
+	public java.util.HashMap<Integer,Float> petchangedattrs; // »ØºÏ½áÊøÊ±Ö÷½Ç³èÎïÊôĞÔµÄ±ä»¯
+	public java.util.HashMap<Integer,Integer> fighterfinallyhps; // »ØºÏ½áÊøÊ±Õ½¶·ÕßÑªÁ¿µÄ×îÖÕÖµ
+	public java.util.HashMap<Integer,Integer> fighterfinallymps; // »ØºÏ½áÊøÊ±Õ½¶·ÕßÀ¼Á¿µÄ×îÖÕÖµ
 
 	public SSendRoundScript() {
 		playitem = new java.util.LinkedList<fire.pb.battle.NewResultItem>();

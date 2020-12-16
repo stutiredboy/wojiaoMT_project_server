@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SOffTitle__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨é€šçŸ¥å®¢æˆ·ç«¯å¸ä¸‹ç§°è°“
+/** ·şÎñÆ÷Í¨Öª¿Í»§¶ËĞ¶ÏÂ³ÆÎ½
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SOffTitle extends __SOffTitle__ {
 		return 798438;
 	}
 
-	public long roleid; // å¸ä¸‹ç§°è°“çš„è§’è‰²
+	public long roleid; // Ğ¶ÏÂ³ÆÎ½µÄ½ÇÉ«
 
 	public SOffTitle() {
 	}

@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class DailyTaskState implements Marshal , Comparable<DailyTaskState>{
-	public byte id; // 1=èŒä¸š 2=å‰¯æœ¬ 3=å†°å°ç‹åº§ 4.....å¾…å®š
-	public byte state; // 0=æœªå®Œæˆ  1=å·²å®Œæˆ 2=ä¸ºå¼€æ”¾
+	public byte id; // 1=Ö°Òµ 2=¸±±¾ 3=±ù·âÍõ×ù 4.....´ı¶¨
+	public byte state; // 0=Î´Íê³É  1=ÒÑÍê³É 2=Îª¿ª·Å
 
 	public DailyTaskState() {
 	}

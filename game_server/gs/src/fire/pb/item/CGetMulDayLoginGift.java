@@ -35,7 +35,7 @@ public class CGetMulDayLoginGift extends __CGetMulDayLoginGift__ {
 		return 787732;
 	}
 
-	public byte rewardid; // ä¸ƒæ—¥ç™»å½•ç¤¼åŒ…ID
+	public byte rewardid; // ÆßÈÕµÇÂ¼Àñ°üID
 
 	public CGetMulDayLoginGift() {
 	}

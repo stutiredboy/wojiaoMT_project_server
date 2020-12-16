@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SAddPetToColumn__ extends mkio.Protocol { }
 
-/** é€šçŸ¥å®¢æˆ·ç«¯æ·»åŠ å® ç‰©
+/** Í¨Öª¿Í»§¶ËÌí¼Ó³èÎï
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SAddPetToColumn extends __SAddPetToColumn__ {
 		return 788444;
 	}
 
-	public int columnid; // è§’è‰²å® ç‰©æ 1, ä»“åº“å® ç‰©æ 2
-	public fire.pb.Pet petdata; // å® ç‰©è¯¦ç»†æ•°æ®
+	public int columnid; // ½ÇÉ«³èÎïÀ¸1, ²Ö¿â³èÎïÀ¸2
+	public fire.pb.Pet petdata; // ³èÎïÏêÏ¸Êı¾İ
 
 	public SAddPetToColumn() {
 		petdata = new fire.pb.Pet();

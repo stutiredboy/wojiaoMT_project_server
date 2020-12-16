@@ -25,8 +25,8 @@ public class SRequestRuneInfo extends __SRequestRuneInfo__ {
 		return 808508;
 	}
 
-	public int requestnum; // è¯·æ±‚æ¬¡æ•°
-	public int useenergy; // æ¶ˆè€—æ´»åŠ›
+	public int requestnum; // ÇëÇó´ÎÊı
+	public int useenergy; // ÏûºÄ»îÁ¦
 	public java.util.ArrayList<fire.pb.clan.RuneInfo> runeinfolist;
 
 	public SRequestRuneInfo() {

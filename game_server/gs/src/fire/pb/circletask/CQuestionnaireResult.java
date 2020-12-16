@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CQuestionnaireResult__ extends mkio.Protocol { }
 
-/** é—®å·è°ƒæŸ¥ç­”æ¡ˆ
+/** ÎÊ¾íµ÷²é´ğ°¸
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,8 +32,8 @@ public class CQuestionnaireResult extends __CQuestionnaireResult__ {
 	}
 
 	public long npckey; // NPCKEY
-	public int step; // è°ƒæŸ¥é—®å·é˜¶æ®µ 30çº§-1 35çº§-2
-	public java.util.ArrayList<Integer> result; // ç­”æ¡ˆ
+	public int step; // µ÷²éÎÊ¾í½×¶Î 30¼¶-1 35¼¶-2
+	public java.util.ArrayList<Integer> result; // ´ğ°¸
 
 	public CQuestionnaireResult() {
 		result = new java.util.ArrayList<Integer>();

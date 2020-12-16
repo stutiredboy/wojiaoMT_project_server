@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PvP3RoleSingleScore implements Marshal {
-	public long roleid; // 瑙掕壊ID
-	public java.lang.String rolename; // 瑙掕壊鍚嶇О
-	public int score; // 绉垎
+	public long roleid; // 角色ID
+	public java.lang.String rolename; // 角色名称
+	public int score; // 积分
 
 	public PvP3RoleSingleScore() {
 		rolename = "";

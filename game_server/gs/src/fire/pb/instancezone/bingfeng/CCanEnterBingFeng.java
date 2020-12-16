@@ -26,12 +26,12 @@ public class CCanEnterBingFeng extends __CCanEnterBingFeng__ {
 			protected boolean process() throws Exception {
 				BingFengRole bingFengRole = new BingFengRole(roleid, true);
 				if (bingFengRole.getBingFengRoleBean().getTimes() <= 0) {
-					//次数已经用完了
+					//次数已经用完�?
 					xbean.RoleBFInfo rolebingFengInfo = BingFengLandMgr.getInstance().getRoleBingFengInfo(roleid, 0, false);
 					bingFengRole.getBingFengRoleBean().setTimes(bingFengRole.getBingFengRoleBean().getTimes() - 1);
 					long currentTime = System.currentTimeMillis();
 					
-					//如果是在同一天,则直接返回不能再打冰封王座了
+					//如果是在同一�?,则直接返回不能再打冰封王座了
 					if (DateValidate.inTheSameDay(currentTime, rolebingFengInfo.getLastchangetime())) {
 						SCanEnterBingFeng scanenter = new SCanEnterBingFeng();
 						scanenter.finish = 1;
@@ -41,7 +41,7 @@ public class CCanEnterBingFeng extends __CCanEnterBingFeng__ {
 					}
 				}
 				
-				//不是在同一天,或者次数没有用完,都可以再打
+				//不是在同�?�?,或�?�次数没有用�?,都可以再�?
 				SCanEnterBingFeng scanenter = new SCanEnterBingFeng();
 				scanenter.finish = 0;
 				Procedure.psendWhileCommit(roleid, scanenter);

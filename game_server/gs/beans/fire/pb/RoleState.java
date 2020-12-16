@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleState implements Marshal , Comparable<RoleState>{
-	public final static int OFFLINE = 0; // ç¦»çº¿
-	public final static int NONAL = 1; // æ­£å¸¸
-	public final static int LEAVE = 2; // ç¦»å¼€
-	public final static int BUSY = 3; // å¿™ç¢Œ
+	public final static int OFFLINE = 0; // ÀëÏß
+	public final static int NONAL = 1; // Õý³£
+	public final static int LEAVE = 2; // Àë¿ª
+	public final static int BUSY = 3; // Ã¦Âµ
 
 
 	public RoleState() {

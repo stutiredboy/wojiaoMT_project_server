@@ -38,7 +38,7 @@ public class CAcceptOrRefuseApply extends __CAcceptOrRefuseApply__ {
 	}
 
 	public long applyroleid;
-	public byte accept; // 0ζ‹’η»,1ζ¥ε—
+	public byte accept; // 0ΎάΎψ,1½ΣΚά
 
 	public CAcceptOrRefuseApply() {
 	}

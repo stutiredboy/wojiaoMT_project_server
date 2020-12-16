@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SCheckGM__ extends mkio.Protocol { }
 
-/** GM甯愬彿鎵嶅洖娑堟伅
+/** GM帐号才回消息
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

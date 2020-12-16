@@ -10,7 +10,7 @@ abstract class __MAfterEnterDragonScene__ extends mkio.Protocol { }
 
 /** protocol name="GRoleModelChange" type="4023" maxsize="65535" prior="1">  
 		<variable name="roleid" type="long"/>
-		<variable name="newshapeid" type="int"/> 换装值
+		<variable name="newshapeid" type="int"/> ��װֵ
 		<variable name="teammembers" type="set" value="long"/>
 	</protocol
 */

@@ -36,7 +36,7 @@ public class CApplyClan extends __CApplyClan__ {
 		return 808453;
 	}
 
-	public long clanid; // å…¬ä¼šid
+	public long clanid; // ¹«»áid
 
 	public CApplyClan() {
 	}

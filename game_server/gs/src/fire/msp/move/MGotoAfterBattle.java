@@ -29,7 +29,7 @@ public class MGotoAfterBattle extends __MGotoAfterBattle__ {
 	}
 
 	public long roleid;
-	public long sceneid; // åœ°å›¾id
+	public long sceneid; // µØÍ¼id
 	public int posx;
 	public int posy;
 	public int gototype;

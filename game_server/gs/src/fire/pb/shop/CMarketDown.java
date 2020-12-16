@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketDown__ extends mkio.Protocol { }
 
-/** 鎽嗘憡涓嬫灦
+/** 摆摊下架
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -46,8 +46,8 @@ public class CMarketDown extends __CMarketDown__ {
 		return 810644;
 	}
 
-	public int downtype; // 涓嬫灦绫诲瀷1閬撳叿,2瀹犵墿
-	public int key; // 鎽嗘憡瀹瑰櫒涓殑key
+	public int downtype; // 下架类型1道具,2宠物
+	public int key; // 摆摊容器中的key
 
 	public CMarketDown() {
 	}

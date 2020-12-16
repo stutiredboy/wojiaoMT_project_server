@@ -30,8 +30,8 @@ public class CChangeSchool extends __CChangeSchool__ {
 		return 810485;
 	}
 
-	public int newshape; // æ–°é€ å‹
-	public int newschool; // æ–°èŒä¸š
+	public int newshape; // ĞÂÔìĞÍ
+	public int newschool; // ĞÂÖ°Òµ
 
 	public CChangeSchool() {
 	}

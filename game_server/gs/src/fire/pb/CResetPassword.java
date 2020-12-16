@@ -29,9 +29,9 @@ public class CResetPassword extends __CResetPassword__ {
 		return 786566;
 	}
 
-	public java.lang.String initpd; // åˆå§‹å¯†ç 
-	public java.lang.String newtpd; // æ–°å¯†ç 
-	public java.lang.String repeatpd; // é‡å¤å¯†ç 
+	public java.lang.String initpd; // ³õÊ¼ÃÜÂë
+	public java.lang.String newtpd; // ĞÂÃÜÂë
+	public java.lang.String repeatpd; // ÖØ¸´ÃÜÂë
 
 	public CResetPassword() {
 		initpd = "";

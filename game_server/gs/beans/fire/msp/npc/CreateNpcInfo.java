@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class CreateNpcInfo implements Marshal {
-	public long npckey; // npckey鐢盙S妯″潡璐熻矗鐢熸垚
+	public long npckey; // npckey由GS模块负责生成
 	public int npcbaseid; // npcbaseId
-	public java.lang.String name; // npc鍚嶇О
-	public int dir; // 鏂瑰悜
-	public long sceneid; // 鍦烘櫙id
-	public long ownerid; // 濡傛灉澶т簬0锛屽垯sceneid涓簃apid
-	public long time; // 闄愭椂NPC鐨勬寔缁椂闂达紝鍗曚綅姣锛屼负0鏃舵槸闈為檺鏃禢PC
+	public java.lang.String name; // npc名称
+	public int dir; // 方向
+	public long sceneid; // 场景id
+	public long ownerid; // 如果大于0，则sceneid为mapid
+	public long time; // 限时NPC的持续时间，单位毫秒，为0时是非限时NPC
 
 	public CreateNpcInfo() {
 		name = "";

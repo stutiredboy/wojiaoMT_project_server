@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GNotifyMapPetInfo__ extends mkio.Protocol { }
 
-/** GS å‘ åœ°å›¾æ¨¡å— å‘é€æ¶ˆæ¯ï¼Œ é€šçŸ¥å±•ç¤ºå® ç‰©çš„ä¿¡æ¯, å¹¶é€šçŸ¥å‘¨å›´ç©å®¶
+/** GS Ïò µØÍ¼Ä£¿é ·¢ËÍÏûÏ¢£¬ Í¨ÖªÕ¹Ê¾³èÎïµÄĞÅÏ¢, ²¢Í¨ÖªÖÜÎ§Íæ¼Ò
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -33,7 +33,7 @@ public class GNotifyMapPetInfo extends __GNotifyMapPetInfo__ {
 			role.setShowPet(null);
 		}
 		
-		// å‘é€ç»™å‘¨å›´ç©å®¶
+		// å‘é?ç»™å‘¨å›´ç©å®¶
 		final fire.pb.pet.SShowPetAround send = new fire.pb.pet.SShowPetAround();
 		send.roleid = roleid;
 		send.showpetid = showpetinfo.petid;

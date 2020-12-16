@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __MCreateNpcUniversalRet__ extends mkio.Protocol { }
 
-/** åœ°å›¾æ¨¡å—ï¼Œè¿”å›ç»™GSçš„åˆ›å»ºNPCçš„è¯¦ç»†ä¿¡æ¯
+/** µØÍ¼Ä£¿é£¬·µ»Ø¸øGSµÄ´´½¨NPCµÄÏêÏ¸ĞÅÏ¢
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -37,9 +37,9 @@ public class MCreateNpcUniversalRet extends __MCreateNpcUniversalRet__ {
 		return 730417;
 	}
 
-	public long interfaceid; // é€»è¾‘æ¥å£IDï¼ŒID > 0
-	public int result; // å¬å”¤NPCç»“æœï¼Œ0ï¼Œä¸ºå¤±è´¥ï¼Œ1ä¸ºæˆåŠŸ
-	public java.util.LinkedList<fire.msp.npc.NpcInfo> npclist; // åœ°å›¾æ¨¡å—å¬å‡ºçš„NPCè¯¦ç»†ä¿¡æ¯
+	public long interfaceid; // Âß¼­½Ó¿ÚID£¬ID > 0
+	public int result; // ÕÙ»½NPC½á¹û£¬0£¬ÎªÊ§°Ü£¬1Îª³É¹¦
+	public java.util.LinkedList<fire.msp.npc.NpcInfo> npclist; // µØÍ¼Ä£¿éÕÙ³öµÄNPCÏêÏ¸ĞÅÏ¢
 
 	public MCreateNpcUniversalRet() {
 		npclist = new java.util.LinkedList<fire.msp.npc.NpcInfo>();

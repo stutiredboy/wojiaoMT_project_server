@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class DemoExecute implements Marshal {
-	public int attackerid; // æ”»å‡»å‘èµ·è€…id
-	public int hpconsume; // æ”»å‡»è€…è€—è¡€ï¼Œå§‹ç»ˆä¸ºæ­£å¥½äº†
-	public int mpconsume; // æ”»å‡»è€…è€—è“ï¼Œå§‹ç»ˆä¸ºæ­£å¥½äº†
-	public int spconsume; // æ”»å‡»è€…è€—æ€’ï¼Œå§‹ç»ˆä¸ºæ­£å¥½äº†
-	public int operationtype; // æ“ä½œç±»å‹ å‚è€ƒOperationTypeä¸­çš„å€¼		å¦‚æœæ˜¯æ“ä½œå¤±è´¥ ACTION_FAILURE
-	public int operationid; // æ“ä½œçš„å€¼ï¼ˆä½¿ç”¨ç‰©å“æ—¶ç¤ºç‰©å“IDï¼Œæ‹›å”¤å® ç‰©æ—¶ä¸ºå® ç‰©ï¼‰
-	public int msgid; // å½“ä¸ä¸º0æ—¶ï¼Œä¸ºåŠ¨ä½œæ—¶çš„æç¤ºID
+	public int attackerid; // ¹¥»÷·¢ÆğÕßid
+	public int hpconsume; // ¹¥»÷ÕßºÄÑª£¬Ê¼ÖÕÎªÕıºÃÁË
+	public int mpconsume; // ¹¥»÷ÕßºÄÀ¶£¬Ê¼ÖÕÎªÕıºÃÁË
+	public int spconsume; // ¹¥»÷ÕßºÄÅ­£¬Ê¼ÖÕÎªÕıºÃÁË
+	public int operationtype; // ²Ù×÷ÀàĞÍ ²Î¿¼OperationTypeÖĞµÄÖµ		Èç¹ûÊÇ²Ù×÷Ê§°Ü ACTION_FAILURE
+	public int operationid; // ²Ù×÷µÄÖµ£¨Ê¹ÓÃÎïÆ·Ê±Ê¾ÎïÆ·ID£¬ÕĞ»½³èÎïÊ±Îª³èÎï£©
+	public int msgid; // µ±²»Îª0Ê±£¬Îª¶¯×÷Ê±µÄÌáÊ¾ID
 	public java.util.LinkedList<fire.pb.battle.DemoBuff> demobuffs;
 
 	public DemoExecute() {

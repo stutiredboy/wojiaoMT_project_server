@@ -41,7 +41,7 @@ public class CReqBingFengRank extends __CReqBingFengRank__ {
 	}
 
 	public long npckey;
-	public int landid; // landId,æ ¹æ®é…ç½®è¡¨é‡Œçš„æ•°æ®,æ¯”å¦‚40çº§å†°å°ç‹åº§æ˜¯1,50çº§å†°å°ç‹åº§æ˜¯2
+	public int landid; // landId,¸ù¾İÅäÖÃ±íÀïµÄÊı¾İ,±ÈÈç40¼¶±ù·âÍõ×ùÊÇ1,50¼¶±ù·âÍõ×ùÊÇ2
 
 	public CReqBingFengRank() {
 	}

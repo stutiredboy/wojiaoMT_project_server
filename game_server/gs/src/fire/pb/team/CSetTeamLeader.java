@@ -22,7 +22,7 @@ abstract class __CSetTeamLeader__ extends mkio.Protocol { }
  *
  */
 public class CSetTeamLeader extends __CSetTeamLeader__ {
-	private long now = 0L;//procedure开始时保存一个当前时间，保证此procedure中时间的统一性
+	private long now = 0L;//procedure�?始时保存�?个当前时间，保证此procedure中时间的统一�?
 	
 	Team team;
 	@Override
@@ -41,7 +41,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(oldLeaderRoleId);
-				//先验证队伍是否为空
+				//先验证队伍是否为�?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
@@ -49,7 +49,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 				if(!team.isTeamLeader(oldLeaderRoleId))
 					return true;//验证原队长是否还是队伍的队长
 				if(!team.isInTeam(newLeaderRoleId))
-					return true;//验证新队长是否在队伍中
+					return true;//验证新队长是否在队伍�?
 				Long[] roleids = new Long[2];
 				if(oldLeaderRoleId < newLeaderRoleId)
 				{
@@ -72,20 +72,20 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 
 				if(!checkLeaderOnline(oldLeaderRoleId))
 				{
-					//申请者不在线（illegal）
+					//申请者不在线（illegal�?
 					TeamManager.logger.debug("FAIL:申请者不在线,LeaderID: " +oldLeaderRoleId);
 				}
 				else if(!checkTeamStatusValid(team))
 				{
-					//队伍处于不可以换队长的状态（战斗中不能换队长）(illegal)
+					//队伍处于不可以换队长的状态（战斗中不能换队长�?(illegal)
 					TeamManager.logger.debug("FAIL:队伍处于不可以换队长的状态（例如飞行、战斗）,teamId: " +teamId);
 				}
 				else if(!checkTeamNotInSwitchStatus(team))
 				{
-					//队伍处于更换队长申请状态
+					//队伍处于更换队长申请状�??
 					//psend(oldLeaderRoleId, new STeamError(TeamError.InChangeLeaderStatus));
 					fire.pb.talk.MessageMgr.psendMsgNotify(oldLeaderRoleId, 141210, null);
-					TeamManager.logger.debug("FAIL:队伍处于更换队长申请状态,teamId: " +teamId);
+					TeamManager.logger.debug("FAIL:队伍处于更换队长申请状�??,teamId: " +teamId);
 				}
 				else if(!checkTeamNoSuccSwitchIn2min(team))
 				{
@@ -96,9 +96,9 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 				}
 				else if(!checkNewLeaderNormal(team, newLeaderRoleId))
 				{
-					//新队长不处于正常状态(暂离、离线等状态)（illgal）
+					//新队长不处于正常状�??(暂离、离线等状�??)（illgal�?
 					psend(newLeaderRoleId, new STeamError(TeamError.MembersNotNormal));
-					TeamManager.logger.debug("FAIL:新队长不处于正常状态,newLeaderRoleId: " +newLeaderRoleId);
+					TeamManager.logger.debug("FAIL:新队长不处于正常状�??,newLeaderRoleId: " +newLeaderRoleId);
 				}
 				else if(StateCommon.isTrusteeshipState(newLeaderRoleId)) //如果在新队长在托管状态中 by changhao
 				{
@@ -109,11 +109,11 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 					BuffAgent buffagent = new BuffRoleImpl(newLeaderRoleId);
 					if (!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM_LEADER))
 					{
-						// 新队长处于不能当队长的状态
-						TeamManager.logger.debug("FAIL:新队长处于不能当队长的状态,newLeaderRoleId: " + newLeaderRoleId);
+						// 新队长处于不能当队长的状�?
+						TeamManager.logger.debug("FAIL:新队长处于不能当队长的状�?,newLeaderRoleId: " + newLeaderRoleId);
 					} else
 					{
-						TeamManager.logger.debug("SUCC:可以发出更换队长邀请,teamId: " + teamId);
+						TeamManager.logger.debug("SUCC:可以发出更换队长�?�?,teamId: " + teamId);
 						team.getTeamInfo().setSwitchleaderid(newLeaderRoleId);
 						team.getTeamInfo().setSwitchleadertime(now);
 						SAskforSetLeader sAskforSetLeader = new SAskforSetLeader();
@@ -134,13 +134,13 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 		
 	}
 
-	// 检测PVP
+	// �?测PVP
 	private static int checkPvP(long oldLeaderRoleId, long newLeaderRoleId) {
 		// 重新设置队长
 		return fire.pb.battle.pvp.PvPTeamHandle.onSetTeamLeader(oldLeaderRoleId, newLeaderRoleId);
 	}
 
-//	// 申请者是一个队伍的队长？只能在Procedure中被调用
+//	// 申请者是�?个队伍的队长？只能在Procedure中被调用
 //	private boolean checkOldLeaderInTeam(long leaderRoleId,Team team)
 //	{
 //		if(team.getTeamInfo().getTeamleaderid() == leaderRoleId)
@@ -149,7 +149,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 //			return false;
 //	}
 	
-	// 申请者在线?只能在Procedure中被调用
+	// 申请者在�??只能在Procedure中被调用
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -158,7 +158,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			return false;
 	}
 	
-	//队伍处于可以换队长的状态？（飞行，战斗中不能换队长，还有其他状态吗？）
+	//队伍处于可以换队长的状�?�？（飞行，战斗中不能换队长，还有其他状态吗？）
 	private boolean checkTeamStatusValid(Team team)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(team.getTeamLeaderId());

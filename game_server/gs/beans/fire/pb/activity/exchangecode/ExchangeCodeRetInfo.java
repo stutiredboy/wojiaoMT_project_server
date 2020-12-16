@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ExchangeCodeRetInfo implements Marshal {
-	public int itemtype; // 绫诲瀷Id
-	public long itemid; // 閬撳叿Id
-	public int itemcount; // 閬撳叿鏁扮洰
-	public java.lang.String preinfos; // 棰勭暀淇℃伅
+	public int itemtype; // 类型Id
+	public long itemid; // 道具Id
+	public int itemcount; // 道具数目
+	public java.lang.String preinfos; // 预留信息
 
 	public ExchangeCodeRetInfo() {
 		preinfos = "";

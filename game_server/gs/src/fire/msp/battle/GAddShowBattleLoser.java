@@ -32,8 +32,8 @@ public class GAddShowBattleLoser extends __GAddShowBattleLoser__ {
 		return 727903;
 	}
 
-	public long npckey; // åœ°å›¾ä¸Šçš„npckey
-	public java.util.LinkedList<Long> losers; // å¤±è´¥è€…
+	public long npckey; // µØÍ¼ÉÏµÄnpckey
+	public java.util.LinkedList<Long> losers; // Ê§°ÜÕß
 
 	public GAddShowBattleLoser() {
 		losers = new java.util.LinkedList<Long>();

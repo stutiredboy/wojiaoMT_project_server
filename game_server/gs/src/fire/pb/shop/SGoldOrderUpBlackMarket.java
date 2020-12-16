@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGoldOrderUpBlackMarket__ extends mkio.Protocol { }
 
-/** Ê∑ªÂä†Êñ∞ËÆ¢Âçï
+/** ÃÌº”–¬∂©µ•
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SGoldOrderUpBlackMarket extends __SGoldOrderUpBlackMarket__ {
 		return 810675;
 	}
 
-	public fire.pb.shop.GoldOrder order; // Êñ∞ËÆ¢Âçï
+	public fire.pb.shop.GoldOrder order; // –¬∂©µ•
 
 	public SGoldOrderUpBlackMarket() {
 		order = new fire.pb.shop.GoldOrder();

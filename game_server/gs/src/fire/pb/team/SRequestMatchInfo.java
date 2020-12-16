@@ -25,8 +25,8 @@ public class SRequestMatchInfo extends __SRequestMatchInfo__ {
 		return 794513;
 	}
 
-	public int teammatchnum; // 闃熶紞鍖归厤鏁伴噺 by changhao
-	public int playermatchnum; // 涓汉鍖归厤鏁伴噺 by changhao
+	public int teammatchnum; // 队伍匹配数量 by changhao
+	public int playermatchnum; // 个人匹配数量 by changhao
 
 	public SRequestMatchInfo() {
 	}

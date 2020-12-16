@@ -25,10 +25,10 @@ public class SReqFushiInfo extends __SReqFushiInfo__ {
 		return 812491;
 	}
 
-	public int balance; // æ¸¸æˆå¸ä¸ªæ•°ï¼ŒåŒ…å«èµ é€æ¸¸æˆå¸
-	public int genbalance; // èµ é€æ¸¸æˆå¸ä¸ªæ•°
-	public int firstsave; // æ˜¯å¦æ»¡è¶³é¦–æ¬¡å……å€¼ï¼Œ1æ»¡è¶³ï¼Œ0ä¸æ»¡è¶³
-	public int saveamt; // ç´¯è®¡å……å€¼é‡‘é¢
+	public int balance; // ÓÎÏ·±Ò¸öÊı£¬°üº¬ÔùËÍÓÎÏ·±Ò
+	public int genbalance; // ÔùËÍÓÎÏ·±Ò¸öÊı
+	public int firstsave; // ÊÇ·ñÂú×ãÊ×´Î³äÖµ£¬1Âú×ã£¬0²»Âú×ã
+	public int saveamt; // ÀÛ¼Æ³äÖµ½ğ¶î
 
 	public SReqFushiInfo() {
 	}

@@ -5,20 +5,20 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** æš—å¤œé©¬æˆå›¢ä»»åŠ¡ç›¸å…³
+/** °µÒ¹ÂíÏ·ÍÅÈÎÎñÏà¹Ø
 */
 public class AnYeTask implements Marshal , Comparable<AnYeTask>{
-	public int pos; // ä»»åŠ¡æ ä½
-	public int id; // ä»»åŠ¡id
-	public int kind; // ä»»åŠ¡ç±»å‹
-	public int state; // ä»»åŠ¡çŠ¶æ€
-	public int dstitemid; // ç›®çš„é“å…·çš„id
-	public int dstitemnum; // ç›®çš„é“å…·çš„æ•°é‡
-	public long dstnpckey; // ç›®çš„npcçš„key
-	public int dstnpcid; // ç›®çš„npcçš„id
-	public int legend; // ä¼ è¯´çŠ¶æ€ 0ä¸èƒ½ä¼ è¯´ 1å¯ä»¥ä¼ è¯´ 2å·²ä¼ è¯´ 3æˆåŠŸ 4å¤±è´¥
-	public long legendtime; // ä¼ è¯´æŒç»­æ—¶é—´
-	public long legendend; // ä¼ è¯´ç»“æŸæ—¶é—´
+	public int pos; // ÈÎÎñÀ¸Î»
+	public int id; // ÈÎÎñid
+	public int kind; // ÈÎÎñÀàĞÍ
+	public int state; // ÈÎÎñ×´Ì¬
+	public int dstitemid; // Ä¿µÄµÀ¾ßµÄid
+	public int dstitemnum; // Ä¿µÄµÀ¾ßµÄÊıÁ¿
+	public long dstnpckey; // Ä¿µÄnpcµÄkey
+	public int dstnpcid; // Ä¿µÄnpcµÄid
+	public int legend; // ´«Ëµ×´Ì¬ 0²»ÄÜ´«Ëµ 1¿ÉÒÔ´«Ëµ 2ÒÑ´«Ëµ 3³É¹¦ 4Ê§°Ü
+	public long legendtime; // ´«Ëµ³ÖĞøÊ±¼ä
+	public long legendend; // ´«Ëµ½áÊøÊ±¼ä
 
 	public AnYeTask() {
 	}

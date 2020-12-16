@@ -6,17 +6,17 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class NpcBasic implements Marshal {
-	public long npckey; // npckey :npcçš„å”¯ä¸€ID
-	public int id; // npcid: npcçš„åŸºæœ¬ID
+	public long npckey; // npckey :npcµÄÎ¨Ò»ID
+	public int id; // npcid: npcµÄ»ù±¾ID
 	public java.lang.String name;
 	public fire.pb.move.Pos pos;
 	public byte posz;
-	public fire.pb.move.Pos destpos; // è¿åŠ¨ä¸­çš„NPCçš„ç›®çš„ç‚¹
-	public int speed; // ç§»åŠ¨NPCé€Ÿåº¦
+	public fire.pb.move.Pos destpos; // ÔË¶¯ÖĞµÄNPCµÄÄ¿µÄµã
+	public int speed; // ÒÆ¶¯NPCËÙ¶È
 	public int dir;
-	public int shape; // npc é€ å‹
-	public int scenestate; // npc çŠ¶æ€
-	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾
+	public int shape; // npc ÔìĞÍ
+	public int scenestate; // npc ×´Ì¬
+	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù
 
 	public NpcBasic() {
 		name = "";

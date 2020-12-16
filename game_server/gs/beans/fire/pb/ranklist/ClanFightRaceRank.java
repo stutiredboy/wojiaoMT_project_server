@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ClanFightRaceRank implements Marshal {
-	public int rank; // 鎺掑悕	by changhao
-	public long clanid; // 鍏細id by changhao
-	public java.lang.String clanname; // 鍏細鍚嶅瓧 by changhao
-	public int clanlevel; // 鍏細绛夌骇 by changhao
-	public int fightcount; // 鎴樻枟娆℃暟 by changhao
-	public int wincount; // 鑳滃埄娆℃暟 by changhao
-	public int scroe; // 绉垎 by changhao
+	public int rank; // 排名	by changhao
+	public long clanid; // 公会id by changhao
+	public java.lang.String clanname; // 公会名字 by changhao
+	public int clanlevel; // 公会等级 by changhao
+	public int fightcount; // 战斗次数 by changhao
+	public int wincount; // 胜利次数 by changhao
+	public int scroe; // 积分 by changhao
 
 	public ClanFightRaceRank() {
 		clanname = "";

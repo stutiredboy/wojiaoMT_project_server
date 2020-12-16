@@ -25,7 +25,7 @@ public class SInviteJoinSucc extends __SInviteJoinSucc__ {
 		return 794482;
 	}
 
-	public long roleid; // è¢«é‚€è¯·è€…ID
+	public long roleid; // ±»ÑûÇëÕßID
 
 	public SInviteJoinSucc() {
 	}

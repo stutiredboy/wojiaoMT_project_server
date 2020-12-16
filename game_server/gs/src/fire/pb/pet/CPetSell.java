@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetSell__ extends mkio.Protocol { }
 
-/** 瀹犵墿鍥炴敹
+/** 宠物回收
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CPetSell extends __CPetSell__ {
 		return 788527;
 	}
 
-	public int petkey; // 瀹犵墿key
+	public int petkey; // 宠物key
 
 	public CPetSell() {
 	}

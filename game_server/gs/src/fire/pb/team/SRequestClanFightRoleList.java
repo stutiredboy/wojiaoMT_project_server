@@ -25,9 +25,9 @@ public class SRequestClanFightRoleList extends __SRequestClanFightRoleList__ {
 		return 794560;
 	}
 
-	public int isfresh; // å®¢æˆ·ç«¯ç”¨ 0åˆ·æ–° 1ä¸åˆ·æ–°  by qyl
-	public java.util.LinkedList<fire.pb.team.RoleSimapleInfo> rolelist; // ä¸€ä¸ªä¸ªäººç®€å•ä¿¡æ¯ by changhao
-	public int ret; // å¦‚æœæ˜¯0æ­£å¸¸-1å°±æ˜¯æ²¡æ•°æ®äº† b changhao
+	public int isfresh; // ¿Í»§¶ËÓÃ 0Ë¢ĞÂ 1²»Ë¢ĞÂ  by qyl
+	public java.util.LinkedList<fire.pb.team.RoleSimapleInfo> rolelist; // Ò»¸ö¸öÈË¼òµ¥ĞÅÏ¢ by changhao
+	public int ret; // Èç¹ûÊÇ0Õı³£-1¾ÍÊÇÃ»Êı¾İÁË b changhao
 
 	public SRequestClanFightRoleList() {
 		rolelist = new java.util.LinkedList<fire.pb.team.RoleSimapleInfo>();

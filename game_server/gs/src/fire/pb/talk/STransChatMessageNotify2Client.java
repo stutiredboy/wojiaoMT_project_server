@@ -25,9 +25,9 @@ public class STransChatMessageNotify2Client extends __STransChatMessageNotify2Cl
 		return 792437;
 	}
 
-	public int messageid; // 鎻愮ずid
+	public int messageid; // 提示id
 	public int npcbaseid; // npc id
-	public java.util.ArrayList<com.locojoy.base.Octets> parameters; // 鍙傛暟
+	public java.util.ArrayList<com.locojoy.base.Octets> parameters; // 参数
 
 	public STransChatMessageNotify2Client() {
 		parameters = new java.util.ArrayList<com.locojoy.base.Octets>();

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CApplyYingFuExprience__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯ç”³è¯·è§’è‰²ç›ˆç¦ç»éªŒ
+/** ¿Í»§¶ËÉêÇë½ÇÉ«Ó¯¸£¾­Ñé
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

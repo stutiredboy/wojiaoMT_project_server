@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class LDTeamRoleInfoDes implements Marshal {
-	public long roleid; // è§’è‰²Id
-	public java.lang.String rolename; // è§’è‰²å
-	public int shape; // è§’è‰²é€ å‹
-	public int level; // è§’è‰²ç­‰çº§
-	public int school; // èŒä¸š
+	public long roleid; // ½ÇÉ«Id
+	public java.lang.String rolename; // ½ÇÉ«Ãû
+	public int shape; // ½ÇÉ«ÔìĞÍ
+	public int level; // ½ÇÉ«µÈ¼¶
+	public int school; // Ö°Òµ
 
 	public LDTeamRoleInfoDes() {
 		rolename = "";

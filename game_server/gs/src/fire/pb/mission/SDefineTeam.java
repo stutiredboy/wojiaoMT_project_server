@@ -25,9 +25,9 @@ public class SDefineTeam extends __SDefineTeam__ {
 		return 805547;
 	}
 
-	public int instid; // 鍓湰id
-	public int tlstep; // 闃熼暱杩涘害
-	public int mystep; // 鎴戠殑杩涘害
+	public int instid; // 副本id
+	public int tlstep; // 队长进度
+	public int mystep; // 我的进度
 
 	public SDefineTeam() {
 	}

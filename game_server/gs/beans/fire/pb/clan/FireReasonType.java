@@ -5,13 +5,13 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** é€€å‡ºå…¬ä¼šäº‹ç”±ç±»å‹
+/** ÍË³ö¹«»áÊÂÓÉÀàĞÍ
 */
 public class FireReasonType implements Marshal , Comparable<FireReasonType>{
-	public final static int CLEAN_MEMBER = 1; // äººå‘˜æ¸…ç†
-	public final static int LONG_TIME_OFF_LINE = 2; // é•¿æœŸä¸ä¸Šçº¿
-	public final static int NO_ACTIVE = 3; // è¡¨ç°ä¸ç§¯æ
-	public final static int NO_INTEREST = 4; // å¿—è¶£ä¸åˆ
+	public final static int CLEAN_MEMBER = 1; // ÈËÔ±ÇåÀí
+	public final static int LONG_TIME_OFF_LINE = 2; // ³¤ÆÚ²»ÉÏÏß
+	public final static int NO_ACTIVE = 3; // ±íÏÖ²»»ı¼«
+	public final static int NO_INTEREST = 4; // Ö¾È¤²»ºÏ
 
 
 	public FireReasonType() {

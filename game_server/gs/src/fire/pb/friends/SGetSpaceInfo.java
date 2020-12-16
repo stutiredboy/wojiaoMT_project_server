@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGetSpaceInfo__ extends mkio.Protocol { }
 
-/** è·å–æŸè§’è‰²ç©ºé—´æ•°æ®ç»“æœ
+/** »ñÈ¡Ä³½ÇÉ«¿Õ¼äÊı¾İ½á¹û
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SGetSpaceInfo extends __SGetSpaceInfo__ {
 		return 806640;
 	}
 
-	public int giftnum; // ç¤¼ç‰©æ•°é‡
-	public int popularity; // äººæ°”
-	public int revnum; // æ”¶åˆ°ç¤¼ç‰©æ•°é‡
+	public int giftnum; // ÀñÎïÊıÁ¿
+	public int popularity; // ÈËÆø
+	public int revnum; // ÊÕµ½ÀñÎïÊıÁ¿
 
 	public SGetSpaceInfo() {
 	}

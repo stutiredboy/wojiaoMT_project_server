@@ -12,7 +12,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CFinishFortuneWheel__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚é¢†å¥–
+/** ¿Í»§¶ËÇëÇóÁì½±
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -39,8 +39,8 @@ public class CFinishFortuneWheel extends __CFinishFortuneWheel__ {
 		return 795446;
 	}
 
-	public long npckey; // npckeyä¸ºnpcçš„å”¯ä¸€ID
-	public int serviceid; // å½“å‰è½¬ç›˜æœåŠ¡id
+	public long npckey; // npckeyÎªnpcµÄÎ¨Ò»ID
+	public int serviceid; // µ±Ç°×ªÅÌ·şÎñid
 
 	public CFinishFortuneWheel() {
 	}

@@ -51,7 +51,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 					return false;
 				}
 				if(rolecolorinfo.colorpos1==0&&rolecolorinfo.colorpos2==0){
-					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无需染色");
+					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无�?染色");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
@@ -64,43 +64,43 @@ public class CReqUseColor extends __CReqUseColor__ {
 				int curpos1=prop.getRolecolor1();
 				int curpos2=prop.getRolecolor2();
 				if(rolecolorinfo.colorpos1==curpos1&&rolecolorinfo.colorpos2==curpos2){
-					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无需染色");
+					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无�?染色");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
 				SRoleRColorConfig sRoleRColorConfig1=null;
 				SRoleRColorConfig sRoleRColorConfig2=null;
 				if(rolecolorinfo.colorpos1!=0&&rolecolorinfo.colorpos1!=curpos1){
-					//判断部位的方案是否存在
+					//判断部位的方案是否存�?
 					sRoleRColorConfig1=sRoleRColorConfig.get(rolecolorinfo.colorpos1);
-					//判断是否是部位1
+					//判断是否是部�?1
 					if(sRoleRColorConfig1.getRolepos()!=1){
-						logger.info("角色id "+roleid+"染色"+"\t客户端发送数据错误");
+						logger.info("角色id "+roleid+"染色"+"\t客户端发送数据错�?");
 						return false;
 					}
 				}
 				if(rolecolorinfo.colorpos2!=0&&rolecolorinfo.colorpos2!=curpos2){
-					//判断部位的方案是否存在
+					//判断部位的方案是否存�?
 					sRoleRColorConfig2=sRoleRColorConfig.get(rolecolorinfo.colorpos2);
-					//判断是否是部位2
+					//判断是否是部�?2
 					if(sRoleRColorConfig2.getRolepos()!=2){
-						logger.info("角色id "+roleid+"染色"+"\t客户端发送数据错误");
+						logger.info("角色id "+roleid+"染色"+"\t客户端发送数据错�?");
 						return false;
 					}
 				}
-				//如果染色部位1和2都为空，无需染色
+				//如果染色部位1�?2都为空，无需染色
 				if(sRoleRColorConfig1==null&&sRoleRColorConfig2==null){
-					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无需染色");
+					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无�?染色");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
-				//计算并扣除消耗
+				//计算并扣除消�?
 				double delpre=1;//染色衣柜折损系数
 				boolean ischange1=rolecolorinfo.colorpos1!=curpos1;//是否改变
 				boolean ischange2=rolecolorinfo.colorpos2!=curpos2;//是否改变
 				
 				
-				//判断当前是否在衣橱中存在这个染色方案，存在染色方案需要打折
+				//判断当前是否在衣橱中存在这个染色方案，存在染色方案需要打�?
 				boolean havetype=false;
 				for(xbean.RoleColorType type:prop.getColorroomlist()){
 					if(type!=null&&type.getColorpos1()==rolecolorinfo.colorpos1&&type.getColorpos2()==rolecolorinfo.colorpos2){
@@ -108,7 +108,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 						break;
 					}
 				}
-				//计算消耗
+				//计算消�??
 				if(havetype){
 					Map<Integer, SCommon> commonMap = ConfigManager.getInstance().getConf(SCommon.class);
 					if(commonMap!=null){
@@ -152,7 +152,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 				prop.setRolecolor2(rolecolorinfo.colorpos2);
 				
 				//通知场景中的其他人，当前人物外形变化
-				//注意这里和客户端校对的时候需要RoleBasicOctets在这里面添加字段，是在E:\MT-G\server\server\protocols\move.xml这个协议里，现在先不加
+				//注意这里和客户端校对的时候需要RoleBasicOctets在这里面添加字段，是在E:\MT-G\server\server\protocols\move.xml这个协议里，现在先不�?
 //				Role addRole = RoleManager.getInstance().getRoleByID(roleid);
 //				SAddUserScreen sadduser = new SAddUserScreen();
 //				sadduser.rolelist.add(addRole.getRoleBasic());
@@ -172,14 +172,14 @@ public class CReqUseColor extends __CReqUseColor__ {
 //				gnet.link.Onlines.getInstance().send(roleid, sReqUseColor);
 				Procedure.psendWhileCommit(roleid, sReqUseColor);
 				fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160432, null);
-				//保存到衣橱返回衣橱信息
+				//保存到衣橱返回衣橱信�?
 				saveColor(roleid,prop);
 				
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 				if (team != null){
 					team.updateTeamMemberBasic2Others(roleid);
 				}
-				logger.info("角色id "+roleid+"染色成功，当前染色方案"+prop.getRolecolor1()+" "+prop.getRolecolor2());
+				logger.info("角色id "+roleid+"染色成功，当前染色方�?"+prop.getRolecolor1()+" "+prop.getRolecolor2());
 				return true;
 			}
 		}.submit();
@@ -224,7 +224,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 	
 	
 	/**
-	 * 计算需要的道具数量
+	 * 计算�?要的道具数量
 	 * @param roleid
 	 * @param delpre
 	 * @param sRoleRColorConfig1
@@ -256,7 +256,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 		return 786538;
 	}
 
-	public fire.pb.RoleColorType rolecolorinfo; // 染色信息
+	public fire.pb.RoleColorType rolecolorinfo; // Ⱦɫ��Ϣ
 
 	public CReqUseColor() {
 		rolecolorinfo = new fire.pb.RoleColorType();

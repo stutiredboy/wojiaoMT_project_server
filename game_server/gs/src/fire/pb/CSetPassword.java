@@ -9,7 +9,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSetPassword__ extends mkio.Protocol { }
 
-/** é“å…·å®‰å…¨é”
+/** µÀ¾ß°²È«Ëø
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,8 +32,8 @@ public class CSetPassword extends __CSetPassword__ {
 		return 786564;
 	}
 
-	public java.lang.String initpd; // åˆå§‹å¯†ç 
-	public java.lang.String repeatpd; // é‡å¤å¯†ç 
+	public java.lang.String initpd; // ³õÊ¼ÃÜÂë
+	public java.lang.String repeatpd; // ÖØ¸´ÃÜÂë
 
 	public CSetPassword() {
 		initpd = "";

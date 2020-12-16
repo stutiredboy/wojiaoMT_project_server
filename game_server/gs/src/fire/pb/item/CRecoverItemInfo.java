@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRecoverItemInfo__ extends mkio.Protocol { }
 
-/** 客户端请求查看一个找回道具的信息
+/** �ͻ�������鿴һ���һص��ߵ���Ϣ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -35,7 +35,7 @@ public class CRecoverItemInfo extends __CRecoverItemInfo__ {
 					return false;
 				}
 
-				// 获得丢弃的道具
+				// 获得丢弃的道�?
 				xbean.DiscardItem ditem = xtable.Itemrecyclebin.select(uniqid);
 				if (ditem == null) {
 					return false;
@@ -46,7 +46,7 @@ public class CRecoverItemInfo extends __CRecoverItemInfo__ {
 					return false;
 				}
 
-				// 发送给客户端
+				// 发�?�给客户�?
 				SRecoverItemInfo send = new SRecoverItemInfo();
 				send.uniqid = uniqid;
 				com.locojoy.base.Octets tips = bi.getTips();
@@ -67,7 +67,7 @@ public class CRecoverItemInfo extends __CRecoverItemInfo__ {
 		return 787797;
 	}
 
-	public long uniqid; // 唯一id
+	public long uniqid; // Ψһid
 
 	public CRecoverItemInfo() {
 	}

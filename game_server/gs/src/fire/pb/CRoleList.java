@@ -19,7 +19,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRoleList__ extends mkio.Protocol { }
 
-/** 客户端发给服务器，请求已有角色列表
+/** �ͻ��˷������������������н�ɫ�б�
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -93,7 +93,7 @@ public class CRoleList extends __CRoleList__ {
 	}
 	
 	private boolean checkUserAccount(int userID) {
-		if (UniqName.exist("activeuser", String.valueOf(userID))!= UniqName.RPC_NOT_EXISTS) //存在说明已经激活,可以直接进入游戏
+		if (UniqName.exist("activeuser", String.valueOf(userID))!= UniqName.RPC_NOT_EXISTS) //存在说明已经�?�?,可以直接进入游戏
 			return true;
 		
 		return false;

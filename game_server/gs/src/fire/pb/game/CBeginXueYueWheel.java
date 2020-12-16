@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CBeginXueYueWheel__ extends mkio.Protocol { }
 
-/** è¡€æœˆå•†äºº
+/** ÑªÔÂÉÌÈË
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,7 +30,7 @@ public class CBeginXueYueWheel extends __CBeginXueYueWheel__ {
 		return 810366;
 	}
 
-	public long npckey; // npckeyä¸ºnpcçš„å”¯ä¸€ID
+	public long npckey; // npckeyÎªnpcµÄÎ¨Ò»ID
 	public int boxtype;
 
 	public CBeginXueYueWheel() {

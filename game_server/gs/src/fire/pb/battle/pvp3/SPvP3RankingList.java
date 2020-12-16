@@ -25,9 +25,9 @@ public class SPvP3RankingList extends __SPvP3RankingList__ {
 		return 793636;
 	}
 
-	public byte history; // 0ï¼šå½“å‰æ’è¡Œï¼Œ1ï¼šå†å²æ’è¡Œ
-	public java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleScore> rolescores; // ç§¯åˆ†æ¦œ
-	public java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleScoreMid> myscore; // æˆ‘è‡ªå·±çš„æ’åä¿¡æ¯
+	public byte history; // 0£ºµ±Ç°ÅÅĞĞ£¬1£ºÀúÊ·ÅÅĞĞ
+	public java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleScore> rolescores; // »ı·Ö°ñ
+	public java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleScoreMid> myscore; // ÎÒ×Ô¼ºµÄÅÅÃûĞÅÏ¢
 
 	public SPvP3RankingList() {
 		rolescores = new java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleScore>();

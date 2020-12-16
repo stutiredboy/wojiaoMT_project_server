@@ -6,23 +6,23 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ShouXiMsgID implements Marshal , Comparable<ShouXiMsgID>{
-	public final static int ChallengeLevelNotEnough = 140245; // æŒ‘æˆ˜é¦–å¸­-å¼Ÿå­æ˜¯å¾ˆå±é™©çš„ï¼Œ40çº§ä»¥åå†æ¥æŒ‘æˆ˜å§ï¼â€
-	public final static int SchoolContriNotEnough = 140246; // ä½ çš„èŒä¸šè´¡çŒ®åº¦ä¸è¶³500ç‚¹ï¼Œæ— æ³•å‘èµ·æŒ‘æˆ˜ï¼
-	public final static int InTeam = 140247; // è¯·ç¦»å¼€é˜Ÿä¼å†æ¥å‚åŠ æŒ‘æˆ˜å§ï¼
-	public final static int MoneyNotEnough = 140248; // ä½ èº«ä¸Šçš„é‡‘é’±å¥½åƒä¸è¶³10000ä¸¤å•Šï¼
-	public final static int ChallengeSuccess = 140249; // æŒ‘æˆ˜æˆåŠŸï¼Œä½ å¯ä»¥å‚ä¸èŒä¸šé¦–å¸­-å¼Ÿå­ç«é€‰äº†ï¼
-	public final static int ChallengeLost = 140250; // æŒ‘æˆ˜å¤±è´¥ï¼Œå¸Œæœ›ä½ ä¸‹æ¬¡å†æ¥å†å‰!
-	public final static int NotSuccess = 140251; // æ‚¨è¿˜æœªæˆåŠŸæŒ‘æˆ˜é¦–å¸­-å¼Ÿå­ï¼Œä¸èƒ½å‚åŠ ç«é€‰ã€‚
-	public final static int AlreadyCandidate = 140252; // æ‚¨å·²æˆåŠŸç«é€‰ï¼
-	public final static int VoteLevelNotEnough = 140253; // ç­‰çº§â‰¥30çº§çš„ç©å®¶æ–¹å¯å‚ä¸æŠ•ç¥¨å“¦ï¼
-	public final static int TiLiNotEnough = 140254; // æ‚¨çš„ä½“åŠ›ä¸è¶³100ç‚¹ï¼Œä¸èƒ½æŠ•ç¥¨ï¼
-	public final static int AlreadyVote = 140255; // æ‚¨æœ¬å‘¨å†…å·²ç»æŠ•è¿‡ç¥¨ï¼Œä¸èƒ½å†æŠ•äº†ï¼
-	public final static int GiveShouXiTitle = 140256; // æ­å–œä½ è·å¾—äº†é¦–å¸­-å¼Ÿå­ç§°å·ã€‚
-	public final static int CancelShouXiTitle = 140257; // å¾ˆæŠ±æ­‰ï¼Œä½ å·²ä¸å†æ˜¯é¦–å¸­-å¼Ÿå­ã€‚
-	public final static int RefreshAbilityToMuch = 140258; // ä¼‘æ¯ä¸€ä¸‹ï¼Œæ˜å¤©å†æ¥å§ï¼
-	public final static int ChallengeAffirm = 140259; // æŒ‘æˆ˜é¦–å¸­-å¼Ÿå­éœ€è¦èŠ±è´¹10000ä¸¤é‡‘é’±ï¼Œæ˜¯å¦ç¡®è®¤æŒ‘æˆ˜ï¼Ÿ
-	public final static int Cantvote = 140260; // ç°åœ¨ä¸æ˜¯æŠ•ç¥¨æ—¶é—´å“¦ã€‚
-	public final static int CantChallenge = 140261; // ç°åœ¨ä¸æ˜¯æŒ‘æˆ˜æ—¶é—´å“¦ã€‚
+	public final static int ChallengeLevelNotEnough = 140245; // ÌôÕ½Ê×Ï¯-µÜ×ÓÊÇºÜÎ£ÏÕµÄ£¬40¼¶ÒÔºóÔÙÀ´ÌôÕ½°É£¡¡±
+	public final static int SchoolContriNotEnough = 140246; // ÄãµÄÖ°Òµ¹±Ï×¶È²»×ã500µã£¬ÎŞ·¨·¢ÆğÌôÕ½£¡
+	public final static int InTeam = 140247; // ÇëÀë¿ª¶ÓÎéÔÙÀ´²Î¼ÓÌôÕ½°É£¡
+	public final static int MoneyNotEnough = 140248; // ÄãÉíÉÏµÄ½ğÇ®ºÃÏñ²»×ã10000Á½°¡£¡
+	public final static int ChallengeSuccess = 140249; // ÌôÕ½³É¹¦£¬Äã¿ÉÒÔ²ÎÓëÖ°ÒµÊ×Ï¯-µÜ×Ó¾ºÑ¡ÁË£¡
+	public final static int ChallengeLost = 140250; // ÌôÕ½Ê§°Ü£¬Ï£ÍûÄãÏÂ´ÎÔÙ½ÓÔÙÀ÷!
+	public final static int NotSuccess = 140251; // Äú»¹Î´³É¹¦ÌôÕ½Ê×Ï¯-µÜ×Ó£¬²»ÄÜ²Î¼Ó¾ºÑ¡¡£
+	public final static int AlreadyCandidate = 140252; // ÄúÒÑ³É¹¦¾ºÑ¡£¡
+	public final static int VoteLevelNotEnough = 140253; // µÈ¼¶¡İ30¼¶µÄÍæ¼Ò·½¿É²ÎÓëÍ¶Æ±Å¶£¡
+	public final static int TiLiNotEnough = 140254; // ÄúµÄÌåÁ¦²»×ã100µã£¬²»ÄÜÍ¶Æ±£¡
+	public final static int AlreadyVote = 140255; // Äú±¾ÖÜÄÚÒÑ¾­Í¶¹ıÆ±£¬²»ÄÜÔÙÍ¶ÁË£¡
+	public final static int GiveShouXiTitle = 140256; // ¹§Ï²Äã»ñµÃÁËÊ×Ï¯-µÜ×Ó³ÆºÅ¡£
+	public final static int CancelShouXiTitle = 140257; // ºÜ±§Ç¸£¬ÄãÒÑ²»ÔÙÊÇÊ×Ï¯-µÜ×Ó¡£
+	public final static int RefreshAbilityToMuch = 140258; // ĞİÏ¢Ò»ÏÂ£¬Ã÷ÌìÔÙÀ´°É£¡
+	public final static int ChallengeAffirm = 140259; // ÌôÕ½Ê×Ï¯-µÜ×ÓĞèÒª»¨·Ñ10000Á½½ğÇ®£¬ÊÇ·ñÈ·ÈÏÌôÕ½£¿
+	public final static int Cantvote = 140260; // ÏÖÔÚ²»ÊÇÍ¶Æ±Ê±¼äÅ¶¡£
+	public final static int CantChallenge = 140261; // ÏÖÔÚ²»ÊÇÌôÕ½Ê±¼äÅ¶¡£
 
 
 	public ShouXiMsgID() {

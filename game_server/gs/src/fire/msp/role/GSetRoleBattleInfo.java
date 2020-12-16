@@ -51,7 +51,7 @@ public class GSetRoleBattleInfo extends __GSetRoleBattleInfo__ {
 	}
 
 	public long roleid; // roleid
-	public int battlestate; // 0ï¼šæ— ï¼›1ï¼šæˆ˜æ–—è€…ï¼›2ï¼šè§‚æˆ˜è€…
+	public int battlestate; // 0£ºÎÞ£»1£ºÕ½¶·Õß£»2£º¹ÛÕ½Õß
 
 	public GSetRoleBattleInfo() {
 	}

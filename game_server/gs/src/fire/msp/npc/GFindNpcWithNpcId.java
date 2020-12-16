@@ -57,7 +57,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			}
 		}
 		
-		//当前视野里没有找到,则在当前地图找
+		//当前视野里没有找�?,则在当前地图�?
 		if (!findit) {
 			xbean.timerNpcInfoCol npcInfo = xtable.Timernpcinfotable.select(actId);
 			if (npcInfo == null) {
@@ -66,7 +66,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//对应npc的状态 0=空闲 1=战斗中 2=已经消失
+				//对应npc的状�? 0=空闲 1=战斗�? 2=已经消失
 				if (npcinfos.getValue().getNpcstatus() == 0) { //没有消失
 					npcList.add(npcinfos.getKey());
 				}
@@ -96,7 +96,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//对应npc的状态 0=空闲 1=战斗中 2=已经消失
+				//对应npc的状�? 0=空闲 1=战斗�? 2=已经消失
 				if (npcinfos.getValue().getNpcstatus() == 0) { //没有消失
 					npcList.add(npcinfos.getKey());
 				}

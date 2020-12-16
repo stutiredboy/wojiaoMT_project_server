@@ -29,7 +29,7 @@ public class SSetRoleTeamInfo extends __SSetRoleTeamInfo__ {
 	public long teamid;
 	public int teamindex;
 	public int teamstate;
-	public int teamnormalnum; // æ­£å¸¸é˜Ÿå‘˜çš„æ•°é‡ by changhao
+	public int teamnormalnum; // Õı³£¶ÓÔ±µÄÊıÁ¿ by changhao
 
 	public SSetRoleTeamInfo() {
 	}

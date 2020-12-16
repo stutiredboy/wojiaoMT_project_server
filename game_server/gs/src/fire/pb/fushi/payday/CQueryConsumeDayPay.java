@@ -14,7 +14,7 @@ abstract class __CQueryConsumeDayPay__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 是否扣日卡 by changhao
+ * 是否扣日�? by changhao
  */
 public class CQueryConsumeDayPay extends __CQueryConsumeDayPay__ {
 	@Override
@@ -34,7 +34,7 @@ public class CQueryConsumeDayPay extends __CQueryConsumeDayPay__ {
 					if (linkrole != null)
 					{
 						int userid = linkrole.getUserid();
-						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务器 by changhao
+						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
 						{
 							fire.pb.fushi.DayPayManager.getInstance().ProcessDayPay(userid, roleid);	
 						}					
@@ -56,7 +56,7 @@ public class CQueryConsumeDayPay extends __CQueryConsumeDayPay__ {
 		return 812595;
 	}
 
-	public int yesorno; // 0是没有1是消耗 by changhao
+	public int yesorno; // 0��û��1������ by changhao
 
 	public CQueryConsumeDayPay() {
 	}

@@ -6,15 +6,15 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class EquipItemType implements Marshal , Comparable<EquipItemType>{
-	public final static int ARMS = 0; // //姝﹀櫒
-	public final static int ADORN = 2; // //椤归摼
-	public final static int LORICAE = 3; // //琛ｆ湇
-	public final static int WAISTBAND = 4; // //鑵板甫
-	public final static int BOOT = 5; // //闈村瓙
-	public final static int TIRE = 6; // //甯藉瓙
-	public final static int ROLE_COLOR1 = 50; // 鏌撹壊1
-	public final static int ROLE_COLOR2 = 51; // 鏌撹壊2
-	public final static int EQUIP_EFFECT = 60; // 瑁呭鐗规晥
+	public final static int ARMS = 0; // //武器
+	public final static int ADORN = 2; // //项链
+	public final static int LORICAE = 3; // //衣服
+	public final static int WAISTBAND = 4; // //腰带
+	public final static int BOOT = 5; // //靴子
+	public final static int TIRE = 6; // //帽子
+	public final static int ROLE_COLOR1 = 50; // 染色1
+	public final static int ROLE_COLOR2 = 51; // 染色2
+	public final static int EQUIP_EFFECT = 60; // 装备特效
 
 
 	public EquipItemType() {

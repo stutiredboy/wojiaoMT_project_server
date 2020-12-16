@@ -25,7 +25,7 @@ public class CSearchMaster extends __CSearchMaster__ {
 		return 816437;
 	}
 
-	public int pageid; // é¡µæ•°
+	public int pageid; // Ò³Êý
 
 	public CSearchMaster() {
 	}

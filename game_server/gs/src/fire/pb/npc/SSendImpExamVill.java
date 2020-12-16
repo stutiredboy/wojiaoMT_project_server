@@ -26,8 +26,8 @@ public class SSendImpExamVill extends __SSendImpExamVill__ {
 	}
 
 	public fire.pb.npc.ImpExamBean impexamdata;
-	public int historyright; // å†å²æœ€å¤šç­”å¯¹é¢˜ç›®æ•°
-	public byte isover; // ç»“æŸ 0=æ²¡ç»“æŸ 1=ç»“æŸ
+	public int historyright; // ÀúÊ·×î¶à´ğ¶ÔÌâÄ¿Êı
+	public byte isover; // ½áÊø 0=Ã»½áÊø 1=½áÊø
 
 	public SSendImpExamVill() {
 		impexamdata = new fire.pb.npc.ImpExamBean();

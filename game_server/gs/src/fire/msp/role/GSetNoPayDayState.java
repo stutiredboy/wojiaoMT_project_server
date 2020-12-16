@@ -30,7 +30,7 @@ public class GSetNoPayDayState extends __GSetNoPayDayState__ {
 	}
 
 	public long roleid; // roleid
-	public byte ok; // 1æ²¡æ”¯ä»˜0æ˜¯æ”¯ä»˜ by changhao
+	public byte ok; // 1Ã»Ö§¸¶0ÊÇÖ§¸¶ by changhao
 
 	public GSetNoPayDayState() {
 	}

@@ -29,7 +29,7 @@ public class CRenXingCircleTask extends __CRenXingCircleTask__ {
 			return;
 		
 		/*
-		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //ç‚¹å¡æœåŠ¡å™¨ by changhao
+		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //ç‚¹å¡æœåŠ¡å™? by changhao
 		{
 			boolean ok = fire.pb.fushi.DayPayManager.getInstance().CheckDayPayWithLevel(roleid);
 			if (ok == false)
@@ -55,8 +55,8 @@ public class CRenXingCircleTask extends __CRenXingCircleTask__ {
 		return 807451;
 	}
 
-	public int serviceid; // è¯¥æœåŠ¡id
-	public int moneytype; // è´§å¸ç±»å‹
+	public int serviceid; // ¸Ã·şÎñid
+	public int moneytype; // »õ±ÒÀàĞÍ
 
 	public CRenXingCircleTask() {
 	}

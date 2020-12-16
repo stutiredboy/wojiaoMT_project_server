@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SReturnRoleList__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨å‘ç»™å®¢æˆ·ç«¯ï¼Œå…è®¸è¿”å›è§’è‰²é€‰æ‹©ç•Œé¢ï¼Œå¹¶å‘é€å·²æœ‰è§’è‰²ä¿¡æ¯åˆ—è¡¨ï¼ŒåŒSRoleList
+/** ·şÎñÆ÷·¢¸ø¿Í»§¶Ë£¬ÔÊĞí·µ»Ø½ÇÉ«Ñ¡Ôñ½çÃæ£¬²¢·¢ËÍÒÑÓĞ½ÇÉ«ĞÅÏ¢ÁĞ±í£¬Í¬SRoleList
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,9 +28,9 @@ public class SReturnRoleList extends __SReturnRoleList__ {
 	}
 
 	public long prevloginroleid;
-	public byte prevroleinbattle; // 1 = åœ¨æˆ˜æ–—æ‰˜ç®¡ä¸­ï¼›0 = ä¸åœ¨æ¸¸æˆä¸­
+	public byte prevroleinbattle; // 1 = ÔÚÕ½¶·ÍĞ¹ÜÖĞ£»0 = ²»ÔÚÓÎÏ·ÖĞ
 	public java.util.LinkedList<fire.pb.RoleInfo> roles;
-	public int gacdon; // gacdæ˜¯å¦å¼€å¯,1ä¸ºå¼€å¯,0ä¸ºå…³é—­
+	public int gacdon; // gacdÊÇ·ñ¿ªÆô,1Îª¿ªÆô,0Îª¹Ø±Õ
 
 	public SReturnRoleList() {
 		roles = new java.util.LinkedList<fire.pb.RoleInfo>();

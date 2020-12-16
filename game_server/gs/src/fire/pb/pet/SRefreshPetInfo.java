@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshPetInfo__ extends mkio.Protocol { }
 
-/** åˆ·æ–°å® ç‰©æ•°æ® æ´—ç»ƒåï¼Œåˆ·æ–°å® ç‰©å‡ ä¹æ‰€æœ‰çš„å±æ€§
+/** Ë¢ĞÂ³èÎïÊı¾İ Ï´Á·ºó£¬Ë¢ĞÂ³èÎï¼¸ºõËùÓĞµÄÊôĞÔ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

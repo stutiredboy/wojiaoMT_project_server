@@ -25,7 +25,7 @@ public class SNoticeRedPackList extends __SNoticeRedPackList__ {
 		return 812543;
 	}
 
-	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleTip> redpackroletiplist; // çº¢åŒ…ä¿¡æ¯
+	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleTip> redpackroletiplist; // ºì°üĞÅÏ¢
 
 	public SNoticeRedPackList() {
 		redpackroletiplist = new java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleTip>();

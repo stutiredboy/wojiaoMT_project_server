@@ -36,7 +36,7 @@ public class GSetProgressbarInfo extends __GSetProgressbarInfo__ {
 	}
 
 	public long roleid; // roleid
-	public int progresson; // 1è¡¨ç¤ºåœ¨è¯»è¿›åº¦æ¡,0è¡¨ç¤ºç»“æŸæˆ–æ‰“æ–­
+	public int progresson; // 1±íÊ¾ÔÚ¶Á½ø¶ÈÌõ,0±íÊ¾½áÊø»ò´ò¶Ï
 
 	public GSetProgressbarInfo() {
 	}

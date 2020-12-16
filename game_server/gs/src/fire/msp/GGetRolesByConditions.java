@@ -28,7 +28,7 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 		if(limitnum == -1)
 			limitnum = Integer.MAX_VALUE;
 		if(sceneid != -1)
-		{//ä¼˜å…ˆæŒ‰åœºæ™¯ç´¢å¼•
+		{//ä¼˜å…ˆæŒ‰åœºæ™¯ç´¢å¼?
 			Scene scene = SceneManager.getInstance().getSceneByID(sceneid);
 			if (scene == null)
 			{
@@ -51,7 +51,7 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 			}
 		}
 		else if(schoolid != -1)
-		{//æŒ‰é—¨æ´¾ç´¢å¼•
+		{//æŒ‰é—¨æ´¾ç´¢å¼?
 			Set<Long> schoolroles = RoleManager.getInstance().getSchoolRoles(schoolid);
 			for(long sroleId :  schoolroles)
 			{
@@ -67,7 +67,7 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 			}
 		}
 		else
-		{//å…¨éå†è¿‡æ»¤ç­‰çº§
+		{//å…¨éå†è¿‡æ»¤ç­‰çº?
 			for(Role role : RoleManager.getInstance().getRoles().values())
 			{
 				if(minlevel != -1 && role.getLevel() < minlevel)
@@ -98,11 +98,11 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 //	static class PGetRolesByConditions extends xdb.Procedure
 //	{
 //		private IGetRolesCallBack callback2; // å›è°ƒId
-//		private int schoolid2; // é—¨æ´¾IDï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-//		private int minlevel2; // æœ€å°ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-//		private int maxlevel2; // æœ€å¤§ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-//		private long sceneid2; // åœºæ™¯IDï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-//		private int limitnum2; // é™åˆ¶ä¸ªæ•°ï¼Œæ— é™åˆ¶å¡«-1
+//		private int schoolid2; // é—¨æ´¾IDï¼Œå¦‚æœæ— é™åˆ¶å¡?-1
+//		private int minlevel2; // æœ?å°ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
+//		private int maxlevel2; // æœ?å¤§ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
+//		private long sceneid2; // åœºæ™¯IDï¼Œå¦‚æœæ— é™åˆ¶å¡?-1
+//		private int limitnum2; // é™åˆ¶ä¸ªæ•°ï¼Œæ— é™åˆ¶å¡?-1
 //		public PGetRolesByConditions(int schoolid, int minlevel, int maxlevel, long sceneid, int limitnum, IGetRolesCallBack callback)
 //		{
 //			this.callback2 = callback;
@@ -135,12 +135,12 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 		return 720907;
 	}
 
-	public long callbackid; // å›è°ƒId
-	public int schoolid; // é—¨æ´¾IDï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-	public int minlevel; // æœ€å°ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-	public int maxlevel; // æœ€å¤§ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-	public long sceneid; // åœºæ™¯IDï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
-	public int limitnum; // é™åˆ¶ä¸ªæ•°ï¼Œæ— é™åˆ¶å¡«-1
+	public long callbackid; // »Øµ÷Id
+	public int schoolid; // ÃÅÅÉID£¬Èç¹ûÎŞÏŞÖÆÌî-1
+	public int minlevel; // ×îĞ¡µÈ¼¶£¬Èç¹ûÎŞÏŞÖÆÌî-1
+	public int maxlevel; // ×î´óµÈ¼¶£¬Èç¹ûÎŞÏŞÖÆÌî-1
+	public long sceneid; // ³¡¾°ID£¬Èç¹ûÎŞÏŞÖÆÌî-1
+	public int limitnum; // ÏŞÖÆ¸öÊı£¬ÎŞÏŞÖÆÌî-1
 
 	public GGetRolesByConditions() {
 	}

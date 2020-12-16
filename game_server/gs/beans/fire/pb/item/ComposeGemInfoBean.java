@@ -5,11 +5,11 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** åˆæˆå®çŸ³
+/** ºÏ³É±¦Ê¯
 */
 public class ComposeGemInfoBean implements Marshal , Comparable<ComposeGemInfoBean>{
-	public int itemidorgoodid; // å¦‚æœæ˜¯èƒŒåŒ…é‡Œçš„,å°±æ˜¯itemId,å¦‚æœæ˜¯å•†åº—é‡Œçš„,å°±æ˜¯goodid
-	public int num; // æ•°é‡
+	public int itemidorgoodid; // Èç¹ûÊÇ±³°üÀïµÄ,¾ÍÊÇitemId,Èç¹ûÊÇÉÌµêÀïµÄ,¾ÍÊÇgoodid
+	public int num; // ÊıÁ¿
 
 	public ComposeGemInfoBean() {
 	}

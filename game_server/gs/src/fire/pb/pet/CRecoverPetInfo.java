@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRecoverPetInfo__ extends mkio.Protocol { }
 
-/** 客户端请求查看一个找回宠物的信息
+/** �ͻ�������鿴һ���һس������Ϣ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -35,7 +35,7 @@ public class CRecoverPetInfo extends __CRecoverPetInfo__ {
 					return false;
 				}
 
-				// 获得丢弃的宠物
+				// 获得丢弃的宠�?
 				xbean.DiscardPet discardPet = xtable.Petrecyclebin.select(uniqid);
 				if (discardPet == null) {
 					return false;
@@ -43,7 +43,7 @@ public class CRecoverPetInfo extends __CRecoverPetInfo__ {
 
 				Pet pet = Pet.getPet(discardPet.getPet());
 
-				// 发送给客户端
+				// 发�?�给客户�?
 				SRecoverPetInfo send = new SRecoverPetInfo();
 				send.petinfo = pet.getProtocolPet();
 				mkdb.Procedure.psendWhileCommit(roleId, send);
@@ -60,7 +60,7 @@ public class CRecoverPetInfo extends __CRecoverPetInfo__ {
 		return 788587;
 	}
 
-	public long uniqid; // 唯一id
+	public long uniqid; // Ψһid
 
 	public CRecoverPetInfo() {
 	}

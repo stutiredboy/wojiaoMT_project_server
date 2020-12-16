@@ -25,7 +25,7 @@ public class SPvP3MatchResult extends __SPvP3MatchResult__ {
 		return 793645;
 	}
 
-	public java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleMatch> targets; // ç›®æ ‡
+	public java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleMatch> targets; // Ä¿±ê
 
 	public SPvP3MatchResult() {
 		targets = new java.util.LinkedList<fire.pb.battle.pvp3.PvP3RoleSingleMatch>();

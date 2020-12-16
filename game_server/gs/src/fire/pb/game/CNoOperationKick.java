@@ -14,7 +14,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CNoOperationKick__ extends mkio.Protocol { }
 
-/** 踢掉长时间不操作的玩家
+/** �ߵ���ʱ�䲻���������
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -54,7 +54,7 @@ public class CNoOperationKick extends __CNoOperationKick__ {
 				if (!ok) {// 踢掉
 					Procedure.psend(roleId, new SReturnLogin());
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("角色role=").append(roleId).append(", 长时间不操作踢掉！");
+					sbd.append("角色role=").append(roleId).append(", 长时间不操作踢掉�?");
 					LogManager.logger.error(sbd.toString());
 				}
 				return true;

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReceiveCheckCode__ extends mkio.Protocol { }
 
-/** å‘é€çŸ­ä¿¡éªŒè¯
+/** ·¢ËÍ¶ÌĞÅÑéÖ¤
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -20,7 +20,7 @@ public class CReceiveCheckCode extends __CReceiveCheckCode__ {
 		if (roleid < 0) {
 			return;
 		}
-		//å¾—åˆ°éªŒè¯ç 
+		//å¾—åˆ°éªŒè¯ç ?
 		CheckCodeUtils.getCheckCode(roleid, checkcodetype);
 	}
 
@@ -32,7 +32,7 @@ public class CReceiveCheckCode extends __CReceiveCheckCode__ {
 		return 786570;
 	}
 
-	public byte checkcodetype; // 2 é“å…·å®‰å…¨é” 3è—å®é˜
+	public byte checkcodetype; // 2 µÀ¾ß°²È«Ëø 3²Ø±¦¸ó
 
 	public CReceiveCheckCode() {
 	}

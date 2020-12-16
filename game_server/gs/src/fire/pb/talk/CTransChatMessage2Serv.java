@@ -24,7 +24,7 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 			return;
 		if(fire.pb.talk.ChatChannel.isShutUp(roleId))
 			return;
-		//判断是否是求助类型，如果是1表示求助，需要判断求助的最大次数
+		//判断是否是求助类型，如果�?1表示求助，需要判断求助的�?大次�?
 		if(funtype==FunModelType.FUN_TASKITEM){
 			xbean.helpcount helpcount = xtable.Helpcount.select(roleId);
 	    	int max=HelpCountManage.getInstance().getHelpItemNumMax(roleId);
@@ -40,7 +40,7 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 	    		MessageMgr.sendMsgNotify(roleId, 166087, null);
 	    		return;
 	    	}
-			//记录玩家在频道中发布的任务求助信息
+			//记录玩家在频道中发布的任务求助信�?
 			new mkdb.Procedure() {
 				@Override
 				protected boolean process() throws Exception {
@@ -86,12 +86,12 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 		return 792433;
 	}
 
-	public int messagetype; // 消息频道 MsgTye中所定义的部分
-	public java.lang.String message; // 内容
-	public java.lang.String checkshiedmessage; // 检测屏蔽字的纯文本
-	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfos; // 显示道具、宠物、技能
-	public int funtype; // 功能类型  类型编号对应FunModelType
-	public int taskid; // 任务id
+	public int messagetype; // ��ϢƵ�� MsgTye��������Ĳ���
+	public java.lang.String message; // ����
+	public java.lang.String checkshiedmessage; // ��������ֵĴ��ı�
+	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfos; // ��ʾ���ߡ��������
+	public int funtype; // ��������  ���ͱ�Ŷ�ӦFunModelType
+	public int taskid; // ����id
 
 	public CTransChatMessage2Serv() {
 		message = "";

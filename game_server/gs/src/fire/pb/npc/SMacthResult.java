@@ -26,7 +26,7 @@ public class SMacthResult extends __SMacthResult__ {
 	}
 
 	public long npckey; // npckey
-	public int result; // 缁撴灉 0澶辫触; 1鎴愬姛
+	public int result; // 结果 0失败; 1成功
 
 	public SMacthResult() {
 	}

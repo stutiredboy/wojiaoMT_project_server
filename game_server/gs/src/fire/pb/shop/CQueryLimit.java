@@ -31,8 +31,8 @@ public class CQueryLimit extends __CQueryLimit__ {
 		return 810637;
 	}
 
-	public int querytype; // 鏌ヨ绫诲瀷  1鍟嗗搧闄愯喘娆℃暟鏌ヨ  2鍟嗗搧闄愬敭娆℃暟鏌ヨ
-	public java.util.ArrayList<Integer> goodsids; // 鏌ヨ鍟嗗搧id
+	public int querytype; // 查询类型  1商品限购次数查询  2商品限售次数查询
+	public java.util.ArrayList<Integer> goodsids; // 查询商品id
 
 	public CQueryLimit() {
 		goodsids = new java.util.ArrayList<Integer>();

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SItemRecoverList__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨è¿”å›é“å…·æ‰¾å›åˆ—è¡¨
+/** ·şÎñÆ÷·µ»ØµÀ¾ßÕÒ»ØÁĞ±í
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SItemRecoverList extends __SItemRecoverList__ {
 		return 787794;
 	}
 
-	public java.util.LinkedList<fire.pb.item.ItemRecoverInfoBean> items; // é“å…·åˆ—è¡¨
+	public java.util.LinkedList<fire.pb.item.ItemRecoverInfoBean> items; // µÀ¾ßÁĞ±í
 
 	public SItemRecoverList() {
 		items = new java.util.LinkedList<fire.pb.item.ItemRecoverInfoBean>();

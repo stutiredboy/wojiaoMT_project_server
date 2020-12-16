@@ -7,8 +7,8 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class DemoAttr implements Marshal , Comparable<DemoAttr>{
 	public int fighterid;
-	public int attrid; // å±æ€§id
-	public int value; // æœ€ç»ˆå€¼
+	public int attrid; // ÊôĞÔid
+	public int value; // ×îÖÕÖµ
 
 	public DemoAttr() {
 	}

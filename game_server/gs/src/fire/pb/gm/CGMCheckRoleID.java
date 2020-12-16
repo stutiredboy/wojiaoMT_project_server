@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGMCheckRoleID__ extends mkio.Protocol { }
 
-/** GM  è¯·æ±‚è§’è‰²IDæ£€æµ‹
+/** GM  ÇëÇó½ÇÉ«ID¼ì²â
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

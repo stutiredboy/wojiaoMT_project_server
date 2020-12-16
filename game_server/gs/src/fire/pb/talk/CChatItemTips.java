@@ -55,7 +55,7 @@ public class CChatItemTips extends __CChatItemTips__ {
 			}.submit();
 		} else if(displayinfo.displaytype == DisplayInfo.DISPLAY_TASK && 
 				displayinfo.shopid == 3){
-			//这里处理暗夜马戏团任务
+			//这里处理暗夜马戏团任�?
 			new mkdb.Procedure(){
 				@Override
 				protected boolean process(){
@@ -66,7 +66,7 @@ public class CChatItemTips extends __CChatItemTips__ {
 						MessageMgr.sendMsgNotify(roleId, 145390, null);
 						return false;
 					}
-					//判断是否援助物品次数是否满
+					//判断是否援助物品次数是否�?
 					if(!HelpCountManage.getInstance().canAddHelpGiveItemNum(roleId)){
 						//提示消息
 						fire.pb.talk.MessageMgr.sendMsgNotify(roleId, 166088, null);
@@ -82,7 +82,7 @@ public class CChatItemTips extends __CChatItemTips__ {
 					
 					SChatItemTips tips = new SChatItemTips();
 					tips.displayinfo = displayinfo;
-					//tips:displayinfo的teamid是轮数
+					//tips:displayinfo的teamid是轮�?
 					boolean ret = RoleAnYeTask.getRoleAnYeTask(roleId, displayinfo.roleid, displayinfo.uniqid, displayinfo.teamid, tips);
 					if(ret) {
 						psendWhileCommit(roleId, tips);

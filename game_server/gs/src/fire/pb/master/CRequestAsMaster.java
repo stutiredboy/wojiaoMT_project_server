@@ -25,7 +25,7 @@ public class CRequestAsMaster extends __CRequestAsMaster__ {
 		return 816458;
 	}
 
-	public long prenticeid; // è¯·æ±‚å¾’å¼Ÿçš„id
+	public long prenticeid; // ÇëÇóÍ½µÜµÄid
 
 	public CRequestAsMaster() {
 	}

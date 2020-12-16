@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSetFightPetRest__ extends mkio.Protocol { }
 
-/** æ”¶å›å‚æˆ˜å® ç‰©, å°†å½“å‰çš„å‚æˆ˜å® ç‰©è®¾ç½®ä¸ºä¼‘æ¯çŠ¶æ€ã€‚
+/** ÊÕ»Ø²ÎÕ½³èÎï, ½«µ±Ç°µÄ²ÎÕ½³èÎïÉèÖÃÎªĞİÏ¢×´Ì¬¡£
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SSetFightPetRest extends __SSetFightPetRest__ {
 		return 788443;
 	}
 
-	public byte isinbattle; // 0=æˆ˜æ–—å¤–è®¾ç½®ä¼‘æ¯ 1=æˆ˜æ–—ä¸­å¬å›
+	public byte isinbattle; // 0=Õ½¶·ÍâÉèÖÃĞİÏ¢ 1=Õ½¶·ÖĞÕÙ»Ø
 
 	public SSetFightPetRest() {
 	}

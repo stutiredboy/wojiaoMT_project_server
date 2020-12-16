@@ -25,7 +25,7 @@ public class SUpdateExtSkill extends __SUpdateExtSkill__ {
 		return 800489;
 	}
 
-	public java.util.HashMap<Integer,Integer> extskilllists; // key = æŠ€èƒ½IDï¼Œvalue=æŠ€èƒ½ç­‰çº§
+	public java.util.HashMap<Integer,Integer> extskilllists; // key = ¼¼ÄÜID£¬value=¼¼ÄÜµÈ¼¶
 
 	public SUpdateExtSkill() {
 		extskilllists = new java.util.HashMap<Integer,Integer>();

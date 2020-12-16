@@ -28,8 +28,8 @@ public class GDestroyDynamicSceneByMapOwner extends __GDestroyDynamicSceneByMapO
 		return 724908;
 	}
 
-	public int basemapid; // 鍓湰鐨勫湴鍥綢D
-	public long ownerid; // 鍓湰鐨勬墍鏈夎�匢D(鍙兘鏄鑹睮D,涔熷彲鑳芥槸鍥綋ID)
+	public int basemapid; // 副本的地图ID
+	public long ownerid; // 副本的所有者ID(可能是角色ID,也可能是团体ID)
 
 	public GDestroyDynamicSceneByMapOwner() {
 	}

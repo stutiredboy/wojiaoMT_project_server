@@ -10,7 +10,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GEnterDynamicScene__ extends mkio.Protocol { }
 
-/** åœºæ™¯ç›¸å…³æ“ä½œ
+/** ³¡¾°Ïà¹Ø²Ù×÷
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -31,16 +31,16 @@ public class GEnterDynamicScene extends __GEnterDynamicScene__ {
 	}
 
 	public long roleid;
-	public int mapid; // åœ°å›¾id
-	public long ownerid; // å‰¯æœ¬çš„æ‰€æœ‰è€…ID(å¯èƒ½æ˜¯è§’è‰²ID,ä¹Ÿå¯èƒ½æ˜¯å›¢ä½“ID)
+	public int mapid; // µØÍ¼id
+	public long ownerid; // ¸±±¾µÄËùÓĞÕßID(¿ÉÄÜÊÇ½ÇÉ«ID,Ò²¿ÉÄÜÊÇÍÅÌåID)
 	public java.lang.String ownername;
 	public int posx;
 	public int posy;
-	public byte reusable; // å‰¯æœ¬å¯¹è±¡æ˜¯å¦å¯é‡ç”¨(è§’è‰²éƒ½ç¦»å¼€åæ˜¯å¦å¯é‡è¿›å…¥,è¿˜æ˜¯é‡æ–°åˆ›å»ºæ–°çš„å¯¹è±¡)
-	public int livetime; // ç©ºåœºæ™¯å­˜æ´»æ—¶é—´ï¼Œå•ä½ç§’ã€‚å¯é‡ç”¨å‰¯æœ¬æ—¶ï¼Œç­‰äº0åˆ™ä¸€ç›´å­˜æ´»ä¸é”€æ¯ï¼›ä¸å¯é‡ç”¨çš„å‰¯æœ¬æ—¶ï¼Œæ­¤å­—æ®µæ— æ•ˆ
-	public int scenetype; // åœºæ™¯ç±»å‹
-	public int gototype; // è·³è½¬ç±»å‹
-	public com.locojoy.base.Octets parameters; // åˆ›å»ºå‰¯æœ¬ç”¨åˆ°çš„å‚æ•°ï¼Œé»˜è®¤ä¸ºDynamicSceneParamsç±»å‹ï¼Œä¸åŒçš„å‰¯æœ¬ç”¨åˆ°çš„å‚æ•°å¯èƒ½ä¸åŒï¼Œæ‰€ä»¥ç”¨octets
+	public byte reusable; // ¸±±¾¶ÔÏóÊÇ·ñ¿ÉÖØÓÃ(½ÇÉ«¶¼Àë¿ªºóÊÇ·ñ¿ÉÖØ½øÈë,»¹ÊÇÖØĞÂ´´½¨ĞÂµÄ¶ÔÏó)
+	public int livetime; // ¿Õ³¡¾°´æ»îÊ±¼ä£¬µ¥Î»Ãë¡£¿ÉÖØÓÃ¸±±¾Ê±£¬µÈÓÚ0ÔòÒ»Ö±´æ»î²»Ïú»Ù£»²»¿ÉÖØÓÃµÄ¸±±¾Ê±£¬´Ë×Ö¶ÎÎŞĞ§
+	public int scenetype; // ³¡¾°ÀàĞÍ
+	public int gototype; // Ìø×ªÀàĞÍ
+	public com.locojoy.base.Octets parameters; // ´´½¨¸±±¾ÓÃµ½µÄ²ÎÊı£¬Ä¬ÈÏÎªDynamicSceneParamsÀàĞÍ£¬²»Í¬µÄ¸±±¾ÓÃµ½µÄ²ÎÊı¿ÉÄÜ²»Í¬£¬ËùÒÔÓÃoctets
 
 	public GEnterDynamicScene() {
 		ownername = "";

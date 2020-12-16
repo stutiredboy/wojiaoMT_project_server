@@ -48,7 +48,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 			{
 				SkillRole skillrole = new SkillRole(roleid);
 				
-				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_MAKE_DRUG);	//得到生活技能等级 by changhao			
+				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_MAKE_DRUG);	//得到生活�?能等�? by changhao			
 				if (liveskill == null)
 				{
 					LiveSkillManager.logger.debug("CLiveSkillMakeDrug skilllevel error:" + roleid);
@@ -62,7 +62,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 						roleid, LiveSkillManager.LIVE_SKILL_TYPE_COOKING, skilllevel,"炼药 ", 
 						YYLoggerTuJingEnum.tujing_Value_liveskillcost, false);
 				
-				if (energyenough == false) //消耗活力 by changhao
+				if (energyenough == false) //消�?�活�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						
@@ -93,7 +93,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 						return false;	
 					}
 				}
-				else if (makingslist.size() < 2) //一个材料不能炼药 by changhao
+				else if (makingslist.size() < 2) //�?个材料不能炼�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.OneStuffCannot));
 					return true;
@@ -109,11 +109,11 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 							if (classid != null)
 							{
 								boolean drugstufftype = classid.classname.equals(LiveSkillManager.DrugStuff);
-								if (drugstufftype == true) //如果是炼药材料  by changhao
+								if (drugstufftype == true) //如果是炼药材�?  by changhao
 								{
 									makingsweight += stuff.lianyaoMaterialWeight;
 									
-									//成功消耗道具 by changhao
+									//成功消�?�道�? by changhao
 									if(bag.removeItemById(makings, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuiyaofanguse, 0, LiveSkillManager.MakeDrug) == 1)
 									{
 										count ++;
@@ -124,7 +124,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					}		
 				}
 								
-				if (count < 2) //一个材料不能炼药 by changhao
+				if (count < 2) //�?个材料不能炼�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.OneStuffCannot));
 					return true;					
@@ -136,7 +136,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 				
 				SLiveSkillMakeDrug msg = new SLiveSkillMakeDrug();
 				
-				if (index <= prob) //制作开始 by changhao
+				if (index <= prob) //制作�?�? by changhao
 				{
 					fire.pb.item.SFoodAndDrugEffect jinchuang = (SFoodAndDrugEffect) fire.pb.item.Module.getInstance().getItemManager().getAttr(LiveSkillManager.ITEM_TYPE_DRUG_JIN_CHUANG);
 					int jinchuangweight = jinchuang.getLianyaoWeight() - skilllevel * 2 - makingsweight;
@@ -146,14 +146,14 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					
 					int curWeight = 0;
 					
-					int drug = LiveSkillManager.ITEM_TYPE_DRUG_JIN_CHUANG; //最终产出啥药 by changhao
-					if (randomValue < jinchuangweight) //是否产生金疮药 by changhao
+					int drug = LiveSkillManager.ITEM_TYPE_DRUG_JIN_CHUANG; //�?终产出啥�? by changhao
+					if (randomValue < jinchuangweight) //是否产生金疮�? by changhao
 					{
 
 					}
 					else
 					{
-						//产生那个药 by changhao
+						//产生那个�? by changhao
 						curWeight = jinchuangweight;
 						for (fire.pb.item.SFoodAndDrugEffect e : LiveSkillManager.getInstance().druglist)
 						{
@@ -169,7 +169,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					
 					fire.pb.item.drug.GeneralDrug drugitem = (fire.pb.item.drug.GeneralDrug)fire.pb.item.Module.getInstance().getItemManager().genItemBase(drug, 1);
 					//drugitem.setFlag( fire.pb.Item.BIND);
-					//根据技能等级随机生成品质 by changhao
+					//根据�?能等级随机生成品�? by changhao
 					
 					fire.pb.common.SCommon common = ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(159);
 					int delta = Integer.parseInt(common.value);					
@@ -214,7 +214,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 		
 	}
 	
-	//根据道具数量得到生成的概率 by changhao
+	//根据道具数量得到生成的概�? by changhao
 	public int GetProbByNum(int num)
 	{
 		if (num == 2)
@@ -241,7 +241,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 		return 800519;
 	}
 
-	public java.util.LinkedList<Integer> makingslist; // 材料链 by changhao
+	public java.util.LinkedList<Integer> makingslist; // ������ by changhao
 
 	public CLiveSkillMakeDrug() {
 		makingslist = new java.util.LinkedList<Integer>();

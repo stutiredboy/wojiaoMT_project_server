@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRemoveTitle__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨é€šçŸ¥å®¢æˆ·ç«¯åˆ é™¤ä¸€ä¸ªç§°è°“
+/** ·şÎñÆ÷Í¨Öª¿Í»§¶ËÉ¾³ıÒ»¸ö³ÆÎ½
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

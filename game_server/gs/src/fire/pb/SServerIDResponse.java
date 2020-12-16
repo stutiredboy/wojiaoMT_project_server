@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SServerIDResponse__ extends mkio.Protocol { }
 
-/** ä¸‹å‘serverIDçš„åè®® start
+/** ÏÂ·¢serverIDµÄĞ­Òé start
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

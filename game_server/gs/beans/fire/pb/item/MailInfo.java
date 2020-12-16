@@ -6,21 +6,21 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class MailInfo implements Marshal {
-	public byte kind; // ç±»å‹ 0=å®šæ—¶é‚®ä»¶ 1=GMé‚®ä»¶
-	public long id; // id kind=0:æœåŠ¡ID kind=1:key
-	public byte readflag; // è¯»å–æ ‡è®° 0=æœªè¯» 1=å·²è¯»
-	public java.lang.String time; // é‚®ä»¶æ—¶é—´
-	public java.lang.String title; // é‚®ä»¶æ ‡é¢˜
-	public int contentid; // é‚®ä»¶å†…å®¹id kind=0
-	public java.lang.String content; // é‚®ä»¶å†…å®¹ kind=1
-	public int awardid; // å¥–åŠ±ID kind=0
-	public java.util.HashMap<Integer,Integer> items; // å¥–åŠ±åˆ—è¡¨ kind=1
-	public long awardexp; // ç»éªŒ
-	public long awardfushi; // ç¬¦çŸ³
-	public long awardgold; // é‡‘å¸
-	public long awardmoney; // é“¶å¸
-	public long awardvipexp; // vipç»éªŒ
-	public int npcid; // NPCID>0æ—¶,å¯ä»¥æ‰¾NPCé¢†å–å¥–åŠ± kind=0
+	public byte kind; // ÀàĞÍ 0=¶¨Ê±ÓÊ¼ş 1=GMÓÊ¼ş
+	public long id; // id kind=0:·şÎñID kind=1:key
+	public byte readflag; // ¶ÁÈ¡±ê¼Ç 0=Î´¶Á 1=ÒÑ¶Á
+	public java.lang.String time; // ÓÊ¼şÊ±¼ä
+	public java.lang.String title; // ÓÊ¼ş±êÌâ
+	public int contentid; // ÓÊ¼şÄÚÈİid kind=0
+	public java.lang.String content; // ÓÊ¼şÄÚÈİ kind=1
+	public int awardid; // ½±ÀøID kind=0
+	public java.util.HashMap<Integer,Integer> items; // ½±ÀøÁĞ±í kind=1
+	public long awardexp; // ¾­Ñé
+	public long awardfushi; // ·ûÊ¯
+	public long awardgold; // ½ğ±Ò
+	public long awardmoney; // Òø±Ò
+	public long awardvipexp; // vip¾­Ñé
+	public int npcid; // NPCID>0Ê±,¿ÉÒÔÕÒNPCÁìÈ¡½±Àø kind=0
 
 	public MailInfo() {
 		time = "";

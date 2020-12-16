@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSwitchZhenfa__ extends mkio.Protocol { }
 
-/** æ”¹å˜é˜µå®¹çš„å…‰ç¯è¿”å›
+/** ¸Ä±äÕóÈİµÄ¹â»··µ»Ø
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

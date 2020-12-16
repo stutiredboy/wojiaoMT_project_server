@@ -43,7 +43,7 @@ public class CUpYingYongBaoInfo extends __CUpYingYongBaoInfo__ {
 			    	xtable.Yingyongbaoinfos.insert(userID, yyb);
 			    }
 			    
-			    //openkey 换成以前的paytoken了,SDK组这么要求的
+			    //openkey 换成以前的paytoken�?,SDK组这么要求的
 			    if (platformname.equals("qq")) {
 			    	yyb.setOpenkey(paytoken);
 			    }
@@ -76,7 +76,7 @@ public class CUpYingYongBaoInfo extends __CUpYingYongBaoInfo__ {
 					}
 				}
 				catch(Exception e){
-					StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("应用宝 发送玩家的符石信息错误：") , e);
+					StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("应用�? 发�?�玩家的符石信息错误�?") , e);
 				}
 			    
 				return true;

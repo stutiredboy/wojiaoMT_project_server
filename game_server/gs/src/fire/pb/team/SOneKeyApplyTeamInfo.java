@@ -25,7 +25,7 @@ public class SOneKeyApplyTeamInfo extends __SOneKeyApplyTeamInfo__ {
 		return 794518;
 	}
 
-	public long teamid; // é˜Ÿä¼çš„id by changhao
+	public long teamid; // ¶ÓÎéµÄid by changhao
 	public java.util.LinkedList<fire.pb.team.TeamMemberSimple> memberlist;
 
 	public SOneKeyApplyTeamInfo() {

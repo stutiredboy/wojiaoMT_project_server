@@ -11,7 +11,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRequestRankPetData__ extends mkio.Protocol { }
 
-/** 璇锋眰姒滃崟涓婂疇鐗╃殑璇︾粏淇℃伅
+/** 请求榜单上宠物的详细信息
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -43,7 +43,7 @@ public class CRequestRankPetData extends __CRequestRankPetData__ {
 		return 810240;
 	}
 
-	public long uniquepetid; // 瀹犵墿鐨勫敮涓�id
+	public long uniquepetid; // 宠物的唯一id
 
 	public CRequestRankPetData() {
 	}

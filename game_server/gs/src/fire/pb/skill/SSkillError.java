@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSkillError__ extends mkio.Protocol { }
 
-/** 鑱屼笟蹇冩硶
+/** 职业心法
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SSkillError extends __SSkillError__ {
 		return 800436;
 	}
 
-	public int skillerror; // 鍙傝�僑killError鐨刡ean瀹氫箟
+	public int skillerror; // 参考SkillError的bean定义
 
 	public SSkillError() {
 	}

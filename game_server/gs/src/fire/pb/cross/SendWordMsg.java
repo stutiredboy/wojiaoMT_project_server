@@ -25,11 +25,11 @@ public class SendWordMsg extends __SendWordMsg__ {
 		return 819071;
 	}
 
-	public java.lang.String rolename; // è§’è‰²åå­—
-	public java.lang.String servername; // æœåŠ¡å™¨
-	public int serverid; // æœåŠ¡å™¨id
+	public java.lang.String rolename; // ½ÇÉ«Ãû×Ö
+	public java.lang.String servername; // ·şÎñÆ÷
+	public int serverid; // ·şÎñÆ÷id
 	public java.lang.String worldmsg;
-	public int flag; // 1=è·¨æœæˆ˜é˜Ÿèµ›æ¶ˆæ¯ 2=æ™®é€šä¸–ç•Œæ¶ˆæ¯
+	public int flag; // 1=¿ç·şÕ½¶ÓÈüÏûÏ¢ 2=ÆÕÍ¨ÊÀ½çÏûÏ¢
 
 	public SendWordMsg() {
 		rolename = "";

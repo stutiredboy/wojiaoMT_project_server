@@ -25,11 +25,11 @@ public class SSendCameraUrl extends __SSendCameraUrl__ {
 		return 793734;
 	}
 
-	public long battleid; // æˆ˜æ–—ä¿¡æ¯è¡¨id
-	public byte ishave; // 0æ— , 1æœ‰
-	public int sizebeforezip; // å‹ç¼©å‰é•¿åº¦
-	public long sizeafterzip; // å‹ç¼©åé•¿åº¦
-	public java.lang.String battlecameraurl; // 0æ‹’ç»  1æ¥å—
+	public long battleid; // Õ½¶·ĞÅÏ¢±íid
+	public byte ishave; // 0ÎŞ, 1ÓĞ
+	public int sizebeforezip; // Ñ¹ËõÇ°³¤¶È
+	public long sizeafterzip; // Ñ¹Ëõºó³¤¶È
+	public java.lang.String battlecameraurl; // 0¾Ü¾ø  1½ÓÊÜ
 
 	public SSendCameraUrl() {
 		battlecameraurl = "";

@@ -8,8 +8,8 @@ import com.locojoy.base.Marshal.MarshalException;
 public class StrangerMessageBean implements Marshal {
 	public fire.pb.friends.InfoBean friendinfobean;
 	public java.lang.String content;
-	public java.util.ArrayList<com.locojoy.base.Octets> details; // 展示品信息
-	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfo; // 展示的物品key与type
+	public java.util.ArrayList<com.locojoy.base.Octets> details; // չʾƷ��Ϣ
+	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfo; // չʾ����Ʒkey��type
 
 	public StrangerMessageBean() {
 		friendinfobean = new fire.pb.friends.InfoBean();

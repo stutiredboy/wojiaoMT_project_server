@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGMGetAroundRoles__ extends mkio.Protocol { }
 
-/** æœåŠ¡å™¨å›å¤GMè¯·æ±‚å‘¨å›´æ‰€æœ‰ç©å®¶ä¿¡æ¯
+/** ·şÎñÆ÷»Ø¸´GMÇëÇóÖÜÎ§ËùÓĞÍæ¼ÒĞÅÏ¢
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

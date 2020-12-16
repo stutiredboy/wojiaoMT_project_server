@@ -30,8 +30,8 @@ public class CSendRedPackHisView extends __CSendRedPackHisView__ {
 		return 812538;
 	}
 
-	public int modeltype; // 绾㈠寘绫诲瀷
-	public java.lang.String redpackid; // 绾㈠寘Id
+	public int modeltype; // 红包类型
+	public java.lang.String redpackid; // 红包Id
 
 	public CSendRedPackHisView() {
 		redpackid = "";

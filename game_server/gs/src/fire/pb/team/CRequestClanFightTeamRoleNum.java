@@ -11,7 +11,7 @@ abstract class __CRequestClanFightTeamRoleNum__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 /***
- * 请求公会战力角色和队伍数量 by changhao
+ * 请求公会战力角色和队伍数�? by changhao
  *
  */
 public class CRequestClanFightTeamRoleNum extends __CRequestClanFightTeamRoleNum__ {
@@ -31,7 +31,7 @@ public class CRequestClanFightTeamRoleNum extends __CRequestClanFightTeamRoleNum
 			protected boolean process()
 			{
 				int side = 0;
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //检测是否在战场中 by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //�?测是否在战场�? by changhao
 				if (c1 == null)
 				{
 					return false;

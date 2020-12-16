@@ -25,7 +25,7 @@ public class SHuobanDetail extends __SHuobanDetail__ {
 		return 818835;
 	}
 
-	public fire.pb.huoban.HuoBanDetailInfo huoban; // æˆ‘çš„ä¸€ä¸ªä¼™ä¼´ä¿¡æ¯
+	public fire.pb.huoban.HuoBanDetailInfo huoban; // ÎÒµÄÒ»¸ö»ï°éĞÅÏ¢
 
 	public SHuobanDetail() {
 		huoban = new fire.pb.huoban.HuoBanDetailInfo();

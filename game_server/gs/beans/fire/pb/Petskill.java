@@ -8,8 +8,8 @@ import com.locojoy.base.Marshal.MarshalException;
 public class Petskill implements Marshal , Comparable<Petskill>{
 	public int skillid;
 	public int skillexp;
-	public byte skilltype; // 0=å…ˆå¤©æŠ€èƒ½  1=é€šè¿‡æ‰“ä¹¦å­¦ä¹ çš„æŠ€èƒ½
-	public byte certification; // 0=æœªè®¤è¯ 1=è®¤è¯
+	public byte skilltype; // 0=ÏÈÌì¼¼ÄÜ  1=Í¨¹ı´òÊéÑ§Ï°µÄ¼¼ÄÜ
+	public byte certification; // 0=Î´ÈÏÖ¤ 1=ÈÏÖ¤
 
 	public Petskill() {
 	}

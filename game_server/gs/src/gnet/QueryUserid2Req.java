@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __QueryUserid2Req__ extends mkio.Protocol { }
 
-/** 鏍规嵁瑙掕壊鍚嶆煡瑙掕壊淇℃伅,涓昏鐢ㄤ簬缃戠珯鎴栧鏈嶅彂濂栵紝棣栧厛閫氳繃瑙掕壊鍚嶆煡璇㈣鑹插強璐﹀彿鏄惁瀛樺湪锛屾煡璇㈡垚鍔熸墠鍙戝
+/** 根据角色名查角色信息,主要用于网站或客服发奖，首先通过角色名查询角色及账号是否存在，查询成功才发奖
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

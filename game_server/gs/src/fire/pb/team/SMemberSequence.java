@@ -25,7 +25,7 @@ public class SMemberSequence extends __SMemberSequence__ {
 		return 794467;
 	}
 
-	public java.util.LinkedList<Long> teammemeberlist; // 鏈夊簭鐨勬垚鍛榬oleid
+	public java.util.LinkedList<Long> teammemeberlist; // 有序的成员roleid
 
 	public SMemberSequence() {
 		teammemeberlist = new java.util.LinkedList<Long>();

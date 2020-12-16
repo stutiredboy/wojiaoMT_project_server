@@ -37,10 +37,10 @@ public class MMoveCheckHideBattle extends __MMoveCheckHideBattle__ {
 	}
 
 	public long roleid;
-	public long sceneid; // åœºæ™¯ID
+	public long sceneid; // ³¡¾°ID
 	public long ownerid; // ownerID
-	public int length; // è¿™æ¬¡è¡Œèµ°çš„æ­¥æ•°
-	public int monsterconfig; // æš—é›·åŒºé…ç½®IDï¼Œå¦‚æœä¸º0ï¼Œè¡¨ç¤ºè¿™é‡Œä¸æ˜¯æš—é›·åŒº
+	public int length; // Õâ´ÎĞĞ×ßµÄ²½Êı
+	public int monsterconfig; // °µÀ×ÇøÅäÖÃID£¬Èç¹ûÎª0£¬±íÊ¾ÕâÀï²»ÊÇ°µÀ×Çø
 
 	public MMoveCheckHideBattle() {
 	}

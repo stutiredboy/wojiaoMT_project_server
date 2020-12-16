@@ -25,7 +25,7 @@ public class SDelPassword extends __SDelPassword__ {
 		return 786569;
 	}
 
-	public byte status; // 1 æˆåŠŸ 0å¤±è´¥
+	public byte status; // 1 ³É¹¦ 0Ê§°Ü
 
 	public SDelPassword() {
 	}

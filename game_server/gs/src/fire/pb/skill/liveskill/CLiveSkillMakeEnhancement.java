@@ -42,7 +42,7 @@ public class CLiveSkillMakeEnhancement extends __CLiveSkillMakeEnhancement__ {
 				xbean.Properties prop = xtable.Properties.select(roleid);
 				int school = prop.getSchool();
 				
-				int skilllevel = LiveSkillManager.getInstance().GetEnhanceLevelBySchool(roleid, school);//取得职业技能等级  by changhao
+				int skilllevel = LiveSkillManager.getInstance().GetEnhanceLevelBySchool(roleid, school);//取得职业�?能等�?  by changhao
 				if (skilllevel == 0)
 				{
 					LiveSkillManager.logger.debug("CLiveSkillMakeEnhancement skilllevel error:" + roleid);
@@ -55,7 +55,7 @@ public class CLiveSkillMakeEnhancement extends __CLiveSkillMakeEnhancement__ {
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, 
 						liveskillid, skilllevel,"附魔", YYLoggerTuJingEnum.tujing_Value_fumo, false);
 				
-				if (energyenough == false) //消耗活力 by changhao
+				if (energyenough == false) //消�?�活�? by changhao
 				{
 					java.util.List<String> parameters = new java.util.ArrayList<String>();
 					String s = Integer.toString(LiveSkillManager.getInstance().NeedEnergy(liveskillid, skilllevel));

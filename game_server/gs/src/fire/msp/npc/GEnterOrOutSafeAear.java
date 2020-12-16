@@ -48,7 +48,7 @@ public class GEnterOrOutSafeAear extends __GEnterOrOutSafeAear__ {
 //							stringBuffer.append(new PropRole(id, true).getName());
 //							isFirst = false;
 //						}else{
-//							stringBuffer.append("„ÄÅ" + new PropRole(id, true).getName());
+//							stringBuffer.append("„Ä?" + new PropRole(id, true).getName());
 //						}
 //					}else{
 //						if(enterTime != null){

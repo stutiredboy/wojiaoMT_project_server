@@ -28,7 +28,7 @@ public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 			@Override
 			protected boolean process()  throws Exception
 			{
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //检测是否在战场中 by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //�?测是否在战场�? by changhao
 				if (c1 == null)
 				{
 					return false;
@@ -92,7 +92,7 @@ public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 					int count = 0;
 					for (xbean.BattleFieldScroeRank e : bf.getClanfightBean().getClan1roleranklist())
 					{
-						if (count >= 50) //限制每次只传50个 by changhao
+						if (count >= 50) //限制每次只传50�? by changhao
 						{
 							break;
 						}
@@ -111,7 +111,7 @@ public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 					count = 0;
 					for (xbean.BattleFieldScroeRank e : bf.getClanfightBean().getClan2roleranklist())
 					{
-						if (count >= 50) //限制每次只传50个 by changhao
+						if (count >= 50) //限制每次只传50�? by changhao
 						{
 							break;
 						}

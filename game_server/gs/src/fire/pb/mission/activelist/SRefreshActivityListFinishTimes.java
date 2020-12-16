@@ -25,11 +25,11 @@ public class SRefreshActivityListFinishTimes extends __SRefreshActivityListFinis
 		return 805485;
 	}
 
-	public java.util.HashMap<Integer,fire.pb.mission.activelist.SimpleActivityInfo> activities; // keyä¸ºæ´»åŠ¨id, valueä¸ºæ´»åŠ¨ä¿¡æ¯
-	public int activevalue; // ä»Šæ—¥æ´»è·ƒåº¦å€¼
-	public java.util.HashMap<Integer,Integer> chests; // keyä¸ºå®ç®±id, valueä¸ºæ˜¯å¦é¢†å–,0æœªé¢†å–,1å·²é¢†å–
-	public int recommend; // å½“å‰æ¨èåº¦
-	public java.util.LinkedList<Integer> closeids; // æœåŠ¡å™¨å…³é—­äº†è¿™äº›æ´»åŠ¨
+	public java.util.HashMap<Integer,fire.pb.mission.activelist.SimpleActivityInfo> activities; // keyÎª»î¶¯id, valueÎª»î¶¯ĞÅÏ¢
+	public int activevalue; // ½ñÈÕ»îÔ¾¶ÈÖµ
+	public java.util.HashMap<Integer,Integer> chests; // keyÎª±¦Ïäid, valueÎªÊÇ·ñÁìÈ¡,0Î´ÁìÈ¡,1ÒÑÁìÈ¡
+	public int recommend; // µ±Ç°ÍÆ¼ö¶È
+	public java.util.LinkedList<Integer> closeids; // ·şÎñÆ÷¹Ø±ÕÁËÕâĞ©»î¶¯
 
 	public SRefreshActivityListFinishTimes() {
 		activities = new java.util.HashMap<Integer,fire.pb.mission.activelist.SimpleActivityInfo>();

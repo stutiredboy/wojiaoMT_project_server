@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleBattleFieldRank implements Marshal {
-	public java.lang.String rolename; // 鐜╁鍚嶅瓧 by changhao
-	public int rolescroe; // 鐜╁绉垎 by changhao
+	public java.lang.String rolename; // 玩家名字 by changhao
+	public int rolescroe; // 玩家积分 by changhao
 
 	public RoleBattleFieldRank() {
 		rolename = "";

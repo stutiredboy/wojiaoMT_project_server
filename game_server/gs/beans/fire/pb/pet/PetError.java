@@ -6,18 +6,18 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PetError implements Marshal , Comparable<PetError>{
-	public final static int UnkownError = -1; // æœªçŸ¥é”™è¯¯
-	public final static int KeyNotFound = -2; // keyé”™è¯¯ã€‚æ‰¾ä¸åˆ°å¯¹åº”å® ç‰©
-	public final static int PetcolumnFull = -3; // æ·»åŠ å® ç‰©ï¼Œæˆ–è€…å­˜å–å® ç‰©æ—¶ï¼Œå® ç‰©æ å·²ç»æ»¡äº†
-	public final static int WrongDstCol = -4; // åŒèƒŒåŒ…å†…å® ç‰©ä¸èƒ½ç§»åŠ¨.
-	public final static int ShowPetCantMoveErr = -5; // å±•ç¤ºå® ç‰©ä¸èƒ½å…¥ä»“
-	public final static int FightPetCantMoveErr = -6; // å‚æˆ˜å® ç‰©ä¸èƒ½å…¥ä»“
-	public final static int PetNameOverLen = -7; // å® ç‰©åç§°è¿‡é•¿
-	public final static int PetNameShotLen = -8; // å® ç‰©åç§°è¿‡çŸ­
-	public final static int PetNameInvalid = -9; // å® ç‰©åå­—éæ³•
-	public final static int ShowPetCantFree = -10; // å±•ç¤ºçš„å® ç‰©ä¸èƒ½æ”¾ç”Ÿ
-	public final static int FightPetCantFree = -11; // æ­£åœ¨å‚æˆ˜çš„å® ç‰©ä¸èƒ½æ”¾ç”Ÿ
-	public final static int WrongFreeCode = -12; // é”™è¯¯çš„æ”¾ç”Ÿéšæœºç 
+	public final static int UnkownError = -1; // Î´Öª´íÎó
+	public final static int KeyNotFound = -2; // key´íÎó¡£ÕÒ²»µ½¶ÔÓ¦³èÎï
+	public final static int PetcolumnFull = -3; // Ìí¼Ó³èÎï£¬»òÕß´æÈ¡³èÎïÊ±£¬³èÎïÀ¸ÒÑ¾­ÂúÁË
+	public final static int WrongDstCol = -4; // Í¬±³°üÄÚ³èÎï²»ÄÜÒÆ¶¯.
+	public final static int ShowPetCantMoveErr = -5; // Õ¹Ê¾³èÎï²»ÄÜÈë²Ö
+	public final static int FightPetCantMoveErr = -6; // ²ÎÕ½³èÎï²»ÄÜÈë²Ö
+	public final static int PetNameOverLen = -7; // ³èÎïÃû³Æ¹ı³¤
+	public final static int PetNameShotLen = -8; // ³èÎïÃû³Æ¹ı¶Ì
+	public final static int PetNameInvalid = -9; // ³èÎïÃû×Ö·Ç·¨
+	public final static int ShowPetCantFree = -10; // Õ¹Ê¾µÄ³èÎï²»ÄÜ·ÅÉú
+	public final static int FightPetCantFree = -11; // ÕıÔÚ²ÎÕ½µÄ³èÎï²»ÄÜ·ÅÉú
+	public final static int WrongFreeCode = -12; // ´íÎóµÄ·ÅÉúËæ»úÂë
 
 
 	public PetError() {

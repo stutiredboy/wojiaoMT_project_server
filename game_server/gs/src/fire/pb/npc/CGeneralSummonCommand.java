@@ -51,9 +51,9 @@ public class CGeneralSummonCommand extends __CGeneralSummonCommand__ {
 		return 795506;
 	}
 
-	public int summontype; // æ‹‰äººç±»å‹ è§TransmitTypes
+	public int summontype; // À­ÈËÀàĞÍ ¼ûTransmitTypes
 	public long npckey; // npckey
-	public int agree; // 1ä¸ºåŒæ„ï¼Œ0ä¸ºæ‹’ç»
+	public int agree; // 1ÎªÍ¬Òâ£¬0Îª¾Ü¾ø
 
 	public CGeneralSummonCommand() {
 	}

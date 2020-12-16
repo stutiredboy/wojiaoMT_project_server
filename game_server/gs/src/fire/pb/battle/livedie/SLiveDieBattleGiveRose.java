@@ -25,9 +25,9 @@ public class SLiveDieBattleGiveRose extends __SLiveDieBattleGiveRose__ {
 		return 793845;
 	}
 
-	public java.lang.String vedioid; // 褰曞儚id
-	public int rosenum; // 娆℃暟
-	public int roseflag; // 鏄惁鍙互鐐硅禐 0鍙互  1涓嶅彲
+	public java.lang.String vedioid; // 录像id
+	public int rosenum; // 次数
+	public int roseflag; // 是否可以点赞 0可以  1不可
 
 	public SLiveDieBattleGiveRose() {
 		vedioid = "";

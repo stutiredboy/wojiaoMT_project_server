@@ -23,7 +23,7 @@ public class SendUserInfoAndTicket_Re extends __SendUserInfoAndTicket_Re__ {
 		CrossManager.logger.info("SendUserInfoAndTicket_Re.原服收到来自跨服userId=" + userid + "的SendUserInfoAndTicket_Re协议!");
 		long roleid = CrossManager.getInstance().getTransferRoleByUserId(userid);
 		if (roleid <= 0){
-			CrossManager.logger.error("SendUserInfoAndTicket_Re.原服正在跨服的角色中不存在:" + userid + "!");
+			CrossManager.logger.error("SendUserInfoAndTicket_Re.原服正在跨服的角色中不存�?:" + userid + "!");
 			return;	
 		}
 		CrossManager.logger.info("SendUserInfoAndTicket_Re.原服收到来自跨服回复.roleId=" + roleid + ",retcode=" + retcode);

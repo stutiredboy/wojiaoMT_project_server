@@ -6,18 +6,18 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TipsMsgType implements Marshal , Comparable<TipsMsgType>{
-	public final static int TIPS_POPMSG = 1; // é€æ˜æ¡†æç¤º
-	public final static int TIPS_NPCTALK = 2; // npcå¯¹è¯æ¡†æç¤º
-	public final static int TIPS_MSG_CHANNEL = 3; // æ¶ˆæ¯é¢‘é“æç¤º
-	public final static int TIPS_SYSBOARD = 4; // ç³»ç»Ÿå…¬å‘Šæç¤º
-	public final static int TIPS_CONFIRM = 5; // ç¡®è®¤æ¡†æç¤º
-	public final static int TIPS_CLAN = 7; // å…¬ä¼šé¢‘é“æç¤º
-	public final static int TIPS_CUR_CHANNEL = 8; // å½“å‰é¢‘é“æç¤º
-	public final static int TIPS_WORLD = 9; // ä¸–ç•Œé¢‘é“æç¤º
-	public final static int TIPS_TEAM_CHANNEL = 13; // é˜Ÿä¼é¢‘é“æç¤º
-	public final static int TIPS_PRO_CHANNEL = 14; // èŒä¸šé¢‘é“æç¤º
-	public final static int TIPS_SYS_CHANNEL = 15; // ç³»ç»Ÿé¢‘é“æç¤º
-	public final static int TIPS_ROLE_CHANNEL = 18; // è·‘é©¬ç¯æç¤º
+	public final static int TIPS_POPMSG = 1; // Í¸Ã÷¿òÌáÊ¾
+	public final static int TIPS_NPCTALK = 2; // npc¶Ô»°¿òÌáÊ¾
+	public final static int TIPS_MSG_CHANNEL = 3; // ÏûÏ¢ÆµµÀÌáÊ¾
+	public final static int TIPS_SYSBOARD = 4; // ÏµÍ³¹«¸æÌáÊ¾
+	public final static int TIPS_CONFIRM = 5; // È·ÈÏ¿òÌáÊ¾
+	public final static int TIPS_CLAN = 7; // ¹«»áÆµµÀÌáÊ¾
+	public final static int TIPS_CUR_CHANNEL = 8; // µ±Ç°ÆµµÀÌáÊ¾
+	public final static int TIPS_WORLD = 9; // ÊÀ½çÆµµÀÌáÊ¾
+	public final static int TIPS_TEAM_CHANNEL = 13; // ¶ÓÎéÆµµÀÌáÊ¾
+	public final static int TIPS_PRO_CHANNEL = 14; // Ö°ÒµÆµµÀÌáÊ¾
+	public final static int TIPS_SYS_CHANNEL = 15; // ÏµÍ³ÆµµÀÌáÊ¾
+	public final static int TIPS_ROLE_CHANNEL = 18; // ÅÜÂíµÆÌáÊ¾
 
 
 	public TipsMsgType() {

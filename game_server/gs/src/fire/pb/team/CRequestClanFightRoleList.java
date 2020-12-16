@@ -36,7 +36,7 @@ public class CRequestClanFightRoleList extends __CRequestClanFightRoleList__ {
 				}
 				
 				int side = 0;
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //æ£€æµ‹æ˜¯å¦åœ¨æˆ˜åœºä¸­ by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //æ£?æµ‹æ˜¯å¦åœ¨æˆ˜åœºä¸? by changhao
 				if (c1 == null)
 				{
 					return false;
@@ -146,9 +146,9 @@ public class CRequestClanFightRoleList extends __CRequestClanFightRoleList__ {
 		return 794559;
 	}
 
-	public int isfresh; // å®¢æˆ·ç«¯ç”¨ 0åˆ·æ–° 1ä¸åˆ·æ–°  by qyl
-	public long start; // èµ·å§‹roleid by changhao
-	public int num; // è¯·æ±‚çš„æ•°é‡ by changhao
+	public int isfresh; // ¿Í»§¶ËÓÃ 0Ë¢ĞÂ 1²»Ë¢ĞÂ  by qyl
+	public long start; // ÆğÊ¼roleid by changhao
+	public int num; // ÇëÇóµÄÊıÁ¿ by changhao
 
 	public CRequestClanFightRoleList() {
 	}

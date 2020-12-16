@@ -75,15 +75,15 @@ public class GCreateNpcForCatchIt extends __GCreateNpcForCatchIt__ {
 	public long roleid;
 	public int npcid;
 	public int mapid;
-	public int battleid; // æˆ˜æ–—ä¿¡æ¯
+	public int battleid; // Õ½¶·ĞÅÏ¢
 	public java.lang.String name;
-	public int givetasknpcid; // ç»™äºˆä»»åŠ¡çš„npcid
-	public int questtype; // å­ä»»åŠ¡ç±»å‹
-	public int questid; // å­ä»»åŠ¡ID
-	public int teamnum; // é˜Ÿä¼äººæ•°,0è¡¨ç¤ºä¸éœ€è¦ç»„é˜Ÿ
+	public int givetasknpcid; // ¸øÓèÈÎÎñµÄnpcid
+	public int questtype; // ×ÓÈÎÎñÀàĞÍ
+	public int questid; // ×ÓÈÎÎñID
+	public int teamnum; // ¶ÓÎéÈËÊı,0±íÊ¾²»ĞèÒª×é¶Ó
 	public int width;
 	public int height;
-	public byte firsttime; // 1 è¡¨ç¤ºä»NPCå¤„æ¥å–ä»»åŠ¡, 0 è¡¨ç¤ºè‡ªåŠ¨æ¥å–çš„
+	public byte firsttime; // 1 ±íÊ¾´ÓNPC´¦½ÓÈ¡ÈÎÎñ, 0 ±íÊ¾×Ô¶¯½ÓÈ¡µÄ
 
 	public GCreateNpcForCatchIt() {
 		name = "";

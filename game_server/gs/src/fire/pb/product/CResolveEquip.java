@@ -31,7 +31,7 @@ public class CResolveEquip extends __CResolveEquip__ {
 		return 803452;
 	}
 
-	public int itemkey; // 瑁呭鍦ㄨ儗鍖呴噷鐨刱ey
+	public int itemkey; // 装备在背包里的key
 
 	public CResolveEquip() {
 	}

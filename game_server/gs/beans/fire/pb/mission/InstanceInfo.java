@@ -5,17 +5,17 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** å‰¯æœ¬ä»»åŠ¡ è¿›å…¥å‰¯æœ¬
+/** ¸±±¾ÈÎÎñ ½øÈë¸±±¾
 */
 public class InstanceInfo implements Marshal , Comparable<InstanceInfo>{
-	public int id; // ä»»åŠ¡id
-	public int instanceid; // å‰¯æœ¬id
-	public int state; // 0æœªå®Œæˆ, 2å·²ç»å®Œæˆ å®ŒæˆçŠ¶æ€ (è§’è‰²æœ¬èº«å‰¯æœ¬çŠ¶æ€)
-	public int instancestate; // 0æœªå¼€å¯, 1å¼€å¯ (æœåŠ¡å™¨å‰¯æœ¬çŠ¶æ€)
-	public long starttime; // å¼€å¯æ—¶é—´
-	public long endtime; // ç»“æŸæ—¶é—´
-	public int finishedtimes; // å®Œæˆçš„æ¬¡æ•°
-	public int totaltimes; // æ€»æ¬¡æ•°
+	public int id; // ÈÎÎñid
+	public int instanceid; // ¸±±¾id
+	public int state; // 0Î´Íê³É, 2ÒÑ¾­Íê³É Íê³É×´Ì¬ (½ÇÉ«±¾Éí¸±±¾×´Ì¬)
+	public int instancestate; // 0Î´¿ªÆô, 1¿ªÆô (·şÎñÆ÷¸±±¾×´Ì¬)
+	public long starttime; // ¿ªÆôÊ±¼ä
+	public long endtime; // ½áÊøÊ±¼ä
+	public int finishedtimes; // Íê³ÉµÄ´ÎÊı
+	public int totaltimes; // ×Ü´ÎÊı
 
 	public InstanceInfo() {
 	}

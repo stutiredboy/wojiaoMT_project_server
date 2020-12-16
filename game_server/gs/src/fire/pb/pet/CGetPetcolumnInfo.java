@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetPetcolumnInfo__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚å® ç‰©æ ä¿¡æ¯
+/** ¿Í»§¶ËÇëÇó³èÎïÀ¸ĞÅÏ¢
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -24,7 +24,7 @@ public class CGetPetcolumnInfo extends __CGetPetcolumnInfo__ {
 		case PetColumnTypes.DEPOT:
 			if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, roleid))
 				return;
-		case PetColumnTypes.MARKETPET: // æ‘†æ‘Šå® ç‰©æ  add by liangyanpeng
+		case PetColumnTypes.MARKETPET: // æ‘†æ‘Šå® ç‰©æ ? add by liangyanpeng
 		case PetColumnTypes.PET:
 			final PetColumn petCol = new PetColumn(roleid, columnid, true);
 			final SGetPetcolumnInfo send = new SGetPetcolumnInfo();
@@ -46,8 +46,8 @@ public class CGetPetcolumnInfo extends __CGetPetcolumnInfo__ {
 		return 788446;
 	}
 
-	public int columnid; // å® ç‰©æ id
-	public long npckey; // ä»“åº“è€æ¿çš„npckey.
+	public int columnid; // ³èÎïÀ¸id
+	public long npckey; // ²Ö¿âÀÏ°åµÄnpckey.
 
 	public CGetPetcolumnInfo() {
 	}

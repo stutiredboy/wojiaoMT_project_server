@@ -31,7 +31,7 @@ public class CSwapMember extends __CSwapMember__ {
 			protected boolean process()
 			{
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//先验证队伍是否为空
+				//先验证队伍是否为�?
 				Team team = null;
 				if(teamId != null)
 					team = new Team(teamId,false);
@@ -40,21 +40,21 @@ public class CSwapMember extends __CSwapMember__ {
 				
 				if(!checkleaderInTeam(leaderRoleId, team))
 				{
-					//申请交换的人不是队长（illigal）
+					//申请交换的人不是队长（illigal�?
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141192, null);
 					TeamManager.logger.debug("FAIL:申请交换的人不是队长,  leaderRoleId:" + leaderRoleId);
 				}
 				else if(!checkIndexValid(team , index1, index2))
 				{
-					//申请交换的两队员index不合法（illigal）
-					TeamManager.logger.debug("FAIL:申请交换的两队员index不合法,  index1: " + index1 + " ;index2: "+ index2);
+					//申请交换的两队员index不合法（illigal�?
+					TeamManager.logger.debug("FAIL:申请交换的两队员index不合�?,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else if(!checkMemsberStateValid(team, index1, index2))
 				{
-					//要交换的两队员必须都处于正常状态
+					//要交换的两队员必须都处于正常状�??
 					psend(leaderRoleId, new STeamError(TeamError.MembersNotNormal));
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141193, null);
-					TeamManager.logger.debug("FAIL:要交换的两队员必须都处于正常状态,  index1: " + index1 + " ;index2: "+ index2);
+					TeamManager.logger.debug("FAIL:要交换的两队员必须都处于正常状�??,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else
 				{
@@ -65,7 +65,7 @@ public class CSwapMember extends __CSwapMember__ {
 //					team.getTeamInfo().getMembers().get(index2-1).setRoleid(roleId1);
 //					team.getTeamInfo().getMembers().get(index1-1).setRoleid(roleId2);
 //					
-//					//将新顺序广播到所有队员
+//					//将新顺序广播到所有队�?
 //					Set<Long> roleids = new HashSet<Long>();
 //					SMemberSequence sMemberSequence = new SMemberSequence();
 //					sMemberSequence.teammemeberlist.add(team.getTeamInfo().getTeamleaderid());
@@ -75,7 +75,7 @@ public class CSwapMember extends __CSwapMember__ {
 //						sMemberSequence.teammemeberlist.add(member.getRoleid());
 //						roleids.add(member.getRoleid());
 //					}
-//					// 将队伍成员顺序发送到所有成员
+//					// 将队伍成员顺序发送到�?有成�?
 //					xdb.Procedure.psendWhileCommit(roleids, sMemberSequence);
 				}
 				return true;
@@ -87,7 +87,7 @@ public class CSwapMember extends __CSwapMember__ {
 
 	
 
-	// 申请者是一个队伍的队长？只能在Procedure中被调用
+	// 申请者是�?个队伍的队长？只能在Procedure中被调用
 	private boolean checkleaderInTeam(long leaderRoleId,Team team)
 	{
 		if (team != null && team.getTeamInfo().getTeamleaderid() == leaderRoleId)
@@ -95,7 +95,7 @@ public class CSwapMember extends __CSwapMember__ {
 		else
 			return false;
 	}
-	//index合法？
+	//index合法�?
 	private boolean checkIndexValid(Team team, long index_1, long index_2)
 	{
 		if(index_1 >= 1 && index_1 <= team.getTeamInfo().getMembers().size() && index_2 >=1 && index_2 <=team.getTeamInfo().getMembers().size() && index_1 != index_2)
@@ -120,7 +120,7 @@ public class CSwapMember extends __CSwapMember__ {
 		return 794452;
 	}
 
-	public int index1; // index是队员的序号，5人队伍的话，就是0~4
+	public int index1; // index�Ƕ�Ա����ţ�5�˶���Ļ�������0~4
 	public int index2;
 
 	public CSwapMember() {

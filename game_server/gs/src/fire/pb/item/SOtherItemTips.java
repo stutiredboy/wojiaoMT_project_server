@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SOtherItemTips__ extends mkio.Protocol { }
 
-/** 鎽嗘憡Tip杩斿洖
+/** 摆摊Tip返回
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SOtherItemTips extends __SOtherItemTips__ {
 		return 787768;
 	}
 
-	public long roleid; // 鐩爣鐜╁鐨刬d
+	public long roleid; // 目标玩家的id
 	public int packid;
 	public int keyinpack;
 	public com.locojoy.base.Octets tips;

@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class FunOpenClose implements Marshal , Comparable<FunOpenClose>{
 	public int key;
-	public int state; // 0åŠŸèƒ½å¼€å¯    1åŠŸèƒ½å…³é—­
+	public int state; // 0¹¦ÄÜ¿ªÆô    1¹¦ÄÜ¹Ø±Õ
 
 	public FunOpenClose() {
 	}

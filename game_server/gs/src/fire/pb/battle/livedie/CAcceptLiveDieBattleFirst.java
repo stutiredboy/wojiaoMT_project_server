@@ -21,11 +21,11 @@ public class CAcceptLiveDieBattleFirst extends __CAcceptLiveDieBattleFirst__ {
 		if (guestid <= 0)
 			return;
 		
-		//判断下战书的人是否存在
+		//判断下战书的人是否存�?
 		Long hostid=xtable.Livedie2key.select(guestid);
 		//判断是否有下战书的人
 		if(hostid==null){
-			//提示没有给你下战书的人162129
+			//提示没有给你下战书的�?162129
 //			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162129, null);
 			sendNoFightPlayer(guestid);
 			return ;

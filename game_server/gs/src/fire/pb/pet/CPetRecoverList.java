@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetRecoverList__ extends mkio.Protocol { }
 
-/** 客户端请求宠物找回列表
+/** �ͻ�����������һ��б�
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -23,7 +23,7 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 发送宠物找回列表
+				// 发�?�宠物找回列�?
 				SPetRecoverList send = new SPetRecoverList();
 
 				// 通过key在回收站中找到对应的宠物
@@ -34,13 +34,13 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 					for (Long uniqId : petRecoverList.getUniqids()) {
 						xbean.DiscardPet dpet = xtable.Petrecyclebin.select(uniqId);
 						if (dpet != null) {
-							// 判断是否过期,如果过期就不发
+							// 判断是否过期,如果过期就不�?
 							long day = fire.pb.pet.Module.OUTTIME_OF_PET; // 保留时间:天数
-							long validTime = day * 24L * 3600L * 1000L; // 保留时间:毫秒数
-							long elapseTime = now - dpet.getDeletedate(); // 过去时间:毫秒数
-							long remainTime = validTime - elapseTime; // 剩余时间:毫秒数
+							long validTime = day * 24L * 3600L * 1000L; // 保留时间:毫秒�?
+							long elapseTime = now - dpet.getDeletedate(); // 过去时间:毫秒�?
+							long remainTime = validTime - elapseTime; // 剩余时间:毫秒�?
 							if (remainTime > 0) {
-								int cost = -1; // -1:表示没有这个宠物的配置
+								int cost = -1; // -1:表示没有这个宠物的配�?
 								PetAttr petAttrConf = Module.getInstance().getPetManager().getAttr(dpet.getPet().getId());
 								if (petAttrConf != null) {
 									cost = petAttrConf.getRecovercost();
@@ -53,11 +53,11 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 								send.pets.add(info);
 							}
 						} else {
-							// 移除无效的
+							// 移除无效�?
 							removeList.add(uniqId);
 						}
 					}
-					// 移除无效的列表
+					// 移除无效的列�?
 					petRecoverList.getUniqids().removeAll(removeList);
 				}
 				mkdb.Procedure.psendWhileCommit(roleId, send);

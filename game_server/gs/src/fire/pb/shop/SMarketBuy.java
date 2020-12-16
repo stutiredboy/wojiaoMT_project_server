@@ -25,8 +25,8 @@ public class SMarketBuy extends __SMarketBuy__ {
 		return 810642;
 	}
 
-	public long id; // 鍞竴id(娴忚鏃跺�欏彂缁欑殑id)
-	public int surplusnum; // 璐拱瀹屽悗鍓╀綑鏁伴噺
+	public long id; // 唯一id(浏览时候发给的id)
+	public int surplusnum; // 购买完后剩余数量
 
 	public SMarketBuy() {
 	}

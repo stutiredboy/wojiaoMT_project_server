@@ -34,7 +34,7 @@ public class CQueryCircleTaskState extends __CQueryCircleTaskState__ {
 		return 807452;
 	}
 
-	public int questid; // ä»»åŠ¡id
+	public int questid; // ÈÎÎñid
 
 	public CQueryCircleTaskState() {
 	}

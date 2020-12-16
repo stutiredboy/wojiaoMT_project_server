@@ -5,13 +5,13 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 绉拌皳鎿嶄綔閿欒浠ｅ彿
+/** 称谓操作错误代号
 */
 public class TitleError implements Marshal , Comparable<TitleError>{
 	public final static int Title_Err_Unknown = -1;
-	public final static int Title_Err_Unexist = -2; // 绯荤粺涓笉瀛樺湪杩欎釜绉拌皳
+	public final static int Title_Err_Unexist = -2; // 系统中不存在这个称谓
 	public final static int Title_Err_Full = -3;
-	public final static int Title_Err_Nuowned = -4; // 鐢ㄦ埛娌℃湁杩欎釜绉拌皳
+	public final static int Title_Err_Nuowned = -4; // 用户没有这个称谓
 
 
 	public TitleError() {

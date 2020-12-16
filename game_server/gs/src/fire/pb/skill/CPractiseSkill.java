@@ -31,7 +31,7 @@ public class CPractiseSkill extends __CPractiseSkill__ {
 
 	public long npckey;
 	public int skillid;
-	public byte kind; // 0=ä¿®ç‚¼  1=è¯•ç»ƒ
+	public byte kind; // 0=ĞŞÁ¶  1=ÊÔÁ·
 
 	public CPractiseSkill() {
 	}

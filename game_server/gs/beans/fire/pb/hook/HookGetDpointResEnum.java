@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HookGetDpointResEnum implements Marshal , Comparable<HookGetDpointResEnum>{
-	public final static int GETDPOINTSUCC = 0; // é¢†å–æˆåŠŸ
-	public final static int GETDPOINTLIMIT = 1; // åˆ°è¾¾é¢†å–ä¸Šé™ï¼Œå¤±è´¥
-	public final static int GETDPOINTFAIL = 2; // å…¶ä»–å¤±è´¥åŸå› 
+	public final static int GETDPOINTSUCC = 0; // ÁìÈ¡³É¹¦
+	public final static int GETDPOINTLIMIT = 1; // µ½´ïÁìÈ¡ÉÏÏŞ£¬Ê§°Ü
+	public final static int GETDPOINTFAIL = 2; // ÆäËûÊ§°ÜÔ­Òò
 
 
 	public HookGetDpointResEnum() {

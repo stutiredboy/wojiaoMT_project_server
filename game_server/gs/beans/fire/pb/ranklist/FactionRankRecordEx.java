@@ -5,17 +5,17 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** å…¬ä¼šæ¦œ
+/** ¹«»á°ñ
 */
 public class FactionRankRecordEx implements Marshal {
-	public int rank; // æ’å
-	public long factionid; // å…¬ä¼šid
-	public java.lang.String factionname; // å…¬ä¼šåå­—
-	public long progressstime; // è¿›åº¦æ—¶é—´
-	public int progresss; // å…¬ä¼šè¿›åº¦
-	public int factionlevel; // å…¬ä¼šç­‰çº§
-	public int externdata; // å½“å‰äººæ•°/ç»¼åˆå®åŠ›
-	public int hotellevel; // æ—…é¦†ç­‰çº§
+	public int rank; // ÅÅÃû
+	public long factionid; // ¹«»áid
+	public java.lang.String factionname; // ¹«»áÃû×Ö
+	public long progressstime; // ½ø¶ÈÊ±¼ä
+	public int progresss; // ¹«»á½ø¶È
+	public int factionlevel; // ¹«»áµÈ¼¶
+	public int externdata; // µ±Ç°ÈËÊı/×ÛºÏÊµÁ¦
+	public int hotellevel; // ÂÃ¹İµÈ¼¶
 
 	public FactionRankRecordEx() {
 		factionname = "";

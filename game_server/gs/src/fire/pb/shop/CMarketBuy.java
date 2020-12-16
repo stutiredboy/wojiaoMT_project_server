@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketBuy__ extends mkio.Protocol { }
 
-/** 鎽嗘憡璐拱
+/** 摆摊购买
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -48,10 +48,10 @@ public class CMarketBuy extends __CMarketBuy__ {
 		return 810641;
 	}
 
-	public long id; // 鍞竴id(娴忚鏃跺�欏彂缁欑殑id)
-	public long saleroleid; // 鍗栧瑙掕壊id
-	public int itemid; // 閬撳叿id
-	public int num; // 鏁伴噺
+	public long id; // 唯一id(浏览时候发给的id)
+	public long saleroleid; // 卖家角色id
+	public int itemid; // 道具id
+	public int num; // 数量
 
 	public CMarketBuy() {
 	}

@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class MissionStatus implements Marshal , Comparable<MissionStatus>{
-	public final static int ABANDON = -2; // æ”¾å¼ƒ
+	public final static int ABANDON = -2; // ·ÅÆú
 	public final static int UNACCEPT = -1;
-	public final static int COMMITED = 1; // å·²æäº¤
-	public final static int FAILED = 2; // ä»»åŠ¡æ‰§è¡Œå¤±è´¥
-	public final static int FINISHED = 3; // å®Œæˆ
-	public final static int PROCESSING = 4; // è¿›è¡Œä¸­
+	public final static int COMMITED = 1; // ÒÑÌá½»
+	public final static int FAILED = 2; // ÈÎÎñÖ´ĞĞÊ§°Ü
+	public final static int FINISHED = 3; // Íê³É
+	public final static int PROCESSING = 4; // ½øĞĞÖĞ
 
 
 	public MissionStatus() {

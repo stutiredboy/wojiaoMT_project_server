@@ -34,8 +34,8 @@ public class CSetPetOpt extends __CSetPetOpt__ {
 		return 810336;
 	}
 
-	public short petoptype; // 璁剧疆瀹犵墿鎿嶄綔绫诲瀷
-	public int petopid; // 璁剧疆瀹犵墿鎿嶄綔id
+	public short petoptype; // 设置宠物操作类型
+	public int petopid; // 设置宠物操作id
 
 	public CSetPetOpt() {
 	}

@@ -28,7 +28,7 @@ public class CReqRoleInfo extends __CReqRoleInfo__ {
 		return 786508;
 	}
 
-	public int reqkey; // 璇锋眰绫诲瀷 1琛ㄧず璇锋眰浜虹墿淇℃伅鐣岄潰;2 琛ㄧず鎴樻枟缁撴潫
+	public int reqkey; // 请求类型 1表示请求人物信息界面;2 表示战斗结束
 
 	public CReqRoleInfo() {
 	}

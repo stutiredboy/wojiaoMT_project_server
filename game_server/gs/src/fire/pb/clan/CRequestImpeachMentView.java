@@ -29,7 +29,7 @@ public class CRequestImpeachMentView extends __CRequestImpeachMentView__ {
 		return 808526;
 	}
 
-	public byte cmdtype; // 0è¯·æ±‚å¼¹åŠ¾ç•Œé¢   1å‘èµ·å¼¹åŠ¾   2å“åº”å¼¹åŠ¾
+	public byte cmdtype; // 0ÇëÇóµ¯ÛÀ½çÃæ   1·¢Æğµ¯ÛÀ   2ÏìÓ¦µ¯ÛÀ
 
 	public CRequestImpeachMentView() {
 	}

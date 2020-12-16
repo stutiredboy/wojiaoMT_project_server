@@ -25,10 +25,10 @@ public class SSendRedPackView extends __SSendRedPackView__ {
 		return 812533;
 	}
 
-	public int modeltype; // çº¢åŒ…ç±»å‹
-	public int firstpageflag; // ç”¨æ¥å¤„ç†åˆ†é¡µ 0è¡¨ç¤ºç¬¬ä¸€é¡µ   1è¡¨ç¤ºå…¶ä»–é¡µ
-	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackInfo> redpackinfolist; // çº¢åŒ…ä¿¡æ¯
-	public fire.pb.fushi.redpack.SRRedPackNum daysrnum; // ä»Šå¤©æ”¶é€çº¢åŒ…æ•°é‡
+	public int modeltype; // ºì°üÀàĞÍ
+	public int firstpageflag; // ÓÃÀ´´¦Àí·ÖÒ³ 0±íÊ¾µÚÒ»Ò³   1±íÊ¾ÆäËûÒ³
+	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackInfo> redpackinfolist; // ºì°üĞÅÏ¢
+	public fire.pb.fushi.redpack.SRRedPackNum daysrnum; // ½ñÌìÊÕËÍºì°üÊıÁ¿
 
 	public SSendRedPackView() {
 		redpackinfolist = new java.util.ArrayList<fire.pb.fushi.redpack.RedPackInfo>();

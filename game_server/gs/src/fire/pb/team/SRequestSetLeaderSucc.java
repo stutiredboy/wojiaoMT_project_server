@@ -25,7 +25,7 @@ public class SRequestSetLeaderSucc extends __SRequestSetLeaderSucc__ {
 		return 794483;
 	}
 
-	public long roleid; // è¢«æå‡è€…ID
+	public long roleid; // ±»ÌáÉıÕßID
 
 	public SRequestSetLeaderSucc() {
 	}

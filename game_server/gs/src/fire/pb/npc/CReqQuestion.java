@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReqQuestion__ extends mkio.Protocol { }
 
-/** 向NPC请求问题
+/** ��NPC��������
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,7 +30,7 @@ public class CReqQuestion extends __CReqQuestion__ {
 			return false;
 //		if (xtable.Properties.select(roleid).getLevel() < 10)
 //			return false;
-		// TODO:需要判断玩家和npc的位置关系吗？
+		// TODO:�?要判断玩家和npc的位置关系吗�?
 		
 		
 		return true;
@@ -44,7 +44,7 @@ public class CReqQuestion extends __CReqQuestion__ {
 		return 795439;
 	}
 
-	public long npckey; // npckey为npc的唯一ID
+	public long npckey; // npckeyΪnpc��ΨһID
 
 	public CReqQuestion() {
 	}

@@ -25,8 +25,8 @@ public class SPayServerType extends __SPayServerType__ {
 		return 812592;
 	}
 
-	public int paytype; // ä»˜è´¹æœåŠ¡å™¨ç±»å‹(0æ˜¯æ™®é€š1æ˜¯ç‚¹å¡) by changhao
-	public int opendy; // æ˜¯å¦æ‰“å¼€è®¢é˜… 1ä»£å¼€ 0å…³é—­
+	public int paytype; // ¸¶·Ñ·şÎñÆ÷ÀàĞÍ(0ÊÇÆÕÍ¨1ÊÇµã¿¨) by changhao
+	public int opendy; // ÊÇ·ñ´ò¿ª¶©ÔÄ 1´ú¿ª 0¹Ø±Õ
 
 	public SPayServerType() {
 	}

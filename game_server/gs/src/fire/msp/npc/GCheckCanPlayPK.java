@@ -29,10 +29,10 @@ public class GCheckCanPlayPK extends __GCheckCanPlayPK__ {
 		GridPos hostGridPos = hostRole.getPos().toGridPos();
 		GridPos guestGridPos = gestRole.getPos().toGridPos();
 		
-		//如果不是在切磋地图的，需要判断是否是同屏，如果在切磋地图就判断距离//不在擂台，判断是距离，这个在前面已经判断过了，这里就不需要处理了
+		//如果不是在切磋地图的，需要判断是否是同屏，如果在切磋地图就判断距�?//不在擂台，判断是距离，这个在前面已经判断过了，这里就不需要处理了
 		if (hostRole.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(hostGridPos.getX(), hostGridPos.getY())
 				&&gestRole.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(guestGridPos.getX(), guestGridPos.getY())) {
-			//在擂台
+			//在擂�?
 			if (!(hostRole.getScene().getMapID() == PPlayPKFightView.CQMAPID && gestRole.getScene().getMapID() == PPlayPKFightView.CQMAPID)){
 				MessageMgr.sendMsgNotify(hostid, 120063, null);
 				return ;

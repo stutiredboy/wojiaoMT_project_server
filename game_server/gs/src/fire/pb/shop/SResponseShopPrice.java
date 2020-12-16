@@ -25,8 +25,8 @@ public class SResponseShopPrice extends __SResponseShopPrice__ {
 		return 810636;
 	}
 
-	public long shopid; // å•†åº—åºå·
-	public java.util.ArrayList<fire.pb.shop.Goods> goodslist; // è¿”å›çš„å•†å“é›†åˆ
+	public long shopid; // ÉÌµêĞòºÅ
+	public java.util.ArrayList<fire.pb.shop.Goods> goodslist; // ·µ»ØµÄÉÌÆ·¼¯ºÏ
 
 	public SResponseShopPrice() {
 		goodslist = new java.util.ArrayList<fire.pb.shop.Goods>();

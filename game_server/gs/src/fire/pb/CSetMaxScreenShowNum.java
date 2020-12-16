@@ -11,7 +11,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSetMaxScreenShowNum__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è‡ªåŠ¨æ›´æ”¹åŒå±æ˜¾ç¤ºäººæ•°
+/** ¿Í»§¶Ë×Ô¶¯¸ü¸ÄÍ¬ÆÁÏÔÊ¾ÈËÊı
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

@@ -40,7 +40,7 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 				if (clanInfo == null || !clanInfo.getMembers().containsKey(roleid)) {
 					return false;
 				}
-				//判断权限，只有帮助和副帮主可以
+				//判断权限，只有帮助和副帮主可�?
 				if (clanInfo.getClanmaster() != roleid && clanInfo.getClanvicemaster() != roleid) {
 					// 不是会长也不是副会长
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160243, null);//只有会长或副会长拥有选择权限
@@ -57,15 +57,15 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 				if (drugstone == null){
 					return false;
 				}
-				//按规则随机药品
+				//按规则随机药�?
 				int cost=0;
-				if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_THREE){//三倍产药
-					//判断资金帮会资金是否够
+				if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_THREE){//三�?�产�?
+					//判断资金帮会资金是否�?
 					cost=drugstone.getTrimoney();
-				}else if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_DOUBLE){//2倍产药
+				}else if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_DOUBLE){//2倍产�?
 					cost=drugstone.getDoublemoney();
 				}
-				//判断资金帮会资金是否够
+				//判断资金帮会资金是否�?
 				if(clanInfo.getMoney()<cost){
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160244, null);
 					return false;
@@ -92,7 +92,7 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 				sRequestSelectType.selecttype=selecttype;
 				gnet.link.Onlines.getInstance().send(roleid, sRequestSelectType);
 				
-				//提示当公会玩家切换时，调用客户端提示表ID：160442，参数1为玩家名称，参数2为当前产药模式。
+				//提示当公会玩家切换时，调用客户端提示表ID�?160442，参�?1为玩家名称，参数2为当前产药模式�??
 				// 通知公会中的兄弟
 				PropRole memberProp = new PropRole(roleid, true);
 				MessageMgr.psendMsgNotifyWhileCommit(clanInfo.getMembers().keySet(), 160442, 0,Arrays.asList(memberProp.getName(),getTypeName(selecttype)));
@@ -105,16 +105,16 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 	}
 	
 	/**
-	 * 获得产药类型  287两倍    288三倍  289正常
+	 * 获得产药类型  287两�??    288三�??  289正常
 	 * @param type
 	 * @return
 	 */
 	public static String getTypeName(int type){
 		String name="";
 		if(type==fire.pb.clan.PClanMedicItem.SELECT_THREE){
-			name=StringConstant.ID2String("三倍",288);
+			name=StringConstant.ID2String("三�??",288);
 		}else if(type==fire.pb.clan.PClanMedicItem.SELECT_DOUBLE){
-			name=StringConstant.ID2String("两倍",287);
+			name=StringConstant.ID2String("两�??",287);
 		}else{
 			name=StringConstant.ID2String("正常",289);
 		}
@@ -131,7 +131,7 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 		return 808505;
 	}
 
-	public int selecttype; // 选择几倍产药
+	public int selecttype; // ѡ�񼸱���ҩ
 
 	public CRequestSelectType() {
 	}

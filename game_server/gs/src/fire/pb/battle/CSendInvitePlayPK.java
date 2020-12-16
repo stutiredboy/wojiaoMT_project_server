@@ -17,7 +17,7 @@ abstract class __CSendInvitePlayPK__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CSendInvitePlayPK extends __CSendInvitePlayPK__ {
-	public static final int PVP_LEVEL=20;//PVP等级需求
+	public static final int PVP_LEVEL=20;//PVP等级�?�?
 	@Override
 	protected void process() {
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
@@ -27,7 +27,7 @@ public class CSendInvitePlayPK extends __CSendInvitePlayPK__ {
 		Role hostRole = RoleManager.getInstance().getRoleByID(hostid);
 		if (hostRole == null)
 			return ;
-		//判断目标是否在擂台
+		//判断目标是否在擂�?
 		Role gRole = RoleManager.getInstance().getRoleByID(guestroleid);
 		if (gRole == null){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
@@ -57,7 +57,7 @@ public class CSendInvitePlayPK extends __CSendInvitePlayPK__ {
 		return 793564;
 	}
 
-	public long guestroleid; // 被邀请角色ID
+	public long guestroleid; // �������ɫID
 
 	public CSendInvitePlayPK() {
 	}

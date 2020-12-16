@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CExchangeShop__ extends mkio.Protocol { }
 
-/** å…‘æ¢å•†åº—åè®®
+/** ¶Ò»»ÉÌµêĞ­Òé
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,7 +30,7 @@ public class CExchangeShop extends __CExchangeShop__ {
 
 		fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 		if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-			mkdb.Trace.info("å…‘æ¢å•†åº—æ²¡æœ‰è¯¥ç‰©å“.shopid:" + shopid + "goodsid:" + goodsid);
+			mkdb.Trace.info("å…‘æ¢å•†åº—æ²¡æœ‰è¯¥ç‰©å“?.shopid:" + shopid + "goodsid:" + goodsid);
 			return;
 		}
 
@@ -54,10 +54,10 @@ public class CExchangeShop extends __CExchangeShop__ {
 		return 810655;
 	}
 
-	public int shopid; // å•†åº—åºå·
-	public int goodsid; // å•†å“id
-	public int num; // ä¹°å–æ•°é‡
-	public int buytype; // è´­ä¹°ç±»å‹
+	public int shopid; // ÉÌµêĞòºÅ
+	public int goodsid; // ÉÌÆ·id
+	public int num; // ÂòÂôÊıÁ¿
+	public int buytype; // ¹ºÂòÀàĞÍ
 
 	public CExchangeShop() {
 	}

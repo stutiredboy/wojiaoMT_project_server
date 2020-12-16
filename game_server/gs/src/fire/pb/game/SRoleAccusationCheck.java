@@ -25,7 +25,7 @@ public class SRoleAccusationCheck extends __SRoleAccusationCheck__ {
 		return 810373;
 	}
 
-	public int errorcode; // é”™è¯¯ç  0:æˆåŠŸ
+	public int errorcode; // ´íÎóÂë 0:³É¹¦
 
 	public SRoleAccusationCheck() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetResetPoint__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚å® ç‰©é‡ç½®åŠ ç‚¹
+/** ¿Í»§¶ËÇëÇó³èÎïÖØÖÃ¼Óµã
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CPetResetPoint extends __CPetResetPoint__ {
 		return 788514;
 	}
 
-	public int petkey; // å® ç‰©key
+	public int petkey; // ³èÎïkey
 
 	public CPetResetPoint() {
 	}

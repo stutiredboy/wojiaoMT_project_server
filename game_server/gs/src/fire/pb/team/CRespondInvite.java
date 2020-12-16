@@ -29,16 +29,16 @@ abstract class __CRespondInvite__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 回应邀请
+ * 回应�?�?
  * @author changhao
  *
  */
 public class CRespondInvite extends __CRespondInvite__ {
 		
-	//final static int MEMBER_MAX_COUNT = 4;//4个，作用于队伍成员人数（不包括队长），同时发出的邀请个数
+	//final static int MEMBER_MAX_COUNT = 4;//4个，作用于队伍成员人数（不包括队长），同时发出的�?请个�?
 	
-	//final static long MAX_INVITE_TIMEOUT = 30*1000;//30s,作用于邀请超时，同一邀请限制时间
-	private long now = 0L;//procedure开始时保存一个值，保证此procedure中时间的统一性
+	//final static long MAX_INVITE_TIMEOUT = 30*1000;//30s,作用于邀请超时，同一�?请限制时�?
+	private long now = 0L;//procedure�?始时保存�?个�?�，保证此procedure中时间的统一�?
 	Team team;
 	
 	@Override
@@ -57,7 +57,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			{
 				now = System.currentTimeMillis();
 				//lock start
-				//验证是否被邀请
+				//验证是否被邀�?
 				try
 				{
 				xbean.InviteInfo inviteInfo = xtable.Teaminvite.select(invitedRoleId);
@@ -66,7 +66,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 				else if(!inviteInfo.getBeinginvited())
 					return true;
 				else if((now - inviteInfo.getInviting().getInvitetime()) > TeamManager.MAX_INVITE_TIMEOUT)
-				{   //邀请超时
+				{   //�?请超�?
 					inviteInfo.setBeinginvited(false);
 					return true;
 				}
@@ -79,10 +79,10 @@ public class CRespondInvite extends __CRespondInvite__ {
 				int lockState = 0;
 				if(agree == 1)
 				{
-					Long inviterclanfightid = xtable.Roleid2clanfightid.select(inviterRoleId);//如果邀请者在公会战场中 by changhao
+					Long inviterclanfightid = xtable.Roleid2clanfightid.select(inviterRoleId);//如果�?请�?�在公会战场�? by changhao
 					if (inviterclanfightid != null)
 					{
-						Long invitedclanfightid = xtable.Roleid2clanfightid.select(invitedRoleId);//如果被邀请者在公会战场中 by changhao
+						Long invitedclanfightid = xtable.Roleid2clanfightid.select(invitedRoleId);//如果被邀请�?�在公会战场�? by changhao
 						if (!inviterclanfightid.equals(invitedclanfightid))
 						{
 			 			    MessageMgr.sendMsgNotify(inviterRoleId, 410022,  null);
@@ -108,7 +108,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 					}
 					else
 					{
-						Long invitedclanfightid = xtable.Roleid2clanfightid.select(invitedRoleId);//如果被邀请者在公会战场中 by changhao
+						Long invitedclanfightid = xtable.Roleid2clanfightid.select(invitedRoleId);//如果被邀请�?�在公会战场�? by changhao
 						if (invitedclanfightid != null)
 						{
 							if (!invitedclanfightid.equals(inviterclanfightid))
@@ -125,7 +125,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 					{
 						MessageMgr.sendMsgNotify(invitedRoleId, 162026, null);
 						MessageMgr.sendMsgNotify(inviterRoleId, 162027, null);
-						TeamManager.logger.info("CRespondInvite1:邀请人" + inviterRoleId + "被邀请人" + invitedRoleId + ",邀请人在巡游状态,不能邀请某人");
+						TeamManager.logger.info("CRespondInvite1:�?请人" + inviterRoleId + "被邀请人" + invitedRoleId + ",�?请人在巡游状�?,不能�?请某�?");
 						return true;
 					}
 					
@@ -134,42 +134,42 @@ public class CRespondInvite extends __CRespondInvite__ {
 					{
 						MessageMgr.sendMsgNotify(invitedRoleId, 162027, null);
 						MessageMgr.sendMsgNotify(inviterRoleId, 162026, null);
-						TeamManager.logger.info("CRespondInvite2:邀请人" + inviterRoleId + "被邀请人" + invitedRoleId + ",邀请人在巡游状态,不能邀请某人");
+						TeamManager.logger.info("CRespondInvite2:�?请人" + inviterRoleId + "被邀请人" + invitedRoleId + ",�?请人在巡游状�?,不能�?请某�?");
 						return true;
 					}
 					
 					if(checkInviteFromTeam(inviterTeamId))
 					{
-						//来自队伍的邀请，锁team，队长和被邀请者
+						//来自队伍的邀请，锁team，队长和被邀请�??
 						lockState = 3;
 					}
 					else
 					{
-						//来自个人的邀请，看现在有无队伍
+						//来自个人的邀请，看现在有无队�?
 						inviterTeamId = xtable.Roleid2teamid.select(inviterRoleId);
 						if(inviterTeamId!= null)
 						{//有队伍，看是否是队长
-							lockState = 3;//锁team，队长和被邀请者
+							lockState = 3;//锁team，队长和被邀请�??
 						}
 						else
-						{//无队伍，锁邀请者和被邀请者
+						{//无队伍，锁邀请�?�和被邀请�??
 							lockState = 2;
 						}
 					}
 				}
 				else
-				{//只锁被邀请者的rolelock
+				{//只锁被邀请�?�的rolelock
 					lockState = 1;
 				}
 				
 				switch (lockState)
 				{
-				case 1://只锁被邀请者的rolelock
+				case 1://只锁被邀请�?�的rolelock
 					Long[] roleids1 = new Long[1];
 					roleids1[0] = invitedRoleId;
 					this.lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK,(Object[])roleids1));
 					break;
-				case 2://无队伍，锁邀请者和被邀请者
+				case 2://无队伍，锁邀请�?�和被邀请�??
 					Object[] roleids2 = new Object[2];
 					if(inviterRoleId < invitedRoleId)
 					{
@@ -184,12 +184,12 @@ public class CRespondInvite extends __CRespondInvite__ {
 					this.lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK, roleids2));
 					break;
 
-				case 3://锁team，和所有人
+				case 3://锁team，和�?有人
 					xbean.TeamInfo teamInfo = xtable.Team.get(inviterTeamId);
 					if(teamInfo == null)
 					{
 						psend(invitedRoleId, new STeamError(TeamError.InviterTeamNotExist));
-						TeamManager.logger.debug("FAIL:邀请您的队伍已经解散,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:�?请您的队伍已经解�?,TeamId: "+inviterTeamId);
 						return true;
 					}
 					team = new Team(inviterTeamId,false);
@@ -208,8 +208,8 @@ public class CRespondInvite extends __CRespondInvite__ {
 				Long invitedTeamId = xtable.Roleid2teamid.get(invitedRoleId);
 				if(!checkInviteExist(invitedRoleId))
 				{
-					//邀请已经超时或者邀请不存在（illegal）
-					TeamManager.logger.debug("FAIL:邀请已经超时或者邀请不存在,RoleId: "+invitedRoleId);
+					//�?请已经超时或者邀请不存在（illegal�?
+					TeamManager.logger.debug("FAIL:�?请已经超时或者邀请不存在,RoleId: "+invitedRoleId);
 					return true;
 				}
 				if(agree == 1)
@@ -220,46 +220,46 @@ public class CRespondInvite extends __CRespondInvite__ {
 
 					if(!checkOnline(invitedRoleId))
 					{
-						//被邀请者不在线,接受邀请后又下线了？（illegal）
-						TeamManager.logger.debug("FAIL:被邀请者不在线,接受邀请后又下线了？,RoleId: "+invitedRoleId);
+						//被邀请�?�不在线,接受�?请后又下线了？（illegal�?
+						TeamManager.logger.debug("FAIL:被邀请�?�不在线,接受�?请后又下线了�?,RoleId: "+invitedRoleId);
 					}
 					/*else if(!checkInvitedStatus(invitedRoleId))
 					{
-						//被邀请者处于不能组队的状态
+						//被邀请�?�处于不能组队的状�??
 						//psend(invitedRoleId, new STeamError(TeamError.SelfInUnteamState));
 						Message.psendMsgNotify(invitedRoleId, TeamManager.ERROR_MSG_SELF_CANT_IN_TEAM, null);
-						TeamManager.logger.debug("FAIL:被邀请者处于不能组队的状态,RoleId: "+invitedRoleId);
+						TeamManager.logger.debug("FAIL:被邀请�?�处于不能组队的状�??,RoleId: "+invitedRoleId);
 					}*/
 					else if(!checkInvitedTeamFuctionEnable(invitedRoleId))
 					{
-						//被邀请者的组队功能没有打开
+						//被邀请�?�的组队功能没有打开
 						psend(invitedRoleId, new STeamError(TeamError.SelfTeamFunctionClose));
-						TeamManager.logger.debug("FAIL:被邀请者的组队功能没有打开,RoleId: "+invitedRoleId);
+						TeamManager.logger.debug("FAIL:被邀请�?�的组队功能没有打开,RoleId: "+invitedRoleId);
 					}
 					else if(!checkInvitedInNoTeam(invitedTeamId))
 					{
-						//被邀请者在队伍中（illegal）
-						TeamManager.logger.debug("FAIL:被邀请者在队伍中,RoleId: "+invitedTeamId);
+						//被邀请�?�在队伍中（illegal�?
+						TeamManager.logger.debug("FAIL:被邀请�?�在队伍�?,RoleId: "+invitedTeamId);
 					}
 //					else if (fire.pb.buff.Module.existState(inviterRoleId, BuffConstant.StateType.STATE_INSTANCE_ZONE)) {
 //						MessageMgr.sendMsgNotify(invitedRoleId, 160202, null);
-//						TeamManager.logger.debug("CRespondInvite:玩家(roleId=" + inviterRoleId+")invite处于副本中,不能组队");
+//						TeamManager.logger.debug("CRespondInvite:玩家(roleId=" + inviterRoleId+")invite处于副本�?,不能组队");
 //					}
 					else if(inviting.getTeamid() > -1)
 					{
-						TeamManager.logger.debug("INFO:来自队伍的邀请,TeamId: "+inviterTeamId);
-						//来自队伍的邀请
+						TeamManager.logger.debug("INFO:来自队伍的邀�?,TeamId: "+inviterTeamId);
+						//来自队伍的邀�?
 						xbean.TeamInfo teamInfo = xtable.Team.get(inviterTeamId);
 						if(!checkInviterTeamExist(teamInfo))
 						{
-							//邀请您的队伍已经解散
+							//�?请您的队伍已经解�?
 							psend(invitedRoleId, new STeamError(TeamError.InviterTeamNotExist));
-							TeamManager.logger.debug("FAIL:邀请您的队伍已经解散,TeamId: "+inviterTeamId);
+							TeamManager.logger.debug("FAIL:�?请您的队伍已经解�?,TeamId: "+inviterTeamId);
 						}
 						else if(!checkTeamInvitingValid(teamInfo, invitedRoleId))
 						{
-							//队伍邀请已经超时（illegal）
-							TeamManager.logger.debug("FAIL:队伍邀请已经超时,TeamId: "+inviterTeamId);
+							//队伍�?请已经超时（illegal�?
+							TeamManager.logger.debug("FAIL:队伍�?请已经超�?,TeamId: "+inviterTeamId);
 						}
 						
 						else if(!checkTeamNotFull(teamInfo)){
@@ -270,19 +270,19 @@ public class CRespondInvite extends __CRespondInvite__ {
 						}
 						else if(isLeaderInDuel(teamInfo.getTeamleaderid()))
 						{
-							// 队长在决斗 by changhao
-							TeamManager.logger.debug("FAIL:队长在决斗,TeamId: "+inviterTeamId);
+							// 队长在决�? by changhao
+							TeamManager.logger.debug("FAIL:队长在决�?,TeamId: "+inviterTeamId);
 						}else if(checkMap(teamInfo.getTeamleaderid(), invitedRoleId)){
-							//队伍可以加入这个新成员
+							//队伍可以加入这个新成�?
 							Team team = new Team(inviterTeamId,false);
-							TeamManager.logger.debugWhileCommit("SUCC:队伍可以加入这个新成员(原来的队伍),TeamId: "+inviterTeamId);
+							TeamManager.logger.debugWhileCommit("SUCC:队伍可以加入这个新成�?(原来的队�?),TeamId: "+inviterTeamId);
 							boolean ok = team.addNewMemberWithSP(invitedRoleId);
-							//如果成功入队查看是否需要拉他到队长旁边 by changhao
+							//如果成功入队查看是否�?要拉他到队长旁边 by changhao
 							if (ok)
 							{
 								boolean iscruise = checkCruiseWhenInvited(invitedRoleId);
 								if(iscruise){
-									//被邀请者巡游状态,入队后立即暂离！
+									//被邀请�?�巡游状�?,入队后立即暂离！
 									new PAbsentReturnTeam(invitedRoleId, 1).call();
 								} else {
 									int ret = TeamManager.getInstance().execGotoLeader(invitedRoleId, team, true, 2);
@@ -302,47 +302,47 @@ public class CRespondInvite extends __CRespondInvite__ {
 							return ok;
 						}
 					}
-					else //这里是不应该进来的，没有队伍不能邀请 by changhao
+					else //这里是不应该进来的，没有队伍不能�?�? by changhao
 					{
-						TeamManager.logger.debug("INFO:来自个人的邀请,inviterRoleId: "+inviterRoleId);
-						//来自个人的邀请
+						TeamManager.logger.debug("INFO:来自个人的邀�?,inviterRoleId: "+inviterRoleId);
+						//来自个人的邀�?
 						if(!checkOnline(inviterRoleId))
 						{
-							// 邀请者不在线
+							// �?请�?�不在线
 							psend(invitedRoleId, new STeamError(TeamError.ObjectOffline));
-							TeamManager.logger.debug("FAIL:邀请者不在线,inviterRoleId: "+inviterRoleId);
+							TeamManager.logger.debug("FAIL:�?请�?�不在线,inviterRoleId: "+inviterRoleId);
 						}
 						/*else if(!checkInviterStatus(inviterRoleId))
 						{
-							//邀请者处于不能组队的状态
+							//�?请�?�处于不能组队的状�??
 							//psend(invitedRoleId, new STeamError(TeamError.ObjectInUnteamState));
 							Message.psendMsgNotify(inviterRoleId, TeamManager.ERROR_MSG_SELF_CANT_IN_TEAM, null);
-							TeamManager.logger.debug("FAIL:邀请者处于不能组队的状态,inviterRoleId: "+inviterRoleId);
+							TeamManager.logger.debug("FAIL:�?请�?�处于不能组队的状�??,inviterRoleId: "+inviterRoleId);
 						}*/else
 						{
-							//获取邀请者现在的队伍ID
+							//获取�?请�?�现在的队伍ID
 							inviterTeamId = xtable.Roleid2teamid.get(inviterRoleId);
 							if(checkInviterInTeam(inviterTeamId))
 							{
-								mkdb.Trace.log(mkdb.Trace.DEBUG, "邀请者邀请时没有队伍，但是回复时已经有队伍,TeamId: "+inviterTeamId);
-								//邀请者邀请时没有队伍，但是回复时已经有队伍，可能是刚建立的，这时也可以加入
+								mkdb.Trace.log(mkdb.Trace.DEBUG, "�?请�?�邀请时没有队伍，但是回复时已经有队�?,TeamId: "+inviterTeamId);
+								//�?请�?�邀请时没有队伍，但是回复时已经有队伍，可能是刚建立的，这时也可以加�?
 								xbean.TeamInfo teamInfo = xtable.Team.get(inviterTeamId); 
 								if(!checkInviterIsLeader(inviterRoleId, teamInfo))
 								{
-									//邀请者不是队长
+									//�?请�?�不是队�?
 									//psend(invitedRoleId, new STeamError(TeamError.ObjectNotLeader));
 									MessageMgr.psendMsgNotify(invitedRoleId, 141861, null);
-									TeamManager.logger.debug("FAIL:邀请者不是队长,TeamId: "+inviterTeamId);
+									TeamManager.logger.debug("FAIL:�?请�?�不是队�?,TeamId: "+inviterTeamId);
 								}
 								else if(isLeaderInDuel(inviterRoleId))
 								{
-									// 队长在决斗
-									TeamManager.logger.debug("FAIL:队长在决斗,TeamId: "+inviterTeamId);
+									// 队长在决�?
+									TeamManager.logger.debug("FAIL:队长在决�?,TeamId: "+inviterTeamId);
 								}
 								else if(!checkTeamInvitingValid(teamInfo, invitedRoleId))
 								{
-									//邀请已经超时（illegal）
-									TeamManager.logger.debug("FAIL:邀请已经超时,TeamId: "+inviterTeamId);
+									//�?请已经超时（illegal�?
+									TeamManager.logger.debug("FAIL:�?请已经超�?,TeamId: "+inviterTeamId);
 								}
 								else if(checkTeamNotFull(teamInfo) && checkMap(teamInfo.getTeamleaderid(), invitedRoleId))
 								{
@@ -352,34 +352,34 @@ public class CRespondInvite extends __CRespondInvite__ {
 //										//TODO
 //										
 //									}else{
-										TeamManager.logger.debugWhileCommit("SUCC:队伍加入这个新成员(后来的队伍),TeamId: "+inviterTeamId);
+										TeamManager.logger.debugWhileCommit("SUCC:队伍加入这个新成�?(后来的队�?),TeamId: "+inviterTeamId);
 										return team.addNewMemberWithSP(invitedRoleId);
 									//}
 								}
 							}
 							else
 							{
-								//邀请者邀请时没有队伍，现在仍然没有，需要建立新的队伍，再加入
-								TeamManager.logger.debug("INFO:邀请者邀请时没有队伍，现在仍然没有,inviterRoleId: "+inviterRoleId);
+								//�?请�?�邀请时没有队伍，现在仍然没有，�?要建立新的队伍，再加�?
+								TeamManager.logger.debug("INFO:�?请�?�邀请时没有队伍，现在仍然没�?,inviterRoleId: "+inviterRoleId);
 								if(!checkSingleInvitingExist(inviterRoleId, invitedRoleId))
 								{
-									//邀请者的邀请已经超时（illigal）
-									TeamManager.logger.debug("FAIL:邀请者的邀请已经超时,inviterRoleId: "+inviterRoleId);
+									//�?请�?�的�?请已经超时（illigal�?
+									TeamManager.logger.debug("FAIL:�?请�?�的�?请已经超�?,inviterRoleId: "+inviterRoleId);
 								}
 								else if(isLeaderInDuel(inviterRoleId))
 								{
-									// 队长在决斗
-									TeamManager.logger.debug("FAIL:队长在决斗,TeamId: "+inviterTeamId);
+									// 队长在决�?
+									TeamManager.logger.debug("FAIL:队长在决�?,TeamId: "+inviterTeamId);
 								}
 								else if(checkMap(inviterRoleId, invitedRoleId))
 								{
-									//建立新的队伍，邀请者为队长，邀请者的邀请全移到队伍中
+									//建立新的队伍，邀请�?�为队长，邀请�?�的�?请全移到队伍�?
 									Team team = TeamManager.getInstance().createNewTeam(inviterRoleId);
 									if(team == null)
 									{
 										//fire.pb.talk.Message.sendMsgNotify(inviterRoleId, TeamManager.ERROR_MSG_SELF_CANT_IN_TEAM, null);
 										fire.pb.talk.MessageMgr.sendMsgNotify(invitedRoleId, TeamManager.ERROR_MSG_OBJECT_CANT_IN_TEAM, null);
-										TeamManager.logger.debug("FAIL:创建队伍失败（可能由于状态冲突）。");
+										TeamManager.logger.debug("FAIL:创建队伍失败（可能由于状态冲突）�?");
 										return true;
 									}
 									//如果有结婚任务是不允许和其他人组队的
@@ -387,8 +387,8 @@ public class CRespondInvite extends __CRespondInvite__ {
 //										//TODO
 //										return true;
 //									}
-									//添加新成员
-									TeamManager.logger.debugWhileCommit("SUCC:队伍加入这个新成员(新建的队伍，邀请者为队长),TeamId: "+inviterTeamId);
+									//添加新成�?
+									TeamManager.logger.debugWhileCommit("SUCC:队伍加入这个新成�?(新建的队伍，�?请�?�为队长),TeamId: "+inviterTeamId);
 									return team.addNewMemberWithSP(invitedRoleId);
 								}
 							}
@@ -401,7 +401,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 					name.add(invitedName);
 					if(checkInviteFromTeam(inviterTeamId))
 					{
-						//发送给队长
+						//发�?�给队长
 						Long leaderId = xtable.Team.selectTeamleaderid(inviterTeamId);
 						if(leaderId!=null)
 						{
@@ -411,13 +411,13 @@ public class CRespondInvite extends __CRespondInvite__ {
 					}
 					else
 					{
-						//发送给邀请者
+						//发�?�给�?请�??
 						fire.pb.talk.MessageMgr.psendMsgNotify(inviterRoleId, 140851, name);
 						psendWhileCommit(inviterRoleId, new SRespondInvite(invitedRoleId,(byte)0));
 					}
-					TeamManager.logger.debug("FAIL，不接受组队邀请,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL，不接受组队�?�?,invitedRoleId: "+invitedRoleId);
 				}
-				//不接受邀请或者接受邀请的条件未满足，都要删除邀请
+				//不接受邀请或者接受邀请的条件未满足，都要删除�?�?
 				}
 				finally{
 					deleteInvite(invitedRoleId);
@@ -433,7 +433,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 		boolean inWaiting1 = false;
 		boolean inWaiting = false;
 		
-		//发起人
+		//发起�?
 		final fire.pb.map.Role  invitMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(leaderRoleId);
 		final fire.pb.map.Role  desMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(applierRoleId);
 		if(invitMaprole == null || desMaprole == null){
@@ -449,7 +449,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			return false;
 		}
 		
-		//在安全地图 不校验组队
+		//在安全地�? 不校验组�?
 		if(cfg == null || descfg == null){
 			return true;
 		}
@@ -460,23 +460,23 @@ public class CRespondInvite extends __CRespondInvite__ {
 		return true;
 	}
 
-	// 检测PVP
+	// �?测PVP
 	private static int checkPvP(long inviterRoleId, long invitedRoleId) {
-		// 回应邀请
+		// 回应�?�?
 		return fire.pb.battle.pvp.PvPTeamHandle.onRespondInvite(inviterRoleId, invitedRoleId);
 	}
 
-	//邀请存在而且没超时？只能在Procedure中被调用
+	//�?请存在�?�且没超时？只能在Procedure中被调用
 	private boolean checkInviteExist(long invitedRoleId)
 	{
-		//先从邀请表中查找该人是否被邀请
+		//先从�?请表中查找该人是否被�?�?
 		xbean.InviteInfo invite = xtable.Teaminvite.get(invitedRoleId);
 		if(invite == null)
 			return false;
 		else if(!invite.getBeinginvited())
 			return false;
 		else if((now - invite.getInviting().getInvitetime()) > TeamManager.MAX_INVITE_TIMEOUT)
-		{   //邀请超时
+		{   //�?请超�?
 			invite.setBeinginvited(false);
 			cleanTimeoutInvites(invite.getInvited());
 			return false;
@@ -485,7 +485,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			return true;
 	}
 	
-	// 被邀请者在线?只能在Procedure中被调用
+	// 被邀请�?�在�??只能在Procedure中被调用
 	private boolean checkOnline(long roleId)
 	{
 		if(StateCommon.isOnline(roleId))
@@ -495,12 +495,12 @@ public class CRespondInvite extends __CRespondInvite__ {
 	}	
 	
 	
-	// 被邀请者组队开关已打开?只能在Procedure中被调用
+	// 被邀请�?�组队开关已打开?只能在Procedure中被调用
 	private boolean checkInvitedTeamFuctionEnable(long invitedRoleId)
 	{
 		return true;
 	}
-	// 被邀请者不在队伍中？只能在Procedure中被调用
+	// 被邀请�?�不在队伍中？只能在Procedure中被调用
 	private boolean checkInvitedInNoTeam(Long invitedTeamId)
 	{
 		if(invitedTeamId == null)
@@ -526,7 +526,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			return false;
 	}
 	
-	//邀请队伍还存在？只能在Procedure中被调用
+	//�?请队伍还存在？只能在Procedure中被调用
 	private boolean checkInviterTeamExist(xbean.TeamInfo teamInfo)
 	{
 		if(teamInfo != null)
@@ -535,7 +535,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			return false;
 	}
 	
-	//队伍的邀请中存在这个邀请，而且还未超时？只能在Procedure中被调用
+	//队伍的邀请中存在这个�?请，而且还未超时？只能在Procedure中被调用
 	private boolean checkTeamInvitingValid(xbean.TeamInfo teamInfo, long invitedRoleId)
 	{
 		java.util.Map<Long,Long> invitings = teamInfo.getInvitingids();
@@ -554,19 +554,19 @@ public class CRespondInvite extends __CRespondInvite__ {
 			return false;
 	}
 	
-/*	//邀请者处于可以组队的状态？（非跑商、飞行、单人任务等）
+/*	//�?请�?�处于可以组队的状�?�？（非跑商、飞行�?�单人任务等�?
 	private boolean checkInviterStatus(long inviterRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(inviterRoleId,true);
 		if(!buffagent.canAddBuff(StateType.STATE_TEAM))
 		{
-			TeamManager.logger.info("玩家(roleId=" + inviterRoleId+")处于不能组队的状态");
+			TeamManager.logger.info("玩家(roleId=" + inviterRoleId+")处于不能组队的状�?");
 			return true;
 		}
 		return true;
 	}
 */	
-	//邀请者处于队伍中？只能在Procedure中被调用
+	//�?请�?�处于队伍中？只能在Procedure中被调用
 	private boolean checkInviterInTeam(Long inviterTeamId)
 	{
 		if(inviterTeamId != null)
@@ -575,7 +575,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			return false;
 	}
 	
-	// 邀请者是队长？只能在Procedure中被调用
+	// �?请�?�是队长？只能在Procedure中被调用
 	private boolean checkInviterIsLeader(long inviterRoleId , xbean.TeamInfo teamInfo)
 	{
 		if(teamInfo.getTeamleaderid() == inviterRoleId)
@@ -584,7 +584,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			return false;
 	}
 	
-	//个人邀请表中的邀请存在？只能在Procedure中调用
+	//个人�?请表中的�?请存在？只能在Procedure中调�?
 	private boolean checkSingleInvitingExist(long inviterRoleId, long invitedRoleId)
 	{
 		xbean.SingleInvitings singleInvitings = xtable.Singleinviting.get(inviterRoleId);
@@ -601,13 +601,13 @@ public class CRespondInvite extends __CRespondInvite__ {
 	}
 	
 	
-	//使玩家回到未被邀请状态,同时删除过期邀请
+	//使玩家回到未被邀请状�?,同时删除过期�?�?
 	private void deleteInvite(final long invitedRoleId)
 	{
 		xbean.InviteInfo inviteInfo = xtable.Teaminvite.select(invitedRoleId);
 		if(inviteInfo == null)
 			return;
-		//删除team表中的inviting信息或者SingleInvitings中的inviting信息
+		//删除team表中的inviting信息或�?�SingleInvitings中的inviting信息
 		if(inviteInfo.getInviting().getTeamid() > -1)
 		{
 			xbean.TeamInfo team = xtable.Team.get(inviteInfo.getInviting().getTeamid());
@@ -643,7 +643,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 			});
 		}
 		
-		//更新invites表中的信息
+		//更新invites表中的信�?
 		inviteInfo.setBeinginvited(false);
 		cleanTimeoutInvites(inviteInfo.getInvited());
 		//如果invited中也没有任何信息，则此条InviteInfo没有存在的必要，可以删除
@@ -654,7 +654,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 	}
 	
 	
-	//清除邀请表中的过期邀请,只能在Procedure中被调用
+	//清除�?请表中的过期�?�?,只能在Procedure中被调用
 	private void cleanTimeoutInvites(java.util.List<xbean.TeamInvite> invites)
 	{
 		java.util.List<xbean.TeamInvite> timeoutList = new java.util.ArrayList<xbean.TeamInvite>();
@@ -666,7 +666,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 		invites.removeAll(timeoutList);
 	}
 	
-	//清除队伍和个人邀请者中的过期邀请
+	//清除队伍和个人邀请�?�中的过期邀�?
 	private void cleanTimoutInvitings(java.util.Map<Long,Long> invitings)
 	{
 		Object[] keys = invitings.keySet().toArray();
@@ -698,7 +698,7 @@ public class CRespondInvite extends __CRespondInvite__ {
 		return 794448;
 	}
 
-	public byte agree; // agree为1接受邀请，为0拒绝邀请
+	public byte agree; // agreeΪ1�������룬Ϊ0�ܾ�����
 
 	public CRespondInvite() {
 	}

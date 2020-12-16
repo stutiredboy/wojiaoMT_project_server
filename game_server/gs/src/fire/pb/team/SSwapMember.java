@@ -25,7 +25,7 @@ public class SSwapMember extends __SSwapMember__ {
 		return 794453;
 	}
 
-	public int index1; // indexæ˜¯é˜Ÿå‘˜çš„åºå·ï¼Œ5äººé˜Ÿä¼çš„è¯ï¼Œå°±æ˜¯0~4
+	public int index1; // indexÊÇ¶ÓÔ±µÄĞòºÅ£¬5ÈË¶ÓÎéµÄ»°£¬¾ÍÊÇ0~4
 	public int index2;
 
 	public SSwapMember() {

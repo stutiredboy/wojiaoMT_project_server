@@ -25,7 +25,7 @@ public class SAskforCallBack extends __SAskforCallBack__ {
 		return 794456;
 	}
 
-	public long leaderid; // é˜Ÿé•¿ID
+	public long leaderid; // ¶Ó³¤ID
 
 	public SAskforCallBack() {
 	}

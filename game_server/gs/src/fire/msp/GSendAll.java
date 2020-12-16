@@ -28,8 +28,8 @@ public class GSendAll extends __GSendAll__ {
 		return 720900;
 	}
 
-	public int protype; // åè®®çš„ç±»å‹
-	public com.locojoy.base.Octets protocol; // åè®®marshalå®Œçš„æ•°æ®
+	public int protype; // Ğ­ÒéµÄÀàĞÍ
+	public com.locojoy.base.Octets protocol; // Ğ­ÒémarshalÍêµÄÊı¾İ
 
 	public GSendAll() {
 		protocol = new com.locojoy.base.Octets();

@@ -25,7 +25,7 @@ public class SLeaveClan extends __SLeaveClan__ {
 		return 808452;
 	}
 
-	public long memberid; // æˆå‘˜id
+	public long memberid; // ³ÉÔ±id
 
 	public SLeaveClan() {
 	}

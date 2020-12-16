@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class NpcExecuteTaskTypes implements Marshal , Comparable<NpcExecuteTaskTypes>{
-	public final static int NPC_TALK = 10; // ç‚¹å‡»npcï¼Œä¸npcå¯¹è¯
-	public final static int GIVE_MONEY = 11; // ç»™äºˆé‡‘é’±
-	public final static int GIVE_ITEM = 12; // ç»™äºˆé“å…·
-	public final static int GIVE_PET = 13; // ç»™äºˆå® ç‰©
-	public final static int ANSWER_QUESTION = 17; // ç­”é¢˜
-	public final static int START_BATTLE = 40; // å¼€å§‹æˆ˜æ–—
+	public final static int NPC_TALK = 10; // µã»÷npc£¬Óënpc¶Ô»°
+	public final static int GIVE_MONEY = 11; // ¸øÓè½ğÇ®
+	public final static int GIVE_ITEM = 12; // ¸øÓèµÀ¾ß
+	public final static int GIVE_PET = 13; // ¸øÓè³èÎï
+	public final static int ANSWER_QUESTION = 17; // ´ğÌâ
+	public final static int START_BATTLE = 40; // ¿ªÊ¼Õ½¶·
 
 
 	public NpcExecuteTaskTypes() {

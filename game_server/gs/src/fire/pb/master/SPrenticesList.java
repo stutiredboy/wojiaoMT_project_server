@@ -25,9 +25,9 @@ public class SPrenticesList extends __SPrenticesList__ {
 		return 816481;
 	}
 
-	public java.util.ArrayList<fire.pb.master.PInfo> prenticelist; // å½“å‰çš„å¾’å¼Ÿ
-	public java.util.ArrayList<fire.pb.master.PBaseInfo> chushilist; // å‡ºå¸ˆå¾’å¼Ÿåˆ—è¡¨ åšå¤šå‘50ä¸ª
-	public long shide; // å¸ˆå¾·å€¼
+	public java.util.ArrayList<fire.pb.master.PInfo> prenticelist; // µ±Ç°µÄÍ½µÜ
+	public java.util.ArrayList<fire.pb.master.PBaseInfo> chushilist; // ³öÊ¦Í½µÜÁĞ±í ×ö¶à·¢50¸ö
+	public long shide; // Ê¦µÂÖµ
 
 	public SPrenticesList() {
 		prenticelist = new java.util.ArrayList<fire.pb.master.PInfo>();

@@ -24,7 +24,7 @@ public class CRequestSpaceRoleInfo extends __CRequestSpaceRoleInfo__ {
 			@Override
 			public boolean process() {
 				if (xtable.Properties.selectRolename(roleid) == null) {
-					// 这里存在的原因是:服务器删档了,而客户端本地的最近联系人列表未删除
+					// 这里存在的原因是:服务器删档了,而客户端本地的最近联系人列表未删�?
 					Module.logger.warn("[CRequestSpaceRoleInfo] find non-existent role info, roleId:" + currentRoleId
 							+ " targetRoleId:" + roleid);
 					return false;

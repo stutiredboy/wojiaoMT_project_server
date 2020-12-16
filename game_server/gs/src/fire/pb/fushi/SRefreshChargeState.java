@@ -25,8 +25,8 @@ public class SRefreshChargeState extends __SRefreshChargeState__ {
 		return 812461;
 	}
 
-	public int state; // 0--æœªå……è¿‡å€¼ 1-ï¼å……å€¼äº†ï¼Œæœªé¢†å–ç¤¼åŒ… 2ï¼Œé¢†å–ç¤¼åŒ…äº†ï¼ˆåªåœ¨åˆšé¢†å–å®Œæˆæ—¶ï¼Œå‘é€ä¸€æ¬¡ï¼‰
-	public int flag; // 0=æ— åˆ†æ®µç¿»å€  1= æœ‰åˆ†æ®µç¿»å€æ²¡å†²
+	public int state; // 0--Î´³ä¹ıÖµ 1-£­³äÖµÁË£¬Î´ÁìÈ¡Àñ°ü 2£¬ÁìÈ¡Àñ°üÁË£¨Ö»ÔÚ¸ÕÁìÈ¡Íê³ÉÊ±£¬·¢ËÍÒ»´Î£©
+	public int flag; // 0=ÎŞ·Ö¶Î·­±¶  1= ÓĞ·Ö¶Î·­±¶Ã»³å
 
 	public SRefreshChargeState() {
 	}

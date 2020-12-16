@@ -45,7 +45,7 @@ public class CClanInvitation extends __CClanInvitation__ {
 		}
 		// 对方等级不足
 		xbean.Properties properties = xtable.Properties.select(guestroleid);
-		if (properties.getLevel() < ClanBaseManager.getInstance().getJoinClanLevel()) {// 判断被邀请入会者等级
+		if (properties.getLevel() < ClanBaseManager.getInstance().getJoinClanLevel()) {// 判断被邀请入会�?�等�?
 			MessageMgr.sendMsgNotify(roleid, 160371, Arrays.asList(ClanBaseManager.getInstance().getJoinClanLevel()+""));
 			return;
 		}
@@ -62,7 +62,7 @@ public class CClanInvitation extends __CClanInvitation__ {
 		}
 		
 		byte inviteType = 0;
-//		// 会长和副会长邀请  还有团长
+//		// 会长和副会长�?�?  还有团长
 //		if( clanInfo.getClanmaster()==roleid || clanInfo.getClanvicemaster()==roleid){
 //			inviteType = 1;
 //		}
@@ -77,7 +77,7 @@ public class CClanInvitation extends __CClanInvitation__ {
 		sClanInvitation.hostroleid = roleid;
 		sClanInvitation.invitetype = inviteType;
 		gnet.link.Onlines.getInstance().send(guestroleid, sClanInvitation);
-		//发送系统提示
+		//发�?�系统提�?
 		MessageMgr.sendMsgNotify(roleid, 172017, null);
 	}
 

@@ -25,7 +25,7 @@ public class SLockInfo extends __SLockInfo__ {
 		return 818939;
 	}
 
-	public int status; // å®‰å…¨é”çŠ¶æ€0æœªè®¾ç½®å®‰å…¨é”1æœªè§£é”2å·²è§£é”
+	public int status; // °²È«Ëø×´Ì¬0Î´ÉèÖÃ°²È«Ëø1Î´½âËø2ÒÑ½âËø
 
 	public SLockInfo() {
 	}

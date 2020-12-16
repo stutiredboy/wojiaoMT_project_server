@@ -5,21 +5,21 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** æ‘†æ‘Šç±»å‹
+/** °ÚÌ¯ÀàĞÍ
 */
 public class MarketType implements Marshal , Comparable<MarketType>{
-	public final static int CARE_FOR = 1; // å…³æ³¨
-	public final static int RARITY_PET = 2; // çå“å® ç‰©(çå“)
-	public final static int RARITY_EQUIP = 3; // çå“è£…å¤‡(çå“)
-	public final static int RARITY_PET_BOOK = 4; // é«˜çº§å…½å†³(çå“)
-	public final static int NORMAL_PET_BOOK = 5; // ä½çº§å…½å†³
-	public final static int NORMAL_PHARMACEUTICAL = 6; // è¯å“
-	public final static int COOKING = 7; // çƒ¹é¥ª
-	public final static int ZHI_ZAO_FU = 8; // åˆ¶é€ ç¬¦
-	public final static int LIN_SHI_FU = 9; // ä¸´æ—¶ç¬¦
-	public final static int TASK_ITEM = 10; // ä»»åŠ¡é“å…·
-	public final static int PET_SHOP = 11; // å¥‡çå¼‚å®
-	public final static int RARITY_EQUIP_FORGING = 12; // è£…å¤‡æ‰“é€ (çå“)
+	public final static int CARE_FOR = 1; // ¹Ø×¢
+	public final static int RARITY_PET = 2; // ÕäÆ·³èÎï(ÕäÆ·)
+	public final static int RARITY_EQUIP = 3; // ÕäÆ·×°±¸(ÕäÆ·)
+	public final static int RARITY_PET_BOOK = 4; // ¸ß¼¶ÊŞ¾ö(ÕäÆ·)
+	public final static int NORMAL_PET_BOOK = 5; // µÍ¼¶ÊŞ¾ö
+	public final static int NORMAL_PHARMACEUTICAL = 6; // Ò©Æ·
+	public final static int COOKING = 7; // Åëâ¿
+	public final static int ZHI_ZAO_FU = 8; // ÖÆÔì·û
+	public final static int LIN_SHI_FU = 9; // ÁÙÊ±·û
+	public final static int TASK_ITEM = 10; // ÈÎÎñµÀ¾ß
+	public final static int PET_SHOP = 11; // ÆæÕäÒì±¦
+	public final static int RARITY_EQUIP_FORGING = 12; // ×°±¸´òÔì(ÕäÆ·)
 
 
 	public MarketType() {

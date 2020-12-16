@@ -27,7 +27,7 @@ public class CReqCancelLock extends __CReqCancelLock__ {
 		return 818938;
 	}
 
-	public java.lang.String password; // å¯†ç 
+	public java.lang.String password; // ÃÜÂë
 
 	public CReqCancelLock() {
 		password = "";

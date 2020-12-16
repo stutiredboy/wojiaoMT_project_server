@@ -28,8 +28,8 @@ public class SFriendMessageToRole extends __SFriendMessageToRole__ {
 	public long roleid;
 	public java.lang.String content;
 	public short rolelevel;
-	public java.util.ArrayList<com.locojoy.base.Octets> details; // 展示品信息
-	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfo; // 展示的物品key与type
+	public java.util.ArrayList<com.locojoy.base.Octets> details; // չʾƷ��Ϣ
+	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfo; // չʾ����Ʒkey��type
 
 	public SFriendMessageToRole() {
 		content = "";

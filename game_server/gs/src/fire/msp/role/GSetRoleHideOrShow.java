@@ -38,7 +38,7 @@ public class GSetRoleHideOrShow extends __GSetRoleHideOrShow__ {
 	}
 
 	public long roleid; // roleid
-	public int hide; // 1琛ㄧずhide,0琛ㄧずshow
+	public int hide; // 1表示hide,0表示show
 
 	public GSetRoleHideOrShow() {
 	}

@@ -25,7 +25,7 @@ public class SRequestApply extends __SRequestApply__ {
 		return 808456;
 	}
 
-	public java.util.ArrayList<fire.pb.clan.RoleBaseInfo> applylist; // ç”³è¯·åˆ—è¡¨
+	public java.util.ArrayList<fire.pb.clan.RoleBaseInfo> applylist; // ÉêÇëÁĞ±í
 
 	public SRequestApply() {
 		applylist = new java.util.ArrayList<fire.pb.clan.RoleBaseInfo>();

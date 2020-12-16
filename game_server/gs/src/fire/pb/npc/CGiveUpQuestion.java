@@ -34,7 +34,7 @@ public class CGiveUpQuestion extends __CGiveUpQuestion__ {
 		return 795523;
 	}
 
-	public int questiontype; // 绛旈绫诲瀷锛屾牴鎹笉鍚岀殑绫诲瀷锛屽鎴风/鏈嶅姟鍣ㄥ彲鑳戒細鏈変笉鍚岀殑澶勭悊
+	public int questiontype; // 答题类型，根据不同的类型，客户端/服务器可能会有不同的处理
 	public long npckey;
 
 	public CGiveUpQuestion() {

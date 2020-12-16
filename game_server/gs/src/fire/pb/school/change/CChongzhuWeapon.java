@@ -29,8 +29,8 @@ public class CChongzhuWeapon extends __CChongzhuWeapon__ {
 		return 810493;
 	}
 
-	public int oldwuqikey; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Key
-	public int itemid; // ï¿½ï¿½ï¿½ï¿½ItemId
+	public int oldwuqikey; // ¾ÉÎäÆ÷µÄKey
+	public int itemid; // µÀ¾ßItemId
 
 	public CChongzhuWeapon() {
 	}

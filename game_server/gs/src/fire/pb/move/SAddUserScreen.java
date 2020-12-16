@@ -25,7 +25,7 @@ public class SAddUserScreen extends __SAddUserScreen__ {
 		return 790437;
 	}
 
-	public java.util.LinkedList<fire.pb.move.RoleBasic> rolelist; // è§’è‰²
+	public java.util.LinkedList<fire.pb.move.RoleBasic> rolelist; // ½ÇÉ«
 	public java.util.LinkedList<fire.pb.move.NpcBasic> npclist; // NPC
 
 	public SAddUserScreen() {

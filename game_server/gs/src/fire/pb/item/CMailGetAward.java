@@ -30,7 +30,7 @@ public class CMailGetAward extends __CMailGetAward__ {
 		return 787704;
 	}
 
-	public byte kind; // 绫诲瀷 0=瀹氭椂閭欢 1=GM閭欢
+	public byte kind; // 类型 0=定时邮件 1=GM邮件
 	public long id; // id
 
 	public CMailGetAward() {

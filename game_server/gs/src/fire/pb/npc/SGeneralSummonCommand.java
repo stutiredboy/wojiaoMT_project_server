@@ -25,11 +25,11 @@ public class SGeneralSummonCommand extends __SGeneralSummonCommand__ {
 		return 795505;
 	}
 
-	public int summontype; // 鎷変汉绫诲瀷 瑙乀ransmitTypes
-	public long roleid; // 濡傛灉鏄帺瀹舵媺浜猴紝鍒欐澶勫～鐜╁ID
+	public int summontype; // 拉人类型 见TransmitTypes
+	public long roleid; // 如果是玩家拉人，则此处填玩家ID
 	public long npckey; // npckey
-	public int mapid; // 鐩殑鍦板浘鐨刡aseID锛屽鎴风閫氳繃杩欎釜ID鏉ョ煡閬撳湴鍥惧悕
-	public int minimal; // 寮瑰嚭鐨勫彫闆嗕护鏄惁鏈�灏忓寲,1涓烘渶灏忓寲,0涓轰笉鏈�灏忓寲
+	public int mapid; // 目的地图的baseID，客户端通过这个ID来知道地图名
+	public int minimal; // 弹出的召集令是否最小化,1为最小化,0为不最小化
 
 	public SGeneralSummonCommand() {
 	}

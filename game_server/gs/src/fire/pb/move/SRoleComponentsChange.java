@@ -25,9 +25,9 @@ public class SRoleComponentsChange extends __SRoleComponentsChange__ {
 		return 790476;
 	}
 
-	public long roleid; // ç²¾çµIDï¼ˆåŒ…æ‹¬äººç‰©å’Œnpcï¼‰
-	public byte spritetype; // 0ä»£è¡¨è§’è‰²ï¼Œ1ä»£è¡¨npc
-	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
+	public long roleid; // ¾«ÁéID£¨°üÀ¨ÈËÎïºÍnpc£©
+	public byte spritetype; // 0´ú±í½ÇÉ«£¬1´ú±ínpc
+	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
 
 	public SRoleComponentsChange() {
 		components = new java.util.HashMap<Byte,Integer>();

@@ -25,9 +25,9 @@ public class SReqChargeRefundsInfo extends __SReqChargeRefundsInfo__ {
 		return 812484;
 	}
 
-	public int result; // 0æ— èµ„æ ¼ 1æœ‰èµ„æ ¼å¯ä»¥é¢†å– 2æœ‰èµ„æ ¼å·²ç»é¢†å–
-	public int chargevalue; // è¿”è¿˜é¢åº¦
-	public int charge; // æ›¾ç»çš„å……å€¼è·å¾—æ€»ç¬¦çŸ³
+	public int result; // 0ÎŞ×Ê¸ñ 1ÓĞ×Ê¸ñ¿ÉÒÔÁìÈ¡ 2ÓĞ×Ê¸ñÒÑ¾­ÁìÈ¡
+	public int chargevalue; // ·µ»¹¶î¶È
+	public int charge; // Ôø¾­µÄ³äÖµ»ñµÃ×Ü·ûÊ¯
 
 	public SReqChargeRefundsInfo() {
 	}

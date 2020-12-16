@@ -63,20 +63,20 @@ public class MCheckCanPlayPKView extends __MCheckCanPlayPKView__ {
 		PropRole propRole = new PropRole(id, true);
 		QCRoleInfoDes qCRoleInfoDes = new QCRoleInfoDes();
 		qCRoleInfoDes.roleid=propRole.getRoleId();//角色Id
-		qCRoleInfoDes.rolename=propRole.getName();//角色名
+		qCRoleInfoDes.rolename=propRole.getName();//角色�?
 		qCRoleInfoDes.shape=propRole.getShape();//角色造型
 		qCRoleInfoDes.level=propRole.getLevel();//角色等级
 		qCRoleInfoDes.school=propRole.getSchool();//门派
 		Team team = TeamManager.selectTeamByRoleId(id);
 		if(team!=null){
-			//这里队伍标志需要考虑 暂离队伍的玩家在切磋
+			//这里队伍标志�?要�?�虑 暂离队伍的玩家在切磋
 			//过滤掉非队长成员
 			if(team.getTeamLeaderId()!=id){
 				qCRoleInfoDes.teamnum=0;
 				qCRoleInfoDes.teamnummax=0;
 			}else{
 				qCRoleInfoDes.teamnum=team.getNormalMemberIds().size();//队伍当前人数
-				qCRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//队伍最大人数
+				qCRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//队伍�?大人�?
 			}
 		}else{
 			qCRoleInfoDes.teamnum=0;
@@ -94,11 +94,11 @@ public class MCheckCanPlayPKView extends __MCheckCanPlayPKView__ {
 	}
 
 	public long hostid;
-	public int modeltype; // 模块类型
-	public int school; // 删选的职业 -1表示全职业
-	public int levelindex; // 删选的角色等级区间 0表示全选
-	public java.util.LinkedList<Long> rolelistid; // 角色列表
-	public java.util.HashMap<Long,Long> watchid; // 观看角色列表
+	public int modeltype; // ģ������
+	public int school; // ɾѡ��ְҵ -1��ʾȫְҵ
+	public int levelindex; // ɾѡ�Ľ�ɫ�ȼ����� 0��ʾȫѡ
+	public java.util.LinkedList<Long> rolelistid; // ��ɫ�б�
+	public java.util.HashMap<Long,Long> watchid; // �ۿ���ɫ�б�
 
 	public MCheckCanPlayPKView() {
 		rolelistid = new java.util.LinkedList<Long>();

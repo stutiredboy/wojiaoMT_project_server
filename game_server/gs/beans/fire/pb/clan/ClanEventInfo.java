@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ClanEventInfo implements Marshal {
-	public java.lang.String eventtime; // æ—¶é—´
-	public java.lang.String eventinfo; // å†…å®¹
-	public int eventtype; // ç±»åž‹
-	public long eventvalue; // å€¼
+	public java.lang.String eventtime; // Ê±¼ä
+	public java.lang.String eventinfo; // ÄÚÈÝ
+	public int eventtype; // ÀàÐÍ
+	public long eventvalue; // Öµ
 
 	public ClanEventInfo() {
 		eventtime = "";

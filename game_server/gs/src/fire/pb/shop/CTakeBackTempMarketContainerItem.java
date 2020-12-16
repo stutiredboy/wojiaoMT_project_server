@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CTakeBackTempMarketContainerItem__ extends mkio.Protocol { }
 
-/** æ‹å–ä¸´æ—¶èƒŒåŒ…,åˆæœåå–å‡ºé“å…·è¯·æ±‚
+/** ÅÄÂôÁÙÊ±±³°ü,ºÏ·şºóÈ¡³öµÀ¾ßÇëÇó
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

@@ -48,7 +48,7 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 						return false;
 					}
 
-					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //ç‚¹å¡æœåŠ¡å™¨ by changhao
+					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //ç‚¹å¡æœåŠ¡å™? by changhao
 					{
 						fire.pb.fushi.SFreeDisRewardConfigDayPay e = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.fushi.SFreeDisRewardConfigDayPay.class).get(itemid);
 						if (e == null)
@@ -81,7 +81,7 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 							}
 						}
 						
-						if (count > e.getNum()) //æ•°é‡è¶…é™åˆ¶ å›æ»š by changhao
+						if (count > e.getNum()) //æ•°é‡è¶…é™åˆ? å›æ»š by changhao
 						{
 							return false;
 						}
@@ -121,7 +121,7 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 							}
 						}	
 						
-						if (count > e.getNum()) //æ•°é‡è¶…é™åˆ¶ å›æ»š by changhao
+						if (count > e.getNum()) //æ•°é‡è¶…é™åˆ? å›æ»š by changhao
 						{
 							return false;
 						}
@@ -142,8 +142,8 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 		return 812689;
 	}
 
-	public int itemid; // è‡ªç”±åˆ†é…é“å…·id by changhao
-	public java.util.HashMap<Integer,Integer> rewarddistribution; // é“å…·åˆ†é… é“å…·id valueæ•°é‡ by changhao
+	public int itemid; // ×ÔÓÉ·ÖÅäµÀ¾ßid by changhao
+	public java.util.HashMap<Integer,Integer> rewarddistribution; // µÀ¾ß·ÖÅä µÀ¾ßid valueÊıÁ¿ by changhao
 
 	public CGrabMonthCardReward() {
 		rewarddistribution = new java.util.HashMap<Integer,Integer>();

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReqRoleTeamState__ extends mkio.Protocol { }
 
-/** 瀹㈡埛绔姹傚叾浠栫帺瀹剁殑缁勯槦鎯呭喌
+/** 客户端请求其他玩家的组队情况
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

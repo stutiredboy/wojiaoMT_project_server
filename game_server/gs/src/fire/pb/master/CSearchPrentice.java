@@ -25,7 +25,7 @@ public class CSearchPrentice extends __CSearchPrentice__ {
 		return 816446;
 	}
 
-	public int pageid; // é¡µæ•°
+	public int pageid; // Ò³Êý
 
 	public CSearchPrentice() {
 	}

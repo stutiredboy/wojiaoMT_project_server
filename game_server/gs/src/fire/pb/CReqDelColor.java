@@ -37,7 +37,7 @@ public class CReqDelColor extends __CReqDelColor__ {
 //				SReqDelColor sReqDelColor=new SReqDelColor();
 //				gnet.link.Onlines.getInstance().send(roleid, sReqDelColor);
 				CReqColorRoomView.sendColorRoomInfo(roleid);
-				logger.info("角色id "+roleid+"删除衣橱的染色方案 "+removeindex);
+				logger.info("角色id "+roleid+"删除衣橱的染色方�? "+removeindex);
 				return true;
 			}
 		}.submit();
@@ -53,7 +53,7 @@ public class CReqDelColor extends __CReqDelColor__ {
 		return 786536;
 	}
 
-	public int removeindex; // 删除索引
+	public int removeindex; // ɾ������
 
 	public CReqDelColor() {
 	}

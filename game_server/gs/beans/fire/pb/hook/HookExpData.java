@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HookExpData implements Marshal , Comparable<HookExpData>{
-	public short cangetdpoint; // å¯é¢†å–åŒå€ç‚¹æ•°
-	public short getdpoint; // å·²é¢†å–åŒå€ç‚¹æ•°
-	public long offlineexp; // ç¦»çº¿ç»éªŒ
+	public short cangetdpoint; // ¿ÉÁìÈ¡Ë«±¶µãÊı
+	public short getdpoint; // ÒÑÁìÈ¡Ë«±¶µãÊı
+	public long offlineexp; // ÀëÏß¾­Ñé
 
 	public HookExpData() {
 	}

@@ -5,35 +5,35 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ä¸€äº›ä¸ªåˆ«çš„åˆå§‹æ•°å€¼
+/** Ò»Ğ©¸ö±ğµÄ³õÊ¼ÊıÖµ
 */
 public class DataInit implements Marshal , Comparable<DataInit>{
-	public final static int ROLE_LEVEL_MAX = 155; // è§’è‰²æœ€å¤§ç­‰çº§
-	public final static int ROLE_UP_POINT = 5; // è§’è‰²å‡çº§è·å¾—æ½œèƒ½æ•°
-	public final static int PET_UP_POINT = 5; // å® ç‰©å‡çº§è·å¾—æ½œèƒ½æ•°
-	public final static int ROLE_UP_PHY = 5; // æ¯å‡ä¸€çº§å¢åŠ 5ç‚¹ä½“åŠ›
-	public final static int ROLE_UP_ENERGY = 5; // æ¯å‡ä¸€çº§å¢åŠ 5ç‚¹æ´»åŠ›
-	public final static int PET_INIT_LOY = 80; // å® ç‰©åˆå§‹å¿ è¯šåº¦
-	public final static int PET_MAX_LOY = 100; // å® ç‰©æœ€å¤§å¿ è¯šåº¦ã€‚
-	public final static int PET_MAX_LIFE = 20000; // å® ç‰©æœ€å¤§å¯¿å‘½
-	public final static int PET_FIGHT_LIFE_LIMIT = 50; // å® ç‰©å‚æˆ˜çš„æœ€ä½å¯¿å‘½é™åˆ¶
-	public final static int FULL_PETLOY_LEVEL = 30; // æ»¡å® ç‰©å¿ è¯šåº¦çš„å® ç‰©ç­‰çº§ä¸Šé™
-	public final static int ROLE_PET_LEVEL_SPACE = 6; // äººç‰©å® ç‰©çš„ç­‰çº§å·®æœ€å¤§ä¸º6çº§ã€‚
-	public final static int ROLE_PET_LEVEL_SPACE_OFEXPITEM = 10; // ä½¿ç”¨ç»éªŒé“å…·æ—¶,äººç‰©å® ç‰©çš„ç­‰çº§å·®æœ€å¤§ä¸º10çº§
-	public final static int BASENUM = 1000; // è§’è‰²å±æ€§è®¡ç®—é…ç½®å€¼çš„åŸºæ•°
-	public final static int PET_LEVEL_MAX = 160; // å® ç‰©æœ€å¤§ç­‰çº§
-	public final static int PET_USELEVEL_SPACE = 10; // å® ç‰©å‚æˆ˜æ—¶ä¸äººçš„æœ€å¤§ç­‰çº§å·®
-	public final static int AUTO_UPGRADE_LEVEL = 20; // äººç‰©è‡ªåŠ¨å‡çº§çš„ç­‰çº§ä¸Šé™
+	public final static int ROLE_LEVEL_MAX = 155; // ½ÇÉ«×î´óµÈ¼¶
+	public final static int ROLE_UP_POINT = 5; // ½ÇÉ«Éı¼¶»ñµÃÇ±ÄÜÊı
+	public final static int PET_UP_POINT = 5; // ³èÎïÉı¼¶»ñµÃÇ±ÄÜÊı
+	public final static int ROLE_UP_PHY = 5; // Ã¿ÉıÒ»¼¶Ôö¼Ó5µãÌåÁ¦
+	public final static int ROLE_UP_ENERGY = 5; // Ã¿ÉıÒ»¼¶Ôö¼Ó5µã»îÁ¦
+	public final static int PET_INIT_LOY = 80; // ³èÎï³õÊ¼ÖÒ³Ï¶È
+	public final static int PET_MAX_LOY = 100; // ³èÎï×î´óÖÒ³Ï¶È¡£
+	public final static int PET_MAX_LIFE = 20000; // ³èÎï×î´óÊÙÃü
+	public final static int PET_FIGHT_LIFE_LIMIT = 50; // ³èÎï²ÎÕ½µÄ×îµÍÊÙÃüÏŞÖÆ
+	public final static int FULL_PETLOY_LEVEL = 30; // Âú³èÎïÖÒ³Ï¶ÈµÄ³èÎïµÈ¼¶ÉÏÏŞ
+	public final static int ROLE_PET_LEVEL_SPACE = 6; // ÈËÎï³èÎïµÄµÈ¼¶²î×î´óÎª6¼¶¡£
+	public final static int ROLE_PET_LEVEL_SPACE_OFEXPITEM = 10; // Ê¹ÓÃ¾­ÑéµÀ¾ßÊ±,ÈËÎï³èÎïµÄµÈ¼¶²î×î´óÎª10¼¶
+	public final static int BASENUM = 1000; // ½ÇÉ«ÊôĞÔ¼ÆËãÅäÖÃÖµµÄ»ùÊı
+	public final static int PET_LEVEL_MAX = 160; // ³èÎï×î´óµÈ¼¶
+	public final static int PET_USELEVEL_SPACE = 10; // ³èÎï²ÎÕ½Ê±ÓëÈËµÄ×î´óµÈ¼¶²î
+	public final static int AUTO_UPGRADE_LEVEL = 20; // ÈËÎï×Ô¶¯Éı¼¶µÄµÈ¼¶ÉÏÏŞ
 	public final static int WILD_PET_MAXGENGU = 40;
 	public final static int WILD_PET_MINGENGU = 1;
-	public final static int PET_UP_LEVEL_ADD_POINT = 5; // å® ç‰©æ¯å‡ä¸€çº§ï¼Œç»™çš„æ½œèƒ½ç‚¹æ•°
-	public final static int HAIR_COLOR_SCHEMES_NUM = 4; // å¤´å‘é…è‰²æ–¹æ¡ˆæ•°é‡
-	public final static int BODY_COLOR_SCHEMES_NUM = 4; // è¡£æœé…è‰²æ–¹æ¡ˆæ•°é‡
-	public final static int TURNON_REFINE_NEED_ONLINE_TIME = 200; // å¼€å¯è£…å¤‡é‡é“¸éœ€è¦çš„ç´¯ç§¯æ—¶é—´æ•°
-	public final static int TURNON_REFINE_NEED_FRIEND_LEVEL = 1000; // å¼€å¯è£…å¤‡é‡é“¸éœ€è¦çš„å‹å¥½åº¦
-	public final static int TURNON_REFINE_NEED_ANTIQUE_NUM = 1; // å¼€å¯è£…å¤‡é‡é“¸éœ€è¦çš„å¤è‘£æ•°
-	public final static int COMMEN_ROLE_ADDPOINT = 100; // äººç‰©å¯ä»¥æ‰‹åŠ¨åŠ ç‚¹çš„ç­‰çº§å¯¹åº”é…ç½®çš„ID
-	public final static int EQUIP_CAN_REPAIR = 157; // è£…å¤‡è€ä¹…åº¦ä¸º80%æ—¶æ‰å¯ä»¥ä¿®ç†
+	public final static int PET_UP_LEVEL_ADD_POINT = 5; // ³èÎïÃ¿ÉıÒ»¼¶£¬¸øµÄÇ±ÄÜµãÊı
+	public final static int HAIR_COLOR_SCHEMES_NUM = 4; // Í··¢ÅäÉ«·½°¸ÊıÁ¿
+	public final static int BODY_COLOR_SCHEMES_NUM = 4; // ÒÂ·şÅäÉ«·½°¸ÊıÁ¿
+	public final static int TURNON_REFINE_NEED_ONLINE_TIME = 200; // ¿ªÆô×°±¸ÖØÖıĞèÒªµÄÀÛ»ıÊ±¼äÊı
+	public final static int TURNON_REFINE_NEED_FRIEND_LEVEL = 1000; // ¿ªÆô×°±¸ÖØÖıĞèÒªµÄÓÑºÃ¶È
+	public final static int TURNON_REFINE_NEED_ANTIQUE_NUM = 1; // ¿ªÆô×°±¸ÖØÖıĞèÒªµÄ¹Å¶­Êı
+	public final static int COMMEN_ROLE_ADDPOINT = 100; // ÈËÎï¿ÉÒÔÊÖ¶¯¼ÓµãµÄµÈ¼¶¶ÔÓ¦ÅäÖÃµÄID
+	public final static int EQUIP_CAN_REPAIR = 157; // ×°±¸ÄÍ¾Ã¶ÈÎª80%Ê±²Å¿ÉÒÔĞŞÀí
 
 
 	public DataInit() {

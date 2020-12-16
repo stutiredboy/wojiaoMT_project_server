@@ -12,7 +12,7 @@ abstract class __CRankGetInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * è·å¾—æ’è¡Œæ¦œæ•°æ®
+ * è·å¾—æ’è¡Œæ¦œæ•°æ?
  * @author changhao
  *
  */
@@ -82,8 +82,8 @@ public class CRankGetInfo extends __CRankGetInfo__ {
 		return 810256;
 	}
 
-	public int ranktype; // æ’è¡Œæ¦œç±»å‹
-	public int rank; // æ’å
+	public int ranktype; // ÅÅĞĞ°ñÀàĞÍ
+	public int rank; // ÅÅÃû
 	public long id;
 
 	public CRankGetInfo() {

@@ -30,7 +30,7 @@ public class GCreateNPCWithRoleids extends __GCreateNPCWithRoleids__ {
 		Scene scene = SceneManager.getInstance().getSceneByID(npc.sceneid);
 		SceneNpcManager.getInstance().summonNpcAndUpdateGS(scene, new Position(posx, posy), n,npc.time);
 		
-		//如果招出来的NPC是花轿的话，需要按照特定的AI来让NPC行走
+		//如果招出来的NPC是花轿的话，�?要按照特定的AI来让NPC行走
 		if(this.npc.npcbaseid == HUA_JIAO_NPC_ID || this.npc.npcbaseid == SURPER_HUA_JIAO_NPC_ID){
 			fire.pb.scene.npcai.AIManager.getInstance().npcMoveByAiID(this.npc.npckey, 1, roleids);
 		}

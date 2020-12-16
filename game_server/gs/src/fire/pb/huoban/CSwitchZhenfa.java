@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSwitchZhenfa__ extends mkio.Protocol { }
 
-/** 改变阵容的光环
+/** �ı����ݵĹ⻷
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

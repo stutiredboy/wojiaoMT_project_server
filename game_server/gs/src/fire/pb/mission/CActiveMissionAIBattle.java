@@ -28,7 +28,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 				if (team != null){
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 174001, null);
-					Module.logger.info("角色[" + roleid + "]妄想在组队状态下进入非组队共享任务[" + missionid + "]的战斗,朕不准！" );
+					Module.logger.info("角色[" + roleid + "]妄想在组队状态下进入非组队共享任务[" + missionid + "]的战�?,朕不准！" );
 					return;
 				}
 			}
@@ -71,7 +71,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			return false;
 		}
 		if ( team != null && !team.isAbsentMember( roleid ) && conf.exeIndo.teamState == 0 ) {
-			Module.logger.error( "任务" + conf.missionId + "不能有队伍提交" );
+			Module.logger.error( "任务" + conf.missionId + "不能有队伍提�?" );
 			fire.pb.talk.MessageMgr.sendMsgNotify( roleid, 141711, null );
 			return false;
 		}
@@ -105,9 +105,9 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 		return 805452;
 	}
 
-	public int missionid; // 任务id
-	public long npckey; // npc的key
-	public int activetype; // 激活类型:0进入AI战斗,1观看战斗录像
+	public int missionid; // ����id
+	public long npckey; // npc��key
+	public int activetype; // ��������:0����AIս��,1�ۿ�ս��¼��
 
 	public CActiveMissionAIBattle() {
 	}

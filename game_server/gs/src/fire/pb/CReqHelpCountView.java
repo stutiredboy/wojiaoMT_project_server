@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReqHelpCountView__ extends mkio.Protocol { }
 
-/** 客户端请求援助统计面板
+/** �ͻ�������Ԯ��ͳ�����
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,9 +30,9 @@ public class CReqHelpCountView extends __CReqHelpCountView__ {
 			sReqHelpCountView.helpgiveitemnum=helpcount.getHelpgiveitemnum();
 			sReqHelpCountView.helpitemnum=helpcount.getHelpitemnum();
 		}
-		sReqHelpCountView.expvaluemax=fire.pb.HelpCountManage.getInstance().getExpValueMax(roleid);//经验最大值（修改为获得经验的次数）
-		sReqHelpCountView.shengwangvaluemax=fire.pb.HelpCountManage.getInstance().getShengWangValueMax(roleid);//声望最大值
-		sReqHelpCountView.factionvaluemax=fire.pb.HelpCountManage.getInstance().getClanValueMax(roleid);//帮贡最大值
+		sReqHelpCountView.expvaluemax=fire.pb.HelpCountManage.getInstance().getExpValueMax(roleid);//经验�?大�?�（修改为获得经验的次数�?
+		sReqHelpCountView.shengwangvaluemax=fire.pb.HelpCountManage.getInstance().getShengWangValueMax(roleid);//声望�?大�??
+		sReqHelpCountView.factionvaluemax=fire.pb.HelpCountManage.getInstance().getClanValueMax(roleid);//帮贡�?大�??
 		sReqHelpCountView.helpgiveitemnummax=fire.pb.HelpCountManage.getInstance().getHelpGiveItemNumMax(roleid);
 		sReqHelpCountView.helpitemnummax=fire.pb.HelpCountManage.getInstance().getHelpItemNumMax(roleid);
 		

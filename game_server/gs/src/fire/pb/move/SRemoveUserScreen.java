@@ -25,7 +25,7 @@ public class SRemoveUserScreen extends __SRemoveUserScreen__ {
 		return 790438;
 	}
 
-	public java.util.LinkedList<Long> roleids; // è§’è‰²
+	public java.util.LinkedList<Long> roleids; // ½ÇÉ«
 	public java.util.LinkedList<Long> npcids; // NPC
 
 	public SRemoveUserScreen() {

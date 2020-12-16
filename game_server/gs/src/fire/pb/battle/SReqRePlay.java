@@ -25,7 +25,7 @@ public class SReqRePlay extends __SReqRePlay__ {
 		return 793736;
 	}
 
-	public byte candoit; // 0æ— , 1æœ‰
+	public byte candoit; // 0ÎÞ, 1ÓÐ
 	public java.lang.String battlecameraurl;
 
 	public SReqRePlay() {

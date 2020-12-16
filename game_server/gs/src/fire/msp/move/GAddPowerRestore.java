@@ -41,7 +41,7 @@ public class GAddPowerRestore extends __GAddPowerRestore__ {
 	}
 
 	public long roleid;
-	public int powerrestore; // å¦‚æœä¸º-1ï¼Œåˆ™ä¸ºç›´æ¥æ¸…é™¤æ°”åŠ›å‚¨å¤‡
+	public int powerrestore; // Èç¹ûÎª-1£¬ÔòÎªÖ±½ÓÇå³ıÆøÁ¦´¢±¸
 
 	public GAddPowerRestore() {
 	}

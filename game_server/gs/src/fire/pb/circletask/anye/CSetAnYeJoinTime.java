@@ -38,7 +38,7 @@ public class CSetAnYeJoinTime extends __CSetAnYeJoinTime__ {
 		return 807457;
 	}
 
-	public long jointime; // 棣栨鍙傚姞鏃堕棿
+	public long jointime; // 首次参加时间
 
 	public CSetAnYeJoinTime() {
 	}

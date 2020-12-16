@@ -5,21 +5,21 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** æ‘†æ‘Šæµè§ˆ
+/** °ÚÌ¯ä¯ÀÀ
 */
 public class MarketGoods implements Marshal , Comparable<MarketGoods>{
-	public long id; // å”¯ä¸€id(æ˜¯æˆ‘æœåŠ¡å™¨æ•°æ®åº“çš„id,ä¼ ç»™å‰ç«¯çš„ç›®çš„æ˜¯åœ¨è´­ä¹°ç‰©å“æ—¶ç»™æˆ‘è¿”å›)
-	public long saleroleid; // å–å®¶è§’è‰²id
-	public int itemid; // é“å…·id
-	public int num; // æ•°é‡
-	public int noticenum; // å…³æ³¨æ•°
+	public long id; // Î¨Ò»id(ÊÇÎÒ·şÎñÆ÷Êı¾İ¿âµÄid,´«¸øÇ°¶ËµÄÄ¿µÄÊÇÔÚ¹ºÂòÎïÆ·Ê±¸øÎÒ·µ»Ø)
+	public long saleroleid; // Âô¼Ò½ÇÉ«id
+	public int itemid; // µÀ¾ßid
+	public int num; // ÊıÁ¿
+	public int noticenum; // ¹Ø×¢Êı
 	public int key; // itemkey
-	public int price; // ä»·æ ¼
-	public long showtime; // å…¬ç¤ºæ—¶é—´
-	public long expiretime; // è¿‡æœŸæ—¶é—´
-	public int itemtype; // ç‰©å“ç±»å‹ 1é“å…·, 2å® ç‰©
-	public int level; // ç­‰çº§æˆ–å“è´¨
-	public int attentionnumber; // å…³æ³¨æ•°é‡
+	public int price; // ¼Û¸ñ
+	public long showtime; // ¹«Ê¾Ê±¼ä
+	public long expiretime; // ¹ıÆÚÊ±¼ä
+	public int itemtype; // ÎïÆ·ÀàĞÍ 1µÀ¾ß, 2³èÎï
+	public int level; // µÈ¼¶»òÆ·ÖÊ
+	public int attentionnumber; // ¹Ø×¢ÊıÁ¿
 
 	public MarketGoods() {
 	}

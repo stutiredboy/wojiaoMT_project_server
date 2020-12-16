@@ -39,7 +39,7 @@ public class CGetDepotInfo extends __CGetDepotInfo__ {
 		return 787769;
 	}
 
-	public int pageid; // ä»Ž1å¼€å§‹
+	public int pageid; // ´Ó1¿ªÊ¼
 
 	public CGetDepotInfo() {
 	}

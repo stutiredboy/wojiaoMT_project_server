@@ -29,7 +29,7 @@ public class CSendRoundPlayEnd extends __CSendRoundPlayEnd__ {
 		return 793438;
 	}
 
-	public java.util.LinkedList<Integer> actiontime; // æ¯ä¸ªåŠ¨ä½œçš„æ—¶é—´ï¼Œä¸åŒ…æ‹¬åŠ¨ä½œé—´å¡«å……æ—¶é—´0.2ç§’
+	public java.util.LinkedList<Integer> actiontime; // Ã¿¸ö¶¯×÷µÄÊ±¼ä£¬²»°üÀ¨¶¯×÷¼äÌî³äÊ±¼ä0.2Ãë
 
 	public CSendRoundPlayEnd() {
 		actiontime = new java.util.LinkedList<Integer>();

@@ -27,8 +27,8 @@ public class GSetEnchouJump extends __GSetEnchouJump__ {
 		return 724933;
 	}
 
-	public long roleid; // è§’è‰²
-	public byte jump; // 0ä¸èƒ½è·³,1å¯ä»¥è·³
+	public long roleid; // ½ÇÉ«
+	public byte jump; // 0²»ÄÜÌø,1¿ÉÒÔÌø
 
 	public GSetEnchouJump() {
 	}

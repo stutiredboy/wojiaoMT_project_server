@@ -50,7 +50,7 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 						
 						fire.pb.item.Pack bag = (fire.pb.item.Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
 
-						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务器 by changhao
+						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
 						{
 							java.util.Map<Integer, fire.pb.fushi.SMonthCardConfigDayPay> config = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.fushi.SMonthCardConfigDayPay.class);
 							for (fire.pb.fushi.SMonthCardConfigDayPay e : config.values())

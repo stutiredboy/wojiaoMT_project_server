@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SWinnerChangeTask__ extends mkio.Protocol { }
 
-/** æ™ºæ…§è¯•ç‚¼ end
+/** ÖÇ»ÛÊÔÁ¶ end
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

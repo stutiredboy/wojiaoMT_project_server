@@ -25,11 +25,11 @@ public class SRequestAsMaster extends __SRequestAsMaster__ {
 		return 816459;
 	}
 
-	public long masterid; // 甯堢埗id
-	public java.lang.String prenticename; // 甯堢埗鍚嶇О
-	public int school; // 鑱屼笟
-	public int level; // 绛夌骇
-	public java.lang.String requestword; // 鐣欒█
+	public long masterid; // 师父id
+	public java.lang.String prenticename; // 师父名称
+	public int school; // 职业
+	public int level; // 等级
+	public java.lang.String requestword; // 留言
 
 	public SRequestAsMaster() {
 		prenticename = "";

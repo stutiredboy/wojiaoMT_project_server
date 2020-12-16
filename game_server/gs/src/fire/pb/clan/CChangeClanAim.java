@@ -30,7 +30,7 @@ public class CChangeClanAim extends __CChangeClanAim__ {
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
 		}
-		//需要屏蔽$符号，公告发送到聊天不能有$符号
+		//�?要屏�?$符号，公告发送到聊天不能�?$符号
 		if(newaim.contains("$")){
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
@@ -60,7 +60,7 @@ public class CChangeClanAim extends __CChangeClanAim__ {
 				clanInfo.setClanaim(newaim);
 				mkdb.Procedure.psendWhileCommit(roleid, new SChangeClanAim(newaim));
 				fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(roleid, 145074, null);
-				// 在公会频道发送消息
+				// 在公会频道发送消�?
 				String name=xtable.Properties.selectRolename(roleid);
 				if (name != null) {
 					fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(clanInfo.getMembers().keySet(), 160367, 0,

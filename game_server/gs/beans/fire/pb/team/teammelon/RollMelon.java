@@ -8,10 +8,10 @@ import com.locojoy.base.Marshal.MarshalException;
 /** 8090-8099
 */
 public class RollMelon implements Marshal {
-	public long melonid; // åˆ†èµƒID by changhao
-	public int itemid; // é“å…·è¡¨id by changhao
-	public int itemnum; // é“å…·æ•°é‡ by changhao
-	public com.locojoy.base.Octets itemdata; // é“å…·çš„æ•°æ® by changhao
+	public long melonid; // ·ÖÔßID by changhao
+	public int itemid; // µÀ¾ß±íid by changhao
+	public int itemnum; // µÀ¾ßÊıÁ¿ by changhao
+	public com.locojoy.base.Octets itemdata; // µÀ¾ßµÄÊı¾İ by changhao
 
 	public RollMelon() {
 		itemdata = new com.locojoy.base.Octets();

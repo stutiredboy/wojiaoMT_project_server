@@ -25,12 +25,12 @@ public class SSendRedPackRoleRecordView extends __SSendRedPackRoleRecordView__ {
 		return 812541;
 	}
 
-	public int modeltype; // 0å‘å‡º 1æ”¶åˆ°
-	public int firstpageflag; // ç”¨æ¥å¤„ç†åˆ†é¡µ 0è¡¨ç¤ºç¬¬ä¸€é¡µ   1è¡¨ç¤ºå…¶ä»–é¡µ
-	public int redpackallnum; // çº¢åŒ…æ€»ä¸ªæ•°
-	public long redpackallmoney; // çº¢åŒ…æ€»é‡‘é¢
-	public long redpackallfushi; // çº¢åŒ…æ€»ç¬¦çŸ³
-	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleRecord> redpackrolerecord; // è®°å½•ä¿¡æ¯
+	public int modeltype; // 0·¢³ö 1ÊÕµ½
+	public int firstpageflag; // ÓÃÀ´´¦Àí·ÖÒ³ 0±íÊ¾µÚÒ»Ò³   1±íÊ¾ÆäËûÒ³
+	public int redpackallnum; // ºì°ü×Ü¸öÊı
+	public long redpackallmoney; // ºì°ü×Ü½ğ¶î
+	public long redpackallfushi; // ºì°ü×Ü·ûÊ¯
+	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleRecord> redpackrolerecord; // ¼ÇÂ¼ĞÅÏ¢
 
 	public SSendRedPackRoleRecordView() {
 		redpackrolerecord = new java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleRecord>();

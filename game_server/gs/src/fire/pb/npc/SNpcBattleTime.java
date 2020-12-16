@@ -27,8 +27,8 @@ public class SNpcBattleTime extends __SNpcBattleTime__ {
 
 	public int npcid; // npcid
 	public long npckey; // npckey
-	public long usetime; // åŒ¹é…æ€»æ—¶é—´
-	public long lasttime; // åŒ¹é…ç»“æŸæ—¶é—´
+	public long usetime; // Æ¥Åä×ÜÊ±¼ä
+	public long lasttime; // Æ¥Åä½áÊøÊ±¼ä
 
 	public SNpcBattleTime() {
 	}

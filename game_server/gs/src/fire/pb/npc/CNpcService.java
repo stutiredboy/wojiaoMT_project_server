@@ -54,7 +54,7 @@ public class CNpcService extends __CNpcService__ {
 			if(null == conf)
 				return false;
 			int curType = conf.getType();
-			//NPC服务映射表里各个类型的具体实现
+			//NPC服务映射表里各个类型的具体实�?
 			switch (curType) {
 			case NpcServiceMappingTypes.NONE: {
 				break;
@@ -80,7 +80,7 @@ public class CNpcService extends __CNpcService__ {
 				break;
 			}
 			case NpcServiceMappingTypes.QUERY_CIRCLE_BATTLE: {
-				//进入循环任务明雷怪战斗
+				//进入循环任务明雷怪战�?
 				int npcid = NpcServiceManager.getNpcIDByKey(npckey);
 				EnterCatchItBattle enter = new EnterCatchItBattle(roleid, npckey, npcid, conf.getParam1());
 				enter.enterBattle();
@@ -92,7 +92,7 @@ public class CNpcService extends __CNpcService__ {
 				return true;
 			}
 			case NpcServiceMappingTypes.RENXING_CIRCLE_TASK: {
-				//任性一个任务
+				//任�?�一个任�?
 				fire.pb.circletask.CircleTask sq = new CircleTask(roleid, true);
 				int renxingtimes = sq.getRenXingCircTaskCount(roleid, conf.getParam1());
 				gnet.link.Onlines.getInstance().send(roleid, new SRenXingCircleTask(serviceid, conf.getParam1(), renxingtimes, npckey));
@@ -126,7 +126,7 @@ public class CNpcService extends __CNpcService__ {
 			}
 			return false;
 		} catch (Exception e) {
-			// TODO 自动生成的 catch 块
+			// TODO 自动生成�? catch �?
 			Module.logger.error("玩家[" + roleid + "]" + "serviceid:" + serviceid + "错误");
 			return false;			
 		}
@@ -142,7 +142,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		if(100002 != serviceid && fire.pb.buff.Module.existState(roleid, fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER))
 			return;
-		// 按Alt+B 获取可加入家族列表
+		// 按Alt+B 获取可加入家族列�?
 		//NPC奖励发放
 		if(PNpcAwardProc.containedByNpcAward(this.serviceid)){
 			new PNpcAwardProc(roleid, this.serviceid).submit();
@@ -201,7 +201,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		//serviceid -> type -> params 映射关系表
+		//serviceid -> type -> params 映射关系�?
 		if (dealNpcServiceMapping(roleid, serviceid)) {
 			Module.logger.error("NPC服务映射表处理了角色[" + roleid + "]的服务[" + serviceid + "].");
 			return;
@@ -209,7 +209,7 @@ public class CNpcService extends __CNpcService__ {
 		
 		//处理送信类循环任务的服务
 		if (CircleTaskManager.getInstance().isSendMailService(serviceid)){
-			Module.logger.info("角色[" + roleid + "]的服务[" + serviceid + "]是送信类循环任务服务.");
+			Module.logger.info("角色[" + roleid + "]的服务[" + serviceid + "]是�?�信类循环任务服�?.");
 			int npcid = NpcServiceManager.getNpcIDByKey(npckey);
 			new PSendMail2Dst(roleid, npcid, serviceid).submit();
 			return;
@@ -294,7 +294,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		//TODO 临时测试战斗用,随时准备删除
+		//TODO 临时测试战斗�?,随时准备删除
 		if (serviceid == 999999) {
 			new fire.pb.activity.timernpc.PFightProc(roleid, npcId, npckey).submit();
 			return;
@@ -306,7 +306,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		if (serviceid == NpcServices.LEADER_SEE_CAMPAIGN_LIST) {// 产看竞选名单  by changhao
+		if (serviceid == NpcServices.LEADER_SEE_CAMPAIGN_LIST) {// 产看竞�?�名�?  by changhao
 			new fire.pb.school.shouxi.PSendCandidateList(roleid, npckey).submit();
 			return;
 		}
@@ -314,7 +314,7 @@ public class CNpcService extends __CNpcService__ {
 			new CReqCandidatesList(roleid, npckey).process();
 			return;
 		}
-		if (serviceid == NpcServices.LEADER_CAMPAIGN) { //竞选 by changhao
+		if (serviceid == NpcServices.LEADER_CAMPAIGN) { //竞�?? by changhao
 			new CCheckCanElect(roleid, npckey).process();
 			return;
 		}
@@ -392,12 +392,12 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		if(serviceid == 1987){//领取发微博奖励
+		if(serviceid == 1987){//领取发微博奖�?
 			new PTakeWeiBoAwardProc(roleid).submit();
 			return;
 		}
 
-		// PvP服务的处理
+		// PvP服务的处�?
 		IPvPServiceHandle sHandle = PvPServiceHandleFactory.create(serviceid);
 		if (sHandle != null) {
 			sHandle.handle(roleid, serviceid);
@@ -448,8 +448,8 @@ public class CNpcService extends __CNpcService__ {
 		return 795435;
 	}
 
-	public long npckey; // npckey为npc的唯一ID
-	public int serviceid; // 服务ID
+	public long npckey; // npckeyΪnpc��ΨһID
+	public int serviceid; // ����ID
 
 	public CNpcService() {
 	}

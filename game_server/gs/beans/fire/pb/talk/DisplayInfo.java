@@ -8,20 +8,20 @@ import com.locojoy.base.Marshal.MarshalException;
 public class DisplayInfo implements Marshal , Comparable<DisplayInfo>{
 	public final static int DISPLAY_ITEM = 1;
 	public final static int DISPLAY_PET = 2;
-	public final static int DISPLAY_TASK = 8; // ä»»åŠ¡ä»‹ç»
-	public final static int DISPLAY_TEAM_APPLY = 9; // ç»„é˜Ÿç”³è¯· by changhao
-	public final static int DISPLAY_ROLL_ITEM = 11; // ROLLç‚¹ by changhao
-	public final static int DISPLAY_ACTIVITY_ANSWER = 12; // æ´»åŠ¨ç­”é¢˜ by changhao
-	public final static int DISPLAY_LIVEDIE = 13; // ç”Ÿæ­»æˆ˜è¿æ¥
-	public final static int DISPLAY_BATTLE = 14; // æˆ˜æ–—å½•åƒè¿æ¥
+	public final static int DISPLAY_TASK = 8; // ÈÎÎñ½éÉÜ
+	public final static int DISPLAY_TEAM_APPLY = 9; // ×é¶ÓÉêÇë by changhao
+	public final static int DISPLAY_ROLL_ITEM = 11; // ROLLµã by changhao
+	public final static int DISPLAY_ACTIVITY_ANSWER = 12; // »î¶¯´ğÌâ by changhao
+	public final static int DISPLAY_LIVEDIE = 13; // ÉúËÀÕ½Á¬½Ó
+	public final static int DISPLAY_BATTLE = 14; // Õ½¶·Â¼ÏñÁ¬½Ó
 	public final static int DISPLAY_SACE_ROLE = 15;
 
-	public int displaytype; // ç±»å‹
-	public long roleid; // è§’è‰²id
-	public long shopid; // å•†åº—id,æˆå°±ç±»å‹çš„æ—¶å€™æ˜¯å®Œæˆæ—¶é—´(1ä¸»çº¿ä»»åŠ¡ 2å¾ªç¯ä»»åŠ¡)
-	public int counterid; // æŸœå°id,æˆå°±ç±»å‹çš„æ—¶å€™æ˜¯æˆå°±è¿›åº¦
-	public int uniqid; // å”¯ä¸€id,æˆå°±ç±»å‹çš„æ—¶å€™æ˜¯æ˜¯æˆå°±id
-	public long teamid; // é˜Ÿé•¿ID by changhao
+	public int displaytype; // ÀàĞÍ
+	public long roleid; // ½ÇÉ«id
+	public long shopid; // ÉÌµêid,³É¾ÍÀàĞÍµÄÊ±ºòÊÇÍê³ÉÊ±¼ä(1Ö÷ÏßÈÎÎñ 2Ñ­»·ÈÎÎñ)
+	public int counterid; // ¹ñÌ¨id,³É¾ÍÀàĞÍµÄÊ±ºòÊÇ³É¾Í½ø¶È
+	public int uniqid; // Î¨Ò»id,³É¾ÍÀàĞÍµÄÊ±ºòÊÇÊÇ³É¾Íid
+	public long teamid; // ¶Ó³¤ID by changhao
 
 	public DisplayInfo() {
 	}

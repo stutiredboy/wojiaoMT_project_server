@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ErrorCodes implements Marshal , Comparable<ErrorCodes>{
-	public final static int error_succeed = 0; // æˆåŠŸ
-	public final static int error_invalid = 1; // å¤±è´¥ï¼Œtoken/sessionidæ— æ•ˆï¼Œå®šå•æ— æ•ˆ
-	public final static int error_plat_args = 2; // ä¸å¹³å°çš„è®¿é—®çš„å‚æ•°å¼‚å¸¸
-	public final static int error_plat_trans = 3; // ä¸å¹³å°çš„è®¿é—®å¼‚å¸¸
-	public final static int error_xdb_store = 4; // xdbå­˜å‚¨å¼‚å¸¸
+	public final static int error_succeed = 0; // ³É¹¦
+	public final static int error_invalid = 1; // Ê§°Ü£¬token/sessionidÎŞĞ§£¬¶¨µ¥ÎŞĞ§
+	public final static int error_plat_args = 2; // ÓëÆ½Ì¨µÄ·ÃÎÊµÄ²ÎÊıÒì³£
+	public final static int error_plat_trans = 3; // ÓëÆ½Ì¨µÄ·ÃÎÊÒì³£
+	public final static int error_xdb_store = 4; // xdb´æ´¢Òì³£
 
 
 	public ErrorCodes() {

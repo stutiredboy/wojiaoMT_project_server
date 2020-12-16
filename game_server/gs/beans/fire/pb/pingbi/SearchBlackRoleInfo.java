@@ -10,9 +10,9 @@ public class SearchBlackRoleInfo implements Marshal {
 	public java.lang.String name;
 	public short rolelevel;
 	public byte school;
-	public byte online; // 0=ä¸åœ¨çº¿ 1=åœ¨çº¿
-	public int shape; // å¤´åƒ
-	public byte camp; // 0ä¸­ç«‹  1éƒ¨è½ 2è”ç›Ÿ
+	public byte online; // 0=²»ÔÚÏß 1=ÔÚÏß
+	public int shape; // Í·Ïñ
+	public byte camp; // 0ÖĞÁ¢  1²¿Âä 2ÁªÃË
 
 	public SearchBlackRoleInfo() {
 		name = "";

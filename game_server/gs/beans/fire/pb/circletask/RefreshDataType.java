@@ -5,21 +5,21 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** åˆ·æ–°ä»»åŠ¡çš„æ•°æ®å­—æ®µæšä¸¾å€¼
+/** Ë¢ĞÂÈÎÎñµÄÊı¾İ×Ö¶ÎÃ¶¾ÙÖµ
 */
 public class RefreshDataType implements Marshal , Comparable<RefreshDataType>{
-	public final static int STATE = 1; // ä»»åŠ¡çŠ¶æ€
-	public final static int DEST_NPD_KEY = 2; // _ç›®çš„npckey
-	public final static int DEST_NPD_ID = 3; // ç›®çš„npcid
-	public final static int DEST_MAP_ID = 4; // ç›®çš„åœ°å›¾id
-	public final static int DEST_XPOS = 5; // ç›®çš„xåæ ‡
-	public final static int DEST_YPOS = 6; // ç›®çš„yåæ ‡
-	public final static int DEST_ITEM_ID = 7; // ç›®çš„é“å…·id
-	public final static int SUMNUM = 8; // ç´¯è®¡æ¬¡æ•°
-	public final static int DEST_ITEM1_NUM = 9; // ç›®çš„é“å…·1çš„æ•°é‡
-	public final static int DEST_ITEM2_ID = 10; // ç›®çš„é“å…·2id
-	public final static int DEST_ITEM2_NUM = 11; // ç›®çš„é“å…·2çš„æ•°é‡
-	public final static int QUEST_TYPE = 12; // ä»»åŠ¡ç±»å‹
+	public final static int STATE = 1; // ÈÎÎñ×´Ì¬
+	public final static int DEST_NPD_KEY = 2; // _Ä¿µÄnpckey
+	public final static int DEST_NPD_ID = 3; // Ä¿µÄnpcid
+	public final static int DEST_MAP_ID = 4; // Ä¿µÄµØÍ¼id
+	public final static int DEST_XPOS = 5; // Ä¿µÄx×ø±ê
+	public final static int DEST_YPOS = 6; // Ä¿µÄy×ø±ê
+	public final static int DEST_ITEM_ID = 7; // Ä¿µÄµÀ¾ßid
+	public final static int SUMNUM = 8; // ÀÛ¼Æ´ÎÊı
+	public final static int DEST_ITEM1_NUM = 9; // Ä¿µÄµÀ¾ß1µÄÊıÁ¿
+	public final static int DEST_ITEM2_ID = 10; // Ä¿µÄµÀ¾ß2id
+	public final static int DEST_ITEM2_NUM = 11; // Ä¿µÄµÀ¾ß2µÄÊıÁ¿
+	public final static int QUEST_TYPE = 12; // ÈÎÎñÀàĞÍ
 
 
 	public RefreshDataType() {

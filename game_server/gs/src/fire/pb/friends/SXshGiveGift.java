@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SXshGiveGift__ extends mkio.Protocol { }
 
-/** 璧犻�佽涓嶅緱澶у笀绀肩墿缁撴灉
+/** 赠送说不得大师礼物结果
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SXshGiveGift extends __SXshGiveGift__ {
 		return 806650;
 	}
 
-	public byte result; // 0:鎴愬姛 1:鍙屾柟涓嶆槸鍙屽悜濂藉弸
+	public byte result; // 0:成功 1:双方不是双向好友
 
 	public SXshGiveGift() {
 	}

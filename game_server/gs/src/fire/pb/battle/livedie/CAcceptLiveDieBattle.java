@@ -39,16 +39,16 @@ abstract class __CAcceptLiveDieBattle__ extends mkio.Protocol { }
 public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 	@Override
 	protected void process() {
-		// npc处应战开战
+		// npc处应战开�?
 		final long guestid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (guestid <= 0)
 			return;
 		
-		//判断下战书的人是否存在
+		//判断下战书的人是否存�?
 		Long hostid=xtable.Livedie2key.select(guestid);
 		//判断是否有下战书的人
 		if(hostid==null){
-			//提示没有给你下战书的人162079
+			//提示没有给你下战书的�?162079
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162079, null);
 			return ;
 		}
@@ -58,7 +58,7 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			return ;
 		}
 		if(System.currentTimeMillis()-hostliveDieRoleInfo.getInvitationtime()>LiveDieMange.getLiveDieTime()){
-			logger.info("战书已经过期了");
+			logger.info("战书已经过期�?");
 			return ;
 		}
 		
@@ -68,20 +68,20 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 145001, null);
 			return ;
 		}
-		//判断自己是否在副本，在副本无法发送请求
+		//判断自己是否在副本，在副本无法发送请�?
 		MapConfig cfg = ConfigManager.getInstance().getConf(MapConfig.class).get(hostRole.getMapId());
 		if(cfg.dynamic ==1){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid,162002, null);
 			return ;
 		}
 		xbean.Properties guestprop=xtable.Properties.select(guestid);
-		//竞技场地图无法
+		//竞技场地图无�?
 		if (PvPHelperManager.isPvPMap(hostRole.getMapId())){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid,162121, null);
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162130, Arrays.asList(guestprop.getRolename()));
 			return ;
 		}
-		//判断下战书的玩家是否在战斗或者观战
+		//判断下战书的玩家是否在战斗或者观�?
 		BuffAgent hostAgent = new BuffRoleImpl(hostid, true);
 		if (hostAgent.existBuff(BuffConstant.StateType.STATE_REPLAY)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_FIGHTER)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_WATCHER)) {
 			MessageMgr.sendMsgNotify(guestid, 162132, null);
@@ -102,8 +102,8 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 		//判断战斗类型，是组队还是单人
 		if(hostliveDieRoleInfo.getSelecttype()==1){//组队
 			isteamfight=1;
-			//如果是组队，需要判断当前队伍是否都是队长
-			//组队决斗,发起人不是队长时,接受人点击开战,接受人会提示发起人不是队长,发起人会提示接受人已经接受决斗,请成为队长
+			//如果是组队，�?要判断当前队伍是否都是队�?
+			//组队决斗,发起人不是队长时,接受人点击开�?,接受人会提示发起人不是队�?,发起人会提示接受人已经接受决�?,请成为队�?
 			Team hostteam = TeamManager.selectTeamByRoleId(hostid);
 			if(hostteam==null){
 				//提示发起人，成为队长
@@ -125,13 +125,13 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			
 			Team guestteam = TeamManager.selectTeamByRoleId(guestid);
 			if(guestteam==null){
-				//不是队长，无法应战
+				//不是队长，无法应�?
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162081, null);
 				return ;
 			}
-			//判断是否是队长
+			//判断是否是队�?
 			if(guestteam.getTeamLeaderId()!=guestid){
-				//不是队长，无法应战
+				//不是队长，无法应�?
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162081, null);
 				return ;
 			}
@@ -139,7 +139,7 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			if(isTeamCanFight(guestteam,guestid)==false){
 				return ;
 			}
-			//如果有队伍，暂离状态也不能开战
+			//如果有队伍，暂离状�?�也不能�?�?
 			if(hostteam.getAbsentMemberIds().contains(hostid)){
 				//提示发起人，成为队长
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162080, null);
@@ -172,11 +172,11 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 	/**
 	 * 判断队伍中的成员是否符合要求
 	 * @param guestteam
-	 * @param guestid  需要提示消息的目标id
+	 * @param guestid  �?要提示消息的目标id
 	 * @return
 	 */
 	public boolean isTeamCanFight(Team guestteam,long guestid){
-		//判断当前队伍中的玩家等级是否符合要求，是否有下过战书或者被失败
+		//判断当前队伍中的玩家等级是否符合要求，是否有下过战书或�?�被失败
 		List<Long> guestlevelLess50 = new ArrayList<Long>();
 		List<Long> guestfightLess50 = new ArrayList<Long>();
 		

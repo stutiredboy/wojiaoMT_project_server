@@ -31,7 +31,7 @@ public class CApplyImpExam extends __CApplyImpExam__ {
 	}
 
 	public byte impexamtype;
-	public byte operate; // 0=ç”³è¯·  1=å¼€å§‹
+	public byte operate; // 0=ÉêÇë  1=¿ªÊ¼
 
 	public CApplyImpExam() {
 	}

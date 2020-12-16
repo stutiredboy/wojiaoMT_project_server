@@ -25,7 +25,7 @@ public class SAbsentReturnTeam extends __SAbsentReturnTeam__ {
 		return 794531;
 	}
 
-	public byte ret; // 1琛ㄧず鎴愬姛 0琛ㄧず澶辫触
+	public byte ret; // 1表示成功 0表示失败
 
 	public SAbsentReturnTeam() {
 	}

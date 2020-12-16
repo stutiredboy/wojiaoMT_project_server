@@ -6,17 +6,17 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ClanPositionType implements Marshal , Comparable<ClanPositionType>{
-	public final static int ClanMember = 11; // æˆå‘˜
-	public final static int ClanArmyGroupElite4 = 10; // ç¬¬å››å†›å›¢ç²¾è‹±
-	public final static int ClanArmyGroupElite3 = 9; // ç¬¬ä¸‰å†›å›¢ç²¾è‹±
-	public final static int ClanArmyGroupElite2 = 8; // ç¬¬äºŒå†›å›¢ç²¾è‹±
-	public final static int ClanArmyGroupElite1 = 7; // ç¬¬ä¸€å†›å›¢ç²¾è‹±
-	public final static int ClanArmyGroup4 = 6; // ç¬¬å››å†›å›¢é•¿
-	public final static int ClanArmyGroup3 = 5; // ç¬¬ä¸‰å†›å›¢é•¿
-	public final static int ClanArmyGroup2 = 4; // ç¬¬äºŒå†›å›¢é•¿
-	public final static int ClanArmyGroup1 = 3; // ç¬¬ä¸€å†›å›¢é•¿
-	public final static int ClanViceMaster = 2; // å‰¯ä¼šé•¿
-	public final static int ClanMaster = 1; // ä¼šé•¿
+	public final static int ClanMember = 11; // ³ÉÔ±
+	public final static int ClanArmyGroupElite4 = 10; // µÚËÄ¾üÍÅ¾«Ó¢
+	public final static int ClanArmyGroupElite3 = 9; // µÚÈı¾üÍÅ¾«Ó¢
+	public final static int ClanArmyGroupElite2 = 8; // µÚ¶ş¾üÍÅ¾«Ó¢
+	public final static int ClanArmyGroupElite1 = 7; // µÚÒ»¾üÍÅ¾«Ó¢
+	public final static int ClanArmyGroup4 = 6; // µÚËÄ¾üÍÅ³¤
+	public final static int ClanArmyGroup3 = 5; // µÚÈı¾üÍÅ³¤
+	public final static int ClanArmyGroup2 = 4; // µÚ¶ş¾üÍÅ³¤
+	public final static int ClanArmyGroup1 = 3; // µÚÒ»¾üÍÅ³¤
+	public final static int ClanViceMaster = 2; // ¸±»á³¤
+	public final static int ClanMaster = 1; // »á³¤
 
 
 	public ClanPositionType() {

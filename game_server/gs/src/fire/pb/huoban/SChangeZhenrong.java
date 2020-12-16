@@ -25,10 +25,10 @@ public class SChangeZhenrong extends __SChangeZhenrong__ {
 		return 818839;
 	}
 
-	public int zhenrong; // é˜µå®¹ç¼–å·
-	public int zhenfa; // å…‰ç¯ç¼–å·
-	public java.util.ArrayList<Integer> huobanlist; // å‚æˆ˜ä¼™ä¼´
-	public int reason; // æ›´æ–°åŸå›  1-ç³»ç»Ÿç¬¬ä¸€æ¬¡è‡ªåŠ¨æ›´æ–° 2-å…‰ç¯æ›´æ–° 3-å‚æˆ˜ä¼™ä¼´æ›´æ–° 4-ä¼™ä¼´é˜µå®¹åˆ‡æ¢
+	public int zhenrong; // ÕóÈİ±àºÅ
+	public int zhenfa; // ¹â»·±àºÅ
+	public java.util.ArrayList<Integer> huobanlist; // ²ÎÕ½»ï°é
+	public int reason; // ¸üĞÂÔ­Òò 1-ÏµÍ³µÚÒ»´Î×Ô¶¯¸üĞÂ 2-¹â»·¸üĞÂ 3-²ÎÕ½»ï°é¸üĞÂ 4-»ï°éÕóÈİÇĞ»»
 
 	public SChangeZhenrong() {
 		huobanlist = new java.util.ArrayList<Integer>();

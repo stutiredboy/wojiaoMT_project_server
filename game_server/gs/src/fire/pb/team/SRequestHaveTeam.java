@@ -25,7 +25,7 @@ public class SRequestHaveTeam extends __SRequestHaveTeam__ {
 		return 794516;
 	}
 
-	public int ret; // 0鏄病1鏄湁 by changhao
+	public int ret; // 0是没1是有 by changhao
 
 	public SRequestHaveTeam() {
 	}

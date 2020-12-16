@@ -36,7 +36,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//先验证队伍是否为空
+				//先验证队伍是否为�?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
@@ -50,12 +50,12 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 				
 				if(!checkOnline(leaderRoleId))
 				{
-					//设置者不在线（illegal）
+					//设置者不在线（illegal�?
 					TeamManager.logger.debug("FAIL:设置者不在线,roleid: " + leaderRoleId);
 				}
 				else if(!checkSetedLevelValid(minlevel, maxlevel))
 				{
-					//设置的等级不合法（illegal）
+					//设置的等级不合法（illegal�?
 					TeamManager.logger.debug("FAIL:设置的等级不合法,minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
 				}
 				else
@@ -66,7 +66,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 					SSetTeamLevel sSetTeamLevel = new SSetTeamLevel();
 					sSetTeamLevel.minlevel = minlevel;
 					sSetTeamLevel.maxlevel = maxlevel;					
-					mkdb.Procedure.psendWhileCommit(team.getTeamBroadcastSet(), sSetTeamLevel);//群发队伍等级需求变更
+					mkdb.Procedure.psendWhileCommit(team.getTeamBroadcastSet(), sSetTeamLevel);//群发队伍等级�?求变�?
 				}
 				return true;
 			}
@@ -83,7 +83,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			return false;
 	}	
 	
-	// 设置者是一个队伍的队长？只能在Procedure中被调用
+	// 设置者是�?个队伍的队长？只能在Procedure中被调用
 	@SuppressWarnings("unused")
 	private boolean checkLeaderInTeam(long leaderRoleId,Team team)
 	{

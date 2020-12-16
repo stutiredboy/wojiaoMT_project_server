@@ -29,7 +29,7 @@ abstract class __MEnterScene__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 /**
- * 人物上线，场景处理完毕后向逻辑发此消息
+ * 人物上线，场景处理完毕后向�?�辑发此消息
  * 
  */
 public class MEnterScene extends __MEnterScene__ {
@@ -42,7 +42,7 @@ public class MEnterScene extends __MEnterScene__ {
 			role = RoleManager.getInstance().createRole(roleid,sceneid, posx, posy);
 		}
 		
-		//人物上线，队伍相关（更新角色队伍信息），因为逻辑队伍的信息要依赖地图队伍信息，所以在其之后处理，因为其中要锁队伍锁，所以异步处理
+		//人物上线，队伍相关（更新角色队伍信息），因为逻辑队伍的信息要依赖地图队伍信息，所以在其之后处理，因为其中要锁队伍锁，�?以异步处�?
 		new fire.pb.team.PRoleOnline(roleid).submit();
 		
 		
@@ -51,10 +51,10 @@ public class MEnterScene extends __MEnterScene__ {
 		
 //		new fire.pb.mission.instance.PRoleOnline(roleid, sceneid).submit();
 		
-		//小地图上发送动态生成的npc
+		//小地图上发�?�动态生成的npc
 		fire.pb.timer.AbstractScheduledActivity.sendActivityNpcToMiniMap(sceneid, roleid);
 		
-		//当前处于投票中   角色没有投票过 角色等级大于30级别
+		//当前处于投票�?   角色没有投票�? 角色等级大于30级别
 		xbean.Properties prop =  xtable.Properties.select(roleid);
 		Integer curlevel = prop.getLevel();
 
@@ -72,7 +72,7 @@ public class MEnterScene extends __MEnterScene__ {
 
 		
 		fire.pb.mission.Module.getInstance().enterWorldOK(role.getRoleID());
-		//智力试练检测
+		//智力试练�?�?
 		if(ImpExamManager.getInstance().isInImpExamTime() != -1 && curlevel>=20){
 			ImpExamManager.getInstance().roleLoginCheck(roleid);
 		}
@@ -98,19 +98,19 @@ public class MEnterScene extends __MEnterScene__ {
 			    BingFengLandMgr.getInstance().sendAfterEnterBingFengLand(roleid, true);
 		}
 		
-		//上线提醒推送
+		//上线提醒推�??
 		TuiSongNotifyManager.getInstance().roleLogin(roleid);
 		
 		//礼包提醒
 		GiftBagMgr.getInstance().roleLogin(roleid, curlevel);
 		
 		//冠军试炼上线拉人
-		//这里处理一下冠军试炼的上线拉人
+		//这里处理�?下冠军试炼的上线拉人
 		if (curlevel >= WinnerManager.MIN_LEVEL) {
 			WinnerManager.getInstance().sendWinnerCallPlayer(roleid);
 		}
 		
-		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //工会战角色上线 by changhao	
+		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //工会战角色上�? by changhao	
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
@@ -121,7 +121,7 @@ public class MEnterScene extends __MEnterScene__ {
 		return 720904;
 	}
 
-	public long roleid; // 角色ID
+	public long roleid; // ��ɫID
 	public long sceneid;
 	public int posx;
 	public int posy;

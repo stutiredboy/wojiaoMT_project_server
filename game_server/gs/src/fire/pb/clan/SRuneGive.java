@@ -25,7 +25,7 @@ public class SRuneGive extends __SRuneGive__ {
 		return 808510;
 	}
 
-	public int givevalue; // å½“å‰æ´»åŠ›å€¼
+	public int givevalue; // µ±Ç°»îÁ¦Öµ
 
 	public SRuneGive() {
 	}

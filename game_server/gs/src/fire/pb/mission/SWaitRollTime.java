@@ -25,7 +25,7 @@ public class SWaitRollTime extends __SWaitRollTime__ {
 		return 805543;
 	}
 
-	public int messageid; // ä¿¡æ¯ç¼–å·
+	public int messageid; // ĞÅÏ¢±àºÅ
 
 	public SWaitRollTime() {
 	}

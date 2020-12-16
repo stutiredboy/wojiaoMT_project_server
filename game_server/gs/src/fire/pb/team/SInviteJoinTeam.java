@@ -25,10 +25,10 @@ public class SInviteJoinTeam extends __SInviteJoinTeam__ {
 		return 794447;
 	}
 
-	public long leaderroleid; // é˜Ÿé•¿id åªæœ‰opæ˜¯2çš„æ—¶å€™æ‰ç”¨ by changhao
-	public java.lang.String invitername; // é‚€è¯·è€…åå­— by changhao
-	public int inviterlevel; // é‚€è¯·è€…ç­‰çº§ by changhao
-	public int op; // 0æ˜¯æ­£å¸¸1æ˜¯å¼ºåˆ¶é‚€è¯·2æ˜¯é˜Ÿå‘˜é‚€è¯· by changhao
+	public long leaderroleid; // ¶Ó³¤id Ö»ÓĞopÊÇ2µÄÊ±ºò²ÅÓÃ by changhao
+	public java.lang.String invitername; // ÑûÇëÕßÃû×Ö by changhao
+	public int inviterlevel; // ÑûÇëÕßµÈ¼¶ by changhao
+	public int op; // 0ÊÇÕı³£1ÊÇÇ¿ÖÆÑûÇë2ÊÇ¶ÓÔ±ÑûÇë by changhao
 
 	public SInviteJoinTeam() {
 		invitername = "";

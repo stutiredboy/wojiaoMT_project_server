@@ -6,14 +6,14 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RuneCountInfo implements Marshal {
-	public long roleid; // 瑙掕壊roleid
-	public java.lang.String rolename; // 鍚嶇О
-	public int level; // 绛夌骇
-	public int school; // 鑱屼笟
-	public int position; // 鑱屽姟
-	public int givenum; // 鎹愮尞
-	public int acceptnum; // 鏀跺彇
-	public int givelevel; // 鏀跺彇
+	public long roleid; // 角色roleid
+	public java.lang.String rolename; // 名称
+	public int level; // 等级
+	public int school; // 职业
+	public int position; // 职务
+	public int givenum; // 捐献
+	public int acceptnum; // 收取
+	public int givelevel; // 收取
 
 	public RuneCountInfo() {
 		rolename = "";

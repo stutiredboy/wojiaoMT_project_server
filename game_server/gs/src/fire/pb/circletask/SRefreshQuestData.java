@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshQuestData__ extends mkio.Protocol { }
 
-/** ä»»åŠ¡æ•°æ®å‘ç”Ÿå˜åŒ–æ—¶ï¼ŒæœåŠ¡å™¨å‘å®¢æˆ·ç«¯å‘é€çš„åˆ·æ–°æ¶ˆæ¯
+/** ÈÎÎñÊı¾İ·¢Éú±ä»¯Ê±£¬·şÎñÆ÷Ïò¿Í»§¶Ë·¢ËÍµÄË¢ĞÂÏûÏ¢
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SRefreshQuestData extends __SRefreshQuestData__ {
 		return 807438;
 	}
 
-	public int questid; // åˆ·æ–°çš„ä»»åŠ¡id
-	public java.util.HashMap<Integer,Long> datas; // å˜é‡å€¼IDï¼Œå˜é‡å€¼
+	public int questid; // Ë¢ĞÂµÄÈÎÎñid
+	public java.util.HashMap<Integer,Long> datas; // ±äÁ¿ÖµID£¬±äÁ¿Öµ
 
 	public SRefreshQuestData() {
 		datas = new java.util.HashMap<Integer,Long>();

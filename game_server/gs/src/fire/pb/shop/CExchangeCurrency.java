@@ -13,7 +13,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CExchangeCurrency__ extends mkio.Protocol { }
 
-/** è´§å¸å…‘æ¢
+/** »õ±Ò¶Ò»»
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -74,7 +74,7 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 			
 			
 			/**
-			 * ç¬¦çŸ³æ£€æŸ¥å¹¶æ‰£é™¤
+			 * ç¬¦çŸ³æ£?æŸ¥å¹¶æ‰£é™¤
 			 * @return true ok
 			 */
 			public boolean dealHearthStone() {
@@ -125,9 +125,9 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 		return 810653;
 	}
 
-	public int srcmoneytype; // æºç±»å‹ å‚è€ƒgame.xmlä¸­MoneyType
-	public int dstmoneytype; // ç›®æ ‡ç±»å‹ å‚è€ƒgame.xmlä¸­MoneyType
-	public int money; // æ•°é‡
+	public int srcmoneytype; // Ô´ÀàĞÍ ²Î¿¼game.xmlÖĞMoneyType
+	public int dstmoneytype; // Ä¿±êÀàĞÍ ²Î¿¼game.xmlÖĞMoneyType
+	public int money; // ÊıÁ¿
 
 	public CExchangeCurrency() {
 	}

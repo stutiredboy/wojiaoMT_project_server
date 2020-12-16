@@ -25,7 +25,7 @@ public class SUpdateFriendLevel extends __SUpdateFriendLevel__ {
 		return 806536;
 	}
 
-	public int currentfriendlevel; // 褰撳墠鐨勫弸濂藉害
+	public int currentfriendlevel; // 当前的友好度
 	public long friendid;
 
 	public SUpdateFriendLevel() {

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __MCountNpcSize__ extends mkio.Protocol { }
 
-/** ç»Ÿè®¡åŠ¨æ€åœºæ™¯é‡Œnpcçš„æ•°é‡åæ‰§è¡Œçš„å­˜å‚¨è¿‡ç¨‹æ“ä½œ
+/** Í³¼Æ¶¯Ì¬³¡¾°ÀïnpcµÄÊıÁ¿ºóÖ´ĞĞµÄ´æ´¢¹ı³Ì²Ù×÷
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

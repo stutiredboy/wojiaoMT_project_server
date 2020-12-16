@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ImpExamAssistType implements Marshal , Comparable<ImpExamAssistType>{
-	public final static int NOASSIST = 0; // ä¸ä½¿ç”¨ååŠ©
-	public final static int DELWRONG = 1; // åˆ é™¤ä¸€ä¸ªé”™è¯¯ç­”æ¡ˆ
-	public final static int CHORIGHT = 2; // ç›´æ¥é€‰æ‹©æ­£ç¡®ç­”æ¡ˆ
+	public final static int NOASSIST = 0; // ²»Ê¹ÓÃĞ­Öú
+	public final static int DELWRONG = 1; // É¾³ıÒ»¸ö´íÎó´ğ°¸
+	public final static int CHORIGHT = 2; // Ö±½ÓÑ¡ÔñÕıÈ·´ğ°¸
 
 
 	public ImpExamAssistType() {

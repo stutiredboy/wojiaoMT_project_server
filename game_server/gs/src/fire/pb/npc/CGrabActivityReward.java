@@ -53,7 +53,7 @@ public class CGrabActivityReward extends __CGrabActivityReward__ {
 							fire.pb.common.SCommon c = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(236);
 							int rewardid = Integer.parseInt(c.getValue());
 							
-							//添加回答正确的参数
+							//添加回答正确的参�?
 							Map<String, Object> paras = new HashMap<String, Object>(10);
 							paras.put(RewardMgr.ANSWER_RIGHT_TIMES, activityquestion.getAnswerrighttimes());
 							fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, rewardid, paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_grab, 0,fire.pb.PAddExpProc.OTHER_QUEST, "答题");

@@ -25,7 +25,7 @@ public class SHideRole extends __SHideRole__ {
 		return 790458;
 	}
 
-	public int hide; // 1ä¸ºç©å®¶è¿›å…¥hideçŠ¶æ€,è¡Œèµ°é€Ÿåº¦å¿«3å€ä¸”æ— è§†é˜»æŒ¡ç‚¹.0ä¸ºæ¢å¤æ­£å¸¸çŠ¶æ€
+	public int hide; // 1ÎªÍæ¼Ò½øÈëhide×´Ì¬,ĞĞ×ßËÙ¶È¿ì3±¶ÇÒÎŞÊÓ×èµ²µã.0Îª»Ö¸´Õı³£×´Ì¬
 
 	public SHideRole() {
 	}

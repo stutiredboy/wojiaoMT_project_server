@@ -26,7 +26,7 @@ public class SUseXueYueKey extends __SUseXueYueKey__ {
 	}
 
 	public int npckid; // npcid
-	public long npckey; // npckey为npc的唯一ID
+	public long npckey; // npckeyΪnpc��ΨһID
 	public int mapid;
 	public int xpos;
 	public int ypos;

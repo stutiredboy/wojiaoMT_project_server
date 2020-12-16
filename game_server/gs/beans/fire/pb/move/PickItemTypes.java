@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PickItemTypes implements Marshal , Comparable<PickItemTypes>{
-	public final static int money = 1; // 鐜伴噾
-	public final static int Item = 3; // 鐗╁搧
+	public final static int money = 1; // 现金
+	public final static int Item = 3; // 物品
 
 
 	public PickItemTypes() {

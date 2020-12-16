@@ -106,7 +106,7 @@ public class CChangeClanInst extends __CChangeClanInst__ {
 		return 808524;
 	}
 
-	public int claninstservice; // 杩涘叆鍓湰鏈嶅姟缂栧彿
+	public int claninstservice; // 进入副本服务编号
 
 	public CChangeClanInst() {
 	}

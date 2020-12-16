@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class InitiativeType implements Marshal , Comparable<InitiativeType>{
-	public final static int INITIATIVE = 0; // 涓诲姩
-	public final static int PASSIVE = 1; // 琚姩
-	public final static int AUTO = 2; // 鑷姩
+	public final static int INITIATIVE = 0; // 主动
+	public final static int PASSIVE = 1; // 被动
+	public final static int AUTO = 2; // 自动
 
 
 	public InitiativeType() {

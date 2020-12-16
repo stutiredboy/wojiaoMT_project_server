@@ -25,7 +25,7 @@ public class SSendPetInitAttrs extends __SSendPetInitAttrs__ {
 		return 793456;
 	}
 
-	public java.util.HashMap<Integer,Float> petinitattrs; // è¿›æˆ˜æ–—æ—¶ä¸»è§’å® ç‰©çš„äºŒçº§å±æ€§
+	public java.util.HashMap<Integer,Float> petinitattrs; // ½øÕ½¶·Ê±Ö÷½Ç³èÎïµÄ¶ş¼¶ÊôĞÔ
 
 	public SSendPetInitAttrs() {
 		petinitattrs = new java.util.HashMap<Integer,Float>();

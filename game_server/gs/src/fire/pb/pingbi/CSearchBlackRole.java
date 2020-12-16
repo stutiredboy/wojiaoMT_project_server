@@ -27,7 +27,7 @@ public class CSearchBlackRole extends __CSearchBlackRole__ {
 		return 819145;
 	}
 
-	public long roleid; // 鎼滅储鐨勭洰鏍囪鑹瞚d
+	public long roleid; // 搜索的目标角色id
 
 	public CSearchBlackRole() {
 	}

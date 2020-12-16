@@ -1,10 +1,7 @@
-
-
-
-<MkioConf name="gs">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><MkioConf name="gs">
 	<Manager bind="12" class="gnet.link.Onlines" name="Provider">
 		
-<Connector inputBufferSize="131072" outputBufferSize="10485760" receiveBufferSize="16384" remoteIp="192.168.29.161" remotePort="37001" sendBufferSize="16384" tcpNoDelay="false" keepOutputBuffer="true" />
+<Connector inputBufferSize="131072" keepOutputBuffer="true" outputBufferSize="10485760" receiveBufferSize="16384" remoteIp="192.168.29.161" remotePort="37001" sendBufferSize="16384" tcpNoDelay="false"/>
 
 
 		<Coder comment="DO NOT EDIT CODER!">
@@ -1029,10 +1026,12 @@
 			<Protocol class="fire.pb.school.change.CChangeSchool" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.CChangeSchoolExtInfo" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.CChangeWeapon" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.CChongzhuWeapon" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.COldSchoolList" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SChangeGem" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SChangeSchoolExtInfo" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SChangeWeapon" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.SChongzhuWeapon" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SOldSchoolList" maxSize="65535"/>
 			<Protocol class="fire.pb.shop.CAttentionGoods" maxSize="65535"/>
 			<Protocol class="fire.pb.shop.CBuyMallShop" maxSize="65535"/>
@@ -1217,7 +1216,7 @@
 		</Coder>
 	</Manager>
 	<Manager class="gnet.DeliveryManager" name="GdeliveryClient">
-		<Connector inputBufferSize="131072" outputBufferSize="2097152" receiveBufferSize="16384" remoteIp="192.168.29.161" remotePort="37011" keepOutputBuffer="true" sendBufferSize="16384" tcpNoDelay="false"/>
+		<Connector inputBufferSize="131072" keepOutputBuffer="true" outputBufferSize="2097152" receiveBufferSize="16384" remoteIp="192.168.29.161" remotePort="37011" sendBufferSize="16384" tcpNoDelay="false"/>
 		<Coder comment="DO NOT EDIT CODER!">
 			<Protocol class="cross.BroadcastData" maxSize="1048576"/>
 			<Protocol class="cross.CommonDataTransfer" maxSize="1048576"/>

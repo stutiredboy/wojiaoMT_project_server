@@ -25,8 +25,8 @@ public class SMulDayLogin extends __SMulDayLogin__ {
 		return 787731;
 	}
 
-	public int logindays; // ç´¯è®¡ç™»å½•å¤©æ•°
-	public java.util.HashMap<Integer,Long> rewardmap; // ä¸ƒæ—¥ç™»å½•ç¤¼åŒ…å¥–åŠ±æ•°æ®(1.key-å¥–åŠ±é…ç½®ID 2.val-é¢†å–æ—¶é—´(0-æœªé¢†å–))
+	public int logindays; // ÀÛ¼ÆµÇÂ¼ÌìÊı
+	public java.util.HashMap<Integer,Long> rewardmap; // ÆßÈÕµÇÂ¼Àñ°ü½±ÀøÊı¾İ(1.key-½±ÀøÅäÖÃID 2.val-ÁìÈ¡Ê±¼ä(0-Î´ÁìÈ¡))
 
 	public SMulDayLogin() {
 		rewardmap = new java.util.HashMap<Integer,Long>();

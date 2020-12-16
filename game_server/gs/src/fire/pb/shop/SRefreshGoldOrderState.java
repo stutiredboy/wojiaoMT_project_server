@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshGoldOrderState__ extends mkio.Protocol { }
 
-/** æ›´æ–°è®¢å•çŠ¶æ€
+/** ¸üĞÂ¶©µ¥×´Ì¬
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SRefreshGoldOrderState extends __SRefreshGoldOrderState__ {
 		return 810676;
 	}
 
-	public long pid; // è®¢å•ç¼–å·
-	public int state; // è®¢å•çŠ¶æ€, 1åœ¨å”®, 2é”å®š, 3å·²å”®, 4å¾…é¢†å–, 5é¢†å–å®Œæˆ
+	public long pid; // ¶©µ¥±àºÅ
+	public int state; // ¶©µ¥×´Ì¬, 1ÔÚÊÛ, 2Ëø¶¨, 3ÒÑÊÛ, 4´ıÁìÈ¡, 5ÁìÈ¡Íê³É
 
 	public SRefreshGoldOrderState() {
 	}

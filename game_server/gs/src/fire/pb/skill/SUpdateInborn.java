@@ -25,8 +25,8 @@ public class SUpdateInborn extends __SUpdateInborn__ {
 		return 800446;
 	}
 
-	public byte flag; // 0é»˜è®¤æ–¹å¼  1=ä¸€é”®
-	public java.util.HashMap<Integer,Integer> inborns; // key = IDï¼Œvalue=ç­‰çº§ã€‚é‡Œé¢æ²¡æœ‰çš„ä¸º0çº§
+	public byte flag; // 0Ä¬ÈÏ·½Ê½  1=Ò»¼ü
+	public java.util.HashMap<Integer,Integer> inborns; // key = ID£¬value=µÈ¼¶¡£ÀïÃæÃ»ÓĞµÄÎª0¼¶
 
 	public SUpdateInborn() {
 		inborns = new java.util.HashMap<Integer,Integer>();

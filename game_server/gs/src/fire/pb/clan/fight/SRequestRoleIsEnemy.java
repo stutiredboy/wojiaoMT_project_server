@@ -25,7 +25,7 @@ public class SRequestRoleIsEnemy extends __SRequestRoleIsEnemy__ {
 		return 808542;
 	}
 
-	public java.util.HashMap<Long,Integer> rolelist; // -1æ˜¯æœªçŸ¥1æ˜¯è‡ªå·±2æ˜¯æ•Œå¯¹ by changhao
+	public java.util.HashMap<Long,Integer> rolelist; // -1ÊÇÎ´Öª1ÊÇ×Ô¼º2ÊÇµÐ¶Ô by changhao
 
 	public SRequestRoleIsEnemy() {
 		rolelist = new java.util.HashMap<Long,Integer>();

@@ -25,14 +25,14 @@ public class SPvP3MyInfo extends __SPvP3MyInfo__ {
 		return 793634;
 	}
 
-	public byte firstwin; // é¦–èƒœã€‚0ï¼šä¸å¯é¢†å–ï¼Œ1ï¼šå¯é¢†å–ï¼Œ2ï¼šå·²é¢†å–
-	public byte tenfight; // åæˆ˜ã€‚0ï¼šä¸å¯é¢†å–ï¼Œ1ï¼šå¯é¢†å–ï¼Œ2ï¼šå·²é¢†å–
-	public byte eightwin; // äº”èƒœã€‚0ï¼šä¸å¯é¢†å–ï¼Œ1ï¼šå¯é¢†å–ï¼Œ2ï¼šå·²é¢†å–
-	public byte battlenum; // æœ¬åœºå·²ç»æˆ˜æ–—çš„æ¬¡æ•°
-	public byte winnum; // æœ¬åœºèƒœåˆ©æ¬¡æ•°
-	public short combowinnum; // æœ¬åœºè¿èƒœ
-	public int score; // ç§¯åˆ†
-	public byte ready; // 1ï¼šå‡†å¤‡ä¸­ï¼Œ0ï¼šæœªå‡†å¤‡
+	public byte firstwin; // Ê×Ê¤¡£0£º²»¿ÉÁìÈ¡£¬1£º¿ÉÁìÈ¡£¬2£ºÒÑÁìÈ¡
+	public byte tenfight; // Ê®Õ½¡£0£º²»¿ÉÁìÈ¡£¬1£º¿ÉÁìÈ¡£¬2£ºÒÑÁìÈ¡
+	public byte eightwin; // ÎåÊ¤¡£0£º²»¿ÉÁìÈ¡£¬1£º¿ÉÁìÈ¡£¬2£ºÒÑÁìÈ¡
+	public byte battlenum; // ±¾³¡ÒÑ¾­Õ½¶·µÄ´ÎÊı
+	public byte winnum; // ±¾³¡Ê¤Àû´ÎÊı
+	public short combowinnum; // ±¾³¡Á¬Ê¤
+	public int score; // »ı·Ö
+	public byte ready; // 1£º×¼±¸ÖĞ£¬0£ºÎ´×¼±¸
 
 	public SPvP3MyInfo() {
 	}

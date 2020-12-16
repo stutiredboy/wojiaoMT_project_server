@@ -48,22 +48,22 @@ public class CCreateRole extends __CCreateRole__ {
 		// protocol handle
 		final int userID=((gnet.link.Dispatch)this.getContext()).userid;		
 		final xbean.User u = xtable.User.select(userID);
-		// 检查玩家选择的角色与门派是否对应
+		// �?查玩家�?�择的角色与门派是否对应
 		final fire.pb.role.SCreateRoleConfig config = RoleConfigManager.getCreateRoleConfig(shape);
 		if (config == null)
 		{
-			logger.error("-------------------------没有找到对应的配置文件!!!--------"+shape);
+			logger.error("-------------------------没有找到对应的配置文�?!!!--------"+shape);
 			return;
 		}
 			
 		if (!config.schools.contains(school))
 		{
-			logger.error("------"+shape+"-------------------没有找到对应的职业!!!------"+school);
+			logger.error("------"+shape+"-------------------没有找到对应的职�?!!!------"+school);
 			return;
 		}
 		
 		
-		//检查用用户名长度是否合理
+		//�?查用用户名长度是否合�?
 		int nameLen = CheckName.nameLen();
 		int length=0;
 		try {
@@ -90,7 +90,7 @@ public class CCreateRole extends __CCreateRole__ {
 		int resultCode = fire.pb.util.CheckName.checkValid(name);
 		if(resultCode == CheckName.WORD_ILLEGALITY){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.error("只能输入2-7个中文，4-14个英文或者、数字并且不能含有非法字符");
+			logger.error("只能输入2-7个中文，4-14个英文或者�?�数字并且不能含有非法字�?");
 			return;	
 		}else if(resultCode == CheckName.SPECIAL_WORD_TOO_MANY){
 			sendError(SCreateRoleError.CREATE_INVALID);
@@ -98,7 +98,7 @@ public class CCreateRole extends __CCreateRole__ {
 			return;
 		}else if(resultCode == CheckName.NONE_CHARACTER){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.error("命名必须包含一个汉字或者字母");
+			logger.error("命名必须包含�?个汉字或者字�?");
 			return;
 		}
 		
@@ -111,7 +111,7 @@ public class CCreateRole extends __CCreateRole__ {
 					roleNum++;
 			}
 			if(roleNum >= PCreateRole.maxCreateRoleNum){
-				logger.error("-----------------------角色创建已经达到最大数");
+				logger.error("-----------------------角色创建已经达到�?大数");
 				sendError(SCreateRoleError.CREATE_OVERCOUNT);
 				return;
 			}
@@ -131,13 +131,13 @@ public class CCreateRole extends __CCreateRole__ {
 		return 786435;
 	}
 
-	public final static int NAMELEN_MAX = 14; // 名字的最大长度
-	public final static int NAMELEN_MIN = 4; // 名字的最短长度
+	public final static int NAMELEN_MAX = 14; // ���ֵ���󳤶�
+	public final static int NAMELEN_MIN = 4; // ���ֵ���̳���
 
-	public java.lang.String name; // 名称
-	public int school; // 职业
-	public int shape; // 角色id
-	public java.lang.String code; // 招募码
+	public java.lang.String name; // ����
+	public int school; // ְҵ
+	public int shape; // ��ɫid
+	public java.lang.String code; // ��ļ��
 
 	public CCreateRole() {
 		name = "";

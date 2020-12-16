@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketSearchEquip__ extends mkio.Protocol { }
 
-/** æ‘†æ‘Šçå“è£…å¤‡æœç´¢
+/** °ÚÌ¯ÕäÆ·×°±¸ËÑË÷
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -42,18 +42,18 @@ public class CMarketSearchEquip extends __CMarketSearchEquip__ {
 		return 810661;
 	}
 
-	public int euqiptype; // ç±»å‹
-	public int level; // ç­‰çº§
-	public int pricemin; // æœ€å°ä»·æ ¼
-	public int pricemax; // æœ€å¤§ä»·æ ¼
-	public int effect; // ç‰¹æ•ˆ
-	public int skill; // ç‰¹æŠ€
-	public java.util.ArrayList<Integer> color; // å“è´¨ï¼Œ4ç´«ï¼Œ5æ©™
-	public java.util.ArrayList<fire.pb.shop.MarketSearchAttr> basicattr; // åŸºç¡€å±æ€§
-	public java.util.ArrayList<Integer> additionalattr; // é™„åŠ å±æ€§
-	public int totalattr; // å±æ€§æ€»å’Œ
-	public int score; // è¯„åˆ†
-	public int sellstate; // å‡ºå”®çŠ¶æ€ 1ä¸Šæ¶ï¼Œ2å…¬ç¤º
+	public int euqiptype; // ÀàĞÍ
+	public int level; // µÈ¼¶
+	public int pricemin; // ×îĞ¡¼Û¸ñ
+	public int pricemax; // ×î´ó¼Û¸ñ
+	public int effect; // ÌØĞ§
+	public int skill; // ÌØ¼¼
+	public java.util.ArrayList<Integer> color; // Æ·ÖÊ£¬4×Ï£¬5³È
+	public java.util.ArrayList<fire.pb.shop.MarketSearchAttr> basicattr; // »ù´¡ÊôĞÔ
+	public java.util.ArrayList<Integer> additionalattr; // ¸½¼ÓÊôĞÔ
+	public int totalattr; // ÊôĞÔ×ÜºÍ
+	public int score; // ÆÀ·Ö
+	public int sellstate; // ³öÊÛ×´Ì¬ 1ÉÏ¼Ü£¬2¹«Ê¾
 
 	public CMarketSearchEquip() {
 		color = new java.util.ArrayList<Integer>();

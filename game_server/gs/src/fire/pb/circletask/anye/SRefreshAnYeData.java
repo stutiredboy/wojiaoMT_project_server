@@ -25,14 +25,14 @@ public class SRefreshAnYeData extends __SRefreshAnYeData__ {
 		return 807454;
 	}
 
-	public int times; // ä»»åŠ¡ç´¯è®¡æ¬¡æ•°
-	public int renxins; // å·²ç»ä»»æ€§æ¬¡æ•°
-	public java.util.ArrayList<fire.pb.circletask.anye.AnYeTask> anyetasks; // ä»»åŠ¡ä¿¡æ¯ï¼Œç™»é™†æ—¶å‘å…¨éƒ¨10ä¸ªï¼Œä»¥åæ¯æ¬¡å¯èƒ½ä¸€ä¸ªï¼Œå¯èƒ½å‡ ä¸ª
-	public long awardexp; // å¥–åŠ±ç»éªŒ
-	public long awardsilver; // å¥–åŠ±é“¶å¸
-	public long swardgold; // å¥–åŠ±é‡‘å¸
-	public long jointime; // é¦–æ¬¡å‚åŠ æ—¶é—´
-	public int legendpos; // å½“å‰çš„åœ¨ä¼ è¯´ä»»åŠ¡ï¼Œå¦‚æœæ˜¯è¶…å‡º0~7ï¼ˆæ˜¾ç¤ºèŒƒå›´ï¼‰å¤–çš„å€¼ï¼Œä»£è¡¨å½“å‰æ²¡æœ‰ä¼ è¯´ä»»åŠ¡
+	public int times; // ÈÎÎñÀÛ¼Æ´ÎÊı
+	public int renxins; // ÒÑ¾­ÈÎĞÔ´ÎÊı
+	public java.util.ArrayList<fire.pb.circletask.anye.AnYeTask> anyetasks; // ÈÎÎñĞÅÏ¢£¬µÇÂ½Ê±·¢È«²¿10¸ö£¬ÒÔºóÃ¿´Î¿ÉÄÜÒ»¸ö£¬¿ÉÄÜ¼¸¸ö
+	public long awardexp; // ½±Àø¾­Ñé
+	public long awardsilver; // ½±ÀøÒø±Ò
+	public long swardgold; // ½±Àø½ğ±Ò
+	public long jointime; // Ê×´Î²Î¼ÓÊ±¼ä
+	public int legendpos; // µ±Ç°µÄÔÚ´«ËµÈÎÎñ£¬Èç¹ûÊÇ³¬³ö0~7£¨ÏÔÊ¾·¶Î§£©ÍâµÄÖµ£¬´ú±íµ±Ç°Ã»ÓĞ´«ËµÈÎÎñ
 
 	public SRefreshAnYeData() {
 		anyetasks = new java.util.ArrayList<fire.pb.circletask.anye.AnYeTask>();

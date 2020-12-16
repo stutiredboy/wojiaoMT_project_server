@@ -25,10 +25,10 @@ public class SCantRequestAsPrentice extends __SCantRequestAsPrentice__ {
 		return 816466;
 	}
 
-	public final static int Mask_Word = 0; // å±è”½å­—
+	public final static int Mask_Word = 0; // ÆÁ±Î×Ö
 
-	public long roleid; // è¯·æ±‚å¸ˆçˆ¶çš„id
-	public int reason; // å¤±è´¥åŸå› 
+	public long roleid; // ÇëÇóÊ¦¸¸µÄid
+	public int reason; // Ê§°ÜÔ­Òò
 
 	public SCantRequestAsPrentice() {
 	}

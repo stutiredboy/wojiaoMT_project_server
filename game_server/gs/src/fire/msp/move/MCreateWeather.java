@@ -25,7 +25,7 @@ public class MCreateWeather extends __MCreateWeather__ {
 		return 724932;
 	}
 
-	public byte weatherid; // å¤©æ°”Id
+	public byte weatherid; // ÌìÆøId
 	public long sceneid;
 	public java.lang.String tipsparm;
 	public long remaintime;

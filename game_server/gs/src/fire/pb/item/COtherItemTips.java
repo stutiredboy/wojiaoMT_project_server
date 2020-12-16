@@ -9,7 +9,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __COtherItemTips__ extends mkio.Protocol { }
 
-/** 摆摊Tip请求
+/** ��̯Tip����
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -31,7 +31,7 @@ public class COtherItemTips extends __COtherItemTips__ {
 
 		Octets tips = item.getTips();
 		if (tips == null) {
-			Module.logger.error("错误的tips请求,物品名:" + item.getName());
+			Module.logger.error("错误的tips请求,物品�?:" + item.getName());
 			return;
 		}
 		
@@ -47,7 +47,7 @@ public class COtherItemTips extends __COtherItemTips__ {
 		return 787767;
 	}
 
-	public long roleid; // 目标玩家的id
+	public long roleid; // Ŀ����ҵ�id
 	public int packid;
 	public int keyinpack;
 

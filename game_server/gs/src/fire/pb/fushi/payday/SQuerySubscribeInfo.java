@@ -25,8 +25,8 @@ public class SQuerySubscribeInfo extends __SQuerySubscribeInfo__ {
 		return 812598;
 	}
 
-	public long subscribetime; // æœ€è¿‘ä¸€æ¬¡è®¢é˜…æ—¶é—´
-	public long expiretime; // è¿‡æœŸæ—¶é—´
+	public long subscribetime; // ×î½üÒ»´Î¶©ÔÄÊ±¼ä
+	public long expiretime; // ¹ýÆÚÊ±¼ä
 
 	public SQuerySubscribeInfo() {
 	}

@@ -25,7 +25,7 @@ public class SGetChargeRefunds extends __SGetChargeRefunds__ {
 		return 812486;
 	}
 
-	public int result; // 0æ— èµ„æ ¼ï¼Œå¤±è´¥ã€‚ 1æˆåŠŸã€‚ 2å·²ç»é¢†å–ï¼Œå¤±è´¥ã€‚ 3æœªçŸ¥é”™è¯¯ï¼Œå¤±è´¥ã€‚
+	public int result; // 0ÎŞ×Ê¸ñ£¬Ê§°Ü¡£ 1³É¹¦¡£ 2ÒÑ¾­ÁìÈ¡£¬Ê§°Ü¡£ 3Î´Öª´íÎó£¬Ê§°Ü¡£
 
 	public SGetChargeRefunds() {
 	}

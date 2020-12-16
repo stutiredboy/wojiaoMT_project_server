@@ -40,7 +40,7 @@ public class CReqFushiInfo extends __CReqFushiInfo__ {
 				}
 			}
 			catch(Exception e){
-				FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("应用宝 发送玩家的符石信息错误：") , e);
+				FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("应用�? 发�?�玩家的符石信息错误�?") , e);
 			}
 		} 
 	}

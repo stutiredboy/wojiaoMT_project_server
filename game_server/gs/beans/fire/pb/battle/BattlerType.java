@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class BattlerType implements Marshal , Comparable<BattlerType>{
-	public final static int BATTLER_CHARACTER = 1; // 浜虹墿
-	public final static int BATTLER_PET = 2; // 瀹犵墿
-	public final static int BATTLER_MONSTER = 3; // 鎬墿
+	public final static int BATTLER_CHARACTER = 1; // 人物
+	public final static int BATTLER_PET = 2; // 宠物
+	public final static int BATTLER_MONSTER = 3; // 怪物
 
 
 	public BattlerType() {

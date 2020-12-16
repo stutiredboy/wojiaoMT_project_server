@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetDepotColumnAddCapacity__ extends mkio.Protocol { }
 
-/** å®¢æˆ·ç«¯è¯·æ±‚å® ç‰©ä»“åº“æ‰©å®¹
+/** ¿Í»§¶ËÇëÇó³èÎï²Ö¿âÀ©ÈÝ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

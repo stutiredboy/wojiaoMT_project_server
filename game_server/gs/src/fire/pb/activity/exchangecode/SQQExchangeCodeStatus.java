@@ -25,7 +25,7 @@ public class SQQExchangeCodeStatus extends __SQQExchangeCodeStatus__ {
 		return 819197;
 	}
 
-	public int status; // 0 = å…³ 1 = å¼€
+	public int status; // 0 = ¹Ø 1 = ¿ª
 
 	public SQQExchangeCodeStatus() {
 	}

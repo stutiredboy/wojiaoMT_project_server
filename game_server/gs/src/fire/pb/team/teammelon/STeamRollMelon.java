@@ -27,8 +27,8 @@ public class STeamRollMelon extends __STeamRollMelon__ {
 		return 794522;
 	}
 
-	public java.util.LinkedList<fire.pb.team.teammelon.RollMelon> melonlist; // æœ‰å¯èƒ½æ˜¯è¿ç»­å¥½å‡ ä¸ª by changhao
-	public int watcher; // 1æ˜¯è§‚å¯Ÿè€…0æ˜¯èƒ½ROLLçš„ by changhao
+	public java.util.LinkedList<fire.pb.team.teammelon.RollMelon> melonlist; // ÓĞ¿ÉÄÜÊÇÁ¬ĞøºÃ¼¸¸ö by changhao
+	public int watcher; // 1ÊÇ¹Û²ìÕß0ÊÇÄÜROLLµÄ by changhao
 
 	public STeamRollMelon() {
 		melonlist = new java.util.LinkedList<fire.pb.team.teammelon.RollMelon>();

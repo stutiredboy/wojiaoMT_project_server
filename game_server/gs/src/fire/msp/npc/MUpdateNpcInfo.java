@@ -29,7 +29,7 @@ public class MUpdateNpcInfo extends __MUpdateNpcInfo__ {
 
 				}
 
-				// 如果需要在npc创建后触发一些事件,可以在这个procedure里面写
+				// 如果�?要在npc创建后触发一些事�?,可以在这个procedure里面�?
 				pexecuteWhileCommit(new PExecuteAfterNpcCreate(npcs));
 				return true;
 			}

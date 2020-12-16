@@ -48,7 +48,7 @@ public class CRequstShopPrice extends __CRequstShopPrice__ {
 		return 810635;
 	}
 
-	public int shopid; // å•†åº—åºå·
+	public int shopid; // ÉÌµêĞòºÅ
 
 	public CRequstShopPrice() {
 	}

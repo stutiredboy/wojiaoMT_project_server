@@ -42,7 +42,7 @@ public class CSetPilotType extends __CSetPilotType__ {
 		return 786543;
 	}
 
-	public int pilottype; // 閫傞厤寮曞绫诲瀷  0鏂版墜 1鑰佹墜
+	public int pilottype; // 适配引导类型  0新手 1老手
 
 	public CSetPilotType() {
 	}

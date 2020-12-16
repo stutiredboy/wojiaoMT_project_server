@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetRolesLevel__ extends mkio.Protocol { }
 
-/** è·å–ä¸€æ‰¹è§’è‰²ç­‰çº§
+/** »ñÈ¡Ò»Åú½ÇÉ«µÈ¼¶
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -49,7 +49,7 @@ public class CGetRolesLevel extends __CGetRolesLevel__ {
 		return 806645;
 	}
 
-	public java.util.ArrayList<Long> roles; // ä¸€æ‰¹è§’è‰²id
+	public java.util.ArrayList<Long> roles; // Ò»Åú½ÇÉ«id
 	public int gettype;
 
 	public CGetRolesLevel() {

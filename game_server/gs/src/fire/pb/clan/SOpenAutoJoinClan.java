@@ -25,8 +25,8 @@ public class SOpenAutoJoinClan extends __SOpenAutoJoinClan__ {
 		return 808499;
 	}
 
-	public int autostate; // å¼€å¯çŠ¶æ€ï¼š0å…³é—­  1å¼€å¯
-	public short requestlevel; // ç”³è¯·å…¬ä¼šç­‰çº§é™åˆ¶
+	public int autostate; // ¿ªÆô×´Ì¬£º0¹Ø±Õ  1¿ªÆô
+	public short requestlevel; // ÉêÇë¹«»áµÈ¼¶ÏŞÖÆ
 
 	public SOpenAutoJoinClan() {
 	}

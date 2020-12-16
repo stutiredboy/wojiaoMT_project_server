@@ -25,7 +25,7 @@ public class SAskforSetLeader extends __SAskforSetLeader__ {
 		return 794454;
 	}
 
-	public long leaderid; // é˜Ÿé•¿ID
+	public long leaderid; // ¶Ó³¤ID
 
 	public SAskforSetLeader() {
 	}

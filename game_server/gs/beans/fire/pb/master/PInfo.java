@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PInfo implements Marshal {
-	public fire.pb.master.PBaseInfo prentice; // 徒弟的基本信息
-	public java.util.HashMap<Integer,fire.pb.master.Achive> achivemap; // 徒弟的成就
+	public fire.pb.master.PBaseInfo prentice; // ͽ�ܵĻ�����Ϣ
+	public java.util.HashMap<Integer,fire.pb.master.Achive> achivemap; // ͽ�ܵĳɾ�
 
 	public PInfo() {
 		prentice = new fire.pb.master.PBaseInfo();

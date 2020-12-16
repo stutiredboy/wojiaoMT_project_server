@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SNotifyBuySuccess__ extends mkio.Protocol { }
 
-/** 鐢ㄤ簬瀹㈡埛绔鐞嗚喘涔版垚鍔熸椂閫氱煡
+/** 用于客户端处理购买成功时通知
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,13 +27,13 @@ public class SNotifyBuySuccess extends __SNotifyBuySuccess__ {
 		return 810657;
 	}
 
-	public int notifytype; // 鍙傝�僑hopBuyType
-	public java.lang.String name; // 鍚嶇О
-	public int number; // 鏁伴噺
-	public int money; // 閲戦
-	public int currency; // 鍙傝�僊oneyType
-	public int itemorpet; // 1閬撳叿 2瀹犵墿
-	public java.lang.String units; // 鍗曚綅
+	public int notifytype; // 参考ShopBuyType
+	public java.lang.String name; // 名称
+	public int number; // 数量
+	public int money; // 金额
+	public int currency; // 参考MoneyType
+	public int itemorpet; // 1道具 2宠物
+	public java.lang.String units; // 单位
 
 	public SNotifyBuySuccess() {
 		name = "";

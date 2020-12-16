@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class BattleToNpcError implements Marshal , Comparable<BattleToNpcError>{
-	public final static int NoTeam = -1; // æœªç»„é˜Ÿ
-	public final static int LeaderLevelIsNotEnough = -2; // é˜Ÿé•¿çº§åˆ«ä¸å¤Ÿ
-	public final static int TeamMemberIsNotEnough = -3; // é˜Ÿå‘˜äººæ•°ä¸å¤Ÿ
-	public final static int NpcOnBattle = -4; // npcæ­£åœ¨æˆ˜æ–—
+	public final static int NoTeam = -1; // Î´×é¶Ó
+	public final static int LeaderLevelIsNotEnough = -2; // ¶Ó³¤¼¶±ğ²»¹»
+	public final static int TeamMemberIsNotEnough = -3; // ¶ÓÔ±ÈËÊı²»¹»
+	public final static int NpcOnBattle = -4; // npcÕıÔÚÕ½¶·
 
 
 	public BattleToNpcError() {

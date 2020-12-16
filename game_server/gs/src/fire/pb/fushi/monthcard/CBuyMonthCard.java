@@ -30,7 +30,7 @@ public class CBuyMonthCard extends __CBuyMonthCard__ {
 			@Override
 			protected boolean process()
 			{
-				if (fire.pb.fushi.Module.GetPayServiceType() == 0) //普通服才能购买月卡  by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 0) //普�?�服才能购买月卡  by changhao
 				{
 					boolean ok = fire.pb.fushi.MonthCardManager.getInstance().CheckMonthCardLimit(roleid);
 					if (ok)

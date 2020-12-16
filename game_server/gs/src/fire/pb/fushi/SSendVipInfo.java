@@ -25,20 +25,20 @@ public class SSendVipInfo extends __SSendVipInfo__ {
 		return 812489;
 	}
 
-	public final static int RIGHT_HUOBAN = 0; // åŠ©æˆ˜æ•°é‡
-	public final static int RIGHT_STORAGE = 1; // ä»“åº“æ ¼æ•°
-	public final static int RIGHT_PACKAGE = 2; // èƒŒåŒ…æ ¼æ•°
-	public final static int RIGHT_WEEKLY_DISCOUNT_COUNT = 3; // å‘¨æ‰“æŠ˜é™è´­æ•°é‡---é¢„ç•™2ä¸ªã€‚ã€‚ã€‚
-	public final static int RIGHT_EXT_YINFURATE = 4; // ç›ˆç¦ç»éªŒè½¬åŒ–ç‡
-	public final static int RIGHT_DAILY_GOODS_COUNT = 5; // å•†ä¼šæ¯æ—¥é™è´­æ•°é‡
-	public final static int RIGHT_PET_SLOT = 6; // å® ç‰©æ æ•°é‡
-	public final static int RIGHT_SUPPREG_COUNT = 7; // è¡¥ç­¾æ¬¡æ•°
+	public final static int RIGHT_HUOBAN = 0; // ÖúÕ½ÊıÁ¿
+	public final static int RIGHT_STORAGE = 1; // ²Ö¿â¸ñÊı
+	public final static int RIGHT_PACKAGE = 2; // ±³°ü¸ñÊı
+	public final static int RIGHT_WEEKLY_DISCOUNT_COUNT = 3; // ÖÜ´òÕÛÏŞ¹ºÊıÁ¿---Ô¤Áô2¸ö¡£¡£¡£
+	public final static int RIGHT_EXT_YINFURATE = 4; // Ó¯¸£¾­Ñé×ª»¯ÂÊ
+	public final static int RIGHT_DAILY_GOODS_COUNT = 5; // ÉÌ»áÃ¿ÈÕÏŞ¹ºÊıÁ¿
+	public final static int RIGHT_PET_SLOT = 6; // ³èÎïÀ¸ÊıÁ¿
+	public final static int RIGHT_SUPPREG_COUNT = 7; // ²¹Ç©´ÎÊı
 
-	public int vipexp; // å·²å……ç¬¦çŸ³æ•°é‡
-	public int viplevel; // vipç­‰çº§
-	public int bounus; // å¯é¢†å¥–åŠ±
-	public int gotbounus; // å·²é¢†å¥–åŠ±
-	public java.util.ArrayList<Integer> viprights; // ç‰¹æƒæ•°é‡
+	public int vipexp; // ÒÑ³ä·ûÊ¯ÊıÁ¿
+	public int viplevel; // vipµÈ¼¶
+	public int bounus; // ¿ÉÁì½±Àø
+	public int gotbounus; // ÒÑÁì½±Àø
+	public java.util.ArrayList<Integer> viprights; // ÌØÈ¨ÊıÁ¿
 
 	public SSendVipInfo() {
 		viprights = new java.util.ArrayList<Integer>();

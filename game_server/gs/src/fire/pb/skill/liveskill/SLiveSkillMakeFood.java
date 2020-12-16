@@ -25,8 +25,8 @@ public class SLiveSkillMakeFood extends __SLiveSkillMakeFood__ {
 		return 800522;
 	}
 
-	public int itemid; // å¦‚æœæˆåŠŸè¿”å›é“å…·ID å¦åˆ™0
-	public int ret; // è¿”å›ç»“æœ0æ˜¯åˆ¶ä½œæˆåŠŸ1æ˜¯åˆ¶ä½œå¤±è´¥äº† by changhao
+	public int itemid; // Èç¹û³É¹¦·µ»ØµÀ¾ßID ·ñÔò0
+	public int ret; // ·µ»Ø½á¹û0ÊÇÖÆ×÷³É¹¦1ÊÇÖÆ×÷Ê§°ÜÁË by changhao
 
 	public SLiveSkillMakeFood() {
 	}

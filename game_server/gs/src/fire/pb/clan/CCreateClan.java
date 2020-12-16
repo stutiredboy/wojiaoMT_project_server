@@ -40,7 +40,7 @@ public class CCreateClan extends __CCreateClan__ {
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
 		}
-		//需要屏蔽$符号，公告发送到聊天不能有$符号
+		//�?要屏�?$符号，公告发送到聊天不能�?$符号
 		if(clanaim.contains("$")){
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
@@ -86,8 +86,8 @@ public class CCreateClan extends __CCreateClan__ {
 		return 808450;
 	}
 
-	public java.lang.String clanname; // 公会名字
-	public java.lang.String clanaim; // 公会宗旨（公告）
+	public java.lang.String clanname; // ��������
+	public java.lang.String clanaim; // ������ּ�����棩
 
 	public CCreateClan() {
 		clanname = "";

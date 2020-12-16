@@ -5,7 +5,7 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ç§°è°“ è¯¦ç»†ä¿¡æ¯
+/** ³ÆÎ½ ÏêÏ¸ĞÅÏ¢
 */
 public class TitleInfo implements Marshal {
 	public int titleid;

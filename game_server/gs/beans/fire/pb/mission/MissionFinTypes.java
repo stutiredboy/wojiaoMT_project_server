@@ -14,8 +14,8 @@ public class MissionFinTypes implements Marshal , Comparable<MissionFinTypes>{
 	public final static int ITEMCOUNT = 5;
 	public final static int AREA = 6;
 	public final static int QUESTION = 7;
-	public final static int LEVEL = 8; // 绛夌骇
-	public final static int OTHER = 9; // 鍏朵粬
+	public final static int LEVEL = 8; // 等级
+	public final static int OTHER = 9; // 其他
 
 
 	public MissionFinTypes() {

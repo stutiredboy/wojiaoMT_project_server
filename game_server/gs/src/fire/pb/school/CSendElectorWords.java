@@ -15,7 +15,7 @@ abstract class __CSendElectorWords__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 发送竞选宣言 by changhao
+ * 发�?�竞选宣�? by changhao
  *
  */
 public class CSendElectorWords extends __CSendElectorWords__ {
@@ -60,7 +60,7 @@ public class CSendElectorWords extends __CSendElectorWords__ {
         if (modify == false)
         {
     		if (!ProfessionLeaderManager.getInstance().isInChallengePeriod(System.currentTimeMillis()))
-    		{//投票跟竞选时一个时间段
+    		{//投票跟竞选时�?个时间段
     			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141983, null);
     			return;
     		}        	

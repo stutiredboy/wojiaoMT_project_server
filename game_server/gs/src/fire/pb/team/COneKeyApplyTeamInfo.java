@@ -60,7 +60,7 @@ public class COneKeyApplyTeamInfo extends __COneKeyApplyTeamInfo__ {
 		return 794517;
 	}
 
-	public long teamid; // é˜Ÿä¼çš„ID by changhao
+	public long teamid; // ¶ÓÎéµÄID by changhao
 
 	public COneKeyApplyTeamInfo() {
 	}

@@ -43,7 +43,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(memberRoleId);
-				//先验证队伍是否为空
+				//先验证队伍是否为�?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
@@ -75,34 +75,34 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 					} else if (!checkMemberReturnStatusValid(memberRoleId))
 					{
 						// 成员处在不可归队的状态（战斗等）(illegal)
-						TeamManager.logger.debug("FAIL:成员处在不可归队的状态 , memberRoleId" + memberRoleId);
+						TeamManager.logger.debug("FAIL:成员处在不可归队的状�? , memberRoleId" + memberRoleId);
 					} else
 					{
 						if (team.isMemberInReturnScale(memberRoleId))
 						{
-							// 在回归范围之内
+							// 在回归范围之�?
 							if (checkTeamReturnStatusValid(team))
 							{
-								// 队伍处在可以归队的状态
-								// 改变队员为正常状态，并群发更新状态协议
+								// 队伍处在可以归队的状�?
+								// 改变队员为正常状态，并群发更新状态协�?
 								team.setTeamMemberStateWithSP(memberRoleId, TeamMemberState.eTeamNormal);
 								// 排序并广播队员新顺序
 //								team.updateMemberSequenceWithSendProtocol();
-								TeamManager.logger.debugWhileCommit("SUCC:队伍处在可以归队的状态，改变队员为正常状态 , memberRoleId" + memberRoleId);
+								TeamManager.logger.debugWhileCommit("SUCC:队伍处在可以归队的状态，改变队员为正常状�? , memberRoleId" + memberRoleId);
 							} else
 							{
-								// 队伍处在不可以归队的状态
-								// 改变队员为归队中状态，并群发更新状态协议
+								// 队伍处在不可以归队的状�??
+								// 改变队员为归队中状�?�，并群发更新状态协�?
 								team.setTeamMemberStateWithSP(memberRoleId, TeamMemberState.eTeamReturn);
-								TeamManager.logger.debugWhileCommit("SUCC:成员回归队伍,进入归队中状态 , memberRoleId" + memberRoleId);
+								TeamManager.logger.debugWhileCommit("SUCC:成员回归队伍,进入归队中状�? , memberRoleId" + memberRoleId);
 							}
 
 						} else
 						{
-							// 在回归范围之外
-							// TODO 自动寻路找队长 OR 返回不能回归的消息
+							// 在回归范围之�?
+							// TODO 自动寻路找队�? OR 返回不能回归的消�?
 							psend(memberRoleId, new STeamError(TeamError.TooFar));
-							TeamManager.logger.debug("FAIL:在回归范围之外 , memberRoleId" + memberRoleId);
+							TeamManager.logger.debug("FAIL:在回归范围之�? , memberRoleId" + memberRoleId);
 						}
 					}
 				}
@@ -120,7 +120,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 		answerCallbackP.submit();
 	}
 
-	//成员处在可以归队的状态?（不是战斗等状态）
+	//成员处在可以归队的状�??（不是战斗等状�?�）
 	private boolean checkMemberReturnStatusValid(long memberRoleId)
 	{
 		//TODO
@@ -133,7 +133,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 			return false;
 		}
 	}	
-	//队伍处在可以归队的状态?（不是战斗等状态）
+	//队伍处在可以归队的状�??（不是战斗等状�?�）
 	private boolean checkTeamReturnStatusValid(Team team)
 	{
 		//TODO
@@ -149,7 +149,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 		return 794457;
 	}
 
-	public byte agree; // 0 拒绝 1同意
+	public byte agree; // 0 �ܾ� 1ͬ��
 
 	public CAnswerforCallBack() {
 	}

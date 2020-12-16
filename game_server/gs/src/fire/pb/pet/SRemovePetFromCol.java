@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRemovePetFromCol__ extends mkio.Protocol { }
 
-/** é€šçŸ¥å®¢æˆ·ç«¯åˆ é™¤æŒ‡å®šå® ç‰©æ ä¸Šçš„æŒ‡å®škeyå¯¹åº”çš„å® ç‰©
+/** Í¨Öª¿Í»§¶ËÉ¾³ıÖ¸¶¨³èÎïÀ¸ÉÏµÄÖ¸¶¨key¶ÔÓ¦µÄ³èÎï
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SRemovePetFromCol extends __SRemovePetFromCol__ {
 		return 788445;
 	}
 
-	public int columnid; // å® ç‰©æ id
-	public int petkey; // è¦åˆ é™¤çš„å® ç‰©key
+	public int columnid; // ³èÎïÀ¸id
+	public int petkey; // ÒªÉ¾³ıµÄ³èÎïkey
 
 	public SRemovePetFromCol() {
 	}

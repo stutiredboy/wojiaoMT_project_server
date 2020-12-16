@@ -6,14 +6,14 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class KickErrConst implements Marshal , Comparable<KickErrConst>{
-	public final static int ERR_GM_KICKOUT = 2049; // è¢«GMè¸¢ä¸‹çº¿
-	public final static int ERR_SERVER_SHUTDOWN = 2050; // æœåŠ¡å™¨å…³é—­
-	public final static int ERR_GACD_PUNISH = 2051; // åå¤–æŒ‚ç­”é¢˜æ²¡æœ‰é€šè¿‡
-	public final static int ERR_RUN_TOO_FAST = 2052; // èµ°è·¯å¤ªå¿«è¢«è¸¢
-	public final static int ERR_GACD_WAIGUA = 2053; // ä½¿ç”¨å¤–æŒ‚
-	public final static int ERR_XUNBAO_SELLROLE = 2054; // æ‰¾å®ç½‘å¯„å”®è§’è‰²
-	public final static int ERR_FORBID_USER = 2055; // è´¦å·è¢«å•æœå°ç¦
-	public final static int ERR_GACD_KICKOUT = 2056; // gacdå‘-1è¸¢ç©å®¶ä¸‹çº¿
+	public final static int ERR_GM_KICKOUT = 2049; // ±»GMÌßÏÂÏß
+	public final static int ERR_SERVER_SHUTDOWN = 2050; // ·şÎñÆ÷¹Ø±Õ
+	public final static int ERR_GACD_PUNISH = 2051; // ·´Íâ¹Ò´ğÌâÃ»ÓĞÍ¨¹ı
+	public final static int ERR_RUN_TOO_FAST = 2052; // ×ßÂ·Ì«¿ì±»Ìß
+	public final static int ERR_GACD_WAIGUA = 2053; // Ê¹ÓÃÍâ¹Ò
+	public final static int ERR_XUNBAO_SELLROLE = 2054; // ÕÒ±¦Íø¼ÄÊÛ½ÇÉ«
+	public final static int ERR_FORBID_USER = 2055; // ÕËºÅ±»µ¥·ş·â½û
+	public final static int ERR_GACD_KICKOUT = 2056; // gacd·¢-1ÌßÍæ¼ÒÏÂÏß
 
 
 	public KickErrConst() {

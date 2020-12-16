@@ -11,7 +11,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReturnRoleList__ extends mkio.Protocol { }
 
-/** 客户端请求返回角色选择界面
+/** �ͻ������󷵻ؽ�ɫѡ�����
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -24,7 +24,7 @@ public class CReturnRoleList extends __CReturnRoleList__ {
 		gnet.link.Role role = Onlines.getInstance().find(this);
 		if(role == null)
 			return;
-		//判断是否能下线，并正常下线。下线完毕后，再发SReturnRoleList消息
+		//判断是否能下线，并正常下线�?�下线完毕后，再发SReturnRoleList消息
 		new fire.pb.state.PRoleOffline(role.getRoleid(),PRoleOffline.TYPE_CHOSEE_ROLE).submit();
 		
 	}

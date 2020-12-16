@@ -25,9 +25,9 @@ public class SClanAim extends __SClanAim__ {
 		return 808480;
 	}
 
-	public long clanid; // å…¬ä¼šid
-	public java.lang.String clanaim; // å…¬ä¼šå®—æ—¨
-	public java.lang.String oldclanname; // å…¬ä¼šæ›¾ç”¨å
+	public long clanid; // ¹«»áid
+	public java.lang.String clanaim; // ¹«»á×ÚÖ¼
+	public java.lang.String oldclanname; // ¹«»áÔøÓÃÃû
 
 	public SClanAim() {
 		clanaim = "";

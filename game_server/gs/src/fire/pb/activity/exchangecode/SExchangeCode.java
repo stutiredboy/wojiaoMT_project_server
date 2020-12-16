@@ -25,7 +25,7 @@ public class SExchangeCode extends __SExchangeCode__ {
 		return 819199;
 	}
 
-	public int flag; // 1 = æˆåŠŸ
+	public int flag; // 1 = ³É¹¦
 	public java.util.ArrayList<fire.pb.activity.exchangecode.ExchangeCodeRetInfo> iteminfos;
 
 	public SExchangeCode() {

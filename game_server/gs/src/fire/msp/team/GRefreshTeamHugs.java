@@ -26,7 +26,7 @@ public class GRefreshTeamHugs extends __GRefreshTeamHugs__ {
 	}
 
 	public long teamid;
-	public java.util.HashMap<Long,Long> hugs; // key=鎶辩殑浜鸿鑹睮d锛寁alue=琚姳鐨勪汉瑙掕壊id
+	public java.util.HashMap<Long,Long> hugs; // key=抱的人角色Id，value=被抱的人角色id
 
 	public GRefreshTeamHugs() {
 		hugs = new java.util.HashMap<Long,Long>();

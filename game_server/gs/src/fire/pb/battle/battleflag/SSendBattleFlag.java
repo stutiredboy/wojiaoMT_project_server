@@ -25,8 +25,8 @@ public class SSendBattleFlag extends __SSendBattleFlag__ {
 		return 793884;
 	}
 
-	public java.util.LinkedList<java.lang.String> friendflags; // 鍙嬫柟鏍囧織
-	public java.util.LinkedList<java.lang.String> enemyflags; // 鏁屾柟鏍囧織
+	public java.util.LinkedList<java.lang.String> friendflags; // 友方标志
+	public java.util.LinkedList<java.lang.String> enemyflags; // 敌方标志
 
 	public SSendBattleFlag() {
 		friendflags = new java.util.LinkedList<java.lang.String>();

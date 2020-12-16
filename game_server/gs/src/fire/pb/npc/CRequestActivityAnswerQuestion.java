@@ -31,7 +31,7 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 					fire.pb.activity.ActivityConfNew activity = RoleLiveness.getConfigActivity(fire.pb.mission.activelist.RoleLiveness.ANSWER_QUESTION);
 					
 					boolean start = fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().IsStart();
-					if (count < activity.maxnum && start == true) //一天次数上限 by changhao
+					if (count < activity.maxnum && start == true) //�?天次数上�? by changhao
 					{
 						xbean.Properties prop = xtable.Properties.select(roleid);
 						if (prop == null)
@@ -47,7 +47,7 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 						xbean.ActivityQuestion activityquestion = xtable.Roleid2activityquestion.get(roleid);
 						
 						final long now = java.util.Calendar.getInstance().getTimeInMillis();
-						if (activityquestion == null) //加入一个新的 by changhao
+						if (activityquestion == null) //加入�?个新�? by changhao
 						{
 							activityquestion = xbean.Pod.newActivityQuestion();
 							xtable.Roleid2activityquestion.insert(roleid, activityquestion);
@@ -64,7 +64,7 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 							}
 						}
 						
-						//发送题目 by changhao
+						//发�?�题�? by changhao
 						fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().sendQuestion(roleid, activityquestion, (byte)0);
 					}
 				}

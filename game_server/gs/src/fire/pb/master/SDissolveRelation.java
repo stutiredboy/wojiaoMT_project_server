@@ -25,9 +25,9 @@ public class SDissolveRelation extends __SDissolveRelation__ {
 		return 816450;
 	}
 
-	public int relation; // å…³ç³»,å¸ˆå‚…orå¾’å¼Ÿ
-	public int initiative; // æ˜¯å¦ä¸»åŠ¨ 0ä¸ºè¢«åŠ¨,1ä¸ºä¸»åŠ¨,2ä¸ºè‡ªåŠ¨
-	public long playerid; // ç©å®¶id
+	public int relation; // ¹ØÏµ,Ê¦¸µorÍ½µÜ
+	public int initiative; // ÊÇ·ñÖ÷¶¯ 0Îª±»¶¯,1ÎªÖ÷¶¯,2Îª×Ô¶¯
+	public long playerid; // Íæ¼Òid
 
 	public SDissolveRelation() {
 	}

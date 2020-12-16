@@ -35,7 +35,7 @@ public class CMissionDialogEnd extends __CMissionDialogEnd__ {
 		return 805458;
 	}
 
-	public int missionid; // ä»»åŠ¡id
+	public int missionid; // ÈÎÎñid
 
 	public CMissionDialogEnd() {
 	}

@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PetTypeEnum implements Marshal , Comparable<PetTypeEnum>{
-	public final static int WILD = 1; // é‡ç”Ÿ
-	public final static int BABY = 2; // å®å®
-	public final static int VARIATION = 3; // å˜å¼‚
-	public final static int SACREDANIMAL = 4; // ç¥å…½
+	public final static int WILD = 1; // Ò°Éú
+	public final static int BABY = 2; // ±¦±¦
+	public final static int VARIATION = 3; // ±äÒì
+	public final static int SACREDANIMAL = 4; // ÉñÊŞ
 
 
 	public PetTypeEnum() {

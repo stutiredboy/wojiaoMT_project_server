@@ -12,7 +12,7 @@ abstract class __CVoteCandidate__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 职业领袖开始投票
+ * 职业领袖�?始投�?
  * @author changhao
  *
  */
@@ -32,7 +32,7 @@ public class CVoteCandidate extends __CVoteCandidate__ {
 			return;
 		}
 		
-		//玩家等级大于等50级 by changhao
+		//玩家等级大于�?50�? by changhao
 		if(prop.getLevel() < SchoolConst.TOUPIAO_MINLEVEL)
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 190080, null);

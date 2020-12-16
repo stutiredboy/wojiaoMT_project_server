@@ -5,19 +5,19 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** å¸ˆå¾’ç³»ç»Ÿ å®šä¹‰åè®®
+/** Ê¦Í½ÏµÍ³ ¶¨ÒåĞ­Òé
 */
 public class DataConfig implements Marshal , Comparable<DataConfig>{
-	public final static int REG_MONEY = 20000; // ç™»è®°å¸ˆçˆ¶æ‰£é™¤çš„æ¸¸æˆå¸
-	public final static int MONEY1 = 10000; // å¾’å¼Ÿ3â€”â€”7å¤©ä¸åœ¨çº¿ï¼Œè§£é™¤å…³ç³»åéœ€æ‰£é™¤å¸ˆçˆ¶10000æ¸¸æˆå¸
-	public final static int MONEY2 = 100000; // å¾’å¼Ÿ3å¤©ä»¥å†…ä¸åœ¨çº¿ï¼Œè§£é™¤å…³ç³»åéœ€æ‰£é™¤å¸ˆçˆ¶100000æ¸¸æˆå¸
-	public final static int REN_QI = 100; // å¾’å¼Ÿ3å¤©ä»¥å†…ä¸åœ¨çº¿ï¼Œè§£é™¤å…³ç³»åéœ€æ‰£é™¤å¸ˆçˆ¶100äººæ°”å€¼
-	public final static int TAIXUEFUZI_ID = 10215; // å¤ªå­¦å¤«å­id
-	public final static int EVALUATER_LEVEL1 = 120; // å¸ˆçˆ¶æ”¶ç›Šä¸€
-	public final static int EVALUATER_LEVEL2 = 100; // å¸ˆçˆ¶æ”¶ç›ŠäºŒ
-	public final static int EVALUATER_LEVEL3 = 80; // å¸ˆçˆ¶æ”¶ç›Šä¸‰
-	public final static int EVALUATER_LEVEL4 = 60; // å¸ˆçˆ¶æ”¶ç›Šå››
-	public final static int EVALUATER_LEVEL5 = 40; // å¸ˆçˆ¶æ”¶ç›Šäº”
+	public final static int REG_MONEY = 20000; // µÇ¼ÇÊ¦¸¸¿Û³ıµÄÓÎÏ·±Ò
+	public final static int MONEY1 = 10000; // Í½µÜ3¡ª¡ª7Ìì²»ÔÚÏß£¬½â³ı¹ØÏµºóĞè¿Û³ıÊ¦¸¸10000ÓÎÏ·±Ò
+	public final static int MONEY2 = 100000; // Í½µÜ3ÌìÒÔÄÚ²»ÔÚÏß£¬½â³ı¹ØÏµºóĞè¿Û³ıÊ¦¸¸100000ÓÎÏ·±Ò
+	public final static int REN_QI = 100; // Í½µÜ3ÌìÒÔÄÚ²»ÔÚÏß£¬½â³ı¹ØÏµºóĞè¿Û³ıÊ¦¸¸100ÈËÆøÖµ
+	public final static int TAIXUEFUZI_ID = 10215; // Ì«Ñ§·ò×Óid
+	public final static int EVALUATER_LEVEL1 = 120; // Ê¦¸¸ÊÕÒæÒ»
+	public final static int EVALUATER_LEVEL2 = 100; // Ê¦¸¸ÊÕÒæ¶ş
+	public final static int EVALUATER_LEVEL3 = 80; // Ê¦¸¸ÊÕÒæÈı
+	public final static int EVALUATER_LEVEL4 = 60; // Ê¦¸¸ÊÕÒæËÄ
+	public final static int EVALUATER_LEVEL5 = 40; // Ê¦¸¸ÊÕÒæÎå
 
 
 	public DataConfig() {

@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SRRedPackNum implements Marshal , Comparable<SRRedPackNum>{
-	public int modeltype; // çº¢åŒ…ç±»å‹
-	public int redpacksendnum; // å‘çº¢åŒ…æ•°é‡
-	public int redpackreceivenum; // æ”¶çº¢åŒ…æ•°é‡
-	public int redpackreceivefushinum; // å‘ç¬¦çŸ³æ•°é‡
+	public int modeltype; // ºì°üÀàĞÍ
+	public int redpacksendnum; // ·¢ºì°üÊıÁ¿
+	public int redpackreceivenum; // ÊÕºì°üÊıÁ¿
+	public int redpackreceivefushinum; // ·¢·ûÊ¯ÊıÁ¿
 
 	public SRRedPackNum() {
 	}

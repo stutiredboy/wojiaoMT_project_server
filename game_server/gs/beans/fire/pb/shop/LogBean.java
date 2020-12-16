@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class LogBean implements Marshal , Comparable<LogBean>{
-	public int itemid; // é“å…·id
-	public int num; // æ•°é‡
-	public int price; // ä»·æ ¼
-	public int level; // ç­‰çº§æˆ–å“è´¨
+	public int itemid; // µÀ¾ßid
+	public int num; // ÊıÁ¿
+	public int price; // ¼Û¸ñ
+	public int level; // µÈ¼¶»òÆ·ÖÊ
 
 	public LogBean() {
 	}

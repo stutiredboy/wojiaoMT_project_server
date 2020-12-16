@@ -25,10 +25,10 @@ public class SSendImpExamStart extends __SSendImpExamStart__ {
 		return 795465;
 	}
 
-	public long remaintime; // è·ç¦»æ´»åŠ¨ç»“æŸæ—¶é—´æ¯«ç§’
+	public long remaintime; // ¾àÀë»î¶¯½áÊøÊ±¼äºÁÃë
 	public byte impexamtype;
-	public int historymaxright; // å†å²æœ€å¤šç­”å¯¹é¢˜ç›®æ•°
-	public long historymintime; // å†å²æœ€çŸ­ç”¨æ—¶
+	public int historymaxright; // ÀúÊ·×î¶à´ğ¶ÔÌâÄ¿Êı
+	public long historymintime; // ÀúÊ·×î¶ÌÓÃÊ±
 
 	public SSendImpExamStart() {
 	}

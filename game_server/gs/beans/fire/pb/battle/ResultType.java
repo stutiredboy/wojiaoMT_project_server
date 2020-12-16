@@ -6,31 +6,31 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ResultType implements Marshal , Comparable<ResultType>{
-	public final static int RESULT_HPCHANGE = 1; // 1:ç›®æ ‡HPå˜åŒ–
-	public final static int RESULT_MPCHANGE = 2; // 2:ç›®æ ‡MPå˜åŒ–
-	public final static int RESULT_SPCHANGE = 4; // 3:ç›®æ ‡SPå˜åŒ–
-	public final static int RESULT_ULHPCHANGE = 8; // 4:å½“å‰è¡€ä¸Šé™ï¼ˆä¼¤ï¼‰å˜åŒ–
-	public final static int RESULT_REST = 16; // 5:ä¼‘æ¯
-	public final static int RESULT_HURT = 32; // 6:ç›®æ ‡å—ä¼¤
-	public final static int RESULT_CRITIC = 64; // 7:ç›®æ ‡è¢«æš´å‡»
-	public final static int RESULT_DEFENCE = 128; // 8:ç›®æ ‡é˜²å¾¡
-	public final static int RESULT_PARRY = 256; // 9:ç›®æ ‡æ‹›æ¶ï¼ˆç±»ä¼¼èº²é—ªï¼Œåªæœ‰æ™®é€šæ”»å‡»ä¼šè§¦å‘æ‹›æ¶ï¼‰
-	public final static int RESULT_DODGE = 512; // 10:ç›®æ ‡é—ªé¿
-	public final static int RESULT_RUNAWAY = 1024; // 11:ç›®æ ‡é€ƒè·‘
-	public final static int RESULT_SEIZE = 2048; // 12:ç›®æ ‡è¢«æ•æ‰
-	public final static int RESULT_SUMMONBACK = 4096; // 13:ç›®æ ‡è¢«å¬å›
-	public final static int RESULT_DEATH = 8192; // 14:ç›®æ ‡æ­»äº¡ï¼Œå€’åœ¨åŸåœ°
-	public final static int RESULT_KICKOUT = 16384; // 15:ç›®æ ‡è¢«å‡»é£ï¼ˆæ²¡æœ‰é¬¼é­‚æŠ€èƒ½çš„æ€ªå’Œå® ç‰©æ­»äº¡æ—¶ï¼‰
-	public final static int RESULT_GHOST = 32768; // 16:ç›®æ ‡è¿›å…¥é¬¼é­‚çŠ¶æ€ï¼ˆæœ‰é¬¼é­‚æŠ€èƒ½çš„æ€ªå’Œå® ç‰©æ­»äº¡æ—¶ï¼‰
-	public final static int RESULT_RELIVE = 65536; // 17:å¤æ´»
-	public final static int RESULT_SUMMONPET = 131072; // 18:ç›®æ ‡æ‹›å”¤å® ç‰©
-	public final static int RESULT_IGNORE_PHYDIC_EFEN = 262144; // 19:å¿½ç•¥é˜²å¾¡
-	public final static int RESULT_ABORBE = 524288; // 20:å¸æ”¶
-	public final static int RESULT_FIRE_MANA = 1048576; // 21:çƒ§è“
-	public final static int RESULT_GODBLESS = 2097152; // 22:ç¥ä½‘
-	public final static int RESULT_EPCHANGE = 4194304; // 23:ç›®æ ‡EPå˜åŒ–
-	public final static int RESULT_DEAD_FULL_RELIVE = 8388608; // 24:æ»¡è¡€å¤æ´»
-	public final static int RESULT_SHAPECHAGE = 16777216; // 25:æ¨¡å‹æ”¹å˜
+	public final static int RESULT_HPCHANGE = 1; // 1:Ä¿±êHP±ä»¯
+	public final static int RESULT_MPCHANGE = 2; // 2:Ä¿±êMP±ä»¯
+	public final static int RESULT_SPCHANGE = 4; // 3:Ä¿±êSP±ä»¯
+	public final static int RESULT_ULHPCHANGE = 8; // 4:µ±Ç°ÑªÉÏÏŞ£¨ÉË£©±ä»¯
+	public final static int RESULT_REST = 16; // 5:ĞİÏ¢
+	public final static int RESULT_HURT = 32; // 6:Ä¿±êÊÜÉË
+	public final static int RESULT_CRITIC = 64; // 7:Ä¿±ê±»±©»÷
+	public final static int RESULT_DEFENCE = 128; // 8:Ä¿±ê·ÀÓù
+	public final static int RESULT_PARRY = 256; // 9:Ä¿±êÕĞ¼Ü£¨ÀàËÆ¶ãÉÁ£¬Ö»ÓĞÆÕÍ¨¹¥»÷»á´¥·¢ÕĞ¼Ü£©
+	public final static int RESULT_DODGE = 512; // 10:Ä¿±êÉÁ±Ü
+	public final static int RESULT_RUNAWAY = 1024; // 11:Ä¿±êÌÓÅÜ
+	public final static int RESULT_SEIZE = 2048; // 12:Ä¿±ê±»²¶×½
+	public final static int RESULT_SUMMONBACK = 4096; // 13:Ä¿±ê±»ÕÙ»Ø
+	public final static int RESULT_DEATH = 8192; // 14:Ä¿±êËÀÍö£¬µ¹ÔÚÔ­µØ
+	public final static int RESULT_KICKOUT = 16384; // 15:Ä¿±ê±»»÷·É£¨Ã»ÓĞ¹í»ê¼¼ÄÜµÄ¹ÖºÍ³èÎïËÀÍöÊ±£©
+	public final static int RESULT_GHOST = 32768; // 16:Ä¿±ê½øÈë¹í»ê×´Ì¬£¨ÓĞ¹í»ê¼¼ÄÜµÄ¹ÖºÍ³èÎïËÀÍöÊ±£©
+	public final static int RESULT_RELIVE = 65536; // 17:¸´»î
+	public final static int RESULT_SUMMONPET = 131072; // 18:Ä¿±êÕĞ»½³èÎï
+	public final static int RESULT_IGNORE_PHYDIC_EFEN = 262144; // 19:ºöÂÔ·ÀÓù
+	public final static int RESULT_ABORBE = 524288; // 20:ÎüÊÕ
+	public final static int RESULT_FIRE_MANA = 1048576; // 21:ÉÕÀ¶
+	public final static int RESULT_GODBLESS = 2097152; // 22:ÉñÓÓ
+	public final static int RESULT_EPCHANGE = 4194304; // 23:Ä¿±êEP±ä»¯
+	public final static int RESULT_DEAD_FULL_RELIVE = 8388608; // 24:ÂúÑª¸´»î
+	public final static int RESULT_SHAPECHAGE = 16777216; // 25:Ä£ĞÍ¸Ä±ä
 
 
 	public ResultType() {

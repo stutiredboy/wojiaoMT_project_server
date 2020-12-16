@@ -33,7 +33,7 @@ public class CGetFestivalReward extends __CGetFestivalReward__ {
 		return 810537;
 	}
 
-	public int rewardid; // æ´»åŠ¨å¥–åŠ±id
+	public int rewardid; // »î¶¯½±Àøid
 
 	public CGetFestivalReward() {
 	}

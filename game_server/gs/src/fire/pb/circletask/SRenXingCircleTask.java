@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRenXingCircleTask__ extends mkio.Protocol { }
 
-/** ä»»æ€§ä»»åŠ¡ç›¸å…³
+/** ÈÎĞÔÈÎÎñÏà¹Ø
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SRenXingCircleTask extends __SRenXingCircleTask__ {
 		return 807450;
 	}
 
-	public int serviceid; // è¯¥æœåŠ¡id
-	public int questid; // ä»»åŠ¡id
-	public int renxingtimes; // å·²ç»ä»»æ€§çš„æ¬¡æ•°
+	public int serviceid; // ¸Ã·şÎñid
+	public int questid; // ÈÎÎñid
+	public int renxingtimes; // ÒÑ¾­ÈÎĞÔµÄ´ÎÊı
 	public long npckey; // npckey
 
 	public SRenXingCircleTask() {

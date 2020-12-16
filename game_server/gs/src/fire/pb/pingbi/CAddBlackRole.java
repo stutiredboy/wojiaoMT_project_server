@@ -27,7 +27,7 @@ public class CAddBlackRole extends __CAddBlackRole__ {
 		return 819148;
 	}
 
-	public long roleid; // 绉婚櫎鐨勭洰鏍囪鑹瞚d
+	public long roleid; // 移除的目标角色id
 
 	public CAddBlackRole() {
 	}

@@ -18,7 +18,7 @@ public class CAbandonAnYe extends __CAbandonAnYe__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		CircleTaskManager.logger.info("收到放弃暗夜任务消息.角色[" + roleid + "]要放弃暗夜任务:" + questid);
+		CircleTaskManager.logger.info("收到放弃暗夜任务消息.角色[" + roleid + "]要放弃暗夜任�?:" + questid);
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
@@ -37,7 +37,7 @@ public class CAbandonAnYe extends __CAbandonAnYe__ {
 		return 807460;
 	}
 
-	public int questid; // 放弃的任务id(暗夜马戏团1080000)
+	public int questid; // ����������id(��ҹ��Ϸ��1080000)
 
 	public CAbandonAnYe() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSignList__ extends mkio.Protocol { }
 
-/** 绛惧悕鍒楄〃
+/** 签名列表
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SSignList extends __SSignList__ {
 		return 806683;
 	}
 
-	public java.util.HashMap<Long,java.lang.String> signcontentmap; // 绛惧悕鍒楄〃 key=瑙掕壊id value=绛惧悕鍐呭
+	public java.util.HashMap<Long,java.lang.String> signcontentmap; // 签名列表 key=角色id value=签名内容
 
 	public SSignList() {
 		signcontentmap = new java.util.HashMap<Long,java.lang.String>();

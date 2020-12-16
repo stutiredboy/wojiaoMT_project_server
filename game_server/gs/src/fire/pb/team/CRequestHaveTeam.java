@@ -45,7 +45,7 @@ public class CRequestHaveTeam extends __CRequestHaveTeam__ {
 		return 794515;
 	}
 
-	public long roleid; // æŸä¸ªäººæ˜¯å¦æœ‰é˜Ÿ by changhao
+	public long roleid; // Ä³¸öÈËÊÇ·ñÓĞ¶Ó by changhao
 
 	public CRequestHaveTeam() {
 	}

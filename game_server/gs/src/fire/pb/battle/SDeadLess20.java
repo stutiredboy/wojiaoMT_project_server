@@ -25,7 +25,7 @@ public class SDeadLess20 extends __SDeadLess20__ {
 		return 793563;
 	}
 
-	public int eventtype; // ç±»å‹ï¼š0ä¸ºæ­»äº¡ï¼š1ä¸ºé€ƒè·‘
+	public int eventtype; // ÀàĞÍ£º0ÎªËÀÍö£º1ÎªÌÓÅÜ
 
 	public SDeadLess20() {
 	}

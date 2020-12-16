@@ -33,7 +33,7 @@ public class CUseTreasureMap extends __CUseTreasureMap__ {
 	}
 
 	public int itemkey;
-	public int maptype; // 0 普通藏宝图; 1 高级藏宝图
+	public int maptype; // 0 ��ͨ�ر�ͼ; 1 �߼��ر�ͼ
 
 	public CUseTreasureMap() {
 	}

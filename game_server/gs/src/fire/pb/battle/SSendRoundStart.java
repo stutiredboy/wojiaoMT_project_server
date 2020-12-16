@@ -25,9 +25,9 @@ public class SSendRoundStart extends __SSendRoundStart__ {
 		return 793435;
 	}
 
-	public int time; // å›åˆå¯æ“ä½œçš„æ—¶é—´ï¼Œå•ä½ä¸ºç§’ï¼Œé»˜è®¤ä¸º30
-	public int environment; // æˆ˜åœºç¯å¢ƒï¼Œå‚è€ƒBattleEnviroment
-	public java.util.HashMap<Integer,Integer> aiactions; // å›åˆè¯»ç§’å‰éœ€è¦æ’­æ”¾çš„AIAction key=fighter id; value=aiaction id;
+	public int time; // »ØºÏ¿É²Ù×÷µÄÊ±¼ä£¬µ¥Î»ÎªÃë£¬Ä¬ÈÏÎª30
+	public int environment; // Õ½³¡»·¾³£¬²Î¿¼BattleEnviroment
+	public java.util.HashMap<Integer,Integer> aiactions; // »ØºÏ¶ÁÃëÇ°ĞèÒª²¥·ÅµÄAIAction key=fighter id; value=aiaction id;
 
 	public SSendRoundStart() {
 		aiactions = new java.util.HashMap<Integer,Integer>();

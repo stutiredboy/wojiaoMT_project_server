@@ -30,7 +30,7 @@ public class CReqNewHandBattle extends __CReqNewHandBattle__ {
 		return 793584;
 	}
 
-	public final static int BASE_BATTLEID = 8401; // èµ·å§‹æˆ˜æ–—ID
+	public final static int BASE_BATTLEID = 8401; // ÆðÊ¼Õ½¶·ID
 
 
 	public CReqNewHandBattle() {

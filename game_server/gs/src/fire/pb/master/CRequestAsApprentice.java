@@ -25,7 +25,7 @@ public class CRequestAsApprentice extends __CRequestAsApprentice__ {
 		return 816439;
 	}
 
-	public long masterid; // è¯·æ±‚å¸ˆå‚…çš„id
+	public long masterid; // ÇëÇóÊ¦¸µµÄid
 
 	public CRequestAsApprentice() {
 	}

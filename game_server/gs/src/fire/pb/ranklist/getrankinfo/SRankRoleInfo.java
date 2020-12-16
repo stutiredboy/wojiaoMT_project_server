@@ -25,16 +25,16 @@ public class SRankRoleInfo extends __SRankRoleInfo__ {
 		return 810257;
 	}
 
-	public long roleid; // è§’è‰²Id
-	public java.lang.String rolename; // è§’è‰²å
-	public int shape; // è§’è‰²é€ å‹
-	public int level; // è§’è‰²ç­‰çº§
-	public int zonghescore; // ç»¼åˆæˆ˜åŠ›
-	public int petscore; // å® ç‰©è¯„åˆ†
-	public int camp; // é˜µè¥
-	public int school; // èŒä¸š
-	public java.lang.String factionname; // å…¬ä¼šåç§°
-	public int rank; // æ’å
+	public long roleid; // ½ÇÉ«Id
+	public java.lang.String rolename; // ½ÇÉ«Ãû
+	public int shape; // ½ÇÉ«ÔìĞÍ
+	public int level; // ½ÇÉ«µÈ¼¶
+	public int zonghescore; // ×ÛºÏÕ½Á¦
+	public int petscore; // ³èÎïÆÀ·Ö
+	public int camp; // ÕóÓª
+	public int school; // Ö°Òµ
+	public java.lang.String factionname; // ¹«»áÃû³Æ
+	public int rank; // ÅÅÃû
 
 	public SRankRoleInfo() {
 		rolename = "";

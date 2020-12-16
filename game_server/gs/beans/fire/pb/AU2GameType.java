@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class AU2GameType implements Marshal , Comparable<AU2GameType>{
-	public final static int INVITE_FRIEND = 1; // æ¸¸æˆå†…å‘é‚®ä»¶é‚€è¯·å¥½å‹å›å½’
-	public final static int RECOMMEND_FRIEND = 2; // æ¨èå¥½å‹
-	public final static int PRESEND_CARD = 3; // ç¤¼å“å¡
-	public final static int QUICK_PAY = 4; // å¿«æ·æ”¯ä»˜
-	public final static int VIP_INFO = 5; // VIPä¿¡æ¯è·å–
-	public final static int QUICK_PAY_REQUEST = 6; // å¿«æ·æ”¯ä»˜è¯·æ±‚
+	public final static int INVITE_FRIEND = 1; // ÓÎÏ·ÄÚ·¢ÓÊ¼şÑûÇëºÃÓÑ»Ø¹é
+	public final static int RECOMMEND_FRIEND = 2; // ÍÆ¼öºÃÓÑ
+	public final static int PRESEND_CARD = 3; // ÀñÆ·¿¨
+	public final static int QUICK_PAY = 4; // ¿ì½İÖ§¸¶
+	public final static int VIP_INFO = 5; // VIPĞÅÏ¢»ñÈ¡
+	public final static int QUICK_PAY_REQUEST = 6; // ¿ì½İÖ§¸¶ÇëÇó
 
 
 	public AU2GameType() {

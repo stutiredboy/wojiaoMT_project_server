@@ -112,7 +112,7 @@ public class CAskIntoInstance extends __CAskIntoInstance__ {
 					return true;
 				}
 				
-				//è®¾ç½®ä¸ºåŒæ„
+				//è®¾ç½®ä¸ºåŒæ„?
 				SAnswerInstance answerInst = new SAnswerInstance();
 				answerInst.roleid = roleid;
 				answerInst.answer = 1;
@@ -169,8 +169,8 @@ public class CAskIntoInstance extends __CAskIntoInstance__ {
 		return 805539;
 	}
 
-	public short answer; // 1è¡¨ç¤ºåŒæ„, 0è¡¨ç¤ºä¸åŒæ„
-	public int insttype; // 0 æ—¥å¸¸å‰¯æœ¬; 1æ—¶å…‰ä¹‹ç©´
+	public short answer; // 1±íÊ¾Í¬Òâ, 0±íÊ¾²»Í¬Òâ
+	public int insttype; // 0 ÈÕ³£¸±±¾; 1Ê±¹âÖ®Ñ¨
 
 	public CAskIntoInstance() {
 	}

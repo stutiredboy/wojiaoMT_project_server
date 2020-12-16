@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CNotifyTeamMemeberSubmitItem__ extends mkio.Protocol { }
 
-/** æ—¶å…‰ä¹‹ç©´å‰¯æœ¬ end
+/** Ê±¹âÖ®Ñ¨¸±±¾ end
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class CNotifyTeamMemeberSubmitItem extends __CNotifyTeamMemeberSubmitItem
 		return 805477;
 	}
 
-	public int questid; // æäº¤çš„ç›¸å…³çš„ä»»åŠ¡
-	public long npckey; // æäº¤çš„npc
-	public int submittype; // æäº¤ç±»å‹: é“å…·0 æˆ–è€…å® ç‰©1
+	public int questid; // Ìá½»µÄÏà¹ØµÄÈÎÎñ
+	public long npckey; // Ìá½»µÄnpc
+	public int submittype; // Ìá½»ÀàĞÍ: µÀ¾ß0 »òÕß³èÎï1
 
 	public CNotifyTeamMemeberSubmitItem() {
 	}

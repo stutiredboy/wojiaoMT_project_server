@@ -25,10 +25,10 @@ public class SFactionRankInfo extends __SFactionRankInfo__ {
 		return 810262;
 	}
 
-	public long factionkey; // å…¬ä¼šid by changhao
-	public java.lang.String lastname; // æ›¾ç”¨å by changhao
-	public java.lang.String title; // å®—æ—¨ by changhao
-	public long factionmasterid; // ä¼šé•¿id by changhao
+	public long factionkey; // ¹«»áid by changhao
+	public java.lang.String lastname; // ÔøÓÃÃû by changhao
+	public java.lang.String title; // ×ÚÖ¼ by changhao
+	public long factionmasterid; // »á³¤id by changhao
 
 	public SFactionRankInfo() {
 		lastname = "";

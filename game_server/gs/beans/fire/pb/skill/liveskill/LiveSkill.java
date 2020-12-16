@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class LiveSkill implements Marshal , Comparable<LiveSkill>{
-	public int id; // 鐢熸椿鎶�鑳絠d by changhao
-	public int level; // 绛夌骇 by changhao
+	public int id; // 生活技能id by changhao
+	public int level; // 等级 by changhao
 
 	public LiveSkill() {
 	}

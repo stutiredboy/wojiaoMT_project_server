@@ -26,7 +26,7 @@ public class SRoleStop extends __SRoleStop__ {
 	}
 
 	public long roleid;
-	public fire.pb.move.Pos pos; // ‰ΩçÁΩÆ
+	public fire.pb.move.Pos pos; // Œª÷√
 
 	public SRoleStop() {
 		pos = new fire.pb.move.Pos();

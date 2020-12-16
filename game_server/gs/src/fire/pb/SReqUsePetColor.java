@@ -25,9 +25,9 @@ public class SReqUsePetColor extends __SReqUsePetColor__ {
 		return 786544;
 	}
 
-	public int petkey; // 瀹犵墿ID
-	public int colorpos1; // 閮ㄤ綅1
-	public int colorpos2; // 閮ㄤ綅2
+	public int petkey; // 宠物ID
+	public int colorpos1; // 部位1
+	public int colorpos2; // 部位2
 
 	public SReqUsePetColor() {
 	}

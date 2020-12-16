@@ -8,9 +8,9 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SNPCMoveTo__ extends mkio.Protocol { }
 
-/** <protocol  name="SRoleJumpStop" type="4048" maxsize="65535" prior="1">	æœåŠ¡å™¨å¹¿æ’­è§’è‰²è·³è·ƒåœæ­¢
-		<variable name="roleid" type="long"/>		 è§’è‰²ID	
-		<variable name="sceneID" type="long"/>   åœºæ™¯id
+/** <protocol  name="SRoleJumpStop" type="4048" maxsize="65535" prior="1">	·şÎñÆ÷¹ã²¥½ÇÉ«ÌøÔ¾Í£Ö¹
+		<variable name="roleid" type="long"/>		 ½ÇÉ«ID	
+		<variable name="sceneID" type="long"/>   ³¡¾°id
 	</protocol>
 */
 // DO NOT EDIT THIS }}}
@@ -31,8 +31,8 @@ public class SNPCMoveTo extends __SNPCMoveTo__ {
 	}
 
 	public long npckey; // npckey
-	public int speed; // é€Ÿåº¦
-	public fire.pb.move.Pos destpos; // ç›®çš„ç‚¹
+	public int speed; // ËÙ¶È
+	public fire.pb.move.Pos destpos; // Ä¿µÄµã
 
 	public SNPCMoveTo() {
 		destpos = new fire.pb.move.Pos();

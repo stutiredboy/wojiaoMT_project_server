@@ -25,7 +25,7 @@ public class CReqJionCamp extends __CReqJionCamp__ {
 		return 806558;
 	}
 
-	public byte camptype; // 1=éƒ¨è½ 2=è”ç›Ÿ
+	public byte camptype; // 1=²¿Âä 2=ÁªÃË
 
 	public CReqJionCamp() {
 	}

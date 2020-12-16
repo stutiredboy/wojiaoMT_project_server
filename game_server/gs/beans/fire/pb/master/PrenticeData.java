@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class PrenticeData implements Marshal {
-	public long roleid; // å¾’å¼Ÿçš„roleid
-	public java.lang.String rolename; // å¾’å¼Ÿçš„åå­—
-	public int flag; // è¿™ä¸ªå¾’å¼Ÿæ˜¯å¦å…è´¹ç½¢å… 1=å…è´¹ 0=æ”¶è´¹
+	public long roleid; // Í½µÜµÄroleid
+	public java.lang.String rolename; // Í½µÜµÄÃû×Ö
+	public int flag; // Õâ¸öÍ½µÜÊÇ·ñÃâ·Ñ°ÕÃâ 1=Ãâ·Ñ 0=ÊÕ·Ñ
 
 	public PrenticeData() {
 		rolename = "";

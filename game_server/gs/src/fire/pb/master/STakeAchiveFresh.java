@@ -25,9 +25,9 @@ public class STakeAchiveFresh extends __STakeAchiveFresh__ {
 		return 816483;
 	}
 
-	public long roleid; // å¾’å¼Ÿçš„roleid
-	public int key; // æˆå°±é€‰é¡¹å¥–åŠ±key(1~13)
-	public int flag; // 0=æœªå®Œæˆ 1=å®Œæˆ 2=å·²ç»é¢†å¥–
+	public long roleid; // Í½µÜµÄroleid
+	public int key; // ³É¾ÍÑ¡Ïî½±Àøkey(1~13)
+	public int flag; // 0=Î´Íê³É 1=Íê³É 2=ÒÑ¾­Áì½±
 
 	public STakeAchiveFresh() {
 	}

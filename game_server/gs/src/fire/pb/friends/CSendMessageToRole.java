@@ -33,8 +33,8 @@ public class CSendMessageToRole extends __CSendMessageToRole__ {
 
 	public long roleid;
 	public java.lang.String content;
-	public java.lang.String checkshiedmsg; // 妫�娴嬪睆钄藉瓧鐨勭函鏂囨湰
-	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfo; // 灞曠ず鐨勭墿鍝侊紝瀹犵墿锛屾妧鑳芥垨鑰呬慨鐐肩殑淇℃伅
+	public java.lang.String checkshiedmsg; // 检测屏蔽字的纯文本
+	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfo; // 展示的物品，宠物，技能或者修炼的信息
 
 	public CSendMessageToRole() {
 		content = "";

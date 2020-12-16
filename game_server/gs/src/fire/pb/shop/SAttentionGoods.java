@@ -25,10 +25,10 @@ public class SAttentionGoods extends __SAttentionGoods__ {
 		return 810659;
 	}
 
-	public int attentype; // å…³æ³¨çŠ¶æ€ 1è´­ä¹°ï¼Œ2å…¬ç¤º
-	public long id; // å”¯ä¸€id(æ˜¯æœåŠ¡å™¨æ•°æ®åº“çš„id)
-	public int attentiontype; // å…³æ³¨ç±»å‹ 1å…³æ³¨  2å–æ¶ˆå…³æ³¨
-	public int itemtype; // 1æ™®é€šé“å…· 2å® ç‰© 3è£…å¤‡
+	public int attentype; // ¹Ø×¢×´Ì¬ 1¹ºÂò£¬2¹«Ê¾
+	public long id; // Î¨Ò»id(ÊÇ·şÎñÆ÷Êı¾İ¿âµÄid)
+	public int attentiontype; // ¹Ø×¢ÀàĞÍ 1¹Ø×¢  2È¡Ïû¹Ø×¢
+	public int itemtype; // 1ÆÕÍ¨µÀ¾ß 2³èÎï 3×°±¸
 
 	public SAttentionGoods() {
 	}

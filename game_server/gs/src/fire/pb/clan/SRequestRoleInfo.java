@@ -25,7 +25,7 @@ public class SRequestRoleInfo extends __SRequestRoleInfo__ {
 		return 808503;
 	}
 
-	public fire.pb.clan.RoleInfoDes roleinfo; // è§’è‰²è¯¦æƒ…
+	public fire.pb.clan.RoleInfoDes roleinfo; // ½ÇÉ«ÏêÇé
 
 	public SRequestRoleInfo() {
 		roleinfo = new fire.pb.clan.RoleInfoDes();

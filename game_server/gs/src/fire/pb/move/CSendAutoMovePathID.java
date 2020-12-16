@@ -40,9 +40,9 @@ public class CSendAutoMovePathID extends __CSendAutoMovePathID__ {
 		return 790492;
 	}
 
-	public int pathid; // 宸℃父ID
-	public int pathid2; // 璺嚎ID
-	public int pathid3; // 璺嚎id3 by changhao
+	public int pathid; // 巡游ID
+	public int pathid2; // 路线ID
+	public int pathid3; // 路线id3 by changhao
 
 	public CSendAutoMovePathID() {
 	}

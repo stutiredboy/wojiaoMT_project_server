@@ -36,7 +36,7 @@ public class CMarketBrowse extends __CMarketBrowse__ {
 				long excuteTime = endTime - beginTime;
 				if (excuteTime > 20) {
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("æ‹å–æµè§ˆé“å…·ç”¨æ—¶ï¼š").append(excuteTime).append("æ¯«ç§’");
+					sbd.append("æ‹å–æµè§ˆé“å…·ç”¨æ—¶ï¼?").append(excuteTime).append("æ¯«ç§’");
 					fire.pb.shop.srv.market.MarketManager.LOG.error(sbd.toString());
 				}
 				return true;
@@ -55,16 +55,16 @@ public class CMarketBrowse extends __CMarketBrowse__ {
 		return 810639;
 	}
 
-	public int browsetype; // æµè§ˆç±»å‹  1 æˆ‘è¦è´­ä¹° 2å…¬ç¤ºç‰©å“
-	public int firstno; // ä¸€çº§é¡µç­¾ç±»å‹
-	public int twono; // äºŒçº§é¡µç­¾ç±»å‹
-	public java.util.ArrayList<Integer> threeno; // ä¸‰çº§é¡µç­¾ç±»å‹
-	public int itemtype; // ç‰©å“ç±»å‹
-	public int limitmin; // æ¡ä»¶ä¸‹é™
-	public int limitmax; // æ¡ä»¶ä¸Šé™
-	public int currpage; // å½“å‰é¡µ
-	public int pricesort; // ä»·æ ¼æ’åº  1å‡åº  2é™åº
-	public int issearch; // 0ç­›é€‰ 1æœç´¢
+	public int browsetype; // ä¯ÀÀÀàĞÍ  1 ÎÒÒª¹ºÂò 2¹«Ê¾ÎïÆ·
+	public int firstno; // Ò»¼¶Ò³Ç©ÀàĞÍ
+	public int twono; // ¶ş¼¶Ò³Ç©ÀàĞÍ
+	public java.util.ArrayList<Integer> threeno; // Èı¼¶Ò³Ç©ÀàĞÍ
+	public int itemtype; // ÎïÆ·ÀàĞÍ
+	public int limitmin; // Ìõ¼şÏÂÏŞ
+	public int limitmax; // Ìõ¼şÉÏÏŞ
+	public int currpage; // µ±Ç°Ò³
+	public int pricesort; // ¼Û¸ñÅÅĞò  1ÉıĞò  2½µĞò
+	public int issearch; // 0É¸Ñ¡ 1ËÑË÷
 
 	public CMarketBrowse() {
 		threeno = new java.util.ArrayList<Integer>();

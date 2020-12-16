@@ -53,14 +53,14 @@ public class CLiveDieBattleWatchView extends __CLiveDieBattleWatchView__ {
 		PropRole propRole = new PropRole(id, true);
 		LDRoleInfoDes lDRoleInfoDes = new LDRoleInfoDes();
 		lDRoleInfoDes.roleid=propRole.getRoleId();//角色Id
-		lDRoleInfoDes.rolename=propRole.getName();//角色名
+		lDRoleInfoDes.rolename=propRole.getName();//角色�?
 		lDRoleInfoDes.shape=propRole.getShape();//角色造型
 		lDRoleInfoDes.level=propRole.getLevel();//角色等级
 		lDRoleInfoDes.school=propRole.getSchool();//门派
 		Team team = TeamManager.selectTeamByRoleId(id);
 		if(team!=null&&team.getTeamLeaderId()==id){
 			lDRoleInfoDes.teamnum=team.getTeamInfo().getMembers().size()+1;//队伍当前人数
-			lDRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//队伍最大人数
+			lDRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//队伍�?大人�?
 		}else{
 			lDRoleInfoDes.teamnum=0;
 			lDRoleInfoDes.teamnummax=0;
