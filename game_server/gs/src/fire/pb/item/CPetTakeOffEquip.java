@@ -1,5 +1,5 @@
 
-package fire.pb.pet;
+package fire.pb.item;
 
 // {{{ RPCGEN_IMPORT_BEGIN
 // {{{ DO NOT EDIT THIS
@@ -19,10 +19,10 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 
 	// {{{ RPCGEN_DEFINE_BEGIN
 	// {{{ DO NOT EDIT THIS
-	public static final int PROTOCOL_TYPE = 788590;
+	public static final int PROTOCOL_TYPE = 787800;
 
 	public int getType() {
-		return 788590;
+		return 787800;
 	}
 
 	public int pet_equipkey;

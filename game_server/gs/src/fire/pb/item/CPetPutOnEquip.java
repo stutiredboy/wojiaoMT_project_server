@@ -1,5 +1,5 @@
 
-package fire.pb.pet;
+package fire.pb.item;
 
 // {{{ RPCGEN_IMPORT_BEGIN
 // {{{ DO NOT EDIT THIS
@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetPutOnEquip__ extends mkio.Protocol { }
 
-/** 宠物找回 2151-2160
+/** 道具找回 1361-1670
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -21,10 +21,10 @@ public class CPetPutOnEquip extends __CPetPutOnEquip__ {
 
 	// {{{ RPCGEN_DEFINE_BEGIN
 	// {{{ DO NOT EDIT THIS
-	public static final int PROTOCOL_TYPE = 788589;
+	public static final int PROTOCOL_TYPE = 787799;
 
 	public int getType() {
-		return 788589;
+		return 787799;
 	}
 
 	public int pet_packkey;
