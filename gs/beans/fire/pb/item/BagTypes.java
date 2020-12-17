@@ -7,13 +7,14 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class BagTypes implements Marshal , Comparable<BagTypes>{
 	public final static int EMPTY = 0;
-	public final static int BAG = 1; // 鑳屽寘
-	public final static int DEPOT = 2; // 浠撳簱
-	public final static int EQUIP = 3; // 瑁呭鑳屽寘
-	public final static int TEMP = 4; // 涓存椂鑳屽寘
-	public final static int QUEST = 5; // 浠诲姟鑳屽寘
-	public final static int MARKET = 6; // 鎷嶅崠鑳屽寘
-	public final static int BLACKMARKET = 7; // 榛戝競鑳屽寘
+	public final static int BAG = 1; // 背包
+	public final static int DEPOT = 2; // 仓库
+	public final static int EQUIP = 3; // 装备背包
+	public final static int TEMP = 4; // 临时背包
+	public final static int QUEST = 5; // 任务背包
+	public final static int MARKET = 6; // 拍卖背包
+	public final static int BLACKMARKET = 7; // 黑市背包
+	public final static int PETEQUIP = 8; // 宠物装备背包
 
 
 	public BagTypes() {

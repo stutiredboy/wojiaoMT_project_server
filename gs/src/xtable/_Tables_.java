@@ -299,6 +299,8 @@ public class _Tables_ extends mkdb.Tables {
 		add(properties);
 		add(roletasks);
 		add(appstoretidstatus);
+		add(petequip);
+		add(petequips);
 	}
 
 	// visible in package
@@ -3282,6 +3284,53 @@ public class _Tables_ extends mkdb.Tables {
 		@Override
 		public xbean.Equip newValue() {
 			xbean.Equip value = xbean.Pod.newEquip();
+			return value;
+		}
+
+	};
+	
+	mkdb.TTable<Long, xbean.PetEquip> petequips = new mkdb.TTable<Long, xbean.PetEquip>() {
+		@Override
+		public String getName() {
+			return "petequips";
+		}
+
+		@Override
+		protected mkdb.util.AutoKey<Long> bindAutoKey() {
+			return getInstance().getTableSys().getAutoKeys().getAutoKeyLong(getName());
+		}
+
+		@Override
+		public OctetsStream marshalKey(Long key) {
+			OctetsStream _os_ = new OctetsStream();
+			_os_.marshal(key);
+			return _os_;
+		}
+
+		@Override
+		public OctetsStream marshalValue(xbean.PetEquip value) {
+			OctetsStream _os_ = new OctetsStream();
+			value.marshal(_os_);
+			return _os_;
+		}
+
+		@Override
+		public Long unmarshalKey(OctetsStream _os_) throws MarshalException {
+			long key = 0;
+			key = _os_.unmarshal_long();
+			return key;
+		}
+
+		@Override
+		public xbean.PetEquip unmarshalValue(OctetsStream _os_) throws MarshalException {
+			xbean.PetEquip value = xbean.Pod.newPetEquip();
+			value.unmarshal(_os_);
+			return value;
+		}
+
+		@Override
+		public xbean.PetEquip newValue() {
+			xbean.PetEquip value = xbean.Pod.newPetEquip();
 			return value;
 		}
 
@@ -12045,7 +12094,47 @@ public class _Tables_ extends mkdb.Tables {
 		}
 
 	};
+	mkdb.TTable<Long, xbean.Bag> petequip = new mkdb.TTable<Long, xbean.Bag>() {
+		@Override
+		public String getName() {
+			return "petequip";
+		}
 
+		@Override
+		public OctetsStream marshalKey(Long key) {
+			OctetsStream _os_ = new OctetsStream();
+			_os_.marshal(key);
+			return _os_;
+		}
+
+		@Override
+		public OctetsStream marshalValue(xbean.Bag value) {
+			OctetsStream _os_ = new OctetsStream();
+			value.marshal(_os_);
+			return _os_;
+		}
+
+		@Override
+		public Long unmarshalKey(OctetsStream _os_) throws MarshalException {
+			long key = 0;
+			key = _os_.unmarshal_long();
+			return key;
+		}
+
+		@Override
+		public xbean.Bag unmarshalValue(OctetsStream _os_) throws MarshalException {
+			xbean.Bag value = xbean.Pod.newBag();
+			value.unmarshal(_os_);
+			return value;
+		}
+
+		@Override
+		public xbean.Bag newValue() {
+			xbean.Bag value = xbean.Pod.newBag();
+			return value;
+		}
+
+	};
 	mkdb.TTable<Long, xbean.RoleBestowInfo> rolebestow = new mkdb.TTable<Long, xbean.RoleBestowInfo>() {
 		@Override
 		public String getName() {
