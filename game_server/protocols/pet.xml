@@ -343,16 +343,4 @@
 		<variable name="petInfo" type="fire.pb.Pet"/> 宠物信息
 	</protocol>
 	<!-- 宠物找回 2151-2160 -->
-	
-	<protocol name="CPetPutOnEquip" type="2157" maxsize="128"  prior="1" tolua="3"> 宠物穿戴装备
-		<variable name="pet_packkey" type="int" validator="value=[1,)" />
-		<variable name="pet_dstPos" type="int" validator="value=[0,)" />
-		<variable name="petkey" type="int" validator="value=[1,)" />
-	</protocol>
-	
-	<protocol name="CPetTakeOffEquip" type="2158" maxsize="128"  prior="1" tolua="3"> 宠物脱下装备
-		<variable name="pet_equipkey" type="int" validator="value=[1,)" />
-		<variable name="pet_posinpack" type="int" validator="value=[-1,)" />
-		<variable name="petkey" type="int" validator="value=[1,)" />
-	</protocol>
 </namespace>

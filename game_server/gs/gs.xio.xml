@@ -681,6 +681,8 @@
 			<Protocol class="fire.pb.item.COpenItemBag" maxSize="16"/>
 			<Protocol class="fire.pb.item.COpenPack" maxSize="16"/>
 			<Protocol class="fire.pb.item.COtherItemTips" maxSize="1024"/>
+			<Protocol class="fire.pb.item.CPetPutOnEquip" maxSize="128"/>
+			<Protocol class="fire.pb.item.CPetTakeOffEquip" maxSize="128"/>
 			<Protocol class="fire.pb.item.CPutOnEquip" maxSize="128"/>
 			<Protocol class="fire.pb.item.CRecoverItemInfo" maxSize="65535"/>
 			<Protocol class="fire.pb.item.CReplaceGem" maxSize="16"/>
@@ -952,7 +954,6 @@
 			<Protocol class="fire.pb.pet.CPetDepotColumnAddCapacity" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetExpCultivate" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetLearnSkillByBook" maxSize="65535"/>
-			<Protocol class="fire.pb.pet.CPetPutOnEquip" maxSize="128"/>
 			<Protocol class="fire.pb.pet.CPetRecover" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetRecoverList" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetResetPoint" maxSize="65535"/>
@@ -960,7 +961,6 @@
 			<Protocol class="fire.pb.pet.CPetSetAutoAddPoint" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetSkillCertification" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetSynthesize" maxSize="65535"/>
-			<Protocol class="fire.pb.pet.CPetTakeOffEquip" maxSize="128"/>
 			<Protocol class="fire.pb.pet.CPetWash" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CRecoverPetInfo" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CSetFightPet" maxSize="65535"/>
