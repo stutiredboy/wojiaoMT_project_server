@@ -25,7 +25,7 @@ public class CReqJionActivity extends __CReqJionActivity__ {
 		return 805517;
 	}
 
-	public byte activitytype; // 1=½øÈëPVP
+	public byte activitytype; // 1=è¿›å…¥PVP
 
 	public CReqJionActivity() {
 	}

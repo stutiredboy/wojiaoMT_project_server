@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CXshSpace__ extends mkio.Protocol { }
 
-/** 踩说不得大师空间
+/** 韪╄涓嶅緱澶у笀绌洪棿
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

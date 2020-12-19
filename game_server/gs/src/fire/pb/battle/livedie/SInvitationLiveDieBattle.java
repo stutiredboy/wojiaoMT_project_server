@@ -27,7 +27,7 @@ public class SInvitationLiveDieBattle extends __SInvitationLiveDieBattle__ {
 
 	public long objectid;
 	public java.lang.String objectname;
-	public int selecttype; // 0单人   1组队
+	public int selecttype; // 0鍗曚汉   1缁勯槦
 	public int costmoney;
 
 	public SInvitationLiveDieBattle() {

@@ -25,8 +25,8 @@ public class SAcceptLiveDieBattleFirst extends __SAcceptLiveDieBattleFirst__ {
 		return 793849;
 	}
 
-	public long hostroleid; // 0表示没有发战书的人，大于0表示有发战书的人
-	public java.lang.String hostrolename; // 名称
+	public long hostroleid; // 0琛ㄧず娌℃湁鍙戞垬涔︾殑浜猴紝澶т簬0琛ㄧず鏈夊彂鎴樹功鐨勪汉
+	public java.lang.String hostrolename; // 鍚嶇О
 
 	public SAcceptLiveDieBattleFirst() {
 		hostrolename = "";

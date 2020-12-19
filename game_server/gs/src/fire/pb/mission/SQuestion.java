@@ -25,9 +25,9 @@ public class SQuestion extends __SQuestion__ {
 		return 805527;
 	}
 
-	public int lastresult; // 0 = Ã»ÓĞÉÏÒ»µÀÌâ£¬1 = ÕıÈ·£¬-1 = ´íÎó
+	public int lastresult; // 0 = æ²¡æœ‰ä¸Šä¸€é“é¢˜ï¼Œ1 = æ­£ç¡®ï¼Œ-1 = é”™è¯¯
 	public long npckey; // npckey
-	public int questionid; // ÎÊÌâID
+	public int questionid; // é—®é¢˜ID
 	public byte flag;
 
 	public SQuestion() {

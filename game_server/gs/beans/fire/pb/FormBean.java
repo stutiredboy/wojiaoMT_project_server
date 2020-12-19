@@ -7,8 +7,8 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class FormBean implements Marshal , Comparable<FormBean>{
 	public int activetimes;
-	public int level; // 等级
-	public int exp; // 经验 by changhao
+	public int level; // 绛夌骇
+	public int exp; // 缁忛獙 by changhao
 
 	public FormBean() {
 	}

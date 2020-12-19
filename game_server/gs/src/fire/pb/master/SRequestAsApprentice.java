@@ -25,11 +25,11 @@ public class SRequestAsApprentice extends __SRequestAsApprentice__ {
 		return 816440;
 	}
 
-	public long prenticeid; // Í½µÜid
-	public java.lang.String prenticename; // Í½µÜÃû³Æ
-	public int school; // Ö°Òµ
-	public int level; // µÈ¼¶
-	public java.lang.String requestword; // ÁôÑÔ
+	public long prenticeid; // å¾’å¼Ÿid
+	public java.lang.String prenticename; // å¾’å¼Ÿåç§°
+	public int school; // èŒä¸š
+	public int level; // ç­‰çº§
+	public java.lang.String requestword; // ç•™è¨€
 
 	public SRequestAsApprentice() {
 		prenticename = "";

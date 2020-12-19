@@ -54,24 +54,24 @@ public class CNpcService extends __CNpcService__ {
 			if(null == conf)
 				return false;
 			int curType = conf.getType();
-			//NPC服务映射表里各个类型的具体实�?
+			//NPC鏈嶅姟鏄犲皠琛ㄩ噷鍚勪釜绫诲瀷鐨勫叿浣撳疄鐜?
 			switch (curType) {
 			case NpcServiceMappingTypes.NONE: {
 				break;
 			}
 			case NpcServiceMappingTypes.ACCEPT_CIRCLE_TASK: {
-				//接受循环任务
+				//鎺ュ彈寰幆浠诲姟
 				int npcid = NpcServiceManager.getNpcIDByKey(npckey);
 				new PAcceptCircTask(roleid, npckey, npcid, conf.getParam1(), true).submit();
 				return true;
 			}
 			case NpcServiceMappingTypes.SUBMIT_CIRCLE_TASK: {
-				//提交循环任务
+				//鎻愪氦寰幆浠诲姟
 				new PSubmitCircleTask(conf.getParam1(), roleid, npckey, new java.util.ArrayList<fire.pb.npc.SubmitUnit>()).submit();
 				return true;
 			}
 			case NpcServiceMappingTypes.QUERY_CIRCLE_TASK: {
-				//查询循环任务
+				//鏌ヨ寰幆浠诲姟
 				int npcid = NpcServiceManager.getNpcIDByKey(npckey);
 				new fire.pb.circletask.catchit.PQueryCatchItTaskTime(roleid, npcid, conf.getParam1()).submit();
 				return true;
@@ -80,7 +80,7 @@ public class CNpcService extends __CNpcService__ {
 				break;
 			}
 			case NpcServiceMappingTypes.QUERY_CIRCLE_BATTLE: {
-				//进入循环任务明雷怪战�?
+				//杩涘叆寰幆浠诲姟鏄庨浄鎬垬鏂?
 				int npcid = NpcServiceManager.getNpcIDByKey(npckey);
 				EnterCatchItBattle enter = new EnterCatchItBattle(roleid, npckey, npcid, conf.getParam1());
 				enter.enterBattle();
@@ -92,18 +92,18 @@ public class CNpcService extends __CNpcService__ {
 				return true;
 			}
 			case NpcServiceMappingTypes.RENXING_CIRCLE_TASK: {
-				//任�?�一个任�?
+				//浠绘?т竴涓换鍔?
 				fire.pb.circletask.CircleTask sq = new CircleTask(roleid, true);
 				int renxingtimes = sq.getRenXingCircTaskCount(roleid, conf.getParam1());
 				gnet.link.Onlines.getInstance().send(roleid, new SRenXingCircleTask(serviceid, conf.getParam1(), renxingtimes, npckey));
 				return true;
 			}
 			case NpcServiceMappingTypes.CHALLENGE_NPC: {
-				//挑战npc
+				//鎸戞垬npc
 				int npcid = NpcServiceManager.getNpcIDByKey(npckey);
 				fire.pb.circletask.CircleTask sq = new CircleTask(roleid, true);
 				boolean ret = sq.exeCircTaskBattle(roleid, npckey, conf.getParam1(), npcid);
-				Module.logger.debug("玩家[" + roleid + "]" + "exeCircTaskBattle结果:" + ret);
+				Module.logger.debug("鐜╁[" + roleid + "]" + "exeCircTaskBattle缁撴灉:" + ret);
 				return true;
 			}
 			case NpcServiceMappingTypes.ENTER_INST: {
@@ -126,8 +126,8 @@ public class CNpcService extends __CNpcService__ {
 			}
 			return false;
 		} catch (Exception e) {
-			// TODO 自动生成�? catch �?
-			Module.logger.error("玩家[" + roleid + "]" + "serviceid:" + serviceid + "错误");
+			// TODO 鑷姩鐢熸垚鐨? catch 鍧?
+			Module.logger.error("鐜╁[" + roleid + "]" + "serviceid:" + serviceid + "閿欒");
 			return false;			
 		}
 	}
@@ -142,8 +142,8 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		if(100002 != serviceid && fire.pb.buff.Module.existState(roleid, fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER))
 			return;
-		// 按Alt+B 获取可加入家族列�?
-		//NPC奖励发放
+		// 鎸堿lt+B 鑾峰彇鍙姞鍏ュ鏃忓垪琛?
+		//NPC濂栧姳鍙戞斁
 		if(PNpcAwardProc.containedByNpcAward(this.serviceid)){
 			new PNpcAwardProc(roleid, this.serviceid).submit();
 			return;
@@ -201,15 +201,15 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		//serviceid -> type -> params 映射关系�?
+		//serviceid -> type -> params 鏄犲皠鍏崇郴琛?
 		if (dealNpcServiceMapping(roleid, serviceid)) {
-			Module.logger.error("NPC服务映射表处理了角色[" + roleid + "]的服务[" + serviceid + "].");
+			Module.logger.error("NPC鏈嶅姟鏄犲皠琛ㄥ鐞嗕簡瑙掕壊[" + roleid + "]鐨勬湇鍔" + serviceid + "].");
 			return;
 		}
 		
-		//处理送信类循环任务的服务
+		//澶勭悊閫佷俊绫诲惊鐜换鍔＄殑鏈嶅姟
 		if (CircleTaskManager.getInstance().isSendMailService(serviceid)){
-			Module.logger.info("角色[" + roleid + "]的服务[" + serviceid + "]是�?�信类循环任务服�?.");
+			Module.logger.info("瑙掕壊[" + roleid + "]鐨勬湇鍔" + serviceid + "]鏄?佷俊绫诲惊鐜换鍔℃湇鍔?.");
 			int npcid = NpcServiceManager.getNpcIDByKey(npckey);
 			new PSendMail2Dst(roleid, npcid, serviceid).submit();
 			return;
@@ -233,7 +233,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		// 如果是副本玩法内npc的服务，截走
+		// 濡傛灉鏄壇鏈帺娉曞唴npc鐨勬湇鍔★紝鎴蛋
 		if (share.npctype == 16) {
 			if (serviceid == NpcServices.WATCH_INST_NPC_BATTLE) {
 				new fire.pb.instancezone.PWatchNpcBattle(roleid, npckey).submit();
@@ -294,7 +294,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		//TODO 临时测试战斗�?,随时准备删除
+		//TODO 涓存椂娴嬭瘯鎴樻枟鐢?,闅忔椂鍑嗗鍒犻櫎
 		if (serviceid == 999999) {
 			new fire.pb.activity.timernpc.PFightProc(roleid, npcId, npckey).submit();
 			return;
@@ -306,28 +306,28 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		if (serviceid == NpcServices.LEADER_SEE_CAMPAIGN_LIST) {// 产看竞�?�名�?  by changhao
+		if (serviceid == NpcServices.LEADER_SEE_CAMPAIGN_LIST) {// 浜х湅绔為?夊悕鍗?  by changhao
 			new fire.pb.school.shouxi.PSendCandidateList(roleid, npckey).submit();
 			return;
 		}
-		if (serviceid == NpcServices.VOTING) {// 投票
+		if (serviceid == NpcServices.VOTING) {// 鎶曠エ
 			new CReqCandidatesList(roleid, npckey).process();
 			return;
 		}
-		if (serviceid == NpcServices.LEADER_CAMPAIGN) { //竞�?? by changhao
+		if (serviceid == NpcServices.LEADER_CAMPAIGN) { //绔為?? by changhao
 			new CCheckCanElect(roleid, npckey).process();
 			return;
 		}
-		if (serviceid == NpcServices.LEADER_CHALLENGE) {// 挑战首席
+		if (serviceid == NpcServices.LEADER_CHALLENGE) {// 鎸戞垬棣栧腑
 			new CChallengeShouXiDiZi(roleid, npckey).process();
 			return;
 		}
-		if (serviceid == NpcServices.LEADER_MY_CAMPAIGN) {// 刷新首席能力
+		if (serviceid == NpcServices.LEADER_MY_CAMPAIGN) {// 鍒锋柊棣栧腑鑳藉姏
 			new fire.pb.school.shouxi.PMyElector(roleid, npckey).submit();
 			return;
 		}
-		///////////////////冠军试炼start//////////////////////////////////////
-		if (serviceid == NpcServices.WINNER_START) {// 参加冠军试炼
+		///////////////////鍐犲啗璇曠偧start//////////////////////////////////////
+		if (serviceid == NpcServices.WINNER_START) {// 鍙傚姞鍐犲啗璇曠偧
 			new CReqStartWinner(roleid, npckey).process();
 			return;
 		}
@@ -335,7 +335,7 @@ public class CNpcService extends __CNpcService__ {
 			new CStartWinnerBattle(roleid, npckey).process();
 			return;
 		}
-		////////////////////////冠军试炼end//////////////////////////////////////
+		////////////////////////鍐犲啗璇曠偧end//////////////////////////////////////
 
 		
 		if (InstanceManager.getInstance().getInstNpcServers().contains(serviceid)) {
@@ -368,7 +368,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 
-		//打开冰封王座界面
+		//鎵撳紑鍐板皝鐜嬪骇鐣岄潰
 		if (serviceid == NpcServices.ENTER_BINGFENG) {
 			BingFengWangZuoConfig bfconfig = BingFengLandMgr.getInstance().getBingFengConfigByRoleLv(roleid);
 			if (bfconfig != null) {
@@ -392,12 +392,12 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 		
-		if(serviceid == 1987){//领取发微博奖�?
+		if(serviceid == 1987){//棰嗗彇鍙戝井鍗氬鍔?
 			new PTakeWeiBoAwardProc(roleid).submit();
 			return;
 		}
 
-		// PvP服务的处�?
+		// PvP鏈嶅姟鐨勫鐞?
 		IPvPServiceHandle sHandle = PvPServiceHandleFactory.create(serviceid);
 		if (sHandle != null) {
 			sHandle.handle(roleid, serviceid);
@@ -409,7 +409,7 @@ public class CNpcService extends __CNpcService__ {
 			return;
 		}
 
-		//放弃副本任务
+		//鏀惧純鍓湰浠诲姟
 		if(serviceid == 1801){
 			InstanceManager.getInstance().abandonInstanceTask(roleid);
 			return;
@@ -448,8 +448,8 @@ public class CNpcService extends __CNpcService__ {
 		return 795435;
 	}
 
-	public long npckey; // npckeyΪnpc��ΨһID
-	public int serviceid; // ����ID
+	public long npckey; // npckey为npc的唯一ID
+	public int serviceid; // 服务ID
 
 	public CNpcService() {
 	}

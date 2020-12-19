@@ -6,33 +6,33 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class NewDemoResult implements Marshal {
-	public final static int HP_CHANGE = 1; // ÊÜ»÷ÕßÑªÁ¿±ä»¯£¬ÎªÕıÊÇ¼ÓÑª£¬Îª¸ºÊÇ¿ÛÑª
-	public final static int MP_CHANGE = 2; // ÊÜ»÷ÕßÄ§·¨±ä»¯£¬ÎªÕıÊÇ¼ÓÀ¶£¬Îª¸ºÊÇ¿ÛÀ¶
-	public final static int SP_CHANGE = 3; // ÊÜ»÷ÕßÅ­Æø±ä»¯£¬ÎªÕıÊÇ¼ÓÅ­Æø£¬Îª¸ºÊÇ¿ÛÅ­Æø
-	public final static int UL_HP_CHANGE = 4; // ÊÜ»÷Õßµ±Ç°ÑªÉÏÏŞ±ä»¯£¬ÎªÕıÊÇ¼Ó£¬Îª¸ºÊÇ¼õ
-	public final static int TARGET_RESULT = 5; // ÊÜ»÷Õß½á¹ûÀàĞÍ£¬ResultTypeĞÍÃ¶¾ÙÖµµş¼Ó
-	public final static int RETURN_HURT = 6; // ÊÜ»÷·½Ôì³ÉµÄ·´ÉËÖµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞ·´ÉË
-	public final static int ATTACK_BACK = 7; // ÊÜ»÷·½Ôì³ÉµÄ·´»÷Öµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞ·´»÷
-	public final static int STEAL_HP = 8; // ¹¥»÷·½²úÉúµÄÎüÑªÖµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞÎüÑª
-	public final static int ATTACKER_RESULT = 9; // ¹¥»÷Õß½á¹ûÀàĞÍ£¬ResultTypeĞÍÃ¶¾ÙÖµµş¼Ó
-	public final static int PROTECTER_ID = 10; // ±£»¤ÕßID
-	public final static int PROTECTER_HP_CHANGE = 11; // ±£»¤ÕßÑªÁ¿±ä»¯£¬ÎªÕıÊÇ¼ÓÑª£¬Îª¸ºÊÇ¿ÛÑª£¨ÏÔÈ»ÊÇÎª¸ºµÄ£©
-	public final static int PROTECTER_RESULT = 12; // ±£»¤Õß½á¹ûÀàĞÍ£¬ResultTypeĞÍÃ¶¾ÙÖµµş¼Ó
-	public final static int ASSISTER_ID = 13; // ºÏ»÷ÕßID
-	public final static int STEAL_MP = 14; // ¹¥»÷·½²úÉúµÄÎüÀ¶Öµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞÎüÀ¶
-	public final static int RETURN_HURT_DEATH = 15; // ¹¥»÷ÕßÒòÎª±»·´ÉË»ò·´»÷ÖÂËÀ¶ø²úÉúµÄÉËµÄ±ä»¯
-	public final static int PROTECTER_MAXHP_CHANGE = 16; // ±£»¤ÕßÒòÎª±£»¤ÖÂËÀ¶ø²úÉúµÄÉËµÄ±ä»¯
-	public final static int MESSAGE_ID = 17; // ĞĞ¶¯Ê±µ¯µÄÌáÊ¾ID
-	public final static int HP_GODBLESS = 18; // ÉñÓÓÑªÁ¿±ä»¯
-	public final static int EP_CHANGE = 19; // ÊÜ»÷ÕßĞ§¹ûµã±ä»¯£¬ÎªÕıÊÇ¼ÓĞ§¹ûµã£¬Îª¸ºÊÇ¿ÛĞ§¹ûµã
-	public final static int SHAPE_CHANGE = 20; // Ä£ĞÍ¸Ä±ä
+	public final static int HP_CHANGE = 1; // å—å‡»è€…è¡€é‡å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ è¡€ï¼Œä¸ºè´Ÿæ˜¯æ‰£è¡€
+	public final static int MP_CHANGE = 2; // å—å‡»è€…é­”æ³•å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ è“ï¼Œä¸ºè´Ÿæ˜¯æ‰£è“
+	public final static int SP_CHANGE = 3; // å—å‡»è€…æ€’æ°”å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ æ€’æ°”ï¼Œä¸ºè´Ÿæ˜¯æ‰£æ€’æ°”
+	public final static int UL_HP_CHANGE = 4; // å—å‡»è€…å½“å‰è¡€ä¸Šé™å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ ï¼Œä¸ºè´Ÿæ˜¯å‡
+	public final static int TARGET_RESULT = 5; // å—å‡»è€…ç»“æœç±»å‹ï¼ŒResultTypeå‹æšä¸¾å€¼å åŠ 
+	public final static int RETURN_HURT = 6; // å—å‡»æ–¹é€ æˆçš„åä¼¤å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰åä¼¤
+	public final static int ATTACK_BACK = 7; // å—å‡»æ–¹é€ æˆçš„åå‡»å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰åå‡»
+	public final static int STEAL_HP = 8; // æ”»å‡»æ–¹äº§ç”Ÿçš„å¸è¡€å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰å¸è¡€
+	public final static int ATTACKER_RESULT = 9; // æ”»å‡»è€…ç»“æœç±»å‹ï¼ŒResultTypeå‹æšä¸¾å€¼å åŠ 
+	public final static int PROTECTER_ID = 10; // ä¿æŠ¤è€…ID
+	public final static int PROTECTER_HP_CHANGE = 11; // ä¿æŠ¤è€…è¡€é‡å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ è¡€ï¼Œä¸ºè´Ÿæ˜¯æ‰£è¡€ï¼ˆæ˜¾ç„¶æ˜¯ä¸ºè´Ÿçš„ï¼‰
+	public final static int PROTECTER_RESULT = 12; // ä¿æŠ¤è€…ç»“æœç±»å‹ï¼ŒResultTypeå‹æšä¸¾å€¼å åŠ 
+	public final static int ASSISTER_ID = 13; // åˆå‡»è€…ID
+	public final static int STEAL_MP = 14; // æ”»å‡»æ–¹äº§ç”Ÿçš„å¸è“å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰å¸è“
+	public final static int RETURN_HURT_DEATH = 15; // æ”»å‡»è€…å› ä¸ºè¢«åä¼¤æˆ–åå‡»è‡´æ­»è€Œäº§ç”Ÿçš„ä¼¤çš„å˜åŒ–
+	public final static int PROTECTER_MAXHP_CHANGE = 16; // ä¿æŠ¤è€…å› ä¸ºä¿æŠ¤è‡´æ­»è€Œäº§ç”Ÿçš„ä¼¤çš„å˜åŒ–
+	public final static int MESSAGE_ID = 17; // è¡ŒåŠ¨æ—¶å¼¹çš„æç¤ºID
+	public final static int HP_GODBLESS = 18; // ç¥ä½‘è¡€é‡å˜åŒ–
+	public final static int EP_CHANGE = 19; // å—å‡»è€…æ•ˆæœç‚¹å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ æ•ˆæœç‚¹ï¼Œä¸ºè´Ÿæ˜¯æ‰£æ•ˆæœç‚¹
+	public final static int SHAPE_CHANGE = 20; // æ¨¡å‹æ”¹å˜
 
-	public int resulttype; // ½á¹ûÀàĞÍ 0ÆÕÍ¨ 1·´»÷ 2Á¬»÷ 3×·»÷ 4½¦Éä 5Õ½¶·½áÊø 6ÆÆÒşĞÎ
-	public int targetid; // Ä¿±êid£¬±ØĞëÓĞ
-	public int flagtype; // ·şÎñÆ÷Ìá¹©¿Í»§¶Ë±êÊ¾
-	public java.util.LinkedList<fire.pb.battle.DemoBuff> demobuffs; // Ã¿Ò»¸ödemoµÄbuff±ä»¯
-	public java.util.LinkedList<fire.pb.battle.DemoAttr> demoattrs; // Ã¿Ò»¸ödemoµÄÊôĞÔ×îÖÕÖµ
-	public java.util.HashMap<Integer,Integer> datas; // ´æ´¢Êı¾İ£¬key²Î¿¼ÒÔÏÂÖµ£¬ÈçdatasÖĞÄ³keyÖµÃ»ÓĞÔòvalueÄ¬ÈÏÎª0
+	public int resulttype; // ç»“æœç±»å‹ 0æ™®é€š 1åå‡» 2è¿å‡» 3è¿½å‡» 4æº…å°„ 5æˆ˜æ–—ç»“æŸ 6ç ´éšå½¢
+	public int targetid; // ç›®æ ‡idï¼Œå¿…é¡»æœ‰
+	public int flagtype; // æœåŠ¡å™¨æä¾›å®¢æˆ·ç«¯æ ‡ç¤º
+	public java.util.LinkedList<fire.pb.battle.DemoBuff> demobuffs; // æ¯ä¸€ä¸ªdemoçš„buffå˜åŒ–
+	public java.util.LinkedList<fire.pb.battle.DemoAttr> demoattrs; // æ¯ä¸€ä¸ªdemoçš„å±æ€§æœ€ç»ˆå€¼
+	public java.util.HashMap<Integer,Integer> datas; // å­˜å‚¨æ•°æ®ï¼Œkeyå‚è€ƒä»¥ä¸‹å€¼ï¼Œå¦‚datasä¸­æŸkeyå€¼æ²¡æœ‰åˆ™valueé»˜è®¤ä¸º0
 
 	public NewDemoResult() {
 		demobuffs = new java.util.LinkedList<fire.pb.battle.DemoBuff>();

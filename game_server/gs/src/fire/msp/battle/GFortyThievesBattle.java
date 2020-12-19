@@ -28,14 +28,14 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 		NPC npc =SceneNpcManager.getInstance().getNpcByKey(npckey);
 		if(team == null)
 		{
-			//没有队伍
+			//娌℃湁闃熶紞
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141485, npc.getNpcID(), null);
 			return;
 		}
 		//if(team.getNormalTeamMemebers().size()<2)
 		if(team.size() < 2)
 		{
-			//队伍人数小于3�?
+			//闃熶紞浜烘暟灏忎簬3浜?
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141485, npc.getNpcID(),null);
 			return;
 		}
@@ -44,12 +44,12 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 		
 		MonsterInfo monsterInfo = npc.getScene().getMapInfo().getMonsterInfo();	
 		if(monsterInfo == null)
-			return;//区域暗雷怪信息为�?
+			return;//鍖哄煙鏆楅浄鎬俊鎭负绌?
 		
 		GridPos pos = npc.getPos().toGridPos();
 		int areaconf = monsterInfo.getMonsterConfig(pos.getX(), pos.getY());
 		if(areaconf == 0)
-			return;//没有暗雷区域配置
+			return;//娌℃湁鏆楅浄鍖哄煙閰嶇疆
 		
 		
 		SceneClient.pSend(new MFortyThievesBattle(roleid, npckey,areaconf));
@@ -65,7 +65,7 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 	}
 
 	public long roleid;
-	public long npckey; // ��ʮ�����npckey
+	public long npckey; // 四十大盗的npckey
 
 	public GFortyThievesBattle() {
 	}

@@ -25,7 +25,7 @@ public class STeamVote extends __STeamVote__ {
 		return 786524;
 	}
 
-	public int flag; // 2=pvpµØÍ¼ÌáĞÑ
+	public int flag; // 2=pvpåœ°å›¾æé†’
 	public java.util.LinkedList<java.lang.String> parms;
 
 	public STeamVote() {

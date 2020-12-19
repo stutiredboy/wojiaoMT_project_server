@@ -34,8 +34,8 @@ public class CFireMember extends __CFireMember__ {
 		return 808467;
 	}
 
-	public long memberroleid; // ¹«»á³ÉÔ±µÄid
-	public int reasontype; // ÊÂÓÉid ²Î¿¼ FireReasonType
+	public long memberroleid; // å…¬ä¼šæˆå‘˜çš„id
+	public int reasontype; // äº‹ç”±id å‚è€ƒ FireReasonType
 
 	public CFireMember() {
 	}

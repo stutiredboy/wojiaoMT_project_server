@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SShowPetInfo__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·µ»Ø¸ø¿Í»§¶Ë³¡¾°ÖĞÄ³Ö»³èÎïµÄÏêÏ¸ĞÅÏ¢
+/** æœåŠ¡å™¨è¿”å›ç»™å®¢æˆ·ç«¯åœºæ™¯ä¸­æŸåªå® ç‰©çš„è¯¦ç»†ä¿¡æ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SShowPetInfo extends __SShowPetInfo__ {
 		return 788457;
 	}
 
-	public int isxunbaopet; // ÊÇ·ñÊÇÕÒ±¦Íø²é¿´³èÎï,1ÊÇ 0²»ÊÇ
-	public fire.pb.Pet petdata; // ³èÎïÏêÏ¸Êı¾İ
+	public int isxunbaopet; // æ˜¯å¦æ˜¯æ‰¾å®ç½‘æŸ¥çœ‹å® ç‰©,1æ˜¯ 0ä¸æ˜¯
+	public fire.pb.Pet petdata; // å® ç‰©è¯¦ç»†æ•°æ®
 
 	public SShowPetInfo() {
 		petdata = new fire.pb.Pet();

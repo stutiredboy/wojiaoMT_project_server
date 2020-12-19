@@ -25,8 +25,8 @@ public class SCanRequestAsMaster extends __SCanRequestAsMaster__ {
 		return 816464;
 	}
 
-	public long roleid; // ÇëÇóÍ½µÜµÄid
-	public java.lang.String rolename; // ÇëÇóÍ½µÜµÄÃû×Ö
+	public long roleid; // è¯·æ±‚å¾’å¼Ÿçš„id
+	public java.lang.String rolename; // è¯·æ±‚å¾’å¼Ÿçš„åå­—
 
 	public SCanRequestAsMaster() {
 		rolename = "";

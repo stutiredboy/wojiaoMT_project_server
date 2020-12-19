@@ -31,9 +31,9 @@ public class MCreatePosForCTGoto extends __MCreatePosForCTGoto__ {
 	public int mapid;
 	public int posx;
 	public int posy;
-	public int ctconfid; // 任务id
+	public int ctconfid; // 浠诲姟id
 	public int dstnpcid;
-	public int cttype; // 循环类型
+	public int cttype; // 寰幆绫诲瀷
 	public int isnpc;
 
 	public MCreatePosForCTGoto() {

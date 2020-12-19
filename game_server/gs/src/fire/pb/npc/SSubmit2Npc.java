@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSubmit2Npc__ extends mkio.Protocol { }
 
-/** Í¨Öª¿Í»§¶ËÌá½»ÈÎÎñÎïÆ·»òÕßÈÎÎñ³èÎï
+/** é€šçŸ¥å®¢æˆ·ç«¯æäº¤ä»»åŠ¡ç‰©å“æˆ–è€…ä»»åŠ¡å® ç‰©
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,11 +27,11 @@ public class SSubmit2Npc extends __SSubmit2Npc__ {
 		return 795455;
 	}
 
-	public int questid; // Ìá½»µÄÏà¹ØµÄÈÎÎñ»òÕßÆäËûÏà¹Øid
-	public long npckey; // Ìá½»µÄnpc
-	public int submittype; // Ìá½»ÀàĞÍ: µÀ¾ß0 »òÕß³èÎï1
-	public java.util.ArrayList<Integer> availableids; // ¿ÉÒÔÌá½»µÄµÀ¾ßID »òÕß³èÎïID
-	public int availablepos; // ¿ª·ÅÌá½»µÄ¸ñ×ÓÊıÁ¿
+	public int questid; // æäº¤çš„ç›¸å…³çš„ä»»åŠ¡æˆ–è€…å…¶ä»–ç›¸å…³id
+	public long npckey; // æäº¤çš„npc
+	public int submittype; // æäº¤ç±»å‹: é“å…·0 æˆ–è€…å® ç‰©1
+	public java.util.ArrayList<Integer> availableids; // å¯ä»¥æäº¤çš„é“å…·ID æˆ–è€…å® ç‰©ID
+	public int availablepos; // å¼€æ”¾æäº¤çš„æ ¼å­æ•°é‡
 
 	public SSubmit2Npc() {
 		availableids = new java.util.ArrayList<Integer>();

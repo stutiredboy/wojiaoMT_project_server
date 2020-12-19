@@ -13,7 +13,7 @@ abstract class __CRequestSetTeamMatchInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 设置匹配信息
+ * 璁剧疆鍖归厤淇℃伅
  * @author changhao
  *
  */
@@ -30,22 +30,22 @@ public class CRequestSetTeamMatchInfo extends __CRequestSetTeamMatchInfo__ {
 			@Override
 			protected boolean process()
 			{	
-				if (!checkLevel()) //�?查等�? by changhao
+				if (!checkLevel()) //妫?鏌ョ瓑绾? by changhao
 				{
 					psend(roleid, new STeamError(TeamError.LevelError));
-					TeamManager.logger.debug("CRequestSetTeamMatchInfo匹配等级设置错误 "+roleid);
+					TeamManager.logger.debug("CRequestSetTeamMatchInfo鍖归厤绛夌骇璁剧疆閿欒 "+roleid);
 					return true;					
 				}				
 				
 				if (targetid != 0)
 				{
-					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
+					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
 					{
 						DSTeamMatchInfo config = ConfigManager.getInstance().getConf(DSTeamMatchInfo.class).get(targetid);
 						if (config == null)
 						{
 							psend(roleid, new STeamError(TeamError.NoTarget));
-							TeamManager.logger.debug("CRequestSetTeamMatchInfo:目标ID错误 "+roleid);
+							TeamManager.logger.debug("CRequestSetTeamMatchInfo:鐩爣ID閿欒 "+roleid);
 							return true;					
 						}							
 					}
@@ -55,7 +55,7 @@ public class CRequestSetTeamMatchInfo extends __CRequestSetTeamMatchInfo__ {
 						if (config == null)
 						{
 							psend(roleid, new STeamError(TeamError.NoTarget));
-							TeamManager.logger.debug("CRequestSetTeamMatchInfo:目标ID错误 "+roleid);
+							TeamManager.logger.debug("CRequestSetTeamMatchInfo:鐩爣ID閿欒 "+roleid);
 							return true;					
 						}							
 					}				
@@ -66,7 +66,7 @@ public class CRequestSetTeamMatchInfo extends __CRequestSetTeamMatchInfo__ {
 				Team team = null;
 				if(teamid != null)
 				{
-					team = TeamManager.getTeamByTeamID(teamid);	//有队先把队伍锁住 by changhao
+					team = TeamManager.getTeamByTeamID(teamid);	//鏈夐槦鍏堟妸闃熶紞閿佷綇 by changhao
 					team.getTeamInfo().setTargetid(targetid);
 					team.getTeamInfo().setMinlevel(levelmin);
 					team.getTeamInfo().setMaxlevel(levelmax);
@@ -76,7 +76,7 @@ public class CRequestSetTeamMatchInfo extends __CRequestSetTeamMatchInfo__ {
 				if (teamid != roleidteamId)
 				{
 					psend(roleid, new STeamError(TeamError.UnkownError));
-					TeamManager.logger.debug("CRequestSetTeamMatchInfo:队伍ID有变�? "+roleid);
+					TeamManager.logger.debug("CRequestSetTeamMatchInfo:闃熶紞ID鏈夊彉鍖? "+roleid);
 					return true;
 				}
 								
@@ -95,7 +95,7 @@ public class CRequestSetTeamMatchInfo extends __CRequestSetTeamMatchInfo__ {
 		requestsetteammatchinfo.submit();	
 	}
 	
-	private boolean checkLevel() //�?查等级相关错�? by changhao
+	private boolean checkLevel() //妫?鏌ョ瓑绾х浉鍏抽敊璇? by changhao
 	{
 		if (this.levelmin > this.levelmax)
 		{
@@ -107,7 +107,7 @@ public class CRequestSetTeamMatchInfo extends __CRequestSetTeamMatchInfo__ {
 			return false;
 		}
 		
-		//取表数据�?查是否范围内 by changhao
+		//鍙栬〃鏁版嵁妫?鏌ユ槸鍚﹁寖鍥村唴 by changhao
 		
 		return true;
 	}
@@ -120,9 +120,9 @@ public class CRequestSetTeamMatchInfo extends __CRequestSetTeamMatchInfo__ {
 		return 794499;
 	}
 
-	public int targetid; // Ŀ��id by changhao
-	public int levelmin; // �ȼ����� ����Ǹ���ƥ��������� by changhao
-	public int levelmax; // �ȼ����� ����Ǹ���ƥ��������� by changhao
+	public int targetid; // 目标id by changhao
+	public int levelmin; // 等级下限 如果是个人匹配这个忽略 by changhao
+	public int levelmax; // 等级上限 如果是个人匹配这个忽略 by changhao
 
 	public CRequestSetTeamMatchInfo() {
 	}

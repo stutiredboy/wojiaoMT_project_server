@@ -25,7 +25,7 @@ public class SRequestJoinSucc extends __SRequestJoinSucc__ {
 		return 794469;
 	}
 
-	public java.lang.String rolename; // ¶Ó³¤Ãû³Æ
+	public java.lang.String rolename; // é˜Ÿé•¿åç§°
 
 	public SRequestJoinSucc() {
 		rolename = "";

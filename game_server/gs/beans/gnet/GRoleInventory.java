@@ -5,7 +5,7 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ½±Æ·ĞÅÏ¢
+/** å¥–å“ä¿¡æ¯
 */
 public class GRoleInventory implements Marshal {
 	public int id;

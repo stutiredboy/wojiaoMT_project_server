@@ -21,7 +21,7 @@ abstract class __CCallbackMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 召回
+ * 鍙洖
  * @author changhao
  *
  */
@@ -49,7 +49,7 @@ public class CCallbackMember extends __CCallbackMember__ {
 				else
 					return true;
 				if(!team.isTeamLeader(leaderRoleId))
-					return true;//验证该角色是否还是队伍队�?
+					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鏄槦浼嶉槦闀?
 //				Long[] roleids = new Long[team.getAllMemberIds().size()];
 //				roleids[0] = leaderRoleId;
 				this.lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK,team.getAllMemberIds()));
@@ -57,21 +57,21 @@ public class CCallbackMember extends __CCallbackMember__ {
 				
 				if(!checkTeamStatusValid(leaderRoleId))
 				{
-					//队伍（队长）的状态此时不能召回暂离的队员（例如在战斗飞行中）(illegal)
-					TeamManager.logger.debug("队伍（队长）的状态此时不能召回暂离队�?,teamId: " + teamId);
+					//闃熶紞锛堥槦闀匡級鐨勭姸鎬佹鏃朵笉鑳藉彫鍥炴殏绂荤殑闃熷憳锛堜緥濡傚湪鎴樻枟椋炶涓級(illegal)
+					TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勭姸鎬佹鏃朵笉鑳藉彫鍥炴殏绂婚槦鍛?,teamId: " + teamId);
 					return true;
 				}
 				
 				PropRole leaderprole = new PropRole(leaderRoleId, true);
 				if(leaderprole.getProperties().getCruise() > 0) {
-					TeamManager.logger.debug("队伍（队长）的巡游状�?,此时不能召回暂离队员,teamId: " + teamId);
+					TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘鍙洖鏆傜闃熷憳,teamId: " + teamId);
 					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 160434, null);
 					return true;
 				}
 				
 				PropRole callbackprole = new PropRole(memberid, true);
 				if(callbackprole.getProperties().getCruise() > 0) {
-					TeamManager.logger.debug("召回队员的巡游状�?,此时不能召回暂离队员,teamId: " + teamId);
+					TeamManager.logger.debug("鍙洖闃熷憳鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘鍙洖鏆傜闃熷憳,teamId: " + teamId);
 					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 160434, null);
 					return true;
 				}
@@ -92,17 +92,17 @@ public class CCallbackMember extends __CCallbackMember__ {
 					BuffAgent buffagent = new BuffRoleImpl(roleId);
 					if(roleId == memberid && buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM_MEMBER_NORMAL))
 					{
-						//能进入正常状态的队员才召�?
+						//鑳借繘鍏ユ甯哥姸鎬佺殑闃熷憳鎵嶅彫鍞?
 						callbacklist.add(roleId);
 					}
 				}
-				//TODO 发�?�给暂离队员和归队中队员：队长正在召�?
+				//TODO 鍙戦?佺粰鏆傜闃熷憳鍜屽綊闃熶腑闃熷憳锛氶槦闀挎鍦ㄥ彫鍞?
 				if(callbacklist.size() == 0)
 				{
-					//队伍没有可召唤的暂离队员
+					//闃熶紞娌℃湁鍙彫鍞ょ殑鏆傜闃熷憳
 					//psend(leaderRoleId,new STeamError(TeamError.NoAbsentMember));
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 150117, null);
-					TeamManager.logger.debug("队员不能被召回可能在战斗,teamId: " + teamId);
+					TeamManager.logger.debug("闃熷憳涓嶈兘琚彫鍥炲彲鑳藉湪鎴樻枟,teamId: " + teamId);
 					return true;
 				}
 				else
@@ -135,7 +135,7 @@ public class CCallbackMember extends __CCallbackMember__ {
 		return 794443;
 	}
 
-	public long memberid; // �ٻ��Ķ�Աid by changhao
+	public long memberid; // 召唤的队员id by changhao
 
 	public CCallbackMember() {
 	}

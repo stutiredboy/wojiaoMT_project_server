@@ -28,7 +28,7 @@ public class CReg extends __CReg__ {
 		return 810534;
 	}
 
-	public int month; // ÔÂ
+	public int month; // æœˆ
 
 	public CReg() {
 	}

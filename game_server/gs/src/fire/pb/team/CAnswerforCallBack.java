@@ -21,7 +21,7 @@ abstract class __CAnswerforCallBack__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 恢复召回
+ * 鎭㈠鍙洖
  * @author changhao
  *
  */
@@ -43,13 +43,13 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(memberRoleId);
-				//先验证队伍是否为�?
+				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isInTeam(memberRoleId))
-					return true;//验证该角色是否还在队伍中
+					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鍦ㄩ槦浼嶄腑
 				long leaderRoleId = team.getTeamInfo().getTeamleaderid();
 				Long[] roleids = new Long[2];
 				if(leaderRoleId < memberRoleId)
@@ -67,42 +67,42 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 				
 				if(agree == 1)
 				{
-					// 请求回归
+					// 璇锋眰鍥炲綊
 					if (team.getTeamMemberState(memberRoleId) != TeamMemberState.eTeamAbsent)
 					{
-						// 队员不处于暂离中(illegal)
-						TeamManager.logger.debug("FAIL:队员不处于暂离中 , memberRoleId" + memberRoleId);
+						// 闃熷憳涓嶅浜庢殏绂讳腑(illegal)
+						TeamManager.logger.debug("FAIL:闃熷憳涓嶅浜庢殏绂讳腑 , memberRoleId" + memberRoleId);
 					} else if (!checkMemberReturnStatusValid(memberRoleId))
 					{
-						// 成员处在不可归队的状态（战斗等）(illegal)
-						TeamManager.logger.debug("FAIL:成员处在不可归队的状�? , memberRoleId" + memberRoleId);
+						// 鎴愬憳澶勫湪涓嶅彲褰掗槦鐨勭姸鎬侊紙鎴樻枟绛夛級(illegal)
+						TeamManager.logger.debug("FAIL:鎴愬憳澶勫湪涓嶅彲褰掗槦鐨勭姸鎬? , memberRoleId" + memberRoleId);
 					} else
 					{
 						if (team.isMemberInReturnScale(memberRoleId))
 						{
-							// 在回归范围之�?
+							// 鍦ㄥ洖褰掕寖鍥翠箣鍐?
 							if (checkTeamReturnStatusValid(team))
 							{
-								// 队伍处在可以归队的状�?
-								// 改变队员为正常状态，并群发更新状态协�?
+								// 闃熶紞澶勫湪鍙互褰掗槦鐨勭姸鎬?
+								// 鏀瑰彉闃熷憳涓烘甯哥姸鎬侊紝骞剁兢鍙戞洿鏂扮姸鎬佸崗璁?
 								team.setTeamMemberStateWithSP(memberRoleId, TeamMemberState.eTeamNormal);
-								// 排序并广播队员新顺序
+								// 鎺掑簭骞跺箍鎾槦鍛樻柊椤哄簭
 //								team.updateMemberSequenceWithSendProtocol();
-								TeamManager.logger.debugWhileCommit("SUCC:队伍处在可以归队的状态，改变队员为正常状�? , memberRoleId" + memberRoleId);
+								TeamManager.logger.debugWhileCommit("SUCC:闃熶紞澶勫湪鍙互褰掗槦鐨勭姸鎬侊紝鏀瑰彉闃熷憳涓烘甯哥姸鎬? , memberRoleId" + memberRoleId);
 							} else
 							{
-								// 队伍处在不可以归队的状�??
-								// 改变队员为归队中状�?�，并群发更新状态协�?
+								// 闃熶紞澶勫湪涓嶅彲浠ュ綊闃熺殑鐘舵??
+								// 鏀瑰彉闃熷憳涓哄綊闃熶腑鐘舵?侊紝骞剁兢鍙戞洿鏂扮姸鎬佸崗璁?
 								team.setTeamMemberStateWithSP(memberRoleId, TeamMemberState.eTeamReturn);
-								TeamManager.logger.debugWhileCommit("SUCC:成员回归队伍,进入归队中状�? , memberRoleId" + memberRoleId);
+								TeamManager.logger.debugWhileCommit("SUCC:鎴愬憳鍥炲綊闃熶紞,杩涘叆褰掗槦涓姸鎬? , memberRoleId" + memberRoleId);
 							}
 
 						} else
 						{
-							// 在回归范围之�?
-							// TODO 自动寻路找队�? OR 返回不能回归的消�?
+							// 鍦ㄥ洖褰掕寖鍥翠箣澶?
+							// TODO 鑷姩瀵昏矾鎵鹃槦闀? OR 杩斿洖涓嶈兘鍥炲綊鐨勬秷鎭?
 							psend(memberRoleId, new STeamError(TeamError.TooFar));
-							TeamManager.logger.debug("FAIL:在回归范围之�? , memberRoleId" + memberRoleId);
+							TeamManager.logger.debug("FAIL:鍦ㄥ洖褰掕寖鍥翠箣澶? , memberRoleId" + memberRoleId);
 						}
 					}
 				}
@@ -120,7 +120,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 		answerCallbackP.submit();
 	}
 
-	//成员处在可以归队的状�??（不是战斗等状�?�）
+	//鎴愬憳澶勫湪鍙互褰掗槦鐨勭姸鎬??锛堜笉鏄垬鏂楃瓑鐘舵?侊級
 	private boolean checkMemberReturnStatusValid(long memberRoleId)
 	{
 		//TODO
@@ -133,7 +133,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 			return false;
 		}
 	}	
-	//队伍处在可以归队的状�??（不是战斗等状�?�）
+	//闃熶紞澶勫湪鍙互褰掗槦鐨勭姸鎬??锛堜笉鏄垬鏂楃瓑鐘舵?侊級
 	private boolean checkTeamReturnStatusValid(Team team)
 	{
 		//TODO
@@ -149,7 +149,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 		return 794457;
 	}
 
-	public byte agree; // 0 �ܾ� 1ͬ��
+	public byte agree; // 0 拒绝 1同意
 
 	public CAnswerforCallBack() {
 	}

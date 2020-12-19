@@ -30,9 +30,9 @@ public class CEvaluate extends __CEvaluate__ {
 		return 816475;
 	}
 
-	public int flag; // 1=¶ÔÊ¦¸µÆÀ¼Û 2=¶ÔÍ½µÜµÄÆÀ¼Û
-	public long roleid; // ÒªÆÀ¼ÛµÄÈË
-	public int result; // ÆÀ¼Û
+	public int flag; // 1=å¯¹å¸ˆå‚…è¯„ä»· 2=å¯¹å¾’å¼Ÿçš„è¯„ä»·
+	public long roleid; // è¦è¯„ä»·çš„äºº
+	public int result; // è¯„ä»·
 
 	public CEvaluate() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __STakeBackTempMarketContainerItem__ extends mkio.Protocol { }
 
-/** ÅÄÂôÁÙÊ±±³°ü,ºÏ·şºóÈ¡³öµÀ¾ß»Ø¸´
+/** æ‹å–ä¸´æ—¶èƒŒåŒ…,åˆæœåå–å‡ºé“å…·å›å¤
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class STakeBackTempMarketContainerItem extends __STakeBackTempMarketConta
 		return 810669;
 	}
 
-	public int succ; // 0Ê§°Ü£¬1³É¹¦
+	public int succ; // 0å¤±è´¥ï¼Œ1æˆåŠŸ
 
 	public STakeBackTempMarketContainerItem() {
 	}

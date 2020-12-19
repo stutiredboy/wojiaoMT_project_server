@@ -10,7 +10,7 @@ public class ClanFight implements Marshal {
 	public java.lang.String clanname1;
 	public long clanid2;
 	public java.lang.String clanname2;
-	public int winner; // -1ÊÇ»¹Ã»½á¹û0ÊÇµÚÒ»¸öÓ®1ÊÇµÚ¶þ¸öÓ® by changhao
+	public int winner; // -1æ˜¯è¿˜æ²¡ç»“æžœ0æ˜¯ç¬¬ä¸€ä¸ªèµ¢1æ˜¯ç¬¬äºŒä¸ªèµ¢ by changhao
 
 	public ClanFight() {
 		clanname1 = "";

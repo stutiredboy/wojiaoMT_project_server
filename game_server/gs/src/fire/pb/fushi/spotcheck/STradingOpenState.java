@@ -25,7 +25,7 @@ public class STradingOpenState extends __STradingOpenState__ {
 		return 812646;
 	}
 
-	public byte openstate; // 0¹Ø±Õ   1¿ªÆô
+	public byte openstate; // 0å…³é—­   1å¼€å¯
 
 	public STradingOpenState() {
 	}

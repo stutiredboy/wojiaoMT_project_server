@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGetPetInfo__ extends mkio.Protocol { }
 
-/** 宠物信息
+/** 瀹犵墿淇℃伅
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SGetPetInfo extends __SGetPetInfo__ {
 		return 788526;
 	}
 
-	public fire.pb.Pet petinfo; // 宠物信息
+	public fire.pb.Pet petinfo; // 瀹犵墿淇℃伅
 
 	public SGetPetInfo() {
 		petinfo = new fire.pb.Pet();

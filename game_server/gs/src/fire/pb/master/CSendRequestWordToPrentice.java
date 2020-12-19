@@ -25,8 +25,8 @@ public class CSendRequestWordToPrentice extends __CSendRequestWordToPrentice__ {
 		return 816465;
 	}
 
-	public long roleid; // ÇëÇóÍ½µÜµÄid
-	public java.lang.String requestword; // ÁôÑÔ
+	public long roleid; // è¯·æ±‚å¾’å¼Ÿçš„id
+	public java.lang.String requestword; // ç•™è¨€
 
 	public CSendRequestWordToPrentice() {
 		requestword = "";

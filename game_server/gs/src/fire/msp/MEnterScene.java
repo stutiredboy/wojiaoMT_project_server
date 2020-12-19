@@ -29,7 +29,7 @@ abstract class __MEnterScene__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 /**
- * 人物上线，场景处理完毕后向�?�辑发此消息
+ * 浜虹墿涓婄嚎锛屽満鏅鐞嗗畬姣曞悗鍚戦?昏緫鍙戞娑堟伅
  * 
  */
 public class MEnterScene extends __MEnterScene__ {
@@ -42,23 +42,23 @@ public class MEnterScene extends __MEnterScene__ {
 			role = RoleManager.getInstance().createRole(roleid,sceneid, posx, posy);
 		}
 		
-		//人物上线，队伍相关（更新角色队伍信息），因为逻辑队伍的信息要依赖地图队伍信息，所以在其之后处理，因为其中要锁队伍锁，�?以异步处�?
+		//浜虹墿涓婄嚎锛岄槦浼嶇浉鍏筹紙鏇存柊瑙掕壊闃熶紞淇℃伅锛夛紝鍥犱负閫昏緫闃熶紞鐨勪俊鎭渚濊禆鍦板浘闃熶紞淇℃伅锛屾墍浠ュ湪鍏朵箣鍚庡鐞嗭紝鍥犱负鍏朵腑瑕侀攣闃熶紞閿侊紝鎵?浠ュ紓姝ュ鐞?
 		new fire.pb.team.PRoleOnline(roleid).submit();
 		
 		
-		//副本处理
+		//鍓湰澶勭悊
 		new fire.pb.instancezone.PRoleOnline(roleid,sceneid).submit();
 		
 //		new fire.pb.mission.instance.PRoleOnline(roleid, sceneid).submit();
 		
-		//小地图上发�?�动态生成的npc
+		//灏忓湴鍥句笂鍙戦?佸姩鎬佺敓鎴愮殑npc
 		fire.pb.timer.AbstractScheduledActivity.sendActivityNpcToMiniMap(sceneid, roleid);
 		
-		//当前处于投票�?   角色没有投票�? 角色等级大于30级别
+		//褰撳墠澶勪簬鎶曠エ涓?   瑙掕壊娌℃湁鎶曠エ杩? 瑙掕壊绛夌骇澶т簬30绾у埆
 		xbean.Properties prop =  xtable.Properties.select(roleid);
 		Integer curlevel = prop.getLevel();
 
-		//同步huobansize到Role
+		//鍚屾huobansize鍒癛ole
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() throws Exception {
@@ -72,7 +72,7 @@ public class MEnterScene extends __MEnterScene__ {
 
 		
 		fire.pb.mission.Module.getInstance().enterWorldOK(role.getRoleID());
-		//智力试练�?�?
+		//鏅哄姏璇曠粌妫?娴?
 		if(ImpExamManager.getInstance().isInImpExamTime() != -1 && curlevel>=20){
 			ImpExamManager.getInstance().roleLoginCheck(roleid);
 		}
@@ -98,19 +98,19 @@ public class MEnterScene extends __MEnterScene__ {
 			    BingFengLandMgr.getInstance().sendAfterEnterBingFengLand(roleid, true);
 		}
 		
-		//上线提醒推�??
+		//涓婄嚎鎻愰啋鎺ㄩ??
 		TuiSongNotifyManager.getInstance().roleLogin(roleid);
 		
-		//礼包提醒
+		//绀煎寘鎻愰啋
 		GiftBagMgr.getInstance().roleLogin(roleid, curlevel);
 		
-		//冠军试炼上线拉人
-		//这里处理�?下冠军试炼的上线拉人
+		//鍐犲啗璇曠偧涓婄嚎鎷変汉
+		//杩欓噷澶勭悊涓?涓嬪啝鍐涜瘯鐐肩殑涓婄嚎鎷変汉
 		if (curlevel >= WinnerManager.MIN_LEVEL) {
 			WinnerManager.getInstance().sendWinnerCallPlayer(roleid);
 		}
 		
-		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //工会战角色上�? by changhao	
+		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //宸ヤ細鎴樿鑹蹭笂绾? by changhao	
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
@@ -121,7 +121,7 @@ public class MEnterScene extends __MEnterScene__ {
 		return 720904;
 	}
 
-	public long roleid; // ��ɫID
+	public long roleid; // 角色ID
 	public long sceneid;
 	public int posx;
 	public int posy;

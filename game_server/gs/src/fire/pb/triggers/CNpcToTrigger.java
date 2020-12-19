@@ -16,7 +16,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CNpcToTrigger__ extends mkio.Protocol { }
 
-/** 客户端请求npc触发
+/** 瀹㈡埛绔姹俷pc瑙﹀彂
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

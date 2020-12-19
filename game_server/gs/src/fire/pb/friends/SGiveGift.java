@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGiveGift__ extends mkio.Protocol { }
 
-/** ÔùËÍÀñÎï½á¹û
+/** èµ é€ç¤¼ç‰©ç»“æœ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SGiveGift extends __SGiveGift__ {
 		return 806638;
 	}
 
-	public byte result; // 0:³É¹¦ 1:Ë«·½²»ÊÇË«ÏòºÃÓÑ
+	public byte result; // 0:æˆåŠŸ 1:åŒæ–¹ä¸æ˜¯åŒå‘å¥½å‹
 
 	public SGiveGift() {
 	}

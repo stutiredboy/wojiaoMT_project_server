@@ -25,7 +25,7 @@ public class CCampPK extends __CCampPK__ {
 		return 806562;
 	}
 
-	public long roleid; // Ҫpk�Ľ�ɫId
+	public long roleid; // 要pk的角色Id
 
 	public CCampPK() {
 	}

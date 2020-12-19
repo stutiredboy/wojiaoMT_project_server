@@ -9,7 +9,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CLogPushToken__ extends mkio.Protocol { }
 
-/** 推送Token日志
+/** 鎺ㄩ�乀oken鏃ュ織
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -25,7 +25,7 @@ public class CLogPushToken extends __CLogPushToken__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				logger.error("鏀跺埌瀹㈡埛绔帹閫佹秷鎭?, RoleId=" + roleId + ", Token=" + token);
+				logger.error("閺�璺哄煂鐎广垺鍩涚粩顖涘腹闁焦绉烽幁?, RoleId=" + roleId + ", Token=" + token);
 				return true;
 			}
 		}.submit();
@@ -39,7 +39,7 @@ public class CLogPushToken extends __CLogPushToken__ {
 		return 810374;
 	}
 
-	public int token; // 客户端发来的token
+	public int token; // 瀹㈡埛绔彂鏉ョ殑token
 
 	public CLogPushToken() {
 	}

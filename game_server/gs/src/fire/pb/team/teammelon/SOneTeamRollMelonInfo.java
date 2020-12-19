@@ -27,7 +27,7 @@ public class SOneTeamRollMelonInfo extends __SOneTeamRollMelonInfo__ {
 
 	public long melonid;
 	public int itemid;
-	public fire.pb.team.teammelon.RoleRollInfo rollinfo; // Ä³ÈËµÄROLLµãĞÅÏ¢ by changhao
+	public fire.pb.team.teammelon.RoleRollInfo rollinfo; // æŸäººçš„ROLLç‚¹ä¿¡æ¯ by changhao
 
 	public SOneTeamRollMelonInfo() {
 		rollinfo = new fire.pb.team.teammelon.RoleRollInfo();

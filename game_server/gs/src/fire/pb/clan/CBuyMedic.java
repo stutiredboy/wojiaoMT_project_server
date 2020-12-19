@@ -28,7 +28,7 @@ public class CBuyMedic extends __CBuyMedic__ {
 		return 808441;
 	}
 
-	public int itemid; // ҩƷid
+	public int itemid; // 药品id
 	public int itemnum;
 
 	public CBuyMedic() {

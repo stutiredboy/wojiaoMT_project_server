@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketBuy__ extends mkio.Protocol { }
 
-/** °ÚÌ¯¹ºÂò
+/** æ‘†æ‘Šè´­ä¹°
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -29,7 +29,7 @@ public class CMarketBuy extends __CMarketBuy__ {
 				fire.pb.shop.srv.market.IMarket proxy = (fire.pb.shop.srv.market.IMarket) handler.getProxy();
 				boolean success = proxy.buy(roleId, id, saleroleid, itemid, num);
 //				if (success) {
-					// åˆ·æ–°å‰å°æ•°æ®
+					// é’é”‹æŸŠé“å¶…å½´éç‰ˆåµ
 //					fire.pb.shop.srv.market.MarketManager.getInstance().sendMarketContainerByRoleId(roleId);
 //				}
 				return success;
@@ -48,10 +48,10 @@ public class CMarketBuy extends __CMarketBuy__ {
 		return 810641;
 	}
 
-	public long id; // Î¨Ò»id(ä¯ÀÀÊ±ºò·¢¸øµÄid)
-	public long saleroleid; // Âô¼Ò½ÇÉ«id
-	public int itemid; // µÀ¾ßid
-	public int num; // ÊıÁ¿
+	public long id; // å”¯ä¸€id(æµè§ˆæ—¶å€™å‘ç»™çš„id)
+	public long saleroleid; // å–å®¶è§’è‰²id
+	public int itemid; // é“å…·id
+	public int num; // æ•°é‡
 
 	public CMarketBuy() {
 	}

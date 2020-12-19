@@ -25,7 +25,7 @@ public class CZhenrongMember extends __CZhenrongMember__ {
 		java.util.Set<Integer> setMember = new java.util.HashSet<Integer>(members.size());
 		setMember.addAll(members);
 		
-		//判断members里是否有重复的id
+		//鍒ゆ柇members閲屾槸鍚︽湁閲嶅鐨刬d
 		if (setMember.size() != members.size()) {
 			return;
 		}
@@ -41,7 +41,7 @@ public class CZhenrongMember extends __CZhenrongMember__ {
 //				return true;
 //				boolean suc = huobancol.setFightHuoBans(members);
 //				if (suc) {
-//					//伙伴阵容更新
+//					//浼欎即闃靛鏇存柊
 //					xdb.Procedure.pexecute(new PUpdateHuoBanZhenRong(roleId, 0, zhenyingid, members, PUpdateHuoBanZhenRong.HUOBAN));
 //				}
 //				else {

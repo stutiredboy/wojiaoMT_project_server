@@ -25,7 +25,7 @@ public class GRequestTeamList extends __GRequestTeamList__ {
 		return 728897;
 	}
 
-	public long roleid; // 请求队伍列表的roleId
+	public long roleid; // 璇锋眰闃熶紞鍒楄〃鐨剅oleId
 
 	public GRequestTeamList() {
 	}

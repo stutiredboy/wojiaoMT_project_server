@@ -7,9 +7,9 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class ChargeReturnProfit implements Marshal , Comparable<ChargeReturnProfit>{
 	public int id;
-	public int value; // µ±Ç°Öµ by changhao
-	public int maxvalue; // ×î´óÖµ by changhao
-	public int status; // 0ÊÇÁìÈ¡ÁË1ÊÇÎ´ÁìÈ¡2ÊÇÎ´µ½´ï by changhao
+	public int value; // å½“å‰å€¼ by changhao
+	public int maxvalue; // æœ€å¤§å€¼ by changhao
+	public int status; // 0æ˜¯é¢†å–äº†1æ˜¯æœªé¢†å–2æ˜¯æœªåˆ°è¾¾ by changhao
 
 	public ChargeReturnProfit() {
 	}

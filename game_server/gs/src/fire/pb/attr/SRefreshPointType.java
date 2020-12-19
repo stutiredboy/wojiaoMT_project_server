@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshPointType__ extends mkio.Protocol { }
 
-/** Ë¢ĞÂÈËÎï¼ÓµãºóµÄ¼ÓµãÃæ°åÊıÖµ
+/** åˆ·æ–°äººç‰©åŠ ç‚¹åçš„åŠ ç‚¹é¢æ¿æ•°å€¼
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,9 +28,9 @@ public class SRefreshPointType extends __SRefreshPointType__ {
 	}
 
 	public fire.pb.attr.RoleBasicFightProperties bfp;
-	public java.util.HashMap<Integer,Integer> point; // Ç±ÄÜ
-	public int pointscheme; // µ±Ç°¼Óµã·½°¸
-	public int schemechanges; // ·½°¸ÇĞ»»´ÎÊı
+	public java.util.HashMap<Integer,Integer> point; // æ½œèƒ½
+	public int pointscheme; // å½“å‰åŠ ç‚¹æ–¹æ¡ˆ
+	public int schemechanges; // æ–¹æ¡ˆåˆ‡æ¢æ¬¡æ•°
 
 	public SRefreshPointType() {
 		bfp = new fire.pb.attr.RoleBasicFightProperties();

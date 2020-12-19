@@ -25,7 +25,7 @@ public class SCancelApplyClan extends __SCancelApplyClan__ {
 		return 808496;
 	}
 
-	public long clanid; // ¹«»áid
+	public long clanid; // å…¬ä¼šid
 
 	public SCancelApplyClan() {
 	}

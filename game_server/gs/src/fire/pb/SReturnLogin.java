@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SReturnLogin__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷£ºÍ¨Öª¿Í»§¶Ë·µ»ØµÇÂ¼½çÃæ
+/** æœåŠ¡å™¨ï¼šé€šçŸ¥å®¢æˆ·ç«¯è¿”å›ç™»å½•ç•Œé¢
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,7 +28,7 @@ public class SReturnLogin extends __SReturnLogin__ {
 	}
 
 	public int reason;
-	public long ext; // À©Õ¹ by changhao
+	public long ext; // æ‰©å±• by changhao
 
 	public SReturnLogin() {
 	}

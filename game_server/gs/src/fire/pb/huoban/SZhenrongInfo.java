@@ -25,8 +25,8 @@ public class SZhenrongInfo extends __SZhenrongInfo__ {
 		return 818836;
 	}
 
-	public int dangqianzhenrong; // 当前阵容编号
-	public java.util.HashMap<Integer,fire.pb.huoban.ZhenrongInfo> zhenrongxinxi; // 阵容列表信息
+	public int dangqianzhenrong; // 褰撳墠闃靛缂栧彿
+	public java.util.HashMap<Integer,fire.pb.huoban.ZhenrongInfo> zhenrongxinxi; // 闃靛鍒楄〃淇℃伅
 
 	public SZhenrongInfo() {
 		zhenrongxinxi = new java.util.HashMap<Integer,fire.pb.huoban.ZhenrongInfo>();

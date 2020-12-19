@@ -26,8 +26,8 @@ public class SFriendsInfoInit extends __SFriendsInfoInit__ {
 	}
 
 	public java.util.ArrayList<fire.pb.friends.FriendInfo> friends;
-	public short friendnumlimit; // ºÃÓÑÈËÊıÏŞÖÆ
-	public byte refusestrangermsg; // 0=½ÓÊÕÄ°ÉúÈËÏûÏ¢ 1=¾Ü¾øÄ°ÉúÈËĞÅÏ¢
+	public short friendnumlimit; // å¥½å‹äººæ•°é™åˆ¶
+	public byte refusestrangermsg; // 0=æ¥æ”¶é™Œç”Ÿäººæ¶ˆæ¯ 1=æ‹’ç»é™Œç”Ÿäººä¿¡æ¯
 
 	public SFriendsInfoInit() {
 		friends = new java.util.ArrayList<fire.pb.friends.FriendInfo>();

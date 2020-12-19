@@ -16,7 +16,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __COffTitle__ extends mkio.Protocol { }
 
-/** �ͻ�������ж�³�ν
+/** 客户端请求卸下称谓
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -51,7 +51,7 @@ public class COffTitle extends __COffTitle__ {
 	}
 	
 	/**
-	 * 生死战的称号不能被替�?
+	 * 鐢熸鎴樼殑绉板彿涓嶈兘琚浛涓?
 	 * @param prole
 	 * @return
 	 */

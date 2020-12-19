@@ -5,12 +5,12 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 切磋协议start 协议号从7251-7300
+/** 鍒囩鍗忚start 鍗忚鍙蜂粠7251-7300
 */
 public class QCmodelType implements Marshal , Comparable<QCmodelType>{
-	public final static int ONE_FIGHT = 1; // 单人对手界面
-	public final static int TEAM_FIGHT = 2; // 组队对手界面
-	public final static int WATCH_FIGHT = 3; // 观战界面
+	public final static int ONE_FIGHT = 1; // 鍗曚汉瀵规墜鐣岄潰
+	public final static int TEAM_FIGHT = 2; // 缁勯槦瀵规墜鐣岄潰
+	public final static int WATCH_FIGHT = 3; // 瑙傛垬鐣岄潰
 
 
 	public QCmodelType() {

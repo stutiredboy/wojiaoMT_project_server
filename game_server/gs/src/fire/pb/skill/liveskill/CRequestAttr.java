@@ -12,7 +12,7 @@ abstract class __CRequestAttr__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请求某些属�?? by changhao
+ * 璇锋眰鏌愪簺灞炴?? by changhao
  */
 public class CRequestAttr extends __CRequestAttr__ {
 	private static Logger logger = Logger.getLogger("ITEM");
@@ -40,7 +40,7 @@ public class CRequestAttr extends __CRequestAttr__ {
 					int energy = prop.getEnergy();
 					refreshdata.datas.put( fire.pb.attr.AttrType.ENERGY, (float)energy);					
 				}
-				logger.error("------------人物属�??-�?------------------"+refreshdata.datas);
+				logger.error("------------浜虹墿灞炴??-锛?------------------"+refreshdata.datas);
 				mkdb.Procedure.psendWhileCommit(roleid, refreshdata);					
 				
 				return true;

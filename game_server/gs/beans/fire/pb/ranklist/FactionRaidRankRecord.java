@@ -5,17 +5,17 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 公会副本竞速榜
+/** 鍏細鍓湰绔為�熸
 */
 public class FactionRaidRankRecord implements Marshal {
-	public int rank; // 排名
-	public long factionid; // 公会id
-	public java.lang.String factionname; // 公会名字
-	public long progressstime; // 进度时间
-	public int progresss; // 公会进度
-	public java.lang.String factionmonstername; // 会长名字
-	public java.lang.String factioncopyname; // 公会副本名字 by changhao
-	public float bosshp; // BOSS血量百分比 by changhao
+	public int rank; // 鎺掑悕
+	public long factionid; // 鍏細id
+	public java.lang.String factionname; // 鍏細鍚嶅瓧
+	public long progressstime; // 杩涘害鏃堕棿
+	public int progresss; // 鍏細杩涘害
+	public java.lang.String factionmonstername; // 浼氶暱鍚嶅瓧
+	public java.lang.String factioncopyname; // 鍏細鍓湰鍚嶅瓧 by changhao
+	public float bosshp; // BOSS琛�閲忕櫨鍒嗘瘮 by changhao
 
 	public FactionRaidRankRecord() {
 		factionname = "";

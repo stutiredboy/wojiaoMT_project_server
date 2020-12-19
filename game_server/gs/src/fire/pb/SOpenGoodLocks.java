@@ -25,7 +25,7 @@ public class SOpenGoodLocks extends __SOpenGoodLocks__ {
 		return 786577;
 	}
 
-	public byte status; // 1 ³É¹¦ 0Ê§°Ü
+	public byte status; // 1 æˆåŠŸ 0å¤±è´¥
 
 	public SOpenGoodLocks() {
 	}

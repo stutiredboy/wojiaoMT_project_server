@@ -6,7 +6,7 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TrackedMission implements Marshal , Comparable<TrackedMission>{
-	public long acceptdate; // 接收时间
+	public long acceptdate; // 鎺ユ敹鏃堕棿
 
 	public TrackedMission() {
 	}

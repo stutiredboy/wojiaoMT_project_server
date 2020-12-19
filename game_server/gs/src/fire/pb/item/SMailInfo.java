@@ -25,7 +25,7 @@ public class SMailInfo extends __SMailInfo__ {
 		return 787705;
 	}
 
-	public fire.pb.item.MailInfo mail; // ÓÊ¼şĞÅÏ¢
+	public fire.pb.item.MailInfo mail; // é‚®ä»¶ä¿¡æ¯
 
 	public SMailInfo() {
 		mail = new fire.pb.item.MailInfo();

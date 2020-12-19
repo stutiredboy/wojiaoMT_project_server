@@ -27,8 +27,8 @@ public class CReqChargeMoney extends __CReqChargeMoney__ {
 		return 786512;
 	}
 
-	public int num; // ³äÖµÊıÄ¿,²»Í¬Æ½Ì¨µ¥Î»¿ÉÄÜ²»Ò»Ñù.¶ÔÓÚ91À´Ëµ,ÊÇÔª
-	public java.lang.String ordersnplatform; // Æ½Ì¨µÄÎ¨Ò»×Ö·û´®ĞòÁĞºÅ
+	public int num; // å……å€¼æ•°ç›®,ä¸åŒå¹³å°å•ä½å¯èƒ½ä¸ä¸€æ ·.å¯¹äº91æ¥è¯´,æ˜¯å…ƒ
+	public java.lang.String ordersnplatform; // å¹³å°çš„å”¯ä¸€å­—ç¬¦ä¸²åºåˆ—å·
 
 	public CReqChargeMoney() {
 		ordersnplatform = "";

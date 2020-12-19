@@ -11,7 +11,7 @@ public class showpetinfo implements Marshal {
 	public java.lang.String petname;
 	public int color;
 	public int bodysize;
-	public int showeffect; // չʾ����Ч
+	public int showeffect; // 展示的特效
 
 	public showpetinfo() {
 		petname = "";

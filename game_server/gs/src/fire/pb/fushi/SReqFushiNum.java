@@ -25,9 +25,9 @@ public class SReqFushiNum extends __SReqFushiNum__ {
 		return 812442;
 	}
 
-	public int num; // ÆÕÍ¨·ûÊ¯µÄÊıÁ¿
-	public int bindnum; // °ó¶¨·ûÊ¯µÄÊıÁ¿
-	public int totalnum; // ×ÜµÄ³äÖµ·ûÊ¯ÊıÁ¿ ²»°üº¬ÔùËÍµÄ by changhao
+	public int num; // æ™®é€šç¬¦çŸ³çš„æ•°é‡
+	public int bindnum; // ç»‘å®šç¬¦çŸ³çš„æ•°é‡
+	public int totalnum; // æ€»çš„å……å€¼ç¬¦çŸ³æ•°é‡ ä¸åŒ…å«èµ é€çš„ by changhao
 
 	public SReqFushiNum() {
 	}

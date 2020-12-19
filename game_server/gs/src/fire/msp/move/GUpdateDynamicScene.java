@@ -35,9 +35,9 @@ public class GUpdateDynamicScene extends __GUpdateDynamicScene__ {
 		return 724921;
 	}
 
-	public int mapid; // 地图id
-	public long ownerid; // 副本的所有者ID(可能是角色ID,也可能是团体ID)
-	public com.locojoy.base.Octets parameters; // 更新副本用到的参数，因为不同的副本用到的参数可能不同，自己unmarshal
+	public int mapid; // 鍦板浘id
+	public long ownerid; // 鍓湰鐨勬墍鏈夎�匢D(鍙兘鏄鑹睮D,涔熷彲鑳芥槸鍥綋ID)
+	public com.locojoy.base.Octets parameters; // 鏇存柊鍓湰鐢ㄥ埌鐨勫弬鏁帮紝鍥犱负涓嶅悓鐨勫壇鏈敤鍒扮殑鍙傛暟鍙兘涓嶅悓锛岃嚜宸眜nmarshal
 
 	public GUpdateDynamicScene() {
 		parameters = new com.locojoy.base.Octets();

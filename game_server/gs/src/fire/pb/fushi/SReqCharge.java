@@ -26,7 +26,7 @@ public class SReqCharge extends __SReqCharge__ {
 	}
 
 	public java.util.ArrayList<fire.pb.fushi.GoodInfo> goods;
-	public int opendy; // 是否打开订阅 1代开 0关闭
+	public int opendy; // 鏄惁鎵撳紑璁㈤槄 1浠ｅ紑 0鍏抽棴
 
 	public SReqCharge() {
 		goods = new java.util.ArrayList<fire.pb.fushi.GoodInfo>();

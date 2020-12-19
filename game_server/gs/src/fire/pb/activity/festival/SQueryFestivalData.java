@@ -25,7 +25,7 @@ public class SQueryFestivalData extends __SQueryFestivalData__ {
 		return 810536;
 	}
 
-	public java.util.ArrayList<Integer> rewards; // 已经领取的活动奖励id
+	public java.util.ArrayList<Integer> rewards; // 宸茬粡棰嗗彇鐨勬椿鍔ㄥ鍔眎d
 
 	public SQueryFestivalData() {
 		rewards = new java.util.ArrayList<Integer>();

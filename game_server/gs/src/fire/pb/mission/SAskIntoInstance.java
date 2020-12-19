@@ -25,16 +25,16 @@ public class SAskIntoInstance extends __SAskIntoInstance__ {
 		return 805538;
 	}
 
-	public int msgid; // ÏûÏ¢id
-	public java.lang.String teamleadername; // ¶Ó³¤Ãû×Ö
-	public int awardtimes; // ½±ÀøÊ£Óà´ÎÊı
-	public int step; // ½ø¶Èid
-	public int tlstep; // ¶Ó³¤½ø¶È
-	public int mystep; // ÎÒµÄ½ø¶È
-	public int allstep; // ×Ü½ø¶È
-	public java.util.LinkedList<Integer> steplist; // ÎÒµÄÎ´Íê³É½ø¶È
-	public int insttype; // 0 ÈÕ³£¸±±¾; 1Ê±¹âÖ®Ñ¨
-	public short autoenter; // 1±íÊ¾×Ô¶¯È·ÈÏ, 0±íÊ¾²»×Ô¶¯È·ÈÏ
+	public int msgid; // æ¶ˆæ¯id
+	public java.lang.String teamleadername; // é˜Ÿé•¿åå­—
+	public int awardtimes; // å¥–åŠ±å‰©ä½™æ¬¡æ•°
+	public int step; // è¿›åº¦id
+	public int tlstep; // é˜Ÿé•¿è¿›åº¦
+	public int mystep; // æˆ‘çš„è¿›åº¦
+	public int allstep; // æ€»è¿›åº¦
+	public java.util.LinkedList<Integer> steplist; // æˆ‘çš„æœªå®Œæˆè¿›åº¦
+	public int insttype; // 0 æ—¥å¸¸å‰¯æœ¬; 1æ—¶å…‰ä¹‹ç©´
+	public short autoenter; // 1è¡¨ç¤ºè‡ªåŠ¨ç¡®è®¤, 0è¡¨ç¤ºä¸è‡ªåŠ¨ç¡®è®¤
 
 	public SAskIntoInstance() {
 		teamleadername = "";

@@ -23,7 +23,7 @@ public class CRequestUpdateRoleInfo extends __CRequestUpdateRoleInfo__ {
 			public boolean process() {
 
 				if (xtable.Properties.selectRolename(roleid) == null) {
-					// 这里存在的原因是:服务器删档了,而客户端本地的最近联系人列表未删�?
+					// 杩欓噷瀛樺湪鐨勫師鍥犳槸:鏈嶅姟鍣ㄥ垹妗ｄ簡,鑰屽鎴风鏈湴鐨勬渶杩戣仈绯讳汉鍒楄〃鏈垹闄?
 					Module.logger.warn("[CRequestUpdateRoleInfo] find non-existent role info, roleId:" + currentRoleId
 							+ " targetRoleId:" + roleid);
 					return true;

@@ -22,7 +22,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 		mkdb.Procedure teamrollmelon = new mkdb.Procedure() 
 		{
 			@Override
-			/*加锁顺序team by changhao*/
+			/*鍔犻攣椤哄簭team by changhao*/
 			protected boolean process()
 			{	
 				xbean.Properties roleprop = xtable.Properties.select(roleid);
@@ -39,7 +39,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				if (eteammelon == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分�?"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:娌℃湁濂栧姳鍙垎閰?"+roleid);
 					return true;					
 				}
 				
@@ -47,27 +47,27 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				if (teammelon == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分�?"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:娌℃湁濂栧姳鍙垎閰?"+roleid);
 					return true;					
 				}
 				
-				//此人没有资格ROLL�? by changhao
+				//姝や汉娌℃湁璧勬牸ROLL鐐? by changhao
 				Integer rollpoint = teammelon.getMelonroleids().get(roleid);
 				if (rollpoint == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:没有奖励可分�?"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:娌℃湁濂栧姳鍙垎閰?"+roleid);
 					return true;	
 				}
 				
 				Integer alreadroll = teammelon.getOpmelonroleids().get(roleid);
 				if (alreadroll != null)
 				{
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:已经ROLL过了"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:宸茬粡ROLL杩囦簡"+roleid);
 					return true;
 				}
 				
-				if (status == 0) //某人如果放弃�? by changhao
+				if (status == 0) //鏌愪汉濡傛灉鏀惧純浜? by changhao
 				{					
 					teammelon.getMelonroleids().put(roleid, 0);
 				}
@@ -85,13 +85,13 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				msg.rollinfo.rolename = roleprop.getRolename();
 				msg.rollinfo.roll = teammelon.getMelonroleids().get(roleid);
 				
-				for (Long e : eteammelon.getMelonerlist()) //发给�?有队员最终的这个人ROLL点情�? by changhao
+				for (Long e : eteammelon.getMelonerlist()) //鍙戠粰鎵?鏈夐槦鍛樻渶缁堢殑杩欎釜浜篟OLL鐐规儏鍐? by changhao
 				{
-					//TeamManager.logger.info("roll�?:发�?�给roleid:" + e + "点数:" + msg.rollinfo.roll);
+					//TeamManager.logger.info("roll鐐?:鍙戦?佺粰roleid:" + e + "鐐规暟:" + msg.rollinfo.roll);
 					mkdb.Procedure.psendWhileCommit(e, msg);			
 				}
 				
-				for (Long e : eteammelon.getWatchmelonerlist()) //发给观看 ROLL点的�? by changhao
+				for (Long e : eteammelon.getWatchmelonerlist()) //鍙戠粰瑙傜湅 ROLL鐐圭殑浜? by changhao
 				{
 					if (e != null)
 						mkdb.Procedure.psendWhileCommit(e, msg);			
@@ -111,7 +111,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 	
 	/*
 	 * 
-	 * �?终决定谁的点�?�? by changhao
+	 * 鏈?缁堝喅瀹氳皝鐨勭偣鏈?澶? by changhao
 	 */
 	public long calcMaxRollPoint(java.util.ArrayList<Long> roleids, xbean.TeamMelon teammelon)
 	{
@@ -138,8 +138,8 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 		return 794523;
 	}
 
-	public long melonid; // ����id by changhao
-	public int status; // 1��ROLL 0�Ƿ��� by changhao
+	public long melonid; // 分赃id by changhao
+	public int status; // 1是ROLL 0是放弃 by changhao
 
 	public CTeamRollMelon() {
 	}

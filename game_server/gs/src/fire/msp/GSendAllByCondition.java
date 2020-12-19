@@ -27,7 +27,7 @@ public class GSendAllByCondition extends __GSendAllByCondition__ {
 		// protocol handle
 		Set<Long> sendroleIds = new HashSet<Long>(); 
 		if(sceneid != -1)
-		{//ä¼˜å…ˆæŒ‰åœºæ™¯ç´¢å¼?
+		{//æµ¼æ¨ºå›é¸å¤Šæº€é…îˆœå‚¨å¯®?
 			Scene scene = SceneManager.getInstance().getSceneByID(sceneid);
 			for(Role role : scene.getSceneRoles().values())
 			{
@@ -41,7 +41,7 @@ public class GSendAllByCondition extends __GSendAllByCondition__ {
 			}
 		}
 		else if(schoolid != -1)
-		{//æŒ‰é—¨æ´¾ç´¢å¼?
+		{//é¸å¤æ£¬å¨²å‰§å‚¨å¯®?
 			Set<Long> schoolroles = RoleManager.getInstance().getSchoolRoles(schoolid);
 			if (schoolroles!=null) 
 			for(long sroleId :  schoolroles)
@@ -77,7 +77,7 @@ public class GSendAllByCondition extends __GSendAllByCondition__ {
 		    sendroleIds.removeAll(exceptroles);
 		}
 		else
-		{//å…¨éå†è¿‡æ»¤ç­‰çº?
+		{//éã„©äº¶é˜å—šç¹ƒå©Šã‚‡ç“‘ç»¾?
 			for(Role role : RoleManager.getInstance().getRoles().values())
 			{
 				if(minlevel != -1 && role.getLevel() < minlevel)
@@ -99,14 +99,14 @@ public class GSendAllByCondition extends __GSendAllByCondition__ {
 		return 720903;
 	}
 
-	public int protype; // Ğ­ÒéµÄÀàĞÍ
-	public com.locojoy.base.Octets protocol; // Ğ­ÒémarshalÍêµÄÊı¾İ
-	public int schoolid; // ÃÅÅÉID£¬Èç¹ûÎŞÏŞÖÆÌî-1
-	public int minlevel; // ×îĞ¡µÈ¼¶£¬Èç¹ûÎŞÏŞÖÆÌî-1
-	public int maxlevel; // ×î´óµÈ¼¶£¬Èç¹ûÎŞÏŞÖÆÌî-1
-	public long sceneid; // ³¡¾°ID£¬Èç¹ûÎŞÏŞÖÆÌî-1
-	public int camp; // ÕóÓªÆµµÀ,Èç¹ûÎŞÏŞÖÆÌî-1
-	public java.util.ArrayList<Long> exceptroles; // ²»·¢ËÍĞ­ÒéµÄrole
+	public int protype; // åè®®çš„ç±»å‹
+	public com.locojoy.base.Octets protocol; // åè®®marshalå®Œçš„æ•°æ®
+	public int schoolid; // é—¨æ´¾IDï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
+	public int minlevel; // æœ€å°ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
+	public int maxlevel; // æœ€å¤§ç­‰çº§ï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
+	public long sceneid; // åœºæ™¯IDï¼Œå¦‚æœæ— é™åˆ¶å¡«-1
+	public int camp; // é˜µè¥é¢‘é“,å¦‚æœæ— é™åˆ¶å¡«-1
+	public java.util.ArrayList<Long> exceptroles; // ä¸å‘é€åè®®çš„role
 
 	public GSendAllByCondition() {
 		protocol = new com.locojoy.base.Octets();

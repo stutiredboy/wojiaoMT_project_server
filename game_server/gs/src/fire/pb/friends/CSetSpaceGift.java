@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSetSpaceGift__ extends mkio.Protocol { }
 
-/** ·ÅÖÃ½ÇÉ«¿Õ¼äÀñÎï
+/** æ”¾ç½®è§’è‰²ç©ºé—´ç¤¼ç‰©
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,7 +30,7 @@ public class CSetSpaceGift extends __CSetSpaceGift__ {
 		return 806641;
 	}
 
-	public int giftnum; // ·ÅÖÃµÄÀñÎïÊıÁ¿
+	public int giftnum; // æ”¾ç½®çš„ç¤¼ç‰©æ•°é‡
 
 	public CSetSpaceGift() {
 	}

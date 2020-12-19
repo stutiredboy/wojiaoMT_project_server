@@ -27,8 +27,8 @@ public class CReqChangePassword extends __CReqChangePassword__ {
 		return 818937;
 	}
 
-	public java.lang.String oldpassword; // ¾ÉÃÜÂë
-	public java.lang.String newpassword; // ĞÂÃÜÂë
+	public java.lang.String oldpassword; // æ—§å¯†ç 
+	public java.lang.String newpassword; // æ–°å¯†ç 
 
 	public CReqChangePassword() {
 		oldpassword = "";

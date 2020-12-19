@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetHuoBanList__ extends mkio.Protocol { }
 
-/** 获取伙伴信息列表
+/** 鑾峰彇浼欎即淇℃伅鍒楄〃
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

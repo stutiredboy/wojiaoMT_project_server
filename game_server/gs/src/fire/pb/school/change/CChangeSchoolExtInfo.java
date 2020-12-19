@@ -21,7 +21,7 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// å‘é?è½¬èŒä¿¡æ?
+				// é™æˆ¦?ä½½æµ†é‘±å±¼ä¿Šé­?
 				SChangeSchoolExtInfo send = new SChangeSchoolExtInfo();
 				xbean.ChangeSchoolInfo info = xtable.Changeschool.select(roleId);
 				if (info != null) {
@@ -44,7 +44,7 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 		return 810487;
 	}
 
-	public int oldkey; // ¾ÉÎäÆ÷µÄKey
+	public int oldkey; // æ—§æ­¦å™¨çš„Key
 
 	public CChangeSchoolExtInfo() {
 	}

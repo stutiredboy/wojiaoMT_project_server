@@ -25,7 +25,7 @@ public class SGameTime extends __SGameTime__ {
 		return 786439;
 	}
 
-	public long servertime; // ¹ã²¥·şÎñÆ÷Ê±¼ä
+	public long servertime; // å¹¿æ’­æœåŠ¡å™¨æ—¶é—´
 
 	public SGameTime() {
 	}

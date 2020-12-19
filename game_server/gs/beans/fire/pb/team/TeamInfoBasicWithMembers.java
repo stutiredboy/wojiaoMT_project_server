@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TeamInfoBasicWithMembers implements Marshal {
-	public fire.pb.team.TeamInfoBasic teaminfobasic; // //¶ÓÎé»ù±¾Êı¾İ by changhao
-	public java.util.LinkedList<fire.pb.team.TeamMemberSimple> memberlist; // //³ÉÔ±»ù±¾Êı¾İ by changhao
-	public int status; // ×´Ì¬ 0ÊÇÕı³£1ÊÇÉêÇëÖĞby changhao
+	public fire.pb.team.TeamInfoBasic teaminfobasic; // //é˜Ÿä¼åŸºæœ¬æ•°æ® by changhao
+	public java.util.LinkedList<fire.pb.team.TeamMemberSimple> memberlist; // //æˆå‘˜åŸºæœ¬æ•°æ® by changhao
+	public int status; // çŠ¶æ€ 0æ˜¯æ­£å¸¸1æ˜¯ç”³è¯·ä¸­by changhao
 
 	public TeamInfoBasicWithMembers() {
 		teaminfobasic = new fire.pb.team.TeamInfoBasic();

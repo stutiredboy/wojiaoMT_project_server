@@ -25,7 +25,7 @@ public class SChangeBaseConfig extends __SChangeBaseConfig__ {
 		return 806442;
 	}
 
-	public int refusestrangermsg; // 1个拒绝陌生人消息
+	public int refusestrangermsg; // 1涓嫆缁濋檶鐢熶汉娑堟伅
 
 	public SChangeBaseConfig() {
 	}

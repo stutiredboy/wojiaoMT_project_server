@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSendNpcMsg__ extends mkio.Protocol { }
 
-/** 服务器发送给客户端，npc提示信息
+/** 鏈嶅姟鍣ㄥ彂閫佺粰瀹㈡埛绔紝npc鎻愮ず淇℃伅
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

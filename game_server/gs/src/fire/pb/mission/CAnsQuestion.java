@@ -25,8 +25,8 @@ public class CAnsQuestion extends __CAnsQuestion__ {
 	}
 
 	public long npckey; // npckey
-	public int questionid; // 问题ID
-	public int answer; // 答案选项
+	public int questionid; // 闂ID
+	public int answer; // 绛旀閫夐」
 	public byte flag;
 
 	public CAnsQuestion() {

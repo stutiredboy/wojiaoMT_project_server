@@ -31,8 +31,8 @@ public class CSendImpExamAnswer extends __CSendImpExamAnswer__ {
 	}
 
 	public byte impexamtype;
-	public int answerid; // 玩家选择的选项
-	public byte assisttype; // 协助类型
+	public int answerid; // 鐜╁閫夋嫨鐨勯�夐」
+	public byte assisttype; // 鍗忓姪绫诲瀷
 
 	public CSendImpExamAnswer() {
 	}

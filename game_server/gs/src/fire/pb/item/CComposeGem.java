@@ -29,10 +29,10 @@ public class CComposeGem extends __CComposeGem__ {
 		return 787784;
 	}
 
-	public byte buserongheji; // ÊÇ·ñÊ¹ÓÃÈÚºÏ¼Á 0:²»Ê¹ÓÃ 1:Ê¹ÓÃ
-	public int targetgemitemid; // ºÏ³É±¦Ê¯µÄID
-	public java.util.ArrayList<fire.pb.item.ComposeGemInfoBean> baggems; // Ê¹ÓÃµÄ±³°ü±¦Ê¯
-	public java.util.ArrayList<fire.pb.item.ComposeGemInfoBean> shopgems; // Ê¹ÓÃµÄÉÌµê±¦Ê¯
+	public byte buserongheji; // æ˜¯å¦ä½¿ç”¨èåˆå‰‚ 0:ä¸ä½¿ç”¨ 1:ä½¿ç”¨
+	public int targetgemitemid; // åˆæˆå®çŸ³çš„ID
+	public java.util.ArrayList<fire.pb.item.ComposeGemInfoBean> baggems; // ä½¿ç”¨çš„èƒŒåŒ…å®çŸ³
+	public java.util.ArrayList<fire.pb.item.ComposeGemInfoBean> shopgems; // ä½¿ç”¨çš„å•†åº—å®çŸ³
 
 	public CComposeGem() {
 		baggems = new java.util.ArrayList<fire.pb.item.ComposeGemInfoBean>();

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSendQueueInfo__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷£º·¢ËÍÅÅ¶ÓĞÅÏ¢
+/** æœåŠ¡å™¨ï¼šå‘é€æ’é˜Ÿä¿¡æ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SSendQueueInfo extends __SSendQueueInfo__ {
 		return 786480;
 	}
 
-	public int order; // ÅÅÎ» £¬µÈÓÚ0Ê±ÎªÔÚ0Î»´Î£¬µÈÓÚ-1Ê±±íÊ¾ÅÅ¶ÓÈËÊıÒÑÂú
-	public int queuelength; // ¶ÓÁĞ×Ü³¤¶È
-	public int minutes; // Ê£ÓàÊ±¼ä
+	public int order; // æ’ä½ ï¼Œç­‰äº0æ—¶ä¸ºåœ¨0ä½æ¬¡ï¼Œç­‰äº-1æ—¶è¡¨ç¤ºæ’é˜Ÿäººæ•°å·²æ»¡
+	public int queuelength; // é˜Ÿåˆ—æ€»é•¿åº¦
+	public int minutes; // å‰©ä½™æ—¶é—´
 
 	public SSendQueueInfo() {
 	}

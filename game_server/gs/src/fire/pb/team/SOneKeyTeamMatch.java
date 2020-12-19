@@ -25,7 +25,7 @@ public class SOneKeyTeamMatch extends __SOneKeyTeamMatch__ {
 		return 794500;
 	}
 
-	public int ret; // 0ÊÇ³É¹¦1ÊÇÊ§°Ü by changhao
+	public int ret; // 0æ˜¯æˆåŠŸ1æ˜¯å¤±è´¥ by changhao
 
 	public SOneKeyTeamMatch() {
 	}

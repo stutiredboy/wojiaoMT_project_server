@@ -13,7 +13,7 @@ abstract class __CRequestSetTeamLevel__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 设置队伍等级
+ * 璁剧疆闃熶紞绛夌骇
  * @author changhao
  *
  */
@@ -36,13 +36,13 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//先验证队伍是否为�?
+				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isTeamLeader(leaderRoleId))
-					return true;//验证该角色是否还是队伍的队长
+					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鏄槦浼嶇殑闃熼暱
 				Long[] roleids = new Long[1];
 				roleids[0] = leaderRoleId;
 				this.lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK,(Object[])roleids));
@@ -50,23 +50,23 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 				
 				if(!checkOnline(leaderRoleId))
 				{
-					//设置者不在线（illegal�?
-					TeamManager.logger.debug("FAIL:设置者不在线,roleid: " + leaderRoleId);
+					//璁剧疆鑰呬笉鍦ㄧ嚎锛坕llegal锛?
+					TeamManager.logger.debug("FAIL:璁剧疆鑰呬笉鍦ㄧ嚎,roleid: " + leaderRoleId);
 				}
 				else if(!checkSetedLevelValid(minlevel, maxlevel))
 				{
-					//设置的等级不合法（illegal�?
-					TeamManager.logger.debug("FAIL:设置的等级不合法,minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
+					//璁剧疆鐨勭瓑绾т笉鍚堟硶锛坕llegal锛?
+					TeamManager.logger.debug("FAIL:璁剧疆鐨勭瓑绾т笉鍚堟硶,minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
 				}
 				else
 				{
-					TeamManager.logger.debug("SUCC:可以设置队伍等级要求, minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
+					TeamManager.logger.debug("SUCC:鍙互璁剧疆闃熶紞绛夌骇瑕佹眰, minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
 					team.getTeamInfo().setMinlevel(minlevel);
 					team.getTeamInfo().setMaxlevel(maxlevel);
 					SSetTeamLevel sSetTeamLevel = new SSetTeamLevel();
 					sSetTeamLevel.minlevel = minlevel;
 					sSetTeamLevel.maxlevel = maxlevel;					
-					mkdb.Procedure.psendWhileCommit(team.getTeamBroadcastSet(), sSetTeamLevel);//群发队伍等级�?求变�?
+					mkdb.Procedure.psendWhileCommit(team.getTeamBroadcastSet(), sSetTeamLevel);//缇ゅ彂闃熶紞绛夌骇闇?姹傚彉鏇?
 				}
 				return true;
 			}
@@ -74,7 +74,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 		setTeamLevelP.submit();
 	}
 
-	//设置者在线？只能在Procedure中被调用
+	//璁剧疆鑰呭湪绾匡紵鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkOnline(long roleId)
 	{
 		if(StateCommon.isOnline(roleId))
@@ -83,7 +83,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			return false;
 	}	
 	
-	// 设置者是�?个队伍的队长？只能在Procedure中被调用
+	// 璁剧疆鑰呮槸涓?涓槦浼嶇殑闃熼暱锛熷彧鑳藉湪Procedure涓璋冪敤
 	@SuppressWarnings("unused")
 	private boolean checkLeaderInTeam(long leaderRoleId,Team team)
 	{
@@ -93,7 +93,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			return false;
 	}
 	
-	//设置的等级合法？只能在Peocedure中被调用
+	//璁剧疆鐨勭瓑绾у悎娉曪紵鍙兘鍦≒eocedure涓璋冪敤
 	private boolean checkSetedLevelValid(int minLevel,int maxLevel)
 	{
 		if(minLevel > maxLevel)

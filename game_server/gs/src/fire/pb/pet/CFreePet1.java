@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CFreePet1__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÇëÇó·ÅÉú³èÎï  (·ÅÉú³É¹¦£¬·şÎñÆ÷»á·µ»Ø¿Í»§¶ËÉ¾³ı³èÎïµÄÏûÏ¢
+/** å®¢æˆ·ç«¯è¯·æ±‚æ”¾ç”Ÿå® ç‰©  (æ”¾ç”ŸæˆåŠŸï¼ŒæœåŠ¡å™¨ä¼šè¿”å›å®¢æˆ·ç«¯åˆ é™¤å® ç‰©çš„æ¶ˆæ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CFreePet1 extends __CFreePet1__ {
 		return 788497;
 	}
 
-	public java.util.ArrayList<Integer> petkeys; // ·ÅÉúµÄ³èÎïµÄkey
+	public java.util.ArrayList<Integer> petkeys; // æ”¾ç”Ÿçš„å® ç‰©çš„key
 
 	public CFreePet1() {
 		petkeys = new java.util.ArrayList<Integer>();

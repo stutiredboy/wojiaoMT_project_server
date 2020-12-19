@@ -25,9 +25,9 @@ public class SClanLevelup extends __SClanLevelup__ {
 		return 808473;
 	}
 
-	public java.util.HashMap<Integer,Integer> change; // 1´óÌü2½ğ¿â3Ò©µê4ÂÃ¹İ by changhao
-	public java.util.HashMap<Integer,Integer> costmax; // 1´óÌü2½ğ¿â3Ò©µê4ÂÃ¹İ Éı¼¶ĞèÒªµÄ×Ê½ğ×î´óÖµ
-	public int money; // ·µ»Ø×îĞÂ¹«»á×Ê½ğ by changhao
+	public java.util.HashMap<Integer,Integer> change; // 1å¤§å…2é‡‘åº“3è¯åº—4æ—…é¦† by changhao
+	public java.util.HashMap<Integer,Integer> costmax; // 1å¤§å…2é‡‘åº“3è¯åº—4æ—…é¦† å‡çº§éœ€è¦çš„èµ„é‡‘æœ€å¤§å€¼
+	public int money; // è¿”å›æœ€æ–°å…¬ä¼šèµ„é‡‘ by changhao
 
 	public SClanLevelup() {
 		change = new java.util.HashMap<Integer,Integer>();

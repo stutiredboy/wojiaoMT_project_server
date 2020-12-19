@@ -25,8 +25,8 @@ public class SUseTreasureMap extends __SUseTreasureMap__ {
 		return 805533;
 	}
 
-	public int awardid; // 0 ±íÊ¾½ğÇ®; ÆäËû±íÊ¾ÎïÆ·id
-	public int maptype; // 0 ÆÕÍ¨²Ø±¦Í¼; 1 ¸ß¼¶²Ø±¦Í¼
+	public int awardid; // 0 è¡¨ç¤ºé‡‘é’±; å…¶ä»–è¡¨ç¤ºç‰©å“id
+	public int maptype; // 0 æ™®é€šè—å®å›¾; 1 é«˜çº§è—å®å›¾
 
 	public SUseTreasureMap() {
 	}

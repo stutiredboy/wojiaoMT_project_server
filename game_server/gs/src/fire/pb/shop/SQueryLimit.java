@@ -25,8 +25,8 @@ public class SQueryLimit extends __SQueryLimit__ {
 		return 810638;
 	}
 
-	public int querytype; // 查询类型   1商品限购次数查询  2商品限售次数查询
-	public java.util.ArrayList<fire.pb.shop.GoodsLimit> goodslimits; // 查询商品id
+	public int querytype; // 鏌ヨ绫诲瀷   1鍟嗗搧闄愯喘娆℃暟鏌ヨ  2鍟嗗搧闄愬敭娆℃暟鏌ヨ
+	public java.util.ArrayList<fire.pb.shop.GoodsLimit> goodslimits; // 鏌ヨ鍟嗗搧id
 
 	public SQueryLimit() {
 		goodslimits = new java.util.ArrayList<fire.pb.shop.GoodsLimit>();

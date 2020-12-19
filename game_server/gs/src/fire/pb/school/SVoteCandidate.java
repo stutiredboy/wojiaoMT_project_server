@@ -25,7 +25,7 @@ public class SVoteCandidate extends __SVoteCandidate__ {
 		return 810440;
 	}
 
-	public int alreadyvote; // 1��ʾ�Ѿ�ͶƱ��,0��ʾ���ܻ�ûͶƱ
+	public int alreadyvote; // 1表示已经投票过,0表示本周还没投票
 	public java.util.ArrayList<fire.pb.school.CandidateInfo> candidatelist;
 	public long shouxikey;
 

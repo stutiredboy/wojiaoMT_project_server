@@ -25,11 +25,11 @@ public class SClanInvitation extends __SClanInvitation__ {
 		return 808462;
 	}
 
-	public long hostroleid; // ÑûÇëÈËroleid
-	public java.lang.String hostrolename; // ÑûÇëÈËÃû³Æ
-	public int clanlevel; // ¹«»áµÈ¼¶
-	public java.lang.String clannname; // ¹«»áÃû³Æ
-	public byte invitetype; // ÑûÇëÀàĞÍ 0-ÆÕÍ¨ÈËÔ±ÑûÇë(½øÈëÉêÇëÁĞ±í) 1-°ïÖ÷/¸±°ïÖ÷ÑûÇë(Ö±½Ó½øÈë¹«»á)
+	public long hostroleid; // é‚€è¯·äººroleid
+	public java.lang.String hostrolename; // é‚€è¯·äººåç§°
+	public int clanlevel; // å…¬ä¼šç­‰çº§
+	public java.lang.String clannname; // å…¬ä¼šåç§°
+	public byte invitetype; // é‚€è¯·ç±»å‹ 0-æ™®é€šäººå‘˜é‚€è¯·(è¿›å…¥ç”³è¯·åˆ—è¡¨) 1-å¸®ä¸»/å‰¯å¸®ä¸»é‚€è¯·(ç›´æ¥è¿›å…¥å…¬ä¼š)
 
 	public SClanInvitation() {
 		hostrolename = "";

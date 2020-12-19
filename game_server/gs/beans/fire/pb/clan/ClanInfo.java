@@ -6,19 +6,19 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ClanInfo implements Marshal {
-	public java.lang.String clanname; // ¹«»áÃû³Æ
-	public long clanid; // ¹«»áid
-	public long clankey; // ¹«»ákey
-	public int clanlevel; // ¹«»áµÈ¼¶
-	public int membersnum; // ³ÉÔ±ÈËÊı
-	public java.lang.String clanmaster; // °ïÖ÷
-	public java.lang.String clanvicemaster; // ¸±°ïÖ÷
-	public java.lang.String clancreator; // ´´Ê¼ÈË
-	public java.lang.String clanrank; // ¹«»áÅÅÃû
-	public java.lang.String clanaim; // ¹«»á×ÚÖ¼
+	public java.lang.String clanname; // å…¬ä¼šåç§°
+	public long clanid; // å…¬ä¼šid
+	public long clankey; // å…¬ä¼škey
+	public int clanlevel; // å…¬ä¼šç­‰çº§
+	public int membersnum; // æˆå‘˜äººæ•°
+	public java.lang.String clanmaster; // å¸®ä¸»
+	public java.lang.String clanvicemaster; // å‰¯å¸®ä¸»
+	public java.lang.String clancreator; // åˆ›å§‹äºº
+	public java.lang.String clanrank; // å…¬ä¼šæ’å
+	public java.lang.String clanaim; // å…¬ä¼šå®—æ—¨
 	public java.util.HashMap<Long,fire.pb.clan.ClanMember> memberlist;
-	public java.util.HashMap<Integer,fire.pb.clan.ClanSkill> clanskilllist; // ¹«»á¼¼ÄÜÁĞ±í
-	public java.util.HashMap<Long,fire.pb.clan.ClanDMapInfo> clandsceneids; // ¹«»áËùÓĞÄÚ¾°¸±±¾µØÍ¼³¡¾°id
+	public java.util.HashMap<Integer,fire.pb.clan.ClanSkill> clanskilllist; // å…¬ä¼šæŠ€èƒ½åˆ—è¡¨
+	public java.util.HashMap<Long,fire.pb.clan.ClanDMapInfo> clandsceneids; // å…¬ä¼šæ‰€æœ‰å†…æ™¯å‰¯æœ¬åœ°å›¾åœºæ™¯id
 
 	public ClanInfo() {
 		clanname = "";

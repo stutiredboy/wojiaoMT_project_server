@@ -12,7 +12,7 @@ abstract class __CDismissTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 解散队伍
+ * 瑙ｆ暎闃熶紞
  * @author changhao
  *
  */

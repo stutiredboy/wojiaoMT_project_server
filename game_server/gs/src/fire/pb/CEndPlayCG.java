@@ -19,7 +19,7 @@ public class CEndPlayCG extends __CEndPlayCG__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid <= 0)
 			return;
-		//去掉玩家身上的播放动画buff
+		//鍘绘帀鐜╁韬笂鐨勬挱鏀惧姩鐢籦uff
 		new mkdb.Procedure(){
 
 			@Override
@@ -46,7 +46,7 @@ public class CEndPlayCG extends __CEndPlayCG__ {
 		return 786456;
 	}
 
-	public int id; // ������id
+	public int id; // 动画的id
 
 	public CEndPlayCG() {
 	}

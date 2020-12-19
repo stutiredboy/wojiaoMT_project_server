@@ -25,8 +25,8 @@ public class SPvP5OpenBoxState extends __SPvP5OpenBoxState__ {
 		return 793673;
 	}
 
-	public byte boxtype; // 1:Ê×Ê¤£¬2£ºÎåÕ½
-	public byte state; // 0£º²»¿ÉÁìÈ¡£¬1£º¿ÉÁìÈ¡£¬2£ºÒÑÁìÈ¡
+	public byte boxtype; // 1:é¦–èƒœï¼Œ2ï¼šäº”æˆ˜
+	public byte state; // 0ï¼šä¸å¯é¢†å–ï¼Œ1ï¼šå¯é¢†å–ï¼Œ2ï¼šå·²é¢†å–
 
 	public SPvP5OpenBoxState() {
 	}

@@ -25,12 +25,12 @@ public class SQueryRegData extends __SQueryRegData__ {
 		return 810533;
 	}
 
-	public int month; // ÔÂ
-	public int times; // Ç©µ½´ÎÊı
-	public int suppregtimes; // ²¹Ç©´ÎÊı
-	public int cansuppregtimes; // ¿É²¹Ç©´ÎÊı
-	public java.util.ArrayList<Integer> suppregdays; // ²¹Ç©ÈÕ×Ó
-	public int rewardflag; // 1-ÁìÈ¡¹ı 2-Î´ÁìÈ¡
+	public int month; // æœˆ
+	public int times; // ç­¾åˆ°æ¬¡æ•°
+	public int suppregtimes; // è¡¥ç­¾æ¬¡æ•°
+	public int cansuppregtimes; // å¯è¡¥ç­¾æ¬¡æ•°
+	public java.util.ArrayList<Integer> suppregdays; // è¡¥ç­¾æ—¥å­
+	public int rewardflag; // 1-é¢†å–è¿‡ 2-æœªé¢†å–
 
 	public SQueryRegData() {
 		suppregdays = new java.util.ArrayList<Integer>();

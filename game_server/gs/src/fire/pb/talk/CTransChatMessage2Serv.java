@@ -24,7 +24,7 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 			return;
 		if(fire.pb.talk.ChatChannel.isShutUp(roleId))
 			return;
-		//判断是否是求助类型，如果�?1表示求助，需要判断求助的�?大次�?
+		//鍒ゆ柇鏄惁鏄眰鍔╃被鍨嬶紝濡傛灉鏄?1琛ㄧず姹傚姪锛岄渶瑕佸垽鏂眰鍔╃殑鏈?澶ф鏁?
 		if(funtype==FunModelType.FUN_TASKITEM){
 			xbean.helpcount helpcount = xtable.Helpcount.select(roleId);
 	    	int max=HelpCountManage.getInstance().getHelpItemNumMax(roleId);
@@ -40,7 +40,7 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 	    		MessageMgr.sendMsgNotify(roleId, 166087, null);
 	    		return;
 	    	}
-			//记录玩家在频道中发布的任务求助信�?
+			//璁板綍鐜╁鍦ㄩ閬撲腑鍙戝竷鐨勪换鍔℃眰鍔╀俊鎭?
 			new mkdb.Procedure() {
 				@Override
 				protected boolean process() throws Exception {
@@ -50,14 +50,14 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 						xtable.Rolerecourse.insert(roleId, roleRec);
 					}
 					
-					//解析出taskid
+					//瑙ｆ瀽鍑簍askid
 					xbean.TaskRecourse taskRec = roleRec.getRecoursetask().get(taskid);
 					if (taskRec == null) {
 						taskRec = xbean.Pod.newTaskRecourse();
 						roleRec.getRecoursetask().put(taskid, taskRec);
 					}
 					
-					//存储信息
+					//瀛樺偍淇℃伅
 					if (!taskRec.getChannellist().contains(Integer.valueOf(messagetype))) {
 						taskRec.getChannellist().add(messagetype);
 					}
@@ -86,12 +86,12 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 		return 792433;
 	}
 
-	public int messagetype; // ��ϢƵ�� MsgTye��������Ĳ���
-	public java.lang.String message; // ����
-	public java.lang.String checkshiedmessage; // ��������ֵĴ��ı�
-	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfos; // ��ʾ���ߡ��������
-	public int funtype; // ��������  ���ͱ�Ŷ�ӦFunModelType
-	public int taskid; // ����id
+	public int messagetype; // 消息频道 MsgTye中所定义的部分
+	public java.lang.String message; // 内容
+	public java.lang.String checkshiedmessage; // 检测屏蔽字的纯文本
+	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfos; // 显示道具、宠物、技能
+	public int funtype; // 功能类型  类型编号对应FunModelType
+	public int taskid; // 任务id
 
 	public CTransChatMessage2Serv() {
 		message = "";

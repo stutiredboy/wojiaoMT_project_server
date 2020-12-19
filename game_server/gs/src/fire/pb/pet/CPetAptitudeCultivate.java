@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetAptitudeCultivate__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÇëÇó×ÊÖÊÅàÑø
+/** å®¢æˆ·ç«¯è¯·æ±‚èµ„è´¨åŸ¹å…»
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,9 +32,9 @@ public class CPetAptitudeCultivate extends __CPetAptitudeCultivate__ {
 		return 788521;
 	}
 
-	public int petkey; // ³èÎïkey
-	public int aptid; // ×ÊÖÊid
-	public int itemkey; // ÎïÆ·key
+	public int petkey; // å® ç‰©key
+	public int aptid; // èµ„è´¨id
+	public int itemkey; // ç‰©å“key
 
 	public CPetAptitudeCultivate() {
 	}

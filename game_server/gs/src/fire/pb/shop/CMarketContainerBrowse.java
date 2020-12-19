@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketContainerBrowse__ extends mkio.Protocol { }
 
-/** ��̯�������
+/** 摆摊容器浏览
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -34,13 +34,13 @@ public class CMarketContainerBrowse extends __CMarketContainerBrowse__ {
 		new mkdb.Procedure() {
 			protected boolean process() {
 				if (fire.pb.main.Gs.isMergeServer()) {
-					// 查询表中此角色是否有取回临时拍卖道具的历�?
+					// 鏌ヨ琛ㄤ腑姝よ鑹叉槸鍚︽湁鍙栧洖涓存椂鎷嶅崠閬撳叿鐨勫巻鍙?
 					Integer val = xtable.Takebackmarketcontainertab.select(roleId);
 					if (val == null) {
 						fire.pb.shop.srv.market.MarketManager.getInstance().sendTempMarketContainer(roleId);
 						if (fire.pb.shop.srv.market.MarketManager.LOG.isInfoEnabled()) {
 							StringBuilder sbd = new StringBuilder();
-							sbd.append("role=").append(roleId).append(", 浏览道具返回临时背包�?");
+							sbd.append("role=").append(roleId).append(", 娴忚閬撳叿杩斿洖涓存椂鑳屽寘锛?");
 							fire.pb.shop.srv.market.MarketManager.LOG.info(sbd.toString());
 						}
 						return true;

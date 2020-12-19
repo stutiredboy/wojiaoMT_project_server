@@ -25,8 +25,8 @@ public class SServerLevel extends __SServerLevel__ {
 		return 786521;
 	}
 
-	public int slevel; // ·şÎñÆ÷µÈ¼¶
-	public int newleveldays; // ¿ªÆôĞÂµÈ¼¶µÄÊ£ÓàÌìÊı
+	public int slevel; // æœåŠ¡å™¨ç­‰çº§
+	public int newleveldays; // å¼€å¯æ–°ç­‰çº§çš„å‰©ä½™å¤©æ•°
 
 	public SServerLevel() {
 	}

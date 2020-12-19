@@ -9,72 +9,72 @@ import com.locojoy.base.Marshal.MarshalException;
 */
 public class RoleDetail implements Marshal {
 	public long roleid; // ID
-	public java.lang.String rolename; // Ãû³Æ
-	public int level; // µÈ¼¶
-	public int school; // Ö°Òµ
-	public int shape; // ½ÇÉ«:Íæ¼ÒËùÊôµÄÏµÍ³½ÇÉ«µÄid
-	public int title; // µ±Ç°³ÆÎ½
-	public long lastlogin; // ÉÏ´ÎµÇÂ¼Ê±¼ä
-	public int hp; // ÆøÑª
-	public int uplimithp; // µ±Ç°ÆøÑªÉÏÏŞ
-	public int maxhp; // ×î´óÆøÑª
-	public int mp; // ·¨Á¦
-	public int magicattack; // ·¨Êõ¹¥»÷
-	public int maxmp; // ×î´ó·¨Á¦
-	public int magicdef; // ·¨Êõ·ÀÓù
-	public int sp; // Å­Æø
-	public int seal; // ¼ÓÇ¿·âÓ¡
-	public int maxsp; // ×î´óÅ­Æø
-	public int hit; // ÃüÖĞ
-	public int damage; // ÉËº¦
-	public int heal_critc_level; // ÁÆ±©µÈ¼¶
-	public int defend; // ·ÀÓù
-	public int phy_critc_level; // Íâ¹¦±©»÷µÈ¼¶
-	public int speed; // ËÙ¶È
-	public int magic_critc_level; // ÄÚ¹¦±©»÷µÈ¼¶
-	public int dodge; // ¶ã±Ü
-	public int anti_phy_critc_level; // Íâ¹¦¿¹ĞÔµÈ¼¶
-	public int medical; // ÖÎÁÆÇ¿¶È
-	public int unseal; // ·âÓ¡¿¹ĞÔ
-	public int anti_critc_level; // ±©»÷¿¹ĞÔµÈ¼¶
-	public float phy_critc_pct; // Íâ¹¦±©»÷³Ì¶È
-	public float magic_critc_pct; // ÄÚ¹¦±©»÷³Ì¶È
-	public float heal_critc_pct; // ÁÆ±©³Ì¶È
-	public int anti_magic_critc_level; // ÄÚ¹¦¿¹ĞÔµÈ¼¶
-	public int energy; // »îÁ¦
-	public int enlimit; // »îÁ¦ÉÏÏŞ
+	public java.lang.String rolename; // åç§°
+	public int level; // ç­‰çº§
+	public int school; // èŒä¸š
+	public int shape; // è§’è‰²:ç©å®¶æ‰€å±çš„ç³»ç»Ÿè§’è‰²çš„id
+	public int title; // å½“å‰ç§°è°“
+	public long lastlogin; // ä¸Šæ¬¡ç™»å½•æ—¶é—´
+	public int hp; // æ°”è¡€
+	public int uplimithp; // å½“å‰æ°”è¡€ä¸Šé™
+	public int maxhp; // æœ€å¤§æ°”è¡€
+	public int mp; // æ³•åŠ›
+	public int magicattack; // æ³•æœ¯æ”»å‡»
+	public int maxmp; // æœ€å¤§æ³•åŠ›
+	public int magicdef; // æ³•æœ¯é˜²å¾¡
+	public int sp; // æ€’æ°”
+	public int seal; // åŠ å¼ºå°å°
+	public int maxsp; // æœ€å¤§æ€’æ°”
+	public int hit; // å‘½ä¸­
+	public int damage; // ä¼¤å®³
+	public int heal_critc_level; // ç–—æš´ç­‰çº§
+	public int defend; // é˜²å¾¡
+	public int phy_critc_level; // å¤–åŠŸæš´å‡»ç­‰çº§
+	public int speed; // é€Ÿåº¦
+	public int magic_critc_level; // å†…åŠŸæš´å‡»ç­‰çº§
+	public int dodge; // èº²é¿
+	public int anti_phy_critc_level; // å¤–åŠŸæŠ—æ€§ç­‰çº§
+	public int medical; // æ²»ç–—å¼ºåº¦
+	public int unseal; // å°å°æŠ—æ€§
+	public int anti_critc_level; // æš´å‡»æŠ—æ€§ç­‰çº§
+	public float phy_critc_pct; // å¤–åŠŸæš´å‡»ç¨‹åº¦
+	public float magic_critc_pct; // å†…åŠŸæš´å‡»ç¨‹åº¦
+	public float heal_critc_pct; // ç–—æš´ç¨‹åº¦
+	public int anti_magic_critc_level; // å†…åŠŸæŠ—æ€§ç­‰çº§
+	public int energy; // æ´»åŠ›
+	public int enlimit; // æ´»åŠ›ä¸Šé™
 	public fire.pb.RoleBasicFightProperties bfp;
-	public java.util.HashMap<Integer,Integer> point; // Ç±ÄÜ
-	public int pointscheme; // µ±Ç°¼Óµã·½°¸
-	public int schemechanges; // ·½°¸ÇĞ»»´ÎÊı
-	public int schoolvalue; // Ö°Òµ¹±Ï×Öµ
-	public int reputation; // ÉùÍûÖµ
-	public long exp; // ¾­Ñé
-	public long nexp; // Éı¼¶ ĞèÒª¾­Ñé
-	public int showpet; // µ±Ç°Õ¹Ê¾µÄ³èÎï
-	public int petmaxnum; // ¿ÉĞ¯´øµÄ×î´ó³èÎïÊıÁ¿
+	public java.util.HashMap<Integer,Integer> point; // æ½œèƒ½
+	public int pointscheme; // å½“å‰åŠ ç‚¹æ–¹æ¡ˆ
+	public int schemechanges; // æ–¹æ¡ˆåˆ‡æ¢æ¬¡æ•°
+	public int schoolvalue; // èŒä¸šè´¡çŒ®å€¼
+	public int reputation; // å£°æœ›å€¼
+	public long exp; // ç»éªŒ
+	public long nexp; // å‡çº§ éœ€è¦ç»éªŒ
+	public int showpet; // å½“å‰å±•ç¤ºçš„å® ç‰©
+	public int petmaxnum; // å¯æºå¸¦çš„æœ€å¤§å® ç‰©æ•°é‡
 	public java.util.ArrayList<fire.pb.Pet> pets;
 	public java.util.HashMap<Integer,Integer> sysconfigmap;
 	public java.util.HashMap<Integer,Integer> lineconfigmap;
-	public java.util.HashMap<Integer,fire.pb.title.TitleInfo> titles; // ³ÆÎ½ĞÅÏ¢
+	public java.util.HashMap<Integer,fire.pb.title.TitleInfo> titles; // ç§°è°“ä¿¡æ¯
 	public java.util.HashMap<Integer,fire.pb.FormBean> learnedformsmap;
-	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«×°±¸ĞÅÏ¢ 0ÍÑÏÂ
-	public int activeness; // »îÔ¾¶ÈÖµ
-	public int factionvalue; // ¹«»á¹±Ï×¶È
+	public java.util.HashMap<Byte,Integer> components; // è§’è‰²è£…å¤‡ä¿¡æ¯ 0è„±ä¸‹
+	public int activeness; // æ´»è·ƒåº¦å€¼
+	public int factionvalue; // å…¬ä¼šè´¡çŒ®åº¦
 	public long masterid;
-	public byte isprotected; // ÊÇ·ñ´¦ÓÚ²Æ²ú±£»¤×´Ì¬£¬1 = ÊÇ £» 0 = ·ñ
-	public byte wrongpwdtimes; // 24Ğ¡Ê±ÄÚÊä´íÃÜÂëµÄ´ÎÊı
-	public int petindex; // µ±Ç°Õ½¶·³èÎï
-	public int kongzhijiacheng; // ¿ØÖÆ¼Ó³É
-	public int kongzhimianyi; // ¿ØÖÆÃâÒß
-	public int zhiliaojiashen; // ÖÎÁÆ¼ÓÉî
-	public int wulidikang; // ÎïÀíµÖ¿¹
-	public int fashudikang; // ·¨ÊõµÖ¿¹
-	public int fashuchuantou; // ·¨Êõ´©Í¸
-	public int wulichuantou; // ÎïÀí´©Í¸
-	public java.util.HashMap<Integer,fire.pb.Bag> baginfo; // keyÊÇbagid,valueÊÇ±³°üµÄÏêÏ¸ĞÅÏ¢
-	public long rolecreatetime; // ½ÇÉ«´´½¨Ê±¼ä
-	public java.util.HashMap<Integer,java.lang.String> depotnameinfo; // keyÊÇdepotid,valueÊÇdepotÃû(Èç¹ûÊÇÄ¬ÈÏµÄ¾Í²»´æÁË)
+	public byte isprotected; // æ˜¯å¦å¤„äºè´¢äº§ä¿æŠ¤çŠ¶æ€ï¼Œ1 = æ˜¯ ï¼› 0 = å¦
+	public byte wrongpwdtimes; // 24å°æ—¶å†…è¾“é”™å¯†ç çš„æ¬¡æ•°
+	public int petindex; // å½“å‰æˆ˜æ–—å® ç‰©
+	public int kongzhijiacheng; // æ§åˆ¶åŠ æˆ
+	public int kongzhimianyi; // æ§åˆ¶å…ç–«
+	public int zhiliaojiashen; // æ²»ç–—åŠ æ·±
+	public int wulidikang; // ç‰©ç†æŠµæŠ—
+	public int fashudikang; // æ³•æœ¯æŠµæŠ—
+	public int fashuchuantou; // æ³•æœ¯ç©¿é€
+	public int wulichuantou; // ç‰©ç†ç©¿é€
+	public java.util.HashMap<Integer,fire.pb.Bag> baginfo; // keyæ˜¯bagid,valueæ˜¯èƒŒåŒ…çš„è¯¦ç»†ä¿¡æ¯
+	public long rolecreatetime; // è§’è‰²åˆ›å»ºæ—¶é—´
+	public java.util.HashMap<Integer,java.lang.String> depotnameinfo; // keyæ˜¯depotid,valueæ˜¯depotå(å¦‚æœæ˜¯é»˜è®¤çš„å°±ä¸å­˜äº†)
 
 	public RoleDetail() {
 		rolename = "";

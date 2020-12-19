@@ -26,8 +26,8 @@ public class SSendImpExamProv extends __SSendImpExamProv__ {
 	}
 
 	public fire.pb.npc.ImpExamBean impexamdata;
-	public byte lost; // 0=¼ÌĞø 1=Ê§°Ü
-	public java.lang.String titlename; // »ñµÃµÄ³ÆºÅ
+	public byte lost; // 0=ç»§ç»­ 1=å¤±è´¥
+	public java.lang.String titlename; // è·å¾—çš„ç§°å·
 	public java.util.HashMap<Integer,Integer> rightmap;
 
 	public SSendImpExamProv() {

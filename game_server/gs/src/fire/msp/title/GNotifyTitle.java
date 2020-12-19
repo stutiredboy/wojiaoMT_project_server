@@ -18,7 +18,7 @@ public class GNotifyTitle extends __GNotifyTitle__ {
 		if(null == role) return;
 		if(null == role.getScene()) return;
 		role.setMyTitleInfo(title);
-		// 还按原来的流程分两条消息走，以后可能优化成一条消息，不过�?要客户端配合处理
+		// 杩樻寜鍘熸潵鐨勬祦绋嬪垎涓ゆ潯娑堟伅璧帮紝浠ュ悗鍙兘浼樺寲鎴愪竴鏉℃秷鎭紝涓嶈繃闇?瑕佸鎴风閰嶅悎澶勭悊
 		if (title.titleid > 0){
 			final fire.pb.title.SOnTitle onTitle = new fire.pb.title.SOnTitle();
 			onTitle.roleid = roleid;

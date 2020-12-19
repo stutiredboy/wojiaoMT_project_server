@@ -12,7 +12,7 @@ abstract class __CVoteCandidate__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 职业领袖�?始投�?
+ * 鑱屼笟棰嗚寮?濮嬫姇绁?
  * @author changhao
  *
  */
@@ -25,14 +25,14 @@ public class CVoteCandidate extends __CVoteCandidate__ {
 			return;
 		fire.pb.PropRole prop=new fire.pb.PropRole(roleid,true);
 		
-		//时间不对 by changhao
+		//鏃堕棿涓嶅 by changhao
 		if(!fire.pb.school.shouxi.ProfessionLeaderManager.getInstance().checkCanVote(System.currentTimeMillis()))
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 190072, null);
 			return;
 		}
 		
-		//玩家等级大于�?50�? by changhao
+		//鐜╁绛夌骇澶т簬绛?50绾? by changhao
 		if(prop.getLevel() < SchoolConst.TOUPIAO_MINLEVEL)
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 190080, null);
@@ -41,13 +41,13 @@ public class CVoteCandidate extends __CVoteCandidate__ {
 		
 		long value = prop.getProperties().getHistorymaxprofessioncontribute();
 		
-		if (value < 100) //历史职业贡献度要达到100才能投票 by changhao
+		if (value < 100) //鍘嗗彶鑱屼笟璐＄尞搴﹁杈惧埌100鎵嶈兘鎶曠エ by changhao
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 190076, null);
 			return;
 		}
 				
-		//是否已经投票 by changhao
+		//鏄惁宸茬粡鎶曠エ by changhao
 		if(fire.pb.school.shouxi.ProfessionLeaderManager.getInstance().checkAlreadyVote(roleid))
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 170014, null);

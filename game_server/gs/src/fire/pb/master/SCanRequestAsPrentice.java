@@ -25,8 +25,8 @@ public class SCanRequestAsPrentice extends __SCanRequestAsPrentice__ {
 		return 816462;
 	}
 
-	public long roleid; // ÇëÇóÊ¦¸¸µÄid
-	public java.lang.String rolename; // ÇëÇóÊ¦¸¸µÄÃû×Ö
+	public long roleid; // è¯·æ±‚å¸ˆçˆ¶çš„id
+	public java.lang.String rolename; // è¯·æ±‚å¸ˆçˆ¶çš„åå­—
 
 	public SCanRequestAsPrentice() {
 		rolename = "";

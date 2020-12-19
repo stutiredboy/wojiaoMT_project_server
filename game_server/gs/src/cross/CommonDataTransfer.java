@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CommonDataTransfer__ extends mkio.Protocol { }
 
-/** ÓëuserÎŞ¹ØµÄĞÅÏ¢´«µİ
+/** ä¸useræ— å…³çš„ä¿¡æ¯ä¼ é€’
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -31,7 +31,7 @@ public class CommonDataTransfer extends __CommonDataTransfer__ {
 	public final static int TO_CROSS = 1;
 	public final static int FROM_CROSS = 2;
 
-	public int zoneid; // ¿ç·şgsÔ­Öµ·µ»Ø
+	public int zoneid; // è·¨æœgsåŸå€¼è¿”å›
 	public int dtype;
 	public byte flag;
 	public com.locojoy.base.Octets content;

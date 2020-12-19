@@ -30,8 +30,8 @@ public class CCloseGoodLocks extends __CCloseGoodLocks__ {
 		return 786578;
 	}
 
-	public java.lang.String password; // ÃÜÂë
-	public byte closetype; // ¹Ø±ÕÀàĞÍ
+	public java.lang.String password; // å¯†ç 
+	public byte closetype; // å…³é—­ç±»å‹
 
 	public CCloseGoodLocks() {
 		password = "";

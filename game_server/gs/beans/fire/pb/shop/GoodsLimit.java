@@ -5,11 +5,11 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ´Ó·şÎñÆ÷»ñµÃÏŞ¹º»òÏŞÊÛÉÌÆ·µÄ¿É¹ºÂò»ò¿ÉÊÛÂô´ÎÊı
+/** ä»æœåŠ¡å™¨è·å¾—é™è´­æˆ–é™å”®å•†å“çš„å¯è´­ä¹°æˆ–å¯å”®å–æ¬¡æ•°
 */
 public class GoodsLimit implements Marshal , Comparable<GoodsLimit>{
-	public int goodsid; // ÉÌÆ·id
-	public int number; // ¿É¹ºÂò»ò¿ÉÊÛÂôÊıÁ¿
+	public int goodsid; // å•†å“id
+	public int number; // å¯è´­ä¹°æˆ–å¯å”®å–æ•°é‡
 
 	public GoodsLimit() {
 	}

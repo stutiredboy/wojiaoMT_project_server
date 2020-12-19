@@ -12,7 +12,7 @@ abstract class __CRequestTeamMatchList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请求匹配链表
+ * 璇锋眰鍖归厤閾捐〃
  * @author changhao
  *
  */
@@ -53,7 +53,7 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 					return true;
 				}
 				
-				if (num <= 0) //数量错误 by changhao
+				if (num <= 0) //鏁伴噺閿欒 by changhao
 				{
 					msg.targetid = targetid;
 					msg.ret = 2;
@@ -67,24 +67,24 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 				for (java.util.Map.Entry<Long, xbean.TeamMatch> e : ematch.getTeamid2matchdata().entrySet())
 				{
 					xbean.TeamMatch teammatch = e.getValue();
-					if (targetid == 0 || (teammatch.getTargetid() == targetid && teammatch.getMatchtype() == 1)) //是队伍匹�? by changhao
+					if (targetid == 0 || (teammatch.getTargetid() == targetid && teammatch.getMatchtype() == 1)) //鏄槦浼嶅尮閰? by changhao
 					{
 						Long teamid = xtable.Roleid2teamid.select(teammatch.getRoleid());
-						if (teamid != null && teamid > startteamid) //从开始取 by changhao
+						if (teamid != null && teamid > startteamid) //浠庡紑濮嬪彇 by changhao
 						{
 							Team team = new Team(teamid, true);
 							
-							if (!checkTeamFull(team.getTeamInfo())) //队伍满了 by changhao
+							if (!checkTeamFull(team.getTeamInfo())) //闃熶紞婊′簡 by changhao
 							{
 								continue;
 							}
 							
-							if (!checkLevel(teammatch, level)) //等级不符�? by changhao
+							if (!checkLevel(teammatch, level)) //绛夌骇涓嶇鍚? by changhao
 							{
 								continue;								
 							}
 									
-							if (curnum >= num || curnum >= TeamManager.MAX_MATCH_LIST_COUNT) //�?大数量限�? by changhao
+							if (curnum >= num || curnum >= TeamManager.MAX_MATCH_LIST_COUNT) //鏈?澶ф暟閲忛檺鍒? by changhao
 							{
 								break;
 							}
@@ -160,8 +160,8 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 	}
 	
 	/**
-	 * 必须在Procedure里执�? 创建�?个队伍的基本信息 by changhao
-	 * leaderid 必须是队伍的队长 by changhao
+	 * 蹇呴』鍦≒rocedure閲屾墽琛? 鍒涘缓涓?涓槦浼嶇殑鍩烘湰淇℃伅 by changhao
+	 * leaderid 蹇呴』鏄槦浼嶇殑闃熼暱 by changhao
 	 */		
 	public TeamInfoBasic newTeamInfoBasic(long teamid, xbean.TeamMatch teammatch, xbean.TeamInfo teaminfo)
 	{	
@@ -175,7 +175,7 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 		teamInfoBasic.maxlevel = teammatch.getLevelmax();
 		teamInfoBasic.membernum = teaminfo.getMembers().size() + 1;
 		teamInfoBasic.teamid = teamid;
-		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //表还没有要在表里�? by changhao 
+		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //琛ㄨ繕娌℃湁瑕佸湪琛ㄩ噷鍙? by changhao 
 		teamInfoBasic.targetid = teammatch.getTargetid();
 		
 		return teamInfoBasic;
@@ -189,9 +189,9 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 		return 794509;
 	}
 
-	public int targetid; // Ŀ��ID by changhao
-	public long startteamid; // ��ʼ����ID ��0�Ļ��ʹ�ͷȡ��by changhao
-	public int num; // ȡ��ʼ����id�����num������  by changhao
+	public int targetid; // 目标ID by changhao
+	public long startteamid; // 起始队伍ID （0的话就从头取）by changhao
+	public int num; // 取起始队伍id后面的num个数据  by changhao
 
 	public CRequestTeamMatchList() {
 	}

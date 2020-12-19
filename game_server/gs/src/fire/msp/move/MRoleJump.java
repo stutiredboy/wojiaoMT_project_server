@@ -35,8 +35,8 @@ public class MRoleJump extends __MRoleJump__ {
 	}
 
 	public long roleid;
-	public byte jumpstate; // 0=Í£Ö¹Ê±·¢ËÍ£¬1=ÌøÔ¾¿ªÊ¼Ê±·¢ËÍ,2=¶ş¶ÎÌøÊ±·¢ËÍ
-	public byte minus; // ¿Û³ıµÄÆøÁ¦Öµ£¬ÎªÕı
+	public byte jumpstate; // 0=åœæ­¢æ—¶å‘é€ï¼Œ1=è·³è·ƒå¼€å§‹æ—¶å‘é€,2=äºŒæ®µè·³æ—¶å‘é€
+	public byte minus; // æ‰£é™¤çš„æ°”åŠ›å€¼ï¼Œä¸ºæ­£
 
 	public MRoleJump() {
 	}

@@ -12,7 +12,7 @@ abstract class __CSwapMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 交换队员
+ * 浜ゆ崲闃熷憳
  * @author changhao
  *
  */
@@ -31,7 +31,7 @@ public class CSwapMember extends __CSwapMember__ {
 			protected boolean process()
 			{
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//先验证队伍是否为�?
+				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
 				Team team = null;
 				if(teamId != null)
 					team = new Team(teamId,false);
@@ -40,32 +40,32 @@ public class CSwapMember extends __CSwapMember__ {
 				
 				if(!checkleaderInTeam(leaderRoleId, team))
 				{
-					//申请交换的人不是队长（illigal�?
+					//鐢宠浜ゆ崲鐨勪汉涓嶆槸闃熼暱锛坕lligal锛?
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141192, null);
-					TeamManager.logger.debug("FAIL:申请交换的人不是队长,  leaderRoleId:" + leaderRoleId);
+					TeamManager.logger.debug("FAIL:鐢宠浜ゆ崲鐨勪汉涓嶆槸闃熼暱,  leaderRoleId:" + leaderRoleId);
 				}
 				else if(!checkIndexValid(team , index1, index2))
 				{
-					//申请交换的两队员index不合法（illigal�?
-					TeamManager.logger.debug("FAIL:申请交换的两队员index不合�?,  index1: " + index1 + " ;index2: "+ index2);
+					//鐢宠浜ゆ崲鐨勪袱闃熷憳index涓嶅悎娉曪紙illigal锛?
+					TeamManager.logger.debug("FAIL:鐢宠浜ゆ崲鐨勪袱闃熷憳index涓嶅悎娉?,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else if(!checkMemsberStateValid(team, index1, index2))
 				{
-					//要交换的两队员必须都处于正常状�??
+					//瑕佷氦鎹㈢殑涓ら槦鍛樺繀椤婚兘澶勪簬姝ｅ父鐘舵??
 					psend(leaderRoleId, new STeamError(TeamError.MembersNotNormal));
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141193, null);
-					TeamManager.logger.debug("FAIL:要交换的两队员必须都处于正常状�??,  index1: " + index1 + " ;index2: "+ index2);
+					TeamManager.logger.debug("FAIL:瑕佷氦鎹㈢殑涓ら槦鍛樺繀椤婚兘澶勪簬姝ｅ父鐘舵??,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else
 				{
-					TeamManager.logger.debug("SUCC:可以交换队员,  index1: " + index1 + " ;index2: "+ index2);
+					TeamManager.logger.debug("SUCC:鍙互浜ゆ崲闃熷憳,  index1: " + index1 + " ;index2: "+ index2);
 					team.switchTeamMemberWithSP(index1, index2);
 //					long roleId1 = team.getTeamInfo().getMembers().get(index1-1).getRoleid();
 //					long roleId2 = team.getTeamInfo().getMembers().get(index2-1).getRoleid();
 //					team.getTeamInfo().getMembers().get(index2-1).setRoleid(roleId1);
 //					team.getTeamInfo().getMembers().get(index1-1).setRoleid(roleId2);
 //					
-//					//将新顺序广播到所有队�?
+//					//灏嗘柊椤哄簭骞挎挱鍒版墍鏈夐槦鍛?
 //					Set<Long> roleids = new HashSet<Long>();
 //					SMemberSequence sMemberSequence = new SMemberSequence();
 //					sMemberSequence.teammemeberlist.add(team.getTeamInfo().getTeamleaderid());
@@ -75,7 +75,7 @@ public class CSwapMember extends __CSwapMember__ {
 //						sMemberSequence.teammemeberlist.add(member.getRoleid());
 //						roleids.add(member.getRoleid());
 //					}
-//					// 将队伍成员顺序发送到�?有成�?
+//					// 灏嗛槦浼嶆垚鍛橀『搴忓彂閫佸埌鎵?鏈夋垚鍛?
 //					xdb.Procedure.psendWhileCommit(roleids, sMemberSequence);
 				}
 				return true;
@@ -87,7 +87,7 @@ public class CSwapMember extends __CSwapMember__ {
 
 	
 
-	// 申请者是�?个队伍的队长？只能在Procedure中被调用
+	// 鐢宠鑰呮槸涓?涓槦浼嶇殑闃熼暱锛熷彧鑳藉湪Procedure涓璋冪敤
 	private boolean checkleaderInTeam(long leaderRoleId,Team team)
 	{
 		if (team != null && team.getTeamInfo().getTeamleaderid() == leaderRoleId)
@@ -95,7 +95,7 @@ public class CSwapMember extends __CSwapMember__ {
 		else
 			return false;
 	}
-	//index合法�?
+	//index鍚堟硶锛?
 	private boolean checkIndexValid(Team team, long index_1, long index_2)
 	{
 		if(index_1 >= 1 && index_1 <= team.getTeamInfo().getMembers().size() && index_2 >=1 && index_2 <=team.getTeamInfo().getMembers().size() && index_1 != index_2)
@@ -103,7 +103,7 @@ public class CSwapMember extends __CSwapMember__ {
 		else 
 			return false;
 	}
-	//要交换的两队员处于正常状态？
+	//瑕佷氦鎹㈢殑涓ら槦鍛樺浜庢甯哥姸鎬侊紵
 	private boolean checkMemsberStateValid(Team team,  int index_1, int index_2)
 	{
 		if(team.getTeamInfo().getMembers().get(index_1 - 1).getState() == TeamMemberState.eTeamNormal &&
@@ -120,7 +120,7 @@ public class CSwapMember extends __CSwapMember__ {
 		return 794452;
 	}
 
-	public int index1; // index�Ƕ�Ա����ţ�5�˶���Ļ�������0~4
+	public int index1; // index是队员的序号，5人队伍的话，就是0~4
 	public int index2;
 
 	public CSwapMember() {

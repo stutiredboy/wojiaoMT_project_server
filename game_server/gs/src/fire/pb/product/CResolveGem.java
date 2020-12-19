@@ -30,7 +30,7 @@ public class CResolveGem extends __CResolveGem__ {
 		return 803453;
 	}
 
-	public int itemkey; // 宝石在背包里的key
+	public int itemkey; // 瀹濈煶鍦ㄨ儗鍖呴噷鐨刱ey
 
 	public CResolveGem() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshPetExp__ extends mkio.Protocol { }
 
-/** ³èÎïÖ»ÓĞµ±Ç°¾­Ñé¸Ä±äÊ±£¬·şÎñÆ÷·¢ËÍ´ËÏûÏ¢
+/** å® ç‰©åªæœ‰å½“å‰ç»éªŒæ”¹å˜æ—¶ï¼ŒæœåŠ¡å™¨å‘é€æ­¤æ¶ˆæ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,7 +28,7 @@ public class SRefreshPetExp extends __SRefreshPetExp__ {
 	}
 
 	public int petkey;
-	public long curexp; // ³èÎïµÄµ±Ç°¾­Ñé
+	public long curexp; // å® ç‰©çš„å½“å‰ç»éªŒ
 
 	public SRefreshPetExp() {
 	}

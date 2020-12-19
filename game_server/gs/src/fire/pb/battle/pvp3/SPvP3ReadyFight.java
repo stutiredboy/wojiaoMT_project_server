@@ -25,7 +25,7 @@ public class SPvP3ReadyFight extends __SPvP3ReadyFight__ {
 		return 793644;
 	}
 
-	public byte ready; // 1:×¼±¸£¬0£ºÈ¡Ïû×¼±¸
+	public byte ready; // 1:å‡†å¤‡ï¼Œ0ï¼šå–æ¶ˆå‡†å¤‡
 
 	public SPvP3ReadyFight() {
 	}

@@ -26,8 +26,8 @@ public class SSendNpcService extends __SSendNpcService__ {
 	}
 
 	public long npckey; // npckey
-	public int service; // ·şÎñid
-	public java.lang.String title; // ·şÎñÏÔÊ¾µÄÎÄ×Ö
+	public int service; // æœåŠ¡id
+	public java.lang.String title; // æœåŠ¡æ˜¾ç¤ºçš„æ–‡å­—
 
 	public SSendNpcService() {
 		title = "";

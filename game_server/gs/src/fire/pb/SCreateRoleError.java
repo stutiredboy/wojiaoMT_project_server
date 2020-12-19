@@ -25,16 +25,16 @@ public class SCreateRoleError extends __SCreateRoleError__ {
 		return 786440;
 	}
 
-	public final static int CREATE_OK = 1; // ³É¹¦
-	public final static int CREATE_ERROR = 2; // Ê§°Ü
-	public final static int CREATE_INVALID = 3; // Ãû³Æ²»ºÏ·¨
-	public final static int CREATE_DUPLICATED = 4; // ÖØÃû
-	public final static int CREATE_OVERCOUNT = 5; // ´´½¨µÄĞÂ½ÇÉ«ÊıÁ¿¹ı¶à
-	public final static int CREATE_OVERLEN = 6; // ½ÇÉ«Ãû¹ı³¤
-	public final static int CREATE_SHORTLEN = 7; // ½ÇÉ«Ãû¹ı¶Ì
-	public final static int CREATE_CREATE_GM_FORBID = 8; // GM½ûÖ¹
+	public final static int CREATE_OK = 1; // æˆåŠŸ
+	public final static int CREATE_ERROR = 2; // å¤±è´¥
+	public final static int CREATE_INVALID = 3; // åç§°ä¸åˆæ³•
+	public final static int CREATE_DUPLICATED = 4; // é‡å
+	public final static int CREATE_OVERCOUNT = 5; // åˆ›å»ºçš„æ–°è§’è‰²æ•°é‡è¿‡å¤š
+	public final static int CREATE_OVERLEN = 6; // è§’è‰²åè¿‡é•¿
+	public final static int CREATE_SHORTLEN = 7; // è§’è‰²åè¿‡çŸ­
+	public final static int CREATE_CREATE_GM_FORBID = 8; // GMç¦æ­¢
 
-	public int err; // ´´½¨½á¹û
+	public int err; // åˆ›å»ºç»“æœ
 
 	public SCreateRoleError() {
 	}

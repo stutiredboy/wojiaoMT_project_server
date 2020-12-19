@@ -30,7 +30,7 @@ public class GetAddCashSN2Req extends __GetAddCashSN2Req__ {
 			}			
             roleid = u.getPrevloginroleid();
 		}
-//		if (force==0&&(hasRole && forbiden())){//如果有角�?,且账号处于封禁状�?
+//		if (force==0&&(hasRole && forbiden())){//濡傛灉鏈夎鑹?,涓旇处鍙峰浜庡皝绂佺姸鎬?
 //			getAddCashSNRep.sn = sn+1;
 //			getAddCashSNRep.userid = userid;
 //			getAddCashSNRep.xid = xid;

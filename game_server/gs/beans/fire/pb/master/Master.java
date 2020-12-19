@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class Master implements Marshal {
-	public long roleid; // Ê¦¸µµÄroleid
-	public java.lang.String nickname; // Ê¦¸µµÄÃû×Ö
-	public int level; // Ê¦¸µµÈ¼¶
-	public int school; // Ö°Òµid
-	public int shape; // Ê¦¸¸ÔìĞÍ
-	public int rank; // Ê¦¸¸¼¶±ğ£¬¸ù¾İÉùÍûµÃµ½
-	public java.lang.String declaration; // ĞûÑÔ
+	public long roleid; // å¸ˆå‚…çš„roleid
+	public java.lang.String nickname; // å¸ˆå‚…çš„åå­—
+	public int level; // å¸ˆå‚…ç­‰çº§
+	public int school; // èŒä¸šid
+	public int shape; // å¸ˆçˆ¶é€ å‹
+	public int rank; // å¸ˆçˆ¶çº§åˆ«ï¼Œæ ¹æ®å£°æœ›å¾—åˆ°
+	public java.lang.String declaration; // å®£è¨€
 
 	public Master() {
 		nickname = "";

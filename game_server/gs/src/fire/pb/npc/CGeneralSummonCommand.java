@@ -21,10 +21,10 @@ public class CGeneralSummonCommand extends __CGeneralSummonCommand__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		// 智力试练拉人
+		// 鏅哄姏璇曠粌鎷変汉
 		if (summontype == TransmitTypes.impexamsystem)
 			return;
-		// 冠军试炼拉人
+		// 鍐犲啗璇曠偧鎷変汉
 		if (summontype == TransmitTypes.winnercall && agree == 1) {
 			new PWinnerCallPlayer(roleid).submit();
 			return;
@@ -51,9 +51,9 @@ public class CGeneralSummonCommand extends __CGeneralSummonCommand__ {
 		return 795506;
 	}
 
-	public int summontype; // �������� ��TransmitTypes
+	public int summontype; // 拉人类型 见TransmitTypes
 	public long npckey; // npckey
-	public int agree; // 1Ϊͬ�⣬0Ϊ�ܾ�
+	public int agree; // 1为同意，0为拒绝
 
 	public CGeneralSummonCommand() {
 	}

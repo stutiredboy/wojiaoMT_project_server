@@ -27,7 +27,7 @@ public class CShareActivity extends __CShareActivity__ {
 					else if(activityid == RoleLiveness.SHARE2)
 						actrole.handleActiveLivenessData(RoleLiveness.SHARE2);
 					else {
-						RoleLivenessManager.logger.error("角色[" + roleid + "]准备处理分享活动[" + activityid + "]没有配置！当分享1活动处理.");
+						RoleLivenessManager.logger.error("瑙掕壊[" + roleid + "]鍑嗗澶勭悊鍒嗕韩娲诲姩[" + activityid + "]娌℃湁閰嶇疆锛佸綋鍒嗕韩1娲诲姩澶勭悊.");
 						if(activityid > 0)
 							actrole.handleActiveLivenessData(activityid);
 					}

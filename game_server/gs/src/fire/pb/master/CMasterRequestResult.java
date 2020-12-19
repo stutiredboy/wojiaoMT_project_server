@@ -25,12 +25,12 @@ public class CMasterRequestResult extends __CMasterRequestResult__ {
 		return 816460;
 	}
 
-	public final static int REFUSE = 0; // 拒绝
-	public final static int ACCEPT = 1; // 接受
-	public final static int OVERTIME = 2; // 超时
+	public final static int REFUSE = 0; // 鎷掔粷
+	public final static int ACCEPT = 1; // 鎺ュ彈
+	public final static int OVERTIME = 2; // 瓒呮椂
 
-	public long masterid; // 徒弟id
-	public int result; // 结果
+	public long masterid; // 寰掑紵id
+	public int result; // 缁撴灉
 
 	public CMasterRequestResult() {
 	}

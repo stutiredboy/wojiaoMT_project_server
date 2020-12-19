@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __PassportGetRoleListReq__ extends mkio.Protocol { }
 
-/** 获取某账号的角色列表,主要是网站通过AU来游戏取角色列表展示
+/** 鑾峰彇鏌愯处鍙风殑瑙掕壊鍒楄〃,涓昏鏄綉绔欓�氳繃AU鏉ユ父鎴忓彇瑙掕壊鍒楄〃灞曠ず
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

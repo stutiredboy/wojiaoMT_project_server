@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 public class DemoBuff implements Marshal , Comparable<DemoBuff>{
 	public int fighterid;
 	public int buffid;
-	public int round; // -1ÎªÉ¾³ı¸Ãbuff£¬0ÎªÃ»ÓĞ»ØºÏÊıµÄbuff£¬>0Îª»ØºÏÊı
+	public int round; // -1ä¸ºåˆ é™¤è¯¥buffï¼Œ0ä¸ºæ²¡æœ‰å›åˆæ•°çš„buffï¼Œ>0ä¸ºå›åˆæ•°
 
 	public DemoBuff() {
 	}

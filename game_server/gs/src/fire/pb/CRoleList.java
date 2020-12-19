@@ -19,7 +19,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRoleList__ extends mkio.Protocol { }
 
-/** �ͻ��˷������������������н�ɫ�б�
+/** 客户端发给服务器，请求已有角色列表
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -31,7 +31,7 @@ public class CRoleList extends __CRoleList__ {
 		final int userID = ((Dispatch)this.getContext()).userid;
 		if(userID == -1){
 			kickUser(-1000);
-			 mkdb.Trace.info("CRoleList====userid = -1  踢掉  =============");
+			 mkdb.Trace.info("CRoleList====userid = -1  韪㈡帀  =============");
 			return;
 		}
 		StateManager.logger.info(new StringBuilder("userID=").append(userID).append(" CRoleList"));
@@ -93,7 +93,7 @@ public class CRoleList extends __CRoleList__ {
 	}
 	
 	private boolean checkUserAccount(int userID) {
-		if (UniqName.exist("activeuser", String.valueOf(userID))!= UniqName.RPC_NOT_EXISTS) //存在说明已经�?�?,可以直接进入游戏
+		if (UniqName.exist("activeuser", String.valueOf(userID))!= UniqName.RPC_NOT_EXISTS) //瀛樺湪璇存槑宸茬粡婵?娲?,鍙互鐩存帴杩涘叆娓告垙
 			return true;
 		
 		return false;

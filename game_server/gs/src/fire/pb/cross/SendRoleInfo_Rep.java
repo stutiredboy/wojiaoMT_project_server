@@ -27,7 +27,7 @@ public class SendRoleInfo_Rep extends __SendRoleInfo_Rep__ {
 
 	public long roleid;
 	public int myzoneid;
-	public byte flag; // 1µ½¿ç·ş£¬2µ½Ô­·ş
+	public byte flag; // 1åˆ°è·¨æœï¼Œ2åˆ°åŸæœ
 
 	public SendRoleInfo_Rep() {
 	}

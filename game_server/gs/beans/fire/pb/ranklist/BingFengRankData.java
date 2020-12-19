@@ -5,15 +5,15 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ±ù·âÍõ×ù¸±±¾ÅÅĞĞ°ñ
+/** å†°å°ç‹åº§å‰¯æœ¬æ’è¡Œæ¦œ
 */
 public class BingFengRankData implements Marshal {
-	public int shool; // Ö°Òµ
-	public int rank; // ÅÅÃû
+	public int shool; // èŒä¸š
+	public int rank; // æ’å
 	public long roleid; // roleid
-	public java.lang.String rolename; // Íæ¼ÒµÄÃû×Ö
-	public int stage; // ¹ØÊı
-	public int times; // ºÄÊ±
+	public java.lang.String rolename; // ç©å®¶çš„åå­—
+	public int stage; // å…³æ•°
+	public int times; // è€—æ—¶
 
 	public BingFengRankData() {
 		rolename = "";

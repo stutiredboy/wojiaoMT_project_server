@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketSearchPet__ extends mkio.Protocol { }
 
-/** °ÚÌ¯³èÎïËÑË÷
+/** æ‘†æ‘Šå® ç‰©æœç´¢
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -41,17 +41,17 @@ public class CMarketSearchPet extends __CMarketSearchPet__ {
 		return 810662;
 	}
 
-	public int pettype; // ÀàĞÍ
-	public int levelmin; // ×îµÍµÈ¼¶
-	public int levelmax; // ×î¸ßµÈ¼¶
-	public int pricemin; // ×îµÍ¼Û¸ñ
-	public int pricemax; // ×î¸ß¼Û¸ñ
-	public java.util.ArrayList<fire.pb.shop.MarketSearchAttr> zizhi; // ×ÊÖÊ³É³¤
-	public java.util.ArrayList<Integer> skills; // °üº¬¼¼ÄÜ
-	public int totalskillnum; // ¼¼ÄÜ×ÜÊı
-	public java.util.ArrayList<fire.pb.shop.MarketSearchAttr> attr; // »ù´¡ÊôĞÔ
-	public int score; // ÆÀ·Ö
-	public int sellstate; // ³öÊÛ×´Ì¬ 1ÉÏ¼Ü£¬2¹«Ê¾
+	public int pettype; // ç±»å‹
+	public int levelmin; // æœ€ä½ç­‰çº§
+	public int levelmax; // æœ€é«˜ç­‰çº§
+	public int pricemin; // æœ€ä½ä»·æ ¼
+	public int pricemax; // æœ€é«˜ä»·æ ¼
+	public java.util.ArrayList<fire.pb.shop.MarketSearchAttr> zizhi; // èµ„è´¨æˆé•¿
+	public java.util.ArrayList<Integer> skills; // åŒ…å«æŠ€èƒ½
+	public int totalskillnum; // æŠ€èƒ½æ€»æ•°
+	public java.util.ArrayList<fire.pb.shop.MarketSearchAttr> attr; // åŸºç¡€å±æ€§
+	public int score; // è¯„åˆ†
+	public int sellstate; // å‡ºå”®çŠ¶æ€ 1ä¸Šæ¶ï¼Œ2å…¬ç¤º
 
 	public CMarketSearchPet() {
 		zizhi = new java.util.ArrayList<fire.pb.shop.MarketSearchAttr>();

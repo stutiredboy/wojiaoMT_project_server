@@ -5,7 +5,7 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ÖÇ»ÛÊÔÁ¶ start
+/** æ™ºæ…§è¯•ç‚¼ start
 */
 public class ImpExamType implements Marshal , Comparable<ImpExamType>{
 	public final static int IMPEXAM_VILL = 1;

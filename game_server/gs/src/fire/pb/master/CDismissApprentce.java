@@ -30,7 +30,7 @@ public class CDismissApprentce extends __CDismissApprentce__ {
 		return 816477;
 	}
 
-	public long roleid; // ͽ�ܵ�roleid
+	public long roleid; // 徒弟的roleid
 
 	public CDismissApprentce() {
 	}

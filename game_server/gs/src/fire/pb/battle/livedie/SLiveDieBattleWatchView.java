@@ -25,7 +25,7 @@ public class SLiveDieBattleWatchView extends __SLiveDieBattleWatchView__ {
 		return 793841;
 	}
 
-	public java.util.ArrayList<fire.pb.battle.livedie.LDRoleInfoWatchDes> rolewatchlist; // 观战对手信息
+	public java.util.ArrayList<fire.pb.battle.livedie.LDRoleInfoWatchDes> rolewatchlist; // 瑙傛垬瀵规墜淇℃伅
 
 	public SLiveDieBattleWatchView() {
 		rolewatchlist = new java.util.ArrayList<fire.pb.battle.livedie.LDRoleInfoWatchDes>();

@@ -5,13 +5,13 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** TransforÏà¹ØµÄ·½·¨ END
+/** Transforç›¸å…³çš„æ–¹æ³• END
 */
 public class CreateNpcInfo implements Marshal {
 	public int npcid;
 	public java.lang.String npcname;
 	public int dir;
-	public long sceneid; // ³¡¾°id
+	public long sceneid; // åœºæ™¯id
 	public int xpos;
 	public int ypos;
 

@@ -25,7 +25,7 @@ public class SSendAlreadyUseItem extends __SSendAlreadyUseItem__ {
 		return 793458;
 	}
 
-	public java.util.HashMap<Integer,Integer> itemlist; // 使用过的道具的baseidlist
+	public java.util.HashMap<Integer,Integer> itemlist; // 浣跨敤杩囩殑閬撳叿鐨刡aseidlist
 
 	public SSendAlreadyUseItem() {
 		itemlist = new java.util.HashMap<Integer,Integer>();

@@ -6,15 +6,15 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleCurrency implements Marshal , Comparable<RoleCurrency>{
-	public final static int GUILD_DKP = 1; // ¹«»áDKP
-	public final static int GUILD_DED = 2; // ¹«»á¹±Ï×
-	public final static int TEACHER_SCORE = 3; // Ê¦Í½Öµ
-	public final static int ACTIVE_SCORE = 4; // »î¶¯»ı·Ö
-	public final static int HONOR_SCORE = 5; // ÈÙÓşÖµ
-	public final static int POP_SCORE = 6; // ÉùÍûÖµ
-	public final static int FRIEND_SCORE = 7; // ºÃÓÑ»ı·Ö
-	public final static int PROF_CONTR = 9; // Ö°Òµ¹±Ï×
-	public final static int EREDITPOINT_SCORE = 10; // ĞÅÓÃµã
+	public final static int GUILD_DKP = 1; // å…¬ä¼šDKP
+	public final static int GUILD_DED = 2; // å…¬ä¼šè´¡çŒ®
+	public final static int TEACHER_SCORE = 3; // å¸ˆå¾’å€¼
+	public final static int ACTIVE_SCORE = 4; // æ´»åŠ¨ç§¯åˆ†
+	public final static int HONOR_SCORE = 5; // è£èª‰å€¼
+	public final static int POP_SCORE = 6; // å£°æœ›å€¼
+	public final static int FRIEND_SCORE = 7; // å¥½å‹ç§¯åˆ†
+	public final static int PROF_CONTR = 9; // èŒä¸šè´¡çŒ®
+	public final static int EREDITPOINT_SCORE = 10; // ä¿¡ç”¨ç‚¹
 
 
 	public RoleCurrency() {

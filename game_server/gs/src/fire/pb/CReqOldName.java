@@ -28,7 +28,7 @@ public class CReqOldName extends __CReqOldName__ {
 		return 786520;
 	}
 
-	public long roleid; // ½ÇÉ«id
+	public long roleid; // è§’è‰²id
 
 	public CReqOldName() {
 	}

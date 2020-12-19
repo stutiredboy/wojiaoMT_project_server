@@ -46,7 +46,7 @@ public class GRefreshRoleEquip extends __GRefreshRoleEquip__ {
 		return 720911;
 	}
 
-	public long roleid; // ÓÃ»§id
+	public long roleid; // ç”¨æˆ·id
 
 	public GRefreshRoleEquip() {
 	}

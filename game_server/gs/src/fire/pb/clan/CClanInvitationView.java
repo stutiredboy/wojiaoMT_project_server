@@ -31,9 +31,9 @@ public class CClanInvitationView extends __CClanInvitationView__ {
 		return 808520;
 	}
 
-	public int type_level; // µÈ¼¶É¾Ñ¡  -1±íÊ¾ËùÓĞ
-	public int type_school; // Ö°ÒµÉ¾Ñ¡  -1±íÊ¾ËùÓĞ
-	public int type_sex; // ĞÔ±ğÉ¾Ñ¡  1ÄĞ  2Å®  -1±íÊ¾ËùÓĞ
+	public int type_level; // ç­‰çº§åˆ é€‰  -1è¡¨ç¤ºæ‰€æœ‰
+	public int type_school; // èŒä¸šåˆ é€‰  -1è¡¨ç¤ºæ‰€æœ‰
+	public int type_sex; // æ€§åˆ«åˆ é€‰  1ç”·  2å¥³  -1è¡¨ç¤ºæ‰€æœ‰
 
 	public CClanInvitationView() {
 	}

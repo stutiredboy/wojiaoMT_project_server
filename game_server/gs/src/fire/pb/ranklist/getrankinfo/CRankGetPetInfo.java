@@ -12,7 +12,7 @@ abstract class __CRankGetPetInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 获得排行榜宠物数�?
+ * 鑾峰緱鎺掕姒滃疇鐗╂暟鎹?
  * @author changhao
  *
  */
@@ -35,8 +35,8 @@ public class CRankGetPetInfo extends __CRankGetPetInfo__ {
 		return 810258;
 	}
 
-	public int roleid; // ��ɫId
-	public int infotype; // 1=����
+	public int roleid; // 角色Id
+	public int infotype; // 1=宠物
 
 	public CRankGetPetInfo() {
 	}

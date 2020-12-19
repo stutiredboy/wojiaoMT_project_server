@@ -9,8 +9,8 @@ public class NewResultItem implements Marshal {
 	public fire.pb.battle.DemoExecute execute;
 	public java.util.LinkedList<fire.pb.battle.NewSubResultItem> subresultlist;
 	public java.util.LinkedList<fire.pb.battle.FighterInfo> newfighter;
-	public java.util.HashMap<Integer,Float> rolechangedattrs; // 战斗脚本接收者，此动作后属性的变化（战斗中属性实时变化）
-	public java.util.HashMap<Integer,Float> petchangedattrs; // 战斗脚本接收者的宠物，此动作后属性的变化
+	public java.util.HashMap<Integer,Float> rolechangedattrs; // 鎴樻枟鑴氭湰鎺ユ敹鑰咃紝姝ゅ姩浣滃悗灞炴�х殑鍙樺寲锛堟垬鏂椾腑灞炴�у疄鏃跺彉鍖栵級
+	public java.util.HashMap<Integer,Float> petchangedattrs; // 鎴樻枟鑴氭湰鎺ユ敹鑰呯殑瀹犵墿锛屾鍔ㄤ綔鍚庡睘鎬х殑鍙樺寲
 
 	public NewResultItem() {
 		execute = new fire.pb.battle.DemoExecute();

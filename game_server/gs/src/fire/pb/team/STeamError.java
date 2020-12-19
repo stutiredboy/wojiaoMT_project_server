@@ -25,7 +25,7 @@ public class STeamError extends __STeamError__ {
 		return 794468;
 	}
 
-	public int teamerror; // 参考TeamError的bean定义
+	public int teamerror; // 鍙傝�僒eamError鐨刡ean瀹氫箟
 
 	public STeamError() {
 	}

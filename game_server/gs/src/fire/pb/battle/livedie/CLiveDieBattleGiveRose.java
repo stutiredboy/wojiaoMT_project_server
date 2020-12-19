@@ -23,7 +23,7 @@ public class CLiveDieBattleGiveRose extends __CLiveDieBattleGiveRose__ {
 		
 		new mkdb.Procedure() {
 			protected boolean process() throws Exception {
-				//判断点赞的录像是否存�?
+				//鍒ゆ柇鐐硅禐鐨勫綍鍍忔槸鍚﹀瓨鍦?
 				xbean.LDVideoRoleInfoDes des = LiveDieMange.ldvideoroleinfodeslistall.get(vedioid);
 				if(des==null){
 					return false;
@@ -45,10 +45,10 @@ public class CLiveDieBattleGiveRose extends __CLiveDieBattleGiveRose__ {
 				if(lDVideoRoleRoseInfo.getRosenum()>=LiveDieMange.GIVE_ROSE_NUM_MAX){
 					return false;
 				}else{
-					//设置玩家的点赞次�?
+					//璁剧疆鐜╁鐨勭偣璧炴鏁?
 					lDVideoRoleRoseInfo.setRosenum(lDVideoRoleRoseInfo.getRosenum()+1);
 				}
-				//设置当前录像的点赞次�?
+				//璁剧疆褰撳墠褰曞儚鐨勭偣璧炴鏁?
 				des.setRosenum(des.getRosenum()+1);
 				for(xbean.LDVideoRoleInfoDes desdb:lDVideoRoleInfoDesList.getLdvideoroleinfodeslistall()){
 					if(desdb.getVideoid().equals(vedioid)){
@@ -74,7 +74,7 @@ public class CLiveDieBattleGiveRose extends __CLiveDieBattleGiveRose__ {
 		return 793844;
 	}
 
-	public java.lang.String vedioid; // ¼��id
+	public java.lang.String vedioid; // 录像id
 
 	public CLiveDieBattleGiveRose() {
 		vedioid = "";

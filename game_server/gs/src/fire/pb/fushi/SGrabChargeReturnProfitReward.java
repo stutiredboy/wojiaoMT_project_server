@@ -25,8 +25,8 @@ public class SGrabChargeReturnProfitReward extends __SGrabChargeReturnProfitRewa
 		return 812482;
 	}
 
-	public int id; // 充值返利项目ID by changhao
-	public int status; // 0是领取了1是未领取2是未到达 by changhao
+	public int id; // 鍏呭�艰繑鍒╅」鐩甀D by changhao
+	public int status; // 0鏄鍙栦簡1鏄湭棰嗗彇2鏄湭鍒拌揪 by changhao
 
 	public SGrabChargeReturnProfitReward() {
 	}

@@ -6,14 +6,14 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class LDVideoRoleInfoDes implements Marshal {
-	public fire.pb.battle.livedie.LDRoleInfoDes role1; // 对手1
-	public fire.pb.battle.livedie.LDRoleInfoDes role2; // 对手1
-	public java.util.ArrayList<fire.pb.battle.livedie.LDTeamRoleInfoDes> teamlist1; // //如果是组队，队员详情
-	public java.util.ArrayList<fire.pb.battle.livedie.LDTeamRoleInfoDes> teamlist2; // //如果是组队，队员详情
-	public int battleresult; // 1胜利  -1失败  0平局
-	public int rosenum; // 点赞次数
-	public int roseflag; // 是否可以点赞 0可以  1不可
-	public java.lang.String videoid; // 录像id
+	public fire.pb.battle.livedie.LDRoleInfoDes role1; // 瀵规墜1
+	public fire.pb.battle.livedie.LDRoleInfoDes role2; // 瀵规墜1
+	public java.util.ArrayList<fire.pb.battle.livedie.LDTeamRoleInfoDes> teamlist1; // //濡傛灉鏄粍闃燂紝闃熷憳璇︽儏
+	public java.util.ArrayList<fire.pb.battle.livedie.LDTeamRoleInfoDes> teamlist2; // //濡傛灉鏄粍闃燂紝闃熷憳璇︽儏
+	public int battleresult; // 1鑳滃埄  -1澶辫触  0骞冲眬
+	public int rosenum; // 鐐硅禐娆℃暟
+	public int roseflag; // 鏄惁鍙互鐐硅禐 0鍙互  1涓嶅彲
+	public java.lang.String videoid; // 褰曞儚id
 
 	public LDVideoRoleInfoDes() {
 		role1 = new fire.pb.battle.livedie.LDRoleInfoDes();

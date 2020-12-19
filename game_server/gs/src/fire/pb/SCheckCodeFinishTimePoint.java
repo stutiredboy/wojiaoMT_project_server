@@ -26,7 +26,7 @@ public class SCheckCodeFinishTimePoint extends __SCheckCodeFinishTimePoint__ {
 		return 786571;
 	}
 
-	public byte checkcodetype; // 2 µÀ¾ß°²È«Ëø 3²Ø±¦¸ó
+	public byte checkcodetype; // 2 é“å…·å®‰å…¨é” 3è—å®é˜
 	public long finishtimepoint;
 
 	public SCheckCodeFinishTimePoint() {

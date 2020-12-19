@@ -30,7 +30,7 @@ public class CChangeClanAim extends __CChangeClanAim__ {
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
 		}
-		//�?要屏�?$符号，公告发送到聊天不能�?$符号
+		//闇?瑕佸睆钄?$绗﹀彿锛屽叕鍛婂彂閫佸埌鑱婂ぉ涓嶈兘鏈?$绗﹀彿
 		if(newaim.contains("$")){
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
@@ -60,13 +60,13 @@ public class CChangeClanAim extends __CChangeClanAim__ {
 				clanInfo.setClanaim(newaim);
 				mkdb.Procedure.psendWhileCommit(roleid, new SChangeClanAim(newaim));
 				fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(roleid, 145074, null);
-				// 在公会频道发送消�?
+				// 鍦ㄥ叕浼氶閬撳彂閫佹秷鎭?
 				String name=xtable.Properties.selectRolename(roleid);
 				if (name != null) {
 					fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(clanInfo.getMembers().keySet(), 160367, 0,
 							java.util.Arrays.asList(name, newaim));
 				}
-				// 运营日志
+				// 杩愯惀鏃ュ織
 				xbean.ClanMemberInfo fmi = clanInfo.getMembers().get(roleid);
 				FactionOpbean factionOpbean = new FactionOpbean(clanInfo.getKey(), clanInfo.getClanname(), 
 						FactionOpbean.TYPE_CHANGE_AIM, fmi.getClanposition(), clanInfo.getMembers().size(),

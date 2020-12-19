@@ -5,13 +5,13 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 物品类型
+/** 鐗╁搧绫诲瀷
 */
 public class GoodsType implements Marshal , Comparable<GoodsType>{
-	public final static int NORMAL_ITEM = 1; // 道具
-	public final static int PET = 2; // 宠物
-	public final static int EQUIP_ITEM = 3; // 装备
-	public final static int OTHER_ITEM = 4; // 特殊类型(用于标示价格浮动特殊处理)
+	public final static int NORMAL_ITEM = 1; // 閬撳叿
+	public final static int PET = 2; // 瀹犵墿
+	public final static int EQUIP_ITEM = 3; // 瑁呭
+	public final static int OTHER_ITEM = 4; // 鐗规畩绫诲瀷(鐢ㄤ簬鏍囩ず浠锋牸娴姩鐗规畩澶勭悊)
 
 
 	public GoodsType() {

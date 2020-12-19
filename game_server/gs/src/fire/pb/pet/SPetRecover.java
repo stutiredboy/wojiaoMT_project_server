@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPetRecover__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·µ»Ø³èÎïÕÒ»Ø½á¹û
+/** æœåŠ¡å™¨è¿”å›å® ç‰©æ‰¾å›ç»“æœ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SPetRecover extends __SPetRecover__ {
 		return 788586;
 	}
 
-	public int petid; // ³èÎïid
-	public long uniqid; // Î¨Ò»id
+	public int petid; // å® ç‰©id
+	public long uniqid; // å”¯ä¸€id
 
 	public SPetRecover() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CChamberOfCommerceShop__ extends mkio.Protocol { }
 
-/** ÉÌ»áÂòÂôĞ­Òé
+/** å•†ä¼šä¹°å–åè®®
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -23,13 +23,13 @@ public class CChamberOfCommerceShop extends __CChamberOfCommerceShop__ {
 
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("æ²¡æœ‰è¯¥å•†å“[" + goodsid + "]");
+			mkdb.Trace.info("å¨Œâ„ƒæ¹ç’‡ãƒ¥æ™¢éä¹•" + goodsid + "]");
 			return;
 		}
 
 		fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 		if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-			mkdb.Trace.info("å•†ä¼šæ²¡æœ‰è¯¥ç‰©å“?.shopid:" + shopid + "goodsid:" + goodsid);
+			mkdb.Trace.info("éŸå—•ç´°å¨Œâ„ƒæ¹ç’‡ãƒ§å¢¿é?.shopid:" + shopid + "goodsid:" + goodsid);
 			return;
 		}
 
@@ -55,11 +55,11 @@ public class CChamberOfCommerceShop extends __CChamberOfCommerceShop__ {
 		return 810634;
 	}
 
-	public int shopid; // ÉÌµêĞòºÅ
-	public int itemkey; // ÊÇÎïÆ·ÔÚ±³°üÖĞµÄÎ»ÖÃ,ÔÚÂô±³°üÖĞÎïÆ·Ê±ÓÃµ½¡£½ĞitemkeyÊÇÎªÁËºÍÏµÍ³Í³Ò»³Æºô¡£
-	public int goodsid; // ÉÌÆ·id
-	public int num; // ÂòÂôÊıÁ¿
-	public int buytype; // ¹ºÂòÀàĞÍ
+	public int shopid; // å•†åº—åºå·
+	public int itemkey; // æ˜¯ç‰©å“åœ¨èƒŒåŒ…ä¸­çš„ä½ç½®,åœ¨å–èƒŒåŒ…ä¸­ç‰©å“æ—¶ç”¨åˆ°ã€‚å«itemkeyæ˜¯ä¸ºäº†å’Œç³»ç»Ÿç»Ÿä¸€ç§°å‘¼ã€‚
+	public int goodsid; // å•†å“id
+	public int num; // ä¹°å–æ•°é‡
+	public int buytype; // è´­ä¹°ç±»å‹
 
 	public CChamberOfCommerceShop() {
 	}

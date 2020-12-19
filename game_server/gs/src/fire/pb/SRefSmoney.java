@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefSmoney__ extends mkio.Protocol { }
 
-/** 通知客户端刷新储备金
+/** 閫氱煡瀹㈡埛绔埛鏂板偍澶囬噾
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

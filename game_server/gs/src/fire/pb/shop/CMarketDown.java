@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketDown__ extends mkio.Protocol { }
 
-/** °ÚÌ¯ÏÂ¼Ü
+/** æ‘†æ‘Šä¸‹æ¶
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,7 +28,7 @@ public class CMarketDown extends __CMarketDown__ {
 				fire.pb.shop.srv.market.IMarket proxy = (fire.pb.shop.srv.market.IMarket) handler.getProxy();
 				boolean success = proxy.down(downtype, roleId, key);
 				if (success) {
-					// åˆ·æ–°å‰å°æ•°æ®
+					// é’é”‹æŸŠé“å¶…å½´éç‰ˆåµ
 					fire.pb.shop.srv.market.MarketManager.getInstance().sendMarketContainerByRoleId(roleId);
 				}
 				return success;
@@ -46,8 +46,8 @@ public class CMarketDown extends __CMarketDown__ {
 		return 810644;
 	}
 
-	public int downtype; // ÏÂ¼ÜÀàĞÍ1µÀ¾ß,2³èÎï
-	public int key; // °ÚÌ¯ÈİÆ÷ÖĞµÄkey
+	public int downtype; // ä¸‹æ¶ç±»å‹1é“å…·,2å® ç‰©
+	public int key; // æ‘†æ‘Šå®¹å™¨ä¸­çš„key
 
 	public CMarketDown() {
 	}

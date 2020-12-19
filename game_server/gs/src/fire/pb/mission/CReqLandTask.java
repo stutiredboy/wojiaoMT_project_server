@@ -32,8 +32,8 @@ public class CReqLandTask extends __CReqLandTask__ {
 		return 805468;
 	}
 
-	public int taskid; // ¸±±¾Id
-	public int tasktype; // Õ½¶·ÄÑ¶È 1=¼òµ¥Ä£Ê½  2=ÆÕÍ¨ÄÑ¶È 3=À§ÄÑÄ£Ê½
+	public int taskid; // å‰¯æœ¬Id
+	public int tasktype; // æˆ˜æ–—éš¾åº¦ 1=ç®€å•æ¨¡å¼  2=æ™®é€šéš¾åº¦ 3=å›°éš¾æ¨¡å¼
 
 	public CReqLandTask() {
 	}

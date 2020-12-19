@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPetRecoverList__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·µ»Ø³èÎïÕÒ»ØÁĞ±í
+/** æœåŠ¡å™¨è¿”å›å® ç‰©æ‰¾å›åˆ—è¡¨
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SPetRecoverList extends __SPetRecoverList__ {
 		return 788584;
 	}
 
-	public java.util.LinkedList<fire.pb.pet.PetRecoverInfoBean> pets; // ³èÎïÁĞ±í
+	public java.util.LinkedList<fire.pb.pet.PetRecoverInfoBean> pets; // å® ç‰©åˆ—è¡¨
 
 	public SPetRecoverList() {
 		pets = new java.util.LinkedList<fire.pb.pet.PetRecoverInfoBean>();

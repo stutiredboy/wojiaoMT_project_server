@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetMarketUpPrice__ extends mkio.Protocol { }
 
-/** »ñÈ¡°ÚÌ¯ÉÏ¼Ü¼Û¸ñ
+/** è·å–æ‘†æ‘Šä¸Šæ¶ä»·æ ¼
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -42,8 +42,8 @@ public class CGetMarketUpPrice extends __CGetMarketUpPrice__ {
 		return 810651;
 	}
 
-	public int containertype; // 1±³°ü 2³èÎïÀ¸ 3ÅÄÂô³èÎïÀ¸ 4ÅÄÂô±³°ü
-	public int key; // °ÚÌ¯ÈİÆ÷ÖĞµÄkey
+	public int containertype; // 1èƒŒåŒ… 2å® ç‰©æ  3æ‹å–å® ç‰©æ  4æ‹å–èƒŒåŒ…
+	public int key; // æ‘†æ‘Šå®¹å™¨ä¸­çš„key
 
 	public CGetMarketUpPrice() {
 	}

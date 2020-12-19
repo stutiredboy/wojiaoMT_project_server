@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CShowPetOff__ extends mkio.Protocol { }
 
-/** 客户端请求收回展示的宠物
+/** 瀹㈡埛绔姹傛敹鍥炲睍绀虹殑瀹犵墿
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

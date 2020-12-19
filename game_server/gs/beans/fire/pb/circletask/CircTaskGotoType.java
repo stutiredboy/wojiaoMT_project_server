@@ -5,12 +5,12 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** Ñ­»·ÈÎÎñµÄÌø×ªÀàĞÍ
+/** å¾ªç¯ä»»åŠ¡çš„è·³è½¬ç±»å‹
 */
 public class CircTaskGotoType implements Marshal , Comparable<CircTaskGotoType>{
-	public final static int CircTask_GotoInit = 1; // Ìø×ªµ½³õÊ¼µã
-	public final static int CircTask_GotoRand = 2; // Ìø×ªµ½Ëæ»úµã
-	public final static int CircTask_GotoGuild = 3; // Ìø×ªµ½¹«»áµØÍ¼Ëæ»úµã
+	public final static int CircTask_GotoInit = 1; // è·³è½¬åˆ°åˆå§‹ç‚¹
+	public final static int CircTask_GotoRand = 2; // è·³è½¬åˆ°éšæœºç‚¹
+	public final static int CircTask_GotoGuild = 3; // è·³è½¬åˆ°å…¬ä¼šåœ°å›¾éšæœºç‚¹
 
 
 	public CircTaskGotoType() {

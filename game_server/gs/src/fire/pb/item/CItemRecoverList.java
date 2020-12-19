@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CItemRecoverList__ extends mkio.Protocol { }
 
-/** �ͻ�����������һ��б�
+/** 客户端请求道具找回列表
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -23,10 +23,10 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 发�?�道具找回列�?
+				// 鍙戦?侀亾鍏锋壘鍥炲垪琛?
 				SItemRecoverList send = new SItemRecoverList();
 
-				// 通过key在回收站中找到对应的道具
+				// 閫氳繃key鍦ㄥ洖鏀剁珯涓壘鍒板搴旂殑閬撳叿
 				xbean.Itemrecoverlist itemRecoverList = xtable.Itemrecover.get(roleId);
 				if (itemRecoverList != null) {
 					long now = System.currentTimeMillis();
@@ -34,7 +34,7 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 					for (Long uniqId : itemRecoverList.getUniqids()) {
 						xbean.DiscardItem ditem = xtable.Itemrecyclebin.select(uniqId);
 						if (ditem != null) {
-//							// 判断是否过期,如果过期就不�?
+//							// 鍒ゆ柇鏄惁杩囨湡,濡傛灉杩囨湡灏变笉鍙?
 //							fire.pb.item.ItemShuXing attr = Module.getInstance().getItemManager().getAttr(ditem.getItem().getId());
 //							if (attr == null) {
 //								Module.logger.error("[CItemRecoverList] roleId:" + roleId
@@ -43,13 +43,13 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 //										+ " ItemShuXing not found!");
 //								continue;
 //							}
-//							long day = attr.getRecycletime(); // 保留时间:天数
-//							long validTime = day * 24L * 3600L * 1000L; // 保留时间:毫秒�?
-//							long elapseTime = now - ditem.getDeletedate(); // 过去时间:毫秒�?
-//							long remainTime = validTime - elapseTime; // 剩余时间:毫秒�?
+//							long day = attr.getRecycletime(); // 淇濈暀鏃堕棿:澶╂暟
+//							long validTime = day * 24L * 3600L * 1000L; // 淇濈暀鏃堕棿:姣鏁?
+//							long elapseTime = now - ditem.getDeletedate(); // 杩囧幓鏃堕棿:姣鏁?
+//							long remainTime = validTime - elapseTime; // 鍓╀綑鏃堕棿:姣鏁?
 							long remainTime = ditem.getDeletedate() - now;
 							if (remainTime > 0) {
-								int cost = -1; // -1:表示没有这个道具的配�?
+								int cost = -1; // -1:琛ㄧず娌℃湁杩欎釜閬撳叿鐨勯厤缃?
 								ItemShuXing itemAttrConf = Module.getInstance().getItemManager().getAttr(ditem.getItem().getId());
 								if (itemAttrConf != null) {
 									cost = itemAttrConf.getRecovercost();
@@ -57,16 +57,16 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 								ItemRecoverInfoBean info = new ItemRecoverInfoBean();
 								info.itemid = ditem.getItem().getId();
 								info.uniqid = uniqId;
-								info.remaintime = (int) (remainTime / 1000); // 剩余时间:秒数
+								info.remaintime = (int) (remainTime / 1000); // 鍓╀綑鏃堕棿:绉掓暟
 								info.cost = cost;
 								send.items.add(info);
 							}
 						} else {
-							// 移除无效�?
+							// 绉婚櫎鏃犳晥鐨?
 							removeList.add(uniqId);
 						}
 					}
-					// 移除无效的列�?
+					// 绉婚櫎鏃犳晥鐨勫垪琛?
 					itemRecoverList.getUniqids().removeAll(removeList);
 				}
 				mkdb.Procedure.psendWhileCommit(roleId, send);

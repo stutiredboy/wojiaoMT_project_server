@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetSpaceInfo__ extends mkio.Protocol { }
 
-/** »ñÈ¡Ä³½ÇÉ«¿Õ¼äÊı¾İ
+/** è·å–æŸè§’è‰²ç©ºé—´æ•°æ®
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -42,7 +42,7 @@ public class CGetSpaceInfo extends __CGetSpaceInfo__ {
 		return 806639;
 	}
 
-	public long roleid; // Ä¿±ê¿Õ¼äµÄ½ÇÉ«id
+	public long roleid; // ç›®æ ‡ç©ºé—´çš„è§’è‰²id
 
 	public CGetSpaceInfo() {
 	}

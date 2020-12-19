@@ -25,11 +25,11 @@ public class SGetRedPack extends __SGetRedPack__ {
 		return 812537;
 	}
 
-	public int modeltype; // ºì°üÀàĞÍ
-	public java.lang.String redpackid; // ºì°üId
-	public int state; // ºì°ü×´Ì¬
-	public int successflag; // ÁìÈ¡³É¹¦±êÖ¾  0Ê§°Ü    1³É¹¦
-	public int fushinum; // ·ûÊ¯ÊıÁ¿
+	public int modeltype; // çº¢åŒ…ç±»å‹
+	public java.lang.String redpackid; // çº¢åŒ…Id
+	public int state; // çº¢åŒ…çŠ¶æ€
+	public int successflag; // é¢†å–æˆåŠŸæ ‡å¿—  0å¤±è´¥    1æˆåŠŸ
+	public int fushinum; // ç¬¦çŸ³æ•°é‡
 
 	public SGetRedPack() {
 		redpackid = "";

@@ -39,8 +39,8 @@ public class CExchangeCode extends __CExchangeCode__ {
 		return 819198;
 	}
 
-	public java.lang.String exchangecode; // ¶Ò»»Âë
-	public long npckey; // ¶Ò»»ÂënpcµÄnpckey
+	public java.lang.String exchangecode; // å…‘æ¢ç 
+	public long npckey; // å…‘æ¢ç npcçš„npckey
 
 	public CExchangeCode() {
 		exchangecode = "";

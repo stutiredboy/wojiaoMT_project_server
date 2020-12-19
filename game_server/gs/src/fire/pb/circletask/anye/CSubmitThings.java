@@ -71,8 +71,8 @@ public class CSubmitThings extends __CSubmitThings__ {
 		}
 		
 		if (taskid == 1080000 && roleid != taskrole) {
-			//判断我的援助次数是否已满
-			//添加援助等级限制
+			//鍒ゆ柇鎴戠殑鎻村姪娆℃暟鏄惁宸叉弧
+			//娣诲姞鎻村姪绛夌骇闄愬埗
 			int submiterLv = xtable.Properties.selectLevel(roleid);
 			if(submiterLv<fire.pb.circletask.PSubmitThings.getGiveHelpLevel()){
 				MessageMgr.sendMsgNotify(roleid, 145390, null);
@@ -85,7 +85,7 @@ public class CSubmitThings extends __CSubmitThings__ {
 	    		MessageMgr.sendMsgNotify(roleid, 166088, null);
 	    		return;
 	    	}
-	    	//判断目标请求次数是否已满
+	    	//鍒ゆ柇鐩爣璇锋眰娆℃暟鏄惁宸叉弧
 	    	xbean.helpcount taskrolehelpcount = xtable.Helpcount.select((long) taskrole);
 	    	int maxtaskrolehelpcount=HelpCountManage.getInstance().getHelpItemNumMax(taskrole);
 	    	if(taskrolehelpcount!=null&&taskrolehelpcount.getHelpitemnum()>=maxtaskrolehelpcount){
@@ -107,11 +107,11 @@ public class CSubmitThings extends __CSubmitThings__ {
 		return 807455;
 	}
 
-	public int taskpos; // ������λ
-	public int taskid; // ����id
-	public long taskrole; // ����������ɫid(������ύ��Ʒʱ�õ�)
-	public int submittype; // �ύ������ 1���� 2���� 3��Ǯ
-	public java.util.ArrayList<fire.pb.circletask.anye.SubmitThing> things; // �ύ�ĵ���key ���߳����key
+	public int taskpos; // 任务栏位
+	public int taskid; // 任务id
+	public long taskrole; // 任务所属角色id(帮别人提交物品时用到)
+	public int submittype; // 提交的类型 1道具 2宠物 3金钱
+	public java.util.ArrayList<fire.pb.circletask.anye.SubmitThing> things; // 提交的道具key 或者宠物的key
 
 	public CSubmitThings() {
 		things = new java.util.ArrayList<fire.pb.circletask.anye.SubmitThing>();

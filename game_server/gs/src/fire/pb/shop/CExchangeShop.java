@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CExchangeShop__ extends mkio.Protocol { }
 
-/** ¶Ò»»ÉÌµêĞ­Òé
+/** å…‘æ¢å•†åº—åè®®
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -24,13 +24,13 @@ public class CExchangeShop extends __CExchangeShop__ {
 
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("æ²¡æœ‰è¯¥å•†å“[" + goodsid + "]");
+			mkdb.Trace.info("å¨Œâ„ƒæ¹ç’‡ãƒ¥æ™¢éä¹•" + goodsid + "]");
 			return;
 		}
 
 		fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 		if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-			mkdb.Trace.info("å…‘æ¢å•†åº—æ²¡æœ‰è¯¥ç‰©å“?.shopid:" + shopid + "goodsid:" + goodsid);
+			mkdb.Trace.info("éæˆå´²éŸå——ç°µå¨Œâ„ƒæ¹ç’‡ãƒ§å¢¿é?.shopid:" + shopid + "goodsid:" + goodsid);
 			return;
 		}
 
@@ -54,10 +54,10 @@ public class CExchangeShop extends __CExchangeShop__ {
 		return 810655;
 	}
 
-	public int shopid; // ÉÌµêĞòºÅ
-	public int goodsid; // ÉÌÆ·id
-	public int num; // ÂòÂôÊıÁ¿
-	public int buytype; // ¹ºÂòÀàĞÍ
+	public int shopid; // å•†åº—åºå·
+	public int goodsid; // å•†å“id
+	public int num; // ä¹°å–æ•°é‡
+	public int buytype; // è´­ä¹°ç±»å‹
 
 	public CExchangeShop() {
 	}

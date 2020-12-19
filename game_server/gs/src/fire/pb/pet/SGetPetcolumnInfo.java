@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGetPetcolumnInfo__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·¢ËÍ¸ø¿Í»§¶Ë ³èÎïÀ¸ĞÅÏ¢
+/** æœåŠ¡å™¨å‘é€ç»™å®¢æˆ·ç«¯ å® ç‰©æ ä¿¡æ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SGetPetcolumnInfo extends __SGetPetcolumnInfo__ {
 		return 788447;
 	}
 
-	public int columnid; // ³èÎïÀ¸id
-	public java.util.ArrayList<fire.pb.Pet> pets; // ³èÎïĞÅÏ¢
+	public int columnid; // å® ç‰©æ id
+	public java.util.ArrayList<fire.pb.Pet> pets; // å® ç‰©ä¿¡æ¯
 	public int colunmsize;
 
 	public SGetPetcolumnInfo() {

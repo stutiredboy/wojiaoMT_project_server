@@ -31,7 +31,7 @@ public class CAppMaster extends __CAppMaster__ {
 		return 816485;
 	}
 
-	public int flag; // 1=Í¬Òâ 0=¾Ü¾ø
+	public int flag; // 1=åŒæ„ 0=æ‹’ç»
 
 	public CAppMaster() {
 	}

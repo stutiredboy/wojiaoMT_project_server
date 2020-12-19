@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketAttentionBrowse__ extends mkio.Protocol { }
 
-/** °ÚÌ¯¹Ø×¢ä¯ÀÀ
+/** æ‘†æ‘Šå…³æ³¨æµè§ˆ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -36,7 +36,7 @@ public class CMarketAttentionBrowse extends __CMarketAttentionBrowse__ {
 		return 810660;
 	}
 
-	public int attentype; // ¹Ø×¢×´Ì¬ 1¹ºÂò£¬2¹«Ê¾
+	public int attentype; // å…³æ³¨çŠ¶æ€ 1è´­ä¹°ï¼Œ2å…¬ç¤º
 
 	public CMarketAttentionBrowse() {
 	}

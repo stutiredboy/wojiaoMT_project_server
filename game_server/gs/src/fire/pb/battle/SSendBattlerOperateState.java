@@ -25,8 +25,8 @@ public class SSendBattlerOperateState extends __SSendBattlerOperateState__ {
 		return 793450;
 	}
 
-	public int battleid; // »ØºÏ²Ù×÷¿ªÊ¼Ê±£¬ËùÓĞÈË×´Ì¬Îª×¼±¸ÖĞ£¬·şÎñÆ÷²»ÓÃ·¢
-	public int state; // 1Îª×¼±¸ÖĞ£¬2Îª²Ù×÷Íê±Ï£¨ÇëµÈ´ı×´Ì¬£©3Îª´ú±íµôÏß
+	public int battleid; // å›åˆæ“ä½œå¼€å§‹æ—¶ï¼Œæ‰€æœ‰äººçŠ¶æ€ä¸ºå‡†å¤‡ä¸­ï¼ŒæœåŠ¡å™¨ä¸ç”¨å‘
+	public int state; // 1ä¸ºå‡†å¤‡ä¸­ï¼Œ2ä¸ºæ“ä½œå®Œæ¯•ï¼ˆè¯·ç­‰å¾…çŠ¶æ€ï¼‰3ä¸ºä»£è¡¨æ‰çº¿
 
 	public SSendBattlerOperateState() {
 	}

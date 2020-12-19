@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class FunOpenCloseType implements Marshal , Comparable<FunOpenCloseType>{
-	public final static int FUN_REDPACK = 1; // 红包
-	public final static int FUN_JHM = 2; // 激活码
-	public final static int FUN_CHECKPOINT = 3; // 点卡交易所
-	public final static int FUN_MONTHCARD = 4; // 月卡
-	public final static int FUN_BLACKMARKET = 5; // 黑市
+	public final static int FUN_REDPACK = 1; // 绾㈠寘
+	public final static int FUN_JHM = 2; // 婵�娲荤爜
+	public final static int FUN_CHECKPOINT = 3; // 鐐瑰崱浜ゆ槗鎵�
+	public final static int FUN_MONTHCARD = 4; // 鏈堝崱
+	public final static int FUN_BLACKMARKET = 5; // 榛戝競
 
 
 	public FunOpenCloseType() {

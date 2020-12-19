@@ -28,7 +28,7 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 		java.util.List<fire.pb.scene.movable.NPC> npcs = SceneNpcManager.getInstance().getNpcByID(npcid);
 		if (!npcs.isEmpty()){
 			if (state == 0){
-				// 显示    添加通知客户端添加NPC
+				// 鏄剧ず    娣诲姞閫氱煡瀹㈡埛绔坊鍔燦PC
 				for (fire.pb.scene.movable.NPC npc : npcs){
 					npc.setVisible(true);
 					final SAddUserScreen snd = new SAddUserScreen();
@@ -37,7 +37,7 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 				}
 			}
 			else if (state == 1){
-				// 隐藏
+				// 闅愯棌
 				for (fire.pb.scene.movable.NPC npc : npcs){
 					npc.setVisible(false);
 					final SRemoveUserScreen snd = new SRemoveUserScreen();
@@ -58,8 +58,8 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 		return 730421;
 	}
 
-	public int npcid; // Ҫ���ػ���ʾ��npc
-	public int state; // 1��ʾ���أ�0��ʾ����
+	public int npcid; // 要隐藏或显示的npc
+	public int state; // 1表示隐藏，0表示隐藏
 
 	public GHideOrShowNpc() {
 	}

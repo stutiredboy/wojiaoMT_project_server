@@ -25,9 +25,9 @@ public class SRequestPrenticeSuccess extends __SRequestPrenticeSuccess__ {
 		return 816442;
 	}
 
-	public long masterid; // Ê¦¸µµÄid
-	public java.lang.String mastername; // Ê¦¸¸Ãû³Æ
-	public int binitiative; // ÊÇ·ñÊÇÖ÷¶¯ÇëÇóµ±Í½µÜ£¬1ÎªÖ÷¶¯ÇëÇó£¬0ÎªÊ¦¸¸ÉêÇëÊÕÍ½£¬Ö®ËùÒÔÇø·Ö£¬ÊÇÒòÎªÌáÊ¾ĞÅÏ¢²»Ò»Ñù
+	public long masterid; // å¸ˆå‚…çš„id
+	public java.lang.String mastername; // å¸ˆçˆ¶åç§°
+	public int binitiative; // æ˜¯å¦æ˜¯ä¸»åŠ¨è¯·æ±‚å½“å¾’å¼Ÿï¼Œ1ä¸ºä¸»åŠ¨è¯·æ±‚ï¼Œ0ä¸ºå¸ˆçˆ¶ç”³è¯·æ”¶å¾’ï¼Œä¹‹æ‰€ä»¥åŒºåˆ†ï¼Œæ˜¯å› ä¸ºæç¤ºä¿¡æ¯ä¸ä¸€æ ·
 
 	public SRequestPrenticeSuccess() {
 		mastername = "";

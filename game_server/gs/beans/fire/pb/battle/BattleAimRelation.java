@@ -6,19 +6,19 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class BattleAimRelation implements Marshal , Comparable<BattleAimRelation>{
-	public final static int SELF = 1; // Õ½¶·ÖĞ×Ô¼º£¨¿ÉÒÔÊÇÈË¡¢³è¡¢¹Ö¡¢NPC£©
-	public final static int SELF_PET = 2; // ×Ô¼ºµÄ³èÎï
-	public final static int FRIEND_ROLE = 4; // ÓÑ·½½ÇÉ«
-	public final static int FRIEND_PET = 8; // ÓÑ·½µÄ³èÎï
-	public final static int FRIEND_NPC = 16; // ÓÑ·½NPC
-	public final static int ENERMY_ROLE = 32; // µĞÈË½ÇÉ«
-	public final static int ENERMY_PET = 64; // µĞÈË³èÎï
-	public final static int ENERMY_NPC = 128; // µĞÈËNPC
-	public final static int ENERMY_MONSTER = 256; // µĞÈË¹ÖÎï
-	public final static int COUPLE = 512; // ·òÆŞ
-	public final static int BROTHERS = 1024; // ½á½»
-	public final static int MASTER_STUDENT = 2048; // Ê¦Í½
-	public final static int FRIEND_MONSTER = 4096; // ÓÑ·½¹ÖÎï
+	public final static int SELF = 1; // æˆ˜æ–—ä¸­è‡ªå·±ï¼ˆå¯ä»¥æ˜¯äººã€å® ã€æ€ªã€NPCï¼‰
+	public final static int SELF_PET = 2; // è‡ªå·±çš„å® ç‰©
+	public final static int FRIEND_ROLE = 4; // å‹æ–¹è§’è‰²
+	public final static int FRIEND_PET = 8; // å‹æ–¹çš„å® ç‰©
+	public final static int FRIEND_NPC = 16; // å‹æ–¹NPC
+	public final static int ENERMY_ROLE = 32; // æ•Œäººè§’è‰²
+	public final static int ENERMY_PET = 64; // æ•Œäººå® ç‰©
+	public final static int ENERMY_NPC = 128; // æ•ŒäººNPC
+	public final static int ENERMY_MONSTER = 256; // æ•Œäººæ€ªç‰©
+	public final static int COUPLE = 512; // å¤«å¦»
+	public final static int BROTHERS = 1024; // ç»“äº¤
+	public final static int MASTER_STUDENT = 2048; // å¸ˆå¾’
+	public final static int FRIEND_MONSTER = 4096; // å‹æ–¹æ€ªç‰©
 
 
 	public BattleAimRelation() {

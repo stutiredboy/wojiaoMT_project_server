@@ -6,7 +6,7 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class Bag implements Marshal {
-	public java.util.HashMap<Byte,Long> currency; // key 货币类型,参见MoneyType
+	public java.util.HashMap<Byte,Long> currency; // key 璐у竵绫诲瀷,鍙傝MoneyType
 	public int capacity;
 	public java.util.ArrayList<fire.pb.Item> items;
 

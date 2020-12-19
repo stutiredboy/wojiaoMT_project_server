@@ -25,7 +25,7 @@ public class SHuobanList extends __SHuobanList__ {
 		return 818833;
 	}
 
-	public java.util.ArrayList<fire.pb.huoban.HuoBanInfo> huobans; // 我的伙伴列表
+	public java.util.ArrayList<fire.pb.huoban.HuoBanInfo> huobans; // 鎴戠殑浼欎即鍒楄〃
 
 	public SHuobanList() {
 		huobans = new java.util.ArrayList<fire.pb.huoban.HuoBanInfo>();

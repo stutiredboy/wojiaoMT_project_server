@@ -31,7 +31,7 @@ public class CCancelTrading extends __CCancelTrading__ {
 		return 812643;
 	}
 
-	public java.lang.String tradingid; // ¹Òµ¥ºÅ
+	public java.lang.String tradingid; // æŒ‚å•å·
 
 	public CCancelTrading() {
 		tradingid = "";

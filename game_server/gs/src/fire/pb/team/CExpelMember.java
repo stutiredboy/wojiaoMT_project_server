@@ -22,7 +22,7 @@ abstract class __CExpelMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请离队员
+ * 璇风闃熷憳
  * @author changhao
  *
  */
@@ -46,13 +46,13 @@ public class CExpelMember extends __CExpelMember__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//先验证队伍是否为�?
+				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isTeamLeader(leaderRoleId))
-					return true;//验证该角色是否还是队伍的队长
+					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鏄槦浼嶇殑闃熼暱
 				Long[] roleids = new Long[2];
 				if(leaderRoleId < expeledRoleId)
 				{
@@ -73,29 +73,29 @@ public class CExpelMember extends __CExpelMember__ {
 
 				if(!checkLeaderInTeam(leaderRoleId, team))
 				{
-					//踢人者不在队伍中或�?�不是队�?(illegal)
-					TeamManager.logger.debug("FAIL:踢人者不在队伍中或�?�不是队�?,踢人者Id: "+ leaderRoleId);
+					//韪汉鑰呬笉鍦ㄩ槦浼嶄腑鎴栬?呬笉鏄槦闀?(illegal)
+					TeamManager.logger.debug("FAIL:韪汉鑰呬笉鍦ㄩ槦浼嶄腑鎴栬?呬笉鏄槦闀?,韪汉鑰匢d: "+ leaderRoleId);
 				}
 				else if(!checkLeaderOnline(leaderRoleId))
 				{
-					//TODO 踢人者不在线(illegal)
-					TeamManager.logger.debug("FAIL:踢人者不在线,踢人者Id: "+ leaderRoleId);
+					//TODO 韪汉鑰呬笉鍦ㄧ嚎(illegal)
+					TeamManager.logger.debug("FAIL:韪汉鑰呬笉鍦ㄧ嚎,韪汉鑰匢d: "+ leaderRoleId);
 				}
 				else if(!checkExpeledIsMember(team, expeledRoleId))
 				{
-					//TODO 被踢者不是踢人�?�队伍成�?(illegal)
-					TeamManager.logger.debug("FAIL:被踢者不是踢人�?�队伍成�?,被踢者Id: "+ expeledRoleId);
+					//TODO 琚涪鑰呬笉鏄涪浜鸿?呴槦浼嶆垚鍛?(illegal)
+					TeamManager.logger.debug("FAIL:琚涪鑰呬笉鏄涪浜鸿?呴槦浼嶆垚鍛?,琚涪鑰匢d: "+ expeledRoleId);
 				}
 				else if(!checkTeamLeaderState(leaderRoleId))
 				{
-					//TODO 队伍状�?�不允许(illegal)
-					TeamManager.logger.debug("FAIL:队伍状�?�不允许,被踢者Id: "+ expeledRoleId);
+					//TODO 闃熶紞鐘舵?佷笉鍏佽(illegal)
+					TeamManager.logger.debug("FAIL:闃熶紞鐘舵?佷笉鍏佽,琚涪鑰匢d: "+ expeledRoleId);
 				}
 				else
 				{
 					team.removeTeamMemberWithSP(expeledRoleId,false);
 					
-					//向被离队者发送消�?
+					//鍚戣绂婚槦鑰呭彂閫佹秷鎭?
 					PropRole prole = new PropRole(team.getTeamInfo().getTeamleaderid(), true);
 					List<String> name = new ArrayList<String>();
 					name.add(prole.getName());
@@ -105,9 +105,9 @@ public class CExpelMember extends __CExpelMember__ {
 					expelname.add(expelrole.getName());
 					for(long memberId : team.getAllMemberIds())
 						fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(memberId,141208,expelname);
-					TeamManager.logger.debug("SUCC:队伍踢人,被踢者Id: "+ expeledRoleId);
+					TeamManager.logger.debug("SUCC:闃熶紞韪汉,琚涪鑰匢d: "+ expeledRoleId);
 				}
-	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //被踢出队伍后，有帮派四方巡视任务的角色要记任务失�?
+	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //琚涪鍑洪槦浼嶅悗锛屾湁甯淳鍥涙柟宸¤浠诲姟鐨勮鑹茶璁颁换鍔″け璐?
 				fire.pb.event.Poster.getPoster().dispatchEvent(new LeaveTeamSpecialQuestEvent(expeledRoleId));
 				return true;
 			}
@@ -116,13 +116,13 @@ public class CExpelMember extends __CExpelMember__ {
 		
 	}
 
-	// �?测PVP
+	// 妫?娴婸VP
 	private static int checkPvP(long leaderRoleId, long expeledRoleId) {
-		// 请离队员
+		// 璇风闃熷憳
 		return fire.pb.battle.pvp.PvPTeamHandle.onExpelMember(leaderRoleId, expeledRoleId);
 	}
 	
-	// 踢人者是�?个队伍的队长�??只能在Procedure中被调用
+	// 韪汉鑰呮槸涓?涓槦浼嶇殑闃熼暱锛??鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkLeaderInTeam(long leaderRoleId,Team team)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -133,7 +133,7 @@ public class CExpelMember extends __CExpelMember__ {
 
 	}
 	
-	// 踢人者在�??只能在Procedure中被调用
+	// 韪汉鑰呭湪绾??鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -142,7 +142,7 @@ public class CExpelMember extends __CExpelMember__ {
 			return false;
 	}
 	
-	//被踢者是队长队伍的队员？只能在Procedure中被调用
+	//琚涪鑰呮槸闃熼暱闃熶紞鐨勯槦鍛橈紵鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkExpeledIsMember(Team team, long expeledRoleId)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -154,7 +154,7 @@ public class CExpelMember extends __CExpelMember__ {
 		return false;
 	}
 	
-	// �?请�?�状态不允许? 只能在Procedure中被调用
+	// 閭?璇疯?呯姸鎬佷笉鍏佽? 鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkTeamLeaderState(long roleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(roleId);

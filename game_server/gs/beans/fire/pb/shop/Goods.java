@@ -5,12 +5,12 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ÇëÇó·şÎñÆ÷ÉÌµêÉÌÆ·¼Û¸ñ,Ö»ÓĞNPCMT3ÂòÂôÎïÆ·±í.xlsxÖĞ,¼Û¸ñÊÇ·ñ²¨¶¯ÕâÁĞÎª1µÄÊ±ºò,·şÎñÆ÷²Å»á·µ»Ø¼Û¸ñ
+/** è¯·æ±‚æœåŠ¡å™¨å•†åº—å•†å“ä»·æ ¼,åªæœ‰NPCMT3ä¹°å–ç‰©å“è¡¨.xlsxä¸­,ä»·æ ¼æ˜¯å¦æ³¢åŠ¨è¿™åˆ—ä¸º1çš„æ—¶å€™,æœåŠ¡å™¨æ‰ä¼šè¿”å›ä»·æ ¼
 */
 public class Goods implements Marshal , Comparable<Goods>{
-	public int goodsid; // ÉÌÆ·id
-	public int price; // ÉÌÆ·¼Û¸ñ
-	public int priorperiodprice; // ÉÌÆ·ÉÏÒ»´Î¼Û¸ñ
+	public int goodsid; // å•†å“id
+	public int price; // å•†å“ä»·æ ¼
+	public int priorperiodprice; // å•†å“ä¸Šä¸€æ¬¡ä»·æ ¼
 
 	public Goods() {
 	}

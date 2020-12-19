@@ -28,7 +28,7 @@ public class CCheckMove extends __CCheckMove__ {
 		
 		final long curTick = System.currentTimeMillis();
 		if(! role.checkValidFrequency(curTick)){
-			return;//只忽略，不踢�?
+			return;//鍙拷鐣ワ紝涓嶈涪鎺?
 		}
 		
 		checkmove(role, sceneid, curpos, poslist,curTick);
@@ -41,7 +41,7 @@ public class CCheckMove extends __CCheckMove__ {
 		
 		if(! role.checkMoveUnit())
 		{
-			//Scene.logger.debug("有角色队伍中, 但非队长发来�?测消息\t" + role.getName() + "\t" + role.getTeamIndex());
+			//Scene.logger.debug("鏈夎鑹查槦浼嶄腑, 浣嗛潪闃熼暱鍙戞潵妫?娴嬫秷鎭痋t" + role.getName() + "\t" + role.getTeamIndex());
 			return false;
 		}
 		
@@ -60,14 +60,14 @@ public class CCheckMove extends __CCheckMove__ {
 		int z = role.getPos().getZ();
 		final Position destPos = new Position(curpos.x, curpos.y, z);
 		final java.util.List<Position> positions = new java.util.ArrayList<Position>();
-		positions.add(role.getPos());// 将服务器上的当前�? 加入到验证点列中
+		positions.add(role.getPos());// 灏嗘湇鍔″櫒涓婄殑褰撳墠鐐? 鍔犲叆鍒伴獙璇佺偣鍒椾腑
 		for(final Pos p : poslist)
 			positions.add(new Position(p.x, p.y, z));
 		
 		final int length = destPos.getDistance(role.getPos());
 		if(role.isJumping())
 		{
-			//如果正在跳跃
+			//濡傛灉姝ｅ湪璺宠穬
 			if(!role.getJumpRole().checkValidJump(positions, destPos))
 			{
 				role.getJumpRole().confirmPositionToStart();
@@ -76,7 +76,7 @@ public class CCheckMove extends __CCheckMove__ {
 		}
 		else
 		{
-			// 根据路线长度进行速度判断
+			// 鏍规嵁璺嚎闀垮害杩涜閫熷害鍒ゆ柇
 			int cruiseid = role.getCruiseid();
 			if(! role.checkValidMove(cruiseid, positions, destPos, curTick, length))
 			{
@@ -99,9 +99,9 @@ public class CCheckMove extends __CCheckMove__ {
 		return 790435;
 	}
 
-	public fire.pb.move.Pos curpos; // ���ﵱǰ��
-	public java.util.LinkedList<fire.pb.move.Pos> poslist; // ·���ϵĹؼ���
-	public long sceneid; // ����id
+	public fire.pb.move.Pos curpos; // 人物当前点
+	public java.util.LinkedList<fire.pb.move.Pos> poslist; // 路径上的关键点
+	public long sceneid; // 场景id
 
 	public CCheckMove() {
 		curpos = new fire.pb.move.Pos();

@@ -11,8 +11,8 @@ public class TeamApplyBasic implements Marshal {
 	public int level;
 	public int school;
 	public java.lang.String title;
-	public int shape; // Ôö¼ÓÍâĞÎ by changhao
-	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
+	public int shape; // å¢åŠ å¤–å½¢ by changhao
+	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
 
 	public TeamApplyBasic() {
 		rolename = "";

@@ -11,7 +11,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CResetSysConfig__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÇëÇóĞŞ¸ÄÏµÍ³ÉèÖÃ
+/** å®¢æˆ·ç«¯è¯·æ±‚ä¿®æ”¹ç³»ç»Ÿè®¾ç½®
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -38,7 +38,7 @@ public class CResetSysConfig extends __CResetSysConfig__ {
 		return 786447;
 	}
 
-	public java.util.HashMap<Integer,Integer> sysconfigmap; // ¿Í»§¶Ëµ±Ç°ĞŞ¸ÄµÄÏµÍ³ÉèÖÃ
+	public java.util.HashMap<Integer,Integer> sysconfigmap; // å®¢æˆ·ç«¯å½“å‰ä¿®æ”¹çš„ç³»ç»Ÿè®¾ç½®
 
 	public CResetSysConfig() {
 		sysconfigmap = new java.util.HashMap<Integer,Integer>();

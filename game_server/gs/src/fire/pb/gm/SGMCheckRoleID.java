@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGMCheckRoleID__ extends mkio.Protocol { }
 
-/** GM ���Ľ�ɫID��ȷʱ���������ظ� GM ��ɫID�������� ��ɫID����ȷ��������ֻ������ʾ��Ϣ
+/** GM 检测的角色ID正确时，服务器回复 GM 角色ID检测的请求， 角色ID不正确，服务器只发送提示消息
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

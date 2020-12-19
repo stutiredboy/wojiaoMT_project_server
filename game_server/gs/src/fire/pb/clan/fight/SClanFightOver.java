@@ -25,8 +25,8 @@ public class SClanFightOver extends __SClanFightOver__ {
 		return 808543;
 	}
 
-	public int status; // -1ÊÇÃ»½áÊø0ÊÇµÚÒ»¸öÓ®ÁË1ÊÇµÚ2¸öÓ®ÁË by changhao
-	public long overtimestamp; // ½áÊøÊ±·şÎñÆ÷µÄÊ±¼ä´Á by changhao
+	public int status; // -1æ˜¯æ²¡ç»“æŸ0æ˜¯ç¬¬ä¸€ä¸ªèµ¢äº†1æ˜¯ç¬¬2ä¸ªèµ¢äº† by changhao
+	public long overtimestamp; // ç»“æŸæ—¶æœåŠ¡å™¨çš„æ—¶é—´æˆ³ by changhao
 
 	public SClanFightOver() {
 	}

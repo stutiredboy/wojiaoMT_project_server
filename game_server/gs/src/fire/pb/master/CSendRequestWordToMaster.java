@@ -25,8 +25,8 @@ public class CSendRequestWordToMaster extends __CSendRequestWordToMaster__ {
 		return 816463;
 	}
 
-	public long roleid; // ÇëÇóÊ¦¸¸µÄid
-	public java.lang.String requestword; // ÁôÑÔ
+	public long roleid; // è¯·æ±‚å¸ˆçˆ¶çš„id
+	public java.lang.String requestword; // ç•™è¨€
 
 	public CSendRequestWordToMaster() {
 		requestword = "";

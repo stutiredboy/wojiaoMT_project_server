@@ -29,7 +29,7 @@ public class CLiveDieBattleWatchVideo extends __CLiveDieBattleWatchVideo__ {
 		return 793846;
 	}
 
-	public java.lang.String vedioid; // Â¼Ïñid
+	public java.lang.String vedioid; // å½•åƒid
 
 	public CLiveDieBattleWatchVideo() {
 		vedioid = "";

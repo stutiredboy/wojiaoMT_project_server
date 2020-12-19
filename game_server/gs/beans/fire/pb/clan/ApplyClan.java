@@ -5,11 +5,11 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ½ÇÉ«ÉêÇë¹«»á×´Ì¬
+/** è§’è‰²ç”³è¯·å…¬ä¼šçŠ¶æ€
 */
 public class ApplyClan implements Marshal , Comparable<ApplyClan>{
-	public long clankey; // ¹«»ákey
-	public int applystate; // ÉêÇë×´Ì¬ 0È¡Ïû  1ÉêÇëÖĞ
+	public long clankey; // å…¬ä¼škey
+	public int applystate; // ç”³è¯·çŠ¶æ€ 0å–æ¶ˆ  1ç”³è¯·ä¸­
 
 	public ApplyClan() {
 	}

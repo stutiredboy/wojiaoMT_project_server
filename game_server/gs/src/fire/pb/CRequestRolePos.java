@@ -17,7 +17,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRequestRolePos__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÊ¹ÓÃÇ§ÀïÑ°×ÙµûÇëÇóÍæ¼Ò×ø±ê
+/** å®¢æˆ·ç«¯ä½¿ç”¨åƒé‡Œå¯»è¸ªè¶è¯·æ±‚ç©å®¶åæ ‡
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -69,7 +69,7 @@ public class CRequestRolePos extends __CRequestRolePos__ {
 					String roleName = pRole.getName();
 					List<String> paras = MessageUtil.getMsgParaList(roleName,mapName,String.valueOf(gridPos.getX()),String.valueOf(gridPos.getY()));
 					fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(findroleid, 142709, paras);
-				    //æ‰£æ‰ç‰©å“
+				    //éµï½†å¸€é—â•æ§
 					fire.pb.item.Pack bag = new fire.pb.item.Pack(findroleid, false);
 					int realSub = bag.removeItemById(36253, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_qianlixunzong, 36253, "use qianlixunzongdie",true);
 				    if (realSub!=1)
@@ -90,12 +90,12 @@ public class CRequestRolePos extends __CRequestRolePos__ {
 		return 786487;
 	}
 
-	public final static int BYNAME = 1; // °´Ãû×Ö²éÕÒ
-	public final static int BYID = 2; // °´id²éÕÒ
+	public final static int BYNAME = 1; // æŒ‰åå­—æŸ¥æ‰¾
+	public final static int BYID = 2; // æŒ‰idæŸ¥æ‰¾
 
-	public long roleid; // Íæ¼Òid
-	public java.lang.String rolename; // Íæ¼ÒÃû
-	public byte searchtype; // ²éÕÒÀàĞÍ
+	public long roleid; // ç©å®¶id
+	public java.lang.String rolename; // ç©å®¶å
+	public byte searchtype; // æŸ¥æ‰¾ç±»å‹
 
 	public CRequestRolePos() {
 		rolename = "";

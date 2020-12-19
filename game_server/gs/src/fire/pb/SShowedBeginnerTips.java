@@ -25,8 +25,8 @@ public class SShowedBeginnerTips extends __SShowedBeginnerTips__ {
 		return 786461;
 	}
 
-	public java.util.HashSet<Integer> tipid; // 已经显示过的tip id
-	public int pilottype; // 适配引导类型
+	public java.util.HashSet<Integer> tipid; // 宸茬粡鏄剧ず杩囩殑tip id
+	public int pilottype; // 閫傞厤寮曞绫诲瀷
 
 	public SShowedBeginnerTips() {
 		tipid = new java.util.HashSet<Integer>();

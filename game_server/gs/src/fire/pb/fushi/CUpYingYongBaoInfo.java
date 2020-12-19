@@ -43,7 +43,7 @@ public class CUpYingYongBaoInfo extends __CUpYingYongBaoInfo__ {
 			    	xtable.Yingyongbaoinfos.insert(userID, yyb);
 			    }
 			    
-			    //openkey 换成以前的paytoken�?,SDK组这么要求的
+			    //openkey 鎹㈡垚浠ュ墠鐨刾aytoken浜?,SDK缁勮繖涔堣姹傜殑
 			    if (platformname.equals("qq")) {
 			    	yyb.setOpenkey(paytoken);
 			    }
@@ -72,11 +72,11 @@ public class CUpYingYongBaoInfo extends __CUpYingYongBaoInfo__ {
 							}
 						});
 					} else {
-						StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("获取应用宝数据失败！"));
+						StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("鑾峰彇搴旂敤瀹濇暟鎹け璐ワ紒"));
 					}
 				}
 				catch(Exception e){
-					StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("应用�? 发�?�玩家的符石信息错误�?") , e);
+					StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("搴旂敤瀹? 鍙戦?佺帺瀹剁殑绗︾煶淇℃伅閿欒锛?") , e);
 				}
 			    
 				return true;

@@ -25,7 +25,7 @@ public class SRemoveActivityNpc extends __SRemoveActivityNpc__ {
 		return 790464;
 	}
 
-	public java.util.ArrayList<Integer> npcids; // 需要删除的npc的id
+	public java.util.ArrayList<Integer> npcids; // 闇�瑕佸垹闄ょ殑npc鐨刬d
 
 	public SRemoveActivityNpc() {
 		npcids = new java.util.ArrayList<Integer>();

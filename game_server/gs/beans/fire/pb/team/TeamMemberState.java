@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TeamMemberState implements Marshal , Comparable<TeamMemberState>{
-	public final static int eTeamNormal = 1; // Õı³£×´Ì¬
-	public final static int eTeamAbsent = 2; // ÔİÀë×´Ì¬
-	public final static int eTeamReturn = 3; // »Ø¹é¶ÓÎé×´Ì¬
-	public final static int eTeamFallline = 4; // ÀëÏß×´Ì¬
+	public final static int eTeamNormal = 1; // æ­£å¸¸çŠ¶æ€
+	public final static int eTeamAbsent = 2; // æš‚ç¦»çŠ¶æ€
+	public final static int eTeamReturn = 3; // å›å½’é˜Ÿä¼çŠ¶æ€
+	public final static int eTeamFallline = 4; // ç¦»çº¿çŠ¶æ€
 
 
 	public TeamMemberState() {

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRecommendsNames__ extends mkio.Protocol { }
 
-/** 创建角色重名时，服务器回给客户端推荐名字
+/** 鍒涘缓瑙掕壊閲嶅悕鏃讹紝鏈嶅姟鍣ㄥ洖缁欏鎴风鎺ㄨ崘鍚嶅瓧
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

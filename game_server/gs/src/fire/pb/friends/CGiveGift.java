@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGiveGift__ extends mkio.Protocol { }
 
-/** ÔùËÍÀñÎï
+/** èµ é€ç¤¼ç‰©
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,11 +32,11 @@ public class CGiveGift extends __CGiveGift__ {
 		return 806637;
 	}
 
-	public long roleid; // ÔùËÍÄ¿±êµÄ½ÇÉ«id
-	public int itemid; // ÔùËÍµÀ¾ßµÄid
-	public byte itemnum; // ÔùËÍµÀ¾ßµÄÊıÁ¿
-	public java.lang.String content; // ¸½¼ÓÁôÑÔ
-	public byte force; // 0:ÔùËÍ(Èç¹û²»ÊÇË«ÏòºÃÓÑ,·şÎñÆ÷·µ»Ø´íÎó,ĞèÒª¶ş´ÎÈ·ÈÏÊÇ·ñÇ¿ĞĞÔùËÍ) 1:Ç¿ĞĞÔùËÍ(·ÇË«ÏòºÃÓÑÊ±ÔùËÍ)
+	public long roleid; // èµ é€ç›®æ ‡çš„è§’è‰²id
+	public int itemid; // èµ é€é“å…·çš„id
+	public byte itemnum; // èµ é€é“å…·çš„æ•°é‡
+	public java.lang.String content; // é™„åŠ ç•™è¨€
+	public byte force; // 0:èµ é€(å¦‚æœä¸æ˜¯åŒå‘å¥½å‹,æœåŠ¡å™¨è¿”å›é”™è¯¯,éœ€è¦äºŒæ¬¡ç¡®è®¤æ˜¯å¦å¼ºè¡Œèµ é€) 1:å¼ºè¡Œèµ é€(éåŒå‘å¥½å‹æ—¶èµ é€)
 
 	public CGiveGift() {
 		content = "";

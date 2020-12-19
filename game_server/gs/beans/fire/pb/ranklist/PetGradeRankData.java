@@ -5,16 +5,16 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ³èÅÅ°ñ
+/** å® æ’æ¦œ
 */
 public class PetGradeRankData implements Marshal {
 	public long roleid; // roleid
-	public long uniquepetid; // ³èÎïµÄÎ¨Ò»id
-	public java.lang.String nickname; // Ãû×Ö
-	public java.lang.String petname; // ³èÎïÃû×Ö
-	public int petgrade; // ³èÎïÆÀ·Ö
-	public int rank; // ÅÅÃû
-	public int colour; // ³èÎïÑÕÉ«
+	public long uniquepetid; // å® ç‰©çš„å”¯ä¸€id
+	public java.lang.String nickname; // åå­—
+	public java.lang.String petname; // å® ç‰©åå­—
+	public int petgrade; // å® ç‰©è¯„åˆ†
+	public int rank; // æ’å
+	public int colour; // å® ç‰©é¢œè‰²
 
 	public PetGradeRankData() {
 		nickname = "";

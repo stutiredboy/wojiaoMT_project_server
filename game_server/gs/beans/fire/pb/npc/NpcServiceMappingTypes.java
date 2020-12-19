@@ -7,18 +7,18 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class NpcServiceMappingTypes implements Marshal , Comparable<NpcServiceMappingTypes>{
 	public final static int NONE = 0;
-	public final static int ACCEPT_CIRCLE_TASK = 1; // ½ÓÈÎÎñ
-	public final static int SUBMIT_CIRCLE_TASK = 2; // Ìá½»ÈÎÎñ
-	public final static int QUERY_CIRCLE_TASK = 3; // ²éÑ¯ÈÎÎñ
-	public final static int QUERY_CIRCLE_TEAM = 4; // ±ã½İ×é¶Ó
-	public final static int QUERY_CIRCLE_BATTLE = 5; // ½øÈëÕ½¶·
-	public final static int CIRCLE_PRODUCE = 6; // ´òÔìÎïÆ·
-	public final static int RENXING_CIRCLE_TASK = 7; // ÈÎĞÔÈÎÎñ
-	public final static int CHALLENGE_NPC = 9; // NPCÌôÕ½
-	public final static int ENTER_INST = 10; // ½øÈë¸±±¾
-	public final static int POP_UI = 11; // µ¯½çÃæ·şÎñ
-	public final static int QUERY_CAMERA_URL = 12; // ÇëÇóÂ¼ÏñÂ·¾¶
-	public final static int ACCEPT_TUPO = 13; // ½ÓÍ»ÆÆÈÎÎñ
+	public final static int ACCEPT_CIRCLE_TASK = 1; // æ¥ä»»åŠ¡
+	public final static int SUBMIT_CIRCLE_TASK = 2; // æäº¤ä»»åŠ¡
+	public final static int QUERY_CIRCLE_TASK = 3; // æŸ¥è¯¢ä»»åŠ¡
+	public final static int QUERY_CIRCLE_TEAM = 4; // ä¾¿æ·ç»„é˜Ÿ
+	public final static int QUERY_CIRCLE_BATTLE = 5; // è¿›å…¥æˆ˜æ–—
+	public final static int CIRCLE_PRODUCE = 6; // æ‰“é€ ç‰©å“
+	public final static int RENXING_CIRCLE_TASK = 7; // ä»»æ€§ä»»åŠ¡
+	public final static int CHALLENGE_NPC = 9; // NPCæŒ‘æˆ˜
+	public final static int ENTER_INST = 10; // è¿›å…¥å‰¯æœ¬
+	public final static int POP_UI = 11; // å¼¹ç•Œé¢æœåŠ¡
+	public final static int QUERY_CAMERA_URL = 12; // è¯·æ±‚å½•åƒè·¯å¾„
+	public final static int ACCEPT_TUPO = 13; // æ¥çªç ´ä»»åŠ¡
 
 
 	public NpcServiceMappingTypes() {

@@ -26,7 +26,7 @@ public class SRankRoleInfo2 extends __SRankRoleInfo2__ {
 	}
 
 	public long roleid;
-	public int ranktype; // ÇëÇóµÄÀàĞÍ by changhao
+	public int ranktype; // è¯·æ±‚çš„ç±»å‹ by changhao
 	public java.lang.String rolename;
 	public int shape;
 	public int school;
@@ -35,16 +35,16 @@ public class SRankRoleInfo2 extends __SRankRoleInfo2__ {
 	public java.util.HashMap<Integer,com.locojoy.base.Octets> tips;
 	public int footlogoid;
 	public int rank;
-	public int totalscore; // ×ÜÆÀ·Ö by changhao
-	public int rolescore; // Ö»ÊÇÈËÎïÆÀ·Ö by changhao
-	public int petscore; // ³èÎïÆÀ·Ö by changhao
-	public int manypetscore; // ¶à³èÎïÆÀ·Ö by changhao
-	public int skillscore; // ¼¼ÄÜÆÀ·Ö by changhao
-	public int levelscore; // µÈ¼¶ÆÀ·Ö by changhao
-	public int xiulianscore; // ĞŞÁ¶ÆÀ·Ö by changha
-	public int equipscore; // ×°±¸ÆÀ·Ö
-	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
-	public java.lang.String factionname; // ¹«»áÃû³Æ
+	public int totalscore; // æ€»è¯„åˆ† by changhao
+	public int rolescore; // åªæ˜¯äººç‰©è¯„åˆ† by changhao
+	public int petscore; // å® ç‰©è¯„åˆ† by changhao
+	public int manypetscore; // å¤šå® ç‰©è¯„åˆ† by changhao
+	public int skillscore; // æŠ€èƒ½è¯„åˆ† by changhao
+	public int levelscore; // ç­‰çº§è¯„åˆ† by changhao
+	public int xiulianscore; // ä¿®ç‚¼è¯„åˆ† by changha
+	public int equipscore; // è£…å¤‡è¯„åˆ†
+	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
+	public java.lang.String factionname; // å…¬ä¼šåç§°
 
 	public SRankRoleInfo2() {
 		rolename = "";

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSendActiveQuestList__ extends mkio.Protocol { }
 
-/** ½ÇÉ«ÉÏÏßµÄÊ±ºò·şÎñÆ÷·¢¸ø¿Í»§¶ËËùÓĞµ±Ç°Î´Íê³ÉµÄÈÎÎñÁĞ±í
+/** è§’è‰²ä¸Šçº¿çš„æ—¶å€™æœåŠ¡å™¨å‘ç»™å®¢æˆ·ç«¯æ‰€æœ‰å½“å‰æœªå®Œæˆçš„ä»»åŠ¡åˆ—è¡¨
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

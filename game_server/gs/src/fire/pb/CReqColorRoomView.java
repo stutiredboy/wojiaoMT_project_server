@@ -19,7 +19,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//请求人物染色衣橱信息
+		//璇锋眰浜虹墿鏌撹壊琛ｆ┍淇℃伅
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
@@ -50,7 +50,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 //						max=Integer.parseInt(sCommon.getValue());
 //					}
 //				}
-//				sReqColorRoomView.nummax=max;//染色橱柜�?大�??
+//				sReqColorRoomView.nummax=max;//鏌撹壊姗辨煖鏈?澶у??
 //				gnet.link.Onlines.getInstance().send(roleid, sReqColorRoomView);
 				
 				sendColorRoomInfo(roleid);
@@ -62,7 +62,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 	}
 	
 	/**
-	 * 发�?�衣橱信�?
+	 * 鍙戦?佽。姗变俊鎭?
 	 * @param roleid
 	 */
 	public static void sendColorRoomInfo(long roleid){
@@ -72,7 +72,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 		}
 		SReqColorRoomView sReqColorRoomView=new SReqColorRoomView();
 		java.util.List<xbean.RoleColorType> list=prop.getColorroomlist();
-		//判断如果衣橱没有套装信息，默认显示身上的�?�?
+		//鍒ゆ柇濡傛灉琛ｆ┍娌℃湁濂楄淇℃伅锛岄粯璁ゆ樉绀鸿韩涓婄殑涓?濂?
 		if(list.size()==0){
 			xbean.RoleColorType rolecolortyoe=xbean.Pod.newRoleColorType();
 			rolecolortyoe.setColorpos1(prop.getRolecolor1());
@@ -98,7 +98,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 				max=Integer.parseInt(sCommon.getValue());
 			}
 		}
-		sReqColorRoomView.nummax=max;//染色橱柜�?大�??
+		sReqColorRoomView.nummax=max;//鏌撹壊姗辨煖鏈?澶у??
 		gnet.link.Onlines.getInstance().send(roleid, sReqColorRoomView);
 	}
 	

@@ -38,13 +38,13 @@ public class GEnterWorld extends __GEnterWorld__ {
 			role.setMaxShowNum(this.showrolenum);
 			role.setEquipEffect(equipeffect);
 		}
-		//因有离线托管的情�?,上线时先清理�?下能看见的角�?
+		//鍥犳湁绂荤嚎鎵樼鐨勬儏鍐?,涓婄嚎鏃跺厛娓呯悊涓?涓嬭兘鐪嬭鐨勮鑹?
 		role.clearISee();
 		
 		role.enterScene();
 		SceneTeam team = role.getTeam();
 		if(team!=null)
-			team.sendTeamInfoToRole(role);//发�?�给角色自己的队伍信�?
+			team.sendTeamInfoToRole(role);//鍙戦?佺粰瑙掕壊鑷繁鐨勯槦浼嶄俊鎭?
 		role.setBattleReplayStateAndBroacast(false);
 		RoleManager.getInstance().addRoleToSchool(roleid, schoolid);
 		RoleManager.getInstance().addRoleToCamp(roleid, 0);
@@ -66,7 +66,7 @@ public class GEnterWorld extends __GEnterWorld__ {
 	public fire.msp.RoleMapInfo laststaticmapinfo;
 	public int protect;
 	public int schoolid;
-	public java.util.HashMap<Byte,Integer> components; // ��ɫ��װ��Ϣkeyֵ�ο�SpriteComponents��ö��
+	public java.util.HashMap<Byte,Integer> components; // 角色换装信息key值参考SpriteComponents的枚举
 	public fire.msp.modeinfo mode;
 	public fire.msp.showpetinfo showpet;
 	public fire.msp.showtitleinfo title;

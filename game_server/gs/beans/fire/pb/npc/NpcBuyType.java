@@ -5,15 +5,15 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** Npc¹ºÂòÀàĞÍ
+/** Npcè´­ä¹°ç±»å‹
 */
 public class NpcBuyType implements Marshal , Comparable<NpcBuyType>{
 	public final static int COMMON_MONEY_BUY = 0;
 	public final static int COMMON_SMONEY_BUY = 1;
 	public final static int FAMILY_SELL = 2;
 	public final static int SKILL_SELL = 3;
-	public final static int BUY_AND_USE = 6; // ÓÃ·ûÊ¯¹ºÂòÎïÆ·£¬¹ºÂòºóÖ±½ÓÊ¹ÓÃ£¬Èç¹û¹ºÂò¶à¸ö£¬¿Û³ıÒ»¸öºóÆäÓàµÄ·ÅÈë±³°ü
-	public final static int MONEY_BUY_AND_USE = 7; // ÓÃÏÖ½ğ¹ºÂòÎïÆ·£¬¹ºÂòºóÖ±½ÓÊ¹ÓÃ
+	public final static int BUY_AND_USE = 6; // ç”¨ç¬¦çŸ³è´­ä¹°ç‰©å“ï¼Œè´­ä¹°åç›´æ¥ä½¿ç”¨ï¼Œå¦‚æœè´­ä¹°å¤šä¸ªï¼Œæ‰£é™¤ä¸€ä¸ªåå…¶ä½™çš„æ”¾å…¥èƒŒåŒ…
+	public final static int MONEY_BUY_AND_USE = 7; // ç”¨ç°é‡‘è´­ä¹°ç‰©å“ï¼Œè´­ä¹°åç›´æ¥ä½¿ç”¨
 
 
 	public NpcBuyType() {

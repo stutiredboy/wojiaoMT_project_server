@@ -25,8 +25,8 @@ public class SSetTeamState extends __SSetTeamState__ {
 		return 794484;
 	}
 
-	public int state; // ¶ÓÎé×´Ì¬£¬²Î¿¼TeamState£º1=ÆÕÍ¨¶ÓÎé£»2=µÈ´ıÖĞµÄ¶ÓÎé£»3=ÕÙ¼¯Áî¶ÓÎé
-	public int smapid; // µØÍ¼Íæ·¨ID£¬µ±´¦ÓÚÆÕÍ¨¶ÓÎé×´Ì¬Ê±£¬smapIdÎª0
+	public int state; // é˜Ÿä¼çŠ¶æ€ï¼Œå‚è€ƒTeamStateï¼š1=æ™®é€šé˜Ÿä¼ï¼›2=ç­‰å¾…ä¸­çš„é˜Ÿä¼ï¼›3=å¬é›†ä»¤é˜Ÿä¼
+	public int smapid; // åœ°å›¾ç©æ³•IDï¼Œå½“å¤„äºæ™®é€šé˜Ÿä¼çŠ¶æ€æ—¶ï¼ŒsmapIdä¸º0
 
 	public SSetTeamState() {
 	}

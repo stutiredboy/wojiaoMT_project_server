@@ -5,14 +5,14 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** °ÚÌ¯ä¯ÀÀ
+/** æ‘†æ‘Šæµè§ˆ
 */
 public class TempMarketContainerGoods implements Marshal , Comparable<TempMarketContainerGoods>{
-	public int itemid; // µÀ¾ßid
-	public int num; // ÊıÁ¿
+	public int itemid; // é“å…·id
+	public int num; // æ•°é‡
 	public int key; // itemkey
-	public int itemtype; // ÎïÆ·ÀàĞÍ 1µÀ¾ß, 2³èÎï
-	public int level; // µÈ¼¶»òÆ·ÖÊ
+	public int itemtype; // ç‰©å“ç±»å‹ 1é“å…·, 2å® ç‰©
+	public int level; // ç­‰çº§æˆ–å“è´¨
 
 	public TempMarketContainerGoods() {
 	}

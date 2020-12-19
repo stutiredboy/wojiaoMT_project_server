@@ -11,7 +11,7 @@ abstract class __CAcceptToTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 接受入队
+ * 鎺ュ彈鍏ラ槦
  * @author changhao
  *
  */
@@ -30,7 +30,7 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 		{
 			fire.pb.PropRole applierprop = new fire.pb.PropRole(applierRoleId, true);
 			if(applierprop.getProperties().getCruise() > 0) {
-				TeamManager.logger.info("CAcceptToTeam:申请入队�?" + applierRoleId + "在巡游状�?,此时不能申请入队");
+				TeamManager.logger.info("CAcceptToTeam:鐢宠鍏ラ槦鑰?" + applierRoleId + "鍦ㄥ贰娓哥姸鎬?,姝ゆ椂涓嶈兘鐢宠鍏ラ槦");
 				fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162027, null);
 				fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 162026, null);
 				return;
@@ -38,17 +38,17 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 			
 			fire.pb.PropRole leaderprop = new fire.pb.PropRole(roleid, true);
 			if(leaderprop.getProperties().getCruise() > 0) {
-				TeamManager.logger.info("CAcceptToTeam:队伍队长" + roleid + "申请�?" + applierRoleId + "队伍队长正在巡游状�??,不能申请入队");
+				TeamManager.logger.info("CAcceptToTeam:闃熶紞闃熼暱" + roleid + "鐢宠浜?" + applierRoleId + "闃熶紞闃熼暱姝ｅ湪宸℃父鐘舵??,涓嶈兘鐢宠鍏ラ槦");
 				fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162026, null);
 				fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 162027, null);
 				return;
 			}				
 		}
 		
-		Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId);//如果队伍在公会战场中 by changhao
+		Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId);//濡傛灉闃熶紞鍦ㄥ叕浼氭垬鍦轰腑 by changhao
 		if (leaderclanfightid != null)
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//如果申请者在公会战场�? by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//濡傛灉鐢宠鑰呭湪鍏細鎴樺満涓? by changhao
 			if (!leaderclanfightid.equals(applierclanfightid))
 			{
  			    fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410028,  null);
@@ -72,7 +72,7 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 		}
 		else
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//申请者在公会战场�? by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//鐢宠鑰呭湪鍏細鎴樺満涓? by changhao
 			if (applierclanfightid != null)
 			{
 				if (!applierclanfightid.equals(leaderclanfightid))
@@ -94,8 +94,8 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 		return 787235;
 	}
 
-	public long roleid; // ���������ID
-	public int accept; // 0 ��ʾ�ܾ���1��ʾ���ܣ��ܾ�����£����roleidΪ0����ʾ����������б���
+	public long roleid; // 申请组队者ID
+	public int accept; // 0 表示拒绝，1表示接受（拒绝情况下，如果roleid为0，表示清空申请者列表）
 
 	public CAcceptToTeam() {
 	}

@@ -10,7 +10,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetCheckCode__ extends mkio.Protocol { }
 
-/** ÊÖ»ú°ó¶¨
+/** æ‰‹æœºç»‘å®š
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

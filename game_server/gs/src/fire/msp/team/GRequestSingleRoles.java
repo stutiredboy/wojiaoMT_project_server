@@ -25,7 +25,7 @@ public class GRequestSingleRoles extends __GRequestSingleRoles__ {
 		return 728899;
 	}
 
-	public long roleid; // 请求无队伍角色的roleIds
+	public long roleid; // 璇锋眰鏃犻槦浼嶈鑹茬殑roleIds
 
 	public GRequestSingleRoles() {
 	}

@@ -26,34 +26,34 @@ abstract class __CInvitationPlayPKResult__ extends mkio.Protocol { }
 public class CInvitationPlayPKResult extends __CInvitationPlayPKResult__ {
 	@Override
 	protected void process() {
-		// protocol handle 是否同意切磋
+		// protocol handle 鏄惁鍚屾剰鍒囩
 		final long guestid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (guestid<0){
 			return;
 		}
 		if(acceptresult==1){
-			//判断�?些�?�辑，当前是不是在一张地图，或�?�是不是距离太远
+			//鍒ゆ柇涓?浜涢?昏緫锛屽綋鍓嶆槸涓嶆槸鍦ㄤ竴寮犲湴鍥撅紝鎴栬?呮槸涓嶆槸璺濈澶繙
 			xbean.Properties guestprop=xtable.Properties.select(guestid);
 			if(guestprop.getCruise() > 0) {
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162103, null);
 				return ;
 			}
-			//判断两个人是不是在同�?个队伍中
-			//判断目标是否有队伍，�?要�?�虑目标在队伍中的状�?
+			//鍒ゆ柇涓や釜浜烘槸涓嶆槸鍦ㄥ悓涓?涓槦浼嶄腑
+			//鍒ゆ柇鐩爣鏄惁鏈夐槦浼嶏紝闇?瑕佽?冭檻鐩爣鍦ㄩ槦浼嶄腑鐨勭姸鎬?
 			Team guestteam = TeamManager.selectTeamByRoleId(guestid);
-			//判断是否是一个队伍的成员
+			//鍒ゆ柇鏄惁鏄竴涓槦浼嶇殑鎴愬憳
 			if (guestteam != null){
 				if(guestteam.getAllMemberIds().contains(sourceid)){
-					fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 160460, null);//提示不能�?请同组队�?
-					CInvitationPlayPK.sendremoveTickTime(sourceid);//通知客户端取消定时器
+					fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 160460, null);//鎻愮ず涓嶈兘閭?璇峰悓缁勯槦鍛?
+					CInvitationPlayPK.sendremoveTickTime(sourceid);//閫氱煡瀹㈡埛绔彇娑堝畾鏃跺櫒
 					return;
 				}
 			}
-			// 判断两�?�之间的距离
+			// 鍒ゆ柇涓よ?呬箣闂寸殑璺濈
 			if (!fire.pb.battle.PSendInvitePlayPK.checkRoleDistance(guestid, sourceid)){
 	            fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 120063, 0, null);
 	            fire.pb.talk.MessageMgr.sendMsgNotify(sourceid, 120063, 0, null);
-	            CInvitationPlayPK.sendremoveTickTime(sourceid);//通知客户端取消定时器
+	            CInvitationPlayPK.sendremoveTickTime(sourceid);//閫氱煡瀹㈡埛绔彇娑堝畾鏃跺櫒
 	            return ;
 			}
 			BuffAgent hostAgent = new BuffRoleImpl(sourceid, true);
@@ -63,9 +63,9 @@ public class CInvitationPlayPKResult extends __CInvitationPlayPKResult__ {
 			}
 			new PSendInvitePlayPK(sourceid,guestid).submit();
 		}else{
-			//拒绝切磋
+			//鎷掔粷鍒囩
 			fire.pb.talk.MessageMgr.sendMsgNotify(sourceid, 160425, 0, null);
-			CInvitationPlayPK.sendremoveTickTime(sourceid);//通知客户端取消定时器
+			CInvitationPlayPK.sendremoveTickTime(sourceid);//閫氱煡瀹㈡埛绔彇娑堝畾鏃跺櫒
 			return;
 		}
 	}
@@ -78,8 +78,8 @@ public class CInvitationPlayPKResult extends __CInvitationPlayPKResult__ {
 		return 793689;
 	}
 
-	public long sourceid; // ���������˵�id
-	public int acceptresult; // 0�ܾ�  1����
+	public long sourceid; // 发起邀请人的id
+	public int acceptresult; // 0拒绝  1接受
 
 	public CInvitationPlayPKResult() {
 	}

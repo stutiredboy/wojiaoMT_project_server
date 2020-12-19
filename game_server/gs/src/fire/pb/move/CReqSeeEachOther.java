@@ -14,7 +14,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReqSeeEachOther__ extends mkio.Protocol { }
 
-/** ���������ĳ������Χ�Ľ�ɫ���࿴�����������Χ����������
+/** 主动请求跟某个在周围的角色互相看见，如果在周围，就推下来
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,23 +30,23 @@ public class CReqSeeEachOther extends __CReqSeeEachOther__ {
 		Role seerole = RoleManager.getInstance().getRoleByID(roleid);
 		
 		if(reqrole == null || seerole == null)
-			return;//不在�?
+			return;//涓嶅湪绾?
 		
 		if(reqrole.getScene() != seerole.getScene())
-			return;//不在同一场景
+			return;//涓嶅湪鍚屼竴鍦烘櫙
 		
 		Scene s = reqrole.getScene();
 		int reqscreenindex = s.getScreenIndex(reqrole.getPos());
 		int seescreenindex = s.getScreenIndex(seerole.getPos());
 		if(Math.abs(reqscreenindex - seescreenindex) > 1)
-			return;//不在附近屏块中，互相看不�?
+			return;//涓嶅湪闄勮繎灞忓潡涓紝浜掔浉鐪嬩笉鍒?
 		
 		MapConfig mapcfg = ConfigManager.getInstance().getConf(MapConfig.class).get(s.getMapID());
 		if(mapcfg == null)
 			return;
-		if(mapcfg.getVisibletype() == 1)//自己可见
+		if(mapcfg.getVisibletype() == 1)//鑷繁鍙
 			return;
-		if(mapcfg.getVisibletype() == 2)//小队可见
+		if(mapcfg.getVisibletype() == 2)//灏忛槦鍙
 		{
 			final long reqteamid = reqrole.getTeamID();
 			final long addteamid = seerole.getTeamID();

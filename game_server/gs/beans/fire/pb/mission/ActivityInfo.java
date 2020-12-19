@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ActivityInfo implements Marshal , Comparable<ActivityInfo>{
-	public int activityid; // »î¶¯id
-	public int state; // ½ÇÉ«Ïà¶Ô»î¶¯×´Ì¬, 0²»¿É½øÈë,1¿É½øÈë
-	public int activitystate; // ×´Ì¬, 0Î´¿ªÆô,1¿ªÆô
-	public int finishtimes; // Íê³É´ÎÊı
-	public int nextid; // ÏÂÖÜÒª¿ªÆôµÄ»î¶¯id
-	public int nextnextid; // ÏÂÏÂÖÜÒª¿ªÆôµÄ»î¶¯id
+	public int activityid; // æ´»åŠ¨id
+	public int state; // è§’è‰²ç›¸å¯¹æ´»åŠ¨çŠ¶æ€, 0ä¸å¯è¿›å…¥,1å¯è¿›å…¥
+	public int activitystate; // çŠ¶æ€, 0æœªå¼€å¯,1å¼€å¯
+	public int finishtimes; // å®Œæˆæ¬¡æ•°
+	public int nextid; // ä¸‹å‘¨è¦å¼€å¯çš„æ´»åŠ¨id
+	public int nextnextid; // ä¸‹ä¸‹å‘¨è¦å¼€å¯çš„æ´»åŠ¨id
 
 	public ActivityInfo() {
 	}

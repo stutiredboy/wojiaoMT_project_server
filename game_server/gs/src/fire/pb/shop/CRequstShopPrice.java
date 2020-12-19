@@ -31,7 +31,7 @@ public class CRequstShopPrice extends __CRequstShopPrice__ {
 			protected boolean process() throws Exception {
 				java.util.ArrayList<fire.pb.shop.Goods> goodsList = fire.pb.shop.srv.floating.FloatingOneManager.getInstance()
 						.getGoodsAndPrice(shopid);
-				//返回给客户端
+				//杩斿洖缁欏鎴风
 				mkdb.Procedure.psendWhileCommit(roleid, new SResponseShopPrice(shopid, goodsList));
 				
 				return true;
@@ -48,7 +48,7 @@ public class CRequstShopPrice extends __CRequstShopPrice__ {
 		return 810635;
 	}
 
-	public int shopid; // �̵����
+	public int shopid; // 商店序号
 
 	public CRequstShopPrice() {
 	}

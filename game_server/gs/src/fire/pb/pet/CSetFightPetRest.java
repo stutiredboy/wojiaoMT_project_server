@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSetFightPetRest__ extends mkio.Protocol { }
 
-/** ���󽫲�ս������λ��Ϣ״̬
+/** 请求将参战宠物置位休息状态
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -24,7 +24,7 @@ public class CSetFightPetRest extends __CSetFightPetRest__ {
 			PSetFightPetProc proc = new PSetFightPetProc(roleid, 0, false);
 			proc.submit();
 		} else {
-			// 如果战斗中设置宠物休�?,则战斗结束后生效
+			// 濡傛灉鎴樻枟涓缃疇鐗╀紤鎭?,鍒欐垬鏂楃粨鏉熷悗鐢熸晥
 			mkdb.Procedure proc = new mkdb.Procedure() {
 				@Override
 				protected boolean process() throws Exception {

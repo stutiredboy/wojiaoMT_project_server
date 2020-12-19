@@ -25,7 +25,7 @@ public class SFormationsMap extends __SFormationsMap__ {
 		return 794551;
 	}
 
-	public java.util.HashMap<Integer,fire.pb.FormBean> formationmap; // key=光环id  value=光环等级
+	public java.util.HashMap<Integer,fire.pb.FormBean> formationmap; // key=鍏夌幆id  value=鍏夌幆绛夌骇
 
 	public SFormationsMap() {
 		formationmap = new java.util.HashMap<Integer,fire.pb.FormBean>();

@@ -9,7 +9,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GGoto__ extends mkio.Protocol { }
 
-/** Transfor��صķ���
+/** Transfor相关的方法
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -22,15 +22,15 @@ public class GGoto extends __GGoto__ {
 		if(null == role) return;
 		
 		if(gototype == fire.pb.move.SRoleEnterScene.SYSTEM_DRAG){
-			//系统拉人会拉到指定点的附�?
+			//绯荤粺鎷変汉浼氭媺鍒版寚瀹氱偣鐨勯檮杩?
 			role.justGoto(sceneid, xpos, ypos, BlockInfo.FLOOR_0_Z, gototype);
 			return;
 		}else if (delta <= 0){
-			//如果没有误差范围，精确拉到指定坐�?
+			//濡傛灉娌℃湁璇樊鑼冨洿锛岀簿纭媺鍒版寚瀹氬潗鏍?
 			role.justGoto(sceneid, xpos, ypos, BlockInfo.FLOOR_0_Z, gototype);
 			return;
 		}else{
-			//如果有误差范围，随机�?个可用坐�?
+			//濡傛灉鏈夎宸寖鍥达紝闅忔満涓?涓彲鐢ㄥ潗鏍?
 			java.util.Random r = fire.pb.scene.MapHelper.getRandom();
 			int gox = xpos + (r.nextInt(1) * 2 - 1) * r.nextInt(delta);
 			int goy = ypos + (r.nextInt(1) * 2 - 1) * r.nextInt(delta);
@@ -47,11 +47,11 @@ public class GGoto extends __GGoto__ {
 	}
 
 	public long roleid;
-	public long sceneid; // ����id
+	public long sceneid; // 场景id
 	public int xpos;
 	public int ypos;
-	public int delta; // �������
-	public int gototype; // ��ת����
+	public int delta; // 允许误差
+	public int gototype; // 跳转类型
 
 	public GGoto() {
 	}

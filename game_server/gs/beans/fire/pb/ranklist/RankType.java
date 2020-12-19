@@ -5,48 +5,48 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ÅÅĞĞ°ñÀàĞÍ
+/** æ’è¡Œæ¦œç±»å‹
 */
 public class RankType implements Marshal , Comparable<RankType>{
-	public final static int LEVEL_RANK = 1; // µÈ¼¶ÅÅĞĞ
-	public final static int PET_GRADE_RANK = 9; // ³èÎï×ÛºÏÄÜÁ¦£¨ÆÀ·Ö£©ÅÅĞĞ°ñ
-	public final static int FACTION_RANK = 31; // ¹«»áÅÅĞĞ°ñ
-	public final static int ROLE_ZONGHE_RANK = 32; // ÈËÎï×ÛºÏÊµÁ¦ÅÅĞĞ°ñ
-	public final static int SINGLE_COPY_RANK1 = 21; // ±ù·âÍõ×ùµ¥ÈË¸±±¾40-49¼¶
-	public final static int SINGLE_COPY_RANK2 = 22; // ±ù·âÍõ×ùµ¥ÈË¸±±¾50-69¼¶
-	public final static int SINGLE_COPY_RANK3 = 23; // ±ù·âÍõ×ùµ¥ÈË¸±±¾70-89¼¶
-	public final static int SINGLE_COPY_RANK4 = 24; // ±ù·âÍõ×ùµ¥ÈË¸±±¾90¼¶
-	public final static int TEAM_COPY_RANK1 = 27; // ±ù·âÍõ×ù×é¶Ó¸±±¾50-69¼¶
-	public final static int TEAM_COPY_RANK2 = 28; // ±ù·âÍõ×ù×é¶Ó¸±±¾70-89¼¶
-	public final static int ROLE_RANK = 38; // ½ÇÉ«ÆÀ·Ö by changhao
-	public final static int PROFESSION_WARRIOR_RANK = 43; // Õ½Ê¿ by changhao
-	public final static int PROFESSION_MAGIC_RANK = 44; // ·¨Ê¦ by changhao
-	public final static int PROFESSION_PRIEST_RANK = 45; // ÄÁÊ¦ by changhao
-	public final static int PROFESSION_PALADIN_RANK = 46; // Ê¥Æï by changhao
-	public final static int PROFESSION_HUNTER_RANK = 47; // ÁÔÈË by changhao
-	public final static int PROFESSION_DRUID_RANK = 48; // µÂÂ³ÒÁ by changhao
-	public final static int FACTION_RANK_LEVEL = 49; // ¹«»áµÈ¼¶ by changhao
-	public final static int FACTION_ZONGHE = 50; // ¹«»á×ÛºÏÊµÁ¦ by changhao
-	public final static int FACTION_MC = 51; // ÈÛ»ğÖ®ĞÄ by changhao
-	public final static int FACTION_NAXX = 52; // ÄÉ¿ËÈøÂêË¹ by changhao
-	public final static int PROFESSION_ROGUE_RANK = 60; // µÁÔô by changhao
-	public final static int PROFESSION_SAMAN_RANK = 61; // ÈøÂú by changhao
-	public final static int PROFESSION_WARLOCK_RANK = 62; // ÊõÊ¿ by changhao
-	public final static int FACTION_COPY = 70; // ¹«»á¸±±¾ by changhao
-	public final static int PVP5_LAST_GRADE1 = 81; // 5v5¾º¼¼³¡ÉÏ½ì³õ¼¶×é
-	public final static int PVP5_LAST_GRADE2 = 82; // 5v5¾º¼¼³¡ÉÏ½ìÖĞ¼¶×é
-	public final static int PVP5_LAST_GRADE3 = 83; // 5v5¾º¼¼³¡ÉÏ½ì¸ß¼¶×é
-	public final static int PVP5_HISTORY_GRADE1 = 84; // 5v5¾º¼¼³¡ÀúÊ·³õ¼¶×é
-	public final static int PVP5_HISTORY_GRADE2 = 85; // 5v5¾º¼¼³¡ÀúÊ·ÖĞ¼¶×é
-	public final static int PVP5_HISTORY_GRADE3 = 86; // 5v5¾º¼¼³¡ÀúÊ·¸ß¼¶×é
-	public final static int RED_PACK_1 = 101; // ºì°ü°ñ ÆÕÍ¨·ş by changhao
-	public final static int RED_PACK_2 = 102; // ºì°ü°ñ µã¿¨·ş by changhao
-	public final static int FLOWER_RECEIVE = 111; // ÊÕ»¨°ñ by changhao
-	public final static int FLOWER_GIVE = 112; // ËÍ»¨°ñ by changhao
-	public final static int CLAN_FIGHT_2 = 120; // ¹«»áÕ½¾ºÈüÅÅÃûÖÜ¶şÄÇ³¡ by changhao
-	public final static int CLAN_FIGHT_4 = 121; // ¹«»áÕ½¾ºÈüÅÅÃûÖÜËÄÄÇ³¡ by changhao
-	public final static int CLAN_FIGHT_WEEK = 122; // ¹«»áÕ½¾ºÈüÅÅÃû±¾ÂÖ by changhao
-	public final static int CLAN_FIGHT_HISTROY = 123; // ¹«»áÕ½ÀúÊ·ÅÅÃû by changhao
+	public final static int LEVEL_RANK = 1; // ç­‰çº§æ’è¡Œ
+	public final static int PET_GRADE_RANK = 9; // å® ç‰©ç»¼åˆèƒ½åŠ›ï¼ˆè¯„åˆ†ï¼‰æ’è¡Œæ¦œ
+	public final static int FACTION_RANK = 31; // å…¬ä¼šæ’è¡Œæ¦œ
+	public final static int ROLE_ZONGHE_RANK = 32; // äººç‰©ç»¼åˆå®åŠ›æ’è¡Œæ¦œ
+	public final static int SINGLE_COPY_RANK1 = 21; // å†°å°ç‹åº§å•äººå‰¯æœ¬40-49çº§
+	public final static int SINGLE_COPY_RANK2 = 22; // å†°å°ç‹åº§å•äººå‰¯æœ¬50-69çº§
+	public final static int SINGLE_COPY_RANK3 = 23; // å†°å°ç‹åº§å•äººå‰¯æœ¬70-89çº§
+	public final static int SINGLE_COPY_RANK4 = 24; // å†°å°ç‹åº§å•äººå‰¯æœ¬90çº§
+	public final static int TEAM_COPY_RANK1 = 27; // å†°å°ç‹åº§ç»„é˜Ÿå‰¯æœ¬50-69çº§
+	public final static int TEAM_COPY_RANK2 = 28; // å†°å°ç‹åº§ç»„é˜Ÿå‰¯æœ¬70-89çº§
+	public final static int ROLE_RANK = 38; // è§’è‰²è¯„åˆ† by changhao
+	public final static int PROFESSION_WARRIOR_RANK = 43; // æˆ˜å£« by changhao
+	public final static int PROFESSION_MAGIC_RANK = 44; // æ³•å¸ˆ by changhao
+	public final static int PROFESSION_PRIEST_RANK = 45; // ç‰§å¸ˆ by changhao
+	public final static int PROFESSION_PALADIN_RANK = 46; // åœ£éª‘ by changhao
+	public final static int PROFESSION_HUNTER_RANK = 47; // çŒäºº by changhao
+	public final static int PROFESSION_DRUID_RANK = 48; // å¾·é²ä¼Š by changhao
+	public final static int FACTION_RANK_LEVEL = 49; // å…¬ä¼šç­‰çº§ by changhao
+	public final static int FACTION_ZONGHE = 50; // å…¬ä¼šç»¼åˆå®åŠ› by changhao
+	public final static int FACTION_MC = 51; // ç†”ç«ä¹‹å¿ƒ by changhao
+	public final static int FACTION_NAXX = 52; // çº³å…‹è¨ç›æ–¯ by changhao
+	public final static int PROFESSION_ROGUE_RANK = 60; // ç›—è´¼ by changhao
+	public final static int PROFESSION_SAMAN_RANK = 61; // è¨æ»¡ by changhao
+	public final static int PROFESSION_WARLOCK_RANK = 62; // æœ¯å£« by changhao
+	public final static int FACTION_COPY = 70; // å…¬ä¼šå‰¯æœ¬ by changhao
+	public final static int PVP5_LAST_GRADE1 = 81; // 5v5ç«æŠ€åœºä¸Šå±Šåˆçº§ç»„
+	public final static int PVP5_LAST_GRADE2 = 82; // 5v5ç«æŠ€åœºä¸Šå±Šä¸­çº§ç»„
+	public final static int PVP5_LAST_GRADE3 = 83; // 5v5ç«æŠ€åœºä¸Šå±Šé«˜çº§ç»„
+	public final static int PVP5_HISTORY_GRADE1 = 84; // 5v5ç«æŠ€åœºå†å²åˆçº§ç»„
+	public final static int PVP5_HISTORY_GRADE2 = 85; // 5v5ç«æŠ€åœºå†å²ä¸­çº§ç»„
+	public final static int PVP5_HISTORY_GRADE3 = 86; // 5v5ç«æŠ€åœºå†å²é«˜çº§ç»„
+	public final static int RED_PACK_1 = 101; // çº¢åŒ…æ¦œ æ™®é€šæœ by changhao
+	public final static int RED_PACK_2 = 102; // çº¢åŒ…æ¦œ ç‚¹å¡æœ by changhao
+	public final static int FLOWER_RECEIVE = 111; // æ”¶èŠ±æ¦œ by changhao
+	public final static int FLOWER_GIVE = 112; // é€èŠ±æ¦œ by changhao
+	public final static int CLAN_FIGHT_2 = 120; // å…¬ä¼šæˆ˜ç«èµ›æ’åå‘¨äºŒé‚£åœº by changhao
+	public final static int CLAN_FIGHT_4 = 121; // å…¬ä¼šæˆ˜ç«èµ›æ’åå‘¨å››é‚£åœº by changhao
+	public final static int CLAN_FIGHT_WEEK = 122; // å…¬ä¼šæˆ˜ç«èµ›æ’åæœ¬è½® by changhao
+	public final static int CLAN_FIGHT_HISTROY = 123; // å…¬ä¼šæˆ˜å†å²æ’å by changhao
 
 
 	public RankType() {

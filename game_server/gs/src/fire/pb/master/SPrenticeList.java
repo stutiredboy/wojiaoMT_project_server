@@ -26,7 +26,7 @@ public class SPrenticeList extends __SPrenticeList__ {
 	}
 
 	public java.util.ArrayList<fire.pb.master.MasterPrenticeBaseData> prentice;
-	public int itemkey; // ÎïÆ·µÄbagkey
+	public int itemkey; // ç‰©å“çš„bagkey
 
 	public SPrenticeList() {
 		prentice = new java.util.ArrayList<fire.pb.master.MasterPrenticeBaseData>();

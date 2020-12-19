@@ -12,7 +12,7 @@ abstract class __CRequestHaveTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 询问是否有队
+ * 璇㈤棶鏄惁鏈夐槦
  * @author changhao
  *
  */
@@ -45,7 +45,7 @@ public class CRequestHaveTeam extends __CRequestHaveTeam__ {
 		return 794515;
 	}
 
-	public long roleid; // ĳ�����Ƿ��ж� by changhao
+	public long roleid; // 某个人是否有队 by changhao
 
 	public CRequestHaveTeam() {
 	}

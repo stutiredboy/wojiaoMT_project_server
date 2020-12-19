@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GetAddCashSNReq__ extends mkio.Protocol { }
 
-/** ³äÖµÏà¹Ø
+/** å……å€¼ç›¸å…³
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

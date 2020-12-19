@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __LinkServerControl__ extends mkio.Protocol { }
 
-/** 正式服link启动时默认对client的端口未监听，由gs通知其开始监听，gs关闭时通知link关闭端口监听
+/** 姝ｅ紡鏈峫ink鍚姩鏃堕粯璁ゅclient鐨勭鍙ｆ湭鐩戝惉锛岀敱gs閫氱煡鍏跺紑濮嬬洃鍚紝gs鍏抽棴鏃堕�氱煡link鍏抽棴绔彛鐩戝惉
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HuoBanDetailInfo implements Marshal {
-	public int huobanid; // »ï°éid
-	public int infight; // ÊÇ·ñ²ÎÕ½,1Îª²ÎÕ½
-	public long state; // ÊÇ·ñ½âËø, 0ÎªÎ´½âËø; 1ÎªÓÀ¾ÃÊ¹ÓÃ; ´óÓÚ10ÎªÓĞ¶àÉÙ·ÖÖÓµÄÊ£ÓàÊ±¼ä,Èç 134 ±íÊ¾ÎªÃâ·Ñ134 - 10 = 124·ÖÖÓ
-	public int weekfree; // ±¾ÖÜÊÇ·ñÃâ·Ñ 0²»Ãâ·Ñ; 1±¾ÖÜÃâ·Ñ
-	public java.util.ArrayList<Integer> datas; // ±äÁ¿ÖµID£¬±äÁ¿Öµ,ÆøÑª,¹¥»÷,·ÀÓùµÈµÈ¶¼ÔÚÕâÀïÃæ
+	public int huobanid; // ä¼™ä¼´id
+	public int infight; // æ˜¯å¦å‚æˆ˜,1ä¸ºå‚æˆ˜
+	public long state; // æ˜¯å¦è§£é”, 0ä¸ºæœªè§£é”; 1ä¸ºæ°¸ä¹…ä½¿ç”¨; å¤§äº10ä¸ºæœ‰å¤šå°‘åˆ†é’Ÿçš„å‰©ä½™æ—¶é—´,å¦‚ 134 è¡¨ç¤ºä¸ºå…è´¹134 - 10 = 124åˆ†é’Ÿ
+	public int weekfree; // æœ¬å‘¨æ˜¯å¦å…è´¹ 0ä¸å…è´¹; 1æœ¬å‘¨å…è´¹
+	public java.util.ArrayList<Integer> datas; // å˜é‡å€¼IDï¼Œå˜é‡å€¼,æ°”è¡€,æ”»å‡»,é˜²å¾¡ç­‰ç­‰éƒ½åœ¨è¿™é‡Œé¢
 
 	public HuoBanDetailInfo() {
 		datas = new java.util.ArrayList<Integer>();

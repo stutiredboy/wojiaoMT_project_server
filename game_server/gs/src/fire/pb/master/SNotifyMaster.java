@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SNotifyMaster__ extends mkio.Protocol { }
 
-/** ʦͽϵͳ ����Э��
+/** 师徒系统 定义协议
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SNotifyMaster extends __SNotifyMaster__ {
 		return 816436;
 	}
 
-	public int flag; // 0=��ʦͽ 1=ͽ�� 2= ʦ��
+	public int flag; // 0=无师徒 1=徒弟 2= 师傅
 
 	public SNotifyMaster() {
 	}

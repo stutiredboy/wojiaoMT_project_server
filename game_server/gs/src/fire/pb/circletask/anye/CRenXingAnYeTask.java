@@ -30,8 +30,8 @@ public class CRenXingAnYeTask extends __CRenXingAnYeTask__ {
 		return 807456;
 	}
 
-	public int taskpos; // 任务栏位
-	public int moneytype; // 货币类型 MoneyType枚举定义 3符石 7声望
+	public int taskpos; // 浠诲姟鏍忎綅
+	public int moneytype; // 璐у竵绫诲瀷 MoneyType鏋氫妇瀹氫箟 3绗︾煶 7澹版湜
 
 	public CRenXingAnYeTask() {
 	}

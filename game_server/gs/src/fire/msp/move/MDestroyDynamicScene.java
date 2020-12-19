@@ -17,7 +17,7 @@ public class MDestroyDynamicScene extends __MDestroyDynamicScene__ {
 		if (scenetype == fire.pb.move.DynamicSceneType.DREAMLAND_SCENE) {
 			for (Long roleid : roleids) 
 			if (fire.pb.mission.Module.getInstance().hasUnfinishedFairylandMission(roleid)>0) {
-				     //å‰¯æœ¬é”?æ¯æ—¶å¼ºè¡Œè·³è½¬çš„ç›®çš„åœ°è‚¯å®šä¸æ˜¯æ¢¦å¢ƒ,è¦é?šçŸ¥å®¢æˆ·ç«?
+				     //é“îˆ›æ¹°é–¿?å§£ä½¹æ¤‚å¯®é¸¿î”‘ç’ºå® æµ†é¨å‹­æ´°é¨å‹«æ¹´é‘²îˆšç•¾æ¶“å¶†æ§¸å§Šï¹€î•¨,ç‘•ä¾€?æ°±ç…¡ç€¹ãˆ¡åŸ›ç»”?
 					fire.pb.mission.SFairylandStatus sds = new fire.pb.mission.SFairylandStatus();
 					sds.status = fire.pb.mission.FairylandStatus.LANDABSENT;
 					if (mkdb.Transaction.current()==null) 
@@ -25,7 +25,7 @@ public class MDestroyDynamicScene extends __MDestroyDynamicScene__ {
 					else 
 						mkdb.Procedure.psendWhileCommit(roleid, sds);
 				
-			}else {//æ²¡æœ‰æ¢¦å¢ƒä»»åŠ¡
+			}else {//å¨Œâ„ƒæ¹å§Šï¹€î•¨æµ è¯²å§Ÿ
 				fire.pb.mission.SFairylandStatus sds = new fire.pb.mission.SFairylandStatus();
 				sds.status = fire.pb.mission.FairylandStatus.LANDOUT;
 				if (mkdb.Transaction.current()==null) 
@@ -45,10 +45,10 @@ public class MDestroyDynamicScene extends __MDestroyDynamicScene__ {
 		return 724913;
 	}
 
-	public long sceneid; // ³¡¾°Ä£¿é´´½¨µÄ³¡¾°ID
-	public long ownerid; // ¸±±¾µÄËùÓĞÕßID(¿ÉÄÜÊÇ½ÇÉ«ID,Ò²¿ÉÄÜÊÇÍÅÌåID)
-	public int scenetype; // ¸±±¾³¡¾°µÄÀàĞÍ£¬Èç¹ûÎª0£¬±íÊ¾Îª¾²Ì¬³¡¾°
-	public java.util.LinkedList<Long> roleids; // ¸±±¾Ïú»ÙÊ±±»Ç¿ĞĞÌß³ö¸±±¾µÄroleid
+	public long sceneid; // åœºæ™¯æ¨¡å—åˆ›å»ºçš„åœºæ™¯ID
+	public long ownerid; // å‰¯æœ¬çš„æ‰€æœ‰è€…ID(å¯èƒ½æ˜¯è§’è‰²ID,ä¹Ÿå¯èƒ½æ˜¯å›¢ä½“ID)
+	public int scenetype; // å‰¯æœ¬åœºæ™¯çš„ç±»å‹ï¼Œå¦‚æœä¸º0ï¼Œè¡¨ç¤ºä¸ºé™æ€åœºæ™¯
+	public java.util.LinkedList<Long> roleids; // å‰¯æœ¬é”€æ¯æ—¶è¢«å¼ºè¡Œè¸¢å‡ºå‰¯æœ¬çš„roleid
 
 	public MDestroyDynamicScene() {
 		roleids = new java.util.LinkedList<Long>();

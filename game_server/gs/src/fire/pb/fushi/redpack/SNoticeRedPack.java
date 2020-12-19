@@ -25,7 +25,7 @@ public class SNoticeRedPack extends __SNoticeRedPack__ {
 		return 812542;
 	}
 
-	public fire.pb.fushi.redpack.RedPackRoleTip redpackroletip; // ºì°üĞÅÏ¢
+	public fire.pb.fushi.redpack.RedPackRoleTip redpackroletip; // çº¢åŒ…ä¿¡æ¯
 
 	public SNoticeRedPack() {
 		redpackroletip = new fire.pb.fushi.redpack.RedPackRoleTip();

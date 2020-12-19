@@ -34,16 +34,16 @@ public class CRoleTurn extends __CRoleTurn__ {
 		return 790439;
 	}
 
-	public final static int DIR_UP = 0; // ÏòÉÏ
-	public final static int DIR_RIGHTUP = 1; // ÓÒÉÏ
-	public final static int DIR_RIGHT = 2; // ÏòÓÒ
-	public final static int DIR_RIGHTDOWN = 3; // ÓÒÏÂ
-	public final static int DIR_DOWN = 4; // ÏòÏÂ
-	public final static int DIR_LEFTDOWN = 5; // ×óÏÂ
-	public final static int DIR_LEFT = 6; // Ïò×ó
-	public final static int DIR_LEFTUP = 7; // ×óÉÏ
+	public final static int DIR_UP = 0; // å‘ä¸Š
+	public final static int DIR_RIGHTUP = 1; // å³ä¸Š
+	public final static int DIR_RIGHT = 2; // å‘å³
+	public final static int DIR_RIGHTDOWN = 3; // å³ä¸‹
+	public final static int DIR_DOWN = 4; // å‘ä¸‹
+	public final static int DIR_LEFTDOWN = 5; // å·¦ä¸‹
+	public final static int DIR_LEFT = 6; // å‘å·¦
+	public final static int DIR_LEFTUP = 7; // å·¦ä¸Š
 
-	public int direction; // ×ªÏòµÄ·½Ïò
+	public int direction; // è½¬å‘çš„æ–¹å‘
 
 	public CRoleTurn() {
 	}

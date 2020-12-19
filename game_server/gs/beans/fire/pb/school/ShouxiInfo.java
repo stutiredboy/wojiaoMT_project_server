@@ -9,12 +9,12 @@ public class ShouxiInfo implements Marshal , Comparable<ShouxiInfo>{
 	public int maxhp;
 	public int maxmp;
 	public int hitrate;
-	public int attack; // ¹¥»÷
+	public int attack; // æ”»å‡»
 	public int defend;
-	public int magicattack; // ·¨Êõ¹¥»÷
-	public int magicdef; // ·¨Êõ·ÀÓù
+	public int magicattack; // æ³•æœ¯æ”»å‡»
+	public int magicdef; // æ³•æœ¯é˜²å¾¡
 	public int speed;
-	public int dodge; // ¶ãÉÁ
+	public int dodge; // èº²é—ª
 
 	public ShouxiInfo() {
 	}

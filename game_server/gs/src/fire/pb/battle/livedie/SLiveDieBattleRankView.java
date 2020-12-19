@@ -25,8 +25,8 @@ public class SLiveDieBattleRankView extends __SLiveDieBattleRankView__ {
 		return 793843;
 	}
 
-	public int modeltype; // 类型
-	public java.util.ArrayList<fire.pb.battle.livedie.LDVideoRoleInfoDes> rolefightlist; // 对手信息
+	public int modeltype; // 绫诲瀷
+	public java.util.ArrayList<fire.pb.battle.livedie.LDVideoRoleInfoDes> rolefightlist; // 瀵规墜淇℃伅
 
 	public SLiveDieBattleRankView() {
 		rolefightlist = new java.util.ArrayList<fire.pb.battle.livedie.LDVideoRoleInfoDes>();

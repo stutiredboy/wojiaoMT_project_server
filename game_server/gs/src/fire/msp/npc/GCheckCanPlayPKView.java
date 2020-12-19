@@ -39,21 +39,21 @@ abstract class __GCheckCanPlayPKView__ extends mkio.Protocol { }
 public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	
 	public static final Logger logger = Logger.getLogger("BATTLE");
-	public static final int CQMAPID=1615;//切磋地图id
+	public static final int CQMAPID=1615;//鍒囩鍦板浘id
 	public static Map<Integer,SLeitaiLevel> sLeitaiLevelmap=ConfigManager.getInstance().getConf(SLeitaiLevel.class);
 	
 	public static final int MAX_NUM=50;
 	
 	@Override
 	protected void process() {
-		//判断客户端发送的门派和等级以及模块数据是否正�?
+		//鍒ゆ柇瀹㈡埛绔彂閫佺殑闂ㄦ淳鍜岀瓑绾т互鍙婃ā鍧楁暟鎹槸鍚︽纭?
 		if(modeltype!=QCmodelType.ONE_FIGHT&&modeltype!=QCmodelType.TEAM_FIGHT&&modeltype!=QCmodelType.WATCH_FIGHT){
-			logger.error("切磋模块数据错误，模块错�?");
+			logger.error("鍒囩妯″潡鏁版嵁閿欒锛屾ā鍧楅敊璇?");
 			return ;
 		}
 		
 		if(sLeitaiLevelmap==null){
-			logger.error("切磋模块数据错误，擂台等级配置表");
+			logger.error("鍒囩妯″潡鏁版嵁閿欒锛屾搨鍙扮瓑绾ч厤缃〃");
 			return ;
 		}
 		int levelmin=0;
@@ -63,8 +63,8 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 			levelmin=sLeitaiLevel.getLevelmin();
 			levelmax=sLeitaiLevel.getLevelmax();
 		}
-		//获得当前场景是所有玩家，并且是在擂台上的
-		LinkedList<Long> rolelistid=new LinkedList<Long>();//符合条件的所有玩�?
+		//鑾峰緱褰撳墠鍦烘櫙鏄墍鏈夌帺瀹讹紝骞朵笖鏄湪鎿傚彴涓婄殑
+		LinkedList<Long> rolelistid=new LinkedList<Long>();//绗﹀悎鏉′欢鐨勬墍鏈夌帺瀹?
 		HashMap<Long, Long> watchfight=new HashMap<Long, Long>();
 		Scene scene = SceneManager.getInstance().getSceneByID(CQMAPID);
 		Set<Integer> aroundIndexs = new java.util.HashSet<Integer>();
@@ -74,15 +74,15 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 		int num=0;
 		for(Role role : roles.values()){
 			GridPos hostGridPos = role.getPos().toGridPos();
-			//是否在擂�?
+			//鏄惁鍦ㄦ搨鍙?
 			if (!role.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(hostGridPos.getX(), hostGridPos.getY())) {
 				continue;
 			}
-			//等级是否符合要求
+			//绛夌骇鏄惁绗﹀悎瑕佹眰
 			if(role.getLevel()<fire.pb.battle.CSendInvitePlayPK.PVP_LEVEL){
 				continue;
 			}
-			//判断删�?�等�?
+			//鍒ゆ柇鍒犻?夌瓑绾?
 			if(role.getLevel()<levelmin||role.getLevel()>levelmax){
 				continue;
 			}
@@ -91,26 +91,26 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 					continue;
 				}
 			}
-			//过滤自己
+			//杩囨护鑷繁
 			if(role.getRoleID()==hostid){
 				continue;
 			}
-			//判断玩家是否组队，过滤队�?
+			//鍒ゆ柇鐜╁鏄惁缁勯槦锛岃繃婊ら槦鍛?
 			Team host_Team = TeamManager.selectTeamByRoleId(role.getRoleID());
 			if (host_Team != null && host_Team.isNormalMember(role.getRoleID())){
 				continue;
 			}
-			//判断对应模块
+			//鍒ゆ柇瀵瑰簲妯″潡
 			if(modeltype==QCmodelType.TEAM_FIGHT){
-				//组队，必须是有队伍的
+				//缁勯槦锛屽繀椤绘槸鏈夐槦浼嶇殑
 				if(host_Team == null){
 					continue;
 				}
-				//过滤掉非队长成员
+				//杩囨护鎺夐潪闃熼暱鎴愬憳
 				if(host_Team.getTeamLeaderId()!=role.getRoleID()){
 					continue;
 				}
-				//这里�?要判断当前的队伍是否是自己所在的队伍
+				//杩欓噷闇?瑕佸垽鏂綋鍓嶇殑闃熶紞鏄惁鏄嚜宸辨墍鍦ㄧ殑闃熶紞
 				Team selfTeam = TeamManager.selectTeamByRoleId(hostid);
 				if(selfTeam!=null){
 					if(host_Team.getTeamId()==selfTeam.getTeamId()){
@@ -126,7 +126,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 				watchFightView(role,watchfight);
 				num=watchfight.size();
 			}else if(modeltype==QCmodelType.ONE_FIGHT){
-				//单人，过滤组队和在战斗的玩家
+				//鍗曚汉锛岃繃婊ょ粍闃熷拰鍦ㄦ垬鏂楃殑鐜╁
 				if(host_Team != null){
 					continue;
 				}
@@ -144,19 +144,19 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	}
 	
 	/**
-	 * 添加观战的玩�?
+	 * 娣诲姞瑙傛垬鐨勭帺瀹?
 	 * @param role
 	 * @param watchfight
 	 */
 	private  void watchFightView(Role role,HashMap<Long, Long> watchfight){
-		//过滤没有在战斗的玩家
-		//不在战斗�?
+		//杩囨护娌℃湁鍦ㄦ垬鏂楃殑鐜╁
+		//涓嶅湪鎴樻枟涓?
 		if(!fire.pb.buff.Module.existState(role.getRoleID(), fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER)){			
 			return;
 		}
-		//过滤掉不是主方的
+		//杩囨护鎺変笉鏄富鏂圭殑
 		Long battleid = xtable.Roleid2battleid.select(role.getRoleID());
-		if (battleid==null){//玩家可能是点击观战�?�进入观战的
+		if (battleid==null){//鐜╁鍙兘鏄偣鍑昏鎴樿?呰繘鍏ヨ鎴樼殑
 			battleid = xtable.Watcherid2battleid.select(role.getRoleID());
 		}
 		if(battleid == null){
@@ -186,9 +186,9 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	}
 
 	public long hostid;
-	public int modeltype; // ģ������
-	public int school; // ɾѡ��ְҵ -1��ʾȫְҵ
-	public int levelindex; // ɾѡ�Ľ�ɫ�ȼ����� 0��ʾȫѡ
+	public int modeltype; // 模块类型
+	public int school; // 删选的职业 -1表示全职业
+	public int levelindex; // 删选的角色等级区间 0表示全选
 
 	public GCheckCanPlayPKView() {
 	}

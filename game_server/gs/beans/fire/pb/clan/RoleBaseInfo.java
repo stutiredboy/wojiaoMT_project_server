@@ -7,11 +7,11 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleBaseInfo implements Marshal {
 	public long roleid;
-	public java.lang.String rolename; // 名称
-	public int rolelevel; // 等级
-	public int roleschool; // 职业
-	public long applytime; // 申请时间
-	public int fightvalue; // 综合战力
+	public java.lang.String rolename; // 鍚嶇О
+	public int rolelevel; // 绛夌骇
+	public int roleschool; // 鑱屼笟
+	public long applytime; // 鐢宠鏃堕棿
+	public int fightvalue; // 缁煎悎鎴樺姏
 
 	public RoleBaseInfo() {
 		rolename = "";

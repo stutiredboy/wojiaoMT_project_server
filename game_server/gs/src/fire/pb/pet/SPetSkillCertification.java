@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPetSkillCertification__ extends mkio.Protocol { }
 
-/** ³èÎï¼¼ÄÜÈÏÖ¤
+/** å® ç‰©æŠ€èƒ½è®¤è¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SPetSkillCertification extends __SPetSkillCertification__ {
 		return 788520;
 	}
 
-	public int petkey; // ³èÎïkey
-	public int skillid; // ¼¼ÄÜID
-	public int isconfirm; // 1:È·¶¨/0:È¡Ïû
+	public int petkey; // å® ç‰©key
+	public int skillid; // æŠ€èƒ½ID
+	public int isconfirm; // 1:ç¡®å®š/0:å–æ¶ˆ
 
 	public SPetSkillCertification() {
 	}

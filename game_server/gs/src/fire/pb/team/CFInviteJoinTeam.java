@@ -23,7 +23,7 @@ abstract class __CFInviteJoinTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CFInviteJoinTeam extends __CFInviteJoinTeam__ {
-private long now = 0L;//procedure�?始时保存�?个当前时间，保证此procedure中时间的统一�?
+private long now = 0L;//procedure寮?濮嬫椂淇濆瓨涓?涓綋鍓嶆椂闂达紝淇濊瘉姝rocedure涓椂闂寸殑缁熶竴鎬?
 	
 	@Override
 	protected void process()
@@ -36,7 +36,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 		final long invitedRoleId = roleid;
 		if(inviterRoleId == invitedRoleId)
 			return;
-		//add by cn 如果在单挑决斗状�?,不允许加入任何队�?
+		//add by cn 濡傛灉鍦ㄥ崟鎸戝喅鏂楃姸鎬?,涓嶅厑璁稿姞鍏ヤ换浣曢槦浼?
 		BuffAgent agent = new BuffRoleImpl(inviterRoleId, true);
 		if (agent.existBuff(PlayPKManage.BuffDuelID)) {
 			if (fire.pb.team.TeamManager.isInTeam(inviterRoleId))
@@ -60,15 +60,15 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 				Team team = null;
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(inviterRoleId);
-				//先验证队伍是否为�?,来决定是否锁teamlock
+				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?,鏉ュ喅瀹氭槸鍚﹂攣teamlock
 				if(teamId != null)
-				{//锁teamlock
+				{//閿乼eamlock
 					team = new Team(teamId,false);
 					if(!team.isTeamLeader(inviterRoleId))
-						return true;//验证该角色是否还是队伍的队长
+						return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鏄槦浼嶇殑闃熼暱
 				}
 				
-				// 按顺序锁rolelock�? teamlock
+				// 鎸夐『搴忛攣rolelock鍜? teamlock
 				Long inviterTeamId = null;
 				Long invitedTeamId = null;
 				if (inviterRoleId < invitedRoleId)
@@ -86,97 +86,97 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 				
 				if(!checkOnline(invitedRoleId, inviterRoleId))
 				{
-					//返回消息被邀请的玩家不在�?(illegal)
-					TeamManager.logger.debug("FAIL:被邀请的玩家不在�?,RoleId: "+invitedRoleId);
+					//杩斿洖娑堟伅琚個璇风殑鐜╁涓嶅湪绾?(illegal)
+					TeamManager.logger.debug("FAIL:琚個璇风殑鐜╁涓嶅湪绾?,RoleId: "+invitedRoleId);
 				}
 				else if(!checkInviterStatus(inviterRoleId))
 				{
-					//�?请�?�处于不能组队的状�?? 
+					//閭?璇疯?呭浜庝笉鑳界粍闃熺殑鐘舵?? 
 					MessageMgr.psendMsgNotify(inviterRoleId, 141618, null);
 //					psend(inviterRoleId, new STeamError(TeamError.SelfInUnteamState));
-					TeamManager.logger.debug("FAIL:�?请�?�处于不能组队的状�??,RoleId: "+inviterRoleId);
+					TeamManager.logger.debug("FAIL:閭?璇疯?呭浜庝笉鑳界粍闃熺殑鐘舵??,RoleId: "+inviterRoleId);
 				}
 				else if(!checkInvitedStatus(invitedRoleId))
 				{
-					//被邀请�?�处于不能组队的状�?? 
+					//琚個璇疯?呭浜庝笉鑳界粍闃熺殑鐘舵?? 
 					MessageMgr.psendMsgNotify(inviterRoleId, TeamManager.ERROR_MSG_OBJECT_CANT_IN_TEAM, null);
 //					psend(invitedRoleId, new STeamError(TeamError.SelfInUnteamState));
-					TeamManager.logger.debug("FAIL:被邀请�?�处于不能组队的状�??,RoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:琚個璇疯?呭浜庝笉鑳界粍闃熺殑鐘舵??,RoleId: "+invitedRoleId);
 				}
 				else if(!checkInvitedTeamFuctionEnable(invitedRoleId))
 				{
-					//被邀请�?�的组队功能没有打开
+					//琚個璇疯?呯殑缁勯槦鍔熻兘娌℃湁鎵撳紑
 //					psend(inviterRoleId, new STeamError(TeamError.ObjectTeamFunctionClose));
 					MessageMgr.psendMsgNotify(inviterRoleId, 141201, null);
-					TeamManager.logger.debug("FAIL:被邀请�?�的组队功能没有打开,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:琚個璇疯?呯殑缁勯槦鍔熻兘娌℃湁鎵撳紑,invitedRoleId: "+invitedRoleId);
 				}
 				else if(!checkInvitedInNoTeam(invitedTeamId))
 				{
-					//被邀请�?�在队伍�?
+					//琚個璇疯?呭湪闃熶紞涓?
 					//psend(inviterRoleId, new STeamError(TeamError.ObjectInTeam));
-					TeamManager.logger.debug("FAIL:被邀请�?�在队伍�?,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:琚個璇疯?呭湪闃熶紞涓?,invitedRoleId: "+invitedRoleId);
 					fire.pb.talk.MessageMgr.psendMsgNotify(inviterRoleId, 141191, null);
 				}
 				else if(!checkNotBeingInvited(invitedRoleId))
 				{
-					//被邀请�?�正在被其他人邀请中 
+					//琚個璇疯?呮鍦ㄨ鍏朵粬浜洪個璇蜂腑 
 //					psend(inviterRoleId, new STeamError(TeamError.BeingInvited));
 					fire.pb.talk.MessageMgr.psendMsgNotify(inviterRoleId, 141202, null);
-					TeamManager.logger.debug("FAIL:被邀请�?�正在被其他人邀请中,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:琚個璇疯?呮鍦ㄨ鍏朵粬浜洪個璇蜂腑,invitedRoleId: "+invitedRoleId);
 				}
 				else if(!checkNotInvitedIn30s(invitedRoleId, inviterRoleId, inviterTeamId))
 				{
-					//被邀请�??30秒内曾经被队伍或者个人邀请过
+					//琚個璇疯??30绉掑唴鏇剧粡琚槦浼嶆垨鑰呬釜浜洪個璇疯繃
 					//psend(inviterRoleId, new STeamError(TeamError.InvitedIn30s));
-					TeamManager.logger.debug("FAIL:被邀请�??30秒内曾经被队伍或者个人邀请过,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:琚個璇疯??30绉掑唴鏇剧粡琚槦浼嶆垨鑰呬釜浜洪個璇疯繃,invitedRoleId: "+invitedRoleId);
 					fire.pb.talk.MessageMgr.psendMsgNotify(inviterRoleId, 141050, null);
 				}
 				else if(team != null)
 				{
 					//Team team = new Team(inviterTeamId,false);
-					//来自队伍的邀�?
+					//鏉ヨ嚜闃熶紞鐨勯個璇?
 					if(!checkInviterIsLeader(inviterRoleId, team))
 					{
-						//�?请�?�不是队�?(illegal)
-						TeamManager.logger.debug("FAIL:�?请�?�不是队�?,RoleId: "+inviterRoleId);
+						//閭?璇疯?呬笉鏄槦闀?(illegal)
+						TeamManager.logger.debug("FAIL:閭?璇疯?呬笉鏄槦闀?,RoleId: "+inviterRoleId);
 					}
 					else if(!checkTeamNotFull(team))
 					{
-						//�?请队伍满�?
+						//閭?璇烽槦浼嶆弧浜?
 						psendWhileCommit(inviterRoleId, new STeamError(TeamError.TeamFull));
-						TeamManager.logger.debug("FAIL:�?请队伍满�?,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:閭?璇烽槦浼嶆弧浜?,TeamId: "+inviterTeamId);
 					}
 					else if(!checkTeamFilter(team, invitedRoleId))
 					{
-						TeamManager.logger.debug("FAIL:TeamFilter否决,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:TeamFilter鍚﹀喅,TeamId: "+inviterTeamId);
 					}
 					else if(!checkTeamInviteNotFull(team))
 					{
-						//�?请队伍的正在�?请人数达�?4个，不能再邀请更�?
+						//閭?璇烽槦浼嶇殑姝ｅ湪閭?璇蜂汉鏁拌揪鍒?4涓紝涓嶈兘鍐嶉個璇锋洿澶?
 						psend(inviterRoleId, new STeamError(TeamError.InviteingsFull));
-						TeamManager.logger.debug("FAIL:�?请队伍的正在�?请人数达�?4个，不能再邀请更�?,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:閭?璇烽槦浼嶇殑姝ｅ湪閭?璇蜂汉鏁拌揪鍒?4涓紝涓嶈兘鍐嶉個璇锋洿澶?,TeamId: "+inviterTeamId);
 					}
 					else if(!checkTeamLeaderState(inviterRoleId))
 					{
-						//�?请队伍的正在�?请人数达�?4个，不能再邀请更�?
+						//閭?璇烽槦浼嶇殑姝ｅ湪閭?璇蜂汉鏁拌揪鍒?4涓紝涓嶈兘鍐嶉個璇锋洿澶?
 						//psend(inviterRoleId, new STeamError(TeamError.InviteingsFull));
-						TeamManager.logger.debug("FAIL:队长当前状�?�不能邀请�??");
+						TeamManager.logger.debug("FAIL:闃熼暱褰撳墠鐘舵?佷笉鑳介個璇枫??");
 					}
 					else{
 						if(!checkMap()){
 							return false;
 						}
 						
-						TeamManager.logger.debug("SUCC:满足条件，可以发出队伍邀�? "+inviterTeamId);
-						// 满足条件，可以发出队伍邀�?
+						TeamManager.logger.debug("SUCC:婊¤冻鏉′欢锛屽彲浠ュ彂鍑洪槦浼嶉個璇? "+inviterTeamId);
+						// 婊¤冻鏉′欢锛屽彲浠ュ彂鍑洪槦浼嶉個璇?
 						SInviteJoinTeam snd = new SInviteJoinTeam();
 						snd.op = 0;
 						snd.invitername = xtable.Properties.get(inviterRoleId).getRolename();
 						snd.inviterlevel = xtable.Properties.get(inviterRoleId).getLevel();
-						// 保存�?�?,这里不用定时器，可以被动方式清除
-						//保存�?请到队伍
+						// 淇濆瓨閭?璇?,杩欓噷涓嶇敤瀹氭椂鍣紝鍙互琚姩鏂瑰紡娓呴櫎
+						//淇濆瓨閭?璇峰埌闃熶紞
 						team.getTeamInfo().getInvitingids().put(invitedRoleId,now);
-						//保存�?请到被邀请表，先看被�?请�?�的�?请信息是否已存在
+						//淇濆瓨閭?璇峰埌琚個璇疯〃锛屽厛鐪嬭閭?璇疯?呯殑閭?璇蜂俊鎭槸鍚﹀凡瀛樺湪
 						xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
 						if(inviteInfo == null)
 						{
@@ -190,22 +190,22 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 						inviteInfo.getInvited().add(inviteInfo.getInviting().copy());
 						psendWhileCommit(inviterRoleId, new SInviteJoinSucc(invitedRoleId));
 						MessageMgr.psendMsgNotify(inviterRoleId, 142358, null);
-						// 发�?�邀�?
+						// 鍙戦?侀個璇?
 						mkdb.Procedure.psendWhileCommit(invitedRoleId, snd);
 					}
 			
 				} else
 				{
-					//来自个人的邀�?
+					//鏉ヨ嚜涓汉鐨勯個璇?
 					if(!checkSingleInviteNotFull(inviterRoleId))
 					{
-						//�?请�?�正在邀请人数达�?4个，不能再邀请更�?
+						//閭?璇疯?呮鍦ㄩ個璇蜂汉鏁拌揪鍒?4涓紝涓嶈兘鍐嶉個璇锋洿澶?
 						psend(inviterRoleId, new STeamError(TeamError.InviteingsFull));
-						TeamManager.logger.debug("FAIL:�?请�?�正在邀请人数达�?4个，不能再邀请更 "+inviterRoleId);
+						TeamManager.logger.debug("FAIL:閭?璇疯?呮鍦ㄩ個璇蜂汉鏁拌揪鍒?4涓紝涓嶈兘鍐嶉個璇锋洿 "+inviterRoleId);
 					}
 					else if(!checkTeamFilter(inviterRoleId, invitedRoleId))
 					{
-						TeamManager.logger.debug("FAIL:TeamFilter否决,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:TeamFilter鍚﹀喅,TeamId: "+inviterTeamId);
 					}
 					else
 					{
@@ -214,15 +214,15 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 							return false;
 						}
 						
-						TeamManager.logger.debug("SUCC:满足条件，可以发出个人邀�? "+inviterRoleId);
-						// 满足条件，可以发出个人邀�?
+						TeamManager.logger.debug("SUCC:婊¤冻鏉′欢锛屽彲浠ュ彂鍑轰釜浜洪個璇? "+inviterRoleId);
+						// 婊¤冻鏉′欢锛屽彲浠ュ彂鍑轰釜浜洪個璇?
 						xbean.Properties inviterProperty = xtable.Properties.get(inviterRoleId);
 						SInviteJoinTeam snd = new SInviteJoinTeam();
 						snd.op = 0;
 						snd.invitername = inviterProperty.getRolename();
 						snd.inviterlevel = xtable.Properties.get(inviterRoleId).getLevel();
-						// 保存�?�?,这里不用定时器，可以被动方式清除
-						//保存�?请到个人�?请表
+						// 淇濆瓨閭?璇?,杩欓噷涓嶇敤瀹氭椂鍣紝鍙互琚姩鏂瑰紡娓呴櫎
+						//淇濆瓨閭?璇峰埌涓汉閭?璇疯〃
 						xbean.SingleInvitings singleInvitings = xtable.Singleinviting.get(inviterRoleId);
 						if(singleInvitings == null)
 						{
@@ -230,7 +230,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 							xtable.Singleinviting.add(inviterRoleId, singleInvitings);
 						}
 						singleInvitings.getInvitingids().put(invitedRoleId, now);
-						//保存�?请到被邀请表，先看被�?请�?�的�?请信息是否已存在
+						//淇濆瓨閭?璇峰埌琚個璇疯〃锛屽厛鐪嬭閭?璇疯?呯殑閭?璇蜂俊鎭槸鍚﹀凡瀛樺湪
 						xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
 						if(inviteInfo == null)
 						{
@@ -245,7 +245,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 						inviteInfo.getInviting().setInvitetime(now);						
 						inviteInfo.getInvited().add(inviteInfo.getInviting().copy());
 						
-						// 发�?�邀�?
+						// 鍙戦?侀個璇?
 						psendWhileCommit(inviterRoleId, new SInviteJoinSucc(invitedRoleId));
 						MessageMgr.psendMsgNotify(inviterRoleId, 142358, null);
 						mkdb.Procedure.psendWhileCommit(invitedRoleId, snd);
@@ -257,7 +257,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 			
 			private boolean checkMap(){
 
-				//发起�?
+				//鍙戣捣浜?
 				final fire.pb.map.Role  invitMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(inviterRoleId);
 				final fire.pb.map.Role  desMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(invitedRoleId);
 				if(invitMaprole == null || desMaprole == null){
@@ -269,7 +269,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 				int desMapId = desMaprole.getMapId();
 				MapConfig descfg = ConfigManager.getInstance().getConf(MapConfig.class).get(desMapId);
 				
-				//在安全地�? 不校验组�?
+				//鍦ㄥ畨鍏ㄥ湴鍥? 涓嶆牎楠岀粍闃?
 				if(cfg == null || descfg == null){
 					return true;
 				}
@@ -284,54 +284,54 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 		createTeamP.submit();
 	}
 	
-	// �?请�?�和被邀请�?�同时在�??只能在Procedure中被调用
+	// 閭?璇疯?呭拰琚個璇疯?呭悓鏃跺湪绾??鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkOnline(long invitedRoleId, long inviterRoleId)
 	{
 		if(StateCommon.isOnline(invitedRoleId))
 			return true;
 		else
 		{
-			//对方不在�?
+			//瀵规柟涓嶅湪绾?
 			MessageMgr.sendMsgNotify(inviterRoleId, 141701, null);
 			return false;
 		}
 	}	
 	
-	//�?请�?�处于可以组队的状�?�？（非跑商、飞行�?�单人任务等�?
+	//閭?璇疯?呭浜庡彲浠ョ粍闃熺殑鐘舵?侊紵锛堥潪璺戝晢銆侀琛屻?佸崟浜轰换鍔＄瓑锛?
 	private boolean checkInviterStatus(long inviterRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(inviterRoleId,true);
 		if(!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM))
 		{
-			TeamManager.logger.info("玩家(roleId=" + inviterRoleId+")处于不能组队的状�?");
+			TeamManager.logger.info("鐜╁(roleId=" + inviterRoleId+")澶勪簬涓嶈兘缁勯槦鐨勭姸鎬?");
 			return false;
 		}
 		return true;
 	}
 	
-	//被邀请�?�处于可以组队的状�?�？（非跑商、飞行�?�单人任务等�?
+	//琚個璇疯?呭浜庡彲浠ョ粍闃熺殑鐘舵?侊紵锛堥潪璺戝晢銆侀琛屻?佸崟浜轰换鍔＄瓑锛?
 	private boolean checkInvitedStatus(long invitedRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(invitedRoleId,true);
 		if(!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM))
 		{
-			TeamManager.logger.info("玩家(roleId=" + invitedRoleId+")处于不能组队的状�?");
+			TeamManager.logger.info("鐜╁(roleId=" + invitedRoleId+")澶勪簬涓嶈兘缁勯槦鐨勭姸鎬?");
 			return false;
 		}
 		return true;
 	}
 	
-	// 被邀请�?�组队开关已打开?只能在Procedure中被调用
+	// 琚個璇疯?呯粍闃熷紑鍏冲凡鎵撳紑?鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkInvitedTeamFuctionEnable(long invitedRoleId)
 	{
-		//组队�?�?
+		//缁勯槦寮?鍏?
 //		if(fire.pb.SystemSettingConfig.checkRoleSetting(invitedRoleId, fire.pb.SysSetType.AcceptTeam)<=0)
 //			return false;
 //		else
 			return true;
 	}
 	
-	// 被邀请�?�不在队伍中？只能在Procedure中被调用
+	// 琚個璇疯?呬笉鍦ㄩ槦浼嶄腑锛熷彧鑳藉湪Procedure涓璋冪敤
 	private boolean checkInvitedInNoTeam(Long invitedTeamId)
 	{
 		if(invitedTeamId == null)
@@ -340,22 +340,22 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 			return false;
 	}
 	
-	// 被邀请�?�没有正在被�?请？只能在Procedure中被调用
+	// 琚個璇疯?呮病鏈夋鍦ㄨ閭?璇凤紵鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkNotBeingInvited(long invitedRoleId)
 	{
 		xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
 		
-		if (inviteInfo == null)//如果没有记录，表示从未被�?请过
+		if (inviteInfo == null)//濡傛灉娌℃湁璁板綍锛岃〃绀轰粠鏈閭?璇疯繃
 			return true;
 		if(!inviteInfo.getBeinginvited())
 		{
-			//如果正在�?请位为false，肯定不处于被邀请状态，清除过期�?�?
+			//濡傛灉姝ｅ湪閭?璇蜂綅涓篺alse锛岃偗瀹氫笉澶勪簬琚個璇风姸鎬侊紝娓呴櫎杩囨湡閭?璇?
 			cleanTimeoutInvites(inviteInfo.getInvited());
 			return true;
 		}
 		else if ((now - inviteInfo.getInviting().getInvitetime()) > TeamManager.MAX_INVITE_TIMEOUT)
 		{
-			//处于�?请状态，但是已经超时，需要更新被�?请�?�状态为不处于被�?请状态，同时清除过期�?�?
+			//澶勪簬閭?璇风姸鎬侊紝浣嗘槸宸茬粡瓒呮椂锛岄渶瑕佹洿鏂拌閭?璇疯?呯姸鎬佷负涓嶅浜庤閭?璇风姸鎬侊紝鍚屾椂娓呴櫎杩囨湡閭?璇?
 			inviteInfo.setBeinginvited(false);
 			cleanTimeoutInvites(inviteInfo.getInvited());
 			return true;
@@ -364,7 +364,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 			return false;
 	}
 	
-	//清除�?请表中的过期�?�?,只能在Procedure中被调用
+	//娓呴櫎閭?璇疯〃涓殑杩囨湡閭?璇?,鍙兘鍦≒rocedure涓璋冪敤
 	private void cleanTimeoutInvites(java.util.List<xbean.TeamInvite> invites)
 	{
 		java.util.List<xbean.TeamInvite> timeoutList = new java.util.ArrayList<xbean.TeamInvite>();
@@ -376,7 +376,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 		invites.removeAll(timeoutList);
 	}
 
-	// 这个�?请没有被队伍或�?�个人在30秒内�?请过？只能在Procedure中被调用
+	// 杩欎釜閭?璇锋病鏈夎闃熶紞鎴栬?呬釜浜哄湪30绉掑唴閭?璇疯繃锛熷彧鑳藉湪Procedure涓璋冪敤
 	private boolean checkNotInvitedIn30s(long invitedRoleId, long inviterRoleId, Long inviterTeamId)
 	{
 		xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
@@ -389,13 +389,13 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 				if ((now - invited.getInvitetime()) < TeamManager.MAX_INVITE_TIMEOUT)
 				{
 					if (!result)
-						continue;// 如果已经找到（result == false），就没必要进行后面的判断了
+						continue;// 濡傛灉宸茬粡鎵惧埌锛坮esult == false锛夛紝灏辨病蹇呰杩涜鍚庨潰鐨勫垽鏂簡
 					else if (invited.getRoleid() == inviterRoleId)
-						result = false;// roleid相等
+						result = false;// roleid鐩哥瓑
 					else if (inviterTeamId != null && invited.getTeamid() == inviterTeamId)
-						result = false;// inviterTeamId存在并且teamId相等
+						result = false;// inviterTeamId瀛樺湪骞朵笖teamId鐩哥瓑
 				} else
-					timeoutList.add(invited);// 超过30秒的过会�?起删�?
+					timeoutList.add(invited);// 瓒呰繃30绉掔殑杩囦細涓?璧峰垹闄?
 			}
 			inviteInfo.getInvited().removeAll(timeoutList);
 			return result;
@@ -407,7 +407,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 	}
 	
 
-	// �?请�?�是队长？只能在Procedure中被调用
+	// 閭?璇疯?呮槸闃熼暱锛熷彧鑳藉湪Procedure涓璋冪敤
 	private boolean checkInviterIsLeader(long inviterRoleId , Team team)
 	{
 		if(team.getTeamInfo().getTeamleaderid() == inviterRoleId)
@@ -416,7 +416,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 			return false;
 	}
 
-	// �?请�?�队伍人�?<5? 只能在Procedure中被调用
+	// 閭?璇疯?呴槦浼嶄汉鏁?<5? 鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkTeamNotFull(Team team)
 	{
 		if (team.getTeamInfo().getMembers().size() < 4)
@@ -442,10 +442,10 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 		return filter.checkInviteJoin(inviterId, roleId);
 	}
 	
-	// �?请�?�队伍的�?请次�?<4? 只能在Procedure中被调用
+	// 閭?璇疯?呴槦浼嶇殑閭?璇锋鏁?<4? 鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkTeamInviteNotFull(Team team)
 	{
-		//先清理过期邀�?
+		//鍏堟竻鐞嗚繃鏈熼個璇?
 		cleanTimoutInvitings(team.getTeamInfo().getInvitingids());
 		if (team.getTeamInfo().getInvitingids().size() < 4)
 			return true;
@@ -453,18 +453,18 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 			return false;
 	}
 	
-	// �?请�?�状态不允许? 只能在Procedure中被调用
+	// 閭?璇疯?呯姸鎬佷笉鍏佽? 鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkTeamLeaderState(long inviterRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(inviterRoleId);
 		return buffagent.canAddBuff(OperateType.TEAM_INVITE);
 	}
 	
-	// �?请�?�的�?请次�?<4? 只能在Procedure中被调用
+	// 閭?璇疯?呯殑閭?璇锋鏁?<4? 鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkSingleInviteNotFull(long inviterRoleId)
 	{
 		xbean.SingleInvitings singleInvitings = xtable.Singleinviting.get(inviterRoleId);
-		//先清理过期邀�?
+		//鍏堟竻鐞嗚繃鏈熼個璇?
 		if(singleInvitings == null)
 			return true;
 		cleanTimoutInvitings(singleInvitings.getInvitingids());
@@ -474,7 +474,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 			return false;
 	}
 	
-	//清除队伍和个人邀请�?�中的过期邀�?
+	//娓呴櫎闃熶紞鍜屼釜浜洪個璇疯?呬腑鐨勮繃鏈熼個璇?
 	private void cleanTimoutInvitings(java.util.Map<Long,Long> invitings)
 	{
 		Object[] keys = invitings.keySet().toArray();
@@ -493,7 +493,7 @@ private long now = 0L;//procedure�?始时保存�?个当前时间，保证此pr
 		return 794493;
 	}
 
-	public long roleid; // �������߽�ɫID
+	public long roleid; // 被邀请者角色ID
 
 	public CFInviteJoinTeam() {
 	}

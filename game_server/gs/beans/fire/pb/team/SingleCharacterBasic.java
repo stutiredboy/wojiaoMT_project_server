@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SingleCharacterBasic implements Marshal {
-	public long roleid; // 玩家ID
-	public int level; // 等级
-	public java.lang.String name; // 名字
-	public int school; // 职业
-	public fire.pb.team.Pos1 position; // 坐标
-	public byte camp; // 0中立  1部落 2联盟
+	public long roleid; // 鐜╁ID
+	public int level; // 绛夌骇
+	public java.lang.String name; // 鍚嶅瓧
+	public int school; // 鑱屼笟
+	public fire.pb.team.Pos1 position; // 鍧愭爣
+	public byte camp; // 0涓珛  1閮ㄨ惤 2鑱旂洘
 
 	public SingleCharacterBasic() {
 		name = "";

@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleBasic implements Marshal {
-	public com.locojoy.base.Octets rolebasicoctets; // ½ÇÉ«Êı¾İ
-	public fire.pb.move.Pos pos; // µ±Ç°×ø±ê
-	public byte posz; // µ±Ç°z×ø±ê
-	public java.util.LinkedList<fire.pb.move.Pos> poses; // ¸öÊı²»Í¬´ú±íµÄº¬Òå²»Í¬¡£1£º×ßÂ·µÄÄ¿µÄ×ø±ê£»2£ºÒ»¶ÎÌøÆğÊ¼×ø±ê£»4£º¶ş¶ÎÌøÆğÊ¼×ø±ê*2
+	public com.locojoy.base.Octets rolebasicoctets; // è§’è‰²æ•°æ®
+	public fire.pb.move.Pos pos; // å½“å‰åæ ‡
+	public byte posz; // å½“å‰zåæ ‡
+	public java.util.LinkedList<fire.pb.move.Pos> poses; // ä¸ªæ•°ä¸åŒä»£è¡¨çš„å«ä¹‰ä¸åŒã€‚1ï¼šèµ°è·¯çš„ç›®çš„åæ ‡ï¼›2ï¼šä¸€æ®µè·³èµ·å§‹åæ ‡ï¼›4ï¼šäºŒæ®µè·³èµ·å§‹åæ ‡*2
 
 	public RoleBasic() {
 		rolebasicoctets = new com.locojoy.base.Octets();

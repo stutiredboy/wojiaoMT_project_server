@@ -31,8 +31,8 @@ public class CSellSpotCard extends __CSellSpotCard__ {
 		return 812635;
 	}
 
-	public int sellnum; // 寄售数量
-	public int sellprice; // 寄售单价
+	public int sellnum; // 瀵勫敭鏁伴噺
+	public int sellprice; // 瀵勫敭鍗曚环
 
 	public CSellSpotCard() {
 	}

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshPetScore__ extends mkio.Protocol { }
 
-/** ³èÎïÆÀ·Ö
+/** å® ç‰©è¯„åˆ†
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SRefreshPetScore extends __SRefreshPetScore__ {
 		return 788511;
 	}
 
-	public int petkey; // ³èÎïkey
-	public int petscore; // ³èÎïÆÀ·Ö
-	public int petbasescore; // Ò»¼¶ÊôĞÔÆÀ·Ö
+	public int petkey; // å® ç‰©key
+	public int petscore; // å® ç‰©è¯„åˆ†
+	public int petbasescore; // ä¸€çº§å±æ€§è¯„åˆ†
 
 	public SRefreshPetScore() {
 	}

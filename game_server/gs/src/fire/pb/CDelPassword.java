@@ -29,8 +29,8 @@ public class CDelPassword extends __CDelPassword__ {
 		return 786568;
 	}
 
-	public java.lang.String initpd; // ³õÊ¼ÃÜÂë
-	public java.lang.String repeatpd; // ÖØ¸´ÃÜÂë
+	public java.lang.String initpd; // åˆå§‹å¯†ç 
+	public java.lang.String repeatpd; // é‡å¤å¯†ç 
 
 	public CDelPassword() {
 		initpd = "";

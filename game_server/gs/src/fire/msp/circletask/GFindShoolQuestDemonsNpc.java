@@ -36,7 +36,7 @@ public class GFindShoolQuestDemonsNpc extends __GFindShoolQuestDemonsNpc__ {
 		
 		java.util.List<fire.msp.npc.NpcInfo> rlist = fire.pb.scene.manager.SceneNpcManager.getInstance().createNpc(npcinfo);
 		
-		// å¤±è´¥è¿”å›GS
+		// æ¾¶è¾«è§¦æ©æ–¿æ´–GS
 		if (rlist == null || rlist.isEmpty() || rlist.size() < npcinfo.num){
 			fire.msp.npc.MCreateNpcUniversalRet mret = new fire.msp.npc.MCreateNpcUniversalRet();
 			mret.interfaceid = interfaceid;
@@ -44,7 +44,7 @@ public class GFindShoolQuestDemonsNpc extends __GFindShoolQuestDemonsNpc__ {
 			fire.pb.scene.SceneClient.pSend(mret);
 			return;
 		}
-		// æˆåŠŸ  åŒæ­¥åˆ°GS NPCçš„ä¿¡æ?
+		// é´æ„¬å§›  éšå±¾î„é’ç™S NPCé¨å‹ªä¿Šé­?
 		fire.msp.npc.MUpdateNpcInfo mUpdateNpcInfo = new fire.msp.npc.MUpdateNpcInfo();
 		mUpdateNpcInfo.npcs.addAll(rlist);
 		fire.pb.scene.SceneClient.pSend(mUpdateNpcInfo);
@@ -67,10 +67,10 @@ public class GFindShoolQuestDemonsNpc extends __GFindShoolQuestDemonsNpc__ {
 	}
 
 	public long interfaceid;
-	public int objschool; // Ñ°ÕÒÍæ¼ÒËùÊôµÄÃÅÅÉ
-	public int levelmin; // ×îµÍµÈ¼¶
-	public int levelmax; // ×î¸ßµÈ¼¶
-	public fire.msp.npc.CreateNpcInfoUniverse npcinfo; // ÕÒ²»µ½Íæ¼ÒÊ±£¬°´ÕÕnpcinfoÉú³ÉÈÎÎñnpc
+	public int objschool; // å¯»æ‰¾ç©å®¶æ‰€å±çš„é—¨æ´¾
+	public int levelmin; // æœ€ä½ç­‰çº§
+	public int levelmax; // æœ€é«˜ç­‰çº§
+	public fire.msp.npc.CreateNpcInfoUniverse npcinfo; // æ‰¾ä¸åˆ°ç©å®¶æ—¶ï¼ŒæŒ‰ç…§npcinfoç”Ÿæˆä»»åŠ¡npc
 
 	public GFindShoolQuestDemonsNpc() {
 		npcinfo = new fire.msp.npc.CreateNpcInfoUniverse();

@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TeamInfoOctets implements Marshal , Comparable<TeamInfoOctets>{
-	public long teamid; // Íæ¼ÒµÄ¶ÓÎéID£¬Èç¹ûÃ»ÓĞ¶ÓÎéÔòÎª0
-	public byte teamindexstate; // ¸ßËÄÎ»ÊÇindex[1,5]£¬µÍËÄÎ»ÊÇstateÍæ¼ÒµÄ¶ÓÎé×´Ì¬[1,5]
-	public byte hugindex; // [1,5]Óµ±§¶ÔÏóµÄindex
-	public byte normalnum; // Õı³£¶ÓÔ±µÄÊıÁ¿ by changaho
+	public long teamid; // ç©å®¶çš„é˜Ÿä¼IDï¼Œå¦‚æœæ²¡æœ‰é˜Ÿä¼åˆ™ä¸º0
+	public byte teamindexstate; // é«˜å››ä½æ˜¯index[1,5]ï¼Œä½å››ä½æ˜¯stateç©å®¶çš„é˜Ÿä¼çŠ¶æ€[1,5]
+	public byte hugindex; // [1,5]æ‹¥æŠ±å¯¹è±¡çš„index
+	public byte normalnum; // æ­£å¸¸é˜Ÿå‘˜çš„æ•°é‡ by changaho
 
 	public TeamInfoOctets() {
 	}

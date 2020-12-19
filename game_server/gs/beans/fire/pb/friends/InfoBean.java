@@ -10,12 +10,12 @@ public class InfoBean implements Marshal {
 	public java.lang.String name;
 	public short rolelevel;
 	public byte school;
-	public byte online; // 0=²»ÔÚÏß 1=ÔÚÏß
-	public int shape; // Í·Ïñ
-	public byte camp; // 0ÖĞÁ¢ 1²¿Âä 2ÁªÃË
-	public short relation; // ºÃÓÑ¹ØÏµ Î»Óë0=ÆÕÍ¨ºÃÓÑ 1=½á»é2=½á½»4=Ê¦Í½
-	public long factionid; // ¹«»áid
-	public java.lang.String factionname; // ¹«»áÃû³Æ
+	public byte online; // 0=ä¸åœ¨çº¿ 1=åœ¨çº¿
+	public int shape; // å¤´åƒ
+	public byte camp; // 0ä¸­ç«‹ 1éƒ¨è½ 2è”ç›Ÿ
+	public short relation; // å¥½å‹å…³ç³» ä½ä¸0=æ™®é€šå¥½å‹ 1=ç»“å©š2=ç»“äº¤4=å¸ˆå¾’
+	public long factionid; // å…¬ä¼šid
+	public java.lang.String factionname; // å…¬ä¼šåç§°
 
 	public InfoBean() {
 		name = "";

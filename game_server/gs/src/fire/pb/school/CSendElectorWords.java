@@ -15,7 +15,7 @@ abstract class __CSendElectorWords__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 发�?�竞选宣�? by changhao
+ * 鍙戦?佺珵閫夊瑷? by changhao
  *
  */
 public class CSendElectorWords extends __CSendElectorWords__ {
@@ -42,14 +42,14 @@ public class CSendElectorWords extends __CSendElectorWords__ {
 			b = true;
 		}		
 		
-		//还没挑战成功  by changhao
+		//杩樻病鎸戞垬鎴愬姛  by changhao
 		if(b == false)
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 170009, null);	
 			return ;
 		}
 		
-		//如果已参加竞选那么修改竞选词 by changhao
+		//濡傛灉宸插弬鍔犵珵閫夐偅涔堜慨鏀圭珵閫夎瘝 by changhao
 		boolean modify = false;
         xbean.ProfessionLeaderTicketInfo candInfo=fire.pb.school.shouxi.ProfessionLeaderManager.getInstance().getCandInfoFromRoleid(roleid, school);
         if(candInfo!=null)
@@ -60,7 +60,7 @@ public class CSendElectorWords extends __CSendElectorWords__ {
         if (modify == false)
         {
     		if (!ProfessionLeaderManager.getInstance().isInChallengePeriod(System.currentTimeMillis()))
-    		{//投票跟竞选时�?个时间段
+    		{//鎶曠エ璺熺珵閫夋椂涓?涓椂闂存
     			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141983, null);
     			return;
     		}        	

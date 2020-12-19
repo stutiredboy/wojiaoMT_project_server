@@ -25,7 +25,7 @@ public class CHasFortuneWheel extends __CHasFortuneWheel__ {
 		return 795495;
 	}
 
-	public long npckey; // 正在交互的Npckey
+	public long npckey; // 姝ｅ湪浜や簰鐨凬pckey
 
 	public CHasFortuneWheel() {
 	}

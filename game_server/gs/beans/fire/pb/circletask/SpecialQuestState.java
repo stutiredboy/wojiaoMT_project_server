@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SpecialQuestState implements Marshal , Comparable<SpecialQuestState>{
-	public final static int SUCCESS = 1; // ÒÑ³É¹¦£¬(ÒÑÌá½»)
-	public final static int FAIL = 2; // ÒÑÊ§°Ü
-	public final static int DONE = 3; // ÒÑÍê³É
-	public final static int UNDONE = 4; // Î´Íê³É
-	public final static int ABANDONED = 5; // ÒÑ·ÅÆú
-	public final static int RECYCLE = 6; // »ØÊÕ
-	public final static int INSTANCE_ABANDONED = 7; // ¸±±¾ÖĞ·ÅÆú
+	public final static int SUCCESS = 1; // å·²æˆåŠŸï¼Œ(å·²æäº¤)
+	public final static int FAIL = 2; // å·²å¤±è´¥
+	public final static int DONE = 3; // å·²å®Œæˆ
+	public final static int UNDONE = 4; // æœªå®Œæˆ
+	public final static int ABANDONED = 5; // å·²æ”¾å¼ƒ
+	public final static int RECYCLE = 6; // å›æ”¶
+	public final static int INSTANCE_ABANDONED = 7; // å‰¯æœ¬ä¸­æ”¾å¼ƒ
 
 
 	public SpecialQuestState() {

@@ -7,12 +7,12 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleInfo implements Marshal {
 	public long roleid; // ID
-	public java.lang.String rolename; // Ãû³Æ
-	public int school; // ÈËÎïÖ°Òµ
-	public int shape; // ½ÇÉ«id
-	public int level; // µÈ¼¶
-	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
-	public long rolecreatetime; // ½ÇÉ«´´½¨Ê±¼ä
+	public java.lang.String rolename; // åç§°
+	public int school; // äººç‰©èŒä¸š
+	public int shape; // è§’è‰²id
+	public int level; // ç­‰çº§
+	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
+	public long rolecreatetime; // è§’è‰²åˆ›å»ºæ—¶é—´
 
 	public RoleInfo() {
 		rolename = "";

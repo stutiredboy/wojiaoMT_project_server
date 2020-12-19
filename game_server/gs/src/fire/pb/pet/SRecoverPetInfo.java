@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRecoverPetInfo__ extends mkio.Protocol { }
 
-/** 服务器返回一个找回宠物的信息
+/** 鏈嶅姟鍣ㄨ繑鍥炰竴涓壘鍥炲疇鐗╃殑淇℃伅
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SRecoverPetInfo extends __SRecoverPetInfo__ {
 		return 788588;
 	}
 
-	public fire.pb.Pet petinfo; // 宠物信息
+	public fire.pb.Pet petinfo; // 瀹犵墿淇℃伅
 
 	public SRecoverPetInfo() {
 		petinfo = new fire.pb.Pet();

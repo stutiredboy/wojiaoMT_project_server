@@ -25,8 +25,8 @@ public class SQueryCircleTaskState extends __SQueryCircleTaskState__ {
 		return 807453;
 	}
 
-	public int questid; // ÈÎÎñid
-	public int state; // ÈÎÎñ×´Ì¬
+	public int questid; // ä»»åŠ¡id
+	public int state; // ä»»åŠ¡çŠ¶æ€
 
 	public SQueryCircleTaskState() {
 	}

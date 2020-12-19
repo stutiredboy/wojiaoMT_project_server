@@ -26,8 +26,8 @@ public class SSendImpExamAssist extends __SSendImpExamAssist__ {
 	}
 
 	public byte impexamtype;
-	public byte assisttype; // 协助类型
-	public int answerid; // 答案的id，在去除错误的协助类型下是错误答案的id
+	public byte assisttype; // 鍗忓姪绫诲瀷
+	public int answerid; // 绛旀鐨刬d锛屽湪鍘婚櫎閿欒鐨勫崗鍔╃被鍨嬩笅鏄敊璇瓟妗堢殑id
 
 	public SSendImpExamAssist() {
 	}

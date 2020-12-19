@@ -31,10 +31,10 @@ public class CSendRedPack extends __CSendRedPack__ {
 		return 812534;
 	}
 
-	public int modeltype; // 红包类型
-	public int fushinum; // 符石数量
-	public int redpacknum; // 红包数量
-	public java.lang.String redpackdes; // 红包寄语
+	public int modeltype; // 绾㈠寘绫诲瀷
+	public int fushinum; // 绗︾煶鏁伴噺
+	public int redpacknum; // 绾㈠寘鏁伴噺
+	public java.lang.String redpackdes; // 绾㈠寘瀵勮
 
 	public CSendRedPack() {
 		redpackdes = "";

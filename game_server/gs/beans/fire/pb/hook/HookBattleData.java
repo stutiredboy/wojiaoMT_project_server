@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HookBattleData implements Marshal , Comparable<HookBattleData>{
-	public byte isautobattle; // 是否自动战斗
-	public short charoptype; // 人物操作类型
-	public int charopid; // 人物操作id
-	public short petoptype; // 宠物操作类型
-	public int petopid; // 宠物操作类型
+	public byte isautobattle; // 鏄惁鑷姩鎴樻枟
+	public short charoptype; // 浜虹墿鎿嶄綔绫诲瀷
+	public int charopid; // 浜虹墿鎿嶄綔id
+	public short petoptype; // 瀹犵墿鎿嶄綔绫诲瀷
+	public int petopid; // 瀹犵墿鎿嶄綔绫诲瀷
 
 	public HookBattleData() {
 	}

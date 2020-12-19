@@ -27,7 +27,7 @@ public class SInvitationLiveDieBattleOK extends __SInvitationLiveDieBattleOK__ {
 
 	public long sourceid;
 	public java.lang.String sourcename;
-	public int selecttype; // 0单人   1组队
+	public int selecttype; // 0鍗曚汉   1缁勯槦
 
 	public SInvitationLiveDieBattleOK() {
 		sourcename = "";

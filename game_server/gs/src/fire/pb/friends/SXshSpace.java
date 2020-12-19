@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SXshSpace__ extends mkio.Protocol { }
 
-/** 踩说不得大师空间结果
+/** 韪╄涓嶅緱澶у笀绌洪棿缁撴灉
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SXshSpace extends __SXshSpace__ {
 		return 806648;
 	}
 
-	public byte result; // 0:成功
+	public byte result; // 0:鎴愬姛
 
 	public SXshSpace() {
 	}

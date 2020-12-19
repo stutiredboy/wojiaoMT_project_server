@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetRecover__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÇëÇó³èÎïÕÒ»Ø
+/** å®¢æˆ·ç«¯è¯·æ±‚å® ç‰©æ‰¾å›ž
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CPetRecover extends __CPetRecover__ {
 		return 788585;
 	}
 
-	public long uniqid; // Î¨Ò»id
+	public long uniqid; // å”¯ä¸€id
 
 	public CPetRecover() {
 	}

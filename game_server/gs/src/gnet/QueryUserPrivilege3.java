@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __QueryUserPrivilege3__ extends mkio.Protocol { }
 
-/** 获取GM权限
+/** 鑾峰彇GM鏉冮檺
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

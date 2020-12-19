@@ -25,7 +25,7 @@ public class SBonusQuery extends __SBonusQuery__ {
 		return 808477;
 	}
 
-	public int bonus; // ·µ»Ø×îÐÂ·Öºì
+	public int bonus; // è¿”å›žæœ€æ–°åˆ†çº¢
 
 	public SBonusQuery() {
 	}

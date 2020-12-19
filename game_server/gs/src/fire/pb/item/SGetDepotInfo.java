@@ -25,7 +25,7 @@ public class SGetDepotInfo extends __SGetDepotInfo__ {
 		return 787770;
 	}
 
-	public int pageid; // ´Ó1¿ªÊ¼
+	public int pageid; // ä»Ž1å¼€å§‹
 	public fire.pb.Bag baginfo;
 
 	public SGetDepotInfo() {

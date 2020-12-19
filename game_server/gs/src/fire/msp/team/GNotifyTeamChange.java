@@ -25,10 +25,10 @@ public class GNotifyTeamChange extends __GNotifyTeamChange__ {
 		return 728903;
 	}
 
-	public int changetype; // ¶ÓÎé¸Ä±äµÄÀàĞÍ,²Î¿¼TeamChangeType
-	public long teamid; // ¶ÓÎéID
-	public long roleid; // Óë¸Ä±äÏà¹ØµÄroleid
-	public long roleid2; // Èç¹ûÊÇ½»»»¶ÓÔ±Î»ÖÃ£¬»áÓĞµÚ¶ş¸öroleid
+	public int changetype; // é˜Ÿä¼æ”¹å˜çš„ç±»å‹,å‚è€ƒTeamChangeType
+	public long teamid; // é˜Ÿä¼ID
+	public long roleid; // ä¸æ”¹å˜ç›¸å…³çš„roleid
+	public long roleid2; // å¦‚æœæ˜¯äº¤æ¢é˜Ÿå‘˜ä½ç½®ï¼Œä¼šæœ‰ç¬¬äºŒä¸ªroleid
 
 	public GNotifyTeamChange() {
 	}

@@ -33,7 +33,7 @@ public class CRequestClanAim extends __CRequestClanAim__ {
 		return 808479;
 	}
 
-	public long clanid; // ¹«»áid
+	public long clanid; // å…¬ä¼šid
 
 	public CRequestClanAim() {
 	}

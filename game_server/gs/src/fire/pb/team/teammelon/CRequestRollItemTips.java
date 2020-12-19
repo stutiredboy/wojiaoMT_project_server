@@ -12,7 +12,7 @@ abstract class __CRequestRollItemTips__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 /***
  * 
- * 请求roll item tips 信息 by changhao
+ * 璇锋眰roll item tips 淇℃伅 by changhao
  *
  */
 public class CRequestRollItemTips extends __CRequestRollItemTips__ {

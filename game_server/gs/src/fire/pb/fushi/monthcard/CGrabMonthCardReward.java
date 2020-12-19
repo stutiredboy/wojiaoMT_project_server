@@ -12,7 +12,7 @@ abstract class __CGrabMonthCardReward__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /**
- * 使用自由分配道具 by changhao
+ * 浣跨敤鑷敱鍒嗛厤閬撳叿 by changhao
  * @author Administrator
  *
  */
@@ -42,13 +42,13 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 					}
 					
 					fire.pb.item.Pack bag = (fire.pb.item.Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
-					int num = bag.removeItemById(itemid, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard, 0, "自由分配道具");
+					int num = bag.removeItemById(itemid, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard, 0, "鑷敱鍒嗛厤閬撳叿");
 					if (num != 1)
 					{
 						return false;
 					}
 
-					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
+					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
 					{
 						fire.pb.fushi.SFreeDisRewardConfigDayPay e = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.fushi.SFreeDisRewardConfigDayPay.class).get(itemid);
 						if (e == null)
@@ -66,14 +66,14 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 								{
 									fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 									
-									if (tempBag.doAddItem(id, itemnum, "自由分配道具", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (tempBag.doAddItem(id, itemnum, "鑷敱鍒嗛厤閬撳叿", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
 								}
 								else
 								{
-									if (bag.doAddItem(id, itemnum, "自由分配道具", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (bag.doAddItem(id, itemnum, "鑷敱鍒嗛厤閬撳叿", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
@@ -81,7 +81,7 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 							}
 						}
 						
-						if (count > e.getNum()) //数量超限�? 回滚 by changhao
+						if (count > e.getNum()) //鏁伴噺瓒呴檺鍒? 鍥炴粴 by changhao
 						{
 							return false;
 						}
@@ -106,14 +106,14 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 								{
 									fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 									
-									if (tempBag.doAddItem(id, itemnum, "自由分配道具", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (tempBag.doAddItem(id, itemnum, "鑷敱鍒嗛厤閬撳叿", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
 								}
 								else
 								{
-									if (bag.doAddItem(id, itemnum, "自由分配道具", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (bag.doAddItem(id, itemnum, "鑷敱鍒嗛厤閬撳叿", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
@@ -121,7 +121,7 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 							}
 						}	
 						
-						if (count > e.getNum()) //数量超限�? 回滚 by changhao
+						if (count > e.getNum()) //鏁伴噺瓒呴檺鍒? 鍥炴粴 by changhao
 						{
 							return false;
 						}
@@ -142,8 +142,8 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 		return 812689;
 	}
 
-	public int itemid; // ���ɷ������id by changhao
-	public java.util.HashMap<Integer,Integer> rewarddistribution; // ���߷��� ����id value���� by changhao
+	public int itemid; // 自由分配道具id by changhao
+	public java.util.HashMap<Integer,Integer> rewarddistribution; // 道具分配 道具id value数量 by changhao
 
 	public CGrabMonthCardReward() {
 		rewarddistribution = new java.util.HashMap<Integer,Integer>();

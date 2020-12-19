@@ -31,7 +31,7 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 					fire.pb.activity.ActivityConfNew activity = RoleLiveness.getConfigActivity(fire.pb.mission.activelist.RoleLiveness.ANSWER_QUESTION);
 					
 					boolean start = fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().IsStart();
-					if (count < activity.maxnum && start == true) //�?天次数上�? by changhao
+					if (count < activity.maxnum && start == true) //涓?澶╂鏁颁笂闄? by changhao
 					{
 						xbean.Properties prop = xtable.Properties.select(roleid);
 						if (prop == null)
@@ -47,7 +47,7 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 						xbean.ActivityQuestion activityquestion = xtable.Roleid2activityquestion.get(roleid);
 						
 						final long now = java.util.Calendar.getInstance().getTimeInMillis();
-						if (activityquestion == null) //加入�?个新�? by changhao
+						if (activityquestion == null) //鍔犲叆涓?涓柊鐨? by changhao
 						{
 							activityquestion = xbean.Pod.newActivityQuestion();
 							xtable.Roleid2activityquestion.insert(roleid, activityquestion);
@@ -58,13 +58,13 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 						{
 							long lasttime = activityquestion.getActivityquestionstarttime();
 							
-							if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //如果不是同一天要清空 by changhao
+							if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //濡傛灉涓嶆槸鍚屼竴澶╄娓呯┖ by changhao
 							{
 								fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().ResetActivityQuestionData(activityquestion, now, true);	
 							}
 						}
 						
-						//发�?�题�? by changhao
+						//鍙戦?侀鐩? by changhao
 						fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().sendQuestion(roleid, activityquestion, (byte)0);
 					}
 				}

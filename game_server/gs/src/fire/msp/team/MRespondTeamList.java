@@ -25,8 +25,8 @@ public class MRespondTeamList extends __MRespondTeamList__ {
 		return 728898;
 	}
 
-	public long roleid; // 角色Id
-	public java.util.LinkedList<Long> teamlist; // 场景内的队伍列表
+	public long roleid; // 瑙掕壊Id
+	public java.util.LinkedList<Long> teamlist; // 鍦烘櫙鍐呯殑闃熶紞鍒楄〃
 
 	public MRespondTeamList() {
 		teamlist = new java.util.LinkedList<Long>();

@@ -25,7 +25,7 @@ public class COneKeyApplyTeamInfo extends __COneKeyApplyTeamInfo__ {
 			{					
 				Team team = null;
 								
-				team = TeamManager.getTeamByTeamID(teamid);	//有队先把队伍锁住 by changhao	
+				team = TeamManager.getTeamByTeamID(teamid);	//鏈夐槦鍏堟妸闃熶紞閿佷綇 by changhao	
 				if (team != null)
 				{
 					SOneKeyApplyTeamInfo msg = new SOneKeyApplyTeamInfo();
@@ -60,7 +60,7 @@ public class COneKeyApplyTeamInfo extends __COneKeyApplyTeamInfo__ {
 		return 794517;
 	}
 
-	public long teamid; // �����ID by changhao
+	public long teamid; // 队伍的ID by changhao
 
 	public COneKeyApplyTeamInfo() {
 	}

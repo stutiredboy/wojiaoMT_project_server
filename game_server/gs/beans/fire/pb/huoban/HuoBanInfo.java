@@ -6,19 +6,19 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HuoBanInfo implements Marshal , Comparable<HuoBanInfo>{
-	public final static int white = 1; // °×
-	public final static int green = 2; // ÂÌ
-	public final static int blue = 3; // À¶
-	public final static int purple = 4; // ×Ï
-	public final static int orange = 5; // ³È
-	public final static int golden = 6; // ½ğ
-	public final static int pink = 7; // ·ÛÉ«
-	public final static int red = 8; // ºìÉ«
+	public final static int white = 1; // ç™½
+	public final static int green = 2; // ç»¿
+	public final static int blue = 3; // è“
+	public final static int purple = 4; // ç´«
+	public final static int orange = 5; // æ©™
+	public final static int golden = 6; // é‡‘
+	public final static int pink = 7; // ç²‰è‰²
+	public final static int red = 8; // çº¢è‰²
 
-	public int huobanid; // »ï°éid
-	public int infight; // ÊÇ·ñ²ÎÕ½,1Îª²ÎÕ½
-	public int weekfree; // ±¾ÖÜÊÇ·ñÃâ·Ñ 0²»Ãâ·Ñ; 1±¾ÖÜÃâ·Ñ
-	public long state; // ÊÇ·ñ½âËø, 0ÎªÎ´½âËø; 1ÎªÓÀ¾ÃÊ¹ÓÃ; ´óÓÚ10ÎªÓĞ¶àÉÙÃëµÄÊ£ÓàÊ±¼ä,Èç 134 ±íÊ¾ÎªÃâ·Ñ134 - 10 = 124Ãë
+	public int huobanid; // ä¼™ä¼´id
+	public int infight; // æ˜¯å¦å‚æˆ˜,1ä¸ºå‚æˆ˜
+	public int weekfree; // æœ¬å‘¨æ˜¯å¦å…è´¹ 0ä¸å…è´¹; 1æœ¬å‘¨å…è´¹
+	public long state; // æ˜¯å¦è§£é”, 0ä¸ºæœªè§£é”; 1ä¸ºæ°¸ä¹…ä½¿ç”¨; å¤§äº10ä¸ºæœ‰å¤šå°‘ç§’çš„å‰©ä½™æ—¶é—´,å¦‚ 134 è¡¨ç¤ºä¸ºå…è´¹134 - 10 = 124ç§’
 
 	public HuoBanInfo() {
 	}

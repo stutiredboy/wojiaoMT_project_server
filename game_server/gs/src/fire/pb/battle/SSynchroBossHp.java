@@ -25,12 +25,12 @@ public class SSynchroBossHp extends __SSynchroBossHp__ {
 		return 793459;
 	}
 
-	public int bossmonsterid; // boss¹ÖÎïid
-	public byte flag; // 0:¿ªÊ¼ 1:¸üĞÂ
+	public int bossmonsterid; // bossæ€ªç‰©id
+	public byte flag; // 0:å¼€å§‹ 1:æ›´æ–°
 	public long maxhp;
 	public long hp;
-	public java.lang.String rolename; // ½ÇÉ«Ãû³Æ
-	public long changehp; // Ôì³ÉµÄÉËº¦
+	public java.lang.String rolename; // è§’è‰²åç§°
+	public long changehp; // é€ æˆçš„ä¼¤å®³
 
 	public SSynchroBossHp() {
 		rolename = "";

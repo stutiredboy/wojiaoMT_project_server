@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RedPackType implements Marshal , Comparable<RedPackType>{
-	public final static int TYPE_WORLD = 1; // 世界红包
-	public final static int TYPE_CLAN = 2; // 公会红包
-	public final static int TYPE_TEAM = 3; // 队伍红包
+	public final static int TYPE_WORLD = 1; // 涓栫晫绾㈠寘
+	public final static int TYPE_CLAN = 2; // 鍏細绾㈠寘
+	public final static int TYPE_TEAM = 3; // 闃熶紞绾㈠寘
 
 
 	public RedPackType() {

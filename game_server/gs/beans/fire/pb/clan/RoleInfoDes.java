@@ -6,14 +6,14 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleInfoDes implements Marshal {
-	public int moduletype; // Ä£¿éÀàĞÍ
-	public long roleid; // ½ÇÉ«Id
-	public java.lang.String rolename; // ½ÇÉ«Ãû
-	public int shape; // ½ÇÉ«ÔìĞÍ
-	public int level; // ½ÇÉ«µÈ¼¶
-	public int camp; // ÕóÓª
-	public int school; // Ö°Òµ
-	public java.lang.String clanname; // ¹«»áÃû³Æ
+	public int moduletype; // æ¨¡å—ç±»å‹
+	public long roleid; // è§’è‰²Id
+	public java.lang.String rolename; // è§’è‰²å
+	public int shape; // è§’è‰²é€ å‹
+	public int level; // è§’è‰²ç­‰çº§
+	public int camp; // é˜µè¥
+	public int school; // èŒä¸š
+	public java.lang.String clanname; // å…¬ä¼šåç§°
 
 	public RoleInfoDes() {
 		rolename = "";

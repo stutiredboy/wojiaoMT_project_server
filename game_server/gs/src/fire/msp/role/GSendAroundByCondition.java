@@ -57,9 +57,9 @@ public class GSendAroundByCondition extends __GSendAroundByCondition__ {
 	}
 
 	public long roleid; // roleid
-	public java.util.ArrayList<Integer> exceptstates; // ¾ÅÆÁÄÚ³ıÁË´Ë×´Ì¬µÄÍæ¼Ò.
-	public int protype; // Ğ­ÒéµÄÀàĞÍ
-	public com.locojoy.base.Octets protocol; // Ğ­ÒémarshalÍêµÄÊı¾İ
+	public java.util.ArrayList<Integer> exceptstates; // ä¹å±å†…é™¤äº†æ­¤çŠ¶æ€çš„ç©å®¶.
+	public int protype; // åè®®çš„ç±»å‹
+	public com.locojoy.base.Octets protocol; // åè®®marshalå®Œçš„æ•°æ®
 
 	public GSendAroundByCondition() {
 		exceptstates = new java.util.ArrayList<Integer>();

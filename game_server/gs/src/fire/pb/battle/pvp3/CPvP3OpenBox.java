@@ -30,7 +30,7 @@ public class CPvP3OpenBox extends __CPvP3OpenBox__ {
 		return 793653;
 	}
 
-	public byte boxtype; // 1:Ê×Ê¤£¬2£ºÊ®Õ½£¬3£ºÎåÊ¤
+	public byte boxtype; // 1:é¦–èƒœï¼Œ2ï¼šåæˆ˜ï¼Œ3ï¼šäº”èƒœ
 
 	public CPvP3OpenBox() {
 	}

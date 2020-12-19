@@ -34,7 +34,7 @@ public class GChangeShape extends __GChangeShape__ {
 			send.shape = shape;
 			send.playerid = playerid;
 			if(role.getModeid() == shape){
-				role.setTransformid(0);//变身回原来的样子，清除变�?
+				role.setTransformid(0);//鍙樿韩鍥炲師鏉ョ殑鏍峰瓙锛屾竻闄ゅ彉韬?
 			}
 			else
 				role.setTransformid(shape);
@@ -44,7 +44,7 @@ public class GChangeShape extends __GChangeShape__ {
 			sadduser.rolelist.add(addRole.getRoleBasic());
 			gnet.link.Onlines.getInstance().send(role.getRoleID(), sadduser);
 		} else if(changetype == 1) {
-			//处理npc跟随
+			//澶勭悊npc璺熼殢
 			if(shape == 0) {
 				fire.pb.mission.SNpcFollowEnd send = new fire.pb.mission.SNpcFollowEnd();
 				send.npcid = shape;
@@ -55,7 +55,7 @@ public class GChangeShape extends __GChangeShape__ {
 				role.send(send);
 			}
 		} else if(changetype == 2) {
-			//处理有坐骑的时�?�？
+			//澶勭悊鏈夊潗楠戠殑鏃跺?欙紵
 			xbean.TransfromInfo ti = xtable.Transfromroles.select(playerid);
 			int rideid = 0;
 			if (ti != null) {
@@ -65,7 +65,7 @@ public class GChangeShape extends __GChangeShape__ {
 			send.shape = shape;
 			send.playerid = playerid;
 			if(role.getModeid() == shape) {
-				role.setTransformid(0);//变身回原来的样子，清除变�?
+				role.setTransformid(0);//鍙樿韩鍥炲師鏉ョ殑鏍峰瓙锛屾竻闄ゅ彉韬?
 			}
 			else {
 				role.setTransformid(shape);
@@ -81,8 +81,8 @@ public class GChangeShape extends __GChangeShape__ {
 			sadduser.rolelist.add(addRole.getRoleBasic());
 			gnet.link.Onlines.getInstance().send(role.getRoleID(), sadduser);
 		} else if (changetype == 3) {
-			//接任务时�?始巡�?
-		//	role.setCruiseid(shape);//设置巡游状�?�，Marshal()
+			//鎺ヤ换鍔℃椂寮?濮嬪贰娓?
+		//	role.setCruiseid(shape);//璁剧疆宸℃父鐘舵?侊紝Marshal()
 		//	role.setCruiseid2(shape2);
 			//role.setCruiseid3(shape3);
 		//	Role addRole = RoleManager.getInstance().getRoleByID(role.getRoleID());
@@ -93,9 +93,9 @@ public class GChangeShape extends __GChangeShape__ {
 		}
 		else if (changetype == 4)
 		{
-			//完成任务或�?�下线时取消巡游
+			//瀹屾垚浠诲姟鎴栬?呬笅绾挎椂鍙栨秷宸℃父
 			if(role.getCruiseid() == shape || role.getCruiseid() == 0) {
-				role.setCruiseid(0);//设置巡游状�?�，Marshal()
+				role.setCruiseid(0);//璁剧疆宸℃父鐘舵?侊紝Marshal()
 				role.setCruiseid2(0);
 				role.setCruiseid3(0);
 				Role addRole = RoleManager.getInstance().getRoleByID(role.getRoleID());
@@ -105,8 +105,8 @@ public class GChangeShape extends __GChangeShape__ {
 				//gnet.link.Onlines.getInstance().send(role.getRoleID(), sadduser);
 			}
 		} else if (changetype == 5) {
-				//中�?�更�? by changhao
-				role.setCruiseid(shape);//设置巡游状�?�，Marshal()
+				//涓?旀洿鏂? by changhao
+				role.setCruiseid(shape);//璁剧疆宸℃父鐘舵?侊紝Marshal()
 				role.setCruiseid2(shape2);
 				role.setCruiseid3(shape3);
 				Role addRole = RoleManager.getInstance().getRoleByID(role.getRoleID());
@@ -126,11 +126,11 @@ public class GChangeShape extends __GChangeShape__ {
 		return 739900;
 	}
 
-	public long playerid; // ���id
+	public long playerid; // 玩家id
 	public int shape;
 	public int shape2;
 	public int shape3;
-	public int changetype; // 0�Ǳ�����1��npc���棬2������ʱ��3Ѳ�Σ�4ȡ��Ѳ��
+	public int changetype; // 0是变身，1是npc跟随，2有座骑时，3巡游，4取消巡游
 
 	public GChangeShape() {
 	}

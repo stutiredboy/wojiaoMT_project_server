@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshRoleScore__ extends mkio.Protocol { }
 
-/** Ë¢ĞÂÈËÎïÆÀ·ÖµÄÏûÏ¢
+/** åˆ·æ–°äººç‰©è¯„åˆ†çš„æ¶ˆæ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,16 +27,16 @@ public class SRefreshRoleScore extends __SRefreshRoleScore__ {
 		return 799436;
 	}
 
-	public final static int TOTAL_SCORE = 1; // ×ÛºÏÆÀ·Ö
-	public final static int EQUIP_SCORE = 2; // ×°±¸ÆÀ·Ö
-	public final static int MANY_PET_SCORE = 3; // ¶à³èÎïÆÀ·Ö
-	public final static int PET_SCORE = 4; // µ¥³èÎïÆÀ·Ö
-	public final static int LEVEL_SCORE = 5; // µÈ¼¶ÆÀ·Ö
-	public final static int XIULIAN_SCORE = 6; // ĞŞÁ¶ÆÀ·Ö
-	public final static int ROLE_SCORE = 7; // ÈËÎïÆÀ·Ö
-	public final static int SKILL_SCORE = 8; // ¼¼ÄÜÆÀ·Ö
+	public final static int TOTAL_SCORE = 1; // ç»¼åˆè¯„åˆ†
+	public final static int EQUIP_SCORE = 2; // è£…å¤‡è¯„åˆ†
+	public final static int MANY_PET_SCORE = 3; // å¤šå® ç‰©è¯„åˆ†
+	public final static int PET_SCORE = 4; // å•å® ç‰©è¯„åˆ†
+	public final static int LEVEL_SCORE = 5; // ç­‰çº§è¯„åˆ†
+	public final static int XIULIAN_SCORE = 6; // ä¿®ç‚¼è¯„åˆ†
+	public final static int ROLE_SCORE = 7; // äººç‰©è¯„åˆ†
+	public final static int SKILL_SCORE = 8; // æŠ€èƒ½è¯„åˆ†
 
-	public java.util.HashMap<Integer,Integer> datas; // ±äÁ¿ÖµID£¬±äÁ¿Öµ
+	public java.util.HashMap<Integer,Integer> datas; // å˜é‡å€¼IDï¼Œå˜é‡å€¼
 
 	public SRefreshRoleScore() {
 		datas = new java.util.HashMap<Integer,Integer>();

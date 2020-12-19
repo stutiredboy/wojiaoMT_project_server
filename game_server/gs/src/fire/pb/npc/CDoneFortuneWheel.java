@@ -14,7 +14,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CDoneFortuneWheel__ extends mkio.Protocol { }
 
-/** ������ת��,������ҽ���
+/** 玩家完成转盘,发给玩家奖励
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -24,9 +24,9 @@ public class CDoneFortuneWheel extends __CDoneFortuneWheel__ {
 	protected void process() {
 		final long	roleid = gnet.link.Onlines.getInstance().findRoleid(this);
         if(roleid<0) return;
-        //目前是由大转盘模块来负责发�?�奖励信息给客户�?,�?以用map来存放msg,key是奖励的类型(物品,经验或钱),value
-        //是msgid.大转盘的奖励信息�?好做成一样的,如果确实不一�?,则添加一个新的protocal来处�?,PFinishFortuneWheel
-        //可以重用
+        //鐩墠鏄敱澶ц浆鐩樻ā鍧楁潵璐熻矗鍙戦?佸鍔变俊鎭粰瀹㈡埛绔?,鎵?浠ョ敤map鏉ュ瓨鏀緈sg,key鏄鍔辩殑绫诲瀷(鐗╁搧,缁忛獙鎴栭挶),value
+        //鏄痬sgid.澶ц浆鐩樼殑濂栧姳淇℃伅鏈?濂藉仛鎴愪竴鏍风殑,濡傛灉纭疄涓嶄竴鏍?,鍒欐坊鍔犱竴涓柊鐨刾rotocal鏉ュ鐞?,PFinishFortuneWheel
+        //鍙互閲嶇敤
 //        java.util.Map<Integer, Integer> fortuneWheelMsgs=new java.util.HashMap<Integer, Integer>();
 //        fortuneWheelMsgs.put(2, fire.pb.specialquest.SpecialQuestNpcMsg.SubmitQHYCSuccess);
         
@@ -51,10 +51,10 @@ public class CDoneFortuneWheel extends __CDoneFortuneWheel__ {
 		return 795457;
 	}
 
-	public long npckey; // npckeyΪnpc��ΨһID
-	public int taskid; // ��ǰת�̵�����id
-	public int succ; // 1��ʾ�������,0��ʾ�����ǰ�ر��˴�ת��
-	public byte flag; // 0 ��ת��  1������
+	public long npckey; // npckey为npc的唯一ID
+	public int taskid; // 当前转盘的任务id
+	public int succ; // 1表示正常完成,0表示玩家提前关闭了大转盘
+	public byte flag; // 0 大转盘  1翻盘子
 
 	public CDoneFortuneWheel() {
 	}

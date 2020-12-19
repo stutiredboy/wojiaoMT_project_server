@@ -19,7 +19,7 @@ abstract class __CAnswerforSetLeader__ extends mkio.Protocol { }
 
 public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 	
-	private long now = 0L;//procedure�?始时保存�?个当前时间，保证此procedure中时间的统一�?
+	private long now = 0L;//procedure寮?濮嬫椂淇濆瓨涓?涓綋鍓嶆椂闂达紝淇濊瘉姝rocedure涓椂闂寸殑缁熶竴鎬?
 	Team team;
 	
 	@Override
@@ -39,7 +39,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 				Long teamId = xtable.Roleid2teamid.select(newLeaderRoleId);
 				now = System.currentTimeMillis();
 				
-				//先验证队伍是否为�?
+				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
@@ -48,14 +48,14 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 				long oldLeaderRoleId = team.getTeamInfo().getTeamleaderid();
 				if(!team.isInTeam(newLeaderRoleId))
 				{
-					TeamManager.logger.debug("回应者不是一个队伍的队员, newLeaderRoleId: " + newLeaderRoleId);
+					TeamManager.logger.debug("鍥炲簲鑰呬笉鏄竴涓槦浼嶇殑闃熷憳, newLeaderRoleId: " + newLeaderRoleId);
 					fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(newLeaderRoleId, 141056, null);
 					psend(oldLeaderRoleId, new STeamError(TeamError.AbsentCantBeLeader));
 					return true;
 				}
 				if(team.isTeamLeader(newLeaderRoleId))
 				{
-					TeamManager.logger.debug("回应者已经是队长, newLeaderRoleId: " + newLeaderRoleId);
+					TeamManager.logger.debug("鍥炲簲鑰呭凡缁忔槸闃熼暱, newLeaderRoleId: " + newLeaderRoleId);
 					return true;
 				}
 				
@@ -74,18 +74,18 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 				//lock end
 
 				if(agree == 0)
-				{//拒绝成为队长
+				{//鎷掔粷鎴愪负闃熼暱
 					if(!checkAnwserIsNewLeader(team, newLeaderRoleId))
 					{
-						//回应者不是要任命的新队长(illegal)
-						TeamManager.logger.debug("FAIL:回应者不是要任命的新队长, teamId: " + teamId);
+						//鍥炲簲鑰呬笉鏄浠诲懡鐨勬柊闃熼暱(illegal)
+						TeamManager.logger.debug("FAIL:鍥炲簲鑰呬笉鏄浠诲懡鐨勬柊闃熼暱, teamId: " + teamId);
 						psend(oldLeaderRoleId, new STeamError(TeamError.AbsentCantBeLeader));
 						return true;
 					}
 					team.getTeamInfo().setSwitchleaderid(-1);
 					team.getTeamInfo().setSwitchleadertime(-1);
 					psend(oldLeaderRoleId, new STeamError(TeamError.RefuseChangeLeader));
-					TeamManager.logger.debug("SUCC:拒绝成为队长, roleid: " + newLeaderRoleId);
+					TeamManager.logger.debug("SUCC:鎷掔粷鎴愪负闃熼暱, roleid: " + newLeaderRoleId);
 					return true;
 				}
 
@@ -95,36 +95,36 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 
 				if(!checkLeaderOnline(newLeaderRoleId))
 				{
-					//回应者不在线(illegal)
-					TeamManager.logger.debug("FAIL:回应者不在线, roleid: " + newLeaderRoleId);
+					//鍥炲簲鑰呬笉鍦ㄧ嚎(illegal)
+					TeamManager.logger.debug("FAIL:鍥炲簲鑰呬笉鍦ㄧ嚎, roleid: " + newLeaderRoleId);
 				}
 				else if(!checkNewLeaderNormal(team, newLeaderRoleId))
 				{
-					//回应者处于非正常状�?�（暂离、下线等�?(illegal)
-					TeamManager.logger.debug("FAIL:回应者处于非正常状�?�（暂离、下线等�?, roleid: " + newLeaderRoleId);
+					//鍥炲簲鑰呭浜庨潪姝ｅ父鐘舵?侊紙鏆傜銆佷笅绾跨瓑锛?(illegal)
+					TeamManager.logger.debug("FAIL:鍥炲簲鑰呭浜庨潪姝ｅ父鐘舵?侊紙鏆傜銆佷笅绾跨瓑锛?, roleid: " + newLeaderRoleId);
 					MessageMgr.psendMsgNotifyWhileCommit(team.getTeamLeaderId(), 141671, null);
 					MessageMgr.psendMsgNotifyWhileCommit(newLeaderRoleId, 141671, null);
 				}
 				else if(!checkTeamStatusValid(team))
 				{
-					//队伍处于不可换队长状态（飞行或战斗不能）(illegal)
-					TeamManager.logger.debug("FAIL:队伍处于不可换队长状态（飞行或战斗不能）, teamId: " + teamId);
+					//闃熶紞澶勪簬涓嶅彲鎹㈤槦闀跨姸鎬侊紙椋炶鎴栨垬鏂椾笉鑳斤級(illegal)
+					TeamManager.logger.debug("FAIL:闃熶紞澶勪簬涓嶅彲鎹㈤槦闀跨姸鎬侊紙椋炶鎴栨垬鏂椾笉鑳斤級, teamId: " + teamId);
 				}
 				else if(!checkTeamInSwitchStatus(team))
 				{
-					//队伍不处于更换队长申请状态或者超�?(illegal)
-					TeamManager.logger.debug("FAIL:队伍不处于更换队长申请状态或者超�?, teamId: " + teamId);
+					//闃熶紞涓嶅浜庢洿鎹㈤槦闀跨敵璇风姸鎬佹垨鑰呰秴鏃?(illegal)
+					TeamManager.logger.debug("FAIL:闃熶紞涓嶅浜庢洿鎹㈤槦闀跨敵璇风姸鎬佹垨鑰呰秴鏃?, teamId: " + teamId);
 				}
 				else if(!checkAnwserIsNewLeader(team, newLeaderRoleId))
 				{
-					//回应者不是要任命的新队长(illegal)
-					TeamManager.logger.debug("FAIL:回应者不是要任命的新队长, teamId: " + teamId);
+					//鍥炲簲鑰呬笉鏄浠诲懡鐨勬柊闃熼暱(illegal)
+					TeamManager.logger.debug("FAIL:鍥炲簲鑰呬笉鏄浠诲懡鐨勬柊闃熼暱, teamId: " + teamId);
 				}
 				/*else if(!checkTeamNoSuccSwitchIn2min(team))
 				{
-					//队伍2分钟只能更换队长�?�?
+					//闃熶紞2鍒嗛挓鍙兘鏇存崲闃熼暱涓?娆?
 					psend(newLeaderRoleId, new STeamError(TeamError.ChangeLeaderInCD));
-					TeamManager.logger.debug("FAIL:队伍2分钟只能更换队长�?�?, teamId: " + teamId);
+					TeamManager.logger.debug("FAIL:闃熶紞2鍒嗛挓鍙兘鏇存崲闃熼暱涓?娆?, teamId: " + teamId);
 				}*/
 				else
 				{
@@ -133,10 +133,10 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 					if(team.switchTeamLeaderWithSP(newLeaderRoleId))
 					{
 						team.getTeamInfo().setSuccessswitchtime(now);
-						TeamManager.logger.debugWhileCommit("SUCC:队伍更换队长, teamId: " + teamId);
+						TeamManager.logger.debugWhileCommit("SUCC:闃熶紞鏇存崲闃熼暱, teamId: " + teamId);
 					}
 					else
-						TeamManager.logger.debug("FAIL:队伍更换队长失败, teamId: " + teamId);
+						TeamManager.logger.debug("FAIL:闃熶紞鏇存崲闃熼暱澶辫触, teamId: " + teamId);
 				}
 					 
 				return true;
@@ -145,13 +145,13 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 		setTeamLeaderP.submit();
 	}
 
-	// �?测PVP
+	// 妫?娴婸VP
 	private static int checkPvP(long oldLeaderRoleId, long newLeaderRoleId) {
-		// 回答是否接受队长任命
+		// 鍥炵瓟鏄惁鎺ュ彈闃熼暱浠诲懡
 		return fire.pb.battle.pvp.PvPTeamHandle.onAnswerforSetLeader(oldLeaderRoleId, newLeaderRoleId);
 	}
 
-	// 回应者在�??只能在Procedure中被调用，锁leaderRoleId的rolelock
+	// 鍥炲簲鑰呭湪绾??鍙兘鍦≒rocedure涓璋冪敤锛岄攣leaderRoleId鐨剅olelock
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -160,7 +160,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 			return false;
 	}
 	
-	//回应者处于正常状态？只能在Procedure中被调用
+	//鍥炲簲鑰呭浜庢甯哥姸鎬侊紵鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkNewLeaderNormal(Team team, long memberRoleId)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -173,7 +173,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 	}
 	
 	
-	//队伍处于可以换队长的状�?�？（飞行，战斗中不能换队长，还有其他状态吗？）
+	//闃熶紞澶勪簬鍙互鎹㈤槦闀跨殑鐘舵?侊紵锛堥琛岋紝鎴樻枟涓笉鑳芥崲闃熼暱锛岃繕鏈夊叾浠栫姸鎬佸悧锛燂級
 	private boolean checkTeamStatusValid(Team team)
 	{
 		BuffAgent agent = new BuffRoleImpl(team.getTeamLeaderId(),true);
@@ -181,7 +181,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 		return conflictId == 0;
 	}
 	
-	//队伍处于更换队长申请状�?�并且未超时�?
+	//闃熶紞澶勪簬鏇存崲闃熼暱鐢宠鐘舵?佸苟涓旀湭瓒呮椂锛?
 	private boolean checkTeamInSwitchStatus(Team team)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -196,7 +196,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 			return true;
 	}
 	
-	//回应者就是新队长�?
+	//鍥炲簲鑰呭氨鏄柊闃熼暱锛?
 	private boolean checkAnwserIsNewLeader(Team team , long newLeaderId)
 	{
 		if(team.getTeamInfo().getSwitchleaderid() == newLeaderId)
@@ -205,7 +205,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 			return false;
 	}
 	
-	//队伍2分钟内未成功更换过队长？
+	//闃熶紞2鍒嗛挓鍐呮湭鎴愬姛鏇存崲杩囬槦闀匡紵
 	private boolean checkTeamNoSuccSwitchIn2min(Team team)
 	{
 		if((now - team.getTeamInfo().getSuccessswitchtime()) > TeamManager.MIN_SUCCESS_SWITCH_LEADER_PERIOD )
@@ -225,7 +225,7 @@ public class CAnswerforSetLeader extends __CAnswerforSetLeader__ {
 		return 794455;
 	}
 
-	public byte agree; // 0 �ܾ� 1ͬ��
+	public byte agree; // 0 拒绝 1同意
 
 	public CAnswerforSetLeader() {
 	}

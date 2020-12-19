@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SChangeEquipEffect__ extends mkio.Protocol { }
 
-/** 改变玩家装备特效
+/** 鏀瑰彉鐜╁瑁呭鐗规晥
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SChangeEquipEffect extends __SChangeEquipEffect__ {
 		return 790491;
 	}
 
-	public long playerid; // 玩家id
-	public int effect; // 玩家装备特效
+	public long playerid; // 鐜╁id
+	public int effect; // 鐜╁瑁呭鐗规晥
 
 	public SChangeEquipEffect() {
 	}

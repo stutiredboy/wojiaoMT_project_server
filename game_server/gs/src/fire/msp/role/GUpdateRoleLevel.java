@@ -32,7 +32,7 @@ public class GUpdateRoleLevel extends __GUpdateRoleLevel__ {
 	}
 
 	public long roleid; // roleid
-	public int level; // ��ɫ�µȼ�
+	public int level; // 角色新等级
 
 	public GUpdateRoleLevel() {
 	}
