@@ -2388,7 +2388,7 @@ public final class Pod {
 	public static void _reset_unsafe_add_(Equip bean) {
 		poolEquip._reset_unsafe_add_(bean);
 	}
-
+ 
 	public static void padd(Equip bean) {
 		mkdb.Procedure.padd(bean, poolEquip);
 	}
@@ -2408,12 +2408,8 @@ public final class Pod {
 		return poolPetEquip.get();
 	}
 
-	public static PetEquip newPetEquip() {
-		return poolPetEquip.get();
-	}
-
 	public static void _reset_unsafe_add_(PetEquip bean) {
-		poolEquip._reset_unsafe_add_(bean);
+		poolPetEquip._reset_unsafe_add_(bean);
 	}
 
 	public static void padd(PetEquip bean) {

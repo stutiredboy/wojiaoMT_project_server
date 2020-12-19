@@ -29,10 +29,10 @@ public class CPutOnEquip extends __CPutOnEquip__ {
 
 	// {{{ RPCGEN_DEFINE_BEGIN
 	// {{{ DO NOT EDIT THIS
-	public static final int PROTOCOL_TYPE = 787445;
+	public static final int PROTOCOL_TYPE = 787799;
 
 	public int getType() {
-		return 787445;
+		return 787799;
 	}
 
 	public int packkey;

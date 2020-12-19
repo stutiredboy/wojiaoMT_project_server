@@ -41,8 +41,8 @@ public class PetEquip extends ItemMaps {
 		}
 		mkdb.Procedure.psendWhileCommit(roleId, send);
 		for (ItemBase item : this) {
-			if (item instanceof EquipItem) {
-				EquipItem ei = (EquipItem) item;
+			if (item instanceof PetEquipItem) {
+				PetEquipItem ei = (PetEquipItem) item;
 				if (ei.getEndure() <= 5) {
 					ArrayList<String> params = new ArrayList<String>();
 					params.add(ei.itemAttr.name);
@@ -59,8 +59,8 @@ public class PetEquip extends ItemMaps {
 		final int pos;
 		if (p == -1) {
 			// 自动查找位置
-			if (item instanceof EquipItem) {
-				EquipItem ei = (EquipItem) item;
+			if (item instanceof PetEquipItem) {
+				PetEquipItem ei = (PetEquipItem) item;
 				pos = ei.getEquipPos();
 			} else
 				return AddItemResult.POS_NOT_AVAILABLE;
@@ -80,7 +80,7 @@ public class PetEquip extends ItemMaps {
 	}
 
 	public ItemBase getHorsedress() {
-		return null;// getItemByPos(EquipItem.HEADDRESS-1);
+		return null;// getItemByPos(PetEquipItem.HEADDRESS-1);
 	}
 
 	@Override
@@ -105,7 +105,7 @@ public class PetEquip extends ItemMaps {
 		}
 		ItemBase item = getItemByPos(pos);
 
-		if (item != null && item instanceof EquipItem) {
+		if (item != null && item instanceof PetEquipItem) {
 			SEquipNaiJiuXiaoHao lose = Module.getInstance().getItemManager()
 					.getLoseNaiJiu(pos);
 			if (lose == null)
@@ -216,8 +216,8 @@ public class PetEquip extends ItemMaps {
 		for (ItemBase ib : this) {
 			if (ib == null)
 				continue;
-			if (ib instanceof EquipItem) {
-				EquipItem ei = (EquipItem) ib;
+			if (ib instanceof PetEquipItem) {
+				PetEquipItem ei = (PetEquipItem) ib;
 				ei.setEndure((int)(ei.getCurMaxEndure() * fDecPercent));
 				EquipNaiJiu ee = new EquipNaiJiu();
 				ee.keyinpack = ei.getKey();
@@ -236,8 +236,8 @@ public class PetEquip extends ItemMaps {
 		for (ItemBase ib : this) {
 			if (ib == null)
 				continue;
-			if (ib instanceof EquipItem) {
-				xbean.PetEquip equipAttr = ((EquipItem) ib).getPetEquipAttr();
+			if (ib instanceof PetEquipItem) {
+				xbean.PetEquip equipAttr = ((PetEquipItem) ib).getEquipAttr();
 				ArrayList<Integer> gems = new ArrayList<Integer>(equipAttr.getDiamonds());
 				
 				if(gems.size() != 0){
@@ -259,7 +259,7 @@ public class PetEquip extends ItemMaps {
 				break;
 			}
 			
-			xbean.PetEquip equipAttrOne = ((EquipItem) ei).getEquipAttr();
+			xbean.PetEquip equipAttrOne = ((PetEquipItem) ei).getEquipAttr();
 			List<Integer> diamondsOne = equipAttrOne.getDiamonds();
 			
 			int dsize = diamondsOne.size();
