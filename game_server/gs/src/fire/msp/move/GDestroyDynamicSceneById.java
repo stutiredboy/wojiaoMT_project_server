@@ -25,7 +25,7 @@ public class GDestroyDynamicSceneById extends __GDestroyDynamicSceneById__ {
 		return 724909;
 	}
 
-	public long sceneid; // ³¡¾°ÊµÀýID
+	public long sceneid; // åœºæ™¯å®žä¾‹ID
 
 	public GDestroyDynamicSceneById() {
 	}

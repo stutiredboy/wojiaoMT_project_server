@@ -24,7 +24,7 @@ abstract class __CLiveSkillMakeFarm__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 伐木
+ * 浼愭湪
  * @author changhao
  *
  */
@@ -43,10 +43,10 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 				int skilllevel = 1;
 				int money = 100;
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, 
-						LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FARM, skilllevel,"打工",
+						LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FARM, skilllevel,"鎵撳伐",
 						YYLoggerTuJingEnum.tujing_Value_dagong, false);
 				
-				if (energyenough == false) //消�?�活�? by changhao
+				if (energyenough == false) //娑堣?楁椿鍔? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						
@@ -54,12 +54,12 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 				
 				Pack bag = (Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
 				
-				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
 				{
 					fire.pb.fushi.SCommonDayPay cost = ConfigManager.getInstance().getConf(fire.pb.fushi.SCommonDayPay.class).get(7);
 					money = cost.getServerdata();
 					
-					//增加银币 by changhao
+					//澧炲姞閾跺竵 by changhao
 					if(bag.addSysMoney(money, LiveSkillManager.MakeFarm, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuiyaofang, 0) != money)
 					{
 						psend(roleid, new SSkillError(SkillConstant.SkillError.MoneyNotEnough));
@@ -71,7 +71,7 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 					final fire.pb.common.SCommon cc = fire.pb.RoleConfigManager.getRoleCommonConfig(109);
 					money = Integer.parseInt(cc.getValue());
 					
-					//增加金币 by changhao
+					//澧炲姞閲戝竵 by changhao
 					if(bag.subGold(money, LiveSkillManager.MakeFarm, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuiyaofang, 0) != money)
 					{
 						psend(roleid, new SSkillError(SkillConstant.SkillError.MoneyNotEnough));

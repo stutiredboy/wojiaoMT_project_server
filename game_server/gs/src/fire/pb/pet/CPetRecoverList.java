@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetRecoverList__ extends mkio.Protocol { }
 
-/** �ͻ�����������һ��б�
+/** 客户端请求宠物找回列表
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -23,10 +23,10 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 发�?�宠物找回列�?
+				// 鍙戦?佸疇鐗╂壘鍥炲垪琛?
 				SPetRecoverList send = new SPetRecoverList();
 
-				// 通过key在回收站中找到对应的宠物
+				// 閫氳繃key鍦ㄥ洖鏀剁珯涓壘鍒板搴旂殑瀹犵墿
 				xbean.Petrecoverlist petRecoverList = xtable.Petrecover.get(roleId);
 				if (petRecoverList != null) {
 					java.util.List<Long> removeList = new java.util.LinkedList<Long>();
@@ -34,13 +34,13 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 					for (Long uniqId : petRecoverList.getUniqids()) {
 						xbean.DiscardPet dpet = xtable.Petrecyclebin.select(uniqId);
 						if (dpet != null) {
-							// 判断是否过期,如果过期就不�?
-							long day = fire.pb.pet.Module.OUTTIME_OF_PET; // 保留时间:天数
-							long validTime = day * 24L * 3600L * 1000L; // 保留时间:毫秒�?
-							long elapseTime = now - dpet.getDeletedate(); // 过去时间:毫秒�?
-							long remainTime = validTime - elapseTime; // 剩余时间:毫秒�?
+							// 鍒ゆ柇鏄惁杩囨湡,濡傛灉杩囨湡灏变笉鍙?
+							long day = fire.pb.pet.Module.OUTTIME_OF_PET; // 淇濈暀鏃堕棿:澶╂暟
+							long validTime = day * 24L * 3600L * 1000L; // 淇濈暀鏃堕棿:姣鏁?
+							long elapseTime = now - dpet.getDeletedate(); // 杩囧幓鏃堕棿:姣鏁?
+							long remainTime = validTime - elapseTime; // 鍓╀綑鏃堕棿:姣鏁?
 							if (remainTime > 0) {
-								int cost = -1; // -1:表示没有这个宠物的配�?
+								int cost = -1; // -1:琛ㄧず娌℃湁杩欎釜瀹犵墿鐨勯厤缃?
 								PetAttr petAttrConf = Module.getInstance().getPetManager().getAttr(dpet.getPet().getId());
 								if (petAttrConf != null) {
 									cost = petAttrConf.getRecovercost();
@@ -48,16 +48,16 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 								PetRecoverInfoBean info = new PetRecoverInfoBean();
 								info.petid = dpet.getPet().getId();
 								info.uniqid = uniqId;
-								info.remaintime = (int) (remainTime / 1000); // 剩余时间:秒数
+								info.remaintime = (int) (remainTime / 1000); // 鍓╀綑鏃堕棿:绉掓暟
 								info.cost = cost;
 								send.pets.add(info);
 							}
 						} else {
-							// 移除无效�?
+							// 绉婚櫎鏃犳晥鐨?
 							removeList.add(uniqId);
 						}
 					}
-					// 移除无效的列�?
+					// 绉婚櫎鏃犳晥鐨勫垪琛?
 					petRecoverList.getUniqids().removeAll(removeList);
 				}
 				mkdb.Procedure.psendWhileCommit(roleId, send);

@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CStepSpace__ extends mkio.Protocol { }
 
-/** ²ÈÄ³¸ö½ÇÉ«¿Õ¼ä
+/** è¸©æŸä¸ªè§’è‰²ç©ºé—´
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,7 +30,7 @@ public class CStepSpace extends __CStepSpace__ {
 		return 806643;
 	}
 
-	public long spaceroleid; // Ä¿±ê¿Õ¼äµÄ½ÇÉ«id
+	public long spaceroleid; // ç›®æ ‡ç©ºé—´çš„è§’è‰²id
 
 	public CStepSpace() {
 	}

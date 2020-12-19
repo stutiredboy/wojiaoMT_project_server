@@ -5,11 +5,11 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ×°±¸ÉÏµÄ¼¼ÄÜ
+/** è£…å¤‡ä¸Šçš„æŠ€èƒ½
 */
 public class EquipSkill implements Marshal , Comparable<EquipSkill>{
-	public int skill; // ÌØ¼¼id
-	public int effect; // ÌØĞ§id
+	public int skill; // ç‰¹æŠ€id
+	public int effect; // ç‰¹æ•ˆid
 
 	public EquipSkill() {
 	}

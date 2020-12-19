@@ -25,8 +25,8 @@ public class SUpdateTeamMemberComponent extends __SUpdateTeamMemberComponent__ {
 		return 794488;
 	}
 
-	public long memberid; // ¶ÓÎé½ÇÉ«id
-	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
+	public long memberid; // é˜Ÿä¼è§’è‰²id
+	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
 
 	public SUpdateTeamMemberComponent() {
 		components = new java.util.HashMap<Byte,Integer>();

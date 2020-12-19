@@ -27,7 +27,7 @@ public class SGetBingFengDetail extends __SGetBingFengDetail__ {
 
 	public java.lang.String rolename;
 	public int usetime;
-	public short stagestate; // 自己是否通关, 0 未通关, 1 已通关
+	public short stagestate; // 鑷繁鏄惁閫氬叧, 0 鏈�氬叧, 1 宸查�氬叧
 	public int myusetime;
 
 	public SGetBingFengDetail() {

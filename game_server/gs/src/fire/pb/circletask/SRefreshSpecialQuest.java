@@ -25,23 +25,23 @@ public class SRefreshSpecialQuest extends __SRefreshSpecialQuest__ {
 		return 807432;
 	}
 
-	public int questid; // ÈÎÎñid
-	public int queststate; // ÈÎÎñ×´Ì¬
-	public int round; // µ±Ç°ÈÎÎñµÄ»·Êı
-	public int sumnum; // ÀÛ»ı´ÎÊı. ¸ù¾İ²»Í¬µÄÈÎÎñ£¬ÓµÓĞ²»Í¬µÄº¬Òå£ºÈçÖ°Òµ£¬ÊÇÃ¿ÌìµÄÀÛ»ı´ÎÊı¡£
-	public int questtype; // ÈÎÎñÀàĞÍ £¨¼û SpecialQuestType£©
-	public int dstmapid; // Ä¿µÄµØÍ¼id
-	public long dstnpckey; // Ä¿µÄnpcµÄkey
-	public java.lang.String dstnpcname; // Ä¿µÄnpcÃû×Ö
-	public int dstnpcid; // Ä¿µÄnpcµÄid
-	public int dstitemid; // Ä¿µÄµÀ¾ßµÄid
-	public int dstitemnum; // Ä¿µÄµÀ¾ßµÄÊıÁ¿£¬
-	public int dstitemid2; // Ä¿µÄµÀ¾ß2
-	public int dstitemidnum2; // Ä¿µÄµÀ¾ß2µÄÊıÁ¿
-	public int dstx; // Ä¿µÄ×ø±êx
-	public int dsty; // Ä¿µÄ×ø±êy
-	public long validtime; // ÈÎÎñ½ØÖ¹Ğ§ÆÚ£¨Ö°ÒµÖĞµÄÊ¾Íş¡¢Ô®¾È¡¢ÇåÀíÖ°Òµ£¬½µ·ş£©
-	public int islogin; // ÊÇ·ñÊÇµÇÂ½×´Ì¬
+	public int questid; // ä»»åŠ¡id
+	public int queststate; // ä»»åŠ¡çŠ¶æ€
+	public int round; // å½“å‰ä»»åŠ¡çš„ç¯æ•°
+	public int sumnum; // ç´¯ç§¯æ¬¡æ•°. æ ¹æ®ä¸åŒçš„ä»»åŠ¡ï¼Œæ‹¥æœ‰ä¸åŒçš„å«ä¹‰ï¼šå¦‚èŒä¸šï¼Œæ˜¯æ¯å¤©çš„ç´¯ç§¯æ¬¡æ•°ã€‚
+	public int questtype; // ä»»åŠ¡ç±»å‹ ï¼ˆè§ SpecialQuestTypeï¼‰
+	public int dstmapid; // ç›®çš„åœ°å›¾id
+	public long dstnpckey; // ç›®çš„npcçš„key
+	public java.lang.String dstnpcname; // ç›®çš„npcåå­—
+	public int dstnpcid; // ç›®çš„npcçš„id
+	public int dstitemid; // ç›®çš„é“å…·çš„id
+	public int dstitemnum; // ç›®çš„é“å…·çš„æ•°é‡ï¼Œ
+	public int dstitemid2; // ç›®çš„é“å…·2
+	public int dstitemidnum2; // ç›®çš„é“å…·2çš„æ•°é‡
+	public int dstx; // ç›®çš„åæ ‡x
+	public int dsty; // ç›®çš„åæ ‡y
+	public long validtime; // ä»»åŠ¡æˆªæ­¢æ•ˆæœŸï¼ˆèŒä¸šä¸­çš„ç¤ºå¨ã€æ´æ•‘ã€æ¸…ç†èŒä¸šï¼Œé™æœï¼‰
+	public int islogin; // æ˜¯å¦æ˜¯ç™»é™†çŠ¶æ€
 
 	public SRefreshSpecialQuest() {
 		dstnpcname = "";

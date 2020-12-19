@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class FunModelType implements Marshal , Comparable<FunModelType>{
-	public final static int FUN_TASKITEM = 1; // ÈÎÎñÇóÖúµÀ¾ß¹¦ÄÜ
-	public final static int FUN_DIELIVE_CLAN = 2; // ÉúËÀÕ½¹«»áÆµµÀ·ÖÏí
-	public final static int FUN_DIELIVE_WORLD = 3; // ÉúËÀÕ½ÊÀ½çÆµµÀ·ÖÏí
-	public final static int QIU_ZHU = 4; // ÇóÖú
+	public final static int FUN_TASKITEM = 1; // ä»»åŠ¡æ±‚åŠ©é“å…·åŠŸèƒ½
+	public final static int FUN_DIELIVE_CLAN = 2; // ç”Ÿæ­»æˆ˜å…¬ä¼šé¢‘é“åˆ†äº«
+	public final static int FUN_DIELIVE_WORLD = 3; // ç”Ÿæ­»æˆ˜ä¸–ç•Œé¢‘é“åˆ†äº«
+	public final static int QIU_ZHU = 4; // æ±‚åŠ©
 
 
 	public FunModelType() {

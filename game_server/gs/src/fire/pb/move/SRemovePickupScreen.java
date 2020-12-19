@@ -25,7 +25,7 @@ public class SRemovePickupScreen extends __SRemovePickupScreen__ {
 		return 790446;
 	}
 
-	public java.util.LinkedList<Long> pickupids; // 物品的实例ID
+	public java.util.LinkedList<Long> pickupids; // 鐗╁搧鐨勫疄渚婭D
 
 	public SRemovePickupScreen() {
 		pickupids = new java.util.LinkedList<Long>();

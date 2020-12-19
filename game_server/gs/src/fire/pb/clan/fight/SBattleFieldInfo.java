@@ -25,10 +25,10 @@ public class SBattleFieldInfo extends __SBattleFieldInfo__ {
 		return 808540;
 	}
 
-	public java.lang.String clanname1; // 公会名字1 by changhao
-	public java.lang.String clanname2; // 公会名字2 by changhao
-	public long clanid1; // 公会1ID by changhao
-	public long clanid2; // 公会2ID by changhao
+	public java.lang.String clanname1; // 鍏細鍚嶅瓧1 by changhao
+	public java.lang.String clanname2; // 鍏細鍚嶅瓧2 by changhao
+	public long clanid1; // 鍏細1ID by changhao
+	public long clanid2; // 鍏細2ID by changhao
 
 	public SBattleFieldInfo() {
 		clanname1 = "";

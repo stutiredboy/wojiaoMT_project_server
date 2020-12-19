@@ -5,7 +5,7 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** pingֵ��Ԫ
+/** ping值单元
 */
 public class PingStatEntry implements Marshal , Comparable<PingStatEntry>{
 	public short _max;

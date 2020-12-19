@@ -31,7 +31,7 @@ public class MRoleOfflineScene extends __MRoleOfflineScene__ {
 	public java.lang.String rolename;
 	public fire.msp.RoleMapInfo mapinfo;
 	public fire.msp.RoleMapInfo laststaticmapinfo;
-	public int qili; // 当前气力（轻功）
+	public int qili; // 褰撳墠姘斿姏锛堣交鍔燂級
 
 	public MRoleOfflineScene() {
 		rolename = "";

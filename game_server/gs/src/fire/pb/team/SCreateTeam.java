@@ -25,10 +25,10 @@ public class SCreateTeam extends __SCreateTeam__ {
 		return 794434;
 	}
 
-	public long teamid; // ¶ÓÎéID
-	public int formation; // ¶ÓÎé¹â»·
-	public int teamstate; // ¶ÓÎé×´Ì¬£¬²Î¿¼TeamState£º1=ÆÕÍ¨¶ÓÎé£»2=µÈ´ıÖĞµÄ¶ÓÎé£»3=ÕÙ¼¯Áî¶ÓÎé
-	public int smapid; // µØÍ¼Íæ·¨ID£¬µ±´¦ÓÚÆÕÍ¨¶ÓÎé×´Ì¬Ê±£¬smapIdÎª0
+	public long teamid; // é˜Ÿä¼ID
+	public int formation; // é˜Ÿä¼å…‰ç¯
+	public int teamstate; // é˜Ÿä¼çŠ¶æ€ï¼Œå‚è€ƒTeamStateï¼š1=æ™®é€šé˜Ÿä¼ï¼›2=ç­‰å¾…ä¸­çš„é˜Ÿä¼ï¼›3=å¬é›†ä»¤é˜Ÿä¼
+	public int smapid; // åœ°å›¾ç©æ³•IDï¼Œå½“å¤„äºæ™®é€šé˜Ÿä¼çŠ¶æ€æ—¶ï¼ŒsmapIdä¸º0
 
 	public SCreateTeam() {
 	}

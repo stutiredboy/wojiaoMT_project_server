@@ -28,12 +28,12 @@ public class CReqGoto extends __CReqGoto__ {
 			return;
 		}
 		
-		Team temp = TeamManager.selectTeamByRoleId(roleid); //有队伍不�? by 机贼的changhao
+		Team temp = TeamManager.selectTeamByRoleId(roleid); //鏈夐槦浼嶄笉琛? by 鏈鸿醇鐨刢hanghao
 		if(temp != null && temp.isNormalMember(roleid) ){
 			return;
 		}
-		if(mapid==fire.pb.clan.ClanUtils.MAPID){ //如果是帮派地�? by 机智又机贼的changhao
-			//帮派地图跳转
+		if(mapid==fire.pb.clan.ClanUtils.MAPID){ //濡傛灉鏄府娲惧湴鍥? by 鏈烘櫤鍙堟満璐肩殑changhao
+			//甯淳鍦板浘璺宠浆
 			fire.pb.clan.ClanUtils.enterClanMap(roleid, xpos, ypos);
 			return;
 		}

@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HookMsg2ClientEnum implements Marshal , Comparable<HookMsg2ClientEnum>{
-	public final static int GETDPOINTSUCC = 150151; // 领取成功
-	public final static int GETDPOINTLIMIT = 150152; // 领取上限
-	public final static int FREEDPOINTSUCC = 150153; // 冻结成功
-	public final static int OFFLINEEXP = 150156; // 离线经验
+	public final static int GETDPOINTSUCC = 150151; // 棰嗗彇鎴愬姛
+	public final static int GETDPOINTLIMIT = 150152; // 棰嗗彇涓婇檺
+	public final static int FREEDPOINTSUCC = 150153; // 鍐荤粨鎴愬姛
+	public final static int OFFLINEEXP = 150156; // 绂荤嚎缁忛獙
 
 
 	public HookMsg2ClientEnum() {

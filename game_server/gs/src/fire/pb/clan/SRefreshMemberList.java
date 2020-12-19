@@ -25,7 +25,7 @@ public class SRefreshMemberList extends __SRefreshMemberList__ {
 		return 808493;
 	}
 
-	public java.util.ArrayList<fire.pb.clan.ClanMember> memberlist; // 公会成员列表
+	public java.util.ArrayList<fire.pb.clan.ClanMember> memberlist; // 鍏細鎴愬憳鍒楄〃
 
 	public SRefreshMemberList() {
 		memberlist = new java.util.ArrayList<fire.pb.clan.ClanMember>();

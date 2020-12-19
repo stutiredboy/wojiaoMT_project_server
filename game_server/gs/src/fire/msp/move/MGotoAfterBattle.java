@@ -16,7 +16,7 @@ abstract class __MGotoAfterBattle__ extends mkio.Protocol { }
 public class MGotoAfterBattle extends __MGotoAfterBattle__ {
 	@Override
 	protected void process() {
-		//战斗结束后的Procedure处理，如果战斗没有了，则直接执行
+		//鎴樻枟缁撴潫鍚庣殑Procedure澶勭悊锛屽鏋滄垬鏂楁病鏈変簡锛屽垯鐩存帴鎵ц
 		new PSetBattleEndProcedure(roleid, new PGotoAfterBattle(roleid, sceneid, posx, posy, gototype)).submit();
 	}
 
@@ -29,7 +29,7 @@ public class MGotoAfterBattle extends __MGotoAfterBattle__ {
 	}
 
 	public long roleid;
-	public long sceneid; // ��ͼid
+	public long sceneid; // 地图id
 	public int posx;
 	public int posy;
 	public int gototype;

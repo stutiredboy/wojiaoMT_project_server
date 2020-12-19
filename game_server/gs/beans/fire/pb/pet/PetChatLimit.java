@@ -5,7 +5,7 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 宠物战斗中闲话的ID 范围
+/** 瀹犵墿鎴樻枟涓棽璇濈殑ID 鑼冨洿
 */
 public class PetChatLimit implements Marshal , Comparable<PetChatLimit>{
 	public final static int Self20percentBegin = 0;

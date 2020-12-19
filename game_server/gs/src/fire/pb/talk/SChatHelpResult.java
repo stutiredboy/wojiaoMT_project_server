@@ -25,7 +25,7 @@ public class SChatHelpResult extends __SChatHelpResult__ {
 		return 792448;
 	}
 
-	public int result; // 0 ³É¹¦
+	public int result; // 0 æˆåŠŸ
 
 	public SChatHelpResult() {
 	}

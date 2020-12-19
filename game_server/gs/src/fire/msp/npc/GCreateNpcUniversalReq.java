@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GCreateNpcUniversalReq__ extends mkio.Protocol { }
 
-/** GS ·¢ËÍµØÍ¼Ä£¿é ÇëÇó´´½¨NPC
+/** GS å‘é€åœ°å›¾æ¨¡å— è¯·æ±‚åˆ›å»ºNPC
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -19,12 +19,12 @@ public class GCreateNpcUniversalReq extends __GCreateNpcUniversalReq__ {
 		// protocol handle
 		
 		if (!npclist.isEmpty()){
-			// åˆ›å»ºNPC
+			// é’æ¶˜ç¼“NPC
 			java.util.List<fire.msp.npc.NpcInfo> resultlist = new java.util.LinkedList<fire.msp.npc.NpcInfo>();
 			
 			for (CreateNpcInfoUniverse info:npclist){
 				java.util.List<fire.msp.npc.NpcInfo> rlist = fire.pb.scene.manager.SceneNpcManager.getInstance().createNpc(info);
-				// å¤±è´¥è¿”å›GS
+				// æ¾¶è¾«è§¦æ©æ–¿æ´–GS
 				if (rlist == null || rlist.isEmpty() || rlist.size() < info.num){
 					MCreateNpcUniversalRet mret = new MCreateNpcUniversalRet();
 					mret.interfaceid = interfaceid;
@@ -32,10 +32,10 @@ public class GCreateNpcUniversalReq extends __GCreateNpcUniversalReq__ {
 					fire.pb.scene.SceneClient.pSend(mret);
 					break;
 				}
-				// æˆåŠŸ
+				// é´æ„¬å§›
 				resultlist.addAll(rlist);
 			}
-			//åŒæ­¥åˆ°GS NPCçš„ä¿¡æ?
+			//éšå±¾î„é’ç™S NPCé¨å‹ªä¿Šé­?
 			MUpdateNpcInfo mUpdateNpcInfo = new MUpdateNpcInfo();
 			mUpdateNpcInfo.npcs.addAll(resultlist);
 			fire.pb.scene.SceneClient.pSend(mUpdateNpcInfo);
@@ -59,9 +59,9 @@ public class GCreateNpcUniversalReq extends __GCreateNpcUniversalReq__ {
 		return 730416;
 	}
 
-	public long interfaceid; // Âß¼­½Ó¿ÚID£¬²»ĞèÒª·µ»ØµÄ£¬interfaceid = 0
-	public java.util.LinkedList<fire.msp.npc.CreateNpcInfoUniverse> npclist; // GSÕÙNPCµÄÒªÇóÌõ¼ş
-	public int toufangareatype; // 0-ÆÕÍ¨µÄÍ¶·ÅÇøÓò,1-ĞÂµÄÍ¶·ÅÇøÓò,°üº¬1¼¶Çá¹¦
+	public long interfaceid; // é€»è¾‘æ¥å£IDï¼Œä¸éœ€è¦è¿”å›çš„ï¼Œinterfaceid = 0
+	public java.util.LinkedList<fire.msp.npc.CreateNpcInfoUniverse> npclist; // GSå¬NPCçš„è¦æ±‚æ¡ä»¶
+	public int toufangareatype; // 0-æ™®é€šçš„æŠ•æ”¾åŒºåŸŸ,1-æ–°çš„æŠ•æ”¾åŒºåŸŸ,åŒ…å«1çº§è½»åŠŸ
 
 	public GCreateNpcUniversalReq() {
 		npclist = new java.util.LinkedList<fire.msp.npc.CreateNpcInfoUniverse>();

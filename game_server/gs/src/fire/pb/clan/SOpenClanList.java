@@ -25,7 +25,7 @@ public class SOpenClanList extends __SOpenClanList__ {
 		return 808448;
 	}
 
-	public int currpage; // ��ǰҳ
+	public int currpage; // 当前页
 	public java.util.ArrayList<fire.pb.clan.ClanSummaryInfo> clanlist;
 
 	public SOpenClanList() {

@@ -25,8 +25,8 @@ public class SSetMyFormation extends __SSetMyFormation__ {
 		return 794475;
 	}
 
-	public int formation; // ÉÏÏß,Íæ¼Ò¸Ä±äÕóĞÍ£¨Îª0±íÊ¾²»ÆôÓÃÈÎºÎÕóĞÍ£©
-	public int entersend; // 1ÊÇÉÏÏß·¢£¬0ÊÇÆ½Ê±Ë¢ĞÂ
+	public int formation; // ä¸Šçº¿,ç©å®¶æ”¹å˜é˜µå‹ï¼ˆä¸º0è¡¨ç¤ºä¸å¯ç”¨ä»»ä½•é˜µå‹ï¼‰
+	public int entersend; // 1æ˜¯ä¸Šçº¿å‘ï¼Œ0æ˜¯å¹³æ—¶åˆ·æ–°
 
 	public SSetMyFormation() {
 	}

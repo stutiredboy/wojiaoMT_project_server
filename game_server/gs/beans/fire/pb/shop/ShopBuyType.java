@@ -5,16 +5,16 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** shop¹ºÂòÀàĞÍ
+/** shopè´­ä¹°ç±»å‹
 */
 public class ShopBuyType implements Marshal , Comparable<ShopBuyType>{
-	public final static int NORMAL_SHOP = 1; // ÆÕÍ¨ÉÌµê
-	public final static int PET_SHOP = 2; // ³èÎïÉÌµê
-	public final static int MALL_SHOP = 3; // ÉÌ³Ç
-	public final static int CHAMBER_OF_COMMERCE_SHOP_BUY = 4; // ÉÌ»áÂò
-	public final static int CHAMBER_OF_COMMERCE_SHOP_SALE = 5; // ÉÌ»áÂô
-	public final static int EXCHANGE_BUY = 6; // ¶Ò»»ÉÌµê
-	public final static int SHENSHOU_SHOP = 7; // ÉñÊŞÉÌµê
+	public final static int NORMAL_SHOP = 1; // æ™®é€šå•†åº—
+	public final static int PET_SHOP = 2; // å® ç‰©å•†åº—
+	public final static int MALL_SHOP = 3; // å•†åŸ
+	public final static int CHAMBER_OF_COMMERCE_SHOP_BUY = 4; // å•†ä¼šä¹°
+	public final static int CHAMBER_OF_COMMERCE_SHOP_SALE = 5; // å•†ä¼šå–
+	public final static int EXCHANGE_BUY = 6; // å…‘æ¢å•†åº—
+	public final static int SHENSHOU_SHOP = 7; // ç¥å…½å•†åº—
 
 
 	public ShopBuyType() {

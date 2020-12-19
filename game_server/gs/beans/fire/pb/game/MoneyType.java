@@ -5,25 +5,25 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** »õ±ÒÀàĞÍ
+/** è´§å¸ç±»å‹
 */
 public class MoneyType implements Marshal , Comparable<MoneyType>{
-	public final static int MoneyType_None = 0; // ÎŞĞ§ÀàĞÍ
-	public final static int MoneyType_SilverCoin = 1; // Òø±Ò
-	public final static int MoneyType_GoldCoin = 2; // ½ğ±Ò
-	public final static int MoneyType_HearthStone = 3; // ·ûÊ¯
-	public final static int MoneyType_ProfContribute = 4; // Ö°Òµ¹±Ï×
-	public final static int MoneyType_RongYu = 5; // ÈÙÓşÖµ
-	public final static int MoneyType_FactionContribute = 6; // ¹«»á¹±Ï×
-	public final static int MoneyType_ShengWang = 7; // ÉùÍû
-	public final static int MoneyType_FestivalPoint = 8; // ½ÚÈÕ»ı·Ö
-	public final static int MoneyType_GoodTeacherVal = 9; // Á¼Ê¦Öµ
-	public final static int MoneyType_RoleExp = 10; // ½ÇÉ«¾­Ñé
-	public final static int MoneyType_Activity = 11; // »îÔ¾¶È
-	public final static int MoneyType_Energy = 12; // »îÁ¦
-	public final static int MoneyType_EreditPoint = 13; // ĞÅÓÃµã
-	public final static int MoneyType_Item = 99; // µÀ¾ß
-	public final static int MoneyType_Num = 15; // ÀàĞÍÊıÁ¿
+	public final static int MoneyType_None = 0; // æ— æ•ˆç±»å‹
+	public final static int MoneyType_SilverCoin = 1; // é“¶å¸
+	public final static int MoneyType_GoldCoin = 2; // é‡‘å¸
+	public final static int MoneyType_HearthStone = 3; // ç¬¦çŸ³
+	public final static int MoneyType_ProfContribute = 4; // èŒä¸šè´¡çŒ®
+	public final static int MoneyType_RongYu = 5; // è£èª‰å€¼
+	public final static int MoneyType_FactionContribute = 6; // å…¬ä¼šè´¡çŒ®
+	public final static int MoneyType_ShengWang = 7; // å£°æœ›
+	public final static int MoneyType_FestivalPoint = 8; // èŠ‚æ—¥ç§¯åˆ†
+	public final static int MoneyType_GoodTeacherVal = 9; // è‰¯å¸ˆå€¼
+	public final static int MoneyType_RoleExp = 10; // è§’è‰²ç»éªŒ
+	public final static int MoneyType_Activity = 11; // æ´»è·ƒåº¦
+	public final static int MoneyType_Energy = 12; // æ´»åŠ›
+	public final static int MoneyType_EreditPoint = 13; // ä¿¡ç”¨ç‚¹
+	public final static int MoneyType_Item = 99; // é“å…·
+	public final static int MoneyType_Num = 15; // ç±»å‹æ•°é‡
 
 
 	public MoneyType() {

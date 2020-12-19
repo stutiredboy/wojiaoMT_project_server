@@ -17,13 +17,13 @@ abstract class __CInvitationLiveDieBattle__ extends mkio.Protocol { }
 public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 	@Override
 	protected void process() {
-		//下战�?
+		//涓嬫垬涔?
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (hostid <= 0)
 			return;
 		new mkdb.Procedure() {
 			protected boolean process() throws Exception {
-				//判断等级�?�?
+				//鍒ゆ柇绛夌骇闇?姹?
 				xbean.Properties hostprop=xtable.Properties.select(hostid);
 				if(hostprop==null){
 					return false;
@@ -32,7 +32,7 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 					return false;
 				}
 				
-				//判断目标玩家是否存在
+				//鍒ゆ柇鐩爣鐜╁鏄惁瀛樺湪
 				Long objectid;
 				try {
 					objectid=Long.parseLong(idorname);
@@ -44,12 +44,12 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
 					return false;
 				}
-				//自己不能�?请自�?
+				//鑷繁涓嶈兘閭?璇疯嚜宸?
 				if(hostid==objectid){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 166006, 0, null);
 					return false;
 				}
-				//判断目标玩家是否在线
+				//鍒ゆ柇鐩爣鐜╁鏄惁鍦ㄧ嚎
 				Role gRole = RoleManager.getInstance().getRoleByID(objectid);
 				if (gRole == null){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
@@ -60,7 +60,7 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
 					return false;
 				}
-				//判断对方等级是否符合要求
+				//鍒ゆ柇瀵规柟绛夌骇鏄惁绗﹀悎瑕佹眰
 				if(guestprop.getLevel()<LiveDieMange.getLiveDieLevel()){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162078 , null);
 					return false;
@@ -86,7 +86,7 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 	}
 
 	public java.lang.String idorname;
-	public int selecttype; // 0����   1���
+	public int selecttype; // 0单人   1组队
 
 	public CInvitationLiveDieBattle() {
 		idorname = "";

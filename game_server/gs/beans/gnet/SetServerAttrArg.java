@@ -5,7 +5,7 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** »ñÈ¡¼°ÉèÖÃ·şÎñÆ÷È«¾ÖĞÅÏ¢ ÉèÖÃ·şÎñÆ÷×î´óÔÚÏßÈËÊı£¬»ñÈ¡·şÎñÆ÷µ±Ç°ÔÚÏßÈËÊı
+/** è·å–åŠè®¾ç½®æœåŠ¡å™¨å…¨å±€ä¿¡æ¯ è®¾ç½®æœåŠ¡å™¨æœ€å¤§åœ¨çº¿äººæ•°ï¼Œè·å–æœåŠ¡å™¨å½“å‰åœ¨çº¿äººæ•°
 */
 public class SetServerAttrArg implements Marshal , Comparable<SetServerAttrArg>{
 	public int gmuserid;

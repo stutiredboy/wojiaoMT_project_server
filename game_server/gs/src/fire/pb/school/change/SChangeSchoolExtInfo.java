@@ -25,8 +25,8 @@ public class SChangeSchoolExtInfo extends __SChangeSchoolExtInfo__ {
 		return 810488;
 	}
 
-	public int remainchangeweaponcount; // Ê£Óà×ª»»ÎäÆ÷µÄ´ÎÊı
-	public int remainchangegemcount; // Ê£Óà×ª»»±¦Ê¯µÄ´ÎÊı
+	public int remainchangeweaponcount; // å‰©ä½™è½¬æ¢æ­¦å™¨çš„æ¬¡æ•°
+	public int remainchangegemcount; // å‰©ä½™è½¬æ¢å®çŸ³çš„æ¬¡æ•°
 
 	public SChangeSchoolExtInfo() {
 	}

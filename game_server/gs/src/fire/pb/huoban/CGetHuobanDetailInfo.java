@@ -44,7 +44,7 @@ public class CGetHuobanDetailInfo extends __CGetHuobanDetailInfo__ {
 		return 818834;
 	}
 
-	public int huobanid; // ÎÒµÄ»ï°éµÄkey
+	public int huobanid; // æˆ‘çš„ä¼™ä¼´çš„key
 
 	public CGetHuobanDetailInfo() {
 	}

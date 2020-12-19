@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CReqCameraUrl__ extends mkio.Protocol { }
 
-/** 战斗录像协议begin 协议号从7301-7400
+/** 鎴樻枟褰曞儚鍗忚begin 鍗忚鍙蜂粠7301-7400
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -31,7 +31,7 @@ public class CReqCameraUrl extends __CReqCameraUrl__ {
 		return 793733;
 	}
 
-	public long battleid; // 战斗信息表id
+	public long battleid; // 鎴樻枟淇℃伅琛╥d
 
 	public CReqCameraUrl() {
 	}

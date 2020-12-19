@@ -25,7 +25,7 @@ public class SDropInstance extends __SDropInstance__ {
 		return 805549;
 	}
 
-	public int messageid; // ĞÅÏ¢±àºÅ
+	public int messageid; // ä¿¡æ¯ç¼–å·
 	public java.lang.String landname;
 
 	public SDropInstance() {

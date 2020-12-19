@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SOnTitle__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷Í¨Öª¿Í»§¶ËÅå´÷³ÆÎ½   Í¬Ê±·¢ËÍÖÜÎ§µÄÍæ¼Ò
+/** æœåŠ¡å™¨é€šçŸ¥å®¢æˆ·ç«¯ä½©æˆ´ç§°è°“   åŒæ—¶å‘é€å‘¨å›´çš„ç©å®¶
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SOnTitle extends __SOnTitle__ {
 		return 798436;
 	}
 
-	public long roleid; // ½ÇÉ«id
-	public int titleid; // ³ÆÎ½id
-	public java.lang.String titlename; // ³ÆÎ½Ãû
+	public long roleid; // è§’è‰²id
+	public int titleid; // ç§°è°“id
+	public java.lang.String titlename; // ç§°è°“å
 
 	public SOnTitle() {
 		titlename = "";

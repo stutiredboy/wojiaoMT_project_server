@@ -5,14 +5,14 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** µÈÅÅ°ñ
+/** ç­‰æ’æ¦œ
 */
 public class LevelRankData implements Marshal {
 	public long roleid; // roleid
-	public java.lang.String nickname; // Ãû×Ö
-	public int level; // µÈ¼¶
-	public int school; // Ö°Òµid
-	public int rank; // ÅÅÃû
+	public java.lang.String nickname; // åå­—
+	public int level; // ç­‰çº§
+	public int school; // èŒä¸šid
+	public int rank; // æ’å
 
 	public LevelRankData() {
 		nickname = "";

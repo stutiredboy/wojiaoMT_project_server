@@ -25,8 +25,8 @@ public class SRuneRequest extends __SRuneRequest__ {
 		return 808512;
 	}
 
-	public int requestnum; // ÇëÇó´ÎÊı
-	public java.util.ArrayList<fire.pb.clan.RuneRequestInfo> runerequestinfolist; // Ñ¡ÔñµÄĞÅÏ¢
+	public int requestnum; // è¯·æ±‚æ¬¡æ•°
+	public java.util.ArrayList<fire.pb.clan.RuneRequestInfo> runerequestinfolist; // é€‰æ‹©çš„ä¿¡æ¯
 
 	public SRuneRequest() {
 		runerequestinfolist = new java.util.ArrayList<fire.pb.clan.RuneRequestInfo>();

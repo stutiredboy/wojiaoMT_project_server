@@ -15,7 +15,7 @@ abstract class __CReqServerId__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请求服务器ID
+ * 璇锋眰鏈嶅姟鍣↖D
  * @author changhao
  *
  */

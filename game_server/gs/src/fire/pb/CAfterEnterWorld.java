@@ -10,7 +10,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CAfterEnterWorld__ extends mkio.Protocol { }
 
-/** ¿Í»§¶Ë½øÈë³¡¾°Íê±Ï
+/** å®¢æˆ·ç«¯è¿›å…¥åœºæ™¯å®Œæ¯•
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

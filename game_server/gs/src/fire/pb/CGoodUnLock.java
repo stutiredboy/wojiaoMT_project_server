@@ -30,7 +30,7 @@ public class CGoodUnLock extends __CGoodUnLock__ {
 		return 786582;
 	}
 
-	public java.lang.String password; // °²È«ËøÃÜÂë
+	public java.lang.String password; // å®‰å…¨é”å¯†ç 
 
 	public CGoodUnLock() {
 		password = "";

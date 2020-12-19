@@ -25,8 +25,8 @@ public class SGoldOrderBrowseBlackMarket extends __SGoldOrderBrowseBlackMarket__
 		return 810674;
 	}
 
-	public java.util.ArrayList<fire.pb.shop.GoldOrder> salelist; // 售卖列表
-	public java.util.ArrayList<fire.pb.shop.GoldOrder> buylist; // 购买列表
+	public java.util.ArrayList<fire.pb.shop.GoldOrder> salelist; // 鍞崠鍒楄〃
+	public java.util.ArrayList<fire.pb.shop.GoldOrder> buylist; // 璐拱鍒楄〃
 
 	public SGoldOrderBrowseBlackMarket() {
 		salelist = new java.util.ArrayList<fire.pb.shop.GoldOrder>();

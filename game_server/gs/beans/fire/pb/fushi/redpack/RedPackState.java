@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RedPackState implements Marshal , Comparable<RedPackState>{
-	public final static int STATE_CANGET = 0; // ¿ÉÒÔÇÀºì°ü
-	public final static int STATE_HAVE = 1; // ÒÑ¾­ÁìÈ¡ºì°ü
-	public final static int STATE_NONE = 2; // ºì°üÒÑ¾­ÇÀ¹â
+	public final static int STATE_CANGET = 0; // å¯ä»¥æŠ¢çº¢åŒ…
+	public final static int STATE_HAVE = 1; // å·²ç»é¢†å–çº¢åŒ…
+	public final static int STATE_NONE = 2; // çº¢åŒ…å·²ç»æŠ¢å…‰
 
 
 	public RedPackState() {

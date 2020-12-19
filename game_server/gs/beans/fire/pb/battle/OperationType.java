@@ -6,26 +6,26 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class OperationType implements Marshal , Comparable<OperationType>{
-	public final static int ACTION_ATTACK = 1; // ¹¥»÷
-	public final static int ACTION_SKILL = 2; // Ê¹ÓÃ¼¼ÄÜ
-	public final static int ACTION_USEITEM = 3; // Ê¹ÓÃÎïÆ·
-	public final static int ACTION_DEFEND = 4; // ·ÀÓù
-	public final static int ACTION_PROTECT = 5; // ±£»¤
-	public final static int ACTION_SUMMON = 6; // ÕÙ»½³èÎï
-	public final static int ACTION_WITHDRAW = 7; // ÕÙ»¹³èÎï
-	public final static int ACTION_CATHCH = 8; // ²¶×½
-	public final static int ACTION_ESCAPE = 9; // ÌÓÅÜ
-	public final static int ACTION_REST = 10; // ĞİÏ¢
-	public final static int ACTION_SPECIAL_SKILL = 11; // ÌØÊâ¼¼ÄÜ
-	public final static int ACTION_SUMMON_INSTANT = 12; // Ë²Ê±ÕÙ»½
-	public final static int ACTION_ESCAPE_INSTANT = 13; // Ë²Ê±ÌÓÅÜ
-	public final static int ACTION_FAILURE = 14; // ²Ù×÷Ê§°Ü
-	public final static int ACTION_BATTLE_END = 15; // Õ½¶·½áÊø,Ö»ÓĞAI¹ÖµÄAIÖ¸ÁîÓĞÕâ¸öAction
-	public final static int ACTION_ENVIRONMENTDEMO = 16; // ²»´øÊ©·¨ÕßµÄDemo£¬attackIDÌî0
-	public final static int ACTION_ENVIRONMENTCHANGE = 17; // Õ½³¡»·¾³¸Ä±ä operateidÌîÕ½³¡»·¾³id
-	public final static int ACTION_ROUNDENDDEMO = 18; // »ØºÏÄ©½áËãdemo
-	public final static int ACTION_UNIQUE_SKILL = 19; // ¾ø¼¼
-	public final static int ACTION_FAILURE_NO_WONDER = 20; // ²Ù×÷Ê§°Ü_²»´øÌ¾ºÅµÄ£¡
+	public final static int ACTION_ATTACK = 1; // æ”»å‡»
+	public final static int ACTION_SKILL = 2; // ä½¿ç”¨æŠ€èƒ½
+	public final static int ACTION_USEITEM = 3; // ä½¿ç”¨ç‰©å“
+	public final static int ACTION_DEFEND = 4; // é˜²å¾¡
+	public final static int ACTION_PROTECT = 5; // ä¿æŠ¤
+	public final static int ACTION_SUMMON = 6; // å¬å”¤å® ç‰©
+	public final static int ACTION_WITHDRAW = 7; // å¬è¿˜å® ç‰©
+	public final static int ACTION_CATHCH = 8; // æ•æ‰
+	public final static int ACTION_ESCAPE = 9; // é€ƒè·‘
+	public final static int ACTION_REST = 10; // ä¼‘æ¯
+	public final static int ACTION_SPECIAL_SKILL = 11; // ç‰¹æ®ŠæŠ€èƒ½
+	public final static int ACTION_SUMMON_INSTANT = 12; // ç¬æ—¶å¬å”¤
+	public final static int ACTION_ESCAPE_INSTANT = 13; // ç¬æ—¶é€ƒè·‘
+	public final static int ACTION_FAILURE = 14; // æ“ä½œå¤±è´¥
+	public final static int ACTION_BATTLE_END = 15; // æˆ˜æ–—ç»“æŸ,åªæœ‰AIæ€ªçš„AIæŒ‡ä»¤æœ‰è¿™ä¸ªAction
+	public final static int ACTION_ENVIRONMENTDEMO = 16; // ä¸å¸¦æ–½æ³•è€…çš„Demoï¼ŒattackIDå¡«0
+	public final static int ACTION_ENVIRONMENTCHANGE = 17; // æˆ˜åœºç¯å¢ƒæ”¹å˜ operateidå¡«æˆ˜åœºç¯å¢ƒid
+	public final static int ACTION_ROUNDENDDEMO = 18; // å›åˆæœ«ç»“ç®—demo
+	public final static int ACTION_UNIQUE_SKILL = 19; // ç»æŠ€
+	public final static int ACTION_FAILURE_NO_WONDER = 20; // æ“ä½œå¤±è´¥_ä¸å¸¦å¹å·çš„ï¼
 
 
 	public OperationType() {

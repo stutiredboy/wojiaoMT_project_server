@@ -12,7 +12,7 @@ abstract class __CFormationMakeBook__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 制作光环�?
+ * 鍒朵綔鍏夌幆涔?
  * @author changhao
  *
  */
@@ -33,20 +33,20 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (config == null)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:不知道的光环�? "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:涓嶇煡閬撶殑鍏夌幆涔? "+roleid);
 					return true;
 				}
 				
 				if (config.getItemtypeid() == TeamManager.ITEMTYPE_FORMBOOK_ID)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:不知道的光环�? "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:涓嶇煡閬撶殑鍏夌幆涔? "+roleid);
 					return true;					
 				}
 					
 				fire.pb.common.SCommon itemidconfig = ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(TeamManager.FORMBOOKHALF_COMMON_ID);
 				
-				String str = itemidconfig.getValue(); //得到残卷的道具id by changhao
+				String str = itemidconfig.getValue(); //寰楀埌娈嬪嵎鐨勯亾鍏穒d by changhao
 				int itemid = Integer.parseInt(str);
 				
 				Bag bag = new Bag(roleid, false);
@@ -55,7 +55,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if(number != TeamManager.FORMBOOKHALF_COMBINE_NUM){
 					
 					psend(roleid, new STeamError(TeamError.FormBookHalfNotEnough));
-					TeamManager.logger.debug("CFormationMakeBook:光环书残卷不�? "+roleid);		
+					TeamManager.logger.debug("CFormationMakeBook:鍏夌幆涔︽畫鍗蜂笉瓒? "+roleid);		
 					return false;
 				}				
 				
@@ -64,7 +64,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (1 != added)
 				{
 					psend(roleid, new STeamError(TeamError.UnkownError));
-					TeamManager.logger.debug("CFormationMakeBook:光环书创建失�? "+roleid);	
+					TeamManager.logger.debug("CFormationMakeBook:鍏夌幆涔﹀垱寤哄け璐? "+roleid);	
 					return false;						
 				}				
 				*/

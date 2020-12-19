@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class InstanceTimes implements Marshal , Comparable<InstanceTimes>{
-	public int instanceid; // ¸±±¾id
-	public int finishedtimes; // Íê³ÉµÄ´ÎÊı
-	public int totaltimes; // ×Ü´ÎÊı
+	public int instanceid; // å‰¯æœ¬id
+	public int finishedtimes; // å®Œæˆçš„æ¬¡æ•°
+	public int totaltimes; // æ€»æ¬¡æ•°
 
 	public InstanceTimes() {
 	}

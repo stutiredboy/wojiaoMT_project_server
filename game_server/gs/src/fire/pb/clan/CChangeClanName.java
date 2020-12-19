@@ -52,7 +52,7 @@ public class CChangeClanName extends __CChangeClanName__ {
 		int chineseCnt = 0;
 		int otherCnt = 0;
 		for (int i = 0; i < newname.length(); i++) {
-			// 匹配汉字
+			// 鍖归厤姹夊瓧
 			String regexStr = fire.pb.util.CheckName.getRegexStr();
 			if (newname.substring(i, i + 1).matches(regexStr)) {
 				chineseCnt++;
@@ -81,12 +81,12 @@ public class CChangeClanName extends __CChangeClanName__ {
 					fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 145077, null);
 					return false;
 				}
-				//判断修改权限，只有会长可以修�?
+				//鍒ゆ柇淇敼鏉冮檺锛屽彧鏈変細闀垮彲浠ヤ慨鏀?
 				if (clanInfo.getClanmaster() != roleid) {
 					fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 150127, null);
 					return false;
 				}
-				clanInfo.setOldclanname(clanInfo.getClanname());// 将当前公会名称设置到曾用名中
+				clanInfo.setOldclanname(clanInfo.getClanname());// 灏嗗綋鍓嶅叕浼氬悕绉拌缃埌鏇剧敤鍚嶄腑
 				clanInfo.setClanname(newname);
 				
 				int costHearthStone = fire.pb.clan.srv.ClanAuthManager.getInstance().getChangeClanNameCostHearthStone();
@@ -106,12 +106,12 @@ public class CChangeClanName extends __CChangeClanName__ {
 				mkdb.Procedure.psendWhileCommit(roleid, new SChangeClanName(newname));
 				fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(roleid, 160068, null);
 				
-				//公会频道发�?�消�?
+				//鍏細棰戦亾鍙戦?佹秷鎭?
 				MessageMgr.psendMsgNotifyWhileCommit(clanInfo.getMembers().keySet(), 160396, 0,Arrays.asList(newname));
-				//好友频道提示
+				//濂藉弸棰戦亾鎻愮ず
 				MessageMgr.psendSystemMessageToRoles(clanInfo.getMembers().keySet(), 160396, Arrays.asList(newname));
 				
-				fire.pb.clan.srv.ClanManage.logger.info("玩家角色id "+roleid+"\t修改公会名称，消耗符�? "+costHearthStone);
+				fire.pb.clan.srv.ClanManage.logger.info("鐜╁瑙掕壊id "+roleid+"\t淇敼鍏細鍚嶇О锛屾秷鑰楃鐭? "+costHearthStone);
 				
 				for (long members : clanInfo.getMembers().keySet())
 				{
@@ -123,10 +123,10 @@ public class CChangeClanName extends __CChangeClanName__ {
 				mkdb.Procedure.pexecuteWhileCommit(new fire.pb.clan.fight.PClanFightUpdateChangeName(clanInfo.getKey(), clanInfo.getClanname()));					
 				
 				String mastername = new PropRole(roleid, true).getName();
-				//处理帮派事件
+				//澶勭悊甯淳浜嬩欢
 				ClanManage.addDealClanEventInfo(clanInfo,ClanManage.EVENT_CHANGE_NAME,roleid,mastername,newname,"");
 								
-				//工会竞�?�榜删除 by changhao
+				//宸ヤ細绔為?熸鍒犻櫎 by changhao
 				xbean.ClanProgressRankList clanprogressrankmclist = xtable.Clanprogressranklist.get(RankType.FACTION_COPY);
 				if(null != clanprogressrankmclist)
 				{

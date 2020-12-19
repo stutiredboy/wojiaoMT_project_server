@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class LDmodelType implements Marshal , Comparable<LDmodelType>{
-	public final static int DAY_FIGHT = 1; // ±¾ÈÕÉúËÀÕ½ÅÅĞĞ
-	public final static int WEEK_FIGHT = 2; // ±¾ÖÜÉúËÀÕ½ÅÅĞĞ
-	public final static int HIS_FIGHT = 3; // ÀúÊ·ÉúËÀÕ½ÅÅĞĞ
-	public final static int SELF_FIGHT = 4; // ×Ô¼º
+	public final static int DAY_FIGHT = 1; // æœ¬æ—¥ç”Ÿæ­»æˆ˜æ’è¡Œ
+	public final static int WEEK_FIGHT = 2; // æœ¬å‘¨ç”Ÿæ­»æˆ˜æ’è¡Œ
+	public final static int HIS_FIGHT = 3; // å†å²ç”Ÿæ­»æˆ˜æ’è¡Œ
+	public final static int SELF_FIGHT = 4; // è‡ªå·±
 
 
 	public LDmodelType() {

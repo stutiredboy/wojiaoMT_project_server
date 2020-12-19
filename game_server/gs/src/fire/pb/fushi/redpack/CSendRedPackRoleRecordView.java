@@ -30,8 +30,8 @@ public class CSendRedPackRoleRecordView extends __CSendRedPackRoleRecordView__ {
 		return 812540;
 	}
 
-	public int modeltype; // 0发出 1收到
-	public java.lang.String redpackid; // 红包Id  用来处理分页
+	public int modeltype; // 0鍙戝嚭 1鏀跺埌
+	public java.lang.String redpackid; // 绾㈠寘Id  鐢ㄦ潵澶勭悊鍒嗛〉
 
 	public CSendRedPackRoleRecordView() {
 		redpackid = "";

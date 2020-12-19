@@ -5,13 +5,13 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ĞÒÔË´ó×ªÅÌ½±ÀøÀàĞÍ
+/** å¹¸è¿å¤§è½¬ç›˜å¥–åŠ±ç±»å‹
 */
 public class ForturneWheelType implements Marshal , Comparable<ForturneWheelType>{
-	public int itemtype; // 1ÎªÎïÆ·,2Îª¾­Ñé,3Îª½ğÇ®
-	public int id; // ÎïÆ·µÄid,¾­ÑéºÍ½ğÇ®µÄidÎª0
-	public long num; // ½ğÇ®»ò¾­ÑéµÄÊıÁ¿,ÎïÆ·µÄÊıÁ¿
-	public int times; // ÕæÕıµÄ±¶ÊıÖµ*10
+	public int itemtype; // 1ä¸ºç‰©å“,2ä¸ºç»éªŒ,3ä¸ºé‡‘é’±
+	public int id; // ç‰©å“çš„id,ç»éªŒå’Œé‡‘é’±çš„idä¸º0
+	public long num; // é‡‘é’±æˆ–ç»éªŒçš„æ•°é‡,ç‰©å“çš„æ•°é‡
+	public int times; // çœŸæ­£çš„å€æ•°å€¼*10
 
 	public ForturneWheelType() {
 	}

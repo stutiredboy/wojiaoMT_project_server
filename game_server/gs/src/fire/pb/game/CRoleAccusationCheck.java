@@ -15,7 +15,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRoleAccusationCheck__ extends mkio.Protocol { }
 
-/** ¾Ù±¨Ê±ºò¿Í»§¶Ë¸ø·şÎñÆ÷·¢ÏûÏ¢,ÓÃÓÚ¿Û·Ñ
+/** ä¸¾æŠ¥æ—¶å€™å®¢æˆ·ç«¯ç»™æœåŠ¡å™¨å‘æ¶ˆæ¯,ç”¨äºæ‰£è´¹
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -38,14 +38,14 @@ public class CRoleAccusationCheck extends __CRoleAccusationCheck__ {
 					return true;
 				}
 				
-				// æ‰£é’±
+				// éµï½‰æŒ¶
 				if (bag.subMoney(-money, Commontext.REASON_STRING,
 						fire.log.enums.YYLoggerTuJingEnum.tujing_Value_jubao, 0) != -money) {
 					MessageMgr.sendMsgNotify(roleId, 120025, null);
 					return true;
 				}
 				
-				// æ‰£æ¬¾æˆåŠŸ
+				// éµï½†îƒ™é´æ„¬å§›
 				Procedure.psendWhileCommit(roleId, new SRoleAccusationCheck(0));
 				return true;
 			};

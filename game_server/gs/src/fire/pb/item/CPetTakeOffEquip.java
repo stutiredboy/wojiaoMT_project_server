@@ -8,6 +8,8 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetTakeOffEquip__ extends mkio.Protocol { }
 
+/** 宠物脱下装备
+*/
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 

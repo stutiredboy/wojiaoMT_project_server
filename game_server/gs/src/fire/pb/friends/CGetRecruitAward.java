@@ -36,7 +36,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetRecruitAward__ extends mkio.Protocol { }
 
-/** ��ļ
+/** 招募
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -53,7 +53,7 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 		
 		fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, awardid, paras,
 						fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shifu, awardid,
-						0, "招募奖励");
+						0, "鎷涘嫙濂栧姳");
 	}
 	
 	private static class GetRecruitAwardHttpHandler extends HttpCallBackHandler {
@@ -82,11 +82,11 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
             	new mkdb.Procedure() {
     				@Override
     				protected boolean process() {
-    					//发奖�?
+    					//鍙戝鍔?
     					if(awardtype == 1) {
     						RecruitAwards ra = ConfigManager.getInstance().getConf(RecruitAwards.class).get(proto.awardid);
     						if(ra == null) {
-    							logger.info("CGetRecruitAward.角色[" + roleId + "]准备领取招募数量的奖�?:" + proto.awardid + ",但配置为空！");
+    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]鍑嗗棰嗗彇鎷涘嫙鏁伴噺鐨勫鍔?:" + proto.awardid + ",浣嗛厤缃负绌猴紒");
     							snd.result = 0;
     						} else {
     							String [] awardLst = ra.getAwards().split(";");
@@ -97,10 +97,10 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
     							snd.result = 1;
     						}
     					} else if(awardtype == 2) {
-    						//草泥马策划改�?求，白做
+    						//鑽夋偿椹瓥鍒掓敼闇?姹傦紝鐧藉仛
 //    						RecruitChargeAwards rca = ConfigManager.getInstance().getConf(RecruitChargeAwards.class).get(proto.awardid);
 //    						if(rca == null) {
-//    							logger.info("CGetRecruitAward.角色[" + roleId + "]准备领取角色[" + proto.recruitrole + "]招募充�?�的奖励:" + proto.awardid + ",但配置为空！");
+//    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]鍑嗗棰嗗彇瑙掕壊[" + proto.recruitrole + "]鎷涘嫙鍏呭?肩殑濂栧姳:" + proto.awardid + ",浣嗛厤缃负绌猴紒");
 //    							snd.result = 0;
 //    						} else {
 //    							String [] awardLst = rca.getAwards().split(";");
@@ -113,7 +113,7 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
     					} else if(awardtype == 3) {
     						MyRecruitAwards mra = ConfigManager.getInstance().getConf(MyRecruitAwards.class).get(proto.awardid);
     						if(mra == null) {
-    							logger.info("CGetRecruitAward.角色[" + roleId + "]准备领取角色[" + proto.recruitrole + "]招募等级的奖�?:" + proto.awardid + ",但配置为空！");
+    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]鍑嗗棰嗗彇瑙掕壊[" + proto.recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔?:" + proto.awardid + ",浣嗛厤缃负绌猴紒");
     							snd.result = 0;
     						} else {
     							String [] awardLst = mra.getAwards().split(";");
@@ -127,9 +127,9 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 	    							srcra.setGetnum(srcra.getGetnum() + 1);
 	    							final long now = Calendar.getInstance().getTimeInMillis();
 	    							srcra.setGettime(now);
-	    							logger.info("CGetRecruitAward.角色[" + roleId + "]领取了角色[" + proto.recruitrole + "]招募等级的奖�?:" + proto.awardid + "!" + roleId + "已经获得" + srcra.getGetnum() + "次礼�?.");
+	    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]棰嗗彇浜嗚鑹瞇" + proto.recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔?:" + proto.awardid + "!" + roleId + "宸茬粡鑾峰緱" + srcra.getGetnum() + "娆＄ぜ鐗?.");
     							} else {
-    								logger.error("CGetRecruitAward.角色[" + roleId + "]领取了奖�?,但是招募xdb数据null!");
+    								logger.error("CGetRecruitAward.瑙掕壊[" + roleId + "]棰嗗彇浜嗗鍔?,浣嗘槸鎷涘嫙xdb鏁版嵁null!");
     							}
     						}
     					}
@@ -151,63 +151,63 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		logger.info("CGetRecruitAward.角色[" + roleid + "]准备领取招募奖励!" + 
+		logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇鎷涘嫙濂栧姳!" + 
 			"type=" + awardtype + ",id=" + awardid + ",recruitrole=" + recruitrole + "@server=" + recruitserver);
 		try {
 			String serverid = Gs.serverid;
 			if(awardtype == 1) {
-				//招募个数奖励
+				//鎷涘嫙涓暟濂栧姳
 				RecruitAwards ra = ConfigManager.getInstance().getConf(RecruitAwards.class).get(awardid);
 				if(ra == null) {
-					logger.info("CGetRecruitAward.角色[" + roleid + "]准备领取招募数量的奖�?:" + awardid + ",但配置为空！");
+					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇鎷涘嫙鏁伴噺鐨勫鍔?:" + awardid + ",浣嗛厤缃负绌猴紒");
 					return;
 				}
 				final SCommon cc = RoleConfigManager.getRoleCommonConfig(423);
-				int conditionLevel = cc != null ? Integer.parseInt(cc.getValue()) : 0; //招募好友等级限制
+				int conditionLevel = cc != null ? Integer.parseInt(cc.getValue()) : 0; //鎷涘嫙濂藉弸绛夌骇闄愬埗
 				final String buildurl = String.format(
 						"http://%1$s%2$s?serverid=%3$s&roleid=%4$s&times=%5$s&level=%6$s",
-						address, func1, serverid, roleid, ra.getNum(), conditionLevel); //招募次数(人数)奖励
+						address, func1, serverid, roleid, ra.getNum(), conditionLevel); //鎷涘嫙娆℃暟(浜烘暟)濂栧姳
 				final HttpGet request = new HttpGet(buildurl);
 				Gs.getHttpClient().execute(request, new GetRecruitAwardHttpHandler(roleid, request, awardtype, this));
 			} else if(awardtype == 2) {
-				//充�?�奖�?//草泥马策划改�?求，白做
+				//鍏呭?煎鍔?//鑽夋偿椹瓥鍒掓敼闇?姹傦紝鐧藉仛
 //				RecruitChargeAwards rca = ConfigManager.getInstance().getConf(RecruitChargeAwards.class).get(awardid);
 //				if(rca == null) {
-//					logger.info("CGetRecruitAward.角色[" + roleid + "]准备领取角色[" + recruitrole + "]招募充�?�的奖励:" + awardid + ",但配置为空！");
+//					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙鍏呭?肩殑濂栧姳:" + awardid + ",浣嗛厤缃负绌猴紒");
 //					return;
 //				}
 //				final String buildurl = String.format(
 //						"http://%1$s%2$s?serverid=%3$s&roleid=%4$s&new_serverid=%5$s&new_roleid=%6$s&prize_type=%7$s&amount=%8$s",
-//						address, func2, serverid, roleid, recruitserver, recruitrole, 1, rca.getLevel()); //奖励类型prize_type=1充�??
+//						address, func2, serverid, roleid, recruitserver, recruitrole, 1, rca.getLevel()); //濂栧姳绫诲瀷prize_type=1鍏呭??
 //				final HttpGet request = new HttpGet(buildurl);
 //				Gs.getHttpClient().execute(request, new GetRecruitAwardHttpHandler(roleid, request, awardtype, this));
 			} else if(awardtype == 3) {
-				//升级奖励
+				//鍗囩骇濂栧姳
 				final long now = Calendar.getInstance().getTimeInMillis();
 				Long gettime = xtable.Rolerecruitaward.selectGettime(roleid);
 				long lastgettime = (gettime == null ? 0L : gettime.longValue());
 				if (fire.pb.util.DateValidate.inTheSameWeek(lastgettime, now)){
-					//是同�?�?,�?测次�?
+					//鏄悓涓?鍛?,妫?娴嬫鏁?
 					final SCommon cc = RoleConfigManager.getRoleCommonConfig(422);
-					int maxnum = cc != null ? Integer.parseInt(cc.getValue()) : 0; //每周的最大获得次�?
-					int alreadynum = xtable.Rolerecruitaward.selectGetnum(roleid); //已经获得次数
+					int maxnum = cc != null ? Integer.parseInt(cc.getValue()) : 0; //姣忓懆鐨勬渶澶ц幏寰楁鏁?
+					int alreadynum = xtable.Rolerecruitaward.selectGetnum(roleid); //宸茬粡鑾峰緱娆℃暟
 					if(alreadynum < maxnum) {
-						//没有超过次数,继续
+						//娌℃湁瓒呰繃娆℃暟,缁х画
 					} else {
 						//MessageMgr.psendMsgNotify(roleid, 170043, null);
 						MessageMgr.sendMsgNotify(roleid, 170043, null);
-						logger.info("CGetRecruitAward.角色[" + roleid + "]准备领取角色[" + recruitrole + "]招募等级的奖励，但本周已经超过领取次数上�?(" + maxnum + ")，不会获得礼物！");
+						logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔憋紝浣嗘湰鍛ㄥ凡缁忚秴杩囬鍙栨鏁颁笂闄?(" + maxnum + ")锛屼笉浼氳幏寰楃ぜ鐗╋紒");
 						return;
 					}
 				} else {
-					//不是同一�?,清空(上周)历史领取次数
+					//涓嶆槸鍚屼竴鍛?,娓呯┖(涓婂懆)鍘嗗彶棰嗗彇娆℃暟
 					new mkdb.Procedure() {
 	    				@Override
 	    				protected boolean process() {
-	    					logger.info("CGetRecruitAward.角色[" + roleid + "]准备领取角色[" + recruitrole + "]招募等级的奖励，跨天了，清空历史领取次数�?");
+	    					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔憋紝璺ㄥぉ浜嗭紝娓呯┖鍘嗗彶棰嗗彇娆℃暟锛?");
 	    					xbean.RecruitAward srcra = xtable.Rolerecruitaward.get(roleid);
 							if(srcra == null){
-								logger.error("CGetRecruitAward.角色[" + roleid + "]招募xdb数据null!");
+								logger.error("CGetRecruitAward.瑙掕壊[" + roleid + "]鎷涘嫙xdb鏁版嵁null!");
 	    						return false;
 							}
 							srcra.setGetnum(0);
@@ -217,12 +217,12 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 				}
 				MyRecruitAwards mra = ConfigManager.getInstance().getConf(MyRecruitAwards.class).get(awardid);
 				if(mra == null) {
-					logger.info("CGetRecruitAward.角色[" + roleid + "]准备领取角色[" + recruitrole + "]招募等级的奖�?:" + awardid + ",但配置为空！");
+					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔?:" + awardid + ",浣嗛厤缃负绌猴紒");
 					return;
 				}
 				final String buildurl = String.format(
 						"http://%1$s%2$s?serverid=%3$s&roleid=%4$s&new_serverid=%5$s&new_roleid=%6$s&prize_type=%7$s&amount=%8$s",
-						address, func2, serverid, roleid, recruitserver, recruitrole, 0, mra.getLevel()); //奖励类型prize_type=0等级
+						address, func2, serverid, roleid, recruitserver, recruitrole, 0, mra.getLevel()); //濂栧姳绫诲瀷prize_type=0绛夌骇
 				final HttpGet request = new HttpGet(buildurl);
 				Gs.getHttpClient().execute(request, new GetRecruitAwardHttpHandler(roleid, request, awardtype, this));
 			}	
@@ -239,10 +239,10 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 		return 806662;
 	}
 
-	public int awardtype; // �������� 1��ļ�������� 2��ļ��ҳ�ֵ���� 3��ļ��ҵȼ�����
-	public int awardid; // ������ļ���������id
-	public long recruitrole; // ����ļ�Ľ�ɫid
-	public java.lang.String recruitserver; // ����ļ�Ľ�ɫ���ڷ�����id
+	public int awardtype; // 奖励类型 1招募人数奖励 2招募玩家充值奖励 3招募玩家等级奖励
+	public int awardid; // 配置招募奖励表里的id
+	public long recruitrole; // 被招募的角色id
+	public java.lang.String recruitserver; // 被招募的角色所在服务器id
 
 	public CGetRecruitAward() {
 		recruitserver = "";

@@ -20,7 +20,7 @@ public class QueryOrderResponse extends __QueryOrderResponse__ {
 	protected void process() {
 		fire.log.LogManager.logger.info("receive QueryOrderResponse.platid:"+platid+",platsn:"+orderserialplat+",gamesn:"+orderserialgame+",errorcode:"+errorcode);
 		if (fire.pb.fushi.Module.getIsYYBUser(userid)) {
-			FushiManager.logger.error("应用宝服务器，符石完全托管，禁用原来订单充�?��?�辑�?");
+			FushiManager.logger.error("搴旂敤瀹濇湇鍔″櫒锛岀鐭冲畬鍏ㄦ墭绠★紝绂佺敤鍘熸潵璁㈠崟鍏呭?奸?昏緫锛?");
 			return;
 		}
 		new fire.pb.fushi.PQueryOrderResponseNew(this).submit();
@@ -34,15 +34,15 @@ public class QueryOrderResponse extends __QueryOrderResponse__ {
 		return 8905;
 	}
 
-	public final static int restype_query = 0; // ��ѯ���ؽ��
-	public final static int restype_notify = 0; // ����ͨ�淵�ؽ��
+	public final static int restype_query = 0; // 查询返回结果
+	public final static int restype_notify = 0; // 主动通告返回结果
 
 	public int errorcode;
 	public int restype;
-	public java.lang.String platid; // ƽ̨Ψһ��ʶ
-	public java.lang.String orderserialplat; // ƽ̨�õĶ�����
-	public java.lang.String orderserialgame; // ��Ϸ���Լ��õĶ�����
-	public int userid; // ������صĽ���У���û��userid����Ϣ����ֵΪ-1
+	public java.lang.String platid; // 平台唯一标识
+	public java.lang.String orderserialplat; // 平台用的订单号
+	public java.lang.String orderserialgame; // 游戏内自己用的订单号
+	public int userid; // 如果返回的结果中，并没有userid的信息，该值为-1
 	public com.locojoy.base.Octets vars;
 
 	public QueryOrderResponse() {

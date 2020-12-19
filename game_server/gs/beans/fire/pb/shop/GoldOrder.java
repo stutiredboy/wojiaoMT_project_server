@@ -5,16 +5,16 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ½ğ±Ò¶©µ¥
+/** é‡‘å¸è®¢å•
 */
 public class GoldOrder implements Marshal , Comparable<GoldOrder>{
-	public long pid; // ¶©µ¥±àºÅ
-	public long number; // ½ğ±ÒÊıÁ¿, ÕûÊı
-	public long price; // ³öÊÛ¼Û¸ñ, ÕûÊı, µ¥Î»ÈËÃñ±Ò·Ö
-	public int publicity; // ¹«Ê¾Ê±¼ä, ÕûÊı, µ¥Î»Ğ¡Ê±.Èç¹û²»ĞèÒª¹«Ê¾´«0
-	public int locktime; // Ëø¶¨¶©µ¥Ê±¼ä,µ¥Î»Ãë.Ëø¶¨Ê±²»ÄÜÏÂ¼Ü
-	public int state; // ¶©µ¥×´Ì¬, 1ÔÚÊÛ, 2Ëø¶¨, 3ÒÑÊÛ, 4´ıÁìÈ¡, 5ÁìÈ¡Íê³É
-	public long time; // ¶©µ¥´´½¨Ê±¼ä,µ¥Î»ºÁÃë
+	public long pid; // è®¢å•ç¼–å·
+	public long number; // é‡‘å¸æ•°é‡, æ•´æ•°
+	public long price; // å‡ºå”®ä»·æ ¼, æ•´æ•°, å•ä½äººæ°‘å¸åˆ†
+	public int publicity; // å…¬ç¤ºæ—¶é—´, æ•´æ•°, å•ä½å°æ—¶.å¦‚æœä¸éœ€è¦å…¬ç¤ºä¼ 0
+	public int locktime; // é”å®šè®¢å•æ—¶é—´,å•ä½ç§’.é”å®šæ—¶ä¸èƒ½ä¸‹æ¶
+	public int state; // è®¢å•çŠ¶æ€, 1åœ¨å”®, 2é”å®š, 3å·²å”®, 4å¾…é¢†å–, 5é¢†å–å®Œæˆ
+	public long time; // è®¢å•åˆ›å»ºæ—¶é—´,å•ä½æ¯«ç§’
 
 	public GoldOrder() {
 		pid = 0;

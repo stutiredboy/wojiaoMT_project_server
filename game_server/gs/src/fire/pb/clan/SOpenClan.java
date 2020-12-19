@@ -25,26 +25,26 @@ public class SOpenClan extends __SOpenClan__ {
 		return 808449;
 	}
 
-	public int index; // ¹«»áĞòºÅ
-	public java.lang.String clanname; // ¹«»áÃû³Æ
-	public long clanid; // ¹«»áid
-	public int clanlevel; // ¹«»áµÈ¼¶
-	public int membersnum; // ³ÉÔ±ÈËÊı
-	public java.lang.String clanmaster; // °ïÖ÷
-	public long masterid; // °ïÖ÷ID
-	public long vicemasterid; // ¸±°ïÖ÷ID
-	public java.lang.String clancreator; // ´´Ê¼ÈË
-	public java.lang.String clanaim; // ¹«»á×ÚÖ¼
-	public java.util.ArrayList<fire.pb.clan.ClanMember> memberlist; // ¹«»á³ÉÔ±ÁĞ±í
-	public int money; // ¹«»á×Ê½ğ by changhao
-	public java.util.HashMap<Integer,Integer> house; // 2ÊÇ½ğ¿â3ÊÇÒ©·¿4ÊÇÂÃµê   3¸ö½¨ÖşµÄµÈ¼¶ by changhao
-	public java.lang.String oldclanname; // ¹«»áÔøÓÃÃû
-	public long clancreatorid; // ´´Ê¼ÈËID
-	public int autostate; // ¹«»á×Ô¶¯½ÓÊÕÉêÇëÈËÈë»áµÄ×´Ì¬£º0¹Ø±Õ 1¿ªÆô
-	public short requestlevel; // ÉêÇë¹«»áµÈ¼¶ÏŞÖÆ
-	public int costeverymoney; // Ã¿ÌìÎ¬»¤ĞèÒªµÄ×Ê½ğ
-	public java.util.HashMap<Integer,Integer> costmax; // 1ÊÇ´óÌü 2ÊÇ½ğ¿â3ÊÇÒ©·¿4ÊÇÂÃµê   4¸ö½¨ÖşÉı¼¶ĞèÒªµÄ×î´ó×Ê½ğ
-	public java.util.HashMap<Integer,Integer> claninstservice; // ¹«»á¸±±¾  key ÊÇ½øÈë¸±±¾·şÎñ±àºÅ value ÊÇÊÇ·ñÊÇÑ¡ÖĞµÄ¸±±¾
+	public int index; // å…¬ä¼šåºå·
+	public java.lang.String clanname; // å…¬ä¼šåç§°
+	public long clanid; // å…¬ä¼šid
+	public int clanlevel; // å…¬ä¼šç­‰çº§
+	public int membersnum; // æˆå‘˜äººæ•°
+	public java.lang.String clanmaster; // å¸®ä¸»
+	public long masterid; // å¸®ä¸»ID
+	public long vicemasterid; // å‰¯å¸®ä¸»ID
+	public java.lang.String clancreator; // åˆ›å§‹äºº
+	public java.lang.String clanaim; // å…¬ä¼šå®—æ—¨
+	public java.util.ArrayList<fire.pb.clan.ClanMember> memberlist; // å…¬ä¼šæˆå‘˜åˆ—è¡¨
+	public int money; // å…¬ä¼šèµ„é‡‘ by changhao
+	public java.util.HashMap<Integer,Integer> house; // 2æ˜¯é‡‘åº“3æ˜¯è¯æˆ¿4æ˜¯æ—…åº—   3ä¸ªå»ºç­‘çš„ç­‰çº§ by changhao
+	public java.lang.String oldclanname; // å…¬ä¼šæ›¾ç”¨å
+	public long clancreatorid; // åˆ›å§‹äººID
+	public int autostate; // å…¬ä¼šè‡ªåŠ¨æ¥æ”¶ç”³è¯·äººå…¥ä¼šçš„çŠ¶æ€ï¼š0å…³é—­ 1å¼€å¯
+	public short requestlevel; // ç”³è¯·å…¬ä¼šç­‰çº§é™åˆ¶
+	public int costeverymoney; // æ¯å¤©ç»´æŠ¤éœ€è¦çš„èµ„é‡‘
+	public java.util.HashMap<Integer,Integer> costmax; // 1æ˜¯å¤§å… 2æ˜¯é‡‘åº“3æ˜¯è¯æˆ¿4æ˜¯æ—…åº—   4ä¸ªå»ºç­‘å‡çº§éœ€è¦çš„æœ€å¤§èµ„é‡‘
+	public java.util.HashMap<Integer,Integer> claninstservice; // å…¬ä¼šå‰¯æœ¬  key æ˜¯è¿›å…¥å‰¯æœ¬æœåŠ¡ç¼–å· value æ˜¯æ˜¯å¦æ˜¯é€‰ä¸­çš„å‰¯æœ¬
 
 	public SOpenClan() {
 		clanname = "";

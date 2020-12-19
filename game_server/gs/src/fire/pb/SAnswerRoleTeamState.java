@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SAnswerRoleTeamState__ extends mkio.Protocol { }
 
-/** ·µ»ØÍæ¼ÒÇëÇóµÄÆäËûÍæ¼ÒµÄ×é¶ÓÇé¿ö
+/** è¿”å›ç©å®¶è¯·æ±‚çš„å…¶ä»–ç©å®¶çš„ç»„é˜Ÿæƒ…å†µ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,8 +28,8 @@ public class SAnswerRoleTeamState extends __SAnswerRoleTeamState__ {
 	}
 
 	public long roleid;
-	public int level; // µÈ¼¶
-	public int teamstate; // ÊÇ·ñÓĞ¶ÓÎé£¬0±íÊ¾Ã»ÓĞ¶ÓÎé£¬1±íÊ¾ÓĞ¶ÓÎé
+	public int level; // ç­‰çº§
+	public int teamstate; // æ˜¯å¦æœ‰é˜Ÿä¼ï¼Œ0è¡¨ç¤ºæ²¡æœ‰é˜Ÿä¼ï¼Œ1è¡¨ç¤ºæœ‰é˜Ÿä¼
 
 	public SAnswerRoleTeamState() {
 	}

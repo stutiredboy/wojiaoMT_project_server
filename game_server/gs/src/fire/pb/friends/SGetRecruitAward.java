@@ -25,11 +25,11 @@ public class SGetRecruitAward extends __SGetRecruitAward__ {
 		return 806663;
 	}
 
-	public int result; // ÁìÈ¡ÕĞÄ¼½±Àø½á¹û 0Ê§°Ü 1³É¹¦
-	public int awardtype; // ½±ÀøÀàĞÍ 1ÕĞÄ¼ÈËÊı½±Àø 2ÕĞÄ¼Íæ¼Ò³äÖµ½±Àø 3ÕĞÄ¼Íæ¼ÒµÈ¼¶½±Àø
-	public int awardid; // ÅäÖÃÕĞÄ¼½±Àø±íÀïµÄid
-	public long recruitrole; // ±»ÕĞÄ¼µÄ½ÇÉ«id
-	public java.lang.String recruitserver; // ±»ÕĞÄ¼µÄ½ÇÉ«ËùÔÚ·şÎñÆ÷id
+	public int result; // é¢†å–æ‹›å‹Ÿå¥–åŠ±ç»“æœ 0å¤±è´¥ 1æˆåŠŸ
+	public int awardtype; // å¥–åŠ±ç±»å‹ 1æ‹›å‹Ÿäººæ•°å¥–åŠ± 2æ‹›å‹Ÿç©å®¶å……å€¼å¥–åŠ± 3æ‹›å‹Ÿç©å®¶ç­‰çº§å¥–åŠ±
+	public int awardid; // é…ç½®æ‹›å‹Ÿå¥–åŠ±è¡¨é‡Œçš„id
+	public long recruitrole; // è¢«æ‹›å‹Ÿçš„è§’è‰²id
+	public java.lang.String recruitserver; // è¢«æ‹›å‹Ÿçš„è§’è‰²æ‰€åœ¨æœåŠ¡å™¨id
 
 	public SGetRecruitAward() {
 		recruitserver = "";

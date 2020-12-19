@@ -16,7 +16,7 @@ public class CReqDelColor extends __CReqDelColor__ {
 	public static final Logger logger = Logger.getLogger("SYSTEM");
 	@Override
 	protected void process() {
-//		删除衣柜配色方案
+//		鍒犻櫎琛ｆ煖閰嶈壊鏂规
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
@@ -37,7 +37,7 @@ public class CReqDelColor extends __CReqDelColor__ {
 //				SReqDelColor sReqDelColor=new SReqDelColor();
 //				gnet.link.Onlines.getInstance().send(roleid, sReqDelColor);
 				CReqColorRoomView.sendColorRoomInfo(roleid);
-				logger.info("角色id "+roleid+"删除衣橱的染色方�? "+removeindex);
+				logger.info("瑙掕壊id "+roleid+"鍒犻櫎琛ｆ┍鐨勬煋鑹叉柟妗? "+removeindex);
 				return true;
 			}
 		}.submit();
@@ -53,7 +53,7 @@ public class CReqDelColor extends __CReqDelColor__ {
 		return 786536;
 	}
 
-	public int removeindex; // ɾ������
+	public int removeindex; // 删除索引
 
 	public CReqDelColor() {
 	}

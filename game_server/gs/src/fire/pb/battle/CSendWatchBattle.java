@@ -41,7 +41,7 @@ public class CSendWatchBattle extends __CSendWatchBattle__ {
 		return 793443;
 	}
 
-	public long roleid; // 要观战的战斗角色id
+	public long roleid; // 瑕佽鎴樼殑鎴樻枟瑙掕壊id
 
 	public CSendWatchBattle() {
 	}

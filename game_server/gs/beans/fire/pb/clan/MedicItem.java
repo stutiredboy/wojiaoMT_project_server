@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class MedicItem implements Marshal , Comparable<MedicItem>{
-	public int itemid; // 物品id
-	public int itemnum; // 物品数量
+	public int itemid; // 鐗╁搧id
+	public int itemnum; // 鐗╁搧鏁伴噺
 
 	public MedicItem() {
 	}

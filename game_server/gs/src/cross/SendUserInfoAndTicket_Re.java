@@ -20,13 +20,13 @@ abstract class __SendUserInfoAndTicket_Re__ extends mkio.Protocol { }
 public class SendUserInfoAndTicket_Re extends __SendUserInfoAndTicket_Re__ {
 	@Override
 	protected void process() {
-		CrossManager.logger.info("SendUserInfoAndTicket_Re.原服收到来自跨服userId=" + userid + "的SendUserInfoAndTicket_Re协议!");
+		CrossManager.logger.info("SendUserInfoAndTicket_Re.鍘熸湇鏀跺埌鏉ヨ嚜璺ㄦ湇userId=" + userid + "鐨凷endUserInfoAndTicket_Re鍗忚!");
 		long roleid = CrossManager.getInstance().getTransferRoleByUserId(userid);
 		if (roleid <= 0){
-			CrossManager.logger.error("SendUserInfoAndTicket_Re.原服正在跨服的角色中不存�?:" + userid + "!");
+			CrossManager.logger.error("SendUserInfoAndTicket_Re.鍘熸湇姝ｅ湪璺ㄦ湇鐨勮鑹蹭腑涓嶅瓨鍦?:" + userid + "!");
 			return;	
 		}
-		CrossManager.logger.info("SendUserInfoAndTicket_Re.原服收到来自跨服回复.roleId=" + roleid + ",retcode=" + retcode);
+		CrossManager.logger.info("SendUserInfoAndTicket_Re.鍘熸湇鏀跺埌鏉ヨ嚜璺ㄦ湇鍥炲.roleId=" + roleid + ",retcode=" + retcode);
 		if (retcode != RET_OK) {
 			return;
 		}

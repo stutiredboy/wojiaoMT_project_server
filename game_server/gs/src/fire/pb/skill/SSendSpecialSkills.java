@@ -25,8 +25,8 @@ public class SSendSpecialSkills extends __SSendSpecialSkills__ {
 		return 800443;
 	}
 
-	public java.util.ArrayList<Integer> skills; // 特技
-	public java.util.ArrayList<Integer> effects; // 特效
+	public java.util.ArrayList<Integer> skills; // 鐗规妧
+	public java.util.ArrayList<Integer> effects; // 鐗规晥
 
 	public SSendSpecialSkills() {
 		skills = new java.util.ArrayList<Integer>();

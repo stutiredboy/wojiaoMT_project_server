@@ -25,7 +25,7 @@ public class SBattleFieldAct extends __SBattleFieldAct__ {
 		return 808537;
 	}
 
-	public int roleact; // Íæ¼ÒÐÐ¶¯Á¦ by changhao
+	public int roleact; // çŽ©å®¶è¡ŒåŠ¨åŠ› by changhao
 
 	public SBattleFieldAct() {
 	}

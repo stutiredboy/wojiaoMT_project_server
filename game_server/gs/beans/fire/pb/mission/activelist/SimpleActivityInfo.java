@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SimpleActivityInfo implements Marshal , Comparable<SimpleActivityInfo>{
-	public int num; // »î¶¯´ÎÊı
-	public int num2; // »î¶¯´ÎÊı2
-	public int activevalue; // »î¶¯»ñµÃ»îÔ¾¶È
+	public int num; // æ´»åŠ¨æ¬¡æ•°
+	public int num2; // æ´»åŠ¨æ¬¡æ•°2
+	public int activevalue; // æ´»åŠ¨è·å¾—æ´»è·ƒåº¦
 
 	public SimpleActivityInfo() {
 	}

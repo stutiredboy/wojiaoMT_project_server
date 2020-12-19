@@ -32,7 +32,7 @@ public class GSetPlayCGState extends __GSetPlayCGState__ {
 	}
 
 	public long roleid; // roleid
-	public byte isplaying; // 1ÕıÔÚ²¥·Å¶¯»­£¬0Í£Ö¹²¥·Å¶¯»­
+	public byte isplaying; // 1æ­£åœ¨æ’­æ”¾åŠ¨ç”»ï¼Œ0åœæ­¢æ’­æ”¾åŠ¨ç”»
 
 	public GSetPlayCGState() {
 	}

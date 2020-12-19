@@ -6,23 +6,23 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class Item implements Marshal , Comparable<Item>{
-	public final static int BIND = 0x00000001; // ²»¿É½»Ò×¸øÍæ¼Ò£¬²»¿ÉÂôµê
-	public final static int FUSHI = 0x0000002; // ÓÃ·ûÊ¯¹ºÂò¶øÀ´
-	public final static int ONSTALL = 0x0000004; // °ÚÌ¯³öÊÛÖĞ
-	public final static int ONCOFCSELL = 0x0000008; // ÔÚÉÌ»áÖĞÉÏ¼Ü
-	public final static int CANNOTONSTALL = 0x10; // ²»ÄÜÂôµê
-	public final static int LOCK = 0x0000020; // Ëø¶¨
-	public final static int TIMEOUT = 0x0000040; // Ê±Ğ§ÎïÆ·
+	public final static int BIND = 0x00000001; // ä¸å¯äº¤æ˜“ç»™ç©å®¶ï¼Œä¸å¯å–åº—
+	public final static int FUSHI = 0x0000002; // ç”¨ç¬¦çŸ³è´­ä¹°è€Œæ¥
+	public final static int ONSTALL = 0x0000004; // æ‘†æ‘Šå‡ºå”®ä¸­
+	public final static int ONCOFCSELL = 0x0000008; // åœ¨å•†ä¼šä¸­ä¸Šæ¶
+	public final static int CANNOTONSTALL = 0x10; // ä¸èƒ½å–åº—
+	public final static int LOCK = 0x0000020; // é”å®š
+	public final static int TIMEOUT = 0x0000040; // æ—¶æ•ˆç‰©å“
 
-	public int id; // ±àºÅ
-	public int flags; // ±êÖ¾£¬µş¼ÓµÄÊ±ºò£¬flags Ò² OR µş¼Ó¡£
-	public int key; // ±³°üÊôĞÔ£¬key
-	public int position; // ±³°üÊôĞÔ£¬Î»ÖÃ
-	public int number; // ±³°üÊôĞÔ£¬ÊıÁ¿
-	public long timeout; // µ½ÆÚÊ±¼ä¡£Èç¹ûÎª0£¬´ú±íÃ»ÓĞÊ±¼äÏŞÖÆ
-	public int isnew; // 1ÎªĞÂÎïÆ·,0Îª¾ÉÎïÆ·
-	public long loseeffecttime; // Ê§Ğ§Ê±¼ä
-	public long markettime; // °ÚÌ¯µÀ¾ß¶³½áÊ±¼ä
+	public int id; // ç¼–å·
+	public int flags; // æ ‡å¿—ï¼Œå åŠ çš„æ—¶å€™ï¼Œflags ä¹Ÿ OR å åŠ ã€‚
+	public int key; // èƒŒåŒ…å±æ€§ï¼Œkey
+	public int position; // èƒŒåŒ…å±æ€§ï¼Œä½ç½®
+	public int number; // èƒŒåŒ…å±æ€§ï¼Œæ•°é‡
+	public long timeout; // åˆ°æœŸæ—¶é—´ã€‚å¦‚æœä¸º0ï¼Œä»£è¡¨æ²¡æœ‰æ—¶é—´é™åˆ¶
+	public int isnew; // 1ä¸ºæ–°ç‰©å“,0ä¸ºæ—§ç‰©å“
+	public long loseeffecttime; // å¤±æ•ˆæ—¶é—´
+	public long markettime; // æ‘†æ‘Šé“å…·å†»ç»“æ—¶é—´
 
 	public Item() {
 	}

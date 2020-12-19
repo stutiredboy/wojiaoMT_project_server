@@ -6,16 +6,16 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ImpExamBean implements Marshal , Comparable<ImpExamBean>{
-	public int questionid; // ÌâÄ¿µÄid
-	public int questionnum; // ÕâµÀÌâÊÇµÚ¼¸Ìâ,´Ó1¿ªÊ¼¼ÆÊı
-	public int righttimes; // ÒÑ´ğ¶ÔÌâÄ¿Êı
-	public long remaintime; // ¾àÀë»î¶¯½áÊøÊ±¼ä£¨Ö»ÓĞµÚÒ»µÀÌâÄ¿¸øÊ±¼ä  ÒÔºó²»¸øÊ±¼ä£©
-	public byte lastright; // ÉÏÒ»Ìâ´ğ¶ÔÁË»¹ÊÇ´ğ´íÁË,1±íÊ¾¶Ô,0±íÊ¾´í -1=µÚÒ»´Î·¢³öÀ´ÌâÄ¿
-	public int accuexp; // ±¾´ÎÀÛ»ı»ñµÃ¶àÉÙ¾­Ñé
-	public int accumoney; // ±¾´ÎÀÛ»ı»ñµÃ¶àÉÙÇ®
-	public int delwrongval; // µØÍõÁî
-	public int chorightval; // ÌìÍõÁî
-	public int helpcnt; // ÇóÖú´ÎÊı
+	public int questionid; // é¢˜ç›®çš„id
+	public int questionnum; // è¿™é“é¢˜æ˜¯ç¬¬å‡ é¢˜,ä»1å¼€å§‹è®¡æ•°
+	public int righttimes; // å·²ç­”å¯¹é¢˜ç›®æ•°
+	public long remaintime; // è·ç¦»æ´»åŠ¨ç»“æŸæ—¶é—´ï¼ˆåªæœ‰ç¬¬ä¸€é“é¢˜ç›®ç»™æ—¶é—´  ä»¥åä¸ç»™æ—¶é—´ï¼‰
+	public byte lastright; // ä¸Šä¸€é¢˜ç­”å¯¹äº†è¿˜æ˜¯ç­”é”™äº†,1è¡¨ç¤ºå¯¹,0è¡¨ç¤ºé”™ -1=ç¬¬ä¸€æ¬¡å‘å‡ºæ¥é¢˜ç›®
+	public int accuexp; // æœ¬æ¬¡ç´¯ç§¯è·å¾—å¤šå°‘ç»éªŒ
+	public int accumoney; // æœ¬æ¬¡ç´¯ç§¯è·å¾—å¤šå°‘é’±
+	public int delwrongval; // åœ°ç‹ä»¤
+	public int chorightval; // å¤©ç‹ä»¤
+	public int helpcnt; // æ±‚åŠ©æ¬¡æ•°
 
 	public ImpExamBean() {
 	}

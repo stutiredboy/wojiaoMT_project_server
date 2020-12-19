@@ -25,7 +25,7 @@ public class SFairylandStatus extends __SFairylandStatus__ {
 		return 805453;
 	}
 
-	public int status; // ÈÎÎñid
+	public int status; // ä»»åŠ¡id
 
 	public SFairylandStatus() {
 	}

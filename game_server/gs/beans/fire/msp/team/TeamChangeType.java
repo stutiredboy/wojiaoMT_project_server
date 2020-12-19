@@ -6,16 +6,16 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TeamChangeType implements Marshal , Comparable<TeamChangeType>{
-	public final static int CREATE = 1; // ´´½¨¶ÓÎé
-	public final static int DISMISS = 2; // Ïú»Ù¶ÓÎé
-	public final static int SWITCH_LEADER = 3; // ½»»»¶Ó³¤
-	public final static int ADD_NORMAL_MEMBER = 4; // Ìí¼ÓÕı³£¶ÓÔ±
-	public final static int ADD_ABSENT_MEMBER = 5; // Ìí¼ÓÔİÀë¶ÓÔ±
-	public final static int REMOVE_MEMBER = 6; // É¾³ı¶ÓÔ±
-	public final static int SWITCH_MEMBER = 7; // ½»»»¶ÓÔ±
-	public final static int CHANGE_MEMBER_NORMAL = 8; // ³ÉÎªÕı³£¶ÓÔ±
-	public final static int CHANGE_MEMBER_ABSENT = 9; // ³ÉÎªÔİÀë¶ÓÔ±
-	public final static int MEMBER_OFFLINE = 10; // ¶ÓÔ±ÏÂÏß
+	public final static int CREATE = 1; // åˆ›å»ºé˜Ÿä¼
+	public final static int DISMISS = 2; // é”€æ¯é˜Ÿä¼
+	public final static int SWITCH_LEADER = 3; // äº¤æ¢é˜Ÿé•¿
+	public final static int ADD_NORMAL_MEMBER = 4; // æ·»åŠ æ­£å¸¸é˜Ÿå‘˜
+	public final static int ADD_ABSENT_MEMBER = 5; // æ·»åŠ æš‚ç¦»é˜Ÿå‘˜
+	public final static int REMOVE_MEMBER = 6; // åˆ é™¤é˜Ÿå‘˜
+	public final static int SWITCH_MEMBER = 7; // äº¤æ¢é˜Ÿå‘˜
+	public final static int CHANGE_MEMBER_NORMAL = 8; // æˆä¸ºæ­£å¸¸é˜Ÿå‘˜
+	public final static int CHANGE_MEMBER_ABSENT = 9; // æˆä¸ºæš‚ç¦»é˜Ÿå‘˜
+	public final static int MEMBER_OFFLINE = 10; // é˜Ÿå‘˜ä¸‹çº¿
 
 
 	public TeamChangeType() {

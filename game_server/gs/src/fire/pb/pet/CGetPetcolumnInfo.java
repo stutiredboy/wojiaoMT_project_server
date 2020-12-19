@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGetPetcolumnInfo__ extends mkio.Protocol { }
 
-/** 客户端请求宠物栏信息
+/** 瀹㈡埛绔姹傚疇鐗╂爮淇℃伅
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -24,7 +24,7 @@ public class CGetPetcolumnInfo extends __CGetPetcolumnInfo__ {
 		case PetColumnTypes.DEPOT:
 			if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, roleid))
 				return;
-		case PetColumnTypes.MARKETPET: // 鎽嗘憡瀹犵墿鏍? add by liangyanpeng
+		case PetColumnTypes.MARKETPET: // 閹藉棙鎲＄�圭姷澧块弽? add by liangyanpeng
 		case PetColumnTypes.PET:
 			final PetColumn petCol = new PetColumn(roleid, columnid, true);
 			final SGetPetcolumnInfo send = new SGetPetcolumnInfo();
@@ -46,8 +46,8 @@ public class CGetPetcolumnInfo extends __CGetPetcolumnInfo__ {
 		return 788446;
 	}
 
-	public int columnid; // 宠物栏id
-	public long npckey; // 仓库老板的npckey.
+	public int columnid; // 瀹犵墿鏍廼d
+	public long npckey; // 浠撳簱鑰佹澘鐨刵pckey.
 
 	public CGetPetcolumnInfo() {
 	}

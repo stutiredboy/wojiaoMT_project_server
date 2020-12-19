@@ -12,7 +12,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CAddPointToAttr__ extends mkio.Protocol { }
 
-/** �ͻ����������Լӵ�
+/** 客户端请求属性加点
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -22,9 +22,9 @@ public class CAddPointToAttr extends __CAddPointToAttr__ {
 	protected void process() {
 		// protocol handle
 		
-		// TODO: 不能加点的状态条件判�?:�? 战斗�?
+		// TODO: 涓嶈兘鍔犵偣鐨勭姸鎬佹潯浠跺垽鏂?:濡? 鎴樻枟涓?
 		
-		// 数据合法性检�?
+		// 鏁版嵁鍚堟硶鎬ф鏌?
 		long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId == -1)
 			return;
@@ -52,7 +52,7 @@ public class CAddPointToAttr extends __CAddPointToAttr__ {
 		if (sum > prop.getPoint().get(prop.getScheme()))
 			return;
 		
-		// 加点操作
+		// 鍔犵偣鎿嶄綔
 		final PAddPointProc addpoint = new PAddPointProc(roleId, this);
 		addpoint.submit();
 	}
@@ -65,11 +65,11 @@ public class CAddPointToAttr extends __CAddPointToAttr__ {
 		return 786444;
 	}
 
-	public int cons; // ����
-	public int iq; // ����
-	public int str; // ����
-	public int agi; // ����
-	public int endu; // ����
+	public int cons; // 体质
+	public int iq; // 智力
+	public int str; // 力量
+	public int agi; // 敏捷
+	public int endu; // 耐力
 
 	public CAddPointToAttr() {
 	}

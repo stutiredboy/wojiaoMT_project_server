@@ -25,7 +25,7 @@ public class SSendRoundPlayEnd extends __SSendRoundPlayEnd__ {
 		return 793462;
 	}
 
-	public int fighterid; // ½ÇÉ«µÄfighterId
+	public int fighterid; // è§’è‰²çš„fighterId
 
 	public SSendRoundPlayEnd() {
 	}

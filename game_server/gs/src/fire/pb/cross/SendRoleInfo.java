@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SendRoleInfo__ extends mkio.Protocol { }
 
-/** ¿ç·şºÍÔ­·şÖ®¼äµÄĞ­Òé  start  32632µ½ 32682
+/** è·¨æœå’ŒåŸæœä¹‹é—´çš„åè®®  start  32632åˆ° 32682
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -30,8 +30,8 @@ public class SendRoleInfo extends __SendRoleInfo__ {
 	public int myzoneid;
 	public int userid;
 	public long roleid;
-	public byte flag; // 1µ½¿ç·ş£¬2µ½Ô­·ş
-	public byte needcleardata; // ÊÇ·ñĞèÒªÖØÖÃ¿ç·şÁÙÊ±Êı¾İ
+	public byte flag; // 1åˆ°è·¨æœï¼Œ2åˆ°åŸæœ
+	public byte needcleardata; // æ˜¯å¦éœ€è¦é‡ç½®è·¨æœä¸´æ—¶æ•°æ®
 
 	public SendRoleInfo() {
 	}

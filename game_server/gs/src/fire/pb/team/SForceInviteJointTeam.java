@@ -25,7 +25,7 @@ public class SForceInviteJointTeam extends __SForceInviteJointTeam__ {
 		return 794511;
 	}
 
-	public long roleid; // 强制邀请的某个玩家 by changhao
+	public long roleid; // 寮哄埗閭�璇风殑鏌愪釜鐜╁ by changhao
 
 	public SForceInviteJointTeam() {
 	}

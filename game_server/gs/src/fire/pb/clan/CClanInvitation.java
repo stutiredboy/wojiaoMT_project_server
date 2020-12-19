@@ -32,37 +32,37 @@ public class CClanInvitation extends __CClanInvitation__ {
 			MessageMgr.sendMsgNotify(roleid, 145077, null);
 			return;
 		}
-		//过滤设置了不让邀请公会的
+		//杩囨护璁剧疆浜嗕笉璁╅個璇峰叕浼氱殑
 		Integer refval = GameSystemConfig.getSysConfig(guestroleid, SysConfigType.refuseclan);
 		if(refval != null && refval.intValue() == 1){
 			MessageMgr.sendMsgNotify(roleid, 166061, null);
 			return;
 		}
-		// 被邀请玩家有公会
+		// 琚個璇风帺瀹舵湁鍏細
 		if(ClanUtils.getClanInfoById(guestroleid, true)!=null){
 			MessageMgr.sendMsgNotify(roleid, 145115, null);
 			return;
 		}
-		// 对方等级不足
+		// 瀵规柟绛夌骇涓嶈冻
 		xbean.Properties properties = xtable.Properties.select(guestroleid);
-		if (properties.getLevel() < ClanBaseManager.getInstance().getJoinClanLevel()) {// 判断被邀请入会�?�等�?
+		if (properties.getLevel() < ClanBaseManager.getInstance().getJoinClanLevel()) {// 鍒ゆ柇琚個璇峰叆浼氳?呯瓑绾?
 			MessageMgr.sendMsgNotify(roleid, 160371, Arrays.asList(ClanBaseManager.getInstance().getJoinClanLevel()+""));
 			return;
 		}
-		// 公会人数是否达到上限
+		// 鍏細浜烘暟鏄惁杈惧埌涓婇檺
 		if (ClanUtils.isClanMemberFull(clanInfo)) {
-			// 公会满员
+			// 鍏細婊″憳
 			MessageMgr.sendMsgNotify(roleid, 145011, null);
 			return;
 		}
-		//判断这个职位是否已经满了
+		//鍒ゆ柇杩欎釜鑱屼綅鏄惁宸茬粡婊′簡
 		if(ClanUtils.isAddClanPositionFull(clanInfo)){
 			MessageMgr.sendMsgNotify(roleid, 160310, null);
 			return;
 		}
 		
 		byte inviteType = 0;
-//		// 会长和副会长�?�?  还有团长
+//		// 浼氶暱鍜屽壇浼氶暱閭?璇?  杩樻湁鍥㈤暱
 //		if( clanInfo.getClanmaster()==roleid || clanInfo.getClanvicemaster()==roleid){
 //			inviteType = 1;
 //		}
@@ -77,7 +77,7 @@ public class CClanInvitation extends __CClanInvitation__ {
 		sClanInvitation.hostroleid = roleid;
 		sClanInvitation.invitetype = inviteType;
 		gnet.link.Onlines.getInstance().send(guestroleid, sClanInvitation);
-		//发�?�系统提�?
+		//鍙戦?佺郴缁熸彁绀?
 		MessageMgr.sendMsgNotify(roleid, 172017, null);
 	}
 

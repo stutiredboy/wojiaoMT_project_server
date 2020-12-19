@@ -25,10 +25,10 @@ public class SRoleJump extends __SRoleJump__ {
 		return 790478;
 	}
 
-	public long roleid; // ½ÇÉ«ID
-	public fire.pb.move.Pos srcpos; // ³ö·¢µã
-	public fire.pb.move.Pos destpos; // µ½´ïµã
-	public byte jumptype; // 0ÎªÆÕÍ¨Ìø£¬1Îª2¶ÎÌø
+	public long roleid; // è§’è‰²ID
+	public fire.pb.move.Pos srcpos; // å‡ºå‘ç‚¹
+	public fire.pb.move.Pos destpos; // åˆ°è¾¾ç‚¹
+	public byte jumptype; // 0ä¸ºæ™®é€šè·³ï¼Œ1ä¸º2æ®µè·³
 
 	public SRoleJump() {
 		srcpos = new fire.pb.move.Pos();

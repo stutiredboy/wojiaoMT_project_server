@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CAttentionGoods__ extends mkio.Protocol { }
 
-/** ¹Ø×¢»òÈ¡Ïû¹Ø×¢ÉÌÆ·
+/** å…³æ³¨æˆ–å–æ¶ˆå…³æ³¨å•†å“
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,7 +28,7 @@ public class CAttentionGoods extends __CAttentionGoods__ {
 				fire.pb.shop.srv.market.IMarket proxy = (fire.pb.shop.srv.market.IMarket) handler.getProxy();
 				boolean success = proxy.attention(itemtype, attentiontype, roleId, id, attentype);
 				if (success) {
-					// é€šçŸ¥å‰å°æ•°æ®
+					// é–«æ°±ç…¡é“å¶…å½´éç‰ˆåµ
 					mkdb.Procedure.psendWhileCommit(roleId, new fire.pb.shop.SAttentionGoods(attentype, id, attentiontype, itemtype));
 				}
 				return success;
@@ -44,10 +44,10 @@ public class CAttentionGoods extends __CAttentionGoods__ {
 		return 810658;
 	}
 
-	public int attentype; // ¹Ø×¢×´Ì¬ 1¹ºÂò£¬2¹«Ê¾
-	public long id; // Î¨Ò»id(ÊÇ·şÎñÆ÷Êı¾İ¿âµÄid)
-	public int attentiontype; // ¹Ø×¢ÀàĞÍ 1¹Ø×¢  2È¡Ïû¹Ø×¢
-	public int itemtype; // 1ÆÕÍ¨µÀ¾ß 2³èÎï 3×°±¸
+	public int attentype; // å…³æ³¨çŠ¶æ€ 1è´­ä¹°ï¼Œ2å…¬ç¤º
+	public long id; // å”¯ä¸€id(æ˜¯æœåŠ¡å™¨æ•°æ®åº“çš„id)
+	public int attentiontype; // å…³æ³¨ç±»å‹ 1å…³æ³¨  2å–æ¶ˆå…³æ³¨
+	public int itemtype; // 1æ™®é€šé“å…· 2å® ç‰© 3è£…å¤‡
 
 	public CAttentionGoods() {
 	}

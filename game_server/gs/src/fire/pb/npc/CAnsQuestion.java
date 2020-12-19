@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CAnsQuestion__ extends mkio.Protocol { }
 
-/** ÏòNPCÇëÇóÎÊÌâµÄ´ğ°¸
+/** å‘NPCè¯·æ±‚é—®é¢˜çš„ç­”æ¡ˆ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -33,9 +33,9 @@ public class CAnsQuestion extends __CAnsQuestion__ {
 		return 795441;
 	}
 
-	public long npckey; // npckeyÎªnpcµÄÎ¨Ò»ID
+	public long npckey; // npckeyä¸ºnpcçš„å”¯ä¸€ID
 	public int questionid;
-	public int answer; // Íæ¼ÒµÄ»Ø´ğ
+	public int answer; // ç©å®¶çš„å›ç­”
 
 	public CAnsQuestion() {
 	}

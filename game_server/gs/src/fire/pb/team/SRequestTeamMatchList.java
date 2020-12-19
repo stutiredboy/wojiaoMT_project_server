@@ -25,9 +25,9 @@ public class SRequestTeamMatchList extends __SRequestTeamMatchList__ {
 		return 794510;
 	}
 
-	public int ret; // ´íÎó·µ»Ø0ÕıÈ·1Ä¿±ê´íÎó2ÊıÁ¿´íÎó3ÆäËûÎ´Öª´íÎó by changhao
-	public int targetid; // Ä¿±êID by changhao
-	public java.util.LinkedList<fire.pb.team.TeamInfoBasicWithMembers> teamlist; // Ò»¸ö¶ÓÎé¼òµ¥ĞÅÏ¢ by changhao
+	public int ret; // é”™è¯¯è¿”å›0æ­£ç¡®1ç›®æ ‡é”™è¯¯2æ•°é‡é”™è¯¯3å…¶ä»–æœªçŸ¥é”™è¯¯ by changhao
+	public int targetid; // ç›®æ ‡ID by changhao
+	public java.util.LinkedList<fire.pb.team.TeamInfoBasicWithMembers> teamlist; // ä¸€ä¸ªé˜Ÿä¼ç®€å•ä¿¡æ¯ by changhao
 
 	public SRequestTeamMatchList() {
 		teamlist = new java.util.LinkedList<fire.pb.team.TeamInfoBasicWithMembers>();

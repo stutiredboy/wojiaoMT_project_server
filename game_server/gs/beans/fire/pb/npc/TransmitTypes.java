@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TransmitTypes implements Marshal , Comparable<TransmitTypes>{
-	public final static int impexamsystem = 4; // ÖÇ»ÛÊÔÁ¶¿¼ÊÔÏµÍ³À­ÈË
-	public final static int winnercall = 5; // ¹Ú¾üÊÔÁ¶À­ÈË
-	public final static int backschoolwhile20lv = 6; // 20¼¶Ê±Ê¦¸µÀ­Äã»ØÖ°Òµ
-	public final static int singlepvp = 10; // µ¥ÈËpvpÀ­ÈË
-	public final static int pvp3 = 15; // pvp3À­ÈË
-	public final static int pvp5 = 16; // pvp5À­ÈË
+	public final static int impexamsystem = 4; // æ™ºæ…§è¯•ç‚¼è€ƒè¯•ç³»ç»Ÿæ‹‰äºº
+	public final static int winnercall = 5; // å† å†›è¯•ç‚¼æ‹‰äºº
+	public final static int backschoolwhile20lv = 6; // 20çº§æ—¶å¸ˆå‚…æ‹‰ä½ å›èŒä¸š
+	public final static int singlepvp = 10; // å•äººpvpæ‹‰äºº
+	public final static int pvp3 = 15; // pvp3æ‹‰äºº
+	public final static int pvp5 = 16; // pvp5æ‹‰äºº
 
 
 	public TransmitTypes() {

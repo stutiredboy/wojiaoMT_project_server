@@ -30,8 +30,8 @@ public class CAnswerActivityQuestion extends __CAnswerActivityQuestion__ {
 	}
 
 	public int questionid;
-	public int answerid; // [1,) ×î¶à¼¸¸ö´ğ°¸Ñ¡Ïî£¿
-	public int xiangguanid; // ¿ÉÄÜĞèÒªµÄÏà¹Øid
+	public int answerid; // [1,) æœ€å¤šå‡ ä¸ªç­”æ¡ˆé€‰é¡¹ï¼Ÿ
+	public int xiangguanid; // å¯èƒ½éœ€è¦çš„ç›¸å…³id
 
 	public CAnswerActivityQuestion() {
 	}

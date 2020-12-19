@@ -26,7 +26,7 @@ public class SAnswerInstance extends __SAnswerInstance__ {
 	}
 
 	public long roleid;
-	public short answer; // 1±íÊ¾Í¬Òâ, 0±íÊ¾²»Í¬Òâ
+	public short answer; // 1è¡¨ç¤ºåŒæ„, 0è¡¨ç¤ºä¸åŒæ„
 
 	public SAnswerInstance() {
 	}

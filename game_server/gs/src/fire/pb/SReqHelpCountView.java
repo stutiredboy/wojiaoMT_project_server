@@ -31,10 +31,10 @@ public class SReqHelpCountView extends __SReqHelpCountView__ {
 	public int shengwangvaluemax;
 	public int factionvalue;
 	public int factionvaluemax;
-	public int helpgiveitemnum; // Ô®ÖúÎïÆ·´ÎÊı
-	public int helpgiveitemnummax; // Ô®ÖúÎïÆ·´ÎÊı×î´óÖµ
-	public int helpitemnum; // ÇóÖúÎïÆ·´ÎÊı
-	public int helpitemnummax; // ÇóÖúÎïÆ·´ÎÊı×î´óÖµ
+	public int helpgiveitemnum; // æ´åŠ©ç‰©å“æ¬¡æ•°
+	public int helpgiveitemnummax; // æ´åŠ©ç‰©å“æ¬¡æ•°æœ€å¤§å€¼
+	public int helpitemnum; // æ±‚åŠ©ç‰©å“æ¬¡æ•°
+	public int helpitemnummax; // æ±‚åŠ©ç‰©å“æ¬¡æ•°æœ€å¤§å€¼
 
 	public SReqHelpCountView() {
 	}

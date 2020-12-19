@@ -25,8 +25,8 @@ public class SMarketPetTips extends __SMarketPetTips__ {
 		return 810650;
 	}
 
-	public fire.pb.Pet pettips; // 宠物信息
-	public int tipstype; // 显示tips类型
+	public fire.pb.Pet pettips; // 瀹犵墿淇℃伅
+	public int tipstype; // 鏄剧ずtips绫诲瀷
 
 	public SMarketPetTips() {
 		pettips = new fire.pb.Pet();

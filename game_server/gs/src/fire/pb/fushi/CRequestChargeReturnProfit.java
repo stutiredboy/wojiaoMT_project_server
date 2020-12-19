@@ -12,7 +12,7 @@ abstract class __CRequestChargeReturnProfit__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请求充�?�返�?
+ * 璇锋眰鍏呭?艰繑鍒?
  * @author changhao
  *
  */

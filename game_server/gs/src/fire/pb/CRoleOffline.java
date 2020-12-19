@@ -10,7 +10,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRoleOffline__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÏÂÏß
+/** å®¢æˆ·ç«¯ä¸‹çº¿
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

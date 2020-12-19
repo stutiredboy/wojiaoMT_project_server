@@ -20,7 +20,7 @@ public class CSendCommand extends __CSendCommand__ {
 		final int userID=((gnet.link.Dispatch)this.getContext()).userid;
 		final int localsid=((gnet.link.Dispatch)this.getContext()).linksid;
 		GMInteface.execCommand(userID,gmroleid,localsid, cmd);
-		//TODO:把ret告诉客户�?
+		//TODO:鎶妑et鍛婅瘔瀹㈡埛绔?
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

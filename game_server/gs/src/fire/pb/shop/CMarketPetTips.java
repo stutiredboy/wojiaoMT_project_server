@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketPetTips__ extends mkio.Protocol { }
 
-/** 宠物tips
+/** 瀹犵墿tips
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -45,9 +45,9 @@ public class CMarketPetTips extends __CMarketPetTips__ {
 		return 810649;
 	}
 
-	public long roleid; // 角色id
-	public int key; // 摆摊容器中的key
-	public int tipstype; // 显示tips类型
+	public long roleid; // 瑙掕壊id
+	public int key; // 鎽嗘憡瀹瑰櫒涓殑key
+	public int tipstype; // 鏄剧ずtips绫诲瀷
 
 	public CMarketPetTips() {
 	}

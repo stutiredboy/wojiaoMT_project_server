@@ -25,7 +25,7 @@ public class SRequestSelectType extends __SRequestSelectType__ {
 		return 808506;
 	}
 
-	public int selecttype; // ѡ�񼸱���ҩ
+	public int selecttype; // 选择几倍产药
 
 	public SRequestSelectType() {
 	}

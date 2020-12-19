@@ -22,7 +22,7 @@ abstract class __COneKeyTeamMatch__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * �?键喊�?
+ * 涓?閿枈璇?
  * @author by changhao
  *
  */
@@ -33,7 +33,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		/*加锁顺序 team->roleid->match by changhao*/
+		/*鍔犻攣椤哄簭 team->roleid->match by changhao*/
 		mkdb.Procedure onekeyteammatch = new mkdb.Procedure()
 		{
 			@Override
@@ -51,7 +51,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 					return false;
 				}
 				
-				//如果是公会发送，看看是否有公�? by changhao
+				//濡傛灉鏄叕浼氬彂閫侊紝鐪嬬湅鏄惁鏈夊叕浼? by changhao
 				if (channeltype == fire.pb.talk.ChannelType.CHANNEL_CLAN)
 				{
 					xbean.Properties prop = xtable.Properties.select(roleid);
@@ -72,7 +72,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				if (teamid == null)
 				{
 					psend(roleid, new STeamError(TeamError.SelfNOtLeader));
-					TeamManager.logger.error("COneKeyTeamMatch:自己不是队长 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:鑷繁涓嶆槸闃熼暱 "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -80,11 +80,11 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				}
 				
 				Team team = null;
-				team = TeamManager.getTeamByTeamID(teamid);	//有队先把队伍锁住 by changhao	
+				team = TeamManager.getTeamByTeamID(teamid);	//鏈夐槦鍏堟妸闃熶紞閿佷綇 by changhao	
 				if (!team.isTeamLeader(roleid))
 				{
 					psend(roleid, new STeamError(TeamError.SelfNOtLeader));
-					TeamManager.logger.error("COneKeyTeamMatch:自己不是队长 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:鑷繁涓嶆槸闃熼暱 "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -92,13 +92,13 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				}
 				
 				teamid = xtable.Roleid2teamid.get(roleid);		
-				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
 				{
 					DSTeamMatchInfo config = ConfigManager.getInstance().getConf(DSTeamMatchInfo.class).get(team.getTeamInfo().getTargetid());
 					if (config == null)
 					{
 						psend(roleid, new STeamError(TeamError.NoTarget));
-						TeamManager.logger.error("COneKeyTeamMatch:目标ID错误 "+roleid);
+						TeamManager.logger.error("COneKeyTeamMatch:鐩爣ID閿欒 "+roleid);
 						
 						msg.ret = 1;
 						mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -111,7 +111,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 					if (config == null)
 					{
 						psend(roleid, new STeamError(TeamError.NoTarget));
-						TeamManager.logger.error("COneKeyTeamMatch:目标ID错误 "+roleid);
+						TeamManager.logger.error("COneKeyTeamMatch:鐩爣ID閿欒 "+roleid);
 						
 						msg.ret = 1;
 						mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -139,7 +139,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				{
 					String s = String.format("%d", (int)-delta / 1000);
 					MessageMgr.sendMsgNotify(roleid, 150028, Arrays.asList(s));
-					TeamManager.logger.info("COneKeyTeamMatch:�?键喊话时间间�?60秒�?? "+roleid);
+					TeamManager.logger.info("COneKeyTeamMatch:涓?閿枈璇濇椂闂撮棿闅?60绉掋?? "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -152,7 +152,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				fire.pb.message.SStringRes msg1 = ConfigManager.getInstance().getConf(fire.pb.message.SStringRes.class).get(285);
 				if (msg1 == null)
 				{
-					TeamManager.logger.error("COneKeyTeamMatch:找不到字符串 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:鎵句笉鍒板瓧绗︿覆 "+roleid);
 					return false;						
 				}
 				*/
@@ -160,7 +160,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				fire.pb.message.SStringRes msg2 = ConfigManager.getInstance().getConf(fire.pb.message.SStringRes.class).get(286);
 				if (msg2 == null)
 				{
-					TeamManager.logger.error("COneKeyTeamMatch:找不到字符串 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:鎵句笉鍒板瓧绗︿覆 "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -207,8 +207,8 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 		return 794498;
 	}
 
-	public int channeltype; // Ƶ������ 14������� 1��ǰƵ�� 4���� 5����Ƶ�� by changhao
-	public java.lang.String text; // ���͵��ı� by changhao
+	public int channeltype; // 频道类型 14组队申请 1当前频道 4帮派 5世界频道 by changhao
+	public java.lang.String text; // 发送的文本 by changhao
 
 	public COneKeyTeamMatch() {
 		text = "";

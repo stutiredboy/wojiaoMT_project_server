@@ -29,12 +29,12 @@ public class CRenXingCircleTask extends __CRenXingCircleTask__ {
 			return;
 		
 		/*
-		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
+		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
 		{
 			boolean ok = fire.pb.fushi.DayPayManager.getInstance().CheckDayPayWithLevel(roleid);
 			if (ok == false)
 			{
-				FushiManager.logger.error("CRenXingCircleTask: 没有点卡");
+				FushiManager.logger.error("CRenXingCircleTask: 娌℃湁鐐瑰崱");
 				return;
 			}
 		}
@@ -55,8 +55,8 @@ public class CRenXingCircleTask extends __CRenXingCircleTask__ {
 		return 807451;
 	}
 
-	public int serviceid; // �÷���id
-	public int moneytype; // ��������
+	public int serviceid; // 该服务id
+	public int moneytype; // 货币类型
 
 	public CRenXingCircleTask() {
 	}

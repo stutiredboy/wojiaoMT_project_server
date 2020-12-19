@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CBuyNpcShop__ extends mkio.Protocol { }
 
-/** NPC����Э��
+/** NPC购买协议
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -18,36 +18,36 @@ public class CBuyNpcShop extends __CBuyNpcShop__ {
 	protected void process() {
 		// protocol handle
 		
-		// 判断购买条件
+		// 鍒ゆ柇璐拱鏉′欢
 		final gnet.link.Role role = gnet.link.Onlines.getInstance().find(this);
 		if (role == null)
 			return;
-		//场景中是否能找到npc
+		//鍦烘櫙涓槸鍚﹁兘鎵惧埌npc
 //		if (npckey != 0) {
 //			if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, role.getRoleid()))
 //				return;
 //		}
 //		int npcid = 0;
-		//常规npc购买
+		//甯歌npc璐拱
 //		if (buytype == ShopBuyType.NORMAL_SHOP) {
 //			npcid = fire.pb.map.SceneNpcManager.getNpcIDByKey(npckey);
 //			if (npcid < 0) {
-//				xdb.Trace.info("找不到该npc id=" + npckey);
+//				xdb.Trace.info("鎵句笉鍒拌npc id=" + npckey);
 //				return;
 //			}
 //		}
 		
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("没有该商品[" +  goodsid  + "]");
+			mkdb.Trace.info("娌℃湁璇ュ晢鍝乕" +  goodsid  + "]");
 			return;
 		}
 		
-		// 判断该npc是否有该物品
+		// 鍒ゆ柇璇pc鏄惁鏈夎鐗╁搧
 		if (buytype == ShopBuyType.NORMAL_SHOP) {
 			fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 			if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-				mkdb.Trace.info("NPC并不出售该物�?.shopid:" + shopid + "goodsid:" + goodsid);
+				mkdb.Trace.info("NPC骞朵笉鍑哄敭璇ョ墿鍝?.shopid:" + shopid + "goodsid:" + goodsid);
 				return;
 			}
 		}
@@ -69,10 +69,10 @@ public class CBuyNpcShop extends __CBuyNpcShop__ {
 		return 810633;
 	}
 
-	public int shopid; // �̵����
-	public int goodsid; // ��Ʒid
-	public int num; // ��������
-	public int buytype; // ��������
+	public int shopid; // 商店序号
+	public int goodsid; // 商品id
+	public int num; // 购买数量
+	public int buytype; // 购买类型
 
 	public CBuyNpcShop() {
 	}

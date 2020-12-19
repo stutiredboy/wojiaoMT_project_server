@@ -33,9 +33,9 @@ public class CAnswerQuestion extends __CAnswerQuestion__ {
 		return 805448;
 	}
 
-	public int missionid; // ÈÎÎñid
-	public long npckey; // npcµÄkey
-	public int answerid; // »Ø´ðµÄ´ð°¸
+	public int missionid; // ä»»åŠ¡id
+	public long npckey; // npcçš„key
+	public int answerid; // å›žç­”çš„ç­”æ¡ˆ
 
 	public CAnswerQuestion() {
 	}

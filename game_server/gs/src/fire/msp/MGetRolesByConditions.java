@@ -40,8 +40,8 @@ public class MGetRolesByConditions extends __MGetRolesByConditions__ {
 		return 720908;
 	}
 
-	public long callbackid; // 回调Id
-	public java.util.LinkedList<Long> roleids; // 符合条件的roleId
+	public long callbackid; // 鍥炶皟Id
+	public java.util.LinkedList<Long> roleids; // 绗﹀悎鏉′欢鐨剅oleId
 
 	public MGetRolesByConditions() {
 		roleids = new java.util.LinkedList<Long>();

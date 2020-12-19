@@ -25,7 +25,7 @@ public class SSendServerMultiExp extends __SSendServerMultiExp__ {
 		return 786502;
 	}
 
-	public int addvalue; // 0ÎªÃ»ÓĞ¶à±¶£¬1-3Îª¶à1µ½3±¶£¨¼´2-4±¶£©
+	public int addvalue; // 0ä¸ºæ²¡æœ‰å¤šå€ï¼Œ1-3ä¸ºå¤š1åˆ°3å€ï¼ˆå³2-4å€ï¼‰
 
 	public SSendServerMultiExp() {
 	}

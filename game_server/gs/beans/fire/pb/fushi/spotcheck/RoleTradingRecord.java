@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleTradingRecord implements Marshal {
-	public java.lang.String tradingid; // ¹Òµ¥ºÅ
-	public int tradingtype; // ½»Ò×ÀàĞÍ  0ÂòÈë  1³öÊÛ
-	public int num; // ÊıÁ¿
-	public int price; // ¼Û¸ñ
-	public long tradingtime; // ½»Ò×Ê±¼ä
+	public java.lang.String tradingid; // æŒ‚å•å·
+	public int tradingtype; // äº¤æ˜“ç±»å‹  0ä¹°å…¥  1å‡ºå”®
+	public int num; // æ•°é‡
+	public int price; // ä»·æ ¼
+	public long tradingtime; // äº¤æ˜“æ—¶é—´
 
 	public RoleTradingRecord() {
 		tradingid = "";

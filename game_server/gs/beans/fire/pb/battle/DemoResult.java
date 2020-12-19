@@ -6,30 +6,30 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class DemoResult implements Marshal {
-	public int resulttype; // ½á¹ûÀàĞÍ 0ÆÕÍ¨ 1·´»÷ 2Á¬»÷ 3×·»÷ 4½¦Éä 5Õ½¶·½áÊø 6ÆÆÒşĞÎ
-	public int targetid; // ÊÜ»÷Õßid
-	public int flagtype; // ·şÎñÆ÷Ìá¹©¿Í»§¶Ë±êÊ¾
-	public int hpchange; // ÊÜ»÷ÕßÑªÁ¿±ä»¯£¬ÎªÕıÊÇ¼ÓÑª£¬Îª¸ºÊÇ¿ÛÑª
-	public int mpchange; // ÊÜ»÷ÕßÄ§·¨±ä»¯£¬ÎªÕıÊÇ¼ÓÀ¶£¬Îª¸ºÊÇ¿ÛÀ¶
-	public int spchange; // ÊÜ»÷ÕßÅ­Æø±ä»¯£¬ÎªÕıÊÇ¼ÓÅ­Æø£¬Îª¸ºÊÇ¿ÛÅ­Æø
-	public int epchange; // ÊÜ»÷ÕßĞ§¹ûµã±ä»¯£¬ÎªÕıÊÇ¼ÓĞ§¹ûµã£¬Îª¸ºÊÇ¿ÛĞ§¹ûµã
-	public int shapechange; // Ä£ĞÍ¸Ä±ä 0ÎªÄ¬ÈÏÆäËûÎªĞÂÉèÖÃµÄ¡£
-	public int uplimithpchange; // ÊÜ»÷Õßµ±Ç°ÑªÉÏÏŞ±ä»¯£¬ÎªÕıÊÇ¼Ó£¬Îª¸ºÊÇ¼õ
-	public int targetresult; // ÊÜ»÷Õß½á¹ûÀàĞÍ£¬ResultTypeĞÍÃ¶¾ÙÖµµş¼Ó
-	public int returnhurt; // ÊÜ»÷·½Ôì³ÉµÄ·´ÉËÖµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞ·´ÉË
-	public int attackback; // ÊÜ»÷·½Ôì³ÉµÄ·´»÷Öµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞ·´»÷
-	public int stealhp; // ¹¥»÷·½²úÉúµÄÎüÑªÖµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞÎüÑª
-	public int attackerresult; // ¹¥»÷Õß½á¹ûÀàĞÍ£¬ResultTypeĞÍÃ¶¾ÙÖµµş¼Ó
-	public int attackerulhpchange; // ¹¥»÷ÕßÑªÉÏÏŞ±ä»¯
-	public int protecterid; // ±£»¤ÕßID
-	public int protecterhpchange; // ±£»¤ÕßÑªÁ¿±ä»¯£¬ÎªÕıÊÇ¼ÓÑª£¬Îª¸ºÊÇ¿ÛÑª£¨ÏÔÈ»ÊÇÎª¸ºµÄ£©
-	public int protecterulhpchange; // ±£»¤ÕßÑªÉÏÏŞ±ä»¯
-	public int protecterresult; // ±£»¤Õß½á¹ûÀàĞÍ£¬ResultTypeĞÍÃ¶¾ÙÖµµş¼Ó
-	public int assisterid; // ºÏ»÷ÕßID
-	public int stealmp; // ¹¥»÷·½²úÉúµÄÎüÀ¶Öµ£¬Èç¹ûÎª0Ôò´ú±íÃ»ÓĞÎüÀ¶
-	public int godblesshp; // ÉñÓÓÑªÁ¿±ä»¯
-	public java.util.LinkedList<fire.pb.battle.DemoBuff> demobuffs; // Ã¿Ò»¸ödemoµÄbuff±ä»¯
-	public java.util.LinkedList<fire.pb.battle.DemoAttr> demoattrs; // Ã¿Ò»¸ödemoµÄÊôĞÔ×îÖÕÖµ
+	public int resulttype; // ç»“æœç±»å‹ 0æ™®é€š 1åå‡» 2è¿å‡» 3è¿½å‡» 4æº…å°„ 5æˆ˜æ–—ç»“æŸ 6ç ´éšå½¢
+	public int targetid; // å—å‡»è€…id
+	public int flagtype; // æœåŠ¡å™¨æä¾›å®¢æˆ·ç«¯æ ‡ç¤º
+	public int hpchange; // å—å‡»è€…è¡€é‡å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ è¡€ï¼Œä¸ºè´Ÿæ˜¯æ‰£è¡€
+	public int mpchange; // å—å‡»è€…é­”æ³•å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ è“ï¼Œä¸ºè´Ÿæ˜¯æ‰£è“
+	public int spchange; // å—å‡»è€…æ€’æ°”å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ æ€’æ°”ï¼Œä¸ºè´Ÿæ˜¯æ‰£æ€’æ°”
+	public int epchange; // å—å‡»è€…æ•ˆæœç‚¹å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ æ•ˆæœç‚¹ï¼Œä¸ºè´Ÿæ˜¯æ‰£æ•ˆæœç‚¹
+	public int shapechange; // æ¨¡å‹æ”¹å˜ 0ä¸ºé»˜è®¤å…¶ä»–ä¸ºæ–°è®¾ç½®çš„ã€‚
+	public int uplimithpchange; // å—å‡»è€…å½“å‰è¡€ä¸Šé™å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ ï¼Œä¸ºè´Ÿæ˜¯å‡
+	public int targetresult; // å—å‡»è€…ç»“æœç±»å‹ï¼ŒResultTypeå‹æšä¸¾å€¼å åŠ 
+	public int returnhurt; // å—å‡»æ–¹é€ æˆçš„åä¼¤å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰åä¼¤
+	public int attackback; // å—å‡»æ–¹é€ æˆçš„åå‡»å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰åå‡»
+	public int stealhp; // æ”»å‡»æ–¹äº§ç”Ÿçš„å¸è¡€å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰å¸è¡€
+	public int attackerresult; // æ”»å‡»è€…ç»“æœç±»å‹ï¼ŒResultTypeå‹æšä¸¾å€¼å åŠ 
+	public int attackerulhpchange; // æ”»å‡»è€…è¡€ä¸Šé™å˜åŒ–
+	public int protecterid; // ä¿æŠ¤è€…ID
+	public int protecterhpchange; // ä¿æŠ¤è€…è¡€é‡å˜åŒ–ï¼Œä¸ºæ­£æ˜¯åŠ è¡€ï¼Œä¸ºè´Ÿæ˜¯æ‰£è¡€ï¼ˆæ˜¾ç„¶æ˜¯ä¸ºè´Ÿçš„ï¼‰
+	public int protecterulhpchange; // ä¿æŠ¤è€…è¡€ä¸Šé™å˜åŒ–
+	public int protecterresult; // ä¿æŠ¤è€…ç»“æœç±»å‹ï¼ŒResultTypeå‹æšä¸¾å€¼å åŠ 
+	public int assisterid; // åˆå‡»è€…ID
+	public int stealmp; // æ”»å‡»æ–¹äº§ç”Ÿçš„å¸è“å€¼ï¼Œå¦‚æœä¸º0åˆ™ä»£è¡¨æ²¡æœ‰å¸è“
+	public int godblesshp; // ç¥ä½‘è¡€é‡å˜åŒ–
+	public java.util.LinkedList<fire.pb.battle.DemoBuff> demobuffs; // æ¯ä¸€ä¸ªdemoçš„buffå˜åŒ–
+	public java.util.LinkedList<fire.pb.battle.DemoAttr> demoattrs; // æ¯ä¸€ä¸ªdemoçš„å±æ€§æœ€ç»ˆå€¼
 
 	public DemoResult() {
 		demobuffs = new java.util.LinkedList<fire.pb.battle.DemoBuff>();

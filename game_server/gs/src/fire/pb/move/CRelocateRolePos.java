@@ -22,11 +22,11 @@ public class CRelocateRolePos extends __CRelocateRolePos__ {
 			return;
 		if(sceneid != role.getScene().getSceneID())
 		{
-			Scene.LOG.info("CRelocateRolePos发来的场景跟角色当前的场景不�?致，角色名称�?" + role.getName());
+			Scene.LOG.info("CRelocateRolePos鍙戞潵鐨勫満鏅窡瑙掕壊褰撳墠鐨勫満鏅笉涓?鑷达紝瑙掕壊鍚嶇О锛?" + role.getName());
 			return;
 		}
 		if(SceneTeam.TEAM_NORMAL == role.getTeamState()){
-			Scene.LOG.error("队伍中普通队员发来Relocate消息\t" + role.getName());
+			Scene.LOG.error("闃熶紞涓櫘閫氶槦鍛樺彂鏉elocate娑堟伅\t" + role.getName());
 			return;
 		}
 		if(! role.checkNeedCheckPos())
@@ -38,15 +38,15 @@ public class CRelocateRolePos extends __CRelocateRolePos__ {
 		if(role.getScene().checkBlock(pos.toGridPos(), pos.getWalkBlockType()))
 		{
 			role.broadResetPosition();
-			return;//重置到阻挡点时，不允�?
+			return;//閲嶇疆鍒伴樆鎸＄偣鏃讹紝涓嶅厑璁?
 		}
 		if(SRelocateRolePos.MAX_DISTANCE < pos.getDistance(role.getPos()))
 		{
 			role.broadResetPosition();
-			return;//重置距离过远时，不允�?
+			return;//閲嶇疆璺濈杩囪繙鏃讹紝涓嶅厑璁?
 		}
 		
-		// 只调整位�?,不更新屏幕信�?,就会导致角色遗留问题
+		// 鍙皟鏁翠綅缃?,涓嶆洿鏂板睆骞曚俊鎭?,灏变細瀵艰嚧瑙掕壊閬楃暀闂
 		role.updatePosition(pos);
 		role.clearCurDestPos();
 		
@@ -62,7 +62,7 @@ public class CRelocateRolePos extends __CRelocateRolePos__ {
 
 	public long sceneid;
 	public fire.pb.move.Pos curpos;
-	public byte locz; // RelocateRolePos��z����
+	public byte locz; // RelocateRolePos的z坐标
 
 	public CRelocateRolePos() {
 		curpos = new fire.pb.move.Pos();

@@ -29,7 +29,7 @@ public class CForceDelPassword extends __CForceDelPassword__ {
 		return 786572;
 	}
 
-	public java.lang.String code; // ÑéÖ¤Âë
+	public java.lang.String code; // éªŒè¯ç 
 
 	public CForceDelPassword() {
 		code = "";

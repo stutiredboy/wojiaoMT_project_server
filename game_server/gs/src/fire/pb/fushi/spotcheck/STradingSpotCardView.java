@@ -25,8 +25,8 @@ public class STradingSpotCardView extends __STradingSpotCardView__ {
 		return 812638;
 	}
 
-	public java.util.ArrayList<fire.pb.fushi.spotcheck.SpotCardInfo> sellspotcardinfolist; // Âô³ö
-	public java.util.ArrayList<fire.pb.fushi.spotcheck.SpotCardInfo> buyspotcardinfolist; // ÂòÈë
+	public java.util.ArrayList<fire.pb.fushi.spotcheck.SpotCardInfo> sellspotcardinfolist; // å–å‡º
+	public java.util.ArrayList<fire.pb.fushi.spotcheck.SpotCardInfo> buyspotcardinfolist; // ä¹°å…¥
 
 	public STradingSpotCardView() {
 		sellspotcardinfolist = new java.util.ArrayList<fire.pb.fushi.spotcheck.SpotCardInfo>();

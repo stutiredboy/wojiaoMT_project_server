@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetLearnSkillByBook__ extends mkio.Protocol { }
 
-/** 宠物打技能书
+/** 瀹犵墿鎵撴妧鑳戒功
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

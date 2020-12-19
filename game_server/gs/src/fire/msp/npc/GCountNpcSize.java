@@ -14,7 +14,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GCountNpcSize__ extends mkio.Protocol { }
 
-/** ͳ�ƶ�̬������npc������
+/** 统计动态场景里npc的数量
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -25,7 +25,7 @@ public class GCountNpcSize extends __GCountNpcSize__ {
 		// protocol handle
 		DynamicScene ds = SceneManager.getInstance().getSceneByMapAndOwner(mapid, ownerid);
 		if (ds == null) {
-			SceneManager.logger.error(new StringBuilder().append("统计动�?�场景npc数量:")
+			SceneManager.logger.error(new StringBuilder().append("缁熻鍔ㄦ?佸満鏅痭pc鏁伴噺:")
 					.append(",ownerid:").append(ownerid)
 					.append(",mapid:").append(mapid));
 			return;

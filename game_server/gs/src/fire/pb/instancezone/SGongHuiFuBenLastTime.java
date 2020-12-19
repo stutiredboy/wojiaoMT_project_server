@@ -25,7 +25,7 @@ public class SGongHuiFuBenLastTime extends __SGongHuiFuBenLastTime__ {
 		return 804533;
 	}
 
-	public long lasttime; // 还有多少时间结束
+	public long lasttime; // 杩樻湁澶氬皯鏃堕棿缁撴潫
 
 	public SGongHuiFuBenLastTime() {
 	}

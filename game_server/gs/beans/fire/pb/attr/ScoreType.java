@@ -6,18 +6,18 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ScoreType implements Marshal , Comparable<ScoreType>{
-	public final static int ROLE_LEVEL_SCORE = 1; // ½ÇÉ«µÈ¼¶ÄÜÁ¦
-	public final static int EQUIP_LEVEL_SCORE = 2; // ×°±¸Ò»¼¶ÊôĞÔ
-	public final static int EQUIP_EFFCT = 3; // ×°±¸ÌØĞ§
-	public final static int EQUIP_SKILL = 4; // ×°±¸ÌØ¼¼
-	public final static int EQUIP_GEM = 5; // Ã¿¸ö±¦Ê¯
-	public final static int SCHOOL_SKILL = 6; // Ö°Òµ¼¼ÄÜ
-	public final static int GUILD_SKILL = 7; // ¹«»á¼¼ÄÜ
-	public final static int GUILD_SHAVE = 8; // ¹«»áĞŞÁ¶
-	public final static int PET_LEVEL_SCORE = 9; // ³èÎïÒ»¼¶ÊôĞÔ
-	public final static int PET_LOW_SKILL = 10; // ³èÎïµÍ¼¶¼¼ÄÜ
-	public final static int PET_HIGH_SKILL = 11; // ³èÎï¸ß¼¶¼¼ÄÜ
-	public final static int PET_GROWING = 12; // ³èÎï³É³¤
+	public final static int ROLE_LEVEL_SCORE = 1; // è§’è‰²ç­‰çº§èƒ½åŠ›
+	public final static int EQUIP_LEVEL_SCORE = 2; // è£…å¤‡ä¸€çº§å±æ€§
+	public final static int EQUIP_EFFCT = 3; // è£…å¤‡ç‰¹æ•ˆ
+	public final static int EQUIP_SKILL = 4; // è£…å¤‡ç‰¹æŠ€
+	public final static int EQUIP_GEM = 5; // æ¯ä¸ªå®çŸ³
+	public final static int SCHOOL_SKILL = 6; // èŒä¸šæŠ€èƒ½
+	public final static int GUILD_SKILL = 7; // å…¬ä¼šæŠ€èƒ½
+	public final static int GUILD_SHAVE = 8; // å…¬ä¼šä¿®ç‚¼
+	public final static int PET_LEVEL_SCORE = 9; // å® ç‰©ä¸€çº§å±æ€§
+	public final static int PET_LOW_SKILL = 10; // å® ç‰©ä½çº§æŠ€èƒ½
+	public final static int PET_HIGH_SKILL = 11; // å® ç‰©é«˜çº§æŠ€èƒ½
+	public final static int PET_GROWING = 12; // å® ç‰©æˆé•¿
 
 
 	public ScoreType() {

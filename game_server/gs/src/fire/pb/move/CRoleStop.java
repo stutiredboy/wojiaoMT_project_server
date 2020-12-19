@@ -27,7 +27,7 @@ public class CRoleStop extends __CRoleStop__ {
 		
 		if(! role.checkMoveUnit()) return;
 		
-		//checkmove�?�?
+		//checkmove涓?娆?
 		if(!CCheckMove.checkmove(role, role.getScene().getSceneID(), pos, poslist, System.currentTimeMillis()))
 		{
 			return;	
@@ -35,11 +35,11 @@ public class CRoleStop extends __CRoleStop__ {
 		
 		role.clearCurDestPos();
 
-		/*不广�? final SRoleStop snd = new SRoleStop();
+		/*涓嶅箍鎾? final SRoleStop snd = new SRoleStop();
 		snd.roleid = role.getRoleID();
 		snd.pos = role.getPos().toProtocolPos();
 		role.sendWhoSeeMe(snd);*/
-		/*不广�?2 final SRoleMove snd = new SRoleMove();
+		/*涓嶅箍鎾?2 final SRoleMove snd = new SRoleMove();
 		snd.roleid = role.getRoleID();
 		snd.destpos = role.getPos().toProtocolPos();
 		role.sendWhoSeeMe(snd);*/
@@ -54,8 +54,8 @@ public class CRoleStop extends __CRoleStop__ {
 		return 790442;
 	}
 
-	public java.util.LinkedList<fire.pb.move.Pos> poslist; // ·���ϵĹؼ���
-	public fire.pb.move.Pos pos; // λ��
+	public java.util.LinkedList<fire.pb.move.Pos> poslist; // 路径上的关键点
+	public fire.pb.move.Pos pos; // 位置
 	public long sceneid;
 
 	public CRoleStop() {

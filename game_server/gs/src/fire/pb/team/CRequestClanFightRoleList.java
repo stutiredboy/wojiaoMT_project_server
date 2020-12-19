@@ -12,7 +12,7 @@ abstract class __CRequestClanFightRoleList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请求公会战里角色信息 by changhao
+ * 璇锋眰鍏細鎴橀噷瑙掕壊淇℃伅 by changhao
  *
  */
 public class CRequestClanFightRoleList extends __CRequestClanFightRoleList__ {
@@ -36,7 +36,7 @@ public class CRequestClanFightRoleList extends __CRequestClanFightRoleList__ {
 				}
 				
 				int side = 0;
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //�?测是否在战场�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //妫?娴嬫槸鍚﹀湪鎴樺満涓? by changhao
 				if (c1 == null)
 				{
 					return false;
@@ -146,9 +146,9 @@ public class CRequestClanFightRoleList extends __CRequestClanFightRoleList__ {
 		return 794559;
 	}
 
-	public int isfresh; // �ͻ����� 0ˢ�� 1��ˢ��  by qyl
-	public long start; // ��ʼroleid by changhao
-	public int num; // ��������� by changhao
+	public int isfresh; // 客户端用 0刷新 1不刷新  by qyl
+	public long start; // 起始roleid by changhao
+	public int num; // 请求的数量 by changhao
 
 	public CRequestClanFightRoleList() {
 	}

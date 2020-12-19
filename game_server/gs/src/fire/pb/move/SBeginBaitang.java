@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SBeginBaitang__ extends mkio.Protocol { }
 
-/** 开始婚礼，里边带着新郎新娘的id
+/** 寮�濮嬪绀硷紝閲岃竟甯︾潃鏂伴儙鏂板鐨刬d
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

@@ -34,8 +34,8 @@ public class GSendAround extends __GSendAround__ {
 	}
 
 	public long roleid; // roleid
-	public int protype; // Ğ­ÒéµÄÀàĞÍ
-	public com.locojoy.base.Octets protocol; // Ğ­ÒémarshalÍêµÄÊı¾İ
+	public int protype; // åè®®çš„ç±»å‹
+	public com.locojoy.base.Octets protocol; // åè®®marshalå®Œçš„æ•°æ®
 
 	public GSendAround() {
 		protocol = new com.locojoy.base.Octets();

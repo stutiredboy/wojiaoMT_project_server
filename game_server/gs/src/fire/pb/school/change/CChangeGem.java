@@ -10,7 +10,7 @@ abstract class __CChangeGem__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
-// 套装点化
+// 濂楄鐐瑰寲
 public class CChangeGem extends __CChangeGem__ {
 	public static final Logger logger = Logger.getLogger("ITEM");
 	@Override
@@ -18,7 +18,7 @@ public class CChangeGem extends __CChangeGem__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		logger.error("-----------------------------套装点化--套装key-"+tanzhuangKey+"--洗练石key-"+xilianshiTypeId+"-----------------------------");
+		logger.error("-----------------------------濂楄鐐瑰寲--濂楄key-"+tanzhuangKey+"--娲楃粌鐭砶ey-"+xilianshiTypeId+"-----------------------------");
 		new PChangeGem(roleId, tanzhuangKey, xilianshiTypeId).submit();
 	}
 
@@ -30,8 +30,8 @@ public class CChangeGem extends __CChangeGem__ {
 		return 810491;
 	}
 
-	public int gemkey; // Ҫת����ʯ��itemKey
-	public int newgemitemid; // Ҫת����ʯ��itemId
+	public int gemkey; // 要转换宝石的itemKey
+	public int newgemitemid; // 要转换宝石的itemId
 
 	public CChangeGem() {
 	}

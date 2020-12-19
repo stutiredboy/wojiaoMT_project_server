@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SActiveHuoBan__ extends mkio.Protocol { }
 
-/** ½âËø»ï°é·µ»Ø
+/** è§£é”ä¼™ä¼´è¿”å›
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SActiveHuoBan extends __SActiveHuoBan__ {
 		return 818841;
 	}
 
-	public int huobanid; // »ï°éID
-	public int state; // 0ÎªÎ´½âËø; 1ÎªÓÀ¾ÃÊ¹ÓÃ; 2Îª±¾ÖÜÃâ·Ñ; ´óÓÚ10ÎªÓĞ¶àÉÙ·ÖÖÓµÄÊ£ÓàÊ±¼ä,Èç 134 ±íÊ¾ÎªÃâ·Ñ134 - 10 = 124·ÖÖÓ
+	public int huobanid; // ä¼™ä¼´ID
+	public int state; // 0ä¸ºæœªè§£é”; 1ä¸ºæ°¸ä¹…ä½¿ç”¨; 2ä¸ºæœ¬å‘¨å…è´¹; å¤§äº10ä¸ºæœ‰å¤šå°‘åˆ†é’Ÿçš„å‰©ä½™æ—¶é—´,å¦‚ 134 è¡¨ç¤ºä¸ºå…è´¹134 - 10 = 124åˆ†é’Ÿ
 
 	public SActiveHuoBan() {
 	}

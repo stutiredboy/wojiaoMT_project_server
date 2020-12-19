@@ -25,7 +25,7 @@ public class SSetTeamLeader extends __SSetTeamLeader__ {
 		return 794445;
 	}
 
-	public long roleid; // ¶Ó³¤½ÇÉ«ID
+	public long roleid; // é˜Ÿé•¿è§’è‰²ID
 
 	public SSetTeamLeader() {
 	}

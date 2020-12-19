@@ -25,7 +25,7 @@ public class CEvaluateMasterResult extends __CEvaluateMasterResult__ {
 		return 816456;
 	}
 
-	public int result; // Ñ¡Ïîid£¬1¡¢2¡¢3¡¢4ÖĞµÄÒ»Ïî
+	public int result; // é€‰é¡¹idï¼Œ1ã€2ã€3ã€4ä¸­çš„ä¸€é¡¹
 
 	public CEvaluateMasterResult() {
 	}

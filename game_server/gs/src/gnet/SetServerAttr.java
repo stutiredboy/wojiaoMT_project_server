@@ -21,7 +21,7 @@ public class SetServerAttr extends __SetServerAttr__ {
 
 	@Override
 	protected void onTimeout(int code) {
-		// client only. ��ʹ�� submit ��ʽ���� rpc ʱ�������������ص���
+		// client only. 锟斤拷使锟斤拷 submit 锟斤拷式锟斤拷锟斤拷 rpc 时锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟截碉拷锟斤拷
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

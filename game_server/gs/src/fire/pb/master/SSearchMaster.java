@@ -25,9 +25,9 @@ public class SSearchMaster extends __SSearchMaster__ {
 		return 816438;
 	}
 
-	public int pageid; // Ò³Êý
-	public int totalpage; // ×ÜÒ³Êý
-	public java.util.ArrayList<fire.pb.master.Master> masters; // Ê¦¸µ
+	public int pageid; // é¡µæ•°
+	public int totalpage; // æ€»é¡µæ•°
+	public java.util.ArrayList<fire.pb.master.Master> masters; // å¸ˆå‚…
 
 	public SSearchMaster() {
 		masters = new java.util.ArrayList<fire.pb.master.Master>();

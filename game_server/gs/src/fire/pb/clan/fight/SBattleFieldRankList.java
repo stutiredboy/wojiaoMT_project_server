@@ -25,12 +25,12 @@ public class SBattleFieldRankList extends __SBattleFieldRankList__ {
 		return 808539;
 	}
 
-	public int clanscore1; // ¹«»á1»ı·Ö by changhao
-	public int clanscroe2; // ¹«»á2»ı·Ö by changhao
-	public java.util.LinkedList<fire.pb.clan.fight.RoleBattleFieldRank> ranklist1; // Õ½³¡»ı·ÖÅÅÃûlist  by changhao
-	public java.util.LinkedList<fire.pb.clan.fight.RoleBattleFieldRank> ranklist2; // Õ½³¡»ı·ÖÅÅÃûlist  by changhao
-	public int myscore; // ÎÒµÄ»ı·Ö by changhao
-	public int myrank; // ÎÒµÄÅÅÃû(´Ó0¿ªÊ¼) by changhao
+	public int clanscore1; // å…¬ä¼š1ç§¯åˆ† by changhao
+	public int clanscroe2; // å…¬ä¼š2ç§¯åˆ† by changhao
+	public java.util.LinkedList<fire.pb.clan.fight.RoleBattleFieldRank> ranklist1; // æˆ˜åœºç§¯åˆ†æ’ålist  by changhao
+	public java.util.LinkedList<fire.pb.clan.fight.RoleBattleFieldRank> ranklist2; // æˆ˜åœºç§¯åˆ†æ’ålist  by changhao
+	public int myscore; // æˆ‘çš„ç§¯åˆ† by changhao
+	public int myrank; // æˆ‘çš„æ’å(ä»0å¼€å§‹) by changhao
 
 	public SBattleFieldRankList() {
 		ranklist1 = new java.util.LinkedList<fire.pb.clan.fight.RoleBattleFieldRank>();

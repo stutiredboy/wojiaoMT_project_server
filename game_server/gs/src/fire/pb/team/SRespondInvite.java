@@ -25,8 +25,8 @@ public class SRespondInvite extends __SRespondInvite__ {
 		return 794486;
 	}
 
-	public long roleid; // »ØÓ¦ÑûÇëµÄ½ÇÉ«
-	public byte agree; // agreeÎª1½ÓÊÜÑûÇë£¬Îª0¾Ü¾øÑûÇë
+	public long roleid; // å›åº”é‚€è¯·çš„è§’è‰²
+	public byte agree; // agreeä¸º1æ¥å—é‚€è¯·ï¼Œä¸º0æ‹’ç»é‚€è¯·
 
 	public SRespondInvite() {
 	}

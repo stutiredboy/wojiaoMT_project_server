@@ -20,7 +20,7 @@ public class CLengendAnYetask extends __CLengendAnYetask__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;	
-		CircleTaskManager.logger.info("收到传说任务消息.角色[" + roleid + "]要传说位�?" + taskpos + "的马戏团任务!");
+		CircleTaskManager.logger.info("鏀跺埌浼犺浠诲姟娑堟伅.瑙掕壊[" + roleid + "]瑕佷紶璇翠綅缃?" + taskpos + "鐨勯┈鎴忓洟浠诲姟!");
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
@@ -40,7 +40,7 @@ public class CLengendAnYetask extends __CLengendAnYetask__ {
 		return 807458;
 	}
 
-	public int taskpos; // ������λ
+	public int taskpos; // 任务栏位
 
 	public CLengendAnYetask() {
 	}

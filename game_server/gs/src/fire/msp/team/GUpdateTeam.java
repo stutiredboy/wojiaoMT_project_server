@@ -39,8 +39,8 @@ public class GUpdateTeam extends __GUpdateTeam__ {
 		return 728901;
 	}
 
-	public fire.msp.team.SceneTeam sceneteam; // �µ�SceneTeam
-	public java.util.HashMap<Long,Integer> newmemberid; // �³�ԱID��״̬
+	public fire.msp.team.SceneTeam sceneteam; // 新的SceneTeam
+	public java.util.HashMap<Long,Integer> newmemberid; // 新成员ID与状态
 
 	public GUpdateTeam() {
 		sceneteam = new fire.msp.team.SceneTeam();

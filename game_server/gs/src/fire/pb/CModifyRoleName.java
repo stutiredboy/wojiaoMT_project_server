@@ -31,7 +31,7 @@ public class CModifyRoleName extends __CModifyRoleName__ {
 	}
 
 	public java.lang.String newname;
-	public int itemkey; // 使用的改名符itemkey
+	public int itemkey; // 浣跨敤鐨勬敼鍚嶇itemkey
 
 	public CModifyRoleName() {
 		newname = "";

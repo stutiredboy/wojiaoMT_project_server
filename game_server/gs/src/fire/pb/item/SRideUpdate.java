@@ -25,9 +25,9 @@ public class SRideUpdate extends __SRideUpdate__ {
 		return 787783;
 	}
 
-	public int itemkey; // //包里道具key by changhao
-	public int itemid; // //道具id by changhao
-	public int rideid; // 坐骑id by changhao
+	public int itemkey; // //鍖呴噷閬撳叿key by changhao
+	public int itemid; // //閬撳叿id by changhao
+	public int rideid; // 鍧愰獞id by changhao
 
 	public SRideUpdate() {
 	}

@@ -5,7 +5,7 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** Npc»Ö¸´ÀàĞÍ
+/** Npcæ¢å¤ç±»å‹
 */
 public class NpcHealType implements Marshal , Comparable<NpcHealType>{
 	public final static int ROLE_RECOVERY = 1;

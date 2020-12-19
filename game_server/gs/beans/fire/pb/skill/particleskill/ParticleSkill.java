@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ParticleSkill implements Marshal {
-	public int id; // ĞŞÁ¶¼¼ÄÜid by changhao
-	public int level; // µÈ¼¶ by changhao
-	public int maxlevel; // ×î´óµÈ¼¶ by changhao
-	public int exp; // µ±Ç°¾­Ñé by changhao
-	public java.util.HashMap<Integer,Float> effects; // ÊôĞÔĞ§¹û by changhao
-	public java.util.HashMap<Integer,Float> nexteffect; // ÏÂÒ»¼¶ÊôĞÔĞ§¹û by changhao
+	public int id; // ä¿®ç‚¼æŠ€èƒ½id by changhao
+	public int level; // ç­‰çº§ by changhao
+	public int maxlevel; // æœ€å¤§ç­‰çº§ by changhao
+	public int exp; // å½“å‰ç»éªŒ by changhao
+	public java.util.HashMap<Integer,Float> effects; // å±æ€§æ•ˆæœ by changhao
+	public java.util.HashMap<Integer,Float> nexteffect; // ä¸‹ä¸€çº§å±æ€§æ•ˆæœ by changhao
 
 	public ParticleSkill() {
 		effects = new java.util.HashMap<Integer,Float>();

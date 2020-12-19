@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RewardItemUnit implements Marshal , Comparable<RewardItemUnit>{
-	public int baseid; // ½±ÀøµÀ¾ßµÄ»ù±¾id
-	public int num; // ½±ÀøµÀ¾ßµÄÊıÁ¿
+	public int baseid; // å¥–åŠ±é“å…·çš„åŸºæœ¬id
+	public int num; // å¥–åŠ±é“å…·çš„æ•°é‡
 
 	public RewardItemUnit() {
 	}

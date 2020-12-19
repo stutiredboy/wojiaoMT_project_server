@@ -25,9 +25,9 @@ public class SOpenClanMedic extends __SOpenClanMedic__ {
 		return 808440;
 	}
 
-	public int selecttype; // Ñ¡Ôñ¼¸±¶²úÒ©
-	public int buyitemnum; // µ±ÌìÒÑ¾­¹ºÂòÊıÁ¿
-	public java.util.ArrayList<fire.pb.clan.MedicItem> medicitemlist; // Ò©Æ·ĞÅÏ¢
+	public int selecttype; // é€‰æ‹©å‡ å€äº§è¯
+	public int buyitemnum; // å½“å¤©å·²ç»è´­ä¹°æ•°é‡
+	public java.util.ArrayList<fire.pb.clan.MedicItem> medicitemlist; // è¯å“ä¿¡æ¯
 
 	public SOpenClanMedic() {
 		medicitemlist = new java.util.ArrayList<fire.pb.clan.MedicItem>();

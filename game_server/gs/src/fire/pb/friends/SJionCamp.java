@@ -25,9 +25,9 @@ public class SJionCamp extends __SJionCamp__ {
 		return 806559;
 	}
 
-	public long roleid; // ×¢ÒâroleIDµÈÓÚ×Ô¼ºµÄ »¹ÊÇ±ğÈËµÄ
-	public byte camptype; // 0=ÎŞÕóÓª 1=²¿Âä 2=ÁªÃË
-	public byte selecttype; // 0=Ñ¡ÔñÕóÓª 1=¸ü»»ÕóÓª
+	public long roleid; // æ³¨æ„roleIDç­‰äºè‡ªå·±çš„ è¿˜æ˜¯åˆ«äººçš„
+	public byte camptype; // 0=æ— é˜µè¥ 1=éƒ¨è½ 2=è”ç›Ÿ
+	public byte selecttype; // 0=é€‰æ‹©é˜µè¥ 1=æ›´æ¢é˜µè¥
 
 	public SJionCamp() {
 	}

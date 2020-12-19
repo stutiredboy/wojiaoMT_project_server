@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CBuyMallShop__ extends mkio.Protocol { }
 
-/** ÉÌ³Ç¹ºÂòĞ­Òé
+/** å•†åŸè´­ä¹°åè®®
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -37,10 +37,10 @@ public class CBuyMallShop extends __CBuyMallShop__ {
 		return 810632;
 	}
 
-	public int shopid; // ÉÌµêĞòºÅ
-	public int taskid; // Í¬Ò»¸öµÀ¾ß¿ÉÒÔ½Ó²»Í¬µÄÈÎÎñ,ÓÃtaskidÀ´Çø·Ö
-	public int goodsid; // ÉÌÆ·id
-	public int num; // ¹ºÂòÊıÁ¿
+	public int shopid; // å•†åº—åºå·
+	public int taskid; // åŒä¸€ä¸ªé“å…·å¯ä»¥æ¥ä¸åŒçš„ä»»åŠ¡,ç”¨taskidæ¥åŒºåˆ†
+	public int goodsid; // å•†å“id
+	public int num; // è´­ä¹°æ•°é‡
 
 	public CBuyMallShop() {
 	}

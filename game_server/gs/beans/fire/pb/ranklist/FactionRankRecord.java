@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class FactionRankRecord implements Marshal {
-	public int rank; // 排名
-	public java.lang.String factionname; // 公会名称
-	public java.lang.String mastername; // 帮主名称
-	public int level; // 公会等级
-	public int camp; // 阵营
-	public long factionkey; // 公会key
+	public int rank; // 鎺掑悕
+	public java.lang.String factionname; // 鍏細鍚嶇О
+	public java.lang.String mastername; // 甯富鍚嶇О
+	public int level; // 鍏細绛夌骇
+	public int camp; // 闃佃惀
+	public long factionkey; // 鍏細key
 
 	public FactionRankRecord() {
 		factionname = "";

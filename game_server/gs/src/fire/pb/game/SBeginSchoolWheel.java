@@ -25,7 +25,7 @@ public class SBeginSchoolWheel extends __SBeginSchoolWheel__ {
 		return 810364;
 	}
 
-	public int wheelindex; // zÖ°Òµ×ªÅÌ±í.xlsx ÀïµÄÎïÆ·ÁĞ±àºÅ
+	public int wheelindex; // zèŒä¸šè½¬ç›˜è¡¨.xlsx é‡Œçš„ç‰©å“åˆ—ç¼–å·
 
 	public SBeginSchoolWheel() {
 	}

@@ -5,14 +5,14 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ºì°ü°ñ by changhao
+/** çº¢åŒ…æ¦œ by changhao
 */
 public class RedPackRankRecord implements Marshal {
-	public int rank; // ÅÅÃû by changhao
-	public long roleid; // ½ÇÉ«ID by changhao
-	public java.lang.String rolename; // ÈËÎïÃû³Æ by changhao
-	public int school; // Ö°Òµ by changhao
-	public long num; // ÊıÁ¿ by changhao
+	public int rank; // æ’å by changhao
+	public long roleid; // è§’è‰²ID by changhao
+	public java.lang.String rolename; // äººç‰©åç§° by changhao
+	public int school; // èŒä¸š by changhao
+	public long num; // æ•°é‡ by changhao
 
 	public RedPackRankRecord() {
 		rolename = "";

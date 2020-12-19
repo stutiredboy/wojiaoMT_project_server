@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGoldOrderUpBlackMarket__ extends mkio.Protocol { }
 
-/** 金币订单上架
+/** 閲戝竵璁㈠崟涓婃灦
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -38,8 +38,8 @@ public class CGoldOrderUpBlackMarket extends __CGoldOrderUpBlackMarket__ {
 		return 810670;
 	}
 
-	public long goldnumber; // 金币数量, 整数
-	public long rmb; // 出售价格, 整数, 单位人民币分
+	public long goldnumber; // 閲戝竵鏁伴噺, 鏁存暟
+	public long rmb; // 鍑哄敭浠锋牸, 鏁存暟, 鍗曚綅浜烘皯甯佸垎
 
 	public CGoldOrderUpBlackMarket() {
 	}

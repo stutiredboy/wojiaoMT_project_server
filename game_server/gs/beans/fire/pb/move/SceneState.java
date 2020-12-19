@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SceneState implements Marshal , Comparable<SceneState>{
-	public final static int BATTLE_FIGHTER = 1; // 1:Õ½¶·×´Ì¬
-	public final static int BATTLE_WATCHER = 2; // 2:¹ÛÕ½×´Ì¬
-	public final static int BATTLE_REPLAY = 4; // 4:¹Û¿´Â¼Ïñ
-	public final static int PLAY_CG = 8; // 8:¶¯»­²¥·Å
-	public final static int NO_PAY_DAY = 16; // 16Ã»ÓĞÖ§¸¶ÈÕ¿¨ by changhao
-	public final static int GM_FLAG = 2097152; // 22:³¡¾°ÖĞÏÔÊ¾gmÍ¼±ê
+	public final static int BATTLE_FIGHTER = 1; // 1:æˆ˜æ–—çŠ¶æ€
+	public final static int BATTLE_WATCHER = 2; // 2:è§‚æˆ˜çŠ¶æ€
+	public final static int BATTLE_REPLAY = 4; // 4:è§‚çœ‹å½•åƒ
+	public final static int PLAY_CG = 8; // 8:åŠ¨ç”»æ’­æ”¾
+	public final static int NO_PAY_DAY = 16; // 16æ²¡æœ‰æ”¯ä»˜æ—¥å¡ by changhao
+	public final static int GM_FLAG = 2097152; // 22:åœºæ™¯ä¸­æ˜¾ç¤ºgmå›¾æ ‡
 
 
 	public SceneState() {

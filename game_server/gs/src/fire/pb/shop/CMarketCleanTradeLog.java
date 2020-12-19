@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMarketCleanTradeLog__ extends mkio.Protocol { }
 
-/** °ÚÌ¯½»Ò×¼ÇÂ¼Çå³ý
+/** æ‘†æ‘Šäº¤æ˜“è®°å½•æ¸…é™¤
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

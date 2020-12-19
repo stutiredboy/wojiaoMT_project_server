@@ -6,20 +6,20 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ActiveQuestData implements Marshal {
-	public int questid; // ÈÎÎñid
-	public int queststate; // ÈÎÎñ×´Ì¬
-	public long dstnpckey; // Ä¿µÄnpckey
-	public int dstnpcid; // Ä¿µÄnpcbaseid
-	public int dstmapid; // Ä¿µÄµØÍ¼id
-	public int dstx; // Ä¿µÄx×ø±ê
-	public int dsty; // Ä¿µÄy×ø±ê
-	public int dstitemid; // Ä¿µÄµÀ¾ßµÄid"
-	public int sumnum; // ÀÛ»ı´ÎÊı.
-	public java.lang.String npcname; // npcÃû×Ö,Ä¿Ç°½öÓÃÓÚÇ¿µÁ±¦Í¼
-	public long rewardexp; // ½±ÀøµÄ¾­Ñé
-	public long rewardmoney; // ½±ÀøµÄÏÖ½ğ
-	public long rewardsmoney; // ½±ÀøµÄ´¢±¸½ğ
-	public java.util.ArrayList<fire.pb.circletask.RewardItemUnit> rewarditems; // ½±ÀøµÄµÀ¾ß
+	public int questid; // ä»»åŠ¡id
+	public int queststate; // ä»»åŠ¡çŠ¶æ€
+	public long dstnpckey; // ç›®çš„npckey
+	public int dstnpcid; // ç›®çš„npcbaseid
+	public int dstmapid; // ç›®çš„åœ°å›¾id
+	public int dstx; // ç›®çš„xåæ ‡
+	public int dsty; // ç›®çš„yåæ ‡
+	public int dstitemid; // ç›®çš„é“å…·çš„id"
+	public int sumnum; // ç´¯ç§¯æ¬¡æ•°.
+	public java.lang.String npcname; // npcåå­—,ç›®å‰ä»…ç”¨äºå¼ºç›—å®å›¾
+	public long rewardexp; // å¥–åŠ±çš„ç»éªŒ
+	public long rewardmoney; // å¥–åŠ±çš„ç°é‡‘
+	public long rewardsmoney; // å¥–åŠ±çš„å‚¨å¤‡é‡‘
+	public java.util.ArrayList<fire.pb.circletask.RewardItemUnit> rewarditems; // å¥–åŠ±çš„é“å…·
 
 	public ActiveQuestData() {
 		npcname = "";

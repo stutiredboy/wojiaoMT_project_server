@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SubmitType implements Marshal , Comparable<SubmitType>{
-	public final static int ITEM = 1; // ¸øÓènpc£¬ÈÎÎñÏà¹ØµÄÎïÆ·
-	public final static int PET = 2; // ¸øÓènpc,ÈÎÎñÏà¹ØµÄ³èÎï
-	public final static int MONEY = 3; // ¸øÓènpc,ÈÎÎñÏà¹ØµÄ½ğÇ®
-	public final static int FACTION_MONEY_BOX = 4; // ¸øÓènpc,¹«»áÒøÏä
-	public final static int FAMILY_MONEY_BOX = 5; // ¸øÓènpc,ÒøÏä
-	public final static int INSTANCE_ZONE_ITEM = 13; // ¸±±¾Íæ·¨ÄÚµÄÌá½»ÎïÆ·
-	public final static int GUILD_ZONE_ITEM = 22; // ¸±±¾Íæ·¨ÄÚµÄÌá½»ÎïÆ·
+	public final static int ITEM = 1; // ç»™äºˆnpcï¼Œä»»åŠ¡ç›¸å…³çš„ç‰©å“
+	public final static int PET = 2; // ç»™äºˆnpc,ä»»åŠ¡ç›¸å…³çš„å® ç‰©
+	public final static int MONEY = 3; // ç»™äºˆnpc,ä»»åŠ¡ç›¸å…³çš„é‡‘é’±
+	public final static int FACTION_MONEY_BOX = 4; // ç»™äºˆnpc,å…¬ä¼šé“¶ç®±
+	public final static int FAMILY_MONEY_BOX = 5; // ç»™äºˆnpc,é“¶ç®±
+	public final static int INSTANCE_ZONE_ITEM = 13; // å‰¯æœ¬ç©æ³•å†…çš„æäº¤ç‰©å“
+	public final static int GUILD_ZONE_ITEM = 22; // å‰¯æœ¬ç©æ³•å†…çš„æäº¤ç‰©å“
 
 
 	public SubmitType() {

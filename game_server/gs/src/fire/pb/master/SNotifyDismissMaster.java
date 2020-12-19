@@ -25,7 +25,7 @@ public class SNotifyDismissMaster extends __SNotifyDismissMaster__ {
 		return 816478;
 	}
 
-	public java.lang.String mastername; // ͽ�ܵ�roleid
+	public java.lang.String mastername; // 徒弟的roleid
 
 	public SNotifyDismissMaster() {
 		mastername = "";

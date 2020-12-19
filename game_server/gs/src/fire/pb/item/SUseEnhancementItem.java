@@ -25,7 +25,7 @@ public class SUseEnhancementItem extends __SUseEnhancementItem__ {
 		return 787764;
 	}
 
-	public int equippos; // ×°±¸µÄÎ»ÖÃ by changhao
+	public int equippos; // è£…å¤‡çš„ä½ç½® by changhao
 
 	public SUseEnhancementItem() {
 	}

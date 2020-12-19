@@ -29,8 +29,8 @@ public class SendRoleData extends __SendRoleData__ {
 	public java.lang.String tablename;
 	public com.locojoy.base.Octets valuedata;
 	public com.locojoy.base.Octets keydata;
-	public byte isemptytable; // ÊÇ·ñÎª¿Õ±í£¬1ÊÇ
-	public java.util.LinkedList<fire.pb.cross.TableData> relationdata; // Ïà¹ØÁªÊı¾İ
+	public byte isemptytable; // æ˜¯å¦ä¸ºç©ºè¡¨ï¼Œ1æ˜¯
+	public java.util.LinkedList<fire.pb.cross.TableData> relationdata; // ç›¸å…³è”æ•°æ®
 
 	public SendRoleData() {
 		tablename = "";

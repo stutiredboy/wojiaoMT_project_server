@@ -25,7 +25,7 @@ public class SGetActivityInfo extends __SGetActivityInfo__ {
 		return 805537;
 	}
 
-	public java.util.ArrayList<fire.pb.mission.ActivityInfo> activityinfos; // 活动信息
+	public java.util.ArrayList<fire.pb.mission.ActivityInfo> activityinfos; // 娲诲姩淇℃伅
 
 	public SGetActivityInfo() {
 		activityinfos = new java.util.ArrayList<fire.pb.mission.ActivityInfo>();

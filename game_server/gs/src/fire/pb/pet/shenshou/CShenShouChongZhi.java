@@ -26,8 +26,8 @@ public class CShenShouChongZhi extends __CShenShouChongZhi__ {
 		return 788529;
 	}
 
-	public int petkey; // 宠物key
-	public int needpetid; // 需要兑换的宠物ID
+	public int petkey; // 瀹犵墿key
+	public int needpetid; // 闇�瑕佸厬鎹㈢殑瀹犵墿ID
 
 	public CShenShouChongZhi() {
 	}

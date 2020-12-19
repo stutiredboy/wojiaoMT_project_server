@@ -36,11 +36,11 @@ public class CReqFushiInfo extends __CReqFushiInfo__ {
 					});
 				} 
 				else {
-					FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("获取应用宝数据失败！"));
+					FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("鑾峰彇搴旂敤瀹濇暟鎹け璐ワ紒"));
 				}
 			}
 			catch(Exception e){
-				FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("应用�? 发�?�玩家的符石信息错误�?") , e);
+				FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("搴旂敤瀹? 鍙戦?佺帺瀹剁殑绗︾煶淇℃伅閿欒锛?") , e);
 			}
 		} 
 	}

@@ -25,9 +25,9 @@ public class SRoleJumpDrawback extends __SRoleJumpDrawback__ {
 		return 790480;
 	}
 
-	public long roleid; // ½ÇÉ«id
-	public fire.pb.move.Pos srcpos; // ±»À­»ØµÄµã
-	public byte srcz; // ±»À­»ØµÄz×ø±ê
+	public long roleid; // è§’è‰²id
+	public fire.pb.move.Pos srcpos; // è¢«æ‹‰å›çš„ç‚¹
+	public byte srcz; // è¢«æ‹‰å›çš„zåæ ‡
 
 	public SRoleJumpDrawback() {
 		srcpos = new fire.pb.move.Pos();

@@ -45,7 +45,7 @@ abstract class __CRequestLearnParticleSkill__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 学习修炼�?�?
+ * 瀛︿範淇偧鎶?鑳?
  * @author changhao
  *
  */
@@ -94,9 +94,9 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					return true;
 				}
 				
-				int curskilllevel = practiceskill.getLevel(); //�?要学习到的等�? by changhao
+				int curskilllevel = practiceskill.getLevel(); //闇?瑕佸涔犲埌鐨勭瓑绾? by changhao
 				
-				if (curskilllevel >= config.skillLevelMax) //是否已经达到�?大等�? by changhao
+				if (curskilllevel >= config.skillLevelMax) //鏄惁宸茬粡杈惧埌鏈?澶х瓑绾? by changhao
 				{
 					MessageMgr.psendMsgNotify(roleid, 160107, null);	
 					return true;						
@@ -116,7 +116,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					contri = contribution.getHistoryclanpoint();
 				}
 
-				//得到能学的最大等�? by changhao
+				//寰楀埌鑳藉鐨勬渶澶х瓑绾? by changhao
 				int maxlevel = 0;
 						
 				java.util.Map<Integer, Integer> ret = LiveSkillManager.getInstance().GetPracticeSkillMaxLevel(rolelevel, factionlevel, contri, config.skillLevelMax);
@@ -149,7 +149,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					return true;
 				}
 				
-				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //是否�?要公�? by changhao
+				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //鏄惁闇?瑕佸叕浼? by changhao
 				{
 					return true;	
 				}
@@ -159,9 +159,9 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 				Pack bag = (Pack)fire.pb.item.Module.getInstance().getItemMaps(
 						roleid, fire.pb.item.BagTypes.BAG, false);
 											
-				int which = LiveSkillManager.getInstance().GetPracticleSkillPlayerOrPet(id); //得到这个修炼�?能对应的对象 by changhao
+				int which = LiveSkillManager.getInstance().GetPracticleSkillPlayerOrPet(id); //寰楀埌杩欎釜淇偧鎶?鑳藉搴旂殑瀵硅薄 by changhao
 			
-				if (itemid != 0) //消�?�道具升�? by changhao
+				if (itemid != 0) //娑堣?楅亾鍏峰崌绾? by changhao
 				{
 					GroceryItemShuXing grocery = (GroceryItemShuXing) fire.pb.item.Module.getInstance().getItemManager().getAttr(itemid);
 					if (grocery == null)
@@ -169,10 +169,10 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 						return true;
 					}
 										
-					//角色 by changhao
+					//瑙掕壊 by changhao
 					if (grocery.typeid == LiveSkillManager.ITEM_TYPE_PRACTICE_ROLE_ITEM && which == 2)
 					{
-						//成功消�?�道�? by changhao
+						//鎴愬姛娑堣?楅亾鍏? by changhao
 						if(bag.removeItemById(itemid, times, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuixiulian, 0, LiveSkillManager.Practice) != times)
 						{
 							MessageMgr.psendMsgNotify(roleid, 160105, null);
@@ -182,10 +182,10 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 						fire.pb.skill.SPracticeItemExp itemexp = ConfigManager.getInstance().getConf(fire.pb.skill.SPracticeItemExp.class).get(itemid);
 						addexp = itemexp.exp * times;
 						
-					}//宠物 by changhao
+					}//瀹犵墿 by changhao
 					else if (grocery.typeid == LiveSkillManager.ITEM_TYPE_PRACTICE_PET_ITEM && which == 1)
 					{
-						//成功消�?�道�? by changhao
+						//鎴愬姛娑堣?楅亾鍏? by changhao
 						if(bag.removeItemById(itemid, times, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuixiulian, 0, LiveSkillManager.Practice) != times)
 						{
 							MessageMgr.psendMsgNotify(roleid, 160104, null);
@@ -200,13 +200,13 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 						return true;
 					}
 				}
-				else //花钱升级 by changhao
+				else //鑺遍挶鍗囩骇 by changhao
 				{
 					fire.pb.common.SCommon costconfig = ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(165);
 					
 					int costmoney = Integer.parseInt(costconfig.value) * times;
 									
-					//扣钱 by changhao
+					//鎵ｉ挶 by changhao
 					if(bag.subMoney(-costmoney, LiveSkillManager.Practice, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuixiulian, 0) != -costmoney)
 					{
 						return false;	
@@ -215,7 +215,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 					addexp = 10 * times;
 				}
 				
-				AddExp(curskilllevel, practiceskill.getExp() + addexp, practiceskill, maxlevel); //升级 by changhao
+				AddExp(curskilllevel, practiceskill.getExp() + addexp, practiceskill, maxlevel); //鍗囩骇 by changhao
 				
 				SUpdateLearnParticleSkill msg = new SUpdateLearnParticleSkill();
 				msg.skill.level = practiceskill.getLevel();
@@ -227,12 +227,12 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 				{
 					msg.skill.effects.putAll(CalcSkillEffect(config.skillId, msg.skill.level));
 					msg.skill.nexteffect.putAll(CalcSkillEffect(config.skillId, msg.skill.level + 1));
-					if (practiceskill.getLevel() > curskilllevel) //升级刷新属�?? by changhao
+					if (practiceskill.getLevel() > curskilllevel) //鍗囩骇鍒锋柊灞炴?? by changhao
 					{
 						Result result = new Result(true);
 						
-						//刷新BUFF by changhao
-						Module.logger.info("玩家:" + roleid + "修炼专精�?能后加载PracticleSkill�?�?");
+						//鍒锋柊BUFF by changhao
+						Module.logger.info("鐜╁:" + roleid + "淇偧涓撶簿鎶?鑳藉悗鍔犺浇PracticleSkill鎶?鑳?");
 						if(which == 2)
 							result.updateResult(skillrole.addPracticleSkillBuff());
 						else if(which == 1)
@@ -248,7 +248,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 							}							
 						}
 					
-						if(!result.getChangedAttrs().isEmpty())//通知属�?�改�? by changhao
+						if(!result.getChangedAttrs().isEmpty())//閫氱煡灞炴?ф敼鍔? by changhao
 						{
 							mkdb.Procedure.psendWhileCommit(roleid,new SRefreshRoleData((HashMap<Integer, Float>)result.getChangedAttrs()));
 						}		
@@ -275,14 +275,14 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 	}
 	
 	/***
-	 * 修炼等级加经�? by changhao
+	 * 淇偧绛夌骇鍔犵粡楠? by changhao
 	 * @param requirelevel
 	 * @param curexp
 	 * @param skill
 	 */
 	public void AddExp(int curskilllevel, int curexp, xbean.PracticeSkill skill, int curmaxlevel)
 	{
-		int maxexp = LiveSkillManager.getInstance().GetPracticleSkillNeedExp(id, curskilllevel); //得到升这级需要的经验 by changhao
+		int maxexp = LiveSkillManager.getInstance().GetPracticleSkillNeedExp(id, curskilllevel); //寰楀埌鍗囪繖绾ч渶瑕佺殑缁忛獙 by changhao
 		int exp = curexp;
 		while (exp >= maxexp)
 		{
@@ -290,7 +290,7 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 			
 			curskilllevel ++;
 			maxexp = LiveSkillManager.getInstance().GetPracticleSkillNeedExp(id, curskilllevel);
-			if (maxexp == -1) //升级到最大了 by changhao
+			if (maxexp == -1) //鍗囩骇鍒版渶澶т簡 by changhao
 			{
 				skill.setLevel(curskilllevel);
 				skill.setExp(0);
@@ -342,9 +342,9 @@ public class CRequestLearnParticleSkill extends __CRequestLearnParticleSkill__ {
 		return 800505;
 	}
 
-	public int id; // ����ID by changhao
-	public int times; // ѧϰ���� by changhao
-	public int itemid; // ʹ�õĵ��� by changhao
+	public int id; // 技能ID by changhao
+	public int times; // 学习次数 by changhao
+	public int itemid; // 使用的道具 by changhao
 
 	public CRequestLearnParticleSkill() {
 	}

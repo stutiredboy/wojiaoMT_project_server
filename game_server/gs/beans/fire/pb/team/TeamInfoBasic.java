@@ -6,16 +6,16 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class TeamInfoBasic implements Marshal {
-	public long teamid; // ¶ÓÎéID
-	public long leaderid; // ¶Ó³¤ID
-	public int minlevel; // µÈ¼¶ÏÂÏŞ
-	public int maxlevel; // µÈ¼¶ÉÏÏŞ
-	public java.lang.String leadername; // ¶Ó³¤Ãû×Ö
-	public int leaderlevel; // ¶Ó³¤µÈ¼¶
-	public int leaderschool; // ¶Ó³¤Ö°Òµ
-	public int membernum; // ¶ÓÎéÈËÊı
-	public int membermaxnum; // ¶ÓÎé×î´óÈËÊı Æ¥Åä¶ÓÎéĞèÒª by changhao
-	public int targetid; // ¶ÓÎéÄ¿±ê by changhao
+	public long teamid; // é˜Ÿä¼ID
+	public long leaderid; // é˜Ÿé•¿ID
+	public int minlevel; // ç­‰çº§ä¸‹é™
+	public int maxlevel; // ç­‰çº§ä¸Šé™
+	public java.lang.String leadername; // é˜Ÿé•¿åå­—
+	public int leaderlevel; // é˜Ÿé•¿ç­‰çº§
+	public int leaderschool; // é˜Ÿé•¿èŒä¸š
+	public int membernum; // é˜Ÿä¼äººæ•°
+	public int membermaxnum; // é˜Ÿä¼æœ€å¤§äººæ•° åŒ¹é…é˜Ÿä¼éœ€è¦ by changhao
+	public int targetid; // é˜Ÿä¼ç›®æ ‡ by changhao
 
 	public TeamInfoBasic() {
 		leadername = "";

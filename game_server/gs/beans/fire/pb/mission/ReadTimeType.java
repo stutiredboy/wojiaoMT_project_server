@@ -6,13 +6,13 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ReadTimeType implements Marshal , Comparable<ReadTimeType>{
-	public final static int TREASE_MAP = 1; // ÍÚ±¦Í¼
-	public final static int USE_TASK_ITEM = 2; // Ê¹ÓÃÈÎÎñµÀ¾ß
-	public final static int FOSSICK = 3; // ²É¼¯
-	public final static int OPEN_BOX = 4; // ¿ª±¦Ïä
-	public final static int END_TALK_QUEST = 5; // ½áÊø¶Ô»°ÀàÈÎÎñ
-	public final static int BEGIN_BATTLE_QUEST = 6; // 6¿ªÊ¼Õ½¶·ÀàÈÎÎñ
-	public final static int END_AREA_QUEST = 7; // ÇøÓò»¤ËÍ
+	public final static int TREASE_MAP = 1; // æŒ–å®å›¾
+	public final static int USE_TASK_ITEM = 2; // ä½¿ç”¨ä»»åŠ¡é“å…·
+	public final static int FOSSICK = 3; // é‡‡é›†
+	public final static int OPEN_BOX = 4; // å¼€å®ç®±
+	public final static int END_TALK_QUEST = 5; // ç»“æŸå¯¹è¯ç±»ä»»åŠ¡
+	public final static int BEGIN_BATTLE_QUEST = 6; // 6å¼€å§‹æˆ˜æ–—ç±»ä»»åŠ¡
+	public final static int END_AREA_QUEST = 7; // åŒºåŸŸæŠ¤é€
 
 
 	public ReadTimeType() {

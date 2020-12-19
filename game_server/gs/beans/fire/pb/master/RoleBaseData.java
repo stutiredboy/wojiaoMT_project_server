@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleBaseData implements Marshal {
 	public long roleid; // roleid
-	public java.lang.String nickname; // Ãû×Ö
+	public java.lang.String nickname; // åå­—
 
 	public RoleBaseData() {
 		nickname = "";

@@ -26,8 +26,8 @@ public class SRequestParticleSkillList extends __SRequestParticleSkillList__ {
 	}
 
 	public java.util.LinkedList<fire.pb.skill.particleskill.ParticleSkill> skilllist;
-	public int curcontribution; // 当前帮贡 by changhao
-	public int factionlevel; // 公会等级 by changhao
+	public int curcontribution; // 褰撳墠甯础 by changhao
+	public int factionlevel; // 鍏細绛夌骇 by changhao
 
 	public SRequestParticleSkillList() {
 		skilllist = new java.util.LinkedList<fire.pb.skill.particleskill.ParticleSkill>();

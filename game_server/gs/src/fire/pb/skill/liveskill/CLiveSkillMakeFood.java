@@ -28,7 +28,7 @@ abstract class __CLiveSkillMakeFood__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 制作食物
+ * 鍒朵綔椋熺墿
  * @author changhao
  *
  */
@@ -47,7 +47,7 @@ public class CLiveSkillMakeFood extends __CLiveSkillMakeFood__ {
 			{
 				SkillRole skillrole = new SkillRole(roleid);
 				
-				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_COOKING);	//得到生活�?能等�? by changhao			
+				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_COOKING);	//寰楀埌鐢熸椿鎶?鑳界瓑绾? by changhao			
 				if (liveskill == null)
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.SkillLevelNotEnough));
@@ -57,7 +57,7 @@ public class CLiveSkillMakeFood extends __CLiveSkillMakeFood__ {
 				int skilllevel = liveskill.getLevel();
 						
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, 
-						LiveSkillManager.LIVE_SKILL_TYPE_COOKING, skilllevel,"制作食物",
+						LiveSkillManager.LIVE_SKILL_TYPE_COOKING, skilllevel,"鍒朵綔椋熺墿",
 						YYLoggerTuJingEnum.tujing_Value_liveskillcost, false);
 				
 				if (energyenough == false)

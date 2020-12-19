@@ -22,7 +22,7 @@ abstract class __CLiveSkillMakeEnhancement__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 附魔制作
+ * 闄勯瓟鍒朵綔
  * @author changhao
  *
  */
@@ -42,7 +42,7 @@ public class CLiveSkillMakeEnhancement extends __CLiveSkillMakeEnhancement__ {
 				xbean.Properties prop = xtable.Properties.select(roleid);
 				int school = prop.getSchool();
 				
-				int skilllevel = LiveSkillManager.getInstance().GetEnhanceLevelBySchool(roleid, school);//取得职业�?能等�?  by changhao
+				int skilllevel = LiveSkillManager.getInstance().GetEnhanceLevelBySchool(roleid, school);//鍙栧緱鑱屼笟鎶?鑳界瓑绾?  by changhao
 				if (skilllevel == 0)
 				{
 					LiveSkillManager.logger.debug("CLiveSkillMakeEnhancement skilllevel error:" + roleid);
@@ -53,9 +53,9 @@ public class CLiveSkillMakeEnhancement extends __CLiveSkillMakeEnhancement__ {
 				int itemid = LiveSkillManager.getInstance().GetEnhanceItemIdBySchool(school);
 							
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, 
-						liveskillid, skilllevel,"附魔", YYLoggerTuJingEnum.tujing_Value_fumo, false);
+						liveskillid, skilllevel,"闄勯瓟", YYLoggerTuJingEnum.tujing_Value_fumo, false);
 				
-				if (energyenough == false) //消�?�活�? by changhao
+				if (energyenough == false) //娑堣?楁椿鍔? by changhao
 				{
 					java.util.List<String> parameters = new java.util.ArrayList<String>();
 					String s = Integer.toString(LiveSkillManager.getInstance().NeedEnergy(liveskillid, skilllevel));

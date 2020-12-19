@@ -30,7 +30,7 @@ public class CModifyBattleFlag extends __CModifyBattleFlag__ {
 	}
 
 	public byte opttype; // 0 add, 1 delete, 2 modify
-	public byte index; // 0-9 ÓÑ·½, 10-19µĞ·½
+	public byte index; // 0-9 å‹æ–¹, 10-19æ•Œæ–¹
 	public java.lang.String flag;
 
 	public CModifyBattleFlag() {

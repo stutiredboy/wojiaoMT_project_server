@@ -23,14 +23,14 @@ public class SBingFengLandInfo extends __SBingFengLandInfo__ {
 		return 804552;
 	}
 
-	public int ranktype; // ²Î¼ÓRankType
+	public int ranktype; // å‚åŠ RankType
 	public int landid;
-	public int lastrank; // ÉÏ´ÎµÄÅÅÃû
-	public int receiveaward; // Èç¹ûÒÑ¾­Áì¹ı½±Àø,Îª1£¬¿Í»§¶ËÓ¦¸Ã°ÑÁìÈ¡½±Àø»Òµô
-	public int stage; // ÎÒµÄ½ø¶È,¸ù¾İlandIdºÍstage¿ÉÒÔÈ·¶¨ÒÑ¾­ÌôÕ½¹ıµÄnpc
-	public int yesterdaystage; // ×òÈÕ½ø¶È
-	public int entertimes; // »¹ÄÜ½øÈëµÄ´ÎÊı
-	public int vip; // vipµÈ¼¶
+	public int lastrank; // ä¸Šæ¬¡çš„æ’å
+	public int receiveaward; // å¦‚æœå·²ç»é¢†è¿‡å¥–åŠ±,ä¸º1ï¼Œå®¢æˆ·ç«¯åº”è¯¥æŠŠé¢†å–å¥–åŠ±ç°æ‰
+	public int stage; // æˆ‘çš„è¿›åº¦,æ ¹æ®landIdå’Œstageå¯ä»¥ç¡®å®šå·²ç»æŒ‘æˆ˜è¿‡çš„npc
+	public int yesterdaystage; // æ˜¨æ—¥è¿›åº¦
+	public int entertimes; // è¿˜èƒ½è¿›å…¥çš„æ¬¡æ•°
+	public int vip; // vipç­‰çº§
 
 	public SBingFengLandInfo() {
 	}

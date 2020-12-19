@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetSynthesize__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÇëÇó³èÎïºÏ³É
+/** å®¢æˆ·ç«¯è¯·æ±‚å® ç‰©åˆæˆ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,8 +32,8 @@ public class CPetSynthesize extends __CPetSynthesize__ {
 		return 788517;
 	}
 
-	public int petkey1; // ³èÎïkey
-	public int petkey2; // ³èÎïkey
+	public int petkey1; // å® ç‰©key
+	public int petkey2; // å® ç‰©key
 
 	public CPetSynthesize() {
 	}

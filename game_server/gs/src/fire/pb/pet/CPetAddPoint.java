@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetAddPoint__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÇëÇó³èÎï¼Óµã
+/** å®¢æˆ·ç«¯è¯·æ±‚å® ç‰©åŠ ç‚¹
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -19,7 +19,7 @@ public class CPetAddPoint extends __CPetAddPoint__ {
 		if (roleid < 0 || !fire.pb.StateCommon.isOnline(roleid))
 			return;
 
-		// æ•°æ®åˆæ³•æ€§æ£€æŸ?
+		// éç‰ˆåµéšå Ÿç¡¶éŽ¬Ñ„î—…éŒ?
 		if (cons == 0 && iq == 0 && str == 0 && endu == 0 && agi == 0)
 			return;
 
@@ -35,12 +35,12 @@ public class CPetAddPoint extends __CPetAddPoint__ {
 		return 788439;
 	}
 
-	public int petkey; // ³èÎïkeyÖµ,¼ÓµãµÄ³èÎï
-	public int str; // Á¦Á¿¼ÓµãÊý
-	public int iq; // ÖÇÁ¦¼ÓµãÊý
-	public int cons; // ÌåÖÊ¼ÓµãÊý
-	public int endu; // ÄÍÁ¦¼ÓµãÊý
-	public int agi; // Ãô½Ý¼ÓµãÊý
+	public int petkey; // å® ç‰©keyå€¼,åŠ ç‚¹çš„å® ç‰©
+	public int str; // åŠ›é‡åŠ ç‚¹æ•°
+	public int iq; // æ™ºåŠ›åŠ ç‚¹æ•°
+	public int cons; // ä½“è´¨åŠ ç‚¹æ•°
+	public int endu; // è€åŠ›åŠ ç‚¹æ•°
+	public int agi; // æ•æ·åŠ ç‚¹æ•°
 
 	public CPetAddPoint() {
 	}

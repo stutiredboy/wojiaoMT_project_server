@@ -5,14 +5,14 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 5v5竞技场排行榜
+/** 5v5绔炴妧鍦烘帓琛屾
 */
 public class PvP5RankData implements Marshal {
-	public int rank; // 排名
-	public long roleid; // 角色ID
-	public java.lang.String rolename; // 名字
-	public int score; // 积分
-	public int school; // 职业
+	public int rank; // 鎺掑悕
+	public long roleid; // 瑙掕壊ID
+	public java.lang.String rolename; // 鍚嶅瓧
+	public int score; // 绉垎
+	public int school; // 鑱屼笟
 
 	public PvP5RankData() {
 		rolename = "";

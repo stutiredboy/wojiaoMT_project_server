@@ -26,11 +26,11 @@ public class SSendImpExamState extends __SSendImpExamState__ {
 	}
 
 	public fire.pb.npc.ImpExamBean impexamdata;
-	public long historymintime; // ÀúÊ·×î¶ÌÓÃÊ±
-	public int historymaxright; // ÀúÊ·×î¶à´ğ¶ÔÌâÄ¿Êı
-	public java.lang.String titlename; // »ñµÃµÄ³ÆºÅ
-	public byte lost; // 0=¼ÌĞø 1=Ê§°Ü
-	public long impexamusetime; // µ±Ç°¿¼ÊÔÓÃÊ±
+	public long historymintime; // å†å²æœ€çŸ­ç”¨æ—¶
+	public int historymaxright; // å†å²æœ€å¤šç­”å¯¹é¢˜ç›®æ•°
+	public java.lang.String titlename; // è·å¾—çš„ç§°å·
+	public byte lost; // 0=ç»§ç»­ 1=å¤±è´¥
+	public long impexamusetime; // å½“å‰è€ƒè¯•ç”¨æ—¶
 
 	public SSendImpExamState() {
 		impexamdata = new fire.pb.npc.ImpExamBean();

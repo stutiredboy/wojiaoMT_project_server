@@ -25,9 +25,9 @@ public class SBuyMedic extends __SBuyMedic__ {
 		return 808504;
 	}
 
-	public int itemid; // 药品id
+	public int itemid; // 鑽搧id
 	public int itemnum;
-	public int buyitemnum; // 当天已经购买数量
+	public int buyitemnum; // 褰撳ぉ宸茬粡璐拱鏁伴噺
 
 	public SBuyMedic() {
 	}

@@ -5,11 +5,11 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** 角色染色相关命令
+/** 瑙掕壊鏌撹壊鐩稿叧鍛戒护
 */
 public class RoleColorType implements Marshal , Comparable<RoleColorType>{
-	public int colorpos1; // 部位1
-	public int colorpos2; // 部位2
+	public int colorpos1; // 閮ㄤ綅1
+	public int colorpos2; // 閮ㄤ綅2
 
 	public RoleColorType() {
 	}

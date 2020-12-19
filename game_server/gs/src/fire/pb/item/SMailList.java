@@ -25,7 +25,7 @@ public class SMailList extends __SMailList__ {
 		return 787700;
 	}
 
-	public java.util.ArrayList<fire.pb.item.MailInfo> maillist; // ÓÊ¼şÁĞ±í
+	public java.util.ArrayList<fire.pb.item.MailInfo> maillist; // é‚®ä»¶åˆ—è¡¨
 
 	public SMailList() {
 		maillist = new java.util.ArrayList<fire.pb.item.MailInfo>();

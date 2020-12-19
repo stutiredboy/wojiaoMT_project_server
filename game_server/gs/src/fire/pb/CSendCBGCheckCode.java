@@ -9,7 +9,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSendCBGCheckCode__ extends mkio.Protocol { }
 
-/** ²Ø±¦¸óÉÏ¼Ü¶ÌĞÅÑéÖ¤
+/** è—å®é˜ä¸Šæ¶çŸ­ä¿¡éªŒè¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CSendCBGCheckCode extends __CSendCBGCheckCode__ {
 		return 786584;
 	}
 
-	public java.lang.String code; // ÑéÖ¤Âë
+	public java.lang.String code; // éªŒè¯ç 
 
 	public CSendCBGCheckCode() {
 		code = "";

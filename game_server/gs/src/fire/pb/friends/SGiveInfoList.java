@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGiveInfoList__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·µ»ØºÃÓÑÔùËÍĞÅÏ¢ÁĞ±í
+/** æœåŠ¡å™¨è¿”å›å¥½å‹èµ é€ä¿¡æ¯åˆ—è¡¨
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SGiveInfoList extends __SGiveInfoList__ {
 		return 806634;
 	}
 
-	public java.util.HashMap<Long,Byte> givenummap; // keyÎª½ÇÉ«id valueÎªÊıÁ¿
+	public java.util.HashMap<Long,Byte> givenummap; // keyä¸ºè§’è‰²id valueä¸ºæ•°é‡
 
 	public SGiveInfoList() {
 		givenummap = new java.util.HashMap<Long,Byte>();

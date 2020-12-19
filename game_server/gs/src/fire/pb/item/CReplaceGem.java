@@ -33,9 +33,9 @@ public class CReplaceGem extends __CReplaceGem__ {
 		return 787766;
 	}
 
-	public int ret; // 0 ±íÊ¾²»Ìæ»»;1 ±íÊ¾Ìæ»»
-	public int srckey; // ÔÚ±³°üÀ¸ÀïÔ´×°±¸µÄkey
-	public int deskey; // ÔÚ×°±¸À¸ÀïÄ¿±ê×°±¸µÄkey
+	public int ret; // 0 è¡¨ç¤ºä¸æ›¿æ¢;1 è¡¨ç¤ºæ›¿æ¢
+	public int srckey; // åœ¨èƒŒåŒ…æ é‡Œæºè£…å¤‡çš„key
+	public int deskey; // åœ¨è£…å¤‡æ é‡Œç›®æ ‡è£…å¤‡çš„key
 
 	public CReplaceGem() {
 	}

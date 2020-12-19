@@ -25,10 +25,10 @@ public class SGetMarketUpPrice extends __SGetMarketUpPrice__ {
 		return 810652;
 	}
 
-	public int containertype; // 1±³°ü 2³èÎïÀ¸ 3ÅÄÂô³èÎïÀ¸ 4ÅÄÂô±³°ü
-	public int price; // ÍÆ¼ö¼Û¸ñ
-	public int stallprice; // Ì¯Î»·Ñ
-	public java.util.ArrayList<Integer> recommendations; // ÍÆ¼ö¼Û¸ñ
+	public int containertype; // 1èƒŒåŒ… 2å® ç‰©æ  3æ‹å–å® ç‰©æ  4æ‹å–èƒŒåŒ…
+	public int price; // æ¨èä»·æ ¼
+	public int stallprice; // æ‘Šä½è´¹
+	public java.util.ArrayList<Integer> recommendations; // æ¨èä»·æ ¼
 
 	public SGetMarketUpPrice() {
 		recommendations = new java.util.ArrayList<Integer>();

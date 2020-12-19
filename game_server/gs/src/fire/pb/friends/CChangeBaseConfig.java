@@ -44,7 +44,7 @@ public class CChangeBaseConfig extends __CChangeBaseConfig__ {
 		return 806441;
 	}
 
-	public byte refusestrangermsg; // 0=个拒绝陌生人消息 1=接收
+	public byte refusestrangermsg; // 0=涓嫆缁濋檶鐢熶汉娑堟伅 1=鎺ユ敹
 
 	public CChangeBaseConfig() {
 	}

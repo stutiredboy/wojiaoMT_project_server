@@ -5,15 +5,15 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ´íÎó´úÂë£¬oyjx
+/** é”™è¯¯ä»£ç ï¼Œoyjx
 */
 public class ErrorCodes implements Marshal , Comparable<ErrorCodes>{
-	public final static int NoError = 0; // Ã»ÓĞ´íÎó
-	public final static int AddItemToBagException = 1; // Íù±³°üÌí¼ÓÎïÆ·³ö´í
-	public final static int NotEnoughMoney = 2; // ½ğÇ®²»×ã
-	public final static int EquipPosNotSuit = 3; // ×°±¸Î»ÖÃ²»·ûºÏ
-	public final static int EquipLevelNotSuit = 4; // ×°±¸µÈ¼¶²»·ûºÏ
-	public final static int EquipSexNotSuit = 5; // ×°±¸ĞÔ±ğ²»·ûºÏ
+	public final static int NoError = 0; // æ²¡æœ‰é”™è¯¯
+	public final static int AddItemToBagException = 1; // å¾€èƒŒåŒ…æ·»åŠ ç‰©å“å‡ºé”™
+	public final static int NotEnoughMoney = 2; // é‡‘é’±ä¸è¶³
+	public final static int EquipPosNotSuit = 3; // è£…å¤‡ä½ç½®ä¸ç¬¦åˆ
+	public final static int EquipLevelNotSuit = 4; // è£…å¤‡ç­‰çº§ä¸ç¬¦åˆ
+	public final static int EquipSexNotSuit = 5; // è£…å¤‡æ€§åˆ«ä¸ç¬¦åˆ
 
 
 	public ErrorCodes() {

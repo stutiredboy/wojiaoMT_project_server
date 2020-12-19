@@ -54,7 +54,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				info.setUsername(octstream.unmarshal_String("UTF-8"));
 				info.setNickname(nickNameStr);
 				
-				//½âÎö³öÇşµÀÃû×Ö
+				//è§£æå‡ºæ¸ é“åå­—
 				String userNameStr = info.getUsername();
 //				String userNameStr = "1234567890@@yingyongbao@2";
 				String [] str = userNameStr.split("@");
@@ -115,7 +115,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				sb.append(",loginip:"+loginip);
 				//xdb.Trace.info(sb.toString());
 				StateManager.logger.info(sb.toString());
-				//²åÈë»áÖØ¸´
+				//æ’å…¥ä¼šé‡å¤
 				xtable.Auuserinfo.remove(userid);
 				xtable.Auuserinfo.add(userid, info);
 				return true;
@@ -128,7 +128,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 						return entry.getValue();
 				}
 			
-				//Èç¹ûÃ»ÓĞÕÒµ½,Ä¬ÈÏÊÇandroid
+				//å¦‚æœæ²¡æœ‰æ‰¾åˆ°,é»˜è®¤æ˜¯android
 				return "2";
 
 			}
@@ -146,23 +146,23 @@ public class UserInfoRep extends __UserInfoRep__ {
 		return 211;
 	}
 
-	public final static int ALGORITHM_NONE = 0x0; // ½öÃÜÂë
-	public final static int ALGORITHM_CARD = 0x00010000; // ÃÜ±£¿¨
-	public final static int ALGORITHM_HANDSET = 0x00020000; // ÊÖ»úÃÜ±£
+	public final static int ALGORITHM_NONE = 0x0; // ä»…å¯†ç 
+	public final static int ALGORITHM_CARD = 0x00010000; // å¯†ä¿å¡
+	public final static int ALGORITHM_HANDSET = 0x00020000; // æ‰‹æœºå¯†ä¿
 	public final static int ALGORITHM_USBKEY = 0x00030000; // usbkey
-	public final static int ALGORITHM_PHONE = 0x00040100; // µç»°ÃÜ±£
+	public final static int ALGORITHM_PHONE = 0x00040100; // ç”µè¯å¯†ä¿
 	public final static int ALGORITHM_USBKEY2 = 0x00050000; // usbkey2
 
 	public int userid;
 	public int retcode;
-	public int func; // ĞÂÊÖ¿¨×Ö¶Î
-	public int funcparm; // ĞÂÊÖ¿¨¸½Êô×Ö¶Î
-	public int loginip; // ¿Í»§¶ËµÇÂ¼ip
-	public byte blisgm; // ÊÇ·ñÎªGM
-	public java.util.ArrayList<Integer> auth; // GMÈ¨ÏŞÁĞ±í£¬¾ßÌåÈ¨ÏŞ¼ûÏà¹ØÎÄµµ
-	public int algorithm; // ÕËºÅ°²È«¼¶±ğ
+	public int func; // æ–°æ‰‹å¡å­—æ®µ
+	public int funcparm; // æ–°æ‰‹å¡é™„å±å­—æ®µ
+	public int loginip; // å®¢æˆ·ç«¯ç™»å½•ip
+	public byte blisgm; // æ˜¯å¦ä¸ºGM
+	public java.util.ArrayList<Integer> auth; // GMæƒé™åˆ—è¡¨ï¼Œå…·ä½“æƒé™è§ç›¸å…³æ–‡æ¡£
+	public int algorithm; // è´¦å·å®‰å…¨çº§åˆ«
 	public byte gender; // 0-female,1-male,2-unknown
-	public com.locojoy.base.Octets nickname; // êÇ³Æ
+	public com.locojoy.base.Octets nickname; // æ˜µç§°
 
 	public UserInfoRep() {
 		auth = new java.util.ArrayList<Integer>();

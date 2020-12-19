@@ -26,7 +26,7 @@ public class SUpdateFriendState extends __SUpdateFriendState__ {
 	}
 
 	public long roleid;
-	public short relation; // ºÃÓÑ¹ØÏµ Î»Óë0=ÆÕÍ¨ºÃÓÑ 1=½á»é2=½á½»4=Ê¦Í½
+	public short relation; // å¥½å‹å…³ç³» ä½ä¸0=æ™®é€šå¥½å‹ 1=ç»“å©š2=ç»“äº¤4=å¸ˆå¾’
 
 	public SUpdateFriendState() {
 	}

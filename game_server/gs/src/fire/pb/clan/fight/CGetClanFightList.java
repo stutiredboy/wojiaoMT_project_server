@@ -12,7 +12,7 @@ abstract class __CGetClanFightList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * å¾—åˆ°å¸®ä¼šæˆ˜çš„å¯¹æˆ˜è¡? by changhao
+ * å¯°æ¥€åŸŒç”¯î†»ç´°é´æ¨¼æ®‘ç€µè§„å¬ç›? by changhao
  */
 public class CGetClanFightList extends __CGetClanFightList__ {
 	@Override
@@ -111,8 +111,8 @@ public class CGetClanFightList extends __CGetClanFightList__ {
 		return 808532;
 	}
 
-	public int whichweek; // ÀúÊ·ÄÇÒ»ÖÜ(0-7ÖÜ)(Èç¹ûÌî-1±íÊ¾µ±Ç°ÖÜ) by changhao
-	public int which; // 0ÊÇÖÜÒ»ÄÇ³¡£¬1ÊÇÖÜÈıÄÇ³¡ by changhao
+	public int whichweek; // å†å²é‚£ä¸€å‘¨(0-7å‘¨)(å¦‚æœå¡«-1è¡¨ç¤ºå½“å‰å‘¨) by changhao
+	public int which; // 0æ˜¯å‘¨ä¸€é‚£åœºï¼Œ1æ˜¯å‘¨ä¸‰é‚£åœº by changhao
 
 	public CGetClanFightList() {
 	}

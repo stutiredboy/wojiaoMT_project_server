@@ -25,8 +25,8 @@ public class CSelectedPrenticePassBook extends __CSelectedPrenticePassBook__ {
 		return 816454;
 	}
 
-	public long prenticeid; // Í½µÜid
-	public int itemkey; // ÎïÆ·µÄbagkey
+	public long prenticeid; // å¾’å¼Ÿid
+	public int itemkey; // ç‰©å“çš„bagkey
 
 	public CSelectedPrenticePassBook() {
 	}

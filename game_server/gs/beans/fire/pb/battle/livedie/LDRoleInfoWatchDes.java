@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class LDRoleInfoWatchDes implements Marshal {
-	public fire.pb.battle.livedie.LDRoleInfoDes role1; // 对手1
-	public fire.pb.battle.livedie.LDRoleInfoDes role2; // 对手1
+	public fire.pb.battle.livedie.LDRoleInfoDes role1; // 瀵规墜1
+	public fire.pb.battle.livedie.LDRoleInfoDes role2; // 瀵规墜1
 
 	public LDRoleInfoWatchDes() {
 		role1 = new fire.pb.battle.livedie.LDRoleInfoDes();

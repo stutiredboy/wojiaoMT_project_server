@@ -26,15 +26,15 @@ public class SSendBattleStart extends __SSendBattleStart__ {
 	}
 
 	public int enemyside;
-	public int friendsformation; // ¼º·½µÄ¹â»·
-	public int enemyformation; // µĞÈËµÄ¹â»·
-	public int friendsformationlevel; // ¼º·½µÄ¹â»·
-	public int enemyformationlevel; // µĞÈËµÄ¹â»·
-	public int battleconfigid; // Õ½¶·ÅäÖÃID£¬Ä¬ÈÏÎª-1£¬¼´²»ÊÇÍ¨¹ıÕ½¶·ÅäÖÃÀ´Éú³ÉµÄÕ½¶·
-	public int battletype; // Ã¶¾ÙÖµ¼ûBattleType
-	public int roundnum; // »ØºÏÊı£¬Ä¬ÈÏÊÇ0
-	public byte background; // Õ½¶·µ×Í¼id
-	public byte backmusic; // Õ½¶·±³¾°ÒôÀÖid
+	public int friendsformation; // å·±æ–¹çš„å…‰ç¯
+	public int enemyformation; // æ•Œäººçš„å…‰ç¯
+	public int friendsformationlevel; // å·±æ–¹çš„å…‰ç¯
+	public int enemyformationlevel; // æ•Œäººçš„å…‰ç¯
+	public int battleconfigid; // æˆ˜æ–—é…ç½®IDï¼Œé»˜è®¤ä¸º-1ï¼Œå³ä¸æ˜¯é€šè¿‡æˆ˜æ–—é…ç½®æ¥ç”Ÿæˆçš„æˆ˜æ–—
+	public int battletype; // æšä¸¾å€¼è§BattleType
+	public int roundnum; // å›åˆæ•°ï¼Œé»˜è®¤æ˜¯0
+	public byte background; // æˆ˜æ–—åº•å›¾id
+	public byte backmusic; // æˆ˜æ–—èƒŒæ™¯éŸ³ä¹id
 
 	public SSendBattleStart() {
 	}

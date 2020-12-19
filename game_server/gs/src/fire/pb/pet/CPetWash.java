@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPetWash__ extends mkio.Protocol { }
 
-/** ³èÎïÏ´Á·
+/** å® ç‰©æ´—ç»ƒ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CPetWash extends __CPetWash__ {
 		return 788515;
 	}
 
-	public int petkey; // ³èÎïkey
+	public int petkey; // å® ç‰©key
 
 	public CPetWash() {
 	}

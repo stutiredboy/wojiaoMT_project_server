@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SReqFortuneWheel__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·¢ËÍ³é½±
+/** æœåŠ¡å™¨å‘é€æŠ½å¥–
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,11 +27,11 @@ public class SReqFortuneWheel extends __SReqFortuneWheel__ {
 		return 795445;
 	}
 
-	public long npckey; // npckeyÎªnpcµÄÎ¨Ò»ID
-	public int serviceid; // µ±Ç°×ªÅÌ·şÎñid
-	public java.util.ArrayList<fire.pb.npc.ForturneWheelType> itemids; // ¹©Ñ¡ÔñµÄ12¸öÎïÆ·,¿ÉÄÜÊÇÇ®»ò¾­Ñé
-	public int index; // ×îºó»ñµÃµÄÎïÆ·ÏÂ±ê
-	public byte flag; // 0 ´ó×ªÅÌ  1·­ÅÌ×Ó
+	public long npckey; // npckeyä¸ºnpcçš„å”¯ä¸€ID
+	public int serviceid; // å½“å‰è½¬ç›˜æœåŠ¡id
+	public java.util.ArrayList<fire.pb.npc.ForturneWheelType> itemids; // ä¾›é€‰æ‹©çš„12ä¸ªç‰©å“,å¯èƒ½æ˜¯é’±æˆ–ç»éªŒ
+	public int index; // æœ€åè·å¾—çš„ç‰©å“ä¸‹æ ‡
+	public byte flag; // 0 å¤§è½¬ç›˜  1ç¿»ç›˜å­
 
 	public SReqFortuneWheel() {
 		itemids = new java.util.ArrayList<fire.pb.npc.ForturneWheelType>();

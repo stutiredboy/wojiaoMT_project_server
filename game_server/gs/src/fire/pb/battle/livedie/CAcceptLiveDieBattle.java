@@ -39,49 +39,49 @@ abstract class __CAcceptLiveDieBattle__ extends mkio.Protocol { }
 public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 	@Override
 	protected void process() {
-		// npc处应战开�?
+		// npc澶勫簲鎴樺紑鎴?
 		final long guestid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (guestid <= 0)
 			return;
 		
-		//判断下战书的人是否存�?
+		//鍒ゆ柇涓嬫垬涔︾殑浜烘槸鍚﹀瓨鍦?
 		Long hostid=xtable.Livedie2key.select(guestid);
-		//判断是否有下战书的人
+		//鍒ゆ柇鏄惁鏈変笅鎴樹功鐨勪汉
 		if(hostid==null){
-			//提示没有给你下战书的�?162079
+			//鎻愮ず娌℃湁缁欎綘涓嬫垬涔︾殑浜?162079
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162079, null);
 			return ;
 		}
-		//获得下战书信息，判断是否过期
+		//鑾峰緱涓嬫垬涔︿俊鎭紝鍒ゆ柇鏄惁杩囨湡
 		xbean.LiveDieRoleInfo hostliveDieRoleInfo=xtable.Livedieroleinfotab.select(hostid);
 		if(hostliveDieRoleInfo==null){
 			return ;
 		}
 		if(System.currentTimeMillis()-hostliveDieRoleInfo.getInvitationtime()>LiveDieMange.getLiveDieTime()){
-			logger.info("战书已经过期�?");
+			logger.info("鎴樹功宸茬粡杩囨湡浜?");
 			return ;
 		}
 		
-		//判断玩家是否在线
+		//鍒ゆ柇鐜╁鏄惁鍦ㄧ嚎
 		Role hostRole = RoleManager.getInstance().getRoleByID(hostid);
 		if (hostRole == null){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 145001, null);
 			return ;
 		}
-		//判断自己是否在副本，在副本无法发送请�?
+		//鍒ゆ柇鑷繁鏄惁鍦ㄥ壇鏈紝鍦ㄥ壇鏈棤娉曞彂閫佽姹?
 		MapConfig cfg = ConfigManager.getInstance().getConf(MapConfig.class).get(hostRole.getMapId());
 		if(cfg.dynamic ==1){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid,162002, null);
 			return ;
 		}
 		xbean.Properties guestprop=xtable.Properties.select(guestid);
-		//竞技场地图无�?
+		//绔炴妧鍦哄湴鍥炬棤娉?
 		if (PvPHelperManager.isPvPMap(hostRole.getMapId())){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid,162121, null);
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162130, Arrays.asList(guestprop.getRolename()));
 			return ;
 		}
-		//判断下战书的玩家是否在战斗或者观�?
+		//鍒ゆ柇涓嬫垬涔︾殑鐜╁鏄惁鍦ㄦ垬鏂楁垨鑰呰鎴?
 		BuffAgent hostAgent = new BuffRoleImpl(hostid, true);
 		if (hostAgent.existBuff(BuffConstant.StateType.STATE_REPLAY)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_FIGHTER)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_WATCHER)) {
 			MessageMgr.sendMsgNotify(guestid, 162132, null);
@@ -92,32 +92,32 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 144999, 0, null);
 			return ;
 		}
-		//判断对方是否在线
+		//鍒ゆ柇瀵规柟鏄惁鍦ㄧ嚎
 		if (!StateCommon.isOnlineBuffer(hostid)) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 145001, null);
 			return ;
 		}
 		int isteamfight=0;
 		
-		//判断战斗类型，是组队还是单人
-		if(hostliveDieRoleInfo.getSelecttype()==1){//组队
+		//鍒ゆ柇鎴樻枟绫诲瀷锛屾槸缁勯槦杩樻槸鍗曚汉
+		if(hostliveDieRoleInfo.getSelecttype()==1){//缁勯槦
 			isteamfight=1;
-			//如果是组队，�?要判断当前队伍是否都是队�?
-			//组队决斗,发起人不是队长时,接受人点击开�?,接受人会提示发起人不是队�?,发起人会提示接受人已经接受决�?,请成为队�?
+			//濡傛灉鏄粍闃燂紝闇?瑕佸垽鏂綋鍓嶉槦浼嶆槸鍚﹂兘鏄槦闀?
+			//缁勯槦鍐虫枟,鍙戣捣浜轰笉鏄槦闀挎椂,鎺ュ彈浜虹偣鍑诲紑鎴?,鎺ュ彈浜轰細鎻愮ず鍙戣捣浜轰笉鏄槦闀?,鍙戣捣浜轰細鎻愮ず鎺ュ彈浜哄凡缁忔帴鍙楀喅鏂?,璇锋垚涓洪槦闀?
 			Team hostteam = TeamManager.selectTeamByRoleId(hostid);
 			if(hostteam==null){
-				//提示发起人，成为队长
+				//鎻愮ず鍙戣捣浜猴紝鎴愪负闃熼暱
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162125, Arrays.asList(guestprop.getRolename()));
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162121, null);
 				return ;
 			}
 			if(hostteam.getTeamLeaderId()!=hostid){
-				//提示发起人，成为队长
+				//鎻愮ず鍙戣捣浜猴紝鎴愪负闃熼暱
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162125, Arrays.asList(guestprop.getRolename()));
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162121, null);
 				return ;
 			}
-			//判断队伍中的成员是否符合要求
+			//鍒ゆ柇闃熶紞涓殑鎴愬憳鏄惁绗﹀悎瑕佹眰
 			if(isTeamCanFight(hostteam,hostid)==false){
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162121, null);
 				return ;
@@ -125,23 +125,23 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			
 			Team guestteam = TeamManager.selectTeamByRoleId(guestid);
 			if(guestteam==null){
-				//不是队长，无法应�?
+				//涓嶆槸闃熼暱锛屾棤娉曞簲鎴?
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162081, null);
 				return ;
 			}
-			//判断是否是队�?
+			//鍒ゆ柇鏄惁鏄槦闀?
 			if(guestteam.getTeamLeaderId()!=guestid){
-				//不是队长，无法应�?
+				//涓嶆槸闃熼暱锛屾棤娉曞簲鎴?
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162081, null);
 				return ;
 			}
-			//判断队伍中的成员是否符合要求
+			//鍒ゆ柇闃熶紞涓殑鎴愬憳鏄惁绗﹀悎瑕佹眰
 			if(isTeamCanFight(guestteam,guestid)==false){
 				return ;
 			}
-			//如果有队伍，暂离状�?�也不能�?�?
+			//濡傛灉鏈夐槦浼嶏紝鏆傜鐘舵?佷篃涓嶈兘寮?鎴?
 			if(hostteam.getAbsentMemberIds().contains(hostid)){
-				//提示发起人，成为队长
+				//鎻愮ず鍙戣捣浜猴紝鎴愪负闃熼暱
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162080, null);
 				return ;
 			}
@@ -156,11 +156,11 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162112, null);
 				return ;
 			}
-			//单人战书必须都是单人才能参加
+			//鍗曚汉鎴樹功蹇呴』閮芥槸鍗曚汉鎵嶈兘鍙傚姞
 			Team hostteam = TeamManager.selectTeamByRoleId(hostid);
 			if(hostteam!=null&&hostteam.getFighterMemberIds().contains(hostid)){
-				//直接把目标玩家暂离了
-				//如果有队伍就暂离队伍
+				//鐩存帴鎶婄洰鏍囩帺瀹舵殏绂讳簡
+				//濡傛灉鏈夐槦浼嶅氨鏆傜闃熶紞
 				new PAbsentReturnTeam(hostid, 1).submit();
 			}
 		}
@@ -170,13 +170,13 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 	}
 	
 	/**
-	 * 判断队伍中的成员是否符合要求
+	 * 鍒ゆ柇闃熶紞涓殑鎴愬憳鏄惁绗﹀悎瑕佹眰
 	 * @param guestteam
-	 * @param guestid  �?要提示消息的目标id
+	 * @param guestid  闇?瑕佹彁绀烘秷鎭殑鐩爣id
 	 * @return
 	 */
 	public boolean isTeamCanFight(Team guestteam,long guestid){
-		//判断当前队伍中的玩家等级是否符合要求，是否有下过战书或�?�被失败
+		//鍒ゆ柇褰撳墠闃熶紞涓殑鐜╁绛夌骇鏄惁绗﹀悎瑕佹眰锛屾槸鍚︽湁涓嬭繃鎴樹功鎴栬?呰澶辫触
 		List<Long> guestlevelLess50 = new ArrayList<Long>();
 		List<Long> guestfightLess50 = new ArrayList<Long>();
 		
@@ -184,26 +184,26 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 		for (long mem : guestmembers) {
 			PropRole guestrole = new PropRole(mem, true);
 			if (guestrole.getLevel() < LiveDieMange.getLiveDieLevel()) {
-				//提示队伍中有等级不符合要求的
+				//鎻愮ず闃熶紞涓湁绛夌骇涓嶇鍚堣姹傜殑
 				guestlevelLess50.add(mem);
 			}
-			//身上有生死战称号
+			//韬笂鏈夌敓姝绘垬绉板彿
 			if(COffTitle.isLiveDieTitle(guestrole)){
-				//提示队伍中有身上有生死战称号
+				//鎻愮ず闃熶紞涓湁韬笂鏈夌敓姝绘垬绉板彿
 				guestfightLess50.add(mem);
 			}
 		}
 		if (!guestlevelLess50.isEmpty()) {
 			String roleNames = MessageUtil.getRoleNames(guestlevelLess50);
 			List<String> paras = MessageUtil.getMsgParaList(roleNames);
-			//提示队伍中有等级不符合要求的
+			//鎻愮ず闃熶紞涓湁绛夌骇涓嶇鍚堣姹傜殑
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162119,paras);
 			return false;
 		}
 		if (!guestfightLess50.isEmpty()) {
 			String roleNames = MessageUtil.getRoleNames(guestfightLess50);
 			List<String> paras = MessageUtil.getMsgParaList(roleNames);
-			//提示队伍中有身上有生死战称号
+			//鎻愮ず闃熶紞涓湁韬笂鏈夌敓姝绘垬绉板彿
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162118,paras);
 			return false;
 		}

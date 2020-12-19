@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPingJi__ extends mkio.Protocol { }
 
-/** Í¨Öª¿Í»§¶ËÆÀ¼¶ ÒÔ¼°»ñµÃµÄ½±Àø
+/** é€šçŸ¥å®¢æˆ·ç«¯è¯„çº§ ä»¥åŠè·å¾—çš„å¥–åŠ±
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SPingJi extends __SPingJi__ {
 		return 795667;
 	}
 
-	public byte grade; // µÈ¼¶  1=s 2=a 3=b 4=c
-	public int exp; // ¾­Ñé
+	public byte grade; // ç­‰çº§  1=s 2=a 3=b 4=c
+	public int exp; // ç»éªŒ
 
 	public SPingJi() {
 	}

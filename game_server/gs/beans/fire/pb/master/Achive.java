@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class Achive implements Marshal , Comparable<Achive>{
-	public int currnumber; // µ±Ç°´ÎÊı»òÕß½ø¶È
-	public int totalnum; // ×ÜÁ¿ ³¬¹ıÕâ¸ö¾Í±íÊ¾Íæ¼ÒÒÑ¾­Íê³É
-	public int flag; // 0=Î´Íê³É 1=Íê³É 2=ÒÑ¾­Áì½±
+	public int currnumber; // å½“å‰æ¬¡æ•°æˆ–è€…è¿›åº¦
+	public int totalnum; // æ€»é‡ è¶…è¿‡è¿™ä¸ªå°±è¡¨ç¤ºç©å®¶å·²ç»å®Œæˆ
+	public int flag; // 0=æœªå®Œæˆ 1=å®Œæˆ 2=å·²ç»é¢†å¥–
 
 	public Achive() {
 	}

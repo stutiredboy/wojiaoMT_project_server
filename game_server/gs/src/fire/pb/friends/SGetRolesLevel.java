@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SGetRolesLevel__ extends mkio.Protocol { }
 
-/** ·µ»ØÒ»Åú½ÇÉ«µÈ¼¶
+/** è¿”å›ä¸€æ‰¹è§’è‰²ç­‰çº§
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SGetRolesLevel extends __SGetRolesLevel__ {
 		return 806646;
 	}
 
-	public java.util.HashMap<Long,Integer> roleslevel; // Ò»Åú½ÇÉ«id -> ½ÇÉ«µÈ¼¶ (Ã¿´Î×î¶à·µ»Ø30¸ö)
+	public java.util.HashMap<Long,Integer> roleslevel; // ä¸€æ‰¹è§’è‰²id -> è§’è‰²ç­‰çº§ (æ¯æ¬¡æœ€å¤šè¿”å›30ä¸ª)
 	public int gettype;
 
 	public SGetRolesLevel() {

@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ShowPetOctets implements Marshal {
-	public int showpetid; // ½ÇÉ«Õ¹Ê¾³èÎïÏà¹Ø
-	public java.lang.String showpetname; // ½ÇÉ«Õ¹Ê¾µÄ³èÎïÏà¹Ø
-	public short petcoloursndsize; // ¸ßËÄÎ»£º³èÎïµÄÑÕÉ« [1,8]£¬µÍËÄÎ»£º³èÎï´óĞ¡[1,5]
-	public byte showskilleffect; // ÆøÖÊÀà¼¼ÄÜµÄÌØĞ§ID[1,128]
-	public byte evolvelevel; // ³èÎï½ø»¯µÈ¼¶
+	public int showpetid; // è§’è‰²å±•ç¤ºå® ç‰©ç›¸å…³
+	public java.lang.String showpetname; // è§’è‰²å±•ç¤ºçš„å® ç‰©ç›¸å…³
+	public short petcoloursndsize; // é«˜å››ä½ï¼šå® ç‰©çš„é¢œè‰² [1,8]ï¼Œä½å››ä½ï¼šå® ç‰©å¤§å°[1,5]
+	public byte showskilleffect; // æ°”è´¨ç±»æŠ€èƒ½çš„ç‰¹æ•ˆID[1,128]
+	public byte evolvelevel; // å® ç‰©è¿›åŒ–ç­‰çº§
 
 	public ShowPetOctets() {
 		showpetname = "";

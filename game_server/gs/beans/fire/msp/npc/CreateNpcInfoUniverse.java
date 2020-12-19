@@ -5,18 +5,18 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** GS·¢ËÍÇëÇó£¬ÒªÇóµØÍ¼Ä£¿éÕÙ³öNPCµÄÏêÏ¸ĞÅÏ¢
+/** GSå‘é€è¯·æ±‚ï¼Œè¦æ±‚åœ°å›¾æ¨¡å—å¬å‡ºNPCçš„è¯¦ç»†ä¿¡æ¯
 */
 public class CreateNpcInfoUniverse implements Marshal {
 	public int npcbaseid; // npcbaseId
-	public java.lang.String name; // npcÃû³Æ
-	public int shape; // npcÔìĞÍ
+	public java.lang.String name; // npcåç§°
+	public int shape; // npcé€ å‹
 	public long ownerid; // ownerid
-	public int mapid; // µØÍ¼id
-	public int posx; // ×ø±ê
+	public int mapid; // åœ°å›¾id
+	public int posx; // åæ ‡
 	public int posy;
-	public int num; // ´´½¨NPCµÄ¸öÊı
-	public long npckey; // ÎªÁËÕÌÒåÊè²Æ»î¶¯¼ÓµÄ
+	public int num; // åˆ›å»ºNPCçš„ä¸ªæ•°
+	public long npckey; // ä¸ºäº†ä»—ä¹‰ç–è´¢æ´»åŠ¨åŠ çš„
 	public long time;
 
 	public CreateNpcInfoUniverse() {

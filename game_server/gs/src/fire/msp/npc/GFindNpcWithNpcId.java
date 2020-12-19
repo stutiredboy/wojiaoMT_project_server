@@ -29,7 +29,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 	protected void process() {
 		// protocol handle
 		int actId = TimerNpcService.getInstance().getActId(npcid);
-		//活动错误
+		//娲诲姩閿欒
 		if (actId == -1) {
 			return;
 		}
@@ -43,7 +43,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 		Role sceneRole = RoleManager.getInstance().getRoleByID(roleid);
 		int roleMapid = sceneRole.getMapId();
 		
-		//先在当前视野里找箱子
+		//鍏堝湪褰撳墠瑙嗛噹閲屾壘绠卞瓙
 		fire.pb.scene.movable.Role role = fire.pb.scene.manager.RoleManager.getInstance().getRoleByID(roleid);
 		Map<Long, NPC> allNpcInScreens = role.getAllNpcsInScreens();
 		for (NPC npc : allNpcInScreens.values()) {
@@ -57,7 +57,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			}
 		}
 		
-		//当前视野里没有找�?,则在当前地图�?
+		//褰撳墠瑙嗛噹閲屾病鏈夋壘鍒?,鍒欏湪褰撳墠鍦板浘鎵?
 		if (!findit) {
 			xbean.timerNpcInfoCol npcInfo = xtable.Timernpcinfotable.select(actId);
 			if (npcInfo == null) {
@@ -66,8 +66,8 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//对应npc的状�? 0=空闲 1=战斗�? 2=已经消失
-				if (npcinfos.getValue().getNpcstatus() == 0) { //没有消失
+				//瀵瑰簲npc鐨勭姸鎬? 0=绌洪棽 1=鎴樻枟涓? 2=宸茬粡娑堝け
+				if (npcinfos.getValue().getNpcstatus() == 0) { //娌℃湁娑堝け
 					npcList.add(npcinfos.getKey());
 				}
 			}
@@ -96,8 +96,8 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//对应npc的状�? 0=空闲 1=战斗�? 2=已经消失
-				if (npcinfos.getValue().getNpcstatus() == 0) { //没有消失
+				//瀵瑰簲npc鐨勭姸鎬? 0=绌洪棽 1=鎴樻枟涓? 2=宸茬粡娑堝け
+				if (npcinfos.getValue().getNpcstatus() == 0) { //娌℃湁娑堝け
 					npcList.add(npcinfos.getKey());
 				}
 			}

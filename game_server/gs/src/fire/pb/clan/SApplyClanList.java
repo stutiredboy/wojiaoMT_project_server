@@ -25,8 +25,8 @@ public class SApplyClanList extends __SApplyClanList__ {
 		return 808494;
 	}
 
-	public long roleid; // 角色id
-	public java.util.ArrayList<fire.pb.clan.ApplyClan> applyclanlist; // 申请过的公会列表
+	public long roleid; // 瑙掕壊id
+	public java.util.ArrayList<fire.pb.clan.ApplyClan> applyclanlist; // 鐢宠杩囩殑鍏細鍒楄〃
 
 	public SApplyClanList() {
 		applyclanlist = new java.util.ArrayList<fire.pb.clan.ApplyClan>();

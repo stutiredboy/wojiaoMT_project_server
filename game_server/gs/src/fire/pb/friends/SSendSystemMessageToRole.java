@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSendSystemMessageToRole__ extends mkio.Protocol { }
 
-/** ÏµÍ³ºÃÓÑÏûÏ¢
+/** ç³»ç»Ÿå¥½å‹æ¶ˆæ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SSendSystemMessageToRole extends __SSendSystemMessageToRole__ {
 		return 806555;
 	}
 
-	public long systemroleid; // Èç¹ûÊÇ0 ±íÊ¾ÊÇÏµÍ³ÏûÏ¢ ´óÓÚ0µÄÒ»¶¨ÊÇºÃÓÑ·¢µÄÏûÏ¢
+	public long systemroleid; // å¦‚æœæ˜¯0 è¡¨ç¤ºæ˜¯ç³»ç»Ÿæ¶ˆæ¯ å¤§äº0çš„ä¸€å®šæ˜¯å¥½å‹å‘çš„æ¶ˆæ¯
 	public int contentid;
 	public java.util.ArrayList<com.locojoy.base.Octets> contentparam;
 	public java.lang.String time;

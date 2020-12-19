@@ -5,12 +5,12 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** Ê±¹âÖ®Ñ¨¸±±¾
+/** æ—¶å…‰ä¹‹ç©´å‰¯æœ¬
 */
 public class LineInfo implements Marshal , Comparable<LineInfo>{
-	public int id; // ¸±±¾id
-	public int state; // 0 Î´¿ªÆô; 1 ¿ÉÒÔ½øÈë, 2 ÒÑ¾­Íê³É
-	public int finish; // Íê³ÉµÄ´ÎÊı
+	public int id; // å‰¯æœ¬id
+	public int state; // 0 æœªå¼€å¯; 1 å¯ä»¥è¿›å…¥, 2 å·²ç»å®Œæˆ
+	public int finish; // å®Œæˆçš„æ¬¡æ•°
 
 	public LineInfo() {
 	}

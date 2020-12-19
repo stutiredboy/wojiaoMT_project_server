@@ -25,7 +25,7 @@ public class SGetArchiveInfo extends __SGetArchiveInfo__ {
 		return 805541;
 	}
 
-	public java.util.ArrayList<fire.pb.mission.ArchiveInfo> archiveinfos; // 历程信息
+	public java.util.ArrayList<fire.pb.mission.ArchiveInfo> archiveinfos; // 鍘嗙▼淇℃伅
 
 	public SGetArchiveInfo() {
 		archiveinfos = new java.util.ArrayList<fire.pb.mission.ArchiveInfo>();

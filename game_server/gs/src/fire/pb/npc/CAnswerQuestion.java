@@ -69,10 +69,10 @@ public class CAnswerQuestion extends __CAnswerQuestion__ {
 	}
 
 	public int questionid;
-	public int answerid; // [1,) ×î¶à¼¸¸ö´ğ°¸Ñ¡Ïî£¿
-	public int questiontype; // ´ğÌâÀàĞÍ£¬¸ù¾İ²»Í¬µÄÀàĞÍ£¬¿Í»§¶Ë/·şÎñÆ÷¿ÉÄÜ»áÓĞ²»Í¬µÄ´¦Àí
+	public int answerid; // [1,) æœ€å¤šå‡ ä¸ªç­”æ¡ˆé€‰é¡¹ï¼Ÿ
+	public int questiontype; // ç­”é¢˜ç±»å‹ï¼Œæ ¹æ®ä¸åŒçš„ç±»å‹ï¼Œå®¢æˆ·ç«¯/æœåŠ¡å™¨å¯èƒ½ä¼šæœ‰ä¸åŒçš„å¤„ç†
 	public long npckey;
-	public int xiangguanid; // ¿ÉÄÜĞèÒªµÄÏà¹Øid
+	public int xiangguanid; // å¯èƒ½éœ€è¦çš„ç›¸å…³id
 
 	public CAnswerQuestion() {
 	}

@@ -25,14 +25,14 @@ public class SPvP5MyInfo extends __SPvP5MyInfo__ {
 		return 793664;
 	}
 
-	public byte firstwin; // Ê×Ê¤¡£0£º²»¿ÉÁìÈ¡£¬1£º¿ÉÁìÈ¡£¬2£ºÒÑÁìÈ¡
-	public byte fivefight; // ÎåÕ½¡£0£º²»¿ÉÁìÈ¡£¬1£º¿ÉÁìÈ¡£¬2£ºÒÑÁìÈ¡
-	public byte battlenum; // ±¾³¡ÒÑ¾­Õ½¶·µÄ´ÎÊı
-	public byte winnum; // ±¾³¡Ê¤Àû´ÎÊı
-	public byte combowinnum; // ±¾³¡Á¬Ê¤
-	public int score; // »ı·Ö
-	public byte camp; // ËùÊôÕóÓª(0 or 1)
-	public long waitstarttime; // µÈ´ıµÄÆğÊ¼Ê±¼äµã(µ¥Î»:Ãë, -1:²»ÔÚµÈ´ıÖĞ)
+	public byte firstwin; // é¦–èƒœã€‚0ï¼šä¸å¯é¢†å–ï¼Œ1ï¼šå¯é¢†å–ï¼Œ2ï¼šå·²é¢†å–
+	public byte fivefight; // äº”æˆ˜ã€‚0ï¼šä¸å¯é¢†å–ï¼Œ1ï¼šå¯é¢†å–ï¼Œ2ï¼šå·²é¢†å–
+	public byte battlenum; // æœ¬åœºå·²ç»æˆ˜æ–—çš„æ¬¡æ•°
+	public byte winnum; // æœ¬åœºèƒœåˆ©æ¬¡æ•°
+	public byte combowinnum; // æœ¬åœºè¿èƒœ
+	public int score; // ç§¯åˆ†
+	public byte camp; // æ‰€å±é˜µè¥(0 or 1)
+	public long waitstarttime; // ç­‰å¾…çš„èµ·å§‹æ—¶é—´ç‚¹(å•ä½:ç§’, -1:ä¸åœ¨ç­‰å¾…ä¸­)
 
 	public SPvP5MyInfo() {
 	}

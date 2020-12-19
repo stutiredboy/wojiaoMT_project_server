@@ -25,8 +25,8 @@ public class CSelectedMasterAward extends __CSelectedMasterAward__ {
 		return 816452;
 	}
 
-	public long awardkey; // Íæ¼Òid
-	public long npckey; // ½»»¥µÄnpc key
+	public long awardkey; // çŽ©å®¶id
+	public long npckey; // äº¤äº’çš„npc key
 
 	public CSelectedMasterAward() {
 	}

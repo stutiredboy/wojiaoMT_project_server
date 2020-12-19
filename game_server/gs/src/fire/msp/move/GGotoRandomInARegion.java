@@ -29,12 +29,12 @@ public class GGotoRandomInARegion extends __GGotoRandomInARegion__ {
 	}
 
 	public long roleid;
-	public long sceneid; // 场景id
+	public long sceneid; // 鍦烘櫙id
 	public int xpos; // left top point
 	public int ypos;
-	public int lenx; // 矩形的宽
-	public int leny; // 矩形的高
-	public int gototype; // 跳转类型
+	public int lenx; // 鐭╁舰鐨勫
+	public int leny; // 鐭╁舰鐨勯珮
+	public int gototype; // 璺宠浆绫诲瀷
 
 	public GGotoRandomInARegion() {
 	}

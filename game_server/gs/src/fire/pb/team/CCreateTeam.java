@@ -12,7 +12,7 @@ abstract class __CCreateTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 创建队伍
+ * 鍒涘缓闃熶紞
  * @author changhao
  *
  */
@@ -29,7 +29,7 @@ public class CCreateTeam extends __CCreateTeam__ {
 		if (linkrole != null)
 		{
 			int userid = linkrole.getUserid();
-			if (fire.pb.fushi.Module.GetPayServiceType() == 1) //点卡服务�? by changhao
+			if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
 			{
 				DayPayManager.getInstance().ProcessDayPay(userid, leaderRoleId);
 			}					

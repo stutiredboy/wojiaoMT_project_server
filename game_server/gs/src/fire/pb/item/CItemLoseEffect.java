@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CItemLoseEffect__ extends mkio.Protocol { }
 
-/** ��ƷʧЧ
+/** 物品失效
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

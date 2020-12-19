@@ -25,13 +25,13 @@ public class SSendRedPackHisView extends __SSendRedPackHisView__ {
 		return 812539;
 	}
 
-	public int modeltype; // ºì°üÀàĞÍ
-	public java.lang.String redpackid; // ºì°üId
-	public java.lang.String redpackdes; // ºì°ü¼ÄÓï
-	public int redpackallnum; // ºì°ü×Ü¸öÊı
-	public int redpackallmoney; // ºì°ü×Ü½ğ¶î
-	public long time; // Ê±¼ä
-	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleHisInfo> redpackrolehisinfolist; // ºì°üÀúÊ·ĞÅÏ¢
+	public int modeltype; // çº¢åŒ…ç±»å‹
+	public java.lang.String redpackid; // çº¢åŒ…Id
+	public java.lang.String redpackdes; // çº¢åŒ…å¯„è¯­
+	public int redpackallnum; // çº¢åŒ…æ€»ä¸ªæ•°
+	public int redpackallmoney; // çº¢åŒ…æ€»é‡‘é¢
+	public long time; // æ—¶é—´
+	public java.util.ArrayList<fire.pb.fushi.redpack.RedPackRoleHisInfo> redpackrolehisinfolist; // çº¢åŒ…å†å²ä¿¡æ¯
 
 	public SSendRedPackHisView() {
 		redpackid = "";

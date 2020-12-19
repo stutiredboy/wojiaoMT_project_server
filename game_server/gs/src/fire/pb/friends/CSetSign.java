@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CSetSign__ extends mkio.Protocol { }
 
-/** ÉèÖÃÇ©Ãû
+/** è®¾ç½®ç­¾å
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -32,7 +32,7 @@ public class CSetSign extends __CSetSign__ {
 		return 806684;
 	}
 
-	public java.lang.String signcontent; // Ç©ÃûÄÚÈİ
+	public java.lang.String signcontent; // ç­¾åå†…å®¹
 
 	public CSetSign() {
 		signcontent = "";

@@ -25,7 +25,7 @@ public class SSendBattleEnd extends __SSendBattleEnd__ {
 		return 793439;
 	}
 
-	public java.util.HashMap<Integer,Integer> aiactions; // 战斗结束前需要播放的AIAction key=fighter id; value=aiaction id;
+	public java.util.HashMap<Integer,Integer> aiactions; // 鎴樻枟缁撴潫鍓嶉渶瑕佹挱鏀剧殑AIAction key=fighter id; value=aiaction id;
 
 	public SSendBattleEnd() {
 		aiactions = new java.util.HashMap<Integer,Integer>();

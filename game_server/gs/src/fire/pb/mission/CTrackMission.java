@@ -32,8 +32,8 @@ public class CTrackMission extends __CTrackMission__ {
 		return 805450;
 	}
 
-	public int missionid; // ÈÎÎñid
-	public int track; // ÈÎÎñ×·×Ù
+	public int missionid; // ä»»åŠ¡id
+	public int track; // ä»»åŠ¡è¿½è¸ª
 
 	public CTrackMission() {
 	}

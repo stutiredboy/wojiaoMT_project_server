@@ -26,7 +26,7 @@ public class GRemoveMonstershow extends __GRemoveMonstershow__ {
 		return 727904;
 	}
 
-	public long monsterkey; // µØÍ¼ÉÏµÄnpckey
+	public long monsterkey; // åœ°å›¾ä¸Šçš„npckey
 
 	public GRemoveMonstershow() {
 	}

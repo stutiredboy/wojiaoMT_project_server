@@ -60,7 +60,7 @@ public class CLiveDieBattleWatchFight extends __CLiveDieBattleWatchFight__ {
 		return 793847;
 	}
 
-	public long battleid; // Õ½¶·id
+	public long battleid; // æˆ˜æ–—id
 
 	public CLiveDieBattleWatchFight() {
 	}

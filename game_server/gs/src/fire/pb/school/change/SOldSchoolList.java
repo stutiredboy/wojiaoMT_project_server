@@ -25,8 +25,8 @@ public class SOldSchoolList extends __SOldSchoolList__ {
 		return 810484;
 	}
 
-	public java.util.ArrayList<Integer> oldshapelist; // ¾ÉÔìĞÍÁĞ±í
-	public java.util.ArrayList<Integer> oldschoollist; // ¾ÉÖ°ÒµÁĞ±í
+	public java.util.ArrayList<Integer> oldshapelist; // æ—§é€ å‹åˆ—è¡¨
+	public java.util.ArrayList<Integer> oldschoollist; // æ—§èŒä¸šåˆ—è¡¨
 
 	public SOldSchoolList() {
 		oldshapelist = new java.util.ArrayList<Integer>();

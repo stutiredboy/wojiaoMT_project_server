@@ -28,9 +28,9 @@ public class CSendAction extends __CSendAction__ {
 		return 793436;
 	}
 
-	public fire.pb.battle.Operation action; // ²Ù×÷
-	public byte isrole; // ½ÇÉ«²Ù×÷=1£¬³èÎï²Ù×÷=0
-	public byte autooperate; // Îª1´ú±íÊÇ×Ô¶¯£¬Ä¬ÈÏÎª0
+	public fire.pb.battle.Operation action; // æ“ä½œ
+	public byte isrole; // è§’è‰²æ“ä½œ=1ï¼Œå® ç‰©æ“ä½œ=0
+	public byte autooperate; // ä¸º1ä»£è¡¨æ˜¯è‡ªåŠ¨ï¼Œé»˜è®¤ä¸º0
 
 	public CSendAction() {
 		action = new fire.pb.battle.Operation();

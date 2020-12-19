@@ -25,13 +25,13 @@ public class STransChatMessage2Client extends __STransChatMessage2Client__ {
 		return 792434;
 	}
 
-	public long roleid; // ·¢ÑÔ½ÇÉ«ID
-	public java.lang.String rolename; // Ãû×Ö
-	public int shapeid; // Í·Ïñ
-	public int titleid; // ³ÆÎ½
-	public int messagetype; // ÆµµÀ
-	public java.lang.String message; // ÄÚÈİ
-	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfos; // ÏÔÊ¾µÀ¾ß¡¢³èÎï¡¢¼¼ÄÜ
+	public long roleid; // å‘è¨€è§’è‰²ID
+	public java.lang.String rolename; // åå­—
+	public int shapeid; // å¤´åƒ
+	public int titleid; // ç§°è°“
+	public int messagetype; // é¢‘é“
+	public java.lang.String message; // å†…å®¹
+	public java.util.ArrayList<fire.pb.talk.DisplayInfo> displayinfos; // æ˜¾ç¤ºé“å…·ã€å® ç‰©ã€æŠ€èƒ½
 
 	public STransChatMessage2Client() {
 		rolename = "";

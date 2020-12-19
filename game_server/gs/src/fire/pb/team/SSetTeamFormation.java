@@ -26,8 +26,8 @@ public class SSetTeamFormation extends __SSetTeamFormation__ {
 	}
 
 	public int formation;
-	public int formationlevel; // ¹â»·µÈ¼¶
-	public byte msg; // µÈÓÚ1Ê±¸øÏûÏ¢ÌáÊ¾£¬µÈÓÚ0Ê±²»¸øÏûÏ¢ÌáÊ¾
+	public int formationlevel; // å…‰ç¯ç­‰çº§
+	public byte msg; // ç­‰äº1æ—¶ç»™æ¶ˆæ¯æç¤ºï¼Œç­‰äº0æ—¶ä¸ç»™æ¶ˆæ¯æç¤º
 
 	public SSetTeamFormation() {
 	}

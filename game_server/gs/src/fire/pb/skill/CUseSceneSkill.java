@@ -23,7 +23,7 @@ public class CUseSceneSkill extends __CUseSceneSkill__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		//ç®?å•éªŒè¯?
+		//ç» ?é—æ›¢ç™ç’‡?
 		if(aimtype == PSceneSkill.GOAL_SELF_PET)
 		{
 			aimid = xtable.Properties.selectFightpetkey(roleId);
@@ -43,7 +43,7 @@ public class CUseSceneSkill extends __CUseSceneSkill__ {
 		SceneSkillConfig skillconfig = fire.pb.skill.Module.getInstance().getSceneSkillConfig(skillid);
 		if(skillconfig == null)
 		{
-			Module.logger.error("ERROR: æŠ?èƒ½ä¸å­˜åœ¨. roleId = "+roleId+", skillId = " + skillid);
+			Module.logger.error("ERROR: éŽ¶?é‘³æˆ’ç¬‰ç€›æ¨ºæ¹ª. roleId = "+roleId+", skillId = " + skillid);
 			return;
 		}
 		new PSceneSkill(roleId, skillid, aimid, aimtype).submit();
@@ -57,9 +57,9 @@ public class CUseSceneSkill extends __CUseSceneSkill__ {
 		return 800452;
 	}
 
-	public int skillid; // ¼¼ÄÜID
-	public int aimtype; // ¼¼ÄÜÊ¹ÓÃÄ¿±êÀàÐÍ ¶Ô×Ô¼º½ÇÉ«Ê¹ÓÃ==1£¬¶Ô×Ô¼ºÕ½¶·³èÎïÊ¹ÓÃ==2£¬¶ÔÕý³£¶ÓÓÑ½ÇÉ«Ê¹ÓÃ==3
-	public long aimid; // ¼¼ÄÜÊ¹ÓÃÄ¿±êID£¬Îª¶ÓÓÑ½ÇÉ«ID
+	public int skillid; // æŠ€èƒ½ID
+	public int aimtype; // æŠ€èƒ½ä½¿ç”¨ç›®æ ‡ç±»åž‹ å¯¹è‡ªå·±è§’è‰²ä½¿ç”¨==1ï¼Œå¯¹è‡ªå·±æˆ˜æ–—å® ç‰©ä½¿ç”¨==2ï¼Œå¯¹æ­£å¸¸é˜Ÿå‹è§’è‰²ä½¿ç”¨==3
+	public long aimid; // æŠ€èƒ½ä½¿ç”¨ç›®æ ‡IDï¼Œä¸ºé˜Ÿå‹è§’è‰²ID
 
 	public CUseSceneSkill() {
 	}

@@ -24,7 +24,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 	protected void process() {
 		// protocol handle
 		final byte changetype = getType(pos);
-		if (changetype == 0 && ride == -1) // 坐骑没有变化 by changhao
+		if (changetype == 0 && ride == -1) // 鍧愰獞娌℃湁鍙樺寲 by changhao
 			return;
 		Role role = fire.pb.scene.manager.RoleManager.getInstance().getRoleByID(roleid);
 		if (role == null)
@@ -32,7 +32,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 		if (null == role.getScene())
 			return;
 
-		if (changetype != 0) // 装备变化 by changhao
+		if (changetype != 0) // 瑁呭鍙樺寲 by changhao
 		{
 			role.components.put(changetype, itemid);
 			if (changetype == SpriteComponents.SPRITE_WEAPON) {
@@ -41,7 +41,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 				else
 					role.components.remove((byte) SpriteComponents.SPRITE_WEAPONCOLOR);
 			}
-			// 这里特殊处理�?下时�?2
+			// 杩欓噷鐗规畩澶勭悊涓?涓嬫椂瑁?2
 			if (changetype == SpriteComponents.ROLE_COLOR1) {
 				xbean.Properties prop = xtable.Properties.select(roleid);
 				role.components.put((byte) SpriteComponents.ROLE_COLOR2,
@@ -49,7 +49,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 			}
 		}
 
-		if (ride != -1) // 坐骑变化 by changhao
+		if (ride != -1) // 鍧愰獞鍙樺寲 by changhao
 		{
 			role.components.put((byte) SpriteComponents.SPRITE_HORSEDRESS, ride);
 		}
@@ -71,7 +71,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 					else
 						send.components.put((byte) SpriteComponents.SPRITE_WEAPONCOLOR, 0);
 				}
-				// 这里特殊处理�?下时�?2
+				// 杩欓噷鐗规畩澶勭悊涓?涓嬫椂瑁?2
 				if (changetype == SpriteComponents.ROLE_COLOR1) {
 					xbean.Properties prop = xtable.Properties.select(roleid);
 					send.components.put((byte) SpriteComponents.ROLE_COLOR2, prop.getRolecolor2());
@@ -86,7 +86,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 			}
 			send.spritetype = 0;
 			role.sendAround(send);
-			// 发�?�给队员,如果有的�?
+			// 鍙戦?佺粰闃熷憳,濡傛灉鏈夌殑璇?
 			fire.pb.scene.movable.SceneTeam team = SceneTeamManager.getInstance().getTeamByID(roleid);
 			if (team == null) {
 				gnet.link.Onlines.getInstance().send(roleid, send);
@@ -103,12 +103,12 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 	}
 
 	/**
-	 * WEAPON		= 0; //武器
-		ACCESSORY	= 2; //饰品
-		ARMOR 		= 3; //铠甲
-		BELT 		= 4; //腰带
-		BOOT		= 5; //靴子
-		HEADDRESS	= 6; //头饰
+	 * WEAPON		= 0; //姝﹀櫒
+		ACCESSORY	= 2; //楗板搧
+		ARMOR 		= 3; //閾犵敳
+		BELT 		= 4; //鑵板甫
+		BOOT		= 5; //闈村瓙
+		HEADDRESS	= 6; //澶撮グ
 	 * @param pos
 	 * @return
 	 */

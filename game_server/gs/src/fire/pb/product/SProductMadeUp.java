@@ -25,7 +25,7 @@ public class SProductMadeUp extends __SProductMadeUp__ {
 		return 803442;
 	}
 
-	public int maketype; // typeÎª1´ú±íÊÇ´òÔìÉú³ÉµÄÎïÆ·£¬Îª2ÊÇÁ¶Ò©Á·³ÉµÄÒ©Æ·£¬Îª3´ú±íÊÇÅëâ¿³É¹¦µÄÊ³Æ·
+	public int maketype; // typeä¸º1ä»£è¡¨æ˜¯æ‰“é€ ç”Ÿæˆçš„ç‰©å“ï¼Œä¸º2æ˜¯ç‚¼è¯ç»ƒæˆçš„è¯å“ï¼Œä¸º3ä»£è¡¨æ˜¯çƒ¹é¥ªæˆåŠŸçš„é£Ÿå“
 	public int itemkey;
 
 	public SProductMadeUp() {

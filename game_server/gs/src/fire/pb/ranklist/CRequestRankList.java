@@ -12,7 +12,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRequestRankList__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÏò·şÎñÆ÷Ä³¸öÅÅĞĞ°ñÁĞ±í
+/** å®¢æˆ·ç«¯å‘æœåŠ¡å™¨æŸä¸ªæ’è¡Œæ¦œåˆ—è¡¨
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -47,8 +47,8 @@ public class CRequestRankList extends __CRequestRankList__ {
 		return 810233;
 	}
 
-	public int ranktype; // ÅÅĞĞ°ñÀàĞÍ
-	public int page; // Ò³Êı  ´Ó0¿ªÊ¼
+	public int ranktype; // æ’è¡Œæ¦œç±»å‹
+	public int page; // é¡µæ•°  ä»0å¼€å§‹
 
 	public CRequestRankList() {
 	}

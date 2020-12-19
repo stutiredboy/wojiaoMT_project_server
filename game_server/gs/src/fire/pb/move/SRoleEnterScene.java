@@ -25,32 +25,32 @@ public class SRoleEnterScene extends __SRoleEnterScene__ {
 		return 790441;
 	}
 
-	public final static int CHANNEAL = 516012; // Ìø×ªµãÌø×ª
-	public final static int ITEM = 516013; // µÀ¾ßÌø×ª
-	public final static int SYSTEM_DRAG = 516014; // ÏµÍ³À­ÈË
-	public final static int ENTER = 516015; // ½øÈëÓÎÏ·
-	public final static int DEATH = 516016; // ËÀÍöÌø×ª
-	public final static int CHEFU = 516017; // Ìø×ª
-	public final static int QUEST_CG = 516018; // ÈÎÎñÌø×ª£¨²¥¶¯»­£©
-	public final static int FORCE_GOTO = 516019; // Ç¿ÖÆÌø×ª
-	public final static int SKILL = 516020; // »ØÖ°Òµ¼¼ÄÜÌø×ª
-	public final static int MARRIAGE = 516021; // ½á»éÈÎÎñÌø×ª
-	public final static int QUEST = 516022; // ÈÎÎñÌø×ª£¨²»²¥¶¯»­£©
-	public final static int DRAGONBOAT = 516023; // ½øÈëÈü´¬µØÍ¼
-	public final static int GM_HOLD = 516025; // GMÀ­ÈË
-	public final static int INSTANCE = 516026; // ¸±±¾ÈÎÎñ
-	public final static int ENTER_COMMON_SCENCE = 516028; // Í¨ÓÃ¸±±¾½øÈë
-	public final static int ENTER_LINE_SCENCE = 516029; // Ò»´ÎĞÔ¸±±¾½øÈë
-	public final static int CLAN_GOTO = 516030; // ¹«»á¸±±¾Ìø×ª
-	public final static int BING_FENG_GOTO = 516031; // ±ù·âÍõ×ù¸±±¾Ìø×ª
+	public final static int CHANNEAL = 516012; // è·³è½¬ç‚¹è·³è½¬
+	public final static int ITEM = 516013; // é“å…·è·³è½¬
+	public final static int SYSTEM_DRAG = 516014; // ç³»ç»Ÿæ‹‰äºº
+	public final static int ENTER = 516015; // è¿›å…¥æ¸¸æˆ
+	public final static int DEATH = 516016; // æ­»äº¡è·³è½¬
+	public final static int CHEFU = 516017; // è·³è½¬
+	public final static int QUEST_CG = 516018; // ä»»åŠ¡è·³è½¬ï¼ˆæ’­åŠ¨ç”»ï¼‰
+	public final static int FORCE_GOTO = 516019; // å¼ºåˆ¶è·³è½¬
+	public final static int SKILL = 516020; // å›èŒä¸šæŠ€èƒ½è·³è½¬
+	public final static int MARRIAGE = 516021; // ç»“å©šä»»åŠ¡è·³è½¬
+	public final static int QUEST = 516022; // ä»»åŠ¡è·³è½¬ï¼ˆä¸æ’­åŠ¨ç”»ï¼‰
+	public final static int DRAGONBOAT = 516023; // è¿›å…¥èµ›èˆ¹åœ°å›¾
+	public final static int GM_HOLD = 516025; // GMæ‹‰äºº
+	public final static int INSTANCE = 516026; // å‰¯æœ¬ä»»åŠ¡
+	public final static int ENTER_COMMON_SCENCE = 516028; // é€šç”¨å‰¯æœ¬è¿›å…¥
+	public final static int ENTER_LINE_SCENCE = 516029; // ä¸€æ¬¡æ€§å‰¯æœ¬è¿›å…¥
+	public final static int CLAN_GOTO = 516030; // å…¬ä¼šå‰¯æœ¬è·³è½¬
+	public final static int BING_FENG_GOTO = 516031; // å†°å°ç‹åº§å‰¯æœ¬è·³è½¬
 
-	public java.lang.String ownername; // ³¡¾°ËùÊôÕßÃû×Ö(¸±±¾³¡¾°ÓĞĞ§)
-	public fire.pb.move.Pos destpos; // Ä¿±êµØµã
-	public byte destz; // Ä¿±êz
-	public int changetype; // Ìø×ªÀàĞÍ(²Î¿¼ÒÔÉÏÈı¸öÃ¶¾ÙÖµ)
-	public long sceneid; // ³¡¾°id
-	public byte weatherid; // ÆøºòId
-	public java.lang.String tipsparm; // tips²ÎÊı
+	public java.lang.String ownername; // åœºæ™¯æ‰€å±è€…åå­—(å‰¯æœ¬åœºæ™¯æœ‰æ•ˆ)
+	public fire.pb.move.Pos destpos; // ç›®æ ‡åœ°ç‚¹
+	public byte destz; // ç›®æ ‡z
+	public int changetype; // è·³è½¬ç±»å‹(å‚è€ƒä»¥ä¸Šä¸‰ä¸ªæšä¸¾å€¼)
+	public long sceneid; // åœºæ™¯id
+	public byte weatherid; // æ°”å€™Id
+	public java.lang.String tipsparm; // tipså‚æ•°
 
 	public SRoleEnterScene() {
 		ownername = "";

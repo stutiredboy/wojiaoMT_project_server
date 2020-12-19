@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshUserExp__ extends mkio.Protocol { }
 
-/** Í¨Öª¿Í»§¶ËË¢ĞÂÈËÎï¾­Ñé
+/** é€šçŸ¥å®¢æˆ·ç«¯åˆ·æ–°äººç‰©ç»éªŒ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SRefreshUserExp extends __SRefreshUserExp__ {
 		return 786445;
 	}
 
-	public long curexp; // µ±Ç°¾­Ñé
+	public long curexp; // å½“å‰ç»éªŒ
 
 	public SRefreshUserExp() {
 	}

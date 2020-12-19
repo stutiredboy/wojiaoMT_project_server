@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SApplyYingFuExprience__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷»Ø¸´½ÇÉ«Ó¯¸£¾­Ñé
+/** æœåŠ¡å™¨å›å¤è§’è‰²ç›ˆç¦ç»éªŒ
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SApplyYingFuExprience extends __SApplyYingFuExprience__ {
 		return 799439;
 	}
 
-	public long exprience; // Ó¯¸£¾­Ñé
+	public long exprience; // ç›ˆç¦ç»éªŒ
 
 	public SApplyYingFuExprience() {
 	}

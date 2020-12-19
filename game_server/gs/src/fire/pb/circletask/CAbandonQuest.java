@@ -29,9 +29,9 @@ public class CAbandonQuest extends __CAbandonQuest__ {
 		if (roleid < 0)
 			return;
 		
-		CircleTaskManager.logger.info("收到放弃任务消息.角色[" + roleid + "]要放弃任�?:" + questid);
+		CircleTaskManager.logger.info("鏀跺埌鏀惧純浠诲姟娑堟伅.瑙掕壊[" + roleid + "]瑕佹斁寮冧换鍔?:" + questid);
 		if(questid == 1080000) {
-			//放弃暗夜马戏团任务传�?
+			//鏀惧純鏆楀椹垙鍥换鍔′紶璇?
 			new mkdb.Procedure() {
 				@Override
 				protected boolean process() {
@@ -44,7 +44,7 @@ public class CAbandonQuest extends __CAbandonQuest__ {
 			return;
 		}
 		
-		//该任务不可以放弃
+		//璇ヤ换鍔′笉鍙互鏀惧純
 		if(questid == 205303){
 			return;
 		}
@@ -72,7 +72,7 @@ public class CAbandonQuest extends __CAbandonQuest__ {
 		return 807434;
 	}
 
-	public int questid; // ����������id
+	public int questid; // 放弃的任务id
 
 	public CAbandonQuest() {
 	}

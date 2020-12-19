@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GEnterDynamicSceneById__ extends mkio.Protocol { }
 
-/** 场景相关操作
+/** 鍦烘櫙鐩稿叧鎿嶄綔
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,11 +28,11 @@ public class GEnterDynamicSceneById extends __GEnterDynamicSceneById__ {
 	}
 
 	public long roleid;
-	public long sceneid; // 场景id
+	public long sceneid; // 鍦烘櫙id
 	public int posx;
 	public int posy;
-	public int scenetype; // 场景类型
-	public int gototype; // 跳转类型
+	public int scenetype; // 鍦烘櫙绫诲瀷
+	public int gototype; // 璺宠浆绫诲瀷
 
 	public GEnterDynamicSceneById() {
 	}

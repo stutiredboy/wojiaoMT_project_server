@@ -46,7 +46,7 @@ public class CActivityAnswerQuestionHelp extends __CActivityAnswerQuestionHelp__
 					{
 						long lasttime = activityquestion.getActivityquestionstarttime();
 						
-						if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //如果不是同一天by changhao
+						if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //濡傛灉涓嶆槸鍚屼竴澶゜y changhao
 						{
 							return true;
 						}

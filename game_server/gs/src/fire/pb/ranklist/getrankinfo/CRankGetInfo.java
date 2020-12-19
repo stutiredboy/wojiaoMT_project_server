@@ -12,7 +12,7 @@ abstract class __CRankGetInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 获得排行榜数�?
+ * 鑾峰緱鎺掕姒滄暟鎹?
  * @author changhao
  *
  */
@@ -23,7 +23,7 @@ public class CRankGetInfo extends __CRankGetInfo__ {
 		if (roleId < 0)
 			return;
 		switch(ranktype){
-		case fire.pb.ranklist.RankType.ROLE_ZONGHE_RANK: //综合,职业排名 by changhao
+		case fire.pb.ranklist.RankType.ROLE_ZONGHE_RANK: //缁煎悎,鑱屼笟鎺掑悕 by changhao
 		case fire.pb.ranklist.RankType.PROFESSION_WARRIOR_RANK:
 		case fire.pb.ranklist.RankType.PROFESSION_MAGIC_RANK:
 		case fire.pb.ranklist.RankType.PROFESSION_PRIEST_RANK:
@@ -82,8 +82,8 @@ public class CRankGetInfo extends __CRankGetInfo__ {
 		return 810256;
 	}
 
-	public int ranktype; // ���а�����
-	public int rank; // ����
+	public int ranktype; // 排行榜类型
+	public int rank; // 排名
 	public long id;
 
 	public CRankGetInfo() {

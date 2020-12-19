@@ -12,7 +12,7 @@ public class UserInfo implements Marshal {
 	public int loginip;
 	public byte blisgm;
 	public java.util.ArrayList<Integer> auth;
-	public int algorithm; // 账号安全级别
+	public int algorithm; // 璐﹀彿瀹夊叏绾у埆
 	public byte gender; // 0-female,1-male,2-unknown
 	public com.locojoy.base.Octets nickname;
 

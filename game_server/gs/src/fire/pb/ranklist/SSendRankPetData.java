@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SSendRankPetData__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·µ»Ø¸ø¿Í»§¶Ë°ñµ¥ÉÏ³èÎïµÄÏêÏ¸ĞÅÏ¢
+/** æœåŠ¡å™¨è¿”å›ç»™å®¢æˆ·ç«¯æ¦œå•ä¸Šå® ç‰©çš„è¯¦ç»†ä¿¡æ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SSendRankPetData extends __SSendRankPetData__ {
 		return 810241;
 	}
 
-	public long uniquepetid; // ³èÎïµÄÎ¨Ò»id
-	public fire.pb.Pet petinfo; // ³èÎïÊı¾İ
+	public long uniquepetid; // å® ç‰©çš„å”¯ä¸€id
+	public fire.pb.Pet petinfo; // å® ç‰©æ•°æ®
 
 	public SSendRankPetData() {
 		petinfo = new fire.pb.Pet();

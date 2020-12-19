@@ -29,7 +29,7 @@ public class CDrawGiftBox extends __CDrawGiftBox__ {
 		return 805488;
 	}
 
-	public int id; // ±¦Ïäid
+	public int id; // å®ç®±id
 
 	public CDrawGiftBox() {
 	}

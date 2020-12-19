@@ -36,7 +36,7 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//冠军试炼统一队长任务
+		//鍐犲啗璇曠偧缁熶竴闃熼暱浠诲姟
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid<=0){
 			return;
@@ -49,57 +49,57 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 					MessageMgr.sendMsgNotify(roleid, 140498, null);
 					return false;
 				}
-				//判断活动是否�?�?
+				//鍒ゆ柇娲诲姩鏄惁寮?鍚?
 				long currentTime = System.currentTimeMillis();
 				if (!WinnerManager.getInstance().isInWinnerActiveTime(currentTime)) {
 					return false;
 				}
 				if(acceptflag==1){
-					//同意统一任务
-					//获取队长的任务id
+					//鍚屾剰缁熶竴浠诲姟
+					//鑾峰彇闃熼暱鐨勪换鍔d
 					long teamleadid=team.getTeamLeaderId();
-					//获得任务信息
+					//鑾峰緱浠诲姟淇℃伅
 					xbean.TaskDlgInfo task=TaskDlgUtil.getTaskDlgInfo(teamleadid, WinnerManager.WINNER_TASK_ID);
 					if(task==null){
-						WinnerManager.logger.info("角色id "+roleid+"\t同步冠军试炼任务，数据错误，队长没有任务");
+						WinnerManager.logger.info("瑙掕壊id "+roleid+"\t鍚屾鍐犲啗璇曠偧浠诲姟锛屾暟鎹敊璇紝闃熼暱娌℃湁浠诲姟");
 						return false;
 					}
 					Npc npc = SceneNpcManager.selectNpcByKey(task.getDstnpckey());
 					if(npc==null){
 						return false;
 					}
-					//删除玩家当前任务
+					//鍒犻櫎鐜╁褰撳墠浠诲姟
 					if (TaskDlgUtil.existTask(roleid, WinnerManager.WINNER_TASK_ID)||TaskDlgUtil.existTask(roleid, WinnerManager.WINNER_TASK_ID_ACCEPT)){
 						WinnerManager.getInstance().abandonWinnerTask(roleid);
 					}
-					//同步玩家当前任务
-					WinnerManager.getInstance().createWinnerTask(WinnerManager.WINNER_TASK_ID,roleid,npc,SpecialQuestState.UNDONE,0,task.getSumnum());//创建任务
-					WinnerManager.getInstance().addWinnerRole(roleid);//添加冠军试炼的玩�?
+					//鍚屾鐜╁褰撳墠浠诲姟
+					WinnerManager.getInstance().createWinnerTask(WinnerManager.WINNER_TASK_ID,roleid,npc,SpecialQuestState.UNDONE,0,task.getSumnum());//鍒涘缓浠诲姟
+					WinnerManager.getInstance().addWinnerRole(roleid);//娣诲姞鍐犲啗璇曠偧鐨勭帺瀹?
 					MessageMgr.psendMsgNotifyWhileCommit(roleid, 140666, npc.getNpcID(), Arrays.asList(task.getSumnum()+"",npc.getName()));
 					
-					//清除队伍积分以及环数信息
+					//娓呴櫎闃熶紞绉垎浠ュ強鐜暟淇℃伅
 					WinnerRecord record = WinnerManager.getInstance().teams.get(team.getTeamId());
 					if(record!=null){
 						record.setTeamScore(0);
 						record.setRound(0);
-						//重新同步�?下队伍成员，并且清除该玩家上次的队伍信息
+						//閲嶆柊鍚屾涓?涓嬮槦浼嶆垚鍛橈紝骞朵笖娓呴櫎璇ョ帺瀹朵笂娆＄殑闃熶紞淇℃伅
 						WinnerManager.getInstance().removeLastTeamidAddNew(record,roleid);
 					}
-					//通知队员
+					//閫氱煡闃熷憳
 					xbean.Properties prop=xtable.Properties.select(roleid); 
 					List<Long> teamMembers = team.getNormalMemberIds();
 					for (Long mem : teamMembers) {
-						WinnerManager.clearActiveTeamWinnerScore(mem);//清除活动面板的队伍成�?
+						WinnerManager.clearActiveTeamWinnerScore(mem);//娓呴櫎娲诲姩闈㈡澘鐨勯槦浼嶆垚缁?
 						MessageMgr.sendMsgNotify(mem, 170019, Arrays.asList(prop.getRolename()));
 					}
-					WinnerManager.logger.info("角色id "+roleid+"\t同步冠军试炼任务，成�?");
+					WinnerManager.logger.info("瑙掕壊id "+roleid+"\t鍚屾鍐犲啗璇曠偧浠诲姟锛屾垚鍔?");
 				}else{
-					//取消统一任务
-					//通知队长
+					//鍙栨秷缁熶竴浠诲姟
+					//閫氱煡闃熼暱
 					xbean.Properties prop=xtable.Properties.select(roleid); 
 //					long teamleadid=team.getTeamLeaderId();
 //					MessageMgr.sendMsgNotify(teamleadid, 160449, Arrays.asList(prop.getRolename()));
-					//通知队员
+					//閫氱煡闃熷憳
 					List<Long> teamMembers = team.getNormalMemberIds();
 					for (Long mem : teamMembers) {
 						MessageMgr.sendMsgNotify(mem, 160449, Arrays.asList(prop.getRolename()));
@@ -122,7 +122,7 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 		return 795484;
 	}
 
-	public int acceptflag; // 0��ʾȡ��    1��ʾ����
+	public int acceptflag; // 0表示取消    1表示接受
 
 	public CWinnerChangeTask() {
 	}

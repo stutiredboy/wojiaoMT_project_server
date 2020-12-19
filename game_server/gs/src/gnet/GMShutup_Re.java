@@ -21,7 +21,7 @@ public class GMShutup_Re extends __GMShutup_Re__ {
 					final long now = System.currentTimeMillis();
 					xtable.Userid2forbidtime.remove(dstuserid);
 					if(forbid_time <= 0)
-						return true;//解除禁言
+						return true;//瑙ｉ櫎绂佽█
 					xbean.forbidinfo forbid = xbean.Pod.newforbidinfo();
 					forbid.setForbidtime(forbid_time*1000 + now);
 					xtable.Userid2forbidtime.add(dstuserid, forbid);

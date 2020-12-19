@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRequestRankList__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷·µ»Ø¸ø¿Í»§¶ËµÄÅÅĞĞ°ñÁĞ±í
+/** æœåŠ¡å™¨è¿”å›ç»™å®¢æˆ·ç«¯çš„æ’è¡Œæ¦œåˆ—è¡¨
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,17 +27,17 @@ public class SRequestRankList extends __SRequestRankList__ {
 		return 810234;
 	}
 
-	public int ranktype; // ÅÅĞĞ°ñÀàĞÍ
-	public int myrank; // Íæ¼Ò×Ô¼ºµÄÅÅĞĞ£¬0ÎªÃ»ÓĞÉÏ°ñ
-	public java.util.ArrayList<com.locojoy.base.Octets> list; // ¾ßÌåÊı¾İ
-	public int page; // Ò³Êı  ´Ó0¿ªÊ¼
-	public int hasmore; // 1=µ±Ç°ÊÇ×îºóÒ»Ò³  0=ºó±ß»¹ÓĞ
-	public java.lang.String mytitle; // Õâ¸öÊÇÕóÓª¶ÀÓĞµÄ  ÆäËûµÄºöÂÔÕâ¸ö×Ö¶Î
-	public byte takeawardflag; // 1=¿ÉÒÔÁìÈ¡½±Àø  0=²»¿ÉÒÔÁìÈ¡½±Àø»òÒÑ¾­ÁìÈ¡¹ı½±ÀøÁË
-	public int extdata; // À©Õ¹Êı¾İ by changhao
-	public long extdata1; // À©Õ¹Êı¾İ by changhao
-	public float extdata2; // À©Õ¹Êı¾İ by changhao
-	public java.lang.String extdata3; // À©Õ¹Êı¾İ by changhao
+	public int ranktype; // æ’è¡Œæ¦œç±»å‹
+	public int myrank; // ç©å®¶è‡ªå·±çš„æ’è¡Œï¼Œ0ä¸ºæ²¡æœ‰ä¸Šæ¦œ
+	public java.util.ArrayList<com.locojoy.base.Octets> list; // å…·ä½“æ•°æ®
+	public int page; // é¡µæ•°  ä»0å¼€å§‹
+	public int hasmore; // 1=å½“å‰æ˜¯æœ€åä¸€é¡µ  0=åè¾¹è¿˜æœ‰
+	public java.lang.String mytitle; // è¿™ä¸ªæ˜¯é˜µè¥ç‹¬æœ‰çš„  å…¶ä»–çš„å¿½ç•¥è¿™ä¸ªå­—æ®µ
+	public byte takeawardflag; // 1=å¯ä»¥é¢†å–å¥–åŠ±  0=ä¸å¯ä»¥é¢†å–å¥–åŠ±æˆ–å·²ç»é¢†å–è¿‡å¥–åŠ±äº†
+	public int extdata; // æ‰©å±•æ•°æ® by changhao
+	public long extdata1; // æ‰©å±•æ•°æ® by changhao
+	public float extdata2; // æ‰©å±•æ•°æ® by changhao
+	public java.lang.String extdata3; // æ‰©å±•æ•°æ® by changhao
 
 	public SRequestRankList() {
 		list = new java.util.ArrayList<com.locojoy.base.Octets>();

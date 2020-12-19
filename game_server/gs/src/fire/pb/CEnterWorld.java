@@ -18,19 +18,19 @@ abstract class __CEnterWorld__ extends mkio.Protocol { }
 public class CEnterWorld extends __CEnterWorld__ {
 	@Override
 	protected void process() {
-		//XXX:仔细考虑下，如果这中间有时差怎么�?
-		//TODO:10秒内只让登录�?次�?�防攻击�?
+		//XXX:浠旂粏鑰冭檻涓嬶紝濡傛灉杩欎腑闂存湁鏃跺樊鎬庝箞鍔?
+		//TODO:10绉掑唴鍙鐧诲綍涓?娆°?傞槻鏀诲嚮銆?
 		final int userId=((gnet.link.Dispatch)this.getContext()).userid;
 		final xbean.User usr = xtable.User.select(userId);
 		if(null == usr || !usr.getIdlist().contains(roleid))
 		{
-			StateManager.logger.error(new StringBuilder("CEnterWorld: 账号Id = ").append(userId).append("没有这个角色�?").append(roleid).append(", 登录失败�?"));
+			StateManager.logger.error(new StringBuilder("CEnterWorld: 璐﹀彿Id = ").append(userId).append("娌℃湁杩欎釜瑙掕壊锛?").append(roleid).append(", 鐧诲綍澶辫触銆?"));
 			return;
 		}
-		StateManager.logger.info(new StringBuilder("roleid=").append(roleid).append(" �?始进入世�?"));
-		//加入新的角色,这一句必须放在角色进入场景前
+		StateManager.logger.info(new StringBuilder("roleid=").append(roleid).append(" 寮?濮嬭繘鍏ヤ笘鐣?"));
+		//鍔犲叆鏂扮殑瑙掕壊,杩欎竴鍙ュ繀椤绘斁鍦ㄨ鑹茶繘鍏ュ満鏅墠
 		gnet.link.Onlines.getInstance().insert(this, roleid);
-		StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" CEnterWorld: 已经加入�?"));
+		StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" CEnterWorld: 宸茬粡鍔犲叆銆?"));
 		
 		PRoleOnline pRoleOnline = new PRoleOnline(userId,roleid);
 		try
@@ -58,7 +58,7 @@ public class CEnterWorld extends __CEnterWorld__ {
 			pRoleOnline.submit().get();
 		} catch (Exception e)
 		{
-			StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" 登入出错�?").append(e));
+			StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" 鐧诲叆鍑洪敊銆?").append(e));
 		}
 		new DRoleOnlineFail().doDone(pRoleOnline);
 	}
@@ -73,7 +73,7 @@ public class CEnterWorld extends __CEnterWorld__ {
 	}
 
 	public long roleid;
-	public int rolesnum; // ͬ���ܿ���������
+	public int rolesnum; // 同屏能看见的人数
 
 	public CEnterWorld() {
 	}

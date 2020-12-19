@@ -15,7 +15,7 @@ abstract class __CAbsentReturnTeam__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
-//暂离或回归队�? by changhao
+//鏆傜鎴栧洖褰掗槦浼? by changhao
 public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 
 	private Team team;
@@ -36,11 +36,11 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 				memberRoleId, absent);
 
 		if (absent == 1)
-		{ //如果暂离的话 by changhao
+		{ //濡傛灉鏆傜鐨勮瘽 by changhao
 			absentReturnTeamP.submit();
 		} 
 		/*
-		else if (absent == 2) //请求回归(应对同地图客户端自动�?始寻路问�?)
+		else if (absent == 2) //璇锋眰鍥炲綊(搴斿鍚屽湴鍥惧鎴风鑷姩寮?濮嬪璺棶棰?)
 		{
 			Long teamId = xtable.Roleid2teamid.select(memberRoleId);
 			if (teamId != null)
@@ -54,7 +54,7 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			PropRole prole = new PropRole(leaderRoleId, true);
 			SAbsentReturnTeam sendret = new SAbsentReturnTeam();		
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("队伍（队长）的巡游状�?,此时不能归队,teamId: " + teamId);
+				TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘褰掗槦,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				sendret.ret = 0;
 			} else {
@@ -73,32 +73,32 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			else
 				return;
 			
-			//是否在队伍中 by changhao
+			//鏄惁鍦ㄩ槦浼嶄腑 by changhao
 			if (!team.isInTeam(memberRoleId))
 				return;
 			
 			long leaderRoleId = team.getTeamInfo().getTeamleaderid();
 			PropRole prole = new PropRole(leaderRoleId, true);
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("队伍（队长）的巡游状�?,此时不能归队,teamId: " + teamId);
+				TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘褰掗槦,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				return;
 			}
 			PropRole pmemrole = new PropRole(memberRoleId, true);
 			if(pmemrole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("队伍（队员）的巡游状�?,此时不能归队,teamId: " + teamId);
+				TeamManager.logger.debug("闃熶紞锛堥槦鍛橈級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘褰掗槦,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160436, null);
 				return;
 			}
 			
-			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //如果队长在公会战场不能回归队�? by changhao
+			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //濡傛灉闃熼暱鍦ㄥ叕浼氭垬鍦轰笉鑳藉洖褰掗槦浼? by changhao
 			if (leaderclanfightid != null)
 			{
 				Long memberclanfightid = xtable.Roleid2clanfightid.select(memberRoleId);
 				if (!leaderclanfightid.equals(memberclanfightid))
 				{
-					fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 410020, null); //队长在公会战场内部能回归 by changhao
-					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410021, null); //队员在公会战场外不能回归 by changhao
+					fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 410020, null); //闃熼暱鍦ㄥ叕浼氭垬鍦哄唴閮ㄨ兘鍥炲綊 by changhao
+					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410021, null); //闃熷憳鍦ㄥ叕浼氭垬鍦哄涓嶈兘鍥炲綊 by changhao
 					return;
 				}
 			}
@@ -111,25 +111,25 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 				return;
 			}
 			
-			if (memberRole.getScene() == leaderRole.getScene()) //如果和队伍在同一个场�? by changhao
+			if (memberRole.getScene() == leaderRole.getScene()) //濡傛灉鍜岄槦浼嶅湪鍚屼竴涓満鏅? by changhao
 			{
-				//拉到队长�? by changhao
+				//鎷夊埌闃熼暱閭? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 1);
 				go.submit();				
 				//absentReturnTeamP.submit();
 			}
 			else
 			{
-				//拉到队长�? by changhao
+				//鎷夊埌闃熼暱閭? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 2);
 				go.submit();
 			}
 		}
 	}
 
-	// �?测PVP
+	// 妫?娴婸VP
 	private static int checkPvP(long roleId, byte absent) {
-		// 暂离或回�?
+		// 鏆傜鎴栧洖褰?
 		return fire.pb.battle.pvp.PvPTeamHandle.onAbsentReturn(roleId, absent);
 	}
 
@@ -141,7 +141,7 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 		return 794441;
 	}
 
-	public byte absent; // 1��ʾ���� 0��ʾ�ع�
+	public byte absent; // 1表示暂离 0表示回归
 
 	public CAbsentReturnTeam() {
 	}

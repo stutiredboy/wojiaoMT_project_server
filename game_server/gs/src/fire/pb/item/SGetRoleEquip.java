@@ -30,8 +30,8 @@ public class SGetRoleEquip extends __SGetRoleEquip__ {
 	public fire.pb.Bag equipinfo;
 	public java.util.HashMap<Integer,com.locojoy.base.Octets> tips;
 	public java.util.HashMap<Byte,Integer> components;
-	public int profession; // 职业 by changhao
-	public int rolelevel; // 玩家等级 by changhao
+	public int profession; // 鑱屼笟 by changhao
+	public int rolelevel; // 鐜╁绛夌骇 by changhao
 	public long roleid;
 	public int shape;
 

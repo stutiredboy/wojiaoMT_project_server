@@ -14,7 +14,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CNoOperationKick__ extends mkio.Protocol { }
 
-/** �ߵ���ʱ�䲻���������
+/** 踢掉长时间不操作的玩家
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -51,10 +51,10 @@ public class CNoOperationKick extends __CNoOperationKick__ {
 					}
 					ok = norpresentNum == 0 ? false : true;
 				}
-				if (!ok) {// 踢掉
+				if (!ok) {// 韪㈡帀
 					Procedure.psend(roleId, new SReturnLogin());
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("角色role=").append(roleId).append(", 长时间不操作踢掉�?");
+					sbd.append("瑙掕壊role=").append(roleId).append(", 闀挎椂闂翠笉鎿嶄綔韪㈡帀锛?");
 					LogManager.logger.error(sbd.toString());
 				}
 				return true;

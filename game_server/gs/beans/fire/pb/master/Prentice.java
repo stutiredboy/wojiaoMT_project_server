@@ -6,10 +6,10 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class Prentice implements Marshal {
-	public long roleid; // ͽ�ܵ�roleid
-	public java.lang.String nickname; // ͽ�ܵ�����
-	public int level; // ͽ�ܵȼ�
-	public int school; // ͽ��ְҵid
+	public long roleid; // 徒弟的roleid
+	public java.lang.String nickname; // 徒弟的名字
+	public int level; // 徒弟等级
+	public int school; // 徒弟职业id
 
 	public Prentice() {
 		nickname = "";

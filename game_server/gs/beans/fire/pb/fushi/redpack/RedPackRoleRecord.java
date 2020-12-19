@@ -6,14 +6,14 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RedPackRoleRecord implements Marshal {
-	public int modeltype; // ºì°üÀàĞÍ
-	public java.lang.String redpackid; // ºì°üId
-	public long roleid; // ½ÇÉ«Id
-	public java.lang.String rolename; // ½ÇÉ«Ãû
-	public int school; // Ö°Òµ
-	public int shape; // ÍâĞÎ
-	public int redpackmoney; // ºì°ü½ğ¶î
-	public long time; // Ê±¼ä
+	public int modeltype; // çº¢åŒ…ç±»å‹
+	public java.lang.String redpackid; // çº¢åŒ…Id
+	public long roleid; // è§’è‰²Id
+	public java.lang.String rolename; // è§’è‰²å
+	public int school; // èŒä¸š
+	public int shape; // å¤–å½¢
+	public int redpackmoney; // çº¢åŒ…é‡‘é¢
+	public long time; // æ—¶é—´
 
 	public RedPackRoleRecord() {
 		redpackid = "";

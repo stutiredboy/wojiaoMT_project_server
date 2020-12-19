@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class offLineMsgBean implements Marshal {
 	public fire.pb.friends.StrangerMessageBean strangermessage;
-	public java.lang.String time; // 离线消息的服务器时间
+	public java.lang.String time; // 绂荤嚎娑堟伅鐨勬湇鍔″櫒鏃堕棿
 
 	public offLineMsgBean() {
 		strangermessage = new fire.pb.friends.StrangerMessageBean();

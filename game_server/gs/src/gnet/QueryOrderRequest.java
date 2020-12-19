@@ -24,9 +24,9 @@ public class QueryOrderRequest extends __QueryOrderRequest__ {
 		return 8904;
 	}
 
-	public java.lang.String platid; // Æ½Ì¨Î¨Ò»±êÊ¶
-	public java.lang.String orderserialplat; // Æ½Ì¨ÓÃµÄ¶©µ¥ºÅ
-	public java.lang.String orderserialgame; // ÓÎÏ·ÄÚ×Ô¼ºÓÃµÄ¶©µ¥ºÅ
+	public java.lang.String platid; // å¹³å°å”¯ä¸€æ ‡è¯†
+	public java.lang.String orderserialplat; // å¹³å°ç”¨çš„è®¢å•å·
+	public java.lang.String orderserialgame; // æ¸¸æˆå†…è‡ªå·±ç”¨çš„è®¢å•å·
 
 	public QueryOrderRequest() {
 		platid = "";

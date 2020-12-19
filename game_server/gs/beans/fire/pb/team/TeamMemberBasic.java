@@ -19,9 +19,9 @@ public class TeamMemberBasic implements Marshal {
 	public java.lang.String title;
 	public int state;
 	public int shape;
-	public byte hugindex; // [1,5]Óµ±§¶ÔÏóµÄindex
-	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
-	public byte camp; // 0ÖĞÁ¢  1²¿Âä 2ÁªÃË
+	public byte hugindex; // [1,5]æ‹¥æŠ±å¯¹è±¡çš„index
+	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
+	public byte camp; // 0ä¸­ç«‹  1éƒ¨è½ 2è”ç›Ÿ
 
 	public TeamMemberBasic() {
 		rolename = "";

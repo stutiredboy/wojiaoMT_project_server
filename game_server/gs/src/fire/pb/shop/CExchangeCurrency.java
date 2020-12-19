@@ -13,7 +13,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CExchangeCurrency__ extends mkio.Protocol { }
 
-/** ���Ҷһ�
+/** 货币兑换
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -36,34 +36,34 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 				
 				long ret = 0;
 				int newMoney = 0;
-				// 符石兑换
+				// 绗︾煶鍏戞崲
 				if (srcmoneytype == fire.pb.game.MoneyType.MoneyType_HearthStone) {
-					// 兑换银币.
+					// 鍏戞崲閾跺竵.
 					if (fire.pb.fushi.Module.GetPayServiceType() == 1)
 						return false;
 					
 					if (dstmoneytype == fire.pb.game.MoneyType.MoneyType_SilverCoin && this.dealHearthStone()) {
 						newMoney = money * 10000;
-						ret = bag.addSysMoney(newMoney, "1符石兑换10000银币", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
+						ret = bag.addSysMoney(newMoney, "1绗︾煶鍏戞崲10000閾跺竵", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
 						if (ret != 0) {
 							fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 160402, java.util.Arrays.asList(Integer.toString(money), Integer.toString(newMoney)));
 						}
 					} 
-					// 兑换金币
+					// 鍏戞崲閲戝竵
 					else if (dstmoneytype == fire.pb.game.MoneyType.MoneyType_GoldCoin && this.dealHearthStone()) {
 						newMoney = money * 100;
-						ret = bag.addSysGold(newMoney, "1符石兑换100金币", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);						
+						ret = bag.addSysGold(newMoney, "1绗︾煶鍏戞崲100閲戝竵", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);						
 						if (ret != 0) {
 							ret = bag.addSysCurrency((long)(newMoney*fire.pb.fushi.Module.getCreditPointValue(fire.pb.fushi.Module.CREDITPOINT_IN_FS2GOLD))
-									, MoneyType.MoneyType_EreditPoint, "1符石兑换100金币", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
+									, MoneyType.MoneyType_EreditPoint, "1绗︾煶鍏戞崲100閲戝竵", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
 							fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 160403, java.util.Arrays.asList(Integer.toString(money), Integer.toString(newMoney)));
 						}
 					}
 				}
-				// 金币兑换
+				// 閲戝竵鍏戞崲
 				else if (srcmoneytype == fire.pb.game.MoneyType.MoneyType_GoldCoin && this.dealGold()) {
 					newMoney = money * 100;
-					ret = bag.addSysMoney(newMoney, "1金币兑换100银币", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
+					ret = bag.addSysMoney(newMoney, "1閲戝竵鍏戞崲100閾跺竵", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
 					if (ret != 0) {
 						fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 160404, java.util.Arrays.asList(Integer.toString(money), Integer.toString(newMoney)));
 					}
@@ -74,11 +74,11 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 			
 			
 			/**
-			 * 符石�?查并扣除
+			 * 绗︾煶妫?鏌ュ苟鎵ｉ櫎
 			 * @return true ok
 			 */
 			public boolean dealHearthStone() {
-				// 获取符石
+				// 鑾峰彇绗︾煶
 				if (fire.pb.fushi.Module.getIsYYBUser(userid)) {
 					return fire.pb.fushi.FushiManager.subFushiFromUser(userid, roleid, money, 0, 0,
 							fire.pb.fushi.FushiConst.REASON_SUB_EXCHANGE_CURRENCY, YYLoggerTuJingEnum.tujing_Value_huobiduihuancost, true);
@@ -102,12 +102,12 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 			}
 			
 			/**
-			 * 扣除金币
+			 * 鎵ｉ櫎閲戝竵
 			 * @return true ok
 			 */
 			public boolean dealGold() {
 				fire.pb.item.Pack bag = new fire.pb.item.Pack(roleid, false);
-				long ret = bag.subGold(-money, "货币兑换", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuancost, 0);
+				long ret = bag.subGold(-money, "璐у竵鍏戞崲", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuancost, 0);
 				return ret == 0 ? false : true ;
 			}
 			
@@ -125,9 +125,9 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 		return 810653;
 	}
 
-	public int srcmoneytype; // Դ���� �ο�game.xml��MoneyType
-	public int dstmoneytype; // Ŀ������ �ο�game.xml��MoneyType
-	public int money; // ����
+	public int srcmoneytype; // 源类型 参考game.xml中MoneyType
+	public int dstmoneytype; // 目标类型 参考game.xml中MoneyType
+	public int money; // 数量
 
 	public CExchangeCurrency() {
 	}

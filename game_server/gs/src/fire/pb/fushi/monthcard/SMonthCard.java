@@ -25,8 +25,8 @@ public class SMonthCard extends __SMonthCard__ {
 		return 812688;
 	}
 
-	public long endtime; // ÔÂ¿¨½áÊøÊ±¼ä´Á by changhao
-	public int grab; // 1ÊÇ¿ÉÒÔÁìÈ¡0ÊÇ²»ÄÜÁìÈ¡ by changhao
+	public long endtime; // æœˆå¡ç»“æŸæ—¶é—´æˆ³ by changhao
+	public int grab; // 1æ˜¯å¯ä»¥é¢†å–0æ˜¯ä¸èƒ½é¢†å– by changhao
 
 	public SMonthCard() {
 	}

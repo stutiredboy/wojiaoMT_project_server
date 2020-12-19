@@ -26,8 +26,8 @@ public class SUpdateMemberPosition extends __SUpdateMemberPosition__ {
 	}
 
 	public long roleid;
-	public fire.pb.team.Pos1 position; // ×ø±ê
-	public long sceneid; // ³¡¾°ID
+	public fire.pb.team.Pos1 position; // åæ ‡
+	public long sceneid; // åœºæ™¯ID
 
 	public SUpdateMemberPosition() {
 		position = new fire.pb.team.Pos1();

@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SubmitThing implements Marshal , Comparable<SubmitThing>{
-	public int key; // 给予物品或者道具的key
-	public int num; // 给予物品或者道具的数量
+	public int key; // 缁欎簣鐗╁搧鎴栬�呴亾鍏风殑key
+	public int num; // 缁欎簣鐗╁搧鎴栬�呴亾鍏风殑鏁伴噺
 
 	public SubmitThing() {
 	}

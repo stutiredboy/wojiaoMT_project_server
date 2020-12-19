@@ -25,7 +25,7 @@ public class SUserNeedActive extends __SUserNeedActive__ {
 		return 786511;
 	}
 
-	public byte retcode; // 0ĞèÒª¼¤»î, 1¼¤»îÂëÊäÈë´íÎó 2¼¤»îÂëÒÑ±»Ê¹ÓÃ
+	public byte retcode; // 0éœ€è¦æ¿€æ´», 1æ¿€æ´»ç è¾“å…¥é”™è¯¯ 2æ¿€æ´»ç å·²è¢«ä½¿ç”¨
 
 	public SUserNeedActive() {
 	}

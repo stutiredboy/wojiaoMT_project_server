@@ -6,11 +6,11 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class GoodInfo implements Marshal , Comparable<GoodInfo>{
-	public int goodid; // 商品id
-	public int price; // rmb价格
-	public int fushi; // 可获得的符石
-	public int present; // 额外赠送的符石
-	public int beishu; // 该项倍数
+	public int goodid; // 鍟嗗搧id
+	public int price; // rmb浠锋牸
+	public int fushi; // 鍙幏寰楃殑绗︾煶
+	public int present; // 棰濆璧犻�佺殑绗︾煶
+	public int beishu; // 璇ラ」鍊嶆暟
 
 	public GoodInfo() {
 	}

@@ -6,12 +6,12 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ShouXiLimit implements Marshal , Comparable<ShouXiLimit>{
-	public final static int CHALLENGE_LEVEL_LIMIT = 40; // ÌôÕ½Ê×Ï¯µÄµÈ¼¶ÏŞÖÆ
-	public final static int SCHOOL_CONTRIBUTE_LIMIT = 500; // ÌôÕ½Ê×Ï¯ĞèÒªµÄÖ°Òµ¹±Ï×¶È
-	public final static int MONEY_LIMIT = 10000; // ÌôÕ½Ê×Ï¯ĞèÒªµÄ½ğÇ®
-	public final static int VOTE_LEVEL_LIMIT = 30; // Í¶Æ±ĞèÒªµÄµÈ¼¶
-	public final static int TILI_LIMIT = 100; // Í¶Æ±ĞèÒªµÄÌåÁ¦Öµ
-	public final static int REFRESH_TIMES_LIMIT = 5; // Í¶Æ±ĞèÒªµÄÌåÁ¦Öµ
+	public final static int CHALLENGE_LEVEL_LIMIT = 40; // æŒ‘æˆ˜é¦–å¸­çš„ç­‰çº§é™åˆ¶
+	public final static int SCHOOL_CONTRIBUTE_LIMIT = 500; // æŒ‘æˆ˜é¦–å¸­éœ€è¦çš„èŒä¸šè´¡çŒ®åº¦
+	public final static int MONEY_LIMIT = 10000; // æŒ‘æˆ˜é¦–å¸­éœ€è¦çš„é‡‘é’±
+	public final static int VOTE_LEVEL_LIMIT = 30; // æŠ•ç¥¨éœ€è¦çš„ç­‰çº§
+	public final static int TILI_LIMIT = 100; // æŠ•ç¥¨éœ€è¦çš„ä½“åŠ›å€¼
+	public final static int REFRESH_TIMES_LIMIT = 5; // æŠ•ç¥¨éœ€è¦çš„ä½“åŠ›å€¼
 
 
 	public ShouXiLimit() {

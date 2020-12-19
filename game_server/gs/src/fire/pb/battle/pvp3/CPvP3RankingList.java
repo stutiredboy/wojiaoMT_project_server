@@ -54,7 +54,7 @@ public class CPvP3RankingList extends __CPvP3RankingList__ {
 		return 793635;
 	}
 
-	public byte history; // 0£ºµ±Ç°ÅÅĞĞ£¬1£ºÀúÊ·ÅÅĞĞ
+	public byte history; // 0ï¼šå½“å‰æ’è¡Œï¼Œ1ï¼šå†å²æ’è¡Œ
 
 	public CPvP3RankingList() {
 	}

@@ -25,7 +25,7 @@ public class SSetPassword extends __SSetPassword__ {
 		return 786565;
 	}
 
-	public byte status; // 1 ³É¹¦ 0Ê§°Ü
+	public byte status; // 1 æˆåŠŸ 0å¤±è´¥
 
 	public SSetPassword() {
 	}

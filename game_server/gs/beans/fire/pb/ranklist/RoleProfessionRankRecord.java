@@ -5,16 +5,16 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** Ö°°ñ by changhao
+/** èŒæ¦œ by changhao
 */
 public class RoleProfessionRankRecord implements Marshal {
-	public int rank; // ÅÅÃû
-	public long roleid; // ½ÇÉ«ID
-	public java.lang.String rolename; // ÈËÎïÃû³Æ
-	public int school; // Ö°Òµ
-	public int score; // ×ÜÆÀ·Ö
-	public java.lang.String faction; // ¹«»áÃû×Ö by changhao
-	public int rolelevel; // µÈ¼¶ by changhao
+	public int rank; // æ’å
+	public long roleid; // è§’è‰²ID
+	public java.lang.String rolename; // äººç‰©åç§°
+	public int school; // èŒä¸š
+	public int score; // æ€»è¯„åˆ†
+	public java.lang.String faction; // å…¬ä¼šåå­— by changhao
+	public int rolelevel; // ç­‰çº§ by changhao
 
 	public RoleProfessionRankRecord() {
 		rolename = "";

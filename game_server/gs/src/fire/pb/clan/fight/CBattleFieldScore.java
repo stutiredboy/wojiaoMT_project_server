@@ -25,7 +25,7 @@ public class CBattleFieldScore extends __CBattleFieldScore__ {
 			@Override
 			protected boolean process()  throws Exception
 			{
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //�?测是否在战场�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //妫?娴嬫槸鍚﹀湪鎴樺満涓? by changhao
 				if (c1 == null)
 				{
 					return false;

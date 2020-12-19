@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SPetGossip__ extends mkio.Protocol { }
 
-/** Õ½¶·ÄÚ³èÎïÏĞ»°
+/** æˆ˜æ–—å†…å® ç‰©é—²è¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SPetGossip extends __SPetGossip__ {
 		return 788453;
 	}
 
-	public int battleid; // Õ½¶·µãÎ»£¬³èÎïµÄ»°Ó¦¸ÃÊÇ£¨6-10£¬16-20£©
-	public int chatindex; // ÏĞ»°µÄĞòºÅ£¨0-3£©
+	public int battleid; // æˆ˜æ–—ç‚¹ä½ï¼Œå® ç‰©çš„è¯åº”è¯¥æ˜¯ï¼ˆ6-10ï¼Œ16-20ï¼‰
+	public int chatindex; // é—²è¯çš„åºå·ï¼ˆ0-3ï¼‰
 
 	public SPetGossip() {
 	}

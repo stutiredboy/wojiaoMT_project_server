@@ -17,7 +17,7 @@ public class MScenarioQuestUseItemVerifyPosFail extends __MScenarioQuestUseItemV
 	@Override
 	protected void process() {
 		// protocol handle
-		// Module.logger.error( "位置不对" );
+		// Module.logger.error( "浣嶇疆涓嶅" );
 		SUseMissionItemFail send = new SUseMissionItemFail();
 	    gnet.link.Onlines.getInstance().send( roleid, send );
 		new mkdb.Procedure() {

@@ -22,13 +22,13 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			return;
 		final MissionConfig conf = MissionManager.getInstance().getMissionConfig( missionid );
 		if (conf == null)
-			throw new NullPointerException( "任务id=" + missionid + "的配置为null" );
+			throw new NullPointerException( "浠诲姟id=" + missionid + "鐨勯厤缃负null" );
 		if(activetype == 0){
 			if (conf.exeIndo.share == 0) {
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 				if (team != null){
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 174001, null);
-					Module.logger.info("角色[" + roleid + "]妄想在组队状态下进入非组队共享任务[" + missionid + "]的战�?,朕不准！" );
+					Module.logger.info("瑙掕壊[" + roleid + "]濡勬兂鍦ㄧ粍闃熺姸鎬佷笅杩涘叆闈炵粍闃熷叡浜换鍔" + missionid + "]鐨勬垬鏂?,鏈曚笉鍑嗭紒" );
 					return;
 				}
 			}
@@ -44,7 +44,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 		
 			RoleMission mission = sml.getMission(missionid);
 			if ( mission == null ) {
-				Module.logger.debug( "没有该任务的信息" );
+				Module.logger.debug( "娌℃湁璇ヤ换鍔＄殑淇℃伅" );
 				return;
 			}
 			final int status = mission.getState();
@@ -59,7 +59,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 						conf.scenarioInfo.animationID).submit();
 			}
 		} else if (activetype == 1) {
-			//TODO:战斗录像功能
+			//TODO:鎴樻枟褰曞儚鍔熻兘
 			final int aiid = conf.aiInfo.aIID;
 			new PSendCameraUrl(aiid,roleid).submit();
 		}
@@ -71,7 +71,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			return false;
 		}
 		if ( team != null && !team.isAbsentMember( roleid ) && conf.exeIndo.teamState == 0 ) {
-			Module.logger.error( "任务" + conf.missionId + "不能有队伍提�?" );
+			Module.logger.error( "浠诲姟" + conf.missionId + "涓嶈兘鏈夐槦浼嶆彁浜?" );
 			fire.pb.talk.MessageMgr.sendMsgNotify( roleid, 141711, null );
 			return false;
 		}
@@ -79,8 +79,8 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			final SSpecialScenarioQuestConfig sconf = conf.getSpecialScenarioQuestConfig();
 			if ( sconf == null )
 				return false;
-			if ( sconf.类型ID2 == 2 ) {
-				// 判断出战宠物
+			if ( sconf.绫诲瀷ID2 == 2 ) {
+				// 鍒ゆ柇鍑烘垬瀹犵墿
 				final int fightpetkey =
 					xtable.Properties.selectFightpetkey( roleid );
 				fire.pb.pet.PetColumn pc = new fire.pb.pet.PetColumn( roleid, 
@@ -105,9 +105,9 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 		return 805452;
 	}
 
-	public int missionid; // ����id
-	public long npckey; // npc��key
-	public int activetype; // ��������:0����AIս��,1�ۿ�ս��¼��
+	public int missionid; // 任务id
+	public long npckey; // npc的key
+	public int activetype; // 激活类型:0进入AI战斗,1观看战斗录像
 
 	public CActiveMissionAIBattle() {
 	}

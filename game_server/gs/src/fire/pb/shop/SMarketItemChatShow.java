@@ -25,14 +25,14 @@ public class SMarketItemChatShow extends __SMarketItemChatShow__ {
 		return 810666;
 	}
 
-	public int browsetype; // ä¯ÀÀÀàĞÍ  1 ÎÒÒª¹ºÂò 2¹«Ê¾ÎïÆ·
-	public int firstno; // Ò»¼¶Ò³Ç©ÀàĞÍ
-	public int twono; // ¶ş¼¶Ò³Ç©ÀàĞÍ
-	public java.util.ArrayList<Integer> threeno; // Èı¼¶Ò³Ç©ÀàĞÍ
-	public long id; // Êı¾İ¿âÎ¨Ò»id
-	public int currpage; // µ±Ç°Ò³
-	public int totalpage; // ×ÜÒ³Êı
-	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // ²é¿´ÎïÆ·ÁĞ±í
+	public int browsetype; // æµè§ˆç±»å‹  1 æˆ‘è¦è´­ä¹° 2å…¬ç¤ºç‰©å“
+	public int firstno; // ä¸€çº§é¡µç­¾ç±»å‹
+	public int twono; // äºŒçº§é¡µç­¾ç±»å‹
+	public java.util.ArrayList<Integer> threeno; // ä¸‰çº§é¡µç­¾ç±»å‹
+	public long id; // æ•°æ®åº“å”¯ä¸€id
+	public int currpage; // å½“å‰é¡µ
+	public int totalpage; // æ€»é¡µæ•°
+	public java.util.ArrayList<fire.pb.shop.MarketGoods> goodslist; // æŸ¥çœ‹ç‰©å“åˆ—è¡¨
 
 	public SMarketItemChatShow() {
 		threeno = new java.util.ArrayList<Integer>();

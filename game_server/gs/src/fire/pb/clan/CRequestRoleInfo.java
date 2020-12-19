@@ -38,8 +38,8 @@ public class CRequestRoleInfo extends __CRequestRoleInfo__ {
 		return 808502;
 	}
 
-	public long roleid; // 角色id
-	public int moduletype; // 模块类型
+	public long roleid; // 瑙掕壊id
+	public int moduletype; // 妯″潡绫诲瀷
 
 	public CRequestRoleInfo() {
 	}

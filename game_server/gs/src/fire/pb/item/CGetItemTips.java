@@ -28,7 +28,7 @@ public class CGetItemTips extends __CGetItemTips__ {
 
 		Octets tips = item.getTips();
 		if (tips == null) {
-			Module.logger.error("错误的tips请求,物品�?:" + item.getName());
+			Module.logger.error("閿欒鐨則ips璇锋眰,鐗╁搧鍚?:" + item.getName());
 			return;
 		}
 				

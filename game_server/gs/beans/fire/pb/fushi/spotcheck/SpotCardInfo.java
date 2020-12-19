@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class SpotCardInfo implements Marshal , Comparable<SpotCardInfo>{
-	public int num; // 数量
-	public int price; // 价格
+	public int num; // 鏁伴噺
+	public int price; // 浠锋牸
 
 	public SpotCardInfo() {
 	}

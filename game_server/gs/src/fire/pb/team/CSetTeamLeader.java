@@ -17,12 +17,12 @@ abstract class __CSetTeamLeader__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 设置队长
+ * 璁剧疆闃熼暱
  * @author changhao
  *
  */
 public class CSetTeamLeader extends __CSetTeamLeader__ {
-	private long now = 0L;//procedure�?始时保存�?个当前时间，保证此procedure中时间的统一�?
+	private long now = 0L;//procedure寮?濮嬫椂淇濆瓨涓?涓綋鍓嶆椂闂达紝淇濊瘉姝rocedure涓椂闂寸殑缁熶竴鎬?
 	
 	Team team;
 	@Override
@@ -41,15 +41,15 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(oldLeaderRoleId);
-				//先验证队伍是否为�?
+				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isTeamLeader(oldLeaderRoleId))
-					return true;//验证原队长是否还是队伍的队长
+					return true;//楠岃瘉鍘熼槦闀挎槸鍚﹁繕鏄槦浼嶇殑闃熼暱
 				if(!team.isInTeam(newLeaderRoleId))
-					return true;//验证新队长是否在队伍�?
+					return true;//楠岃瘉鏂伴槦闀挎槸鍚﹀湪闃熶紞涓?
 				Long[] roleids = new Long[2];
 				if(oldLeaderRoleId < newLeaderRoleId)
 				{
@@ -72,35 +72,35 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 
 				if(!checkLeaderOnline(oldLeaderRoleId))
 				{
-					//申请者不在线（illegal�?
-					TeamManager.logger.debug("FAIL:申请者不在线,LeaderID: " +oldLeaderRoleId);
+					//鐢宠鑰呬笉鍦ㄧ嚎锛坕llegal锛?
+					TeamManager.logger.debug("FAIL:鐢宠鑰呬笉鍦ㄧ嚎,LeaderID: " +oldLeaderRoleId);
 				}
 				else if(!checkTeamStatusValid(team))
 				{
-					//队伍处于不可以换队长的状态（战斗中不能换队长�?(illegal)
-					TeamManager.logger.debug("FAIL:队伍处于不可以换队长的状态（例如飞行、战斗）,teamId: " +teamId);
+					//闃熶紞澶勪簬涓嶅彲浠ユ崲闃熼暱鐨勭姸鎬侊紙鎴樻枟涓笉鑳芥崲闃熼暱锛?(illegal)
+					TeamManager.logger.debug("FAIL:闃熶紞澶勪簬涓嶅彲浠ユ崲闃熼暱鐨勭姸鎬侊紙渚嬪椋炶銆佹垬鏂楋級,teamId: " +teamId);
 				}
 				else if(!checkTeamNotInSwitchStatus(team))
 				{
-					//队伍处于更换队长申请状�??
+					//闃熶紞澶勪簬鏇存崲闃熼暱鐢宠鐘舵??
 					//psend(oldLeaderRoleId, new STeamError(TeamError.InChangeLeaderStatus));
 					fire.pb.talk.MessageMgr.psendMsgNotify(oldLeaderRoleId, 141210, null);
-					TeamManager.logger.debug("FAIL:队伍处于更换队长申请状�??,teamId: " +teamId);
+					TeamManager.logger.debug("FAIL:闃熶紞澶勪簬鏇存崲闃熼暱鐢宠鐘舵??,teamId: " +teamId);
 				}
 				else if(!checkTeamNoSuccSwitchIn2min(team))
 				{
-					//队伍2分钟内成功更换过队长
+					//闃熶紞2鍒嗛挓鍐呮垚鍔熸洿鎹㈣繃闃熼暱
 					//psend(oldLeaderRoleId, new STeamError(TeamError.ChangeLeaderInCD));
 					fire.pb.talk.MessageMgr.psendMsgNotify(oldLeaderRoleId, 141209, null);
-					TeamManager.logger.debug("FAIL:队伍2分钟内成功更换过队长,teamId: " +teamId);
+					TeamManager.logger.debug("FAIL:闃熶紞2鍒嗛挓鍐呮垚鍔熸洿鎹㈣繃闃熼暱,teamId: " +teamId);
 				}
 				else if(!checkNewLeaderNormal(team, newLeaderRoleId))
 				{
-					//新队长不处于正常状�??(暂离、离线等状�??)（illgal�?
+					//鏂伴槦闀夸笉澶勪簬姝ｅ父鐘舵??(鏆傜銆佺绾跨瓑鐘舵??)锛坕llgal锛?
 					psend(newLeaderRoleId, new STeamError(TeamError.MembersNotNormal));
-					TeamManager.logger.debug("FAIL:新队长不处于正常状�??,newLeaderRoleId: " +newLeaderRoleId);
+					TeamManager.logger.debug("FAIL:鏂伴槦闀夸笉澶勪簬姝ｅ父鐘舵??,newLeaderRoleId: " +newLeaderRoleId);
 				}
-				else if(StateCommon.isTrusteeshipState(newLeaderRoleId)) //如果在新队长在托管状态中 by changhao
+				else if(StateCommon.isTrusteeshipState(newLeaderRoleId)) //濡傛灉鍦ㄦ柊闃熼暱鍦ㄦ墭绠＄姸鎬佷腑 by changhao
 				{
 					fire.pb.talk.MessageMgr.psendMsgNotify(oldLeaderRoleId, 160408, null);
 				}
@@ -109,17 +109,17 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 					BuffAgent buffagent = new BuffRoleImpl(newLeaderRoleId);
 					if (!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM_LEADER))
 					{
-						// 新队长处于不能当队长的状�?
-						TeamManager.logger.debug("FAIL:新队长处于不能当队长的状�?,newLeaderRoleId: " + newLeaderRoleId);
+						// 鏂伴槦闀垮浜庝笉鑳藉綋闃熼暱鐨勭姸鎬?
+						TeamManager.logger.debug("FAIL:鏂伴槦闀垮浜庝笉鑳藉綋闃熼暱鐨勭姸鎬?,newLeaderRoleId: " + newLeaderRoleId);
 					} else
 					{
-						TeamManager.logger.debug("SUCC:可以发出更换队长�?�?,teamId: " + teamId);
+						TeamManager.logger.debug("SUCC:鍙互鍙戝嚭鏇存崲闃熼暱閭?璇?,teamId: " + teamId);
 						team.getTeamInfo().setSwitchleaderid(newLeaderRoleId);
 						team.getTeamInfo().setSwitchleadertime(now);
 						SAskforSetLeader sAskforSetLeader = new SAskforSetLeader();
 						sAskforSetLeader.leaderid = oldLeaderRoleId;
 						
-						TeamManager.getInstance().delTeamMatch(oldLeaderRoleId); //交换队长离开匹配 by changhao
+						TeamManager.getInstance().delTeamMatch(oldLeaderRoleId); //浜ゆ崲闃熼暱绂诲紑鍖归厤 by changhao
 						
 						psendWhileCommit(oldLeaderRoleId, new SRequestSetLeaderSucc(newLeaderRoleId));
 						psendWhileCommit(newLeaderRoleId, sAskforSetLeader);
@@ -134,13 +134,13 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 		
 	}
 
-	// �?测PVP
+	// 妫?娴婸VP
 	private static int checkPvP(long oldLeaderRoleId, long newLeaderRoleId) {
-		// 重新设置队长
+		// 閲嶆柊璁剧疆闃熼暱
 		return fire.pb.battle.pvp.PvPTeamHandle.onSetTeamLeader(oldLeaderRoleId, newLeaderRoleId);
 	}
 
-//	// 申请者是�?个队伍的队长？只能在Procedure中被调用
+//	// 鐢宠鑰呮槸涓?涓槦浼嶇殑闃熼暱锛熷彧鑳藉湪Procedure涓璋冪敤
 //	private boolean checkOldLeaderInTeam(long leaderRoleId,Team team)
 //	{
 //		if(team.getTeamInfo().getTeamleaderid() == leaderRoleId)
@@ -149,7 +149,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 //			return false;
 //	}
 	
-	// 申请者在�??只能在Procedure中被调用
+	// 鐢宠鑰呭湪绾??鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -158,7 +158,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			return false;
 	}
 	
-	//队伍处于可以换队长的状�?�？（飞行，战斗中不能换队长，还有其他状态吗？）
+	//闃熶紞澶勪簬鍙互鎹㈤槦闀跨殑鐘舵?侊紵锛堥琛岋紝鎴樻枟涓笉鑳芥崲闃熼暱锛岃繕鏈夊叾浠栫姸鎬佸悧锛燂級
 	private boolean checkTeamStatusValid(Team team)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(team.getTeamLeaderId());
@@ -166,7 +166,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 		return conflictId == 0;
 	}
 	
-	//队伍不处于更换队长申请状态？
+	//闃熶紞涓嶅浜庢洿鎹㈤槦闀跨敵璇风姸鎬侊紵
 	private boolean checkTeamNotInSwitchStatus(Team team)
 	{
 		if(team.getTeamInfo().getSwitchleaderid() == -1)
@@ -180,7 +180,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			return false;
 	}
 	
-	//队伍2分钟内未更换过队长？
+	//闃熶紞2鍒嗛挓鍐呮湭鏇存崲杩囬槦闀匡紵
 	private boolean checkTeamNoSuccSwitchIn2min(Team team)
 	{
 		if((now - team.getTeamInfo().getSuccessswitchtime()) > TeamManager.MIN_SUCCESS_SWITCH_LEADER_PERIOD )
@@ -189,7 +189,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			return false;
 	}
 	
-	//新队长处于正常状态？只能在Procedure中被调用
+	//鏂伴槦闀垮浜庢甯哥姸鎬侊紵鍙兘鍦≒rocedure涓璋冪敤
 	private boolean checkNewLeaderNormal(Team team, long memberRoleId)
 	{
 		for(xbean.TeamMember member: team.getTeamInfo().getMembers())

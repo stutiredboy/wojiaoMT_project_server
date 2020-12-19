@@ -40,7 +40,7 @@ public class CBeginnerTipShowed extends __CBeginnerTipShowed__ {
 		return 786459;
 	}
 
-	public int tipid; // idΪBeginnerTipType
+	public int tipid; // id为BeginnerTipType
 
 	public CBeginnerTipShowed() {
 	}

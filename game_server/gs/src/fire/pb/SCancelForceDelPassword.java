@@ -25,7 +25,7 @@ public class SCancelForceDelPassword extends __SCancelForceDelPassword__ {
 		return 786575;
 	}
 
-	public byte status; // 1 ³É¹¦ 0Ê§°Ü
+	public byte status; // 1 æˆåŠŸ 0å¤±è´¥
 
 	public SCancelForceDelPassword() {
 	}

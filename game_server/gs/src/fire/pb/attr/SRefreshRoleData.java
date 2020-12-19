@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshRoleData__ extends mkio.Protocol { }
 
-/** Ë¢ĞÂÈËÎïÊôĞÔµÄÏûÏ¢
+/** åˆ·æ–°äººç‰©å±æ€§çš„æ¶ˆæ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SRefreshRoleData extends __SRefreshRoleData__ {
 		return 799432;
 	}
 
-	public java.util.HashMap<Integer,Float> datas; // ±äÁ¿ÖµID£¬±äÁ¿Öµ
+	public java.util.HashMap<Integer,Float> datas; // å˜é‡å€¼IDï¼Œå˜é‡å€¼
 
 	public SRefreshRoleData() {
 		datas = new java.util.HashMap<Integer,Float>();

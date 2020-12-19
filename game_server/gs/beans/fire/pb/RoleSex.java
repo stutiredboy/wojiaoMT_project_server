@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class RoleSex implements Marshal , Comparable<RoleSex>{
-	public final static int MALE = 1; // ÄÐ
-	public final static int FEMALE = 2; // Å®
+	public final static int MALE = 1; // ç”·
+	public final static int FEMALE = 2; // å¥³
 
 
 	public RoleSex() {

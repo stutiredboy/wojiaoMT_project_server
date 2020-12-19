@@ -25,7 +25,7 @@ public class SReqMissionCanAccept extends __SReqMissionCanAccept__ {
 		return 805457;
 	}
 
-	public java.util.LinkedList<Integer> missions; // 可接任务清单
+	public java.util.LinkedList<Integer> missions; // 鍙帴浠诲姟娓呭崟
 
 	public SReqMissionCanAccept() {
 		missions = new java.util.LinkedList<Integer>();

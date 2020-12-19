@@ -25,7 +25,7 @@ public class SChangeClanName extends __SChangeClanName__ {
 		return 808485;
 	}
 
-	public java.lang.String newname; // ¹«»áÃû×Ö
+	public java.lang.String newname; // å…¬ä¼šåå­—
 
 	public SChangeClanName() {
 		newname = "";

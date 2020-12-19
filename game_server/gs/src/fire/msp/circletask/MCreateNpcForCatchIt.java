@@ -27,15 +27,15 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 		new mkdb.Procedure() {
 
 			public boolean process() {
-				//在此处设置明雷�?�NPC的坐标位�?
+				//鍦ㄦ澶勮缃槑闆锋?狽PC鐨勫潗鏍囦綅缃?
 				if (teamnum > 0) {
-					//�?要组�?
+					//闇?瑕佺粍闃?
 					fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 					if (null == team || !team.isTeamLeader(roleid)) {
 						fire.pb.talk.MessageMgr.psendMsgNotifyWhileRollback(roleid, 140273, npcid, null);
 						return false;
 					}
-					// 全队正常状�?�成�? 加锁
+					// 鍏ㄩ槦姝ｅ父鐘舵?佹垚鍛? 鍔犻攣
 					final java.util.List<Long> members = team.getNormalMemberIds();
 					this.lock(xtable.Locks.ROLELOCK, members);
 
@@ -72,7 +72,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 						sqinfo.setDstnpckey(npckey);
 						sqinfo.setDstx(posx);
 						sqinfo.setDsty(posy);
-						sqinfo.setBigaward(posx1); //假坐�?
+						sqinfo.setBigaward(posx1); //鍋囧潗鏍?
 						sqinfo.setSmallaward(posy1);
 						sqinfo.setLastgiveuptime(0);
 						sqinfo.setQuestid(questid);
@@ -82,7 +82,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 						sqinfo.setQuestclass(CircTaskClass.CircTask_CatchIt);
 						
 						if (questtype == circTask.specialtask) {
-							//鬼王任务直接设置为最后一�?
+							//楝肩帇浠诲姟鐩存帴璁剧疆涓烘渶鍚庝竴杞?
 							sqinfo.setRound(circTask.getRing() + 1);
 						}
 						else {
@@ -100,11 +100,11 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 						else
 							CircleTaskManager.getInstance().refresh2role(sqinfo, rid, false);
 					}
-					// �?启定时器
+					// 寮?鍚畾鏃跺櫒
 					CatchItQuest.addCatchItQuestTimer(roleid, questid, questinfo.getId());
 				}
 				else {
-					//不需要组�?
+					//涓嶉渶瑕佺粍闃?
 					final long now = Calendar.getInstance().getTimeInMillis();
 					xbean.CircleTaskMap questMap = xtable.Rolecircletask.get(roleid);
 					if (null == questMap) {
@@ -123,7 +123,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 					sqinfo.setDstnpckey(npckey);
 					sqinfo.setDstx(posx);
 					sqinfo.setDsty(posy);
-					sqinfo.setBigaward(posx1); //假坐�?
+					sqinfo.setBigaward(posx1); //鍋囧潗鏍?
 					sqinfo.setSmallaward(posy1);
 					sqinfo.setLastgiveuptime(0);
 					sqinfo.setQuestid(questid);
@@ -141,7 +141,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 					}
 					else {
 						if (questtype == SpecialQuestType.CatchIt_Increase) {
-							//鬼王任务直接设置为最后一�?
+							//楝肩帇浠诲姟鐩存帴璁剧疆涓烘渶鍚庝竴杞?
 							sqinfo.setRound(circTask.getRing() + 1);
 						}
 						else {
@@ -155,7 +155,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 					
 					sqinfo.setTakequesttime(now);
 					sqinfo.setAcceptquesttime(now);
-					// �?启定时器
+					// 寮?鍚畾鏃跺櫒
 					CatchItQuest.addCatchItQuestTimer(roleid, questid, sqinfo.getId());
 					if (firsttime == 1)
 						CircleTaskManager.getInstance().refresh2role(sqinfo, roleid, true);
@@ -180,17 +180,17 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 	public long npckey;
 	public int npcid;
 	public int mapid;
-	public int battleid; // ս����Ϣ
+	public int battleid; // 战斗信息
 	public int posx;
 	public int posy;
 	public int posx1;
 	public int posy1;
 	public java.lang.String name;
-	public int givetasknpcid; // ���������npcid
-	public int questtype; // ����������
-	public int questid; // ������ID
-	public int teamnum; // ��������,0��ʾ����Ҫ���
-	public byte firsttime; // 1 ��ʾ��NPC����ȡ����, 0 ��ʾ�Զ���ȡ��
+	public int givetasknpcid; // 给予任务的npcid
+	public int questtype; // 子任务类型
+	public int questid; // 子任务ID
+	public int teamnum; // 队伍人数,0表示不需要组队
+	public byte firsttime; // 1 表示从NPC处接取任务, 0 表示自动接取的
 
 	public MCreateNpcForCatchIt() {
 		name = "";

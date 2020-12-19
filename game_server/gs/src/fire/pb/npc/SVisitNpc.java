@@ -25,9 +25,9 @@ public class SVisitNpc extends __SVisitNpc__ {
 		return 795434;
 	}
 
-	public long npckey; // npckeyÎªnpcµÄÎ¨Ò»ID
-	public java.util.ArrayList<Integer> services; // services ÎªnpcËùÌá¹©µÄ·şÎñ IDs.
-	public java.util.ArrayList<Integer> scenarioquests; // ¾çÇéÈÎÎñ
+	public long npckey; // npckeyä¸ºnpcçš„å”¯ä¸€ID
+	public java.util.ArrayList<Integer> services; // services ä¸ºnpcæ‰€æä¾›çš„æœåŠ¡ IDs.
+	public java.util.ArrayList<Integer> scenarioquests; // å‰§æƒ…ä»»åŠ¡
 
 	public SVisitNpc() {
 		services = new java.util.ArrayList<Integer>();

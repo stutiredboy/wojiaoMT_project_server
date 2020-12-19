@@ -23,7 +23,7 @@ public class SCanEnterBingFeng extends __SCanEnterBingFeng__ {
 		return 804562;
 	}
 
-	public int finish; // 是否已经完成
+	public int finish; // 鏄惁宸茬粡瀹屾垚
 
 	public SCanEnterBingFeng() {
 	}

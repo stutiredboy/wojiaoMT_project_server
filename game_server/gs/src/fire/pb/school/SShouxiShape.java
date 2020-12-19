@@ -25,11 +25,11 @@ public class SShouxiShape extends __SShouxiShape__ {
 		return 810438;
 	}
 
-	public long shouxikey; // Ê×Ï¯-µÜ×ÓµÄbaseid
-	public java.lang.String name; // Ê×Ï¯Ãû×Ö
-	public int shape; // ÍâĞÎ,Èç¹ûÎª0µÄ»°±íÊ¾ÓÃnpcÄ¬ÈÏµÄÔìĞÍ¾Í¿ÉÒÔÁË
-	public java.util.HashMap<Byte,Integer> components; // ½ÇÉ«»»×°ĞÅÏ¢keyÖµ²Î¿¼SpriteComponentsµÄÃ¶¾Ù£¬valueÎª0´ú±íÍÑÏÂÄ³¼ş»»×°
-	public int titleid; // ³ÆºÅid
+	public long shouxikey; // é¦–å¸­-å¼Ÿå­çš„baseid
+	public java.lang.String name; // é¦–å¸­åå­—
+	public int shape; // å¤–å½¢,å¦‚æœä¸º0çš„è¯è¡¨ç¤ºç”¨npcé»˜è®¤çš„é€ å‹å°±å¯ä»¥äº†
+	public java.util.HashMap<Byte,Integer> components; // è§’è‰²æ¢è£…ä¿¡æ¯keyå€¼å‚è€ƒSpriteComponentsçš„æšä¸¾ï¼Œvalueä¸º0ä»£è¡¨è„±ä¸‹æŸä»¶æ¢è£…
+	public int titleid; // ç§°å·id
 
 	public SShouxiShape() {
 		name = "";

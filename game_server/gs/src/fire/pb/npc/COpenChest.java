@@ -82,7 +82,7 @@ public class COpenChest extends __COpenChest__ {
 					return false;
 				
 //////////////////////////////////////////////
-				//胜利者才能拿奖励 by changhao
+				//鑳滃埄鑰呮墠鑳芥嬁濂栧姳 by changhao
 				Long clanfightid = xtable.Roleid2clanfightid.select(roleId);
 				if (clanfightid != null && npc.getNpcID() == ActivityClanFightManager.VICTORY_BOX)
 				{
@@ -112,7 +112,7 @@ public class COpenChest extends __COpenChest__ {
 				}
 				
 				int mapid = role.getMapId();
-				if (mapid == ClanUtils.MAPID && npc.getNpcID() == ActivityClanFightManager.CELEBRATE_BOX) //如果玩家在公会领�? by changhao
+				if (mapid == ClanUtils.MAPID && npc.getNpcID() == ActivityClanFightManager.CELEBRATE_BOX) //濡傛灉鐜╁鍦ㄥ叕浼氶鍦? by changhao
 				{
 					xbean.ClanInfo clanInfo = ClanUtils.getClanInfoById(roleId, true);
 					if (clanInfo == null)
@@ -135,7 +135,7 @@ public class COpenChest extends __COpenChest__ {
 							{
 								if (!bf.getClanfightBean().getEnterroleids().containsKey(roleId))
 								{
-									MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾�? by changhao	
+									MessageMgr.sendMsgNotify(roleId, 410050, null); //浣犳病鏈夎祫鏍兼嬀鍙? by changhao	
 									return false;
 								}
 								
@@ -146,13 +146,13 @@ public class COpenChest extends __COpenChest__ {
 									return true;
 								}
 								
-								MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾�? by changhao	
+								MessageMgr.sendMsgNotify(roleId, 410050, null); //浣犳病鏈夎祫鏍兼嬀鍙? by changhao	
 								return false;
 							}
 						}
 					}
 					
-					MessageMgr.sendMsgNotify(roleId, 410050, null); //你没有资格拾�? by changhao	
+					MessageMgr.sendMsgNotify(roleId, 410050, null); //浣犳病鏈夎祫鏍兼嬀鍙? by changhao	
 					return false;
 				}					
 /////////////////////////////////////////////
@@ -165,7 +165,7 @@ public class COpenChest extends __COpenChest__ {
 				
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleId);
 				if (null != team && team.isTeamLeader(roleId) && chestcfg.getOpenteam() == 1) {
-					// 全队正常状�?�成�? 加锁
+					// 鍏ㄩ槦姝ｅ父鐘舵?佹垚鍛? 鍔犻攣
 					final java.util.List<Long> members = team.getNormalMemberIds();
 					this.lock(xtable.Locks.ROLELOCK, members);
 					
@@ -181,7 +181,7 @@ public class COpenChest extends __COpenChest__ {
 						}
 						int rolelevel = xtable.Properties.selectLevel(roleId);
 						if (chestcfg.openlevel > rolelevel) {
-							//等级不足的提�?
+							//绛夌骇涓嶈冻鐨勬彁绀?
 							MessageMgr.sendMsgNotify(roleId, 166139, null);
 							return false;
 						}
@@ -202,11 +202,11 @@ public class COpenChest extends __COpenChest__ {
 							continue;
 						}
 						
-						// 给予奖励
+						// 缁欎簣濂栧姳
 						RewardMgr.getInstance().distributeAllAward(rid,
 								chestcfg.rewardid, null,
 								fire.log.enums.YYLoggerTuJingEnum.tujing_Value_baoxiang, 0,
-								PAddExpProc.OTHER_QUEST, "世界宝箱");
+								PAddExpProc.OTHER_QUEST, "涓栫晫瀹濈");
 						
 						baoxiangInfo.setOpentimes(baoxiangInfo.getOpentimes() + 1);
 						baoxiangInfo.setLastopentime(currentTime);
@@ -215,7 +215,7 @@ public class COpenChest extends __COpenChest__ {
 				else {
 					int rolelevel = xtable.Properties.selectLevel(roleId);
 					if (chestcfg.openlevel > rolelevel) {
-						//等级不足的提�?
+						//绛夌骇涓嶈冻鐨勬彁绀?
 						MessageMgr.sendMsgNotify(roleId, 166139, null);
 						return false;
 					}
@@ -242,11 +242,11 @@ public class COpenChest extends __COpenChest__ {
 							return false;
 						}
 						
-						// 给予奖励
+						// 缁欎簣濂栧姳
 						RewardMgr.getInstance().distributeAllAward(roleId,
 								chestcfg.rewardid, null,
 								fire.log.enums.YYLoggerTuJingEnum.tujing_Value_baoxiang, 0,
-								PAddExpProc.OTHER_QUEST, "世界宝箱");
+								PAddExpProc.OTHER_QUEST, "涓栫晫瀹濈");
 						
 						bestowCount.setOpentimes(bestowCount.getOpentimes() + 1);
 					
@@ -267,11 +267,11 @@ public class COpenChest extends __COpenChest__ {
 							return false;
 						}
 						
-						// 给予奖励
+						// 缁欎簣濂栧姳
 						RewardMgr.getInstance().distributeAllAward(roleId,
 								chestcfg.rewardid, null,
 								fire.log.enums.YYLoggerTuJingEnum.tujing_Value_baoxiang, 0,
-								PAddExpProc.OTHER_QUEST, "世界宝箱");
+								PAddExpProc.OTHER_QUEST, "涓栫晫瀹濈");
 						
 						baoxiangInfo.setOpentimes(baoxiangInfo.getOpentimes() + 1);
 						baoxiangInfo.setLastopentime(currentTime);
@@ -294,7 +294,7 @@ public class COpenChest extends __COpenChest__ {
 		return 795522;
 	}
 
-	public long chestnpckey; // �����npckey
+	public long chestnpckey; // 宝箱的npckey
 
 	public COpenChest() {
 	}

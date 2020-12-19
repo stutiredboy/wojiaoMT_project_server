@@ -29,7 +29,7 @@ public class CReqLineTask extends __CReqLineTask__ {
 		return 805476;
 	}
 
-	public int taskid; // ¸±±¾Id
+	public int taskid; // å‰¯æœ¬Id
 
 	public CReqLineTask() {
 	}

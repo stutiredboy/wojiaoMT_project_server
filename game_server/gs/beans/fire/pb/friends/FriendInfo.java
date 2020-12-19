@@ -7,7 +7,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 public class FriendInfo implements Marshal {
 	public fire.pb.friends.InfoBean friendinfobean;
-	public int friendlevel; // ∫√”—∂»
+	public int friendlevel; // Â•ΩÂèãÂ∫¶
 
 	public FriendInfo() {
 		friendinfobean = new fire.pb.friends.InfoBean();

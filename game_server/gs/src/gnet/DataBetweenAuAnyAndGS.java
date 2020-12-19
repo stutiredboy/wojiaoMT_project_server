@@ -9,9 +9,9 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __DataBetweenAuAnyAndGS__ extends mkio.Protocol { }
 
-/** qtype:	(8001)GS_TO_AuAny������ҵķ�������ɫ��Ϣ,��ʱinfo����ҽ�ɫ��Ϣ
-				(10001)GS_TO_AuAny����http����,��ʱinfo��http�����ַ������
-				(10002)AuAny_TO_GS����http����ķ��ؽ��
+/** qtype:	(8001)GS_TO_AuAny更新玩家的服务器角色信息,此时info是玩家角色信息
+				(10001)GS_TO_AuAny代理http请求,此时info是http请求地址及参数
+				(10002)AuAny_TO_GS代理http请求的返回结果
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -26,10 +26,10 @@ public class DataBetweenAuAnyAndGS extends __DataBetweenAuAnyAndGS__ {
 		}
 		if(qtype==10002) {
 			try {
-				String infos = new String(info.getBytes(), "ISO-8859-1");//编码不要动，要改动务必�?�知au相关负责�?
+				String infos = new String(info.getBytes(), "ISO-8859-1");//缂栫爜涓嶈鍔紝瑕佹敼鍔ㄥ姟蹇呴?氱煡au鐩稿叧璐熻矗浜?
 				logger.debug("DataBetweenAuAnyAndGS.user:" + userid + ",info:" + infos);
 				//TODO:
-				// 事物中如下获得角�?,然后进行相关逻辑处理
+				// 浜嬬墿涓涓嬭幏寰楄鑹?,鐒跺悗杩涜鐩稿叧閫昏緫澶勭悊
 			  	xbean.User xuser = xtable.User.select(userid);
 				if(xuser == null || xuser.getIdlist().isEmpty())
 					return;

@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ArchiveInfo implements Marshal , Comparable<ArchiveInfo>{
-	public int archiveid; // Àú³Ìid
-	public int state; // ×´Ì¬ 0 Î´Íê³É, 1 ÒÑ¾­Íê³É, 2 ÒÑ¾­Áì½±
+	public int archiveid; // å†ç¨‹id
+	public int state; // çŠ¶æ€ 0 æœªå®Œæˆ, 1 å·²ç»å®Œæˆ, 2 å·²ç»é¢†å¥–
 
 	public ArchiveInfo() {
 	}

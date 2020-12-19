@@ -25,7 +25,7 @@ public class SPvP5BattleInfo extends __SPvP5BattleInfo__ {
 		return 793670;
 	}
 
-	public byte ismine; // 1:ÊôÓÚÎÒµÄÕ½¿ö£¬0£º±ğÈËµÄÕ½¿ö
+	public byte ismine; // 1:å±äºæˆ‘çš„æˆ˜å†µï¼Œ0ï¼šåˆ«äººçš„æˆ˜å†µ
 	public int msgid;
 	public java.util.LinkedList<com.locojoy.base.Octets> parameters;
 

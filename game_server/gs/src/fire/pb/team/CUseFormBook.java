@@ -12,7 +12,7 @@ abstract class __CUseFormBook__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐢ㄥ厜鐜功
+ * 閻€劌鍘滈悳顖欏姛
  * @author changhao
  *
  */
@@ -38,8 +38,8 @@ public class CUseFormBook extends __CUseFormBook__ {
 		return 794553;
 	}
 
-	public int formationid; // 光环ID by changhao
-	public java.util.LinkedList<fire.pb.team.UseFormBook> listbook; // 使用的光环书 by changhao
+	public int formationid; // 鍏夌幆ID by changhao
+	public java.util.LinkedList<fire.pb.team.UseFormBook> listbook; // 浣跨敤鐨勫厜鐜功 by changhao
 
 	public CUseFormBook() {
 		listbook = new java.util.LinkedList<fire.pb.team.UseFormBook>();

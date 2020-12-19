@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshMissionState__ extends mkio.Protocol { }
 
-/** Ë¢ĞÂ¾çÇéÈÎÎñ×´Ì¬
+/** åˆ·æ–°å‰§æƒ…ä»»åŠ¡çŠ¶æ€
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,8 +27,8 @@ public class SRefreshMissionState extends __SRefreshMissionState__ {
 		return 805447;
 	}
 
-	public int missionid; // ÈÎÎñid
-	public int missionstatus; // ÈÎÎñ×´Ì¬
+	public int missionid; // ä»»åŠ¡id
+	public int missionstatus; // ä»»åŠ¡çŠ¶æ€
 
 	public SRefreshMissionState() {
 	}

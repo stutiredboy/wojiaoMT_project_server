@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRetRoleProp__ extends mkio.Protocol { }
 
-/** ·µ»ØÍæ¼ÒÇëÇóµÄÊôĞÔ¶ÔÓ¦µÄÊôĞÔÖµ
+/** è¿”å›ç©å®¶è¯·æ±‚çš„å±æ€§å¯¹åº”çš„å±æ€§å€¼
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,7 +28,7 @@ public class SRetRoleProp extends __SRetRoleProp__ {
 	}
 
 	public long roleid;
-	public java.util.HashMap<Integer,Float> datas; // ÊôĞÔÖµ¶Ô
+	public java.util.HashMap<Integer,Float> datas; // å±æ€§å€¼å¯¹
 
 	public SRetRoleProp() {
 		datas = new java.util.HashMap<Integer,Float>();

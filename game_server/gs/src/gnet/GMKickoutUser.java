@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GMKickoutUser__ extends mkio.Protocol { }
 
-/** GMÏà¹Ø: ·â½û£¬½â·â£¬½ûÑÔ£¬Ö»ÓĞÕë¶ÔÒ»¿î»òËùÓĞÓÎÏ·µÄÕËºÅ²Ù×÷²ÅĞèÒª·¢¸øgdeliver×ª·¢¸øAU´æ´¢
+/** GMç›¸å…³: å°ç¦ï¼Œè§£å°ï¼Œç¦è¨€ï¼Œåªæœ‰é’ˆå¯¹ä¸€æ¬¾æˆ–æ‰€æœ‰æ¸¸æˆçš„è´¦å·æ“ä½œæ‰éœ€è¦å‘ç»™gdeliverè½¬å‘ç»™AUå­˜å‚¨
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -28,9 +28,9 @@ public class GMKickoutUser extends __GMKickoutUser__ {
 	}
 
 	public int gmuserid;
-	public int localsid; // clientÔÚlinkµÄsession id
+	public int localsid; // clientåœ¨linkçš„session id
 	public int kickuserid;
-	public int forbid_time; // time=1»ò2±íÊ¾½â·â
+	public int forbid_time; // time=1æˆ–2è¡¨ç¤ºè§£å°
 	public com.locojoy.base.Octets reason;
 
 	public GMKickoutUser() {

@@ -5,12 +5,12 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ¸¨Öú¼¼ÄÜ
+/** è¾…åŠ©æŠ€èƒ½
 */
 public class AssistSkill implements Marshal , Comparable<AssistSkill>{
-	public int id; // ¸¨Öú¼¼ÄÜID
-	public int level; // ¼¶±ğ
-	public int exp; // ÊìÁ·¶È
+	public int id; // è¾…åŠ©æŠ€èƒ½ID
+	public int level; // çº§åˆ«
+	public int exp; // ç†Ÿç»ƒåº¦
 
 	public AssistSkill() {
 	}

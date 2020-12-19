@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRefreshPetData__ extends mkio.Protocol { }
 
-/** Ë¢ĞÂ³èÎïÊôĞÔµÄÏûÏ¢
+/** åˆ·æ–°å® ç‰©å±æ€§çš„æ¶ˆæ¯
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,9 +27,9 @@ public class SRefreshPetData extends __SRefreshPetData__ {
 		return 799433;
 	}
 
-	public int columnid; // ³èÎïÀ¸ID£¬¾ßÌå¶¨Òå²Î¼û protocol/pet.xmlÖĞµÄPetColumnTypes
-	public int petkey; // ³èÎïµÄÎ¨Ò»key
-	public java.util.HashMap<Integer,Float> datas; // ±äÁ¿ÖµID£¬±äÁ¿Öµ
+	public int columnid; // å® ç‰©æ IDï¼Œå…·ä½“å®šä¹‰å‚è§ protocol/pet.xmlä¸­çš„PetColumnTypes
+	public int petkey; // å® ç‰©çš„å”¯ä¸€key
+	public java.util.HashMap<Integer,Float> datas; // å˜é‡å€¼IDï¼Œå˜é‡å€¼
 
 	public SRefreshPetData() {
 		datas = new java.util.HashMap<Integer,Float>();

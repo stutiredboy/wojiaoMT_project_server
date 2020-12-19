@@ -6,8 +6,8 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class HookFreeDpointResEnum implements Marshal , Comparable<HookFreeDpointResEnum>{
-	public final static int FREEDPOINTSUCC = 0; // 领取成功
-	public final static int FREEDPOINTFAIL = 1; // 领取失败
+	public final static int FREEDPOINTSUCC = 0; // 棰嗗彇鎴愬姛
+	public final static int FREEDPOINTFAIL = 1; // 棰嗗彇澶辫触
 
 
 	public HookFreeDpointResEnum() {

@@ -6,25 +6,25 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class ClanMember implements Marshal {
-	public long roleid; // ½ÇÉ«id
-	public int shapeid; // Í·Ïñid
-	public java.lang.String rolename; // ³ÉÔ±Ãû×Ö
-	public short rolelevel; // ½ÇÉ«µÈ¼¶
-	public int rolecontribution; // ¹«»á¹±Ï×¶È
-	public int weekcontribution; // ±¾ÖÜ¹«»á¹±Ï×¶È
-	public int historycontribution; // ÀúÊ·¹«»á¹±Ï×¶È
-	public int rolefreezedcontribution; // ¶³½áµÄ¹«»á¹±Ï×¶È
-	public int preweekcontribution; // ÉÏÖÜ¹«»á¹±Ï×¶È
-	public int lastonlinetime; // Îª0±íÊ¾ÔÚÏß£¬·ñÔò±íÊ¾ÉÏ´ÎÀëÏßÊ±¼ä,µ¥Î»ºÁÃë
+	public long roleid; // è§’è‰²id
+	public int shapeid; // å¤´åƒid
+	public java.lang.String rolename; // æˆå‘˜åå­—
+	public short rolelevel; // è§’è‰²ç­‰çº§
+	public int rolecontribution; // å…¬ä¼šè´¡çŒ®åº¦
+	public int weekcontribution; // æœ¬å‘¨å…¬ä¼šè´¡çŒ®åº¦
+	public int historycontribution; // å†å²å…¬ä¼šè´¡çŒ®åº¦
+	public int rolefreezedcontribution; // å†»ç»“çš„å…¬ä¼šè´¡çŒ®åº¦
+	public int preweekcontribution; // ä¸Šå‘¨å…¬ä¼šè´¡çŒ®åº¦
+	public int lastonlinetime; // ä¸º0è¡¨ç¤ºåœ¨çº¿ï¼Œå¦åˆ™è¡¨ç¤ºä¸Šæ¬¡ç¦»çº¿æ—¶é—´,å•ä½æ¯«ç§’
 	public byte position;
-	public byte school; // Ö°Òµ(Ö°Òµ)
-	public int jointime; // ¼ÓÈë¹«»áÊ±¼ä
-	public short weekaid; // ±¾ÖÜÔ®Öú
-	public int historyaid; // ÀúÊ·Ô®Öú
-	public byte isbannedtalk; // ÊÇ·ñ½ûÑÔ  0 Î´½ûÑÔ£¬ 1½ûÑÔ
-	public int fightvalue; // ×ÛºÏÕ½Á¦
-	public short claninstnum; // ²Î¼Ó¹«»á¸±±¾´ÎÊı
-	public short clanfightnum; // ²Î¼Ó¹«»áÕ½´ÎÊı
+	public byte school; // èŒä¸š(èŒä¸š)
+	public int jointime; // åŠ å…¥å…¬ä¼šæ—¶é—´
+	public short weekaid; // æœ¬å‘¨æ´åŠ©
+	public int historyaid; // å†å²æ´åŠ©
+	public byte isbannedtalk; // æ˜¯å¦ç¦è¨€  0 æœªç¦è¨€ï¼Œ 1ç¦è¨€
+	public int fightvalue; // ç»¼åˆæˆ˜åŠ›
+	public short claninstnum; // å‚åŠ å…¬ä¼šå‰¯æœ¬æ¬¡æ•°
+	public short clanfightnum; // å‚åŠ å…¬ä¼šæˆ˜æ¬¡æ•°
 
 	public ClanMember() {
 		rolename = "";

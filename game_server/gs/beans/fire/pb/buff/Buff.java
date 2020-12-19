@@ -6,9 +6,9 @@ import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
 public class Buff implements Marshal {
-	public long time; // Ê£ÓàµÄÊ±¼ä
-	public int count; // Ê£ÓàµÄ»ØºÏÊı/´ÎÊı
-	public java.util.LinkedList<com.locojoy.base.Octets> tipargs; // ÏÔÊ¾Buff TipµÄ²ÎÊı
+	public long time; // å‰©ä½™çš„æ—¶é—´
+	public int count; // å‰©ä½™çš„å›åˆæ•°/æ¬¡æ•°
+	public java.util.LinkedList<com.locojoy.base.Octets> tipargs; // æ˜¾ç¤ºBuff Tipçš„å‚æ•°
 
 	public Buff() {
 		tipargs = new java.util.LinkedList<com.locojoy.base.Octets>();

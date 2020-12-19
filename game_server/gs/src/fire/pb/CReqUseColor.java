@@ -33,7 +33,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//使用染色功能
+		//浣跨敤鏌撹壊鍔熻兘
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
@@ -47,60 +47,60 @@ public class CReqUseColor extends __CReqUseColor__ {
 				}
 				Map<Integer, SRoleRColorConfig> sRoleRColorConfig = ConfigManager.getInstance().getConf(SRoleRColorConfig.class);
 				if(sRoleRColorConfig==null){
-					logger.info("角色id "+roleid+"染色"+"\t数据错误");
+					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鏁版嵁閿欒");
 					return false;
 				}
 				if(rolecolorinfo.colorpos1==0&&rolecolorinfo.colorpos2==0){
-					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无�?染色");
+					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t褰撳墠鏌撹壊鏂规鐩稿悓锛屾棤闇?鏌撹壊");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
 				if(rolecolorinfo.colorpos1<0||rolecolorinfo.colorpos2<0){
-					logger.info("角色id "+roleid+"染色"+"\t数据错误");
+					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鏁版嵁閿欒");
 					return false;
 				}
 				
-				//判断是否和身上的染色方案相同
+				//鍒ゆ柇鏄惁鍜岃韩涓婄殑鏌撹壊鏂规鐩稿悓
 				int curpos1=prop.getRolecolor1();
 				int curpos2=prop.getRolecolor2();
 				if(rolecolorinfo.colorpos1==curpos1&&rolecolorinfo.colorpos2==curpos2){
-					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无�?染色");
+					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t褰撳墠鏌撹壊鏂规鐩稿悓锛屾棤闇?鏌撹壊");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
 				SRoleRColorConfig sRoleRColorConfig1=null;
 				SRoleRColorConfig sRoleRColorConfig2=null;
 				if(rolecolorinfo.colorpos1!=0&&rolecolorinfo.colorpos1!=curpos1){
-					//判断部位的方案是否存�?
+					//鍒ゆ柇閮ㄤ綅鐨勬柟妗堟槸鍚﹀瓨鍦?
 					sRoleRColorConfig1=sRoleRColorConfig.get(rolecolorinfo.colorpos1);
-					//判断是否是部�?1
+					//鍒ゆ柇鏄惁鏄儴浣?1
 					if(sRoleRColorConfig1.getRolepos()!=1){
-						logger.info("角色id "+roleid+"染色"+"\t客户端发送数据错�?");
+						logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t瀹㈡埛绔彂閫佹暟鎹敊璇?");
 						return false;
 					}
 				}
 				if(rolecolorinfo.colorpos2!=0&&rolecolorinfo.colorpos2!=curpos2){
-					//判断部位的方案是否存�?
+					//鍒ゆ柇閮ㄤ綅鐨勬柟妗堟槸鍚﹀瓨鍦?
 					sRoleRColorConfig2=sRoleRColorConfig.get(rolecolorinfo.colorpos2);
-					//判断是否是部�?2
+					//鍒ゆ柇鏄惁鏄儴浣?2
 					if(sRoleRColorConfig2.getRolepos()!=2){
-						logger.info("角色id "+roleid+"染色"+"\t客户端发送数据错�?");
+						logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t瀹㈡埛绔彂閫佹暟鎹敊璇?");
 						return false;
 					}
 				}
-				//如果染色部位1�?2都为空，无需染色
+				//濡傛灉鏌撹壊閮ㄤ綅1鍜?2閮戒负绌猴紝鏃犻渶鏌撹壊
 				if(sRoleRColorConfig1==null&&sRoleRColorConfig2==null){
-					logger.info("角色id "+roleid+"染色"+"\t当前染色方案相同，无�?染色");
+					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t褰撳墠鏌撹壊鏂规鐩稿悓锛屾棤闇?鏌撹壊");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
-				//计算并扣除消�?
-				double delpre=1;//染色衣柜折损系数
-				boolean ischange1=rolecolorinfo.colorpos1!=curpos1;//是否改变
-				boolean ischange2=rolecolorinfo.colorpos2!=curpos2;//是否改变
+				//璁＄畻骞舵墸闄ゆ秷鑰?
+				double delpre=1;//鏌撹壊琛ｆ煖鎶樻崯绯绘暟
+				boolean ischange1=rolecolorinfo.colorpos1!=curpos1;//鏄惁鏀瑰彉
+				boolean ischange2=rolecolorinfo.colorpos2!=curpos2;//鏄惁鏀瑰彉
 				
 				
-				//判断当前是否在衣橱中存在这个染色方案，存在染色方案需要打�?
+				//鍒ゆ柇褰撳墠鏄惁鍦ㄨ。姗变腑瀛樺湪杩欎釜鏌撹壊鏂规锛屽瓨鍦ㄦ煋鑹叉柟妗堥渶瑕佹墦鎶?
 				boolean havetype=false;
 				for(xbean.RoleColorType type:prop.getColorroomlist()){
 					if(type!=null&&type.getColorpos1()==rolecolorinfo.colorpos1&&type.getColorpos2()==rolecolorinfo.colorpos2){
@@ -108,7 +108,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 						break;
 					}
 				}
-				//计算消�??
+				//璁＄畻娑堣??
 				if(havetype){
 					Map<Integer, SCommon> commonMap = ConfigManager.getInstance().getConf(SCommon.class);
 					if(commonMap!=null){
@@ -118,16 +118,16 @@ public class CReqUseColor extends __CReqUseColor__ {
 						}
 					}
 				}
-				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//捐赠的人背包容器
+				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//鎹愯禒鐨勪汉鑳屽寘瀹瑰櫒
 				if(bagContainer==null){
-					logger.info("角色id "+roleid+"染色"+"\t背包错误");
+					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鑳屽寘閿欒");
 					return false;
 				}
 				
 				HashMap<Integer, Integer> costitems=new HashMap<Integer, Integer>();
-				//判断道具是否足够
-				dealCostItemNum(roleid,delpre,sRoleRColorConfig1,ischange1,costitems);//道具1
-				dealCostItemNum(roleid,delpre,sRoleRColorConfig2,ischange2,costitems);//道具2
+				//鍒ゆ柇閬撳叿鏄惁瓒冲
+				dealCostItemNum(roleid,delpre,sRoleRColorConfig1,ischange1,costitems);//閬撳叿1
+				dealCostItemNum(roleid,delpre,sRoleRColorConfig2,ischange2,costitems);//閬撳叿2
 				String loginfo="";
 				for (Entry<Integer, Integer> entry : costitems.entrySet()) {
 					if(entry.getKey()>0&&entry.getValue()>0){
@@ -136,23 +136,23 @@ public class CReqUseColor extends __CReqUseColor__ {
 							fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 150058, null);
 							return false;
 						}
-						//扣除道具
-						int delnum=bagContainer.removeItemById(entry.getKey(), entry.getValue(), fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, entry.getKey(), "角色染色");
+						//鎵ｉ櫎閬撳叿
+						int delnum=bagContainer.removeItemById(entry.getKey(), entry.getValue(), fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, entry.getKey(), "瑙掕壊鏌撹壊");
 						if(delnum!=entry.getValue()){
 							return false;
 						}
-						loginfo="角色id "+roleid+"染色"+"\t扣除道具，物品id"+entry.getKey()+"数量"+entry.getValue();
+						loginfo="瑙掕壊id "+roleid+"鏌撹壊"+"\t鎵ｉ櫎閬撳叿锛岀墿鍝乮d"+entry.getKey()+"鏁伴噺"+entry.getValue();
 					}
 				}
 				
 				logger.info(loginfo);
 				
-				//设置染色信息
+				//璁剧疆鏌撹壊淇℃伅
 				prop.setRolecolor1(rolecolorinfo.colorpos1);
 				prop.setRolecolor2(rolecolorinfo.colorpos2);
 				
-				//通知场景中的其他人，当前人物外形变化
-				//注意这里和客户端校对的时候需要RoleBasicOctets在这里面添加字段，是在E:\MT-G\server\server\protocols\move.xml这个协议里，现在先不�?
+				//閫氱煡鍦烘櫙涓殑鍏朵粬浜猴紝褰撳墠浜虹墿澶栧舰鍙樺寲
+				//娉ㄦ剰杩欓噷鍜屽鎴风鏍″鐨勬椂鍊欓渶瑕丷oleBasicOctets鍦ㄨ繖閲岄潰娣诲姞瀛楁锛屾槸鍦‥:\MT-G\server\server\protocols\move.xml杩欎釜鍗忚閲岋紝鐜板湪鍏堜笉鍔?
 //				Role addRole = RoleManager.getInstance().getRoleByID(roleid);
 //				SAddUserScreen sadduser = new SAddUserScreen();
 //				sadduser.rolelist.add(addRole.getRoleBasic());
@@ -172,21 +172,21 @@ public class CReqUseColor extends __CReqUseColor__ {
 //				gnet.link.Onlines.getInstance().send(roleid, sReqUseColor);
 				Procedure.psendWhileCommit(roleid, sReqUseColor);
 				fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160432, null);
-				//保存到衣橱返回衣橱信�?
+				//淇濆瓨鍒拌。姗辫繑鍥炶。姗变俊鎭?
 				saveColor(roleid,prop);
 				
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 				if (team != null){
 					team.updateTeamMemberBasic2Others(roleid);
 				}
-				logger.info("角色id "+roleid+"染色成功，当前染色方�?"+prop.getRolecolor1()+" "+prop.getRolecolor2());
+				logger.info("瑙掕壊id "+roleid+"鏌撹壊鎴愬姛锛屽綋鍓嶆煋鑹叉柟妗?"+prop.getRolecolor1()+" "+prop.getRolecolor2());
 				return true;
 			}
 		}.submit();
 	}
 	
 	/**
-	 * 保存染色方案
+	 * 淇濆瓨鏌撹壊鏂规
 	 * @param roleid
 	 * @param prop
 	 */
@@ -224,7 +224,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 	
 	
 	/**
-	 * 计算�?要的道具数量
+	 * 璁＄畻闇?瑕佺殑閬撳叿鏁伴噺
 	 * @param roleid
 	 * @param delpre
 	 * @param sRoleRColorConfig1
@@ -256,7 +256,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 		return 786538;
 	}
 
-	public fire.pb.RoleColorType rolecolorinfo; // Ⱦɫ��Ϣ
+	public fire.pb.RoleColorType rolecolorinfo; // 染色信息
 
 	public CReqUseColor() {
 		rolecolorinfo = new fire.pb.RoleColorType();

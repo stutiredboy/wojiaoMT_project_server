@@ -32,13 +32,13 @@ abstract class __CRequestLearnLiveSkill__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 请求学习生活�?�?
+ * 璇锋眰瀛︿範鐢熸椿鎶?鑳?
  * @author changhao
  *
  */
 public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 	@Override
-	/* 加锁顺序 roleid by changhao*/
+	/* 鍔犻攣椤哄簭 roleid by changhao*/
 	protected void process() {
 		// protocol handlen 
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
@@ -68,14 +68,14 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 				
 				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(id);
 				
-				int requireLevel = 1; //�?要学习到的等�? by changhao
+				int requireLevel = 1; //闇?瑕佸涔犲埌鐨勭瓑绾? by changhao
 				
 				if (liveskill != null)
 				{
 					requireLevel = liveskill.getLevel() + 1;
 				}
 				
-				if (requireLevel > config.skillLevelMax) //是否已经达到�?大等�? by changhao
+				if (requireLevel > config.skillLevelMax) //鏄惁宸茬粡杈惧埌鏈?澶х瓑绾? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.SkillMaxLimit));
 					return false;						
@@ -96,20 +96,20 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 				if (config.studyLevelRule > 0)
 				{
 					int needLevelLimit = cost.needLevelList.get(config.studyLevelRule - 1);
-					if (roleidlevel < needLevelLimit) //等级不够 by changhao
+					if (roleidlevel < needLevelLimit) //绛夌骇涓嶅 by changhao
 					{
 						psend(roleid, new SSkillError(SkillConstant.SkillError.MoneyNotEnough));
 						return false;						
 					}					
 				}
 				
-				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //是否�?要公�? by changhao
+				if (config.needGuild == 1 && roleproperty.getClankey() <= 0) //鏄惁闇?瑕佸叕浼? by changhao
 				{
 					MessageMgr.psendMsgNotify(roleid, 150027, null);
 					return false;	
 				}
 				
-				//�?测学习消�? by changhao
+				//妫?娴嬪涔犳秷鑰? by changhao
 				
 				if (config.studyCostRule > 0)
 				{
@@ -124,7 +124,7 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 						return false;					
 					}
 					
-					//扣钱 by changhao
+					//鎵ｉ挶 by changhao
 					if(bag.subMoney(-silverCost, LiveSkillManager.LiveSkill, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuilianjin, 0) != -silverCost)
 					{
 						psend(roleid, new SSkillError(SkillConstant.SkillError.MoneyNotEnough));
@@ -132,14 +132,14 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 					}
 				}
 				
-				//�?要的帮贡 by changhao
+				//闇?瑕佺殑甯础 by changhao
 				if (config.studyCostRule > 0)
 				{
 					int needfactioncontr = cost.guildContributeCostList.get(config.studyCostRule - 1);
 					if (needfactioncontr > 0)
 					{
 						boolean ok = ClanManage.delContribution(roleid, needfactioncontr, LiveSkillManager.StudyLiveSkill, false);
-						if (ok == false) //帮贡不够 by changhao
+						if (ok == false) //甯础涓嶅 by changhao
 						{
 							psend(roleid, new SSkillError(SkillConstant.SkillError.ContributeNotEnough));
 							return false;						
@@ -160,14 +160,14 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 					liveskill.setLevel(requireLevel);					
 				}
 				
-				if (config.skillId != 0) //是被动技�? by changhao
+				if (config.skillId != 0) //鏄鍔ㄦ妧鑳? by changhao
 				{
 					Result result = new Result(true);
 					
-					//刷新BUFF by changhao
+					//鍒锋柊BUFF by changhao
 					result.updateResult(skillrole.addLiveSkillBuff());	
 				
-					if(!result.getChangedAttrs().isEmpty())//通知属�?�改�? by changhao
+					if(!result.getChangedAttrs().isEmpty())//閫氱煡灞炴?ф敼鍔? by changhao
 					{
 						mkdb.Procedure.psendWhileCommit(roleid,new SRefreshRoleData((HashMap<Integer, Float>)result.getChangedAttrs()));
 					}
@@ -181,7 +181,7 @@ public class CRequestLearnLiveSkill extends __CRequestLearnLiveSkill__ {
 
 				mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PRoleZongheRankProc(roleid));
 				
-				//历程生活�?能达到等�?
+				//鍘嗙▼鐢熸椿鎶?鑳借揪鍒扮瓑绾?
 				fire.pb.course.CourseManager.checkAchieveCourse(roleid, fire.pb.course.CourseType.SHENG_HUO_JINENG, liveskill.getLevel());
 				fire.log.YYLogger.roleSkillUPLog(roleid, new RoleSkillUpBean(id, liveskill.getLevel()));
 				return true;

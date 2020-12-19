@@ -20,7 +20,7 @@ public class CClientLockScreen extends __CClientLockScreen__ {
 		gnet.link.Role role = Onlines.getInstance().find(this);
 		if(role == null)
 			return;
-		//判断是否能下线，并正常下线�?�下线完毕后，再发SReturnRoleList消息
+		//鍒ゆ柇鏄惁鑳戒笅绾匡紝骞舵甯镐笅绾裤?備笅绾垮畬姣曞悗锛屽啀鍙慡ReturnRoleList娑堟伅
 		new fire.pb.state.PRoleLockScreen(role.getRoleid(),(lock!=0)?Boolean.TRUE:Boolean.FALSE).submit();		
 		
 	}

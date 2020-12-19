@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SRecoverItemInfo__ extends mkio.Protocol { }
 
-/** 服务器返回一个找回道具的信息
+/** 鏈嶅姟鍣ㄨ繑鍥炰竴涓壘鍥為亾鍏风殑淇℃伅
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -27,7 +27,7 @@ public class SRecoverItemInfo extends __SRecoverItemInfo__ {
 		return 787798;
 	}
 
-	public long uniqid; // 唯一id
+	public long uniqid; // 鍞竴id
 	public com.locojoy.base.Octets tips;
 
 	public SRecoverItemInfo() {

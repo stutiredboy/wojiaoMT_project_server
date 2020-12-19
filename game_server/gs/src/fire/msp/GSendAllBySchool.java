@@ -33,9 +33,9 @@ public class GSendAllBySchool extends __GSendAllBySchool__ {
 		return 720901;
 	}
 
-	public int protype; // Ğ­ÒéµÄÀàĞÍ
-	public com.locojoy.base.Octets protocol; // Ğ­ÒémarshalÍêµÄÊı¾İ
-	public int schoolid; // ÃÅÅÉID
+	public int protype; // åè®®çš„ç±»å‹
+	public com.locojoy.base.Octets protocol; // åè®®marshalå®Œçš„æ•°æ®
+	public int schoolid; // é—¨æ´¾ID
 
 	public GSendAllBySchool() {
 		protocol = new com.locojoy.base.Octets();

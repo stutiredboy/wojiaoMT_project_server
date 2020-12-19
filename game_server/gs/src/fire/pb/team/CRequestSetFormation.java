@@ -8,13 +8,13 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CRequestSetFormation__ extends mkio.Protocol { }
 
-/** - 光环相关   start
+/** - 鍏夌幆鐩稿叧   start
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璁剧疆鍏夌幆
+ * 鐠佸墽鐤嗛崗澶屽箚
  * @author changhao
  *
  */

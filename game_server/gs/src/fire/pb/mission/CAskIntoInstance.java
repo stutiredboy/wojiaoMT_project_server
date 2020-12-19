@@ -87,7 +87,7 @@ public class CAskIntoInstance extends __CAskIntoInstance__ {
 					return true;
 				}
 				
-				//判断队伍人数有无变化
+				//鍒ゆ柇闃熶紞浜烘暟鏈夋棤鍙樺寲
 				if (askInst.getAnswerinfo().size() != roleids.size()) {
 					for (Long rid : roleids) {
 						MessageMgr.psendMsgNotifyWhileCommit(rid, 166057, null);
@@ -112,7 +112,7 @@ public class CAskIntoInstance extends __CAskIntoInstance__ {
 					return true;
 				}
 				
-				//设置为同�?
+				//璁剧疆涓哄悓鎰?
 				SAnswerInstance answerInst = new SAnswerInstance();
 				answerInst.roleid = roleid;
 				answerInst.answer = 1;
@@ -169,8 +169,8 @@ public class CAskIntoInstance extends __CAskIntoInstance__ {
 		return 805539;
 	}
 
-	public short answer; // 1��ʾͬ��, 0��ʾ��ͬ��
-	public int insttype; // 0 �ճ�����; 1ʱ��֮Ѩ
+	public short answer; // 1表示同意, 0表示不同意
+	public int insttype; // 0 日常副本; 1时光之穴
 
 	public CAskIntoInstance() {
 	}

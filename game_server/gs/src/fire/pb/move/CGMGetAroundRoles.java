@@ -10,7 +10,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CGMGetAroundRoles__ extends mkio.Protocol { }
 
-/** GM 请求gm周围所有的玩家信息
+/** GM 璇锋眰gm鍛ㄥ洿鎵�鏈夌殑鐜╁淇℃伅
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

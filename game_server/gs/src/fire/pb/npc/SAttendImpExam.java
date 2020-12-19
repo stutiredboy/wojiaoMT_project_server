@@ -25,7 +25,7 @@ public class SAttendImpExam extends __SAttendImpExam__ {
 		return 795458;
 	}
 
-	public int impexamtype; // ¿¼ÊÔÀàĞÍ
+	public int impexamtype; // è€ƒè¯•ç±»å‹
 
 	public SAttendImpExam() {
 	}

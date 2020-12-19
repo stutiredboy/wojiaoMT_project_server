@@ -12,7 +12,7 @@ abstract class __CStartClanFightBattle__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * �?始公会战 battle PK by changhao
+ * 寮?濮嬪叕浼氭垬 battle PK by changhao
  * @author Administrator
  *
  */
@@ -37,7 +37,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ") " + srcname + " 角色(ID = " + targetid + ") " + targetname + " 在战斗中");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ") " + srcname + " 瑙掕壊(ID = " + targetid + ") " + targetname + " 鍦ㄦ垬鏂椾腑");
 					return false;
 				}
 				
@@ -46,47 +46,47 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ") " + srcname + " 角色(ID = " + targetid + ") " + targetname + " 目标在战斗中");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ") " + srcname + " 瑙掕壊(ID = " + targetid + ") " + targetname + " 鐩爣鍦ㄦ垬鏂椾腑");
 					return false;
 				}
 				
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //�?测是否在战场�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //妫?娴嬫槸鍚﹀湪鎴樺満涓? by changhao
 				if (c1 == null)
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ") " + srcname + " 角色(ID = " + targetid + ") " + targetname + " 不在战场");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ") " + srcname + " 瑙掕壊(ID = " + targetid + ") " + targetname + " 涓嶅湪鎴樺満");
 
 					return false;
 				}
 				
-				Long c2 = xtable.Roleid2clanfightid.select(targetid); //�?测是否在战场�? by changhao
+				Long c2 = xtable.Roleid2clanfightid.select(targetid); //妫?娴嬫槸鍚﹀湪鎴樺満涓? by changhao
 				if (c2 == null)
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ") " + srcname + " 角色(ID = " + targetid + ") " + targetname + " 目标不在战场");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ") " + srcname + " 瑙掕壊(ID = " + targetid + ") " + targetname + " 鐩爣涓嶅湪鎴樺満");
 
 					return false;
 				}
 				
-				if (!c1.equals(c2)) //是否在同�?公会战里 by changhao
+				if (!c1.equals(c2)) //鏄惁鍦ㄥ悓涓?鍏細鎴橀噷 by changhao
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")同一公会");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ")鍚屼竴鍏細");
 					return false;
 				}
 				
 				xbean.EClanFightStatistics statistics1 = xtable.Roleid2clanfightstatistics.select(roleid);
 				if (statistics1 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")没有数据信息");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ")娌℃湁鏁版嵁淇℃伅");
 					return false;
 				}
 				
 				xbean.EClanFightStatistics statistics2 = xtable.Roleid2clanfightstatistics.select(targetid);
 				if (statistics2 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + targetid + ")目标没有数据信息");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + targetid + ")鐩爣娌℃湁鏁版嵁淇℃伅");
 					return false;
 				}
 				
@@ -98,7 +98,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				
 				if (statistics2.getAct() <= 0)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")目标没有行动�? ");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ")鐩爣娌℃湁琛屽姩鍔? ");
 					return false;
 				}
 				
@@ -113,7 +113,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.clan.fight.ClanFightBattleField bf1 = fire.pb.clan.fight.ClanFightFactory.getClanFightBattleField(c1, true);
 				if (bf1 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")战场不存�?");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ")鎴樺満涓嶅瓨鍦?");
 					return false;
 				}
 				
@@ -122,16 +122,16 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.clan.fight.ClanFightBattleField bf2 = fire.pb.clan.fight.ClanFightFactory.getClanFightBattleField(c2, true);
 				if (bf2 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")战场不存�?");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ")鎴樺満涓嶅瓨鍦?");
 					return false;
 				}
 				
 				which2 = bf2.getSideByRoleId(targetid);
 				
-				//判断是否是对�? by changhao
+				//鍒ゆ柇鏄惁鏄绔? by changhao
 				if (!(which1 == 0 && which2 == 1) && !(which1 == 1 && which2 == 0))
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")目标阵营不对");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ")鐩爣闃佃惀涓嶅");
 					return false;
 				}
 				
@@ -149,7 +149,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				
 				if (cur < bf1.getClanfightBean().getActivitypreparetime() || cur > bf1.getClanfightBean().getActivityendtime())
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:角色(ID = " + roleid + ")不在PK时间�?");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:瑙掕壊(ID = " + roleid + ")涓嶅湪PK鏃堕棿鍐?");
 					return false;
 				}
 				
@@ -169,7 +169,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(targetid);
 				if (team != null)
 				{
-					if (team.isNormalMember(targetid)) //如果是正常队�? by changhao
+					if (team.isNormalMember(targetid)) //濡傛灉鏄甯搁槦鍛? by changhao
 					{
 						targetid = team.getTeamLeaderId();
 					}
@@ -199,7 +199,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 		return 808534;
 	}
 
-	public long targetid; // Ŀ��id by changhao
+	public long targetid; // 目标id by changhao
 
 	public CStartClanFightBattle() {
 	}

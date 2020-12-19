@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __SUpdateNpcSceneState__ extends mkio.Protocol { }
 
-/** ·şÎñÆ÷Ë¢ĞÂÒ»¸öNpcµÄ³¡¾°×´Ì¬
+/** æœåŠ¡å™¨åˆ·æ–°ä¸€ä¸ªNpcçš„åœºæ™¯çŠ¶æ€
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}

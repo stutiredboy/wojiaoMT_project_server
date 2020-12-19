@@ -26,7 +26,7 @@ public class SFriendsOnline extends __SFriendsOnline__ {
 	}
 
 	public long roleid;
-	public byte online; // 1ÔÚÏß 0ÀëÏß
+	public byte online; // 1åœ¨çº¿ 0ç¦»çº¿
 
 	public SFriendsOnline() {
 	}

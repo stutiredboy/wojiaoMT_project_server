@@ -5,14 +5,14 @@ import com.locojoy.base.Marshal.Marshal;
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
 
-/** ĞÂÊÖÒıµ¼Ïî
+/** æ–°æ‰‹å¼•å¯¼é¡¹
 */
 public class BeginnerTipType implements Marshal , Comparable<BeginnerTipType>{
-	public final static int StudyExtendSkill = 0; // Ñ§Ï°ÔÓÑ§¼¼ÄÜ
-	public final static int GotoSchool = 1; // »ØÖ°Òµ
-	public final static int ReleaseApprenticeInfo = 2; // ·¢²¼Í½µÜĞÅÏ¢
-	public final static int ReleaseMasterInfo = 3; // ·¢²¼Ê¦¸µĞÅÏ¢
-	public final static int UseShilizhengming = 4; // Ê¹ÓÃÊµÁ¦Ö¤Ã÷
+	public final static int StudyExtendSkill = 0; // å­¦ä¹ æ‚å­¦æŠ€èƒ½
+	public final static int GotoSchool = 1; // å›èŒä¸š
+	public final static int ReleaseApprenticeInfo = 2; // å‘å¸ƒå¾’å¼Ÿä¿¡æ¯
+	public final static int ReleaseMasterInfo = 3; // å‘å¸ƒå¸ˆå‚…ä¿¡æ¯
+	public final static int UseShilizhengming = 4; // ä½¿ç”¨å®åŠ›è¯æ˜
 	public final static int BattleSkill = 30001;
 	public final static int LevelUp = 30002;
 	public final static int AllocateProperty = 30003;

@@ -10,7 +10,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CExitCopy__ extends mkio.Protocol { }
 
-/** Àë¿ª¸±±¾
+/** ç¦»å¼€å‰¯æœ¬
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -33,7 +33,7 @@ public class CExitCopy extends __CExitCopy__ {
 		return 795668;
 	}
 
-	public byte gototype; // ÀàÐÍ  0 Õý³£ÍË³ö; 1 Ìø×ªµØÍ¼
+	public byte gototype; // ç±»åž‹  0 æ­£å¸¸é€€å‡º; 1 è·³è½¬åœ°å›¾
 
 	public CExitCopy() {
 	}

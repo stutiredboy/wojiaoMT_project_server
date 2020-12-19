@@ -8,7 +8,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __GNotifyMapPetInfo__ extends mkio.Protocol { }
 
-/** GS �� ��ͼģ�� ������Ϣ�� ֪ͨչʾ�������Ϣ, ��֪ͨ��Χ���
+/** GS 向 地图模块 发送消息， 通知展示宠物的信息, 并通知周围玩家
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -25,15 +25,15 @@ public class GNotifyMapPetInfo extends __GNotifyMapPetInfo__ {
 				fire.pb.scene.movable.God.createPet(showpetinfo.petkey, showpetinfo.petname, showpetinfo.petid,  showpetinfo.color, showpetinfo.bodysize,showpetinfo.showeffect);
 			
 			if(showpet.checkAllTheSame(role.getShowPet()))
-				return;//相等则不更新
+				return;//鐩哥瓑鍒欎笉鏇存柊
 			role.setShowPet(showpet);
 		}else{
 			if(role.getShowPet() == null)
-				return;//相等则不更新
+				return;//鐩哥瓑鍒欎笉鏇存柊
 			role.setShowPet(null);
 		}
 		
-		// 发�?�给周围玩家
+		// 鍙戦?佺粰鍛ㄥ洿鐜╁
 		final fire.pb.pet.SShowPetAround send = new fire.pb.pet.SShowPetAround();
 		send.roleid = roleid;
 		send.showpetid = showpetinfo.petid;

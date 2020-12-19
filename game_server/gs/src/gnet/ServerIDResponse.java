@@ -26,7 +26,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __ServerIDResponse__ extends mkio.Protocol { }
 
-/** gs����deliver�ϣ�����gs���û���¼��ɺ󣬷����ͻ���
+/** gs连上deliver上，发给gs；用户登录完成后，发给客户端
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -48,7 +48,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
             	}
             }
         } catch (SQLException ex1) {
-        	fire.log.Module.logger.error("SQL执行有问题！");
+        	fire.log.Module.logger.error("SQL鎵ц鏈夐棶棰橈紒");
         	ex1.printStackTrace();
         } finally {
         	if (rs != null) {
@@ -75,7 +75,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 			//
 			if (fire.pb.PropConf.ServerId.ServerId != 0) {
 				Integer id = Integer.parseInt(serverId);
-				// 校验fire.pb.PropConf.ServerId.ServerId
+				// 鏍￠獙fire.pb.PropConf.ServerId.ServerId
 				if (fire.pb.PropConf.ServerId.ServerId != id) {
 					fire.log.Module.logger.error("fire.pb.PropConf.ServerId.ServerId:" + fire.pb.PropConf.ServerId.ServerId
 							+ " != ServerIDResponse.serverId:" + id);
@@ -83,7 +83,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 							new javax.management.ObjectName("bean:name=stopper"),
 							new javax.management.Attribute("StopTime", 0));
 				}
-				// 校验fire.pb.main.Gs.serverid
+				// 鏍￠獙fire.pb.main.Gs.serverid
 				if (fire.pb.main.Gs.serverid.equals(serverId) == false) {
 					fire.log.Module.logger.error("fire.pb.main.Gs.serverid:" + fire.pb.main.Gs.serverid
 							+ " != ServerIDResponse.serverId:" + serverId);
@@ -121,7 +121,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 						testMysqlConnect();
 					}
 				});	
-				 // 创建说不得大师空间数�?
+				 // 鍒涘缓璇翠笉寰楀ぇ甯堢┖闂存暟鎹?
 				fire.pb.friends.Module Module = new fire.pb.friends.Module();
 		      Module.createXsh(Long.MAX_VALUE);
 			}
@@ -132,7 +132,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 			fire.log.Module.logger.info("Gs.isYingyongbao=" + fire.pb.main.Gs.isYingyongbao);
 		} catch (Exception e) {
 			e.printStackTrace();
-			fire.log.Module.logger.error("Mysql连接有问题！请确定配置并�?查网络！将关闭服务器.");
+			fire.log.Module.logger.error("Mysql杩炴帴鏈夐棶棰橈紒璇风‘瀹氶厤缃苟妫?鏌ョ綉缁滐紒灏嗗叧闂湇鍔″櫒.");
         	try{
         		ManagementFactory.getPlatformMBeanServer().setAttribute(new javax.management.ObjectName("bean:name=stopper"),
 					new javax.management.Attribute("StopTime", 1));
@@ -150,8 +150,8 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 		return 8902;
 	}
 
-	public int plattype; // ��ǰ�������飬��¼�����Ǹ�ƽ̨
-	public com.locojoy.base.Octets serverid; // ��ǰ��������ı�ʶ
+	public int plattype; // 当前服务器组，登录的是那个平台
+	public com.locojoy.base.Octets serverid; // 当前服务器组的标识
 
 	public ServerIDResponse() {
 		serverid = new com.locojoy.base.Octets();

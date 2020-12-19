@@ -19,7 +19,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CPingStat__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÍ¨¸æ·şÎñÆ÷10·ÖÖÓÄÚpingÖµ 1·ÖÖÓÒ»¸öPingStatEntry
+/** å®¢æˆ·ç«¯é€šå‘ŠæœåŠ¡å™¨10åˆ†é’Ÿå†…pingå€¼ 1åˆ†é’Ÿä¸€ä¸ªPingStatEntry
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -56,9 +56,9 @@ public class CPingStat extends __CPingStat__ {
 		return 786490;
 	}
 
-	public long beginstamp; // ¿ªÊ¼Ê±¼ä´Á
-	public fire.pb.PingStatEntry pingstats; // 10·ÖÖÓÄÚÍ³¼ÆÊı¾İ
-	public short losspercent; // ¶ª°üÂÊ£¨losspercent%100£©
+	public long beginstamp; // å¼€å§‹æ—¶é—´æˆ³
+	public fire.pb.PingStatEntry pingstats; // 10åˆ†é’Ÿå†…ç»Ÿè®¡æ•°æ®
+	public short losspercent; // ä¸¢åŒ…ç‡ï¼ˆlosspercent%100ï¼‰
 
 	public CPingStat() {
 		pingstats = new fire.pb.PingStatEntry();

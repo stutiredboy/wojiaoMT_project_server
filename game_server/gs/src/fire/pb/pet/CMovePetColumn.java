@@ -12,7 +12,7 @@ import com.locojoy.base.Marshal.MarshalException;
 
 abstract class __CMovePetColumn__ extends mkio.Protocol { }
 
-/** ¿Í»§¶ËÇëÇó£¬ÔÚ³èÎïÀ¸(½ÇÉ«³èÎïÀ¸£¬²Ö¿â³èÎïÀ¸)Ö®¼äÒÆ¶¯³èÎï,¼´´æÈ¡³èÎï ¹¦ÄÜ
+/** å®¢æˆ·ç«¯è¯·æ±‚ï¼Œåœ¨å® ç‰©æ (è§’è‰²å® ç‰©æ ï¼Œä»“åº“å® ç‰©æ )ä¹‹é—´ç§»åŠ¨å® ç‰©,å³å­˜å–å® ç‰© åŠŸèƒ½
 */
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
@@ -44,10 +44,10 @@ public class CMovePetColumn extends __CMovePetColumn__ {
 		return 788448;
 	}
 
-	public int srccolumnid; // Ô´³èÎïÀ¸
-	public int petkey; // ´æ»òÈ¡µÄ³èÎïkey
-	public int dstcolumnid; // Ä¿µÄ³èÎïÀ¸
-	public long npckey; // ²Ö¿ânpckey
+	public int srccolumnid; // æºå® ç‰©æ 
+	public int petkey; // å­˜æˆ–å–çš„å® ç‰©key
+	public int dstcolumnid; // ç›®çš„å® ç‰©æ 
+	public long npckey; // ä»“åº“npckey
 
 	public CMovePetColumn() {
 	}
