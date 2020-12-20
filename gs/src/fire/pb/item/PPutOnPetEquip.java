@@ -79,8 +79,8 @@ public class PPutOnPetEquip extends Procedure
 			//装备宝石自动替换
 			if (item != null) {
 				ItemBase itemEquip = equip.getItemByPos(position);
-				xbean.PetEquip equipSrcAttr = ((EquipItem) item).getPetEquipAttr();
-				xbean.PetEquip equipDstAttr = ((EquipItem) itemEquip).getPetEquipAttr();
+				xbean.PetEquip equipSrcAttr = ((PetEquipItem) item).getEquipAttr();
+				xbean.PetEquip equipDstAttr = ((PetEquipItem) itemEquip).getEquipAttr();
 				EquipItemShuXing eiDesAttr = (EquipItemShuXing) itemEquip.getItemAttr();
 				SEquipLvGemInfo equipLvGemInfo = EquipDiamondMgr.getEquipLvGemInfoByLv(eiDesAttr.level);
 				if(equipLvGemInfo == null) {
@@ -112,7 +112,7 @@ public class PPutOnPetEquip extends Procedure
 			//更新历程信息
 			fire.pb.course.CourseManager.achieveCourse(roleId, CourseType.EQUIP_SPECIAL_COURSE, bi.getItemId(), 0);
 			
-			xbean.PetEquip equipAttrOne = ((EquipItem) bi).getPetEquipAttr();
+			xbean.PetEquip equipAttrOne = ((PetEquipItem) bi).getEquipAttr();
 			if (equipAttrOne.getSkill() != 0) {
 				EquipItemShuXing eiAttrOne = (EquipItemShuXing) bi.getItemAttr();
 				fire.pb.course.CourseManager.checkAchieveCourse(roleId, fire.pb.course.CourseType.HAVE_TE_JE_EQUIP, eiAttrOne.level);
