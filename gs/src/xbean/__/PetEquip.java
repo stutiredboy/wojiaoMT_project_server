@@ -42,7 +42,7 @@ public final class PetEquip extends mkdb.XBean implements xbean.PetEquip {
 		suitid = 0;
 	}
 
-	Equip(int __, mkdb.XBean _xp_, String _vn_) {
+	PetEquip(int __, mkdb.XBean _xp_, String _vn_) {
 		super(_xp_, _vn_);
 		producer = "";
 		extendure = 0;

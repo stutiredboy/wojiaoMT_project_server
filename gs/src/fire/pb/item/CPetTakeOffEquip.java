@@ -1,5 +1,5 @@
 
-package fire.pb.pet;
+package fire.pb.item;
 import org.apache.log4j.Logger;
 
 // {{{ RPCGEN_IMPORT_BEGIN
@@ -17,7 +17,6 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 	@Override
 	protected void process() {
 		logger.info("RECV CPetTakeOffEquip\t" + pet_equipkey +" --" + pet_posinpack +"--"+ petkey);
-		return;
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid( this );
 		if (roleId < 0)
 			return;
@@ -34,24 +33,24 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 				final PetEquip srcbag = new PetEquip(roleId, false);
 				final ItemMaps dstbag = new Pack(roleId, false);
 				
-				ItemBase bi = srcbag.TransOut(equipkey, -1, "卸下装备");
+				ItemBase bi = srcbag.TransOut(pet_equipkey, -1, "卸下装备");
 				if (bi == null)
 					return false;
 				ItemBase dstitem;
 				java.util.List<Integer> freepos = dstbag.getFreepos();
 				if (freepos.size() > 0) {
-					posinpack = freepos.get(0);
+					pet_posinpack = freepos.get(0);
 				} else {
 					return false;
 				}
-				if (posinpack != -1)
-					dstitem = dstbag.getItemByPos(posinpack);
+				if (pet_posinpack != -1)
+					dstitem = dstbag.getItemByPos(pet_posinpack);
 				else
 					dstitem = null;
 				if (dstitem != null) {
 					return false;
 				}
-				if (!dstbag.TransIn(bi, posinpack))
+				if (!dstbag.TransIn(bi, pet_posinpack))
 					return false;
 				if (bi instanceof EquipItem)
 					srcbag.onUnequip((EquipItem) bi);
