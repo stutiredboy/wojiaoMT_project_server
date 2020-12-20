@@ -32,7 +32,7 @@ public class CPutOnEquip extends __CPutOnEquip__ {
 	public static final int PROTOCOL_TYPE = 787799;
 
 	public int getType() {
-		return 787799;
+		return 787445;
 	}
 
 	public int packkey;
