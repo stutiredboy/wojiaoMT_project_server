@@ -73,4 +73,28 @@
       <tablename>market</tablename>
     </fire.pb.item.BagConfig>
   </entry>
+  <entry>
+    <int>7</int>
+    <fire.pb.item.BagConfig>
+      <id>7</id>
+      <sizesize>25</sizesize>
+      <canpile>0</canpile>
+      <loginsend>0</loginsend>
+      <moveable>0</moveable>
+      <maxmoney>0</maxmoney>
+      <tablename>blackmarket</tablename>
+    </fire.pb.item.BagConfig>
+  </entry>
+  <entry>
+    <int>8</int>
+    <fire.pb.item.BagConfig>
+      <id>8</id>
+      <sizesize>4</sizesize>
+      <canpile>0</canpile>
+      <loginsend>1</loginsend>
+      <moveable>0</moveable>
+      <maxmoney>0</maxmoney>
+      <tablename>petequip</tablename>
+    </fire.pb.item.BagConfig>
+  </entry>
 </tree-map>
