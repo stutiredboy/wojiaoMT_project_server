@@ -297,6 +297,7 @@ public class Module implements ModuleInterface {
 		case BagTypes.BLACKMARKET:
 			return new BlackMarket(roleId, readonly);
 		case BagTypes.PETEQUIP:
+			logger.error("TEST PetEquip" + packid);
 			return new PetEquip(roleId, readonly);
 		}
 		return null;

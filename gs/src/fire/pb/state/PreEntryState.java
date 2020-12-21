@@ -717,9 +717,12 @@ public class PreEntryState extends State {
 		// 填加背包信息
 		final fire.pb.item.Module itemmodule = (fire.pb.item.Module) fire.pb.main.ModuleManager
 				.getInstance().getModuleByName("item");
+		StateManager.logger.info(new StringBuilder("roleId=").append(roleId).append(" KKK11：").append(this.getClass()));
 		if (itemmodule != null) {
+			StateManager.logger.info(new StringBuilder("roleId=").append(roleId).append(" KKK22：").append(this.getClass()));
 			snd.mydata.baginfo = itemmodule.getItemManager().getLoginPackInfo(roleId);
 		}
+		StateManager.logger.info(new StringBuilder("roleId=").append(roleId).append(" KKK33：").append(this.getClass()));
 		
 		// 仓库名称相关
 		snd.mydata.depotnameinfo.putAll(pro.getDepotnameinfo());
