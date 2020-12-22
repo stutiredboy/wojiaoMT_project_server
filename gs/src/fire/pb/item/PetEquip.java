@@ -80,7 +80,7 @@ public class PetEquip extends ItemMaps {
 	}
 
 	public ItemBase getHorsedress() {
-		return null;// getItemByPos(PetEquipItem.HEADDRESS-1);
+		return getItemByPos(PetEquipItem.HEADDRESS-1);
 	}
 
 	@Override

@@ -66,7 +66,7 @@ public final class PetEquip extends mkdb.XBean implements xbean.PetEquip {
 
 	PetEquip(xbean.PetEquip _o1_, mkdb.XBean _xp_, String _vn_) {
 		super(_xp_, _vn_);
-		if (_o1_ instanceof PetEquip) assign((Equip)_o1_);
+		if (_o1_ instanceof PetEquip) assign((PetEquip)_o1_);
 		else if (_o1_ instanceof PetEquip.Data) assign((PetEquip.Data)_o1_);
 		else if (_o1_ instanceof PetEquip.Const) assign(((PetEquip.Const)_o1_).nThis());
 		else throw new UnsupportedOperationException();
@@ -265,7 +265,7 @@ public final class PetEquip extends mkdb.XBean implements xbean.PetEquip {
 	}
 
 	@Override
-	public int getPetEquiplevel() { // 装备等级
+	public int getEquiplevel() { // 装备等级
 		_xdb_verify_unsafe_();
 		return equiplevel;
 	}
@@ -1015,7 +1015,7 @@ public final class PetEquip extends mkdb.XBean implements xbean.PetEquip {
 		}
 
 		Data(xbean.PetEquip _o1_) {
-			if (_o1_ instanceof Equip) assign((PetEquip)_o1_);
+			if (_o1_ instanceof PetEquip) assign((PetEquip)_o1_);
 			else if (_o1_ instanceof PetEquip.Data) assign((PetEquip.Data)_o1_);
 			else if (_o1_ instanceof PetEquip.Const) assign(((PetEquip.Const)_o1_).nThis());
 			else throw new UnsupportedOperationException();

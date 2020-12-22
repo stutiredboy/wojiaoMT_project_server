@@ -493,6 +493,7 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 			ItemMaps ic = Module.getInstance().getItemMaps(roleId, packid, true);
 			if (ic != null) {
 				final fire.pb.Bag bag = ic.getPackInfo();
+				logger.error("TEST getLoginPackInfo--------333kkk---------"+ packid);
 				ret.put(packid, bag);
 			}
 		}

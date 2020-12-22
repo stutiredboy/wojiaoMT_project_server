@@ -17,8 +17,10 @@ import fire.pb.util.DateValidate;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import org.apache.log4j.Logger;
 
 public abstract class ItemMaps implements Iterable<ItemBase> {
+	public static final Logger logger = Logger.getLogger("SYSTEM");
 	private class PackIterator implements Iterator<ItemBase> {
 		final private Iterator<Integer> iter;
 
@@ -156,6 +158,8 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 			return "拍卖背包";
 		case BagTypes.BLACKMARKET:
 			return "黑市背包";
+		case BagTypes.PETEQUIP:
+			return "宠物背包";
 		}
 		return "异常背包";
 	}
@@ -271,10 +275,17 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 		this.readonly = readonly;
 		this.roleId = roleId;
 		conf = Module.getInstance().getItemManager().getPackCfg(getPackid());
+		logger.error("TEST ITEMAMPS----------------11-\t" + getPackid());
+		if(conf == null)
+		{
+			logger.error("RECV ITEMAMPS-----------------\t" + getPackid());
+		}
 		final mkdb.TTable<Long, xbean.Bag> table = (mkdb.TTable<Long, xbean.Bag>) mkdb.Mkdb
 				.getInstance().getTables().getTable(conf.tablename);
+		logger.error("TEST ITEMAMPS----------------33-\t" + getPackid());
 		if (table == null)
 			throw new RuntimeException("未找到table=" + conf.tablename);
+		logger.error("TEST ITEMAMPS----------------44-\t" + getPackid());
 		final xbean.Bag myPack;
 		if (readonly) {
 			myPack = table.select(roleId,
@@ -287,7 +298,7 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 		} else {
 			myPack = table.get(roleId);
 		}
-		
+		logger.error("TEST ITEMAMPS----------------55-\t" + getPackid());
 		if (myPack == null) {
 			if (readonly)
 				pack = xbean.Pod.newBagData();
