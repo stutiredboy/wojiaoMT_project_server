@@ -2,13 +2,6 @@
 <tree-map>
   <no-comparator/>
   <entry>
-    <int>5</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>5</id>
-      <classname>fire.pb.item.GemItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
     <int>33</int>
     <fire.pb.item.ItemNameClassConfig>
       <id>33</id>
@@ -55,6 +48,62 @@
     <fire.pb.item.ItemNameClassConfig>
       <id>241</id>
       <classname>fire.pb.item.pet.PetResetLevelItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>657</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>657</id>
+      <classname>fire.pb.item.XilianshiItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>673</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>673</id>
+      <classname>fire.pb.item.DianhuashiItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>689</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>689</id>
+      <classname>fire.pb.item.ChongzhushiItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>692</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>692</id>
+      <classname>fire.pb.item.petequip.BeltItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>708</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>708</id>
+      <classname>fire.pb.item.petequip.ClothItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>724</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>724</id>
+      <classname>fire.pb.item.petequip.HelmetItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>740</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>740</id>
+      <classname>fire.pb.item.petequip.BootItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>50</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>50</id>
+      <classname>fire.pb.item.pet.PetInternalItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
@@ -125,6 +174,13 @@
     <fire.pb.item.ItemNameClassConfig>
       <id>323</id>
       <classname>fire.pb.item.drug.GeneralDrugStuff</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>5</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>5</id>
+      <classname>fire.pb.item.GemItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
@@ -222,7 +278,14 @@
     <int>374</int>
     <fire.pb.item.ItemNameClassConfig>
       <id>374</id>
-      <classname>fire.pb.item.groceries.OtherItem</classname>
+      <classname>fire.pb.item.groceries.OtherItem112</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>390</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>390</id>
+      <classname>fire.pb.item.groceries.RideItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
@@ -247,13 +310,6 @@
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
-    <int>390</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>390</id>
-      <classname>fire.pb.item.groceries.RideItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
     <int>550</int>
     <fire.pb.item.ItemNameClassConfig>
       <id>550</id>
@@ -272,6 +328,13 @@
     <fire.pb.item.ItemNameClassConfig>
       <id>582</id>
       <classname>fire.pb.item.groceries.DistributionPack</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>598</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>598</id>
+      <classname>fire.pb.item.groceries.PropertyItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
@@ -373,6 +436,13 @@
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
+    <int>599</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>599</id>
+      <classname>fire.pb.item.groceries.ReincarnateItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
     <int>40</int>
     <fire.pb.item.ItemNameClassConfig>
       <id>40</id>
@@ -394,10 +464,45 @@
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
+    <int>152</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>152</id>
+      <classname>fire.pb.item.equip.EquipExtItem02</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>168</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>168</id>
+      <classname>fire.pb.item.equip.EquipExtItem03</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>184</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>184</id>
+      <classname>fire.pb.item.equip.EquipExtItem04</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
     <int>312</int>
     <fire.pb.item.ItemNameClassConfig>
       <id>312</id>
       <classname>fire.pb.item.equip.ClothformaleItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>376</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>376</id>
+      <classname>fire.pb.item.equip.EquipSecItem</classname>
+    </fire.pb.item.ItemNameClassConfig>
+  </entry>
+  <entry>
+    <int>392</int>
+    <fire.pb.item.ItemNameClassConfig>
+      <id>392</id>
+      <classname>fire.pb.item.equip.EquipExtItem01</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
@@ -495,83 +600,6 @@
     <fire.pb.item.ItemNameClassConfig>
       <id>313</id>
       <classname>fire.pb.item.task.JinNangItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>376</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>376</id>
-      <classname>fire.pb.item.equip.EquipSecItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>392</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>392</id>
-      <classname>fire.pb.item.equip.EquipExtItem01</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>152</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>152</id>
-      <classname>fire.pb.item.equip.EquipExtItem02</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>168</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>168</id>
-      <classname>fire.pb.item.equip.EquipExtItem03</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>184</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>184</id>
-      <classname>fire.pb.item.equip.EquipExtItem04</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>598</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>598</id>
-      <classname>fire.pb.item.groceries.PropertyItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>50</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>50</id>
-      <classname>fire.pb.item.pet.PetInternalItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>599</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>599</id>
-      <classname>fire.pb.item.groceries.ReincarnateItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>657</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>657</id>
-      <classname>fire.pb.item.XilianshiItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>673</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>673</id>
-      <classname>fire.pb.item.DianhuashiItem</classname>
-    </fire.pb.item.ItemNameClassConfig>
-  </entry>
-  <entry>
-    <int>689</int>
-    <fire.pb.item.ItemNameClassConfig>
-      <id>689</id>
-      <classname>fire.pb.item.ChongzhushiItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
 </tree-map>
