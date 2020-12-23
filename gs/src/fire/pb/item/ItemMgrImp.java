@@ -11,6 +11,7 @@ import java.util.Set;
 import fire.pb.PropRole;
 import fire.pb.item.EquipItem.EquipError;
 import fire.pb.item.make.ItemMakeFactory;
+import fire.pb.item.make.PetItemMakeFactory;
 
 import org.apache.log4j.Logger;
 
@@ -208,13 +209,16 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 	ItemMgrImp(fire.pb.main.ConfigManager cm) {
 		java.util.Map<Integer, ItemClassConfig> config = null;
 		if (fire.pb.fushi.Module.GetPayServiceType() == 1) {
+			logger.error("Load Item class Name:111");
 			java.util.Map<Integer, DItemClassConfig> dItemClassConfig = cm.getConf(fire.pb.item.DItemClassConfig.class);
 			config = new java.util.TreeMap<Integer, ItemClassConfig>(dItemClassConfig);
 		} else {
+			logger.error("Load Item class Name:222");
 			config = cm.getConf(fire.pb.item.ItemClassConfig.class);
 		}
 		
 		for (final fire.pb.item.ItemClassConfig c : config.values()) {
+			logger.error("Load Item class Name:" + c.classname);
 			try {
 				Class<?> itemclass = Class.forName(c.classname);
 				for (final ItemShuXing attr : ((java.util.Map<Integer, ? extends ItemShuXing>) cm.getConf(itemclass)).values()) {
@@ -383,6 +387,7 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 		final String itemclassname = ItemIdToClassString.getInstance()
 				.getItemClass(itemid);
 		Module.logger.debug("生成" + itemclassname + "物品对象");
+		logger.error("TEST getLoginPackInfo--------333kkk---------"+ itemclassname);
 		ItemBase item;
 		try {
 			Constructor<?> constructor;
@@ -411,23 +416,45 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 		} else {
 			throw new IllegalArgumentException("物品log日志类型异常");
 		}
-		if (item instanceof EquipItem) {
-			EquipItem eItem = (EquipItem) item;
-			int endure = ((EquipItemShuXing) eItem.getItemAttr()).maxnaijiu;
-			eItem.getEquipAttr().setEndure(endure);
-			eItem.getEquipAttr().setCurmaxendure(endure);
-			eItem.getEquipAttr().setMaxendure(endure);
+		if(itemclassname == "EquipItem"){
+			if (item instanceof EquipItem) {
+				EquipItem eItem = (EquipItem) item;
+				int endure = ((EquipItemShuXing) eItem.getItemAttr()).maxnaijiu;
+				eItem.getEquipAttr().setEndure(endure);
+				eItem.getEquipAttr().setCurmaxendure(endure);
+				eItem.getEquipAttr().setMaxendure(endure);
 
-			ItemMakeFactory.getFactory().genItem(eItem);
+				ItemMakeFactory.getFactory().genItem(eItem);
 
-			int score = fire.pb.item.Module.getInstance()
-					.getEquipScore(item);
-			eItem.getEquipAttr().setEquipscore(score);
-			if (score >= eItem.getItemAttr().getTreasureScore()) {
-				eItem.getEquipAttr().setTreasure(1);
-			} else
-				eItem.getEquipAttr().setTreasure(0);
+				int score = fire.pb.item.Module.getInstance()
+						.getEquipScore(item);
+				eItem.getEquipAttr().setEquipscore(score);
+				if (score >= eItem.getItemAttr().getTreasureScore()) {
+					eItem.getEquipAttr().setTreasure(1);
+				} else
+					eItem.getEquipAttr().setTreasure(0);
 
+			}
+		}
+		else if(itemclassname == "PetEquipItem"){
+			if (item instanceof PetEquipItem) {
+				PetEquipItem eItem = (PetEquipItem) item;
+				int endure = ((PetEquipItemShuXing) eItem.getItemAttr()).maxnaijiu;
+				eItem.getEquipAttr().setEndure(endure);
+				eItem.getEquipAttr().setCurmaxendure(endure);
+				eItem.getEquipAttr().setMaxendure(endure);
+
+				PetItemMakeFactory.getFactory().genItem(eItem);
+
+				int score = fire.pb.item.Module.getInstance()
+						.getEquipScore(item);
+				eItem.getEquipAttr().setEquipscore(score);
+				if (score >= eItem.getItemAttr().getTreasureScore()) {
+					eItem.getEquipAttr().setTreasure(1);
+				} else
+					eItem.getEquipAttr().setTreasure(0);
+
+			}
 		}
 
 		return item;

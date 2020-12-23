@@ -35,7 +35,7 @@ public class PPutOnPetEquip extends Procedure
 			return false;
 		}
 		logger.error("RECV PPutOnPetEquip--------111---------\t");
-		if (((EquipItem)bi).getEndure() == 0) {
+		if (((PetEquipItem)bi).getEndure() == 0) {
 			MessageMgr.psendMsgNotify(roleId, 160319, null);
 			return false;
 		}
@@ -46,12 +46,10 @@ public class PPutOnPetEquip extends Procedure
 			return false;
 		}
 		logger.error("RECV PPutOnPetEquip--------333kkk---------\t");
-		EquipItem.EquipError errorcode = canEquip(equip, (EquipItem)bi, position);
+		PetEquipItem.EquipError errorcode = canEquip(equip, (EquipItem)bi, position);
 		int tmpPos = 0;
-		if(position == 6)
-			tmpPos = 1;
 		logger.error("RECV PPutOnPetEquip--------333kkk---------\t" + errorcode);
-		if (errorcode == EquipItem.EquipError.NO_ERROR) {
+		if (errorcode == PetEquipItem.EquipError.NO_ERROR) {
 			ItemBase dstitem = equip.getItemByPos(tmpPos);
 			ItemBase item = null;
 			if (dstitem != null) {
@@ -73,19 +71,19 @@ public class PPutOnPetEquip extends Procedure
 				return false;
 			logger.error("RECV PPutOnPetEquip--------777---------\t");
 			//添加自动分解, 判断是否需要自动分解
-			if (item != null) {
-				int nDstEquipLevel = ((EquipItem)item).getEquipAttr().getEquiplevel();
-				int nSrcEquipLevel = ((EquipItem)bi).getEquipAttr().getEquiplevel();
+			// if (item != null) {
+			// 	int nDstEquipLevel = ((EquipItem)item).getEquipAttr().getEquiplevel();
+			// 	int nSrcEquipLevel = ((EquipItem)bi).getEquipAttr().getEquiplevel();
 				
-				//被替换下的装备可以自动分解
-				EquipItemShuXing eiAttr = (EquipItemShuXing) item.getItemAttr();
-				if (eiAttr.get是否自动分解() == 1 && ((((EquipItem) item).getEquipAttr()).getDiamonds().size() == 0)) {
-					if (nSrcEquipLevel > nDstEquipLevel) {
-						new PResolveItem(roleId, item.getKey()).call();
-						MessageMgr.psendMsgNotifyWhileCommit(roleId, 160218, null);
-					}
-				}
-			}
+			// 	//被替换下的装备可以自动分解
+			// 	EquipItemShuXing eiAttr = (EquipItemShuXing) item.getItemAttr();
+			// 	if (eiAttr.get是否自动分解() == 1 && ((((EquipItem) item).getEquipAttr()).getDiamonds().size() == 0)) {
+			// 		if (nSrcEquipLevel > nDstEquipLevel) {
+			// 			new PResolveItem(roleId, item.getKey()).call();
+			// 			MessageMgr.psendMsgNotifyWhileCommit(roleId, 160218, null);
+			// 		}
+			// 	}
+			// }
 			logger.error("RECV PPutOnPetEquip--------888---------\t");
 			//装备宝石自动替换
 			// if (item != null) {
@@ -112,12 +110,12 @@ public class PPutOnPetEquip extends Procedure
 			// 	}
 			// }
 			logger.error("RECV PPutOnPetEquip--------999---------\t");
-			if (item != null) {
-				SkillRole srole = new SkillRole(roleId);
-				srole.removeSpecialSkillWithSP(position);
-			}
+			// if (item != null) {
+			// 	SkillRole srole = new SkillRole(roleId);
+			// 	srole.removeSpecialSkillWithSP(position);
+			// }
 			logger.error("RECV PPutOnPetEquip--------123---------\t");
-			freshEquipBuff(roleId, (EquipItem)bi);
+			//freshEquipBuff(roleId, (EquipItem)bi);
 			//更新玩家综合实力排行榜
 			mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PRoleZongheRankProc(roleId));
 			//更新历程信息
@@ -151,7 +149,7 @@ public class PPutOnPetEquip extends Procedure
 		}
 	}
 	
-	public static void freshEquipBuff(final long roleId, EquipItem ei) {
+	public static void freshEquipBuff(final long roleId, PetEquipItem ei) {
 		Equip equip = new Equip(roleId, true);
 		if (ei != null) {
 			//获取装备最低的品质
@@ -216,7 +214,7 @@ public class PPutOnPetEquip extends Procedure
 		}
 	}
 	
-	private static EquipItem.EquipError canEquip(PetEquip equip, EquipItem item, int dstpos) {
+	private static PetEquipItem.PetEquipError canEquip(PetEquip equip, PetEquipItem item, int dstpos) {
 		//return EquipItem.EquipError.NO_ERROR;
 		xbean.Properties prop = xtable.Properties.select(equip.roleId);
 		int roleLevel = prop.getLevel();
@@ -224,7 +222,7 @@ public class PPutOnPetEquip extends Procedure
 		int shape = prop.getShape();
 		int school = prop.getSchool();
 		logger.error("RECV PPutOnPetEquip---ERROR-----345---------\t" + roleLevel +"-"+sex+"-"+shape +"-"+school);
-		EquipItem.EquipError ret = item.canEquipment(dstpos, roleLevel, sex, shape, school);
+		PetEquipItem.PetEquipError ret = item.canEquipment(dstpos, roleLevel, sex, shape, school);
 //		if ((ret = item.canEquipment(dstpos, roleLevel, sex, shape, school)) == EquipItem.EquipError.NO_ERROR) {
 //		}
 		return ret;
