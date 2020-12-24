@@ -42,14 +42,14 @@ public class PPutOnPetEquip extends Procedure
 		logger.error("RECV PPutOnPetEquip--------222---------\t");
 		final int pos = bi.getPosition();
 		bi = bag.TransOut(bagkey, -1, "穿装备");
-		if (!(bi instanceof EquipItem)) {
+		if (!(bi instanceof PetEquipItem)) {
 			return false;
 		}
 		logger.error("RECV PPutOnPetEquip--------333kkk---------\t");
-		PetEquipItem.EquipError errorcode = canEquip(equip, (EquipItem)bi, position);
+		PetEquipItem.PetEquipError errorcode = canEquip(equip, (PetEquipItem)bi, position);
 		int tmpPos = 0;
 		logger.error("RECV PPutOnPetEquip--------333kkk---------\t" + errorcode);
-		if (errorcode == PetEquipItem.EquipError.NO_ERROR) {
+		if (errorcode == PetEquipItem.PetEquipError.NO_ERROR) {
 			ItemBase dstitem = equip.getItemByPos(tmpPos);
 			ItemBase item = null;
 			if (dstitem != null) {
@@ -85,30 +85,7 @@ public class PPutOnPetEquip extends Procedure
 			// 	}
 			// }
 			logger.error("RECV PPutOnPetEquip--------888---------\t");
-			//装备宝石自动替换
-			// if (item != null) {
-			// 	ItemBase itemEquip = equip.getItemByPos(position);
-			// 	xbean.PetEquip equipSrcAttr = ((PetEquipItem) item).getEquipAttr();
-			// 	xbean.PetEquip equipDstAttr = ((PetEquipItem) itemEquip).getEquipAttr();
-			// 	EquipItemShuXing eiDesAttr = (EquipItemShuXing) itemEquip.getItemAttr();
-			// 	SEquipLvGemInfo equipLvGemInfo = EquipDiamondMgr.getEquipLvGemInfoByLv(eiDesAttr.level);
-			// 	if(equipLvGemInfo == null) {
-			// 		LogManager.logger.error("error equipLv in PPutOnEquip itemId=" + eiDesAttr.id);
-			// 		return false;
-			// 	}
-			// 	if (equipLvGemInfo.gemsLevel > 0) {
-			// 		if (equipDstAttr.getDiamonds().size() == 0) {
-			// 			// 源装备宝石列表
-			// 			List<Integer> diamonds = equipSrcAttr.getDiamonds();
-			// 			if (diamonds.size() > 0) {
-			// 				SReplaceGem repGem = new SReplaceGem();
-			// 				repGem.srckey = item.getKey();
-			// 				repGem.deskey = itemEquip.getKey();
-			// 				mkdb.Procedure.psendWhileCommit(roleId, repGem);
-			// 			}
-			// 		}
-			// 	}
-			// }
+
 			logger.error("RECV PPutOnPetEquip--------999---------\t");
 			// if (item != null) {
 			// 	SkillRole srole = new SkillRole(roleId);
@@ -136,10 +113,10 @@ public class PPutOnPetEquip extends Procedure
 			mkdb.Procedure.pexecuteWhileCommit(new PEnhancementTimeout(roleId));
 			logger.error("RECV PPutOnPetEquip--------345---------\t");
 			return true;
-		} else if (errorcode == EquipItem.EquipError.LEVEL_NOT_SUIT) {
+		} else if (errorcode == PetEquipItem.PetEquipError.LEVEL_NOT_SUIT) {
 			MessageMgr.psendMsgNotify(roleId, 100065, null);
 			return false;
-		} else if (errorcode == EquipItem.EquipError.SCHOOL_NOT_SUIT) {
+		} else if (errorcode == PetEquipItem.PetEquipError.SCHOOL_NOT_SUIT) {
 			MessageMgr.psendMsgNotify(roleId, 174002, null);
 			return false;
 		}
@@ -178,8 +155,8 @@ public class PPutOnPetEquip extends Procedure
 			notifymap.ride = -1;
 			notifymap.effect = nquality;
 			
-			if (ei instanceof WeaponItem)
-				notifymap.itemcolor = ((WeaponItem)ei).getItemAttr().equipcolor;
+			if (ei instanceof PetEquipItem)
+				notifymap.itemcolor = ((PetEquipItem)ei).getItemAttr().equipcolor;
 			GsClient.pSendWhileCommit(notifymap);
 			
 			if (nquality > 0) {
@@ -205,13 +182,6 @@ public class PPutOnPetEquip extends Procedure
 		int totalScore = Module.getInstance().getEquipTotalScore(roleId);
 		equipTotalScore.score = totalScore;
 		mkdb.Procedure.psendWhileCommit(roleId, equipTotalScore);
-		if (ei != null) {
-			if (ei.getExtInfo().getEndure() > 0) {
-				fire.pb.skill.SceneSkillRole role = fire.pb.skill.SkillManager
-						.getSceneSkillRole(roleId);
-				role.addEquipEffectAndSkillWithSP(ei);
-			}
-		}
 	}
 	
 	private static PetEquipItem.PetEquipError canEquip(PetEquip equip, PetEquipItem item, int dstpos) {
