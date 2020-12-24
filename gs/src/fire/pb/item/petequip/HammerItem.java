@@ -22,7 +22,7 @@ public class HammerItem extends PetEquipItem implements IEquipType {
 
 	@Override
 	public int getEquipType() {
-		return PetEquipItemType.WAISTBAND;
+		return PetEquipItemType.TIRE;
 	}
 
 }

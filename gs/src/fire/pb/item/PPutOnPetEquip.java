@@ -47,10 +47,10 @@ public class PPutOnPetEquip extends Procedure
 		}
 		logger.error("RECV PPutOnPetEquip--------333kkk---------\t");
 		PetEquipItem.PetEquipError errorcode = canEquip(equip, (PetEquipItem)bi, position);
-		int tmpPos = 0;
+		//int tmpPos = 0;
 		logger.error("RECV PPutOnPetEquip--------333kkk---------\t" + errorcode);
 		if (errorcode == PetEquipItem.PetEquipError.NO_ERROR) {
-			ItemBase dstitem = equip.getItemByPos(tmpPos);
+			ItemBase dstitem = equip.getItemByPos(position);
 			ItemBase item = null;
 			if (dstitem != null) {
 				item = equip.TransOut(dstitem.getKey(), -1, "卸下装备");
@@ -64,7 +64,7 @@ public class PPutOnPetEquip extends Procedure
 				logger.error("RECV PPutOnPetEquip--------444---------\t");
 			}
 			logger.error("RECV PPutOnPetEquip--------555---------\t");
-			if (!equip.TransIn(bi, tmpPos))
+			if (!equip.TransIn(bi, position))
 				return false;
 			logger.error("RECV PPutOnPetEquip--------666---------\t");
 			if ((bi.getFlags() & (fire.pb.Item.ONSTALL & fire.pb.Item.ONCOFCSELL)) != 0)
@@ -92,7 +92,7 @@ public class PPutOnPetEquip extends Procedure
 			// 	srole.removeSpecialSkillWithSP(position);
 			// }
 			logger.error("RECV PPutOnPetEquip--------123---------\t");
-			//freshEquipBuff(roleId, (EquipItem)bi);
+			freshEquipBuff(roleId, (PetEquipItem)bi);
 			//更新玩家综合实力排行榜
 			mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PRoleZongheRankProc(roleId));
 			//更新历程信息
@@ -127,7 +127,8 @@ public class PPutOnPetEquip extends Procedure
 	}
 	
 	public static void freshEquipBuff(final long roleId, PetEquipItem ei) {
-		Equip equip = new Equip(roleId, true);
+		PetEquip equip = new PetEquip(roleId, true);
+		logger.error("RECV freshEquipBuff---ERROR-----111---------\t");
 		if (ei != null) {
 			//获取装备最低的品质
 			Integer nquality = Integer.MAX_VALUE;
@@ -182,6 +183,15 @@ public class PPutOnPetEquip extends Procedure
 		int totalScore = Module.getInstance().getEquipTotalScore(roleId);
 		equipTotalScore.score = totalScore;
 		mkdb.Procedure.psendWhileCommit(roleId, equipTotalScore);
+		logger.error("RECV freshEquipBuff---ERROR-----222---------\t");
+		if (ei != null) {
+			if (ei.getExtInfo().getEndure() > 0) {
+				logger.error("RECV freshEquipBuff---ERROR-----333---------\t");
+				fire.pb.skill.SceneSkillRole role = fire.pb.skill.SkillManager
+						.getSceneSkillRole(roleId);
+				role.addEquipEffectAndSkillWithSP(ei);
+			}
+		}
 	}
 	
 	private static PetEquipItem.PetEquipError canEquip(PetEquip equip, PetEquipItem item, int dstpos) {

@@ -59,7 +59,10 @@ public abstract class PetEquipItem extends ItemBase {
 	public PetEquipError canEquipment(final int pos, final int roleLevel,
 			final int rolesex, final int shape, final int school) {
 		if (pos != getEquipPos())
+		{
+			logger.error("-----------------套装属性ID："+pos + "-||-" + getEquipPos());
 			return PetEquipError.POS_NOT_SUIT;
+		}
 		if (equipAttr.getEndure() <= 0)
 			return PetEquipError.ZERO_ENDURE;
 		int requirelevel = itemAttr.needlevel;

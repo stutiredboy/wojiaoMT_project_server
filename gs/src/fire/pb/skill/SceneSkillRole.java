@@ -18,6 +18,7 @@ import fire.pb.buff.continual.ConstantlyBuff;
 import fire.pb.buff.continual.ConstantlyBuffConfig;
 import fire.pb.effect.RoleImpl;
 import fire.pb.item.EquipItem;
+import fire.pb.item.PetEquipItem;
 import fire.pb.pet.Pet;
 import fire.pb.pet.PetColumn;
 import fire.pb.pet.PetColumnTypes;
@@ -26,8 +27,11 @@ import fire.script.JavaScript;
 import fire.script.SceneJSEngine;
 import mkdb.Transaction;
 
+import org.apache.log4j.Logger;
+
 public class SceneSkillRole
 {
+	public static final Logger logger = Logger.getLogger("SYSTEM");
 	protected long roleId;
 	protected boolean readonly;
 	public SceneSkillRole(long roleId)
@@ -332,6 +336,63 @@ public class SceneSkillRole
 		else
 			gnet.link.Onlines.getInstance().send( roleId, snd );
 		return true;
+	}
+	
+	public boolean removeEquipEffectAndSkillWithSP(PetEquipItem equipItem)
+	{
+		HashMap<Integer,Float> effects = new java.util.HashMap<Integer,Float>();
+		ArrayList<ConstantlyBuffConfig> cbuffs = 
+			new java.util.ArrayList<ConstantlyBuffConfig>();
+		equipItem.getEffectsAndBuffs(effects, cbuffs);
+		Result r = unequip(equipItem.getEquipType(), cbuffs);
+		SRefreshRoleData snd = new SRefreshRoleData();
+		snd.datas.putAll(fire.pb.effect.Module.getClientAttrs(r.getChangedAttrs()));
+		if(Transaction.current() != null)
+			mkdb.Procedure.psendWhileCommit(roleId, snd);
+		else
+			gnet.link.Onlines.getInstance().send( roleId, snd );
+		return true;
+	}
+	
+	public boolean addEquipEffectAndSkillWithSP(PetEquipItem equipItem)
+	{
+		logger.error("RECV addEquipEffectAndSkillWithSP--------111---------\t");
+		if (equipItem.getExtInfo().getEndure() <= 0)
+			return false;
+
+		logger.error("RECV addEquipEffectAndSkillWithSP--------222---------\t");
+		Result r = addEquipEffectAndSkill(equipItem);
+		if (r == null)
+			return false;
+		logger.error("RECV addEquipEffectAndSkillWithSP--------333---------\t");
+		SRefreshRoleData snd = new SRefreshRoleData();
+		snd.datas.putAll(fire.pb.effect.Module.getClientAttrs(r
+				.getChangedAttrs()));
+		if (Transaction.current() != null)
+			mkdb.Procedure.psendWhileCommit(roleId, snd);
+		else
+			gnet.link.Onlines.getInstance().send(roleId, snd);
+		return true;
+	}
+	
+	public Result addEquipEffectAndSkill(PetEquipItem equipItem)
+	{
+		Map<Integer, Float> effects = new HashMap<Integer, Float>();
+		List<ConstantlyBuffConfig> buffs = new ArrayList<ConstantlyBuffConfig>();
+		equipItem.getEffectsAndBuffs(effects, buffs);
+
+		xbean.PetEquip equipAttr = equipItem.getExtInfo();
+		List<Integer> skills = new ArrayList<Integer>();
+		if (equipAttr.getSkill() > 0) {
+			skills.add(equipAttr.getSkill());
+		}
+		if (equipAttr.getEffect() > 0) {
+			skills.add(equipAttr.getEffect());
+		}
+
+		Result result = new Result(true);
+		result.updateResult(equip(equipItem.getEquipType(), effects, skills));
+		return result;
 	}
 	
 }

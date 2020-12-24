@@ -80,7 +80,7 @@ public class PetEquip extends ItemMaps {
 	}
 
 	public ItemBase getHorsedress() {
-		return getItemByPos(PetEquipItem.HEADDRESS-1);
+		return getItemByPos(PetEquipItemType.BOOT-1);
 	}
 
 	@Override
@@ -141,7 +141,7 @@ public class PetEquip extends ItemMaps {
 		}
 	}
 
-	public void onUnequip(EquipItem ei) {
+	public void onUnequip(PetEquipItem ei) {
 		GRoleEquipChange notifymap = new GRoleEquipChange();
 		notifymap.roleid = roleId;
 		notifymap.pos = ei.getEquipPos();

@@ -52,8 +52,8 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 				}
 				if (!dstbag.TransIn(bi, pet_posinpack))
 					return false;
-				if (bi instanceof EquipItem)
-					srcbag.onUnequip((EquipItem) bi);
+				if (bi instanceof PetEquipItem)
+					srcbag.onUnequip((PetEquipItem) bi);
 				
 				return true;
 			}
