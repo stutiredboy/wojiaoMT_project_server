@@ -59,6 +59,7 @@
 		<variable name="b148" type="fire.pb.ranklist.PetGradeRankData" />
 		<variable name="b151" type="fire.pb.move.SpriteComponents"/>
 		<variable name="b152" type="fire.pb.item.EquipItemType"/>
+		<variable name="b153" type="fire.pb.item.PetEquipItemType"/>
 		<variable name="b156" type="fire.pb.AU2GameType"/>
 		<variable name="b168" type="fire.pb.Pet"/>
 		<variable name="b169" type="fire.pb.Petskill"/>
@@ -103,6 +104,7 @@
 		<variable name="b68" type="fire.pb.talk.TipsMsgType" />
 		<variable name="b10" type="fire.pb.pet.PetTypeEnum" />
 		<variable name="b152" type="fire.pb.item.EquipItemType"/>
+		<variable name="b153" type="fire.pb.item.PetEquipItemType"/>
 		<variable name="b28" type="fire.pb.attr.EffectType" />
 		<variable name="b27" type="fire.pb.attr.AttrType" />
 		<variable name="b168" type="fire.pb.Pet"/>

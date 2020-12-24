@@ -29,7 +29,14 @@
 		<enum name="ROLE_COLOR1" value="50"/>染色1
 		<enum name="ROLE_COLOR2" value="51"/>染色2
         <enum name="EQUIP_EFFECT" value="60"/>装备特效
-    </bean>		
+    </bean>
+
+	<bean name="PetEquipItemType">
+		<enum name="WAISTBAND" value="1"/> //腰带
+        <enum name="LORICAE" value="2"/> //衣服
+        <enum name="TIRE" value="3"/> //头盔
+        <enum name="BOOT" value="4"/> //鞋子
+    </bean>	
 		
 	<!-- 使用物品 -->
 	<bean name="IDType">
