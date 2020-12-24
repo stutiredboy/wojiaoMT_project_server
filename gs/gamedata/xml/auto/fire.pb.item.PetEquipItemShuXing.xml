@@ -7,7 +7,7 @@
       <id>4001120</id>
       <name>腰带</name>
       <unit>件</unit>
-      <typeid>698</typeid>
+      <typeid>794</typeid>
       <level>1</level>
       <pickupbind>false</pickupbind>
       <maxstack>1</maxstack>
@@ -91,7 +91,7 @@
       <id>4001220</id>
       <name>衣服</name>
       <unit>件</unit>
-      <typeid>714</typeid>
+      <typeid>810</typeid>
       <level>1</level>
       <pickupbind>false</pickupbind>
       <maxstack>1</maxstack>
@@ -175,7 +175,7 @@
       <id>4001320</id>
       <name>头盔</name>
       <unit>件</unit>
-      <typeid>730</typeid>
+      <typeid>826</typeid>
       <level>1</level>
       <pickupbind>false</pickupbind>
       <maxstack>1</maxstack>
@@ -257,7 +257,7 @@
       <id>4001420</id>
       <name>鞋子</name>
       <unit>件</unit>
-      <typeid>746</typeid>
+      <typeid>842</typeid>
       <level>1</level>
       <pickupbind>false</pickupbind>
       <maxstack>1</maxstack>
