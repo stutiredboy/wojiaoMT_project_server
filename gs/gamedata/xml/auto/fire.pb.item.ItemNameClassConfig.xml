@@ -72,30 +72,30 @@
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
-    <int>692</int>
+    <int>698</int>
     <fire.pb.item.ItemNameClassConfig>
-      <id>692</id>
+      <id>698</id>
       <classname>fire.pb.item.petequip.BeltItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
-    <int>708</int>
+    <int>714</int>
     <fire.pb.item.ItemNameClassConfig>
-      <id>708</id>
+      <id>714</id>
       <classname>fire.pb.item.petequip.ClothItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
-    <int>724</int>
+    <int>730</int>
     <fire.pb.item.ItemNameClassConfig>
-      <id>724</id>
+      <id>730</id>
       <classname>fire.pb.item.petequip.HelmetItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
-    <int>740</int>
+    <int>746</int>
     <fire.pb.item.ItemNameClassConfig>
-      <id>740</id>
+      <id>746</id>
       <classname>fire.pb.item.petequip.BootItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
@@ -278,7 +278,7 @@
     <int>374</int>
     <fire.pb.item.ItemNameClassConfig>
       <id>374</id>
-      <classname>fire.pb.item.groceries.OtherItem112</classname>
+      <classname>fire.pb.item.groceries.OtherItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>
