@@ -21,7 +21,7 @@ import com.locojoy.base.Octets;
 import com.locojoy.base.Marshal.OctetsStream;
 
 public abstract class PetEquipItem extends ItemBase {
-	public enum EquipError {
+	public enum PetEquipError {
 		LEVEL_NOT_SUIT, NO_ERROR, POS_NOT_SUIT, SEX_NOT_SUIT, SHAPE_NOT_SUIT, SCHOOL_NOT_SUIT, ZERO_ENDURE
 	}
 
@@ -56,12 +56,12 @@ public abstract class PetEquipItem extends ItemBase {
 		}
 	}
 
-	public EquipError canEquipment(final int pos, final int roleLevel,
+	public PetEquipError canEquipment(final int pos, final int roleLevel,
 			final int rolesex, final int shape, final int school) {
 		if (pos != getEquipPos())
-			return EquipError.POS_NOT_SUIT;
+			return PetEquipError.POS_NOT_SUIT;
 		if (equipAttr.getEndure() <= 0)
-			return EquipError.ZERO_ENDURE;
+			return PetEquipError.ZERO_ENDURE;
 		int requirelevel = itemAttr.needlevel;
 		if (equipAttr.getEffect() == SkillConstant.SPECIAL_SKILL_LESS_LV_LIMIT) {
 			requirelevel = requirelevel > 5 ? requirelevel - 5 : 1;
@@ -69,20 +69,20 @@ public abstract class PetEquipItem extends ItemBase {
 		if (equipAttr.getEffect() == SkillConstant.SPECIAL_SKILL_NO_LV_LIMIT)
 			requirelevel = 1;
 
-		ArrayList<Integer> shapes = ((EquipItemShuXing) itemAttr).roleNeed;
+		ArrayList<Integer> shapes = ((PetEquipItemShuXing) itemAttr).roleNeed;
 		if (shapes != null && !shapes.isEmpty()
 				&& !shapes.contains(RolePropConf.getShapeidByXshapeid(shape))) {
-			return EquipError.SHAPE_NOT_SUIT;
+			return PetEquipError.SHAPE_NOT_SUIT;
 		}
 
 		if (roleLevel < requirelevel)
-			return EquipError.LEVEL_NOT_SUIT;
+			return PetEquipError.LEVEL_NOT_SUIT;
 		if (!isNeedSex(rolesex))
-			return EquipError.SEX_NOT_SUIT;
+			return PetEquipError.SEX_NOT_SUIT;
 		if (!isNeedSchool(school))
-			return EquipError.SCHOOL_NOT_SUIT;
+			return PetEquipError.SCHOOL_NOT_SUIT;
 		
-		return EquipError.NO_ERROR;
+		return PetEquipError.NO_ERROR;
 	}
 
 	public Map<Integer, Integer> getBaseAttr() {
@@ -194,8 +194,8 @@ public abstract class PetEquipItem extends ItemBase {
 	};
 
 	@Override
-	public EquipItemShuXing getItemAttr() {
-		return (EquipItemShuXing) itemAttr;
+	public PetEquipItemShuXing getItemAttr() {
+		return (PetEquipItemShuXing) itemAttr;
 	}
 
 	@Override
@@ -302,7 +302,7 @@ public abstract class PetEquipItem extends ItemBase {
 	}
 
 	private boolean isNeedSex(int rolesex) {
-		int needSex = ((EquipItemShuXing) itemAttr).needSex;
+		int needSex = ((PetEquipItemShuXing) itemAttr).needSex;
 		if (needSex == 0)
 			return true;
 		return rolesex == needSex;
@@ -445,7 +445,7 @@ public abstract class PetEquipItem extends ItemBase {
 		} else {
 			equipAttr.setEndure(endure);
 		}
-		if (getPackId() == BagTypes.EQUIP) {
+		if (getPackId() == BagTypes.PETEQUIP) {
 			if (oldendure <= 0 && equipAttr.getEndure() > 0) {
 				resumeEffect();
 			} else if (oldendure > 0 && equipAttr.getEndure() <= 0) {
@@ -472,7 +472,7 @@ public abstract class PetEquipItem extends ItemBase {
 	}
 
 	public void setEquipEndure() {
-		EquipItemShuXing equipAttr = (EquipItemShuXing) itemAttr;
+		PetEquipItemShuXing equipAttr = (PetEquipItemShuXing) itemAttr;
 		getEquipAttr().setEndure(equipAttr.getMaxnaijiu());
 		getEquipAttr().setCurmaxendure(equipAttr.getMaxnaijiu());
 		getEquipAttr().setMaxendure(equipAttr.getMaxnaijiu());
