@@ -416,7 +416,7 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 		} else {
 			throw new IllegalArgumentException("物品log日志类型异常");
 		}
-		if(itemclassname == "EquipItem"){
+		//if(itemclassname == "EquipItem"){
 			if (item instanceof EquipItem) {
 				EquipItem eItem = (EquipItem) item;
 				int endure = ((EquipItemShuXing) eItem.getItemAttr()).maxnaijiu;
@@ -435,8 +435,8 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 					eItem.getEquipAttr().setTreasure(0);
 
 			}
-		}
-		else if(itemclassname == "PetEquipItem"){
+		//}
+		//else if(itemclassname == "PetEquipItem"){
 			if (item instanceof PetEquipItem) {
 				PetEquipItem eItem = (PetEquipItem) item;
 				int endure = ((PetEquipItemShuXing) eItem.getItemAttr()).maxnaijiu;
@@ -455,7 +455,7 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 					eItem.getEquipAttr().setTreasure(0);
 
 			}
-		}
+		//}
 
 		return item;
 	}

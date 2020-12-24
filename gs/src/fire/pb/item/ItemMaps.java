@@ -275,17 +275,14 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 		this.readonly = readonly;
 		this.roleId = roleId;
 		conf = Module.getInstance().getItemManager().getPackCfg(getPackid());
-		logger.error("TEST ITEMAMPS----------------11-\t" + getPackid());
 		if(conf == null)
 		{
 			logger.error("RECV ITEMAMPS-----------------\t" + getPackid());
 		}
 		final mkdb.TTable<Long, xbean.Bag> table = (mkdb.TTable<Long, xbean.Bag>) mkdb.Mkdb
 				.getInstance().getTables().getTable(conf.tablename);
-		logger.error("TEST ITEMAMPS----------------33-\t" + getPackid());
 		if (table == null)
 			throw new RuntimeException("未找到table=" + conf.tablename);
-		logger.error("TEST ITEMAMPS----------------44-\t" + getPackid());
 		final xbean.Bag myPack;
 		if (readonly) {
 			myPack = table.select(roleId,
@@ -298,7 +295,6 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 		} else {
 			myPack = table.get(roleId);
 		}
-		logger.error("TEST ITEMAMPS----------------55-\t" + getPackid());
 		if (myPack == null) {
 			if (readonly)
 				pack = xbean.Pod.newBagData();
@@ -504,7 +500,7 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 		final int addNum = getItemHasNum(roleId, itemId);
 		fire.log.beans.ItemBean itemBean = new fire.log.beans.ItemBean(itemId, num, addNum);
 		fire.log.YYLogger.OpItemGetLog(roleId, itemBean, counterType);
-		Module.logger.info(new StringBuffer().append("roleId:").append(roleId)
+		Module.logger.error(new StringBuffer().append("roleId:").append(roleId)
 				.append(" 添加物品:").append(itemId).append(" 数量:").append(num).append(" 添加后数量:").append(addNum)
 				.append(" 类型:").append(counterType).append(" 理由:")
 				.append(reason));
@@ -582,7 +578,7 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 		if (key == 0)
 			return false;
 		final long oldowner = ib.getOwnerid();
-
+		logger.error("TEST ITEMAMPS------2305----------11-\t" + getPackid());
 		ib.setKey(key);
 		ib.setOwnerid(roleId);
 		ib.setPackId(getPackid());
@@ -596,6 +592,7 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 			send.packid = getPackid();
 			send.data.add(xItem2Item(ib.itemData, key,
 					roleId == oldowner ? 0 : 1));
+			logger.error("TEST ITEMAMPS------2305---------send msg-11-\t" + getPackid());
 			mkdb.Transaction.tsendWhileCommit(roleId, send);
 		}
 
