@@ -4,13 +4,13 @@ import fire.pb.item.PetEquipItem;
 import fire.pb.item.PetEquipItemType;
 import fire.pb.item.ItemMgr;
 
-public class ClothesItem extends PetEquipItem implements IEquipType {
+public class ClothItem extends PetEquipItem implements IEquipType {
 
-	public ClothesItem(ItemMgr im, int itemid) {
+	public ClothItem(ItemMgr im, int itemid) {
 		super(im, itemid);
 	}
 	
-	public ClothesItem(ItemMgr im, xbean.Item item ) {
+	public ClothItem(ItemMgr im, xbean.Item item ) {
 		super(im, item );
 	}
 	
