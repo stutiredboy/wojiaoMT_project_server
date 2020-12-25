@@ -50,4 +50,11 @@
       <classname>fire.pb.item.gemItemShuXing</classname>
     </fire.pb.item.ItemClassConfig>
   </entry>
+  <entry>
+    <int>8</int>
+    <fire.pb.item.ItemClassConfig>
+      <id>8</id>
+      <classname>fire.pb.item.PetEquipItemShuXing</classname>
+    </fire.pb.item.ItemClassConfig>
+  </entry>
 </tree-map>
