@@ -1733,4 +1733,46 @@
       <pctLimit>10.0</pctLimit>
     </fire.pb.effect.SAttrEffectID2Name>
   </entry>
+  <entry>
+    <int>1440</int>
+    <fire.pb.effect.SAttrEffectID2Name>
+      <id>1440</id>
+      <classname>宠物攻击资质</classname>
+      <attrname>zizhi</attrname>
+      <initValue>0</initValue>
+      <ablEffctId>1441</ablEffctId>
+      <ablEffctName>gongjizz_value</ablEffctName>
+      <pctEffctId>3002</pctEffctId>
+      <pctEffctName>test_1</pctEffctName>
+      <pctLimit>10</pctLimit>
+    </fire.pb.effect.SAttrEffectID2Name>
+  </entry>
+  <entry>
+    <int>1450</int>
+    <fire.pb.effect.SAttrEffectID2Name>
+      <id>1450</id>
+      <classname>宠物防御资质</classname>
+      <attrname>fangyu</attrname>
+      <initValue>0</initValue>
+      <ablEffctId>1451</ablEffctId>
+      <ablEffctName>fangyuzz_value</ablEffctName>
+      <pctEffctId>3002</pctEffctId>
+      <pctEffctName>test_2</pctEffctName>
+      <pctLimit>10</pctLimit>
+    </fire.pb.effect.SAttrEffectID2Name>
+  </entry>
+  <entry>
+    <int>1480</int>
+    <fire.pb.effect.SAttrEffectID2Name>
+      <id>1480</id>
+      <classname>宠物速度资质</classname>
+      <attrname>sudu</attrname>
+      <initValue>0</initValue>
+      <ablEffctId>1481</ablEffctId>
+      <ablEffctName>suduzz_value</ablEffctName>
+      <pctEffctId>3002</pctEffctId>
+      <pctEffctName>test_3</pctEffctName>
+      <pctLimit>10</pctLimit>
+    </fire.pb.effect.SAttrEffectID2Name>
+  </entry>
 </tree-map>
