@@ -622,7 +622,7 @@
       <initlevel>0</initlevel>
       <kind>3</kind>
       <life>10000</life>
-      <shape>2010115</shape>
+      <shape>1110114</shape>
       <SellPetIcon>32000</SellPetIcon>
       <attackaptmin>1320</attackaptmin>
       <attackaptmax>1584</attackaptmax>
@@ -1254,7 +1254,7 @@
       <initlevel>0</initlevel>
       <kind>3</kind>
       <life>10000</life>
-      <shape>2010119</shape>
+      <shape>1010119</shape>
       <SellPetIcon>32000</SellPetIcon>
       <attackaptmin>1393</attackaptmin>
       <attackaptmax>1671</attackaptmax>
@@ -1295,7 +1295,7 @@
             <rate>333</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207013</skillid>
+            <skillid>207010</skillid>
             <rate>333</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -1372,7 +1372,7 @@
             <rate>333</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207013</skillid>
+            <skillid>207010</skillid>
             <rate>333</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -17267,7 +17267,7 @@
       <initlevel>38</initlevel>
       <kind>1</kind>
       <life>10000</life>
-      <shape>2010117</shape>
+      <shape>1530085</shape>
       <SellPetIcon>32000</SellPetIcon>
       <attackaptmin>950</attackaptmin>
       <attackaptmax>1140</attackaptmax>
@@ -17347,7 +17347,7 @@
       <initlevel>0</initlevel>
       <kind>3</kind>
       <life>10000</life>
-      <shape>2010174</shape>
+      <shape>1530085</shape>
       <SellPetIcon>32000</SellPetIcon>
       <attackaptmin>1025</attackaptmin>
       <attackaptmax>1231</attackaptmax>
@@ -29639,7 +29639,7 @@
     <int>530157</int>
     <fire.pb.pet.PetAttr>
       <id>530157</id>
-      <name>花灵</name>
+      <name>仙缘@花灵</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -29681,11 +29681,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207160</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -29720,7 +29720,7 @@
     <int>530158</int>
     <fire.pb.pet.PetAttr>
       <id>530158</id>
-      <name>涂山雪</name>
+      <name>仙缘@涂山雪</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -29762,11 +29762,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207162</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -29801,7 +29801,7 @@
     <int>530159</int>
     <fire.pb.pet.PetAttr>
       <id>530159</id>
-      <name>月魅</name>
+      <name>仙缘@月魅</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -29843,11 +29843,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207164</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -29882,7 +29882,7 @@
     <int>530160</int>
     <fire.pb.pet.PetAttr>
       <id>530160</id>
-      <name>月影仙</name>
+      <name>仙缘@月影仙</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -29924,11 +29924,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207166</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -29963,7 +29963,7 @@
     <int>530161</int>
     <fire.pb.pet.PetAttr>
       <id>530161</id>
-      <name>云游火</name>
+      <name>仙缘@云游火</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -30005,11 +30005,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207163</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -30044,7 +30044,7 @@
     <int>530162</int>
     <fire.pb.pet.PetAttr>
       <id>530162</id>
-      <name>变异花灵</name>
+      <name>仙缘@变异花灵</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -30086,11 +30086,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207160</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -30125,7 +30125,7 @@
     <int>530163</int>
     <fire.pb.pet.PetAttr>
       <id>530163</id>
-      <name>变异涂山雪</name>
+      <name>仙缘@变异涂山雪</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -30167,11 +30167,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207162</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -30206,7 +30206,7 @@
     <int>530164</int>
     <fire.pb.pet.PetAttr>
       <id>530164</id>
-      <name>变异月魅</name>
+      <name>仙缘@变异月魅</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -30248,11 +30248,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207164</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -30287,7 +30287,7 @@
     <int>530165</int>
     <fire.pb.pet.PetAttr>
       <id>530165</id>
-      <name>变异月影仙</name>
+      <name>仙缘@变异月影仙</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -30329,11 +30329,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207166</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -30368,7 +30368,7 @@
     <int>530166</int>
     <fire.pb.pet.PetAttr>
       <id>530166</id>
-      <name>变异云游火</name>
+      <name>仙缘@变异云游火</name>
       <colour>FFff46f0</colour>
       <quality>4</quality>
       <unusualid>1</unusualid>
@@ -30410,11 +30410,11 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>206029</skillid>
+            <skillid>207163</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
-            <skillid>207083</skillid>
+            <skillid>207165</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -30470,11 +30470,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -30557,11 +30552,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -30644,11 +30634,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -30731,11 +30716,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -30818,11 +30798,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -30905,11 +30880,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -30992,11 +30962,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31079,11 +31044,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31166,11 +31126,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31253,11 +31208,6 @@
       <magicaptmax>2800</magicaptmax>
       <speedaptmin>1350</speedaptmin>
       <speedaptmax>1350</speedaptmax>
-      <attackaptconst>1500</attackaptconst>
-      <defendaptconst>1500</defendaptconst>
-      <phyforceaptconst>4950</phyforceaptconst>
-      <magicaptconst>2800</magicaptconst>
-      <speedaptconst>1350</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31340,11 +31290,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31427,11 +31372,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31514,11 +31454,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31541,7 +31476,7 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>207013</skillid>
+            <skillid>207010</skillid>
             <rate>1000</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -31601,11 +31536,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31688,11 +31618,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31775,11 +31700,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31862,11 +31782,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -31949,11 +31864,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32036,11 +31946,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32123,11 +32028,6 @@
       <magicaptmax>3000</magicaptmax>
       <speedaptmin>1400</speedaptmin>
       <speedaptmax>1400</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1600</defendaptconst>
-      <phyforceaptconst>5400</phyforceaptconst>
-      <magicaptconst>3000</magicaptconst>
-      <speedaptconst>1400</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32210,11 +32110,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>6</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32302,11 +32197,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32394,11 +32284,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>5</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32486,11 +32371,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32578,11 +32458,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>16</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32670,11 +32545,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>6.66</healgrow>
       <ctrlhitgrow>11</ctrlhitgrow>
       <ctrlresistgrow>11</ctrlresistgrow>
@@ -32762,11 +32632,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32854,11 +32719,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -32946,11 +32806,6 @@
       <magicaptmax>3800</magicaptmax>
       <speedaptmin>1650</speedaptmin>
       <speedaptmax>1650</speedaptmax>
-      <attackaptconst>2100</attackaptconst>
-      <defendaptconst>1900</defendaptconst>
-      <phyforceaptconst>6500</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>1650</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -33038,11 +32893,6 @@
       <magicaptmax>1500</magicaptmax>
       <speedaptmin>1000</speedaptmin>
       <speedaptmax>1000</speedaptmax>
-      <attackaptconst>1000</attackaptconst>
-      <defendaptconst>1000</defendaptconst>
-      <phyforceaptconst>1000</phyforceaptconst>
-      <magicaptconst>1000</magicaptconst>
-      <speedaptconst>1000</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -33104,7 +32954,7 @@
     <int>999984</int>
     <fire.pb.pet.PetAttr>
       <id>999984</id>
-      <name>六耳猕猴</name>
+      <name>仙缘@六耳猕猴</name>
       <colour>FFff5901</colour>
       <quality>5</quality>
       <unusualid>2</unusualid>
@@ -33125,11 +32975,6 @@
       <magicaptmax>2500</magicaptmax>
       <speedaptmin>1550</speedaptmin>
       <speedaptmax>1550</speedaptmax>
-      <attackaptconst>1940</attackaptconst>
-      <defendaptconst>1700</defendaptconst>
-      <phyforceaptconst>6000</phyforceaptconst>
-      <magicaptconst>2500</magicaptconst>
-      <speedaptconst>1550</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -33192,7 +33037,7 @@
     <int>999985</int>
     <fire.pb.pet.PetAttr>
       <id>999985</id>
-      <name>齐天大圣</name>
+      <name>仙缘@齐天大圣</name>
       <colour>FFff5901</colour>
       <quality>5</quality>
       <unusualid>2</unusualid>
@@ -33213,11 +33058,6 @@
       <magicaptmax>3300</magicaptmax>
       <speedaptmin>1550</speedaptmin>
       <speedaptmax>1550</speedaptmax>
-      <attackaptconst>1600</attackaptconst>
-      <defendaptconst>1650</defendaptconst>
-      <phyforceaptconst>6000</phyforceaptconst>
-      <magicaptconst>3300</magicaptconst>
-      <speedaptconst>1550</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -33280,7 +33120,7 @@
     <int>999986</int>
     <fire.pb.pet.PetAttr>
       <id>999986</id>
-      <name>谛听</name>
+      <name>仙缘@谛听</name>
       <colour>FFff5901</colour>
       <quality>5</quality>
       <unusualid>1</unusualid>
@@ -33297,15 +33137,10 @@
       <defendaptmax>1700</defendaptmax>
       <phyforceaptmin>6000</phyforceaptmin>
       <phyforceaptmax>6000</phyforceaptmax>
-      <magicaptmin>2500</magicaptmin>
-      <magicaptmax>2500</magicaptmax>
+      <magicaptmin>3000</magicaptmin>
+      <magicaptmax>3000</magicaptmax>
       <speedaptmin>1550</speedaptmin>
       <speedaptmax>1550</speedaptmax>
-      <attackaptconst>1940</attackaptconst>
-      <defendaptconst>1700</defendaptconst>
-      <phyforceaptconst>6000</phyforceaptconst>
-      <magicaptconst>2500</magicaptconst>
-      <speedaptconst>1550</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -33328,7 +33163,7 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>207090</skillid>
+            <skillid>207174</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -33368,7 +33203,7 @@
     <int>999987</int>
     <fire.pb.pet.PetAttr>
       <id>999987</id>
-      <name>进阶谛听</name>
+      <name>仙缘@进阶谛听</name>
       <colour>FFff5901</colour>
       <quality>5</quality>
       <unusualid>1</unusualid>
@@ -33389,11 +33224,6 @@
       <magicaptmax>3300</magicaptmax>
       <speedaptmin>1800</speedaptmin>
       <speedaptmax>1800</speedaptmax>
-      <attackaptconst>2000</attackaptconst>
-      <defendaptconst>2000</defendaptconst>
-      <phyforceaptconst>6000</phyforceaptconst>
-      <magicaptconst>3300</magicaptconst>
-      <speedaptconst>1800</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -33416,7 +33246,7 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>207090</skillid>
+            <skillid>207174</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -33440,7 +33270,7 @@
       <initPointAssignType>1</initPointAssignType>
       <washitemid>1</washitemid>
       <washitemnum>1</washitemnum>
-      <washnewpetid>999986@997;999987@3</washnewpetid>
+      <washnewpetid>999987@1000</washnewpetid>
       <certificationcost>1834001</certificationcost>
       <cancelcertificationcost>1000001</cancelcertificationcost>
       <treasureScore>1</treasureScore>
@@ -33456,7 +33286,7 @@
     <int>999988</int>
     <fire.pb.pet.PetAttr>
       <id>999988</id>
-      <name>独家赞助宝宝</name>
+      <name>仙缘独家赞助宝宝</name>
       <colour>FFff5901</colour>
       <quality>5</quality>
       <unusualid>1</unusualid>
@@ -33477,11 +33307,6 @@
       <magicaptmax>3500</magicaptmax>
       <speedaptmin>2000</speedaptmin>
       <speedaptmax>2000</speedaptmax>
-      <attackaptconst>2200</attackaptconst>
-      <defendaptconst>2200</defendaptconst>
-      <phyforceaptconst>6200</phyforceaptconst>
-      <magicaptconst>3500</magicaptconst>
-      <speedaptconst>2000</speedaptconst>
       <healgrow>3</healgrow>
       <ctrlhitgrow>10</ctrlhitgrow>
       <ctrlresistgrow>10</ctrlresistgrow>
@@ -33504,7 +33329,90 @@
       </addpoint>
       <skills>
           <fire.pb.pet.SkillRate>
-            <skillid>207090</skillid>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>999988@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888888</int>
+    <fire.pb.pet.PetAttr>
+      <id>888888</id>
+      <name>染色赞助（物）8888非卖品</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1530088</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207091</skillid>
             <rate>1001</rate>
           </fire.pb.pet.SkillRate>
           <fire.pb.pet.SkillRate>
@@ -33528,7 +33436,1168 @@
       <initPointAssignType>1</initPointAssignType>
       <washitemid>1</washitemid>
       <washitemnum>1</washitemnum>
-      <washnewpetid>999988@1000</washnewpetid>
+      <washnewpetid>888888@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888889</int>
+    <fire.pb.pet.PetAttr>
+      <id>888889</id>
+      <name>染色赞助（法）8888非卖品</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1530088</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888889@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888890</int>
+    <fire.pb.pet.PetAttr>
+      <id>888890</id>
+      <name>染色赞助宝宝8888非卖品</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207091</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207083</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207093</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207189</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206020</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888890@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888891</int>
+    <fire.pb.pet.PetAttr>
+      <id>888891</id>
+      <name>染色赞助宝宝8888非卖品</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888891@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888892</int>
+    <fire.pb.pet.PetAttr>
+      <id>888892</id>
+      <name>首充小谛听</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>2</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>4</kind>
+      <life>-1</life>
+      <shape>1530096</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>1500</attackaptmin>
+      <attackaptmax>1500</attackaptmax>
+      <defendaptmin>1500</defendaptmin>
+      <defendaptmax>1500</defendaptmax>
+      <phyforceaptmin>4950</phyforceaptmin>
+      <phyforceaptmax>4950</phyforceaptmax>
+      <magicaptmin>2800</magicaptmin>
+      <magicaptmax>2800</magicaptmax>
+      <speedaptmin>1350</speedaptmin>
+      <speedaptmax>1350</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>1300</int>
+        <int>1300</int>
+        <int>1300</int>
+        <int>1300</int>
+        <int>1300</int>
+        <int>1300</int>
+        <int>1300</int>
+      </growrate>
+      <growrateconst>1300</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207090</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206043</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206046</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206050</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206040</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>100</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888892@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888893</int>
+    <fire.pb.pet.PetAttr>
+      <id>888893</id>
+      <name>仙缘独家赞助宝宝评分</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>4</kind>
+      <life>-1</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2350</attackaptmin>
+      <attackaptmax>2350</attackaptmax>
+      <defendaptmin>2350</defendaptmin>
+      <defendaptmax>2350</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3800</magicaptmin>
+      <magicaptmax>3800</magicaptmax>
+      <speedaptmin>2150</speedaptmin>
+      <speedaptmax>2150</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+      </growrate>
+      <growrateconst>3150</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888893@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888894</int>
+    <fire.pb.pet.PetAttr>
+      <id>888894</id>
+      <name>染色赞助（物）8888非卖品评分</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1530088</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207091</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888894@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888895</int>
+    <fire.pb.pet.PetAttr>
+      <id>888895</id>
+      <name>染色赞助（法）8888非卖品评分</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1530088</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888895@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888896</int>
+    <fire.pb.pet.PetAttr>
+      <id>888896</id>
+      <name>染色赞助宝宝8888非卖品评分</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207091</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888896@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888897</int>
+    <fire.pb.pet.PetAttr>
+      <id>888897</id>
+      <name>染色赞助宝宝8888非卖品评分</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207161</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207162</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888897@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888898</int>
+    <fire.pb.pet.PetAttr>
+      <id>888898</id>
+      <name>仙缘独家赞助宝宝实用</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>4</kind>
+      <life>-1</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2350</attackaptmin>
+      <attackaptmax>2350</attackaptmax>
+      <defendaptmin>2350</defendaptmin>
+      <defendaptmax>2350</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3800</magicaptmin>
+      <magicaptmax>3800</magicaptmax>
+      <speedaptmin>2150</speedaptmin>
+      <speedaptmax>2150</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+        <int>3150</int>
+      </growrate>
+      <growrateconst>3150</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206093</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207188</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888898@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888899</int>
+    <fire.pb.pet.PetAttr>
+      <id>888899</id>
+      <name>染色赞助（物）8888非卖品实用</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1530088</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207091</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206077</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206075</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206078</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206079</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888899@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888900</int>
+    <fire.pb.pet.PetAttr>
+      <id>888900</id>
+      <name>染色赞助（法）8888非卖品实用</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1530088</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206093</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207188</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888900@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888901</int>
+    <fire.pb.pet.PetAttr>
+      <id>888901</id>
+      <name>染色赞助宝宝8888非卖品实用</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207091</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206077</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206075</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206078</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206079</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888901@1000</washnewpetid>
+      <certificationcost>1834001</certificationcost>
+      <cancelcertificationcost>1000001</cancelcertificationcost>
+      <treasureScore>1</treasureScore>
+      <treasureskillnums>1</treasureskillnums>
+      <washcount>206</washcount>
+      <colorselect>1001,0;1002,0;1003,0</colorselect>
+      <marketfreezetime>30</marketfreezetime>
+      <isbindskill1>1</isbindskill1>
+      <recovercost>1000</recovercost>
+    </fire.pb.pet.PetAttr>
+  </entry>
+  <entry>
+    <int>888902</int>
+    <fire.pb.pet.PetAttr>
+      <id>888902</id>
+      <name>染色赞助宝宝8888非卖品实用</name>
+      <colour>FFff5901</colour>
+      <quality>5</quality>
+      <unusualid>1</unusualid>
+      <uselevel>35</uselevel>
+      <takelevel>1</takelevel>
+      <initlevel>0</initlevel>
+      <kind>3</kind>
+      <life>10000</life>
+      <shape>1020120</shape>
+      <SellPetIcon>32000</SellPetIcon>
+      <attackaptmin>2500</attackaptmin>
+      <attackaptmax>2500</attackaptmax>
+      <defendaptmin>2500</defendaptmin>
+      <defendaptmax>2500</defendaptmax>
+      <phyforceaptmin>6650</phyforceaptmin>
+      <phyforceaptmax>6650</phyforceaptmax>
+      <magicaptmin>3850</magicaptmin>
+      <magicaptmax>3850</magicaptmax>
+      <speedaptmin>2300</speedaptmin>
+      <speedaptmax>2300</speedaptmax>
+      <healgrow>3</healgrow>
+      <ctrlhitgrow>10</ctrlhitgrow>
+      <ctrlresistgrow>10</ctrlresistgrow>
+      <growrate>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+        <int>3200</int>
+      </growrate>
+      <growrateconst>3200</growrateconst>
+      <addpoint>
+        <int>1</int>
+        <int>0</int>
+        <int>4</int>
+        <int>0</int>
+        <int>0</int>
+      </addpoint>
+      <skills>
+          <fire.pb.pet.SkillRate>
+            <skillid>207174</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207160</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207163</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>206093</skillid>
+            <rate>1001</rate>
+          </fire.pb.pet.SkillRate>
+          <fire.pb.pet.SkillRate>
+            <skillid>207188</skillid>
+            <rate>1000</rate>
+          </fire.pb.pet.SkillRate>
+      </skills>
+      <initPoint>1000</initPoint>
+      <initPointAssignType>1</initPointAssignType>
+      <washitemid>1</washitemid>
+      <washitemnum>1</washitemnum>
+      <washnewpetid>888902@1000</washnewpetid>
       <certificationcost>1834001</certificationcost>
       <cancelcertificationcost>1000001</cancelcertificationcost>
       <treasureScore>1</treasureScore>

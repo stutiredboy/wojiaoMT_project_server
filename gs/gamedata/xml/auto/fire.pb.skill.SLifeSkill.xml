@@ -10,7 +10,8 @@
       <skillType>2</skillType>
       <needGuild>1</needGuild>
       <skillLevelMax>160</skillLevelMax>
-      <studyCostRule>0</studyCostRule>
+      <studyLevelRule>1</studyLevelRule>
+      <studyCostRule>2</studyCostRule>
       <strengthCostRule>1</strengthCostRule>
       <isShow>1</isShow>
       <guidetips>&lt;T t=&quot;能打造出武器，可以在帮派中学习，也可以在&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;&lt;G t=&quot;尹克西&quot; npcid=&quot;10193&quot;&gt;&lt;/G&gt;&lt;T t=&quot;处学习一些基本的打造之术。&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;</guidetips>
@@ -37,7 +38,8 @@
       <skillType>2</skillType>
       <needGuild>1</needGuild>
       <skillLevelMax>160</skillLevelMax>
-      <studyCostRule>0</studyCostRule>
+      <studyLevelRule>1</studyLevelRule>
+      <studyCostRule>2</studyCostRule>
       <strengthCostRule>1</strengthCostRule>
       <isShow>1</isShow>
       <guidetips>&lt;T t=&quot;可以制作腰带、项链以及鞋子，可以在帮派中学习，也可以在&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;&lt;G t=&quot;尹克西&quot; npcid=&quot;10193&quot;&gt;&lt;/G&gt;&lt;T t=&quot;处学习一些基本的巧匠之术。&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;</guidetips>
@@ -64,7 +66,8 @@
       <skillType>2</skillType>
       <needGuild>1</needGuild>
       <skillLevelMax>160</skillLevelMax>
-      <studyCostRule>0</studyCostRule>
+      <studyLevelRule>1</studyLevelRule>
+      <studyCostRule>2</studyCostRule>
       <strengthCostRule>1</strengthCostRule>
       <isShow>1</isShow>
       <guidetips>&lt;T t=&quot;可以制造出衣服和护腕，可以在帮派中学习，也可以在&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;&lt;G t=&quot;尹克西&quot; npcid=&quot;10193&quot;&gt;&lt;/G&gt;&lt;T t=&quot;处学习一些基本的裁缝之术。&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;</guidetips>
@@ -334,7 +337,8 @@
       <skillType>2</skillType>
       <needGuild>1</needGuild>
       <skillLevelMax>160</skillLevelMax>
-      <studyCostRule>0</studyCostRule>
+      <studyLevelRule>1</studyLevelRule>
+      <studyCostRule>2</studyCostRule>
       <strengthCostRule>2</strengthCostRule>
       <isShow>1</isShow>
       <guidetips>&lt;T t=&quot;能炼制出神秘的药品，可以在帮派中学习，也可以在&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;&lt;G t=&quot;尹克西&quot; npcid=&quot;10193&quot;&gt;&lt;/G&gt;&lt;T t=&quot;处学习一些基本的炼药之术。&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;</guidetips>
@@ -361,7 +365,8 @@
       <skillType>2</skillType>
       <needGuild>1</needGuild>
       <skillLevelMax>160</skillLevelMax>
-      <studyCostRule>0</studyCostRule>
+      <studyLevelRule>1</studyLevelRule>
+      <studyCostRule>2</studyCostRule>
       <strengthCostRule>2</strengthCostRule>
       <isShow>1</isShow>
       <guidetips>&lt;T t=&quot;能制作出美味的食品，可以在帮派中学习，也可以在&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;&lt;G t=&quot;尹克西&quot; npcid=&quot;10193&quot;&gt;&lt;/G&gt;&lt;T t=&quot;处学习一些基本的厨艺。&quot; c=&quot;ffffffff&quot;&gt;&lt;/T&gt;</guidetips>
@@ -388,6 +393,7 @@
       <skillType>2</skillType>
       <needGuild>1</needGuild>
       <skillLevelMax>160</skillLevelMax>
+      <studyLevelRule>1</studyLevelRule>
       <studyCostRule>1</studyCostRule>
       <skillId>100100</skillId>
       <isShow>1</isShow>
@@ -414,6 +420,7 @@
       <skillType>2</skillType>
       <needGuild>1</needGuild>
       <skillLevelMax>160</skillLevelMax>
+      <studyLevelRule>1</studyLevelRule>
       <studyCostRule>1</studyCostRule>
       <skillId>100101</skillId>
       <isShow>1</isShow>

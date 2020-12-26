@@ -61,7 +61,7 @@
     <fire.pb.pet.PetAttrModData>
       <id>160</id>
       <consfactor>0.32</consfactor>
-      <iqfactor>1.8</iqfactor>
+      <iqfactor>0.8</iqfactor>
       <strfactor>0.48</strfactor>
       <endufactor>0.16</endufactor>
       <agifactor>0</agifactor>

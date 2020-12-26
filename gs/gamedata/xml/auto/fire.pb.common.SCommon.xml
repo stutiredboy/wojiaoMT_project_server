@@ -1043,7 +1043,7 @@
     <int>287</int>
     <fire.pb.common.SCommon>
       <id>287</id>
-      <value>88888</value>
+      <value>66</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
@@ -1479,21 +1479,21 @@
     <int>355</int>
     <fire.pb.common.SCommon>
       <id>355</id>
-      <value>70</value>
+      <value>30</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>356</int>
     <fire.pb.common.SCommon>
       <id>356</id>
-      <value>70</value>
+      <value>10</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>
     <int>357</int>
     <fire.pb.common.SCommon>
       <id>357</id>
-      <value>70</value>
+      <value>68</value>
     </fire.pb.common.SCommon>
   </entry>
   <entry>

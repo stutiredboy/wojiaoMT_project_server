@@ -89,7 +89,7 @@
     <int>8</int>
     <fire.pb.item.BagConfig>
       <id>8</id>
-      <sizesize>4</sizesize>
+      <sizesize>5</sizesize>
       <canpile>0</canpile>
       <loginsend>1</loginsend>
       <moveable>0</moveable>

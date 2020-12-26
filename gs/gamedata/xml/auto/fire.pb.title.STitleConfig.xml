@@ -781,14 +781,14 @@
       <id>89</id>
       <chatsee>false</chatsee>
       <availtime>604800</availtime>
-      <titlename>陈橙子测试</titlename>
+      <titlename>恭喜发财测试</titlename>
     </fire.pb.title.STitleConfig>
   </entry>
   <entry>
     <int>100</int>
     <fire.pb.title.STitleConfig>
       <id>100</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛精英组冠军</titlename>
     </fire.pb.title.STitleConfig>
@@ -797,7 +797,7 @@
     <int>101</int>
     <fire.pb.title.STitleConfig>
       <id>101</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛精英组亚军</titlename>
     </fire.pb.title.STitleConfig>
@@ -806,7 +806,7 @@
     <int>102</int>
     <fire.pb.title.STitleConfig>
       <id>102</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛精英组季军</titlename>
     </fire.pb.title.STitleConfig>
@@ -815,7 +815,7 @@
     <int>103</int>
     <fire.pb.title.STitleConfig>
       <id>103</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛精英组第四</titlename>
     </fire.pb.title.STitleConfig>
@@ -824,7 +824,7 @@
     <int>104</int>
     <fire.pb.title.STitleConfig>
       <id>104</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛精英组第五</titlename>
     </fire.pb.title.STitleConfig>
@@ -833,7 +833,7 @@
     <int>105</int>
     <fire.pb.title.STitleConfig>
       <id>105</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛神威组冠军</titlename>
     </fire.pb.title.STitleConfig>
@@ -842,7 +842,7 @@
     <int>106</int>
     <fire.pb.title.STitleConfig>
       <id>106</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛神威组亚军</titlename>
     </fire.pb.title.STitleConfig>
@@ -851,7 +851,7 @@
     <int>107</int>
     <fire.pb.title.STitleConfig>
       <id>107</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛神威组季军</titlename>
     </fire.pb.title.STitleConfig>
@@ -860,7 +860,7 @@
     <int>108</int>
     <fire.pb.title.STitleConfig>
       <id>108</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛神威组第四</titlename>
     </fire.pb.title.STitleConfig>
@@ -869,7 +869,7 @@
     <int>109</int>
     <fire.pb.title.STitleConfig>
       <id>109</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛神威组第五</titlename>
     </fire.pb.title.STitleConfig>
@@ -878,7 +878,7 @@
     <int>110</int>
     <fire.pb.title.STitleConfig>
       <id>110</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛王者组冠军</titlename>
     </fire.pb.title.STitleConfig>
@@ -887,7 +887,7 @@
     <int>111</int>
     <fire.pb.title.STitleConfig>
       <id>111</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛王者组亚军</titlename>
     </fire.pb.title.STitleConfig>
@@ -896,7 +896,7 @@
     <int>112</int>
     <fire.pb.title.STitleConfig>
       <id>112</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛王者组季军</titlename>
     </fire.pb.title.STitleConfig>
@@ -905,7 +905,7 @@
     <int>113</int>
     <fire.pb.title.STitleConfig>
       <id>113</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛王者组第四</titlename>
     </fire.pb.title.STitleConfig>
@@ -914,7 +914,7 @@
     <int>114</int>
     <fire.pb.title.STitleConfig>
       <id>114</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>597600</availtime>
       <titlename>武神坛王者组第五</titlename>
     </fire.pb.title.STitleConfig>
@@ -1096,7 +1096,7 @@
       <id>134</id>
       <chatsee>false</chatsee>
       <availtime>-1</availtime>
-      <titlename>GM</titlename>
+      <titlename>至尊梦幻@GM</titlename>
     </fire.pb.title.STitleConfig>
   </entry>
   <entry>
@@ -1388,12 +1388,57 @@
     </fire.pb.title.STitleConfig>
   </entry>
   <entry>
+    <int>167</int>
+    <fire.pb.title.STitleConfig>
+      <id>167</id>
+      <chatsee>TRUE</chatsee>
+      <availtime>604800</availtime>
+      <titlename>至尊梦幻@武道会季军</titlename>
+    </fire.pb.title.STitleConfig>
+  </entry>
+  <entry>
+    <int>168</int>
+    <fire.pb.title.STitleConfig>
+      <id>168</id>
+      <chatsee>TRUE</chatsee>
+      <availtime>604800</availtime>
+      <titlename>至尊梦幻@武道会冠军</titlename>
+    </fire.pb.title.STitleConfig>
+  </entry>
+  <entry>
+    <int>170</int>
+    <fire.pb.title.STitleConfig>
+      <id>170</id>
+      <chatsee>TRUE</chatsee>
+      <availtime>604800</availtime>
+      <titlename>至尊梦幻@赞助特殊玩家</titlename>
+    </fire.pb.title.STitleConfig>
+  </entry>
+  <entry>
     <int>171</int>
     <fire.pb.title.STitleConfig>
       <id>171</id>
-      <chatsee>false</chatsee>
+      <chatsee>TRUE</chatsee>
       <availtime>604800</availtime>
-      <titlename>名人堂.至尊称号</titlename>
+      <titlename>至尊梦幻@名人堂玩家</titlename>
+    </fire.pb.title.STitleConfig>
+  </entry>
+  <entry>
+    <int>172</int>
+    <fire.pb.title.STitleConfig>
+      <id>172</id>
+      <chatsee>TRUE</chatsee>
+      <availtime>597600</availtime>
+      <titlename>天下第一帮@帮主</titlename>
+    </fire.pb.title.STitleConfig>
+  </entry>
+  <entry>
+    <int>173</int>
+    <fire.pb.title.STitleConfig>
+      <id>173</id>
+      <chatsee>TRUE</chatsee>
+      <availtime>597600</availtime>
+      <titlename>天下第一帮@成员</titlename>
     </fire.pb.title.STitleConfig>
   </entry>
 </tree-map>

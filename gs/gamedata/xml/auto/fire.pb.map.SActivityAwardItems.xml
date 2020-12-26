@@ -7474,21 +7474,45 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200300</id>
       <items>
-        <int>8100114</int>
-        <int>8100115</int>
-        <int>8100116</int>
-        <int>8100117</int>
-        <int>8100118</int>
-        <int>8100119</int>
-        <int>8100220</int>
-        <int>8100221</int>
-        <int>8100322</int>
-        <int>8100323</int>
-        <int>8100424</int>
-        <int>8100525</int>
-        <int>8100626</int>
+        <int>7100101</int>
+        <int>7100102</int>
+        <int>7100103</int>
+        <int>7100104</int>
+        <int>7100105</int>
+        <int>7100106</int>
+        <int>7100107</int>
+        <int>7100108</int>
+        <int>7100109</int>
+        <int>7100110</int>
+        <int>7100111</int>
+        <int>7100112</int>
+        <int>7100113</int>
+        <int>7100114</int>
+        <int>7100115</int>
+        <int>7100116</int>
+        <int>7100117</int>
+        <int>7100118</int>
+        <int>7100207</int>
+        <int>7100208</int>
+        <int>7100309</int>
+        <int>7100310</int>
+        <int>7100411</int>
+        <int>7100512</int>
+        <int>7100613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7510,21 +7534,45 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200301</id>
       <items>
-        <int>8110114</int>
-        <int>8110115</int>
-        <int>8110116</int>
-        <int>8110117</int>
-        <int>8110118</int>
-        <int>8110119</int>
-        <int>8110220</int>
-        <int>8110221</int>
-        <int>8110322</int>
-        <int>8110323</int>
-        <int>8110424</int>
-        <int>8110525</int>
-        <int>8110626</int>
+        <int>7110101</int>
+        <int>7110102</int>
+        <int>7110103</int>
+        <int>7110104</int>
+        <int>7110105</int>
+        <int>7110106</int>
+        <int>7110107</int>
+        <int>7110108</int>
+        <int>7110109</int>
+        <int>7110110</int>
+        <int>7110111</int>
+        <int>7110112</int>
+        <int>7110113</int>
+        <int>7110114</int>
+        <int>7110115</int>
+        <int>7110116</int>
+        <int>7110117</int>
+        <int>7110118</int>
+        <int>7110207</int>
+        <int>7110208</int>
+        <int>7110309</int>
+        <int>7110310</int>
+        <int>7110411</int>
+        <int>7110512</int>
+        <int>7110613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7546,21 +7594,45 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200302</id>
       <items>
-        <int>8120114</int>
-        <int>8120115</int>
-        <int>8120116</int>
-        <int>8120117</int>
-        <int>8120118</int>
-        <int>8120119</int>
-        <int>8120220</int>
-        <int>8120221</int>
-        <int>8120322</int>
-        <int>8120323</int>
-        <int>8120424</int>
-        <int>8120525</int>
-        <int>8120626</int>
+        <int>7120101</int>
+        <int>7120102</int>
+        <int>7120103</int>
+        <int>7120104</int>
+        <int>7120105</int>
+        <int>7120106</int>
+        <int>7120107</int>
+        <int>7120108</int>
+        <int>7120109</int>
+        <int>7120110</int>
+        <int>7120111</int>
+        <int>7120112</int>
+        <int>7120113</int>
+        <int>7120114</int>
+        <int>7120115</int>
+        <int>7120116</int>
+        <int>7120117</int>
+        <int>7120118</int>
+        <int>7120207</int>
+        <int>7120208</int>
+        <int>7120309</int>
+        <int>7120310</int>
+        <int>7120411</int>
+        <int>7120512</int>
+        <int>7120613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7582,21 +7654,45 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200303</id>
       <items>
-        <int>8130114</int>
-        <int>8130115</int>
-        <int>8130116</int>
-        <int>8130117</int>
-        <int>8130118</int>
-        <int>8130119</int>
-        <int>8130220</int>
-        <int>8130221</int>
-        <int>8130322</int>
-        <int>8130323</int>
-        <int>8130424</int>
-        <int>8130525</int>
-        <int>8130626</int>
+        <int>7130101</int>
+        <int>7130102</int>
+        <int>7130103</int>
+        <int>7130104</int>
+        <int>7130105</int>
+        <int>7130106</int>
+        <int>7130107</int>
+        <int>7130108</int>
+        <int>7130109</int>
+        <int>7130110</int>
+        <int>7130111</int>
+        <int>7130112</int>
+        <int>7130113</int>
+        <int>7130114</int>
+        <int>7130115</int>
+        <int>7130116</int>
+        <int>7130117</int>
+        <int>7130118</int>
+        <int>7130207</int>
+        <int>7130208</int>
+        <int>7130309</int>
+        <int>7130310</int>
+        <int>7130411</int>
+        <int>7130512</int>
+        <int>7130613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7618,21 +7714,45 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200304</id>
       <items>
-        <int>8140114</int>
-        <int>8140115</int>
-        <int>8140116</int>
-        <int>8140117</int>
-        <int>8140118</int>
-        <int>8140119</int>
-        <int>8140220</int>
-        <int>8140221</int>
-        <int>8140322</int>
-        <int>8140323</int>
-        <int>8140424</int>
-        <int>8140525</int>
-        <int>8140626</int>
+        <int>7140101</int>
+        <int>7140102</int>
+        <int>7140103</int>
+        <int>7140104</int>
+        <int>7140105</int>
+        <int>7140106</int>
+        <int>7140107</int>
+        <int>7140108</int>
+        <int>7140109</int>
+        <int>7140110</int>
+        <int>7140111</int>
+        <int>7140112</int>
+        <int>7140113</int>
+        <int>7140114</int>
+        <int>7140115</int>
+        <int>7140116</int>
+        <int>7140117</int>
+        <int>7140118</int>
+        <int>7140207</int>
+        <int>7140208</int>
+        <int>7140309</int>
+        <int>7140310</int>
+        <int>7140411</int>
+        <int>7140512</int>
+        <int>7140613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7654,21 +7774,45 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200305</id>
       <items>
-        <int>8150114</int>
-        <int>8150115</int>
-        <int>8150116</int>
-        <int>8150117</int>
-        <int>8150118</int>
-        <int>8150119</int>
-        <int>8150220</int>
-        <int>8150221</int>
-        <int>8150322</int>
-        <int>8150323</int>
-        <int>8150424</int>
-        <int>8150525</int>
-        <int>8150626</int>
+        <int>7150101</int>
+        <int>7150102</int>
+        <int>7150103</int>
+        <int>7150104</int>
+        <int>7150105</int>
+        <int>7150106</int>
+        <int>7150107</int>
+        <int>7150108</int>
+        <int>7150109</int>
+        <int>7150110</int>
+        <int>7150111</int>
+        <int>7150112</int>
+        <int>7150113</int>
+        <int>7150114</int>
+        <int>7150115</int>
+        <int>7150116</int>
+        <int>7150117</int>
+        <int>7150118</int>
+        <int>7150207</int>
+        <int>7150208</int>
+        <int>7150309</int>
+        <int>7150310</int>
+        <int>7150411</int>
+        <int>7150512</int>
+        <int>7150613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7690,24 +7834,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200306</id>
       <items>
-        <int>9100114</int>
-        <int>9100115</int>
-        <int>9100116</int>
-        <int>9100117</int>
-        <int>9100118</int>
-        <int>9100119</int>
-        <int>9100120</int>
-        <int>9100121</int>
-        <int>9100122</int>
-        <int>9100123</int>
-        <int>9100124</int>
-        <int>9100125</int>
-        <int>9100126</int>
-        <int>9100127</int>
-        <int>9100128</int>
-        <int>9100129</int>
+        <int>8100101</int>
+        <int>8100102</int>
+        <int>8100103</int>
+        <int>8100104</int>
+        <int>8100105</int>
+        <int>8100106</int>
+        <int>8100107</int>
+        <int>8100108</int>
+        <int>8100109</int>
+        <int>8100110</int>
+        <int>8100111</int>
+        <int>8100112</int>
+        <int>8100113</int>
+        <int>8100114</int>
+        <int>8100115</int>
+        <int>8100116</int>
+        <int>8100117</int>
+        <int>8100118</int>
+        <int>8100207</int>
+        <int>8100208</int>
+        <int>8100309</int>
+        <int>8100310</int>
+        <int>8100411</int>
+        <int>8100512</int>
+        <int>8100613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7732,24 +7894,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200307</id>
       <items>
-        <int>9110114</int>
-        <int>9110115</int>
-        <int>9110116</int>
-        <int>9110117</int>
-        <int>9110118</int>
-        <int>9110119</int>
-        <int>9110120</int>
-        <int>9110121</int>
-        <int>9110122</int>
-        <int>9110123</int>
-        <int>9110124</int>
-        <int>9110125</int>
-        <int>9110126</int>
-        <int>9110127</int>
-        <int>9110128</int>
-        <int>9110129</int>
+        <int>8110101</int>
+        <int>8110102</int>
+        <int>8110103</int>
+        <int>8110104</int>
+        <int>8110105</int>
+        <int>8110106</int>
+        <int>8110107</int>
+        <int>8110108</int>
+        <int>8110109</int>
+        <int>8110110</int>
+        <int>8110111</int>
+        <int>8110112</int>
+        <int>8110113</int>
+        <int>8110114</int>
+        <int>8110115</int>
+        <int>8110116</int>
+        <int>8110117</int>
+        <int>8110118</int>
+        <int>8110207</int>
+        <int>8110208</int>
+        <int>8110309</int>
+        <int>8110310</int>
+        <int>8110411</int>
+        <int>8110512</int>
+        <int>8110613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7774,24 +7954,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200308</id>
       <items>
-        <int>9120114</int>
-        <int>9120115</int>
-        <int>9120116</int>
-        <int>9120117</int>
-        <int>9120118</int>
-        <int>9120119</int>
-        <int>9120120</int>
-        <int>9120121</int>
-        <int>9120122</int>
-        <int>9120123</int>
-        <int>9120124</int>
-        <int>9120125</int>
-        <int>9120126</int>
-        <int>9120127</int>
-        <int>9120128</int>
-        <int>9120129</int>
+        <int>8120101</int>
+        <int>8120102</int>
+        <int>8120103</int>
+        <int>8120104</int>
+        <int>8120105</int>
+        <int>8120106</int>
+        <int>8120107</int>
+        <int>8120108</int>
+        <int>8120109</int>
+        <int>8120110</int>
+        <int>8120111</int>
+        <int>8120112</int>
+        <int>8120113</int>
+        <int>8120114</int>
+        <int>8120115</int>
+        <int>8120116</int>
+        <int>8120117</int>
+        <int>8120118</int>
+        <int>8120207</int>
+        <int>8120208</int>
+        <int>8120309</int>
+        <int>8120310</int>
+        <int>8120411</int>
+        <int>8120512</int>
+        <int>8120613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7816,24 +8014,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200309</id>
       <items>
-        <int>9100114</int>
-        <int>9100115</int>
-        <int>9100116</int>
-        <int>9100117</int>
-        <int>9100118</int>
-        <int>9100119</int>
-        <int>9100120</int>
-        <int>9100121</int>
-        <int>9100122</int>
-        <int>9100123</int>
-        <int>9100124</int>
-        <int>9100125</int>
-        <int>9100126</int>
-        <int>9100127</int>
-        <int>9100128</int>
-        <int>9100129</int>
+        <int>8130101</int>
+        <int>8130102</int>
+        <int>8130103</int>
+        <int>8130104</int>
+        <int>8130105</int>
+        <int>8130106</int>
+        <int>8130107</int>
+        <int>8130108</int>
+        <int>8130109</int>
+        <int>8130110</int>
+        <int>8130111</int>
+        <int>8130112</int>
+        <int>8130113</int>
+        <int>8130114</int>
+        <int>8130115</int>
+        <int>8130116</int>
+        <int>8130117</int>
+        <int>8130118</int>
+        <int>8130207</int>
+        <int>8130208</int>
+        <int>8130309</int>
+        <int>8130310</int>
+        <int>8130411</int>
+        <int>8130512</int>
+        <int>8130613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7858,24 +8074,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200310</id>
       <items>
-        <int>9110114</int>
-        <int>9110115</int>
-        <int>9110116</int>
-        <int>9110117</int>
-        <int>9110118</int>
-        <int>9110119</int>
-        <int>9110120</int>
-        <int>9110121</int>
-        <int>9110122</int>
-        <int>9110123</int>
-        <int>9110124</int>
-        <int>9110125</int>
-        <int>9110126</int>
-        <int>9110127</int>
-        <int>9110128</int>
-        <int>9110129</int>
+        <int>8140101</int>
+        <int>8140102</int>
+        <int>8140103</int>
+        <int>8140104</int>
+        <int>8140105</int>
+        <int>8140106</int>
+        <int>8140107</int>
+        <int>8140108</int>
+        <int>8140109</int>
+        <int>8140110</int>
+        <int>8140111</int>
+        <int>8140112</int>
+        <int>8140113</int>
+        <int>8140114</int>
+        <int>8140115</int>
+        <int>8140116</int>
+        <int>8140117</int>
+        <int>8140118</int>
+        <int>8140207</int>
+        <int>8140208</int>
+        <int>8140309</int>
+        <int>8140310</int>
+        <int>8140411</int>
+        <int>8140512</int>
+        <int>8140613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7900,24 +8134,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200311</id>
       <items>
-        <int>9120114</int>
-        <int>9120115</int>
-        <int>9120116</int>
-        <int>9120117</int>
-        <int>9120118</int>
-        <int>9120119</int>
-        <int>9120120</int>
-        <int>9120121</int>
-        <int>9120122</int>
-        <int>9120123</int>
-        <int>9120124</int>
-        <int>9120125</int>
-        <int>9120126</int>
-        <int>9120127</int>
-        <int>9120128</int>
-        <int>9120129</int>
+        <int>8150101</int>
+        <int>8150102</int>
+        <int>8150103</int>
+        <int>8150104</int>
+        <int>8150105</int>
+        <int>8150106</int>
+        <int>8150107</int>
+        <int>8150108</int>
+        <int>8150109</int>
+        <int>8150110</int>
+        <int>8150111</int>
+        <int>8150112</int>
+        <int>8150113</int>
+        <int>8150114</int>
+        <int>8150115</int>
+        <int>8150116</int>
+        <int>8150117</int>
+        <int>8150118</int>
+        <int>8150207</int>
+        <int>8150208</int>
+        <int>8150309</int>
+        <int>8150310</int>
+        <int>8150411</int>
+        <int>8150512</int>
+        <int>8150613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7942,24 +8194,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200312</id>
       <items>
-        <int>9130114</int>
-        <int>9130115</int>
-        <int>9130116</int>
-        <int>9130117</int>
-        <int>9130118</int>
-        <int>9130119</int>
-        <int>9130120</int>
-        <int>9130121</int>
-        <int>9130122</int>
-        <int>9130123</int>
-        <int>9130124</int>
-        <int>9130125</int>
-        <int>9130126</int>
-        <int>9130127</int>
-        <int>9130128</int>
-        <int>9130129</int>
+        <int>8160101</int>
+        <int>8160102</int>
+        <int>8160103</int>
+        <int>8160104</int>
+        <int>8160105</int>
+        <int>8160106</int>
+        <int>8160107</int>
+        <int>8160108</int>
+        <int>8160109</int>
+        <int>8160110</int>
+        <int>8160111</int>
+        <int>8160112</int>
+        <int>8160113</int>
+        <int>8160114</int>
+        <int>8160115</int>
+        <int>8160116</int>
+        <int>8160117</int>
+        <int>8160118</int>
+        <int>8160207</int>
+        <int>8160208</int>
+        <int>8160309</int>
+        <int>8160310</int>
+        <int>8160411</int>
+        <int>8160512</int>
+        <int>8160613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -7984,24 +8254,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200313</id>
       <items>
-        <int>9140114</int>
-        <int>9140115</int>
-        <int>9140116</int>
-        <int>9140117</int>
-        <int>9140118</int>
-        <int>9140119</int>
-        <int>9140120</int>
-        <int>9140121</int>
-        <int>9140122</int>
-        <int>9140123</int>
-        <int>9140124</int>
-        <int>9140125</int>
-        <int>9140126</int>
-        <int>9140127</int>
-        <int>9140128</int>
-        <int>9140129</int>
+        <int>8170101</int>
+        <int>8170102</int>
+        <int>8170103</int>
+        <int>8170104</int>
+        <int>8170105</int>
+        <int>8170106</int>
+        <int>8170107</int>
+        <int>8170108</int>
+        <int>8170109</int>
+        <int>8170110</int>
+        <int>8170111</int>
+        <int>8170112</int>
+        <int>8170113</int>
+        <int>8170114</int>
+        <int>8170115</int>
+        <int>8170116</int>
+        <int>8170117</int>
+        <int>8170118</int>
+        <int>8170207</int>
+        <int>8170208</int>
+        <int>8170309</int>
+        <int>8170310</int>
+        <int>8170411</int>
+        <int>8170512</int>
+        <int>8170613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -8026,24 +8314,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200314</id>
       <items>
-        <int>9150114</int>
-        <int>9150115</int>
-        <int>9150116</int>
-        <int>9150117</int>
-        <int>9150118</int>
-        <int>9150119</int>
-        <int>9150120</int>
-        <int>9150121</int>
-        <int>9150122</int>
-        <int>9150123</int>
-        <int>9150124</int>
-        <int>9150125</int>
-        <int>9150126</int>
-        <int>9150127</int>
-        <int>9150128</int>
-        <int>9150129</int>
+        <int>8180101</int>
+        <int>8180102</int>
+        <int>8180103</int>
+        <int>8180104</int>
+        <int>8180105</int>
+        <int>8180106</int>
+        <int>8180107</int>
+        <int>8180108</int>
+        <int>8180109</int>
+        <int>8180110</int>
+        <int>8180111</int>
+        <int>8180112</int>
+        <int>8180113</int>
+        <int>8180114</int>
+        <int>8180115</int>
+        <int>8180116</int>
+        <int>8180117</int>
+        <int>8180118</int>
+        <int>8180207</int>
+        <int>8180208</int>
+        <int>8180309</int>
+        <int>8180310</int>
+        <int>8180411</int>
+        <int>8180512</int>
+        <int>8180613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -8068,24 +8374,42 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200315</id>
       <items>
-        <int>9100114</int>
-        <int>9100115</int>
-        <int>9100116</int>
-        <int>9100117</int>
-        <int>9100118</int>
-        <int>9100119</int>
-        <int>9100120</int>
-        <int>9100121</int>
-        <int>9100122</int>
-        <int>9100123</int>
-        <int>9100124</int>
-        <int>9100125</int>
-        <int>9100126</int>
-        <int>9100127</int>
-        <int>9100128</int>
-        <int>9100129</int>
+        <int>8190101</int>
+        <int>8190102</int>
+        <int>8190103</int>
+        <int>8190104</int>
+        <int>8190105</int>
+        <int>8190106</int>
+        <int>8190107</int>
+        <int>8190108</int>
+        <int>8190109</int>
+        <int>8190110</int>
+        <int>8190111</int>
+        <int>8190112</int>
+        <int>8190113</int>
+        <int>8190114</int>
+        <int>8190115</int>
+        <int>8190116</int>
+        <int>8190117</int>
+        <int>8190118</int>
+        <int>8190207</int>
+        <int>8190208</int>
+        <int>8190309</int>
+        <int>8190310</int>
+        <int>8190411</int>
+        <int>8190512</int>
+        <int>8190613</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -8110,22 +8434,31 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200316</id>
       <items>
-        <int>9110114</int>
-        <int>9110115</int>
-        <int>9110116</int>
-        <int>9110117</int>
-        <int>9110118</int>
-        <int>9110119</int>
-        <int>9110120</int>
-        <int>9110121</int>
-        <int>9110122</int>
-        <int>9110123</int>
-        <int>9110124</int>
-        <int>9110125</int>
-        <int>9110126</int>
-        <int>9110127</int>
-        <int>9110128</int>
-        <int>9110129</int>
+        <int>8200101</int>
+        <int>8200102</int>
+        <int>8200103</int>
+        <int>8200104</int>
+        <int>8200105</int>
+        <int>8200106</int>
+        <int>8200107</int>
+        <int>8200108</int>
+        <int>8200109</int>
+        <int>8200110</int>
+        <int>8200111</int>
+        <int>8200112</int>
+        <int>8200113</int>
+        <int>8200114</int>
+        <int>8200115</int>
+        <int>8200116</int>
+        <int>8200117</int>
+        <int>8200118</int>
+        <int>8200207</int>
+        <int>8200208</int>
+        <int>8200309</int>
+        <int>8200310</int>
+        <int>8200411</int>
+        <int>8200512</int>
+        <int>8200613</int>
       </items>
       <itemsrate>
         <int>100</int>
@@ -8137,165 +8470,6 @@
         <int>100</int>
         <int>100</int>
         <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200317</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200317</id>
-      <items>
-        <int>9120114</int>
-        <int>9120115</int>
-        <int>9120116</int>
-        <int>9120117</int>
-        <int>9120118</int>
-        <int>9120119</int>
-        <int>9120120</int>
-        <int>9120121</int>
-        <int>9120122</int>
-        <int>9120123</int>
-        <int>9120124</int>
-        <int>9120125</int>
-        <int>9120126</int>
-        <int>9120127</int>
-        <int>9120128</int>
-        <int>9120129</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200318</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200318</id>
-      <items>
-        <int>9130114</int>
-        <int>9130115</int>
-        <int>9130116</int>
-        <int>9130117</int>
-        <int>9130118</int>
-        <int>9130119</int>
-        <int>9130120</int>
-        <int>9130121</int>
-        <int>9130122</int>
-        <int>9130123</int>
-        <int>9130124</int>
-        <int>9130125</int>
-        <int>9130126</int>
-        <int>9130127</int>
-        <int>9130128</int>
-        <int>9130129</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200319</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200319</id>
-      <items>
-        <int>9140114</int>
-        <int>9140115</int>
-        <int>9140116</int>
-        <int>9140117</int>
-        <int>9140118</int>
-        <int>9140119</int>
-        <int>9140120</int>
-        <int>9140121</int>
-        <int>9140122</int>
-        <int>9140123</int>
-        <int>9140124</int>
-        <int>9140125</int>
-        <int>9140126</int>
-        <int>9140127</int>
-        <int>9140128</int>
-        <int>9140129</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200320</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200320</id>
-      <items>
-        <int>9150114</int>
-        <int>9150115</int>
-        <int>9150116</int>
-        <int>9150117</int>
-        <int>9150118</int>
-        <int>9150119</int>
-        <int>9150120</int>
-        <int>9150121</int>
-        <int>9150122</int>
-        <int>9150123</int>
-        <int>9150124</int>
-        <int>9150125</int>
-        <int>9150126</int>
-        <int>9150127</int>
-        <int>9150128</int>
-        <int>9150129</int>
-      </items>
-      <itemsrate>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -8820,187 +8994,63 @@
     </fire.pb.map.SActivityAwardItems>
   </entry>
   <entry>
-    <int>200339</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200339</id>
-      <items>
-        <int>9130114</int>
-        <int>9130115</int>
-        <int>9130116</int>
-        <int>9130117</int>
-        <int>9130118</int>
-        <int>9130119</int>
-        <int>9130120</int>
-        <int>9130121</int>
-        <int>9130122</int>
-        <int>9130123</int>
-        <int>9130124</int>
-        <int>9130125</int>
-        <int>9130126</int>
-        <int>9130127</int>
-        <int>9130128</int>
-        <int>9130129</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200340</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200340</id>
-      <items>
-        <int>9140114</int>
-        <int>9140115</int>
-        <int>9140116</int>
-        <int>9140117</int>
-        <int>9140118</int>
-        <int>9140119</int>
-        <int>9140120</int>
-        <int>9140121</int>
-        <int>9140122</int>
-        <int>9140123</int>
-        <int>9140124</int>
-        <int>9140125</int>
-        <int>9140126</int>
-        <int>9140127</int>
-        <int>9140128</int>
-        <int>9140129</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200341</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200341</id>
-      <items>
-        <int>9150114</int>
-        <int>9150115</int>
-        <int>9150116</int>
-        <int>9150117</int>
-        <int>9150118</int>
-        <int>9150119</int>
-        <int>9150120</int>
-        <int>9150121</int>
-        <int>9150122</int>
-        <int>9150123</int>
-        <int>9150124</int>
-        <int>9150125</int>
-        <int>9150126</int>
-        <int>9150127</int>
-        <int>9150128</int>
-        <int>9150129</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200342</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200342</id>
-      <items>
-        <int>9160114</int>
-        <int>9160115</int>
-        <int>9160116</int>
-        <int>9160117</int>
-        <int>9160118</int>
-        <int>9160119</int>
-        <int>9160120</int>
-        <int>9160121</int>
-        <int>9160122</int>
-        <int>9160123</int>
-        <int>9160124</int>
-        <int>9160125</int>
-        <int>9160126</int>
-        <int>9160127</int>
-        <int>9160128</int>
-        <int>9160129</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
     <int>200343</int>
     <fire.pb.map.SActivityAwardItems>
       <id>200343</id>
       <items>
-        <int>312009</int>
-        <int>312010</int>
-        <int>312011</int>
-        <int>312012</int>
-        <int>312013</int>
-        <int>312014</int>
-        <int>312015</int>
+        <int>311190</int>
+        <int>311191</int>
+        <int>311192</int>
+        <int>311193</int>
+        <int>311194</int>
+        <int>311195</int>
+        <int>311196</int>
+        <int>311197</int>
+        <int>311198</int>
+        <int>311199</int>
+        <int>311200</int>
+        <int>311201</int>
+        <int>311202</int>
+        <int>311203</int>
+        <int>311204</int>
+        <int>311205</int>
+        <int>311206</int>
+        <int>311207</int>
+        <int>311208</int>
+        <int>311209</int>
+        <int>311210</int>
+        <int>311211</int>
+        <int>311212</int>
+        <int>311213</int>
+        <int>311214</int>
+        <int>311215</int>
+        <int>311216</int>
+        <int>311217</int>
+        <int>311218</int>
       </items>
       <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
         <int>100</int>
         <int>100</int>
         <int>100</int>
@@ -9065,60 +9115,6 @@
       </items>
       <itemsrate>
         <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200347</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200347</id>
-      <items>
-        <int>333093</int>
-        <int>333094</int>
-        <int>333095</int>
-        <int>333096</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200348</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200348</id>
-      <items>
-        <int>340143</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200349</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200349</id>
-      <items>
-        <int>340144</int>
-      </items>
-      <itemsrate>
-        <int>100</int>
-      </itemsrate>
-    </fire.pb.map.SActivityAwardItems>
-  </entry>
-  <entry>
-    <int>200350</int>
-    <fire.pb.map.SActivityAwardItems>
-      <id>200350</id>
-      <items>
-        <int>340145</int>
-      </items>
-      <itemsrate>
         <int>100</int>
       </itemsrate>
     </fire.pb.map.SActivityAwardItems>
@@ -11768,7 +11764,279 @@
     <fire.pb.map.SActivityAwardItems>
       <id>200447</id>
       <items>
-        <int>340434</int>
+        <int>101000</int>
+        <int>101001</int>
+        <int>101002</int>
+        <int>101003</int>
+        <int>101004</int>
+        <int>101005</int>
+        <int>101006</int>
+        <int>101007</int>
+        <int>101008</int>
+        <int>101009</int>
+      </items>
+      <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+      </itemsrate>
+    </fire.pb.map.SActivityAwardItems>
+  </entry>
+  <entry>
+    <int>200448</int>
+    <fire.pb.map.SActivityAwardItems>
+      <id>200448</id>
+      <items>
+        <int>331176</int>
+        <int>331116</int>
+        <int>331146</int>
+        <int>341116</int>
+        <int>351516</int>
+        <int>351517</int>
+        <int>351518</int>
+        <int>351519</int>
+        <int>351520</int>
+        <int>351521</int>
+        <int>351522</int>
+        <int>351523</int>
+        <int>351524</int>
+        <int>351525</int>
+        <int>351526</int>
+        <int>351527</int>
+        <int>351528</int>
+        <int>351529</int>
+        <int>351530</int>
+        <int>351531</int>
+        <int>340568</int>
+        <int>340569</int>
+        <int>340570</int>
+        <int>340571</int>
+        <int>340572</int>
+        <int>340573</int>
+        <int>340574</int>
+        <int>340575</int>
+        <int>340576</int>
+      </items>
+      <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+      </itemsrate>
+    </fire.pb.map.SActivityAwardItems>
+  </entry>
+  <entry>
+    <int>200449</int>
+    <fire.pb.map.SActivityAwardItems>
+      <id>200449</id>
+      <items>
+        <int>331177</int>
+        <int>331117</int>
+        <int>331147</int>
+        <int>341117</int>
+        <int>351532</int>
+        <int>351533</int>
+        <int>351534</int>
+        <int>351535</int>
+        <int>351536</int>
+        <int>351537</int>
+        <int>351538</int>
+        <int>351539</int>
+        <int>351540</int>
+        <int>351541</int>
+        <int>351542</int>
+        <int>351543</int>
+        <int>351544</int>
+        <int>351545</int>
+        <int>351546</int>
+        <int>351547</int>
+        <int>340577</int>
+        <int>340578</int>
+        <int>340579</int>
+        <int>340580</int>
+        <int>340581</int>
+        <int>340582</int>
+        <int>340583</int>
+        <int>340584</int>
+        <int>340585</int>
+      </items>
+      <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+      </itemsrate>
+    </fire.pb.map.SActivityAwardItems>
+  </entry>
+  <entry>
+    <int>200450</int>
+    <fire.pb.map.SActivityAwardItems>
+      <id>200450</id>
+      <items>
+        <int>331178</int>
+        <int>331118</int>
+        <int>331148</int>
+        <int>341118</int>
+        <int>351548</int>
+        <int>351549</int>
+        <int>351550</int>
+        <int>351551</int>
+        <int>351552</int>
+        <int>351553</int>
+        <int>351554</int>
+        <int>351555</int>
+        <int>351556</int>
+        <int>351557</int>
+        <int>351558</int>
+        <int>351559</int>
+        <int>351560</int>
+        <int>351561</int>
+        <int>351562</int>
+        <int>351563</int>
+        <int>340586</int>
+        <int>340587</int>
+        <int>340588</int>
+        <int>340589</int>
+        <int>340590</int>
+        <int>340591</int>
+        <int>340592</int>
+        <int>340593</int>
+        <int>340594</int>
+      </items>
+      <itemsrate>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+        <int>100</int>
+      </itemsrate>
+    </fire.pb.map.SActivityAwardItems>
+  </entry>
+  <entry>
+    <int>200451</int>
+    <fire.pb.map.SActivityAwardItems>
+      <id>200451</id>
+      <items>
+        <int>335040</int>
+      </items>
+      <itemsrate>
+        <int>100</int>
+      </itemsrate>
+    </fire.pb.map.SActivityAwardItems>
+  </entry>
+  <entry>
+    <int>200452</int>
+    <fire.pb.map.SActivityAwardItems>
+      <id>200452</id>
+      <items>
+        <int>340618</int>
+      </items>
+      <itemsrate>
+        <int>100</int>
+      </itemsrate>
+    </fire.pb.map.SActivityAwardItems>
+  </entry>
+  <entry>
+    <int>200453</int>
+    <fire.pb.map.SActivityAwardItems>
+      <id>200453</id>
+      <items>
+        <int>339002</int>
+        <int>339001</int>
+      </items>
+      <itemsrate>
+        <int>100</int>
+        <int>100</int>
+      </itemsrate>
+    </fire.pb.map.SActivityAwardItems>
+  </entry>
+  <entry>
+    <int>200454</int>
+    <fire.pb.map.SActivityAwardItems>
+      <id>200454</id>
+      <items>
+        <int>340453</int>
       </items>
       <itemsrate>
         <int>100</int>

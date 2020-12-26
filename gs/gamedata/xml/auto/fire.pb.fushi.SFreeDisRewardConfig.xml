@@ -53,13 +53,61 @@
     <int>340444</int>
     <fire.pb.fushi.SFreeDisRewardConfig>
       <id>340444</id>
-      <name>原石礼包</name>
+      <name>新手神兽自选礼包</name>
       <itemids>
         <int>340443</int>
         <int>340442</int>
         <int>0</int>
         <int>0</int>
         <int>0</int>
+        <int>0</int>
+      </itemids>
+      <num>1</num>
+    </fire.pb.fushi.SFreeDisRewardConfig>
+  </entry>
+  <entry>
+    <int>340651</int>
+    <fire.pb.fushi.SFreeDisRewardConfig>
+      <id>340651</id>
+      <name>30级宝石自选礼包</name>
+      <itemids>
+        <int>340652</int>
+        <int>340653</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+        <int>0</int>
+      </itemids>
+      <num>1</num>
+    </fire.pb.fushi.SFreeDisRewardConfig>
+  </entry>
+  <entry>
+    <int>340652</int>
+    <fire.pb.fushi.SFreeDisRewardConfig>
+      <id>340652</id>
+      <name>30级光芒,太阳,月亮,舍利</name>
+      <itemids>
+        <int>35262</int>
+        <int>35263</int>
+        <int>35264</int>
+        <int>35265</int>
+        <int>0</int>
+        <int>0</int>
+      </itemids>
+      <num>1</num>
+    </fire.pb.fushi.SFreeDisRewardConfig>
+  </entry>
+  <entry>
+    <int>340653</int>
+    <fire.pb.fushi.SFreeDisRewardConfig>
+      <id>340653</id>
+      <name>30级翡翠,黑宝石,昆仑玉,玛瑙,神秘石</name>
+      <itemids>
+        <int>35266</int>
+        <int>35267</int>
+        <int>35268</int>
+        <int>35269</int>
+        <int>35270</int>
         <int>0</int>
       </itemids>
       <num>1</num>

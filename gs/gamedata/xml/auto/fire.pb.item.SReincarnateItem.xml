@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tree-map>
+  <no-comparator/>
+  <entry>
+    <int>340430</int>
+    <fire.pb.item.SReincarnateItem>
+      <id>340430</id>
+      <tolevel>150</tolevel>
+      <cons>20</cons>
+      <iq>20</iq>
+      <str>20</str>
+      <endu>20</endu>
+      <agi>20</agi>
+    </fire.pb.item.SReincarnateItem>
+  </entry>
+  <entry>
+    <int>340431</int>
+    <fire.pb.item.SReincarnateItem>
+      <id>340431</id>
+      <tolevel>150</tolevel>
+      <cons>50</cons>
+      <iq>50</iq>
+      <str>50</str>
+      <endu>50</endu>
+      <agi>50</agi>
+    </fire.pb.item.SReincarnateItem>
+  </entry>
+</tree-map>

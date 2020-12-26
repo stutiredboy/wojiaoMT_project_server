@@ -637,7 +637,7 @@
       <ctgroup>7</ctgroup>
       <gototype>1</gototype>
       <autocomp>0</autocomp>
-      <submitnpc>11@13104,12@13101,13@13102,14@13100,15@13105,16@13103,18@13106,17@13107,19@13108</submitnpc>
+      <submitnpc>11@13104,12@13101,13@13102,14@13100,15@13105,16@13103,18@13106,17@13107,19@13108,20@13109,21@13110,22@13111,23@13112,24@13113,25@13114</submitnpc>
       <isrenxing>0</isrenxing>
       <tasklevel>1</tasklevel>
     </fire.pb.circletask.CircTaskConf>
@@ -881,8 +881,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500001</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>53</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>253</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -895,8 +895,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500002</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>54</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>254</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -909,8 +909,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500003</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>55</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>255</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -923,8 +923,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500004</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>56</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>256</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -937,8 +937,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500005</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>57</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>257</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -951,8 +951,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500006</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>58</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>258</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -965,8 +965,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500007</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>59</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>259</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -979,8 +979,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500008</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>60</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>260</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -993,8 +993,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500009</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>61</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>261</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1007,8 +1007,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1500010</id>
       <strtaskname>皇宫飞贼($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>62</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>262</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6916</awardid>
@@ -1022,8 +1022,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510001</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>23</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>263</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1036,8 +1036,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510002</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>24</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>264</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1050,8 +1050,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510003</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>25</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>265</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1064,8 +1064,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510004</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>26</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>266</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1078,8 +1078,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510005</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>27</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>267</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1092,8 +1092,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510006</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>28</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>268</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1106,8 +1106,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510007</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>29</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>269</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1120,8 +1120,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510008</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>30</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>270</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1134,8 +1134,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510009</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>31</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>271</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1148,8 +1148,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1510010</id>
       <strtaskname>宝石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>32</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>272</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6917</awardid>
@@ -1163,8 +1163,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520001</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>33</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>273</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1177,8 +1177,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520002</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>34</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>274</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1191,8 +1191,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520003</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>35</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>275</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1205,8 +1205,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520004</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>36</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>276</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1219,8 +1219,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520005</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>37</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>277</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1233,8 +1233,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520006</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>38</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>278</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1247,8 +1247,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520007</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>39</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>279</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1261,8 +1261,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520008</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>40</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>280</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1275,8 +1275,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520009</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>41</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>281</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1289,8 +1289,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1520010</id>
       <strtaskname>神兜兜副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>42</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>282</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6918</awardid>
@@ -1304,8 +1304,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530001</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>43</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>233</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1318,8 +1318,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530002</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>44</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>234</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1332,8 +1332,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530003</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>45</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>235</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1346,8 +1346,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530004</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>46</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>236</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1360,8 +1360,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530005</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>47</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>237</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1374,8 +1374,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530006</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>48</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>238</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1388,8 +1388,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530007</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>49</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>239</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1402,8 +1402,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530008</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>50</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>240</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1416,8 +1416,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530009</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>51</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>241</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <matchtype>2</matchtype>
@@ -1430,8 +1430,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1530010</id>
       <strtaskname>洗练石副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>52</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>242</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6919</awardid>
@@ -1445,8 +1445,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540001</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>63</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>243</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6964</awardid>
@@ -1460,8 +1460,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540002</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>64</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>244</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6965</awardid>
@@ -1475,8 +1475,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540003</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>65</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>245</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6966</awardid>
@@ -1490,8 +1490,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540004</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>66</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>246</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6967</awardid>
@@ -1505,8 +1505,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540005</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>67</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>247</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6968</awardid>
@@ -1520,8 +1520,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540006</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>68</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>248</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6969</awardid>
@@ -1535,8 +1535,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540007</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>69</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>249</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6970</awardid>
@@ -1550,8 +1550,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540008</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>70</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>250</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6971</awardid>
@@ -1565,8 +1565,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540009</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>71</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>251</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6972</awardid>
@@ -1580,8 +1580,8 @@
     <fire.pb.circletask.CircTaskConf>
       <id>1540010</id>
       <strtaskname>法宝聚灵副本($Number$/$Number1$)</strtaskname>
-      <cttype>7</cttype>
-      <ctgroup>72</ctgroup>
+      <cttype>9</cttype>
+      <ctgroup>252</ctgroup>
       <gototype>1</gototype>
       <autocomp>1</autocomp>
       <awardid>6973</awardid>

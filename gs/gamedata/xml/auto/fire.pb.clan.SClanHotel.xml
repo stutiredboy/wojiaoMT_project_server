@@ -26,7 +26,7 @@
     <fire.pb.clan.SClanHotel>
       <id>2</id>
       <levelupcost>4500000</levelupcost>
-      <peoplemax>50</peoplemax>
+      <peoplemax>75</peoplemax>
       <apprenticemax>20</apprenticemax>
       <costeveryday>360000</costeveryday>
     </fire.pb.clan.SClanHotel>
@@ -36,7 +36,7 @@
     <fire.pb.clan.SClanHotel>
       <id>3</id>
       <levelupcost>6000000</levelupcost>
-      <peoplemax>50</peoplemax>
+      <peoplemax>100</peoplemax>
       <apprenticemax>20</apprenticemax>
       <costeveryday>480000</costeveryday>
     </fire.pb.clan.SClanHotel>
@@ -46,7 +46,7 @@
     <fire.pb.clan.SClanHotel>
       <id>4</id>
       <levelupcost>7500000</levelupcost>
-      <peoplemax>50</peoplemax>
+      <peoplemax>125</peoplemax>
       <apprenticemax>20</apprenticemax>
       <costeveryday>600000</costeveryday>
     </fire.pb.clan.SClanHotel>
@@ -56,7 +56,7 @@
     <fire.pb.clan.SClanHotel>
       <id>5</id>
       <levelupcost>99999999</levelupcost>
-      <peoplemax>50</peoplemax>
+      <peoplemax>150</peoplemax>
       <apprenticemax>20</apprenticemax>
       <costeveryday>720000</costeveryday>
     </fire.pb.clan.SClanHotel>

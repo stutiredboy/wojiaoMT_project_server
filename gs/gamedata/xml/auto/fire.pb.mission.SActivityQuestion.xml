@@ -8,9 +8,9 @@
       <questionid>1</questionid>
       <step>0</step>
       <question>难度最低的任务是什么？</question>
-      <answer1>傲来封妖</answer1>
+      <answer1>封妖</answer1>
       <answer2>皇宫飞贼</answer2>
-      <answer3>飞升副本</answer3>
+      <answer3>飞升任务</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -23,8 +23,8 @@
       <questionid>2</questionid>
       <step>0</step>
       <question>所有BOSS中难度最高的任务是什么？</question>
-      <answer1>生死劫</answer1>
-      <answer2>蚩尤封印</answer2>
+      <answer1>每日任务</answer1>
+      <answer2>挑战蚩尤</answer2>
       <answer3>6星天罡地煞</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
@@ -38,7 +38,7 @@
       <questionid>3</questionid>
       <step>0</step>
       <question>提升修炼最快的方法是什么？</question>
-      <answer1>跑环</answer1>
+      <answer1>帮派点修</answer1>
       <answer2>刷BOSS</answer2>
       <answer3>找GM</answer3>
       <rightanswer>1</rightanswer>
@@ -97,10 +97,10 @@
       <id>7</id>
       <questionid>7</questionid>
       <step>0</step>
-      <question>月卡多少仙玉一张？</question>
-      <answer1>9800个</answer1>
-      <answer2>300个</answer2>
-      <answer3>9800万</answer3>
+      <question>打广告拉人会出现什么问题？</question>
+      <answer1>没有影响</answer1>
+      <answer2>有奖励</answer2>
+      <answer3>封号</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -112,10 +112,10 @@
       <id>8</id>
       <questionid>8</questionid>
       <step>0</step>
-      <question>GM首充多少钱？</question>
-      <answer1>不充值</answer1>
-      <answer2>没有首充</answer2>
-      <answer3>10元</answer3>
+      <question>游戏充值有没有额外奖励</question>
+      <answer1>不知道</answer1>
+      <answer2>有</answer2>
+      <answer3>没有</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -323,7 +323,7 @@
       <questionid>22</questionid>
       <step>0</step>
       <question>商城宝石最高可以购买多少级？</question>
-      <answer1>10</answer1>
+      <answer1>15</answer1>
       <answer2>8</answer2>
       <answer3>9</answer3>
       <rightanswer>1</rightanswer>
@@ -340,7 +340,7 @@
       <question>等级突破找谁？</question>
       <answer1>泡泡</answer1>
       <answer2>GM</answer2>
-      <answer3>袁守城</answer3>
+      <answer3>长安袁守城</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -356,7 +356,7 @@
       <answer1>3</answer1>
       <answer2>2</answer2>
       <answer3>1</answer3>
-      <rightanswer>3</rightanswer>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -368,9 +368,9 @@
       <questionid>25</questionid>
       <step>0</step>
       <question>本服是什么服？</question>
-      <answer1>极致仿官</answer1>
-      <answer2>微变态</answer2>
-      <answer3>超变态</answer3>
+      <answer1>精品独家仿官</answer1>
+      <answer2>不知道</answer2>
+      <answer3>不清楚</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -611,7 +611,7 @@
       <answer1>155</answer1>
       <answer2>150</answer2>
       <answer3>160</answer3>
-      <rightanswer>2</rightanswer>
+      <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -637,10 +637,10 @@
       <id>43</id>
       <questionid>43</questionid>
       <step>0</step>
-      <question>多少级装备可以镶嵌21级宝石？</question>
-      <answer1>160</answer1>
-      <answer2>210</answer2>
-      <answer3>150</answer3>
+      <question>多少级装备最多可以镶嵌几颗宝石？</question>
+      <answer1>3</answer1>
+      <answer2>2</answer2>
+      <answer3>1</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -697,11 +697,11 @@
       <id>47</id>
       <questionid>47</questionid>
       <step>0</step>
-      <question>月卡一天可以免费得多少金币？</question>
-      <answer1>5万</answer1>
-      <answer2>10万</answer2>
-      <answer3>50万</answer3>
-      <rightanswer>3</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -712,11 +712,11 @@
       <id>48</id>
       <questionid>48</questionid>
       <step>0</step>
-      <question>月卡一天可以免费得多少信用值？</question>
-      <answer1>10万</answer1>
-      <answer2>5万</answer2>
-      <answer3>3万</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -727,10 +727,10 @@
       <id>49</id>
       <questionid>49</questionid>
       <step>0</step>
-      <question>月卡一天可以免费得多少神兜兜？</question>
-      <answer1>5个</answer1>
-      <answer2>10个</answer2>
-      <answer3>20个</answer3>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -742,10 +742,10 @@
       <id>50</id>
       <questionid>50</questionid>
       <step>0</step>
-      <question>月卡一天可以免费得多少修炼果和九转金丹？</question>
-      <answer1>1千个</answer1>
-      <answer2>2千个</answer2>
-      <answer3>3千个</answer3>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -757,11 +757,11 @@
       <id>51</id>
       <questionid>51</questionid>
       <step>0</step>
-      <question>月卡多少钱一张？</question>
-      <answer1>30元</answer1>
-      <answer2>40元</answer2>
-      <answer3>50元</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -773,7 +773,7 @@
       <questionid>52</questionid>
       <step>0</step>
       <question>GM开服的原因？</question>
-      <answer1>赚钱</answer1>
+      <answer1>不知道</answer1>
       <answer2>热爱梦幻</answer2>
       <answer3>无聊</answer3>
       <rightanswer>2</rightanswer>
@@ -787,10 +787,10 @@
       <id>53</id>
       <questionid>53</questionid>
       <step>0</step>
-      <question>星宿的奖励多少金币？</question>
-      <answer1>5555</answer1>
-      <answer2>6666</answer2>
-      <answer3>7777</answer3>
+      <question>星宿可以获得经验吗？</question>
+      <answer1>可以</answer1>
+      <answer2>不可以</answer2>
+      <answer3>不知道</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -802,11 +802,11 @@
       <id>54</id>
       <questionid>54</questionid>
       <step>0</step>
-      <question>梦魔夜叉奖励多少金币？</question>
-      <answer1>15555</answer1>
-      <answer2>13333</answer2>
-      <answer3>11111</answer3>
-      <rightanswer>3</rightanswer>
+      <question>元辰可以获得经验吗？</question>
+      <answer1>可以</answer1>
+      <answer2>不可以</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -817,10 +817,10 @@
       <id>55</id>
       <questionid>55</questionid>
       <step>0</step>
-      <question>星宿多少超过多少钱不能打？</question>
-      <answer1>109</answer1>
-      <answer2>100</answer2>
-      <answer3>105</answer3>
+      <question>怎么可以快速升级？</question>
+      <answer1>做每日任务</answer1>
+      <answer2>不知道</answer2>
+      <answer3>不清楚</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -832,10 +832,10 @@
       <id>56</id>
       <questionid>56</questionid>
       <step>0</step>
-      <question>梦魔夜叉要多少级才可以打？</question>
-      <answer1>100</answer1>
-      <answer2>105</answer2>
-      <answer3>109</answer3>
+      <question>抓鬼可以快速升级吗？</question>
+      <answer1>可以</answer1>
+      <answer2>不知道</answer2>
+      <answer3>不清楚</answer3>
       <rightanswer>1</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -847,10 +847,10 @@
       <id>57</id>
       <questionid>57</questionid>
       <step>0</step>
-      <question>宝宝最高可以合成多少技能？</question>
-      <answer1>17</answer1>
-      <answer2>15</answer2>
-      <answer3>16</answer3>
+      <question>宝宝可以染色吗？</question>
+      <answer1>可以</answer1>
+      <answer2>不可以</answer2>
+      <answer3>不清楚</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -862,10 +862,10 @@
       <id>58</id>
       <questionid>58</questionid>
       <step>0</step>
-      <question>一只宝宝最多可以吃多少个元宵？</question>
-      <answer1>15个</answer1>
-      <answer2>10个</answer2>
-      <answer3>20个</answer3>
+      <question>宝宝怎么转生？</question>
+      <answer1>吃千叶</answer1>
+      <answer2>不可以</answer2>
+      <answer3>不清楚</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -877,10 +877,10 @@
       <id>59</id>
       <questionid>59</questionid>
       <step>0</step>
-      <question>以下其中那个是稀有技能？</question>
-      <answer1>高级必杀</answer1>
-      <answer2>洞察</answer2>
-      <answer3>水漫金山</answer3>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -892,11 +892,11 @@
       <id>60</id>
       <questionid>60</questionid>
       <step>0</step>
-      <question>以下其中那个是稀有技能？</question>
-      <answer1>力劈华山</answer1>
-      <answer2>高级连击</answer2>
-      <answer3>高级偷袭</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -907,11 +907,11 @@
       <id>61</id>
       <questionid>61</questionid>
       <step>0</step>
-      <question>以下其中那个是稀有技能？</question>
-      <answer1>神马浮云</answer1>
-      <answer2>高级强力</answer2>
-      <answer3>高级夜战</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -922,10 +922,10 @@
       <id>62</id>
       <questionid>62</questionid>
       <step>0</step>
-      <question>以下其中那个是稀有技能？</question>
-      <answer1>高级法爆</answer1>
-      <answer2>须弥真言</answer2>
-      <answer3>级级魔之心</answer3>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -937,11 +937,11 @@
       <id>63</id>
       <questionid>63</questionid>
       <step>0</step>
-      <question>以下其中那个是稀有技能？</question>
-      <answer1>高级否定</answer1>
-      <answer2>高级水吸</answer2>
-      <answer3>劫雷降临</answer3>
-      <rightanswer>3</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -952,10 +952,10 @@
       <id>64</id>
       <questionid>64</questionid>
       <step>0</step>
-      <question>以下那个BOSS难度最大？</question>
-      <answer1>皇宫飞贼</answer1>
-      <answer2>万年妖王</answer2>
-      <answer3>大唐官职</answer3>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -967,11 +967,11 @@
       <id>65</id>
       <questionid>65</questionid>
       <step>0</step>
-      <question>以下那个BOSS难度最大？</question>
-      <answer1>傲来封妖</answer1>
-      <answer2>大唐官职</answer2>
-      <answer3>皇宫飞贼</answer3>
-      <rightanswer>3</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -982,11 +982,11 @@
       <id>66</id>
       <questionid>66</questionid>
       <step>0</step>
-      <question>以下那个BOSS难度最大？</question>
-      <answer1>蚩尤封印</answer1>
-      <answer2>6星天罡</answer2>
-      <answer3>6星地煞</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -997,11 +997,11 @@
       <id>67</id>
       <questionid>67</questionid>
       <step>0</step>
-      <question>以下那个门派能给队友加奶?</question>
-      <answer1>化生寺</answer1>
-      <answer2>大唐官职</answer2>
-      <answer3>方寸山</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1012,10 +1012,10 @@
       <id>68</id>
       <questionid>68</questionid>
       <step>0</step>
-      <question>以下那个门派能给队友加奶?</question>
-      <answer1>五庄观</answer1>
-      <answer2>地府</answer2>
-      <answer3>方寸山</answer3>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1027,11 +1027,11 @@
       <id>69</id>
       <questionid>69</questionid>
       <step>0</step>
-      <question>以下那个门派能给队友加奶?</question>
-      <answer1>狮驼岭</answer1>
-      <answer2>凌波城</answer2>
-      <answer3>普陀山</answer3>
-      <rightanswer>3</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1042,11 +1042,11 @@
       <id>70</id>
       <questionid>70</questionid>
       <step>0</step>
-      <question>以下那个BOSS难度最小？</question>
-      <answer1>蚩尤封印</answer1>
-      <answer2>6星地煞</answer2>
-      <answer3>生死决</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1057,11 +1057,11 @@
       <id>71</id>
       <questionid>71</questionid>
       <step>0</step>
-      <question>发现BUG应该找谁？</question>
-      <answer1>技术负责人</answer1>
-      <answer2>GM</answer2>
-      <answer3>忽略</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1072,11 +1072,11 @@
       <id>72</id>
       <questionid>72</questionid>
       <step>0</step>
-      <question>发现BUG应该找谁？</question>
-      <answer1>技术负责人</answer1>
-      <answer2>GM</answer2>
-      <answer3>忽略</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1087,11 +1087,11 @@
       <id>73</id>
       <questionid>73</questionid>
       <step>0</step>
-      <question>发现BUG应该找谁？</question>
-      <answer1>技术负责人</answer1>
-      <answer2>GM</answer2>
-      <answer3>忽略</answer3>
-      <rightanswer>1</rightanswer>
+      <question>游戏充值怎么充值？</question>
+      <answer1>线下找玩家</answer1>
+      <answer2>通过后台点击充值链接</answer2>
+      <answer3>不知道</answer3>
+      <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
     </fire.pb.mission.SActivityQuestion>
@@ -1104,8 +1104,8 @@
       <step>0</step>
       <question>以下那个是技术的QQ？</question>
       <answer1>123456789</answer1>
-      <answer2>恭喜发财</answer2>
-      <answer3>69783616</answer3>
+      <answer2>GM</answer2>
+      <answer3>恭喜发财</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1119,8 +1119,8 @@
       <step>0</step>
       <question>以下那个是技术的QQ？</question>
       <answer1>123456789</answer1>
-      <answer2>恭喜发财</answer2>
-      <answer3>69783616</answer3>
+      <answer2>GM</answer2>
+      <answer3>恭喜发财</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1134,8 +1134,8 @@
       <step>0</step>
       <question>以下那个是技术的QQ？</question>
       <answer1>123456789</answer1>
-      <answer2>恭喜发财</answer2>
-      <answer3>69783616</answer3>
+      <answer2>GM</answer2>
+      <answer3>恭喜发财</answer3>
       <rightanswer>2</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>
@@ -1149,8 +1149,8 @@
       <step>0</step>
       <question>以下那个是技术的QQ？</question>
       <answer1>123456789</answer1>
-      <answer2>恭喜发财</answer2>
-      <answer3>69783616</answer3>
+      <answer2>GM</answer2>
+      <answer3>恭喜发财</answer3>
       <rightanswer>3</rightanswer>
       <rightrewardid>5840</rightrewardid>
       <errorrewardid>5850</errorrewardid>

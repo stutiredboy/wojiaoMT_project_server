@@ -12570,6 +12570,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6070716</int>
+        <int>6070716</int>
         <int>7070716</int>
         <int>7070716</int>
         <int>8070716</int>
@@ -12577,9 +12578,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>5000</int>
+        <int>7000</int>
         <int>0</int>
-        <int>5000</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611110</int>
@@ -12655,6 +12656,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6070717</int>
+        <int>6070717</int>
         <int>7070717</int>
         <int>7070717</int>
         <int>8070717</int>
@@ -12662,9 +12664,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>5000</int>
+        <int>7000</int>
         <int>0</int>
-        <int>5000</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611110</int>
@@ -14052,6 +14054,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6080716</int>
+        <int>6080716</int>
         <int>7080716</int>
         <int>7080716</int>
         <int>8080716</int>
@@ -14059,9 +14062,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611111</int>
@@ -14133,6 +14136,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6080717</int>
+        <int>6080717</int>
         <int>7080717</int>
         <int>7080717</int>
         <int>8080717</int>
@@ -14140,9 +14144,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611111</int>
@@ -15462,6 +15466,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6090716</int>
+        <int>6090716</int>
         <int>7090716</int>
         <int>7090716</int>
         <int>8090716</int>
@@ -15469,9 +15474,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611112</int>
@@ -15539,6 +15544,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6090717</int>
+        <int>6090717</int>
         <int>7090717</int>
         <int>7090717</int>
         <int>8090717</int>
@@ -15546,9 +15552,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611112</int>
@@ -17466,6 +17472,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6100716</int>
+        <int>6100716</int>
         <int>7100716</int>
         <int>7100716</int>
         <int>8100716</int>
@@ -17473,9 +17480,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611113</int>
@@ -17539,6 +17546,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6100717</int>
+        <int>6100717</int>
         <int>7100717</int>
         <int>7100717</int>
         <int>8100717</int>
@@ -17546,9 +17554,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611113</int>
@@ -19362,6 +19370,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6110716</int>
+        <int>6110716</int>
         <int>7110716</int>
         <int>7110716</int>
         <int>8110716</int>
@@ -19369,9 +19378,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611114</int>
@@ -19431,6 +19440,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6110717</int>
+        <int>6110717</int>
         <int>7110717</int>
         <int>7110717</int>
         <int>8110717</int>
@@ -19438,9 +19448,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611114</int>
@@ -21150,6 +21160,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6120716</int>
+        <int>6120716</int>
         <int>7120716</int>
         <int>7120716</int>
         <int>8120716</int>
@@ -21157,9 +21168,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611115</int>
@@ -21215,6 +21226,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6120717</int>
+        <int>6120717</int>
         <int>7120717</int>
         <int>7120717</int>
         <int>8120717</int>
@@ -21222,9 +21234,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611115</int>
@@ -22830,6 +22842,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6130716</int>
+        <int>6130716</int>
         <int>7130716</int>
         <int>7130716</int>
         <int>8130716</int>
@@ -22837,9 +22850,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611116</int>
@@ -22891,6 +22904,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6130717</int>
+        <int>6130717</int>
         <int>7130717</int>
         <int>7130717</int>
         <int>8130717</int>
@@ -22898,9 +22912,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611116</int>
@@ -24402,6 +24416,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6140716</int>
+        <int>6140716</int>
         <int>7140716</int>
         <int>7140716</int>
         <int>8140716</int>
@@ -24409,9 +24424,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611117</int>
@@ -24459,6 +24474,7 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6140717</int>
+        <int>6140717</int>
         <int>7140717</int>
         <int>7140717</int>
         <int>8140717</int>
@@ -24466,9 +24482,9 @@
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>1500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>8500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611117</int>
@@ -25866,16 +25882,17 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6150716</int>
-        <int>8150716</int>
-        <int>8150716</int>
+        <int>6150716</int>
         <int>7150716</int>
+        <int>8150716</int>
+        <int>8150716</int>
       </qhdazhaoid>
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>8500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>1500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611118</int>
@@ -25919,16 +25936,17 @@
       </ptdazhaorate>
       <qhdazhaoid>
         <int>6150717</int>
-        <int>8150717</int>
-        <int>8150717</int>
+        <int>6150717</int>
         <int>7150717</int>
+        <int>8150717</int>
+        <int>8150717</int>
       </qhdazhaoid>
       <qhdazhaorate>
         <int>0</int>
         <int>0</int>
-        <int>8500</int>
+        <int>7000</int>
         <int>0</int>
-        <int>1500</int>
+        <int>3000</int>
       </qhdazhaorate>
       <vcailiaotie>
         <int>611118</int>

@@ -8,7 +8,7 @@
       <exp>1600</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>7</offlexppermin>
+      <offlexppermin>35</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>400</standardexp>
       <standardmoney>1000</standardmoney>
@@ -26,7 +26,7 @@
       <exp>3200</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>13</offlexppermin>
+      <offlexppermin>65</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>800</standardexp>
       <standardmoney>2000</standardmoney>
@@ -44,7 +44,7 @@
       <exp>4800</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>20</offlexppermin>
+      <offlexppermin>100</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>1200</standardexp>
       <standardmoney>3000</standardmoney>
@@ -62,7 +62,7 @@
       <exp>6400</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>27</offlexppermin>
+      <offlexppermin>135</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>1600</standardexp>
       <standardmoney>4000</standardmoney>
@@ -80,7 +80,7 @@
       <exp>8000</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>33</offlexppermin>
+      <offlexppermin>165</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>2000</standardexp>
       <standardmoney>5000</standardmoney>
@@ -98,7 +98,7 @@
       <exp>9600</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>40</offlexppermin>
+      <offlexppermin>200</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>2400</standardexp>
       <standardmoney>6000</standardmoney>
@@ -116,7 +116,7 @@
       <exp>11200</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>47</offlexppermin>
+      <offlexppermin>235</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>2800</standardexp>
       <standardmoney>7000</standardmoney>
@@ -134,7 +134,7 @@
       <exp>12800</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>53</offlexppermin>
+      <offlexppermin>265</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>3200</standardexp>
       <standardmoney>8000</standardmoney>
@@ -152,7 +152,7 @@
       <exp>14400</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>60</offlexppermin>
+      <offlexppermin>300</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>3600</standardexp>
       <standardmoney>9000</standardmoney>
@@ -170,7 +170,7 @@
       <exp>16000</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>67</offlexppermin>
+      <offlexppermin>335</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>4000</standardexp>
       <standardmoney>10000</standardmoney>
@@ -188,7 +188,7 @@
       <exp>17600</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>73</offlexppermin>
+      <offlexppermin>365</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>4400</standardexp>
       <standardmoney>11000</standardmoney>
@@ -206,7 +206,7 @@
       <exp>19200</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>80</offlexppermin>
+      <offlexppermin>400</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>4800</standardexp>
       <standardmoney>12000</standardmoney>
@@ -224,7 +224,7 @@
       <exp>20800</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>87</offlexppermin>
+      <offlexppermin>435</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>5200</standardexp>
       <standardmoney>13000</standardmoney>
@@ -242,7 +242,7 @@
       <exp>22400</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>93</offlexppermin>
+      <offlexppermin>465</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>5600</standardexp>
       <standardmoney>14000</standardmoney>
@@ -260,7 +260,7 @@
       <exp>24000</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>100</offlexppermin>
+      <offlexppermin>500</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>6000</standardexp>
       <standardmoney>15000</standardmoney>
@@ -278,7 +278,7 @@
       <exp>25600</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>107</offlexppermin>
+      <offlexppermin>535</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>6400</standardexp>
       <standardmoney>16000</standardmoney>
@@ -296,7 +296,7 @@
       <exp>27200</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>113</offlexppermin>
+      <offlexppermin>565</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>6800</standardexp>
       <standardmoney>17000</standardmoney>
@@ -314,7 +314,7 @@
       <exp>28800</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>120</offlexppermin>
+      <offlexppermin>600</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>7200</standardexp>
       <standardmoney>18000</standardmoney>
@@ -332,7 +332,7 @@
       <exp>30400</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>127</offlexppermin>
+      <offlexppermin>635</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>7600</standardexp>
       <standardmoney>19000</standardmoney>
@@ -350,7 +350,7 @@
       <exp>32000</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>133</offlexppermin>
+      <offlexppermin>665</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>8000</standardexp>
       <standardmoney>20000</standardmoney>
@@ -368,7 +368,7 @@
       <exp>33600</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>140</offlexppermin>
+      <offlexppermin>700</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>8400</standardexp>
       <standardmoney>21000</standardmoney>
@@ -386,7 +386,7 @@
       <exp>35200</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>147</offlexppermin>
+      <offlexppermin>735</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>8800</standardexp>
       <standardmoney>22000</standardmoney>
@@ -404,7 +404,7 @@
       <exp>36800</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>153</offlexppermin>
+      <offlexppermin>765</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>9200</standardexp>
       <standardmoney>23000</standardmoney>
@@ -422,7 +422,7 @@
       <exp>38400</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>160</offlexppermin>
+      <offlexppermin>800</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>9600</standardexp>
       <standardmoney>24000</standardmoney>
@@ -440,7 +440,7 @@
       <exp>40000</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>167</offlexppermin>
+      <offlexppermin>835</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>10000</standardexp>
       <standardmoney>25000</standardmoney>
@@ -458,7 +458,7 @@
       <exp>41600</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>173</offlexppermin>
+      <offlexppermin>865</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>10400</standardexp>
       <standardmoney>26000</standardmoney>
@@ -476,7 +476,7 @@
       <exp>60575</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>180</offlexppermin>
+      <offlexppermin>900</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>10800</standardexp>
       <standardmoney>27000</standardmoney>
@@ -494,7 +494,7 @@
       <exp>83228</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>187</offlexppermin>
+      <offlexppermin>935</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>11200</standardexp>
       <standardmoney>28000</standardmoney>
@@ -512,7 +512,7 @@
       <exp>109950</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>193</offlexppermin>
+      <offlexppermin>965</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>11600</standardexp>
       <standardmoney>29000</standardmoney>
@@ -530,7 +530,7 @@
       <exp>159952</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>200</offlexppermin>
+      <offlexppermin>1000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>12000</standardexp>
       <standardmoney>30000</standardmoney>
@@ -548,7 +548,7 @@
       <exp>210425</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>207</offlexppermin>
+      <offlexppermin>1035</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>12400</standardexp>
       <standardmoney>31000</standardmoney>
@@ -566,7 +566,7 @@
       <exp>234378</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>213</offlexppermin>
+      <offlexppermin>1065</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>12800</standardexp>
       <standardmoney>32000</standardmoney>
@@ -584,7 +584,7 @@
       <exp>259627</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>220</offlexppermin>
+      <offlexppermin>1100</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>13200</standardexp>
       <standardmoney>33000</standardmoney>
@@ -602,7 +602,7 @@
       <exp>306119</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>227</offlexppermin>
+      <offlexppermin>1135</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>13600</standardexp>
       <standardmoney>34000</standardmoney>
@@ -620,7 +620,7 @@
       <exp>354371</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>233</offlexppermin>
+      <offlexppermin>1165</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>14000</standardexp>
       <standardmoney>35000</standardmoney>
@@ -638,7 +638,7 @@
       <exp>387226</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>240</offlexppermin>
+      <offlexppermin>1200</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>14400</standardexp>
       <standardmoney>36000</standardmoney>
@@ -656,7 +656,7 @@
       <exp>421876</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>247</offlexppermin>
+      <offlexppermin>1235</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>14800</standardexp>
       <standardmoney>37000</standardmoney>
@@ -674,7 +674,7 @@
       <exp>458152</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>253</offlexppermin>
+      <offlexppermin>1265</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>15200</standardexp>
       <standardmoney>38000</standardmoney>
@@ -692,7 +692,7 @@
       <exp>559632</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>1</addpointschemenum>
-      <offlexppermin>260</offlexppermin>
+      <offlexppermin>1300</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>15600</standardexp>
       <standardmoney>39000</standardmoney>
@@ -710,7 +710,7 @@
       <exp>700035</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>267</offlexppermin>
+      <offlexppermin>1335</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>16000</standardexp>
       <standardmoney>40000</standardmoney>
@@ -728,7 +728,7 @@
       <exp>753710</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>273</offlexppermin>
+      <offlexppermin>1365</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>16400</standardexp>
       <standardmoney>41000</standardmoney>
@@ -746,7 +746,7 @@
       <exp>809939</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>280</offlexppermin>
+      <offlexppermin>1400</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>16800</standardexp>
       <standardmoney>42000</standardmoney>
@@ -764,7 +764,7 @@
       <exp>868570</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>287</offlexppermin>
+      <offlexppermin>1435</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>17200</standardexp>
       <standardmoney>43000</standardmoney>
@@ -782,7 +782,7 @@
       <exp>1039102</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>293</offlexppermin>
+      <offlexppermin>1465</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>17600</standardexp>
       <standardmoney>44000</standardmoney>
@@ -800,7 +800,7 @@
       <exp>1110259</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>300</offlexppermin>
+      <offlexppermin>1500</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>18000</standardexp>
       <standardmoney>45000</standardmoney>
@@ -818,7 +818,7 @@
       <exp>1184290</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>307</offlexppermin>
+      <offlexppermin>1535</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>18400</standardexp>
       <standardmoney>46000</standardmoney>
@@ -836,7 +836,7 @@
       <exp>1261450</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>313</offlexppermin>
+      <offlexppermin>1565</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>18800</standardexp>
       <standardmoney>47000</standardmoney>
@@ -854,7 +854,7 @@
       <exp>1341594</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>320</offlexppermin>
+      <offlexppermin>1600</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>19200</standardexp>
       <standardmoney>48000</standardmoney>
@@ -872,7 +872,7 @@
       <exp>1574508</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>327</offlexppermin>
+      <offlexppermin>1635</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>19600</standardexp>
       <standardmoney>49000</standardmoney>
@@ -890,7 +890,7 @@
       <exp>1799005</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>333</offlexppermin>
+      <offlexppermin>1665</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>20000</standardexp>
       <standardmoney>50000</standardmoney>
@@ -908,7 +908,7 @@
       <exp>1905788</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>340</offlexppermin>
+      <offlexppermin>1700</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>20400</standardexp>
       <standardmoney>51000</standardmoney>
@@ -926,7 +926,7 @@
       <exp>2016652</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>347</offlexppermin>
+      <offlexppermin>1735</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>20800</standardexp>
       <standardmoney>52000</standardmoney>
@@ -944,7 +944,7 @@
       <exp>2131466</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>353</offlexppermin>
+      <offlexppermin>1765</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>21200</standardexp>
       <standardmoney>53000</standardmoney>
@@ -962,7 +962,7 @@
       <exp>2577280</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>360</offlexppermin>
+      <offlexppermin>1800</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>21600</standardexp>
       <standardmoney>54000</standardmoney>
@@ -980,7 +980,7 @@
       <exp>2718489</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>367</offlexppermin>
+      <offlexppermin>1835</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>22000</standardexp>
       <standardmoney>55000</standardmoney>
@@ -998,7 +998,7 @@
       <exp>4077273</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>373</offlexppermin>
+      <offlexppermin>1865</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>22400</standardexp>
       <standardmoney>56000</standardmoney>
@@ -1016,7 +1016,7 @@
       <exp>4293158</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>380</offlexppermin>
+      <offlexppermin>1900</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>22800</standardexp>
       <standardmoney>57000</standardmoney>
@@ -1034,7 +1034,7 @@
       <exp>4516310</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>387</offlexppermin>
+      <offlexppermin>1935</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>23200</standardexp>
       <standardmoney>58000</standardmoney>
@@ -1052,7 +1052,7 @@
       <exp>4746848</exp>
       <petfightnum>2</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>393</offlexppermin>
+      <offlexppermin>1965</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>23600</standardexp>
       <standardmoney>59000</standardmoney>
@@ -1070,7 +1070,7 @@
       <exp>6782792</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>400</offlexppermin>
+      <offlexppermin>2000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>24000</standardexp>
       <standardmoney>60000</standardmoney>
@@ -1088,7 +1088,7 @@
       <exp>8677678</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>407</offlexppermin>
+      <offlexppermin>2035</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>24400</standardexp>
       <standardmoney>61000</standardmoney>
@@ -1106,7 +1106,7 @@
       <exp>10736377</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>413</offlexppermin>
+      <offlexppermin>2065</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>24800</standardexp>
       <standardmoney>62000</standardmoney>
@@ -1124,7 +1124,7 @@
       <exp>12966517</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>420</offlexppermin>
+      <offlexppermin>2100</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>25200</standardexp>
       <standardmoney>63000</standardmoney>
@@ -1142,7 +1142,7 @@
       <exp>15375887</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>427</offlexppermin>
+      <offlexppermin>2135</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>25600</standardexp>
       <standardmoney>64000</standardmoney>
@@ -1160,7 +1160,7 @@
       <exp>17972439</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>433</offlexppermin>
+      <offlexppermin>2165</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>26000</standardexp>
       <standardmoney>65000</standardmoney>
@@ -1178,7 +1178,7 @@
       <exp>22732473</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>440</offlexppermin>
+      <offlexppermin>2200</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>26400</standardexp>
       <standardmoney>66000</standardmoney>
@@ -1196,7 +1196,7 @@
       <exp>27874983</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>447</offlexppermin>
+      <offlexppermin>2235</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>26800</standardexp>
       <standardmoney>67000</standardmoney>
@@ -1214,7 +1214,7 @@
       <exp>33416474</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>453</offlexppermin>
+      <offlexppermin>2265</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>27200</standardexp>
       <standardmoney>68000</standardmoney>
@@ -1232,7 +1232,7 @@
       <exp>39373770</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>460</offlexppermin>
+      <offlexppermin>2300</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>27600</standardexp>
       <standardmoney>69000</standardmoney>
@@ -1250,7 +1250,7 @@
       <exp>41219383</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>467</offlexppermin>
+      <offlexppermin>2335</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>28000</standardexp>
       <standardmoney>70000</standardmoney>
@@ -1268,7 +1268,7 @@
       <exp>42978379</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>473</offlexppermin>
+      <offlexppermin>2365</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>28400</standardexp>
       <standardmoney>71000</standardmoney>
@@ -1286,7 +1286,7 @@
       <exp>44786842</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>480</offlexppermin>
+      <offlexppermin>2400</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>28800</standardexp>
       <standardmoney>72000</standardmoney>
@@ -1304,7 +1304,7 @@
       <exp>46645252</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>487</offlexppermin>
+      <offlexppermin>2435</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>29200</standardexp>
       <standardmoney>73000</standardmoney>
@@ -1322,7 +1322,7 @@
       <exp>48554294</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>493</offlexppermin>
+      <offlexppermin>2465</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>29600</standardexp>
       <standardmoney>74000</standardmoney>
@@ -1340,7 +1340,7 @@
       <exp>50514850</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>500</offlexppermin>
+      <offlexppermin>2500</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>30000</standardexp>
       <standardmoney>75000</standardmoney>
@@ -1358,7 +1358,7 @@
       <exp>52527402</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>507</offlexppermin>
+      <offlexppermin>2535</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>30400</standardexp>
       <standardmoney>76000</standardmoney>
@@ -1376,7 +1376,7 @@
       <exp>54592833</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>513</offlexppermin>
+      <offlexppermin>2565</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>30800</standardexp>
       <standardmoney>77000</standardmoney>
@@ -1394,7 +1394,7 @@
       <exp>56711626</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>520</offlexppermin>
+      <offlexppermin>2600</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>31200</standardexp>
       <standardmoney>78000</standardmoney>
@@ -1412,7 +1412,7 @@
       <exp>58884463</exp>
       <petfightnum>3</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>527</offlexppermin>
+      <offlexppermin>2635</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>31600</standardexp>
       <standardmoney>79000</standardmoney>
@@ -1430,7 +1430,7 @@
       <exp>61112226</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>533</offlexppermin>
+      <offlexppermin>2665</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>32000</standardexp>
       <standardmoney>80000</standardmoney>
@@ -1448,7 +1448,7 @@
       <exp>63395399</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>540</offlexppermin>
+      <offlexppermin>2700</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>32400</standardexp>
       <standardmoney>81000</standardmoney>
@@ -1466,7 +1466,7 @@
       <exp>65734864</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>547</offlexppermin>
+      <offlexppermin>2735</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>32800</standardexp>
       <standardmoney>82000</standardmoney>
@@ -1484,7 +1484,7 @@
       <exp>68131104</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>553</offlexppermin>
+      <offlexppermin>2765</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>33200</standardexp>
       <standardmoney>83000</standardmoney>
@@ -1502,7 +1502,7 @@
       <exp>70584801</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>560</offlexppermin>
+      <offlexppermin>2800</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>33600</standardexp>
       <standardmoney>84000</standardmoney>
@@ -1520,7 +1520,7 @@
       <exp>73096838</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>567</offlexppermin>
+      <offlexppermin>2835</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>34000</standardexp>
       <standardmoney>85000</standardmoney>
@@ -1538,7 +1538,7 @@
       <exp>75667698</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>573</offlexppermin>
+      <offlexppermin>2865</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>34400</standardexp>
       <standardmoney>86000</standardmoney>
@@ -1556,7 +1556,7 @@
       <exp>78298262</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>580</offlexppermin>
+      <offlexppermin>2900</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>34800</standardexp>
       <standardmoney>87000</standardmoney>
@@ -1574,7 +1574,7 @@
       <exp>80989015</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>587</offlexppermin>
+      <offlexppermin>2935</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>35200</standardexp>
       <standardmoney>88000</standardmoney>
@@ -1592,7 +1592,7 @@
       <exp>83740638</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>2</addpointschemenum>
-      <offlexppermin>593</offlexppermin>
+      <offlexppermin>2965</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>35600</standardexp>
       <standardmoney>89000</standardmoney>
@@ -1610,7 +1610,7 @@
       <exp>86554014</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>600</offlexppermin>
+      <offlexppermin>3000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>36000</standardexp>
       <standardmoney>90000</standardmoney>
@@ -1628,7 +1628,7 @@
       <exp>89429625</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>607</offlexppermin>
+      <offlexppermin>3035</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>36400</standardexp>
       <standardmoney>91000</standardmoney>
@@ -1646,7 +1646,7 @@
       <exp>92368355</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>613</offlexppermin>
+      <offlexppermin>3065</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>36800</standardexp>
       <standardmoney>92000</standardmoney>
@@ -1664,7 +1664,7 @@
       <exp>95370685</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>620</offlexppermin>
+      <offlexppermin>3100</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>37200</standardexp>
       <standardmoney>93000</standardmoney>
@@ -1682,7 +1682,7 @@
       <exp>98437299</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>627</offlexppermin>
+      <offlexppermin>3135</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>37600</standardexp>
       <standardmoney>94000</standardmoney>
@@ -1700,7 +1700,7 @@
       <exp>101569079</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>633</offlexppermin>
+      <offlexppermin>3165</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>38000</standardexp>
       <standardmoney>95000</standardmoney>
@@ -1718,7 +1718,7 @@
       <exp>104766508</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>640</offlexppermin>
+      <offlexppermin>3200</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>38400</standardexp>
       <standardmoney>96000</standardmoney>
@@ -1736,7 +1736,7 @@
       <exp>108030468</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>647</offlexppermin>
+      <offlexppermin>3235</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>38800</standardexp>
       <standardmoney>97000</standardmoney>
@@ -1754,7 +1754,7 @@
       <exp>111361442</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>653</offlexppermin>
+      <offlexppermin>3265</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>39200</standardexp>
       <standardmoney>98000</standardmoney>
@@ -1772,7 +1772,7 @@
       <exp>114760113</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>660</offlexppermin>
+      <offlexppermin>3300</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>39600</standardexp>
       <standardmoney>99000</standardmoney>
@@ -1790,7 +1790,7 @@
       <exp>118227363</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>667</offlexppermin>
+      <offlexppermin>3335</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>40000</standardexp>
       <standardmoney>100000</standardmoney>
@@ -1808,7 +1808,7 @@
       <exp>121763674</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>673</offlexppermin>
+      <offlexppermin>3365</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>40400</standardexp>
       <standardmoney>101000</standardmoney>
@@ -1826,7 +1826,7 @@
       <exp>125369931</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>680</offlexppermin>
+      <offlexppermin>3400</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>40800</standardexp>
       <standardmoney>102000</standardmoney>
@@ -1844,7 +1844,7 @@
       <exp>129046614</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>687</offlexppermin>
+      <offlexppermin>3435</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>41200</standardexp>
       <standardmoney>103000</standardmoney>
@@ -1862,7 +1862,7 @@
       <exp>132794406</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>693</offlexppermin>
+      <offlexppermin>3465</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>41600</standardexp>
       <standardmoney>104000</standardmoney>
@@ -1880,7 +1880,7 @@
       <exp>136614191</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>700</offlexppermin>
+      <offlexppermin>3500</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>42000</standardexp>
       <standardmoney>105000</standardmoney>
@@ -1898,7 +1898,7 @@
       <exp>140506451</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>707</offlexppermin>
+      <offlexppermin>3535</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>42400</standardexp>
       <standardmoney>106000</standardmoney>
@@ -1916,7 +1916,7 @@
       <exp>144472069</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>713</offlexppermin>
+      <offlexppermin>3565</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>42800</standardexp>
       <standardmoney>107000</standardmoney>
@@ -1934,7 +1934,7 @@
       <exp>148511526</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>720</offlexppermin>
+      <offlexppermin>3600</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>43200</standardexp>
       <standardmoney>108000</standardmoney>
@@ -1952,7 +1952,7 @@
       <exp>152625507</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>727</offlexppermin>
+      <offlexppermin>3635</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>43600</standardexp>
       <standardmoney>109000</standardmoney>
@@ -1970,7 +1970,7 @@
       <exp>156814892</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>733</offlexppermin>
+      <offlexppermin>3665</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>44000</standardexp>
       <standardmoney>110000</standardmoney>
@@ -1988,7 +1988,7 @@
       <exp>161080166</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>740</offlexppermin>
+      <offlexppermin>3700</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>44400</standardexp>
       <standardmoney>111000</standardmoney>
@@ -2006,7 +2006,7 @@
       <exp>165422210</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>747</offlexppermin>
+      <offlexppermin>3735</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>44800</standardexp>
       <standardmoney>112000</standardmoney>
@@ -2024,7 +2024,7 @@
       <exp>169841507</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>753</offlexppermin>
+      <offlexppermin>3765</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>45200</standardexp>
       <standardmoney>113000</standardmoney>
@@ -2042,7 +2042,7 @@
       <exp>174338741</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>760</offlexppermin>
+      <offlexppermin>3800</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>45600</standardexp>
       <standardmoney>114000</standardmoney>
@@ -2060,7 +2060,7 @@
       <exp>178914792</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>767</offlexppermin>
+      <offlexppermin>3835</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>46000</standardexp>
       <standardmoney>115000</standardmoney>
@@ -2078,7 +2078,7 @@
       <exp>183570145</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>773</offlexppermin>
+      <offlexppermin>3865</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>46400</standardexp>
       <standardmoney>116000</standardmoney>
@@ -2096,7 +2096,7 @@
       <exp>188305682</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>780</offlexppermin>
+      <offlexppermin>3900</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>46800</standardexp>
       <standardmoney>117000</standardmoney>
@@ -2114,7 +2114,7 @@
       <exp>193121885</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>787</offlexppermin>
+      <offlexppermin>3935</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>47200</standardexp>
       <standardmoney>118000</standardmoney>
@@ -2132,7 +2132,7 @@
       <exp>198019436</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>793</offlexppermin>
+      <offlexppermin>3965</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>47600</standardexp>
       <standardmoney>119000</standardmoney>
@@ -2150,7 +2150,7 @@
       <exp>202999220</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>800</offlexppermin>
+      <offlexppermin>4000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>48000</standardexp>
       <standardmoney>120000</standardmoney>
@@ -2168,7 +2168,7 @@
       <exp>208061717</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>807</offlexppermin>
+      <offlexppermin>4035</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>48400</standardexp>
       <standardmoney>121000</standardmoney>
@@ -2186,7 +2186,7 @@
       <exp>213207811</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>813</offlexppermin>
+      <offlexppermin>4065</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>48800</standardexp>
       <standardmoney>122000</standardmoney>
@@ -2204,7 +2204,7 @@
       <exp>218437985</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>820</offlexppermin>
+      <offlexppermin>4100</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>49200</standardexp>
       <standardmoney>123000</standardmoney>
@@ -2222,7 +2222,7 @@
       <exp>223752920</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>827</offlexppermin>
+      <offlexppermin>4135</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>49600</standardexp>
       <standardmoney>124000</standardmoney>
@@ -2240,7 +2240,7 @@
       <exp>229153501</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>833</offlexppermin>
+      <offlexppermin>4165</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>50000</standardexp>
       <standardmoney>125000</standardmoney>
@@ -2258,7 +2258,7 @@
       <exp>234640208</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>840</offlexppermin>
+      <offlexppermin>4200</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>50400</standardexp>
       <standardmoney>126000</standardmoney>
@@ -2276,7 +2276,7 @@
       <exp>240213925</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>847</offlexppermin>
+      <offlexppermin>4235</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>50800</standardexp>
       <standardmoney>127000</standardmoney>
@@ -2294,7 +2294,7 @@
       <exp>245875135</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>853</offlexppermin>
+      <offlexppermin>4265</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>51200</standardexp>
       <standardmoney>128000</standardmoney>
@@ -2312,7 +2312,7 @@
       <exp>251624520</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>860</offlexppermin>
+      <offlexppermin>4300</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>51600</standardexp>
       <standardmoney>129000</standardmoney>
@@ -2330,7 +2330,7 @@
       <exp>257462963</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>867</offlexppermin>
+      <offlexppermin>4335</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>52000</standardexp>
       <standardmoney>130000</standardmoney>
@@ -2348,7 +2348,7 @@
       <exp>263390946</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>873</offlexppermin>
+      <offlexppermin>4365</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>52400</standardexp>
       <standardmoney>131000</standardmoney>
@@ -2366,7 +2366,7 @@
       <exp>269409352</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>880</offlexppermin>
+      <offlexppermin>4400</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>52800</standardexp>
       <standardmoney>132000</standardmoney>
@@ -2384,7 +2384,7 @@
       <exp>275518663</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>887</offlexppermin>
+      <offlexppermin>4435</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>53200</standardexp>
       <standardmoney>133000</standardmoney>
@@ -2402,7 +2402,7 @@
       <exp>281719563</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>893</offlexppermin>
+      <offlexppermin>4465</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>53600</standardexp>
       <standardmoney>134000</standardmoney>
@@ -2420,7 +2420,7 @@
       <exp>288012934</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>900</offlexppermin>
+      <offlexppermin>4500</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>54000</standardexp>
       <standardmoney>135000</standardmoney>
@@ -2438,7 +2438,7 @@
       <exp>294399258</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>907</offlexppermin>
+      <offlexppermin>4535</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>54400</standardexp>
       <standardmoney>136000</standardmoney>
@@ -2456,7 +2456,7 @@
       <exp>300879418</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>913</offlexppermin>
+      <offlexppermin>4565</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>54800</standardexp>
       <standardmoney>137000</standardmoney>
@@ -2474,7 +2474,7 @@
       <exp>307453896</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>920</offlexppermin>
+      <offlexppermin>4600</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>55200</standardexp>
       <standardmoney>138000</standardmoney>
@@ -2492,7 +2492,7 @@
       <exp>314123376</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>927</offlexppermin>
+      <offlexppermin>4635</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>55600</standardexp>
       <standardmoney>139000</standardmoney>
@@ -2510,7 +2510,7 @@
       <exp>320888740</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>933</offlexppermin>
+      <offlexppermin>4665</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>56000</standardexp>
       <standardmoney>140000</standardmoney>
@@ -2528,7 +2528,7 @@
       <exp>327750471</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>940</offlexppermin>
+      <offlexppermin>4700</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>56400</standardexp>
       <standardmoney>141000</standardmoney>
@@ -2546,7 +2546,7 @@
       <exp>334709450</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>947</offlexppermin>
+      <offlexppermin>4735</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>56800</standardexp>
       <standardmoney>142000</standardmoney>
@@ -2564,7 +2564,7 @@
       <exp>341766161</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>953</offlexppermin>
+      <offlexppermin>4765</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>57200</standardexp>
       <standardmoney>143000</standardmoney>
@@ -2582,7 +2582,7 @@
       <exp>348921287</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>960</offlexppermin>
+      <offlexppermin>4800</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>57600</standardexp>
       <standardmoney>144000</standardmoney>
@@ -2600,7 +2600,7 @@
       <exp>356175710</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>967</offlexppermin>
+      <offlexppermin>4835</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>58000</standardexp>
       <standardmoney>145000</standardmoney>
@@ -2618,7 +2618,7 @@
       <exp>363529912</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>973</offlexppermin>
+      <offlexppermin>4865</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>58400</standardexp>
       <standardmoney>146000</standardmoney>
@@ -2636,7 +2636,7 @@
       <exp>370984776</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>980</offlexppermin>
+      <offlexppermin>4900</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>58800</standardexp>
       <standardmoney>147000</standardmoney>
@@ -2654,7 +2654,7 @@
       <exp>378540786</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>987</offlexppermin>
+      <offlexppermin>4935</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>59200</standardexp>
       <standardmoney>148000</standardmoney>
@@ -2672,7 +2672,7 @@
       <exp>386198623</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>993</offlexppermin>
+      <offlexppermin>4965</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>59600</standardexp>
       <standardmoney>149000</standardmoney>
@@ -2690,7 +2690,7 @@
       <exp>393959170</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>1000</offlexppermin>
+      <offlexppermin>5000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>60000</standardexp>
       <standardmoney>150000</standardmoney>
@@ -2708,7 +2708,7 @@
       <exp>999999999</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>1000</offlexppermin>
+      <offlexppermin>5000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>60000</standardexp>
       <standardmoney>150000</standardmoney>
@@ -2726,7 +2726,7 @@
       <exp>999999999</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>1000</offlexppermin>
+      <offlexppermin>5000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>60000</standardexp>
       <standardmoney>150000</standardmoney>
@@ -2744,7 +2744,7 @@
       <exp>999999999</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>1000</offlexppermin>
+      <offlexppermin>5000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>60000</standardexp>
       <standardmoney>150000</standardmoney>
@@ -2762,7 +2762,7 @@
       <exp>999999999</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>1000</offlexppermin>
+      <offlexppermin>5000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>60000</standardexp>
       <standardmoney>150000</standardmoney>
@@ -2780,7 +2780,7 @@
       <exp>999999999</exp>
       <petfightnum>4</petfightnum>
       <addpointschemenum>3</addpointschemenum>
-      <offlexppermin>1000</offlexppermin>
+      <offlexppermin>5000</offlexppermin>
       <dpointexp>0</dpointexp>
       <standardexp>60000</standardexp>
       <standardmoney>150000</standardmoney>

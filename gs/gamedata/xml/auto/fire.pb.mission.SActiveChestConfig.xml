@@ -6,7 +6,7 @@
     <fire.pb.mission.SActiveChestConfig>
       <id>1</id>
       <activeness>20</activeness>
-      <itemid>339102</itemid>
+      <itemid>335011</itemid>
     </fire.pb.mission.SActiveChestConfig>
   </entry>
   <entry>
@@ -14,7 +14,7 @@
     <fire.pb.mission.SActiveChestConfig>
       <id>2</id>
       <activeness>40</activeness>
-      <itemid>339102</itemid>
+      <itemid>335012</itemid>
     </fire.pb.mission.SActiveChestConfig>
   </entry>
   <entry>

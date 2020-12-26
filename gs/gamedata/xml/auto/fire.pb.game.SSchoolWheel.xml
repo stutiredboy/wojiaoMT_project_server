@@ -24,18 +24,18 @@
     <fire.pb.game.SSchoolWheel>
       <id>2</id>
       <items>
-        <string>333176;1;1;0;1</string>
-        <string>522133;1;2;0;1</string>
-        <string>522135;1;1;0;1</string>
-        <string>335041;1;50;0;1</string>
+        <string>333176;1;10;0;1</string>
+        <string>522133;1;20;0;1</string>
+        <string>340432;1;1;0;1</string>
+        <string>335041;1;300;0;1</string>
         <string>631137;1;15;0;1</string>
-        <string>631140;1;1;0;1</string>
-        <string>631136;1;30;0;1</string>
+        <string>340453;1;1;0;1</string>
+        <string>631136;1;100;0;1</string>
         <string>335040;1;50;0;1</string>
-        <string>335042;1;5;0;1</string>
+        <string>335042;1;50;0;1</string>
         <string>340228;1;50;0;1</string>
-        <string>631124;1;10;0;1</string>
-        <string>340233;1;100;0;1</string>
+        <string>631124;1;50;0;1</string>
+        <string>340233;1;300;0;1</string>
         <string>522132;1;10;0;1</string>
       </items>
       <mustitem>0</mustitem>

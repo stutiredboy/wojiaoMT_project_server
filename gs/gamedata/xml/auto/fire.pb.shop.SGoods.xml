@@ -5333,16 +5333,16 @@
       <type>1</type>
       <itemId>337944</itemId>
       <currencys>
-        <int>2</int>
+        <int>3</int>
       </currencys>
       <prices>
-        <int>20000</int>
+        <int>2000000</int>
       </prices>
       <oldprices>
-        <int>20000</int>
+        <int>2000000</int>
       </oldprices>
-      <limitType>0</limitType>
-      <limitNum>0</limitNum>
+      <limitType>2</limitType>
+      <limitNum>1</limitNum>
       <limitSaleNum>0</limitSaleNum>
       <limitLookLv>1</limitLookLv>
       <lvMin>1</lvMin>
@@ -5405,7 +5405,7 @@
       <type>1</type>
       <itemId>40013</itemId>
       <currencys>
-        <int>2</int>
+        <int>3</int>
       </currencys>
       <prices>
         <int>500</int>
@@ -5453,7 +5453,7 @@
       <type>1</type>
       <itemId>339103</itemId>
       <currencys>
-        <int>2</int>
+        <int>3</int>
       </currencys>
       <prices>
         <int>35</int>
@@ -5525,7 +5525,7 @@
       <type>1</type>
       <itemId>331005</itemId>
       <currencys>
-        <int>2</int>
+        <int>3</int>
       </currencys>
       <prices>
         <int>500</int>
@@ -5741,7 +5741,7 @@
       <type>1</type>
       <itemId>40008</itemId>
       <currencys>
-        <int>1</int>
+        <int>3</int>
       </currencys>
       <prices>
         <int>500</int>
@@ -5765,7 +5765,7 @@
       <type>1</type>
       <itemId>40009</itemId>
       <currencys>
-        <int>1</int>
+        <int>3</int>
       </currencys>
       <prices>
         <int>500</int>
@@ -5789,7 +5789,7 @@
       <type>1</type>
       <itemId>40010</itemId>
       <currencys>
-        <int>1</int>
+        <int>3</int>
       </currencys>
       <prices>
         <int>500</int>
@@ -5813,7 +5813,7 @@
       <type>1</type>
       <itemId>40011</itemId>
       <currencys>
-        <int>1</int>
+        <int>3</int>
       </currencys>
       <prices>
         <int>500</int>
@@ -8936,10 +8936,10 @@
         <int>2</int>
       </currencys>
       <prices>
-        <int>888888</int>
+        <int>1000000</int>
       </prices>
       <oldprices>
-        <int>888888</int>
+        <int>1000000</int>
       </oldprices>
       <limitType>0</limitType>
       <limitNum>0</limitNum>
@@ -8960,10 +8960,10 @@
         <int>2</int>
       </currencys>
       <prices>
-        <int>888888</int>
+        <int>1200000</int>
       </prices>
       <oldprices>
-        <int>888888</int>
+        <int>1200000</int>
       </oldprices>
       <limitType>0</limitType>
       <limitNum>0</limitNum>
@@ -8994,6 +8994,102 @@
       <limitSaleNum>0</limitSaleNum>
       <limitLookLv>1</limitLookLv>
       <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>3154</int>
+    <fire.pb.shop.SGoods>
+      <id>3154</id>
+      <name>花豆</name>
+      <type>1</type>
+      <itemId>339000</itemId>
+      <currencys>
+        <int>3</int>
+      </currencys>
+      <prices>
+        <int>100</int>
+      </prices>
+      <oldprices>
+        <int>100</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>3155</int>
+    <fire.pb.shop.SGoods>
+      <id>3155</id>
+      <name>彩果</name>
+      <type>1</type>
+      <itemId>339001</itemId>
+      <currencys>
+        <int>3</int>
+      </currencys>
+      <prices>
+        <int>1000</int>
+      </prices>
+      <oldprices>
+        <int>1000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>3156</int>
+    <fire.pb.shop.SGoods>
+      <id>3156</id>
+      <name>幻色丹</name>
+      <type>1</type>
+      <itemId>339002</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>50000</int>
+      </prices>
+      <oldprices>
+        <int>50000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>3157</int>
+    <fire.pb.shop.SGoods>
+      <id>3157</id>
+      <name>超级幻色丹</name>
+      <type>1</type>
+      <itemId>339003</itemId>
+      <currencys>
+        <int>3</int>
+      </currencys>
+      <prices>
+        <int>1000</int>
+      </prices>
+      <oldprices>
+        <int>1000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>200</limitLookLv>
+      <lvMin>200</lvMin>
       <lvMax>155</lvMax>
     </fire.pb.shop.SGoods>
   </entry>
@@ -16180,6 +16276,270 @@
       </prices>
       <oldprices>
         <int>200000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8800</int>
+    <fire.pb.shop.SGoods>
+      <id>8800</id>
+      <name>10W金砖</name>
+      <type>1</type>
+      <itemId>340654</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>102000</int>
+      </prices>
+      <oldprices>
+        <int>102000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8801</int>
+    <fire.pb.shop.SGoods>
+      <id>8801</id>
+      <name>20W金砖</name>
+      <type>1</type>
+      <itemId>340655</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>204000</int>
+      </prices>
+      <oldprices>
+        <int>204000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8802</int>
+    <fire.pb.shop.SGoods>
+      <id>8802</id>
+      <name>30W金砖</name>
+      <type>1</type>
+      <itemId>340656</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>306000</int>
+      </prices>
+      <oldprices>
+        <int>306000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8803</int>
+    <fire.pb.shop.SGoods>
+      <id>8803</id>
+      <name>50W金砖</name>
+      <type>1</type>
+      <itemId>340657</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>510000</int>
+      </prices>
+      <oldprices>
+        <int>510000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8804</int>
+    <fire.pb.shop.SGoods>
+      <id>8804</id>
+      <name>100W金砖</name>
+      <type>1</type>
+      <itemId>340658</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>1020000</int>
+      </prices>
+      <oldprices>
+        <int>1020000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8805</int>
+    <fire.pb.shop.SGoods>
+      <id>8805</id>
+      <name>200W金砖</name>
+      <type>1</type>
+      <itemId>340659</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>2040000</int>
+      </prices>
+      <oldprices>
+        <int>2040000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8806</int>
+    <fire.pb.shop.SGoods>
+      <id>8806</id>
+      <name>300W金砖</name>
+      <type>1</type>
+      <itemId>340660</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>3060000</int>
+      </prices>
+      <oldprices>
+        <int>3060000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8807</int>
+    <fire.pb.shop.SGoods>
+      <id>8807</id>
+      <name>500W金砖</name>
+      <type>1</type>
+      <itemId>340661</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>5100000</int>
+      </prices>
+      <oldprices>
+        <int>5100000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8808</int>
+    <fire.pb.shop.SGoods>
+      <id>8808</id>
+      <name>1000W金砖</name>
+      <type>1</type>
+      <itemId>340662</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>10200000</int>
+      </prices>
+      <oldprices>
+        <int>10200000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8809</int>
+    <fire.pb.shop.SGoods>
+      <id>8809</id>
+      <name>5000W金砖</name>
+      <type>1</type>
+      <itemId>340663</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>51000000</int>
+      </prices>
+      <oldprices>
+        <int>51000000</int>
+      </oldprices>
+      <limitType>0</limitType>
+      <limitNum>0</limitNum>
+      <limitSaleNum>0</limitSaleNum>
+      <limitLookLv>1</limitLookLv>
+      <lvMin>1</lvMin>
+      <lvMax>155</lvMax>
+    </fire.pb.shop.SGoods>
+  </entry>
+  <entry>
+    <int>8810</int>
+    <fire.pb.shop.SGoods>
+      <id>8810</id>
+      <name>1E金砖</name>
+      <type>1</type>
+      <itemId>340664</itemId>
+      <currencys>
+        <int>2</int>
+      </currencys>
+      <prices>
+        <int>102000000</int>
+      </prices>
+      <oldprices>
+        <int>102000000</int>
       </oldprices>
       <limitType>0</limitType>
       <limitNum>0</limitNum>

@@ -5,7 +5,7 @@
     <int>35001</int>
     <fire.pb.item.gemItemShuXing>
       <id>35001</id>
-      <name>1级光芒石</name>
+      <name>仙缘@1级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -41,7 +41,7 @@
     <int>35002</int>
     <fire.pb.item.gemItemShuXing>
       <id>35002</id>
-      <name>1级太阳石</name>
+      <name>仙缘@1级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -77,7 +77,7 @@
     <int>35003</int>
     <fire.pb.item.gemItemShuXing>
       <id>35003</id>
-      <name>1级月亮石</name>
+      <name>仙缘@1级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -113,7 +113,7 @@
     <int>35004</int>
     <fire.pb.item.gemItemShuXing>
       <id>35004</id>
-      <name>1级舍利子</name>
+      <name>仙缘@1级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -140,7 +140,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>7</int>
+        <int>10</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -149,7 +149,7 @@
     <int>35005</int>
     <fire.pb.item.gemItemShuXing>
       <id>35005</id>
-      <name>1级翡翠石</name>
+      <name>仙缘@1级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -185,7 +185,7 @@
     <int>35006</int>
     <fire.pb.item.gemItemShuXing>
       <id>35006</id>
-      <name>1级黑宝石</name>
+      <name>仙缘@1级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -221,7 +221,7 @@
     <int>35007</int>
     <fire.pb.item.gemItemShuXing>
       <id>35007</id>
-      <name>1级昆仑玉</name>
+      <name>仙缘@1级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -257,7 +257,7 @@
     <int>35008</int>
     <fire.pb.item.gemItemShuXing>
       <id>35008</id>
-      <name>1级红玛瑙</name>
+      <name>仙缘@1级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -293,7 +293,7 @@
     <int>35009</int>
     <fire.pb.item.gemItemShuXing>
       <id>35009</id>
-      <name>1级神秘石</name>
+      <name>仙缘@1级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -329,7 +329,7 @@
     <int>35010</int>
     <fire.pb.item.gemItemShuXing>
       <id>35010</id>
-      <name>2级光芒石</name>
+      <name>仙缘@2级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -365,7 +365,7 @@
     <int>35011</int>
     <fire.pb.item.gemItemShuXing>
       <id>35011</id>
-      <name>2级太阳石</name>
+      <name>仙缘@2级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -401,7 +401,7 @@
     <int>35012</int>
     <fire.pb.item.gemItemShuXing>
       <id>35012</id>
-      <name>2级月亮石</name>
+      <name>仙缘@2级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -437,7 +437,7 @@
     <int>35013</int>
     <fire.pb.item.gemItemShuXing>
       <id>35013</id>
-      <name>2级舍利子</name>
+      <name>仙缘@2级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -464,7 +464,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>14</int>
+        <int>30</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -473,7 +473,7 @@
     <int>35014</int>
     <fire.pb.item.gemItemShuXing>
       <id>35014</id>
-      <name>2级翡翠石</name>
+      <name>仙缘@2级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -509,7 +509,7 @@
     <int>35015</int>
     <fire.pb.item.gemItemShuXing>
       <id>35015</id>
-      <name>2级黑宝石</name>
+      <name>仙缘@2级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -545,7 +545,7 @@
     <int>35016</int>
     <fire.pb.item.gemItemShuXing>
       <id>35016</id>
-      <name>2级昆仑玉</name>
+      <name>仙缘@2级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -581,7 +581,7 @@
     <int>35017</int>
     <fire.pb.item.gemItemShuXing>
       <id>35017</id>
-      <name>2级红玛瑙</name>
+      <name>仙缘@2级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -617,7 +617,7 @@
     <int>35018</int>
     <fire.pb.item.gemItemShuXing>
       <id>35018</id>
-      <name>2级神秘石</name>
+      <name>仙缘@2级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -653,7 +653,7 @@
     <int>35019</int>
     <fire.pb.item.gemItemShuXing>
       <id>35019</id>
-      <name>3级光芒石</name>
+      <name>仙缘@3级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -689,7 +689,7 @@
     <int>35020</int>
     <fire.pb.item.gemItemShuXing>
       <id>35020</id>
-      <name>3级太阳石</name>
+      <name>仙缘@3级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -725,7 +725,7 @@
     <int>35021</int>
     <fire.pb.item.gemItemShuXing>
       <id>35021</id>
-      <name>3级月亮石</name>
+      <name>仙缘@3级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -761,7 +761,7 @@
     <int>35022</int>
     <fire.pb.item.gemItemShuXing>
       <id>35022</id>
-      <name>3级舍利子</name>
+      <name>仙缘@3级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -788,7 +788,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>21</int>
+        <int>50</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -797,7 +797,7 @@
     <int>35023</int>
     <fire.pb.item.gemItemShuXing>
       <id>35023</id>
-      <name>3级翡翠石</name>
+      <name>仙缘@3级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -833,7 +833,7 @@
     <int>35024</int>
     <fire.pb.item.gemItemShuXing>
       <id>35024</id>
-      <name>3级黑宝石</name>
+      <name>仙缘@3级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -869,7 +869,7 @@
     <int>35025</int>
     <fire.pb.item.gemItemShuXing>
       <id>35025</id>
-      <name>3级昆仑玉</name>
+      <name>仙缘@3级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -905,7 +905,7 @@
     <int>35026</int>
     <fire.pb.item.gemItemShuXing>
       <id>35026</id>
-      <name>3级红玛瑙</name>
+      <name>仙缘@3级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -941,7 +941,7 @@
     <int>35027</int>
     <fire.pb.item.gemItemShuXing>
       <id>35027</id>
-      <name>3级神秘石</name>
+      <name>仙缘@3级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -977,7 +977,7 @@
     <int>35028</int>
     <fire.pb.item.gemItemShuXing>
       <id>35028</id>
-      <name>4级光芒石</name>
+      <name>仙缘@4级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1013,7 +1013,7 @@
     <int>35029</int>
     <fire.pb.item.gemItemShuXing>
       <id>35029</id>
-      <name>4级太阳石</name>
+      <name>仙缘@4级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1049,7 +1049,7 @@
     <int>35030</int>
     <fire.pb.item.gemItemShuXing>
       <id>35030</id>
-      <name>4级月亮石</name>
+      <name>仙缘@4级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1085,7 +1085,7 @@
     <int>35031</int>
     <fire.pb.item.gemItemShuXing>
       <id>35031</id>
-      <name>4级舍利子</name>
+      <name>仙缘@4级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1112,7 +1112,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>28</int>
+        <int>70</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -1121,7 +1121,7 @@
     <int>35032</int>
     <fire.pb.item.gemItemShuXing>
       <id>35032</id>
-      <name>4级翡翠石</name>
+      <name>仙缘@4级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1157,7 +1157,7 @@
     <int>35033</int>
     <fire.pb.item.gemItemShuXing>
       <id>35033</id>
-      <name>4级黑宝石</name>
+      <name>仙缘@4级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1193,7 +1193,7 @@
     <int>35034</int>
     <fire.pb.item.gemItemShuXing>
       <id>35034</id>
-      <name>4级昆仑玉</name>
+      <name>仙缘@4级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1229,7 +1229,7 @@
     <int>35035</int>
     <fire.pb.item.gemItemShuXing>
       <id>35035</id>
-      <name>4级红玛瑙</name>
+      <name>仙缘@4级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1265,7 +1265,7 @@
     <int>35036</int>
     <fire.pb.item.gemItemShuXing>
       <id>35036</id>
-      <name>4级神秘石</name>
+      <name>仙缘@4级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -1301,7 +1301,7 @@
     <int>35037</int>
     <fire.pb.item.gemItemShuXing>
       <id>35037</id>
-      <name>5级光芒石</name>
+      <name>仙缘@5级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1337,7 +1337,7 @@
     <int>35038</int>
     <fire.pb.item.gemItemShuXing>
       <id>35038</id>
-      <name>5级太阳石</name>
+      <name>仙缘@5级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1373,7 +1373,7 @@
     <int>35039</int>
     <fire.pb.item.gemItemShuXing>
       <id>35039</id>
-      <name>5级月亮石</name>
+      <name>仙缘@5级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1409,7 +1409,7 @@
     <int>35040</int>
     <fire.pb.item.gemItemShuXing>
       <id>35040</id>
-      <name>5级舍利子</name>
+      <name>仙缘@5级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1436,7 +1436,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>35</int>
+        <int>90</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -1445,7 +1445,7 @@
     <int>35041</int>
     <fire.pb.item.gemItemShuXing>
       <id>35041</id>
-      <name>5级翡翠石</name>
+      <name>仙缘@5级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1481,7 +1481,7 @@
     <int>35042</int>
     <fire.pb.item.gemItemShuXing>
       <id>35042</id>
-      <name>5级黑宝石</name>
+      <name>仙缘@5级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1517,7 +1517,7 @@
     <int>35043</int>
     <fire.pb.item.gemItemShuXing>
       <id>35043</id>
-      <name>5级昆仑玉</name>
+      <name>仙缘@5级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1553,7 +1553,7 @@
     <int>35044</int>
     <fire.pb.item.gemItemShuXing>
       <id>35044</id>
-      <name>5级红玛瑙</name>
+      <name>仙缘@5级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1589,7 +1589,7 @@
     <int>35045</int>
     <fire.pb.item.gemItemShuXing>
       <id>35045</id>
-      <name>5级神秘石</name>
+      <name>仙缘@5级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -1625,7 +1625,7 @@
     <int>35046</int>
     <fire.pb.item.gemItemShuXing>
       <id>35046</id>
-      <name>6级光芒石</name>
+      <name>仙缘@6级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1661,7 +1661,7 @@
     <int>35047</int>
     <fire.pb.item.gemItemShuXing>
       <id>35047</id>
-      <name>6级太阳石</name>
+      <name>仙缘@6级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1697,7 +1697,7 @@
     <int>35048</int>
     <fire.pb.item.gemItemShuXing>
       <id>35048</id>
-      <name>6级月亮石</name>
+      <name>仙缘@6级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1733,7 +1733,7 @@
     <int>35049</int>
     <fire.pb.item.gemItemShuXing>
       <id>35049</id>
-      <name>6级舍利子</name>
+      <name>仙缘@6级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1760,7 +1760,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>42</int>
+        <int>110</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -1769,7 +1769,7 @@
     <int>35050</int>
     <fire.pb.item.gemItemShuXing>
       <id>35050</id>
-      <name>6级翡翠石</name>
+      <name>仙缘@6级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1805,7 +1805,7 @@
     <int>35051</int>
     <fire.pb.item.gemItemShuXing>
       <id>35051</id>
-      <name>6级黑宝石</name>
+      <name>仙缘@6级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1841,7 +1841,7 @@
     <int>35052</int>
     <fire.pb.item.gemItemShuXing>
       <id>35052</id>
-      <name>6级昆仑玉</name>
+      <name>仙缘@6级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1877,7 +1877,7 @@
     <int>35053</int>
     <fire.pb.item.gemItemShuXing>
       <id>35053</id>
-      <name>6级红玛瑙</name>
+      <name>仙缘@6级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1913,7 +1913,7 @@
     <int>35054</int>
     <fire.pb.item.gemItemShuXing>
       <id>35054</id>
-      <name>6级神秘石</name>
+      <name>仙缘@6级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -1949,7 +1949,7 @@
     <int>35055</int>
     <fire.pb.item.gemItemShuXing>
       <id>35055</id>
-      <name>7级光芒石</name>
+      <name>仙缘@7级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -1985,7 +1985,7 @@
     <int>35056</int>
     <fire.pb.item.gemItemShuXing>
       <id>35056</id>
-      <name>7级太阳石</name>
+      <name>仙缘@7级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2021,7 +2021,7 @@
     <int>35057</int>
     <fire.pb.item.gemItemShuXing>
       <id>35057</id>
-      <name>7级月亮石</name>
+      <name>仙缘@7级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2057,7 +2057,7 @@
     <int>35058</int>
     <fire.pb.item.gemItemShuXing>
       <id>35058</id>
-      <name>7级舍利子</name>
+      <name>仙缘@7级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2084,7 +2084,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>49</int>
+        <int>130</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -2093,7 +2093,7 @@
     <int>35059</int>
     <fire.pb.item.gemItemShuXing>
       <id>35059</id>
-      <name>7级翡翠石</name>
+      <name>仙缘@7级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2129,7 +2129,7 @@
     <int>35060</int>
     <fire.pb.item.gemItemShuXing>
       <id>35060</id>
-      <name>7级黑宝石</name>
+      <name>仙缘@7级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2165,7 +2165,7 @@
     <int>35061</int>
     <fire.pb.item.gemItemShuXing>
       <id>35061</id>
-      <name>7级昆仑玉</name>
+      <name>仙缘@7级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2201,7 +2201,7 @@
     <int>35062</int>
     <fire.pb.item.gemItemShuXing>
       <id>35062</id>
-      <name>7级红玛瑙</name>
+      <name>仙缘@7级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2237,7 +2237,7 @@
     <int>35063</int>
     <fire.pb.item.gemItemShuXing>
       <id>35063</id>
-      <name>7级神秘石</name>
+      <name>仙缘@7级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -2273,7 +2273,7 @@
     <int>35064</int>
     <fire.pb.item.gemItemShuXing>
       <id>35064</id>
-      <name>8级光芒石</name>
+      <name>仙缘@8级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2309,7 +2309,7 @@
     <int>35065</int>
     <fire.pb.item.gemItemShuXing>
       <id>35065</id>
-      <name>8级太阳石</name>
+      <name>仙缘@8级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2345,7 +2345,7 @@
     <int>35066</int>
     <fire.pb.item.gemItemShuXing>
       <id>35066</id>
-      <name>8级月亮石</name>
+      <name>仙缘@8级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2381,7 +2381,7 @@
     <int>35067</int>
     <fire.pb.item.gemItemShuXing>
       <id>35067</id>
-      <name>8级舍利子</name>
+      <name>仙缘@8级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2408,7 +2408,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>56</int>
+        <int>150</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -2417,7 +2417,7 @@
     <int>35068</int>
     <fire.pb.item.gemItemShuXing>
       <id>35068</id>
-      <name>8级翡翠石</name>
+      <name>仙缘@8级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2453,7 +2453,7 @@
     <int>35069</int>
     <fire.pb.item.gemItemShuXing>
       <id>35069</id>
-      <name>8级黑宝石</name>
+      <name>仙缘@8级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2489,7 +2489,7 @@
     <int>35070</int>
     <fire.pb.item.gemItemShuXing>
       <id>35070</id>
-      <name>8级昆仑玉</name>
+      <name>仙缘@8级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2525,7 +2525,7 @@
     <int>35071</int>
     <fire.pb.item.gemItemShuXing>
       <id>35071</id>
-      <name>8级红玛瑙</name>
+      <name>仙缘@8级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2561,7 +2561,7 @@
     <int>35072</int>
     <fire.pb.item.gemItemShuXing>
       <id>35072</id>
-      <name>8级神秘石</name>
+      <name>仙缘@8级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -2597,7 +2597,7 @@
     <int>35073</int>
     <fire.pb.item.gemItemShuXing>
       <id>35073</id>
-      <name>9级光芒石</name>
+      <name>仙缘@9级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2633,7 +2633,7 @@
     <int>35074</int>
     <fire.pb.item.gemItemShuXing>
       <id>35074</id>
-      <name>9级太阳石</name>
+      <name>仙缘@9级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2669,7 +2669,7 @@
     <int>35075</int>
     <fire.pb.item.gemItemShuXing>
       <id>35075</id>
-      <name>9级月亮石</name>
+      <name>仙缘@9级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2705,7 +2705,7 @@
     <int>35076</int>
     <fire.pb.item.gemItemShuXing>
       <id>35076</id>
-      <name>9级舍利子</name>
+      <name>仙缘@9级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2732,7 +2732,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>63</int>
+        <int>170</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -2741,7 +2741,7 @@
     <int>35077</int>
     <fire.pb.item.gemItemShuXing>
       <id>35077</id>
-      <name>9级翡翠石</name>
+      <name>仙缘@9级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2777,7 +2777,7 @@
     <int>35078</int>
     <fire.pb.item.gemItemShuXing>
       <id>35078</id>
-      <name>9级黑宝石</name>
+      <name>仙缘@9级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2813,7 +2813,7 @@
     <int>35079</int>
     <fire.pb.item.gemItemShuXing>
       <id>35079</id>
-      <name>9级昆仑玉</name>
+      <name>仙缘@9级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2849,7 +2849,7 @@
     <int>35080</int>
     <fire.pb.item.gemItemShuXing>
       <id>35080</id>
-      <name>9级红玛瑙</name>
+      <name>仙缘@9级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2885,7 +2885,7 @@
     <int>35081</int>
     <fire.pb.item.gemItemShuXing>
       <id>35081</id>
-      <name>9级神秘石</name>
+      <name>仙缘@9级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -2921,7 +2921,7 @@
     <int>35082</int>
     <fire.pb.item.gemItemShuXing>
       <id>35082</id>
-      <name>10级光芒石</name>
+      <name>仙缘@10级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -2957,7 +2957,7 @@
     <int>35083</int>
     <fire.pb.item.gemItemShuXing>
       <id>35083</id>
-      <name>10级太阳石</name>
+      <name>仙缘@10级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -2993,7 +2993,7 @@
     <int>35084</int>
     <fire.pb.item.gemItemShuXing>
       <id>35084</id>
-      <name>10级月亮石</name>
+      <name>仙缘@10级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -3029,7 +3029,7 @@
     <int>35085</int>
     <fire.pb.item.gemItemShuXing>
       <id>35085</id>
-      <name>10级舍利子</name>
+      <name>仙缘@10级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -3056,7 +3056,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>70</int>
+        <int>190</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -3065,7 +3065,7 @@
     <int>35086</int>
     <fire.pb.item.gemItemShuXing>
       <id>35086</id>
-      <name>10级翡翠石</name>
+      <name>仙缘@10级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -3101,7 +3101,7 @@
     <int>35087</int>
     <fire.pb.item.gemItemShuXing>
       <id>35087</id>
-      <name>10级黑宝石</name>
+      <name>仙缘@10级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -3137,7 +3137,7 @@
     <int>35088</int>
     <fire.pb.item.gemItemShuXing>
       <id>35088</id>
-      <name>10级昆仑玉</name>
+      <name>仙缘@10级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -3173,7 +3173,7 @@
     <int>35089</int>
     <fire.pb.item.gemItemShuXing>
       <id>35089</id>
-      <name>10级红玛瑙</name>
+      <name>仙缘@10级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -3209,7 +3209,7 @@
     <int>35090</int>
     <fire.pb.item.gemItemShuXing>
       <id>35090</id>
-      <name>10级神秘石</name>
+      <name>仙缘@10级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -3245,7 +3245,7 @@
     <int>35091</int>
     <fire.pb.item.gemItemShuXing>
       <id>35091</id>
-      <name>11级光芒石</name>
+      <name>仙缘@11级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3281,7 +3281,7 @@
     <int>35092</int>
     <fire.pb.item.gemItemShuXing>
       <id>35092</id>
-      <name>11级太阳石</name>
+      <name>仙缘@11级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3317,7 +3317,7 @@
     <int>35093</int>
     <fire.pb.item.gemItemShuXing>
       <id>35093</id>
-      <name>11级月亮石</name>
+      <name>仙缘@11级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3353,7 +3353,7 @@
     <int>35094</int>
     <fire.pb.item.gemItemShuXing>
       <id>35094</id>
-      <name>11级舍利子</name>
+      <name>仙缘@11级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3380,7 +3380,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>77</int>
+        <int>210</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -3389,7 +3389,7 @@
     <int>35095</int>
     <fire.pb.item.gemItemShuXing>
       <id>35095</id>
-      <name>11级翡翠石</name>
+      <name>仙缘@11级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3425,7 +3425,7 @@
     <int>35096</int>
     <fire.pb.item.gemItemShuXing>
       <id>35096</id>
-      <name>11级黑宝石</name>
+      <name>仙缘@11级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3461,7 +3461,7 @@
     <int>35097</int>
     <fire.pb.item.gemItemShuXing>
       <id>35097</id>
-      <name>11级昆仑玉</name>
+      <name>仙缘@11级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3497,7 +3497,7 @@
     <int>35098</int>
     <fire.pb.item.gemItemShuXing>
       <id>35098</id>
-      <name>11级红玛瑙</name>
+      <name>仙缘@11级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3533,7 +3533,7 @@
     <int>35099</int>
     <fire.pb.item.gemItemShuXing>
       <id>35099</id>
-      <name>11级神秘石</name>
+      <name>仙缘@11级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -3569,7 +3569,7 @@
     <int>35100</int>
     <fire.pb.item.gemItemShuXing>
       <id>35100</id>
-      <name>12级光芒石</name>
+      <name>仙缘@12级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3605,7 +3605,7 @@
     <int>35101</int>
     <fire.pb.item.gemItemShuXing>
       <id>35101</id>
-      <name>12级太阳石</name>
+      <name>仙缘@12级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3641,7 +3641,7 @@
     <int>35102</int>
     <fire.pb.item.gemItemShuXing>
       <id>35102</id>
-      <name>12级月亮石</name>
+      <name>仙缘@12级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3677,7 +3677,7 @@
     <int>35103</int>
     <fire.pb.item.gemItemShuXing>
       <id>35103</id>
-      <name>12级舍利子</name>
+      <name>仙缘@12级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3704,7 +3704,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>84</int>
+        <int>230</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -3713,7 +3713,7 @@
     <int>35104</int>
     <fire.pb.item.gemItemShuXing>
       <id>35104</id>
-      <name>12级翡翠石</name>
+      <name>仙缘@12级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3749,7 +3749,7 @@
     <int>35105</int>
     <fire.pb.item.gemItemShuXing>
       <id>35105</id>
-      <name>12级黑宝石</name>
+      <name>仙缘@12级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3785,7 +3785,7 @@
     <int>35106</int>
     <fire.pb.item.gemItemShuXing>
       <id>35106</id>
-      <name>12级昆仑玉</name>
+      <name>仙缘@12级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3821,7 +3821,7 @@
     <int>35107</int>
     <fire.pb.item.gemItemShuXing>
       <id>35107</id>
-      <name>12级红玛瑙</name>
+      <name>仙缘@12级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3857,7 +3857,7 @@
     <int>35108</int>
     <fire.pb.item.gemItemShuXing>
       <id>35108</id>
-      <name>12级神秘石</name>
+      <name>仙缘@12级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -3893,7 +3893,7 @@
     <int>35109</int>
     <fire.pb.item.gemItemShuXing>
       <id>35109</id>
-      <name>13级光芒石</name>
+      <name>仙缘@13级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -3929,7 +3929,7 @@
     <int>35110</int>
     <fire.pb.item.gemItemShuXing>
       <id>35110</id>
-      <name>13级太阳石</name>
+      <name>仙缘@13级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -3965,7 +3965,7 @@
     <int>35111</int>
     <fire.pb.item.gemItemShuXing>
       <id>35111</id>
-      <name>13级月亮石</name>
+      <name>仙缘@13级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -4001,7 +4001,7 @@
     <int>35112</int>
     <fire.pb.item.gemItemShuXing>
       <id>35112</id>
-      <name>13级舍利子</name>
+      <name>仙缘@13级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -4028,7 +4028,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>91</int>
+        <int>250</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -4037,7 +4037,7 @@
     <int>35113</int>
     <fire.pb.item.gemItemShuXing>
       <id>35113</id>
-      <name>13级翡翠石</name>
+      <name>仙缘@13级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -4073,7 +4073,7 @@
     <int>35114</int>
     <fire.pb.item.gemItemShuXing>
       <id>35114</id>
-      <name>13级黑宝石</name>
+      <name>仙缘@13级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -4109,7 +4109,7 @@
     <int>35115</int>
     <fire.pb.item.gemItemShuXing>
       <id>35115</id>
-      <name>13级昆仑玉</name>
+      <name>仙缘@13级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -4145,7 +4145,7 @@
     <int>35116</int>
     <fire.pb.item.gemItemShuXing>
       <id>35116</id>
-      <name>13级红玛瑙</name>
+      <name>仙缘@13级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -4181,7 +4181,7 @@
     <int>35117</int>
     <fire.pb.item.gemItemShuXing>
       <id>35117</id>
-      <name>13级神秘石</name>
+      <name>仙缘@13级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -4217,7 +4217,7 @@
     <int>35118</int>
     <fire.pb.item.gemItemShuXing>
       <id>35118</id>
-      <name>14级光芒石</name>
+      <name>仙缘@14级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4253,7 +4253,7 @@
     <int>35119</int>
     <fire.pb.item.gemItemShuXing>
       <id>35119</id>
-      <name>14级太阳石</name>
+      <name>仙缘@14级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4289,7 +4289,7 @@
     <int>35120</int>
     <fire.pb.item.gemItemShuXing>
       <id>35120</id>
-      <name>14级月亮石</name>
+      <name>仙缘@14级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4325,7 +4325,7 @@
     <int>35121</int>
     <fire.pb.item.gemItemShuXing>
       <id>35121</id>
-      <name>14级舍利子</name>
+      <name>仙缘@14级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4352,7 +4352,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>98</int>
+        <int>270</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -4361,7 +4361,7 @@
     <int>35122</int>
     <fire.pb.item.gemItemShuXing>
       <id>35122</id>
-      <name>14级翡翠石</name>
+      <name>仙缘@14级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4397,7 +4397,7 @@
     <int>35123</int>
     <fire.pb.item.gemItemShuXing>
       <id>35123</id>
-      <name>14级黑宝石</name>
+      <name>仙缘@14级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4433,7 +4433,7 @@
     <int>35124</int>
     <fire.pb.item.gemItemShuXing>
       <id>35124</id>
-      <name>14级昆仑玉</name>
+      <name>仙缘@14级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4469,7 +4469,7 @@
     <int>35125</int>
     <fire.pb.item.gemItemShuXing>
       <id>35125</id>
-      <name>14级红玛瑙</name>
+      <name>仙缘@14级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4505,7 +4505,7 @@
     <int>35126</int>
     <fire.pb.item.gemItemShuXing>
       <id>35126</id>
-      <name>14级神秘石</name>
+      <name>仙缘@14级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -4541,7 +4541,7 @@
     <int>35127</int>
     <fire.pb.item.gemItemShuXing>
       <id>35127</id>
-      <name>15级光芒石</name>
+      <name>仙缘@15级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4577,7 +4577,7 @@
     <int>35128</int>
     <fire.pb.item.gemItemShuXing>
       <id>35128</id>
-      <name>15级太阳石</name>
+      <name>仙缘@15级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4613,7 +4613,7 @@
     <int>35129</int>
     <fire.pb.item.gemItemShuXing>
       <id>35129</id>
-      <name>15级月亮石</name>
+      <name>仙缘@15级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4649,7 +4649,7 @@
     <int>35130</int>
     <fire.pb.item.gemItemShuXing>
       <id>35130</id>
-      <name>15级舍利子</name>
+      <name>仙缘@15级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4676,7 +4676,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>105</int>
+        <int>290</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -4685,7 +4685,7 @@
     <int>35131</int>
     <fire.pb.item.gemItemShuXing>
       <id>35131</id>
-      <name>15级翡翠石</name>
+      <name>仙缘@15级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4721,7 +4721,7 @@
     <int>35132</int>
     <fire.pb.item.gemItemShuXing>
       <id>35132</id>
-      <name>15级黑宝石</name>
+      <name>仙缘@15级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4757,7 +4757,7 @@
     <int>35133</int>
     <fire.pb.item.gemItemShuXing>
       <id>35133</id>
-      <name>15级昆仑玉</name>
+      <name>仙缘@15级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4793,7 +4793,7 @@
     <int>35134</int>
     <fire.pb.item.gemItemShuXing>
       <id>35134</id>
-      <name>15级红玛瑙</name>
+      <name>仙缘@15级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4829,7 +4829,7 @@
     <int>35135</int>
     <fire.pb.item.gemItemShuXing>
       <id>35135</id>
-      <name>15级神秘石</name>
+      <name>仙缘@15级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -4865,7 +4865,7 @@
     <int>35136</int>
     <fire.pb.item.gemItemShuXing>
       <id>35136</id>
-      <name>16级光芒石</name>
+      <name>仙缘@16级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -4901,7 +4901,7 @@
     <int>35137</int>
     <fire.pb.item.gemItemShuXing>
       <id>35137</id>
-      <name>16级太阳石</name>
+      <name>仙缘@16级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -4937,7 +4937,7 @@
     <int>35138</int>
     <fire.pb.item.gemItemShuXing>
       <id>35138</id>
-      <name>16级月亮石</name>
+      <name>仙缘@16级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -4973,7 +4973,7 @@
     <int>35139</int>
     <fire.pb.item.gemItemShuXing>
       <id>35139</id>
-      <name>16级舍利子</name>
+      <name>仙缘@16级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -5000,7 +5000,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>112</int>
+        <int>310</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -5009,7 +5009,7 @@
     <int>35140</int>
     <fire.pb.item.gemItemShuXing>
       <id>35140</id>
-      <name>16级翡翠石</name>
+      <name>仙缘@16级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -5045,7 +5045,7 @@
     <int>35141</int>
     <fire.pb.item.gemItemShuXing>
       <id>35141</id>
-      <name>16级黑宝石</name>
+      <name>仙缘@16级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -5081,7 +5081,7 @@
     <int>35142</int>
     <fire.pb.item.gemItemShuXing>
       <id>35142</id>
-      <name>16级昆仑玉</name>
+      <name>仙缘@16级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -5117,7 +5117,7 @@
     <int>35143</int>
     <fire.pb.item.gemItemShuXing>
       <id>35143</id>
-      <name>16级红玛瑙</name>
+      <name>仙缘@16级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -5153,7 +5153,7 @@
     <int>35144</int>
     <fire.pb.item.gemItemShuXing>
       <id>35144</id>
-      <name>16级神秘石</name>
+      <name>仙缘@16级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -5189,7 +5189,7 @@
     <int>35145</int>
     <fire.pb.item.gemItemShuXing>
       <id>35145</id>
-      <name>17级光芒石</name>
+      <name>仙缘@17级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5225,7 +5225,7 @@
     <int>35146</int>
     <fire.pb.item.gemItemShuXing>
       <id>35146</id>
-      <name>17级太阳石</name>
+      <name>仙缘@17级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5261,7 +5261,7 @@
     <int>35147</int>
     <fire.pb.item.gemItemShuXing>
       <id>35147</id>
-      <name>17级月亮石</name>
+      <name>仙缘@17级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5297,7 +5297,7 @@
     <int>35148</int>
     <fire.pb.item.gemItemShuXing>
       <id>35148</id>
-      <name>17级舍利子</name>
+      <name>仙缘@17级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5324,7 +5324,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>119</int>
+        <int>330</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -5333,7 +5333,7 @@
     <int>35149</int>
     <fire.pb.item.gemItemShuXing>
       <id>35149</id>
-      <name>17级翡翠石</name>
+      <name>仙缘@17级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5369,7 +5369,7 @@
     <int>35150</int>
     <fire.pb.item.gemItemShuXing>
       <id>35150</id>
-      <name>17级黑宝石</name>
+      <name>仙缘@17级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5405,7 +5405,7 @@
     <int>35151</int>
     <fire.pb.item.gemItemShuXing>
       <id>35151</id>
-      <name>17级昆仑玉</name>
+      <name>仙缘@17级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5441,7 +5441,7 @@
     <int>35152</int>
     <fire.pb.item.gemItemShuXing>
       <id>35152</id>
-      <name>17级红玛瑙</name>
+      <name>仙缘@17级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5477,7 +5477,7 @@
     <int>35153</int>
     <fire.pb.item.gemItemShuXing>
       <id>35153</id>
-      <name>17级神秘石</name>
+      <name>仙缘@17级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -5513,7 +5513,7 @@
     <int>35154</int>
     <fire.pb.item.gemItemShuXing>
       <id>35154</id>
-      <name>18级光芒石</name>
+      <name>仙缘@18级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5549,7 +5549,7 @@
     <int>35155</int>
     <fire.pb.item.gemItemShuXing>
       <id>35155</id>
-      <name>18级太阳石</name>
+      <name>仙缘@18级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5585,7 +5585,7 @@
     <int>35156</int>
     <fire.pb.item.gemItemShuXing>
       <id>35156</id>
-      <name>18级月亮石</name>
+      <name>仙缘@18级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5621,7 +5621,7 @@
     <int>35157</int>
     <fire.pb.item.gemItemShuXing>
       <id>35157</id>
-      <name>18级舍利子</name>
+      <name>仙缘@18级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5648,7 +5648,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>126</int>
+        <int>350</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -5657,7 +5657,7 @@
     <int>35158</int>
     <fire.pb.item.gemItemShuXing>
       <id>35158</id>
-      <name>18级翡翠石</name>
+      <name>仙缘@18级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5693,7 +5693,7 @@
     <int>35159</int>
     <fire.pb.item.gemItemShuXing>
       <id>35159</id>
-      <name>18级黑宝石</name>
+      <name>仙缘@18级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5729,7 +5729,7 @@
     <int>35160</int>
     <fire.pb.item.gemItemShuXing>
       <id>35160</id>
-      <name>18级昆仑玉</name>
+      <name>仙缘@18级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5765,7 +5765,7 @@
     <int>35161</int>
     <fire.pb.item.gemItemShuXing>
       <id>35161</id>
-      <name>18级红玛瑙</name>
+      <name>仙缘@18级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5801,7 +5801,7 @@
     <int>35162</int>
     <fire.pb.item.gemItemShuXing>
       <id>35162</id>
-      <name>18级神秘石</name>
+      <name>仙缘@18级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -5837,7 +5837,7 @@
     <int>35163</int>
     <fire.pb.item.gemItemShuXing>
       <id>35163</id>
-      <name>19级光芒石</name>
+      <name>仙缘@19级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -5873,7 +5873,7 @@
     <int>35164</int>
     <fire.pb.item.gemItemShuXing>
       <id>35164</id>
-      <name>19级太阳石</name>
+      <name>仙缘@19级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -5909,7 +5909,7 @@
     <int>35165</int>
     <fire.pb.item.gemItemShuXing>
       <id>35165</id>
-      <name>19级月亮石</name>
+      <name>仙缘@19级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -5945,7 +5945,7 @@
     <int>35166</int>
     <fire.pb.item.gemItemShuXing>
       <id>35166</id>
-      <name>19级舍利子</name>
+      <name>仙缘@19级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -5972,7 +5972,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>133</int>
+        <int>370</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -5981,7 +5981,7 @@
     <int>35167</int>
     <fire.pb.item.gemItemShuXing>
       <id>35167</id>
-      <name>19级翡翠石</name>
+      <name>仙缘@19级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -6017,7 +6017,7 @@
     <int>35168</int>
     <fire.pb.item.gemItemShuXing>
       <id>35168</id>
-      <name>19级黑宝石</name>
+      <name>仙缘@19级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -6053,7 +6053,7 @@
     <int>35169</int>
     <fire.pb.item.gemItemShuXing>
       <id>35169</id>
-      <name>19级昆仑玉</name>
+      <name>仙缘@19级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -6089,7 +6089,7 @@
     <int>35170</int>
     <fire.pb.item.gemItemShuXing>
       <id>35170</id>
-      <name>19级红玛瑙</name>
+      <name>仙缘@19级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -6125,7 +6125,7 @@
     <int>35171</int>
     <fire.pb.item.gemItemShuXing>
       <id>35171</id>
-      <name>19级神秘石</name>
+      <name>仙缘@19级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -6161,7 +6161,7 @@
     <int>35172</int>
     <fire.pb.item.gemItemShuXing>
       <id>35172</id>
-      <name>20级光芒石</name>
+      <name>仙缘@20级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6197,7 +6197,7 @@
     <int>35173</int>
     <fire.pb.item.gemItemShuXing>
       <id>35173</id>
-      <name>20级太阳石</name>
+      <name>仙缘@20级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6233,7 +6233,7 @@
     <int>35174</int>
     <fire.pb.item.gemItemShuXing>
       <id>35174</id>
-      <name>20级月亮石</name>
+      <name>仙缘@20级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6269,7 +6269,7 @@
     <int>35175</int>
     <fire.pb.item.gemItemShuXing>
       <id>35175</id>
-      <name>20级舍利子</name>
+      <name>仙缘@20级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6296,7 +6296,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>140</int>
+        <int>390</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -6305,7 +6305,7 @@
     <int>35176</int>
     <fire.pb.item.gemItemShuXing>
       <id>35176</id>
-      <name>20级翡翠石</name>
+      <name>仙缘@20级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6341,7 +6341,7 @@
     <int>35177</int>
     <fire.pb.item.gemItemShuXing>
       <id>35177</id>
-      <name>20级黑宝石</name>
+      <name>仙缘@20级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6377,7 +6377,7 @@
     <int>35178</int>
     <fire.pb.item.gemItemShuXing>
       <id>35178</id>
-      <name>20级昆仑玉</name>
+      <name>仙缘@20级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6413,7 +6413,7 @@
     <int>35179</int>
     <fire.pb.item.gemItemShuXing>
       <id>35179</id>
-      <name>20级红玛瑙</name>
+      <name>仙缘@20级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6449,7 +6449,7 @@
     <int>35180</int>
     <fire.pb.item.gemItemShuXing>
       <id>35180</id>
-      <name>20级神秘石</name>
+      <name>仙缘@20级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>
@@ -6485,7 +6485,7 @@
     <int>35181</int>
     <fire.pb.item.gemItemShuXing>
       <id>35181</id>
-      <name>21级光芒石</name>
+      <name>仙缘@21级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6521,7 +6521,7 @@
     <int>35182</int>
     <fire.pb.item.gemItemShuXing>
       <id>35182</id>
-      <name>21级太阳石</name>
+      <name>仙缘@21级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6557,7 +6557,7 @@
     <int>35183</int>
     <fire.pb.item.gemItemShuXing>
       <id>35183</id>
-      <name>21级月亮石</name>
+      <name>仙缘@21级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6593,7 +6593,7 @@
     <int>35184</int>
     <fire.pb.item.gemItemShuXing>
       <id>35184</id>
-      <name>21级舍利子</name>
+      <name>仙缘@21级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6620,7 +6620,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>150</int>
+        <int>410</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -6629,7 +6629,7 @@
     <int>35185</int>
     <fire.pb.item.gemItemShuXing>
       <id>35185</id>
-      <name>21级翡翠石</name>
+      <name>仙缘@21级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6665,7 +6665,7 @@
     <int>35186</int>
     <fire.pb.item.gemItemShuXing>
       <id>35186</id>
-      <name>21级黑宝石</name>
+      <name>仙缘@21级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6701,7 +6701,7 @@
     <int>35187</int>
     <fire.pb.item.gemItemShuXing>
       <id>35187</id>
-      <name>21级昆仑玉</name>
+      <name>仙缘@21级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6737,7 +6737,7 @@
     <int>35188</int>
     <fire.pb.item.gemItemShuXing>
       <id>35188</id>
-      <name>21级红玛瑙</name>
+      <name>仙缘@21级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6773,7 +6773,7 @@
     <int>35189</int>
     <fire.pb.item.gemItemShuXing>
       <id>35189</id>
-      <name>21级神秘石</name>
+      <name>仙缘@21级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>21</level>
@@ -6809,7 +6809,7 @@
     <int>35190</int>
     <fire.pb.item.gemItemShuXing>
       <id>35190</id>
-      <name>22级光芒石</name>
+      <name>仙缘@22级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -6845,7 +6845,7 @@
     <int>35191</int>
     <fire.pb.item.gemItemShuXing>
       <id>35191</id>
-      <name>22级太阳石</name>
+      <name>仙缘@22级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -6881,7 +6881,7 @@
     <int>35192</int>
     <fire.pb.item.gemItemShuXing>
       <id>35192</id>
-      <name>22级月亮石</name>
+      <name>仙缘@22级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -6917,7 +6917,7 @@
     <int>35193</int>
     <fire.pb.item.gemItemShuXing>
       <id>35193</id>
-      <name>22级舍利子</name>
+      <name>仙缘@22级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -6944,7 +6944,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>160</int>
+        <int>430</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -6953,7 +6953,7 @@
     <int>35194</int>
     <fire.pb.item.gemItemShuXing>
       <id>35194</id>
-      <name>22级翡翠石</name>
+      <name>仙缘@22级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -6989,7 +6989,7 @@
     <int>35195</int>
     <fire.pb.item.gemItemShuXing>
       <id>35195</id>
-      <name>22级黑宝石</name>
+      <name>仙缘@22级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -7025,7 +7025,7 @@
     <int>35196</int>
     <fire.pb.item.gemItemShuXing>
       <id>35196</id>
-      <name>22级昆仑玉</name>
+      <name>仙缘@22级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -7061,7 +7061,7 @@
     <int>35197</int>
     <fire.pb.item.gemItemShuXing>
       <id>35197</id>
-      <name>22级红玛瑙</name>
+      <name>仙缘@22级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -7097,7 +7097,7 @@
     <int>35198</int>
     <fire.pb.item.gemItemShuXing>
       <id>35198</id>
-      <name>22级神秘石</name>
+      <name>仙缘@22级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>22</level>
@@ -7133,7 +7133,7 @@
     <int>35199</int>
     <fire.pb.item.gemItemShuXing>
       <id>35199</id>
-      <name>23级光芒石</name>
+      <name>仙缘@23级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7169,7 +7169,7 @@
     <int>35200</int>
     <fire.pb.item.gemItemShuXing>
       <id>35200</id>
-      <name>23级太阳石</name>
+      <name>仙缘@23级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7205,7 +7205,7 @@
     <int>35201</int>
     <fire.pb.item.gemItemShuXing>
       <id>35201</id>
-      <name>23级月亮石</name>
+      <name>仙缘@23级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7241,7 +7241,7 @@
     <int>35202</int>
     <fire.pb.item.gemItemShuXing>
       <id>35202</id>
-      <name>23级舍利子</name>
+      <name>仙缘@23级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7268,7 +7268,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>170</int>
+        <int>450</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -7277,7 +7277,7 @@
     <int>35203</int>
     <fire.pb.item.gemItemShuXing>
       <id>35203</id>
-      <name>23级翡翠石</name>
+      <name>仙缘@23级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7313,7 +7313,7 @@
     <int>35204</int>
     <fire.pb.item.gemItemShuXing>
       <id>35204</id>
-      <name>23级黑宝石</name>
+      <name>仙缘@23级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7349,7 +7349,7 @@
     <int>35205</int>
     <fire.pb.item.gemItemShuXing>
       <id>35205</id>
-      <name>23级昆仑玉</name>
+      <name>仙缘@23级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7385,7 +7385,7 @@
     <int>35206</int>
     <fire.pb.item.gemItemShuXing>
       <id>35206</id>
-      <name>23级红玛瑙</name>
+      <name>仙缘@23级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7421,7 +7421,7 @@
     <int>35207</int>
     <fire.pb.item.gemItemShuXing>
       <id>35207</id>
-      <name>23级神秘石</name>
+      <name>仙缘@23级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>23</level>
@@ -7457,7 +7457,7 @@
     <int>35208</int>
     <fire.pb.item.gemItemShuXing>
       <id>35208</id>
-      <name>24级光芒石</name>
+      <name>仙缘@24级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7493,7 +7493,7 @@
     <int>35209</int>
     <fire.pb.item.gemItemShuXing>
       <id>35209</id>
-      <name>24级太阳石</name>
+      <name>仙缘@24级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7529,7 +7529,7 @@
     <int>35210</int>
     <fire.pb.item.gemItemShuXing>
       <id>35210</id>
-      <name>24级月亮石</name>
+      <name>仙缘@24级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7565,7 +7565,7 @@
     <int>35211</int>
     <fire.pb.item.gemItemShuXing>
       <id>35211</id>
-      <name>24级舍利子</name>
+      <name>仙缘@24级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7592,7 +7592,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>180</int>
+        <int>470</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -7601,7 +7601,7 @@
     <int>35212</int>
     <fire.pb.item.gemItemShuXing>
       <id>35212</id>
-      <name>24级翡翠石</name>
+      <name>仙缘@24级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7637,7 +7637,7 @@
     <int>35213</int>
     <fire.pb.item.gemItemShuXing>
       <id>35213</id>
-      <name>24级黑宝石</name>
+      <name>仙缘@24级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7673,7 +7673,7 @@
     <int>35214</int>
     <fire.pb.item.gemItemShuXing>
       <id>35214</id>
-      <name>24级昆仑玉</name>
+      <name>仙缘@24级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7709,7 +7709,7 @@
     <int>35215</int>
     <fire.pb.item.gemItemShuXing>
       <id>35215</id>
-      <name>24级红玛瑙</name>
+      <name>仙缘@24级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7745,7 +7745,7 @@
     <int>35216</int>
     <fire.pb.item.gemItemShuXing>
       <id>35216</id>
-      <name>24级神秘石</name>
+      <name>仙缘@24级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>24</level>
@@ -7781,7 +7781,7 @@
     <int>35217</int>
     <fire.pb.item.gemItemShuXing>
       <id>35217</id>
-      <name>25级光芒石</name>
+      <name>仙缘@25级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -7817,7 +7817,7 @@
     <int>35218</int>
     <fire.pb.item.gemItemShuXing>
       <id>35218</id>
-      <name>25级太阳石</name>
+      <name>仙缘@25级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -7853,7 +7853,7 @@
     <int>35219</int>
     <fire.pb.item.gemItemShuXing>
       <id>35219</id>
-      <name>25级月亮石</name>
+      <name>仙缘@25级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -7889,7 +7889,7 @@
     <int>35220</int>
     <fire.pb.item.gemItemShuXing>
       <id>35220</id>
-      <name>25级舍利子</name>
+      <name>仙缘@25级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -7916,7 +7916,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>190</int>
+        <int>490</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -7925,7 +7925,7 @@
     <int>35221</int>
     <fire.pb.item.gemItemShuXing>
       <id>35221</id>
-      <name>25级翡翠石</name>
+      <name>仙缘@25级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -7961,7 +7961,7 @@
     <int>35222</int>
     <fire.pb.item.gemItemShuXing>
       <id>35222</id>
-      <name>25级黑宝石</name>
+      <name>仙缘@25级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -7997,7 +7997,7 @@
     <int>35223</int>
     <fire.pb.item.gemItemShuXing>
       <id>35223</id>
-      <name>25级昆仑玉</name>
+      <name>仙缘@25级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -8033,7 +8033,7 @@
     <int>35224</int>
     <fire.pb.item.gemItemShuXing>
       <id>35224</id>
-      <name>25级红玛瑙</name>
+      <name>仙缘@25级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -8069,7 +8069,7 @@
     <int>35225</int>
     <fire.pb.item.gemItemShuXing>
       <id>35225</id>
-      <name>25级神秘石</name>
+      <name>仙缘@25级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>25</level>
@@ -8105,7 +8105,7 @@
     <int>35226</int>
     <fire.pb.item.gemItemShuXing>
       <id>35226</id>
-      <name>26级光芒石</name>
+      <name>仙缘@26级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8141,7 +8141,7 @@
     <int>35227</int>
     <fire.pb.item.gemItemShuXing>
       <id>35227</id>
-      <name>26级太阳石</name>
+      <name>仙缘@26级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8177,7 +8177,7 @@
     <int>35228</int>
     <fire.pb.item.gemItemShuXing>
       <id>35228</id>
-      <name>26级月亮石</name>
+      <name>仙缘@26级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8213,7 +8213,7 @@
     <int>35229</int>
     <fire.pb.item.gemItemShuXing>
       <id>35229</id>
-      <name>26级舍利子</name>
+      <name>仙缘@26级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8240,7 +8240,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>200</int>
+        <int>510</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -8249,7 +8249,7 @@
     <int>35230</int>
     <fire.pb.item.gemItemShuXing>
       <id>35230</id>
-      <name>26级翡翠石</name>
+      <name>仙缘@26级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8285,7 +8285,7 @@
     <int>35231</int>
     <fire.pb.item.gemItemShuXing>
       <id>35231</id>
-      <name>26级黑宝石</name>
+      <name>仙缘@26级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8321,7 +8321,7 @@
     <int>35232</int>
     <fire.pb.item.gemItemShuXing>
       <id>35232</id>
-      <name>26级昆仑玉</name>
+      <name>仙缘@26级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8357,7 +8357,7 @@
     <int>35233</int>
     <fire.pb.item.gemItemShuXing>
       <id>35233</id>
-      <name>26级红玛瑙</name>
+      <name>仙缘@26级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8393,7 +8393,7 @@
     <int>35234</int>
     <fire.pb.item.gemItemShuXing>
       <id>35234</id>
-      <name>26级神秘石</name>
+      <name>仙缘@26级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>26</level>
@@ -8429,7 +8429,7 @@
     <int>35235</int>
     <fire.pb.item.gemItemShuXing>
       <id>35235</id>
-      <name>27级光芒石</name>
+      <name>仙缘@27级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8465,7 +8465,7 @@
     <int>35236</int>
     <fire.pb.item.gemItemShuXing>
       <id>35236</id>
-      <name>27级太阳石</name>
+      <name>仙缘@27级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8501,7 +8501,7 @@
     <int>35237</int>
     <fire.pb.item.gemItemShuXing>
       <id>35237</id>
-      <name>27级月亮石</name>
+      <name>仙缘@27级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8537,7 +8537,7 @@
     <int>35238</int>
     <fire.pb.item.gemItemShuXing>
       <id>35238</id>
-      <name>27级舍利子</name>
+      <name>仙缘@27级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8564,7 +8564,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>210</int>
+        <int>530</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -8573,7 +8573,7 @@
     <int>35239</int>
     <fire.pb.item.gemItemShuXing>
       <id>35239</id>
-      <name>27级翡翠石</name>
+      <name>仙缘@27级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8609,7 +8609,7 @@
     <int>35240</int>
     <fire.pb.item.gemItemShuXing>
       <id>35240</id>
-      <name>27级黑宝石</name>
+      <name>仙缘@27级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8645,7 +8645,7 @@
     <int>35241</int>
     <fire.pb.item.gemItemShuXing>
       <id>35241</id>
-      <name>27级昆仑玉</name>
+      <name>仙缘@27级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8681,7 +8681,7 @@
     <int>35242</int>
     <fire.pb.item.gemItemShuXing>
       <id>35242</id>
-      <name>27级红玛瑙</name>
+      <name>仙缘@27级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8717,7 +8717,7 @@
     <int>35243</int>
     <fire.pb.item.gemItemShuXing>
       <id>35243</id>
-      <name>27级神秘石</name>
+      <name>仙缘@27级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>27</level>
@@ -8753,7 +8753,7 @@
     <int>35244</int>
     <fire.pb.item.gemItemShuXing>
       <id>35244</id>
-      <name>28级光芒石</name>
+      <name>仙缘@28级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -8789,7 +8789,7 @@
     <int>35245</int>
     <fire.pb.item.gemItemShuXing>
       <id>35245</id>
-      <name>28级太阳石</name>
+      <name>仙缘@28级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -8825,7 +8825,7 @@
     <int>35246</int>
     <fire.pb.item.gemItemShuXing>
       <id>35246</id>
-      <name>28级月亮石</name>
+      <name>仙缘@28级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -8861,7 +8861,7 @@
     <int>35247</int>
     <fire.pb.item.gemItemShuXing>
       <id>35247</id>
-      <name>28级舍利子</name>
+      <name>仙缘@28级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -8888,7 +8888,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>220</int>
+        <int>550</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -8897,7 +8897,7 @@
     <int>35248</int>
     <fire.pb.item.gemItemShuXing>
       <id>35248</id>
-      <name>28级翡翠石</name>
+      <name>仙缘@28级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -8933,7 +8933,7 @@
     <int>35249</int>
     <fire.pb.item.gemItemShuXing>
       <id>35249</id>
-      <name>28级黑宝石</name>
+      <name>仙缘@28级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -8969,7 +8969,7 @@
     <int>35250</int>
     <fire.pb.item.gemItemShuXing>
       <id>35250</id>
-      <name>28级昆仑玉</name>
+      <name>仙缘@28级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -9005,7 +9005,7 @@
     <int>35251</int>
     <fire.pb.item.gemItemShuXing>
       <id>35251</id>
-      <name>28级红玛瑙</name>
+      <name>仙缘@28级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -9041,7 +9041,7 @@
     <int>35252</int>
     <fire.pb.item.gemItemShuXing>
       <id>35252</id>
-      <name>28级神秘石</name>
+      <name>仙缘@28级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>28</level>
@@ -9077,7 +9077,7 @@
     <int>35253</int>
     <fire.pb.item.gemItemShuXing>
       <id>35253</id>
-      <name>29级光芒石</name>
+      <name>仙缘@29级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9113,7 +9113,7 @@
     <int>35254</int>
     <fire.pb.item.gemItemShuXing>
       <id>35254</id>
-      <name>29级太阳石</name>
+      <name>仙缘@29级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9149,7 +9149,7 @@
     <int>35255</int>
     <fire.pb.item.gemItemShuXing>
       <id>35255</id>
-      <name>29级月亮石</name>
+      <name>仙缘@29级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9185,7 +9185,7 @@
     <int>35256</int>
     <fire.pb.item.gemItemShuXing>
       <id>35256</id>
-      <name>29级舍利子</name>
+      <name>仙缘@29级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9212,7 +9212,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>230</int>
+        <int>570</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -9221,7 +9221,7 @@
     <int>35257</int>
     <fire.pb.item.gemItemShuXing>
       <id>35257</id>
-      <name>29级翡翠石</name>
+      <name>仙缘@29级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9257,7 +9257,7 @@
     <int>35258</int>
     <fire.pb.item.gemItemShuXing>
       <id>35258</id>
-      <name>29级黑宝石</name>
+      <name>仙缘@29级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9293,7 +9293,7 @@
     <int>35259</int>
     <fire.pb.item.gemItemShuXing>
       <id>35259</id>
-      <name>29级昆仑玉</name>
+      <name>仙缘@29级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9329,7 +9329,7 @@
     <int>35260</int>
     <fire.pb.item.gemItemShuXing>
       <id>35260</id>
-      <name>29级红玛瑙</name>
+      <name>仙缘@29级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9365,7 +9365,7 @@
     <int>35261</int>
     <fire.pb.item.gemItemShuXing>
       <id>35261</id>
-      <name>29级神秘石</name>
+      <name>仙缘@29级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>29</level>
@@ -9401,7 +9401,7 @@
     <int>35262</int>
     <fire.pb.item.gemItemShuXing>
       <id>35262</id>
-      <name>30级光芒石</name>
+      <name>仙缘@30级光芒石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9437,7 +9437,7 @@
     <int>35263</int>
     <fire.pb.item.gemItemShuXing>
       <id>35263</id>
-      <name>30级太阳石</name>
+      <name>仙缘@30级太阳石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9473,7 +9473,7 @@
     <int>35264</int>
     <fire.pb.item.gemItemShuXing>
       <id>35264</id>
-      <name>30级月亮石</name>
+      <name>仙缘@30级月亮石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9509,7 +9509,7 @@
     <int>35265</int>
     <fire.pb.item.gemItemShuXing>
       <id>35265</id>
-      <name>30级舍利子</name>
+      <name>仙缘@30级舍利子</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9536,7 +9536,7 @@
         <int>150</int>
       </effectname>
       <effect>
-        <int>240</int>
+        <int>600</int>
       </effect>
       <gemType>4</gemType>
     </fire.pb.item.gemItemShuXing>
@@ -9545,7 +9545,7 @@
     <int>35266</int>
     <fire.pb.item.gemItemShuXing>
       <id>35266</id>
-      <name>30级翡翠石</name>
+      <name>仙缘@30级翡翠石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9581,7 +9581,7 @@
     <int>35267</int>
     <fire.pb.item.gemItemShuXing>
       <id>35267</id>
-      <name>30级黑宝石</name>
+      <name>仙缘@30级黑宝石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9617,7 +9617,7 @@
     <int>35268</int>
     <fire.pb.item.gemItemShuXing>
       <id>35268</id>
-      <name>30级昆仑玉</name>
+      <name>仙缘@30级昆仑玉</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9653,7 +9653,7 @@
     <int>35269</int>
     <fire.pb.item.gemItemShuXing>
       <id>35269</id>
-      <name>30级红玛瑙</name>
+      <name>仙缘@30级红玛瑙</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9689,7 +9689,7 @@
     <int>35270</int>
     <fire.pb.item.gemItemShuXing>
       <id>35270</id>
-      <name>30级神秘石</name>
+      <name>仙缘@30级神秘石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>30</level>
@@ -9725,7 +9725,7 @@
     <int>35271</int>
     <fire.pb.item.gemItemShuXing>
       <id>35271</id>
-      <name>1级星辉石</name>
+      <name>仙缘@1级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>1</level>
@@ -9769,7 +9769,7 @@
     <int>35272</int>
     <fire.pb.item.gemItemShuXing>
       <id>35272</id>
-      <name>2级星辉石</name>
+      <name>仙缘@2级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>2</level>
@@ -9813,7 +9813,7 @@
     <int>35273</int>
     <fire.pb.item.gemItemShuXing>
       <id>35273</id>
-      <name>3级星辉石</name>
+      <name>仙缘@3级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>3</level>
@@ -9857,7 +9857,7 @@
     <int>35274</int>
     <fire.pb.item.gemItemShuXing>
       <id>35274</id>
-      <name>4级星辉石</name>
+      <name>仙缘@4级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>4</level>
@@ -9901,7 +9901,7 @@
     <int>35275</int>
     <fire.pb.item.gemItemShuXing>
       <id>35275</id>
-      <name>5级星辉石</name>
+      <name>仙缘@5级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>5</level>
@@ -9945,7 +9945,7 @@
     <int>35276</int>
     <fire.pb.item.gemItemShuXing>
       <id>35276</id>
-      <name>6级星辉石</name>
+      <name>仙缘@6级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>6</level>
@@ -9989,7 +9989,7 @@
     <int>35277</int>
     <fire.pb.item.gemItemShuXing>
       <id>35277</id>
-      <name>7级星辉石</name>
+      <name>仙缘@7级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>7</level>
@@ -10033,7 +10033,7 @@
     <int>35278</int>
     <fire.pb.item.gemItemShuXing>
       <id>35278</id>
-      <name>8级星辉石</name>
+      <name>仙缘@8级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>8</level>
@@ -10077,7 +10077,7 @@
     <int>35279</int>
     <fire.pb.item.gemItemShuXing>
       <id>35279</id>
-      <name>9级星辉石</name>
+      <name>仙缘@9级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>9</level>
@@ -10121,7 +10121,7 @@
     <int>35280</int>
     <fire.pb.item.gemItemShuXing>
       <id>35280</id>
-      <name>10级星辉石</name>
+      <name>仙缘@10级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>10</level>
@@ -10165,7 +10165,7 @@
     <int>35281</int>
     <fire.pb.item.gemItemShuXing>
       <id>35281</id>
-      <name>11级星辉石</name>
+      <name>仙缘@11级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>11</level>
@@ -10209,7 +10209,7 @@
     <int>35282</int>
     <fire.pb.item.gemItemShuXing>
       <id>35282</id>
-      <name>12级星辉石</name>
+      <name>仙缘@12级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>12</level>
@@ -10253,7 +10253,7 @@
     <int>35283</int>
     <fire.pb.item.gemItemShuXing>
       <id>35283</id>
-      <name>13级星辉石</name>
+      <name>仙缘@13级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>13</level>
@@ -10297,7 +10297,7 @@
     <int>35284</int>
     <fire.pb.item.gemItemShuXing>
       <id>35284</id>
-      <name>14级星辉石</name>
+      <name>仙缘@14级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>14</level>
@@ -10341,7 +10341,7 @@
     <int>35285</int>
     <fire.pb.item.gemItemShuXing>
       <id>35285</id>
-      <name>15级星辉石</name>
+      <name>仙缘@15级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>15</level>
@@ -10385,7 +10385,7 @@
     <int>35286</int>
     <fire.pb.item.gemItemShuXing>
       <id>35286</id>
-      <name>16级星辉石</name>
+      <name>仙缘@16级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>16</level>
@@ -10429,7 +10429,7 @@
     <int>35287</int>
     <fire.pb.item.gemItemShuXing>
       <id>35287</id>
-      <name>17级星辉石</name>
+      <name>仙缘@17级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>17</level>
@@ -10473,7 +10473,7 @@
     <int>35288</int>
     <fire.pb.item.gemItemShuXing>
       <id>35288</id>
-      <name>18级星辉石</name>
+      <name>仙缘@18级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>18</level>
@@ -10517,7 +10517,7 @@
     <int>35289</int>
     <fire.pb.item.gemItemShuXing>
       <id>35289</id>
-      <name>19级星辉石</name>
+      <name>仙缘@19级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>19</level>
@@ -10561,7 +10561,7 @@
     <int>35290</int>
     <fire.pb.item.gemItemShuXing>
       <id>35290</id>
-      <name>20级星辉石</name>
+      <name>仙缘@20级星辉石</name>
       <unit>颗</unit>
       <typeid>5</typeid>
       <level>20</level>

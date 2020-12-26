@@ -5,8 +5,8 @@
     <int>101000</int>
     <fire.pb.item.STransformationConfig>
       <id>101000</id>
-      <name>新郎</name>
-      <time>12960000</time>
+      <name>速度锦衣</name>
+      <time>360</time>
       <effectid>6801</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -14,8 +14,8 @@
     <int>101001</int>
     <fire.pb.item.STransformationConfig>
       <id>101001</id>
-      <name>刺客</name>
-      <time>12960000</time>
+      <name>气血上限锦衣</name>
+      <time>360</time>
       <effectid>6802</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -23,8 +23,8 @@
     <int>101002</int>
     <fire.pb.item.STransformationConfig>
       <id>101002</id>
-      <name>蒙面侠</name>
-      <time>12960000</time>
+      <name>魔法值锦衣</name>
+      <time>360</time>
       <effectid>6803</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -32,8 +32,8 @@
     <int>101003</int>
     <fire.pb.item.STransformationConfig>
       <id>101003</id>
-      <name>侠客</name>
-      <time>12960000</time>
+      <name>物理伤害锦衣</name>
+      <time>360</time>
       <effectid>6804</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -41,8 +41,8 @@
     <int>101004</int>
     <fire.pb.item.STransformationConfig>
       <id>101004</id>
-      <name>武神</name>
-      <time>12960000</time>
+      <name>法术伤害锦衣</name>
+      <time>360</time>
       <effectid>6805</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -50,8 +50,8 @@
     <int>101005</int>
     <fire.pb.item.STransformationConfig>
       <id>101005</id>
-      <name>武松</name>
-      <time>12960000</time>
+      <name>物理防御锦衣</name>
+      <time>360</time>
       <effectid>6806</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -59,8 +59,8 @@
     <int>101006</int>
     <fire.pb.item.STransformationConfig>
       <id>101006</id>
-      <name>帅气男孩</name>
-      <time>12960000</time>
+      <name>魔法防御锦衣</name>
+      <time>360</time>
       <effectid>6807</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -68,8 +68,8 @@
     <int>101007</int>
     <fire.pb.item.STransformationConfig>
       <id>101007</id>
-      <name>兔子舞</name>
-      <time>12960000</time>
+      <name>全属性锦衣</name>
+      <time>360</time>
       <effectid>6808</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -77,8 +77,8 @@
     <int>101008</int>
     <fire.pb.item.STransformationConfig>
       <id>101008</id>
-      <name>京剧师</name>
-      <time>12960000</time>
+      <name>全属性锦衣</name>
+      <time>360</time>
       <effectid>6809</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -86,8 +86,8 @@
     <int>101009</int>
     <fire.pb.item.STransformationConfig>
       <id>101009</id>
-      <name>阳光男孩</name>
-      <time>12960000</time>
+      <name>全属性锦衣</name>
+      <time>360</time>
       <effectid>6810</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
@@ -95,135 +95,9 @@
     <int>101010</int>
     <fire.pb.item.STransformationConfig>
       <id>101010</id>
-      <name>武林高手</name>
-      <time>12960000</time>
-      <effectid>6811</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101011</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101011</id>
-      <name>高富帅</name>
-      <time>12960000</time>
-      <effectid>6812</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101012</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101012</id>
-      <name>熊宝宝</name>
-      <time>12960000</time>
-      <effectid>6813</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101013</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101013</id>
-      <name>白富美</name>
-      <time>12960000</time>
-      <effectid>6814</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101014</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101014</id>
-      <name>兔宝贝</name>
-      <time>12960000</time>
-      <effectid>6815</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101015</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101015</id>
-      <name>潘金莲</name>
-      <time>12960000</time>
-      <effectid>6816</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101016</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101016</id>
-      <name>圣诞女人</name>
-      <time>12960000</time>
-      <effectid>6817</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101017</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101017</id>
-      <name>七仙女</name>
-      <time>12960000</time>
-      <effectid>6818</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101018</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101018</id>
-      <name>白富美</name>
-      <time>12960000</time>
-      <effectid>6819</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101019</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101019</id>
-      <name>黑玫瑰</name>
-      <time>12960000</time>
-      <effectid>6820</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101020</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101020</id>
-      <name>新娘</name>
-      <time>12960000</time>
-      <effectid>6821</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101021</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101021</id>
-      <name>公主</name>
-      <time>12960000</time>
-      <effectid>6822</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101022</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101022</id>
-      <name>郡主</name>
-      <time>12960000</time>
-      <effectid>6823</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101023</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101023</id>
-      <name>苗家姑娘</name>
-      <time>12960000</time>
-      <effectid>6824</effectid>
-    </fire.pb.item.STransformationConfig>
-  </entry>
-  <entry>
-    <int>101024</int>
-    <fire.pb.item.STransformationConfig>
-      <id>101024</id>
       <name>取消锦衣</name>
       <time>0</time>
-      <effectid>6825</effectid>
+      <effectid>6811</effectid>
     </fire.pb.item.STransformationConfig>
   </entry>
 </tree-map>

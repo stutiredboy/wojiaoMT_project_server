@@ -655,7 +655,7 @@
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
-      <sign>44</sign>
+      <sign>252</sign>
       <range>14</range>
       <iscancertification>0</iscancertification>
       <iscertificationappend>0</iscertificationappend>
@@ -1210,7 +1210,7 @@
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
-      <sign>44</sign>
+      <sign>252</sign>
       <range>14</range>
       <iscancertification>0</iscancertification>
       <iscertificationappend>0</iscertificationappend>
@@ -3273,11 +3273,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207190</int>
+    <int>207125</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207190</id>
+      <id>207125</id>
       <nextid>0</nextid>
-      <book>311158</book>
+      <book>311092</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3288,11 +3288,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207191</int>
+    <int>207126</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207191</id>
+      <id>207126</id>
       <nextid>0</nextid>
-      <book>311159</book>
+      <book>311093</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3303,11 +3303,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207192</int>
+    <int>207127</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207192</id>
+      <id>207127</id>
       <nextid>0</nextid>
-      <book>311160</book>
+      <book>311094</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3318,11 +3318,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207193</int>
+    <int>207128</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207193</id>
+      <id>207128</id>
       <nextid>0</nextid>
-      <book>311161</book>
+      <book>311095</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3333,11 +3333,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207194</int>
+    <int>207129</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207194</id>
+      <id>207129</id>
       <nextid>0</nextid>
-      <book>311162</book>
+      <book>311096</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3348,11 +3348,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207195</int>
+    <int>207130</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207195</id>
+      <id>207130</id>
       <nextid>0</nextid>
-      <book>311163</book>
+      <book>311097</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3363,11 +3363,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207196</int>
+    <int>207131</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207196</id>
+      <id>207131</id>
       <nextid>0</nextid>
-      <book>311164</book>
+      <book>311098</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3378,11 +3378,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207197</int>
+    <int>207132</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207197</id>
+      <id>207132</id>
       <nextid>0</nextid>
-      <book>311165</book>
+      <book>311099</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3393,11 +3393,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207198</int>
+    <int>207133</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207198</id>
+      <id>207133</id>
       <nextid>0</nextid>
-      <book>311166</book>
+      <book>311100</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3408,11 +3408,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207199</int>
+    <int>207134</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207199</id>
+      <id>207134</id>
       <nextid>0</nextid>
-      <book>311167</book>
+      <book>311101</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3423,11 +3423,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207200</int>
+    <int>207135</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207200</id>
+      <id>207135</id>
       <nextid>0</nextid>
-      <book>311168</book>
+      <book>311102</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3438,11 +3438,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207201</int>
+    <int>207136</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207201</id>
+      <id>207136</id>
       <nextid>0</nextid>
-      <book>311169</book>
+      <book>311103</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3453,11 +3453,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207202</int>
+    <int>207137</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207202</id>
+      <id>207137</id>
       <nextid>0</nextid>
-      <book>311170</book>
+      <book>311104</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3468,11 +3468,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207203</int>
+    <int>207138</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207203</id>
+      <id>207138</id>
       <nextid>0</nextid>
-      <book>311171</book>
+      <book>311105</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3483,11 +3483,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207204</int>
+    <int>207139</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207204</id>
+      <id>207139</id>
       <nextid>0</nextid>
-      <book>311172</book>
+      <book>311106</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3498,11 +3498,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207205</int>
+    <int>207140</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207205</id>
+      <id>207140</id>
       <nextid>0</nextid>
-      <book>311173</book>
+      <book>311107</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3513,11 +3513,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207206</int>
+    <int>207141</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207206</id>
+      <id>207141</id>
       <nextid>0</nextid>
-      <book>311174</book>
+      <book>311108</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3528,11 +3528,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207207</int>
+    <int>207142</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207207</id>
+      <id>207142</id>
       <nextid>0</nextid>
-      <book>311175</book>
+      <book>311109</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3543,11 +3543,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207208</int>
+    <int>207143</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207208</id>
+      <id>207143</id>
       <nextid>0</nextid>
-      <book>311176</book>
+      <book>311110</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3558,11 +3558,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207209</int>
+    <int>207144</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207209</id>
+      <id>207144</id>
       <nextid>0</nextid>
-      <book>311177</book>
+      <book>311111</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3573,11 +3573,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207210</int>
+    <int>207145</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207210</id>
+      <id>207145</id>
       <nextid>0</nextid>
-      <book>311178</book>
+      <book>311112</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3588,11 +3588,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207211</int>
+    <int>207146</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207211</id>
+      <id>207146</id>
       <nextid>0</nextid>
-      <book>311179</book>
+      <book>311113</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3603,11 +3603,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207212</int>
+    <int>207147</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207212</id>
+      <id>207147</id>
       <nextid>0</nextid>
-      <book>311180</book>
+      <book>311114</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3618,11 +3618,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207213</int>
+    <int>207148</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207213</id>
+      <id>207148</id>
       <nextid>0</nextid>
-      <book>311181</book>
+      <book>311115</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3633,11 +3633,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207214</int>
+    <int>207149</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207214</id>
+      <id>207149</id>
       <nextid>0</nextid>
-      <book>311182</book>
+      <book>311116</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3648,11 +3648,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207215</int>
+    <int>207150</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207215</id>
+      <id>207150</id>
       <nextid>0</nextid>
-      <book>311183</book>
+      <book>311117</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3663,11 +3663,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207216</int>
+    <int>207151</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207216</id>
+      <id>207151</id>
       <nextid>0</nextid>
-      <book>311184</book>
+      <book>311118</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3678,11 +3678,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207217</int>
+    <int>207152</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207217</id>
+      <id>207152</id>
       <nextid>0</nextid>
-      <book>311185</book>
+      <book>311119</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3693,11 +3693,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207218</int>
+    <int>207153</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207218</id>
+      <id>207153</id>
       <nextid>0</nextid>
-      <book>311186</book>
+      <book>311120</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3708,11 +3708,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207219</int>
+    <int>207154</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207219</id>
+      <id>207154</id>
       <nextid>0</nextid>
-      <book>311187</book>
+      <book>311121</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3723,11 +3723,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207220</int>
+    <int>207155</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207220</id>
+      <id>207155</id>
       <nextid>0</nextid>
-      <book>311188</book>
+      <book>311122</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3738,11 +3738,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207221</int>
+    <int>207156</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207221</id>
+      <id>207156</id>
       <nextid>0</nextid>
-      <book>311189</book>
+      <book>311123</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3753,11 +3753,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207222</int>
+    <int>207157</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207222</id>
+      <id>207157</id>
       <nextid>0</nextid>
-      <book>311190</book>
+      <book>311124</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3768,11 +3768,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207223</int>
+    <int>207158</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207223</id>
+      <id>207158</id>
       <nextid>0</nextid>
-      <book>311191</book>
+      <book>311125</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3783,11 +3783,11 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207224</int>
+    <int>207159</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207224</id>
+      <id>207159</id>
       <nextid>0</nextid>
-      <book>311192</book>
+      <book>311126</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3798,11 +3798,10 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207225</int>
+    <int>207160</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207225</id>
+      <id>207160</id>
       <nextid>0</nextid>
-      <book>311193</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
@@ -3813,17 +3812,201 @@
     </fire.pb.skill.SPetSkillupgrade>
   </entry>
   <entry>
-    <int>207226</int>
+    <int>207161</int>
     <fire.pb.skill.SPetSkillupgrade>
-      <id>207226</id>
+      <id>207161</id>
       <nextid>0</nextid>
-      <book>311194</book>
       <needexp>0</needexp>
       <offerbaseexp>0</offerbaseexp>
       <skilllevel>1</skilllevel>
       <sign>241</sign>
       <range>14</range>
       <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207162</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207162</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>242</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207163</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207163</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>243</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207164</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207164</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>244</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207165</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207165</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>245</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207166</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207166</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>246</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207167</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207167</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>247</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207168</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207168</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>248</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207169</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207169</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>249</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207170</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207170</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>250</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207171</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207171</id>
+      <nextid>0</nextid>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>251</sign>
+      <range>14</range>
+      <iscancertification>0</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207172</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207172</id>
+      <nextid>0</nextid>
+      <book>311254</book>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>252</sign>
+      <range>14</range>
+      <iscancertification>1</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207173</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207173</id>
+      <nextid>0</nextid>
+      <book>311255</book>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>253</sign>
+      <range>14</range>
+      <iscancertification>1</iscancertification>
+      <iscertificationappend>0</iscertificationappend>
+    </fire.pb.skill.SPetSkillupgrade>
+  </entry>
+  <entry>
+    <int>207174</int>
+    <fire.pb.skill.SPetSkillupgrade>
+      <id>207174</id>
+      <nextid>0</nextid>
+      <book>311256</book>
+      <needexp>0</needexp>
+      <offerbaseexp>0</offerbaseexp>
+      <skilllevel>1</skilllevel>
+      <sign>254</sign>
+      <range>14</range>
+      <iscancertification>1</iscancertification>
       <iscertificationappend>0</iscertificationappend>
     </fire.pb.skill.SPetSkillupgrade>
   </entry>

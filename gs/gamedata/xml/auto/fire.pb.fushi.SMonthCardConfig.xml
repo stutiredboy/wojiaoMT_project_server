@@ -19,7 +19,7 @@
       <name>千叶碎片</name>
       <rewardid>0</rewardid>
       <itemid>340438</itemid>
-      <itemnum>3</itemnum>
+      <itemnum>1</itemnum>
       <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
   </entry>
@@ -30,7 +30,7 @@
       <name>法宝碎片</name>
       <rewardid>0</rewardid>
       <itemid>631139</itemid>
-      <itemnum>5</itemnum>
+      <itemnum>1</itemnum>
       <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
   </entry>
@@ -41,7 +41,7 @@
       <name>重铸石</name>
       <rewardid>0</rewardid>
       <itemid>340141</itemid>
-      <itemnum>5</itemnum>
+      <itemnum>1</itemnum>
       <type>0</type>
     </fire.pb.fushi.SMonthCardConfig>
   </entry>

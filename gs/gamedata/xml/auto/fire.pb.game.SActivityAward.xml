@@ -6380,7 +6380,7 @@
       <money>(1000*RoleLv*0.2*(0.78+0.04*Ring))*(random()*(1.02-0.98)+0.98)</money>
       <gold>1000</gold>
       <SchoolContribute>max(floor((Ring-4)/2),0)</SchoolContribute>
-      <exp>3000000</exp>
+      <exp>1000000</exp>
       <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
@@ -6827,7 +6827,7 @@
       <gold>50</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>500</GangTaskContribution>
-      <exp>300000</exp>
+      <exp>500000</exp>
       <petExp>66666</petExp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
@@ -6843,13 +6843,16 @@
       <secondClassAward>
         <int>200177</int>
         <int>1</int>
+        <int>200451</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
-        <string>100</string>
+        <string>300</string>
+        <string>10</string>
       </secondClassAwardProb>
       <secondClassDenominator>2000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>100</totalProb>
+      <totalProb>1000</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -7420,7 +7423,7 @@
       <id>5210</id>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
+      <msgid>193007</msgid>
       <teammsg>0</teammsg>
       <equipGenWay>0</equipGenWay>
       <activityid>0</activityid>
@@ -7430,30 +7433,30 @@
       <msg2id>0</msg2id>
       <msg2type>0</msg2type>
       <secondClassAward>
-        <int>200063</int>
-        <int>1</int>
-        <int>200064</int>
-        <int>1</int>
-        <int>200066</int>
-        <int>1</int>
-        <int>200068</int>
-        <int>1</int>
         <int>200169</int>
         <int>1</int>
-        <int>200172</int>
+        <int>200326</int>
+        <int>1</int>
+        <int>200202</int>
+        <int>1</int>
+        <int>200401</int>
+        <int>1</int>
+        <int>200402</int>
+        <int>1</int>
+        <int>200430</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
-        <string>10</string>
+        <string>50</string>
         <string>10</string>
         <string>10</string>
         <string>10</string>
         <string>10</string>
         <string>10</string>
       </secondClassAwardProb>
-      <secondClassDenominator>60</secondClassDenominator>
+      <secondClassDenominator>100</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>60</totalProb>
+      <totalProb>100</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -10216,7 +10219,7 @@
     <int>5710</int>
     <fire.pb.game.SActivityAward>
       <id>5710</id>
-      <exp>(400*RoleLv*1.25)*(random()*(1.02-0.98)+0.98)</exp>
+      <exp>3000000</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -11453,8 +11456,17 @@
         <int>1</int>
         <int>200423</int>
         <int>1</int>
+        <int>200434</int>
+        <int>1</int>
+        <int>200452</int>
+        <int>1</int>
+        <int>200453</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
+        <string>10</string>
+        <string>10</string>
+        <string>10</string>
         <string>10</string>
         <string>10</string>
         <string>10</string>
@@ -11464,7 +11476,7 @@
       </secondClassAwardProb>
       <secondClassDenominator>8000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>60</totalProb>
+      <totalProb>90</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -13104,13 +13116,25 @@
       <secondClassAward>
         <int>200370</int>
         <int>1</int>
+        <int>200314</int>
+        <int>1</int>
+        <int>200421</int>
+        <int>1</int>
+        <int>200351</int>
+        <int>1</int>
+        <int>200219</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>100</string>
+        <string>200</string>
+        <string>250</string>
+        <string>250</string>
+        <string>200</string>
       </secondClassAwardProb>
-      <secondClassDenominator>100</secondClassDenominator>
+      <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>100</totalProb>
+      <totalProb>1000</totalProb>
       <tempBag>1</tempBag>
       <drop1timesprob>1000</drop1timesprob>
       <MergeServer>0</MergeServer>
@@ -13143,9 +13167,25 @@
         <int>0</int>
         <int>0</int>
       </firstClassAward>
+      <secondClassAward>
+        <int>200313</int>
+        <int>1</int>
+        <int>200421</int>
+        <int>1</int>
+        <int>200351</int>
+        <int>1</int>
+        <int>200219</int>
+        <int>1</int>
+      </secondClassAward>
+      <secondClassAwardProb>
+        <string>200</string>
+        <string>250</string>
+        <string>250</string>
+        <string>300</string>
+      </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>0</totalProb>
+      <totalProb>1000</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -13177,9 +13217,25 @@
         <int>0</int>
         <int>0</int>
       </firstClassAward>
+      <secondClassAward>
+        <int>200312</int>
+        <int>1</int>
+        <int>200421</int>
+        <int>1</int>
+        <int>200434</int>
+        <int>1</int>
+        <int>200219</int>
+        <int>1</int>
+      </secondClassAward>
+      <secondClassAwardProb>
+        <string>200</string>
+        <string>250</string>
+        <string>250</string>
+        <string>300</string>
+      </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>0</totalProb>
+      <totalProb>1000</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -13206,13 +13262,25 @@
       <secondClassAward>
         <int>200370</int>
         <int>1</int>
+        <int>200314</int>
+        <int>1</int>
+        <int>200421</int>
+        <int>1</int>
+        <int>200351</int>
+        <int>1</int>
+        <int>200219</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
-        <string>100</string>
+        <string>200</string>
+        <string>200</string>
+        <string>200</string>
+        <string>200</string>
+        <string>200</string>
       </secondClassAwardProb>
-      <secondClassDenominator>100</secondClassDenominator>
+      <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>100</totalProb>
+      <totalProb>1000</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -14855,7 +14923,7 @@
     <int>6700</int>
     <fire.pb.game.SActivityAward>
       <id>6700</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -14882,7 +14950,7 @@
     <int>6701</int>
     <fire.pb.game.SActivityAward>
       <id>6701</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -14942,7 +15010,7 @@
     <int>6702</int>
     <fire.pb.game.SActivityAward>
       <id>6702</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -14996,7 +15064,7 @@
     <int>6703</int>
     <fire.pb.game.SActivityAward>
       <id>6703</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15050,7 +15118,7 @@
     <int>6704</int>
     <fire.pb.game.SActivityAward>
       <id>6704</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15110,7 +15178,7 @@
     <int>6705</int>
     <fire.pb.game.SActivityAward>
       <id>6705</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15170,7 +15238,7 @@
     <int>6706</int>
     <fire.pb.game.SActivityAward>
       <id>6706</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15227,7 +15295,7 @@
     <int>6707</int>
     <fire.pb.game.SActivityAward>
       <id>6707</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15284,7 +15352,7 @@
     <int>6708</int>
     <fire.pb.game.SActivityAward>
       <id>6708</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15350,7 +15418,7 @@
     <int>6709</int>
     <fire.pb.game.SActivityAward>
       <id>6709</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15416,7 +15484,7 @@
     <int>6710</int>
     <fire.pb.game.SActivityAward>
       <id>6710</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15473,7 +15541,7 @@
     <int>6711</int>
     <fire.pb.game.SActivityAward>
       <id>6711</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15530,7 +15598,7 @@
     <int>6712</int>
     <fire.pb.game.SActivityAward>
       <id>6712</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15596,7 +15664,7 @@
     <int>6713</int>
     <fire.pb.game.SActivityAward>
       <id>6713</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15662,7 +15730,7 @@
     <int>6714</int>
     <fire.pb.game.SActivityAward>
       <id>6714</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15719,7 +15787,7 @@
     <int>6715</int>
     <fire.pb.game.SActivityAward>
       <id>6715</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15776,7 +15844,7 @@
     <int>6716</int>
     <fire.pb.game.SActivityAward>
       <id>6716</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15842,7 +15910,7 @@
     <int>6717</int>
     <fire.pb.game.SActivityAward>
       <id>6717</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15908,7 +15976,7 @@
     <int>6718</int>
     <fire.pb.game.SActivityAward>
       <id>6718</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -15974,7 +16042,7 @@
     <int>6719</int>
     <fire.pb.game.SActivityAward>
       <id>6719</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -16040,7 +16108,7 @@
     <int>6720</int>
     <fire.pb.game.SActivityAward>
       <id>6720</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -16103,7 +16171,7 @@
     <int>6721</int>
     <fire.pb.game.SActivityAward>
       <id>6721</id>
-      <exp>3888888</exp>
+      <exp>1888888</exp>
       <bind>0</bind>
       <msgitemid>0</msgitemid>
       <msgid>0</msgid>
@@ -18588,182 +18656,6 @@
     </fire.pb.game.SActivityAward>
   </entry>
   <entry>
-    <int>6817</int>
-    <fire.pb.game.SActivityAward>
-      <id>6817</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>192000</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200317</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6818</int>
-    <fire.pb.game.SActivityAward>
-      <id>6818</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>192000</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200318</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6819</int>
-    <fire.pb.game.SActivityAward>
-      <id>6819</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>192000</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200319</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6820</int>
-    <fire.pb.game.SActivityAward>
-      <id>6820</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>192000</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200320</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
     <int>6821</int>
     <fire.pb.game.SActivityAward>
       <id>6821</id>
@@ -20633,182 +20525,6 @@
     </fire.pb.game.SActivityAward>
   </entry>
   <entry>
-    <int>6851</int>
-    <fire.pb.game.SActivityAward>
-      <id>6851</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200339</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6852</int>
-    <fire.pb.game.SActivityAward>
-      <id>6852</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200340</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6853</int>
-    <fire.pb.game.SActivityAward>
-      <id>6853</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200341</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6854</int>
-    <fire.pb.game.SActivityAward>
-      <id>6854</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200342</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
     <int>6849</int>
     <fire.pb.game.SActivityAward>
       <id>6849</id>
@@ -20830,138 +20546,6 @@
       <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
       <totalProb>0</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6900</int>
-    <fire.pb.game.SActivityAward>
-      <id>6900</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200339</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6901</int>
-    <fire.pb.game.SActivityAward>
-      <id>6901</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200340</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6902</int>
-    <fire.pb.game.SActivityAward>
-      <id>6902</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200341</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -21302,142 +20886,11 @@
     </fire.pb.game.SActivityAward>
   </entry>
   <entry>
-    <int>6910</int>
-    <fire.pb.game.SActivityAward>
-      <id>6910</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200219</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6911</int>
-    <fire.pb.game.SActivityAward>
-      <id>6911</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>200352</int>
-        <int>1</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
-    <int>6912</int>
-    <fire.pb.game.SActivityAward>
-      <id>6912</id>
-      <bind>0</bind>
-      <msgitemid>0</msgitemid>
-      <msgid>0</msgid>
-      <teammsg>0</teammsg>
-      <equipGenWay>0</equipGenWay>
-      <activityid>0</activityid>
-      <itemLimitString>0</itemLimitString>
-      <cleartype>0</cleartype>
-      <msg2itemid>0</msg2itemid>
-      <msg2id>0</msg2id>
-      <msg2type>1</msg2type>
-      <firstClassAward>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-        <int>0</int>
-      </firstClassAward>
-      <secondClassDenominator>1000</secondClassDenominator>
-      <randomType>1</randomType>
-      <totalProb>1000</totalProb>
-      <tempBag>1</tempBag>
-      <MergeServer>0</MergeServer>
-      <shared>0</shared>
-      <yingfu>0</yingfu>
-      <expweaken>0</expweaken>
-      <expaddition>0</expaddition>
-    </fire.pb.game.SActivityAward>
-  </entry>
-  <entry>
     <int>6913</int>
     <fire.pb.game.SActivityAward>
       <id>6913</id>
-      <gold>100</gold>
+      <money>500000</money>
+      <gold>200</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>5000</GangTaskContribution>
       <exp>888888</exp>
@@ -21490,7 +20943,7 @@
         <int>2</int>
         <int>200441</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -21520,7 +20973,8 @@
     <int>6914</int>
     <fire.pb.game.SActivityAward>
       <id>6914</id>
-      <gold>100</gold>
+      <money>600000</money>
+      <gold>300</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>5000</GangTaskContribution>
       <exp>1188888</exp>
@@ -21573,7 +21027,7 @@
         <int>2</int>
         <int>200441</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -21603,7 +21057,8 @@
     <int>6915</int>
     <fire.pb.game.SActivityAward>
       <id>6915</id>
-      <gold>100</gold>
+      <money>700000</money>
+      <gold>500</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>5000</GangTaskContribution>
       <exp>1388888</exp>
@@ -21656,7 +21111,7 @@
         <int>2</int>
         <int>200441</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -21686,7 +21141,8 @@
     <int>6916</int>
     <fire.pb.game.SActivityAward>
       <id>6916</id>
-      <gold>100</gold>
+      <money>800000</money>
+      <gold>500</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>6000</GangTaskContribution>
       <exp>1666666</exp>
@@ -21739,7 +21195,7 @@
         <int>2</int>
         <int>200441</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -21769,7 +21225,8 @@
     <int>6917</int>
     <fire.pb.game.SActivityAward>
       <id>6917</id>
-      <gold>200</gold>
+      <money>900000</money>
+      <gold>800</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>8000</GangTaskContribution>
       <exp>1888888</exp>
@@ -21822,7 +21279,7 @@
         <int>2</int>
         <int>200441</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -21852,7 +21309,8 @@
     <int>6918</int>
     <fire.pb.game.SActivityAward>
       <id>6918</id>
-      <gold>200</gold>
+      <money>1000000</money>
+      <gold>800</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>10000</GangTaskContribution>
       <exp>1999999</exp>
@@ -21905,7 +21363,7 @@
         <int>2</int>
         <int>200441</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -21935,7 +21393,8 @@
     <int>6919</int>
     <fire.pb.game.SActivityAward>
       <id>6919</id>
-      <gold>300</gold>
+      <money>1100000</money>
+      <gold>800</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>12000</GangTaskContribution>
       <exp>2666666</exp>
@@ -21988,7 +21447,7 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -22018,7 +21477,8 @@
     <int>6920</int>
     <fire.pb.game.SActivityAward>
       <id>6920</id>
-      <gold>300</gold>
+      <money>1200000</money>
+      <gold>800</gold>
       <GangContribution>50</GangContribution>
       <GangTaskContribution>15000</GangTaskContribution>
       <exp>2888888</exp>
@@ -22071,7 +21531,7 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
+        <int>200447</int>
         <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
@@ -22101,7 +21561,8 @@
     <int>6921</int>
     <fire.pb.game.SActivityAward>
       <id>6921</id>
-      <gold>500</gold>
+      <money>1300000</money>
+      <gold>800</gold>
       <GangContribution>100</GangContribution>
       <GangTaskContribution>20000</GangTaskContribution>
       <exp>3266666</exp>
@@ -22154,8 +21615,8 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
-        <int>2</int>
+        <int>200447</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>200</string>
@@ -22184,6 +21645,7 @@
     <int>6922</int>
     <fire.pb.game.SActivityAward>
       <id>6922</id>
+      <money>1400000</money>
       <gold>1000</gold>
       <GangContribution>100</GangContribution>
       <GangTaskContribution>30000</GangTaskContribution>
@@ -22237,8 +21699,12 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
-        <int>2</int>
+        <int>200447</int>
+        <int>1</int>
+        <int>200452</int>
+        <int>1</int>
+        <int>200453</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>200</string>
@@ -22250,11 +21716,13 @@
         <string>100</string>
         <string>50</string>
         <string>50</string>
-        <string>50</string>
+        <string>30</string>
+        <string>5</string>
+        <string>5</string>
       </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>1000</totalProb>
+      <totalProb>990</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -22267,6 +21735,7 @@
     <int>6923</int>
     <fire.pb.game.SActivityAward>
       <id>6923</id>
+      <money>1500000</money>
       <gold>1000</gold>
       <GangContribution>100</GangContribution>
       <GangTaskContribution>40000</GangTaskContribution>
@@ -22319,24 +21788,36 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
-        <int>2</int>
+        <int>200447</int>
+        <int>1</int>
+        <int>200452</int>
+        <int>1</int>
+        <int>200453</int>
+        <int>1</int>
+        <int>200454</int>
+        <int>1</int>
+        <int>200448</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>200</string>
-        <string>200</string>
+        <string>100</string>
         <string>100</string>
         <string>50</string>
         <string>100</string>
-        <string>100</string>
-        <string>100</string>
+        <string>50</string>
+        <string>50</string>
+        <string>50</string>
+        <string>50</string>
+        <string>30</string>
+        <string>50</string>
         <string>50</string>
         <string>50</string>
         <string>50</string>
       </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>1000</totalProb>
+      <totalProb>980</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -22349,6 +21830,7 @@
     <int>6924</int>
     <fire.pb.game.SActivityAward>
       <id>6924</id>
+      <money>1600000</money>
       <gold>1000</gold>
       <GangContribution>100</GangContribution>
       <GangTaskContribution>40000</GangTaskContribution>
@@ -22401,24 +21883,36 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
-        <int>2</int>
+        <int>200447</int>
+        <int>1</int>
+        <int>200452</int>
+        <int>1</int>
+        <int>200453</int>
+        <int>1</int>
+        <int>200454</int>
+        <int>1</int>
+        <int>200448</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>200</string>
-        <string>200</string>
+        <string>100</string>
         <string>100</string>
         <string>50</string>
         <string>100</string>
-        <string>100</string>
-        <string>100</string>
+        <string>50</string>
+        <string>50</string>
+        <string>50</string>
+        <string>50</string>
+        <string>30</string>
+        <string>50</string>
         <string>50</string>
         <string>50</string>
         <string>50</string>
       </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>1000</totalProb>
+      <totalProb>980</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>
@@ -22431,6 +21925,7 @@
     <int>6925</int>
     <fire.pb.game.SActivityAward>
       <id>6925</id>
+      <money>1700000</money>
       <gold>2000</gold>
       <GangContribution>100</GangContribution>
       <GangTaskContribution>55000</GangTaskContribution>
@@ -22483,8 +21978,14 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
-        <int>2</int>
+        <int>200447</int>
+        <int>1</int>
+        <int>200452</int>
+        <int>1</int>
+        <int>200453</int>
+        <int>1</int>
+        <int>200454</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>200</string>
@@ -22493,9 +21994,12 @@
         <string>50</string>
         <string>100</string>
         <string>100</string>
-        <string>100</string>
         <string>50</string>
         <string>50</string>
+        <string>50</string>
+        <string>30</string>
+        <string>10</string>
+        <string>10</string>
         <string>50</string>
       </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
@@ -22513,6 +22017,7 @@
     <int>6926</int>
     <fire.pb.game.SActivityAward>
       <id>6926</id>
+      <money>1800000</money>
       <gold>2000</gold>
       <GangContribution>100</GangContribution>
       <GangTaskContribution>55000</GangTaskContribution>
@@ -22565,8 +22070,14 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
-        <int>2</int>
+        <int>200447</int>
+        <int>1</int>
+        <int>200452</int>
+        <int>1</int>
+        <int>200453</int>
+        <int>1</int>
+        <int>200454</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>200</string>
@@ -22575,9 +22086,12 @@
         <string>50</string>
         <string>100</string>
         <string>100</string>
-        <string>100</string>
         <string>50</string>
         <string>50</string>
+        <string>50</string>
+        <string>30</string>
+        <string>10</string>
+        <string>10</string>
         <string>50</string>
       </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
@@ -23688,24 +23202,33 @@
         <int>1</int>
         <int>200424</int>
         <int>1</int>
-        <int>200446</int>
-        <int>2</int>
+        <int>200448</int>
+        <int>1</int>
+        <int>200452</int>
+        <int>1</int>
+        <int>200454</int>
+        <int>1</int>
+        <int>200449</int>
+        <int>1</int>
       </secondClassAward>
       <secondClassAwardProb>
         <string>200</string>
-        <string>200</string>
+        <string>50</string>
         <string>100</string>
         <string>50</string>
         <string>100</string>
-        <string>100</string>
-        <string>100</string>
+        <string>50</string>
+        <string>50</string>
+        <string>50</string>
+        <string>50</string>
+        <string>30</string>
         <string>50</string>
         <string>50</string>
         <string>50</string>
       </secondClassAwardProb>
       <secondClassDenominator>1000</secondClassDenominator>
       <randomType>0</randomType>
-      <totalProb>1000</totalProb>
+      <totalProb>880</totalProb>
       <tempBag>1</tempBag>
       <MergeServer>0</MergeServer>
       <shared>0</shared>

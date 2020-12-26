@@ -5,12 +5,12 @@
     <int>99998</int>
     <fire.pb.npc.SNpcShare>
       <id>99998</id>
-      <bodytype>1</bodytype>
+      <bodytype>1.5</bodytype>
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1030011</shape>
-      <name>来打我啊</name>
+      <shape>1010169</shape>
+      <name>打沙包咯</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -2003,7 +2003,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1020116</shape>
+      <shape>1540044</shape>
       <name>云乐游</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -2057,7 +2057,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1010120</shape>
+      <shape>1010138</shape>
       <name>虾兵</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -2111,7 +2111,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1020115</shape>
+      <shape>1540007</shape>
       <name>小德</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -2129,7 +2129,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1020114</shape>
+      <shape>1540007</shape>
       <name>楚恋依</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -3683,8 +3683,8 @@
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
-      <xPos>115</xPos>
-      <yPos>89</yPos>
+      <xPos>121</xPos>
+      <yPos>93</yPos>
       <zPos>0</zPos>
     </fire.pb.npc.SNpcShare>
   </entry>
@@ -3737,8 +3737,8 @@
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1694</mapid>
-      <xPos>337</xPos>
-      <yPos>449</yPos>
+      <xPos>250</xPos>
+      <yPos>268</yPos>
       <zPos>0</zPos>
     </fire.pb.npc.SNpcShare>
   </entry>
@@ -3827,8 +3827,8 @@
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
-      <xPos>40</xPos>
-      <yPos>218</yPos>
+      <xPos>225</xPos>
+      <yPos>191</yPos>
       <zPos>0</zPos>
     </fire.pb.npc.SNpcShare>
   </entry>
@@ -4294,7 +4294,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1020117</shape>
+      <shape>1540047</shape>
       <name>宠物仙子</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -4474,7 +4474,7 @@
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010154</shape>
+      <shape>1010162</shape>
       <name>熊猫人</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -5479,7 +5479,7 @@
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>牛头首领</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -7153,7 +7153,7 @@
       <npctype>1</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>野蛮卫兵</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -9158,7 +9158,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>牛头宝宝</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -9937,7 +9937,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>变异牛头宝宝</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -11849,7 +11849,7 @@
       <npctype>17</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>组队副本预留</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -12137,7 +12137,7 @@
       <npctype>17</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>组队副本预留</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -12900,7 +12900,7 @@
       <minimapshow>0</minimapshow>
       <share>0</share>
       <shape>1030013</shape>
-      <name>迪奥布斯的宝箱</name>
+      <name>新年宝箱</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1901</mapid>
@@ -14929,7 +14929,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>大冏龟</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -14983,7 +14983,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010118</shape>
+      <shape>1540035</shape>
       <name>食人魔矿工</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -15001,7 +15001,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010119</shape>
+      <shape>1540036</shape>
       <name>食人魔工头</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -15019,7 +15019,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010120</shape>
+      <shape>1540037</shape>
       <name>鱼人曲奇</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -15037,7 +15037,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010121</shape>
+      <shape>1540038</shape>
       <name>重拳男士</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -15055,7 +15055,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010122</shape>
+      <shape>1540039</shape>
       <name>范克里斯</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -15829,7 +15829,7 @@
       <npctype>16</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>恋宝地精</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17044,7 +17044,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010112</shape>
+      <shape>1110112</shape>
       <name>巡逻海龟</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17391,8 +17391,8 @@
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>0</mapid>
-      <xPos>47</xPos>
-      <yPos>31</yPos>
+      <xPos>59</xPos>
+      <yPos>53</yPos>
       <zPos>0</zPos>
       <battleinfo>3027</battleinfo>
     </fire.pb.npc.SNpcShare>
@@ -17410,8 +17410,8 @@
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>0</mapid>
-      <xPos>79</xPos>
-      <yPos>20</yPos>
+      <xPos>65</xPos>
+      <yPos>59</yPos>
       <zPos>0</zPos>
       <battleinfo>3028</battleinfo>
     </fire.pb.npc.SNpcShare>
@@ -17429,8 +17429,8 @@
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>0</mapid>
-      <xPos>15</xPos>
-      <yPos>73</yPos>
+      <xPos>76</xPos>
+      <yPos>51</yPos>
       <zPos>0</zPos>
       <battleinfo>3029</battleinfo>
     </fire.pb.npc.SNpcShare>
@@ -17448,8 +17448,8 @@
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>0</mapid>
-      <xPos>82</xPos>
-      <yPos>77</yPos>
+      <xPos>93</xPos>
+      <yPos>39</yPos>
       <zPos>0</zPos>
       <battleinfo>3030</battleinfo>
     </fire.pb.npc.SNpcShare>
@@ -17557,7 +17557,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1030005</shape>
+      <shape>1530097</shape>
       <name>迷魂鬼</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17842,7 +17842,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>牛头</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -17880,7 +17880,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010139</shape>
+      <shape>1010130</shape>
       <name>黑无常</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -18431,7 +18431,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1020111</shape>
+      <shape>1540008</shape>
       <name>哪吒</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -20210,7 +20210,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>远古泡泡</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22178,7 +22178,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1050101</shape>
-      <name>坐骑商城</name>
+      <name>仙缘@坐骑商城</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22196,7 +22196,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1020128</shape>
-      <name>兽决商城</name>
+      <name>仙缘@兽决商城</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22214,7 +22214,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1020129</shape>
-      <name>灵饰商城</name>
+      <name>仙缘@灵饰商城</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22232,7 +22232,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1020130</shape>
-      <name>灵兽商店</name>
+      <name>仙缘@灵兽商店</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22250,7 +22250,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1030018</shape>
-      <name>宠物商店</name>
+      <name>仙缘@宠物商店</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22268,7 +22268,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1020131</shape>
-      <name>重铸使者</name>
+      <name>老角色神器转换</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22359,7 +22359,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1020131</shape>
-      <name>打造商城</name>
+      <name>仙缘@打造商城</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22395,7 +22395,7 @@
       <minimapshow>1</minimapshow>
       <share>0</share>
       <shape>1050101</shape>
-      <name>法宝重铸进阶兑换</name>
+      <name>法宝进阶兑换</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
@@ -22469,7 +22469,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1020108</shape>
+      <shape>1540036</shape>
       <name>每日任务领取</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22524,7 +22524,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1540036</shape>
+      <shape>1540031</shape>
       <name>装备点化使者</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22542,7 +22542,7 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1540038</shape>
+      <shape>1540032</shape>
       <name>套装点化使者</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -22560,12 +22560,66 @@
       <npctype>1</npctype>
       <minimapshow>1</minimapshow>
       <share>0</share>
-      <shape>1540039</shape>
+      <shape>1540033</shape>
       <name>新角色打造商城</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
       <mapid>1615</mapid>
       <xPos>258</xPos>
+      <yPos>196</yPos>
+      <zPos>0</zPos>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>170130</int>
+    <fire.pb.npc.SNpcShare>
+      <id>170130</id>
+      <bodytype>1</bodytype>
+      <npctype>1</npctype>
+      <minimapshow>1</minimapshow>
+      <share>0</share>
+      <shape>1540034</shape>
+      <name>新角色神器转换</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1615</mapid>
+      <xPos>258</xPos>
+      <yPos>196</yPos>
+      <zPos>0</zPos>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>170131</int>
+    <fire.pb.npc.SNpcShare>
+      <id>170131</id>
+      <bodytype>1</bodytype>
+      <npctype>1</npctype>
+      <minimapshow>1</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>神器升阶</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1615</mapid>
+      <xPos>258</xPos>
+      <yPos>196</yPos>
+      <zPos>0</zPos>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>170132</int>
+    <fire.pb.npc.SNpcShare>
+      <id>170132</id>
+      <bodytype>1</bodytype>
+      <npctype>1</npctype>
+      <minimapshow>1</minimapshow>
+      <share>0</share>
+      <shape>1540030</shape>
+      <name>仙缘@钱庄老板</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1615</mapid>
+      <xPos>536</xPos>
       <yPos>196</yPos>
       <zPos>0</zPos>
     </fire.pb.npc.SNpcShare>
@@ -23192,7 +23246,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>1010116</shape>
+      <shape>1110115</shape>
       <name>桃木虫</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23570,7 +23624,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>供品</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23588,7 +23642,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>供品</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23606,7 +23660,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>供品</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23624,7 +23678,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>供品</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23642,7 +23696,7 @@
       <npctype>7</npctype>
       <minimapshow>0</minimapshow>
       <share>0</share>
-      <shape>2010115</shape>
+      <shape>1010169</shape>
       <name>供品</name>
       <mulbattle>0</mulbattle>
       <杂学id>-1</杂学id>
@@ -23797,443 +23851,6 @@
     </fire.pb.npc.SNpcShare>
   </entry>
   <entry>
-    <int>310000</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310000</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>盗宝小龙</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3210</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310001</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310001</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>强化大佬</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3211</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310002</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310002</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>澡堂歌王</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3212</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310003</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310003</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>八仙分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3200</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310004</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310004</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>元神分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3201</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310005</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310005</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>圣贤分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3202</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310006</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310006</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>大帝分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3203</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310007</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310007</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>天劫分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3204</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310008</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310008</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>技能boss分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3205</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310009</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310009</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>搬砖boss分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3206</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310010</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310010</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>荣誉boss分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3207</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310011</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310011</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>世界boss分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3208</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310012</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310012</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>神器boss分身</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3209</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310089</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310089</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3237</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310090</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310090</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3238</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310091</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310091</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3239</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310092</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310092</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3240</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310093</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310093</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3241</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310094</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310094</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3242</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310095</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310095</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3243</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310096</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310096</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3244</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310097</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310097</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3245</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
-    <int>310098</int>
-    <fire.pb.npc.SNpcShare>
-      <id>310098</id>
-      <bodytype>1.15</bodytype>
-      <npctype>7</npctype>
-      <minimapshow>0</minimapshow>
-      <share>0</share>
-      <shape>1540012</shape>
-      <name>聚灵材料怪</name>
-      <mulbattle>0</mulbattle>
-      <杂学id>-1</杂学id>
-      <mapid>0</mapid>
-      <xPos>0</xPos>
-      <yPos>0</yPos>
-      <zPos>0</zPos>
-      <battleinfo>3246</battleinfo>
-    </fire.pb.npc.SNpcShare>
-  </entry>
-  <entry>
     <int>310099</int>
     <fire.pb.npc.SNpcShare>
       <id>310099</id>
@@ -24250,6 +23867,956 @@
       <yPos>0</yPos>
       <zPos>0</zPos>
       <battleinfo>3249</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310100</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310100</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1605</mapid>
+      <xPos>49</xPos>
+      <yPos>50</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310101</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310101</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1606</mapid>
+      <xPos>44</xPos>
+      <yPos>26</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310102</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310102</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1607</mapid>
+      <xPos>164</xPos>
+      <yPos>275</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310103</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310103</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1608</mapid>
+      <xPos>25</xPos>
+      <yPos>25</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310104</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310104</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1609</mapid>
+      <xPos>63</xPos>
+      <yPos>79</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310105</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310105</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1610</mapid>
+      <xPos>122</xPos>
+      <yPos>66</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310106</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310106</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1611</mapid>
+      <xPos>19</xPos>
+      <yPos>91</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310107</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310107</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1612</mapid>
+      <xPos>35</xPos>
+      <yPos>28</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310108</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310108</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1614</mapid>
+      <xPos>129</xPos>
+      <yPos>276</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310109</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310109</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540044</shape>
+      <name>飞贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1616</mapid>
+      <xPos>70</xPos>
+      <yPos>90</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3210</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310110</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310110</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1605</mapid>
+      <xPos>46</xPos>
+      <yPos>76</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310111</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310111</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1606</mapid>
+      <xPos>75</xPos>
+      <yPos>52</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310112</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310112</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1607</mapid>
+      <xPos>191</xPos>
+      <yPos>250</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310113</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310113</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1608</mapid>
+      <xPos>31</xPos>
+      <yPos>50</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310114</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310114</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1609</mapid>
+      <xPos>96</xPos>
+      <yPos>96</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310115</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310115</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1610</mapid>
+      <xPos>122</xPos>
+      <yPos>157</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310116</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310116</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1611</mapid>
+      <xPos>28</xPos>
+      <yPos>115</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310117</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310117</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1612</mapid>
+      <xPos>18</xPos>
+      <yPos>181</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310118</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310118</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1614</mapid>
+      <xPos>145</xPos>
+      <yPos>182</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310119</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310119</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540045</shape>
+      <name>宝石小偷</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1616</mapid>
+      <xPos>99</xPos>
+      <yPos>202</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3211</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310120</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310120</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1605</mapid>
+      <xPos>124</xPos>
+      <yPos>186</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310121</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310121</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1606</mapid>
+      <xPos>33</xPos>
+      <yPos>50</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310122</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310122</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1607</mapid>
+      <xPos>270</xPos>
+      <yPos>198</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310123</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310123</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1608</mapid>
+      <xPos>45</xPos>
+      <yPos>105</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310124</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310124</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1609</mapid>
+      <xPos>70</xPos>
+      <yPos>128</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310125</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310125</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1610</mapid>
+      <xPos>177</xPos>
+      <yPos>130</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310126</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310126</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1611</mapid>
+      <xPos>17</xPos>
+      <yPos>152</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310127</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310127</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1612</mapid>
+      <xPos>39</xPos>
+      <yPos>132</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310128</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310128</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1614</mapid>
+      <xPos>146</xPos>
+      <yPos>318</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310129</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310129</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540046</shape>
+      <name>怀里有逗逗</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1616</mapid>
+      <xPos>102</xPos>
+      <yPos>68</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3212</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310003</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310003</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1605</mapid>
+      <xPos>172</xPos>
+      <yPos>156</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3200</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310004</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310004</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1606</mapid>
+      <xPos>75</xPos>
+      <yPos>29</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3201</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310005</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310005</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1607</mapid>
+      <xPos>238</xPos>
+      <yPos>218</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3202</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310006</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310006</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1608</mapid>
+      <xPos>55</xPos>
+      <yPos>116</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3203</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310007</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310007</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1609</mapid>
+      <xPos>70</xPos>
+      <yPos>128</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3204</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310008</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310008</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1610</mapid>
+      <xPos>170</xPos>
+      <yPos>91</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3205</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310009</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310009</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1611</mapid>
+      <xPos>69</xPos>
+      <yPos>133</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3206</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310010</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310010</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1612</mapid>
+      <xPos>59</xPos>
+      <yPos>65</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3207</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310011</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310011</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1614</mapid>
+      <xPos>122</xPos>
+      <yPos>153</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3208</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310012</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310012</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540047</shape>
+      <name>背包有石头</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1616</mapid>
+      <xPos>138</xPos>
+      <yPos>155</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3209</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310089</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310089</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1605</mapid>
+      <xPos>155</xPos>
+      <yPos>158</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3237</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310090</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310090</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1606</mapid>
+      <xPos>75</xPos>
+      <yPos>52</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3238</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310091</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310091</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1607</mapid>
+      <xPos>244</xPos>
+      <yPos>234</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3239</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310092</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310092</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1608</mapid>
+      <xPos>21</xPos>
+      <yPos>115</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3240</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310093</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310093</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1609</mapid>
+      <xPos>70</xPos>
+      <yPos>128</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3241</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310094</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310094</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1610</mapid>
+      <xPos>119</xPos>
+      <yPos>101</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3242</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310095</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310095</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1611</mapid>
+      <xPos>68</xPos>
+      <yPos>165</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3243</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310096</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310096</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1612</mapid>
+      <xPos>26</xPos>
+      <yPos>39</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3244</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310097</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310097</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1614</mapid>
+      <xPos>99</xPos>
+      <yPos>197</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3245</battleinfo>
+    </fire.pb.npc.SNpcShare>
+  </entry>
+  <entry>
+    <int>310098</int>
+    <fire.pb.npc.SNpcShare>
+      <id>310098</id>
+      <bodytype>1.15</bodytype>
+      <npctype>7</npctype>
+      <minimapshow>0</minimapshow>
+      <share>0</share>
+      <shape>1540048</shape>
+      <name>奔跑吧小贼</name>
+      <mulbattle>0</mulbattle>
+      <杂学id>-1</杂学id>
+      <mapid>1616</mapid>
+      <xPos>100</xPos>
+      <yPos>139</yPos>
+      <zPos>0</zPos>
+      <battleinfo>3246</battleinfo>
     </fire.pb.npc.SNpcShare>
   </entry>
 </tree-map>

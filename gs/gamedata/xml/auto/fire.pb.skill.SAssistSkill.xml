@@ -7,7 +7,7 @@
       <id>300101</id>
       <isNeedExp>true</isNeedExp>
       <skillName>打造技巧</skillName>
-      <levelTotal>160</levelTotal>
+      <levelTotal>140</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -17,7 +17,7 @@
       <id>300201</id>
       <isNeedExp>true</isNeedExp>
       <skillName>裁缝技巧</skillName>
-      <levelTotal>160</levelTotal>
+      <levelTotal>140</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -27,7 +27,7 @@
       <id>300301</id>
       <isNeedExp>true</isNeedExp>
       <skillName>炼金技巧</skillName>
-      <levelTotal>160</levelTotal>
+      <levelTotal>140</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -127,7 +127,7 @@
       <id>310101</id>
       <isNeedExp>false</isNeedExp>
       <skillName>中医药理</skillName>
-      <levelTotal>160</levelTotal>
+      <levelTotal>140</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -137,7 +137,7 @@
       <id>310201</id>
       <isNeedExp>false</isNeedExp>
       <skillName>烹饪技巧</skillName>
-      <levelTotal>160</levelTotal>
+      <levelTotal>140</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -147,7 +147,7 @@
       <id>320103</id>
       <isNeedExp>false</isNeedExp>
       <skillName>强身术</skillName>
-      <levelTotal>160</levelTotal>
+      <levelTotal>140</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>
@@ -157,7 +157,7 @@
       <id>320104</id>
       <isNeedExp>false</isNeedExp>
       <skillName>冥想</skillName>
-      <levelTotal>160</levelTotal>
+      <levelTotal>140</levelTotal>
       <是否在技能学习人处显示>1</是否在技能学习人处显示>
     </fire.pb.skill.SAssistSkill>
   </entry>

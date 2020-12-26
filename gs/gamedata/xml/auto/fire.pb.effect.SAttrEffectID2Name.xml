@@ -392,7 +392,7 @@
       <initValue>1000</initValue>
       <ablEffctId>251</ablEffctId>
       <ablEffctName>phycrueldegree_value</ablEffctName>
-      <ablLimit>3</ablLimit>
+      <ablLimit>9.9999999E7</ablLimit>
       <pctEffctId>252</pctEffctId>
       <pctEffctName>phycrueldegree_percent</pctEffctName>
       <pctLimit>10.0</pctLimit>
@@ -440,7 +440,7 @@
       <initValue>1000</initValue>
       <ablEffctId>281</ablEffctId>
       <ablEffctName>magiccrueldegree_value</ablEffctName>
-      <ablLimit>3</ablLimit>
+      <ablLimit>9.9999999E7</ablLimit>
       <pctEffctId>282</pctEffctId>
       <pctEffctName>magiccrueldegree_percent</pctEffctName>
       <pctLimit>10.0</pctLimit>
@@ -472,7 +472,7 @@
       <initValue>500</initValue>
       <ablEffctId>301</ablEffctId>
       <ablEffctName>healdegree_value</ablEffctName>
-      <ablLimit>3</ablLimit>
+      <ablLimit>9.9999999E7</ablLimit>
       <pctEffctId>302</pctEffctId>
       <pctEffctName>healdegree_percent</pctEffctName>
       <pctLimit>10.0</pctLimit>
@@ -891,33 +891,33 @@
       <classname>格挡减伤系数</classname>
       <attrname>blockdegree</attrname>
       <initValue>0.3</initValue>
-      <ablEffctId>581</ablEffctId>
+      <ablEffctId>1801</ablEffctId>
       <ablEffctName>blockratedegree_value</ablEffctName>
       <ablLimit>9.9999999E7</ablLimit>
-      <pctEffctId>582</pctEffctId>
+      <pctEffctId>1802</pctEffctId>
       <pctEffctName>blockratedegree_percent</pctEffctName>
       <pctLimit>10.0</pctLimit>
     </fire.pb.effect.SAttrEffectID2Name>
   </entry>
   <entry>
-    <int>590</int>
+    <int>1800</int>
     <fire.pb.effect.SAttrEffectID2Name>
-      <id>590</id>
+      <id>1800</id>
       <classname>反震几率</classname>
       <attrname>fanzhenrate</attrname>
       <initValue>0</initValue>
-      <ablEffctId>591</ablEffctId>
+      <ablEffctId>1811</ablEffctId>
       <ablEffctName>fanzhenrate_value</ablEffctName>
       <ablLimit>9.9999999E7</ablLimit>
-      <pctEffctId>592</pctEffctId>
+      <pctEffctId>1812</pctEffctId>
       <pctEffctName>fanzhenrate_percent</pctEffctName>
       <pctLimit>10.0</pctLimit>
     </fire.pb.effect.SAttrEffectID2Name>
   </entry>
   <entry>
-    <int>600</int>
+    <int>1810</int>
     <fire.pb.effect.SAttrEffectID2Name>
-      <id>600</id>
+      <id>1810</id>
       <classname>反震伤害系数</classname>
       <attrname>fanzhendegree</attrname>
       <initValue>0</initValue>
@@ -1604,13 +1604,13 @@
       <id>2150</id>
       <classname>物理波动</classname>
       <attrname>wulibodong</attrname>
-      <initValue>0.05</initValue>
+      <initValue>0</initValue>
       <ablEffctId>2151</ablEffctId>
       <ablEffctName>wulibodong_value</ablEffctName>
       <ablLimit>9.9999999E7</ablLimit>
       <pctEffctId>2152</pctEffctId>
       <pctEffctName>wulibodong_percent</pctEffctName>
-      <pctLimit>10.0</pctLimit>
+      <pctLimit>0.5</pctLimit>
     </fire.pb.effect.SAttrEffectID2Name>
   </entry>
   <entry>
@@ -1619,13 +1619,13 @@
       <id>2160</id>
       <classname>法术波动</classname>
       <attrname>fashubodong</attrname>
-      <initValue>0.05</initValue>
+      <initValue>0</initValue>
       <ablEffctId>2161</ablEffctId>
       <ablEffctName>fashubodong_value</ablEffctName>
       <ablLimit>9.9999999E7</ablLimit>
       <pctEffctId>2162</pctEffctId>
       <pctEffctName>fashubodong_percent</pctEffctName>
-      <pctLimit>10.0</pctLimit>
+      <pctLimit>0.1</pctLimit>
     </fire.pb.effect.SAttrEffectID2Name>
   </entry>
   <entry>
@@ -1634,7 +1634,7 @@
       <id>2170</id>
       <classname>治疗波动</classname>
       <attrname>zhiliaobodong</attrname>
-      <initValue>0.05</initValue>
+      <initValue>0</initValue>
       <ablEffctId>2171</ablEffctId>
       <ablEffctName>zhiliaobodong_value</ablEffctName>
       <ablLimit>9.9999999E7</ablLimit>

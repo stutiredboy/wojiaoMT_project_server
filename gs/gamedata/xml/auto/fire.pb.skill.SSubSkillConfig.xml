@@ -96,7 +96,7 @@
       <buff0__id>500009</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__round>0</buff0__round>
-      <buff0__values>curhp_value=100000</buff0__values>
+      <buff0__values>curhp_value=10000000</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -113,7 +113,7 @@
       <buff0__id>500010</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__round>0</buff0__round>
-      <buff0__values>curmp_value=100000</buff0__values>
+      <buff0__values>curmp_value=10000000</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -2238,7 +2238,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>2</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
@@ -2321,18 +2321,18 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>2</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506108</buff0__id>
+      <buff0__id>509300</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__round>1</buff0__round>
-      <buff1__id>510114</buff1__id>
+      <buff1__id>510113</buff1__id>
       <buff1__rate>0.7</buff1__rate>
-      <buff1__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*2</buff1__values>
+      <buff1__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff1__values>
       <buff2__id>510101</buff2__id>
       <buff2__rate>-2</buff2__rate>
-      <buff2__values>curhp_value=max((magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9)),3*skilllevela)</buff2__values>
+      <buff2__values>curhp_value=max((phyattacka*1.6-defendb+1*skilllevela)*0.5*(havebuffa(508023)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9)),3*skilllevela)</buff2__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -2343,12 +2343,12 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>8</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.1-defendb+1*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -2531,6 +2531,50 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
+    <int>2070191</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2070191</id>
+      <name>焚焰</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509326</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2070192</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2070192</id>
+      <name>聚电</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509327</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2070193</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2070193</id>
+      <name>筑浪</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509328</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2070194</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2070194</id>
+      <name>垒岩</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509329</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
     <int>1100000</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>1100000</id>
@@ -2710,7 +2754,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.25-defendb+1*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -2727,7 +2771,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.2-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*gradea)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -2744,7 +2788,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.25-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*gradea)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -3687,7 +3731,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>501002</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
+      <buff0__round>1</buff0__round>
       <buff0__values>defend_percent=-0.12;magicdef_percent=-0.12;resistseal_value=9.9</buff0__values>
       <buff1__id>501008</buff1__id>
       <buff1__rate>1</buff1__rate>
@@ -3949,17 +3993,14 @@
       <id>1300070</id>
       <name>经脉-叱咤洪荒吃宝宝</name>
       <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>1</aimCampType>
-      <aimRaceType>2</aimRaceType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>3</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>510102</buff0__id>
+      <buff0__id>502009</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-curhpb</buff0__values>
-      <buff1__id>510138</buff1__id>
-      <buff1__rate>1</buff1__rate>
+      <buff0__round>3</buff0__round>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -3969,7 +4010,79 @@
       <name>经脉-叱咤洪荒加buff</name>
       <relevanceSkillID>1300070</relevanceSkillID>
       <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
+      <aimCampType>2</aimCampType>
+      <aimRelationType>4</aimRelationType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509038</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>phycruelrate_value=0.1</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1300072</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1300072</id>
+      <name>经脉-叱咤洪荒加buff</name>
+      <relevanceSkillID>1300071</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <aimRelationType>4</aimRelationType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509038</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>phycruelrate_value=0.1</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1300073</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1300073</id>
+      <name>经脉-叱咤洪荒加buff</name>
+      <relevanceSkillID>1300072</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <aimRelationType>4</aimRelationType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509038</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>phycruelrate_value=0.1</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1300074</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1300074</id>
+      <name>经脉-叱咤洪荒加buff</name>
+      <relevanceSkillID>1300073</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <aimRelationType>4</aimRelationType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509038</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>phycruelrate_value=0.1</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1300075</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1300075</id>
+      <name>经脉-叱咤洪荒加buff</name>
+      <relevanceSkillID>1300074</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
       <aimRelationType>4</aimRelationType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
@@ -4371,7 +4484,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>506201</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
+      <buff0__round>4</buff0__round>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -4519,75 +4632,37 @@
     <int>1400070</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>1400070</id>
-      <name>锁魂判官</name>
+      <name>舍身济世1</name>
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>509081</buff0__id>
+      <buff0__id>509041</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__round>4</buff0__round>
+      <buff0__values>phynodefrate_value=1;phynodefdegree_value=0.2</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
     <int>1400071</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>1400071</id>
-      <name>锁魂判官减防</name>
+      <name>舍身济世2</name>
       <relevanceSkillID>1400070</relevanceSkillID>
-      <actionCondition>2,4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>3</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>504004</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>4</buff0__round>
-      <buff0__values>defend_percent=-0.1-(0.1+0.05*skilllevela)*(1-curmpb/maxmpb);magicdef_percent=-0.1-(0.1+0.05*skilllevela)*(1-curmpb/maxmpb)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1400072</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1400072</id>
-      <name>锁魂判官PVE伤害</name>
-      <confilictStates>pve</confilictStates>
-      <relevanceSkillID>1400071</relevanceSkillID>
-      <actionCondition>2,4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>3</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <minmagicdamage>3*skilllevela</minmagicdamage>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510114</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1+magicdefa*1-magicdefb+1*gradea)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1400073</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1400073</id>
-      <name>锁魂判官虚弱休息</name>
-      <relevanceSkillID>1400072</relevanceSkillID>
       <actionCondition>4</actionCondition>
-      <aimCampType>3</aimCampType>
-      <targetType>0</targetType>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>501002</buff0__id>
+      <buff0__id>509081</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>defend_percent=-0.24;magicdef_percent=-0.24;resistseal_value=9.9</buff0__values>
-      <buff1__id>501008</buff1__id>
+      <buff0__round>5</buff0__round>
+      <buff1__id>510102</buff1__id>
       <buff1__rate>1</buff1__rate>
-      <buff1__round>2</buff1__round>
-      <buff1__values>operation_type=10</buff1__values>
+      <buff1__values>curhp_value=-maxhpb*0.5</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -4788,7 +4863,7 @@
       <aimCampType>3</aimCampType>
       <targetType>5</targetType>
       <targetNum>1</targetNum>
-      <targetRate>0.05</targetRate>
+      <targetRate>0.1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>509007</buff0__id>
       <buff0__rate>1</buff0__rate>
@@ -4809,7 +4884,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5</buff0__values>
+      <buff0__values>curhp_value=-(magicattacka*2.2-magicdefb+2*gradea)*0.5</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -5165,6 +5240,32 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
+    <int>1600023</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1600023</id>
+      <name>普度众生3</name>
+      <relevanceSkillID>1600022</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>hpmin</sortArg>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+      <buff1__requiredBuffs>506008</buff1__requiredBuffs>
+      <buff2__id>506008</buff2__id>
+      <buff2__rate>1</buff2__rate>
+      <buff2__round>4</buff2__round>
+      <buff2__values>curhp_value=maxhpb*0.06+400</buff2__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
     <int>1600030</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>1600030</id>
@@ -5465,7 +5566,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))</buff0__values>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(4-preaimcount))</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -5484,7 +5585,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))</buff0__values>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(4-preaimcount))</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -5503,25 +5604,44 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))</buff0__values>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(4-preaimcount))</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
     <int>1610013</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>1610013</id>
-      <name>先祖印记</name>
+      <name>飞沙走石3</name>
       <relevanceSkillID>1610012</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>4</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*skilllevela</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(4-preaimcount))</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1610014</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1610014</id>
+      <name>先祖印记</name>
+      <relevanceSkillID>1610013</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>3</aimCampType>
       <targetType>5</targetType>
       <targetNum>1</targetNum>
-      <targetRate>0.3</targetRate>
+      <targetRate>0.5</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>506109</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
-      <buff0__values>magiccruel_value=0.3</buff0__values>
+      <buff0__values>magiccruel_value=0.1</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -5550,12 +5670,12 @@
       <targetRate>1</targetRate>
       <minmagicdamage>3*skilllevela</minmagicdamage>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506108</buff0__id>
+      <buff0__id>509246</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__round>1</buff0__round>
       <buff1__id>510114</buff1__id>
       <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))</buff1__values>
+      <buff1__values>curhp_value=-(magicattacka*2.2-magicdefb+2*gradea)*0.5</buff1__values>
       <buff2__id>510140</buff2__id>
       <buff2__rate>1</buff2__rate>
     </fire.pb.skill.SSubSkillConfig>
@@ -5916,7 +6036,7 @@
       <buff0__id>506102</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
-      <buff0__values>phyattack_value=2.5*skilllevela</buff0__values>
+      <buff0__values>phyattack_value=3*gradea;magicattack_value=2.1*gradea</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -5950,7 +6070,7 @@
       <buff0__rate>1</buff0__rate>
       <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509239</buff1__id>
-      <buff1__rate>((sealhita&gt;=unsealb)?(0.98-0.32*pow(0.95,(sealhita/10-unsealb/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)):(0.66*pow(0.9,(unsealb/10-sealhita/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)))*0.5</buff1__rate>
+      <buff1__rate>0.1</buff1__rate>
       <buff1__round>3</buff1__round>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
@@ -6142,7 +6262,7 @@
       <buff0__rate>1</buff0__rate>
       <buff0__values>curhp_value=-(phyattacka*1-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509239</buff1__id>
-      <buff1__rate>((sealhita&gt;=unsealb)?(0.98-0.32*pow(0.95,(sealhita/10-unsealb/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)):(0.66*pow(0.9,(unsealb/10-sealhita/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)))-0.16</buff1__rate>
+      <buff1__rate>0.1</buff1__rate>
       <buff1__round>3</buff1__round>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
@@ -6269,739 +6389,6 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>16200770</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16200770</id>
-      <name>广寒清辉8</name>
-      <confilictStates>effectpointa&gt;=1</confilictStates>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510113</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16200771</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16200771</id>
-      <name>广寒清辉9</name>
-      <relevanceSkillID>16200770</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510113</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16201770</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16201770</id>
-      <name>广寒清辉8消耗连击点</name>
-      <relevanceSkillID>16200770</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>3</aimCampType>
-      <buff0__id>510137</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>effectpoint_value=-1</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16200772</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16200772</id>
-      <name>广寒清辉10</name>
-      <confilictStates>effectpointa&gt;=1</confilictStates>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510113</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16200773</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16200773</id>
-      <name>广寒清辉11</name>
-      <relevanceSkillID>16200772</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510113</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16201772</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16201772</id>
-      <name>广寒清辉10消耗连击点</name>
-      <relevanceSkillID>16200772</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>3</aimCampType>
-      <buff0__id>510137</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>effectpoint_value=-1</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16200774</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16200774</id>
-      <name>广寒清辉12</name>
-      <confilictStates>effectpointa&gt;=1</confilictStates>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510113</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16200775</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16200775</id>
-      <name>广寒清辉13</name>
-      <relevanceSkillID>16200774</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510113</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>16201774</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>16201774</id>
-      <name>广寒清辉12消耗连击点</name>
-      <relevanceSkillID>16200774</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>3</aimCampType>
-      <buff0__id>510137</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>effectpoint_value=-1</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1620078</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1620078</id>
-      <name>广寒清辉虚弱休息</name>
-      <relevanceSkillID>1620070</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>3</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>501002</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>defend_percent=-0.12;magicdef_percent=-0.12;resistseal_value=9.9</buff0__values>
-      <buff1__id>501008</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__round>2</buff1__round>
-      <buff1__values>operation_type=10</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1620080</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1620080</id>
-      <name>月宫被动1</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506204</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>speed_value=0.5*skilllevela</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1620090</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1620090</id>
-      <name>月宫被动2</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506205</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>unseal_value=10*skilllevela</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1620100</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1620100</id>
-      <name>月宫被动3</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506206</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>defend_value=1*skilllevela</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630000</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630000</id>
-      <name>法华经</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506302</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>sealhit_value=10*skilllevela</buff0__values>
-      <buff1__id>509057</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__values>maxhp_percent=0.15</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630010</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630010</id>
-      <name>唧唧歪歪1</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
-      <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <minmagicdamage>3*skilllevela</minmagicdamage>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510114</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
-      <buff1__round>3</buff1__round>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630011</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630011</id>
-      <name>唧唧歪歪2</name>
-      <relevanceSkillID>1630010</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>speed</sortArg>
-      <targetRate>1</targetRate>
-      <minmagicdamage>3*skilllevela</minmagicdamage>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510114</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630012</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630012</id>
-      <name>唧唧歪歪3</name>
-      <relevanceSkillID>1630011</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>speed</sortArg>
-      <targetRate>1</targetRate>
-      <minmagicdamage>3*skilllevela</minmagicdamage>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510114</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630013</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630013</id>
-      <name>唧唧歪歪4</name>
-      <relevanceSkillID>1630012</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>speed</sortArg>
-      <targetRate>1</targetRate>
-      <minmagicdamage>3*skilllevela</minmagicdamage>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510114</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630014</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630014</id>
-      <name>唧唧歪歪5</name>
-      <relevanceSkillID>1630013</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>speed</sortArg>
-      <targetRate>1</targetRate>
-      <minmagicdamage>3*skilllevela</minmagicdamage>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510114</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630015</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630015</id>
-      <name>唧唧歪歪6</name>
-      <confilictStates>skilllevela&gt;=90</confilictStates>
-      <relevanceSkillID>1630014</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>2</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>speed</sortArg>
-      <targetRate>1</targetRate>
-      <minmagicdamage>3*skilllevela</minmagicdamage>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510114</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630020</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630020</id>
-      <name>推气过宫1</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>1</aimCampType>
-      <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510116</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
-      <buff1__id>510101</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630021</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630021</id>
-      <name>推气过宫2</name>
-      <relevanceSkillID>1630020</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>hpmin</sortArg>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510116</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
-      <buff1__id>510101</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630022</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630022</id>
-      <name>推气过宫3</name>
-      <relevanceSkillID>1630021</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>hpmin</sortArg>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510116</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
-      <buff1__id>510101</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630023</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630023</id>
-      <name>推气过宫4</name>
-      <relevanceSkillID>1630022</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>hpmin</sortArg>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510116</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
-      <buff1__id>510101</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630024</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630024</id>
-      <name>推气过宫5</name>
-      <relevanceSkillID>1630023</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>hpmin</sortArg>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510116</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
-      <buff1__id>510101</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630025</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630025</id>
-      <name>推气过宫6</name>
-      <confilictStates>skilllevela&gt;=90</confilictStates>
-      <relevanceSkillID>1630024</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <sortArg>hpmin</sortArg>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510116</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
-      <buff1__id>510101</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630030</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630030</id>
-      <name>金刚护体1</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>1</aimCampType>
-      <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>502005</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630031</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630031</id>
-      <name>金刚护体2</name>
-      <relevanceSkillID>1630030</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>502005</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630032</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630032</id>
-      <name>金刚护体3</name>
-      <relevanceSkillID>1630031</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>502005</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630033</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630033</id>
-      <name>金刚护体4</name>
-      <relevanceSkillID>1630032</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>502005</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630034</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630034</id>
-      <name>金刚护体5</name>
-      <confilictStates>skilllevela&gt;=90</confilictStates>
-      <relevanceSkillID>1630033</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>502005</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630035</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630035</id>
-      <name>金刚护体6</name>
-      <relevanceSkillID>1630034</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>5</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>502005</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630040</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630040</id>
-      <name>我佛慈悲</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>5</aimCampType>
-      <targetType>9</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510107</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
-      <buff1__id>502005</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__round>2</buff1__round>
-      <buff1__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff1__values>
-      <buff2__id>510116</buff2__id>
-      <buff2__rate>1</buff2__rate>
-      <buff2__values>curhp_value=medicala+3*skilllevela</buff2__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630041</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630041</id>
-      <name>我佛慈悲</name>
-      <relevanceSkillID>1630040</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>1</aimCampType>
-      <targetType>3</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510116</buff0__id>
-      <buff0__rate>1</buff0__rate>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630050</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630050</id>
-      <name>当头棒喝</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>1</aimCampType>
-      <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>510113</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*gradea)</buff0__values>
-      <buff1__id>510132</buff1__id>
-      <buff1__rate>1</buff1__rate>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630051</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630051</id>
-      <name>当头棒喝提升</name>
-      <relevanceSkillID>1630050</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>3</aimCampType>
-      <targetType>4</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506307</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>3</buff0__round>
-      <buff0__values>sealhit_value=0.5*skilllevela</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630060</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630060</id>
-      <name>附魔：佛光普照</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630070</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630070</id>
-      <name>一元复始1</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
-      <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>509209</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>3</buff0__round>
-      <buff1__id>509210</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__round>3</buff1__round>
-      <buff2__id>509211</buff2__id>
-      <buff2__rate>1</buff2__rate>
-      <buff2__round>3</buff2__round>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630071</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630071</id>
-      <name>一元复始虚弱休息</name>
-      <relevanceSkillID>1630070</relevanceSkillID>
-      <actionCondition>4</actionCondition>
-      <aimCampType>3</aimCampType>
-      <targetType>0</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>501002</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>defend_percent=-0.12;magicdef_percent=-0.12;resistseal_value=9.9</buff0__values>
-      <buff1__id>501008</buff1__id>
-      <buff1__rate>1</buff1__rate>
-      <buff1__round>2</buff1__round>
-      <buff1__values>operation_type=10</buff1__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630080</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630080</id>
-      <name>化生寺被动1</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506303</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>speed_value=0.5*skilllevela</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630090</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630090</id>
-      <name>化生寺被动2</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506304</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>unseal_value=10*skilllevela</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
-    <int>1630100</int>
-    <fire.pb.skill.SSubSkillConfig>
-      <id>1630100</id>
-      <name>化生寺被动3</name>
-      <relevanceSkillID>0</relevanceSkillID>
-      <targetRate>1</targetRate>
-      <mainbuffId>0</mainbuffId>
-      <buff0__id>506305</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__values>defend_value=1*skilllevela</buff0__values>
-    </fire.pb.skill.SSubSkillConfig>
-  </entry>
-  <entry>
     <int>1640000</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>1640000</id>
@@ -7009,7 +6396,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506203</buff0__id>
+      <buff0__id>506403</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>phyattack_value=2.5*skilllevela</buff0__values>
       <buff1__id>509041</buff1__id>
@@ -7030,8 +6417,11 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509038</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>4</buff1__round>
+      <buff1__values>phycruelrate_value=0.1</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7047,8 +6437,11 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509038</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>4</buff1__round>
+      <buff1__values>phycruelrate_value=0.1</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7066,8 +6459,11 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509038</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>4</buff1__round>
+      <buff1__values>phycruelrate_value=0.1</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7084,8 +6480,11 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509038</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>4</buff1__round>
+      <buff1__values>phycruelrate_value=0.1</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7103,8 +6502,11 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509038</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>4</buff1__round>
+      <buff1__values>phycruelrate_value=0.1</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7123,8 +6525,11 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509038</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>4</buff1__round>
+      <buff1__values>phycruelrate_value=0.1</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7140,7 +6545,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7164,7 +6569,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7188,7 +6593,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7209,7 +6614,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509239</buff1__id>
       <buff1__rate>((sealhita&gt;=unsealb)?(0.98-0.32*pow(0.95,(sealhita/10-unsealb/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)):(0.66*pow(0.9,(unsealb/10-sealhita/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)))-0.16</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7233,7 +6638,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7257,7 +6662,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7278,7 +6683,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff2__id>509058</buff2__id>
       <buff2__values>defend_value=gradea*1.3;magicrevise_value=-0.11</buff2__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7298,7 +6703,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7321,7 +6726,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7345,7 +6750,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7358,7 +6763,7 @@
     <fire.pb.skill.SSubSkillConfig>
       <id>1640064</id>
       <name>翻江搅海5</name>
-      <confilictStates>skilllevela&gt;=60</confilictStates>
+      <confilictStates>skilllevela&gt;=90</confilictStates>
       <relevanceSkillID>1640063</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
@@ -7369,7 +6774,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7382,7 +6787,7 @@
     <fire.pb.skill.SSubSkillConfig>
       <id>1640065</id>
       <name>翻江搅海6</name>
-      <confilictStates>skilllevela&gt;=90</confilictStates>
+      <confilictStates>skilllevela&gt;=120</confilictStates>
       <relevanceSkillID>1640064</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
@@ -7393,7 +6798,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7406,7 +6811,7 @@
     <fire.pb.skill.SSubSkillConfig>
       <id>1640066</id>
       <name>翻江搅海6</name>
-      <confilictStates>skilllevela&gt;=90</confilictStates>
+      <confilictStates>skilllevela&gt;=120</confilictStates>
       <relevanceSkillID>1640065</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
@@ -7417,7 +6822,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7451,7 +6856,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506204</buff0__id>
+      <buff0__id>506404</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>speed_value=0.5*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7464,7 +6869,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506205</buff0__id>
+      <buff0__id>506405</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>unseal_value=10*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7477,7 +6882,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506206</buff0__id>
+      <buff0__id>506406</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>defend_value=1*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7490,9 +6895,9 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506203</buff0__id>
+      <buff0__id>506503</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>phyattack_value=2.5*skilllevela</buff0__values>
+      <buff0__values>sealhit_value=10*skilllevela</buff0__values>
       <buff1__id>509041</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__values>phynodefrate_value=1;phynodefdegree_value=0.05</buff1__values>
@@ -7510,7 +6915,7 @@
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>506011</buff0__id>
-      <buff0__rate>1</buff0__rate>
+      <buff0__rate>0.7</buff0__rate>
       <buff0__round>3</buff0__round>
       <buff0__values>defend_percent=-0.1</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7691,7 +7096,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7703,14 +7108,14 @@
       <relevanceSkillID>1650040</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
-      <targetType>3</targetType>
+      <targetType>2</targetType>
       <targetNum>1</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7725,14 +7130,14 @@
       <relevanceSkillID>1650041</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
-      <targetType>3</targetType>
+      <targetType>5</targetType>
       <targetNum>1</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7751,7 +7156,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7770,7 +7175,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7792,7 +7197,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7811,7 +7216,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -7823,14 +7228,14 @@
       <relevanceSkillID>1650060</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
-      <targetType>5</targetType>
+      <targetType>2</targetType>
       <targetNum>1</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7845,14 +7250,14 @@
       <relevanceSkillID>1650061</relevanceSkillID>
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
-      <targetType>5</targetType>
+      <targetType>2</targetType>
       <targetNum>1</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.1-defendb*0.9+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>509208</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>3</buff1__round>
@@ -7866,7 +7271,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>1</aimCampType>
       <targetType>9</targetType>
-      <targetNum>14</targetNum>
+      <targetNum>4</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
@@ -7884,7 +7289,7 @@
       <actionCondition>4</actionCondition>
       <aimCampType>1</aimCampType>
       <targetType>3</targetType>
-      <targetNum>14</targetNum>
+      <targetNum>4</targetNum>
       <sortArg>hpmin</sortArg>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
@@ -7901,7 +7306,7 @@
       <actionCondition>4</actionCondition>
       <aimCampType>3</aimCampType>
       <targetType>0</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>4</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510135</buff0__id>
@@ -7917,7 +7322,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506204</buff0__id>
+      <buff0__id>506504</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>speed_value=0.5*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7930,7 +7335,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506205</buff0__id>
+      <buff0__id>506505</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>unseal_value=10*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7943,7 +7348,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506206</buff0__id>
+      <buff0__id>506506</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>defend_value=1*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -7956,9 +7361,9 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506203</buff0__id>
+      <buff0__id>506603</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>phyattack_value=2.5*skilllevela</buff0__values>
+      <buff0__values>sealhit_value=10*skilllevela</buff0__values>
       <buff1__id>509041</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__values>phynodefrate_value=1;phynodefdegree_value=0.05</buff1__values>
@@ -8092,8 +7497,8 @@
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>506013</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>5</buff0__round>
+      <buff0__rate>0.7</buff0__rate>
+      <buff0__round>3</buff0__round>
       <buff0__values>defend_percent=-0.1</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
@@ -8111,7 +7516,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>504016</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__round>5</buff0__round>
+      <buff0__round>3</buff0__round>
       <buff0__values>sealhit_value=min(-1*gradea+0.5*skilllevela,0)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
@@ -8127,7 +7532,7 @@
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>506014</buff0__id>
-      <buff0__rate>1</buff0__rate>
+      <buff0__rate>0.7</buff0__rate>
       <buff0__round>3</buff0__round>
       <buff0__values>defend_percent=-0.1</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -8164,7 +7569,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.55+0.05*(3-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>506012</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>5</buff1__round>
@@ -8187,7 +7592,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>504015</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>5</buff1__round>
@@ -8210,7 +7615,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>504015</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>5</buff1__round>
@@ -8233,7 +7638,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>504015</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>5</buff1__round>
@@ -8256,7 +7661,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>504015</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>5</buff1__round>
@@ -8280,7 +7685,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
       <buff1__id>504015</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__round>5</buff1__round>
@@ -8330,7 +7735,7 @@
       <name>幻镜术2</name>
       <relevanceSkillID>1660070</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8348,7 +7753,7 @@
       <name>幻镜术3</name>
       <relevanceSkillID>1660071</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8366,7 +7771,7 @@
       <name>幻镜术4</name>
       <relevanceSkillID>1660072</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8384,7 +7789,7 @@
       <name>幻镜术5</name>
       <relevanceSkillID>1660073</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8402,7 +7807,7 @@
       <name>幻镜术6</name>
       <relevanceSkillID>1660074</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8420,7 +7825,7 @@
       <name>幻镜术7</name>
       <relevanceSkillID>1660075</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8438,7 +7843,7 @@
       <name>幻镜术8</name>
       <relevanceSkillID>1660076</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8456,7 +7861,7 @@
       <name>幻镜术9</name>
       <relevanceSkillID>1660077</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8474,7 +7879,7 @@
       <name>幻镜术10</name>
       <relevanceSkillID>1660078</relevanceSkillID>
       <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
+      <aimCampType>2</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -8493,7 +7898,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506204</buff0__id>
+      <buff0__id>506604</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>speed_value=0.5*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -8506,7 +7911,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506205</buff0__id>
+      <buff0__id>506605</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>unseal_value=10*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -8519,7 +7924,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506206</buff0__id>
+      <buff0__id>506606</buff0__id>
       <buff0__rate>1</buff0__rate>
       <buff0__values>defend_value=1*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
@@ -8851,7 +8256,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+2*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -8870,7 +8275,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+3*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -8889,7 +8294,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+4*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -8908,7 +8313,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+5*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -8927,7 +8332,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+6*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -8946,7 +8351,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+7*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -8965,7 +8370,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+8*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -8984,7 +8389,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+9*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9003,7 +8408,7 @@
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+10*skilllevela)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9284,7 +8689,7 @@
       <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
       <buff1__id>510101</buff1__id>
       <buff1__rate>1</buff1__rate>
-      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.8</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9404,18 +8809,16 @@
     <fire.pb.skill.SSubSkillConfig>
       <id>1690030</id>
       <name>莲步轻舞1</name>
-      <confilictStatesnotify>141181</confilictStatesnotify>
-      <confilictBuffs>504013</confilictBuffs>
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506002</buff0__id>
+      <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__round>3+min(floor(skilllevela/60),1)</buff0__round>
-      <buff0__values>magicdef_value=-1.4*skilllevela</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff1__id>509038</buff1__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9424,17 +8827,17 @@
       <id>1690031</id>
       <name>莲步轻舞2</name>
       <relevanceSkillID>1690030</relevanceSkillID>
-      <actionCondition>3</actionCondition>
-      <aimCampType>3</aimCampType>
-      <targetType>0</targetType>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>2</targetType>
       <targetNum>1</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>504013</buff0__id>
+      <buff0__id>510113</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
-      <buff0__values>sealhit_value=min(-1*gradea+0.5*skilllevela,0)</buff0__values>
+      <buff0__values>curhp_value=-(phyattacka*1.05-defendb+1*skilllevela)</buff0__values>
+      <buff1__id>509038</buff1__id>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9448,9 +8851,10 @@
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506306</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
+      <buff0__id>509283</buff0__id>
+      <buff0__rate>((sealhita&gt;=unsealb)?(0.98-0.32*pow(0.95,(sealhita/10-unsealb/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)):(0.66*pow(0.9,(unsealb/10-sealhita/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)))</buff0__rate>
+      <buff0__round>3</buff0__round>
+      <buff0__values>defend_percent=-0.1</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9459,16 +8863,15 @@
       <id>1690041</id>
       <name>如花解语2</name>
       <relevanceSkillID>1690040</relevanceSkillID>
-      <actionCondition>4</actionCondition>
+      <actionCondition>3</actionCondition>
       <aimCampType>3</aimCampType>
       <targetType>0</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>506307</buff0__id>
-      <buff0__rate>1</buff0__rate>
+      <buff0__id>504017</buff0__id>
       <buff0__round>3</buff0__round>
-      <buff0__values>sealhit_value=0.5*skilllevela</buff0__values>
+      <buff0__values>sealhit_value=min(-1*gradea+0.5*skilllevela,0)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9479,12 +8882,13 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
+      <targetNum>3</targetNum>
+      <targetRate>0.5</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>502004</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>2</buff0__round>
+      <buff0__id>509284</buff0__id>
+      <buff0__rate>((sealhita&gt;=unsealb)?(0.98-0.32*pow(0.95,(sealhita/10-unsealb/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)):(0.66*pow(0.9,(unsealb/10-sealhita/10))+(enhanceseala-resistsealb)+(kongzhijiachenga/1000-kongzhimianyib/1000)))</buff0__rate>
+      <buff0__round>3</buff0__round>
+      <buff0__values>defend_percent=-0.1</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -9493,15 +8897,15 @@
       <id>1690051</id>
       <name>似玉生香2</name>
       <relevanceSkillID>1690050</relevanceSkillID>
-      <aimCampType>2</aimCampType>
-      <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
+      <actionCondition>3</actionCondition>
+      <aimCampType>3</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>3</targetNum>
+      <targetRate>0.5</targetRate>
       <mainbuffId>0</mainbuffId>
-      <buff0__id>502002</buff0__id>
-      <buff0__rate>1</buff0__rate>
-      <buff0__round>3+min(floor(skilllevela/60),1)</buff0__round>
-      <buff1__id>506301</buff1__id>
+      <buff0__id>504017</buff0__id>
+      <buff0__round>3</buff0__round>
+      <buff0__values>sealhit_value=min(-1*gradea+0.5*skilllevela,0)</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -10062,6 +9466,760 @@
       <buff0__rate>1</buff0__rate>
       <buff0__round>2</buff0__round>
       <buff0__values>sealhit_value=min(-1*gradea+0.5*skilllevela,0)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16200770</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16200770</id>
+      <name>广寒清辉8</name>
+      <confilictStates>effectpointa&gt;=1</confilictStates>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16200771</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16200771</id>
+      <name>广寒清辉9</name>
+      <relevanceSkillID>16200770</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16201770</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16201770</id>
+      <name>广寒清辉8消耗连击点</name>
+      <relevanceSkillID>16200770</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <buff0__id>510137</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>effectpoint_value=-1</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16200772</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16200772</id>
+      <name>广寒清辉10</name>
+      <confilictStates>effectpointa&gt;=1</confilictStates>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16200773</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16200773</id>
+      <name>广寒清辉11</name>
+      <relevanceSkillID>16200772</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16201772</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16201772</id>
+      <name>广寒清辉10消耗连击点</name>
+      <relevanceSkillID>16200772</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <buff0__id>510137</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>effectpoint_value=-1</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16200774</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16200774</id>
+      <name>广寒清辉12</name>
+      <confilictStates>effectpointa&gt;=1</confilictStates>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16200775</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16200775</id>
+      <name>广寒清辉13</name>
+      <relevanceSkillID>16200774</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1-defendb+1*gradea)*(0.45+0.05*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>16201774</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>16201774</id>
+      <name>广寒清辉12消耗连击点</name>
+      <relevanceSkillID>16200774</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <buff0__id>510137</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>effectpoint_value=-1</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1620078</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1620078</id>
+      <name>广寒清辉虚弱休息</name>
+      <relevanceSkillID>1620070</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>501002</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>2</buff0__round>
+      <buff0__values>defend_percent=-0.12;magicdef_percent=-0.12;resistseal_value=9.9</buff0__values>
+      <buff1__id>501008</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>2</buff1__round>
+      <buff1__values>operation_type=10</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1620080</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1620080</id>
+      <name>月宫被动1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506204</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>speed_value=0.5*skilllevela</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1620090</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1620090</id>
+      <name>月宫被动2</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506205</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>unseal_value=10*skilllevela</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1620100</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1620100</id>
+      <name>月宫被动3</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506206</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>defend_value=1*skilllevela</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630000</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630000</id>
+      <name>法华经</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506302</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>sealhit_value=10*skilllevela</buff0__values>
+      <buff1__id>509057</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>maxhp_percent=0.15</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630010</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630010</id>
+      <name>唧唧歪歪1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*skilllevela</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+      <buff1__round>3</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630011</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630011</id>
+      <name>唧唧歪歪2</name>
+      <relevanceSkillID>1630010</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*skilllevela</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630012</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630012</id>
+      <name>唧唧歪歪3</name>
+      <relevanceSkillID>1630011</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*skilllevela</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630013</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630013</id>
+      <name>唧唧歪歪4</name>
+      <relevanceSkillID>1630012</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*skilllevela</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630014</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630014</id>
+      <name>唧唧歪歪5</name>
+      <relevanceSkillID>1630013</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*skilllevela</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630015</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630015</id>
+      <name>唧唧歪歪6</name>
+      <confilictStates>skilllevela&gt;=90</confilictStates>
+      <relevanceSkillID>1630014</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*skilllevela</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*(0.5+0.05*(3-preaimcount))</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630020</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630020</id>
+      <name>推气过宫1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630021</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630021</id>
+      <name>推气过宫2</name>
+      <relevanceSkillID>1630020</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>hpmin</sortArg>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630022</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630022</id>
+      <name>推气过宫3</name>
+      <relevanceSkillID>1630021</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>hpmin</sortArg>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630023</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630023</id>
+      <name>推气过宫4</name>
+      <relevanceSkillID>1630022</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>hpmin</sortArg>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630024</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630024</id>
+      <name>推气过宫5</name>
+      <relevanceSkillID>1630023</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>hpmin</sortArg>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630025</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630025</id>
+      <name>推气过宫6</name>
+      <relevanceSkillID>1630024</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>hpmin</sortArg>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630026</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630026</id>
+      <name>推气过宫7</name>
+      <confilictStates>skilllevela&gt;=129</confilictStates>
+      <relevanceSkillID>1630025</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>hpmin</sortArg>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>510101</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curhp_value=(medicala+3*skilllevela)*0.4</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630030</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630030</id>
+      <name>金刚护体1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>502005</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
+      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630031</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630031</id>
+      <name>金刚护体2</name>
+      <relevanceSkillID>1630030</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>502005</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
+      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630032</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630032</id>
+      <name>金刚护体3</name>
+      <relevanceSkillID>1630031</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>502005</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
+      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630033</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630033</id>
+      <name>金刚护体4</name>
+      <relevanceSkillID>1630032</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>502005</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
+      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630034</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630034</id>
+      <name>金刚护体5</name>
+      <confilictStates>skilllevela&gt;=90</confilictStates>
+      <relevanceSkillID>1630033</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>502005</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
+      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630035</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630035</id>
+      <name>金刚护体6</name>
+      <relevanceSkillID>1630034</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>502005</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>4+min(floor(skilllevela/60),1)+min(floor(skilllevela/90),1)</buff0__round>
+      <buff0__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630040</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630040</id>
+      <name>我佛慈悲</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>5</aimCampType>
+      <targetType>9</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510107</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=medicala+3*skilllevela</buff0__values>
+      <buff1__id>502005</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>2</buff1__round>
+      <buff1__values>onphysicrevise_value=0.2;onmagicrevise_value=0.2</buff1__values>
+      <buff2__id>510116</buff2__id>
+      <buff2__rate>1</buff2__rate>
+      <buff2__values>curhp_value=medicala+3*skilllevela</buff2__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630041</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630041</id>
+      <name>我佛慈悲</name>
+      <relevanceSkillID>1630040</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <targetType>3</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510116</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630050</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630050</id>
+      <name>当头棒喝</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*gradea)</buff0__values>
+      <buff1__id>510132</buff1__id>
+      <buff1__rate>1</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630051</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630051</id>
+      <name>当头棒喝提升</name>
+      <relevanceSkillID>1630050</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506307</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+      <buff0__values>sealhit_value=0.5*skilllevela</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630060</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630060</id>
+      <name>附魔：佛光普照</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630070</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630070</id>
+      <name>一元复始1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509209</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+      <buff1__id>509210</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>3</buff1__round>
+      <buff2__id>509211</buff2__id>
+      <buff2__rate>1</buff2__rate>
+      <buff2__round>3</buff2__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630071</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630071</id>
+      <name>一元复始虚弱休息</name>
+      <relevanceSkillID>1630070</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <targetType>0</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>501002</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>2</buff0__round>
+      <buff0__values>defend_percent=-0.12;magicdef_percent=-0.12;resistseal_value=9.9</buff0__values>
+      <buff1__id>501008</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>2</buff1__round>
+      <buff1__values>operation_type=10</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630080</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630080</id>
+      <name>化生寺被动1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506303</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>speed_value=0.5*skilllevela</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630090</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630090</id>
+      <name>化生寺被动2</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506304</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>unseal_value=10*skilllevela</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1630100</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1630100</id>
+      <name>化生寺被动3</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506305</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>defend_value=1*skilllevela</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -12654,6 +12812,134 @@
       <buff1__id>510104</buff1__id>
       <buff1__rate>1</buff1__rate>
       <buff1__values>curmp_value=maindamage*((random()*(1.05-0.95))+0.95)</buff1__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200340</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200340</id>
+      <name>物攻</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508050</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200350</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200350</id>
+      <name>法攻</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508051</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200360</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200360</id>
+      <name>物防</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508052</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200370</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200370</id>
+      <name>法防</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508053</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200380</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200380</id>
+      <name>破攻</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508054</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200390</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200390</id>
+      <name>破法</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508055</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200400</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200400</id>
+      <name>破甲</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508056</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4200410</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4200410</id>
+      <name>破抗</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>4</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508057</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>-1</buff0__round>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -20202,7 +20488,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>6</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <minmagicdamage>3*skilllevela</minmagicdamage>
@@ -20530,7 +20816,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>6</targetNum>
       <sortArg>hpmin</sortArg>
       <targetRate>1</targetRate>
       <minmagicdamage>3*skilllevela</minmagicdamage>
@@ -20770,7 +21056,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>6</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <minmagicdamage>3*skilllevela</minmagicdamage>
@@ -20997,7 +21283,7 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>6</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <minmagicdamage>3*skilllevela</minmagicdamage>
@@ -24860,7 +25146,7 @@
       <id>7910020</id>
       <name>一苇渡江</name>
       <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
+      <aimCampType>1</aimCampType>
       <targetType>1</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -25133,7 +25419,7 @@
       <id>7920020</id>
       <name>一苇渡江</name>
       <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
+      <aimCampType>1</aimCampType>
       <targetType>1</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -25394,7 +25680,7 @@
       <id>7930020</id>
       <name>一苇渡江</name>
       <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
+      <aimCampType>1</aimCampType>
       <targetType>1</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -25882,7 +26168,7 @@
       <id>7950020</id>
       <name>一苇渡江</name>
       <relevanceSkillID>0</relevanceSkillID>
-      <aimCampType>2</aimCampType>
+      <aimCampType>1</aimCampType>
       <targetType>1</targetType>
       <targetNum>1</targetNum>
       <targetRate>1</targetRate>
@@ -26422,7 +26708,7 @@
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
       <targetType>5</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>2</targetNum>
       <sortArg>speed</sortArg>
       <targetRate>1</targetRate>
       <minmagicdamage>3*gradea</minmagicdamage>
@@ -26532,13 +26818,13 @@
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
-      <targetNum>1</targetNum>
-      <targetRate>1</targetRate>
+      <targetNum>2</targetNum>
+      <targetRate>2</targetRate>
       <minmagicdamage>3*gradea</minmagicdamage>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510119</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -26550,14 +26836,14 @@
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
       <targetType>5</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>3</targetNum>
       <sortArg>speed</sortArg>
-      <targetRate>1</targetRate>
+      <targetRate>3</targetRate>
       <minmagicdamage>3*gradea</minmagicdamage>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510119</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -26570,14 +26856,14 @@
       <actionCondition>4</actionCondition>
       <aimCampType>2</aimCampType>
       <targetType>5</targetType>
-      <targetNum>1</targetNum>
+      <targetNum>3</targetNum>
       <sortArg>speed</sortArg>
-      <targetRate>1</targetRate>
+      <targetRate>3</targetRate>
       <minmagicdamage>3*gradea</minmagicdamage>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510119</buff0__id>
       <buff0__rate>1</buff0__rate>
-      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
@@ -26915,7 +27201,7 @@
     <int>8200042</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>8200042</id>
-      <name>观照万象1</name>
+      <name>四象归一1</name>
       <relevanceSkillID>0</relevanceSkillID>
       <aimCampType>2</aimCampType>
       <targetType>1</targetType>
@@ -26932,7 +27218,7 @@
     <int>8200043</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>8200043</id>
-      <name>观照万象2</name>
+      <name>四象归一2</name>
       <relevanceSkillID>8200042</relevanceSkillID>
       <actionCondition>3,4</actionCondition>
       <aimCampType>2</aimCampType>
@@ -26950,13 +27236,13 @@
     <int>8200044</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>8200044</id>
-      <name>观照万象3</name>
+      <name>四象归一3</name>
       <relevanceSkillID>8200043</relevanceSkillID>
       <actionCondition>3,4</actionCondition>
       <aimCampType>2</aimCampType>
       <targetType>3</targetType>
       <targetNum>3</targetNum>
-      <targetRate>1</targetRate>
+      <targetRate>0.8</targetRate>
       <minmagicdamage>3*gradea</minmagicdamage>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
@@ -26968,13 +27254,13 @@
     <int>8200045</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>8200045</id>
-      <name>观照万象4</name>
+      <name>四象归一4</name>
       <relevanceSkillID>8200044</relevanceSkillID>
       <actionCondition>3,4</actionCondition>
       <aimCampType>2</aimCampType>
       <targetType>3</targetType>
       <targetNum>3</targetNum>
-      <targetRate>1</targetRate>
+      <targetRate>0.4</targetRate>
       <minmagicdamage>3*gradea</minmagicdamage>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
@@ -26986,13 +27272,13 @@
     <int>8200046</int>
     <fire.pb.skill.SSubSkillConfig>
       <id>8200046</id>
-      <name>观照万象5</name>
+      <name>四象归一5</name>
       <relevanceSkillID>8200045</relevanceSkillID>
       <actionCondition>3,4</actionCondition>
       <aimCampType>2</aimCampType>
       <targetType>3</targetType>
       <targetNum>3</targetNum>
-      <targetRate>1</targetRate>
+      <targetRate>0.3</targetRate>
       <minmagicdamage>3*gradea</minmagicdamage>
       <mainbuffId>0</mainbuffId>
       <buff0__id>510114</buff0__id>
@@ -28365,9 +28651,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210021</int>
+    <int>207125</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210021</id>
+      <id>207125</id>
       <name>圣洁</name>
       <requiredBuffs>509067</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28377,9 +28663,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210041</int>
+    <int>207126</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210041</id>
+      <id>207126</id>
       <name>坚甲</name>
       <requiredBuffs>509053</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28389,9 +28675,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210027</int>
+    <int>207127</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210027</id>
+      <id>207127</id>
       <name>愤恨</name>
       <requiredBuffs>509060</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28401,9 +28687,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210044</int>
+    <int>207128</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210044</id>
+      <id>207128</id>
       <name>慧心</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28412,9 +28698,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210025</int>
+    <int>207129</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210025</id>
+      <id>207129</id>
       <name>擅咒</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28423,9 +28709,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210046</int>
+    <int>207130</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210046</id>
+      <id>207130</id>
       <name>无畏</name>
       <requiredBuffs>509053</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28435,9 +28721,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210047</int>
+    <int>207131</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210047</id>
+      <id>207131</id>
       <name>淬毒</name>
       <requiredBuffs>509035</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28447,9 +28733,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210030</int>
+    <int>207132</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210030</id>
+      <id>207132</id>
       <name>深思</name>
       <requiredBuffs>509048</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28460,9 +28746,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210048</int>
+    <int>207133</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210048</id>
+      <id>207133</id>
       <name>灵光</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28471,9 +28757,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210026</int>
+    <int>207134</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210026</id>
+      <id>207134</id>
       <name>灵身</name>
       <requiredBuffs>509043</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28483,9 +28769,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210016</int>
+    <int>207135</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210016</id>
+      <id>207135</id>
       <name>狂怒</name>
       <requiredBuffs>509038</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28495,9 +28781,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210029</int>
+    <int>207136</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210029</id>
+      <id>207136</id>
       <name>狙刺</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28506,9 +28792,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210015</int>
+    <int>207137</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210015</id>
+      <id>207137</id>
       <name>矫健</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28518,9 +28804,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210014</int>
+    <int>207138</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210014</id>
+      <id>207138</id>
       <name>连环</name>
       <requiredBuffs>509039</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28530,9 +28816,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210035</int>
+    <int>207139</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210035</id>
+      <id>207139</id>
       <name>钢化</name>
       <requiredBuffs>509058</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28542,9 +28828,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210028</int>
+    <int>207140</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210028</id>
+      <id>207140</id>
       <name>静岳</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28554,9 +28840,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210023</int>
+    <int>207141</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210023</id>
+      <id>207141</id>
       <name>阴伤</name>
       <requiredBuffs>509039</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28566,9 +28852,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210024</int>
+    <int>207142</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210024</id>
+      <id>207142</id>
       <name>迅敏</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28578,9 +28864,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210045</int>
+    <int>207143</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210045</id>
+      <id>207143</id>
       <name>撞击</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28589,9 +28875,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210020</int>
+    <int>207144</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210020</id>
+      <id>207144</id>
       <name>催心浪</name>
       <requiredBuffs>509045</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28601,9 +28887,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210039</int>
+    <int>207145</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210039</id>
+      <id>207145</id>
       <name>凛冽气</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28612,9 +28898,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210019</int>
+    <int>207146</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210019</id>
+      <id>207146</id>
       <name>双星爆</name>
       <requiredBuffs>509044</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28624,9 +28910,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210032</int>
+    <int>207147</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210032</id>
+      <id>207147</id>
       <name>玄武躯</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28635,9 +28921,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210036</int>
+    <int>207148</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210036</id>
+      <id>207148</id>
       <name>玉砥柱</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28646,9 +28932,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210013</int>
+    <int>207149</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210013</id>
+      <id>207149</id>
       <name>生死决</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28657,9 +28943,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210022</int>
+    <int>207150</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210022</id>
+      <id>207150</id>
       <name>电魂闪</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28668,9 +28954,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210017</int>
+    <int>207151</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210017</id>
+      <id>207151</id>
       <name>碎甲刃</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28680,9 +28966,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210031</int>
+    <int>207152</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210031</id>
+      <id>207152</id>
       <name>神机步</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28692,9 +28978,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210033</int>
+    <int>207153</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210033</id>
+      <id>207153</id>
       <name>腾挪劲</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28703,9 +28989,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210049</int>
+    <int>207154</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210049</id>
+      <id>207154</id>
       <name>舍身击</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28714,9 +29000,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210038</int>
+    <int>207155</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210038</id>
+      <id>207155</id>
       <name>血债偿</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28726,9 +29012,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210018</int>
+    <int>207156</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210018</id>
+      <id>207156</id>
       <name>通灵法</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28737,9 +29023,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210040</int>
+    <int>207157</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210040</id>
+      <id>207157</id>
       <name>阴阳护</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
@@ -28748,9 +29034,9 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210043</int>
+    <int>207158</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210043</id>
+      <id>207158</id>
       <name>隐匿击</name>
       <requiredBuffs>509068</requiredBuffs>
       <relevanceSkillID>0</relevanceSkillID>
@@ -28760,14 +29046,1592 @@
     </fire.pb.skill.SSubSkillConfig>
   </entry>
   <entry>
-    <int>8210034</int>
+    <int>207159</int>
     <fire.pb.skill.SSubSkillConfig>
-      <id>8210034</id>
+      <id>207159</id>
       <name>龙胄铠</name>
       <relevanceSkillID>0</relevanceSkillID>
       <targetRate>1</targetRate>
       <mainbuffId>0</mainbuffId>
       <buff0__id>509060</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700000</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700000</id>
+      <name>召唤大唐孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24006</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700001</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700001</id>
+      <name>召唤化生孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24007</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700002</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700002</id>
+      <name>召唤魔王孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24008</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700003</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700003</id>
+      <name>召唤龙宫孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24009</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700004</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700004</id>
+      <name>召唤普陀孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24010</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700005</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700005</id>
+      <name>召唤方寸孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24011</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700006</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700006</id>
+      <name>召唤月宫孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24012</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700007</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700007</id>
+      <name>召唤地府孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24013</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700008</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700008</id>
+      <name>召唤凌波孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24014</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700009</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700009</id>
+      <name>召唤五庄孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24015</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700010</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700010</id>
+      <name>召唤盘丝孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24016</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700011</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700011</id>
+      <name>召唤女儿孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24017</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700012</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700012</id>
+      <name>召唤无底孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24018</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700013</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700013</id>
+      <name>召唤神木孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24019</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>1700014</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>1700014</id>
+      <name>召唤狮驼孩子</name>
+      <aimCampType>6</aimCampType>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510139</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff0__values>aim_id=24020</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300448</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300448</id>
+      <name>体质+5%</name>
+      <relevanceSkillID>509020</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509285</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300449</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300449</id>
+      <name>智力+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509286</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300450</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300450</id>
+      <name>力量+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509287</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300451</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300451</id>
+      <name>耐力+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509288</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300452</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300452</id>
+      <name>速度+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509289</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300453</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300453</id>
+      <name>体质+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509290</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300454</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300454</id>
+      <name>智力+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509291</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300455</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300455</id>
+      <name>力量+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509292</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300456</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300456</id>
+      <name>耐力+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509293</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300457</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300457</id>
+      <name>速度+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509294</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300458</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300458</id>
+      <name>体质+20%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509295</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300459</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300459</id>
+      <name>智力+20%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509296</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300460</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300460</id>
+      <name>力量+20%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509297</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300461</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300461</id>
+      <name>耐力+20%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509298</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300462</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300462</id>
+      <name>速度+20%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509299</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300463</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300463</id>
+      <name>物理攻击+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509301</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300464</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300464</id>
+      <name>物理攻击+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509302</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300465</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300465</id>
+      <name>物理攻击+20%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509303</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300466</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300466</id>
+      <name>法术攻击+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509304</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300467</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300467</id>
+      <name>法术攻击+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509305</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300468</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300468</id>
+      <name>法术攻击+20%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509306</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300469</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300469</id>
+      <name>控制命中+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509307</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300470</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300470</id>
+      <name>控制命中+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509308</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300471</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300471</id>
+      <name>控制命中+15%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509309</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300472</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300472</id>
+      <name>治疗强度+5%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509310</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300473</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300473</id>
+      <name>治疗强度+10%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509311</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>4300474</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>4300474</id>
+      <name>治疗强度+15%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509312</buff0__id>
+      <buff0__rate>1</buff0__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210100</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210100</id>
+      <name>杀戮之气</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>14</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509313</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210101</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210101</id>
+      <name>杀心1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <aimRaceType>2</aimRaceType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509314</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210102</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210102</id>
+      <name>杀心2</name>
+      <relevanceSkillID>8210101</relevanceSkillID>
+      <actionCondition>3,4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+      <buff1__id>509315</buff1__id>
+      <buff1__rate>0.5</buff1__rate>
+      <buff1__round>3</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210103</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210103</id>
+      <name>炎之气息</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>14</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509316</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210104</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210104</id>
+      <name>虚无1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509317</buff1__id>
+      <buff1__rate>0.6</buff1__rate>
+      <buff1__round>3</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210105</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210105</id>
+      <name>虚无2</name>
+      <relevanceSkillID>8210104</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509317</buff1__id>
+      <buff1__rate>0.3</buff1__rate>
+      <buff1__round>3</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210106</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210106</id>
+      <name>虚无3</name>
+      <relevanceSkillID>8210105</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>2</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509317</buff1__id>
+      <buff1__rate>0.3</buff1__rate>
+      <buff1__round>3</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210107</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210107</id>
+      <name>虚无4</name>
+      <relevanceSkillID>8210104</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509318</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210108</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210108</id>
+      <name>虚无5</name>
+      <relevanceSkillID>8210104</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <aimRelationType>4</aimRelationType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509318</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210109</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210109</id>
+      <name>龙之体魄</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>14</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509319</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210110</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210110</id>
+      <name>冰咆哮</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509317</buff1__id>
+      <buff1__rate>0.1</buff1__rate>
+      <buff1__round>2</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210111</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210111</id>
+      <name>冰咆哮</name>
+      <relevanceSkillID>8210110</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509317</buff1__id>
+      <buff1__rate>0.1</buff1__rate>
+      <buff1__round>2</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210112</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210112</id>
+      <name>冰咆哮</name>
+      <relevanceSkillID>8210111</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>2</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509317</buff1__id>
+      <buff1__rate>0.1</buff1__rate>
+      <buff1__round>2</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210113</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210113</id>
+      <name>冰咆哮</name>
+      <relevanceSkillID>8210110</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509320</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210114</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210114</id>
+      <name>冰咆哮</name>
+      <relevanceSkillID>8210110</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <aimRelationType>4</aimRelationType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509320</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210115</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210115</id>
+      <name>吾之守护</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>1</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>14</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509321</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210116</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210116</id>
+      <name>玄武咆哮1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+      <buff1__id>501010</buff1__id>
+      <buff1__rate>0.2</buff1__rate>
+      <buff1__round>3</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210117</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210117</id>
+      <name>玄武咆哮2</name>
+      <relevanceSkillID>8210116</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>3</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509322</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+      <buff0__odds>0.25</buff0__odds>
+      <buff1__id>509323</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>3</buff1__round>
+      <buff1__odds>0.25</buff1__odds>
+      <buff2__id>509324</buff2__id>
+      <buff2__rate>1</buff2__rate>
+      <buff2__round>3</buff2__round>
+      <buff2__odds>0.25</buff2__odds>
+      <buff3__id>509325</buff3__id>
+      <buff3__rate>1</buff3__rate>
+      <buff3__round>3</buff3__round>
+      <buff3__odds>0.25</buff3__odds>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210118</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210118</id>
+      <name>玄武咆哮3</name>
+      <relevanceSkillID>8210116</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>1</aimCampType>
+      <aimRelationType>4</aimRelationType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509322</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>3</buff0__round>
+      <buff0__odds>0.25</buff0__odds>
+      <buff1__id>509323</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__round>3</buff1__round>
+      <buff1__odds>0.25</buff1__odds>
+      <buff2__id>509324</buff2__id>
+      <buff2__rate>1</buff2__rate>
+      <buff2__round>3</buff2__round>
+      <buff2__odds>0.25</buff2__odds>
+      <buff3__id>509325</buff3__id>
+      <buff3__rate>1</buff3__rate>
+      <buff3__round>3</buff3__round>
+      <buff3__odds>0.25</buff3__odds>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210119</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210119</id>
+      <name>为官之道-临兵</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509057</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>maxhp_percent=0.9</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210120</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210120</id>
+      <name>物理攻击时，吸收对方所掉生命的22%。</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509012</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210121</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210121</id>
+      <name>对敌方单人使用，一定回合内降低目标速度</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508012</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210122</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210122</id>
+      <name>佩戴者受到物理攻击时，有几率降低部分伤害</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509100</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210123</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210123</id>
+      <name>战斗中提升佩戴者的治疗强度</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509091</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210124</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210124</id>
+      <name>战斗中提升佩戴者的物理伤害</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>506203</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210125</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210125</id>
+      <name>佩戴后提高自身的速度</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509019</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210126</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210126</id>
+      <name>祭起后让己方人物一定回合内增加愤怒</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>508040</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210127</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210127</id>
+      <name>佩戴后战斗中进入隐身效果</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509068</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210128</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210128</id>
+      <name>佩戴使用法术有几率出现暴击效果</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509043</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210129</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210129</id>
+      <name>佩戴有几率给对方造成暴击效果</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509038</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210130</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210130</id>
+      <name>佩戴使用法术有几率出现法术连击效果</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509044</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210131</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210131</id>
+      <name>战斗中永久增加角色技能等级*8的控制命中率增加</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509099</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210132</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210132</id>
+      <name>战斗中生命上限增加15%</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509092</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>8210133</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>8210133</id>
+      <name>佩戴后战斗中死亡有几率复活</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509051</buff0__id>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071720</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071720</id>
+      <name>观照万象1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509075</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071721</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071721</id>
+      <name>观照万象2</name>
+      <relevanceSkillID>2071720</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509075</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071722</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071722</id>
+      <name>观照万象3</name>
+      <confilictStates>gradea&gt;=60</confilictStates>
+      <relevanceSkillID>2071721</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509075</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071723</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071723</id>
+      <name>观照万象4</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510118</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509076</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071724</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071724</id>
+      <name>观照万象5</name>
+      <relevanceSkillID>2071723</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510118</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509076</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071725</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071725</id>
+      <name>观照万象6</name>
+      <confilictStates>gradea&gt;=60</confilictStates>
+      <relevanceSkillID>2071724</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510118</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509076</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071726</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071726</id>
+      <name>观照万象7</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510119</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509077</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071727</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071727</id>
+      <name>观照万象8</name>
+      <relevanceSkillID>2071726</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510119</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509077</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071728</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071728</id>
+      <name>观照万象9</name>
+      <confilictStates>gradea&gt;=60</confilictStates>
+      <relevanceSkillID>2071727</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510119</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>509077</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071729</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071729</id>
+      <name>观照万象10</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510120</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>510133</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071730</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071730</id>
+      <name>观照万象11</name>
+      <relevanceSkillID>2071729</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510120</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>510133</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2071731</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2071731</id>
+      <name>观照万象12</name>
+      <confilictStates>gradea&gt;=60</confilictStates>
+      <relevanceSkillID>2071730</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>5</targetType>
+      <targetNum>1</targetNum>
+      <sortArg>speed</sortArg>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510120</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*1.5-magicdefb+2*gradea)*(0.5+0.05*(2-preaimcount))</buff0__values>
+      <buff1__id>510133</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081700</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081700</id>
+      <name>破竹1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+      <buff1__id>502010</buff1__id>
+      <buff1__rate>0.3</buff1__rate>
+      <buff1__round>3</buff1__round>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081701</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081701</id>
+      <name>破竹2</name>
+      <relevanceSkillID>2081700</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081702</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081702</id>
+      <name>破竹3</name>
+      <relevanceSkillID>2081701</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081703</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081703</id>
+      <name>破竹4</name>
+      <relevanceSkillID>2081702</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081704</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081704</id>
+      <name>破竹5</name>
+      <relevanceSkillID>2081703</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081705</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081705</id>
+      <name>破竹6</name>
+      <relevanceSkillID>2081704</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510113</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(phyattacka*1.6-defendb+1*skilllevela)</buff0__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081706</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081706</id>
+      <name>破竹7</name>
+      <relevanceSkillID>2081705</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509300</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff1__id>510113</buff1__id>
+      <buff1__rate>0.7</buff1__rate>
+      <buff1__values>curhp_value=-(phyattacka*0.95-defendb+1*skilllevela)</buff1__values>
+      <buff2__id>510101</buff2__id>
+      <buff2__rate>-2</buff2__rate>
+      <buff2__values>curhp_value=max((magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9)),3*skilllevela)</buff2__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2081707</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2081707</id>
+      <name>破竹8</name>
+      <relevanceSkillID>2081706</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>1</targetNum>
+      <targetRate>1</targetRate>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>509300</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__round>1</buff0__round>
+      <buff1__id>510113</buff1__id>
+      <buff1__rate>0.7</buff1__rate>
+      <buff1__values>curhp_value=-(phyattacka*0.95-defendb+1*skilllevela)</buff1__values>
+      <buff2__id>510101</buff2__id>
+      <buff2__rate>-2</buff2__rate>
+      <buff2__values>curhp_value=max((magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9)),3*skilllevela)</buff2__values>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2091700</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2091700</id>
+      <name>四象归一1</name>
+      <relevanceSkillID>0</relevanceSkillID>
+      <aimCampType>2</aimCampType>
+      <targetType>1</targetType>
+      <targetNum>3</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510117</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
+      <buff1__id>509075</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2091701</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2091701</id>
+      <name>四象归一2</name>
+      <relevanceSkillID>2091700</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>3</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510118</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
+      <buff1__id>509076</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2091702</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2091702</id>
+      <name>四象归一3</name>
+      <relevanceSkillID>2091701</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>3</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510119</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
+      <buff1__id>509077</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2091703</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2091703</id>
+      <name>四象归一4</name>
+      <relevanceSkillID>2091702</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>3</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510120</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
+      <buff1__id>510133</buff1__id>
+      <buff1__rate>0.05</buff1__rate>
+    </fire.pb.skill.SSubSkillConfig>
+  </entry>
+  <entry>
+    <int>2091704</int>
+    <fire.pb.skill.SSubSkillConfig>
+      <id>2091704</id>
+      <name>四象归一5</name>
+      <relevanceSkillID>2091703</relevanceSkillID>
+      <actionCondition>4</actionCondition>
+      <aimCampType>2</aimCampType>
+      <targetType>4</targetType>
+      <targetNum>3</targetNum>
+      <targetRate>1</targetRate>
+      <minmagicdamage>3*gradea</minmagicdamage>
+      <mainbuffId>0</mainbuffId>
+      <buff0__id>510114</buff0__id>
+      <buff0__rate>1</buff0__rate>
+      <buff0__values>curhp_value=-(magicattacka*2.5-magicdefb+2*skilllevela)*0.5*(havebuffa(506109)?((random()*(1.20-1.1))+1.1):((random()*(1.20-0.9))+0.9))*(1+(0.4+0.1*skilllevela)*(1-curhpa/maxhpa))</buff0__values>
+      <buff1__id>510104</buff1__id>
+      <buff1__rate>1</buff1__rate>
+      <buff1__values>curmp_value=-(magicattacka*1.5-magicdefb+2*skilllevela)*0.1</buff1__values>
     </fire.pb.skill.SSubSkillConfig>
   </entry>
 </tree-map>

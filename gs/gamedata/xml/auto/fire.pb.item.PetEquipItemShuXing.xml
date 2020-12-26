@@ -74,7 +74,7 @@
       <skillid>0</skillid>
       <effectid>0</effectid>
       <specialAttr>0</specialAttr>
-      <baseAttrId>4001120</baseAttrId>
+      <baseAttrId>9140102</baseAttrId>
       <addAttrRate>0</addAttrRate>
       <是否自动分解>0</是否自动分解>
       <分解获得银币>1000</分解获得银币>
@@ -158,7 +158,7 @@
       <skillid>0</skillid>
       <effectid>0</effectid>
       <specialAttr>0</specialAttr>
-      <baseAttrId>4001220</baseAttrId>
+      <baseAttrId>9140103</baseAttrId>
       <addAttrRate>0</addAttrRate>
       <是否自动分解>0</是否自动分解>
       <分解获得银币>1000</分解获得银币>
@@ -240,7 +240,7 @@
       <skillid>0</skillid>
       <effectid>0</effectid>
       <specialAttr>0</specialAttr>
-      <baseAttrId>4001320</baseAttrId>
+      <baseAttrId>9140104</baseAttrId>
       <addAttrRate>0</addAttrRate>
       <是否自动分解>0</是否自动分解>
       <分解获得银币>1000</分解获得银币>
@@ -322,7 +322,7 @@
       <skillid>0</skillid>
       <effectid>0</effectid>
       <specialAttr>0</specialAttr>
-      <baseAttrId>4001420</baseAttrId>
+      <baseAttrId>9140105</baseAttrId>
       <addAttrRate>0</addAttrRate>
       <是否自动分解>0</是否自动分解>
       <分解获得银币>1000</分解获得银币>

@@ -746,42 +746,10 @@
     </fire.pb.item.SItemToPet>
   </entry>
   <entry>
-    <int>333093</int>
-    <fire.pb.item.SItemToPet>
-      <id>333093</id>
-      <petId>530001</petId>
-      <bagType>1</bagType>
-    </fire.pb.item.SItemToPet>
-  </entry>
-  <entry>
-    <int>333094</int>
-    <fire.pb.item.SItemToPet>
-      <id>333094</id>
-      <petId>530005</petId>
-      <bagType>1</bagType>
-    </fire.pb.item.SItemToPet>
-  </entry>
-  <entry>
-    <int>333095</int>
-    <fire.pb.item.SItemToPet>
-      <id>333095</id>
-      <petId>530009</petId>
-      <bagType>1</bagType>
-    </fire.pb.item.SItemToPet>
-  </entry>
-  <entry>
-    <int>333096</int>
-    <fire.pb.item.SItemToPet>
-      <id>333096</id>
-      <petId>530013</petId>
-      <bagType>1</bagType>
-    </fire.pb.item.SItemToPet>
-  </entry>
-  <entry>
     <int>333097</int>
     <fire.pb.item.SItemToPet>
       <id>333097</id>
-      <petId>530017</petId>
+      <petId>999999</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -789,7 +757,7 @@
     <int>333098</int>
     <fire.pb.item.SItemToPet>
       <id>333098</id>
-      <petId>530021</petId>
+      <petId>999998</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -797,7 +765,7 @@
     <int>333099</int>
     <fire.pb.item.SItemToPet>
       <id>333099</id>
-      <petId>530025</petId>
+      <petId>999997</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -805,7 +773,7 @@
     <int>333100</int>
     <fire.pb.item.SItemToPet>
       <id>333100</id>
-      <petId>530029</petId>
+      <petId>999996</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -813,7 +781,7 @@
     <int>333101</int>
     <fire.pb.item.SItemToPet>
       <id>333101</id>
-      <petId>530033</petId>
+      <petId>999995</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -821,7 +789,7 @@
     <int>333102</int>
     <fire.pb.item.SItemToPet>
       <id>333102</id>
-      <petId>530037</petId>
+      <petId>999994</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -829,7 +797,7 @@
     <int>333103</int>
     <fire.pb.item.SItemToPet>
       <id>333103</id>
-      <petId>530041</petId>
+      <petId>999980</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -837,7 +805,7 @@
     <int>333104</int>
     <fire.pb.item.SItemToPet>
       <id>333104</id>
-      <petId>540012</petId>
+      <petId>999981</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -845,7 +813,7 @@
     <int>333105</int>
     <fire.pb.item.SItemToPet>
       <id>333105</id>
-      <petId>540013</petId>
+      <petId>999982</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>
@@ -1566,6 +1534,126 @@
     <fire.pb.item.SItemToPet>
       <id>340451</id>
       <petId>530166</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340636</int>
+    <fire.pb.item.SItemToPet>
+      <id>340636</id>
+      <petId>888888</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340637</int>
+    <fire.pb.item.SItemToPet>
+      <id>340637</id>
+      <petId>888889</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340638</int>
+    <fire.pb.item.SItemToPet>
+      <id>340638</id>
+      <petId>888890</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340639</int>
+    <fire.pb.item.SItemToPet>
+      <id>340639</id>
+      <petId>888891</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340640</int>
+    <fire.pb.item.SItemToPet>
+      <id>340640</id>
+      <petId>888892</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340641</int>
+    <fire.pb.item.SItemToPet>
+      <id>340641</id>
+      <petId>888894</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340642</int>
+    <fire.pb.item.SItemToPet>
+      <id>340642</id>
+      <petId>888895</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340643</int>
+    <fire.pb.item.SItemToPet>
+      <id>340643</id>
+      <petId>888896</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340644</int>
+    <fire.pb.item.SItemToPet>
+      <id>340644</id>
+      <petId>888897</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340645</int>
+    <fire.pb.item.SItemToPet>
+      <id>340645</id>
+      <petId>888899</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340646</int>
+    <fire.pb.item.SItemToPet>
+      <id>340646</id>
+      <petId>888900</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340647</int>
+    <fire.pb.item.SItemToPet>
+      <id>340647</id>
+      <petId>888901</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340648</int>
+    <fire.pb.item.SItemToPet>
+      <id>340648</id>
+      <petId>888902</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340649</int>
+    <fire.pb.item.SItemToPet>
+      <id>340649</id>
+      <petId>888893</petId>
+      <bagType>1</bagType>
+    </fire.pb.item.SItemToPet>
+  </entry>
+  <entry>
+    <int>340650</int>
+    <fire.pb.item.SItemToPet>
+      <id>340650</id>
+      <petId>888898</petId>
       <bagType>1</bagType>
     </fire.pb.item.SItemToPet>
   </entry>

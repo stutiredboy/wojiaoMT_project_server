@@ -89,7 +89,7 @@
     <int>826</int>
     <fire.pb.item.ItemNameClassConfig>
       <id>826</id>
-      <classname>fire.pb.item.petequip.HelmetItem</classname>
+      <classname>fire.pb.item.petequip.HammerItem</classname>
     </fire.pb.item.ItemNameClassConfig>
   </entry>
   <entry>

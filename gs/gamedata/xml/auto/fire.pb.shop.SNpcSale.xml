@@ -400,6 +400,10 @@
         <int>3151</int>
         <int>3152</int>
         <int>3153</int>
+        <int>3154</int>
+        <int>3155</int>
+        <int>3156</int>
+        <int>3157</int>
       </goodsids>
     </fire.pb.shop.SNpcSale>
   </entry>
@@ -884,6 +888,27 @@
         <int>8149</int>
         <int>8149</int>
         <int>8150</int>
+      </goodsids>
+    </fire.pb.shop.SNpcSale>
+  </entry>
+  <entry>
+    <int>19</int>
+    <fire.pb.shop.SNpcSale>
+      <id>19</id>
+      <floating>0</floating>
+      <floatingtime>0</floatingtime>
+      <goodsids>
+        <int>8800</int>
+        <int>8801</int>
+        <int>8802</int>
+        <int>8803</int>
+        <int>8804</int>
+        <int>8805</int>
+        <int>8806</int>
+        <int>8807</int>
+        <int>8808</int>
+        <int>8809</int>
+        <int>8810</int>
       </goodsids>
     </fire.pb.shop.SNpcSale>
   </entry>

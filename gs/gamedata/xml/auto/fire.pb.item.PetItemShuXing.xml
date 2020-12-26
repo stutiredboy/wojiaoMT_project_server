@@ -10,7 +10,7 @@
       <typeid>209</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -30,7 +30,7 @@
       <nquality>2</nquality>
       <dcansale>0</dcansale>
       <skillid>0</skillid>
-      <addExp>50000</addExp>
+      <addExp>500000</addExp>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -42,7 +42,7 @@
       <typeid>209</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -62,7 +62,7 @@
       <nquality>3</nquality>
       <dcansale>0</dcansale>
       <skillid>0</skillid>
-      <addExp>500000</addExp>
+      <addExp>5000000</addExp>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -74,7 +74,7 @@
       <typeid>177</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -105,7 +105,7 @@
       <typeid>193</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -137,7 +137,7 @@
       <typeid>33</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -168,7 +168,7 @@
       <typeid>33</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -199,7 +199,7 @@
       <typeid>225</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -231,7 +231,7 @@
       <typeid>241</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -266,7 +266,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -299,7 +299,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -332,7 +332,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -365,7 +365,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -398,7 +398,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -431,7 +431,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -464,7 +464,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -497,7 +497,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -530,7 +530,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -563,7 +563,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -596,7 +596,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -629,7 +629,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -662,7 +662,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -695,7 +695,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -728,7 +728,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -761,7 +761,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -794,7 +794,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -827,7 +827,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -860,7 +860,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -893,7 +893,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -926,7 +926,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -959,7 +959,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -992,7 +992,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1025,7 +1025,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1058,7 +1058,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1091,7 +1091,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1124,7 +1124,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1157,7 +1157,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1190,7 +1190,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1223,7 +1223,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1256,7 +1256,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1289,7 +1289,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1322,7 +1322,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1355,7 +1355,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1388,7 +1388,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1421,7 +1421,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1454,7 +1454,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1487,7 +1487,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1521,7 +1521,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1555,7 +1555,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1589,7 +1589,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1623,7 +1623,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1657,7 +1657,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1691,7 +1691,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1725,7 +1725,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1759,7 +1759,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1793,7 +1793,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1827,7 +1827,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1861,7 +1861,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1895,7 +1895,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1929,7 +1929,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1963,7 +1963,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -1997,7 +1997,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2031,7 +2031,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2065,7 +2065,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2099,7 +2099,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2133,7 +2133,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2167,7 +2167,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2201,7 +2201,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2235,7 +2235,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2269,7 +2269,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2303,7 +2303,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2337,7 +2337,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2371,7 +2371,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2405,7 +2405,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2439,7 +2439,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2473,7 +2473,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2507,7 +2507,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2541,7 +2541,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2575,7 +2575,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2609,7 +2609,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2643,7 +2643,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2677,7 +2677,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2711,7 +2711,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2745,7 +2745,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2778,7 +2778,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2811,7 +2811,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2844,7 +2844,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2877,7 +2877,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2911,7 +2911,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2945,7 +2945,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -2979,7 +2979,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3013,7 +3013,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3047,7 +3047,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3081,7 +3081,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3115,7 +3115,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3144,12 +3144,12 @@
     <int>311087</int>
     <fire.pb.item.PetItemShuXing>
       <id>311087</id>
-      <name>力劈华山</name>
+      <name>无极破</name>
       <unit>本</unit>
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3183,7 +3183,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3217,7 +3217,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3251,7 +3251,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3280,12 +3280,12 @@
     <int>311091</int>
     <fire.pb.item.PetItemShuXing>
       <id>311091</id>
-      <name>洞察</name>
+      <name>善恶有报废弃</name>
       <unit>本</unit>
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3314,12 +3314,12 @@
     <int>311092</int>
     <fire.pb.item.PetItemShuXing>
       <id>311092</id>
-      <name>醉拳</name>
+      <name>洞察</name>
       <unit>本</unit>
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3353,7 +3353,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3387,7 +3387,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3421,7 +3421,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3455,7 +3455,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3489,7 +3489,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3523,7 +3523,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3557,7 +3557,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3588,7 +3588,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3619,7 +3619,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3650,7 +3650,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3681,7 +3681,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3712,7 +3712,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3743,7 +3743,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3774,7 +3774,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3805,7 +3805,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3836,7 +3836,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3867,7 +3867,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3898,7 +3898,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3929,7 +3929,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3960,7 +3960,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -3991,7 +3991,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4022,7 +4022,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4053,7 +4053,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4084,7 +4084,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4115,7 +4115,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4146,7 +4146,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4177,7 +4177,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4208,7 +4208,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4239,7 +4239,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4270,7 +4270,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4301,7 +4301,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4332,7 +4332,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4363,7 +4363,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4394,7 +4394,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4425,7 +4425,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4456,7 +4456,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4487,7 +4487,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4518,7 +4518,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4549,7 +4549,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4580,7 +4580,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4611,7 +4611,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4642,7 +4642,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4673,7 +4673,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4704,7 +4704,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4735,7 +4735,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4766,7 +4766,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4797,7 +4797,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4828,7 +4828,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4859,7 +4859,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4890,7 +4890,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4921,7 +4921,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4952,7 +4952,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -4983,7 +4983,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5014,7 +5014,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5040,12 +5040,12 @@
     <int>311147</int>
     <fire.pb.item.PetItemShuXing>
       <id>311147</id>
-      <name>观照万象</name>
+      <name>四象归一</name>
       <unit>本</unit>
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5076,7 +5076,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5102,12 +5102,12 @@
     <int>311149</int>
     <fire.pb.item.PetItemShuXing>
       <id>311149</id>
-      <name>八凶法阵</name>
+      <name>八方玄火</name>
       <unit>本</unit>
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5138,7 +5138,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5169,7 +5169,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5200,7 +5200,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5231,7 +5231,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5262,7 +5262,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5293,7 +5293,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5324,7 +5324,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5355,7 +5355,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5386,7 +5386,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5417,7 +5417,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5448,7 +5448,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5479,7 +5479,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5510,7 +5510,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5541,7 +5541,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5572,7 +5572,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5603,7 +5603,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5629,12 +5629,12 @@
     <int>311166</int>
     <fire.pb.item.PetItemShuXing>
       <id>311166</id>
-      <name>灵心佑主</name>
+      <name>月宫仙音</name>
       <unit>本</unit>
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5665,7 +5665,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5696,7 +5696,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5727,7 +5727,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5758,7 +5758,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5789,7 +5789,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5820,7 +5820,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5851,7 +5851,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5882,7 +5882,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5913,7 +5913,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5944,7 +5944,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -5975,7 +5975,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6006,7 +6006,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6037,7 +6037,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6068,7 +6068,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6099,7 +6099,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6130,7 +6130,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6161,7 +6161,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6192,7 +6192,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6223,7 +6223,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6254,7 +6254,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6285,7 +6285,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6316,7 +6316,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6347,7 +6347,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6378,7 +6378,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6412,7 +6412,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6446,7 +6446,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6480,7 +6480,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6514,7 +6514,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6548,7 +6548,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6582,7 +6582,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6616,7 +6616,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6650,7 +6650,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6684,7 +6684,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6718,7 +6718,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6752,7 +6752,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6786,7 +6786,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6820,7 +6820,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6854,7 +6854,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6888,7 +6888,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6922,7 +6922,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6956,7 +6956,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -6990,7 +6990,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7024,7 +7024,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7058,7 +7058,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7092,7 +7092,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7126,7 +7126,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7160,7 +7160,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7194,7 +7194,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7228,7 +7228,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7262,7 +7262,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7296,7 +7296,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7330,7 +7330,7 @@
       <typeid>49</typeid>
       <level>0</level>
       <pickupbind>false</pickupbind>
-      <maxstack>999</maxstack>
+      <maxstack>9999</maxstack>
       <maxown>0</maxown>
       <inbattle>0</inbattle>
       <outbattle>2</outbattle>
@@ -7385,7 +7385,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207198</skillid>
+      <skillid>207125</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7418,7 +7418,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207218</skillid>
+      <skillid>207126</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7451,7 +7451,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207204</skillid>
+      <skillid>207127</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7484,7 +7484,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207221</skillid>
+      <skillid>207128</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7517,7 +7517,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207202</skillid>
+      <skillid>207129</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7550,7 +7550,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207223</skillid>
+      <skillid>207130</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7583,7 +7583,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207224</skillid>
+      <skillid>207131</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7616,7 +7616,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207207</skillid>
+      <skillid>207132</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7649,7 +7649,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207225</skillid>
+      <skillid>207133</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7682,7 +7682,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207203</skillid>
+      <skillid>207134</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7715,7 +7715,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207193</skillid>
+      <skillid>207135</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7748,7 +7748,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207206</skillid>
+      <skillid>207136</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7781,7 +7781,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207192</skillid>
+      <skillid>207137</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7814,7 +7814,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207191</skillid>
+      <skillid>207138</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7847,7 +7847,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207212</skillid>
+      <skillid>207139</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7880,7 +7880,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207205</skillid>
+      <skillid>207140</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7913,7 +7913,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207200</skillid>
+      <skillid>207141</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7946,7 +7946,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207201</skillid>
+      <skillid>207142</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -7979,7 +7979,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207222</skillid>
+      <skillid>207143</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8012,7 +8012,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207197</skillid>
+      <skillid>207144</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8045,7 +8045,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207216</skillid>
+      <skillid>207145</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8078,7 +8078,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207196</skillid>
+      <skillid>207146</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8111,7 +8111,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207209</skillid>
+      <skillid>207147</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8144,7 +8144,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207213</skillid>
+      <skillid>207148</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8177,7 +8177,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207190</skillid>
+      <skillid>207149</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8210,7 +8210,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207219</skillid>
+      <skillid>207150</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8243,7 +8243,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207194</skillid>
+      <skillid>207151</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8276,7 +8276,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207208</skillid>
+      <skillid>207152</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8309,7 +8309,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207210</skillid>
+      <skillid>207153</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8342,7 +8342,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207226</skillid>
+      <skillid>207154</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8375,7 +8375,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207215</skillid>
+      <skillid>207155</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8408,7 +8408,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207214</skillid>
+      <skillid>207156</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8441,7 +8441,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207217</skillid>
+      <skillid>207157</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8474,7 +8474,7 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207220</skillid>
+      <skillid>207158</skillid>
     </fire.pb.item.PetItemShuXing>
   </entry>
   <entry>
@@ -8507,7 +8507,449 @@
       <nquality>3</nquality>
       <rare>1</rare>
       <dcansale>0</dcansale>
-      <skillid>207211</skillid>
+      <skillid>207159</skillid>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311254</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311254</id>
+      <name>杀戮之气</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207160</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311255</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311255</id>
+      <name>白虎撕天爪</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207161</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311256</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311256</id>
+      <name>炎之气息</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207162</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311257</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311257</id>
+      <name>天雀回翅</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207163</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311258</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311258</id>
+      <name>龙之体魄</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207164</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311259</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311259</id>
+      <name>龙卷冰击</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207165</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311260</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311260</id>
+      <name>吾之守护</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207166</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311261</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311261</id>
+      <name>玄武咆哮</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207167</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311262</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311262</id>
+      <name>焚焰</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207168</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311263</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311263</id>
+      <name>聚电</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207169</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311264</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311264</id>
+      <name>筑浪</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207170</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311265</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311265</id>
+      <name>垒岩</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207171</skillid>
+      <treasure>1</treasure>
+    </fire.pb.item.PetItemShuXing>
+  </entry>
+  <entry>
+    <int>311268</int>
+    <fire.pb.item.PetItemShuXing>
+      <id>311268</id>
+      <name>观照万象</name>
+      <unit>本</unit>
+      <typeid>49</typeid>
+      <level>0</level>
+      <pickupbind>false</pickupbind>
+      <maxstack>9999</maxstack>
+      <maxown>0</maxown>
+      <inbattle>0</inbattle>
+      <outbattle>2</outbattle>
+      <inbattleuseto>0</inbattleuseto>
+      <useup>1</useup>
+      <needlevel>1</needlevel>
+      <offlineclear>false</offlineclear>
+      <bindable>false</bindable>
+      <destroy>true</destroy>
+      <validtime>0</validtime>
+      <sortid>4010</sortid>
+      <cansale>1</cansale>
+      <canstore>0</canstore>
+      <recycletime>60</recycletime>
+      <recovercost>1000</recovercost>
+      <salefreezetime>30</salefreezetime>
+      <namecolor>FFff46f0</namecolor>
+      <nquality>4</nquality>
+      <rare>1</rare>
+      <dcansale>1</dcansale>
+      <skillid>207174</skillid>
+      <treasure>1</treasure>
     </fire.pb.item.PetItemShuXing>
   </entry>
 </tree-map>
