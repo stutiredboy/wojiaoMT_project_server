@@ -249,7 +249,7 @@ public class SceneSkillRole
 				}
 				break;
 			case EffectType.PET_ATTACK_APT_ABL:
-				//logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+value);
+				logger.error("RECV PET_ATTACK_APT_ABL--------555---------"+value);
 				epet.addBornattackApt( value );
 				changedAttrs.put(AttrType.PET_ATTACK_APT, (float)epet.getAttackApt() );
 				break;
@@ -276,7 +276,7 @@ public class SceneSkillRole
 			}
 		}
 		changedAttrs.putAll(epet.updateAllFinalAttrs());
-		logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+ changedAttrs);
+		logger.error("RECV PET_ATTACK_APT_ABL--------555---------"+ changedAttrs);
 		return changedAttrs;		
 	}
 
