@@ -1,6 +1,11 @@
 package fire.pb.item;
 
 import java.util.List;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.ArrayList;
 
 import fire.log.LogManager;
 import fire.msp.move.GRoleEquipChange;
@@ -11,6 +16,8 @@ import fire.pb.item.equip.WeaponItem;
 import fire.pb.item.equip.diamond.EquipDiamondMgr;
 import fire.pb.skill.SkillRole;
 import fire.pb.talk.MessageMgr;
+import fire.pb.pet.PetColumnTypes;
+import fire.pb.attr.SRefreshPetData;
 import mkdb.Procedure;
 import org.apache.log4j.Logger;
 
@@ -20,10 +27,12 @@ public class PPutOnPetEquip extends Procedure
 	private final long roleId;
 	private final int bagkey;
 	private final int position;
-	public PPutOnPetEquip( long roleId,int bagkey,int position ) {
+	private final int petKey;
+	public PPutOnPetEquip( long roleId,int bagkey,int position, int petKey) {
 		this.roleId = roleId;
 		this.bagkey = bagkey;
 		this.position = position;
+		this.petKey = petKey;
 	}
 	@Override
 	protected boolean process() throws Exception {
@@ -92,7 +101,7 @@ public class PPutOnPetEquip extends Procedure
 			// 	srole.removeSpecialSkillWithSP(position);
 			// }
 			logger.error("RECV PPutOnPetEquip--------123---------\t");
-			freshEquipBuff(roleId, (PetEquipItem)bi);
+			freshEquipBuff(roleId, (PetEquipItem)bi, petKey);
 			//更新玩家综合实力排行榜
 			mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PRoleZongheRankProc(roleId));
 			//更新历程信息
@@ -126,7 +135,7 @@ public class PPutOnPetEquip extends Procedure
 		}
 	}
 	
-	public static void freshEquipBuff(final long roleId, PetEquipItem ei) {
+	public static void freshEquipBuff(final long roleId, PetEquipItem ei, int petKey) {
 		PetEquip equip = new PetEquip(roleId, true);
 		logger.error("RECV freshEquipBuff---ERROR-----111---------\t");
 		if (ei != null) {
@@ -186,10 +195,29 @@ public class PPutOnPetEquip extends Procedure
 		logger.error("RECV freshEquipBuff---ERROR-----222---------\t");
 		if (ei != null) {
 			if (ei.getExtInfo().getEndure() > 0) {
-				logger.error("RECV freshEquipBuff---ERROR-----333---------\t");
-				fire.pb.skill.SceneSkillRole role = fire.pb.skill.SkillManager
-						.getSceneSkillRole(roleId);
-				role.addEquipEffectAndSkillWithSP(ei);
+				List<Effect> effects = new ArrayList<>();
+				Map<Integer, Integer> attr = ei.getBaseAttr();
+				for (Map.Entry<Integer, Integer> entry : attr.entrySet()) {
+					Effect effect = new Effect(entry.getKey(), entry.getValue());
+					effects.add(effect);
+				}
+				fire.pb.skill.SceneSkillRole srole = fire.pb.skill.SkillManager.getSceneSkillRole(roleId);
+				java.util.Map<Integer, Float> changemap = srole.addPetEquipEffect(petKey, ei.getItemId(), effects);
+				if (!changemap.isEmpty()) {
+					SRefreshPetData petdata = new SRefreshPetData();
+					petdata.columnid = PetColumnTypes.PET;
+					petdata.petkey = petKey;
+					petdata.datas = (HashMap<Integer, Float>) changemap;
+					mkdb.Procedure.psendWhileCommit(roleId, petdata);
+					// 运营日志
+					//writeYYLogger(useNum);
+					//return Commontext.UseResult.SUCC;
+				}
+
+				// logger.error("RECV freshEquipBuff---ERROR-----333---------\t");
+				// fire.pb.skill.SceneSkillRole role = fire.pb.skill.SkillManager
+				// 		.getSceneSkillRole(roleId);
+				// role.addEquipEffectAndSkillWithSP(ei);
 			}
 		}
 	}

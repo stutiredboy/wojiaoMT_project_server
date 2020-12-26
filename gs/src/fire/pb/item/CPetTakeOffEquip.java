@@ -25,6 +25,7 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleId, 131451, null);
 			return;
 		}
+		int petKey = this.petkey;
 		// protocol handle
 		new mkdb.Procedure(){
 
@@ -53,7 +54,7 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 				if (!dstbag.TransIn(bi, pet_posinpack))
 					return false;
 				if (bi instanceof PetEquipItem)
-					srcbag.onUnequip((PetEquipItem) bi);
+					srcbag.onUnequip((PetEquipItem) bi, petkey);
 				
 				return true;
 			}

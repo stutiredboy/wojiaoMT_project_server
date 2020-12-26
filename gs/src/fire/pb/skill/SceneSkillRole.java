@@ -92,6 +92,7 @@ public class SceneSkillRole
 				}
 				break;
 			case EffectType.PET_ATTACK_APT_ABL:
+				logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+effect.value);
 				epet.addBornattackApt( (int)effect.value );
 				changedAttrs.put(AttrType.PET_ATTACK_APT, (float)epet.getAttackApt() );
 				break;
@@ -118,6 +119,164 @@ public class SceneSkillRole
 			}
 		}
 		changedAttrs.putAll(epet.updateAllFinalAttrs());
+		logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+ changedAttrs);
+		return changedAttrs;		
+	}
+	
+	
+	public Map<Integer,Float> addPetEquipEffect(int petId, int itemId , List<fire.pb.item.Effect> effects)
+	{
+		PetColumn petColumn = new PetColumn(roleId, PetColumnTypes.PET, readonly);
+		Pet pet = petColumn.getPet(petId);
+		boolean canAddHp = true;
+		//boolean poison = false;
+		for (fire.pb.item.Effect effect : effects) {
+			if (effect.effectid == EffectType.PET_ATTACK_APT_ABL && effect.value < 0.0 ) {
+				//poison = true;
+				break;
+			}
+		}
+		Map<Integer,Float> changedAttrs = new HashMap<Integer,Float>();
+		fire.pb.effect.PetImpl epet = new fire.pb.effect.PetImpl(roleId,petId);
+		for(fire.pb.item.Effect effect : effects)
+		{
+			switch(effect.effectid)
+			{
+			case EffectType.HP_ABL:
+				if(!canAddHp)
+					break;
+				epet.addHp((int)(effect.value));
+				changedAttrs.put(AttrType.HP, (float)epet.getHp());
+				break;
+			case EffectType.HP_PCT:
+				if(!canAddHp)
+					break;
+				epet.addHp((int)(epet.getMaxHp() * Float.valueOf(effect.value)));
+				changedAttrs.put(AttrType.HP, (float)epet.getHp());
+				break;				
+			case EffectType.MP_ABL:
+				epet.addMp((int)(effect.value));
+				changedAttrs.put(AttrType.MP, (float)epet.getMp());
+				break;
+			case EffectType.MP_PCT:
+				epet.addMp((int)(epet.getMaxMp() * Float.valueOf(effect.value)));
+				changedAttrs.put(AttrType.MP, (float)epet.getMp());
+				break;
+			case EffectType.PET_LIFE_ABL:
+				if(!fire.pb.pet.Module.getInstance().getPetManager().isPetLifeForever(pet.getPetAttr().getId())){
+					int oldlife = pet.getLife();
+					int changelife = pet.addLife((int)effect.value) - oldlife;
+					changedAttrs.put(AttrType.PET_LIFE, (float)pet.getLife());
+				}
+				break;
+			case EffectType.PET_ATTACK_APT_ABL:
+				logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+effect.value);
+				epet.addBornattackApt( (int)effect.value );
+				changedAttrs.put(AttrType.PET_ATTACK_APT, (float)epet.getAttackApt() );
+				break;
+			case EffectType.PET_DEFEND_APT_ABL:
+				epet.addBorndefendApt( (int)effect.value );
+				changedAttrs.put(AttrType.PET_DEFEND_APT, (float)epet.getDefendApt() );
+				break;
+			case EffectType.PET_DODGE_APT_ABL:
+				epet.addBorndodgeApt( (int)effect.value );
+				changedAttrs.put(AttrType.PET_DODGE_APT, (float)epet.getDodgeApt() );
+				break;
+			case EffectType.PET_MAGIC_APT_ABL:
+				epet.addBornmagicApt( (int)effect.value );
+				changedAttrs.put(AttrType.PET_MAGIC_APT, (float)epet.getMagicApt() );
+				break;
+			case EffectType.PET_PHYFORCE_APT_ABL:
+				epet.addBornphyforceApt( (int)effect.value );
+				changedAttrs.put(AttrType.PET_PHYFORCE_APT, (float)epet.getPhyforceApt() );
+				break;
+			case EffectType.PET_SPEED_APT_ABL:
+				epet.addBornspeedApt( (int)effect.value );
+				changedAttrs.put(AttrType.PET_SPEED_APT, (float)epet.getSpeedApt() );
+				break;
+			}
+		}
+		changedAttrs.putAll(epet.updateAllFinalAttrs());
+		logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+ changedAttrs);
+		return changedAttrs;		
+	}
+	
+	
+	public Map<Integer,Float> removePetEquipEffect(int petId, int itemId , List<fire.pb.item.Effect> effects)
+	{
+		PetColumn petColumn = new PetColumn(roleId, PetColumnTypes.PET, readonly);
+		Pet pet = petColumn.getPet(petId);
+		boolean canAddHp = true;
+		//boolean poison = false;
+		for (fire.pb.item.Effect effect : effects) {
+			if (effect.effectid == EffectType.PET_ATTACK_APT_ABL && effect.value < 0.0 ) {
+				//poison = true;
+				break;
+			}
+		}
+		Map<Integer,Float> changedAttrs = new HashMap<Integer,Float>();
+		fire.pb.effect.PetImpl epet = new fire.pb.effect.PetImpl(roleId,petId);
+		for(fire.pb.item.Effect effect : effects)
+		{
+			int value = 0 - (int)(effect.value);
+			switch(effect.effectid)
+			{
+			case EffectType.HP_ABL:
+				if(!canAddHp)
+					break;
+				epet.addHp(value);
+				changedAttrs.put(AttrType.HP, (float)epet.getHp());
+				break;
+			case EffectType.HP_PCT:
+				if(!canAddHp)
+					break;
+				epet.addHp((int)(epet.getMaxHp() * Float.valueOf(value)));
+				changedAttrs.put(AttrType.HP, (float)epet.getHp());
+				break;				
+			case EffectType.MP_ABL:
+				epet.addMp(value);
+				changedAttrs.put(AttrType.MP, (float)epet.getMp());
+				break;
+			case EffectType.MP_PCT:
+				epet.addMp((int)(epet.getMaxMp() * Float.valueOf(value)));
+				changedAttrs.put(AttrType.MP, (float)epet.getMp());
+				break;
+			case EffectType.PET_LIFE_ABL:
+				if(!fire.pb.pet.Module.getInstance().getPetManager().isPetLifeForever(pet.getPetAttr().getId())){
+					int oldlife = pet.getLife();
+					int changelife = pet.addLife(value - oldlife);
+					changedAttrs.put(AttrType.PET_LIFE, (float)pet.getLife());
+				}
+				break;
+			case EffectType.PET_ATTACK_APT_ABL:
+				//logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+value);
+				epet.addBornattackApt( value );
+				changedAttrs.put(AttrType.PET_ATTACK_APT, (float)epet.getAttackApt() );
+				break;
+			case EffectType.PET_DEFEND_APT_ABL:
+				epet.addBorndefendApt(value );
+				changedAttrs.put(AttrType.PET_DEFEND_APT, (float)epet.getDefendApt() );
+				break;
+			case EffectType.PET_DODGE_APT_ABL:
+				epet.addBorndodgeApt(value);
+				changedAttrs.put(AttrType.PET_DODGE_APT, (float)epet.getDodgeApt() );
+				break;
+			case EffectType.PET_MAGIC_APT_ABL:
+				epet.addBornmagicApt(value );
+				changedAttrs.put(AttrType.PET_MAGIC_APT, (float)epet.getMagicApt() );
+				break;
+			case EffectType.PET_PHYFORCE_APT_ABL:
+				epet.addBornphyforceApt( value );
+				changedAttrs.put(AttrType.PET_PHYFORCE_APT, (float)epet.getPhyforceApt() );
+				break;
+			case EffectType.PET_SPEED_APT_ABL:
+				epet.addBornspeedApt(value );
+				changedAttrs.put(AttrType.PET_SPEED_APT, (float)epet.getSpeedApt() );
+				break;
+			}
+		}
+		changedAttrs.putAll(epet.updateAllFinalAttrs());
+		logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+ changedAttrs);
 		return changedAttrs;		
 	}
 
@@ -389,7 +548,8 @@ public class SceneSkillRole
 		if (equipAttr.getEffect() > 0) {
 			skills.add(equipAttr.getEffect());
 		}
-
+		logger.error("RECV addPetEquipEffectAndSkill--------444---------"+effects);
+		logger.error("RECV addPetEquipEffectAndSkill--------444---------"+skills);
 		Result result = new Result(true);
 		result.updateResult(equip(equipItem.getEquipType(), effects, skills));
 		return result;

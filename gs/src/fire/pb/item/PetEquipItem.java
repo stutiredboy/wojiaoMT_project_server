@@ -91,6 +91,7 @@ public abstract class PetEquipItem extends ItemBase {
 	public Map<Integer, Integer> getBaseAttr() {
 		Map<Integer, Integer> baseAttr = new HashMap<Integer, Integer>();
 		baseAttr.putAll(equipAttr.getAttr()); // 基础属性
+		logger.error("--getBaseAttr---------------"+equipAttr.getAttr());
 		baseAttr.putAll(equipAttr.getAddattr()); // 附加属性
 		return baseAttr;
 	}

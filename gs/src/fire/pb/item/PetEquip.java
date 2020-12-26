@@ -3,12 +3,17 @@ package fire.pb.item;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.ArrayList;
 
 import fire.msp.move.GRoleEquipChange;
 import fire.msp.role.GChangeEquipEffect;
 import fire.pb.GsClient;
 import fire.pb.battle.BattleConfig;
 import fire.pb.item.equip.diamond.EquipDiamondMgr;
+import fire.pb.pet.PetColumnTypes;
+import fire.pb.attr.SRefreshPetData;
 
 public class PetEquip extends ItemMaps {
 	public PetEquip(long roleId, boolean readonly) {
@@ -136,12 +141,12 @@ public class PetEquip extends ItemMaps {
 			if (eitem.getExtInfo().getEndure() == 0) {
 				fire.pb.skill.SceneSkillRole role = fire.pb.skill.SkillManager
 						.getSceneSkillRole(roleId);
-				role.removeEquipEffectAndSkillWithSP(eitem);
+				//role.removeEquipEffectAndSkillWithSP(eitem);
 			}
 		}
 	}
 
-	public void onUnequip(PetEquipItem ei) {
+	public void onUnequip(PetEquipItem ei, int petKey) {
 		GRoleEquipChange notifymap = new GRoleEquipChange();
 		notifymap.roleid = roleId;
 		notifymap.pos = ei.getEquipPos();
@@ -175,9 +180,27 @@ public class PetEquip extends ItemMaps {
 		mkdb.Procedure.psendWhileCommit(roleId, equipTotalScore);
 
 		if (ei.getExtInfo().getEndure() > 0) {
-			fire.pb.skill.SceneSkillRole role = fire.pb.skill.SkillManager
-					.getSceneSkillRole(roleId);
-			role.removeEquipEffectAndSkillWithSP(ei);
+			// fire.pb.skill.SceneSkillRole role = fire.pb.skill.SkillManager
+			// 		.getSceneSkillRole(roleId);
+			//role.removeEquipEffectAndSkillWithSP(ei);
+			List<Effect> effects = new ArrayList<>();
+				Map<Integer, Integer> attr = ei.getBaseAttr();
+				for (Map.Entry<Integer, Integer> entry : attr.entrySet()) {
+					Effect effect = new Effect(entry.getKey(), entry.getValue());
+					effects.add(effect);
+				}
+				fire.pb.skill.SceneSkillRole srole = fire.pb.skill.SkillManager.getSceneSkillRole(roleId);
+				java.util.Map<Integer, Float> changemap = srole.removePetEquipEffect(petKey, ei.getItemId(), effects);
+				if (!changemap.isEmpty()) {
+					SRefreshPetData petdata = new SRefreshPetData();
+					petdata.columnid = PetColumnTypes.PET;
+					petdata.petkey = petKey;
+					petdata.datas = (HashMap<Integer, Float>) changemap;
+					mkdb.Procedure.psendWhileCommit(roleId, petdata);
+					// 运营日志
+					//writeYYLogger(useNum);
+					//return Commontext.UseResult.SUCC;
+				}
 		}
 
 		// 更新玩家综合实力排行榜
