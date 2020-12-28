@@ -142,33 +142,6 @@ public class SceneSkillRole
 		{
 			switch(effect.effectid)
 			{
-			case EffectType.HP_ABL:
-				if(!canAddHp)
-					break;
-				epet.addHp((int)(effect.value));
-				changedAttrs.put(AttrType.HP, (float)epet.getHp());
-				break;
-			case EffectType.HP_PCT:
-				if(!canAddHp)
-					break;
-				epet.addHp((int)(epet.getMaxHp() * Float.valueOf(effect.value)));
-				changedAttrs.put(AttrType.HP, (float)epet.getHp());
-				break;				
-			case EffectType.MP_ABL:
-				epet.addMp((int)(effect.value));
-				changedAttrs.put(AttrType.MP, (float)epet.getMp());
-				break;
-			case EffectType.MP_PCT:
-				epet.addMp((int)(epet.getMaxMp() * Float.valueOf(effect.value)));
-				changedAttrs.put(AttrType.MP, (float)epet.getMp());
-				break;
-			case EffectType.PET_LIFE_ABL:
-				if(!fire.pb.pet.Module.getInstance().getPetManager().isPetLifeForever(pet.getPetAttr().getId())){
-					int oldlife = pet.getLife();
-					int changelife = pet.addLife((int)effect.value) - oldlife;
-					changedAttrs.put(AttrType.PET_LIFE, (float)pet.getLife());
-				}
-				break;
 			case EffectType.PET_ATTACK_APT_ABL:
 				logger.error("RECV PET_ATTACK_APT_ABL--------444---------"+effect.value);
 				epet.addBornattackApt( (int)effect.value );
@@ -193,6 +166,10 @@ public class SceneSkillRole
 			case EffectType.PET_SPEED_APT_ABL:
 				epet.addBornspeedApt( (int)effect.value );
 				changedAttrs.put(AttrType.PET_SPEED_APT, (float)epet.getSpeedApt() );
+				break;
+			case EffectType.PET_GROW_RATE_ABL:
+				epet.addBornspeedApt( (int)effect.value );
+				changedAttrs.put(AttrType.PET_GROW_RATE, (float)epet.getSpeedApt() );
 				break;
 			}
 		}
@@ -221,35 +198,8 @@ public class SceneSkillRole
 			int value = 0 - (int)(effect.value);
 			switch(effect.effectid)
 			{
-			case EffectType.HP_ABL:
-				if(!canAddHp)
-					break;
-				epet.addHp(value);
-				changedAttrs.put(AttrType.HP, (float)epet.getHp());
-				break;
-			case EffectType.HP_PCT:
-				if(!canAddHp)
-					break;
-				epet.addHp((int)(epet.getMaxHp() * Float.valueOf(value)));
-				changedAttrs.put(AttrType.HP, (float)epet.getHp());
-				break;				
-			case EffectType.MP_ABL:
-				epet.addMp(value);
-				changedAttrs.put(AttrType.MP, (float)epet.getMp());
-				break;
-			case EffectType.MP_PCT:
-				epet.addMp((int)(epet.getMaxMp() * Float.valueOf(value)));
-				changedAttrs.put(AttrType.MP, (float)epet.getMp());
-				break;
-			case EffectType.PET_LIFE_ABL:
-				if(!fire.pb.pet.Module.getInstance().getPetManager().isPetLifeForever(pet.getPetAttr().getId())){
-					int oldlife = pet.getLife();
-					int changelife = pet.addLife(value - oldlife);
-					changedAttrs.put(AttrType.PET_LIFE, (float)pet.getLife());
-				}
-				break;
 			case EffectType.PET_ATTACK_APT_ABL:
-				logger.error("RECV PET_ATTACK_APT_ABL--------555---------"+value);
+				logger.error("RECV PET_ATTACK_APT_ABL--------555---------" + value);
 				epet.addBornattackApt( value );
 				changedAttrs.put(AttrType.PET_ATTACK_APT, (float)epet.getAttackApt() );
 				break;
@@ -272,6 +222,10 @@ public class SceneSkillRole
 			case EffectType.PET_SPEED_APT_ABL:
 				epet.addBornspeedApt(value );
 				changedAttrs.put(AttrType.PET_SPEED_APT, (float)epet.getSpeedApt() );
+				break;
+			case EffectType.PET_GROW_RATE_ABL:
+				epet.addBornspeedApt( value );
+				changedAttrs.put(AttrType.PET_GROW_RATE, (float)epet.getGrowrate() );
 				break;
 			}
 		}

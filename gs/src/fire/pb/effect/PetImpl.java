@@ -68,6 +68,10 @@ public class PetImpl extends AttrCalcRole
 		return new HashMap<Integer, Float>();//宠物没有伤
 	}
 
+	public float getGrowrate( ) {
+		return pet.getGrowrate();
+	}
+	
 	public void addBornattackApt( final int v ) {
 		xbean.PetInfo pi = pet.getPetInfo();
 		final int newV =  pi.getBornattackapt() + v;

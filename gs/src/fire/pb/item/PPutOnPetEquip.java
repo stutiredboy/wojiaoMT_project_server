@@ -68,8 +68,27 @@ public class PPutOnPetEquip extends Procedure
 						logger.error("RECV PPutOnPetEquip--------333---------\t" + dstitem.getKey());
 						return false;
 				}
+
 				if (!bag.TransIn(item, pos))
 					return false;
+				List<Effect> effects = new ArrayList<>();
+				Map<Integer, Integer> attr = ((PetEquipItem)dstitem).getBaseAttr();
+				for (Map.Entry<Integer, Integer> entry : attr.entrySet()) {
+					Effect effect = new Effect(entry.getKey(), entry.getValue());
+					effects.add(effect);
+				}
+				fire.pb.skill.SceneSkillRole srole = fire.pb.skill.SkillManager.getSceneSkillRole(roleId);
+				java.util.Map<Integer, Float> changemap = srole.removePetEquipEffect(petKey, ((PetEquipItem)dstitem).getItemId(), effects);
+				if (!changemap.isEmpty()) {
+					SRefreshPetData petdata = new SRefreshPetData();
+					petdata.columnid = PetColumnTypes.PET;
+					petdata.petkey = petKey;
+					petdata.datas = (HashMap<Integer, Float>) changemap;
+					mkdb.Procedure.psendWhileCommit(roleId, petdata);
+					// 运营日志
+					//writeYYLogger(useNum);
+					//return Commontext.UseResult.SUCC;
+				}
 				logger.error("RECV PPutOnPetEquip--------444---------\t");
 			}
 			logger.error("RECV PPutOnPetEquip--------555---------\t");

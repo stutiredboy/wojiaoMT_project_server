@@ -113,6 +113,7 @@ public class EffectType implements Marshal , Comparable<EffectType>{
 	public final static int PET_MAGIC_APT_ABL = 1471; // 宠物法力资质
 	public final static int PET_SPEED_APT_ABL = 1481; // 宠物速度资质
 	public final static int PET_DODGE_APT_ABL = 1491; // 宠物躲闪资质
+	public final static int PET_GROW_RATE_ABL = 1501; // 宠物成长率
 	public final static int ENLIMIT_ABL = 1521; // 活力上限
 	public final static int PFLIMIT_ABL = 1531; // 体力上限
 	public final static int OPERATOR = 1581;
