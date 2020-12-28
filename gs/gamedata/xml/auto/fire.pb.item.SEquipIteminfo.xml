@@ -122222,7 +122222,7 @@
     <int>9140103</int>
     <fire.pb.item.SEquipIteminfo>
       <id>9140103</id>
-      <shuxing1name>medical_value</shuxing1name>
+      <shuxing1name>tilizz_value</shuxing1name>
       <shuxing1bodongduanmin>
         <int>80</int>
         <int>80</int>
@@ -122244,7 +122244,7 @@
         <int>2000</int>
         <int>2000</int>
       </shuxing1bodongquanzhong>
-      <shuxing2name>heallv_value</shuxing2name>
+      <shuxing2name>falizz_value</shuxing2name>
       <shuxing2bodongduanmin>
         <int>40</int>
         <int>40</int>
@@ -122266,7 +122266,7 @@
         <int>2000</int>
         <int>2000</int>
       </shuxing2bodongquanzhong>
-      <shuxing3name>poisonrate_value</shuxing3name>
+      <shuxing3name>chengzhangzz_value</shuxing3name>
       <shuxing3bodongduanmin>
         <int>52</int>
         <int>52</int>

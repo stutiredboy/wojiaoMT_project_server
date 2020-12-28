@@ -1775,4 +1775,46 @@
       <pctLimit>10</pctLimit>
     </fire.pb.effect.SAttrEffectID2Name>
   </entry>
+  <entry>
+    <int>1460</int>
+    <fire.pb.effect.SAttrEffectID2Name>
+      <id>1460</id>
+      <classname>宠物体力资质</classname>
+      <attrname>tili</attrname>
+      <initValue>0</initValue>
+      <ablEffctId>1461</ablEffctId>
+      <ablEffctName>tilizz_value</ablEffctName>
+      <pctEffctId>3002</pctEffctId>
+      <pctEffctName>test_4</pctEffctName>
+      <pctLimit>10</pctLimit>
+    </fire.pb.effect.SAttrEffectID2Name>
+  </entry>
+  <entry>
+    <int>1470</int>
+    <fire.pb.effect.SAttrEffectID2Name>
+      <id>1470</id>
+      <classname>宠物法力资质</classname>
+      <attrname>fali</attrname>
+      <initValue>0</initValue>
+      <ablEffctId>1471</ablEffctId>
+      <ablEffctName>falizz_value</ablEffctName>
+      <pctEffctId>3002</pctEffctId>
+      <pctEffctName>test_5</pctEffctName>
+      <pctLimit>10</pctLimit>
+    </fire.pb.effect.SAttrEffectID2Name>
+  </entry>
+  <entry>
+    <int>1500</int>
+    <fire.pb.effect.SAttrEffectID2Name>
+      <id>1500</id>
+      <classname>宠物成长资质</classname>
+      <attrname>chengzhang</attrname>
+      <initValue>0</initValue>
+      <ablEffctId>1501</ablEffctId>
+      <ablEffctName>chengzhangzz_value</ablEffctName>
+      <pctEffctId>3002</pctEffctId>
+      <pctEffctName>test_6</pctEffctName>
+      <pctLimit>10</pctLimit>
+    </fire.pb.effect.SAttrEffectID2Name>
+  </entry>
 </tree-map>
