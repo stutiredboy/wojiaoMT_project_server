@@ -66,17 +66,34 @@ public class PResolveItem extends Procedure {
 		//获取的装备
 		List<ItemBean> itemBeanLst = new ArrayList<ItemBean>();
 		//把装备上的宝石添加到背包
-		xbean.Equip equipAttr = ((EquipItem) bi).getEquipAttr();
-		List<Integer> diamonds = equipAttr.getDiamonds();
-		for (Integer gemId : diamonds) {
-			ItemBean getGemItem = new ItemBean();
-			bag.doAddItem(gemId, 1, "装备分解", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_fenjieget, gemId);
-			
-			getGemItem.setAmt(1);
-			getGemItem.setAftAmt(ItemMaps.getItemHasNum(roleId, gemId));
-			getGemItem.setItemId(gemId);
-			
-			itemBeanLst.add(getGemItem);
+		if (bi instanceof EquipItem) {
+			xbean.Equip equipAttr = ((EquipItem) bi).getEquipAttr();
+			List<Integer> diamonds = equipAttr.getDiamonds();
+			for (Integer gemId : diamonds) {
+				ItemBean getGemItem = new ItemBean();
+				bag.doAddItem(gemId, 1, "装备分解", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_fenjieget, gemId);
+				
+				getGemItem.setAmt(1);
+				getGemItem.setAftAmt(ItemMaps.getItemHasNum(roleId, gemId));
+				getGemItem.setItemId(gemId);
+				
+				itemBeanLst.add(getGemItem);
+			}
+		}
+
+		if (bi instanceof PetEquipItem) {
+			xbean.PetEquip equipAttr = ((PetEquipItem) bi).getEquipAttr();
+			List<Integer> diamonds = equipAttr.getDiamonds();
+			for (Integer gemId : diamonds) {
+				ItemBean getGemItem = new ItemBean();
+				bag.doAddItem(gemId, 1, "装备分解", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_fenjieget, gemId);
+				
+				getGemItem.setAmt(1);
+				getGemItem.setAftAmt(ItemMaps.getItemHasNum(roleId, gemId));
+				getGemItem.setItemId(gemId);
+				
+				itemBeanLst.add(getGemItem);
+			}
 		}
 		
 		//加装备

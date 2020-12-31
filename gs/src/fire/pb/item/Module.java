@@ -362,6 +362,29 @@ public class Module implements ModuleInterface {
 			
 			itemSchoolData.put(equipItemAttr.getId(), schoolLst);
 		}
+
+
+		Map<Integer, PetEquipItemShuXing> petEquipItemAttrConfig = null;
+		// if(fire.pb.fushi.Module.GetPayServiceType() == 1){
+		// 	java.util.Map<Integer, DEquipItemShuXing> dEquipItemShuXing = ConfigManager.getInstance().getConf(DEquipItemShuXing.class);
+		// 	equipItemAttrConfig = new java.util.TreeMap<>(dEquipItemShuXing);
+		// }else {
+			petEquipItemAttrConfig = ConfigManager.getInstance().getConf(PetEquipItemShuXing.class);
+		//}
+		
+		for (PetEquipItemShuXing equipItemAttr : petEquipItemAttrConfig.values()) {
+			ResolveItemData resolveData = new ResolveItemData(equipItemAttr);
+			resolveItemData.put(equipItemAttr.getId(), resolveData);
+			
+			String[] strSchool = equipItemAttr.getNeedSchool().split(";");
+			List<Integer> schoolLst = new ArrayList<Integer>();
+			
+			for (String sss : strSchool) {
+				schoolLst.add(Integer.parseInt(sss));
+			}
+			
+			itemSchoolData.put(equipItemAttr.getId(), schoolLst);
+		}
 		
 		/*try {
 			new mkdb.Procedure() {
