@@ -72,6 +72,12 @@ public class PetImpl extends AttrCalcRole
 		return pet.getGrowrate();
 	}
 	
+	public void addGrowrate( final int v ) {
+		xbean.PetInfo pi = pet.getPetInfo();
+		final int newV =  pi.getGrowrate() + v;
+		pi.setGrowrate(newV);
+	}
+	
 	public void addBornattackApt( final int v ) {
 		xbean.PetInfo pi = pet.getPetInfo();
 		final int newV =  pi.getBornattackapt() + v;
