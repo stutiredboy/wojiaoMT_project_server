@@ -19,7 +19,7 @@ public class CPetAddPoint extends __CPetAddPoint__ {
 		if (roleid < 0 || !fire.pb.StateCommon.isOnline(roleid))
 			return;
 
-		// 鏁版嵁鍚堟硶鎬ф鏌?
+		// 閺佺増宓侀崥鍫熺《閹勵梾閺�?
 		if (cons == 0 && iq == 0 && str == 0 && endu == 0 && agi == 0)
 			return;
 

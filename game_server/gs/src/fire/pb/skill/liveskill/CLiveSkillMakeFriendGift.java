@@ -23,7 +23,7 @@ abstract class __CLiveSkillMakeFriendGift__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鍚屽績鍦?
+ * 閸氬苯绺鹃崷?
  * @author changhao
  *
  */
@@ -62,9 +62,9 @@ public class CLiveSkillMakeFriendGift extends __CLiveSkillMakeFriendGift__ {
 				}
 				
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FRIEND_GIFT, 
-						skilllevel,"濂藉弸绀肩墿", YYLoggerTuJingEnum.tujing_Value_friendgive, false);
+						skilllevel,"婵傝棄寮哥粈鑲╁⒖", YYLoggerTuJingEnum.tujing_Value_friendgive, false);
 				
-				if (energyenough == false) //娑堣?楁椿鍔? by changhao
+				if (energyenough == false) //濞戝牐?妤佹た閸�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						

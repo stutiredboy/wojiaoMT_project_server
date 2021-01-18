@@ -24,7 +24,7 @@ public class CSetFightPetRest extends __CSetFightPetRest__ {
 			PSetFightPetProc proc = new PSetFightPetProc(roleid, 0, false);
 			proc.submit();
 		} else {
-			// 濡傛灉鎴樻枟涓缃疇鐗╀紤鎭?,鍒欐垬鏂楃粨鏉熷悗鐢熸晥
+			// 婵″倹鐏夐幋妯绘灍娑擃叀顔曠純顔肩枃閻椻晙绱ら幁?,閸掓瑦鍨弬妤冪波閺夌喎鎮楅悽鐔告櫏
 			mkdb.Procedure proc = new mkdb.Procedure() {
 				@Override
 				protected boolean process() throws Exception {

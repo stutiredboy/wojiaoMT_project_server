@@ -21,7 +21,7 @@ public class SetMaxOnlineNum extends __SetMaxOnlineNum__ {
 
 	@Override
 	protected void onTimeout(int code) {
-		// client only. 锟斤拷使锟斤拷 submit 锟斤拷式锟斤拷锟斤拷 rpc 时锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟截碉拷锟斤拷
+		// client only. 閿熸枻鎷蜂娇閿熸枻鎷� submit 閿熸枻鎷峰紡閿熸枻鎷烽敓鏂ゆ嫹 rpc 鏃堕敓鏂ゆ嫹閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓鏂ゆ嫹閿熸枻鎷烽敓鎴鎷烽敓鏂ゆ嫹
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

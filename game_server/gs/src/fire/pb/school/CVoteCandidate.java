@@ -12,7 +12,7 @@ abstract class __CVoteCandidate__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鑱屼笟棰嗚寮?濮嬫姇绁?
+ * 閼卞奔绗熸０鍡氼暬瀵�?婵濮囩粊?
  * @author changhao
  *
  */
@@ -25,14 +25,14 @@ public class CVoteCandidate extends __CVoteCandidate__ {
 			return;
 		fire.pb.PropRole prop=new fire.pb.PropRole(roleid,true);
 		
-		//鏃堕棿涓嶅 by changhao
+		//閺冨爼妫挎稉宥咁嚠 by changhao
 		if(!fire.pb.school.shouxi.ProfessionLeaderManager.getInstance().checkCanVote(System.currentTimeMillis()))
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 190072, null);
 			return;
 		}
 		
-		//鐜╁绛夌骇澶т簬绛?50绾? by changhao
+		//閻溾晛顔嶇粵澶岄獓婢堆傜艾缁�?50缁�? by changhao
 		if(prop.getLevel() < SchoolConst.TOUPIAO_MINLEVEL)
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 190080, null);
@@ -41,13 +41,13 @@ public class CVoteCandidate extends __CVoteCandidate__ {
 		
 		long value = prop.getProperties().getHistorymaxprofessioncontribute();
 		
-		if (value < 100) //鍘嗗彶鑱屼笟璐＄尞搴﹁杈惧埌100鎵嶈兘鎶曠エ by changhao
+		if (value < 100) //閸樺棗褰堕懕灞肩瑹鐠愶紕灏炴惔锕侇洣鏉堟儳鍩�100閹靛秷鍏橀幎鏇犮偍 by changhao
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 190076, null);
 			return;
 		}
 				
-		//鏄惁宸茬粡鎶曠エ by changhao
+		//閺勵垰鎯佸鑼病閹舵洜銈� by changhao
 		if(fire.pb.school.shouxi.ProfessionLeaderManager.getInstance().checkAlreadyVote(roleid))
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 170014, null);

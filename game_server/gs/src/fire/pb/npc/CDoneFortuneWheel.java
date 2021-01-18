@@ -24,9 +24,9 @@ public class CDoneFortuneWheel extends __CDoneFortuneWheel__ {
 	protected void process() {
 		final long	roleid = gnet.link.Onlines.getInstance().findRoleid(this);
         if(roleid<0) return;
-        //鐩墠鏄敱澶ц浆鐩樻ā鍧楁潵璐熻矗鍙戦?佸鍔变俊鎭粰瀹㈡埛绔?,鎵?浠ョ敤map鏉ュ瓨鏀緈sg,key鏄鍔辩殑绫诲瀷(鐗╁搧,缁忛獙鎴栭挶),value
-        //鏄痬sgid.澶ц浆鐩樼殑濂栧姳淇℃伅鏈?濂藉仛鎴愪竴鏍风殑,濡傛灉纭疄涓嶄竴鏍?,鍒欐坊鍔犱竴涓柊鐨刾rotocal鏉ュ鐞?,PFinishFortuneWheel
-        //鍙互閲嶇敤
+        //閻╊喖澧犻弰顖滄暠婢堆嗘祮閻╂ɑ膩閸ф娼电拹鐔荤煑閸欐垿?浣割殯閸斿彉淇婇幁顖滅舶鐎广垺鍩涚粩?,閹�?娴犮儳鏁ap閺夈儱鐡ㄩ弨绶坰g,key閺勵垰顨涢崝杈╂畱缁鐎�(閻椻晛鎼�,缂佸繘鐛欓幋鏍尪),value
+        //閺勭棳sgid.婢堆嗘祮閻╂娈戞總鏍уС娣団剝浼呴張?婵傝棄浠涢幋鎰閺嶉娈�,婵″倹鐏夌涵顔肩杽娑撳秳绔撮弽?,閸掓瑦鍧婇崝鐘辩娑擃亝鏌婇惃鍒緍otocal閺夈儱顦╅悶?,PFinishFortuneWheel
+        //閸欘垯浜掗柌宥囨暏
 //        java.util.Map<Integer, Integer> fortuneWheelMsgs=new java.util.HashMap<Integer, Integer>();
 //        fortuneWheelMsgs.put(2, fire.pb.specialquest.SpecialQuestNpcMsg.SubmitQHYCSuccess);
         

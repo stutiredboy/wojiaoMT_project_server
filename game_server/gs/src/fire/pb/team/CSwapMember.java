@@ -12,7 +12,7 @@ abstract class __CSwapMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 浜ゆ崲闃熷憳
+ * 娴溿倖宕查梼鐔锋喅
  * @author changhao
  *
  */
@@ -31,7 +31,7 @@ public class CSwapMember extends __CSwapMember__ {
 			protected boolean process()
 			{
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
+				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?
 				Team team = null;
 				if(teamId != null)
 					team = new Team(teamId,false);
@@ -40,32 +40,32 @@ public class CSwapMember extends __CSwapMember__ {
 				
 				if(!checkleaderInTeam(leaderRoleId, team))
 				{
-					//鐢宠浜ゆ崲鐨勪汉涓嶆槸闃熼暱锛坕lligal锛?
+					//閻㈠疇顕禍銈嗗床閻ㄥ嫪姹夋稉宥嗘Ц闂冪喖鏆遍敍鍧昹ligal閿�?
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141192, null);
-					TeamManager.logger.debug("FAIL:鐢宠浜ゆ崲鐨勪汉涓嶆槸闃熼暱,  leaderRoleId:" + leaderRoleId);
+					TeamManager.logger.debug("FAIL:閻㈠疇顕禍銈嗗床閻ㄥ嫪姹夋稉宥嗘Ц闂冪喖鏆�,  leaderRoleId:" + leaderRoleId);
 				}
 				else if(!checkIndexValid(team , index1, index2))
 				{
-					//鐢宠浜ゆ崲鐨勪袱闃熷憳index涓嶅悎娉曪紙illigal锛?
-					TeamManager.logger.debug("FAIL:鐢宠浜ゆ崲鐨勪袱闃熷憳index涓嶅悎娉?,  index1: " + index1 + " ;index2: "+ index2);
+					//閻㈠疇顕禍銈嗗床閻ㄥ嫪琚遍梼鐔锋喅index娑撳秴鎮庡▔鏇礄illigal閿�?
+					TeamManager.logger.debug("FAIL:閻㈠疇顕禍銈嗗床閻ㄥ嫪琚遍梼鐔锋喅index娑撳秴鎮庡▔?,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else if(!checkMemsberStateValid(team, index1, index2))
 				{
-					//瑕佷氦鎹㈢殑涓ら槦鍛樺繀椤婚兘澶勪簬姝ｅ父鐘舵??
+					//鐟曚椒姘﹂幑銏㈡畱娑撱倝妲﹂崨妯虹箑妞ゅ鍏樻径鍕艾濮濓絽鐖堕悩鑸�??
 					psend(leaderRoleId, new STeamError(TeamError.MembersNotNormal));
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141193, null);
-					TeamManager.logger.debug("FAIL:瑕佷氦鎹㈢殑涓ら槦鍛樺繀椤婚兘澶勪簬姝ｅ父鐘舵??,  index1: " + index1 + " ;index2: "+ index2);
+					TeamManager.logger.debug("FAIL:鐟曚椒姘﹂幑銏㈡畱娑撱倝妲﹂崨妯虹箑妞ゅ鍏樻径鍕艾濮濓絽鐖堕悩鑸�??,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else
 				{
-					TeamManager.logger.debug("SUCC:鍙互浜ゆ崲闃熷憳,  index1: " + index1 + " ;index2: "+ index2);
+					TeamManager.logger.debug("SUCC:閸欘垯浜掓禍銈嗗床闂冪喎鎲�,  index1: " + index1 + " ;index2: "+ index2);
 					team.switchTeamMemberWithSP(index1, index2);
 //					long roleId1 = team.getTeamInfo().getMembers().get(index1-1).getRoleid();
 //					long roleId2 = team.getTeamInfo().getMembers().get(index2-1).getRoleid();
 //					team.getTeamInfo().getMembers().get(index2-1).setRoleid(roleId1);
 //					team.getTeamInfo().getMembers().get(index1-1).setRoleid(roleId2);
 //					
-//					//灏嗘柊椤哄簭骞挎挱鍒版墍鏈夐槦鍛?
+//					//鐏忓棙鏌婃い鍝勭碍楠炴寧鎸遍崚鐗堝閺堝妲﹂崨?
 //					Set<Long> roleids = new HashSet<Long>();
 //					SMemberSequence sMemberSequence = new SMemberSequence();
 //					sMemberSequence.teammemeberlist.add(team.getTeamInfo().getTeamleaderid());
@@ -75,7 +75,7 @@ public class CSwapMember extends __CSwapMember__ {
 //						sMemberSequence.teammemeberlist.add(member.getRoleid());
 //						roleids.add(member.getRoleid());
 //					}
-//					// 灏嗛槦浼嶆垚鍛橀『搴忓彂閫佸埌鎵?鏈夋垚鍛?
+//					// 鐏忓棝妲︽导宥嗗灇閸涙﹢銆庢惔蹇撳絺闁礁鍩岄幍?閺堝鍨氶崨?
 //					xdb.Procedure.psendWhileCommit(roleids, sMemberSequence);
 				}
 				return true;
@@ -87,7 +87,7 @@ public class CSwapMember extends __CSwapMember__ {
 
 	
 
-	// 鐢宠鑰呮槸涓?涓槦浼嶇殑闃熼暱锛熷彧鑳藉湪Procedure涓璋冪敤
+	// 閻㈠疇顕懓鍛Ц娑�?娑擃亪妲︽导宥囨畱闂冪喖鏆遍敍鐔峰涧閼宠棄婀狿rocedure娑擃叀顫︾拫鍐暏
 	private boolean checkleaderInTeam(long leaderRoleId,Team team)
 	{
 		if (team != null && team.getTeamInfo().getTeamleaderid() == leaderRoleId)
@@ -95,7 +95,7 @@ public class CSwapMember extends __CSwapMember__ {
 		else
 			return false;
 	}
-	//index鍚堟硶锛?
+	//index閸氬牊纭堕敍?
 	private boolean checkIndexValid(Team team, long index_1, long index_2)
 	{
 		if(index_1 >= 1 && index_1 <= team.getTeamInfo().getMembers().size() && index_2 >=1 && index_2 <=team.getTeamInfo().getMembers().size() && index_1 != index_2)
@@ -103,7 +103,7 @@ public class CSwapMember extends __CSwapMember__ {
 		else 
 			return false;
 	}
-	//瑕佷氦鎹㈢殑涓ら槦鍛樺浜庢甯哥姸鎬侊紵
+	//鐟曚椒姘﹂幑銏㈡畱娑撱倝妲﹂崨妯侯槱娴滃孩顒滅敮鍝ュЦ閹緤绱�
 	private boolean checkMemsberStateValid(Team team,  int index_1, int index_2)
 	{
 		if(team.getTeamInfo().getMembers().get(index_1 - 1).getState() == TeamMemberState.eTeamNormal &&

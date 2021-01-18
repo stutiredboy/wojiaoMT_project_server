@@ -31,6 +31,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 	public fire.pb.talk.TipsMsgType b68;
 	public fire.pb.pet.PetTypeEnum b10;
 	public fire.pb.item.EquipItemType b152;
+	public fire.pb.item.PetEquipItemType b153;
 	public fire.pb.attr.EffectType b28;
 	public fire.pb.attr.AttrType b27;
 	public fire.pb.Pet b168;
@@ -58,6 +59,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 		b68 = new fire.pb.talk.TipsMsgType();
 		b10 = new fire.pb.pet.PetTypeEnum();
 		b152 = new fire.pb.item.EquipItemType();
+		b153 = new fire.pb.item.PetEquipItemType();
 		b28 = new fire.pb.attr.EffectType();
 		b27 = new fire.pb.attr.AttrType();
 		b168 = new fire.pb.Pet();
@@ -79,13 +81,14 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 		b216 = new fire.pb.talk.FunModelType();
 	}
 
-	public LuaBeanImport(fire.pb.item.BagTypes _b1_, fire.pb.circletask.ActiveQuestData _b4_, fire.pb.DataInit _b8_, fire.pb.talk.TipsMsgType _b68_, fire.pb.pet.PetTypeEnum _b10_, fire.pb.item.EquipItemType _b152_, fire.pb.attr.EffectType _b28_, fire.pb.attr.AttrType _b27_, fire.pb.Pet _b168_, fire.pb.item.IDType _b29_, fire.pb.npc.NpcServices _b18_, fire.pb.Petskill _b169_, fire.pb.circletask.SpecialQuestType _b55_, fire.pb.circletask.SpecialQuestID _b58_, fire.pb.circletask.CircTaskClass _b191_, fire.pb.shop.ShopBuyType _b192_, fire.pb.game.MoneyType _b199_, fire.pb.attr.RoleCurrency _b300_, fire.pb.skill.AssistSkill _b208_, fire.pb.skill.EquipSkill _b209_, fire.pb.Item _b211_, fire.pb.RoleInfo _b215_, fire.pb.move.RoleBasic _b100_, fire.pb.move.NpcBasic _b101_, fire.pb.talk.FunModelType _b216_) {
+	public LuaBeanImport(fire.pb.item.BagTypes _b1_, fire.pb.circletask.ActiveQuestData _b4_, fire.pb.DataInit _b8_, fire.pb.talk.TipsMsgType _b68_, fire.pb.pet.PetTypeEnum _b10_, fire.pb.item.EquipItemType _b152_, fire.pb.item.PetEquipItemType _b153_, fire.pb.attr.EffectType _b28_, fire.pb.attr.AttrType _b27_, fire.pb.Pet _b168_, fire.pb.item.IDType _b29_, fire.pb.npc.NpcServices _b18_, fire.pb.Petskill _b169_, fire.pb.circletask.SpecialQuestType _b55_, fire.pb.circletask.SpecialQuestID _b58_, fire.pb.circletask.CircTaskClass _b191_, fire.pb.shop.ShopBuyType _b192_, fire.pb.game.MoneyType _b199_, fire.pb.attr.RoleCurrency _b300_, fire.pb.skill.AssistSkill _b208_, fire.pb.skill.EquipSkill _b209_, fire.pb.Item _b211_, fire.pb.RoleInfo _b215_, fire.pb.move.RoleBasic _b100_, fire.pb.move.NpcBasic _b101_, fire.pb.talk.FunModelType _b216_) {
 		this.b1 = _b1_;
 		this.b4 = _b4_;
 		this.b8 = _b8_;
 		this.b68 = _b68_;
 		this.b10 = _b10_;
 		this.b152 = _b152_;
+		this.b153 = _b153_;
 		this.b28 = _b28_;
 		this.b27 = _b27_;
 		this.b168 = _b168_;
@@ -114,6 +117,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 		if (!b68._validator_()) return false;
 		if (!b10._validator_()) return false;
 		if (!b152._validator_()) return false;
+		if (!b153._validator_()) return false;
 		if (!b28._validator_()) return false;
 		if (!b27._validator_()) return false;
 		if (!b168._validator_()) return false;
@@ -146,6 +150,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 		_os_.marshal(b68);
 		_os_.marshal(b10);
 		_os_.marshal(b152);
+		_os_.marshal(b153);
 		_os_.marshal(b28);
 		_os_.marshal(b27);
 		_os_.marshal(b168);
@@ -175,6 +180,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 		b68.unmarshal(_os_);
 		b10.unmarshal(_os_);
 		b152.unmarshal(_os_);
+		b153.unmarshal(_os_);
 		b28.unmarshal(_os_);
 		b27.unmarshal(_os_);
 		b168.unmarshal(_os_);
@@ -210,6 +216,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 			if (!b68.equals(_o_.b68)) return false;
 			if (!b10.equals(_o_.b10)) return false;
 			if (!b152.equals(_o_.b152)) return false;
+			if (!b153.equals(_o_.b153)) return false;
 			if (!b28.equals(_o_.b28)) return false;
 			if (!b27.equals(_o_.b27)) return false;
 			if (!b168.equals(_o_.b168)) return false;
@@ -242,6 +249,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 		_h_ += b68.hashCode();
 		_h_ += b10.hashCode();
 		_h_ += b152.hashCode();
+		_h_ += b153.hashCode();
 		_h_ += b28.hashCode();
 		_h_ += b27.hashCode();
 		_h_ += b168.hashCode();
@@ -273,6 +281,7 @@ public class LuaBeanImport extends __LuaBeanImport__ {
 		_sb_.append(b68).append(",");
 		_sb_.append(b10).append(",");
 		_sb_.append(b152).append(",");
+		_sb_.append(b153).append(",");
 		_sb_.append(b28).append(",");
 		_sb_.append(b27).append(",");
 		_sb_.append(b168).append(",");

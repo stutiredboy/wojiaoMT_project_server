@@ -12,7 +12,7 @@ abstract class __CRequestTeamMatchList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璇锋眰鍖归厤閾捐〃
+ * 鐠囬攱鐪伴崠褰掑帳闁炬崘銆�
  * @author changhao
  *
  */
@@ -53,7 +53,7 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 					return true;
 				}
 				
-				if (num <= 0) //鏁伴噺閿欒 by changhao
+				if (num <= 0) //閺佷即鍣洪柨娆掝嚖 by changhao
 				{
 					msg.targetid = targetid;
 					msg.ret = 2;
@@ -67,24 +67,24 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 				for (java.util.Map.Entry<Long, xbean.TeamMatch> e : ematch.getTeamid2matchdata().entrySet())
 				{
 					xbean.TeamMatch teammatch = e.getValue();
-					if (targetid == 0 || (teammatch.getTargetid() == targetid && teammatch.getMatchtype() == 1)) //鏄槦浼嶅尮閰? by changhao
+					if (targetid == 0 || (teammatch.getTargetid() == targetid && teammatch.getMatchtype() == 1)) //閺勵垶妲︽导宥呭爱闁�? by changhao
 					{
 						Long teamid = xtable.Roleid2teamid.select(teammatch.getRoleid());
-						if (teamid != null && teamid > startteamid) //浠庡紑濮嬪彇 by changhao
+						if (teamid != null && teamid > startteamid) //娴犲骸绱戞慨瀣絿 by changhao
 						{
 							Team team = new Team(teamid, true);
 							
-							if (!checkTeamFull(team.getTeamInfo())) //闃熶紞婊′簡 by changhao
+							if (!checkTeamFull(team.getTeamInfo())) //闂冪喍绱炲鈥茬啊 by changhao
 							{
 								continue;
 							}
 							
-							if (!checkLevel(teammatch, level)) //绛夌骇涓嶇鍚? by changhao
+							if (!checkLevel(teammatch, level)) //缁涘楠囨稉宥囶儊閸�? by changhao
 							{
 								continue;								
 							}
 									
-							if (curnum >= num || curnum >= TeamManager.MAX_MATCH_LIST_COUNT) //鏈?澶ф暟閲忛檺鍒? by changhao
+							if (curnum >= num || curnum >= TeamManager.MAX_MATCH_LIST_COUNT) //閺�?婢堆勬殶闁插繘妾洪崚? by changhao
 							{
 								break;
 							}
@@ -160,8 +160,8 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 	}
 	
 	/**
-	 * 蹇呴』鍦≒rocedure閲屾墽琛? 鍒涘缓涓?涓槦浼嶇殑鍩烘湰淇℃伅 by changhao
-	 * leaderid 蹇呴』鏄槦浼嶇殑闃熼暱 by changhao
+	 * 韫囧懘銆忛崷鈮抮ocedure闁插本澧界悰? 閸掓稑缂撴稉?娑擃亪妲︽导宥囨畱閸╃儤婀版穱鈩冧紖 by changhao
+	 * leaderid 韫囧懘銆忛弰顖炴Е娴煎秶娈戦梼鐔兼毐 by changhao
 	 */		
 	public TeamInfoBasic newTeamInfoBasic(long teamid, xbean.TeamMatch teammatch, xbean.TeamInfo teaminfo)
 	{	
@@ -175,7 +175,7 @@ public class CRequestTeamMatchList extends __CRequestTeamMatchList__ {
 		teamInfoBasic.maxlevel = teammatch.getLevelmax();
 		teamInfoBasic.membernum = teaminfo.getMembers().size() + 1;
 		teamInfoBasic.teamid = teamid;
-		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //琛ㄨ繕娌℃湁瑕佸湪琛ㄩ噷鍙? by changhao 
+		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //鐞涖劏绻曞▽鈩冩箒鐟曚礁婀悰銊╁櫡閸�? by changhao 
 		teamInfoBasic.targetid = teammatch.getTargetid();
 		
 		return teamInfoBasic;

@@ -33,19 +33,19 @@ public class Dispatch extends __Dispatch__ {
 			p.setConnection(this.getConnection());
 			p.setContext(this);
 			if(Gs.isShutDown.get())
-				return;//如果正在关闭，则不接受任何协议了
+				return;//濡傛灉姝ｅ湪鍏抽棴锛屽垯涓嶆帴鍙椾换浣曞崗璁簡
 			
 			if(logger.isDebugEnabled())
 				logger.debug(new StringBuilder("Recv : class=").append(p.getClass().getName()).append(" size=").append(octstram.size()));
 			
-			//地图协议
+			//鍦板浘鍗忚
 			if(fire.pb.scene.MapThread.getInstance().tryAdd(p,stub2))
 				return;
 			
-			//如果是登陆协议，需要缓存一下再执行
+			//濡傛灉鏄櫥闄嗗崗璁紝闇�瑕佺紦瀛樹竴涓嬪啀鎵ц
 			if(EnterWorldThread.getInstance().tryAdd(p))
 				return;
-			//摆摊协议
+			//鎽嗘憡鍗忚
 			if(fire.pb.shop.srv.market.MarketThread.getInstance().tryAdd(p))
 				return;
 			

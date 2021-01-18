@@ -12,7 +12,7 @@ abstract class __CFormationMakeBook__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鍒朵綔鍏夌幆涔?
+ * 閸掓湹缍旈崗澶屽箚娑�?
  * @author changhao
  *
  */
@@ -33,20 +33,20 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (config == null)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:涓嶇煡閬撶殑鍏夌幆涔? "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:娑撳秶鐓￠柆鎾舵畱閸忓骞嗘稊? "+roleid);
 					return true;
 				}
 				
 				if (config.getItemtypeid() == TeamManager.ITEMTYPE_FORMBOOK_ID)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:涓嶇煡閬撶殑鍏夌幆涔? "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:娑撳秶鐓￠柆鎾舵畱閸忓骞嗘稊? "+roleid);
 					return true;					
 				}
 					
 				fire.pb.common.SCommon itemidconfig = ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(TeamManager.FORMBOOKHALF_COMMON_ID);
 				
-				String str = itemidconfig.getValue(); //寰楀埌娈嬪嵎鐨勯亾鍏穒d by changhao
+				String str = itemidconfig.getValue(); //瀵版鍩屽▓瀣祹閻ㄥ嫰浜鹃崗绌抎 by changhao
 				int itemid = Integer.parseInt(str);
 				
 				Bag bag = new Bag(roleid, false);
@@ -55,7 +55,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if(number != TeamManager.FORMBOOKHALF_COMBINE_NUM){
 					
 					psend(roleid, new STeamError(TeamError.FormBookHalfNotEnough));
-					TeamManager.logger.debug("CFormationMakeBook:鍏夌幆涔︽畫鍗蜂笉瓒? "+roleid);		
+					TeamManager.logger.debug("CFormationMakeBook:閸忓骞嗘稊锔界暙閸楄渹绗夌搾? "+roleid);		
 					return false;
 				}				
 				
@@ -64,7 +64,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (1 != added)
 				{
 					psend(roleid, new STeamError(TeamError.UnkownError));
-					TeamManager.logger.debug("CFormationMakeBook:鍏夌幆涔﹀垱寤哄け璐? "+roleid);	
+					TeamManager.logger.debug("CFormationMakeBook:閸忓骞嗘稊锕�鍨卞鍝勩亼鐠�? "+roleid);	
 					return false;						
 				}				
 				*/

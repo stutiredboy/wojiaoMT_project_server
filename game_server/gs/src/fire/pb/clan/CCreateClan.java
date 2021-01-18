@@ -40,7 +40,7 @@ public class CCreateClan extends __CCreateClan__ {
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
 		}
-		//闇?瑕佸睆钄?$绗﹀彿锛屽叕鍛婂彂閫佸埌鑱婂ぉ涓嶈兘鏈?$绗﹀彿
+		//闂�?鐟曚礁鐫嗛拕?$缁楋箑褰块敍灞藉彆閸涘﹤褰傞柅浣稿煂閼卞﹤銇夋稉宥堝厴閺�?$缁楋箑褰�
 		if(clanaim.contains("$")){
 			MessageMgr.sendMsgNotify(roleid, 145025, null);
 			return;
@@ -48,7 +48,7 @@ public class CCreateClan extends __CCreateClan__ {
 		int chineseCnt = 0;
 		int otherCnt = 0;
 		for (int i = 0; i < clanname.length(); i++) {
-			// 鍖归厤姹夊瓧
+			// 閸栧綊鍘ゅЧ澶婄摟
 			String regexStr = CheckName.getRegexStr();
 			if (clanname.substring(i, i + 1).matches(regexStr)) {
 				chineseCnt++;

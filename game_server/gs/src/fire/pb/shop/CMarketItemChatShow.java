@@ -39,7 +39,7 @@ public class CMarketItemChatShow extends __CMarketItemChatShow__ {
 				long excuteTime = endTime - beginTime;
 				if (excuteTime > 50) {
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("灞曠ず瑙﹀彂瀹氫綅鎷嶅崠娴忚閬撳叿鐢ㄦ椂锛?").append(excuteTime).append("姣");
+					sbd.append("鐏炴洜銇氱憴锕�褰傜�规矮缍呴幏宥呭礌濞村繗顫嶉柆鎾冲徔閻€劍妞傞敍?").append(excuteTime).append("濮ｎ偆顫�");
 					fire.pb.shop.srv.market.MarketManager.LOG.error(sbd.toString());
 				}
 				return true;

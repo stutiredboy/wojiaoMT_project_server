@@ -28,12 +28,12 @@ public class CReqGoto extends __CReqGoto__ {
 			return;
 		}
 		
-		Team temp = TeamManager.selectTeamByRoleId(roleid); //鏈夐槦浼嶄笉琛? by 鏈鸿醇鐨刢hanghao
+		Team temp = TeamManager.selectTeamByRoleId(roleid); //閺堝妲︽导宥勭瑝鐞�? by 閺堥缚閱囬惃鍒anghao
 		if(temp != null && temp.isNormalMember(roleid) ){
 			return;
 		}
-		if(mapid==fire.pb.clan.ClanUtils.MAPID){ //濡傛灉鏄府娲惧湴鍥? by 鏈烘櫤鍙堟満璐肩殑changhao
-			//甯淳鍦板浘璺宠浆
+		if(mapid==fire.pb.clan.ClanUtils.MAPID){ //婵″倹鐏夐弰顖氬簻濞叉儳婀撮崶? by 閺堢儤娅ら崣鍫熸簚鐠愯偐娈慶hanghao
+			//鐢喗娣抽崷鏉挎禈鐠哄疇娴�
 			fire.pb.clan.ClanUtils.enterClanMap(roleid, xpos, ypos);
 			return;
 		}

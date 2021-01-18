@@ -23,7 +23,7 @@ public class CUseSceneSkill extends __CUseSceneSkill__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		//绠?鍗曢獙璇?
+		//缁�?閸楁洟鐛欑拠?
 		if(aimtype == PSceneSkill.GOAL_SELF_PET)
 		{
 			aimid = xtable.Properties.selectFightpetkey(roleId);
@@ -43,7 +43,7 @@ public class CUseSceneSkill extends __CUseSceneSkill__ {
 		SceneSkillConfig skillconfig = fire.pb.skill.Module.getInstance().getSceneSkillConfig(skillid);
 		if(skillconfig == null)
 		{
-			Module.logger.error("ERROR: 鎶?鑳戒笉瀛樺湪. roleId = "+roleId+", skillId = " + skillid);
+			Module.logger.error("ERROR: 閹�?閼虫垝绗夌�涙ê婀�. roleId = "+roleId+", skillId = " + skillid);
 			return;
 		}
 		new PSceneSkill(roleId, skillid, aimid, aimtype).submit();

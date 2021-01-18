@@ -12,7 +12,7 @@ abstract class __CGrabMonthCardRewardAll__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 棰嗗彇鏈堝崱濂栧姳 by changhao
+ * 妫板棗褰囬張鍫濆幢婵傛牕濮� by changhao
  *
  */
 public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
@@ -35,12 +35,12 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 				if (monthcard != null)
 				{
 					boolean grab = fire.pb.fushi.MonthCardManager.getInstance().IsGrabReward(roleid, monthcard.getGrabtime());
-					if (grab == true) //宸茬粡棰嗗彇杩囧鍔变簡 by changhao
+					if (grab == true) //瀹歌尙绮℃０鍡楀絿鏉╁洤顨涢崝鍙樼啊 by changhao
 					{
 						return false;
 					}
 					
-					//鍙互棰嗗彇濂栧姳 by changhao
+					//閸欘垯浜掓０鍡楀絿婵傛牕濮� by changhao
 					{
 						xbean.Properties prop = xtable.Properties.select(roleid);
 						if (prop == null)
@@ -50,7 +50,7 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 						
 						fire.pb.item.Pack bag = (fire.pb.item.Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
 
-						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
+						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //閻愮懓宕遍張宥呭閸�? by changhao
 						{
 							java.util.Map<Integer, fire.pb.fushi.SMonthCardConfigDayPay> config = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.fushi.SMonthCardConfigDayPay.class);
 							for (fire.pb.fushi.SMonthCardConfigDayPay e : config.values())
@@ -59,7 +59,7 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 								{
 									java.util.Map<String, Object> paras = new java.util.HashMap<String, Object>(10);
 									paras.put(fire.pb.activity.award.RewardMgr.ROLE_LEVEL, prop.getLevel());
-									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "鏈堝崱濂栧姳");										
+									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "閺堝牆宕辨總鏍уС");										
 								}
 								else if (e.getType() == 0)
 								{
@@ -67,14 +67,14 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 									{
 										fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 										
-										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "鏈堝崱濂栧姳", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}
 									}
 									else
 									{
-										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "鏈堝崱濂栧姳", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}
@@ -91,7 +91,7 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 								{
 									java.util.Map<String, Object> paras = new java.util.HashMap<String, Object>(10);
 									paras.put(fire.pb.activity.award.RewardMgr.ROLE_LEVEL, prop.getLevel());
-									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "鏈堝崱濂栧姳");										
+									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "閺堝牆宕辨總鏍уС");										
 								}
 								else if (e.getType() == 0)
 								{
@@ -99,14 +99,14 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 									{
 										fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 										
-										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "鏈堝崱濂栧姳", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}
 									}
 									else
 									{
-										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "鏈堝崱濂栧姳", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}

@@ -17,7 +17,7 @@ public class MDestroyDynamicScene extends __MDestroyDynamicScene__ {
 		if (scenetype == fire.pb.move.DynamicSceneType.DREAMLAND_SCENE) {
 			for (Long roleid : roleids) 
 			if (fire.pb.mission.Module.getInstance().hasUnfinishedFairylandMission(roleid)>0) {
-				     //鍓湰閿?姣佹椂寮鸿璺宠浆鐨勭洰鐨勫湴鑲畾涓嶆槸姊﹀,瑕侀?氱煡瀹㈡埛绔?
+				     //閸擃垱婀伴柨?濮ｄ焦妞傚楦款攽鐠哄疇娴嗛惃鍕窗閻ㄥ嫬婀撮懖顖氱暰娑撳秵妲稿锕�顣�,鐟曚線?姘辩叀鐎广垺鍩涚粩?
 					fire.pb.mission.SFairylandStatus sds = new fire.pb.mission.SFairylandStatus();
 					sds.status = fire.pb.mission.FairylandStatus.LANDABSENT;
 					if (mkdb.Transaction.current()==null) 
@@ -25,7 +25,7 @@ public class MDestroyDynamicScene extends __MDestroyDynamicScene__ {
 					else 
 						mkdb.Procedure.psendWhileCommit(roleid, sds);
 				
-			}else {//娌℃湁姊﹀浠诲姟
+			}else {//濞屸剝婀佸锕�顣ㄦ禒璇插
 				fire.pb.mission.SFairylandStatus sds = new fire.pb.mission.SFairylandStatus();
 				sds.status = fire.pb.mission.FairylandStatus.LANDOUT;
 				if (mkdb.Transaction.current()==null) 

@@ -26,13 +26,13 @@ public class GAddUserScreen extends __GAddUserScreen__ {
 		if(reqRole == null || addRole == null)
 			return;
 		if(reqRole.getScene().getSceneID() != addRole.getScene().getSceneID())
-			return;//涓嶅湪鍚屼竴鍦烘櫙涓峚dd
+			return;//娑撳秴婀崥灞肩閸︾儤娅欐稉宄歞d
 		MapConfig mapcfg = ConfigManager.getInstance().getConf(MapConfig.class).get(reqRole.getScene().getMapID());
 		if(mapcfg == null)
 			return;
-		if(mapcfg.getVisibletype() == 1)//鑷繁鍙
+		if(mapcfg.getVisibletype() == 1)//閼奉亜绻侀崣顖濐潌
 			return;
-		if(mapcfg.getVisibletype() == 2)//灏忛槦鍙
+		if(mapcfg.getVisibletype() == 2)//鐏忓繘妲﹂崣顖濐潌
 		{
 			final long reqteamid = reqRole.getTeamID();
 			final long addteamid = addRole.getTeamID();

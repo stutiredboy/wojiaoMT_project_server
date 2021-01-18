@@ -12,7 +12,7 @@ abstract class __CGetFirstPayReward__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鑾峰彇棣栧啿濂栧姳
+ * 閼惧嘲褰囨＃鏍у暱婵傛牕濮�
  * @author changhao
  *
  */

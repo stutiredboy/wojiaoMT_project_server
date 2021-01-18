@@ -40,10 +40,10 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 				if (clanInfo == null || !clanInfo.getMembers().containsKey(roleid)) {
 					return false;
 				}
-				//鍒ゆ柇鏉冮檺锛屽彧鏈夊府鍔╁拰鍓府涓诲彲浠?
+				//閸掋倖鏌囬弶鍐閿涘苯褰ч張澶婂簻閸斺晛鎷伴崜顖氬簻娑撹褰叉禒?
 				if (clanInfo.getClanmaster() != roleid && clanInfo.getClanvicemaster() != roleid) {
-					// 涓嶆槸浼氶暱涔熶笉鏄壇浼氶暱
-					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160243, null);//鍙湁浼氶暱鎴栧壇浼氶暱鎷ユ湁閫夋嫨鏉冮檺
+					// 娑撳秵妲告导姘舵毐娑旂喍绗夐弰顖氬娴兼岸鏆�
+					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160243, null);//閸欘亝婀佹导姘舵毐閹存牕澹囨导姘舵毐閹枫儲婀侀柅澶嬪閺夊啴妾�
 					return false;
 				}
 				if(selecttype!=fire.pb.clan.PClanMedicItem.SELECT_BASE
@@ -51,21 +51,21 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 					return false;
 				}
 				
-				//鍏細璧勯噾涓嶈冻锛屾棤娉曚娇鐢ㄦ鍔熻兘
+				//閸忣兛绱扮挧鍕櫨娑撳秷鍐婚敍灞炬￥濞夋洑濞囬悽銊︻劃閸旂喕鍏�
 				int level = clanInfo.getHouse().get(fire.pb.clan.srv.ClanManage.DrugStone);
 				fire.pb.clan.SClanDrugstore drugstone =  fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.clan.SClanDrugstore.class).get(level);
 				if (drugstone == null){
 					return false;
 				}
-				//鎸夎鍒欓殢鏈鸿嵂鍝?
+				//閹稿顫夐崚娆撴閺堥缚宓傞崫?
 				int cost=0;
-				if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_THREE){//涓夊?嶄骇鑽?
-					//鍒ゆ柇璧勯噾甯細璧勯噾鏄惁澶?
+				if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_THREE){//娑撳?宥勯獓閼�?
+					//閸掋倖鏌囩挧鍕櫨鐢喕绱扮挧鍕櫨閺勵垰鎯佹径?
 					cost=drugstone.getTrimoney();
-				}else if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_DOUBLE){//2鍊嶄骇鑽?
+				}else if(selecttype==fire.pb.clan.PClanMedicItem.SELECT_DOUBLE){//2閸婂秳楠囬懡?
 					cost=drugstone.getDoublemoney();
 				}
-				//鍒ゆ柇璧勯噾甯細璧勯噾鏄惁澶?
+				//閸掋倖鏌囩挧鍕櫨鐢喕绱扮挧鍕櫨閺勵垰鎯佹径?
 				if(clanInfo.getMoney()<cost){
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160244, null);
 					return false;
@@ -92,8 +92,8 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 				sRequestSelectType.selecttype=selecttype;
 				gnet.link.Onlines.getInstance().send(roleid, sRequestSelectType);
 				
-				//鎻愮ず褰撳叕浼氱帺瀹跺垏鎹㈡椂锛岃皟鐢ㄥ鎴风鎻愮ず琛↖D锛?160442锛屽弬鏁?1涓虹帺瀹跺悕绉帮紝鍙傛暟2涓哄綋鍓嶄骇鑽ā寮忋??
-				// 閫氱煡鍏細涓殑鍏勫紵
+				//閹绘劗銇氳ぐ鎾冲彆娴兼氨甯虹�硅泛鍨忛幑銏℃閿涘矁鐨熼悽銊ヮ吂閹撮顏幓鎰仛鐞涒問D閿�?160442閿涘苯寮弫?1娑撹櫣甯虹�硅泛鎮曠粔甯礉閸欏倹鏆�2娑撳搫缍嬮崜宥勯獓閼筋垱膩瀵繈??
+				// 闁氨鐓￠崗顑跨窗娑擃厾娈戦崗鍕吹
 				PropRole memberProp = new PropRole(roleid, true);
 				MessageMgr.psendMsgNotifyWhileCommit(clanInfo.getMembers().keySet(), 160442, 0,Arrays.asList(memberProp.getName(),getTypeName(selecttype)));
 				
@@ -105,18 +105,18 @@ public class CRequestSelectType extends __CRequestSelectType__ {
 	}
 	
 	/**
-	 * 鑾峰緱浜ц嵂绫诲瀷  287涓ゅ??    288涓夊??  289姝ｅ父
+	 * 閼惧嘲绶辨禍褑宓傜猾璇茬��  287娑撱倕??    288娑撳??  289濮濓絽鐖�
 	 * @param type
 	 * @return
 	 */
 	public static String getTypeName(int type){
 		String name="";
 		if(type==fire.pb.clan.PClanMedicItem.SELECT_THREE){
-			name=StringConstant.ID2String("涓夊??",288);
+			name=StringConstant.ID2String("娑撳??",288);
 		}else if(type==fire.pb.clan.PClanMedicItem.SELECT_DOUBLE){
-			name=StringConstant.ID2String("涓ゅ??",287);
+			name=StringConstant.ID2String("娑撱倕??",287);
 		}else{
-			name=StringConstant.ID2String("姝ｅ父",289);
+			name=StringConstant.ID2String("濮濓絽鐖�",289);
 		}
 		return name;
 	}

@@ -13,7 +13,7 @@ abstract class __CRequestSetTeamLevel__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璁剧疆闃熶紞绛夌骇
+ * 鐠佸墽鐤嗛梼鐔剁礊缁涘楠�
  * @author changhao
  *
  */
@@ -36,13 +36,13 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
+				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isTeamLeader(leaderRoleId))
-					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鏄槦浼嶇殑闃熼暱
+					return true;//妤犲矁鐦夌拠銉潡閼瑰弶妲搁崥锕佺箷閺勵垶妲︽导宥囨畱闂冪喖鏆�
 				Long[] roleids = new Long[1];
 				roleids[0] = leaderRoleId;
 				this.lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK,(Object[])roleids));
@@ -50,23 +50,23 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 				
 				if(!checkOnline(leaderRoleId))
 				{
-					//璁剧疆鑰呬笉鍦ㄧ嚎锛坕llegal锛?
-					TeamManager.logger.debug("FAIL:璁剧疆鑰呬笉鍦ㄧ嚎,roleid: " + leaderRoleId);
+					//鐠佸墽鐤嗛懓鍛瑝閸︺劎鍤庨敍鍧昹legal閿�?
+					TeamManager.logger.debug("FAIL:鐠佸墽鐤嗛懓鍛瑝閸︺劎鍤�,roleid: " + leaderRoleId);
 				}
 				else if(!checkSetedLevelValid(minlevel, maxlevel))
 				{
-					//璁剧疆鐨勭瓑绾т笉鍚堟硶锛坕llegal锛?
-					TeamManager.logger.debug("FAIL:璁剧疆鐨勭瓑绾т笉鍚堟硶,minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
+					//鐠佸墽鐤嗛惃鍕搼缁狙傜瑝閸氬牊纭堕敍鍧昹legal閿�?
+					TeamManager.logger.debug("FAIL:鐠佸墽鐤嗛惃鍕搼缁狙傜瑝閸氬牊纭�,minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
 				}
 				else
 				{
-					TeamManager.logger.debug("SUCC:鍙互璁剧疆闃熶紞绛夌骇瑕佹眰, minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
+					TeamManager.logger.debug("SUCC:閸欘垯浜掔拋鍓х枂闂冪喍绱炵粵澶岄獓鐟曚焦鐪�, minlevel: " + minlevel + " ;maxlevel: "+maxlevel);
 					team.getTeamInfo().setMinlevel(minlevel);
 					team.getTeamInfo().setMaxlevel(maxlevel);
 					SSetTeamLevel sSetTeamLevel = new SSetTeamLevel();
 					sSetTeamLevel.minlevel = minlevel;
 					sSetTeamLevel.maxlevel = maxlevel;					
-					mkdb.Procedure.psendWhileCommit(team.getTeamBroadcastSet(), sSetTeamLevel);//缇ゅ彂闃熶紞绛夌骇闇?姹傚彉鏇?
+					mkdb.Procedure.psendWhileCommit(team.getTeamBroadcastSet(), sSetTeamLevel);//缂囥倕褰傞梼鐔剁礊缁涘楠囬棁?濮瑰倸褰夐弴?
 				}
 				return true;
 			}
@@ -74,7 +74,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 		setTeamLevelP.submit();
 	}
 
-	//璁剧疆鑰呭湪绾匡紵鍙兘鍦≒rocedure涓璋冪敤
+	//鐠佸墽鐤嗛懓鍛躬缁惧尅绱甸崣顏囧厴閸︹墥rocedure娑擃叀顫︾拫鍐暏
 	private boolean checkOnline(long roleId)
 	{
 		if(StateCommon.isOnline(roleId))
@@ -83,7 +83,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			return false;
 	}	
 	
-	// 璁剧疆鑰呮槸涓?涓槦浼嶇殑闃熼暱锛熷彧鑳藉湪Procedure涓璋冪敤
+	// 鐠佸墽鐤嗛懓鍛Ц娑�?娑擃亪妲︽导宥囨畱闂冪喖鏆遍敍鐔峰涧閼宠棄婀狿rocedure娑擃叀顫︾拫鍐暏
 	@SuppressWarnings("unused")
 	private boolean checkLeaderInTeam(long leaderRoleId,Team team)
 	{
@@ -93,7 +93,7 @@ public class CRequestSetTeamLevel extends __CRequestSetTeamLevel__ {
 			return false;
 	}
 	
-	//璁剧疆鐨勭瓑绾у悎娉曪紵鍙兘鍦≒eocedure涓璋冪敤
+	//鐠佸墽鐤嗛惃鍕搼缁狙冩値濞夋洩绱甸崣顏囧厴閸︹墥eocedure娑擃叀顫︾拫鍐暏
 	private boolean checkSetedLevelValid(int minLevel,int maxLevel)
 	{
 		if(minLevel > maxLevel)

@@ -27,15 +27,15 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 		new mkdb.Procedure() {
 
 			public boolean process() {
-				//鍦ㄦ澶勮缃槑闆锋?狽PC鐨勫潗鏍囦綅缃?
+				//閸︺劍顒濇径鍕啎缂冾喗妲戦梿閿�?鐙絇C閻ㄥ嫬娼楅弽鍥︾秴缂�?
 				if (teamnum > 0) {
-					//闇?瑕佺粍闃?
+					//闂�?鐟曚胶绮嶉梼?
 					fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 					if (null == team || !team.isTeamLeader(roleid)) {
 						fire.pb.talk.MessageMgr.psendMsgNotifyWhileRollback(roleid, 140273, npcid, null);
 						return false;
 					}
-					// 鍏ㄩ槦姝ｅ父鐘舵?佹垚鍛? 鍔犻攣
+					// 閸忋劑妲﹀锝呯埗閻樿埖?浣瑰灇閸�? 閸旂娀鏀�
 					final java.util.List<Long> members = team.getNormalMemberIds();
 					this.lock(xtable.Locks.ROLELOCK, members);
 
@@ -72,7 +72,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 						sqinfo.setDstnpckey(npckey);
 						sqinfo.setDstx(posx);
 						sqinfo.setDsty(posy);
-						sqinfo.setBigaward(posx1); //鍋囧潗鏍?
+						sqinfo.setBigaward(posx1); //閸嬪洤娼楅弽?
 						sqinfo.setSmallaward(posy1);
 						sqinfo.setLastgiveuptime(0);
 						sqinfo.setQuestid(questid);
@@ -82,7 +82,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 						sqinfo.setQuestclass(CircTaskClass.CircTask_CatchIt);
 						
 						if (questtype == circTask.specialtask) {
-							//楝肩帇浠诲姟鐩存帴璁剧疆涓烘渶鍚庝竴杞?
+							//妤濊偐甯囨禒璇插閻╁瓨甯寸拋鍓х枂娑撶儤娓堕崥搴濈鏉�?
 							sqinfo.setRound(circTask.getRing() + 1);
 						}
 						else {
@@ -100,11 +100,11 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 						else
 							CircleTaskManager.getInstance().refresh2role(sqinfo, rid, false);
 					}
-					// 寮?鍚畾鏃跺櫒
+					// 瀵�?閸氼垰鐣鹃弮璺烘珤
 					CatchItQuest.addCatchItQuestTimer(roleid, questid, questinfo.getId());
 				}
 				else {
-					//涓嶉渶瑕佺粍闃?
+					//娑撳秹娓剁憰浣虹矋闂�?
 					final long now = Calendar.getInstance().getTimeInMillis();
 					xbean.CircleTaskMap questMap = xtable.Rolecircletask.get(roleid);
 					if (null == questMap) {
@@ -123,7 +123,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 					sqinfo.setDstnpckey(npckey);
 					sqinfo.setDstx(posx);
 					sqinfo.setDsty(posy);
-					sqinfo.setBigaward(posx1); //鍋囧潗鏍?
+					sqinfo.setBigaward(posx1); //閸嬪洤娼楅弽?
 					sqinfo.setSmallaward(posy1);
 					sqinfo.setLastgiveuptime(0);
 					sqinfo.setQuestid(questid);
@@ -141,7 +141,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 					}
 					else {
 						if (questtype == SpecialQuestType.CatchIt_Increase) {
-							//楝肩帇浠诲姟鐩存帴璁剧疆涓烘渶鍚庝竴杞?
+							//妤濊偐甯囨禒璇插閻╁瓨甯寸拋鍓х枂娑撶儤娓堕崥搴濈鏉�?
 							sqinfo.setRound(circTask.getRing() + 1);
 						}
 						else {
@@ -155,7 +155,7 @@ public class MCreateNpcForCatchIt extends __MCreateNpcForCatchIt__ {
 					
 					sqinfo.setTakequesttime(now);
 					sqinfo.setAcceptquesttime(now);
-					// 寮?鍚畾鏃跺櫒
+					// 瀵�?閸氼垰鐣鹃弮璺烘珤
 					CatchItQuest.addCatchItQuestTimer(roleid, questid, sqinfo.getId());
 					if (firsttime == 1)
 						CircleTaskManager.getInstance().refresh2role(sqinfo, roleid, true);

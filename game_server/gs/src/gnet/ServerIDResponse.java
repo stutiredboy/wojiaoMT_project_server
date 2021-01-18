@@ -48,7 +48,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
             	}
             }
         } catch (SQLException ex1) {
-        	fire.log.Module.logger.error("SQL鎵ц鏈夐棶棰橈紒");
+        	fire.log.Module.logger.error("SQL閹笛嗩攽閺堝妫舵０姗堢磼");
         	ex1.printStackTrace();
         } finally {
         	if (rs != null) {
@@ -75,7 +75,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 			//
 			if (fire.pb.PropConf.ServerId.ServerId != 0) {
 				Integer id = Integer.parseInt(serverId);
-				// 鏍￠獙fire.pb.PropConf.ServerId.ServerId
+				// 閺嶏繝鐛檉ire.pb.PropConf.ServerId.ServerId
 				if (fire.pb.PropConf.ServerId.ServerId != id) {
 					fire.log.Module.logger.error("fire.pb.PropConf.ServerId.ServerId:" + fire.pb.PropConf.ServerId.ServerId
 							+ " != ServerIDResponse.serverId:" + id);
@@ -83,7 +83,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 							new javax.management.ObjectName("bean:name=stopper"),
 							new javax.management.Attribute("StopTime", 0));
 				}
-				// 鏍￠獙fire.pb.main.Gs.serverid
+				// 閺嶏繝鐛檉ire.pb.main.Gs.serverid
 				if (fire.pb.main.Gs.serverid.equals(serverId) == false) {
 					fire.log.Module.logger.error("fire.pb.main.Gs.serverid:" + fire.pb.main.Gs.serverid
 							+ " != ServerIDResponse.serverId:" + serverId);
@@ -121,7 +121,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 						testMysqlConnect();
 					}
 				});	
-				 // 鍒涘缓璇翠笉寰楀ぇ甯堢┖闂存暟鎹?
+				 // 閸掓稑缂撶拠缈犵瑝瀵版銇囩敮鍫⑩敄闂傚瓨鏆熼幑?
 				fire.pb.friends.Module Module = new fire.pb.friends.Module();
 		      Module.createXsh(Long.MAX_VALUE);
 			}
@@ -132,7 +132,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 			fire.log.Module.logger.info("Gs.isYingyongbao=" + fire.pb.main.Gs.isYingyongbao);
 		} catch (Exception e) {
 			e.printStackTrace();
-			fire.log.Module.logger.error("Mysql杩炴帴鏈夐棶棰橈紒璇风‘瀹氶厤缃苟妫?鏌ョ綉缁滐紒灏嗗叧闂湇鍔″櫒.");
+			fire.log.Module.logger.error("Mysql鏉╃偞甯撮張澶愭６妫版﹫绱掔拠椋庘�樼�规岸鍘ょ純顔艰嫙濡�?閺屻儳缍夌紒婊愮磼鐏忓棗鍙ч梻顓熸箛閸斺�虫珤.");
         	try{
         		ManagementFactory.getPlatformMBeanServer().setAttribute(new javax.management.ObjectName("bean:name=stopper"),
 					new javax.management.Attribute("StopTime", 1));

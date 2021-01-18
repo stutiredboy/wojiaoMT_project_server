@@ -12,7 +12,7 @@ abstract class __CGetClanFightList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 寰楀埌甯細鎴樼殑瀵规垬琛? by changhao
+ * 瀵版鍩岀敮顔荤窗閹存娈戠�佃鍨悰? by changhao
  */
 public class CGetClanFightList extends __CGetClanFightList__ {
 	@Override

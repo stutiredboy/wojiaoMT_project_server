@@ -16,7 +16,7 @@ abstract class __CConfirmImpExam__ extends mkio.Protocol { }
 public class CConfirmImpExam extends __CConfirmImpExam__ {
 	@Override
 	protected void process() {
-		//杩欎釜protocal鍦ㄥ叏鏉戠粺鑰?,鍏ㄧ渷缁熻??,鍏ㄥ浗缁熻?冮兘浼氱敤鍒?.
+		//鏉╂瑤閲減rotocal閸︺劌鍙忛弶鎴犵埠閼�?,閸忋劎娓风紒鐔�??,閸忋劌娴楃紒鐔�?鍐厴娴兼氨鏁ら崚?.
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid >0){
 			new PConfirmProc(roleid, impexamtype, operate).submit();

@@ -17,12 +17,12 @@ abstract class __CSetTeamLeader__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璁剧疆闃熼暱
+ * 鐠佸墽鐤嗛梼鐔兼毐
  * @author changhao
  *
  */
 public class CSetTeamLeader extends __CSetTeamLeader__ {
-	private long now = 0L;//procedure寮?濮嬫椂淇濆瓨涓?涓綋鍓嶆椂闂达紝淇濊瘉姝rocedure涓椂闂寸殑缁熶竴鎬?
+	private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃亜缍嬮崜宥嗘闂傝揪绱濇穱婵婄槈濮濐槚rocedure娑擃厽妞傞梻瀵告畱缂佺喍绔撮幀?
 	
 	Team team;
 	@Override
@@ -41,15 +41,15 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(oldLeaderRoleId);
-				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
+				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isTeamLeader(oldLeaderRoleId))
-					return true;//楠岃瘉鍘熼槦闀挎槸鍚﹁繕鏄槦浼嶇殑闃熼暱
+					return true;//妤犲矁鐦夐崢鐔兼Е闂�鎸庢Ц閸氾箒绻曢弰顖炴Е娴煎秶娈戦梼鐔兼毐
 				if(!team.isInTeam(newLeaderRoleId))
-					return true;//楠岃瘉鏂伴槦闀挎槸鍚﹀湪闃熶紞涓?
+					return true;//妤犲矁鐦夐弬浼存Е闂�鎸庢Ц閸氾箑婀梼鐔剁礊娑�?
 				Long[] roleids = new Long[2];
 				if(oldLeaderRoleId < newLeaderRoleId)
 				{
@@ -72,35 +72,35 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 
 				if(!checkLeaderOnline(oldLeaderRoleId))
 				{
-					//鐢宠鑰呬笉鍦ㄧ嚎锛坕llegal锛?
-					TeamManager.logger.debug("FAIL:鐢宠鑰呬笉鍦ㄧ嚎,LeaderID: " +oldLeaderRoleId);
+					//閻㈠疇顕懓鍛瑝閸︺劎鍤庨敍鍧昹legal閿�?
+					TeamManager.logger.debug("FAIL:閻㈠疇顕懓鍛瑝閸︺劎鍤�,LeaderID: " +oldLeaderRoleId);
 				}
 				else if(!checkTeamStatusValid(team))
 				{
-					//闃熶紞澶勪簬涓嶅彲浠ユ崲闃熼暱鐨勭姸鎬侊紙鎴樻枟涓笉鑳芥崲闃熼暱锛?(illegal)
-					TeamManager.logger.debug("FAIL:闃熶紞澶勪簬涓嶅彲浠ユ崲闃熼暱鐨勭姸鎬侊紙渚嬪椋炶銆佹垬鏂楋級,teamId: " +teamId);
+					//闂冪喍绱炴径鍕艾娑撳秴褰叉禒銉﹀床闂冪喖鏆遍惃鍕Ц閹緤绱欓幋妯绘灍娑擃厺绗夐懗鑺ュ床闂冪喖鏆遍敍?(illegal)
+					TeamManager.logger.debug("FAIL:闂冪喍绱炴径鍕艾娑撳秴褰叉禒銉﹀床闂冪喖鏆遍惃鍕Ц閹緤绱欐笟瀣洤妞嬬偠顢戦妴浣瑰灛閺傛绱�,teamId: " +teamId);
 				}
 				else if(!checkTeamNotInSwitchStatus(team))
 				{
-					//闃熶紞澶勪簬鏇存崲闃熼暱鐢宠鐘舵??
+					//闂冪喍绱炴径鍕艾閺囧瓨宕查梼鐔兼毐閻㈠疇顕悩鑸�??
 					//psend(oldLeaderRoleId, new STeamError(TeamError.InChangeLeaderStatus));
 					fire.pb.talk.MessageMgr.psendMsgNotify(oldLeaderRoleId, 141210, null);
-					TeamManager.logger.debug("FAIL:闃熶紞澶勪簬鏇存崲闃熼暱鐢宠鐘舵??,teamId: " +teamId);
+					TeamManager.logger.debug("FAIL:闂冪喍绱炴径鍕艾閺囧瓨宕查梼鐔兼毐閻㈠疇顕悩鑸�??,teamId: " +teamId);
 				}
 				else if(!checkTeamNoSuccSwitchIn2min(team))
 				{
-					//闃熶紞2鍒嗛挓鍐呮垚鍔熸洿鎹㈣繃闃熼暱
+					//闂冪喍绱�2閸掑棝鎸撻崘鍛灇閸旂喐娲块幑銏ｇ箖闂冪喖鏆�
 					//psend(oldLeaderRoleId, new STeamError(TeamError.ChangeLeaderInCD));
 					fire.pb.talk.MessageMgr.psendMsgNotify(oldLeaderRoleId, 141209, null);
-					TeamManager.logger.debug("FAIL:闃熶紞2鍒嗛挓鍐呮垚鍔熸洿鎹㈣繃闃熼暱,teamId: " +teamId);
+					TeamManager.logger.debug("FAIL:闂冪喍绱�2閸掑棝鎸撻崘鍛灇閸旂喐娲块幑銏ｇ箖闂冪喖鏆�,teamId: " +teamId);
 				}
 				else if(!checkNewLeaderNormal(team, newLeaderRoleId))
 				{
-					//鏂伴槦闀夸笉澶勪簬姝ｅ父鐘舵??(鏆傜銆佺绾跨瓑鐘舵??)锛坕llgal锛?
+					//閺備即妲﹂梹澶哥瑝婢跺嫪绨锝呯埗閻樿埖??(閺嗗倻顬囬妴浣侯瀲缁捐法鐡戦悩鑸�??)閿涘潟llgal閿�?
 					psend(newLeaderRoleId, new STeamError(TeamError.MembersNotNormal));
-					TeamManager.logger.debug("FAIL:鏂伴槦闀夸笉澶勪簬姝ｅ父鐘舵??,newLeaderRoleId: " +newLeaderRoleId);
+					TeamManager.logger.debug("FAIL:閺備即妲﹂梹澶哥瑝婢跺嫪绨锝呯埗閻樿埖??,newLeaderRoleId: " +newLeaderRoleId);
 				}
-				else if(StateCommon.isTrusteeshipState(newLeaderRoleId)) //濡傛灉鍦ㄦ柊闃熼暱鍦ㄦ墭绠＄姸鎬佷腑 by changhao
+				else if(StateCommon.isTrusteeshipState(newLeaderRoleId)) //婵″倹鐏夐崷銊︽煀闂冪喖鏆遍崷銊﹀缁狅紕濮搁幀浣疯厬 by changhao
 				{
 					fire.pb.talk.MessageMgr.psendMsgNotify(oldLeaderRoleId, 160408, null);
 				}
@@ -109,17 +109,17 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 					BuffAgent buffagent = new BuffRoleImpl(newLeaderRoleId);
 					if (!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM_LEADER))
 					{
-						// 鏂伴槦闀垮浜庝笉鑳藉綋闃熼暱鐨勭姸鎬?
-						TeamManager.logger.debug("FAIL:鏂伴槦闀垮浜庝笉鑳藉綋闃熼暱鐨勭姸鎬?,newLeaderRoleId: " + newLeaderRoleId);
+						// 閺備即妲﹂梹鍨槱娴滃簼绗夐懗钘夌秼闂冪喖鏆遍惃鍕Ц閹�?
+						TeamManager.logger.debug("FAIL:閺備即妲﹂梹鍨槱娴滃簼绗夐懗钘夌秼闂冪喖鏆遍惃鍕Ц閹�?,newLeaderRoleId: " + newLeaderRoleId);
 					} else
 					{
-						TeamManager.logger.debug("SUCC:鍙互鍙戝嚭鏇存崲闃熼暱閭?璇?,teamId: " + teamId);
+						TeamManager.logger.debug("SUCC:閸欘垯浜掗崣鎴濆毉閺囧瓨宕查梼鐔兼毐闁�?鐠�?,teamId: " + teamId);
 						team.getTeamInfo().setSwitchleaderid(newLeaderRoleId);
 						team.getTeamInfo().setSwitchleadertime(now);
 						SAskforSetLeader sAskforSetLeader = new SAskforSetLeader();
 						sAskforSetLeader.leaderid = oldLeaderRoleId;
 						
-						TeamManager.getInstance().delTeamMatch(oldLeaderRoleId); //浜ゆ崲闃熼暱绂诲紑鍖归厤 by changhao
+						TeamManager.getInstance().delTeamMatch(oldLeaderRoleId); //娴溿倖宕查梼鐔兼毐缁傝绱戦崠褰掑帳 by changhao
 						
 						psendWhileCommit(oldLeaderRoleId, new SRequestSetLeaderSucc(newLeaderRoleId));
 						psendWhileCommit(newLeaderRoleId, sAskforSetLeader);
@@ -134,13 +134,13 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 		
 	}
 
-	// 妫?娴婸VP
+	// 濡�?濞村└VP
 	private static int checkPvP(long oldLeaderRoleId, long newLeaderRoleId) {
-		// 閲嶆柊璁剧疆闃熼暱
+		// 闁插秵鏌婄拋鍓х枂闂冪喖鏆�
 		return fire.pb.battle.pvp.PvPTeamHandle.onSetTeamLeader(oldLeaderRoleId, newLeaderRoleId);
 	}
 
-//	// 鐢宠鑰呮槸涓?涓槦浼嶇殑闃熼暱锛熷彧鑳藉湪Procedure涓璋冪敤
+//	// 閻㈠疇顕懓鍛Ц娑�?娑擃亪妲︽导宥囨畱闂冪喖鏆遍敍鐔峰涧閼宠棄婀狿rocedure娑擃叀顫︾拫鍐暏
 //	private boolean checkOldLeaderInTeam(long leaderRoleId,Team team)
 //	{
 //		if(team.getTeamInfo().getTeamleaderid() == leaderRoleId)
@@ -149,7 +149,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 //			return false;
 //	}
 	
-	// 鐢宠鑰呭湪绾??鍙兘鍦≒rocedure涓璋冪敤
+	// 閻㈠疇顕懓鍛躬缁�??閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -158,7 +158,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			return false;
 	}
 	
-	//闃熶紞澶勪簬鍙互鎹㈤槦闀跨殑鐘舵?侊紵锛堥琛岋紝鎴樻枟涓笉鑳芥崲闃熼暱锛岃繕鏈夊叾浠栫姸鎬佸悧锛燂級
+	//闂冪喍绱炴径鍕艾閸欘垯浜掗幑銏ゆЕ闂�璺ㄦ畱閻樿埖?渚婄吹閿涘牓顥ｇ悰宀嬬礉閹存ɑ鏋熸稉顓濈瑝閼宠姤宕查梼鐔兼毐閿涘矁绻曢張澶婂従娴犳牜濮搁幀浣告偋閿涚噦绱�
 	private boolean checkTeamStatusValid(Team team)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(team.getTeamLeaderId());
@@ -166,7 +166,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 		return conflictId == 0;
 	}
 	
-	//闃熶紞涓嶅浜庢洿鎹㈤槦闀跨敵璇风姸鎬侊紵
+	//闂冪喍绱炴稉宥咁槱娴滃孩娲块幑銏ゆЕ闂�璺ㄦ暤鐠囬濮搁幀渚婄吹
 	private boolean checkTeamNotInSwitchStatus(Team team)
 	{
 		if(team.getTeamInfo().getSwitchleaderid() == -1)
@@ -180,7 +180,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			return false;
 	}
 	
-	//闃熶紞2鍒嗛挓鍐呮湭鏇存崲杩囬槦闀匡紵
+	//闂冪喍绱�2閸掑棝鎸撻崘鍛弓閺囧瓨宕叉潻鍥Е闂�鍖＄吹
 	private boolean checkTeamNoSuccSwitchIn2min(Team team)
 	{
 		if((now - team.getTeamInfo().getSuccessswitchtime()) > TeamManager.MIN_SUCCESS_SWITCH_LEADER_PERIOD )
@@ -189,7 +189,7 @@ public class CSetTeamLeader extends __CSetTeamLeader__ {
 			return false;
 	}
 	
-	//鏂伴槦闀垮浜庢甯哥姸鎬侊紵鍙兘鍦≒rocedure涓璋冪敤
+	//閺備即妲﹂梹鍨槱娴滃孩顒滅敮鍝ュЦ閹緤绱甸崣顏囧厴閸︹墥rocedure娑擃叀顫︾拫鍐暏
 	private boolean checkNewLeaderNormal(Team team, long memberRoleId)
 	{
 		for(xbean.TeamMember member: team.getTeamInfo().getMembers())

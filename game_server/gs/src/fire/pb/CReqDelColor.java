@@ -16,7 +16,7 @@ public class CReqDelColor extends __CReqDelColor__ {
 	public static final Logger logger = Logger.getLogger("SYSTEM");
 	@Override
 	protected void process() {
-//		鍒犻櫎琛ｆ煖閰嶈壊鏂规
+//		閸掔娀娅庣悰锝嗙厲闁板秷澹婇弬瑙勵攳
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
@@ -37,7 +37,7 @@ public class CReqDelColor extends __CReqDelColor__ {
 //				SReqDelColor sReqDelColor=new SReqDelColor();
 //				gnet.link.Onlines.getInstance().send(roleid, sReqDelColor);
 				CReqColorRoomView.sendColorRoomInfo(roleid);
-				logger.info("瑙掕壊id "+roleid+"鍒犻櫎琛ｆ┍鐨勬煋鑹叉柟妗? "+removeindex);
+				logger.info("鐟欐帟澹奿d "+roleid+"閸掔娀娅庣悰锝嗏攳閻ㄥ嫭鐓嬮懝鍙夋煙濡�? "+removeindex);
 				return true;
 			}
 		}.submit();

@@ -30,7 +30,7 @@ public class CReqQuestion extends __CReqQuestion__ {
 			return false;
 //		if (xtable.Properties.select(roleid).getLevel() < 10)
 //			return false;
-		// TODO:闇?瑕佸垽鏂帺瀹跺拰npc鐨勪綅缃叧绯诲悧锛?
+		// TODO:闂�?鐟曚礁鍨介弬顓犲负鐎硅泛鎷皀pc閻ㄥ嫪缍呯純顔煎彠缁鎮ч敍?
 		
 		
 		return true;

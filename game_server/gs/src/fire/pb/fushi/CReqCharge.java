@@ -12,7 +12,7 @@ abstract class __CReqCharge__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璇锋眰鍏呭??
+ * 鐠囬攱鐪伴崗鍛�??
  * @author changhao
  *
  */

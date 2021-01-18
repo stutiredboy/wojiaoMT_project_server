@@ -29,7 +29,7 @@ abstract class __MEnterScene__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 /**
- * 浜虹墿涓婄嚎锛屽満鏅鐞嗗畬姣曞悗鍚戦?昏緫鍙戞娑堟伅
+ * 娴滆櫣澧挎稉濠勫殠閿涘苯婧�閺咁垰顦╅悶鍡楃暚濮ｆ洖鎮楅崥鎴�?鏄忕帆閸欐垶顒濆☉鍫熶紖
  * 
  */
 public class MEnterScene extends __MEnterScene__ {
@@ -42,23 +42,23 @@ public class MEnterScene extends __MEnterScene__ {
 			role = RoleManager.getInstance().createRole(roleid,sceneid, posx, posy);
 		}
 		
-		//浜虹墿涓婄嚎锛岄槦浼嶇浉鍏筹紙鏇存柊瑙掕壊闃熶紞淇℃伅锛夛紝鍥犱负閫昏緫闃熶紞鐨勪俊鎭渚濊禆鍦板浘闃熶紞淇℃伅锛屾墍浠ュ湪鍏朵箣鍚庡鐞嗭紝鍥犱负鍏朵腑瑕侀攣闃熶紞閿侊紝鎵?浠ュ紓姝ュ鐞?
+		//娴滆櫣澧挎稉濠勫殠閿涘矂妲︽导宥囨祲閸忕绱欓弴瀛樻煀鐟欐帟澹婇梼鐔剁礊娣団剝浼呴敍澶涚礉閸ョ姳璐熼柅鏄忕帆闂冪喍绱為惃鍕繆閹垵顩︽笟婵婄閸︽澘娴橀梼鐔剁礊娣団剝浼呴敍灞惧娴犮儱婀崗鏈电閸氬骸顦╅悶鍡礉閸ョ姳璐熼崗鏈佃厬鐟曚線鏀ｉ梼鐔剁礊闁夸緤绱濋幍?娴犮儱绱撳銉ヮ槱閻�?
 		new fire.pb.team.PRoleOnline(roleid).submit();
 		
 		
-		//鍓湰澶勭悊
+		//閸擃垱婀版径鍕倞
 		new fire.pb.instancezone.PRoleOnline(roleid,sceneid).submit();
 		
 //		new fire.pb.mission.instance.PRoleOnline(roleid, sceneid).submit();
 		
-		//灏忓湴鍥句笂鍙戦?佸姩鎬佺敓鎴愮殑npc
+		//鐏忓繐婀撮崶鍙ョ瑐閸欐垿?浣稿З閹胶鏁撻幋鎰畱npc
 		fire.pb.timer.AbstractScheduledActivity.sendActivityNpcToMiniMap(sceneid, roleid);
 		
-		//褰撳墠澶勪簬鎶曠エ涓?   瑙掕壊娌℃湁鎶曠エ杩? 瑙掕壊绛夌骇澶т簬30绾у埆
+		//瑜版挸澧犳径鍕艾閹舵洜銈ㄦ稉?   鐟欐帟澹婂▽鈩冩箒閹舵洜銈ㄦ潻? 鐟欐帟澹婄粵澶岄獓婢堆傜艾30缁狙冨焼
 		xbean.Properties prop =  xtable.Properties.select(roleid);
 		Integer curlevel = prop.getLevel();
 
-		//鍚屾huobansize鍒癛ole
+		//閸氬本顒瀐uobansize閸掔櫅ole
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() throws Exception {
@@ -72,7 +72,7 @@ public class MEnterScene extends __MEnterScene__ {
 
 		
 		fire.pb.mission.Module.getInstance().enterWorldOK(role.getRoleID());
-		//鏅哄姏璇曠粌妫?娴?
+		//閺呭搫濮忕拠鏇犵矊濡�?濞�?
 		if(ImpExamManager.getInstance().isInImpExamTime() != -1 && curlevel>=20){
 			ImpExamManager.getInstance().roleLoginCheck(roleid);
 		}
@@ -98,19 +98,19 @@ public class MEnterScene extends __MEnterScene__ {
 			    BingFengLandMgr.getInstance().sendAfterEnterBingFengLand(roleid, true);
 		}
 		
-		//涓婄嚎鎻愰啋鎺ㄩ??
+		//娑撳﹦鍤庨幓鎰板晪閹恒劑??
 		TuiSongNotifyManager.getInstance().roleLogin(roleid);
 		
-		//绀煎寘鎻愰啋
+		//缁�鐓庡瘶閹绘劙鍟�
 		GiftBagMgr.getInstance().roleLogin(roleid, curlevel);
 		
-		//鍐犲啗璇曠偧涓婄嚎鎷変汉
-		//杩欓噷澶勭悊涓?涓嬪啝鍐涜瘯鐐肩殑涓婄嚎鎷変汉
+		//閸愮姴鍟楃拠鏇犲仹娑撳﹦鍤庨幏澶夋眽
+		//鏉╂瑩鍣锋径鍕倞娑�?娑撳鍟濋崘娑滅槸閻愯偐娈戞稉濠勫殠閹峰姹�
 		if (curlevel >= WinnerManager.MIN_LEVEL) {
 			WinnerManager.getInstance().sendWinnerCallPlayer(roleid);
 		}
 		
-		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //宸ヤ細鎴樿鑹蹭笂绾? by changhao	
+		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //瀹搞儰绱伴幋妯款潡閼硅弓绗傜痪? by changhao	
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

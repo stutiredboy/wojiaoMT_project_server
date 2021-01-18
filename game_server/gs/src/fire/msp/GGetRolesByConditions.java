@@ -28,7 +28,7 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 		if(limitnum == -1)
 			limitnum = Integer.MAX_VALUE;
 		if(sceneid != -1)
-		{//浼樺厛鎸夊満鏅储寮?
+		{//娴兼ê鍘涢幐澶婃簚閺咁垳鍌ㄥ?
 			Scene scene = SceneManager.getInstance().getSceneByID(sceneid);
 			if (scene == null)
 			{
@@ -51,7 +51,7 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 			}
 		}
 		else if(schoolid != -1)
-		{//鎸夐棬娲剧储寮?
+		{//閹稿妫ú鍓у偍瀵�?
 			Set<Long> schoolroles = RoleManager.getInstance().getSchoolRoles(schoolid);
 			for(long sroleId :  schoolroles)
 			{
@@ -67,7 +67,7 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 			}
 		}
 		else
-		{//鍏ㄩ亶鍘嗚繃婊ょ瓑绾?
+		{//閸忋劑浜堕崢鍡氱箖濠娿倗鐡戠痪?
 			for(Role role : RoleManager.getInstance().getRoles().values())
 			{
 				if(minlevel != -1 && role.getLevel() < minlevel)
@@ -97,12 +97,12 @@ public class GGetRolesByConditions extends __GGetRolesByConditions__ {
 //	
 //	static class PGetRolesByConditions extends xdb.Procedure
 //	{
-//		private IGetRolesCallBack callback2; // 鍥炶皟Id
-//		private int schoolid2; // 闂ㄦ淳ID锛屽鏋滄棤闄愬埗濉?-1
-//		private int minlevel2; // 鏈?灏忕瓑绾э紝濡傛灉鏃犻檺鍒跺～-1
-//		private int maxlevel2; // 鏈?澶х瓑绾э紝濡傛灉鏃犻檺鍒跺～-1
-//		private long sceneid2; // 鍦烘櫙ID锛屽鏋滄棤闄愬埗濉?-1
-//		private int limitnum2; // 闄愬埗涓暟锛屾棤闄愬埗濉?-1
+//		private IGetRolesCallBack callback2; // 閸ョ偠鐨烮d
+//		private int schoolid2; // 闂傘劍娣矷D閿涘苯顩ч弸婊勬￥闂勬劕鍩楁繅?-1
+//		private int minlevel2; // 閺�?鐏忓繒鐡戠痪褝绱濇俊鍌涚亯閺冪娀妾洪崚璺猴綖-1
+//		private int maxlevel2; // 閺�?婢堆呯搼缁狙嶇礉婵″倹鐏夐弮鐘绘閸掕泛锝�-1
+//		private long sceneid2; // 閸︾儤娅橧D閿涘苯顩ч弸婊勬￥闂勬劕鍩楁繅?-1
+//		private int limitnum2; // 闂勬劕鍩楁稉顏呮殶閿涘本妫ら梽鎰煑婵�?-1
 //		public PGetRolesByConditions(int schoolid, int minlevel, int maxlevel, long sceneid, int limitnum, IGetRolesCallBack callback)
 //		{
 //			this.callback2 = callback;

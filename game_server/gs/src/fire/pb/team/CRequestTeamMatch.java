@@ -18,7 +18,7 @@ abstract class __CRequestTeamMatch__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鍔犲叆鍖归厤
+ * 閸旂姴鍙嗛崠褰掑帳
  * @author changhao
  *
  */
@@ -32,23 +32,23 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 		mkdb.Procedure requestteammatch = new mkdb.Procedure()
 		{
 			@Override
-			/*鍔犻攣椤哄簭 team->roleid->match by changhao*/
+			/*閸旂娀鏀ｆい鍝勭碍 team->roleid->match by changhao*/
 			protected boolean process()
 			{	
-				if (!checkLevel()) //妫?鏌ョ瓑绾? by changhao
+				if (!checkLevel()) //濡�?閺屻儳鐡戠痪? by changhao
 				{
 					psend(roleid, new STeamError(TeamError.LevelError));
-					TeamManager.logger.debug("FAIL:CRequestTeamMatch鍖归厤绛夌骇璁剧疆閿欒 "+roleid);
+					TeamManager.logger.debug("FAIL:CRequestTeamMatch閸栧綊鍘ょ粵澶岄獓鐠佸墽鐤嗛柨娆掝嚖 "+roleid);
 					return true;					
 				}
 				
-				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //閻愮懓宕遍張宥呭閸�? by changhao
 				{
 					DSTeamMatchInfo config = ConfigManager.getInstance().getConf(DSTeamMatchInfo.class).get(targetid);
 					if (config == null)
 					{
 						psend(roleid, new STeamError(TeamError.NoTarget));
-						TeamManager.logger.debug("FAIL:CRequestTeamMatch:鐩爣ID閿欒 "+roleid);
+						TeamManager.logger.debug("FAIL:CRequestTeamMatch:閻╊喗鐖D闁挎瑨顕� "+roleid);
 						return true;					
 					}						
 				}
@@ -58,13 +58,13 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 					if (config == null)
 					{
 						psend(roleid, new STeamError(TeamError.NoTarget));
-						TeamManager.logger.debug("FAIL:CRequestTeamMatch:鐩爣ID閿欒 "+roleid);
+						TeamManager.logger.debug("FAIL:CRequestTeamMatch:閻╊喗鐖D闁挎瑨顕� "+roleid);
 						return true;					
 					}					
 				}
 				
 				Long clanfightid = xtable.Roleid2clanfightid.select(roleid);
-				if (clanfightid != null)//鍏細鎴樺満涓笉鑳借嚜鍔ㄥ尮閰? by changhao
+				if (clanfightid != null)//閸忣兛绱伴幋妯烘簚娑擃厺绗夐懗鍊熷殰閸斻劌灏柊? by changhao
 				{ 
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 410040, null);
 					return true;
@@ -77,18 +77,18 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 				final java.util.ArrayList<Long> roleids = new java.util.ArrayList<Long>();
 				if(teamid != null)
 				{
-					team = TeamManager.getTeamByTeamID(teamid);	//鏈夐槦鍏堟妸闃熶紞閿佷綇 by changhao
+					team = TeamManager.getTeamByTeamID(teamid);	//閺堝妲﹂崗鍫熷Ω闂冪喍绱為柨浣风秶 by changhao
 					
 					if (!team.isTeamLeader(roleid))
 					{
 						psend(roleid, new STeamError(TeamError.SelfNOtLeader));
-						TeamManager.logger.debug("FAIL:CRequestTeamMatch:涓嶆槸闃熼暱涓嶈兘鑷姩鍖归厤 "+roleid);
+						TeamManager.logger.debug("FAIL:CRequestTeamMatch:娑撳秵妲搁梼鐔兼毐娑撳秷鍏橀懛顏勫З閸栧綊鍘� "+roleid);
 						return true;						
 					}
 					else if (team.getTeamInfo().getMembers().size() >= TeamManager.MAX_MEMBER_COUNT)
 					{
 						psend(roleid, new STeamError(TeamError.TeamFull));
-						TeamManager.logger.debug("FAIL:CRequestTeamMatch:闃熶紞婊′簡 "+roleid);
+						TeamManager.logger.debug("FAIL:CRequestTeamMatch:闂冪喍绱炲鈥茬啊 "+roleid);
 						return true;						
 					}
 					
@@ -96,7 +96,7 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 					team.getTeamInfo().setMinlevel(levelmin);
 					team.getTeamInfo().setMaxlevel(levelmax);
 					
-					//閿佹墍鏈変汉  by changhao
+					//闁夸焦澧嶉張澶夋眽  by changhao
 					roleids.addAll(team.getAllMemberIds());
 					this.lock(xtable.Locks.ROLELOCK, roleids);
 				}
@@ -109,42 +109,42 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 				if (teamid != roleidteamId)
 				{
 					psend(roleid, new STeamError(TeamError.UnkownError));
-					TeamManager.logger.debug("FAIL:CRequestTeamMatch:闃熶紞ID鏈夊彉鍖? "+roleid);
+					TeamManager.logger.debug("FAIL:CRequestTeamMatch:闂冪喍绱濱D閺堝褰夐崠? "+roleid);
 					return true;
 				}
 				
-				if (!checkTeamState(team, roleid)) //妫?鏌ラ槦浼嶇姸鎬? by changhao
+				if (!checkTeamState(team, roleid)) //濡�?閺屻儵妲︽导宥囧Ц閹�? by changhao
 				{
 					psend(roleid, new STeamError(TeamError.TeamStateError));
-					TeamManager.logger.debug("FAIL:CRequestTeamMatch缁勯槦鍖归厤瀹㈡埛绔湇鍔″櫒涓嶅悓姝? "+roleid);
+					TeamManager.logger.debug("FAIL:CRequestTeamMatch缂佸嫰妲﹂崠褰掑帳鐎广垺鍩涚粩顖涙箛閸斺�虫珤娑撳秴鎮撳? "+roleid);
 					return true;
 				}
 				
-				if (!checkTeamMemberNum(team)) //妫?鏌ラ槦浼嶄汉鏁? by changhao
+				if (!checkTeamMemberNum(team)) //濡�?閺屻儵妲︽导宥勬眽閺�? by changhao
 				{
 					psend(roleid, new STeamError(TeamError.TeamEnoughFull));
-					TeamManager.logger.debug("FAIL:CRequestTeamMatch闃熶紞宸茬粡缁勬弧 "+roleid);
+					TeamManager.logger.debug("FAIL:CRequestTeamMatch闂冪喍绱炲鑼病缂佸嫭寮� "+roleid);
 					return true;												
 				}
 				
-				if (!checkFaction(roleid)) //妫?鏌ラ棬娲? by changhao
+				if (!checkFaction(roleid)) //濡�?閺屻儵妫ú? by changhao
 				{
 					psend(roleid, new STeamError(TeamError.NoFaction));
-					TeamManager.logger.debug("FAIL:CRequestTeamMatch娌℃湁宸ヤ細 "+roleid);
+					TeamManager.logger.debug("FAIL:CRequestTeamMatch濞屸剝婀佸銉ょ窗 "+roleid);
 					return true;					
 				}
 				
-				if (!checkActiveTime()) //妫?鏌ユ椿鍔ㄥ紑鏀炬椂闂? by changhao
+				if (!checkActiveTime()) //濡�?閺屻儲妞块崝銊ョ磻閺�鐐闂�? by changhao
 				{
 					psend(roleid, new STeamError(TeamError.ActiveNotOpen));
-					TeamManager.logger.debug("FAIL:CRequestTeamMatch娲诲姩鏈紑鏀? "+roleid);
+					TeamManager.logger.debug("FAIL:CRequestTeamMatch濞茶濮╅張顏勭磻閺�? "+roleid);
 					return true;						
 				}
 				
 				/*if (fire.pb.buff.Module.existState(roleid,
 						BuffConstant.StateType.STATE_INSTANCE_ZONE)) {
 					psend(roleid, new STeamError(TeamError.SelfInUnteamState));
-					TeamManager.logger.debug("FAIL:鍦ㄥ壇鏈腑鍟? "+roleid);
+					TeamManager.logger.debug("FAIL:閸︺劌澹囬張顑胯厬閸�? "+roleid);
 					return true;
 				}*/
 
@@ -152,7 +152,7 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 					return true;
 				}
 
-				addTeamMatch(roleid, roleidteamId); //鍔犱竴涓尮閰嶅埌琛? by changhao
+				addTeamMatch(roleid, roleidteamId); //閸旂姳绔存稉顏勫爱闁板秴鍩岀悰? by changhao
 								
 				SRequestTeamMatch msg = new SRequestTeamMatch();
 				msg.levelmin = levelmin;
@@ -187,7 +187,7 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 		TeamManager.getInstance().addTeamMatch(teammatch, teamid);			
 	}
 	
-	private boolean checkTeamState(Team team, long roleid) //妫?鏌ョ粍闃熺姸鎬佸拰瀹㈡埛绔槸鍚﹀尮閰? by changhao
+	private boolean checkTeamState(Team team, long roleid) //濡�?閺屻儳绮嶉梼鐔哄Ц閹礁鎷扮�广垺鍩涚粩顖涙Ц閸氾箑灏柊? by changhao
 	{
 		if (this.typematch == 0 && team == null)
 		{			
@@ -203,7 +203,7 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 		return false;
 	}
 	
-	private boolean checkLevel() //妫?鏌ョ瓑绾х浉鍏抽敊璇? by changhao
+	private boolean checkLevel() //濡�?閺屻儳鐡戠痪褏娴夐崗鎶芥晩鐠�? by changhao
 	{
 		if (this.levelmin > this.levelmax)
 		{
@@ -215,30 +215,30 @@ public class CRequestTeamMatch extends __CRequestTeamMatch__ {
 			return false;
 		}
 		
-		//鍙栬〃鏁版嵁妫?鏌ユ槸鍚﹁寖鍥村唴 by changhao
+		//閸欐牞銆冮弫鐗堝祦濡�?閺屻儲妲搁崥锕佸瘱閸ユ潙鍞� by changhao
 		
 		return true;
 	}
 	
-	private boolean checkTeamMemberNum(Team team) //妫?鏌ヤ汉鏁? by changhao
+	private boolean checkTeamMemberNum(Team team) //濡�?閺屻儰姹夐弫? by changhao
 	{
 		return true;	
 	}
 	
-	private boolean checkFaction(long roleid) //妫?鏌ュ叕浼氱浉鍏? by changhao
+	private boolean checkFaction(long roleid) //濡�?閺屻儱鍙曟导姘辨祲閸�? by changhao
 	{
 		return true;
 	}
 	
-	private boolean checkActiveTime() //妫?鏌ユ椿鍔ㄦ椂闂? by changhao
+	private boolean checkActiveTime() //濡�?閺屻儲妞块崝銊︽闂�? by changhao
 	{
 		
 		return true;
 	}
 
-	// 妫?娴婸VP
+	// 濡�?濞村└VP
 	private static int checkPvP(long roleId) {
-		// 璇锋眰鑷姩鍖归厤
+		// 鐠囬攱鐪伴懛顏勫З閸栧綊鍘�
 		return fire.pb.battle.pvp.PvPTeamHandle.onRequestTeamMatch(roleId);
 	}
 

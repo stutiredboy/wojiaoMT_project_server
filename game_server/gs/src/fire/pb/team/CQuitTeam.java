@@ -12,7 +12,7 @@ abstract class __CQuitTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 绂诲紑闃熶紞
+ * 缁傝绱戦梼鐔剁礊
  * @author changhao
  *
  */

@@ -11,7 +11,7 @@ abstract class __CAcceptToTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鎺ュ彈鍏ラ槦
+ * 閹恒儱褰堥崗銉╂Е
  * @author changhao
  *
  */
@@ -30,7 +30,7 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 		{
 			fire.pb.PropRole applierprop = new fire.pb.PropRole(applierRoleId, true);
 			if(applierprop.getProperties().getCruise() > 0) {
-				TeamManager.logger.info("CAcceptToTeam:鐢宠鍏ラ槦鑰?" + applierRoleId + "鍦ㄥ贰娓哥姸鎬?,姝ゆ椂涓嶈兘鐢宠鍏ラ槦");
+				TeamManager.logger.info("CAcceptToTeam:閻㈠疇顕崗銉╂Е閼�?" + applierRoleId + "閸︺劌璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴閻㈠疇顕崗銉╂Е");
 				fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162027, null);
 				fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 162026, null);
 				return;
@@ -38,17 +38,17 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 			
 			fire.pb.PropRole leaderprop = new fire.pb.PropRole(roleid, true);
 			if(leaderprop.getProperties().getCruise() > 0) {
-				TeamManager.logger.info("CAcceptToTeam:闃熶紞闃熼暱" + roleid + "鐢宠浜?" + applierRoleId + "闃熶紞闃熼暱姝ｅ湪宸℃父鐘舵??,涓嶈兘鐢宠鍏ラ槦");
+				TeamManager.logger.info("CAcceptToTeam:闂冪喍绱為梼鐔兼毐" + roleid + "閻㈠疇顕禍?" + applierRoleId + "闂冪喍绱為梼鐔兼毐濮濓絽婀鈩冪埗閻樿埖??,娑撳秷鍏橀悽瀹狀嚞閸忋儵妲�");
 				fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162026, null);
 				fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 162027, null);
 				return;
 			}				
 		}
 		
-		Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId);//濡傛灉闃熶紞鍦ㄥ叕浼氭垬鍦轰腑 by changhao
+		Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId);//婵″倹鐏夐梼鐔剁礊閸︺劌鍙曟导姘灛閸﹁桨鑵� by changhao
 		if (leaderclanfightid != null)
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//濡傛灉鐢宠鑰呭湪鍏細鎴樺満涓? by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//婵″倹鐏夐悽瀹狀嚞閼板懎婀崗顑跨窗閹存ê婧�娑�? by changhao
 			if (!leaderclanfightid.equals(applierclanfightid))
 			{
  			    fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410028,  null);
@@ -72,7 +72,7 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 		}
 		else
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//鐢宠鑰呭湪鍏細鎴樺満涓? by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//閻㈠疇顕懓鍛躬閸忣兛绱伴幋妯烘簚娑�? by changhao
 			if (applierclanfightid != null)
 			{
 				if (!applierclanfightid.equals(leaderclanfightid))

@@ -22,7 +22,7 @@ abstract class __COneKeyTeamMatch__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 涓?閿枈璇?
+ * 娑�?闁款喖鏋堢拠?
  * @author by changhao
  *
  */
@@ -33,7 +33,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		/*鍔犻攣椤哄簭 team->roleid->match by changhao*/
+		/*閸旂娀鏀ｆい鍝勭碍 team->roleid->match by changhao*/
 		mkdb.Procedure onekeyteammatch = new mkdb.Procedure()
 		{
 			@Override
@@ -51,7 +51,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 					return false;
 				}
 				
-				//濡傛灉鏄叕浼氬彂閫侊紝鐪嬬湅鏄惁鏈夊叕浼? by changhao
+				//婵″倹鐏夐弰顖氬彆娴兼艾褰傞柅渚婄礉閻婀呴弰顖氭儊閺堝鍙曟导? by changhao
 				if (channeltype == fire.pb.talk.ChannelType.CHANNEL_CLAN)
 				{
 					xbean.Properties prop = xtable.Properties.select(roleid);
@@ -72,7 +72,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				if (teamid == null)
 				{
 					psend(roleid, new STeamError(TeamError.SelfNOtLeader));
-					TeamManager.logger.error("COneKeyTeamMatch:鑷繁涓嶆槸闃熼暱 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:閼奉亜绻佹稉宥嗘Ц闂冪喖鏆� "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -80,11 +80,11 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				}
 				
 				Team team = null;
-				team = TeamManager.getTeamByTeamID(teamid);	//鏈夐槦鍏堟妸闃熶紞閿佷綇 by changhao	
+				team = TeamManager.getTeamByTeamID(teamid);	//閺堝妲﹂崗鍫熷Ω闂冪喍绱為柨浣风秶 by changhao	
 				if (!team.isTeamLeader(roleid))
 				{
 					psend(roleid, new STeamError(TeamError.SelfNOtLeader));
-					TeamManager.logger.error("COneKeyTeamMatch:鑷繁涓嶆槸闃熼暱 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:閼奉亜绻佹稉宥嗘Ц闂冪喖鏆� "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -92,13 +92,13 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				}
 				
 				teamid = xtable.Roleid2teamid.get(roleid);		
-				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //鐐瑰崱鏈嶅姟鍣? by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //閻愮懓宕遍張宥呭閸�? by changhao
 				{
 					DSTeamMatchInfo config = ConfigManager.getInstance().getConf(DSTeamMatchInfo.class).get(team.getTeamInfo().getTargetid());
 					if (config == null)
 					{
 						psend(roleid, new STeamError(TeamError.NoTarget));
-						TeamManager.logger.error("COneKeyTeamMatch:鐩爣ID閿欒 "+roleid);
+						TeamManager.logger.error("COneKeyTeamMatch:閻╊喗鐖D闁挎瑨顕� "+roleid);
 						
 						msg.ret = 1;
 						mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -111,7 +111,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 					if (config == null)
 					{
 						psend(roleid, new STeamError(TeamError.NoTarget));
-						TeamManager.logger.error("COneKeyTeamMatch:鐩爣ID閿欒 "+roleid);
+						TeamManager.logger.error("COneKeyTeamMatch:閻╊喗鐖D闁挎瑨顕� "+roleid);
 						
 						msg.ret = 1;
 						mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -139,7 +139,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				{
 					String s = String.format("%d", (int)-delta / 1000);
 					MessageMgr.sendMsgNotify(roleid, 150028, Arrays.asList(s));
-					TeamManager.logger.info("COneKeyTeamMatch:涓?閿枈璇濇椂闂撮棿闅?60绉掋?? "+roleid);
+					TeamManager.logger.info("COneKeyTeamMatch:娑�?闁款喖鏋堢拠婵囨闂傛挳妫块梾?60缁夋帇?? "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
@@ -152,7 +152,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				fire.pb.message.SStringRes msg1 = ConfigManager.getInstance().getConf(fire.pb.message.SStringRes.class).get(285);
 				if (msg1 == null)
 				{
-					TeamManager.logger.error("COneKeyTeamMatch:鎵句笉鍒板瓧绗︿覆 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:閹靛彞绗夐崚鏉跨摟缁楋缚瑕� "+roleid);
 					return false;						
 				}
 				*/
@@ -160,7 +160,7 @@ public class COneKeyTeamMatch extends __COneKeyTeamMatch__ {
 				fire.pb.message.SStringRes msg2 = ConfigManager.getInstance().getConf(fire.pb.message.SStringRes.class).get(286);
 				if (msg2 == null)
 				{
-					TeamManager.logger.error("COneKeyTeamMatch:鎵句笉鍒板瓧绗︿覆 "+roleid);
+					TeamManager.logger.error("COneKeyTeamMatch:閹靛彞绗夐崚鏉跨摟缁楋缚瑕� "+roleid);
 					
 					msg.ret = 1;
 					mkdb.Procedure.psendWhileCommit(roleid, msg);

@@ -17,7 +17,7 @@ public class CChangePointScheme extends __CChangePointScheme__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		// 鏁版嵁鍚堟硶鎬ф鏌?
+		// 閺佺増宓侀崥鍫熺《閹勵梾閺�?
 		long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId <= 0)
 			return;
@@ -30,7 +30,7 @@ public class CChangePointScheme extends __CChangePointScheme__ {
 		if (null == prop)
 			return;
 		
-		// 鍒囨崲鍔犵偣鏂规
+		// 閸掑洦宕查崝鐘靛仯閺傝顢�
 		final PChangePointProc changepoint = new PChangePointProc(roleId, schemeid);
 		changepoint.submit();
 	}

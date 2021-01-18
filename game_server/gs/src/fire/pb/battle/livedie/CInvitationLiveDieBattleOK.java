@@ -31,13 +31,13 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 	public static final Logger logger = Logger.getLogger("BATTLE");
 	@Override
 	protected void process() {
-		//纭畾鏄惁涓嬫垬涔?
+		//绾喖鐣鹃弰顖氭儊娑撳鍨稊?
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (hostid <= 0)
 			return;
 		new mkdb.Procedure() {
 			protected boolean process() throws Exception {
-				//鍒ゆ柇鐩爣鐜╁鏄惁鍦ㄧ嚎
+				//閸掋倖鏌囬惄顔界垼閻溾晛顔嶉弰顖氭儊閸︺劎鍤�
 				Role gRole = RoleManager.getInstance().getRoleByID(objectid);
 				if (gRole == null){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
@@ -48,7 +48,7 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
 					return false;
 				}
-				//濡傛灉鑷繁韬笂鏈夌敓姝绘垬绉板彿锛屼笉鑳戒笅鎴樹功
+				//婵″倹鐏夐懛顏勭箒闊偂绗傞張澶屾晸濮濈粯鍨粔鏉垮娇閿涘奔绗夐懗鎴掔瑓閹存ü鍔�
 				fire.pb.PropRole hostprole = new fire.pb.PropRole(hostid, true);
 				Role hostrole = RoleManager.getInstance().getRoleByID(hostid);
 				if(hostrole != null){
@@ -57,22 +57,22 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 						return false;
 					}
 				}
-				//杩欓噷闇?瑕佸垽鏂垜鏄惁宸茬粡涓嬭繃鎴樹功
+				//鏉╂瑩鍣烽棁?鐟曚礁鍨介弬顓熷灉閺勵垰鎯佸鑼病娑撳绻冮幋妯瑰姛
 				xbean.LiveDieRoleInfo hostliveDieRoleInfo=xtable.Livedieroleinfotab.select(hostid);
 				if(hostliveDieRoleInfo!=null){
 					if(System.currentTimeMillis()-hostliveDieRoleInfo.getInvitationtime()<LiveDieMange.getLiveDieTime()){
 						String name=new PropRole(hostliveDieRoleInfo.getObjectid(),true).getName();
 						if(objectid==hostliveDieRoleInfo.getObjectid()){
-							//鎻愮ず宸茬粡鍙戦?佽繃162073
+							//閹绘劗銇氬鑼病閸欐垿?浣界箖162073
 							fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162073, Arrays.asList(name));
 						}else{
-							//鎻愮ず宸茬粡鍙戦?佽繃162074
+							//閹绘劗銇氬鑼病閸欐垿?浣界箖162074
 							fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162074, Arrays.asList(name));
 						}
 						return false;
 					}
 				}
-				//鍒ゆ柇鎴戞槸鍚﹀凡缁忔帴鍙楄繃鍒汉鐨勬垬涔?
+				//閸掋倖鏌囬幋鎴炴Ц閸氾箑鍑＄紒蹇斿复閸欐绻冮崚顐℃眽閻ㄥ嫭鍨稊?
 				Long selfid=xtable.Livedie2key.select(hostid);
 				if(selfid!=null){
 					xbean.LiveDieRoleInfo otherLiveDieRoleInfo=xtable.Livedieroleinfotab.select(selfid);
@@ -82,13 +82,13 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 						return false;
 					}
 				}
-				//鐩爣韬笂鏈夌敓姝绘垬绉板彿锛屼笉鑳戒笅鎴樹功
+				//閻╊喗鐖ｉ煬顐＄瑐閺堝鏁撳缁樺灛缁夋澘褰块敍灞肩瑝閼虫垝绗呴幋妯瑰姛
 				fire.pb.PropRole guestprole = new fire.pb.PropRole(objectid, true);
 				if(COffTitle.isLiveDieTitle(guestprole)){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162089, null);
 					return false;
 				}
-				//鍒ゆ柇鐩爣鏄惁涓嬭繃鎴樹功
+				//閸掋倖鏌囬惄顔界垼閺勵垰鎯佹稉瀣箖閹存ü鍔�
 				xbean.LiveDieRoleInfo geustliveDieRoleInfo=xtable.Livedieroleinfotab.select(objectid);
 				if(geustliveDieRoleInfo!=null){
 					if(System.currentTimeMillis()-geustliveDieRoleInfo.getInvitationtime()<LiveDieMange.getLiveDieTime()){
@@ -97,7 +97,7 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 						return false;
 					}
 				}
-				//鐩爣鏄惁鎺ュ彈浜嗗埆浜虹殑鎴樹功
+				//閻╊喗鐖ｉ弰顖氭儊閹恒儱褰堟禍鍡楀焼娴滆櫣娈戦幋妯瑰姛
 				Long otherid=xtable.Livedie2key.select(objectid);
 				if(otherid!=null){
 					xbean.LiveDieRoleInfo otherLiveDieRoleInfo=xtable.Livedieroleinfotab.select(otherid);
@@ -113,24 +113,24 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 						}
 					}
 				}
-				//闇?瑕侀攣
+				//闂�?鐟曚線鏀�
 				List<Long> list = new ArrayList<Long>();
 				list.add(hostid);
 				list.add(objectid);
 				mkdb.Lockeys.lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK, list));
-				//鎵ｉ櫎閾跺竵
+				//閹碉綁娅庨柧璺虹
 				fire.pb.item.Pack bag = new fire.pb.item.Pack(hostid, false);
 				int cost=LiveDieMange.getLiveDieCostMoney();
 				if(bag.getMoney()<cost){
 //					MessageMgr.sendMsgNotify(hostid, 145005, null);
 					return false;
 				}
-				if (bag.subMoney(-cost, "涓嬫垬涔︽墸闄ら摱甯?", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_xiazhanshu, 0) != -cost) {
+				if (bag.subMoney(-cost, "娑撳鍨稊锔藉⒏闂勩倝鎽辩敮?", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_xiazhanshu, 0) != -cost) {
 //					MessageMgr.sendMsgNotify(hostid, 145005, null);
 					return false;
 				}
 				hostliveDieRoleInfo=xtable.Livedieroleinfotab.get(hostid);
-				//淇濆瓨鏁版嵁搴?
+				//娣囨繂鐡ㄩ弫鐗堝祦鎼�?
 				if(hostliveDieRoleInfo==null){
 					hostliveDieRoleInfo=xbean.Pod.newLiveDieRoleInfo();
 					xtable.Livedieroleinfotab.insert(hostid, hostliveDieRoleInfo);
@@ -140,12 +140,12 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 				hostliveDieRoleInfo.setInvitationtime(System.currentTimeMillis());
 				hostliveDieRoleInfo.setAcceptflag(0);
 				
-				//鎻掑叆鍏宠仈琛?
+				//閹绘帒鍙嗛崗瀹犱粓鐞�?
 				Long object=xtable.Livedie2key.get(objectid);
 				if(object==null){
 					xtable.Livedie2key.insert(objectid, hostid);
 				}else{
-					//鏃堕棿杩囨湡浜嗭紝閲嶆柊璁剧疆鍊?
+					//閺冨爼妫挎潻鍥ㄦ埂娴滃棴绱濋柌宥嗘煀鐠佸墽鐤嗛崐?
 					xtable.Livedie2key.remove(objectid);
 					xtable.Livedie2key.insert(objectid, hostid);
 				}
@@ -155,12 +155,12 @@ public class CInvitationLiveDieBattleOK extends __CInvitationLiveDieBattleOK__ {
 				sInvitationLiveDieBattleOK.selecttype=selecttype;
 				Onlines.getInstance().send(objectid, sInvitationLiveDieBattleOK);
 				
-				//鍙戦?佺郴缁熷叕鍛?
+				//閸欐垿?浣洪兇缂佺喎鍙曢崨?
 				String hostname=new PropRole(hostid,true).getName();
 				String guestname=new PropRole(objectid,true).getName();
 				MessageMgr.sendSystemMsg(162066,Arrays.asList(hostname,guestname));
 				
-				logger.info("鐢熸鎴橈紝涓嬫垬涔?,瑙掕壊id"+hostid+"\t瀵规墜id"+objectid+"\t閲戦挶鏁伴噺"+cost);
+				logger.info("閻㈢喐顒撮幋姗堢礉娑撳鍨稊?,鐟欐帟澹奿d"+hostid+"\t鐎佃澧渋d"+objectid+"\t闁叉垿鎸堕弫浼村櫤"+cost);
 				return true;
 			};
 		}.submit();

@@ -12,7 +12,7 @@ abstract class __CRequestMatchInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璇锋眰鍖归厤淇℃伅
+ * 鐠囬攱鐪伴崠褰掑帳娣団剝浼�
  * @author changhao
  *
  */

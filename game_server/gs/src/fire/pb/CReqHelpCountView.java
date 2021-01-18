@@ -24,15 +24,15 @@ public class CReqHelpCountView extends __CReqHelpCountView__ {
 		SReqHelpCountView sReqHelpCountView=new SReqHelpCountView();
 		xbean.helpcount helpcount=xtable.Helpcount.select(roleid);
 		if(helpcount!=null){
-			sReqHelpCountView.expvalue=helpcount.getExpvalue();//缁忛獙
-			sReqHelpCountView.shengwangvalue=helpcount.getShengwangvalue();//澹版湜
-			sReqHelpCountView.factionvalue=helpcount.getClanvalue();//甯础
+			sReqHelpCountView.expvalue=helpcount.getExpvalue();//缂佸繘鐛�
+			sReqHelpCountView.shengwangvalue=helpcount.getShengwangvalue();//婢圭増婀�
+			sReqHelpCountView.factionvalue=helpcount.getClanvalue();//鐢喛纭�
 			sReqHelpCountView.helpgiveitemnum=helpcount.getHelpgiveitemnum();
 			sReqHelpCountView.helpitemnum=helpcount.getHelpitemnum();
 		}
-		sReqHelpCountView.expvaluemax=fire.pb.HelpCountManage.getInstance().getExpValueMax(roleid);//缁忛獙鏈?澶у?硷紙淇敼涓鸿幏寰楃粡楠岀殑娆℃暟锛?
-		sReqHelpCountView.shengwangvaluemax=fire.pb.HelpCountManage.getInstance().getShengWangValueMax(roleid);//澹版湜鏈?澶у??
-		sReqHelpCountView.factionvaluemax=fire.pb.HelpCountManage.getInstance().getClanValueMax(roleid);//甯础鏈?澶у??
+		sReqHelpCountView.expvaluemax=fire.pb.HelpCountManage.getInstance().getExpValueMax(roleid);//缂佸繘鐛欓張?婢堆�?纭风礄娣囶喗鏁兼稉楦垮箯瀵版绮℃宀�娈戝▎鈩冩殶閿�?
+		sReqHelpCountView.shengwangvaluemax=fire.pb.HelpCountManage.getInstance().getShengWangValueMax(roleid);//婢圭増婀滈張?婢堆�??
+		sReqHelpCountView.factionvaluemax=fire.pb.HelpCountManage.getInstance().getClanValueMax(roleid);//鐢喛纭�閺�?婢堆�??
 		sReqHelpCountView.helpgiveitemnummax=fire.pb.HelpCountManage.getInstance().getHelpGiveItemNumMax(roleid);
 		sReqHelpCountView.helpitemnummax=fire.pb.HelpCountManage.getInstance().getHelpItemNumMax(roleid);
 		

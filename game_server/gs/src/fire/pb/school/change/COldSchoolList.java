@@ -21,7 +21,7 @@ public class COldSchoolList extends __COldSchoolList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 鍙戦?佽浆鑱屼俊鎭?
+				// 閸欐垿?浣芥祮閼卞奔淇婇幁?
 				SOldSchoolList send = new SOldSchoolList();
 				xbean.ChangeSchoolInfo info = xtable.Changeschool.select(roleId);
 				if (info != null) {

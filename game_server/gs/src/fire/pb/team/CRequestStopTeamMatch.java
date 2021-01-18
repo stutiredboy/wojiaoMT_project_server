@@ -12,7 +12,7 @@ abstract class __CRequestStopTeamMatch__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璇锋眰鍋滄鍖归厤
+ * 鐠囬攱鐪伴崑婊勵剾閸栧綊鍘�
  * @author changhao
  *
  */

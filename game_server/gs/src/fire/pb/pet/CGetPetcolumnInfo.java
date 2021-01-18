@@ -24,7 +24,7 @@ public class CGetPetcolumnInfo extends __CGetPetcolumnInfo__ {
 		case PetColumnTypes.DEPOT:
 			if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, roleid))
 				return;
-		case PetColumnTypes.MARKETPET: // 鎽嗘憡瀹犵墿鏍? add by liangyanpeng
+		case PetColumnTypes.MARKETPET: // 閹藉棙鎲＄�圭姷澧块弽? add by liangyanpeng
 		case PetColumnTypes.PET:
 			final PetColumn petCol = new PetColumn(roleid, columnid, true);
 			final SGetPetcolumnInfo send = new SGetPetcolumnInfo();

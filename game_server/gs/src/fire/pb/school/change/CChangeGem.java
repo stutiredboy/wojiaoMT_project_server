@@ -10,7 +10,7 @@ abstract class __CChangeGem__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
-// 濂楄鐐瑰寲
+// 婵傛顥婇悙鐟板
 public class CChangeGem extends __CChangeGem__ {
 	public static final Logger logger = Logger.getLogger("ITEM");
 	@Override
@@ -18,7 +18,7 @@ public class CChangeGem extends __CChangeGem__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		logger.error("-----------------------------濂楄鐐瑰寲--濂楄key-"+tanzhuangKey+"--娲楃粌鐭砶ey-"+xilianshiTypeId+"-----------------------------");
+		logger.error("-----------------------------婵傛顥婇悙鐟板--婵傛顥妅ey-"+tanzhuangKey+"--濞叉绮岄惌鐮秂y-"+xilianshiTypeId+"-----------------------------");
 		new PChangeGem(roleId, tanzhuangKey, xilianshiTypeId).submit();
 	}
 

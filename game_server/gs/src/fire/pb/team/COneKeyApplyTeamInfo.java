@@ -25,7 +25,7 @@ public class COneKeyApplyTeamInfo extends __COneKeyApplyTeamInfo__ {
 			{					
 				Team team = null;
 								
-				team = TeamManager.getTeamByTeamID(teamid);	//鏈夐槦鍏堟妸闃熶紞閿佷綇 by changhao	
+				team = TeamManager.getTeamByTeamID(teamid);	//閺堝妲﹂崗鍫熷Ω闂冪喍绱為柨浣风秶 by changhao	
 				if (team != null)
 				{
 					SOneKeyApplyTeamInfo msg = new SOneKeyApplyTeamInfo();

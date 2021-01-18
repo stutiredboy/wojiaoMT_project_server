@@ -15,7 +15,7 @@ abstract class __CAbsentReturnTeam__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
-//鏆傜鎴栧洖褰掗槦浼? by changhao
+//閺嗗倻顬囬幋鏍ф礀瑜版帡妲︽导? by changhao
 public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 
 	private Team team;
@@ -36,11 +36,11 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 				memberRoleId, absent);
 
 		if (absent == 1)
-		{ //濡傛灉鏆傜鐨勮瘽 by changhao
+		{ //婵″倹鐏夐弳鍌滎瀲閻ㄥ嫯鐦� by changhao
 			absentReturnTeamP.submit();
 		} 
 		/*
-		else if (absent == 2) //璇锋眰鍥炲綊(搴斿鍚屽湴鍥惧鎴风鑷姩寮?濮嬪璺棶棰?)
+		else if (absent == 2) //鐠囬攱鐪伴崶鐐茬秺(鎼存柨顕崥灞芥勾閸ユ儳顓归幋椋庮伂閼奉亜濮╁?婵顕扮捄顖炴６妫�?)
 		{
 			Long teamId = xtable.Roleid2teamid.select(memberRoleId);
 			if (teamId != null)
@@ -54,7 +54,7 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			PropRole prole = new PropRole(leaderRoleId, true);
 			SAbsentReturnTeam sendret = new SAbsentReturnTeam();		
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘褰掗槦,teamId: " + teamId);
+				TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ闂�鍖＄礆閻ㄥ嫬璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴瑜版帡妲�,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				sendret.ret = 0;
 			} else {
@@ -73,32 +73,32 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			else
 				return;
 			
-			//鏄惁鍦ㄩ槦浼嶄腑 by changhao
+			//閺勵垰鎯侀崷銊╂Е娴煎秳鑵� by changhao
 			if (!team.isInTeam(memberRoleId))
 				return;
 			
 			long leaderRoleId = team.getTeamInfo().getTeamleaderid();
 			PropRole prole = new PropRole(leaderRoleId, true);
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘褰掗槦,teamId: " + teamId);
+				TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ闂�鍖＄礆閻ㄥ嫬璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴瑜版帡妲�,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				return;
 			}
 			PropRole pmemrole = new PropRole(memberRoleId, true);
 			if(pmemrole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("闃熶紞锛堥槦鍛橈級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘褰掗槦,teamId: " + teamId);
+				TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ閸涙﹫绱氶惃鍕窗濞撳摜濮搁幀?,濮濄倖妞傛稉宥堝厴瑜版帡妲�,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160436, null);
 				return;
 			}
 			
-			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //濡傛灉闃熼暱鍦ㄥ叕浼氭垬鍦轰笉鑳藉洖褰掗槦浼? by changhao
+			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //婵″倹鐏夐梼鐔兼毐閸︺劌鍙曟导姘灛閸﹁桨绗夐懗钘夋礀瑜版帡妲︽导? by changhao
 			if (leaderclanfightid != null)
 			{
 				Long memberclanfightid = xtable.Roleid2clanfightid.select(memberRoleId);
 				if (!leaderclanfightid.equals(memberclanfightid))
 				{
-					fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 410020, null); //闃熼暱鍦ㄥ叕浼氭垬鍦哄唴閮ㄨ兘鍥炲綊 by changhao
-					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410021, null); //闃熷憳鍦ㄥ叕浼氭垬鍦哄涓嶈兘鍥炲綊 by changhao
+					fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 410020, null); //闂冪喖鏆遍崷銊ュ彆娴兼碍鍨崷鍝勫敶闁劏鍏橀崶鐐茬秺 by changhao
+					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410021, null); //闂冪喎鎲抽崷銊ュ彆娴兼碍鍨崷鍝勵樆娑撳秷鍏橀崶鐐茬秺 by changhao
 					return;
 				}
 			}
@@ -111,25 +111,25 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 				return;
 			}
 			
-			if (memberRole.getScene() == leaderRole.getScene()) //濡傛灉鍜岄槦浼嶅湪鍚屼竴涓満鏅? by changhao
+			if (memberRole.getScene() == leaderRole.getScene()) //婵″倹鐏夐崪宀勬Е娴煎秴婀崥灞肩娑擃亜婧�閺�? by changhao
 			{
-				//鎷夊埌闃熼暱閭? by changhao
+				//閹峰鍩岄梼鐔兼毐闁�? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 1);
 				go.submit();				
 				//absentReturnTeamP.submit();
 			}
 			else
 			{
-				//鎷夊埌闃熼暱閭? by changhao
+				//閹峰鍩岄梼鐔兼毐闁�? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 2);
 				go.submit();
 			}
 		}
 	}
 
-	// 妫?娴婸VP
+	// 濡�?濞村└VP
 	private static int checkPvP(long roleId, byte absent) {
-		// 鏆傜鎴栧洖褰?
+		// 閺嗗倻顬囬幋鏍ф礀瑜�?
 		return fire.pb.battle.pvp.PvPTeamHandle.onAbsentReturn(roleId, absent);
 	}
 

@@ -25,15 +25,15 @@ public class GNotifyMapPetInfo extends __GNotifyMapPetInfo__ {
 				fire.pb.scene.movable.God.createPet(showpetinfo.petkey, showpetinfo.petname, showpetinfo.petid,  showpetinfo.color, showpetinfo.bodysize,showpetinfo.showeffect);
 			
 			if(showpet.checkAllTheSame(role.getShowPet()))
-				return;//鐩哥瓑鍒欎笉鏇存柊
+				return;//閻╁摜鐡戦崚娆庣瑝閺囧瓨鏌�
 			role.setShowPet(showpet);
 		}else{
 			if(role.getShowPet() == null)
-				return;//鐩哥瓑鍒欎笉鏇存柊
+				return;//閻╁摜鐡戦崚娆庣瑝閺囧瓨鏌�
 			role.setShowPet(null);
 		}
 		
-		// 鍙戦?佺粰鍛ㄥ洿鐜╁
+		// 閸欐垿?浣虹舶閸涖劌娲块悳鈺侇啀
 		final fire.pb.pet.SShowPetAround send = new fire.pb.pet.SShowPetAround();
 		send.roleid = roleid;
 		send.showpetid = showpetinfo.petid;

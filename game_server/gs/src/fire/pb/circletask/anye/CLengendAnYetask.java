@@ -20,7 +20,7 @@ public class CLengendAnYetask extends __CLengendAnYetask__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;	
-		CircleTaskManager.logger.info("鏀跺埌浼犺浠诲姟娑堟伅.瑙掕壊[" + roleid + "]瑕佷紶璇翠綅缃?" + taskpos + "鐨勯┈鎴忓洟浠诲姟!");
+		CircleTaskManager.logger.info("閺�璺哄煂娴肩姾顕╂禒璇插濞戝牊浼�.鐟欐帟澹奫" + roleid + "]鐟曚椒绱剁拠缈犵秴缂�?" + taskpos + "閻ㄥ嫰鈹堥幋蹇撴礋娴犺濮�!");
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {

@@ -22,7 +22,7 @@ abstract class __CExpelMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璇风闃熷憳
+ * 鐠囬顬囬梼鐔锋喅
  * @author changhao
  *
  */
@@ -46,13 +46,13 @@ public class CExpelMember extends __CExpelMember__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
+				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isTeamLeader(leaderRoleId))
-					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鏄槦浼嶇殑闃熼暱
+					return true;//妤犲矁鐦夌拠銉潡閼瑰弶妲搁崥锕佺箷閺勵垶妲︽导宥囨畱闂冪喖鏆�
 				Long[] roleids = new Long[2];
 				if(leaderRoleId < expeledRoleId)
 				{
@@ -73,29 +73,29 @@ public class CExpelMember extends __CExpelMember__ {
 
 				if(!checkLeaderInTeam(leaderRoleId, team))
 				{
-					//韪汉鑰呬笉鍦ㄩ槦浼嶄腑鎴栬?呬笉鏄槦闀?(illegal)
-					TeamManager.logger.debug("FAIL:韪汉鑰呬笉鍦ㄩ槦浼嶄腑鎴栬?呬笉鏄槦闀?,韪汉鑰匢d: "+ leaderRoleId);
+					//闊澀姹夐懓鍛瑝閸︺劑妲︽导宥勮厬閹存牞?鍛瑝閺勵垶妲﹂梹?(illegal)
+					TeamManager.logger.debug("FAIL:闊澀姹夐懓鍛瑝閸︺劑妲︽导宥勮厬閹存牞?鍛瑝閺勵垶妲﹂梹?,闊澀姹夐懓鍖: "+ leaderRoleId);
 				}
 				else if(!checkLeaderOnline(leaderRoleId))
 				{
-					//TODO 韪汉鑰呬笉鍦ㄧ嚎(illegal)
-					TeamManager.logger.debug("FAIL:韪汉鑰呬笉鍦ㄧ嚎,韪汉鑰匢d: "+ leaderRoleId);
+					//TODO 闊澀姹夐懓鍛瑝閸︺劎鍤�(illegal)
+					TeamManager.logger.debug("FAIL:闊澀姹夐懓鍛瑝閸︺劎鍤�,闊澀姹夐懓鍖: "+ leaderRoleId);
 				}
 				else if(!checkExpeledIsMember(team, expeledRoleId))
 				{
-					//TODO 琚涪鑰呬笉鏄涪浜鸿?呴槦浼嶆垚鍛?(illegal)
-					TeamManager.logger.debug("FAIL:琚涪鑰呬笉鏄涪浜鸿?呴槦浼嶆垚鍛?,琚涪鑰匢d: "+ expeledRoleId);
+					//TODO 鐞氼偉娑懓鍛瑝閺勵垵娑禍楦�?鍛存Е娴煎秵鍨氶崨?(illegal)
+					TeamManager.logger.debug("FAIL:鐞氼偉娑懓鍛瑝閺勵垵娑禍楦�?鍛存Е娴煎秵鍨氶崨?,鐞氼偉娑懓鍖: "+ expeledRoleId);
 				}
 				else if(!checkTeamLeaderState(leaderRoleId))
 				{
-					//TODO 闃熶紞鐘舵?佷笉鍏佽(illegal)
-					TeamManager.logger.debug("FAIL:闃熶紞鐘舵?佷笉鍏佽,琚涪鑰匢d: "+ expeledRoleId);
+					//TODO 闂冪喍绱為悩鑸�?浣风瑝閸忎浇顔�(illegal)
+					TeamManager.logger.debug("FAIL:闂冪喍绱為悩鑸�?浣风瑝閸忎浇顔�,鐞氼偉娑懓鍖: "+ expeledRoleId);
 				}
 				else
 				{
 					team.removeTeamMemberWithSP(expeledRoleId,false);
 					
-					//鍚戣绂婚槦鑰呭彂閫佹秷鎭?
+					//閸氭垼顫︾粋濠氭Е閼板懎褰傞柅浣圭Х閹�?
 					PropRole prole = new PropRole(team.getTeamInfo().getTeamleaderid(), true);
 					List<String> name = new ArrayList<String>();
 					name.add(prole.getName());
@@ -105,9 +105,9 @@ public class CExpelMember extends __CExpelMember__ {
 					expelname.add(expelrole.getName());
 					for(long memberId : team.getAllMemberIds())
 						fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(memberId,141208,expelname);
-					TeamManager.logger.debug("SUCC:闃熶紞韪汉,琚涪鑰匢d: "+ expeledRoleId);
+					TeamManager.logger.debug("SUCC:闂冪喍绱為煪顫眽,鐞氼偉娑懓鍖: "+ expeledRoleId);
 				}
-	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //琚涪鍑洪槦浼嶅悗锛屾湁甯淳鍥涙柟宸¤浠诲姟鐨勮鑹茶璁颁换鍔″け璐?
+	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //鐞氼偉娑崙娲Е娴煎秴鎮楅敍灞炬箒鐢喗娣抽崶娑欐煙瀹嘎ゎ潒娴犺濮熼惃鍕潡閼硅尪顩︾拋棰佹崲閸斺�炽亼鐠�?
 				fire.pb.event.Poster.getPoster().dispatchEvent(new LeaveTeamSpecialQuestEvent(expeledRoleId));
 				return true;
 			}
@@ -116,13 +116,13 @@ public class CExpelMember extends __CExpelMember__ {
 		
 	}
 
-	// 妫?娴婸VP
+	// 濡�?濞村└VP
 	private static int checkPvP(long leaderRoleId, long expeledRoleId) {
-		// 璇风闃熷憳
+		// 鐠囬顬囬梼鐔锋喅
 		return fire.pb.battle.pvp.PvPTeamHandle.onExpelMember(leaderRoleId, expeledRoleId);
 	}
 	
-	// 韪汉鑰呮槸涓?涓槦浼嶇殑闃熼暱锛??鍙兘鍦≒rocedure涓璋冪敤
+	// 闊澀姹夐懓鍛Ц娑�?娑擃亪妲︽导宥囨畱闂冪喖鏆遍敍??閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
 	private boolean checkLeaderInTeam(long leaderRoleId,Team team)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -133,7 +133,7 @@ public class CExpelMember extends __CExpelMember__ {
 
 	}
 	
-	// 韪汉鑰呭湪绾??鍙兘鍦≒rocedure涓璋冪敤
+	// 闊澀姹夐懓鍛躬缁�??閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -142,7 +142,7 @@ public class CExpelMember extends __CExpelMember__ {
 			return false;
 	}
 	
-	//琚涪鑰呮槸闃熼暱闃熶紞鐨勯槦鍛橈紵鍙兘鍦≒rocedure涓璋冪敤
+	//鐞氼偉娑懓鍛Ц闂冪喖鏆遍梼鐔剁礊閻ㄥ嫰妲﹂崨姗堢吹閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
 	private boolean checkExpeledIsMember(Team team, long expeledRoleId)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -154,7 +154,7 @@ public class CExpelMember extends __CExpelMember__ {
 		return false;
 	}
 	
-	// 閭?璇疯?呯姸鎬佷笉鍏佽? 鍙兘鍦≒rocedure涓璋冪敤
+	// 闁�?鐠囩柉?鍛Ц閹椒绗夐崗浣筋啅? 閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
 	private boolean checkTeamLeaderState(long roleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(roleId);
