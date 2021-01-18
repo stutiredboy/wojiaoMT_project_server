@@ -57,6 +57,7 @@ public interface PetInfo extends mkdb.Bean {
 	public int getShenshouinccount(); // 神兽养成次数
 	public long getMarketfreezeexpire(); // 摆摊冻结截止时间,默认0不冻结
 	public java.util.Map<int, int> getEquipMap(); // 读取宠物装备
+	public int getShapeID(); // 宠物外形ID
 
 	public void setId(int _v_); // 宠物ID
 	public void setKey(int _v_); // 在宠物栏、仓库、商会柜台里的key
@@ -98,4 +99,5 @@ public interface PetInfo extends mkdb.Bean {
 	public void setShenshouinccount(int _v_); // 神兽养成次数
 	public void setMarketfreezeexpire(long _v_); // 摆摊冻结截止时间,默认0不冻结
 	public void setEquipMap(java.util.Map<int, int> _v_); // 写入宠物装备
+	public void setShapeID(int _v_); // 宠物外形ID
 }

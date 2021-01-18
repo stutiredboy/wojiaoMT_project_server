@@ -19,7 +19,7 @@ public class CPetPutOnEquip extends __CPetPutOnEquip__ {
 	protected void process() {
 		// protocol handle
 		logger.error("RECV CPetPutOnEquip-----------------\t" + pet_packkey +" --" + pet_dstpos +"--"+ petkey);
-				final long roleId=gnet.link.Onlines.getInstance().findRoleid(this);
+		final long roleId=gnet.link.Onlines.getInstance().findRoleid(this);
 		 if (roleId < 0) {
 		 	return;
 		 }

@@ -50,6 +50,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	private int shenshouinccount; // 神兽养成次数
 	private long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
 	private java.util.Map<int, int> equipMap; // 宠物装备 位置 -> 装备
+	private int shapeID; // 宠物外形ID
 
 	@Override
 	public void _reset_unsafe_() {
@@ -98,6 +99,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		shenshouinccount = 0;
 		marketfreezeexpire = 0;
 		equipMap.clear();
+		shapeID = 0;
 	}
 
 	PetInfo(int __, mkdb.XBean _xp_, String _vn_) {
@@ -118,6 +120,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		shenshouinccount = 0;
 		marketfreezeexpire = 0;
 		equipMap = new java.util.HashMap<int, int>();
+		shapeID = 0;
 	}
 
 	public PetInfo() {
@@ -191,6 +194,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		petdye2 = _o_.petdye2;
 		shenshouinccount = _o_.shenshouinccount;
 		marketfreezeexpire = _o_.marketfreezeexpire;
+		shapeID = _o_.shapeID;
 	}
 
 	private void assign(PetInfo.Data _o_) {
@@ -247,6 +251,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		petdye2 = _o_.petdye2;
 		shenshouinccount = _o_.shenshouinccount;
 		marketfreezeexpire = _o_.marketfreezeexpire;
+		shapeID = _o_.shapeID;
 	}
 
 	@Override
@@ -315,6 +320,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_os_.marshal(petdye2);
 		_os_.marshal(shenshouinccount);
 		_os_.marshal(marketfreezeexpire);
+		_os_.marshal(shapeID);
 		return _os_;
 	}
 
@@ -409,6 +415,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		petdye2 = _os_.unmarshal_int();
 		shenshouinccount = _os_.unmarshal_int();
 		marketfreezeexpire = _os_.unmarshal_long();
+		shapeID = _os_.unmarshal_int();
 		return _os_;
 	}
 
@@ -752,6 +759,11 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	public long getMarketfreezeexpire() { // 摆摊冻结截止时间,默认0不冻结
 		_xdb_verify_unsafe_();
 		return marketfreezeexpire;
+	}
+	@Override
+	public int getShapeID() {
+		_xdb_verify_unsafe_();
+		return shapeID;
 	}
 
 	@Override
@@ -1179,6 +1191,16 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 				};}});
 		marketfreezeexpire = _v_;
 	}
+	 @Override
+	public void setShapeID(int _v_) {
+		_xdb_verify_unsafe_();
+		mkdb.Logs.logIf(new mkdb.LogKey(this, "shapid") {
+			protected mkdb.Log create() {
+				return new mkdb.logs.LogInt(this, shapeID) {
+					public void rollback() { shapeID = _xdb_saved; }
+				};}});
+				shapeID = _v_;
+	}
 
 	@Override
 	public final boolean equals(Object _o1_) {
@@ -1231,6 +1253,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		if (petdye2 != _o_.petdye2) return false;
 		if (shenshouinccount != _o_.shenshouinccount) return false;
 		if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
+		if (shapeID != _o_.shapeID) return false;
 		return true;
 	}
 
@@ -1282,6 +1305,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_h_ += petdye2;
 		_h_ += shenshouinccount;
 		_h_ += marketfreezeexpire;
+		_h_ += shapeID;
 		return _h_;
 	}
 
@@ -1377,6 +1401,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_sb_.append(shenshouinccount);
 		_sb_.append(",");
 		_sb_.append(marketfreezeexpire);
+		_sb_.append(",");
+		_sb_.append(shapeID);
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -1428,6 +1454,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("petdye2"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("shenshouinccount"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("marketfreezeexpire"));
+		lb.add(new mkdb.logs.ListenableChanged().setVarName("shapid"));
 		return lb;
 	}
 
@@ -1766,6 +1793,12 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			return marketfreezeexpire;
 		}
 
+		 @Override
+		public int getShapeID() {
+			_xdb_verify_unsafe_();
+			return shapeID;
+		}
+
 		@Override
 		public void setId(int _v_) { // 宠物ID
 			_xdb_verify_unsafe_();
@@ -2001,6 +2034,12 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		}
 
 		@Override
+		public void setShapeID(int _v_) {
+			_xdb_verify_unsafe_();
+			throw new UnsupportedOperationException();
+		}
+
+		@Override
 		public mkdb.Bean toConst() {
 			_xdb_verify_unsafe_();
 			return this;
@@ -2110,6 +2149,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		private int petdye2; // 宠物染色信息部位2
 		private int shenshouinccount; // 神兽养成次数
 		private long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
+		private int shapeID; // 宠物外形ID
 
 		@Override
 		public void _reset_unsafe_() {
@@ -2132,6 +2172,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			petdye2 = 0;
 			shenshouinccount = 0;
 			marketfreezeexpire = 0;
+			shapeID = 0;
 		}
 
 		Data(xbean.PetInfo _o1_) {
@@ -2192,6 +2233,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			petdye2 = _o_.petdye2;
 			shenshouinccount = _o_.shenshouinccount;
 			marketfreezeexpire = _o_.marketfreezeexpire;
+			shapeID = 0;
 		}
 
 		private void assign(PetInfo.Data _o_) {
@@ -2245,6 +2287,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			petdye2 = _o_.petdye2;
 			shenshouinccount = _o_.shenshouinccount;
 			marketfreezeexpire = _o_.marketfreezeexpire;
+			shapeID = _o_.shapeID;
 		}
 
 		@Override
@@ -2306,6 +2349,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_os_.marshal(petdye2);
 			_os_.marshal(shenshouinccount);
 			_os_.marshal(marketfreezeexpire);
+			_os_.marshal(shapeID);
 			return _os_;
 		}
 
@@ -2385,6 +2429,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			petdye2 = _os_.unmarshal_int();
 			shenshouinccount = _os_.unmarshal_int();
 			marketfreezeexpire = _os_.unmarshal_long();
+			shapeID = _os_.unmarshal_int();
 			return _os_;
 		}
 
@@ -2661,6 +2706,11 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		}
 
 		@Override
+		public int getShapeID() {
+			return shapeID;
+		}
+
+		@Override
 		public void setId(int _v_) { // 宠物ID
 			id = _v_;
 		}
@@ -2858,10 +2908,17 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		}
 
 		@Override
+		public void setShapeID(int _v_) {
+			shapeID = _v_;
+		}
+
+		@Override
 		public void setEquipMap(java.util.HashMap<int, int> _v_) // 写入宠物装备
 		{
 			equipMap = _v_;
 		}
+
+		
 
 		@Override
 		public final boolean equals(Object _o1_) {
@@ -2912,6 +2969,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			if (shenshouinccount != _o_.shenshouinccount) return false;
 			if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
 			if (equipMap != _o_.equipMap) return false;
+			if (shapeID != _o_.shapeID) return false;
 			return true;
 		}
 
@@ -2963,6 +3021,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_h_ += shenshouinccount;
 			_h_ += marketfreezeexpire;
 			_h_ += equipMap.hashCode();
+			_h_ += shapeID;
 			return _h_;
 		}
 
@@ -3059,6 +3118,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_sb_.append(marketfreezeexpire);
 			_sb_.append(",");
 			_sb_.append(equipMap);
+			_sb_.append(",");
+			_sb_.append(shapeID);
 			_sb_.append(")");
 			return _sb_.toString();
 		}
