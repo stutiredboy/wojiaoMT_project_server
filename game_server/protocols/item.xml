@@ -527,4 +527,14 @@
 		<variable name="pet_posinpack" type="int" validator="value=[-1,)" />
 		<variable name="petkey" type="int" validator="value=[1,)" />
 	</protocol>
+	<!-- 宠物幻化 -->
+	<protocol name="CPetPutOnHuanhua" type="1367" maxsize="128"  prior="1" tolua="3"> 
+		<variable name="pet_packkey" type="int" validator="value=[1,)" />
+		<variable name="huanhuaID" type="int" validator="value=[0,)" />
+		<variable name="petkey" type="int" validator="value=[1,)" />
+	</protocol>
+	<!-- 宠物解除 -->
+	<protocol name="CPetTakeOffHuanhua" type="1368" maxsize="128"  prior="1" tolua="3"> 
+		<variable name="petkey" type="int" validator="value=[1,)" />
+	</protocol>
 </namespace>
