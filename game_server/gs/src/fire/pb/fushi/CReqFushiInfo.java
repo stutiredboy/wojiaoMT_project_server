@@ -36,11 +36,11 @@ public class CReqFushiInfo extends __CReqFushiInfo__ {
 					});
 				} 
 				else {
-					FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("鑾峰彇搴旂敤瀹濇暟鎹け璐ワ紒"));
+					FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("閼惧嘲褰囨惔鏃傛暏鐎规繃鏆熼幑顔笺亼鐠愩儻绱�"));
 				}
 			}
 			catch(Exception e){
-				FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("搴旂敤瀹? 鍙戦?佺帺瀹剁殑绗︾煶淇℃伅閿欒锛?") , e);
+				FushiManager.logger.error(new StringBuilder("roleId=").append(roleID).append("鎼存梻鏁ょ��? 閸欐垿?浣哄负鐎瑰墎娈戠粭锔剧叾娣団剝浼呴柨娆掝嚖閿�?") , e);
 			}
 		} 
 	}

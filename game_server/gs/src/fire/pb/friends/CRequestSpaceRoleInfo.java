@@ -24,7 +24,7 @@ public class CRequestSpaceRoleInfo extends __CRequestSpaceRoleInfo__ {
 			@Override
 			public boolean process() {
 				if (xtable.Properties.selectRolename(roleid) == null) {
-					// 杩欓噷瀛樺湪鐨勫師鍥犳槸:鏈嶅姟鍣ㄥ垹妗ｄ簡,鑰屽鎴风鏈湴鐨勬渶杩戣仈绯讳汉鍒楄〃鏈垹闄?
+					// 鏉╂瑩鍣风�涙ê婀惃鍕斧閸ョ姵妲�:閺堝秴濮熼崳銊ュ灩濡楋絼绨�,閼板苯顓归幋椋庮伂閺堫剙婀撮惃鍕付鏉╂垼浠堢化璁虫眽閸掓銆冮張顏勫灩闂�?
 					Module.logger.warn("[CRequestSpaceRoleInfo] find non-existent role info, roleId:" + currentRoleId
 							+ " targetRoleId:" + roleid);
 					return false;

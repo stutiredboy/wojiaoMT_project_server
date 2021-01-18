@@ -36,7 +36,7 @@ public class GFindShoolQuestDemonsNpc extends __GFindShoolQuestDemonsNpc__ {
 		
 		java.util.List<fire.msp.npc.NpcInfo> rlist = fire.pb.scene.manager.SceneNpcManager.getInstance().createNpc(npcinfo);
 		
-		// 澶辫触杩斿洖GS
+		// 婢惰精瑙︽潻鏂挎礀GS
 		if (rlist == null || rlist.isEmpty() || rlist.size() < npcinfo.num){
 			fire.msp.npc.MCreateNpcUniversalRet mret = new fire.msp.npc.MCreateNpcUniversalRet();
 			mret.interfaceid = interfaceid;
@@ -44,7 +44,7 @@ public class GFindShoolQuestDemonsNpc extends __GFindShoolQuestDemonsNpc__ {
 			fire.pb.scene.SceneClient.pSend(mret);
 			return;
 		}
-		// 鎴愬姛  鍚屾鍒癎S NPC鐨勪俊鎭?
+		// 閹存劕濮�  閸氬本顒為崚鐧嶴 NPC閻ㄥ嫪淇婇幁?
 		fire.msp.npc.MUpdateNpcInfo mUpdateNpcInfo = new fire.msp.npc.MUpdateNpcInfo();
 		mUpdateNpcInfo.npcs.addAll(rlist);
 		fire.pb.scene.SceneClient.pSend(mUpdateNpcInfo);

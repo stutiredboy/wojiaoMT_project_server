@@ -53,7 +53,7 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 		
 		fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, awardid, paras,
 						fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shifu, awardid,
-						0, "鎷涘嫙濂栧姳");
+						0, "閹锋稑瀚欐總鏍уС");
 	}
 	
 	private static class GetRecruitAwardHttpHandler extends HttpCallBackHandler {
@@ -82,11 +82,11 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
             	new mkdb.Procedure() {
     				@Override
     				protected boolean process() {
-    					//鍙戝鍔?
+    					//閸欐垵顨涢崝?
     					if(awardtype == 1) {
     						RecruitAwards ra = ConfigManager.getInstance().getConf(RecruitAwards.class).get(proto.awardid);
     						if(ra == null) {
-    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]鍑嗗棰嗗彇鎷涘嫙鏁伴噺鐨勫鍔?:" + proto.awardid + ",浣嗛厤缃负绌猴紒");
+    							logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleId + "]閸戝棗顦０鍡楀絿閹锋稑瀚欓弫浼村櫤閻ㄥ嫬顨涢崝?:" + proto.awardid + ",娴ｅ棝鍘ょ純顔昏礋缁岀尨绱�");
     							snd.result = 0;
     						} else {
     							String [] awardLst = ra.getAwards().split(";");
@@ -97,10 +97,10 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
     							snd.result = 1;
     						}
     					} else if(awardtype == 2) {
-    						//鑽夋偿椹瓥鍒掓敼闇?姹傦紝鐧藉仛
+    						//閼藉鍋挎す顒傜摜閸掓帗鏁奸棁?濮瑰偊绱濋惂钘変粵
 //    						RecruitChargeAwards rca = ConfigManager.getInstance().getConf(RecruitChargeAwards.class).get(proto.awardid);
 //    						if(rca == null) {
-//    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]鍑嗗棰嗗彇瑙掕壊[" + proto.recruitrole + "]鎷涘嫙鍏呭?肩殑濂栧姳:" + proto.awardid + ",浣嗛厤缃负绌猴紒");
+//    							logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleId + "]閸戝棗顦０鍡楀絿鐟欐帟澹奫" + proto.recruitrole + "]閹锋稑瀚欓崗鍛�?鑲╂畱婵傛牕濮�:" + proto.awardid + ",娴ｅ棝鍘ょ純顔昏礋缁岀尨绱�");
 //    							snd.result = 0;
 //    						} else {
 //    							String [] awardLst = rca.getAwards().split(";");
@@ -113,7 +113,7 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
     					} else if(awardtype == 3) {
     						MyRecruitAwards mra = ConfigManager.getInstance().getConf(MyRecruitAwards.class).get(proto.awardid);
     						if(mra == null) {
-    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]鍑嗗棰嗗彇瑙掕壊[" + proto.recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔?:" + proto.awardid + ",浣嗛厤缃负绌猴紒");
+    							logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleId + "]閸戝棗顦０鍡楀絿鐟欐帟澹奫" + proto.recruitrole + "]閹锋稑瀚欑粵澶岄獓閻ㄥ嫬顨涢崝?:" + proto.awardid + ",娴ｅ棝鍘ょ純顔昏礋缁岀尨绱�");
     							snd.result = 0;
     						} else {
     							String [] awardLst = mra.getAwards().split(";");
@@ -127,9 +127,9 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 	    							srcra.setGetnum(srcra.getGetnum() + 1);
 	    							final long now = Calendar.getInstance().getTimeInMillis();
 	    							srcra.setGettime(now);
-	    							logger.info("CGetRecruitAward.瑙掕壊[" + roleId + "]棰嗗彇浜嗚鑹瞇" + proto.recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔?:" + proto.awardid + "!" + roleId + "宸茬粡鑾峰緱" + srcra.getGetnum() + "娆＄ぜ鐗?.");
+	    							logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleId + "]妫板棗褰囨禍鍡氼潡閼圭瀲" + proto.recruitrole + "]閹锋稑瀚欑粵澶岄獓閻ㄥ嫬顨涢崝?:" + proto.awardid + "!" + roleId + "瀹歌尙绮￠懢宄扮繁" + srcra.getGetnum() + "濞嗭紕銇滈悧?.");
     							} else {
-    								logger.error("CGetRecruitAward.瑙掕壊[" + roleId + "]棰嗗彇浜嗗鍔?,浣嗘槸鎷涘嫙xdb鏁版嵁null!");
+    								logger.error("CGetRecruitAward.鐟欐帟澹奫" + roleId + "]妫板棗褰囨禍鍡楊殯閸�?,娴ｅ棙妲搁幏娑樺珯xdb閺佺増宓乶ull!");
     							}
     						}
     					}
@@ -151,63 +151,63 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇鎷涘嫙濂栧姳!" + 
+		logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleid + "]閸戝棗顦０鍡楀絿閹锋稑瀚欐總鏍уС!" + 
 			"type=" + awardtype + ",id=" + awardid + ",recruitrole=" + recruitrole + "@server=" + recruitserver);
 		try {
 			String serverid = Gs.serverid;
 			if(awardtype == 1) {
-				//鎷涘嫙涓暟濂栧姳
+				//閹锋稑瀚欐稉顏呮殶婵傛牕濮�
 				RecruitAwards ra = ConfigManager.getInstance().getConf(RecruitAwards.class).get(awardid);
 				if(ra == null) {
-					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇鎷涘嫙鏁伴噺鐨勫鍔?:" + awardid + ",浣嗛厤缃负绌猴紒");
+					logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleid + "]閸戝棗顦０鍡楀絿閹锋稑瀚欓弫浼村櫤閻ㄥ嫬顨涢崝?:" + awardid + ",娴ｅ棝鍘ょ純顔昏礋缁岀尨绱�");
 					return;
 				}
 				final SCommon cc = RoleConfigManager.getRoleCommonConfig(423);
-				int conditionLevel = cc != null ? Integer.parseInt(cc.getValue()) : 0; //鎷涘嫙濂藉弸绛夌骇闄愬埗
+				int conditionLevel = cc != null ? Integer.parseInt(cc.getValue()) : 0; //閹锋稑瀚欐總钘夊几缁涘楠囬梽鎰煑
 				final String buildurl = String.format(
 						"http://%1$s%2$s?serverid=%3$s&roleid=%4$s&times=%5$s&level=%6$s",
-						address, func1, serverid, roleid, ra.getNum(), conditionLevel); //鎷涘嫙娆℃暟(浜烘暟)濂栧姳
+						address, func1, serverid, roleid, ra.getNum(), conditionLevel); //閹锋稑瀚欏▎鈩冩殶(娴滅儤鏆�)婵傛牕濮�
 				final HttpGet request = new HttpGet(buildurl);
 				Gs.getHttpClient().execute(request, new GetRecruitAwardHttpHandler(roleid, request, awardtype, this));
 			} else if(awardtype == 2) {
-				//鍏呭?煎鍔?//鑽夋偿椹瓥鍒掓敼闇?姹傦紝鐧藉仛
+				//閸忓懎?鐓庮殯閸�?//閼藉鍋挎す顒傜摜閸掓帗鏁奸棁?濮瑰偊绱濋惂钘変粵
 //				RecruitChargeAwards rca = ConfigManager.getInstance().getConf(RecruitChargeAwards.class).get(awardid);
 //				if(rca == null) {
-//					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙鍏呭?肩殑濂栧姳:" + awardid + ",浣嗛厤缃负绌猴紒");
+//					logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleid + "]閸戝棗顦０鍡楀絿鐟欐帟澹奫" + recruitrole + "]閹锋稑瀚欓崗鍛�?鑲╂畱婵傛牕濮�:" + awardid + ",娴ｅ棝鍘ょ純顔昏礋缁岀尨绱�");
 //					return;
 //				}
 //				final String buildurl = String.format(
 //						"http://%1$s%2$s?serverid=%3$s&roleid=%4$s&new_serverid=%5$s&new_roleid=%6$s&prize_type=%7$s&amount=%8$s",
-//						address, func2, serverid, roleid, recruitserver, recruitrole, 1, rca.getLevel()); //濂栧姳绫诲瀷prize_type=1鍏呭??
+//						address, func2, serverid, roleid, recruitserver, recruitrole, 1, rca.getLevel()); //婵傛牕濮崇猾璇茬�穚rize_type=1閸忓懎??
 //				final HttpGet request = new HttpGet(buildurl);
 //				Gs.getHttpClient().execute(request, new GetRecruitAwardHttpHandler(roleid, request, awardtype, this));
 			} else if(awardtype == 3) {
-				//鍗囩骇濂栧姳
+				//閸楀洨楠囨總鏍уС
 				final long now = Calendar.getInstance().getTimeInMillis();
 				Long gettime = xtable.Rolerecruitaward.selectGettime(roleid);
 				long lastgettime = (gettime == null ? 0L : gettime.longValue());
 				if (fire.pb.util.DateValidate.inTheSameWeek(lastgettime, now)){
-					//鏄悓涓?鍛?,妫?娴嬫鏁?
+					//閺勵垰鎮撴稉?閸�?,濡�?濞村顐奸弫?
 					final SCommon cc = RoleConfigManager.getRoleCommonConfig(422);
-					int maxnum = cc != null ? Integer.parseInt(cc.getValue()) : 0; //姣忓懆鐨勬渶澶ц幏寰楁鏁?
-					int alreadynum = xtable.Rolerecruitaward.selectGetnum(roleid); //宸茬粡鑾峰緱娆℃暟
+					int maxnum = cc != null ? Integer.parseInt(cc.getValue()) : 0; //濮ｅ繐鎳嗛惃鍕付婢堆嗗箯瀵版顐奸弫?
+					int alreadynum = xtable.Rolerecruitaward.selectGetnum(roleid); //瀹歌尙绮￠懢宄扮繁濞嗏剝鏆�
 					if(alreadynum < maxnum) {
-						//娌℃湁瓒呰繃娆℃暟,缁х画
+						//濞屸剝婀佺搾鍛扮箖濞嗏剝鏆�,缂佈呯敾
 					} else {
 						//MessageMgr.psendMsgNotify(roleid, 170043, null);
 						MessageMgr.sendMsgNotify(roleid, 170043, null);
-						logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔憋紝浣嗘湰鍛ㄥ凡缁忚秴杩囬鍙栨鏁颁笂闄?(" + maxnum + ")锛屼笉浼氳幏寰楃ぜ鐗╋紒");
+						logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleid + "]閸戝棗顦０鍡楀絿鐟欐帟澹奫" + recruitrole + "]閹锋稑瀚欑粵澶岄獓閻ㄥ嫬顨涢崝鎲嬬礉娴ｅ棙婀伴崨銊ュ嚒缂佸繗绉存潻鍥暙閸欐牗顐奸弫棰佺瑐闂�?(" + maxnum + ")閿涘奔绗夋导姘冲箯瀵版銇滈悧鈺嬬磼");
 						return;
 					}
 				} else {
-					//涓嶆槸鍚屼竴鍛?,娓呯┖(涓婂懆)鍘嗗彶棰嗗彇娆℃暟
+					//娑撳秵妲搁崥灞肩閸�?,濞撳懐鈹�(娑撳﹤鎳�)閸樺棗褰舵０鍡楀絿濞嗏剝鏆�
 					new mkdb.Procedure() {
 	    				@Override
 	    				protected boolean process() {
-	    					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔憋紝璺ㄥぉ浜嗭紝娓呯┖鍘嗗彶棰嗗彇娆℃暟锛?");
+	    					logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleid + "]閸戝棗顦０鍡楀絿鐟欐帟澹奫" + recruitrole + "]閹锋稑瀚欑粵澶岄獓閻ㄥ嫬顨涢崝鎲嬬礉鐠恒劌銇夋禍鍡礉濞撳懐鈹栭崢鍡楀蕉妫板棗褰囧▎鈩冩殶閿�?");
 	    					xbean.RecruitAward srcra = xtable.Rolerecruitaward.get(roleid);
 							if(srcra == null){
-								logger.error("CGetRecruitAward.瑙掕壊[" + roleid + "]鎷涘嫙xdb鏁版嵁null!");
+								logger.error("CGetRecruitAward.鐟欐帟澹奫" + roleid + "]閹锋稑瀚檟db閺佺増宓乶ull!");
 	    						return false;
 							}
 							srcra.setGetnum(0);
@@ -217,12 +217,12 @@ public class CGetRecruitAward extends __CGetRecruitAward__ {
 				}
 				MyRecruitAwards mra = ConfigManager.getInstance().getConf(MyRecruitAwards.class).get(awardid);
 				if(mra == null) {
-					logger.info("CGetRecruitAward.瑙掕壊[" + roleid + "]鍑嗗棰嗗彇瑙掕壊[" + recruitrole + "]鎷涘嫙绛夌骇鐨勫鍔?:" + awardid + ",浣嗛厤缃负绌猴紒");
+					logger.info("CGetRecruitAward.鐟欐帟澹奫" + roleid + "]閸戝棗顦０鍡楀絿鐟欐帟澹奫" + recruitrole + "]閹锋稑瀚欑粵澶岄獓閻ㄥ嫬顨涢崝?:" + awardid + ",娴ｅ棝鍘ょ純顔昏礋缁岀尨绱�");
 					return;
 				}
 				final String buildurl = String.format(
 						"http://%1$s%2$s?serverid=%3$s&roleid=%4$s&new_serverid=%5$s&new_roleid=%6$s&prize_type=%7$s&amount=%8$s",
-						address, func2, serverid, roleid, recruitserver, recruitrole, 0, mra.getLevel()); //濂栧姳绫诲瀷prize_type=0绛夌骇
+						address, func2, serverid, roleid, recruitserver, recruitrole, 0, mra.getLevel()); //婵傛牕濮崇猾璇茬�穚rize_type=0缁涘楠�
 				final HttpGet request = new HttpGet(buildurl);
 				Gs.getHttpClient().execute(request, new GetRecruitAwardHttpHandler(roleid, request, awardtype, this));
 			}	

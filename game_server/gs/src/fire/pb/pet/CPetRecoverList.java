@@ -23,10 +23,10 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 鍙戦?佸疇鐗╂壘鍥炲垪琛?
+				// 閸欐垿?浣哥枃閻椻晜澹橀崶鐐插灙鐞�?
 				SPetRecoverList send = new SPetRecoverList();
 
-				// 閫氳繃key鍦ㄥ洖鏀剁珯涓壘鍒板搴旂殑瀹犵墿
+				// 闁俺绻僰ey閸︺劌娲栭弨鍓佺彲娑擃厽澹橀崚鏉款嚠鎼存梻娈戠�圭姷澧�
 				xbean.Petrecoverlist petRecoverList = xtable.Petrecover.get(roleId);
 				if (petRecoverList != null) {
 					java.util.List<Long> removeList = new java.util.LinkedList<Long>();
@@ -34,13 +34,13 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 					for (Long uniqId : petRecoverList.getUniqids()) {
 						xbean.DiscardPet dpet = xtable.Petrecyclebin.select(uniqId);
 						if (dpet != null) {
-							// 鍒ゆ柇鏄惁杩囨湡,濡傛灉杩囨湡灏变笉鍙?
-							long day = fire.pb.pet.Module.OUTTIME_OF_PET; // 淇濈暀鏃堕棿:澶╂暟
-							long validTime = day * 24L * 3600L * 1000L; // 淇濈暀鏃堕棿:姣鏁?
-							long elapseTime = now - dpet.getDeletedate(); // 杩囧幓鏃堕棿:姣鏁?
-							long remainTime = validTime - elapseTime; // 鍓╀綑鏃堕棿:姣鏁?
+							// 閸掋倖鏌囬弰顖氭儊鏉╁洦婀�,婵″倹鐏夋潻鍥ㄦ埂鐏忓彉绗夐崣?
+							long day = fire.pb.pet.Module.OUTTIME_OF_PET; // 娣囨繄鏆�閺冨爼妫�:婢垛晜鏆�
+							long validTime = day * 24L * 3600L * 1000L; // 娣囨繄鏆�閺冨爼妫�:濮ｎ偆顫楅弫?
+							long elapseTime = now - dpet.getDeletedate(); // 鏉╁洤骞撻弮鍫曟？:濮ｎ偆顫楅弫?
+							long remainTime = validTime - elapseTime; // 閸撯晙缍戦弮鍫曟？:濮ｎ偆顫楅弫?
 							if (remainTime > 0) {
-								int cost = -1; // -1:琛ㄧず娌℃湁杩欎釜瀹犵墿鐨勯厤缃?
+								int cost = -1; // -1:鐞涖劎銇氬▽鈩冩箒鏉╂瑤閲滅�圭姷澧块惃鍕帳缂�?
 								PetAttr petAttrConf = Module.getInstance().getPetManager().getAttr(dpet.getPet().getId());
 								if (petAttrConf != null) {
 									cost = petAttrConf.getRecovercost();
@@ -48,16 +48,16 @@ public class CPetRecoverList extends __CPetRecoverList__ {
 								PetRecoverInfoBean info = new PetRecoverInfoBean();
 								info.petid = dpet.getPet().getId();
 								info.uniqid = uniqId;
-								info.remaintime = (int) (remainTime / 1000); // 鍓╀綑鏃堕棿:绉掓暟
+								info.remaintime = (int) (remainTime / 1000); // 閸撯晙缍戦弮鍫曟？:缁夋帗鏆�
 								info.cost = cost;
 								send.pets.add(info);
 							}
 						} else {
-							// 绉婚櫎鏃犳晥鐨?
+							// 缁夊娅庨弮鐘虫櫏閻�?
 							removeList.add(uniqId);
 						}
 					}
-					// 绉婚櫎鏃犳晥鐨勫垪琛?
+					// 缁夊娅庨弮鐘虫櫏閻ㄥ嫬鍨悰?
 					petRecoverList.getUniqids().removeAll(removeList);
 				}
 				mkdb.Procedure.psendWhileCommit(roleId, send);

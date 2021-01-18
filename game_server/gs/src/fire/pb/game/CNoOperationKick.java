@@ -51,10 +51,10 @@ public class CNoOperationKick extends __CNoOperationKick__ {
 					}
 					ok = norpresentNum == 0 ? false : true;
 				}
-				if (!ok) {// 韪㈡帀
+				if (!ok) {// 闊垺甯�
 					Procedure.psend(roleId, new SReturnLogin());
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("瑙掕壊role=").append(roleId).append(", 闀挎椂闂翠笉鎿嶄綔韪㈡帀锛?");
+					sbd.append("鐟欐帟澹妑ole=").append(roleId).append(", 闂�鎸庢闂傜繝绗夐幙宥勭稊闊垺甯�閿�?");
 					LogManager.logger.error(sbd.toString());
 				}
 				return true;

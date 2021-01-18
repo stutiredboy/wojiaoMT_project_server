@@ -21,7 +21,7 @@ abstract class __CAnswerforCallBack__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鎭㈠鍙洖
+ * 閹垹顦查崣顒�娲�
  * @author changhao
  *
  */
@@ -43,13 +43,13 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(memberRoleId);
-				//鍏堥獙璇侀槦浼嶆槸鍚︿负绌?
+				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isInTeam(memberRoleId))
-					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鍦ㄩ槦浼嶄腑
+					return true;//妤犲矁鐦夌拠銉潡閼瑰弶妲搁崥锕佺箷閸︺劑妲︽导宥勮厬
 				long leaderRoleId = team.getTeamInfo().getTeamleaderid();
 				Long[] roleids = new Long[2];
 				if(leaderRoleId < memberRoleId)
@@ -67,42 +67,42 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 				
 				if(agree == 1)
 				{
-					// 璇锋眰鍥炲綊
+					// 鐠囬攱鐪伴崶鐐茬秺
 					if (team.getTeamMemberState(memberRoleId) != TeamMemberState.eTeamAbsent)
 					{
-						// 闃熷憳涓嶅浜庢殏绂讳腑(illegal)
-						TeamManager.logger.debug("FAIL:闃熷憳涓嶅浜庢殏绂讳腑 , memberRoleId" + memberRoleId);
+						// 闂冪喎鎲虫稉宥咁槱娴滃孩娈忕粋璁宠厬(illegal)
+						TeamManager.logger.debug("FAIL:闂冪喎鎲虫稉宥咁槱娴滃孩娈忕粋璁宠厬 , memberRoleId" + memberRoleId);
 					} else if (!checkMemberReturnStatusValid(memberRoleId))
 					{
-						// 鎴愬憳澶勫湪涓嶅彲褰掗槦鐨勭姸鎬侊紙鎴樻枟绛夛級(illegal)
-						TeamManager.logger.debug("FAIL:鎴愬憳澶勫湪涓嶅彲褰掗槦鐨勭姸鎬? , memberRoleId" + memberRoleId);
+						// 閹存劕鎲虫径鍕躬娑撳秴褰茶ぐ鎺楁Е閻ㄥ嫮濮搁幀渚婄礄閹存ɑ鏋熺粵澶涚礆(illegal)
+						TeamManager.logger.debug("FAIL:閹存劕鎲虫径鍕躬娑撳秴褰茶ぐ鎺楁Е閻ㄥ嫮濮搁幀? , memberRoleId" + memberRoleId);
 					} else
 					{
 						if (team.isMemberInReturnScale(memberRoleId))
 						{
-							// 鍦ㄥ洖褰掕寖鍥翠箣鍐?
+							// 閸︺劌娲栬ぐ鎺曞瘱閸ョ繝绠ｉ崘?
 							if (checkTeamReturnStatusValid(team))
 							{
-								// 闃熶紞澶勫湪鍙互褰掗槦鐨勭姸鎬?
-								// 鏀瑰彉闃熷憳涓烘甯哥姸鎬侊紝骞剁兢鍙戞洿鏂扮姸鎬佸崗璁?
+								// 闂冪喍绱炴径鍕躬閸欘垯浜掕ぐ鎺楁Е閻ㄥ嫮濮搁幀?
+								// 閺�鐟板綁闂冪喎鎲虫稉鐑橆劀鐢摜濮搁幀渚婄礉楠炲墎鍏㈤崣鎴炴纯閺傛壆濮搁幀浣稿礂鐠�?
 								team.setTeamMemberStateWithSP(memberRoleId, TeamMemberState.eTeamNormal);
-								// 鎺掑簭骞跺箍鎾槦鍛樻柊椤哄簭
+								// 閹烘帒绨獮璺虹畭閹绢參妲﹂崨妯绘煀妞ゅ搫绨�
 //								team.updateMemberSequenceWithSendProtocol();
-								TeamManager.logger.debugWhileCommit("SUCC:闃熶紞澶勫湪鍙互褰掗槦鐨勭姸鎬侊紝鏀瑰彉闃熷憳涓烘甯哥姸鎬? , memberRoleId" + memberRoleId);
+								TeamManager.logger.debugWhileCommit("SUCC:闂冪喍绱炴径鍕躬閸欘垯浜掕ぐ鎺楁Е閻ㄥ嫮濮搁幀渚婄礉閺�鐟板綁闂冪喎鎲虫稉鐑橆劀鐢摜濮搁幀? , memberRoleId" + memberRoleId);
 							} else
 							{
-								// 闃熶紞澶勫湪涓嶅彲浠ュ綊闃熺殑鐘舵??
-								// 鏀瑰彉闃熷憳涓哄綊闃熶腑鐘舵?侊紝骞剁兢鍙戞洿鏂扮姸鎬佸崗璁?
+								// 闂冪喍绱炴径鍕躬娑撳秴褰叉禒銉ョ秺闂冪喓娈戦悩鑸�??
+								// 閺�鐟板綁闂冪喎鎲虫稉鍝勭秺闂冪喍鑵戦悩鑸�?渚婄礉楠炲墎鍏㈤崣鎴炴纯閺傛壆濮搁幀浣稿礂鐠�?
 								team.setTeamMemberStateWithSP(memberRoleId, TeamMemberState.eTeamReturn);
-								TeamManager.logger.debugWhileCommit("SUCC:鎴愬憳鍥炲綊闃熶紞,杩涘叆褰掗槦涓姸鎬? , memberRoleId" + memberRoleId);
+								TeamManager.logger.debugWhileCommit("SUCC:閹存劕鎲抽崶鐐茬秺闂冪喍绱�,鏉╂稑鍙嗚ぐ鎺楁Е娑擃厾濮搁幀? , memberRoleId" + memberRoleId);
 							}
 
 						} else
 						{
-							// 鍦ㄥ洖褰掕寖鍥翠箣澶?
-							// TODO 鑷姩瀵昏矾鎵鹃槦闀? OR 杩斿洖涓嶈兘鍥炲綊鐨勬秷鎭?
+							// 閸︺劌娲栬ぐ鎺曞瘱閸ョ繝绠ｆ径?
+							// TODO 閼奉亜濮╃�垫槒鐭鹃幍楣冩Е闂�? OR 鏉╂柨娲栨稉宥堝厴閸ョ偛缍婇惃鍕Х閹�?
 							psend(memberRoleId, new STeamError(TeamError.TooFar));
-							TeamManager.logger.debug("FAIL:鍦ㄥ洖褰掕寖鍥翠箣澶? , memberRoleId" + memberRoleId);
+							TeamManager.logger.debug("FAIL:閸︺劌娲栬ぐ鎺曞瘱閸ョ繝绠ｆ径? , memberRoleId" + memberRoleId);
 						}
 					}
 				}
@@ -120,7 +120,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 		answerCallbackP.submit();
 	}
 
-	//鎴愬憳澶勫湪鍙互褰掗槦鐨勭姸鎬??锛堜笉鏄垬鏂楃瓑鐘舵?侊級
+	//閹存劕鎲虫径鍕躬閸欘垯浜掕ぐ鎺楁Е閻ㄥ嫮濮搁幀??閿涘牅绗夐弰顖涘灛閺傛鐡戦悩鑸�?渚婄礆
 	private boolean checkMemberReturnStatusValid(long memberRoleId)
 	{
 		//TODO
@@ -133,7 +133,7 @@ public class CAnswerforCallBack extends __CAnswerforCallBack__ {
 			return false;
 		}
 	}	
-	//闃熶紞澶勫湪鍙互褰掗槦鐨勭姸鎬??锛堜笉鏄垬鏂楃瓑鐘舵?侊級
+	//闂冪喍绱炴径鍕躬閸欘垯浜掕ぐ鎺楁Е閻ㄥ嫮濮搁幀??閿涘牅绗夐弰顖涘灛閺傛鐡戦悩鑸�?渚婄礆
 	private boolean checkTeamReturnStatusValid(Team team)
 	{
 		//TODO

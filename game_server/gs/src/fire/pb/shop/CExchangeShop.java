@@ -24,13 +24,13 @@ public class CExchangeShop extends __CExchangeShop__ {
 
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("娌℃湁璇ュ晢鍝乕" + goodsid + "]");
+			mkdb.Trace.info("濞屸剝婀佺拠銉ユ櫌閸濅箷" + goodsid + "]");
 			return;
 		}
 
 		fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 		if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-			mkdb.Trace.info("鍏戞崲鍟嗗簵娌℃湁璇ョ墿鍝?.shopid:" + shopid + "goodsid:" + goodsid);
+			mkdb.Trace.info("閸忔垶宕查崯鍡楃暗濞屸剝婀佺拠銉у⒖閸�?.shopid:" + shopid + "goodsid:" + goodsid);
 			return;
 		}
 

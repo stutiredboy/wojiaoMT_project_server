@@ -18,36 +18,36 @@ public class CBuyNpcShop extends __CBuyNpcShop__ {
 	protected void process() {
 		// protocol handle
 		
-		// 鍒ゆ柇璐拱鏉′欢
+		// 閸掋倖鏌囩拹顓濇嫳閺夆�叉
 		final gnet.link.Role role = gnet.link.Onlines.getInstance().find(this);
 		if (role == null)
 			return;
-		//鍦烘櫙涓槸鍚﹁兘鎵惧埌npc
+		//閸︾儤娅欐稉顓熸Ц閸氾箒鍏橀幍鎯у煂npc
 //		if (npckey != 0) {
 //			if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, role.getRoleid()))
 //				return;
 //		}
 //		int npcid = 0;
-		//甯歌npc璐拱
+		//鐢瓕顫塶pc鐠愵厺鎷�
 //		if (buytype == ShopBuyType.NORMAL_SHOP) {
 //			npcid = fire.pb.map.SceneNpcManager.getNpcIDByKey(npckey);
 //			if (npcid < 0) {
-//				xdb.Trace.info("鎵句笉鍒拌npc id=" + npckey);
+//				xdb.Trace.info("閹靛彞绗夐崚鎷岊嚉npc id=" + npckey);
 //				return;
 //			}
 //		}
 		
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("娌℃湁璇ュ晢鍝乕" +  goodsid  + "]");
+			mkdb.Trace.info("濞屸剝婀佺拠銉ユ櫌閸濅箷" +  goodsid  + "]");
 			return;
 		}
 		
-		// 鍒ゆ柇璇pc鏄惁鏈夎鐗╁搧
+		// 閸掋倖鏌囩拠顧磒c閺勵垰鎯侀張澶庮嚉閻椻晛鎼�
 		if (buytype == ShopBuyType.NORMAL_SHOP) {
 			fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 			if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-				mkdb.Trace.info("NPC骞朵笉鍑哄敭璇ョ墿鍝?.shopid:" + shopid + "goodsid:" + goodsid);
+				mkdb.Trace.info("NPC楠炴湹绗夐崙鍝勬暛鐠囥儳澧块崫?.shopid:" + shopid + "goodsid:" + goodsid);
 				return;
 			}
 		}

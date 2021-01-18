@@ -42,7 +42,7 @@ public class CRequestRoleIsEnemy extends __CRequestRoleIsEnemy__ {
 						if (c != null)
 						{
 							if (!c.equals(chanid))
-								msg.rolelist.put(e, 2); //鏁屽鐨? by changhao
+								msg.rolelist.put(e, 2); //閺佸苯顕惃? by changhao
 							else
 								msg.rolelist.put(e, 1);
 						}

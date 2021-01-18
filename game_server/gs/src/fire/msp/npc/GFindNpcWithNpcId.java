@@ -29,7 +29,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 	protected void process() {
 		// protocol handle
 		int actId = TimerNpcService.getInstance().getActId(npcid);
-		//娲诲姩閿欒
+		//濞茶濮╅柨娆掝嚖
 		if (actId == -1) {
 			return;
 		}
@@ -43,7 +43,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 		Role sceneRole = RoleManager.getInstance().getRoleByID(roleid);
 		int roleMapid = sceneRole.getMapId();
 		
-		//鍏堝湪褰撳墠瑙嗛噹閲屾壘绠卞瓙
+		//閸忓牆婀ぐ鎾冲鐟欏棝鍣归柌灞惧缁犲崬鐡�
 		fire.pb.scene.movable.Role role = fire.pb.scene.manager.RoleManager.getInstance().getRoleByID(roleid);
 		Map<Long, NPC> allNpcInScreens = role.getAllNpcsInScreens();
 		for (NPC npc : allNpcInScreens.values()) {
@@ -57,7 +57,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			}
 		}
 		
-		//褰撳墠瑙嗛噹閲屾病鏈夋壘鍒?,鍒欏湪褰撳墠鍦板浘鎵?
+		//瑜版挸澧犵憴鍡涘櫣闁插本鐥呴張澶嬪閸�?,閸掓瑥婀ぐ鎾冲閸︽澘娴橀幍?
 		if (!findit) {
 			xbean.timerNpcInfoCol npcInfo = xtable.Timernpcinfotable.select(actId);
 			if (npcInfo == null) {
@@ -66,8 +66,8 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//瀵瑰簲npc鐨勭姸鎬? 0=绌洪棽 1=鎴樻枟涓? 2=宸茬粡娑堝け
-				if (npcinfos.getValue().getNpcstatus() == 0) { //娌℃湁娑堝け
+				//鐎电懓绨瞡pc閻ㄥ嫮濮搁幀? 0=缁屾椽妫� 1=閹存ɑ鏋熸稉? 2=瀹歌尙绮″☉鍫濄亼
+				if (npcinfos.getValue().getNpcstatus() == 0) { //濞屸剝婀佸☉鍫濄亼
 					npcList.add(npcinfos.getKey());
 				}
 			}
@@ -96,8 +96,8 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//瀵瑰簲npc鐨勭姸鎬? 0=绌洪棽 1=鎴樻枟涓? 2=宸茬粡娑堝け
-				if (npcinfos.getValue().getNpcstatus() == 0) { //娌℃湁娑堝け
+				//鐎电懓绨瞡pc閻ㄥ嫮濮搁幀? 0=缁屾椽妫� 1=閹存ɑ鏋熸稉? 2=瀹歌尙绮″☉鍫濄亼
+				if (npcinfos.getValue().getNpcstatus() == 0) { //濞屸剝婀佸☉鍫濄亼
 					npcList.add(npcinfos.getKey());
 				}
 			}

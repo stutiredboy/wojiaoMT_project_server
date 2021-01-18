@@ -37,7 +37,7 @@ public class CChatItemTips extends __CChatItemTips__ {
 			return;
 		if(displayinfo.displaytype == DisplayInfo.DISPLAY_TASK && 
 				displayinfo.shopid == 2){
-			//杩欓噷澶勭悊寰幆浠诲姟
+			//鏉╂瑩鍣锋径鍕倞瀵邦亞骞嗘禒璇插
 			new mkdb.Procedure(){
 				@Override
 				protected boolean process(){
@@ -55,24 +55,24 @@ public class CChatItemTips extends __CChatItemTips__ {
 			}.submit();
 		} else if(displayinfo.displaytype == DisplayInfo.DISPLAY_TASK && 
 				displayinfo.shopid == 3){
-			//杩欓噷澶勭悊鏆楀椹垙鍥换鍔?
+			//鏉╂瑩鍣锋径鍕倞閺嗘顧佹す顒佸灆閸ヮ澀鎹㈤崝?
 			new mkdb.Procedure(){
 				@Override
 				protected boolean process(){
-					//澶勭悊绛夌骇
-					//娣诲姞鎻村姪绛夌骇闄愬埗
+					//婢跺嫮鎮婄粵澶岄獓
+					//濞ｈ濮為幓鏉戝И缁涘楠囬梽鎰煑
 					int submiterLv = xtable.Properties.selectLevel(roleId);
 					if(submiterLv<fire.pb.circletask.PSubmitThings.getGiveHelpLevel()){
 						MessageMgr.sendMsgNotify(roleId, 145390, null);
 						return false;
 					}
-					//鍒ゆ柇鏄惁鎻村姪鐗╁搧娆℃暟鏄惁婊?
+					//閸掋倖鏌囬弰顖氭儊閹绘潙濮悧鈺佹惂濞嗏剝鏆熼弰顖氭儊濠�?
 					if(!HelpCountManage.getInstance().canAddHelpGiveItemNum(roleId)){
-						//鎻愮ず娑堟伅
+						//閹绘劗銇氬☉鍫熶紖
 						fire.pb.talk.MessageMgr.sendMsgNotify(roleId, 166088, null);
 						return false;
 					}
-					//鍒ゆ柇鐩爣璇锋眰娆℃暟鏄惁宸叉弧
+					//閸掋倖鏌囬惄顔界垼鐠囬攱鐪板▎鈩冩殶閺勵垰鎯佸鍙夊姬
 			    	xbean.helpcount taskrolehelpcount = xtable.Helpcount.select(displayinfo.roleid);
 			    	int maxtaskrolehelpcount=HelpCountManage.getInstance().getHelpItemNumMax(displayinfo.roleid);
 			    	if(taskrolehelpcount!=null&&taskrolehelpcount.getHelpitemnum()>=maxtaskrolehelpcount){
@@ -82,7 +82,7 @@ public class CChatItemTips extends __CChatItemTips__ {
 					
 					SChatItemTips tips = new SChatItemTips();
 					tips.displayinfo = displayinfo;
-					//tips:displayinfo鐨則eamid鏄疆鏁?
+					//tips:displayinfo閻ㄥ墖eamid閺勵垵鐤嗛弫?
 					boolean ret = RoleAnYeTask.getRoleAnYeTask(roleId, displayinfo.roleid, displayinfo.uniqid, displayinfo.teamid, tips);
 					if(ret) {
 						psendWhileCommit(roleId, tips);

@@ -30,7 +30,7 @@ public class GCreateNPCWithRoleids extends __GCreateNPCWithRoleids__ {
 		Scene scene = SceneManager.getInstance().getSceneByID(npc.sceneid);
 		SceneNpcManager.getInstance().summonNpcAndUpdateGS(scene, new Position(posx, posy), n,npc.time);
 		
-		//濡傛灉鎷涘嚭鏉ョ殑NPC鏄姳杞跨殑璇濓紝闇?瑕佹寜鐓х壒瀹氱殑AI鏉ヨNPC琛岃蛋
+		//婵″倹鐏夐幏娑樺毉閺夈儳娈慛PC閺勵垵濮虫潪璺ㄦ畱鐠囨繐绱濋棁?鐟曚焦瀵滈悡褏澹掔�规氨娈慉I閺夈儴顔�NPC鐞涘矁铔�
 		if(this.npc.npcbaseid == HUA_JIAO_NPC_ID || this.npc.npcbaseid == SURPER_HUA_JIAO_NPC_ID){
 			fire.pb.scene.npcai.AIManager.getInstance().npcMoveByAiID(this.npc.npckey, 1, roleids);
 		}

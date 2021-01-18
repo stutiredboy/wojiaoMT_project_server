@@ -27,7 +27,7 @@ public class GSendAllByCondition extends __GSendAllByCondition__ {
 		// protocol handle
 		Set<Long> sendroleIds = new HashSet<Long>(); 
 		if(sceneid != -1)
-		{//浼樺厛鎸夊満鏅储寮?
+		{//娴兼ê鍘涢幐澶婃簚閺咁垳鍌ㄥ?
 			Scene scene = SceneManager.getInstance().getSceneByID(sceneid);
 			for(Role role : scene.getSceneRoles().values())
 			{
@@ -41,7 +41,7 @@ public class GSendAllByCondition extends __GSendAllByCondition__ {
 			}
 		}
 		else if(schoolid != -1)
-		{//鎸夐棬娲剧储寮?
+		{//閹稿妫ú鍓у偍瀵�?
 			Set<Long> schoolroles = RoleManager.getInstance().getSchoolRoles(schoolid);
 			if (schoolroles!=null) 
 			for(long sroleId :  schoolroles)
@@ -77,7 +77,7 @@ public class GSendAllByCondition extends __GSendAllByCondition__ {
 		    sendroleIds.removeAll(exceptroles);
 		}
 		else
-		{//鍏ㄩ亶鍘嗚繃婊ょ瓑绾?
+		{//閸忋劑浜堕崢鍡氱箖濠娿倗鐡戠痪?
 			for(Role role : RoleManager.getInstance().getRoles().values())
 			{
 				if(minlevel != -1 && role.getLevel() < minlevel)

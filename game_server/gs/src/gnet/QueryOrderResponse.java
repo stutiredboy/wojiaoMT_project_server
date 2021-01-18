@@ -20,7 +20,7 @@ public class QueryOrderResponse extends __QueryOrderResponse__ {
 	protected void process() {
 		fire.log.LogManager.logger.info("receive QueryOrderResponse.platid:"+platid+",platsn:"+orderserialplat+",gamesn:"+orderserialgame+",errorcode:"+errorcode);
 		if (fire.pb.fushi.Module.getIsYYBUser(userid)) {
-			FushiManager.logger.error("搴旂敤瀹濇湇鍔″櫒锛岀鐭冲畬鍏ㄦ墭绠★紝绂佺敤鍘熸潵璁㈠崟鍏呭?奸?昏緫锛?");
+			FushiManager.logger.error("鎼存梻鏁ょ�规繃婀囬崝鈥虫珤閿涘瞼顑侀惌鍐茬暚閸忋劍澧粻鈽呯礉缁備胶鏁ら崢鐔告降鐠併垹宕熼崗鍛�?濂�?鏄忕帆閿�?");
 			return;
 		}
 		new fire.pb.fushi.PQueryOrderResponseNew(this).submit();

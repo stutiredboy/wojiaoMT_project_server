@@ -38,14 +38,14 @@ public class CRoleAccusationCheck extends __CRoleAccusationCheck__ {
 					return true;
 				}
 				
-				// 鎵ｉ挶
+				// 閹碉綁鎸�
 				if (bag.subMoney(-money, Commontext.REASON_STRING,
 						fire.log.enums.YYLoggerTuJingEnum.tujing_Value_jubao, 0) != -money) {
 					MessageMgr.sendMsgNotify(roleId, 120025, null);
 					return true;
 				}
 				
-				// 鎵ｆ鎴愬姛
+				// 閹碉絾顑欓幋鎰
 				Procedure.psendWhileCommit(roleId, new SRoleAccusationCheck(0));
 				return true;
 			};

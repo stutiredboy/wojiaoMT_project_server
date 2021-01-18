@@ -21,7 +21,7 @@ public class CChangeSchoolExtInfo extends __CChangeSchoolExtInfo__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 鍙戦?佽浆鑱屼俊鎭?
+				// 閸欐垿?浣芥祮閼卞奔淇婇幁?
 				SChangeSchoolExtInfo send = new SChangeSchoolExtInfo();
 				xbean.ChangeSchoolInfo info = xtable.Changeschool.select(roleId);
 				if (info != null) {

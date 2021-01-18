@@ -11,7 +11,7 @@ abstract class __COpenItemBag__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 
-//鎵撳紑閬撳叿鑳屽寘 by changhao
+//閹垫挸绱戦柆鎾冲徔閼冲苯瀵� by changhao
 public class COpenItemBag extends __COpenItemBag__ {
 	@Override
 	protected void process() {

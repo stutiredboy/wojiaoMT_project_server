@@ -82,6 +82,7 @@ public class BeanImport extends __BeanImport__ {
 	public fire.pb.ranklist.PetGradeRankData b148;
 	public fire.pb.move.SpriteComponents b151;
 	public fire.pb.item.EquipItemType b152;
+	public fire.pb.item.PetEquipItemType b153;
 	public fire.pb.AU2GameType b156;
 	public fire.pb.Pet b168;
 	public fire.pb.Petskill b169;
@@ -175,6 +176,7 @@ public class BeanImport extends __BeanImport__ {
 		b148 = new fire.pb.ranklist.PetGradeRankData();
 		b151 = new fire.pb.move.SpriteComponents();
 		b152 = new fire.pb.item.EquipItemType();
+		b153 = new fire.pb.item.PetEquipItemType();
 		b156 = new fire.pb.AU2GameType();
 		b168 = new fire.pb.Pet();
 		b169 = new fire.pb.Petskill();
@@ -211,7 +213,7 @@ public class BeanImport extends __BeanImport__ {
 		b217 = new fire.pb.FunOpenCloseType();
 	}
 
-	public BeanImport(fire.pb.item.BagTypes _b1_, fire.pb.KickErrConst _b4_, fire.pb.DataInit _b8_, fire.pb.SysConfigType _b9_, fire.pb.pet.PetTypeEnum _b10_, fire.pb.pet.PetColumnTypes _b11_, fire.pb.battle.OperationType _b14_, fire.pb.battle.ResultType _b15_, fire.pb.battle.BattlerType _b16_, fire.pb.team.TeamMemberState _b17_, fire.pb.npc.NpcServices _b18_, fire.pb.team.TeamError _b20_, fire.pb.title.TitleInfo _b21_, fire.pb.title.TitleError _b22_, fire.pb.npc.NpcHealType _b23_, fire.pb.attr.AttrType _b27_, fire.pb.attr.EffectType _b28_, fire.pb.item.IDType _b29_, fire.pb.move.PickItemTypes _b31_, fire.pb.pet.PetChatLimit _b33_, fire.pb.ErrorCodes _b43_, fire.pb.npc.MultiExpError _b49_, fire.pb.npc.BattleToNpcError _b54_, fire.pb.circletask.SpecialQuestType _b55_, fire.pb.circletask.SpecialQuestNpcMsg _b56_, fire.pb.circletask.SpecialQuestID _b58_, fire.pb.npc.SubmitType _b61_, fire.pb.battle.BattleAimRelation _b63_, fire.pb.npc.NpcBuyType _b64_, fire.pb.school.ShouXiLimit _b65_, fire.pb.school.ShouXiMsgID _b66_, fire.pb.attr.FightAttrType _b72_, fire.pb.skill.SkillInfo _b73_, fire.pb.npc.ImpExamType _b74_, fire.pb.mission.AllowTeam _b75_, fire.pb.talk.ChatMsgId _b76_, fire.pb.battle.BattleType _b87_, fire.pb.npc.TransmitTypes _b89_, fire.pb.master.RelationType _b90_, fire.pb.master.OnLineState _b91_, fire.pb.master.DataConfig _b92_, fire.pb.master.InitiativeType _b97_, fire.pb.mission.FairylandStatus _b101_, fire.pb.KeyCounterIndex _b102_, fire.pb.pet.PetColour _b105_, fire.pb.BeginnerTipType _b106_, fire.pb.mission.ReadTimeType _b109_, fire.pb.move.SceneState _b111_, fire.pb.move.DynamicSceneType _b112_, fire.pb.RoleState _b113_, fire.pb.battle.BattleEnviroment _b114_, fire.pb.LogPriority _b116_, fire.pb.ranklist.LevelRankData _b120_, fire.pb.team.TeamState _b135_, fire.pb.ranklist.PetGradeRankData _b148_, fire.pb.move.SpriteComponents _b151_, fire.pb.item.EquipItemType _b152_, fire.pb.AU2GameType _b156_, fire.pb.Pet _b168_, fire.pb.Petskill _b169_, fire.pb.clan.ClanPositionType _b170_, fire.pb.clan.ClanDMapInfo _b174_, fire.pb.clan.ClanSkill _b176_, fire.pb.clan.ClanInfo _b181_, fire.pb.circletask.CircTaskClass _b191_, fire.pb.shop.ShopBuyType _b192_, fire.pb.hook.HookDataUpdateEnum _b193_, fire.pb.hook.HookGetDpointResEnum _b194_, fire.pb.hook.HookMsg2ClientEnum _b195_, fire.pb.hook.HookFreeDpointResEnum _b196_, fire.pb.activity.ActivityType _b197_, fire.pb.circletask.CircTaskGotoType _b198_, fire.pb.game.MoneyType _b199_, fire.pb.npc.NpcServiceMappingTypes _b200_, fire.pb.shop.MarketType _b201_, fire.pb.attr.ScoreType _b202_, fire.pb.shop.GoodsType _b203_, fire.pb.clan.FireReasonType _b204_, fire.pb.attr.RoleCurrency _b205_, fire.pb.battle.QCmodelType _b206_, fire.pb.npc.ImpExamAssistType _b207_, fire.pb.skill.AssistSkill _b208_, fire.pb.skill.EquipSkill _b209_, fire.pb.battle.ResultItem _b210_, fire.pb.battle.livedie.LDmodelType _b211_, fire.pb.fushi.redpack.RedPackType _b212_, fire.pb.fushi.redpack.RedPackState _b213_, fire.pb.move.PickUpItem _b214_, fire.pb.RoleInfo _b215_, fire.pb.talk.FunModelType _b216_, fire.pb.FunOpenCloseType _b217_) {
+	public BeanImport(fire.pb.item.BagTypes _b1_, fire.pb.KickErrConst _b4_, fire.pb.DataInit _b8_, fire.pb.SysConfigType _b9_, fire.pb.pet.PetTypeEnum _b10_, fire.pb.pet.PetColumnTypes _b11_, fire.pb.battle.OperationType _b14_, fire.pb.battle.ResultType _b15_, fire.pb.battle.BattlerType _b16_, fire.pb.team.TeamMemberState _b17_, fire.pb.npc.NpcServices _b18_, fire.pb.team.TeamError _b20_, fire.pb.title.TitleInfo _b21_, fire.pb.title.TitleError _b22_, fire.pb.npc.NpcHealType _b23_, fire.pb.attr.AttrType _b27_, fire.pb.attr.EffectType _b28_, fire.pb.item.IDType _b29_, fire.pb.move.PickItemTypes _b31_, fire.pb.pet.PetChatLimit _b33_, fire.pb.ErrorCodes _b43_, fire.pb.npc.MultiExpError _b49_, fire.pb.npc.BattleToNpcError _b54_, fire.pb.circletask.SpecialQuestType _b55_, fire.pb.circletask.SpecialQuestNpcMsg _b56_, fire.pb.circletask.SpecialQuestID _b58_, fire.pb.npc.SubmitType _b61_, fire.pb.battle.BattleAimRelation _b63_, fire.pb.npc.NpcBuyType _b64_, fire.pb.school.ShouXiLimit _b65_, fire.pb.school.ShouXiMsgID _b66_, fire.pb.attr.FightAttrType _b72_, fire.pb.skill.SkillInfo _b73_, fire.pb.npc.ImpExamType _b74_, fire.pb.mission.AllowTeam _b75_, fire.pb.talk.ChatMsgId _b76_, fire.pb.battle.BattleType _b87_, fire.pb.npc.TransmitTypes _b89_, fire.pb.master.RelationType _b90_, fire.pb.master.OnLineState _b91_, fire.pb.master.DataConfig _b92_, fire.pb.master.InitiativeType _b97_, fire.pb.mission.FairylandStatus _b101_, fire.pb.KeyCounterIndex _b102_, fire.pb.pet.PetColour _b105_, fire.pb.BeginnerTipType _b106_, fire.pb.mission.ReadTimeType _b109_, fire.pb.move.SceneState _b111_, fire.pb.move.DynamicSceneType _b112_, fire.pb.RoleState _b113_, fire.pb.battle.BattleEnviroment _b114_, fire.pb.LogPriority _b116_, fire.pb.ranklist.LevelRankData _b120_, fire.pb.team.TeamState _b135_, fire.pb.ranklist.PetGradeRankData _b148_, fire.pb.move.SpriteComponents _b151_, fire.pb.item.EquipItemType _b152_, fire.pb.item.PetEquipItemType _b153_, fire.pb.AU2GameType _b156_, fire.pb.Pet _b168_, fire.pb.Petskill _b169_, fire.pb.clan.ClanPositionType _b170_, fire.pb.clan.ClanDMapInfo _b174_, fire.pb.clan.ClanSkill _b176_, fire.pb.clan.ClanInfo _b181_, fire.pb.circletask.CircTaskClass _b191_, fire.pb.shop.ShopBuyType _b192_, fire.pb.hook.HookDataUpdateEnum _b193_, fire.pb.hook.HookGetDpointResEnum _b194_, fire.pb.hook.HookMsg2ClientEnum _b195_, fire.pb.hook.HookFreeDpointResEnum _b196_, fire.pb.activity.ActivityType _b197_, fire.pb.circletask.CircTaskGotoType _b198_, fire.pb.game.MoneyType _b199_, fire.pb.npc.NpcServiceMappingTypes _b200_, fire.pb.shop.MarketType _b201_, fire.pb.attr.ScoreType _b202_, fire.pb.shop.GoodsType _b203_, fire.pb.clan.FireReasonType _b204_, fire.pb.attr.RoleCurrency _b205_, fire.pb.battle.QCmodelType _b206_, fire.pb.npc.ImpExamAssistType _b207_, fire.pb.skill.AssistSkill _b208_, fire.pb.skill.EquipSkill _b209_, fire.pb.battle.ResultItem _b210_, fire.pb.battle.livedie.LDmodelType _b211_, fire.pb.fushi.redpack.RedPackType _b212_, fire.pb.fushi.redpack.RedPackState _b213_, fire.pb.move.PickUpItem _b214_, fire.pb.RoleInfo _b215_, fire.pb.talk.FunModelType _b216_, fire.pb.FunOpenCloseType _b217_) {
 		this.b1 = _b1_;
 		this.b4 = _b4_;
 		this.b8 = _b8_;
@@ -269,6 +271,7 @@ public class BeanImport extends __BeanImport__ {
 		this.b148 = _b148_;
 		this.b151 = _b151_;
 		this.b152 = _b152_;
+		this.b153 = _b153_;
 		this.b156 = _b156_;
 		this.b168 = _b168_;
 		this.b169 = _b169_;
@@ -363,6 +366,7 @@ public class BeanImport extends __BeanImport__ {
 		if (!b148._validator_()) return false;
 		if (!b151._validator_()) return false;
 		if (!b152._validator_()) return false;
+		if (!b153._validator_()) return false;
 		if (!b156._validator_()) return false;
 		if (!b168._validator_()) return false;
 		if (!b169._validator_()) return false;
@@ -461,6 +465,7 @@ public class BeanImport extends __BeanImport__ {
 		_os_.marshal(b148);
 		_os_.marshal(b151);
 		_os_.marshal(b152);
+		_os_.marshal(b153);
 		_os_.marshal(b156);
 		_os_.marshal(b168);
 		_os_.marshal(b169);
@@ -556,6 +561,7 @@ public class BeanImport extends __BeanImport__ {
 		b148.unmarshal(_os_);
 		b151.unmarshal(_os_);
 		b152.unmarshal(_os_);
+		b153.unmarshal(_os_);
 		b156.unmarshal(_os_);
 		b168.unmarshal(_os_);
 		b169.unmarshal(_os_);
@@ -657,6 +663,7 @@ public class BeanImport extends __BeanImport__ {
 			if (!b148.equals(_o_.b148)) return false;
 			if (!b151.equals(_o_.b151)) return false;
 			if (!b152.equals(_o_.b152)) return false;
+			if (!b153.equals(_o_.b153)) return false;
 			if (!b156.equals(_o_.b156)) return false;
 			if (!b168.equals(_o_.b168)) return false;
 			if (!b169.equals(_o_.b169)) return false;
@@ -755,6 +762,7 @@ public class BeanImport extends __BeanImport__ {
 		_h_ += b148.hashCode();
 		_h_ += b151.hashCode();
 		_h_ += b152.hashCode();
+		_h_ += b153.hashCode();
 		_h_ += b156.hashCode();
 		_h_ += b168.hashCode();
 		_h_ += b169.hashCode();
@@ -852,6 +860,7 @@ public class BeanImport extends __BeanImport__ {
 		_sb_.append(b148).append(",");
 		_sb_.append(b151).append(",");
 		_sb_.append(b152).append(",");
+		_sb_.append(b153).append(",");
 		_sb_.append(b156).append(",");
 		_sb_.append(b168).append(",");
 		_sb_.append(b169).append(",");

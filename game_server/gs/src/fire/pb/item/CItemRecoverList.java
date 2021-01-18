@@ -23,10 +23,10 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 鍙戦?侀亾鍏锋壘鍥炲垪琛?
+				// 閸欐垿?渚�浜鹃崗閿嬪閸ョ偛鍨悰?
 				SItemRecoverList send = new SItemRecoverList();
 
-				// 閫氳繃key鍦ㄥ洖鏀剁珯涓壘鍒板搴旂殑閬撳叿
+				// 闁俺绻僰ey閸︺劌娲栭弨鍓佺彲娑擃厽澹橀崚鏉款嚠鎼存梻娈戦柆鎾冲徔
 				xbean.Itemrecoverlist itemRecoverList = xtable.Itemrecover.get(roleId);
 				if (itemRecoverList != null) {
 					long now = System.currentTimeMillis();
@@ -34,7 +34,7 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 					for (Long uniqId : itemRecoverList.getUniqids()) {
 						xbean.DiscardItem ditem = xtable.Itemrecyclebin.select(uniqId);
 						if (ditem != null) {
-//							// 鍒ゆ柇鏄惁杩囨湡,濡傛灉杩囨湡灏变笉鍙?
+//							// 閸掋倖鏌囬弰顖氭儊鏉╁洦婀�,婵″倹鐏夋潻鍥ㄦ埂鐏忓彉绗夐崣?
 //							fire.pb.item.ItemShuXing attr = Module.getInstance().getItemManager().getAttr(ditem.getItem().getId());
 //							if (attr == null) {
 //								Module.logger.error("[CItemRecoverList] roleId:" + roleId
@@ -43,13 +43,13 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 //										+ " ItemShuXing not found!");
 //								continue;
 //							}
-//							long day = attr.getRecycletime(); // 淇濈暀鏃堕棿:澶╂暟
-//							long validTime = day * 24L * 3600L * 1000L; // 淇濈暀鏃堕棿:姣鏁?
-//							long elapseTime = now - ditem.getDeletedate(); // 杩囧幓鏃堕棿:姣鏁?
-//							long remainTime = validTime - elapseTime; // 鍓╀綑鏃堕棿:姣鏁?
+//							long day = attr.getRecycletime(); // 娣囨繄鏆�閺冨爼妫�:婢垛晜鏆�
+//							long validTime = day * 24L * 3600L * 1000L; // 娣囨繄鏆�閺冨爼妫�:濮ｎ偆顫楅弫?
+//							long elapseTime = now - ditem.getDeletedate(); // 鏉╁洤骞撻弮鍫曟？:濮ｎ偆顫楅弫?
+//							long remainTime = validTime - elapseTime; // 閸撯晙缍戦弮鍫曟？:濮ｎ偆顫楅弫?
 							long remainTime = ditem.getDeletedate() - now;
 							if (remainTime > 0) {
-								int cost = -1; // -1:琛ㄧず娌℃湁杩欎釜閬撳叿鐨勯厤缃?
+								int cost = -1; // -1:鐞涖劎銇氬▽鈩冩箒鏉╂瑤閲滈柆鎾冲徔閻ㄥ嫰鍘ょ純?
 								ItemShuXing itemAttrConf = Module.getInstance().getItemManager().getAttr(ditem.getItem().getId());
 								if (itemAttrConf != null) {
 									cost = itemAttrConf.getRecovercost();
@@ -57,16 +57,16 @@ public class CItemRecoverList extends __CItemRecoverList__ {
 								ItemRecoverInfoBean info = new ItemRecoverInfoBean();
 								info.itemid = ditem.getItem().getId();
 								info.uniqid = uniqId;
-								info.remaintime = (int) (remainTime / 1000); // 鍓╀綑鏃堕棿:绉掓暟
+								info.remaintime = (int) (remainTime / 1000); // 閸撯晙缍戦弮鍫曟？:缁夋帗鏆�
 								info.cost = cost;
 								send.items.add(info);
 							}
 						} else {
-							// 绉婚櫎鏃犳晥鐨?
+							// 缁夊娅庨弮鐘虫櫏閻�?
 							removeList.add(uniqId);
 						}
 					}
-					// 绉婚櫎鏃犳晥鐨勫垪琛?
+					// 缁夊娅庨弮鐘虫櫏閻ㄥ嫬鍨悰?
 					itemRecoverList.getUniqids().removeAll(removeList);
 				}
 				mkdb.Procedure.psendWhileCommit(roleId, send);

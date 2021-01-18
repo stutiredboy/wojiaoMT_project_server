@@ -35,35 +35,35 @@ public class CCreateRole extends __CCreateRole__ {
 	@Override
 	protected void process() {
 		if(CrossManager.getInstance().isInCrossServer()){
-			logger.error("璺ㄦ湇绂佹鍒涘缓瑙掕壊!!!");
+			logger.error("鐠恒劍婀囩粋浣诡剾閸掓稑缂撶憴鎺曞!!!");
 			return;
 		}
 		
 		if(!fire.pb.main.ConfigManager.isCanCreateRole) {
 			sendError(SCreateRoleError.CREATE_CREATE_GM_FORBID);
-			logger.error("GM宸茬粡鍏抽棴鍒涘缓瑙掕壊!!!");
+			logger.error("GM瀹歌尙绮￠崗鎶芥４閸掓稑缂撶憴鎺曞!!!");
 			return;
 		}
 		
 		// protocol handle
 		final int userID=((gnet.link.Dispatch)this.getContext()).userid;		
 		final xbean.User u = xtable.User.select(userID);
-		// 妫?鏌ョ帺瀹堕?夋嫨鐨勮鑹蹭笌闂ㄦ淳鏄惁瀵瑰簲
+		// 濡�?閺屻儳甯虹�瑰爼?澶嬪閻ㄥ嫯顫楅懝韫瑢闂傘劍娣抽弰顖氭儊鐎电懓绨�
 		final fire.pb.role.SCreateRoleConfig config = RoleConfigManager.getCreateRoleConfig(shape);
 		if (config == null)
 		{
-			logger.error("-------------------------娌℃湁鎵惧埌瀵瑰簲鐨勯厤缃枃浠?!!!--------"+shape);
+			logger.error("-------------------------濞屸剝婀侀幍鎯у煂鐎电懓绨查惃鍕帳缂冾喗鏋冩禒?!!!--------"+shape);
 			return;
 		}
 			
 		if (!config.schools.contains(school))
 		{
-			logger.error("------"+shape+"-------------------娌℃湁鎵惧埌瀵瑰簲鐨勮亴涓?!!!------"+school);
+			logger.error("------"+shape+"-------------------濞屸剝婀侀幍鎯у煂鐎电懓绨查惃鍕捍娑�?!!!------"+school);
 			return;
 		}
 		
 		
-		//妫?鏌ョ敤鐢ㄦ埛鍚嶉暱搴︽槸鍚﹀悎鐞?
+		//濡�?閺屻儳鏁ら悽銊﹀煕閸氬秹鏆辨惔锔芥Ц閸氾箑鎮庨悶?
 		int nameLen = CheckName.nameLen();
 		int length=0;
 		try {
@@ -71,34 +71,34 @@ public class CCreateRole extends __CCreateRole__ {
 		} catch (UnsupportedEncodingException e) {
 			// TODO Auto-generated catch block
 			sendError(SCreateRoleError.CREATE_OVERLEN);
-			logger.error("鍚嶅瓧闀垮害涓嶅");
+			logger.error("閸氬秴鐡ч梹鍨娑撳秴顕�");
 			return;
 		} 
 		
 		
 		if(length > nameLen){
 			sendError(SCreateRoleError.CREATE_OVERLEN);
-			logger.error("鍚嶅瓧闀垮害涓嶅");
+			logger.error("閸氬秴鐡ч梹鍨娑撳秴顕�");
 			return;
 		}
 		else if (length < CCreateRole.NAMELEN_MIN){
 			sendError(SCreateRoleError.CREATE_SHORTLEN);
-			logger.error("鍚嶅瓧闀垮害涓嶅");
+			logger.error("閸氬秴鐡ч梹鍨娑撳秴顕�");
 			return;
 		}
 		
 		int resultCode = fire.pb.util.CheckName.checkValid(name);
 		if(resultCode == CheckName.WORD_ILLEGALITY){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.error("鍙兘杈撳叆2-7涓腑鏂囷紝4-14涓嫳鏂囨垨鑰呫?佹暟瀛楀苟涓斾笉鑳藉惈鏈夐潪娉曞瓧绗?");
+			logger.error("閸欘亣鍏樻潏鎾冲弳2-7娑擃亙鑵戦弬鍥风礉4-14娑擃亣瀚抽弬鍥ㄥ灗閼板懌?浣规殶鐎涙鑻熸稉鏂剧瑝閼宠棄鎯堥張澶愭姜濞夋洖鐡х粭?");
 			return;	
 		}else if(resultCode == CheckName.SPECIAL_WORD_TOO_MANY){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.error("鐗规畩瀛楃杩囧");
+			logger.error("閻楄鐣╃�涙顑佹潻鍥ь樋");
 			return;
 		}else if(resultCode == CheckName.NONE_CHARACTER){
 			sendError(SCreateRoleError.CREATE_INVALID);
-			logger.error("鍛藉悕蹇呴』鍖呭惈涓?涓眽瀛楁垨鑰呭瓧姣?");
+			logger.error("閸涜棄鎮曡箛鍛淬�忛崠鍛儓娑�?娑擃亝鐪界�涙鍨ㄩ懓鍛摟濮�?");
 			return;
 		}
 		
@@ -111,7 +111,7 @@ public class CCreateRole extends __CCreateRole__ {
 					roleNum++;
 			}
 			if(roleNum >= PCreateRole.maxCreateRoleNum){
-				logger.error("-----------------------瑙掕壊鍒涘缓宸茬粡杈惧埌鏈?澶ф暟");
+				logger.error("-----------------------鐟欐帟澹婇崚娑樼紦瀹歌尙绮℃潏鎯у煂閺�?婢堆勬殶");
 				sendError(SCreateRoleError.CREATE_OVERCOUNT);
 				return;
 			}

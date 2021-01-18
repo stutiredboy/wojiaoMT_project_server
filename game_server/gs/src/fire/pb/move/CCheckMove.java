@@ -28,7 +28,7 @@ public class CCheckMove extends __CCheckMove__ {
 		
 		final long curTick = System.currentTimeMillis();
 		if(! role.checkValidFrequency(curTick)){
-			return;//鍙拷鐣ワ紝涓嶈涪鎺?
+			return;//閸欘亜鎷烽悾銉礉娑撳秷娑幒?
 		}
 		
 		checkmove(role, sceneid, curpos, poslist,curTick);
@@ -41,7 +41,7 @@ public class CCheckMove extends __CCheckMove__ {
 		
 		if(! role.checkMoveUnit())
 		{
-			//Scene.logger.debug("鏈夎鑹查槦浼嶄腑, 浣嗛潪闃熼暱鍙戞潵妫?娴嬫秷鎭痋t" + role.getName() + "\t" + role.getTeamIndex());
+			//Scene.logger.debug("閺堝顫楅懝鏌ユЕ娴煎秳鑵�, 娴ｅ棝娼梼鐔兼毐閸欐垶娼靛Λ?濞村绉烽幁鐥媡" + role.getName() + "\t" + role.getTeamIndex());
 			return false;
 		}
 		
@@ -60,14 +60,14 @@ public class CCheckMove extends __CCheckMove__ {
 		int z = role.getPos().getZ();
 		final Position destPos = new Position(curpos.x, curpos.y, z);
 		final java.util.List<Position> positions = new java.util.ArrayList<Position>();
-		positions.add(role.getPos());// 灏嗘湇鍔″櫒涓婄殑褰撳墠鐐? 鍔犲叆鍒伴獙璇佺偣鍒椾腑
+		positions.add(role.getPos());// 鐏忓棙婀囬崝鈥虫珤娑撳﹦娈戣ぐ鎾冲閻�? 閸旂姴鍙嗛崚浼寸崣鐠囦胶鍋ｉ崚妞捐厬
 		for(final Pos p : poslist)
 			positions.add(new Position(p.x, p.y, z));
 		
 		final int length = destPos.getDistance(role.getPos());
 		if(role.isJumping())
 		{
-			//濡傛灉姝ｅ湪璺宠穬
+			//婵″倹鐏夊锝呮躬鐠哄疇绌�
 			if(!role.getJumpRole().checkValidJump(positions, destPos))
 			{
 				role.getJumpRole().confirmPositionToStart();
@@ -76,7 +76,7 @@ public class CCheckMove extends __CCheckMove__ {
 		}
 		else
 		{
-			// 鏍规嵁璺嚎闀垮害杩涜閫熷害鍒ゆ柇
+			// 閺嶈宓佺捄顖滃殠闂�鍨鏉╂稖顢戦柅鐔峰閸掋倖鏌�
 			int cruiseid = role.getCruiseid();
 			if(! role.checkValidMove(cruiseid, positions, destPos, curTick, length))
 			{

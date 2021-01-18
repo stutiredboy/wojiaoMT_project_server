@@ -28,7 +28,7 @@ public class CAttentionGoods extends __CAttentionGoods__ {
 				fire.pb.shop.srv.market.IMarket proxy = (fire.pb.shop.srv.market.IMarket) handler.getProxy();
 				boolean success = proxy.attention(itemtype, attentiontype, roleId, id, attentype);
 				if (success) {
-					// 閫氱煡鍓嶅彴鏁版嵁
+					// 闁氨鐓￠崜宥呭酱閺佺増宓�
 					mkdb.Procedure.psendWhileCommit(roleId, new fire.pb.shop.SAttentionGoods(attentype, id, attentiontype, itemtype));
 				}
 				return success;

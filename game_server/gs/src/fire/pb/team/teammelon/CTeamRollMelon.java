@@ -22,7 +22,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 		mkdb.Procedure teamrollmelon = new mkdb.Procedure() 
 		{
 			@Override
-			/*鍔犻攣椤哄簭team by changhao*/
+			/*閸旂娀鏀ｆい鍝勭碍team by changhao*/
 			protected boolean process()
 			{	
 				xbean.Properties roleprop = xtable.Properties.select(roleid);
@@ -39,7 +39,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				if (eteammelon == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:娌℃湁濂栧姳鍙垎閰?"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:濞屸剝婀佹總鏍уС閸欘垰鍨庨柊?"+roleid);
 					return true;					
 				}
 				
@@ -47,27 +47,27 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				if (teammelon == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:娌℃湁濂栧姳鍙垎閰?"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:濞屸剝婀佹總鏍уС閸欘垰鍨庨柊?"+roleid);
 					return true;					
 				}
 				
-				//姝や汉娌℃湁璧勬牸ROLL鐐? by changhao
+				//濮濄倓姹夊▽鈩冩箒鐠у嫭鐗窻OLL閻�? by changhao
 				Integer rollpoint = teammelon.getMelonroleids().get(roleid);
 				if (rollpoint == null)
 				{
 					psend(roleid, new fire.pb.team.STeamError(fire.pb.team.TeamError.SelfNotInTeam));
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:娌℃湁濂栧姳鍙垎閰?"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:濞屸剝婀佹總鏍уС閸欘垰鍨庨柊?"+roleid);
 					return true;	
 				}
 				
 				Integer alreadroll = teammelon.getOpmelonroleids().get(roleid);
 				if (alreadroll != null)
 				{
-					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:宸茬粡ROLL杩囦簡"+roleid);
+					fire.pb.team.TeamManager.logger.debug("CTeamRollMelon:瀹歌尙绮OLL鏉╁洣绨�"+roleid);
 					return true;
 				}
 				
-				if (status == 0) //鏌愪汉濡傛灉鏀惧純浜? by changhao
+				if (status == 0) //閺屾劒姹夋俊鍌涚亯閺�鎯х磾娴�? by changhao
 				{					
 					teammelon.getMelonroleids().put(roleid, 0);
 				}
@@ -85,13 +85,13 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 				msg.rollinfo.rolename = roleprop.getRolename();
 				msg.rollinfo.roll = teammelon.getMelonroleids().get(roleid);
 				
-				for (Long e : eteammelon.getMelonerlist()) //鍙戠粰鎵?鏈夐槦鍛樻渶缁堢殑杩欎釜浜篟OLL鐐规儏鍐? by changhao
+				for (Long e : eteammelon.getMelonerlist()) //閸欐垹绮伴幍?閺堝妲﹂崨妯绘付缂佸牏娈戞潻娆庨嚋娴滅療OLL閻愯鍎忛崘? by changhao
 				{
-					//TeamManager.logger.info("roll鐐?:鍙戦?佺粰roleid:" + e + "鐐规暟:" + msg.rollinfo.roll);
+					//TeamManager.logger.info("roll閻�?:閸欐垿?浣虹舶roleid:" + e + "閻愯鏆�:" + msg.rollinfo.roll);
 					mkdb.Procedure.psendWhileCommit(e, msg);			
 				}
 				
-				for (Long e : eteammelon.getWatchmelonerlist()) //鍙戠粰瑙傜湅 ROLL鐐圭殑浜? by changhao
+				for (Long e : eteammelon.getWatchmelonerlist()) //閸欐垹绮扮憴鍌滄箙 ROLL閻愬湱娈戞禍? by changhao
 				{
 					if (e != null)
 						mkdb.Procedure.psendWhileCommit(e, msg);			
@@ -111,7 +111,7 @@ public class CTeamRollMelon extends __CTeamRollMelon__ {
 	
 	/*
 	 * 
-	 * 鏈?缁堝喅瀹氳皝鐨勭偣鏈?澶? by changhao
+	 * 閺�?缂佸牆鍠呯�规俺鐨濋惃鍕仯閺�?婢�? by changhao
 	 */
 	public long calcMaxRollPoint(java.util.ArrayList<Long> roleids, xbean.TeamMelon teammelon)
 	{

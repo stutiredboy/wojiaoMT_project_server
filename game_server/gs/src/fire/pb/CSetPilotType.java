@@ -26,7 +26,7 @@ public class CSetPilotType extends __CSetPilotType__ {
 					return false;
 				roleProp.setPilot(pilottype);
 				
-				// 杩愯惀鏃ュ織
+				// 鏉╂劘鎯�閺冦儱绻�
 				fire.log.YYLogger.usrFlgLog(roleId, "E1 : " + pilottype);
 				
 				return true;

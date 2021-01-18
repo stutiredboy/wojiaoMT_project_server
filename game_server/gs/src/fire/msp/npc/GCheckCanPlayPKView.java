@@ -39,21 +39,21 @@ abstract class __GCheckCanPlayPKView__ extends mkio.Protocol { }
 public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	
 	public static final Logger logger = Logger.getLogger("BATTLE");
-	public static final int CQMAPID=1615;//鍒囩鍦板浘id
+	public static final int CQMAPID=1615;//閸掑洨顥愰崷鏉挎禈id
 	public static Map<Integer,SLeitaiLevel> sLeitaiLevelmap=ConfigManager.getInstance().getConf(SLeitaiLevel.class);
 	
 	public static final int MAX_NUM=50;
 	
 	@Override
 	protected void process() {
-		//鍒ゆ柇瀹㈡埛绔彂閫佺殑闂ㄦ淳鍜岀瓑绾т互鍙婃ā鍧楁暟鎹槸鍚︽纭?
+		//閸掋倖鏌囩�广垺鍩涚粩顖氬絺闁胶娈戦梻銊︽烦閸滃瞼鐡戠痪褌浜掗崣濠兡侀崸妤佹殶閹诡喗妲搁崥锔筋劀绾�?
 		if(modeltype!=QCmodelType.ONE_FIGHT&&modeltype!=QCmodelType.TEAM_FIGHT&&modeltype!=QCmodelType.WATCH_FIGHT){
-			logger.error("鍒囩妯″潡鏁版嵁閿欒锛屾ā鍧楅敊璇?");
+			logger.error("閸掑洨顥愬Ο鈥虫健閺佺増宓侀柨娆掝嚖閿涘本膩閸ф鏁婄拠?");
 			return ;
 		}
 		
 		if(sLeitaiLevelmap==null){
-			logger.error("鍒囩妯″潡鏁版嵁閿欒锛屾搨鍙扮瓑绾ч厤缃〃");
+			logger.error("閸掑洨顥愬Ο鈥虫健閺佺増宓侀柨娆掝嚖閿涘本鎼ㄩ崣鎵搼缁狙囧帳缂冾喛銆�");
 			return ;
 		}
 		int levelmin=0;
@@ -63,8 +63,8 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 			levelmin=sLeitaiLevel.getLevelmin();
 			levelmax=sLeitaiLevel.getLevelmax();
 		}
-		//鑾峰緱褰撳墠鍦烘櫙鏄墍鏈夌帺瀹讹紝骞朵笖鏄湪鎿傚彴涓婄殑
-		LinkedList<Long> rolelistid=new LinkedList<Long>();//绗﹀悎鏉′欢鐨勬墍鏈夌帺瀹?
+		//閼惧嘲绶辫ぐ鎾冲閸︾儤娅欓弰顖涘閺堝甯虹�硅绱濋獮鏈电瑬閺勵垰婀幙鍌氬酱娑撳﹦娈�
+		LinkedList<Long> rolelistid=new LinkedList<Long>();//缁楋箑鎮庨弶鈥叉閻ㄥ嫭澧嶉張澶屽负鐎�?
 		HashMap<Long, Long> watchfight=new HashMap<Long, Long>();
 		Scene scene = SceneManager.getInstance().getSceneByID(CQMAPID);
 		Set<Integer> aroundIndexs = new java.util.HashSet<Integer>();
@@ -74,15 +74,15 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 		int num=0;
 		for(Role role : roles.values()){
 			GridPos hostGridPos = role.getPos().toGridPos();
-			//鏄惁鍦ㄦ搨鍙?
+			//閺勵垰鎯侀崷銊︽惃閸�?
 			if (!role.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(hostGridPos.getX(), hostGridPos.getY())) {
 				continue;
 			}
-			//绛夌骇鏄惁绗﹀悎瑕佹眰
+			//缁涘楠囬弰顖氭儊缁楋箑鎮庣憰浣圭湴
 			if(role.getLevel()<fire.pb.battle.CSendInvitePlayPK.PVP_LEVEL){
 				continue;
 			}
-			//鍒ゆ柇鍒犻?夌瓑绾?
+			//閸掋倖鏌囬崚鐘�?澶岀搼缁�?
 			if(role.getLevel()<levelmin||role.getLevel()>levelmax){
 				continue;
 			}
@@ -91,26 +91,26 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 					continue;
 				}
 			}
-			//杩囨护鑷繁
+			//鏉╁洦鎶ら懛顏勭箒
 			if(role.getRoleID()==hostid){
 				continue;
 			}
-			//鍒ゆ柇鐜╁鏄惁缁勯槦锛岃繃婊ら槦鍛?
+			//閸掋倖鏌囬悳鈺侇啀閺勵垰鎯佺紒鍕Е閿涘矁绻冨銈夋Е閸�?
 			Team host_Team = TeamManager.selectTeamByRoleId(role.getRoleID());
 			if (host_Team != null && host_Team.isNormalMember(role.getRoleID())){
 				continue;
 			}
-			//鍒ゆ柇瀵瑰簲妯″潡
+			//閸掋倖鏌囩�电懓绨插Ο鈥虫健
 			if(modeltype==QCmodelType.TEAM_FIGHT){
-				//缁勯槦锛屽繀椤绘槸鏈夐槦浼嶇殑
+				//缂佸嫰妲﹂敍灞界箑妞ょ粯妲搁張澶愭Е娴煎秶娈�
 				if(host_Team == null){
 					continue;
 				}
-				//杩囨护鎺夐潪闃熼暱鎴愬憳
+				//鏉╁洦鎶ら幒澶愭姜闂冪喖鏆遍幋鎰喅
 				if(host_Team.getTeamLeaderId()!=role.getRoleID()){
 					continue;
 				}
-				//杩欓噷闇?瑕佸垽鏂綋鍓嶇殑闃熶紞鏄惁鏄嚜宸辨墍鍦ㄧ殑闃熶紞
+				//鏉╂瑩鍣烽棁?鐟曚礁鍨介弬顓炵秼閸撳秶娈戦梼鐔剁礊閺勵垰鎯侀弰顖濆殰瀹歌鲸澧嶉崷銊ф畱闂冪喍绱�
 				Team selfTeam = TeamManager.selectTeamByRoleId(hostid);
 				if(selfTeam!=null){
 					if(host_Team.getTeamId()==selfTeam.getTeamId()){
@@ -126,7 +126,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 				watchFightView(role,watchfight);
 				num=watchfight.size();
 			}else if(modeltype==QCmodelType.ONE_FIGHT){
-				//鍗曚汉锛岃繃婊ょ粍闃熷拰鍦ㄦ垬鏂楃殑鐜╁
+				//閸楁洑姹夐敍宀冪箖濠娿倗绮嶉梼鐔锋嫲閸︺劍鍨弬妤冩畱閻溾晛顔�
 				if(host_Team != null){
 					continue;
 				}
@@ -144,19 +144,19 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	}
 	
 	/**
-	 * 娣诲姞瑙傛垬鐨勭帺瀹?
+	 * 濞ｈ濮炵憴鍌涘灛閻ㄥ嫮甯虹��?
 	 * @param role
 	 * @param watchfight
 	 */
 	private  void watchFightView(Role role,HashMap<Long, Long> watchfight){
-		//杩囨护娌℃湁鍦ㄦ垬鏂楃殑鐜╁
-		//涓嶅湪鎴樻枟涓?
+		//鏉╁洦鎶ゅ▽鈩冩箒閸︺劍鍨弬妤冩畱閻溾晛顔�
+		//娑撳秴婀幋妯绘灍娑�?
 		if(!fire.pb.buff.Module.existState(role.getRoleID(), fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER)){			
 			return;
 		}
-		//杩囨护鎺変笉鏄富鏂圭殑
+		//鏉╁洦鎶ら幒澶夌瑝閺勵垯瀵岄弬鍦畱
 		Long battleid = xtable.Roleid2battleid.select(role.getRoleID());
-		if (battleid==null){//鐜╁鍙兘鏄偣鍑昏鎴樿?呰繘鍏ヨ鎴樼殑
+		if (battleid==null){//閻溾晛顔嶉崣顖濆厴閺勵垳鍋ｉ崙鏄忣潎閹存?鍛扮箻閸忋儴顫囬幋妯兼畱
 			battleid = xtable.Watcherid2battleid.select(role.getRoleID());
 		}
 		if(battleid == null){

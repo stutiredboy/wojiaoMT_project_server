@@ -26,34 +26,34 @@ abstract class __CInvitationPlayPKResult__ extends mkio.Protocol { }
 public class CInvitationPlayPKResult extends __CInvitationPlayPKResult__ {
 	@Override
 	protected void process() {
-		// protocol handle 鏄惁鍚屾剰鍒囩
+		// protocol handle 閺勵垰鎯侀崥灞惧壈閸掑洨顥�
 		final long guestid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (guestid<0){
 			return;
 		}
 		if(acceptresult==1){
-			//鍒ゆ柇涓?浜涢?昏緫锛屽綋鍓嶆槸涓嶆槸鍦ㄤ竴寮犲湴鍥撅紝鎴栬?呮槸涓嶆槸璺濈澶繙
+			//閸掋倖鏌囨稉?娴滄盯?鏄忕帆閿涘苯缍嬮崜宥嗘Ц娑撳秵妲搁崷銊ょ瀵姴婀撮崶鎾呯礉閹存牞?鍛Ц娑撳秵妲哥捄婵堫瀲婢额亣绻�
 			xbean.Properties guestprop=xtable.Properties.select(guestid);
 			if(guestprop.getCruise() > 0) {
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162103, null);
 				return ;
 			}
-			//鍒ゆ柇涓や釜浜烘槸涓嶆槸鍦ㄥ悓涓?涓槦浼嶄腑
-			//鍒ゆ柇鐩爣鏄惁鏈夐槦浼嶏紝闇?瑕佽?冭檻鐩爣鍦ㄩ槦浼嶄腑鐨勭姸鎬?
+			//閸掋倖鏌囨稉銈勯嚋娴滅儤妲告稉宥嗘Ц閸︺劌鎮撴稉?娑擃亪妲︽导宥勮厬
+			//閸掋倖鏌囬惄顔界垼閺勵垰鎯侀張澶愭Е娴煎稄绱濋棁?鐟曚浇?鍐閻╊喗鐖ｉ崷銊╂Е娴煎秳鑵戦惃鍕Ц閹�?
 			Team guestteam = TeamManager.selectTeamByRoleId(guestid);
-			//鍒ゆ柇鏄惁鏄竴涓槦浼嶇殑鎴愬憳
+			//閸掋倖鏌囬弰顖氭儊閺勵垯绔存稉顏堟Е娴煎秶娈戦幋鎰喅
 			if (guestteam != null){
 				if(guestteam.getAllMemberIds().contains(sourceid)){
-					fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 160460, null);//鎻愮ず涓嶈兘閭?璇峰悓缁勯槦鍛?
-					CInvitationPlayPK.sendremoveTickTime(sourceid);//閫氱煡瀹㈡埛绔彇娑堝畾鏃跺櫒
+					fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 160460, null);//閹绘劗銇氭稉宥堝厴闁�?鐠囧嘲鎮撶紒鍕Е閸�?
+					CInvitationPlayPK.sendremoveTickTime(sourceid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
 					return;
 				}
 			}
-			// 鍒ゆ柇涓よ?呬箣闂寸殑璺濈
+			// 閸掋倖鏌囨稉銈�?鍛闂傚娈戠捄婵堫瀲
 			if (!fire.pb.battle.PSendInvitePlayPK.checkRoleDistance(guestid, sourceid)){
 	            fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 120063, 0, null);
 	            fire.pb.talk.MessageMgr.sendMsgNotify(sourceid, 120063, 0, null);
-	            CInvitationPlayPK.sendremoveTickTime(sourceid);//閫氱煡瀹㈡埛绔彇娑堝畾鏃跺櫒
+	            CInvitationPlayPK.sendremoveTickTime(sourceid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
 	            return ;
 			}
 			BuffAgent hostAgent = new BuffRoleImpl(sourceid, true);
@@ -63,9 +63,9 @@ public class CInvitationPlayPKResult extends __CInvitationPlayPKResult__ {
 			}
 			new PSendInvitePlayPK(sourceid,guestid).submit();
 		}else{
-			//鎷掔粷鍒囩
+			//閹锋帞绮烽崚鍥╊棎
 			fire.pb.talk.MessageMgr.sendMsgNotify(sourceid, 160425, 0, null);
-			CInvitationPlayPK.sendremoveTickTime(sourceid);//閫氱煡瀹㈡埛绔彇娑堝畾鏃跺櫒
+			CInvitationPlayPK.sendremoveTickTime(sourceid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
 			return;
 		}
 	}

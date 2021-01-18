@@ -52,7 +52,7 @@ public class CDefineTeam extends __CDefineTeam__ {
 					return false;
 				
 				if (answer == 1) {
-					//鐩存帴杩涘叆闃熼暱鎵?鍦ㄧ殑鍔ㄦ?佸満鏅腑
+					//閻╁瓨甯存潻娑樺弳闂冪喖鏆遍幍?閸︺劎娈戦崝銊�?浣告簚閺咁垯鑵�
 					long leaderroleId = team.getTeamInfo().getTeamleaderid();
 					
 					Role leaderRole = RoleManager.getInstance().getRoleByID(leaderroleId);

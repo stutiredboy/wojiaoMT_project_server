@@ -26,11 +26,11 @@ public class CRoleJumpStop extends __CRoleJumpStop__ {
 		
 		if(! role.isJumping()) return;
 		
-		//checkmove 涓?娆?
+		//checkmove 娑�?濞�?
 		/*final long curTick = System.currentTimeMillis();
 		if(!CCheckMove.checkmove(role,sceneid, destpos, poslist,curTick))
 		{
-			return;//checkmove娌℃垚鍔?
+			return;//checkmove濞屸剝鍨氶崝?
 		}*/
 		Position stoppos = new Position(destpos.x, destpos.y, destz);
 		role.stopJump(stoppos);

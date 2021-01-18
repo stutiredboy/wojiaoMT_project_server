@@ -26,7 +26,7 @@ abstract class __CVisitNpc__ extends mkio.Protocol { }
 public class CVisitNpc extends __CVisitNpc__ {
 	private boolean checkGatherTask( long roleid, final SGatherConfig conf ) {
 		if ( conf.tasks == null || conf.tasks.isEmpty() ) {
-			Module.logger.error("閲囬泦鐗╃殑tasks瀛楁涓虹┖");
+			Module.logger.error("闁插洭娉﹂悧鈺冩畱tasks鐎涙顔屾稉铏光敄");
 			return true;
 		}
 		if ( fire.pb.mission.Module.getInstance().checkGather(roleid, conf) ) {
@@ -38,7 +38,7 @@ public class CVisitNpc extends __CVisitNpc__ {
 		// 
 		SGatherConfig conf = ConfigManager.getInstance().getConf(fire.pb.npc.SGatherConfig.class).get(gatherid );
 		if ( conf == null ) {
-			Module.logger.error( "娌℃湁璇ラ噰闆嗙墿鐨勯厤缃?" + gatherid );
+			Module.logger.error( "濞屸剝婀佺拠銉╁櫚闂嗗棛澧块惃鍕帳缂�?" + gatherid );
 			return;
 		}
 
@@ -66,17 +66,17 @@ public class CVisitNpc extends __CVisitNpc__ {
 	}
 	
 	private void onVisitNpc( final long roleid, final SNpcShare share ) {
-		//濡傛灉鏄壇鏈帺娉曞唴鐨刵pc锛屾埅璧?
+		//婵″倹鐏夐弰顖氬閺堫剛甯哄▔鏇炲敶閻ㄥ埖pc閿涘本鍩呯挧?
 		if (share.npctype == 16) {
 			fire.pb.instancezone.Module.visitNpc(roleid, npckey, share);
 			return;
 		}
-		//鏃ュ父鍓湰鐜╂硶鍐呯殑npc
+		//閺冦儱鐖堕崜顖涙拱閻溾晜纭堕崘鍛畱npc
 		if (share.npctype == 17) {
 			fire.pb.mission.instance.InstanceManager.visitNpc(roleid, npckey, share);
 			return;
 		}
-		//鎹夐浠诲姟鐜╂硶鍐呯殑npc
+		//閹瑰顑楁禒璇插閻溾晜纭堕崘鍛畱npc
 		if (share.npctype == 28) {
 			if (mkdb.Transaction.current() != null) {
 				new fire.pb.circletask.catchit.PSendCatchItNpcService(share.getId(), npckey, roleid).call();
@@ -87,20 +87,20 @@ public class CVisitNpc extends __CVisitNpc__ {
 			return;
 		}
 		
-		//涓?娆℃?у壇鏈帺娉曞唴鐨刵pc
+		//娑�?濞嗏剝?褍澹囬張顒傚负濞夋洖鍞撮惃鍒祊c
 		if (fire.pb.mission.instance.line.LineInstManager.getInstance().checkLineNpc(share.getId())) {
 			fire.pb.mission.instance.line.LineInstManager.visitNpc(roleid, npckey, share);
 			return;
 		}
 		// added by cn
-		// 鏈夌殑浠诲姟涓?,鐜╁鍙兘鏍规湰娌℃湁璁块棶npc鐨勮祫鏍?,鐩存帴杩斿洖鎻愮ず淇℃伅,涓嶉渶瑕佸脊鍑烘湇鍔″垪琛?,濡傛灉鏈夎繖绉嶆儏鍐?,缁熶竴鍐欏湪杩欎釜
-		// 鏂规硶閲?
+		// 閺堝娈戞禒璇插娑�?,閻溾晛顔嶉崣顖濆厴閺嶈婀板▽鈩冩箒鐠佸潡妫秐pc閻ㄥ嫯绁弽?,閻╁瓨甯存潻鏂挎礀閹绘劗銇氭穱鈩冧紖,娑撳秹娓剁憰浣歌剨閸戠儤婀囬崝鈥冲灙鐞�?,婵″倹鐏夐張澶庣箹缁夊秵鍎忛崘?,缂佺喍绔撮崘娆忔躬鏉╂瑤閲�
+		// 閺傝纭堕柌?
 		if (!checkNpcVisitable(roleid)){
 			Module.logger.info("npc is unvisitable");
 			return;
 		}
 		
-		//濡傛灉鏄壒娈婄殑npc璁块棶澶勭悊妗?
+		//婵″倹鐏夐弰顖滃濞堝﹦娈憂pc鐠佸潡妫舵径鍕倞濡�?
 		SpecialNpcDialogProcessor processor = SpecialVisitProcessCreator.getInstance().createNpcDialogProcessor(roleid, npckey);
 		if(null != processor){
 			Module.logger.info("specialNpcDialog. npcid:"+share.id);
@@ -117,7 +117,7 @@ public class CVisitNpc extends __CVisitNpc__ {
 		getScenarioQuests(roleid, share.id, svisitNpc);
 		
 		gnet.link.Onlines.getInstance().send(roleid, svisitNpc);
-		Module.logger.info("SVisitNpc鍗忚鍐呭-" + getString(svisitNpc,share.id));
+		Module.logger.info("SVisitNpc閸楀繗顔呴崘鍛啇-" + getString(svisitNpc,share.id));
 	}
 	
 
@@ -139,44 +139,44 @@ public class CVisitNpc extends __CVisitNpc__ {
 	@Override
 	protected void process() {
 
-		//Module.logger.info("褰撳墠璁块棶npc id + " + NpcServiceManager.getNpcIDByKey(npckey));
+		//Module.logger.info("瑜版挸澧犵拋鍧楁６npc id + " + NpcServiceManager.getNpcIDByKey(npckey));
 		
 		// protocol handle
-		// TODO:浜鸿兘鍚﹁闂甆PC,浜虹墿鐘舵?佺殑鍒ゆ柇锛屼緥濡備氦鏄擄紝鎴樻枟涓?...
+		// TODO:娴滈缚鍏橀崥锕侇問闂傜攩PC,娴滆櫣澧块悩鑸�?浣烘畱閸掋倖鏌囬敍灞肩伐婵″倷姘﹂弰鎿勭礉閹存ɑ鏋熸稉?...
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0){
-			Module.logger.error("璁块棶npc鐨勮鑹? 锛? " + roleid + "鏈夐敊");
+			Module.logger.error("鐠佸潡妫秐pc閻ㄥ嫯顫楅懝? 閿�? " + roleid + "閺堝鏁�");
 			return;
 		}
 		
 		PropRole prole = new PropRole(roleid, true);	
 		if(prole.getProperties().getCruise() > 0) {
-			Module.logger.error("璁块棶npc鐨勮鑹? 锛? " + roleid + "宸℃父鐘舵?侊紝绂佹璁块棶.");
+			Module.logger.error("鐠佸潡妫秐pc閻ㄥ嫯顫楅懝? 閿�? " + roleid + "瀹糕剝鐖堕悩鑸�?渚婄礉缁備焦顒涚拋鍧楁６.");
 			return;
 		}
 
-		// 鍙垎浜殑npc锛?
+		// 閸欘垰鍨庢禍顐ゆ畱npc閿�?
 		Npc npc = SceneNpcManager.selectNpcByKey(npckey);
 		if (npc == null){
-			Module.logger.error("璁块棶npc涓嶅瓨鍦? 锛? " + npckey);
+			Module.logger.error("鐠佸潡妫秐pc娑撳秴鐡ㄩ崷? 閿�? " + npckey);
 			return;
 		}
 		final SNpcShare share = NpcManager.getInstance().getNpcShareByID( npc.getNpcID() );
 		if ( share == null ){
-			Module.logger.error("璁块棶npc鐨刬d 锛? " + npc.getNpcID() + "鏈夐敊 share涓簄ull");
+			Module.logger.error("鐠佸潡妫秐pc閻ㄥ埇d 閿�? " + npc.getNpcID() + "閺堝鏁� share娑撶皠ull");
 			return;
 		}
 		if ( share.npctype == 5 ) {
 			Role role = RoleManager.getInstance().getRoleByID(roleid);
 			if(!role.checkDistance(npc,400)){
-				Module.logger.error("璁块棶npc鐨勮窛绂昏繃杩? 锛? " + npc.getNpcID());
+				Module.logger.error("鐠佸潡妫秐pc閻ㄥ嫯绐涚粋鏄忕箖鏉�? 閿�? " + npc.getNpcID());
 				return;
 			}
 			gatherProcess( roleid, share.id );
 			return;
 		}
 		if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, roleid)){
-			Module.logger.error("npc鐨勮窛绂昏繃杩? 锛? " + npc.getNpcID());
+			Module.logger.error("npc閻ㄥ嫯绐涚粋鏄忕箖鏉�? 閿�? " + npc.getNpcID());
 			return;
 		}
 		fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
@@ -203,12 +203,12 @@ public class CVisitNpc extends __CVisitNpc__ {
 
 	private boolean checkNpcVisitable(long roleid) {
 
-		// 鏅哄姏璇曠粌鐨勭壒娈婂鐞?
+		// 閺呭搫濮忕拠鏇犵矊閻ㄥ嫮澹掑▓濠傤槱閻�?
 //		if(!fire.pb.activity.keju.KejuManager.getInstance().checkNpcVisitable(roleid,npckey)){
-//			Module.logger.info("鏅哄姏璇曠粌npc,鐜╁涓嶈兘璁块棶:"+roleid);
+//			Module.logger.info("閺呭搫濮忕拠鏇犵矊npc,閻溾晛顔嶆稉宥堝厴鐠佸潡妫�:"+roleid);
 //			return false;
 //		}
-		// 鏅哄姏璇曠粌鐨勭壒娈婂鐞? end
+		// 閺呭搫濮忕拠鏇犵矊閻ㄥ嫮澹掑▓濠傤槱閻�? end
 		return true;
 	}
 

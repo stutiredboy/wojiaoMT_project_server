@@ -50,46 +50,46 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 				}
 				Map<Integer, SRoleRColorConfig> sRoleRColorConfig = ConfigManager.getInstance().getConf(SRoleRColorConfig.class);
 				if(sRoleRColorConfig==null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鏁版嵁閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閺佺増宓侀柨娆掝嚖");
 					return false;
 				}
-				//鍒ゆ柇鑳屽寘閲岀殑瀹犵墿鏄惁瀛樺湪
+				//閸掋倖鏌囬懗灞藉瘶闁插瞼娈戠�圭姷澧块弰顖氭儊鐎涙ê婀�
 				PetColumn petColumn = new PetColumn(roleid, PetColumnTypes.PET,false);
 				fire.pb.pet.Pet pet = petColumn.getPet(petkey);
 				if(pet==null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊鐨勫疇鐗╀笉瀛樺湪"+"\t鏁版嵁閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹婇惃鍕枃閻椻晙绗夌�涙ê婀�"+"\t閺佺増宓侀柨娆掝嚖");
 					return false;
 				}
 				PetInfo petInfo = petColumn.getPetInfo(petkey);
 				if (petInfo == null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊鐨勫疇鐗╀笉瀛樺湪"+"\t鏁版嵁閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹婇惃鍕枃閻椻晙绗夌�涙ê婀�"+"\t閺佺増宓侀柨娆掝嚖");
 					return false;
 				}
-				//蹇呴』鏄彉寮傜殑瀹犵墿鎵嶅彲浠ユ煋鑹?
+				//韫囧懘銆忛弰顖氬綁瀵倻娈戠�圭姷澧块幍宥呭讲娴犮儲鐓嬮懝?
 				if(pet.getKind()!=PetTypeEnum.VARIATION){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t閿欒1");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t闁挎瑨顕�1");
 					return false;
 				}
 				if(petInfo.getPetdye1()==colorpos1){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t褰撳墠鏌撹壊鏂规鐩稿悓锛屾棤闇?鏌撹壊");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t瑜版挸澧犻弻鎾瑰閺傝顢嶉惄绋挎倱閿涘本妫ら棁?閺屾捁澹�");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
-				//鍒ゆ柇瀹犵墿鏌撹壊鏂规pet.getBaseId()
+				//閸掋倖鏌囩�圭姷澧块弻鎾瑰閺傝顢峱et.getBaseId()
 				if(!isCanUseColor(pet.getBaseId(),colorpos1)){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t閿欒2");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t闁挎瑨顕�2");
 					return false;
 				}
 				
-				//鍒ゆ柇閬撳叿鏄惁澶?
-				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//鎹愯禒鐨勪汉鑳屽寘瀹瑰櫒
+				//閸掋倖鏌囬柆鎾冲徔閺勵垰鎯佹径?
+				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//閹规劘绂掗惃鍕眽閼冲苯瀵樼�圭懓娅�
 				if(bagContainer==null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鑳屽寘閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閼冲苯瀵橀柨娆掝嚖");
 					return false;
 				}
 				SRoleRColorConfig sRoleRColorConfig1=sRoleRColorConfig.get(colorpos1);
 				if(sRoleRColorConfig1==null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鏁版嵁閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閺佺増宓侀柨娆掝嚖");
 					return false;
 				}
 				int cost=sRoleRColorConfig1.getItemnum();
@@ -100,8 +100,8 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 150058, null);
 					return false;
 				}
-				//鎵ｉ櫎閬撳叿
-				int delnum=bagContainer.removeItemById(itemcode, cost, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, itemcode, "瀹犵墿鏌撹壊");
+				//閹碉綁娅庨柆鎾冲徔
+				int delnum=bagContainer.removeItemById(itemcode, cost, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, itemcode, "鐎圭姷澧块弻鎾瑰");
 				if(delnum!=cost){
 					return false;
 				}
@@ -112,15 +112,15 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 				sReqUsePetColor.colorpos2=colorpos2;
 				sReqUsePetColor.petkey=petkey;
 				Procedure.psendWhileCommit(roleid, sReqUsePetColor);
-				// 鍒锋柊瀹犵墿淇℃伅
+				// 閸掗攱鏌婄�圭姷澧挎穱鈩冧紖
 				final SRefreshPetInfo refresh = new SRefreshPetInfo(pet.getProtocolPet());
 				psendWhileCommit(roleid, refresh);
 				
-				//鎻愮ず鏌撹壊鎴愬姛
+				//閹绘劗銇氶弻鎾瑰閹存劕濮�
 				fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160432, null);
 				
 				
-				logger.info("瑙掕壊id "+roleid+"瀹犵墿鏌撹壊鏌撹壊锛屽疇鐗﹌ey"+petkey+"\t瀹犵墿鍚嶇О\t"+petInfo.getName()+"\t鎵ｉ櫎閬撳叿锛岀墿鍝乮d"+itemcode+"鏁伴噺"+cost+"褰撳墠鏌撹壊鏂规 "+colorpos1);
+				logger.info("鐟欐帟澹奿d "+roleid+"鐎圭姷澧块弻鎾瑰閺屾捁澹婇敍灞界枃閻楋箤ey"+petkey+"\t鐎圭姷澧块崥宥囆瀄t"+petInfo.getName()+"\t閹碉綁娅庨柆鎾冲徔閿涘瞼澧块崫涔甦"+itemcode+"閺佷即鍣�"+cost+"瑜版挸澧犻弻鎾瑰閺傝顢� "+colorpos1);
 				return true;
 			}
 		}.submit();
@@ -129,7 +129,7 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 	}
 	
 	/**
-	 * 鍒ゆ柇瀹犵墿鏄惁鍙互鏌撹壊
+	 * 閸掋倖鏌囩�圭姷澧块弰顖氭儊閸欘垯浜掗弻鎾瑰
 	 * @param petId
 	 * @param colorpos
 	 * @return

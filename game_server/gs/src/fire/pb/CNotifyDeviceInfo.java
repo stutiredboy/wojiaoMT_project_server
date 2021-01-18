@@ -35,7 +35,7 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 		final int userid = ((Dispatch)this.getContext()).userid;
 		if(userid == -1){
 			kickUser(-1000);
-			mkdb.Trace.info("CRoleList====userid = -1  韪㈡帀  =============");
+			mkdb.Trace.info("CRoleList====userid = -1  闊垺甯�  =============");
 			return;
 		}
 		
@@ -55,38 +55,38 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 					machineInfos.put(uiu.key, uiu.value);
 				}
 				
-				//杩欓噷澶勭悊涓?涓嬫棩蹇楃浉鍏崇殑閫昏緫
+				//鏉╂瑩鍣锋径鍕倞娑�?娑撳妫╄箛妤冩祲閸忓磭娈戦柅鏄忕帆
 				xbean.UserDeviceInfo userDeviceInfo=xtable.Userdeviceinfotab.get(userid);
 				boolean isfirst=false;
 				int first=1;
 				if(userDeviceInfo==null){
-					//鏄涓?娆℃敞鍐?
+					//閺勵垳顑囨稉?濞嗏剝鏁為崘?
 					first=0;
 					isfirst=true;
 					userDeviceInfo=xbean.Pod.newUserDeviceInfo();
 					xtable.Userdeviceinfotab.insert(userid, userDeviceInfo);
 				}
-				userDeviceInfo.setIp(userinfo!=null?InetAddressUtil.ipInt2String(userinfo.getLoginip()):"auuserinfonull"); // 鐜╁璁惧IP
-				//璁剧疆鐩稿叧鐨勫鎴风鏈哄櫒淇℃伅
-				userDeviceInfo.setTelcooper(machineInfos.get("TelcoOper")==null?"":machineInfos.get("TelcoOper")); // 鐢ㄦ埛缃戠粶杩愯惀鍟?
-				userDeviceInfo.setChid(machineInfos.get("ChId")==null?"":machineInfos.get("ChId")); // 娓犻亾ID
-				userDeviceInfo.setPlattype(machineInfos.get("PlatType")==null?"":machineInfos.get("PlatType")); // 骞冲彴ID(IOS,android,wp)
-				userDeviceInfo.setDeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId")); // 鐜╁璁惧(mac/idfv)璁惧鍞竴鏍囪瘑
-				userDeviceInfo.setImei(machineInfos.get("IMEI")==null?"":machineInfos.get("IMEI")); // 鍏ョ綉鏍囪瘑绗?
-				userDeviceInfo.setNetenvir(machineInfos.get("NetEnvir")==null?"":machineInfos.get("NetEnvir")); // 缃戠粶鐜(濡傦細3G,4G,wifi)
-				userDeviceInfo.setOsver(machineInfos.get("OsVer")==null?"":machineInfos.get("OsVer")); // 鐜╁绯荤粺鐗堟湰(鍏蜂綋鐗堟湰濡俰os9,android4.1)
-				userDeviceInfo.setBrtype(machineInfos.get("BrType")==null?"":machineInfos.get("BrType")); // 鐜╁鎵嬫満绫诲瀷(濡傝仈鎯筹紝閰锋淳)
+				userDeviceInfo.setIp(userinfo!=null?InetAddressUtil.ipInt2String(userinfo.getLoginip()):"auuserinfonull"); // 閻溾晛顔嶇拋鎯ь槵IP
+				//鐠佸墽鐤嗛惄绋垮彠閻ㄥ嫬顓归幋椋庮伂閺堝搫娅掓穱鈩冧紖
+				userDeviceInfo.setTelcooper(machineInfos.get("TelcoOper")==null?"":machineInfos.get("TelcoOper")); // 閻€劍鍩涚純鎴犵捕鏉╂劘鎯�閸�?
+				userDeviceInfo.setChid(machineInfos.get("ChId")==null?"":machineInfos.get("ChId")); // 濞撶娀浜綢D
+				userDeviceInfo.setPlattype(machineInfos.get("PlatType")==null?"":machineInfos.get("PlatType")); // 楠炲啿褰碔D(IOS,android,wp)
+				userDeviceInfo.setDeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId")); // 閻溾晛顔嶇拋鎯ь槵(mac/idfv)鐠佹儳顦崬顖欑閺嶅洩鐦�
+				userDeviceInfo.setImei(machineInfos.get("IMEI")==null?"":machineInfos.get("IMEI")); // 閸忋儳缍夐弽鍥槕缁�?
+				userDeviceInfo.setNetenvir(machineInfos.get("NetEnvir")==null?"":machineInfos.get("NetEnvir")); // 缂冩垹绮堕悳顖氼暔(婵″偊绱�3G,4G,wifi)
+				userDeviceInfo.setOsver(machineInfos.get("OsVer")==null?"":machineInfos.get("OsVer")); // 閻溾晛顔嶇化鑽ょ埠閻楀牊婀�(閸忚渹缍嬮悧鍫熸拱婵′堪os9,android4.1)
+				userDeviceInfo.setBrtype(machineInfos.get("BrType")==null?"":machineInfos.get("BrType")); // 閻溾晛顔嶉幍瀣簚缁鐎�(婵″倽浠堥幆绛圭礉闁伴攱娣�)
 				String username=xtable.Auuserinfo.selectUsername(userid);
 				if(username!=null){
 					userDeviceInfo.setUsername(username);
 				}
 				
 				if(isfirst==true){
-					//娉ㄥ唽鐨勮繍钀ユ棩蹇?
+					//濞夈劌鍞介惃鍕箥閽�銉︽）韫�?
 					userDeviceInfo.setFirstdeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId"));
 					fire.log.YYLogger.OpRegLog(userid,0,0);
 				}
-				//鐧婚檰鏃ュ織
+				//閻у妾伴弮銉ョ箶
 				fire.log.YYLogger.OpLog(userid,0, "login",first,0,0,0);
 				
 				
@@ -182,7 +182,7 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 //						sendDataToAuAny(userid, mac);
 //					}
 //					pexecute(new PForbidUserByMacOrIDFA(roleid, mac, idfa));
-//					pexecute(new PFskAward(roleid,devicetype));//鍙戝瘜澹悍绀煎寘
+//					pexecute(new PFskAward(roleid,devicetype));//閸欐垵鐦滄竟顐㈡倣缁�鐓庡瘶
 				} catch (Exception e) {
 					LogManager.logger.error("notify device info error", e);
 				}

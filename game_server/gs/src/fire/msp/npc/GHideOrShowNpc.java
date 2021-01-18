@@ -28,7 +28,7 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 		java.util.List<fire.pb.scene.movable.NPC> npcs = SceneNpcManager.getInstance().getNpcByID(npcid);
 		if (!npcs.isEmpty()){
 			if (state == 0){
-				// 鏄剧ず    娣诲姞閫氱煡瀹㈡埛绔坊鍔燦PC
+				// 閺勫墽銇�    濞ｈ濮為柅姘辩叀鐎广垺鍩涚粩顖涘潑閸旂嚘PC
 				for (fire.pb.scene.movable.NPC npc : npcs){
 					npc.setVisible(true);
 					final SAddUserScreen snd = new SAddUserScreen();
@@ -37,7 +37,7 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 				}
 			}
 			else if (state == 1){
-				// 闅愯棌
+				// 闂呮劘妫�
 				for (fire.pb.scene.movable.NPC npc : npcs){
 					npc.setVisible(false);
 					final SRemoveUserScreen snd = new SRemoveUserScreen();

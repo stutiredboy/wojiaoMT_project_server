@@ -33,7 +33,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//浣跨敤鏌撹壊鍔熻兘
+		//娴ｈ法鏁ら弻鎾瑰閸旂喕鍏�
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
@@ -47,60 +47,60 @@ public class CReqUseColor extends __CReqUseColor__ {
 				}
 				Map<Integer, SRoleRColorConfig> sRoleRColorConfig = ConfigManager.getInstance().getConf(SRoleRColorConfig.class);
 				if(sRoleRColorConfig==null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鏁版嵁閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閺佺増宓侀柨娆掝嚖");
 					return false;
 				}
 				if(rolecolorinfo.colorpos1==0&&rolecolorinfo.colorpos2==0){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t褰撳墠鏌撹壊鏂规鐩稿悓锛屾棤闇?鏌撹壊");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t瑜版挸澧犻弻鎾瑰閺傝顢嶉惄绋挎倱閿涘本妫ら棁?閺屾捁澹�");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
 				if(rolecolorinfo.colorpos1<0||rolecolorinfo.colorpos2<0){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鏁版嵁閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閺佺増宓侀柨娆掝嚖");
 					return false;
 				}
 				
-				//鍒ゆ柇鏄惁鍜岃韩涓婄殑鏌撹壊鏂规鐩稿悓
+				//閸掋倖鏌囬弰顖氭儊閸滃矁闊╂稉濠勬畱閺屾捁澹婇弬瑙勵攳閻╃鎮�
 				int curpos1=prop.getRolecolor1();
 				int curpos2=prop.getRolecolor2();
 				if(rolecolorinfo.colorpos1==curpos1&&rolecolorinfo.colorpos2==curpos2){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t褰撳墠鏌撹壊鏂规鐩稿悓锛屾棤闇?鏌撹壊");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t瑜版挸澧犻弻鎾瑰閺傝顢嶉惄绋挎倱閿涘本妫ら棁?閺屾捁澹�");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
 				SRoleRColorConfig sRoleRColorConfig1=null;
 				SRoleRColorConfig sRoleRColorConfig2=null;
 				if(rolecolorinfo.colorpos1!=0&&rolecolorinfo.colorpos1!=curpos1){
-					//鍒ゆ柇閮ㄤ綅鐨勬柟妗堟槸鍚﹀瓨鍦?
+					//閸掋倖鏌囬柈銊ょ秴閻ㄥ嫭鏌熷鍫熸Ц閸氾箑鐡ㄩ崷?
 					sRoleRColorConfig1=sRoleRColorConfig.get(rolecolorinfo.colorpos1);
-					//鍒ゆ柇鏄惁鏄儴浣?1
+					//閸掋倖鏌囬弰顖氭儊閺勵垶鍎存担?1
 					if(sRoleRColorConfig1.getRolepos()!=1){
-						logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t瀹㈡埛绔彂閫佹暟鎹敊璇?");
+						logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t鐎广垺鍩涚粩顖氬絺闁焦鏆熼幑顕�鏁婄拠?");
 						return false;
 					}
 				}
 				if(rolecolorinfo.colorpos2!=0&&rolecolorinfo.colorpos2!=curpos2){
-					//鍒ゆ柇閮ㄤ綅鐨勬柟妗堟槸鍚﹀瓨鍦?
+					//閸掋倖鏌囬柈銊ょ秴閻ㄥ嫭鏌熷鍫熸Ц閸氾箑鐡ㄩ崷?
 					sRoleRColorConfig2=sRoleRColorConfig.get(rolecolorinfo.colorpos2);
-					//鍒ゆ柇鏄惁鏄儴浣?2
+					//閸掋倖鏌囬弰顖氭儊閺勵垶鍎存担?2
 					if(sRoleRColorConfig2.getRolepos()!=2){
-						logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t瀹㈡埛绔彂閫佹暟鎹敊璇?");
+						logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t鐎广垺鍩涚粩顖氬絺闁焦鏆熼幑顕�鏁婄拠?");
 						return false;
 					}
 				}
-				//濡傛灉鏌撹壊閮ㄤ綅1鍜?2閮戒负绌猴紝鏃犻渶鏌撹壊
+				//婵″倹鐏夐弻鎾瑰闁劋缍�1閸�?2闁垝璐熺粚鐚寸礉閺冪娀娓堕弻鎾瑰
 				if(sRoleRColorConfig1==null&&sRoleRColorConfig2==null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t褰撳墠鏌撹壊鏂规鐩稿悓锛屾棤闇?鏌撹壊");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t瑜版挸澧犻弻鎾瑰閺傝顢嶉惄绋挎倱閿涘本妫ら棁?閺屾捁澹�");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
-				//璁＄畻骞舵墸闄ゆ秷鑰?
-				double delpre=1;//鏌撹壊琛ｆ煖鎶樻崯绯绘暟
-				boolean ischange1=rolecolorinfo.colorpos1!=curpos1;//鏄惁鏀瑰彉
-				boolean ischange2=rolecolorinfo.colorpos2!=curpos2;//鏄惁鏀瑰彉
+				//鐠侊紕鐣婚獮鑸靛⒏闂勩倖绉烽懓?
+				double delpre=1;//閺屾捁澹婄悰锝嗙厲閹舵ɑ宕化缁樻殶
+				boolean ischange1=rolecolorinfo.colorpos1!=curpos1;//閺勵垰鎯侀弨鐟板綁
+				boolean ischange2=rolecolorinfo.colorpos2!=curpos2;//閺勵垰鎯侀弨鐟板綁
 				
 				
-				//鍒ゆ柇褰撳墠鏄惁鍦ㄨ。姗变腑瀛樺湪杩欎釜鏌撹壊鏂规锛屽瓨鍦ㄦ煋鑹叉柟妗堥渶瑕佹墦鎶?
+				//閸掋倖鏌囪ぐ鎾冲閺勵垰鎯侀崷銊ㄣ�傚鍙樿厬鐎涙ê婀潻娆庨嚋閺屾捁澹婇弬瑙勵攳閿涘苯鐡ㄩ崷銊︾厠閼瑰弶鏌熷鍫ユ付鐟曚焦澧﹂幎?
 				boolean havetype=false;
 				for(xbean.RoleColorType type:prop.getColorroomlist()){
 					if(type!=null&&type.getColorpos1()==rolecolorinfo.colorpos1&&type.getColorpos2()==rolecolorinfo.colorpos2){
@@ -108,7 +108,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 						break;
 					}
 				}
-				//璁＄畻娑堣??
+				//鐠侊紕鐣诲☉鍫�??
 				if(havetype){
 					Map<Integer, SCommon> commonMap = ConfigManager.getInstance().getConf(SCommon.class);
 					if(commonMap!=null){
@@ -118,16 +118,16 @@ public class CReqUseColor extends __CReqUseColor__ {
 						}
 					}
 				}
-				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//鎹愯禒鐨勪汉鑳屽寘瀹瑰櫒
+				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//閹规劘绂掗惃鍕眽閼冲苯瀵樼�圭懓娅�
 				if(bagContainer==null){
-					logger.info("瑙掕壊id "+roleid+"鏌撹壊"+"\t鑳屽寘閿欒");
+					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閼冲苯瀵橀柨娆掝嚖");
 					return false;
 				}
 				
 				HashMap<Integer, Integer> costitems=new HashMap<Integer, Integer>();
-				//鍒ゆ柇閬撳叿鏄惁瓒冲
-				dealCostItemNum(roleid,delpre,sRoleRColorConfig1,ischange1,costitems);//閬撳叿1
-				dealCostItemNum(roleid,delpre,sRoleRColorConfig2,ischange2,costitems);//閬撳叿2
+				//閸掋倖鏌囬柆鎾冲徔閺勵垰鎯佺搾鍐差檮
+				dealCostItemNum(roleid,delpre,sRoleRColorConfig1,ischange1,costitems);//闁挸鍙�1
+				dealCostItemNum(roleid,delpre,sRoleRColorConfig2,ischange2,costitems);//闁挸鍙�2
 				String loginfo="";
 				for (Entry<Integer, Integer> entry : costitems.entrySet()) {
 					if(entry.getKey()>0&&entry.getValue()>0){
@@ -136,23 +136,23 @@ public class CReqUseColor extends __CReqUseColor__ {
 							fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 150058, null);
 							return false;
 						}
-						//鎵ｉ櫎閬撳叿
-						int delnum=bagContainer.removeItemById(entry.getKey(), entry.getValue(), fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, entry.getKey(), "瑙掕壊鏌撹壊");
+						//閹碉綁娅庨柆鎾冲徔
+						int delnum=bagContainer.removeItemById(entry.getKey(), entry.getValue(), fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, entry.getKey(), "鐟欐帟澹婇弻鎾瑰");
 						if(delnum!=entry.getValue()){
 							return false;
 						}
-						loginfo="瑙掕壊id "+roleid+"鏌撹壊"+"\t鎵ｉ櫎閬撳叿锛岀墿鍝乮d"+entry.getKey()+"鏁伴噺"+entry.getValue();
+						loginfo="鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閹碉綁娅庨柆鎾冲徔閿涘瞼澧块崫涔甦"+entry.getKey()+"閺佷即鍣�"+entry.getValue();
 					}
 				}
 				
 				logger.info(loginfo);
 				
-				//璁剧疆鏌撹壊淇℃伅
+				//鐠佸墽鐤嗛弻鎾瑰娣団剝浼�
 				prop.setRolecolor1(rolecolorinfo.colorpos1);
 				prop.setRolecolor2(rolecolorinfo.colorpos2);
 				
-				//閫氱煡鍦烘櫙涓殑鍏朵粬浜猴紝褰撳墠浜虹墿澶栧舰鍙樺寲
-				//娉ㄦ剰杩欓噷鍜屽鎴风鏍″鐨勬椂鍊欓渶瑕丷oleBasicOctets鍦ㄨ繖閲岄潰娣诲姞瀛楁锛屾槸鍦‥:\MT-G\server\server\protocols\move.xml杩欎釜鍗忚閲岋紝鐜板湪鍏堜笉鍔?
+				//闁氨鐓￠崷鐑樻珯娑擃厾娈戦崗鏈电铂娴滅尨绱濊ぐ鎾冲娴滆櫣澧挎径鏍ц埌閸欐ê瀵�
+				//濞夈劍鍓版潻娆撳櫡閸滃苯顓归幋椋庮伂閺嶁�愁嚠閻ㄥ嫭妞傞崐娆撴付鐟曚阜oleBasicOctets閸︺劏绻栭柌宀勬桨濞ｈ濮炵�涙顔岄敍灞炬Ц閸︹��:\MT-G\server\server\protocols\move.xml鏉╂瑤閲滈崡蹇氼唴闁插矉绱濋悳鏉挎躬閸忓牅绗夐崝?
 //				Role addRole = RoleManager.getInstance().getRoleByID(roleid);
 //				SAddUserScreen sadduser = new SAddUserScreen();
 //				sadduser.rolelist.add(addRole.getRoleBasic());
@@ -172,21 +172,21 @@ public class CReqUseColor extends __CReqUseColor__ {
 //				gnet.link.Onlines.getInstance().send(roleid, sReqUseColor);
 				Procedure.psendWhileCommit(roleid, sReqUseColor);
 				fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160432, null);
-				//淇濆瓨鍒拌。姗辫繑鍥炶。姗变俊鎭?
+				//娣囨繂鐡ㄩ崚鎷屻�傚杈箲閸ョ偠銆傚鍙樹繆閹�?
 				saveColor(roleid,prop);
 				
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 				if (team != null){
 					team.updateTeamMemberBasic2Others(roleid);
 				}
-				logger.info("瑙掕壊id "+roleid+"鏌撹壊鎴愬姛锛屽綋鍓嶆煋鑹叉柟妗?"+prop.getRolecolor1()+" "+prop.getRolecolor2());
+				logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹婇幋鎰閿涘苯缍嬮崜宥嗙厠閼瑰弶鏌熷?"+prop.getRolecolor1()+" "+prop.getRolecolor2());
 				return true;
 			}
 		}.submit();
 	}
 	
 	/**
-	 * 淇濆瓨鏌撹壊鏂规
+	 * 娣囨繂鐡ㄩ弻鎾瑰閺傝顢�
 	 * @param roleid
 	 * @param prop
 	 */
@@ -224,7 +224,7 @@ public class CReqUseColor extends __CReqUseColor__ {
 	
 	
 	/**
-	 * 璁＄畻闇?瑕佺殑閬撳叿鏁伴噺
+	 * 鐠侊紕鐣婚棁?鐟曚胶娈戦柆鎾冲徔閺佷即鍣�
 	 * @param roleid
 	 * @param delpre
 	 * @param sRoleRColorConfig1

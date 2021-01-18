@@ -22,15 +22,15 @@ public class GGoto extends __GGoto__ {
 		if(null == role) return;
 		
 		if(gototype == fire.pb.move.SRoleEnterScene.SYSTEM_DRAG){
-			//绯荤粺鎷変汉浼氭媺鍒版寚瀹氱偣鐨勯檮杩?
+			//缁崵绮洪幏澶夋眽娴兼碍濯洪崚鐗堝瘹鐎规氨鍋ｉ惃鍕鏉�?
 			role.justGoto(sceneid, xpos, ypos, BlockInfo.FLOOR_0_Z, gototype);
 			return;
 		}else if (delta <= 0){
-			//濡傛灉娌℃湁璇樊鑼冨洿锛岀簿纭媺鍒版寚瀹氬潗鏍?
+			//婵″倹鐏夊▽鈩冩箒鐠囶垰妯婇懠鍐ㄦ纯閿涘瞼绨跨涵顔藉閸掔増瀵氱�规艾娼楅弽?
 			role.justGoto(sceneid, xpos, ypos, BlockInfo.FLOOR_0_Z, gototype);
 			return;
 		}else{
-			//濡傛灉鏈夎宸寖鍥达紝闅忔満涓?涓彲鐢ㄥ潗鏍?
+			//婵″倹鐏夐張澶庮嚖瀹割喛瀵栭崶杈剧礉闂呭繑婧�娑�?娑擃亜褰查悽銊ユ綏閺�?
 			java.util.Random r = fire.pb.scene.MapHelper.getRandom();
 			int gox = xpos + (r.nextInt(1) * 2 - 1) * r.nextInt(delta);
 			int goy = ypos + (r.nextInt(1) * 2 - 1) * r.nextInt(delta);

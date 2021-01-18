@@ -23,13 +23,13 @@ public class CChamberOfCommerceShop extends __CChamberOfCommerceShop__ {
 
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("娌℃湁璇ュ晢鍝乕" + goodsid + "]");
+			mkdb.Trace.info("濞屸剝婀佺拠銉ユ櫌閸濅箷" + goodsid + "]");
 			return;
 		}
 
 		fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 		if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-			mkdb.Trace.info("鍟嗕細娌℃湁璇ョ墿鍝?.shopid:" + shopid + "goodsid:" + goodsid);
+			mkdb.Trace.info("閸熷棔绱板▽鈩冩箒鐠囥儳澧块崫?.shopid:" + shopid + "goodsid:" + goodsid);
 			return;
 		}
 

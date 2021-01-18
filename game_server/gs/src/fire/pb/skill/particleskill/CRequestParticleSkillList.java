@@ -27,7 +27,7 @@ abstract class __CRequestParticleSkillList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 璇锋眰淇偧鎶?鑳戒俊鎭? by changhao
+ * 鐠囬攱鐪版穱顔惧仹閹�?閼虫垝淇婇幁? by changhao
  *
  */
 
@@ -73,7 +73,7 @@ public class CRequestParticleSkillList extends __CRequestParticleSkillList__ {
 				SkillRole skillrole = new SkillRole(roleid);
 				int size = skillrole.getPracticeSkills().size();
 							
-				if (size == 0) //寮?濮嬪垵濮嬪寲 by changhao
+				if (size == 0) //瀵�?婵鍨垫慨瀣 by changhao
 				{										
 					java.util.Map<Integer, fire.pb.skill.SLifeSkill> config = ConfigManager.getInstance().getConf(fire.pb.skill.SLifeSkill.class);
 					

@@ -43,7 +43,7 @@ public class CGrabActivityReward extends __CGrabActivityReward__ {
 					{
 						long lasttime = activityquestion.getActivityquestionstarttime();
 						
-						if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //濡傛灉涓嶆槸鍚屼竴澶╄蛋浜篵y changhao
+						if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //婵″倹鐏夋稉宥嗘Ц閸氬奔绔存径鈺勮泲娴滅y changhao
 						{
 							return true;
 						}
@@ -53,10 +53,10 @@ public class CGrabActivityReward extends __CGrabActivityReward__ {
 							fire.pb.common.SCommon c = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(236);
 							int rewardid = Integer.parseInt(c.getValue());
 							
-							//娣诲姞鍥炵瓟姝ｇ‘鐨勫弬鏁?
+							//濞ｈ濮為崶鐐电摕濮濓絿鈥橀惃鍕棘閺�?
 							Map<String, Object> paras = new HashMap<String, Object>(10);
 							paras.put(RewardMgr.ANSWER_RIGHT_TIMES, activityquestion.getAnswerrighttimes());
-							fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, rewardid, paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_grab, 0,fire.pb.PAddExpProc.OTHER_QUEST, "绛旈");
+							fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, rewardid, paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_grab, 0,fire.pb.PAddExpProc.OTHER_QUEST, "缁涙棃顣�");
 							activityquestion.setGrabreward(2);
 							
 							fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160417, null);

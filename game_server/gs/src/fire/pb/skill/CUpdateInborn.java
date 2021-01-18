@@ -26,7 +26,7 @@ public class CUpdateInborn extends __CUpdateInborn__ {
 				protected boolean process(){
 					SkillRole srole = new SkillRole(roleId);
 					srole.updateInbornWithValid(apId);
-					//鏇存柊鐜╁缁煎悎瀹炲姏鎺掕姒?
+					//閺囧瓨鏌婇悳鈺侇啀缂佺厧鎮庣�圭偛濮忛幒鎺曨攽濮�?
 					mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PRoleZongheRankProc(roleId));
 					return true;
 				}

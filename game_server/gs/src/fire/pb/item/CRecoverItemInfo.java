@@ -24,18 +24,18 @@ public class CRecoverItemInfo extends __CRecoverItemInfo__ {
 			@Override
 			protected boolean process() {
 
-				// 鑾峰緱鍙洖鏀秛niqId鍒楄〃
+				// 閼惧嘲绶遍崣顖氭礀閺�绉沶iqId閸掓銆�
 				xbean.Itemrecoverlist itemRecoverList = xtable.Itemrecover.select(roleId);
 				if (itemRecoverList == null) {
 					return false;
 				}
 
-				// 鏄惁瀛樺湪鍙洖鏀剁殑uniqId
+				// 閺勵垰鎯佺�涙ê婀崣顖氭礀閺�鍓佹畱uniqId
 				if (itemRecoverList.getUniqids().contains(uniqid) == false) {
 					return false;
 				}
 
-				// 鑾峰緱涓㈠純鐨勯亾鍏?
+				// 閼惧嘲绶辨稉銏犵磾閻ㄥ嫰浜鹃崗?
 				xbean.DiscardItem ditem = xtable.Itemrecyclebin.select(uniqid);
 				if (ditem == null) {
 					return false;
@@ -46,7 +46,7 @@ public class CRecoverItemInfo extends __CRecoverItemInfo__ {
 					return false;
 				}
 
-				// 鍙戦?佺粰瀹㈡埛绔?
+				// 閸欐垿?浣虹舶鐎广垺鍩涚粩?
 				SRecoverItemInfo send = new SRecoverItemInfo();
 				send.uniqid = uniqid;
 				com.locojoy.base.Octets tips = bi.getTips();

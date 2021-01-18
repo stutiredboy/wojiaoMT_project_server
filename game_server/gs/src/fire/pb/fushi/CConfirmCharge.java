@@ -11,7 +11,7 @@ abstract class __CConfirmCharge__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 /***
- * 纭鍏呭??
+ * 绾喛顓婚崗鍛�??
  * @author changhao
  *
  */

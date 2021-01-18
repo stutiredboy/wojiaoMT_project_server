@@ -15,7 +15,7 @@ abstract class __CSendElectorWords__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鍙戦?佺珵閫夊瑷? by changhao
+ * 閸欐垿?浣虹彽闁顓虹懛? by changhao
  *
  */
 public class CSendElectorWords extends __CSendElectorWords__ {
@@ -42,14 +42,14 @@ public class CSendElectorWords extends __CSendElectorWords__ {
 			b = true;
 		}		
 		
-		//杩樻病鎸戞垬鎴愬姛  by changhao
+		//鏉╂ɑ鐥呴幐鎴炲灛閹存劕濮�  by changhao
 		if(b == false)
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 170009, null);	
 			return ;
 		}
 		
-		//濡傛灉宸插弬鍔犵珵閫夐偅涔堜慨鏀圭珵閫夎瘝 by changhao
+		//婵″倹鐏夊鎻掑棘閸旂姷鐝甸柅澶愬亝娑斿牅鎱ㄩ弨鍦彽闁鐦� by changhao
 		boolean modify = false;
         xbean.ProfessionLeaderTicketInfo candInfo=fire.pb.school.shouxi.ProfessionLeaderManager.getInstance().getCandInfoFromRoleid(roleid, school);
         if(candInfo!=null)
@@ -60,7 +60,7 @@ public class CSendElectorWords extends __CSendElectorWords__ {
         if (modify == false)
         {
     		if (!ProfessionLeaderManager.getInstance().isInChallengePeriod(System.currentTimeMillis()))
-    		{//鎶曠エ璺熺珵閫夋椂涓?涓椂闂存
+    		{//閹舵洜銈ㄧ捄鐔虹彽闁妞傛稉?娑擃亝妞傞梻瀛橆唽
     			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141983, null);
     			return;
     		}        	

@@ -54,7 +54,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				info.setUsername(octstream.unmarshal_String("UTF-8"));
 				info.setNickname(nickNameStr);
 				
-				//解析出渠道名字
+				//瑙ｆ瀽鍑烘笭閬撳悕瀛�
 				String userNameStr = info.getUsername();
 //				String userNameStr = "1234567890@@yingyongbao@2";
 				String [] str = userNameStr.split("@");
@@ -115,7 +115,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				sb.append(",loginip:"+loginip);
 				//xdb.Trace.info(sb.toString());
 				StateManager.logger.info(sb.toString());
-				//插入会重复
+				//鎻掑叆浼氶噸澶�
 				xtable.Auuserinfo.remove(userid);
 				xtable.Auuserinfo.add(userid, info);
 				return true;
@@ -128,7 +128,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 						return entry.getValue();
 				}
 			
-				//如果没有找到,默认是android
+				//濡傛灉娌℃湁鎵惧埌,榛樿鏄痑ndroid
 				return "2";
 
 			}

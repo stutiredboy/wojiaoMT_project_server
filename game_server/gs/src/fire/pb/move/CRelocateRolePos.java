@@ -22,11 +22,11 @@ public class CRelocateRolePos extends __CRelocateRolePos__ {
 			return;
 		if(sceneid != role.getScene().getSceneID())
 		{
-			Scene.LOG.info("CRelocateRolePos鍙戞潵鐨勫満鏅窡瑙掕壊褰撳墠鐨勫満鏅笉涓?鑷达紝瑙掕壊鍚嶇О锛?" + role.getName());
+			Scene.LOG.info("CRelocateRolePos閸欐垶娼甸惃鍕簚閺咁垵绐＄憴鎺曞瑜版挸澧犻惃鍕簚閺咁垯绗夋稉?閼疯揪绱濈憴鎺曞閸氬秶袨閿�?" + role.getName());
 			return;
 		}
 		if(SceneTeam.TEAM_NORMAL == role.getTeamState()){
-			Scene.LOG.error("闃熶紞涓櫘閫氶槦鍛樺彂鏉elocate娑堟伅\t" + role.getName());
+			Scene.LOG.error("闂冪喍绱炴稉顓熸珮闁岸妲﹂崨妯哄絺閺夘櫂elocate濞戝牊浼匼t" + role.getName());
 			return;
 		}
 		if(! role.checkNeedCheckPos())
@@ -38,15 +38,15 @@ public class CRelocateRolePos extends __CRelocateRolePos__ {
 		if(role.getScene().checkBlock(pos.toGridPos(), pos.getWalkBlockType()))
 		{
 			role.broadResetPosition();
-			return;//閲嶇疆鍒伴樆鎸＄偣鏃讹紝涓嶅厑璁?
+			return;//闁插秶鐤嗛崚浼存▎閹革紕鍋ｉ弮璁圭礉娑撳秴鍘戠拋?
 		}
 		if(SRelocateRolePos.MAX_DISTANCE < pos.getDistance(role.getPos()))
 		{
 			role.broadResetPosition();
-			return;//閲嶇疆璺濈杩囪繙鏃讹紝涓嶅厑璁?
+			return;//闁插秶鐤嗙捄婵堫瀲鏉╁洩绻欓弮璁圭礉娑撳秴鍘戠拋?
 		}
 		
-		// 鍙皟鏁翠綅缃?,涓嶆洿鏂板睆骞曚俊鎭?,灏变細瀵艰嚧瑙掕壊閬楃暀闂
+		// 閸欘亣鐨熼弫缈犵秴缂�?,娑撳秵娲块弬鏉跨潌楠炴洑淇婇幁?,鐏忓彉绱扮�佃壈鍤х憴鎺曞闁鏆�闂傤噣顣�
 		role.updatePosition(pos);
 		role.clearCurDestPos();
 		

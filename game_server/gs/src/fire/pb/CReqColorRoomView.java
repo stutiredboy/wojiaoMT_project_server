@@ -19,7 +19,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//璇锋眰浜虹墿鏌撹壊琛ｆ┍淇℃伅
+		//鐠囬攱鐪版禍铏瑰⒖閺屾捁澹婄悰锝嗏攳娣団剝浼�
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
@@ -50,7 +50,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 //						max=Integer.parseInt(sCommon.getValue());
 //					}
 //				}
-//				sReqColorRoomView.nummax=max;//鏌撹壊姗辨煖鏈?澶у??
+//				sReqColorRoomView.nummax=max;//閺屾捁澹婂杈ㄧ厲閺�?婢堆�??
 //				gnet.link.Onlines.getInstance().send(roleid, sReqColorRoomView);
 				
 				sendColorRoomInfo(roleid);
@@ -62,7 +62,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 	}
 	
 	/**
-	 * 鍙戦?佽。姗变俊鎭?
+	 * 閸欐垿?浣姐�傚鍙樹繆閹�?
 	 * @param roleid
 	 */
 	public static void sendColorRoomInfo(long roleid){
@@ -72,7 +72,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 		}
 		SReqColorRoomView sReqColorRoomView=new SReqColorRoomView();
 		java.util.List<xbean.RoleColorType> list=prop.getColorroomlist();
-		//鍒ゆ柇濡傛灉琛ｆ┍娌℃湁濂楄淇℃伅锛岄粯璁ゆ樉绀鸿韩涓婄殑涓?濂?
+		//閸掋倖鏌囨俊鍌涚亯鐞涳絾鈹嶅▽鈩冩箒婵傛顥婃穱鈩冧紖閿涘矂绮拋銈嗘▔缁�楦块煩娑撳﹦娈戞稉?婵�?
 		if(list.size()==0){
 			xbean.RoleColorType rolecolortyoe=xbean.Pod.newRoleColorType();
 			rolecolortyoe.setColorpos1(prop.getRolecolor1());
@@ -98,7 +98,7 @@ public class CReqColorRoomView extends __CReqColorRoomView__ {
 				max=Integer.parseInt(sCommon.getValue());
 			}
 		}
-		sReqColorRoomView.nummax=max;//鏌撹壊姗辨煖鏈?澶у??
+		sReqColorRoomView.nummax=max;//閺屾捁澹婂杈ㄧ厲閺�?婢堆�??
 		gnet.link.Onlines.getInstance().send(roleid, sReqColorRoomView);
 	}
 	

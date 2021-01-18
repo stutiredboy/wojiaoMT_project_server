@@ -30,23 +30,23 @@ public class CReqSeeEachOther extends __CReqSeeEachOther__ {
 		Role seerole = RoleManager.getInstance().getRoleByID(roleid);
 		
 		if(reqrole == null || seerole == null)
-			return;//涓嶅湪绾?
+			return;//娑撳秴婀痪?
 		
 		if(reqrole.getScene() != seerole.getScene())
-			return;//涓嶅湪鍚屼竴鍦烘櫙
+			return;//娑撳秴婀崥灞肩閸︾儤娅�
 		
 		Scene s = reqrole.getScene();
 		int reqscreenindex = s.getScreenIndex(reqrole.getPos());
 		int seescreenindex = s.getScreenIndex(seerole.getPos());
 		if(Math.abs(reqscreenindex - seescreenindex) > 1)
-			return;//涓嶅湪闄勮繎灞忓潡涓紝浜掔浉鐪嬩笉鍒?
+			return;//娑撳秴婀梽鍕箮鐏炲繐娼℃稉顓ㄧ礉娴滄帞娴夐惇瀣╃瑝閸�?
 		
 		MapConfig mapcfg = ConfigManager.getInstance().getConf(MapConfig.class).get(s.getMapID());
 		if(mapcfg == null)
 			return;
-		if(mapcfg.getVisibletype() == 1)//鑷繁鍙
+		if(mapcfg.getVisibletype() == 1)//閼奉亜绻侀崣顖濐潌
 			return;
-		if(mapcfg.getVisibletype() == 2)//灏忛槦鍙
+		if(mapcfg.getVisibletype() == 2)//鐏忓繘妲﹂崣顖濐潌
 		{
 			final long reqteamid = reqrole.getTeamID();
 			final long addteamid = seerole.getTeamID();

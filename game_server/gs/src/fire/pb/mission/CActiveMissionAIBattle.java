@@ -22,13 +22,13 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			return;
 		final MissionConfig conf = MissionManager.getInstance().getMissionConfig( missionid );
 		if (conf == null)
-			throw new NullPointerException( "浠诲姟id=" + missionid + "鐨勯厤缃负null" );
+			throw new NullPointerException( "娴犺濮焛d=" + missionid + "閻ㄥ嫰鍘ょ純顔昏礋null" );
 		if(activetype == 0){
 			if (conf.exeIndo.share == 0) {
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 				if (team != null){
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 174001, null);
-					Module.logger.info("瑙掕壊[" + roleid + "]濡勬兂鍦ㄧ粍闃熺姸鎬佷笅杩涘叆闈炵粍闃熷叡浜换鍔" + missionid + "]鐨勬垬鏂?,鏈曚笉鍑嗭紒" );
+					Module.logger.info("鐟欐帟澹奫" + roleid + "]婵″嫭鍏傞崷銊х矋闂冪喓濮搁幀浣风瑓鏉╂稑鍙嗛棃鐐电矋闂冪喎鍙℃禍顐℃崲閸旑摗" + missionid + "]閻ㄥ嫭鍨弬?,閺堟洑绗夐崙鍡磼" );
 					return;
 				}
 			}
@@ -44,7 +44,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 		
 			RoleMission mission = sml.getMission(missionid);
 			if ( mission == null ) {
-				Module.logger.debug( "娌℃湁璇ヤ换鍔＄殑淇℃伅" );
+				Module.logger.debug( "濞屸剝婀佺拠銉ゆ崲閸旓紕娈戞穱鈩冧紖" );
 				return;
 			}
 			final int status = mission.getState();
@@ -59,7 +59,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 						conf.scenarioInfo.animationID).submit();
 			}
 		} else if (activetype == 1) {
-			//TODO:鎴樻枟褰曞儚鍔熻兘
+			//TODO:閹存ɑ鏋熻ぐ鏇炲剼閸旂喕鍏�
 			final int aiid = conf.aiInfo.aIID;
 			new PSendCameraUrl(aiid,roleid).submit();
 		}
@@ -71,7 +71,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			return false;
 		}
 		if ( team != null && !team.isAbsentMember( roleid ) && conf.exeIndo.teamState == 0 ) {
-			Module.logger.error( "浠诲姟" + conf.missionId + "涓嶈兘鏈夐槦浼嶆彁浜?" );
+			Module.logger.error( "娴犺濮�" + conf.missionId + "娑撳秷鍏橀張澶愭Е娴煎秵褰佹禍?" );
 			fire.pb.talk.MessageMgr.sendMsgNotify( roleid, 141711, null );
 			return false;
 		}
@@ -79,8 +79,8 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			final SSpecialScenarioQuestConfig sconf = conf.getSpecialScenarioQuestConfig();
 			if ( sconf == null )
 				return false;
-			if ( sconf.绫诲瀷ID2 == 2 ) {
-				// 鍒ゆ柇鍑烘垬瀹犵墿
+			if ( sconf.缁鐎稩D2 == 2 ) {
+				// 閸掋倖鏌囬崙鐑樺灛鐎圭姷澧�
 				final int fightpetkey =
 					xtable.Properties.selectFightpetkey( roleid );
 				fire.pb.pet.PetColumn pc = new fire.pb.pet.PetColumn( roleid, 

@@ -29,7 +29,7 @@ public class CMarketBuy extends __CMarketBuy__ {
 				fire.pb.shop.srv.market.IMarket proxy = (fire.pb.shop.srv.market.IMarket) handler.getProxy();
 				boolean success = proxy.buy(roleId, id, saleroleid, itemid, num);
 //				if (success) {
-					// 鍒锋柊鍓嶅彴鏁版嵁
+					// 閸掗攱鏌婇崜宥呭酱閺佺増宓�
 //					fire.pb.shop.srv.market.MarketManager.getInstance().sendMarketContainerByRoleId(roleId);
 //				}
 				return success;

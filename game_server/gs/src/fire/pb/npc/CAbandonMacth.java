@@ -30,11 +30,11 @@ public class CAbandonMacth extends __CAbandonMacth__ {
 					return false;
 				if (!npcBattle.getBattleroles().containsKey(roleid))
 					return false;
-				//浠庡尮閰嶅垪琛ㄩ噷鍒犻櫎
+				//娴犲骸灏柊宥呭灙鐞涖劑鍣烽崚鐘绘珟
 				npcBattle.getBattleroles().remove(roleid);
 				xtable.Role2npcbattle.remove(roleid);
 				
-				//缁欓槦鍛樺彂閫侀槦闀垮凡缁忓彇娑堢殑娑堟伅
+				//缂佹瑩妲﹂崨妯哄絺闁線妲﹂梹鍨嚒缂佸繐褰囧☉鍫㈡畱濞戝牊浼�
 				List<Long> allRoles = new ArrayList<Long>();
 				Team team = TeamManager.selectTeamByRoleId(roleid);
 				if (team != null) {

@@ -27,7 +27,7 @@ public class CRoleStop extends __CRoleStop__ {
 		
 		if(! role.checkMoveUnit()) return;
 		
-		//checkmove涓?娆?
+		//checkmove娑�?濞�?
 		if(!CCheckMove.checkmove(role, role.getScene().getSceneID(), pos, poslist, System.currentTimeMillis()))
 		{
 			return;	
@@ -35,11 +35,11 @@ public class CRoleStop extends __CRoleStop__ {
 		
 		role.clearCurDestPos();
 
-		/*涓嶅箍鎾? final SRoleStop snd = new SRoleStop();
+		/*娑撳秴绠嶉幘? final SRoleStop snd = new SRoleStop();
 		snd.roleid = role.getRoleID();
 		snd.pos = role.getPos().toProtocolPos();
 		role.sendWhoSeeMe(snd);*/
-		/*涓嶅箍鎾?2 final SRoleMove snd = new SRoleMove();
+		/*娑撳秴绠嶉幘?2 final SRoleMove snd = new SRoleMove();
 		snd.roleid = role.getRoleID();
 		snd.destpos = role.getPos().toProtocolPos();
 		role.sendWhoSeeMe(snd);*/

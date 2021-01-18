@@ -23,7 +23,7 @@ public class GCreateNpc extends __GCreateNpc__ {
 				npc.npcid, npc.npcname, npc.dir);
 			fire.pb.scene.Scene dstscene = SceneManager.getInstance().getSceneByID(npc.sceneid);
 			if (dstscene == null){
-				SceneManager.logger.error("甯淳鏃ュ父浠诲姟--姹熸箹鎭惰醇鎵惧埌涓嶇洰鐨勫湴鍥?");
+				SceneManager.logger.error("鐢喗娣抽弮銉ョ埗娴犺濮�--濮圭喐绠归幁鎯伴唶閹垫儳鍩屾稉宥囨窗閻ㄥ嫬婀撮崶?");
 				continue;
 			}
 			

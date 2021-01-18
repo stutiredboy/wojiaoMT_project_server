@@ -20,7 +20,7 @@ public class CReceiveCheckCode extends __CReceiveCheckCode__ {
 		if (roleid < 0) {
 			return;
 		}
-		//寰楀埌楠岃瘉鐮?
+		//瀵版鍩屾宀冪槈閻�?
 		CheckCodeUtils.getCheckCode(roleid, checkcodetype);
 	}
 

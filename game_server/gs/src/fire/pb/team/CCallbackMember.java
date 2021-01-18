@@ -21,7 +21,7 @@ abstract class __CCallbackMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鍙洖
+ * 閸欘剙娲�
  * @author changhao
  *
  */
@@ -49,7 +49,7 @@ public class CCallbackMember extends __CCallbackMember__ {
 				else
 					return true;
 				if(!team.isTeamLeader(leaderRoleId))
-					return true;//楠岃瘉璇ヨ鑹叉槸鍚﹁繕鏄槦浼嶉槦闀?
+					return true;//妤犲矁鐦夌拠銉潡閼瑰弶妲搁崥锕佺箷閺勵垶妲︽导宥夋Е闂�?
 //				Long[] roleids = new Long[team.getAllMemberIds().size()];
 //				roleids[0] = leaderRoleId;
 				this.lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK,team.getAllMemberIds()));
@@ -57,21 +57,21 @@ public class CCallbackMember extends __CCallbackMember__ {
 				
 				if(!checkTeamStatusValid(leaderRoleId))
 				{
-					//闃熶紞锛堥槦闀匡級鐨勭姸鎬佹鏃朵笉鑳藉彫鍥炴殏绂荤殑闃熷憳锛堜緥濡傚湪鎴樻枟椋炶涓級(illegal)
-					TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勭姸鎬佹鏃朵笉鑳藉彫鍥炴殏绂婚槦鍛?,teamId: " + teamId);
+					//闂冪喍绱為敍鍫ユЕ闂�鍖＄礆閻ㄥ嫮濮搁幀浣诡劃閺冩湹绗夐懗钘夊将閸ョ偞娈忕粋鑽ゆ畱闂冪喎鎲抽敍鍫滅伐婵″倸婀幋妯绘灍妞嬬偠顢戞稉顓ㄧ礆(illegal)
+					TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ闂�鍖＄礆閻ㄥ嫮濮搁幀浣诡劃閺冩湹绗夐懗钘夊将閸ョ偞娈忕粋濠氭Е閸�?,teamId: " + teamId);
 					return true;
 				}
 				
 				PropRole leaderprole = new PropRole(leaderRoleId, true);
 				if(leaderprole.getProperties().getCruise() > 0) {
-					TeamManager.logger.debug("闃熶紞锛堥槦闀匡級鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘鍙洖鏆傜闃熷憳,teamId: " + teamId);
+					TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ闂�鍖＄礆閻ㄥ嫬璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴閸欘剙娲栭弳鍌滎瀲闂冪喎鎲�,teamId: " + teamId);
 					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 160434, null);
 					return true;
 				}
 				
 				PropRole callbackprole = new PropRole(memberid, true);
 				if(callbackprole.getProperties().getCruise() > 0) {
-					TeamManager.logger.debug("鍙洖闃熷憳鐨勫贰娓哥姸鎬?,姝ゆ椂涓嶈兘鍙洖鏆傜闃熷憳,teamId: " + teamId);
+					TeamManager.logger.debug("閸欘剙娲栭梼鐔锋喅閻ㄥ嫬璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴閸欘剙娲栭弳鍌滎瀲闂冪喎鎲�,teamId: " + teamId);
 					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 160434, null);
 					return true;
 				}
@@ -92,17 +92,17 @@ public class CCallbackMember extends __CCallbackMember__ {
 					BuffAgent buffagent = new BuffRoleImpl(roleId);
 					if(roleId == memberid && buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM_MEMBER_NORMAL))
 					{
-						//鑳借繘鍏ユ甯哥姸鎬佺殑闃熷憳鎵嶅彫鍞?
+						//閼冲�熺箻閸忋儲顒滅敮鍝ュЦ閹胶娈戦梼鐔锋喅閹靛秴褰崬?
 						callbacklist.add(roleId);
 					}
 				}
-				//TODO 鍙戦?佺粰鏆傜闃熷憳鍜屽綊闃熶腑闃熷憳锛氶槦闀挎鍦ㄥ彫鍞?
+				//TODO 閸欐垿?浣虹舶閺嗗倻顬囬梼鐔锋喅閸滃苯缍婇梼鐔惰厬闂冪喎鎲抽敍姘舵Е闂�鎸庮劀閸︺劌褰崬?
 				if(callbacklist.size() == 0)
 				{
-					//闃熶紞娌℃湁鍙彫鍞ょ殑鏆傜闃熷憳
+					//闂冪喍绱炲▽鈩冩箒閸欘垰褰崬銈囨畱閺嗗倻顬囬梼鐔锋喅
 					//psend(leaderRoleId,new STeamError(TeamError.NoAbsentMember));
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 150117, null);
-					TeamManager.logger.debug("闃熷憳涓嶈兘琚彫鍥炲彲鑳藉湪鎴樻枟,teamId: " + teamId);
+					TeamManager.logger.debug("闂冪喎鎲虫稉宥堝厴鐞氼偄褰崶鐐插讲閼宠棄婀幋妯绘灍,teamId: " + teamId);
 					return true;
 				}
 				else

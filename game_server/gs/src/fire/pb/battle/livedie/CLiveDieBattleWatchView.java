@@ -45,22 +45,22 @@ public class CLiveDieBattleWatchView extends __CLiveDieBattleWatchView__ {
 	}
 	
 	/**
-	 * 瑙傛垬瀵规墜璇︽儏
+	 * 鐟欏倹鍨�佃澧滅拠锔藉剰
 	 * @param id
 	 * @return
 	 */
 	public LDRoleInfoDes createLDRoleInfoDes(long id){
 		PropRole propRole = new PropRole(id, true);
 		LDRoleInfoDes lDRoleInfoDes = new LDRoleInfoDes();
-		lDRoleInfoDes.roleid=propRole.getRoleId();//瑙掕壊Id
-		lDRoleInfoDes.rolename=propRole.getName();//瑙掕壊鍚?
-		lDRoleInfoDes.shape=propRole.getShape();//瑙掕壊閫犲瀷
-		lDRoleInfoDes.level=propRole.getLevel();//瑙掕壊绛夌骇
-		lDRoleInfoDes.school=propRole.getSchool();//闂ㄦ淳
+		lDRoleInfoDes.roleid=propRole.getRoleId();//鐟欐帟澹奍d
+		lDRoleInfoDes.rolename=propRole.getName();//鐟欐帟澹婇崥?
+		lDRoleInfoDes.shape=propRole.getShape();//鐟欐帟澹婇柅鐘茬��
+		lDRoleInfoDes.level=propRole.getLevel();//鐟欐帟澹婄粵澶岄獓
+		lDRoleInfoDes.school=propRole.getSchool();//闂傘劍娣�
 		Team team = TeamManager.selectTeamByRoleId(id);
 		if(team!=null&&team.getTeamLeaderId()==id){
-			lDRoleInfoDes.teamnum=team.getTeamInfo().getMembers().size()+1;//闃熶紞褰撳墠浜烘暟
-			lDRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//闃熶紞鏈?澶т汉鏁?
+			lDRoleInfoDes.teamnum=team.getTeamInfo().getMembers().size()+1;//闂冪喍绱炶ぐ鎾冲娴滅儤鏆�
+			lDRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//闂冪喍绱為張?婢堆傛眽閺�?
 		}else{
 			lDRoleInfoDes.teamnum=0;
 			lDRoleInfoDes.teamnummax=0;
