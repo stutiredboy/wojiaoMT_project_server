@@ -343,4 +343,17 @@
 		<variable name="petInfo" type="fire.pb.Pet"/> 宠物信息
 	</protocol>
 	<!-- 宠物找回 2151-2160 -->
+	<!-- 宠物幻化 -->
+	<protocol name="CPetPutOnHuanhua" type="2157" maxsize="128"  prior="1" tolua="3"> 
+		<variable name="pet_packkey" type="int" validator="value=[1,)" />
+		<variable name="huanhuaID" type="int" validator="value=[0,)" />
+		<variable name="petkey" type="int" validator="value=[1,)" />
+	</protocol>
+	<!-- 宠物解除 -->
+	<protocol name="CPetTakeOffHuanhua" type="2158" maxsize="128"  prior="1" tolua="3"> 
+		<variable name="petkey" type="int" validator="value=[1,)" />
+	</protocol>
+	<!-- 宠物幻化结果 -->
+	<protocol name="SPetChangeHuanhua" type="2159" maxsize="128"  prior="1" tolua="3"> 
+	</protocol>
 </namespace>
