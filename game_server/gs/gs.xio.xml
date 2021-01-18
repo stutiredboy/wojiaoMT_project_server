@@ -682,7 +682,9 @@
 			<Protocol class="fire.pb.item.COpenPack" maxSize="16"/>
 			<Protocol class="fire.pb.item.COtherItemTips" maxSize="1024"/>
 			<Protocol class="fire.pb.item.CPetPutOnEquip" maxSize="128"/>
+			<Protocol class="fire.pb.item.CPetPutOnHuanhua" maxSize="128"/>
 			<Protocol class="fire.pb.item.CPetTakeOffEquip" maxSize="128"/>
+			<Protocol class="fire.pb.item.CPetTakeOffHuanhua" maxSize="128"/>
 			<Protocol class="fire.pb.item.CPutOnEquip" maxSize="128"/>
 			<Protocol class="fire.pb.item.CRecoverItemInfo" maxSize="65535"/>
 			<Protocol class="fire.pb.item.CReplaceGem" maxSize="16"/>
