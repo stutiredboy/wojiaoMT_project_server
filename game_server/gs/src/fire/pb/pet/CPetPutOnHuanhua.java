@@ -27,21 +27,18 @@ public class CPetPutOnHuanhua extends __CPetPutOnHuanhua__ {
 		return 788589;
 	}
 
-	public int pet_packkey;
 	public int huanhuaid;
 	public int petkey;
 
 	public CPetPutOnHuanhua() {
 	}
 
-	public CPetPutOnHuanhua(int _pet_packkey_, int _huanhuaid_, int _petkey_) {
-		this.pet_packkey = _pet_packkey_;
+	public CPetPutOnHuanhua(int _huanhuaid_, int _petkey_) {
 		this.huanhuaid = _huanhuaid_;
 		this.petkey = _petkey_;
 	}
 
 	public final boolean _validator_() {
-		if (pet_packkey < 1) return false;
 		if (huanhuaid < 0) return false;
 		if (petkey < 1) return false;
 		return true;
@@ -51,14 +48,12 @@ public class CPetPutOnHuanhua extends __CPetPutOnHuanhua__ {
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
-		_os_.marshal(pet_packkey);
 		_os_.marshal(huanhuaid);
 		_os_.marshal(petkey);
 		return _os_;
 	}
 
 	public OctetsStream unmarshal(OctetsStream _os_) throws MarshalException {
-		pet_packkey = _os_.unmarshal_int();
 		huanhuaid = _os_.unmarshal_int();
 		petkey = _os_.unmarshal_int();
 		if (!_validator_()) {
@@ -71,7 +66,6 @@ public class CPetPutOnHuanhua extends __CPetPutOnHuanhua__ {
 		if (_o1_ == this) return true;
 		if (_o1_ instanceof CPetPutOnHuanhua) {
 			CPetPutOnHuanhua _o_ = (CPetPutOnHuanhua)_o1_;
-			if (pet_packkey != _o_.pet_packkey) return false;
 			if (huanhuaid != _o_.huanhuaid) return false;
 			if (petkey != _o_.petkey) return false;
 			return true;
@@ -81,7 +75,6 @@ public class CPetPutOnHuanhua extends __CPetPutOnHuanhua__ {
 
 	public int hashCode() {
 		int _h_ = 0;
-		_h_ += pet_packkey;
 		_h_ += huanhuaid;
 		_h_ += petkey;
 		return _h_;
@@ -90,7 +83,6 @@ public class CPetPutOnHuanhua extends __CPetPutOnHuanhua__ {
 	public String toString() {
 		StringBuilder _sb_ = new StringBuilder();
 		_sb_.append("(");
-		_sb_.append(pet_packkey).append(",");
 		_sb_.append(huanhuaid).append(",");
 		_sb_.append(petkey).append(",");
 		_sb_.append(")");
@@ -100,8 +92,6 @@ public class CPetPutOnHuanhua extends __CPetPutOnHuanhua__ {
 	public int compareTo(CPetPutOnHuanhua _o_) {
 		if (_o_ == this) return 0;
 		int _c_ = 0;
-		_c_ = pet_packkey - _o_.pet_packkey;
-		if (0 != _c_) return _c_;
 		_c_ = huanhuaid - _o_.huanhuaid;
 		if (0 != _c_) return _c_;
 		_c_ = petkey - _o_.petkey;

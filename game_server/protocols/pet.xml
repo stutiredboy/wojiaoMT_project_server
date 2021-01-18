@@ -345,7 +345,6 @@
 	<!-- 宠物找回 2151-2160 -->
 	<!-- 宠物幻化 -->
 	<protocol name="CPetPutOnHuanhua" type="2157" maxsize="128"  prior="1" tolua="3"> 
-		<variable name="pet_packkey" type="int" validator="value=[1,)" />
 		<variable name="huanhuaID" type="int" validator="value=[0,)" />
 		<variable name="petkey" type="int" validator="value=[1,)" />
 	</protocol>
