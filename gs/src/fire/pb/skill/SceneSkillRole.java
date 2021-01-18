@@ -168,8 +168,9 @@ public class SceneSkillRole
 				changedAttrs.put(AttrType.PET_SPEED_APT, (float)epet.getSpeedApt() );
 				break;
 			case EffectType.PET_GROW_RATE_ABL:
-				epet.addBornspeedApt( (int)effect.value );
-				changedAttrs.put(AttrType.PET_GROW_RATE, (float)epet.getSpeedApt() );
+				//logger.error("RECV PET_ATTACK_APT_ABL----111----444---------"+ epet.getGrowrate());
+				epet.addGrowrate( (int)((float)effect.value)*1000 );
+				changedAttrs.put(AttrType.PET_GROW_RATE, ((float)epet.getGrowrate()/1000) );
 				break;
 			}
 		}
@@ -224,8 +225,8 @@ public class SceneSkillRole
 				changedAttrs.put(AttrType.PET_SPEED_APT, (float)epet.getSpeedApt() );
 				break;
 			case EffectType.PET_GROW_RATE_ABL:
-				epet.addBornspeedApt( value );
-				changedAttrs.put(AttrType.PET_GROW_RATE, (float)epet.getGrowrate() );
+				epet.addGrowrate((int)( 0 - (float)(effect.value))*1000 );
+				changedAttrs.put(AttrType.PET_GROW_RATE, ((float)epet.getGrowrate()/1000) );
 				break;
 			}
 		}
