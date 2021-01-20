@@ -56,6 +56,8 @@ public interface PetInfo extends mkdb.Bean {
 	public int getPetdye2(); // 宠物染色信息部位2
 	public int getShenshouinccount(); // 神兽养成次数
 	public long getMarketfreezeexpire(); // 摆摊冻结截止时间,默认0不冻结
+	public java.util.List<PetSkill> getInternals();	
+	public java.util.List<PetSkill> getInternalsAsData();
 	public int getShapeID(); // 宠物外形ID
 
 	public void setId(int _v_); // 宠物ID

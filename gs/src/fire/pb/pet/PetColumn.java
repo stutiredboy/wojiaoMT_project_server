@@ -317,6 +317,10 @@ public class PetColumn {
 		pet.getPetInfo().setAutoaddendu(pet.getPetAttr().addpoint.get(3));
 		pet.getPetInfo().setAutoaddagi(pet.getPetAttr().addpoint.get(4));
 
+		// 设置当前外形
+		pet.getPetInfo().setShapeID(pet.getPetAttr().getShape());
+		Module.logger.error("---------------设置宠物初始外形--------"+pet.getPetAttr().getShape());
+
 		// 设置当前等级的属性
 		xbean.BasicFightProperties bfp = pet.getPetInfo().getBfp();
 		bfp.setCons(bfp.getCons() + level * pet.getPetAttr().addpoint.get(0)); // 体质

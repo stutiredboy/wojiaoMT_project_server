@@ -36,7 +36,21 @@ public class PPetPutOnHuanHua extends Procedure
     
     @Override
 	protected boolean process() throws Exception {
-        logger.error("------宠物幻化外形-----------------\t");
+        // 参战的宠物不能幻化
+		Integer fightPetKey = xtable.Properties.selectFightpetkey(roleId);
+		if (fightPetKey == petKey) {
+			return false;
+        }
+        final PetColumn petCol = new PetColumn(roleId, PetColumnTypes.PET, false);
+		final Pet pet = petCol.getPet(petKey);
+		if (null == pet)
+			return false;
+
+		if(pet.isLocked() != -1) {
+			MessageMgr.psendMsgNotify(roleId, Pet.PET_LOCK_ERROR_MSG, null);
+			return true;
+		}
+        logger.error("------宠物幻化外形-----------------"+pet.getPetInfo().getShapeID()+"--------------------"+huanhuaid);
         return true;
     }
 }

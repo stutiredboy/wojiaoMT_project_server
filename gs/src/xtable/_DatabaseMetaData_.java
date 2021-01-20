@@ -1516,6 +1516,16 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				, "long", "", "", ""
 				, "0", "", ""
 				);
+			super.addVariableFor(bean
+				, "internals"
+				, "list", "", "PetSkill", ""
+				, "", "", "13"
+				);
+			super.addVariableFor(bean
+				, "shapid"
+				, "int", "", "", ""
+				, "0", "", ""
+				);
 			super.addBean(bean);
 		}
 		{
