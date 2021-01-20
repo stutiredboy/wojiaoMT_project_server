@@ -68,6 +68,7 @@ public class Pet implements Marshal {
 	public int petdye2; // 宠物染色部位2
 	public int shenshouinccount; // 神兽养成次数
 	public long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
+	public java.util.LinkedList<fire.pb.Petskill> internals; // 宠物内丹
 	public int huanhuaid; // 宠物幻化ID
 
 	public Pet() {
@@ -78,9 +79,10 @@ public class Pet implements Marshal {
 		skillexpires = new java.util.HashMap<Integer,Long>();
 		ownername = "";
 		zizhi = new java.util.HashMap<Integer,Integer>();
+		internals = new java.util.LinkedList<fire.pb.Petskill>();
 	}
 
-	public Pet(int _id_, int _key_, java.lang.String _name_, int _level_, int _uselevel_, int _xuemai_, int _gengu_, int _colour_, int _hp_, int _maxhp_, int _mp_, int _maxmp_, int _attack_, int _defend_, int _speed_, int _magicattack_, int _magicdef_, byte _scale_, fire.pb.BasicFightProperties _initbfp_, fire.pb.BasicFightProperties _bfp_, short _point_, byte _autoaddcons_, byte _autoaddiq_, byte _autoaddstr_, byte _autoaddendu_, byte _autoaddagi_, short _pointresetcount_, long _exp_, long _nexp_, int _attackapt_, int _defendapt_, int _phyforceapt_, int _magicapt_, int _speedapt_, int _dodgeapt_, float _growrate_, int _life_, int _kind_, java.util.LinkedList<fire.pb.Petskill> _skills_, java.util.HashMap<Integer,Long> _skillexpires_, byte _flag_, long _timeout_, long _ownerid_, java.lang.String _ownername_, int _rank_, short _starid_, short _practisetimes_, java.util.HashMap<Integer,Integer> _zizhi_, int _changegengu_, int _skill_grids_, byte _aptaddcount_, byte _growrateaddcount_, short _washcount_, int _petscore_, int _petbasescore_, int _petdye1_, int _petdye2_, int _shenshouinccount_, long _marketfreezeexpire_, int _huanhuaid_) {
+	public Pet(int _id_, int _key_, java.lang.String _name_, int _level_, int _uselevel_, int _xuemai_, int _gengu_, int _colour_, int _hp_, int _maxhp_, int _mp_, int _maxmp_, int _attack_, int _defend_, int _speed_, int _magicattack_, int _magicdef_, byte _scale_, fire.pb.BasicFightProperties _initbfp_, fire.pb.BasicFightProperties _bfp_, short _point_, byte _autoaddcons_, byte _autoaddiq_, byte _autoaddstr_, byte _autoaddendu_, byte _autoaddagi_, short _pointresetcount_, long _exp_, long _nexp_, int _attackapt_, int _defendapt_, int _phyforceapt_, int _magicapt_, int _speedapt_, int _dodgeapt_, float _growrate_, int _life_, int _kind_, java.util.LinkedList<fire.pb.Petskill> _skills_, java.util.HashMap<Integer,Long> _skillexpires_, byte _flag_, long _timeout_, long _ownerid_, java.lang.String _ownername_, int _rank_, short _starid_, short _practisetimes_, java.util.HashMap<Integer,Integer> _zizhi_, int _changegengu_, int _skill_grids_, byte _aptaddcount_, byte _growrateaddcount_, short _washcount_, int _petscore_, int _petbasescore_, int _petdye1_, int _petdye2_, int _shenshouinccount_, long _marketfreezeexpire_, java.util.LinkedList<fire.pb.Petskill> _internals_, int _huanhuaid_) {
 		this.id = _id_;
 		this.key = _key_;
 		this.name = _name_;
@@ -140,6 +142,7 @@ public class Pet implements Marshal {
 		this.petdye2 = _petdye2_;
 		this.shenshouinccount = _shenshouinccount_;
 		this.marketfreezeexpire = _marketfreezeexpire_;
+		this.internals = _internals_;
 		this.huanhuaid = _huanhuaid_;
 	}
 
@@ -153,6 +156,8 @@ public class Pet implements Marshal {
 		if (autoaddendu < 0) return false;
 		if (autoaddagi < 0) return false;
 		for (fire.pb.Petskill _v_ : skills)
+			if (!_v_._validator_()) return false;
+		for (fire.pb.Petskill _v_ : internals)
 			if (!_v_._validator_()) return false;
 		return true;
 	}
@@ -228,6 +233,10 @@ public class Pet implements Marshal {
 		_os_.marshal(petdye2);
 		_os_.marshal(shenshouinccount);
 		_os_.marshal(marketfreezeexpire);
+		_os_.compact_uint32(internals.size());
+		for (fire.pb.Petskill _v_ : internals) {
+			_os_.marshal(_v_);
+		}
 		_os_.marshal(huanhuaid);
 		return _os_;
 	}
@@ -308,6 +317,11 @@ public class Pet implements Marshal {
 		petdye2 = _os_.unmarshal_int();
 		shenshouinccount = _os_.unmarshal_int();
 		marketfreezeexpire = _os_.unmarshal_long();
+		for (int _size_ = _os_.uncompact_uint32(); _size_ > 0; --_size_) {
+			fire.pb.Petskill _v_ = new fire.pb.Petskill();
+			_v_.unmarshal(_os_);
+			internals.add(_v_);
+		}
 		huanhuaid = _os_.unmarshal_int();
 		return _os_;
 	}
@@ -375,6 +389,7 @@ public class Pet implements Marshal {
 			if (petdye2 != _o_.petdye2) return false;
 			if (shenshouinccount != _o_.shenshouinccount) return false;
 			if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
+			if (!internals.equals(_o_.internals)) return false;
 			if (huanhuaid != _o_.huanhuaid) return false;
 			return true;
 		}
@@ -442,6 +457,7 @@ public class Pet implements Marshal {
 		_h_ += petdye2;
 		_h_ += shenshouinccount;
 		_h_ += (int)marketfreezeexpire;
+		_h_ += internals.hashCode();
 		_h_ += huanhuaid;
 		return _h_;
 	}
@@ -508,6 +524,7 @@ public class Pet implements Marshal {
 		_sb_.append(petdye2).append(",");
 		_sb_.append(shenshouinccount).append(",");
 		_sb_.append(marketfreezeexpire).append(",");
+		_sb_.append(internals).append(",");
 		_sb_.append(huanhuaid).append(",");
 		_sb_.append(")");
 		return _sb_.toString();

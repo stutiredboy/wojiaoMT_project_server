@@ -451,9 +451,10 @@
 		<variable name="petdye2" type="int" />宠物染色部位2
 		<variable name="shenshouinccount" type="int" />神兽养成次数
 		<variable name="marketfreezeexpire" type="long" /> 摆摊冻结截止时间,默认0不冻结
+		<variable name="internals" type="list" value="Petskill"  /> 宠物内丹
+		<variable name="huanhuaID" type="int" /> 宠物幻化ID
 		<enum name="FLAG_LOCK" value= "1"/>
 		<enum name="FLAG_BIND" value= "2"/>
-		<variable name="huanhuaID" type="int" /> 宠物幻化ID
 	</bean>
 	
 	
