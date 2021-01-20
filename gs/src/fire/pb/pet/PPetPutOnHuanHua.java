@@ -46,10 +46,10 @@ public class PPetPutOnHuanHua extends Procedure
 		if (null == pet)
 			return false;
 
-		if(pet.isLocked() != -1) {
-			MessageMgr.psendMsgNotify(roleId, Pet.PET_LOCK_ERROR_MSG, null);
-			return true;
-		}
+		// if(pet.isLocked() != -1) {
+		// 	MessageMgr.psendMsgNotify(roleId, Pet.PET_LOCK_ERROR_MSG, null);
+		// 	return true;
+		// }
         logger.error("------宠物幻化外形-----------------"+pet.getPetInfo().getShapeID()+"--------------------"+huanhuaid);
         return true;
     }
