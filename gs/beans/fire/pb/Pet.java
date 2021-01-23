@@ -80,6 +80,7 @@ public class Pet implements Marshal {
 		ownername = "";
 		zizhi = new java.util.HashMap<Integer,Integer>();
 		internals = new java.util.LinkedList<fire.pb.Petskill>();
+		huanhuaid = 0;
 	}
 
 	public Pet(int _id_, int _key_, java.lang.String _name_, int _level_, int _uselevel_, int _xuemai_, int _gengu_, int _colour_, int _hp_, int _maxhp_, int _mp_, int _maxmp_, int _attack_, int _defend_, int _speed_, int _magicattack_, int _magicdef_, byte _scale_, fire.pb.BasicFightProperties _initbfp_, fire.pb.BasicFightProperties _bfp_, short _point_, byte _autoaddcons_, byte _autoaddiq_, byte _autoaddstr_, byte _autoaddendu_, byte _autoaddagi_, short _pointresetcount_, long _exp_, long _nexp_, int _attackapt_, int _defendapt_, int _phyforceapt_, int _magicapt_, int _speedapt_, int _dodgeapt_, float _growrate_, int _life_, int _kind_, java.util.LinkedList<fire.pb.Petskill> _skills_, java.util.HashMap<Integer,Long> _skillexpires_, byte _flag_, long _timeout_, long _ownerid_, java.lang.String _ownername_, int _rank_, short _starid_, short _practisetimes_, java.util.HashMap<Integer,Integer> _zizhi_, int _changegengu_, int _skill_grids_, byte _aptaddcount_, byte _growrateaddcount_, short _washcount_, int _petscore_, int _petbasescore_, int _petdye1_, int _petdye2_, int _shenshouinccount_, long _marketfreezeexpire_, java.util.LinkedList<fire.pb.Petskill> _internals_, int _huanhuaid_) {

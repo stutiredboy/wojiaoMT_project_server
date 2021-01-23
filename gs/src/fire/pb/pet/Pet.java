@@ -773,7 +773,19 @@ public class Pet {
 		  petSkill.certification = ((byte)internal.getCertification());
 		  pet.internals.add(petSkill);
 		}
-		pet.huanhuaid = petInfo.getShapeID();
+		if(roleId < 0)
+		{
+			pet.huanhuaid = petInfo.getShapeID();
+			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////2222///////"+ petInfo.getShapeID());
+		}
+		else
+		{
+			PetColumn petColTemp = new PetColumn(roleId, PetColumnTypes.PET, false);
+			Pet petTemp = petColTemp.getPet(petInfo.getKey());
+			pet.huanhuaid =  petTemp.getPetInfo().getShapeID();
+			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////1111///////"+ petTemp.getPetInfo().getShapeID());
+		}
+		
 		return pet;
 	}
 

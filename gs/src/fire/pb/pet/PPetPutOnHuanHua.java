@@ -37,8 +37,8 @@ public class PPetPutOnHuanHua extends Procedure
     @Override
 	protected boolean process() throws Exception {
         logger.error("------宠物幻化外形-----------------11111");
-        final PetColumn petCol = new PetColumn(roleId, PetColumnTypes.PET, false);
-		final Pet pet = petCol.getPet(petKey);
+        PetColumn petCol = new PetColumn(roleId, PetColumnTypes.PET, false);
+		Pet pet = petCol.getPet(petKey);
 		if (null == pet)
 			return false;
 
@@ -48,7 +48,11 @@ public class PPetPutOnHuanHua extends Procedure
 		}
         logger.error("------宠物幻化外形-----------------"+pet.getPetInfo().getShapeID()+"--------------------"+huanhuaid);
         pet.getPetInfo().setShapeID(huanhuaid);
-        mkdb.Procedure.psendWhileCommit(roleId, new SPetChangeHuanhua());
+
+        SPetChangeHuanhua send = new SPetChangeHuanhua();
+        send.petkey = petKey;
+        send.huanhuaid = huanhuaid;
+        mkdb.Procedure.psendWhileCommit(roleId, send);
         return true;
     }
 }
