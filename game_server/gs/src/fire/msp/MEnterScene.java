@@ -29,7 +29,7 @@ abstract class __MEnterScene__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 /**
- * 娴滆櫣澧挎稉濠勫殠閿涘苯婧�閺咁垰顦╅悶鍡楃暚濮ｆ洖鎮楅崥鎴�?鏄忕帆閸欐垶顒濆☉鍫熶紖
+ * 濞存粏娅ｆ晶鎸庣▔婵犲嫬娈犻柨娑樿嫰濠э拷闁哄拋鍨伴ˇ鈺呮偠閸℃鏆氭慨锝嗘礀閹宕ラ幋锟�?閺勫繒甯嗛柛娆愬灦椤掓繂鈽夐崼鐔剁礀
  * 
  */
 public class MEnterScene extends __MEnterScene__ {
@@ -42,23 +42,23 @@ public class MEnterScene extends __MEnterScene__ {
 			role = RoleManager.getInstance().createRole(roleid,sceneid, posx, posy);
 		}
 		
-		//娴滆櫣澧挎稉濠勫殠閿涘矂妲︽导宥囨祲閸忕绱欓弴瀛樻煀鐟欐帟澹婇梼鐔剁礊娣団剝浼呴敍澶涚礉閸ョ姳璐熼柅鏄忕帆闂冪喍绱為惃鍕繆閹垵顩︽笟婵婄閸︽澘娴橀梼鐔剁礊娣団剝浼呴敍灞惧娴犮儱婀崗鏈电閸氬骸顦╅悶鍡礉閸ョ姳璐熼崗鏈佃厬鐟曚線鏀ｉ梼鐔剁礊闁夸緤绱濋幍?娴犮儱绱撳銉ヮ槱閻�?
+		//濞存粏娅ｆ晶鎸庣▔婵犲嫬娈犻柨娑樼焸濡诧附瀵煎鍥ㄧゲ闁稿繒顒茬槐娆撳即鐎涙ɑ鐓�閻熸瑦甯熸竟濠囨⒓閻斿墎绀婂ǎ鍥ｅ墲娴煎懘鏁嶆径娑氱闁搞儳濮崇拹鐔兼焻閺勫繒甯嗛梻鍐枍缁辩偤鎯冮崟顏冪箚闁诡収鍨甸々锔界瑹濠靛﹦顩柛锔芥緲濞存﹢姊奸悢鍓佺濞ｅ洠鍓濇导鍛存晬鐏炴儳顣插ù鐘劚濠�顏堝礂閺堢數顓洪柛姘椤︹晠鎮堕崱顓犵闁搞儳濮崇拹鐔煎礂閺堜絻鍘悷鏇氱窔閺�锝夋⒓閻斿墎绀婇梺澶哥筏缁辨繈骞�?濞寸姰鍎辩槐鎾愁潰閵夈儺妲遍柣锟�?
 		new fire.pb.team.PRoleOnline(roleid).submit();
 		
 		
-		//閸擃垱婀版径鍕倞
+		//闁告搩鍨卞﹢鐗堝緞閸曨厽鍊�
 		new fire.pb.instancezone.PRoleOnline(roleid,sceneid).submit();
 		
 //		new fire.pb.mission.instance.PRoleOnline(roleid, sceneid).submit();
 		
-		//鐏忓繐婀撮崶鍙ョ瑐閸欐垿?浣稿З閹胶鏁撻幋鎰畱npc
+		//閻忓繐绻愬﹢鎾炊閸欍儳鐟愰柛娆愬灴?娴ｇ袟闁诡兛鑳堕弫鎾诲箣閹邦喗鐣眓pc
 		fire.pb.timer.AbstractScheduledActivity.sendActivityNpcToMiniMap(sceneid, roleid);
 		
-		//瑜版挸澧犳径鍕艾閹舵洜銈ㄦ稉?   鐟欐帟澹婂▽鈩冩箒閹舵洜銈ㄦ潻? 鐟欐帟澹婄粵澶岄獓婢堆傜艾30缁狙冨焼
+		//鐟滅増鎸告晶鐘冲緞閸曨亞鑹鹃柟鑸垫礈閵堛劍绋�?   閻熸瑦甯熸竟濠傗柦閳╁啯绠掗柟鑸垫礈閵堛劍娼�? 閻熸瑦甯熸竟濠勭驳婢跺矂鐛撳鍫嗗倻鑹�30缂佺嫏鍐ㄧ劶
 		xbean.Properties prop =  xtable.Properties.select(roleid);
 		Integer curlevel = prop.getLevel();
 
-		//閸氬本顒瀐uobansize閸掔櫅ole
+		//闁告艾鏈鐎恥obansize闁告帞娅卭le
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() throws Exception {
@@ -72,7 +72,7 @@ public class MEnterScene extends __MEnterScene__ {
 
 		
 		fire.pb.mission.Module.getInstance().enterWorldOK(role.getRoleID());
-		//閺呭搫濮忕拠鏇犵矊濡�?濞�?
+		//闁哄懎鎼慨蹇曟嫚閺囩姷鐭婃俊锟�?婵烇拷?
 		if(ImpExamManager.getInstance().isInImpExamTime() != -1 && curlevel>=20){
 			ImpExamManager.getInstance().roleLoginCheck(roleid);
 		}
@@ -98,19 +98,19 @@ public class MEnterScene extends __MEnterScene__ {
 			    BingFengLandMgr.getInstance().sendAfterEnterBingFengLand(roleid, true);
 		}
 		
-		//娑撳﹦鍤庨幓鎰板晪閹恒劑??
+		//濞戞挸锕﹂崵搴ㄥ箵閹版澘鏅柟鎭掑姂??
 		TuiSongNotifyManager.getInstance().roleLogin(roleid);
 		
-		//缁�鐓庡瘶閹绘劙鍟�
+		//缂侊拷閻撳骸鐦堕柟缁樺姍閸燂拷
 		GiftBagMgr.getInstance().roleLogin(roleid, curlevel);
 		
-		//閸愮姴鍟楃拠鏇犲仹娑撳﹦鍤庨幏澶夋眽
-		//鏉╂瑩鍣锋径鍕倞娑�?娑撳鍟濋崘娑滅槸閻愯偐娈戞稉濠勫殠閹峰姹�
+		//闁告劗濮撮崯妤冩嫚閺囩姴浠瑰☉鎾筹功閸ゅ酣骞忔径澶嬬溄
+		//閺夆晜鐟╅崳閿嬪緞閸曨厽鍊炲☉锟�?濞戞挸顑呴崯婵嬪礃濞戞粎妲搁柣鎰亹濞堟垶绋夋繝鍕疇闁瑰嘲顦Ч锟�
 		if (curlevel >= WinnerManager.MIN_LEVEL) {
 			WinnerManager.getInstance().sendWinnerCallPlayer(roleid);
 		}
 		
-		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //瀹搞儰绱伴幋妯款潡閼硅弓绗傜痪? by changhao	
+		new fire.pb.clan.fight.PRoleOnline(roleid).submit(); //鐎规悶鍎扮槐浼村箣濡娼￠柤纭呭紦缁楀倻鐥�? by changhao	
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

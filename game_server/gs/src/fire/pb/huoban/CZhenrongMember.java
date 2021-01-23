@@ -25,7 +25,7 @@ public class CZhenrongMember extends __CZhenrongMember__ {
 		java.util.Set<Integer> setMember = new java.util.HashSet<Integer>(members.size());
 		setMember.addAll(members);
 		
-		//閸掋倖鏌噈embers闁插本妲搁崥锔芥箒闁插秴顦查惃鍒琩
+		//闁告帇鍊栭弻鍣坋mbers闂佹彃鏈Σ鎼佸触閿旇姤绠掗梺鎻掔Т椤︽煡鎯冮崚鐞�
 		if (setMember.size() != members.size()) {
 			return;
 		}
@@ -41,7 +41,7 @@ public class CZhenrongMember extends __CZhenrongMember__ {
 //				return true;
 //				boolean suc = huobancol.setFightHuoBans(members);
 //				if (suc) {
-//					//娴兼瑤鍗抽梼闈涱啇閺囧瓨鏌�
+//					//濞村吋鐟ら崡鎶芥⒓闂堟侗鍟囬柡鍥х摠閺岋拷
 //					xdb.Procedure.pexecute(new PUpdateHuoBanZhenRong(roleId, 0, zhenyingid, members, PUpdateHuoBanZhenRong.HUOBAN));
 //				}
 //				else {

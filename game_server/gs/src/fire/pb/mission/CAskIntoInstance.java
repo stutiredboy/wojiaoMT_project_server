@@ -87,7 +87,7 @@ public class CAskIntoInstance extends __CAskIntoInstance__ {
 					return true;
 				}
 				
-				//閸掋倖鏌囬梼鐔剁礊娴滅儤鏆熼張澶嬫￥閸欐ê瀵�
+				//闁告帇鍊栭弻鍥⒓閻斿墎绀婂ù婊呭劋閺嗙喖寮垫径瀣骏闁告瑦锚鐎碉拷
 				if (askInst.getAnswerinfo().size() != roleids.size()) {
 					for (Long rid : roleids) {
 						MessageMgr.psendMsgNotifyWhileCommit(rid, 166057, null);
@@ -112,7 +112,7 @@ public class CAskIntoInstance extends __CAskIntoInstance__ {
 					return true;
 				}
 				
-				//鐠佸墽鐤嗘稉鍝勬倱閹�?
+				//閻犱礁澧介悿鍡樼▔閸濆嫭鍊遍柟锟�?
 				SAnswerInstance answerInst = new SAnswerInstance();
 				answerInst.roleid = roleid;
 				answerInst.answer = 1;

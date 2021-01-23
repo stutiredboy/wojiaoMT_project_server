@@ -71,8 +71,8 @@ public class CSubmitThings extends __CSubmitThings__ {
 		}
 		
 		if (taskid == 1080000 && roleid != taskrole) {
-			//閸掋倖鏌囬幋鎴犳畱閹绘潙濮▎鈩冩殶閺勵垰鎯佸鍙夊姬
-			//濞ｈ濮為幓鏉戝И缁涘楠囬梽鎰煑
+			//闁告帇鍊栭弻鍥箣閹寸姵鐣遍柟缁樻綑婵亜鈻庨埄鍐╂闁哄嫷鍨伴幆浣割啅閸欏濮�
+			//婵烇綀顕ф慨鐐哄箵閺夋垵袠缂佹稑顦辨鍥⒔閹邦剙鐓�
 			int submiterLv = xtable.Properties.selectLevel(roleid);
 			if(submiterLv<fire.pb.circletask.PSubmitThings.getGiveHelpLevel()){
 				MessageMgr.sendMsgNotify(roleid, 145390, null);
@@ -85,7 +85,7 @@ public class CSubmitThings extends __CSubmitThings__ {
 	    		MessageMgr.sendMsgNotify(roleid, 166088, null);
 	    		return;
 	    	}
-	    	//閸掋倖鏌囬惄顔界垼鐠囬攱鐪板▎鈩冩殶閺勵垰鎯佸鍙夊姬
+	    	//闁告帇鍊栭弻鍥儎椤旂晫鍨奸悹鍥敱閻澘鈻庨埄鍐╂闁哄嫷鍨伴幆浣割啅閸欏濮�
 	    	xbean.helpcount taskrolehelpcount = xtable.Helpcount.select((long) taskrole);
 	    	int maxtaskrolehelpcount=HelpCountManage.getInstance().getHelpItemNumMax(taskrole);
 	    	if(taskrolehelpcount!=null&&taskrolehelpcount.getHelpitemnum()>=maxtaskrolehelpcount){

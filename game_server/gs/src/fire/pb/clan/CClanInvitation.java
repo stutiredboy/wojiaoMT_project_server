@@ -32,37 +32,37 @@ public class CClanInvitation extends __CClanInvitation__ {
 			MessageMgr.sendMsgNotify(roleid, 145077, null);
 			return;
 		}
-		//鏉╁洦鎶ょ拋鍓х枂娴滃棔绗夌拋鈺呭�嬬拠宄板彆娴兼氨娈�
+		//閺夆晛娲﹂幎銈囨媼閸撗呮瀭濞存粌妫旂粭澶屾媼閳哄懎锟藉鎷犲畡鏉垮絾濞村吋姘ㄥ▓锟�
 		Integer refval = GameSystemConfig.getSysConfig(guestroleid, SysConfigType.refuseclan);
 		if(refval != null && refval.intValue() == 1){
 			MessageMgr.sendMsgNotify(roleid, 166061, null);
 			return;
 		}
-		// 鐞氼偊鍊嬬拠椋庡负鐎硅埖婀侀崗顑跨窗
+		// 閻炴凹鍋婇崐瀣嫚妞嬪骸璐熼悗纭呭煐濠�渚�宕楅璺ㄧ獥
 		if(ClanUtils.getClanInfoById(guestroleid, true)!=null){
 			MessageMgr.sendMsgNotify(roleid, 145115, null);
 			return;
 		}
-		// 鐎佃鏌熺粵澶岄獓娑撳秷鍐�
+		// 閻庝絻顫夐弻鐔虹驳婢跺矂鐛撳☉鎾崇Х閸愶拷
 		xbean.Properties properties = xtable.Properties.select(guestroleid);
-		if (properties.getLevel() < ClanBaseManager.getInstance().getJoinClanLevel()) {// 閸掋倖鏌囩悮顐﹀�嬬拠宄板弳娴兼俺?鍛搼缁�?
+		if (properties.getLevel() < ClanBaseManager.getInstance().getJoinClanLevel()) {// 闁告帇鍊栭弻鍥╂偖椤愶箑锟藉鎷犲畡鏉垮汲濞村吋淇�?閸涱垳鎼肩紒锟�?
 			MessageMgr.sendMsgNotify(roleid, 160371, Arrays.asList(ClanBaseManager.getInstance().getJoinClanLevel()+""));
 			return;
 		}
-		// 閸忣兛绱版禍鐑樻殶閺勵垰鎯佹潏鎯у煂娑撳﹪妾�
+		// 闁稿浚鍏涚槐鐗堢閻戞ɑ娈堕柡鍕靛灠閹焦娼忛幆褍鐓傚☉鎾筹躬濡撅拷
 		if (ClanUtils.isClanMemberFull(clanInfo)) {
-			// 閸忣兛绱板鈥虫喅
+			// 闁稿浚鍏涚槐鏉款煥閳ヨ櫕鍠�
 			MessageMgr.sendMsgNotify(roleid, 145011, null);
 			return;
 		}
-		//閸掋倖鏌囨潻娆庨嚋閼卞奔缍呴弰顖氭儊瀹歌尙绮″鈥茬啊
+		//闁告帇鍊栭弻鍥ㄦ交濞嗗酣鍤嬮柤鍗炲缂嶅懘寮伴姘剨鐎规瓕灏欑划鈥愁煥閳ヨ尙鍟�
 		if(ClanUtils.isAddClanPositionFull(clanInfo)){
 			MessageMgr.sendMsgNotify(roleid, 160310, null);
 			return;
 		}
 		
 		byte inviteType = 0;
-//		// 娴兼岸鏆遍崪灞藉娴兼岸鏆遍柇?鐠�?  鏉╂ɑ婀侀崶銏ゆ毐
+//		// 濞村吋宀搁弳閬嶅椽鐏炶棄顥屽ù鍏煎哺閺嗛亶鏌�?閻狅拷?  閺夆晜蓱濠�渚�宕堕姀銈嗘瘣
 //		if( clanInfo.getClanmaster()==roleid || clanInfo.getClanvicemaster()==roleid){
 //			inviteType = 1;
 //		}
@@ -77,7 +77,7 @@ public class CClanInvitation extends __CClanInvitation__ {
 		sClanInvitation.hostroleid = roleid;
 		sClanInvitation.invitetype = inviteType;
 		gnet.link.Onlines.getInstance().send(guestroleid, sClanInvitation);
-		//閸欐垿?浣洪兇缂佺喐褰佺粈?
+		//闁告瑦鍨�?娴ｆ椽鍏囩紓浣哄枑瑜颁胶绮�?
 		MessageMgr.sendMsgNotify(roleid, 172017, null);
 	}
 

@@ -22,7 +22,7 @@ public class SendUserInfoAndTicket extends __SendUserInfoAndTicket__ {
 		new mkdb.Procedure(){
 			@Override
 			protected boolean process() throws Exception {
-				CrossManager.logger.info("SendUserInfoAndTicket.鐠恒劍婀囬弨璺哄煂閺夈儴鍤渦serId=" + userinfo.userid + "閻ㄥ嚪endUserInfoAndTicket閸楀繗顔�!");
+				CrossManager.logger.info("SendUserInfoAndTicket.閻犳亽鍔嶅﹢鍥绩鐠哄搫鐓傞柡澶堝劥閸ゆ甫serId=" + userinfo.userid + "闁汇劌鍤猠ndUserInfoAndTicket闁告绻楅锟�!");
 				User user = Onlines.getInstance().getConnectedUsers().getUserByUserId(userinfo.userid);
 				if(user != null)
 					user.setIp(userinfo.loginip);

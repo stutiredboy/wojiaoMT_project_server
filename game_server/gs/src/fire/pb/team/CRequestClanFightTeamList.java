@@ -12,7 +12,7 @@ abstract class __CRequestClanFightTeamList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠囬攱鐪伴崗顑跨窗閹存ê濮忛梼鐔剁礊娣団剝浼� by changhao
+ * 閻犲洭鏀遍惇浼村礂椤戣法绐楅柟瀛樏慨蹇涙⒓閻斿墎绀婂ǎ鍥ｅ墲娴硷拷 by changhao
  *
  */
 public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
@@ -36,7 +36,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 				}
 				
 				int side = 0;
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //濡�?濞村妲搁崥锕�婀幋妯烘簚娑�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //婵★拷?婵炴潙顑嗗Σ鎼佸触閿曪拷濠�顏堝箣濡儤绨氬☉锟�? by changhao
 				if (c1 == null)
 				{
 					return false;
@@ -106,7 +106,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 								}
 								
 								xbean.TeamInfo teaminfo = xtable.Team.select(teamid);
-								if (teaminfo != null && !teamidset.contains(teamid)) //濞屸剝寮ч惃鍕閸欐垿?浣界箖閸�? by changhao
+								if (teaminfo != null && !teamidset.contains(teamid)) //婵炲备鍓濆褔鎯冮崟顒�顤呴柛娆愬灴?娴ｇ晫绠栭柛锟�? by changhao
 								{
 									fire.pb.team.TeamInfoBasicWithMembers t = new fire.pb.team.TeamInfoBasicWithMembers();
 									t.teaminfobasic = newTeamInfoBasic(teamid, teaminfo);
@@ -174,7 +174,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 		teamInfoBasic.maxlevel = 0;
 		teamInfoBasic.membernum = teaminfo.getMembers().size() + 1;
 		teamInfoBasic.teamid = teamid;
-		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //鐞涖劏绻曞▽鈩冩箒鐟曚礁婀悰銊╁櫡閸�? by changhao 
+		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //閻炴稏鍔忕换鏇炩柦閳╁啯绠掗悷鏇氱濠�顏嗘偘閵娾晛娅￠柛锟�? by changhao 
 		teamInfoBasic.targetid = 0;
 		
 		return teamInfoBasic;

@@ -43,7 +43,7 @@ public class CUpYingYongBaoInfo extends __CUpYingYongBaoInfo__ {
 			    	xtable.Yingyongbaoinfos.insert(userID, yyb);
 			    }
 			    
-			    //openkey 閹广垺鍨氭禒銉ュ閻ㄥ埦aytoken娴�?,SDK缂佸嫯绻栨稊鍫ｎ洣濮瑰倻娈�
+			    //openkey 闁瑰箍鍨洪崹姘閵夈儱顤呴柣銊ュ煢aytoken濞达拷?,SDK缂備礁瀚换鏍ㄧ▕閸綆娲ｆ慨鐟板�诲▓锟�
 			    if (platformname.equals("qq")) {
 			    	yyb.setOpenkey(paytoken);
 			    }
@@ -72,11 +72,11 @@ public class CUpYingYongBaoInfo extends __CUpYingYongBaoInfo__ {
 							}
 						});
 					} else {
-						StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("閼惧嘲褰囨惔鏃傛暏鐎规繃鏆熼幑顔笺亼鐠愩儻绱�"));
+						StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("闁兼儳鍢茶ぐ鍥ㄦ償閺冨倹鏆忛悗瑙勭箖閺嗙喖骞戦绗轰杭閻犳劑鍎荤槐锟�"));
 					}
 				}
 				catch(Exception e){
-					StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("鎼存梻鏁ょ��? 閸欐垿?浣哄负鐎瑰墎娈戠粭锔剧叾娣団剝浼呴柨娆掝嚖閿�?") , e);
+					StateManager.logger.error(new StringBuilder("roleId=").append(roleID).append("閹煎瓨姊婚弫銈囷拷锟�? 闁告瑦鍨�?娴ｅ搫璐熼悗鐟板濞堟垹绮敂鍓у従濞ｅ洠鍓濇导鍛存煥濞嗘帩鍤栭柨锟�?") , e);
 				}
 			    
 				return true;

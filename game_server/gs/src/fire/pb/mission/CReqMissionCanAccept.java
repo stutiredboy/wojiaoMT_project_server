@@ -18,7 +18,7 @@ public class CReqMissionCanAccept extends __CReqMissionCanAccept__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid( this );
 		if ( roleid < 0 )
 			return;
-		// 閸欐垿?浣稿讲閹恒儰鎹㈤崝?
+		// 闁告瑦鍨�?娴ｇ璁查柟鎭掑劙閹广垽宕�?
 		SReqMissionCanAccept send = new SReqMissionCanAccept();
 		Module.getInstance().getCanAcceptMission( roleid, send.missions );
 		gnet.link.Onlines.getInstance().send( roleid, send );

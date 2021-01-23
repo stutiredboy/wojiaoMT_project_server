@@ -18,7 +18,7 @@ public class GNotifyTitle extends __GNotifyTitle__ {
 		if(null == role) return;
 		if(null == role.getScene()) return;
 		role.setMyTitleInfo(title);
-		// 鏉╂ɑ瀵滈崢鐔告降閻ㄥ嫭绁︾粙瀣瀻娑撱倖娼☉鍫熶紖鐠у府绱濇禒銉ユ倵閸欘垵鍏樻导妯哄閹存劒绔撮弶鈩冪Х閹垽绱濇稉宥堢箖闂�?鐟曚礁顓归幋椋庮伂闁板秴鎮庢径鍕倞
+		// 閺夆晜蓱鐎垫粓宕㈤悢鍛婇檷闁汇劌瀚粊锔剧矙鐎ｎ亜鐎诲☉鎾卞�栧顖氣槈閸喍绱栭悹褍搴滅槐婵囩閵夈儲鍊甸柛娆樺灥閸忔ɑ瀵煎Ο鍝勵嚙闁瑰瓨鍔掔粩鎾级閳╁啰啸闁诡収鍨界槐婵囩▔瀹ュ牏绠栭梻锟�?閻熸洑绀侀褰掑箣妞嬪寒浼傞梺鏉跨Т閹孩寰勯崟顓熷��
 		if (title.titleid > 0){
 			final fire.pb.title.SOnTitle onTitle = new fire.pb.title.SOnTitle();
 			onTitle.roleid = roleid;

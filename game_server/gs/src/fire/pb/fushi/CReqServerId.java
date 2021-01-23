@@ -15,7 +15,7 @@ abstract class __CReqServerId__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠囬攱鐪伴張宥呭閸ｂ問D
+ * 閻犲洭鏀遍惇浼村嫉瀹ュ懎顫ら柛锝傚晱D
  * @author changhao
  *
  */

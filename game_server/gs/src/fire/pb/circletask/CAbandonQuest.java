@@ -29,9 +29,9 @@ public class CAbandonQuest extends __CAbandonQuest__ {
 		if (roleid < 0)
 			return;
 		
-		CircleTaskManager.logger.info("閺�璺哄煂閺�鎯х磾娴犺濮熷☉鍫熶紖.鐟欐帟澹奫" + roleid + "]鐟曚焦鏂佸鍐ф崲閸�?:" + questid);
+		CircleTaskManager.logger.info("闁猴拷鐠哄搫鐓傞柡锟介幆褏纾惧ù鐘侯嚙婵喎鈽夐崼鐔剁礀.閻熸瑦甯熸竟濂�" + roleid + "]閻熸洑鐒﹂弬浣割嚕閸愌勫床闁革拷?:" + questid);
 		if(questid == 1080000) {
-			//閺�鎯х磾閺嗘顧佹す顒佸灆閸ヮ澀鎹㈤崝鈥茬炊鐠�?
+			//闁猴拷閹呯＞闁哄棙顨呴¨浣广仚椤掍礁鐏嗛柛銉線閹广垽宕濋垾鑼倞閻狅拷?
 			new mkdb.Procedure() {
 				@Override
 				protected boolean process() {
@@ -44,7 +44,7 @@ public class CAbandonQuest extends __CAbandonQuest__ {
 			return;
 		}
 		
-		//鐠囥儰鎹㈤崝鈥茬瑝閸欘垯浜掗弨鎯х磾
+		//閻犲洢鍎伴幑銏ゅ礉閳ヨ尙鐟濋柛娆樺灟娴滄帡寮ㄩ幆褏纾�
 		if(questid == 205303){
 			return;
 		}

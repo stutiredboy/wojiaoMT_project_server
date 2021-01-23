@@ -24,7 +24,7 @@ abstract class __CLiveSkillMakeFarm__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 娴兼劖婀�
+ * 濞村吋鍔栧﹢锟�
  * @author changhao
  *
  */
@@ -43,10 +43,10 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 				int skilllevel = 1;
 				int money = 100;
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, 
-						LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FARM, skilllevel,"閹垫挸浼�",
+						LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FARM, skilllevel,"闁瑰灚鎸告导锟�",
 						YYLoggerTuJingEnum.tujing_Value_dagong, false);
 				
-				if (energyenough == false) //濞戝牐?妤佹た閸�? by changhao
+				if (energyenough == false) //婵炴垵鐗�?濡や焦銇熼柛锟�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						
@@ -54,12 +54,12 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 				
 				Pack bag = (Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
 				
-				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //閻愮懓宕遍張宥呭閸�? by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闁绘劗鎳撳畷閬嶅嫉瀹ュ懎顫ら柛锟�? by changhao
 				{
 					fire.pb.fushi.SCommonDayPay cost = ConfigManager.getInstance().getConf(fire.pb.fushi.SCommonDayPay.class).get(7);
 					money = cost.getServerdata();
 					
-					//婢х偛濮為柧璺虹 by changhao
+					//濠⒀呭仜婵偤鏌х捄铏诡伈 by changhao
 					if(bag.addSysMoney(money, LiveSkillManager.MakeFarm, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuiyaofang, 0) != money)
 					{
 						psend(roleid, new SSkillError(SkillConstant.SkillError.MoneyNotEnough));
@@ -71,7 +71,7 @@ public class CLiveSkillMakeFarm extends __CLiveSkillMakeFarm__ {
 					final fire.pb.common.SCommon cc = fire.pb.RoleConfigManager.getRoleCommonConfig(109);
 					money = Integer.parseInt(cc.getValue());
 					
-					//婢х偛濮為柌鎴濈 by changhao
+					//濠⒀呭仜婵偤鏌岄幋婵堫伈 by changhao
 					if(bag.subGold(money, LiveSkillManager.MakeFarm, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuiyaofang, 0) != money)
 					{
 						psend(roleid, new SSkillError(SkillConstant.SkillError.MoneyNotEnough));

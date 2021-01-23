@@ -21,7 +21,7 @@ public class CSendHelpSW extends __CSendHelpSW__ {
 		SSendHelpSW sSendHelpSW=new SSendHelpSW();
 		xbean.helpcount helpcount=xtable.Helpcount.select(roleid);
 		if(helpcount!=null){
-			sSendHelpSW.helpsw=helpcount.getShengwangvalue();//婢圭増婀�
+			sSendHelpSW.helpsw=helpcount.getShengwangvalue();//濠㈠湱澧楀﹢锟�
 		}
 		gnet.link.Onlines.getInstance().send(roleid, sSendHelpSW);
 	}

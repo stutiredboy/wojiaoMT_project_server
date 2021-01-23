@@ -24,18 +24,18 @@ public class CRecoverPetInfo extends __CRecoverPetInfo__ {
 			@Override
 			protected boolean process() {
 
-				// 閼惧嘲绶遍崣顖氭礀閺�绉沶iqId閸掓銆�
+				// 闁兼儳鍢茬欢閬嶅矗椤栨碍绀�闁猴拷缁夋捕iqId闁告帗顨夐妴锟�
 				xbean.Petrecoverlist petRecoverList = xtable.Petrecover.select(roleId);
 				if (petRecoverList == null) {
 					return false;
 				}
 
-				// 閺勵垰鎯佺�涙ê婀崣顖氭礀閺�鍓佹畱uniqId
+				// 闁哄嫷鍨伴幆浣猴拷娑櫭﹢顏堝矗椤栨碍绀�闁猴拷閸撲焦鐣眜niqId
 				if (petRecoverList.getUniqids().contains(uniqid) == false) {
 					return false;
 				}
 
-				// 閼惧嘲绶辨稉銏犵磾閻ㄥ嫬鐤囬悧?
+				// 闁兼儳鍢茬欢杈ㄧ▔閵忕姷纾鹃柣銊ュ閻ゅ洭鎮�?
 				xbean.DiscardPet discardPet = xtable.Petrecyclebin.select(uniqid);
 				if (discardPet == null) {
 					return false;
@@ -43,7 +43,7 @@ public class CRecoverPetInfo extends __CRecoverPetInfo__ {
 
 				Pet pet = Pet.getPet(discardPet.getPet());
 
-				// 閸欐垿?浣虹舶鐎广垺鍩涚粩?
+				// 闁告瑦鍨�?娴ｈ櫣鑸堕悗骞垮灪閸╂稓绮�?
 				SRecoverPetInfo send = new SRecoverPetInfo();
 				send.petinfo = pet.getProtocolPet();
 				mkdb.Procedure.psendWhileCommit(roleId, send);

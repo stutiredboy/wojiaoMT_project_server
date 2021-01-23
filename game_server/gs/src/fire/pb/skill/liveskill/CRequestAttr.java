@@ -12,7 +12,7 @@ abstract class __CRequestAttr__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠囬攱鐪伴弻鎰昂鐏炵偞?? by changhao
+ * 閻犲洭鏀遍惇浼村蓟閹邦亞鏄傞悘鐐靛仦?? by changhao
  */
 public class CRequestAttr extends __CRequestAttr__ {
 	private static Logger logger = Logger.getLogger("ITEM");
@@ -40,7 +40,7 @@ public class CRequestAttr extends __CRequestAttr__ {
 					int energy = prop.getEnergy();
 					refreshdata.datas.put( fire.pb.attr.AttrType.ENERGY, (float)energy);					
 				}
-				logger.error("------------娴滆櫣澧跨仦鐐�??-閿�?------------------"+refreshdata.datas);
+				logger.error("------------濞存粏娅ｆ晶璺ㄤ沪閻愶拷??-闁匡拷?------------------"+refreshdata.datas);
 				mkdb.Procedure.psendWhileCommit(roleid, refreshdata);					
 				
 				return true;

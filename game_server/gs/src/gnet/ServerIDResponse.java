@@ -48,7 +48,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
             	}
             }
         } catch (SQLException ex1) {
-        	fire.log.Module.logger.error("SQL閹笛嗩攽閺堝妫舵０姗堢磼");
+        	fire.log.Module.logger.error("SQL闁圭瑳鍡╂斀闁哄牆顦靛Λ鑸碉紣濮楀牏纾�");
         	ex1.printStackTrace();
         } finally {
         	if (rs != null) {
@@ -75,7 +75,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 			//
 			if (fire.pb.PropConf.ServerId.ServerId != 0) {
 				Integer id = Integer.parseInt(serverId);
-				// 閺嶏繝鐛檉ire.pb.PropConf.ServerId.ServerId
+				// 闁哄稄绻濋悰妾塱re.pb.PropConf.ServerId.ServerId
 				if (fire.pb.PropConf.ServerId.ServerId != id) {
 					fire.log.Module.logger.error("fire.pb.PropConf.ServerId.ServerId:" + fire.pb.PropConf.ServerId.ServerId
 							+ " != ServerIDResponse.serverId:" + id);
@@ -83,7 +83,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 							new javax.management.ObjectName("bean:name=stopper"),
 							new javax.management.Attribute("StopTime", 0));
 				}
-				// 閺嶏繝鐛檉ire.pb.main.Gs.serverid
+				// 闁哄稄绻濋悰妾塱re.pb.main.Gs.serverid
 				if (fire.pb.main.Gs.serverid.equals(serverId) == false) {
 					fire.log.Module.logger.error("fire.pb.main.Gs.serverid:" + fire.pb.main.Gs.serverid
 							+ " != ServerIDResponse.serverId:" + serverId);
@@ -121,7 +121,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 						testMysqlConnect();
 					}
 				});	
-				 // 閸掓稑缂撶拠缈犵瑝瀵版銇囩敮鍫⑩敄闂傚瓨鏆熼幑?
+				 // 闁告帗绋戠紓鎾舵嫚缂堢姷鐟濈�电増顨呴妵鍥╂暜閸懇鏁勯梻鍌氱摠閺嗙喖骞�?
 				fire.pb.friends.Module Module = new fire.pb.friends.Module();
 		      Module.createXsh(Long.MAX_VALUE);
 			}
@@ -132,7 +132,7 @@ public class ServerIDResponse extends __ServerIDResponse__ {
 			fire.log.Module.logger.info("Gs.isYingyongbao=" + fire.pb.main.Gs.isYingyongbao);
 		} catch (Exception e) {
 			e.printStackTrace();
-			fire.log.Module.logger.error("Mysql鏉╃偞甯撮張澶愭６妫版﹫绱掔拠椋庘�樼�规岸鍘ょ純顔艰嫙濡�?閺屻儳缍夌紒婊愮磼鐏忓棗鍙ч梻顓熸箛閸斺�虫珤.");
+			fire.log.Module.logger.error("Mysql閺夆晝鍋炵敮鎾嫉婢舵劖锛栧Λ鐗堬公缁辨帞鎷犳搴橈拷妯硷拷瑙勫哺閸樸倗绱旈鑹板珯婵★拷?闁哄被鍎崇紞澶岀磼濠婃劗纾奸悘蹇撴閸櫻囨⒒椤撶喐绠涢柛鏂猴拷铏彜.");
         	try{
         		ManagementFactory.getPlatformMBeanServer().setAttribute(new javax.management.ObjectName("bean:name=stopper"),
 					new javax.management.Attribute("StopTime", 1));

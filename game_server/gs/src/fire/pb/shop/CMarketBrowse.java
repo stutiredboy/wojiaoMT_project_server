@@ -36,7 +36,7 @@ public class CMarketBrowse extends __CMarketBrowse__ {
 				long excuteTime = endTime - beginTime;
 				if (excuteTime > 20) {
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("閹峰秴宕犲ù蹇氼潔闁挸鍙块悽銊︽閿�?").append(excuteTime).append("濮ｎ偆顫�");
+					sbd.append("闁瑰嘲绉村畷鐘裁硅箛姘兼綌闂侇剚鎸搁崣鍧楁偨閵婏附顦ч柨锟�?").append(excuteTime).append("婵綆鍋嗛～锟�");
 					fire.pb.shop.srv.market.MarketManager.LOG.error(sbd.toString());
 				}
 				return true;

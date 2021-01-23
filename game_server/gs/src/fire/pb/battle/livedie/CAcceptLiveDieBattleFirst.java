@@ -21,16 +21,16 @@ public class CAcceptLiveDieBattleFirst extends __CAcceptLiveDieBattleFirst__ {
 		if (guestid <= 0)
 			return;
 		
-		//閸掋倖鏌囨稉瀣灛娑旓妇娈戞禍鐑樻Ц閸氾箑鐡ㄩ崷?
+		//闁告帇鍊栭弻鍥ㄧ▔鐎ｎ偄鐏涘☉鏃撳濞堟垶绂嶉悜妯恍﹂柛姘剧畱閻°劑宕�?
 		Long hostid=xtable.Livedie2key.select(guestid);
-		//閸掋倖鏌囬弰顖氭儊閺堝绗呴幋妯瑰姛閻ㄥ嫪姹�
+		//闁告帇鍊栭弻鍥及椤栨碍鍎婇柡鍫濐槷缁楀懘骞嬪Ο鐟板闁汇劌瀚Ч锟�
 		if(hostid==null){
-			//閹绘劗銇氬▽鈩冩箒缂佹瑤缍樻稉瀣灛娑旓妇娈戞禍?162129
+			//闁圭粯鍔楅妵姘柦閳╁啯绠掔紓浣圭懁缂嶆ɑ绋夌�ｎ偄鐏涘☉鏃撳濞堟垶绂�?162129
 //			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162129, null);
 			sendNoFightPlayer(guestid);
 			return ;
 		}
-		//閼惧嘲绶辨稉瀣灛娑旓缚淇婇幁顖ょ礉閸掋倖鏌囬弰顖氭儊鏉╁洦婀�
+		//闁兼儳鍢茬欢杈ㄧ▔鐎ｎ偄鐏涘☉鏃撶細娣囧﹪骞侀銈囩闁告帇鍊栭弻鍥及椤栨碍鍎婇弶鈺佹处濠�锟�
 		xbean.LiveDieRoleInfo hostliveDieRoleInfo=xtable.Livedieroleinfotab.select(hostid);
 		if(hostliveDieRoleInfo==null){
 			sendNoFightPlayer(guestid);

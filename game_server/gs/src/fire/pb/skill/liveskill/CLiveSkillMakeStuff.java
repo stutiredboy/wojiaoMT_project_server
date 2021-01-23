@@ -26,7 +26,7 @@ abstract class __CLiveSkillMakeStuff__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閸掓湹缍旂粭?
+ * 闁告帗婀圭紞鏃傜箔?
  * @author changhao
  *
  */
@@ -41,7 +41,7 @@ public class CLiveSkillMakeStuff extends __CLiveSkillMakeStuff__ {
 		mkdb.Procedure livemakstuff = new mkdb.Procedure()
 		{
 			@Override
-			/*閸旂娀鏀ｆい鍝勭碍 team->roleid->match by changhao*/
+			/*闁告梻濞�閺�锝嗐亜閸濆嫮纰� team->roleid->match by changhao*/
 			protected boolean process()
 			{	
 				fire.pb.item.GroceryItemShuXing config = (GroceryItemShuXing) fire.pb.item.Module.getInstance().getItemManager().getAttr(itemid);
@@ -60,7 +60,7 @@ public class CLiveSkillMakeStuff extends __CLiveSkillMakeStuff__ {
 				
 				SkillRole skillrole = new SkillRole(roleid);
 				
-				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(skillid);	//瀵版鍩岄悽鐔告た閹�?閼崇晫鐡戠痪? by changhao			
+				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(skillid);	//鐎电増顨呴崺宀勬偨閻斿憡銇熼柟锟�?闁煎磭鏅悺鎴犵棯? by changhao			
 				if (liveskill == null)
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.SkillLevelNotEnough));
@@ -78,9 +78,9 @@ public class CLiveSkillMakeStuff extends __CLiveSkillMakeStuff__ {
 				}
 							
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, skillid, 
-						needlevel,"閹垫挾顑�", YYLoggerTuJingEnum.tujing_Value_liveskillcost, false);
+						needlevel,"闁瑰灚鎸鹃锟�", YYLoggerTuJingEnum.tujing_Value_liveskillcost, false);
 				
-				if (energyenough == false) //濞戝牐?妤佹た閸�? by changhao
+				if (energyenough == false) //婵炴垵鐗�?濡や焦銇熼柛锟�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						

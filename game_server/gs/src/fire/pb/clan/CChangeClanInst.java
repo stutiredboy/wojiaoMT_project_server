@@ -84,7 +84,7 @@ public class CChangeClanInst extends __CChangeClanInst__ {
 				clanInfo.setClaninstservice(claninstservice);
 				
 				String mastername = new PropRole(roleid, true).getName();
-				//婢跺嫮鎮婄敮顔芥烦娴滃娆�
+				//濠㈣泛瀚幃濠勬暜椤旇姤鐑﹀ù婊冾儎濞嗭拷
 				ClanManage.addDealClanEventInfo(clanInfo,ClanManage.EVENT_CHANGE_INST_MAN,roleid, mastername,zoneconfig.name,"");
 				
 				mkdb.Procedure.psendWhileCommit(roleid, new SChangeClanInst(claninstservice));

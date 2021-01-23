@@ -29,10 +29,10 @@ public class GCheckCanPlayPK extends __GCheckCanPlayPK__ {
 		GridPos hostGridPos = hostRole.getPos().toGridPos();
 		GridPos guestGridPos = gestRole.getPos().toGridPos();
 		
-		//婵″倹鐏夋稉宥嗘Ц閸︺劌鍨忕壕瀣勾閸ュ墽娈戦敍宀勬付鐟曚礁鍨介弬顓熸Ц閸氾附妲搁崥灞界潌閿涘苯顩ч弸婊冩躬閸掑洨顥愰崷鏉挎禈鐏忓崬鍨介弬顓＄獩缁�?//娑撳秴婀幙鍌氬酱閿涘苯鍨介弬顓熸Ц鐠烘繄顬囬敍宀冪箹娑擃亜婀崜宥夋桨瀹歌尙绮￠崚銈嗘焽鏉╁洣绨￠敍宀冪箹闁插苯姘ㄦ稉宥夋付鐟曚礁顦╅悶鍡曠啊
+		//濠碘�冲�归悘澶嬬▔瀹ュ棙笑闁革负鍔岄崹蹇曞鐎ｎ亝鍕鹃柛銉ュ⒔濞堟垿鏁嶅畝鍕粯閻熸洑绀侀崹浠嬪棘椤撶喐笑闁告熬闄勫Σ鎼佸触鐏炵晫娼岄柨娑樿嫰椤┭囧几濠婂啯韬柛鎺戞川椤ユ劙宕烽弶鎸庣閻忓繐宕崹浠嬪棘椤擄紕鐛╃紒锟�?//濞戞挸绉村﹢顏堝箼閸屾艾閰遍柨娑樿嫰閸ㄤ粙寮鐔感﹂悹鐑樼箘椤洭鏁嶅畝鍐濞戞搩浜滃﹢顏堝礈瀹ュ妗ㄧ�规瓕灏欑划锟犲礆閵堝棙鐒介弶鈺佹矗缁繝鏁嶅畝鍐闂佹彃鑻銊︾▔瀹ュ浠橀悷鏇氱椤︹晠鎮堕崱鏇犲晩
 		if (hostRole.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(hostGridPos.getX(), hostGridPos.getY())
 				&&gestRole.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(guestGridPos.getX(), guestGridPos.getY())) {
-			//閸︺劍鎼ㄩ崣?
+			//闁革负鍔嶉幖銊╁矗?
 			if (!(hostRole.getScene().getMapID() == PPlayPKFightView.CQMAPID && gestRole.getScene().getMapID() == PPlayPKFightView.CQMAPID)){
 				MessageMgr.sendMsgNotify(hostid, 120063, null);
 				return ;

@@ -28,7 +28,7 @@ public class CReMarketUp extends __CReMarketUp__ {
 				fire.pb.shop.srv.market.IMarket proxy = (fire.pb.shop.srv.market.IMarket) handler.getProxy();
 				boolean success = proxy.remarketUp(itemtype, roleId, id, money);
 				if (success) {
-					// 閸掗攱鏌婇崜宥呭酱閺佺増宓�
+					// 闁告帡鏀遍弻濠囧礈瀹ュ懎閰遍柡浣哄瀹擄拷
 					fire.pb.shop.srv.market.MarketManager.getInstance().sendMarketContainerByRoleId(roleId);
 				}
 				return success;

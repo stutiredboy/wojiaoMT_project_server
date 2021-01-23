@@ -29,7 +29,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 	protected void process() {
 		// protocol handle
 		int actId = TimerNpcService.getInstance().getActId(npcid);
-		//濞茶濮╅柨娆掝嚖
+		//婵炶尪顕ф慨鈺呮煥濞嗘帩鍤�
 		if (actId == -1) {
 			return;
 		}
@@ -43,7 +43,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 		Role sceneRole = RoleManager.getInstance().getRoleByID(roleid);
 		int roleMapid = sceneRole.getMapId();
 		
-		//閸忓牆婀ぐ鎾冲鐟欏棝鍣归柌灞惧缁犲崬鐡�
+		//闁稿繐鐗嗗﹢顏囥亹閹惧啿顤呴悷娆忔閸ｅ綊鏌岀仦鎯ь棟缂佺姴宕悺锟�
 		fire.pb.scene.movable.Role role = fire.pb.scene.manager.RoleManager.getInstance().getRoleByID(roleid);
 		Map<Long, NPC> allNpcInScreens = role.getAllNpcsInScreens();
 		for (NPC npc : allNpcInScreens.values()) {
@@ -57,7 +57,7 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			}
 		}
 		
-		//瑜版挸澧犵憴鍡涘櫣闁插本鐥呴張澶嬪閸�?,閸掓瑥婀ぐ鎾冲閸︽澘娴橀幍?
+		//鐟滅増鎸告晶鐘垫喆閸℃稑娅ｉ梺鎻掓湰閻ュ懘寮垫径瀣棟闁革拷?,闁告帗鐟ュ﹢顏囥亹閹惧啿顤呴柛锔芥緲濞存﹢骞�?
 		if (!findit) {
 			xbean.timerNpcInfoCol npcInfo = xtable.Timernpcinfotable.select(actId);
 			if (npcInfo == null) {
@@ -66,8 +66,8 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//鐎电懓绨瞡pc閻ㄥ嫮濮搁幀? 0=缁屾椽妫� 1=閹存ɑ鏋熸稉? 2=瀹歌尙绮″☉鍫濄亼
-				if (npcinfos.getValue().getNpcstatus() == 0) { //濞屸剝婀佸☉鍫濄亼
+				//閻庣數鎳撶花鐬c闁汇劌瀚慨鎼佸箑? 0=缂佸本妞藉Λ锟� 1=闁瑰瓨蓱閺嬬喐绋�? 2=鐎规瓕灏欑划鈥斥槈閸縿浜�
+				if (npcinfos.getValue().getNpcstatus() == 0) { //婵炲备鍓濆﹢浣糕槈閸縿浜�
 					npcList.add(npcinfos.getKey());
 				}
 			}
@@ -96,8 +96,8 @@ public class GFindNpcWithNpcId extends __GFindNpcWithNpcId__ {
 			
 			List<Long> npcList = new ArrayList<Long>();
 			for (Map.Entry<Long, xbean.timerNpcInfo> npcinfos : npcInfo.getNpcinfo().entrySet()) {
-				//鐎电懓绨瞡pc閻ㄥ嫮濮搁幀? 0=缁屾椽妫� 1=閹存ɑ鏋熸稉? 2=瀹歌尙绮″☉鍫濄亼
-				if (npcinfos.getValue().getNpcstatus() == 0) { //濞屸剝婀佸☉鍫濄亼
+				//閻庣數鎳撶花鐬c闁汇劌瀚慨鎼佸箑? 0=缂佸本妞藉Λ锟� 1=闁瑰瓨蓱閺嬬喐绋�? 2=鐎规瓕灏欑划鈥斥槈閸縿浜�
+				if (npcinfos.getValue().getNpcstatus() == 0) { //婵炲备鍓濆﹢浣糕槈閸縿浜�
 					npcList.add(npcinfos.getKey());
 				}
 			}

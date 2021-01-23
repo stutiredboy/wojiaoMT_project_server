@@ -16,7 +16,7 @@ abstract class __MGotoAfterBattle__ extends mkio.Protocol { }
 public class MGotoAfterBattle extends __MGotoAfterBattle__ {
 	@Override
 	protected void process() {
-		//閹存ɑ鏋熺紒鎾存将閸氬海娈慞rocedure婢跺嫮鎮婇敍灞筋洤閺嬫粍鍨弬妤佺梾閺堝绨￠敍灞藉灟閻╁瓨甯撮幍褑顢�
+		//闁瑰瓨蓱閺嬬喓绱掗幘瀛樺皢闁告艾娴峰▓鎱瀝ocedure濠㈣泛瀚幃濠囨晬鐏炵瓔娲ら柡瀣矋閸剟寮Δ浣烘⒕闁哄牆顦花锟犳晬鐏炶棄鐏熼柣鈺佺摠鐢挳骞嶈椤拷
 		new PSetBattleEndProcedure(roleid, new PGotoAfterBattle(roleid, sceneid, posx, posy, gototype)).submit();
 	}
 

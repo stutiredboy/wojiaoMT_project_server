@@ -51,7 +51,7 @@ public class COffTitle extends __COffTitle__ {
 	}
 	
 	/**
-	 * 閻㈢喐顒撮幋妯兼畱缁夋澘褰挎稉宥堝厴鐞氼偅娴涙稉?
+	 * 闁汇垻鍠愰鎾箣濡吋鐣辩紒澶嬫緲瑜版寧绋夊鍫濆幋閻炴凹鍋呭ù娑欑▔?
 	 * @param prole
 	 * @return
 	 */

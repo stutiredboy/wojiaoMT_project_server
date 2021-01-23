@@ -27,7 +27,7 @@ public class CRoleJump extends __CRoleJump__ {
 		
 		if(rs.getMapConfig().qinggong == 0) return;
 		
-		//checkmove 娑�?濞�?
+		//checkmove 濞戯拷?婵烇拷?
 		final long curTick = System.currentTimeMillis();
 		
 		if(!role.isJumping() && !CCheckMove.checkmove(role,sceneid, srcpos, poslist,curTick))
@@ -36,7 +36,7 @@ public class CRoleJump extends __CRoleJump__ {
 				role.getJumpRole().confirmPositionToStart();
 			else
 				JumpRole.confirmPosition(role);
-			return;//checkmove濞屸剝鍨氶崝?
+			return;//checkmove婵炲备鍓濋崹姘跺礉?
 		}
 		
 		if(role.jump(new Position(srcpos.x, srcpos.y), new Position(destpos.x, destpos.y), jumptype == 0))

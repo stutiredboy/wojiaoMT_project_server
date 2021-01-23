@@ -12,7 +12,7 @@ abstract class __CSwapMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 娴溿倖宕查梼鐔锋喅
+ * 濞存嚎鍊栧畷鏌ユ⒓閻旈攱鍠�
  * @author changhao
  *
  */
@@ -31,7 +31,7 @@ public class CSwapMember extends __CSwapMember__ {
 			protected boolean process()
 			{
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?
+				//闁稿繐鐗撻悰娆戞嫚娓氾拷濡诧附瀵煎鍡樞﹂柛姘剧細鐠愮喓绮�?
 				Team team = null;
 				if(teamId != null)
 					team = new Team(teamId,false);
@@ -40,32 +40,32 @@ public class CSwapMember extends __CSwapMember__ {
 				
 				if(!checkleaderInTeam(leaderRoleId, team))
 				{
-					//閻㈠疇顕禍銈嗗床閻ㄥ嫪姹夋稉宥嗘Ц闂冪喖鏆遍敍鍧昹ligal閿�?
+					//闁汇垹鐤囬顒佺閵堝棗搴婇柣銊ュ濮瑰绋夊鍡樞﹂梻鍐枛閺嗛亶鏁嶉崸鏄筶igal闁匡拷?
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141192, null);
-					TeamManager.logger.debug("FAIL:閻㈠疇顕禍銈嗗床閻ㄥ嫪姹夋稉宥嗘Ц闂冪喖鏆�,  leaderRoleId:" + leaderRoleId);
+					TeamManager.logger.debug("FAIL:闁汇垹鐤囬顒佺閵堝棗搴婇柣銊ュ濮瑰绋夊鍡樞﹂梻鍐枛閺嗭拷,  leaderRoleId:" + leaderRoleId);
 				}
 				else if(!checkIndexValid(team , index1, index2))
 				{
-					//閻㈠疇顕禍銈嗗床閻ㄥ嫪琚遍梼鐔锋喅index娑撳秴鎮庡▔鏇礄illigal閿�?
-					TeamManager.logger.debug("FAIL:閻㈠疇顕禍銈嗗床閻ㄥ嫪琚遍梼鐔锋喅index娑撳秴鎮庡▔?,  index1: " + index1 + " ;index2: "+ index2);
+					//闁汇垹鐤囬顒佺閵堝棗搴婇柣銊ュ鐞氶亶姊奸悢閿嬪枀index濞戞挸绉撮幃搴♀枖閺囶亞绀刬lligal闁匡拷?
+					TeamManager.logger.debug("FAIL:闁汇垹鐤囬顒佺閵堝棗搴婇柣銊ュ鐞氶亶姊奸悢閿嬪枀index濞戞挸绉撮幃搴♀枖?,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else if(!checkMemsberStateValid(team, index1, index2))
 				{
-					//鐟曚椒姘﹂幑銏㈡畱娑撱倝妲﹂崨妯虹箑妞ゅ鍏樻径鍕艾濮濓絽鐖堕悩鑸�??
+					//閻熸洑妞掑锕傚箲閵忋垺鐣卞☉鎾卞�濆Σ锕傚川濡櫣绠戝銈咁煼閸忔ɑ寰勯崟顏嗚壘婵繐绲介悥鍫曟偐閼革拷??
 					psend(leaderRoleId, new STeamError(TeamError.MembersNotNormal));
 					fire.pb.talk.MessageMgr.psendMsgNotify(leaderRoleId, 141193, null);
-					TeamManager.logger.debug("FAIL:鐟曚椒姘﹂幑銏㈡畱娑撱倝妲﹂崨妯虹箑妞ゅ鍏樻径鍕艾濮濓絽鐖堕悩鑸�??,  index1: " + index1 + " ;index2: "+ index2);
+					TeamManager.logger.debug("FAIL:閻熸洑妞掑锕傚箲閵忋垺鐣卞☉鎾卞�濆Σ锕傚川濡櫣绠戝銈咁煼閸忔ɑ寰勯崟顏嗚壘婵繐绲介悥鍫曟偐閼革拷??,  index1: " + index1 + " ;index2: "+ index2);
 				}
 				else
 				{
-					TeamManager.logger.debug("SUCC:閸欘垯浜掓禍銈嗗床闂冪喎鎲�,  index1: " + index1 + " ;index2: "+ index2);
+					TeamManager.logger.debug("SUCC:闁告瑯鍨禍鎺撶閵堝棗搴婇梻鍐枎閹诧拷,  index1: " + index1 + " ;index2: "+ index2);
 					team.switchTeamMemberWithSP(index1, index2);
 //					long roleId1 = team.getTeamInfo().getMembers().get(index1-1).getRoleid();
 //					long roleId2 = team.getTeamInfo().getMembers().get(index2-1).getRoleid();
 //					team.getTeamInfo().getMembers().get(index2-1).setRoleid(roleId1);
 //					team.getTeamInfo().getMembers().get(index1-1).setRoleid(roleId2);
 //					
-//					//鐏忓棙鏌婃い鍝勭碍楠炴寧鎸遍崚鐗堝閺堝妲﹂崨?
+//					//閻忓繐妫欓弻濠冦亜閸濆嫮纰嶆鐐村閹搁亶宕氶悧鍫濐暡闁哄牆顦靛Σ锕傚川?
 //					Set<Long> roleids = new HashSet<Long>();
 //					SMemberSequence sMemberSequence = new SMemberSequence();
 //					sMemberSequence.teammemeberlist.add(team.getTeamInfo().getTeamleaderid());
@@ -75,7 +75,7 @@ public class CSwapMember extends __CSwapMember__ {
 //						sMemberSequence.teammemeberlist.add(member.getRoleid());
 //						roleids.add(member.getRoleid());
 //					}
-//					// 鐏忓棝妲︽导宥嗗灇閸涙﹢銆庢惔蹇撳絺闁礁鍩岄幍?閺堝鍨氶崨?
+//					// 閻忓繐妫濆Σ锔藉瀹ュ棗鐏囬柛娑欙耿閵嗗孩鎯旇箛鎾崇岛闂侇偂绀侀崺宀勫箥?闁哄牆顦伴崹姘跺川?
 //					xdb.Procedure.psendWhileCommit(roleids, sMemberSequence);
 				}
 				return true;
@@ -87,7 +87,7 @@ public class CSwapMember extends __CSwapMember__ {
 
 	
 
-	// 閻㈠疇顕懓鍛Ц娑�?娑擃亪妲︽导宥囨畱闂冪喖鏆遍敍鐔峰涧閼宠棄婀狿rocedure娑擃叀顫︾拫鍐暏
+	// 闁汇垹鐤囬顒勬嚀閸涱喗笑濞戯拷?濞戞搩浜Σ锔藉瀹ュ洦鐣遍梻鍐枛閺嗛亶鏁嶉悢宄版锭闁煎疇妫勫﹢鐙縭ocedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkleaderInTeam(long leaderRoleId,Team team)
 	{
 		if (team != null && team.getTeamInfo().getTeamleaderid() == leaderRoleId)
@@ -95,7 +95,7 @@ public class CSwapMember extends __CSwapMember__ {
 		else
 			return false;
 	}
-	//index閸氬牊纭堕敍?
+	//index闁告艾鐗婄涵鍫曟晬?
 	private boolean checkIndexValid(Team team, long index_1, long index_2)
 	{
 		if(index_1 >= 1 && index_1 <= team.getTeamInfo().getMembers().size() && index_2 >=1 && index_2 <=team.getTeamInfo().getMembers().size() && index_1 != index_2)
@@ -103,7 +103,7 @@ public class CSwapMember extends __CSwapMember__ {
 		else 
 			return false;
 	}
-	//鐟曚椒姘﹂幑銏㈡畱娑撱倝妲﹂崨妯侯槱娴滃孩顒滅敮鍝ュЦ閹緤绱�
+	//閻熸洑妞掑锕傚箲閵忋垺鐣卞☉鎾卞�濆Σ锕傚川濡警妲卞ù婊冨椤掓粎鏁崫銉バ﹂柟顑跨筏缁憋拷
 	private boolean checkMemsberStateValid(Team team,  int index_1, int index_2)
 	{
 		if(team.getTeamInfo().getMembers().get(index_1 - 1).getState() == TeamMemberState.eTeamNormal &&

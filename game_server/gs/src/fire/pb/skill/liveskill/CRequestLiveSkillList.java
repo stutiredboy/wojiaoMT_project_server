@@ -13,7 +13,7 @@ abstract class __CRequestLiveSkillList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠囬攱鐪伴悽鐔告た闁炬崘銆�
+ * 閻犲洭鏀遍惇浼存偨閻斿憡銇熼梺鐐礃閵嗭拷
  * @author changhao
  *
  */

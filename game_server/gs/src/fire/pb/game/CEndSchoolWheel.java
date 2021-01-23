@@ -30,10 +30,10 @@ public class CEndSchoolWheel extends __CEndSchoolWheel__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() throws Exception {
-				TeamManager.getTeamByRoleId(roleid);//闁夸線妲︽导?
+				TeamManager.getTeamByRoleId(roleid);//闂佸じ绶氬Σ锔藉?
 				List<Long> list = new ArrayList<Long>();
 				list.add(roleid);
-				lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK, list));//闁夸礁缍嬮崜宥堫潡閼�?
+				lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK, list));//闂佸じ绀佺紞瀣礈瀹ュ牜娼￠柤锟�?
 				xbean.SchoolWheel schoolWheel = xtable.Openschoolwheeltable.get(roleid);
 				if (schoolWheel == null) {
 					return false;

@@ -31,7 +31,7 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 					fire.pb.activity.ActivityConfNew activity = RoleLiveness.getConfigActivity(fire.pb.mission.activelist.RoleLiveness.ANSWER_QUESTION);
 					
 					boolean start = fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().IsStart();
-					if (count < activity.maxnum && start == true) //娑�?婢垛晜顐奸弫棰佺瑐闂�? by changhao
+					if (count < activity.maxnum && start == true) //濞戯拷?濠㈠灈鏅滈濂稿极妫颁胶鐟愰梻锟�? by changhao
 					{
 						xbean.Properties prop = xtable.Properties.select(roleid);
 						if (prop == null)
@@ -47,7 +47,7 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 						xbean.ActivityQuestion activityquestion = xtable.Roleid2activityquestion.get(roleid);
 						
 						final long now = java.util.Calendar.getInstance().getTimeInMillis();
-						if (activityquestion == null) //閸旂姴鍙嗘稉?娑擃亝鏌婇惃? by changhao
+						if (activityquestion == null) //闁告梻濮撮崣鍡樼▔?濞戞搩浜濋弻濠囨儍? by changhao
 						{
 							activityquestion = xbean.Pod.newActivityQuestion();
 							xtable.Roleid2activityquestion.insert(roleid, activityquestion);
@@ -58,13 +58,13 @@ public class CRequestActivityAnswerQuestion extends __CRequestActivityAnswerQues
 						{
 							long lasttime = activityquestion.getActivityquestionstarttime();
 							
-							if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //婵″倹鐏夋稉宥嗘Ц閸氬奔绔存径鈺勵洣濞撳懐鈹� by changhao
+							if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //濠碘�冲�归悘澶嬬▔瀹ュ棙笑闁告艾濂旂粩瀛樺緞閳哄嫷娲ｆ繛鎾虫噽閳癸拷 by changhao
 							{
 								fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().ResetActivityQuestionData(activityquestion, now, true);	
 							}
 						}
 						
-						//閸欐垿?渚�顣介惄? by changhao
+						//闁告瑦鍨�?娓氾拷椤ｄ粙鎯�? by changhao
 						fire.pb.activity.answerquestion.ActivityQuestionManager.getInstance().sendQuestion(roleid, activityquestion, (byte)0);
 					}
 				}

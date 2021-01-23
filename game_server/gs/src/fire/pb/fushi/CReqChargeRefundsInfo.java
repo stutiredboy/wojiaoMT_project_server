@@ -29,23 +29,23 @@ public class CReqChargeRefundsInfo extends __CReqChargeRefundsInfo__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		final int userid = ((gnet.link.Dispatch) this.getContext()).userid;
 		if (roleid < 0 || userid <0) {
-			logger.error("CReqChargeRefundsInfo.userid:" + userid + ",roleid:" + roleid + ".闁挎瑨顕ら敍?");
+			logger.error("CReqChargeRefundsInfo.userid:" + userid + ",roleid:" + roleid + ".闂佹寧鐟ㄩ銈夋晬?");
 			return;
 		}
 		final SCommon cc = RoleConfigManager.getRoleCommonConfig(309);
 		if (cc == null) {
-			logger.error("CReqChargeRefundsInfo.閸忓懎?鑹扮箲鏉╂鐡戠痪褔?姘辨暏闁板秶鐤�309娑撶皠ull!userid:" + userid + ",roleid:" + roleid);
+			logger.error("CReqChargeRefundsInfo.闁稿繐鎳�?閼规壆绠查弶鈺傤焽閻℃垹鐥?濮樿鲸鏆忛梺鏉跨Ф閻わ拷309濞戞挾鐨爑ll!userid:" + userid + ",roleid:" + roleid);
 			return;
 		}
 		int rolelevel = xtable.Properties.selectLevel(roleid);
 		if(rolelevel < (cc == null ? 0 : Integer.parseInt(cc.getValue()))) {
-			logger.error("CReqChargeRefundsInfo.缁涘楠囨稉宥堝喕,娑撳秷绻戞潻?!userid:" + userid + ",roleid:" + roleid);
+			logger.error("CReqChargeRefundsInfo.缂佹稑顦辨鍥ㄧ▔瀹ュ牆鍠�,濞戞挸绉风换鎴炴交?!userid:" + userid + ",roleid:" + roleid);
 			return;
 		}
 		
 		xbean.AUUserInfo userinfo = xtable.Auuserinfo.select(userid);
 		if(userinfo == null) {
-			logger.error("CReqChargeRefundsInfo.AUUserInfo娑撶皠ull!userid:" + userid + ",roleid:" + roleid);
+			logger.error("CReqChargeRefundsInfo.AUUserInfo濞戞挾鐨爑ll!userid:" + userid + ",roleid:" + roleid);
 			return;
 		}
 		String username = userinfo.getUsername();

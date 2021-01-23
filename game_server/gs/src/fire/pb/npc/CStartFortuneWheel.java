@@ -23,7 +23,7 @@ public class CStartFortuneWheel extends __CStartFortuneWheel__ {
 			return;
 		}
 		// protocol handle
-		//濞夈垺鏌夐崯鍡曟眽閻ㄥ嫬銇囨潪顒傛磸
+		//婵炲鍨洪弻澶愬疮閸℃洘鐪介柣銊ュ閵囧洦娼鍌涚８
 		new PReqFortuneWheel(roleid, npckey,npc.getNpcID(),true,fire.pb.npc.NpcServices.FORTUNE_WHEEL).submit();
 	}
 

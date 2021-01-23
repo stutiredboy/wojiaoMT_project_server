@@ -20,13 +20,13 @@ abstract class __SendUserInfoAndTicket_Re__ extends mkio.Protocol { }
 public class SendUserInfoAndTicket_Re extends __SendUserInfoAndTicket_Re__ {
 	@Override
 	protected void process() {
-		CrossManager.logger.info("SendUserInfoAndTicket_Re.閸樼喐婀囬弨璺哄煂閺夈儴鍤滅捄銊︽箛userId=" + userid + "閻ㄥ嚪endUserInfoAndTicket_Re閸楀繗顔�!");
+		CrossManager.logger.info("SendUserInfoAndTicket_Re.闁告鍠愬﹢鍥绩鐠哄搫鐓傞柡澶堝劥閸ゆ粎鎹勯妸锔界疀userId=" + userid + "闁汇劌鍤猠ndUserInfoAndTicket_Re闁告绻楅锟�!");
 		long roleid = CrossManager.getInstance().getTransferRoleByUserId(userid);
 		if (roleid <= 0){
-			CrossManager.logger.error("SendUserInfoAndTicket_Re.閸樼喐婀囧锝呮躬鐠恒劍婀囬惃鍕潡閼硅弓鑵戞稉宥呯摠閸�?:" + userid + "!");
+			CrossManager.logger.error("SendUserInfoAndTicket_Re.闁告鍠愬﹢鍥ь潰閿濆懏韬悹鎭掑妽濠�鍥儍閸曨噮娼￠柤纭呭紦閼垫垶绋夊鍛憼闁革拷?:" + userid + "!");
 			return;	
 		}
-		CrossManager.logger.info("SendUserInfoAndTicket_Re.閸樼喐婀囬弨璺哄煂閺夈儴鍤滅捄銊︽箛閸ョ偛顦�.roleId=" + roleid + ",retcode=" + retcode);
+		CrossManager.logger.info("SendUserInfoAndTicket_Re.闁告鍠愬﹢鍥绩鐠哄搫鐓傞柡澶堝劥閸ゆ粎鎹勯妸锔界疀闁搞儳鍋涢ˇ锟�.roleId=" + roleid + ",retcode=" + retcode);
 		if (retcode != RET_OK) {
 			return;
 		}

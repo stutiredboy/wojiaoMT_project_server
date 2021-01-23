@@ -36,34 +36,34 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 				
 				long ret = 0;
 				int newMoney = 0;
-				// 缁楋妇鐓堕崗鎴炲床
+				// 缂佹濡囬悡鍫曞礂閹寸偛搴�
 				if (srcmoneytype == fire.pb.game.MoneyType.MoneyType_HearthStone) {
-					// 閸忔垶宕查柧璺虹.
+					// 闁稿繑鍨跺畷鏌ユ煣鐠鸿櫣顏�.
 					if (fire.pb.fushi.Module.GetPayServiceType() == 1)
 						return false;
 					
 					if (dstmoneytype == fire.pb.game.MoneyType.MoneyType_SilverCoin && this.dealHearthStone()) {
 						newMoney = money * 10000;
-						ret = bag.addSysMoney(newMoney, "1缁楋妇鐓堕崗鎴炲床10000闁捐泛绔�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
+						ret = bag.addSysMoney(newMoney, "1缂佹濡囬悡鍫曞礂閹寸偛搴�10000闂佹崘娉涚粩锟�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
 						if (ret != 0) {
 							fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 160402, java.util.Arrays.asList(Integer.toString(money), Integer.toString(newMoney)));
 						}
 					} 
-					// 閸忔垶宕查柌鎴濈
+					// 闁稿繑鍨跺畷鏌ユ煂閹存繄顏�
 					else if (dstmoneytype == fire.pb.game.MoneyType.MoneyType_GoldCoin && this.dealHearthStone()) {
 						newMoney = money * 100;
-						ret = bag.addSysGold(newMoney, "1缁楋妇鐓堕崗鎴炲床100闁叉垵绔�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);						
+						ret = bag.addSysGold(newMoney, "1缂佹濡囬悡鍫曞礂閹寸偛搴�100闂佸弶鍨电粩锟�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);						
 						if (ret != 0) {
 							ret = bag.addSysCurrency((long)(newMoney*fire.pb.fushi.Module.getCreditPointValue(fire.pb.fushi.Module.CREDITPOINT_IN_FS2GOLD))
-									, MoneyType.MoneyType_EreditPoint, "1缁楋妇鐓堕崗鎴炲床100闁叉垵绔�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
+									, MoneyType.MoneyType_EreditPoint, "1缂佹濡囬悡鍫曞礂閹寸偛搴�100闂佸弶鍨电粩锟�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
 							fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 160403, java.util.Arrays.asList(Integer.toString(money), Integer.toString(newMoney)));
 						}
 					}
 				}
-				// 闁叉垵绔甸崗鎴炲床
+				// 闂佸弶鍨电粩鐢稿礂閹寸偛搴�
 				else if (srcmoneytype == fire.pb.game.MoneyType.MoneyType_GoldCoin && this.dealGold()) {
 					newMoney = money * 100;
-					ret = bag.addSysMoney(newMoney, "1闁叉垵绔甸崗鎴炲床100闁捐泛绔�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
+					ret = bag.addSysMoney(newMoney, "1闂佸弶鍨电粩鐢稿礂閹寸偛搴�100闂佹崘娉涚粩锟�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuan, 0);
 					if (ret != 0) {
 						fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 160404, java.util.Arrays.asList(Integer.toString(money), Integer.toString(newMoney)));
 					}
@@ -74,11 +74,11 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 			
 			
 			/**
-			 * 缁楋妇鐓跺Λ?閺屻儱鑻熼幍锝夋珟
+			 * 缂佹濡囬悡璺何�?闁哄被鍎遍懟鐔煎箥閿濆鐝�
 			 * @return true ok
 			 */
 			public boolean dealHearthStone() {
-				// 閼惧嘲褰囩粭锔剧叾
+				// 闁兼儳鍢茶ぐ鍥╃箔閿斿墽鍙�
 				if (fire.pb.fushi.Module.getIsYYBUser(userid)) {
 					return fire.pb.fushi.FushiManager.subFushiFromUser(userid, roleid, money, 0, 0,
 							fire.pb.fushi.FushiConst.REASON_SUB_EXCHANGE_CURRENCY, YYLoggerTuJingEnum.tujing_Value_huobiduihuancost, true);
@@ -102,12 +102,12 @@ public class CExchangeCurrency extends __CExchangeCurrency__ {
 			}
 			
 			/**
-			 * 閹碉綁娅庨柌鎴濈
+			 * 闁圭缍佸▍搴ㄦ煂閹存繄顏�
 			 * @return true ok
 			 */
 			public boolean dealGold() {
 				fire.pb.item.Pack bag = new fire.pb.item.Pack(roleid, false);
-				long ret = bag.subGold(-money, "鐠愌冪閸忔垶宕�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuancost, 0);
+				long ret = bag.subGold(-money, "閻犳剬鍐伈闁稿繑鍨跺畷锟�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_huobiduihuancost, 0);
 				return ret == 0 ? false : true ;
 			}
 			

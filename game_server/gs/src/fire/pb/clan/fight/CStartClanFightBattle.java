@@ -12,7 +12,7 @@ abstract class __CStartClanFightBattle__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 瀵�?婵鍙曟导姘灛 battle PK by changhao
+ * 鐎碉拷?濠殿喖顑呴崣鏇熷濮橆厼鐏� battle PK by changhao
  * @author Administrator
  *
  */
@@ -37,7 +37,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ") " + srcname + " 鐟欐帟澹�(ID = " + targetid + ") " + targetname + " 閸︺劍鍨弬妞捐厬");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ") " + srcname + " 閻熸瑦甯熸竟锟�(ID = " + targetid + ") " + targetname + " 闁革负鍔嶉崹顒勫棘濡炴崘鍘�");
 					return false;
 				}
 				
@@ -46,47 +46,47 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ") " + srcname + " 鐟欐帟澹�(ID = " + targetid + ") " + targetname + " 閻╊喗鐖ｉ崷銊﹀灛閺傛ぞ鑵�");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ") " + srcname + " 閻熸瑦甯熸竟锟�(ID = " + targetid + ") " + targetname + " 闁烩晩鍠楅悥锝夊捶閵婏箑鐏涢柡鍌涖仦閼碉拷");
 					return false;
 				}
 				
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //濡�?濞村妲搁崥锕�婀幋妯烘簚娑�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //婵★拷?婵炴潙顑嗗Σ鎼佸触閿曪拷濠�顏堝箣濡儤绨氬☉锟�? by changhao
 				if (c1 == null)
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ") " + srcname + " 鐟欐帟澹�(ID = " + targetid + ") " + targetname + " 娑撳秴婀幋妯烘簚");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ") " + srcname + " 閻熸瑦甯熸竟锟�(ID = " + targetid + ") " + targetname + " 濞戞挸绉村﹢顏堝箣濡儤绨�");
 
 					return false;
 				}
 				
-				Long c2 = xtable.Roleid2clanfightid.select(targetid); //濡�?濞村妲搁崥锕�婀幋妯烘簚娑�? by changhao
+				Long c2 = xtable.Roleid2clanfightid.select(targetid); //婵★拷?婵炴潙顑嗗Σ鎼佸触閿曪拷濠�顏堝箣濡儤绨氬☉锟�? by changhao
 				if (c2 == null)
 				{
 					String srcname = xtable.Properties.selectRolename(roleid);
 					String targetname = xtable.Properties.selectRolename(targetid);
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ") " + srcname + " 鐟欐帟澹�(ID = " + targetid + ") " + targetname + " 閻╊喗鐖ｆ稉宥呮躬閹存ê婧�");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ") " + srcname + " 閻熸瑦甯熸竟锟�(ID = " + targetid + ") " + targetname + " 闁烩晩鍠楅悥锝嗙▔瀹ュ懏韬柟瀛樏┃锟�");
 
 					return false;
 				}
 				
-				if (!c1.equals(c2)) //閺勵垰鎯侀崷銊ユ倱娑�?閸忣兛绱伴幋姗�鍣� by changhao
+				if (!c1.equals(c2)) //闁哄嫷鍨伴幆渚�宕烽妸銉﹀�卞☉锟�?闁稿浚鍏涚槐浼村箣濮楋拷閸ｏ拷 by changhao
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ")閸氬奔绔撮崗顑跨窗");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ")闁告艾濂旂粩鎾礂椤戣法绐�");
 					return false;
 				}
 				
 				xbean.EClanFightStatistics statistics1 = xtable.Roleid2clanfightstatistics.select(roleid);
 				if (statistics1 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ")濞屸剝婀侀弫鐗堝祦娣団剝浼�");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ")婵炲备鍓濆﹢渚�寮悧鍫濈ウ濞ｅ洠鍓濇导锟�");
 					return false;
 				}
 				
 				xbean.EClanFightStatistics statistics2 = xtable.Roleid2clanfightstatistics.select(targetid);
 				if (statistics2 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + targetid + ")閻╊喗鐖ｅ▽鈩冩箒閺佺増宓佹穱鈩冧紖");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + targetid + ")闁烩晩鍠楅悥锝呪柦閳╁啯绠掗柡浣哄瀹撲焦绌遍埄鍐х礀");
 					return false;
 				}
 				
@@ -98,7 +98,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				
 				if (statistics2.getAct() <= 0)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ")閻╊喗鐖ｅ▽鈩冩箒鐞涘苯濮╅崝? ");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ")闁烩晩鍠楅悥锝呪柦閳╁啯绠掗悶娑樿嫰婵晠宕�? ");
 					return false;
 				}
 				
@@ -113,7 +113,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.clan.fight.ClanFightBattleField bf1 = fire.pb.clan.fight.ClanFightFactory.getClanFightBattleField(c1, true);
 				if (bf1 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ")閹存ê婧�娑撳秴鐡ㄩ崷?");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ")闁瑰瓨锚濠э拷濞戞挸绉撮悺銊╁捶?");
 					return false;
 				}
 				
@@ -122,16 +122,16 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.clan.fight.ClanFightBattleField bf2 = fire.pb.clan.fight.ClanFightFactory.getClanFightBattleField(c2, true);
 				if (bf2 == null)
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ")閹存ê婧�娑撳秴鐡ㄩ崷?");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ")闁瑰瓨锚濠э拷濞戞挸绉撮悺銊╁捶?");
 					return false;
 				}
 				
 				which2 = bf2.getSideByRoleId(targetid);
 				
-				//閸掋倖鏌囬弰顖氭儊閺勵垰顕粩? by changhao
+				//闁告帇鍊栭弻鍥及椤栨碍鍎婇柡鍕靛灠椤曨喚绮�? by changhao
 				if (!(which1 == 0 && which2 == 1) && !(which1 == 1 && which2 == 0))
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ")閻╊喗鐖ｉ梼浣冩儉娑撳秴顕�");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ")闁烩晩鍠楅悥锝夋⒓娴ｅ啯鍎夊☉鎾崇Т椤曪拷");
 					return false;
 				}
 				
@@ -149,7 +149,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				
 				if (cur < bf1.getClanfightBean().getActivitypreparetime() || cur > bf1.getClanfightBean().getActivityendtime())
 				{
-					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:鐟欐帟澹�(ID = " + roleid + ")娑撳秴婀狿K閺冨爼妫块崘?");
+					fire.pb.clan.fight.ClanFightBattleField.logger.error("CStartClanFightBattle:閻熸瑦甯熸竟锟�(ID = " + roleid + ")濞戞挸绉村﹢鐙縆闁哄啫鐖煎Λ鍧楀礃?");
 					return false;
 				}
 				
@@ -169,7 +169,7 @@ public class CStartClanFightBattle extends __CStartClanFightBattle__ {
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(targetid);
 				if (team != null)
 				{
-					if (team.isNormalMember(targetid)) //婵″倹鐏夐弰顖涱劀鐢悂妲﹂崨? by changhao
+					if (team.isNormalMember(targetid)) //濠碘�冲�归悘澶愬及椤栨侗鍔�閻㈩垱鎮傚Σ锕傚川? by changhao
 					{
 						targetid = team.getTeamLeaderId();
 					}

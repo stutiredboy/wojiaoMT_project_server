@@ -14,7 +14,7 @@ abstract class __CQueryConsumeDayPay__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閺勵垰鎯侀幍锝嗘）閸�? by changhao
+ * 闁哄嫷鍨伴幆渚�骞嶉敐鍡橈級闁革拷? by changhao
  */
 public class CQueryConsumeDayPay extends __CQueryConsumeDayPay__ {
 	@Override
@@ -34,7 +34,7 @@ public class CQueryConsumeDayPay extends __CQueryConsumeDayPay__ {
 					if (linkrole != null)
 					{
 						int userid = linkrole.getUserid();
-						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //閻愮懓宕遍張宥呭閸�? by changhao
+						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闁绘劗鎳撳畷閬嶅嫉瀹ュ懎顫ら柛锟�? by changhao
 						{
 							fire.pb.fushi.DayPayManager.getInstance().ProcessDayPay(userid, roleid);	
 						}					

@@ -14,7 +14,7 @@ abstract class __CRequestSetFormation__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠佸墽鐤嗛崗澶屽箚
+ * 閻犱礁澧介悿鍡涘礂婢跺苯绠�
  * @author changhao
  *
  */

@@ -37,7 +37,7 @@ public class CChatItemTips extends __CChatItemTips__ {
 			return;
 		if(displayinfo.displaytype == DisplayInfo.DISPLAY_TASK && 
 				displayinfo.shopid == 2){
-			//鏉╂瑩鍣锋径鍕倞瀵邦亞骞嗘禒璇插
+			//閺夆晜鐟╅崳閿嬪緞閸曨厽鍊炵�甸偊浜為獮鍡樼鐠囨彃顫�
 			new mkdb.Procedure(){
 				@Override
 				protected boolean process(){
@@ -55,24 +55,24 @@ public class CChatItemTips extends __CChatItemTips__ {
 			}.submit();
 		} else if(displayinfo.displaytype == DisplayInfo.DISPLAY_TASK && 
 				displayinfo.shopid == 3){
-			//鏉╂瑩鍣锋径鍕倞閺嗘顧佹す顒佸灆閸ヮ澀鎹㈤崝?
+			//閺夆晜鐟╅崳閿嬪緞閸曨厽鍊為柡鍡橆殔椤т焦銇欓浣哥亞闁搞儺婢�閹广垽宕�?
 			new mkdb.Procedure(){
 				@Override
 				protected boolean process(){
-					//婢跺嫮鎮婄粵澶岄獓
-					//濞ｈ濮為幓鏉戝И缁涘楠囬梽鎰煑
+					//濠㈣泛瀚幃濠勭驳婢跺矂鐛�
+					//婵烇綀顕ф慨鐐哄箵閺夋垵袠缂佹稑顦辨鍥⒔閹邦剙鐓�
 					int submiterLv = xtable.Properties.selectLevel(roleId);
 					if(submiterLv<fire.pb.circletask.PSubmitThings.getGiveHelpLevel()){
 						MessageMgr.sendMsgNotify(roleId, 145390, null);
 						return false;
 					}
-					//閸掋倖鏌囬弰顖氭儊閹绘潙濮悧鈺佹惂濞嗏剝鏆熼弰顖氭儊濠�?
+					//闁告帇鍊栭弻鍥及椤栨碍鍎婇柟缁樻綑婵亪鎮ч埡浣规儌婵炲棌鍓濋弳鐔煎及椤栨碍鍎婃繝锟�?
 					if(!HelpCountManage.getInstance().canAddHelpGiveItemNum(roleId)){
-						//閹绘劗銇氬☉鍫熶紖
+						//闁圭粯鍔楅妵姘槈閸喍绱�
 						fire.pb.talk.MessageMgr.sendMsgNotify(roleId, 166088, null);
 						return false;
 					}
-					//閸掋倖鏌囬惄顔界垼鐠囬攱鐪板▎鈩冩殶閺勵垰鎯佸鍙夊姬
+					//闁告帇鍊栭弻鍥儎椤旂晫鍨奸悹鍥敱閻澘鈻庨埄鍐╂闁哄嫷鍨伴幆浣割啅閸欏濮�
 			    	xbean.helpcount taskrolehelpcount = xtable.Helpcount.select(displayinfo.roleid);
 			    	int maxtaskrolehelpcount=HelpCountManage.getInstance().getHelpItemNumMax(displayinfo.roleid);
 			    	if(taskrolehelpcount!=null&&taskrolehelpcount.getHelpitemnum()>=maxtaskrolehelpcount){
@@ -82,7 +82,7 @@ public class CChatItemTips extends __CChatItemTips__ {
 					
 					SChatItemTips tips = new SChatItemTips();
 					tips.displayinfo = displayinfo;
-					//tips:displayinfo閻ㄥ墖eamid閺勵垵鐤嗛弫?
+					//tips:displayinfo闁汇劌澧杄amid闁哄嫷鍨甸悿鍡涘极?
 					boolean ret = RoleAnYeTask.getRoleAnYeTask(roleId, displayinfo.roleid, displayinfo.uniqid, displayinfo.teamid, tips);
 					if(ret) {
 						psendWhileCommit(roleId, tips);

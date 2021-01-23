@@ -12,7 +12,7 @@ abstract class __CBattleFieldRankList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /**
- * 閼惧嘲褰囬幋妯烘簚娑擃厾娈戠粔顖氬瀻閹烘帟顢� by changhao
+ * 闁兼儳鍢茶ぐ鍥箣濡儤绨氬☉鎿冨幘濞堟垹绮旈姘�婚柟鐑樺笩椤拷 by changhao
  */
 public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 	@Override
@@ -28,7 +28,7 @@ public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 			@Override
 			protected boolean process()  throws Exception
 			{
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //濡�?濞村妲搁崥锕�婀幋妯烘簚娑�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //婵★拷?婵炴潙顑嗗Σ鎼佸触閿曪拷濠�顏堝箣濡儤绨氬☉锟�? by changhao
 				if (c1 == null)
 				{
 					return false;
@@ -41,7 +41,7 @@ public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 				}
 				
 				long cur = System.currentTimeMillis();
-				if (cur < statistics.getLastcbattlefieldrankliststamp() + 20000) //閸嬫矮绗呴弮鍫曟？闂勬劕鍩� by changhao
+				if (cur < statistics.getLastcbattlefieldrankliststamp() + 20000) //闁稿鐭粭鍛村籍閸洘锛熼梻鍕姇閸╋拷 by changhao
 				{
 					return false;
 				}
@@ -92,7 +92,7 @@ public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 					int count = 0;
 					for (xbean.BattleFieldScroeRank e : bf.getClanfightBean().getClan1roleranklist())
 					{
-						if (count >= 50) //闂勬劕鍩楀В蹇旑偧閸欘亙绱�50娑�? by changhao
+						if (count >= 50) //闂傚嫭鍔曢崺妤�袙韫囨棏鍋ч柛娆樹簷缁憋拷50濞戯拷? by changhao
 						{
 							break;
 						}
@@ -111,7 +111,7 @@ public class CBattleFieldRankList extends __CBattleFieldRankList__ {
 					count = 0;
 					for (xbean.BattleFieldScroeRank e : bf.getClanfightBean().getClan2roleranklist())
 					{
-						if (count >= 50) //闂勬劕鍩楀В蹇旑偧閸欘亙绱�50娑�? by changhao
+						if (count >= 50) //闂傚嫭鍔曢崺妤�袙韫囨棏鍋ч柛娆樹簷缁憋拷50濞戯拷? by changhao
 						{
 							break;
 						}

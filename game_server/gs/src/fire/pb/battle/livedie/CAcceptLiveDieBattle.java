@@ -39,49 +39,49 @@ abstract class __CAcceptLiveDieBattle__ extends mkio.Protocol { }
 public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 	@Override
 	protected void process() {
-		// npc婢跺嫬绨查幋妯虹磻閹�?
+		// npc濠㈣泛瀚花鏌ュ箣濡櫣纾婚柟锟�?
 		final long guestid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (guestid <= 0)
 			return;
 		
-		//閸掋倖鏌囨稉瀣灛娑旓妇娈戞禍鐑樻Ц閸氾箑鐡ㄩ崷?
+		//闁告帇鍊栭弻鍥ㄧ▔鐎ｎ偄鐏涘☉鏃撳濞堟垶绂嶉悜妯恍﹂柛姘剧畱閻°劑宕�?
 		Long hostid=xtable.Livedie2key.select(guestid);
-		//閸掋倖鏌囬弰顖氭儊閺堝绗呴幋妯瑰姛閻ㄥ嫪姹�
+		//闁告帇鍊栭弻鍥及椤栨碍鍎婇柡鍫濐槷缁楀懘骞嬪Ο鐟板闁汇劌瀚Ч锟�
 		if(hostid==null){
-			//閹绘劗銇氬▽鈩冩箒缂佹瑤缍樻稉瀣灛娑旓妇娈戞禍?162079
+			//闁圭粯鍔楅妵姘柦閳╁啯绠掔紓浣圭懁缂嶆ɑ绋夌�ｎ偄鐏涘☉鏃撳濞堟垶绂�?162079
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162079, null);
 			return ;
 		}
-		//閼惧嘲绶辨稉瀣灛娑旓缚淇婇幁顖ょ礉閸掋倖鏌囬弰顖氭儊鏉╁洦婀�
+		//闁兼儳鍢茬欢杈ㄧ▔鐎ｎ偄鐏涘☉鏃撶細娣囧﹪骞侀銈囩闁告帇鍊栭弻鍥及椤栨碍鍎婇弶鈺佹处濠�锟�
 		xbean.LiveDieRoleInfo hostliveDieRoleInfo=xtable.Livedieroleinfotab.select(hostid);
 		if(hostliveDieRoleInfo==null){
 			return ;
 		}
 		if(System.currentTimeMillis()-hostliveDieRoleInfo.getInvitationtime()>LiveDieMange.getLiveDieTime()){
-			logger.info("閹存ü鍔熷鑼病鏉╁洦婀℃禍?");
+			logger.info("闁瑰瓨眉閸旂喎顔忛懠顒傜梾閺夆晛娲﹀﹢鈩冪?");
 			return ;
 		}
 		
-		//閸掋倖鏌囬悳鈺侇啀閺勵垰鎯侀崷銊у殠
+		//闁告帇鍊栭弻鍥偝閳轰緡鍟�闁哄嫷鍨伴幆渚�宕烽妸褍娈�
 		Role hostRole = RoleManager.getInstance().getRoleByID(hostid);
 		if (hostRole == null){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 145001, null);
 			return ;
 		}
-		//閸掋倖鏌囬懛顏勭箒閺勵垰鎯侀崷銊ュ閺堫剨绱濋崷銊ュ閺堫剚妫ゅ▔鏇炲絺闁浇顕Ч?
+		//闁告帇鍊栭弻鍥嚊椤忓嫮绠掗柡鍕靛灠閹線宕烽妸銉ヮ棇闁哄牜鍓ㄧ槐婵嬪捶閵娿儱顥岄柡鍫墯濡倕鈻旈弴鐐茬岛闂侇偂娴囬顒�效?
 		MapConfig cfg = ConfigManager.getInstance().getConf(MapConfig.class).get(hostRole.getMapId());
 		if(cfg.dynamic ==1){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid,162002, null);
 			return ;
 		}
 		xbean.Properties guestprop=xtable.Properties.select(guestid);
-		//缁旂偞濡ч崷鍝勬勾閸ョ偓妫ゅ▔?
+		//缂佹梻鍋炴俊褔宕烽崫鍕嬀闁搞儳鍋撳Λ銈呪枖?
 		if (PvPHelperManager.isPvPMap(hostRole.getMapId())){
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid,162121, null);
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162130, Arrays.asList(guestprop.getRolename()));
 			return ;
 		}
-		//閸掋倖鏌囨稉瀣灛娑旓妇娈戦悳鈺侇啀閺勵垰鎯侀崷銊﹀灛閺傛鍨ㄩ懓鍛邦潎閹�?
+		//闁告帇鍊栭弻鍥ㄧ▔鐎ｎ偄鐏涘☉鏃撳濞堟垿鎮抽埡渚囧晙闁哄嫷鍨伴幆渚�宕烽妸锕�鐏涢柡鍌涱殕閸ㄣ劑鎳撻崨閭︽綆闁癸拷?
 		BuffAgent hostAgent = new BuffRoleImpl(hostid, true);
 		if (hostAgent.existBuff(BuffConstant.StateType.STATE_REPLAY)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_FIGHTER)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_WATCHER)) {
 			MessageMgr.sendMsgNotify(guestid, 162132, null);
@@ -92,32 +92,32 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 144999, 0, null);
 			return ;
 		}
-		//閸掋倖鏌囩�佃鏌熼弰顖氭儊閸︺劎鍤�
+		//闁告帇鍊栭弻鍥╋拷浣冾潐閺岀喖寮伴姘剨闁革负鍔庨崵锟�
 		if (!StateCommon.isOnlineBuffer(hostid)) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 145001, null);
 			return ;
 		}
 		int isteamfight=0;
 		
-		//閸掋倖鏌囬幋妯绘灍缁鐎烽敍灞炬Ц缂佸嫰妲︽潻妯绘Ц閸楁洑姹�
-		if(hostliveDieRoleInfo.getSelecttype()==1){//缂佸嫰妲�
+		//闁告帇鍊栭弻鍥箣濡粯鐏嶇紒顐ヮ嚙閻庣兘鏁嶇仦鐐︾紓浣稿濡诧附娼诲Ο缁樞﹂柛妤佹磻濮癸拷
+		if(hostliveDieRoleInfo.getSelecttype()==1){//缂備礁瀚板Σ锟�
 			isteamfight=1;
-			//婵″倹鐏夐弰顖滅矋闂冪噦绱濋棁?鐟曚礁鍨介弬顓炵秼閸撳秹妲︽导宥嗘Ц閸氾箓鍏橀弰顖炴Е闂�?
-			//缂佸嫰妲﹂崘铏灍,閸欐垼鎹ｆ禍杞扮瑝閺勵垶妲﹂梹鎸庢,閹恒儱褰堟禍铏瑰仯閸戣绱戦幋?,閹恒儱褰堟禍杞扮窗閹绘劗銇氶崣鎴ｆ崳娴滆桨绗夐弰顖炴Е闂�?,閸欐垼鎹ｆ禍杞扮窗閹绘劗銇氶幒銉ュ綀娴滃搫鍑＄紒蹇斿复閸欐鍠呴弬?,鐠囬攱鍨氭稉娲Е闂�?
+			//濠碘�冲�归悘澶愬及椤栨粎鐭嬮梻鍐櫐缁辨繈妫�?閻熸洑绀侀崹浠嬪棘椤撶偟绉奸柛鎾崇Ч濡诧附瀵煎鍡樞﹂柛姘剧畵閸忔﹢寮伴鐐葱曢梻锟�?
+			//缂備礁瀚板Σ锕傚礃閾忣偅鐏�,闁告瑦鍨奸幑锝嗙鏉炴壆鐟濋柡鍕靛灦濡诧箓姊归幐搴㈩槯,闁规亽鍎辫ぐ鍫熺閾忕懓浠柛鎴ｎ嚙缁辨垿骞�?,闁规亽鍎辫ぐ鍫熺鏉炴壆绐楅柟缁樺姉閵囨岸宕ｉ幋锝嗗闯濞存粏妗ㄧ粭澶愬及椤栫偞袝闂傦拷?,闁告瑦鍨奸幑锝嗙鏉炴壆绐楅柟缁樺姉閵囨岸骞掗妷銉ョ秬濞存粌鎼崙锛勭磼韫囨柨澶嶉柛娆愵殔閸犲懘寮�?,閻犲洭鏀遍崹姘▔濞差亝袝闂傦拷?
 			Team hostteam = TeamManager.selectTeamByRoleId(hostid);
 			if(hostteam==null){
-				//閹绘劗銇氶崣鎴ｆ崳娴滅尨绱濋幋鎰礋闂冪喖鏆�
+				//闁圭粯鍔楅妵姘跺矗閹达絾宕冲ù婊呭皑缁辨繈骞嬮幇顏囩闂傚啰鍠栭弳锟�
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162125, Arrays.asList(guestprop.getRolename()));
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162121, null);
 				return ;
 			}
 			if(hostteam.getTeamLeaderId()!=hostid){
-				//閹绘劗銇氶崣鎴ｆ崳娴滅尨绱濋幋鎰礋闂冪喖鏆�
+				//闁圭粯鍔楅妵姘跺矗閹达絾宕冲ù婊呭皑缁辨繈骞嬮幇顏囩闂傚啰鍠栭弳锟�
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162125, Arrays.asList(guestprop.getRolename()));
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162121, null);
 				return ;
 			}
-			//閸掋倖鏌囬梼鐔剁礊娑擃厾娈戦幋鎰喅閺勵垰鎯佺粭锕�鎮庣憰浣圭湴
+			//闁告帇鍊栭弻鍥⒓閻斿墎绀婂☉鎿冨幘濞堟垿骞嬮幇顒佸枀闁哄嫷鍨伴幆浣虹箔閿曪拷閹海鎲版担鍦勾
 			if(isTeamCanFight(hostteam,hostid)==false){
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162121, null);
 				return ;
@@ -125,23 +125,23 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 			
 			Team guestteam = TeamManager.selectTeamByRoleId(guestid);
 			if(guestteam==null){
-				//娑撳秵妲搁梼鐔兼毐閿涘本妫ゅ▔鏇炵安閹�?
+				//濞戞挸绉靛Σ鎼佹⒓閻斿吋姣愰柨娑樻湰濡倕鈻旈弴鐐靛畨闁癸拷?
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162081, null);
 				return ;
 			}
-			//閸掋倖鏌囬弰顖氭儊閺勵垶妲﹂梹?
+			//闁告帇鍊栭弻鍥及椤栨碍鍎婇柡鍕靛灦濡诧箓姊�?
 			if(guestteam.getTeamLeaderId()!=guestid){
-				//娑撳秵妲搁梼鐔兼毐閿涘本妫ゅ▔鏇炵安閹�?
+				//濞戞挸绉靛Σ鎼佹⒓閻斿吋姣愰柨娑樻湰濡倕鈻旈弴鐐靛畨闁癸拷?
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162081, null);
 				return ;
 			}
-			//閸掋倖鏌囬梼鐔剁礊娑擃厾娈戦幋鎰喅閺勵垰鎯佺粭锕�鎮庣憰浣圭湴
+			//闁告帇鍊栭弻鍥⒓閻斿墎绀婂☉鎿冨幘濞堟垿骞嬮幇顒佸枀闁哄嫷鍨伴幆浣虹箔閿曪拷閹海鎲版担鍦勾
 			if(isTeamCanFight(guestteam,guestid)==false){
 				return ;
 			}
-			//婵″倹鐏夐張澶愭Е娴煎稄绱濋弳鍌滎瀲閻樿埖?浣风瘍娑撳秷鍏樺?閹�?
+			//濠碘�冲�归悘澶愬嫉婢舵劖袝濞寸厧绋勭槐婵嬪汲閸屾粠鐎查柣妯垮煐?娴ｉ鐦嶅☉鎾崇Х閸忔ê顕�?闁癸拷?
 			if(hostteam.getAbsentMemberIds().contains(hostid)){
-				//閹绘劗銇氶崣鎴ｆ崳娴滅尨绱濋幋鎰礋闂冪喖鏆�
+				//闁圭粯鍔楅妵姘跺矗閹达絾宕冲ù婊呭皑缁辨繈骞嬮幇顏囩闂傚啰鍠栭弳锟�
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162080, null);
 				return ;
 			}
@@ -156,11 +156,11 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 				fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162112, null);
 				return ;
 			}
-			//閸楁洑姹夐幋妯瑰姛韫囧懘銆忛柈鑺ユЦ閸楁洑姹夐幍宥堝厴閸欏倸濮�
+			//闁告娲戝Ч澶愬箣濡懓濮涢煫鍥ф嚇閵嗗繘鏌堥懞銉π﹂柛妤佹磻濮瑰骞嶅鍫濆幋闁告瑥鍊告慨锟�
 			Team hostteam = TeamManager.selectTeamByRoleId(hostid);
 			if(hostteam!=null&&hostteam.getFighterMemberIds().contains(hostid)){
-				//閻╁瓨甯撮幎濠勬窗閺嶅洨甯虹�硅埖娈忕粋璁崇啊
-				//婵″倹鐏夐張澶愭Е娴煎秴姘ㄩ弳鍌滎瀲闂冪喍绱�
+				//闁烩晛鐡ㄧ敮鎾箮婵犲嫭绐楅柡宥呮川鐢櫣锟界鍩栧▓蹇曠矉鐠佸磭鍟�
+				//濠碘�冲�归悘澶愬嫉婢舵劖袝濞寸厧绉村銊╁汲閸屾粠鐎查梻鍐枍缁憋拷
 				new PAbsentReturnTeam(hostid, 1).submit();
 			}
 		}
@@ -170,13 +170,13 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 	}
 	
 	/**
-	 * 閸掋倖鏌囬梼鐔剁礊娑擃厾娈戦幋鎰喅閺勵垰鎯佺粭锕�鎮庣憰浣圭湴
+	 * 闁告帇鍊栭弻鍥⒓閻斿墎绀婂☉鎿冨幘濞堟垿骞嬮幇顒佸枀闁哄嫷鍨伴幆浣虹箔閿曪拷閹海鎲版担鍦勾
 	 * @param guestteam
-	 * @param guestid  闂�?鐟曚焦褰佺粈鐑樼Х閹垳娈戦惄顔界垼id
+	 * @param guestid  闂傦拷?閻熸洑鐒﹁ぐ浣虹矆閻戞啸闁诡収鍨冲▓鎴︽儎椤旂晫鍨糹d
 	 * @return
 	 */
 	public boolean isTeamCanFight(Team guestteam,long guestid){
-		//閸掋倖鏌囪ぐ鎾冲闂冪喍绱炴稉顓犳畱閻溾晛顔嶇粵澶岄獓閺勵垰鎯佺粭锕�鎮庣憰浣圭湴閿涘本妲搁崥锔芥箒娑撳绻冮幋妯瑰姛閹存牞?鍛邦潶婢惰精瑙�
+		//闁告帇鍊栭弻鍥亹閹惧啿顤呴梻鍐枍缁辩偞绋夐鐘崇暠闁绘壕鏅涢宥囩驳婢跺矂鐛撻柡鍕靛灠閹胶绮敃锟介幃搴ｆ啺娴ｅ湱婀撮柨娑樻湰濡叉悂宕ラ敂鑺ョ畳濞戞挸顑堢换鍐箣濡懓濮涢柟瀛樼墳?閸涢偊娼跺鎯扮簿鐟欙拷
 		List<Long> guestlevelLess50 = new ArrayList<Long>();
 		List<Long> guestfightLess50 = new ArrayList<Long>();
 		
@@ -184,26 +184,26 @@ public class CAcceptLiveDieBattle extends __CAcceptLiveDieBattle__ {
 		for (long mem : guestmembers) {
 			PropRole guestrole = new PropRole(mem, true);
 			if (guestrole.getLevel() < LiveDieMange.getLiveDieLevel()) {
-				//閹绘劗銇氶梼鐔剁礊娑擃厽婀佺粵澶岄獓娑撳秶顑侀崥鍫ｎ洣濮瑰倻娈�
+				//闁圭粯鍔楅妵姘舵⒓閻斿墎绀婂☉鎿冨幗濠�浣虹驳婢跺矂鐛撳☉鎾崇Ф椤戜線宕ラ崼锝庢矗婵懓鍊诲▓锟�
 				guestlevelLess50.add(mem);
 			}
-			//闊偂绗傞張澶屾晸濮濈粯鍨粔鏉垮娇
+			//闂婎剦鍋傜粭鍌炲嫉婢跺本鏅告慨婵堢帛閸剛绮旈弶鍨▏
 			if(COffTitle.isLiveDieTitle(guestrole)){
-				//閹绘劗銇氶梼鐔剁礊娑擃厽婀侀煬顐＄瑐閺堝鏁撳缁樺灛缁夋澘褰�
+				//闁圭粯鍔楅妵姘舵⒓閻斿墎绀婂☉鎿冨幗濠�渚�鐓锛勭憪闁哄牆顦遍弫鎾愁潰缂佹ê鐏涚紒澶嬫緲瑜帮拷
 				guestfightLess50.add(mem);
 			}
 		}
 		if (!guestlevelLess50.isEmpty()) {
 			String roleNames = MessageUtil.getRoleNames(guestlevelLess50);
 			List<String> paras = MessageUtil.getMsgParaList(roleNames);
-			//閹绘劗銇氶梼鐔剁礊娑擃厽婀佺粵澶岄獓娑撳秶顑侀崥鍫ｎ洣濮瑰倻娈�
+			//闁圭粯鍔楅妵姘舵⒓閻斿墎绀婂☉鎿冨幗濠�浣虹驳婢跺矂鐛撳☉鎾崇Ф椤戜線宕ラ崼锝庢矗婵懓鍊诲▓锟�
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162119,paras);
 			return false;
 		}
 		if (!guestfightLess50.isEmpty()) {
 			String roleNames = MessageUtil.getRoleNames(guestfightLess50);
 			List<String> paras = MessageUtil.getMsgParaList(roleNames);
-			//閹绘劗銇氶梼鐔剁礊娑擃厽婀侀煬顐＄瑐閺堝鏁撳缁樺灛缁夋澘褰�
+			//闁圭粯鍔楅妵姘舵⒓閻斿墎绀婂☉鎿冨幗濠�渚�鐓锛勭憪闁哄牆顦遍弫鎾愁潰缂佹ê鐏涚紒澶嬫緲瑜帮拷
 			fire.pb.talk.MessageMgr.sendMsgNotify(guestid, 162118,paras);
 			return false;
 		}

@@ -17,7 +17,7 @@ abstract class __CSendInvitePlayPK__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CSendInvitePlayPK extends __CSendInvitePlayPK__ {
-	public static final int PVP_LEVEL=20;//PVP缁涘楠囬棁?濮�?
+	public static final int PVP_LEVEL=20;//PVP缂佹稑顦辨鍥?婵拷?
 	@Override
 	protected void process() {
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
@@ -27,7 +27,7 @@ public class CSendInvitePlayPK extends __CSendInvitePlayPK__ {
 		Role hostRole = RoleManager.getInstance().getRoleByID(hostid);
 		if (hostRole == null)
 			return ;
-		//閸掋倖鏌囬惄顔界垼閺勵垰鎯侀崷銊︽惃閸�?
+		//闁告帇鍊栭弻鍥儎椤旂晫鍨奸柡鍕靛灠閹線宕烽妸锔芥儍闁革拷?
 		Role gRole = RoleManager.getInstance().getRoleByID(guestroleid);
 		if (gRole == null){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);

@@ -39,21 +39,21 @@ abstract class __GCheckCanPlayPKView__ extends mkio.Protocol { }
 public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	
 	public static final Logger logger = Logger.getLogger("BATTLE");
-	public static final int CQMAPID=1615;//閸掑洨顥愰崷鏉挎禈id
+	public static final int CQMAPID=1615;//闁告帒娲ㄩˉ鎰板捶閺夋寧绂坕d
 	public static Map<Integer,SLeitaiLevel> sLeitaiLevelmap=ConfigManager.getInstance().getConf(SLeitaiLevel.class);
 	
 	public static final int MAX_NUM=50;
 	
 	@Override
 	protected void process() {
-		//閸掋倖鏌囩�广垺鍩涚粩顖氬絺闁胶娈戦梻銊︽烦閸滃瞼鐡戠痪褌浜掗崣濠兡侀崸妤佹殶閹诡喗妲搁崥锔筋劀绾�?
+		//闁告帇鍊栭弻鍥╋拷骞垮灪閸╂稓绮╅姘岛闂侇偂鑳跺▓鎴︽⒒閵婏附鐑﹂柛婊冪灱閻℃垹鐥娴滄帡宕ｆ繝鍏′線宕稿Δ浣规闁硅鍠楀Σ鎼佸触閿旂瓔鍔�缁撅拷?
 		if(modeltype!=QCmodelType.ONE_FIGHT&&modeltype!=QCmodelType.TEAM_FIGHT&&modeltype!=QCmodelType.WATCH_FIGHT){
-			logger.error("閸掑洨顥愬Ο鈥虫健閺佺増宓侀柨娆掝嚖閿涘本膩閸ф鏁婄拠?");
+			logger.error("闁告帒娲ㄩˉ鎰熼垾铏仴闁轰胶澧楀畵渚�鏌ㄥ▎鎺濆殩闁挎稑鏈啯闁秆勵殜閺佸﹦鎷�?");
 			return ;
 		}
 		
 		if(sLeitaiLevelmap==null){
-			logger.error("閸掑洨顥愬Ο鈥虫健閺佺増宓侀柨娆掝嚖閿涘本鎼ㄩ崣鎵搼缁狙囧帳缂冾喛銆�");
+			logger.error("闁告帒娲ㄩˉ鎰熼垾铏仴闁轰胶澧楀畵渚�鏌ㄥ▎鎺濆殩闁挎稑鏈幖銊╁矗閹殿喚鎼肩紒鐙欏洤甯崇紓鍐惧枦閵嗭拷");
 			return ;
 		}
 		int levelmin=0;
@@ -63,8 +63,8 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 			levelmin=sLeitaiLevel.getLevelmin();
 			levelmax=sLeitaiLevel.getLevelmax();
 		}
-		//閼惧嘲绶辫ぐ鎾冲閸︾儤娅欓弰顖涘閺堝甯虹�硅绱濋獮鏈电瑬閺勵垰婀幙鍌氬酱娑撳﹦娈�
-		LinkedList<Long> rolelistid=new LinkedList<Long>();//缁楋箑鎮庨弶鈥叉閻ㄥ嫭澧嶉張澶屽负鐎�?
+		//闁兼儳鍢茬欢杈亹閹惧啿顤呴柛锔惧劋濞呮瑩寮伴娑橆暡闁哄牆顦辩敮铏癸拷纭咁啇缁辨繈鐛張鐢电懍闁哄嫷鍨板﹢顏堝箼閸屾艾閰卞☉鎾筹功濞堬拷
+		LinkedList<Long> rolelistid=new LinkedList<Long>();//缂佹绠戦幃搴ㄥ级閳ュ弶顐介柣銊ュ婢у秹寮垫径灞借礋閻庯拷?
 		HashMap<Long, Long> watchfight=new HashMap<Long, Long>();
 		Scene scene = SceneManager.getInstance().getSceneByID(CQMAPID);
 		Set<Integer> aroundIndexs = new java.util.HashSet<Integer>();
@@ -74,15 +74,15 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 		int num=0;
 		for(Role role : roles.values()){
 			GridPos hostGridPos = role.getPos().toGridPos();
-			//閺勵垰鎯侀崷銊︽惃閸�?
+			//闁哄嫷鍨伴幆渚�宕烽妸锔芥儍闁革拷?
 			if (!role.getScene().getMapInfo().getBlockInfo().checkCanQiecuo(hostGridPos.getX(), hostGridPos.getY())) {
 				continue;
 			}
-			//缁涘楠囬弰顖氭儊缁楋箑鎮庣憰浣圭湴
+			//缂佹稑顦辨鍥及椤栨碍鍎婄紒妤嬬畱閹海鎲版担鍦勾
 			if(role.getLevel()<fire.pb.battle.CSendInvitePlayPK.PVP_LEVEL){
 				continue;
 			}
-			//閸掋倖鏌囬崚鐘�?澶岀搼缁�?
+			//闁告帇鍊栭弻鍥礆閻橈拷?婢跺瞼鎼肩紒锟�?
 			if(role.getLevel()<levelmin||role.getLevel()>levelmax){
 				continue;
 			}
@@ -91,26 +91,26 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 					continue;
 				}
 			}
-			//鏉╁洦鎶ら懛顏勭箒
+			//閺夆晛娲﹂幎銈夋嚊椤忓嫮绠�
 			if(role.getRoleID()==hostid){
 				continue;
 			}
-			//閸掋倖鏌囬悳鈺侇啀閺勵垰鎯佺紒鍕Е閿涘矁绻冨銈夋Е閸�?
+			//闁告帇鍊栭弻鍥偝閳轰緡鍟�闁哄嫷鍨伴幆浣虹磼閸曨垱袝闁挎稑鐭佺换鍐煥閵堝袝闁革拷?
 			Team host_Team = TeamManager.selectTeamByRoleId(role.getRoleID());
 			if (host_Team != null && host_Team.isNormalMember(role.getRoleID())){
 				continue;
 			}
-			//閸掋倖鏌囩�电懓绨插Ο鈥虫健
+			//闁告帇鍊栭弻鍥╋拷鐢垫嚀缁ㄦ彃螣閳ヨ櫕鍋�
 			if(modeltype==QCmodelType.TEAM_FIGHT){
-				//缂佸嫰妲﹂敍灞界箑妞ょ粯妲搁張澶愭Е娴煎秶娈�
+				//缂備礁瀚板Σ锕傛晬鐏炵晫绠戝銈囩帛濡叉悂寮垫径鎰曞ù鐓庣Ф濞堬拷
 				if(host_Team == null){
 					continue;
 				}
-				//鏉╁洦鎶ら幒澶愭姜闂冪喖鏆遍幋鎰喅
+				//閺夆晛娲﹂幎銈夊箳婢舵劖濮滈梻鍐枛閺嗛亶骞嬮幇顒佸枀
 				if(host_Team.getTeamLeaderId()!=role.getRoleID()){
 					continue;
 				}
-				//鏉╂瑩鍣烽棁?鐟曚礁鍨介弬顓炵秼閸撳秶娈戦梼鐔剁礊閺勵垰鎯侀弰顖濆殰瀹歌鲸澧嶉崷銊ф畱闂冪喍绱�
+				//閺夆晜鐟╅崳鐑芥?閻熸洑绀侀崹浠嬪棘椤撶偟绉奸柛鎾崇Ф濞堟垿姊奸悢鍓佺闁哄嫷鍨伴幆渚�寮伴婵嗘鐎规瓕椴告晶宥夊捶閵娧勭暠闂傚啰鍠嶇槐锟�
 				Team selfTeam = TeamManager.selectTeamByRoleId(hostid);
 				if(selfTeam!=null){
 					if(host_Team.getTeamId()==selfTeam.getTeamId()){
@@ -126,7 +126,7 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 				watchFightView(role,watchfight);
 				num=watchfight.size();
 			}else if(modeltype==QCmodelType.ONE_FIGHT){
-				//閸楁洑姹夐敍宀冪箖濠娿倗绮嶉梼鐔锋嫲閸︺劍鍨弬妤冩畱閻溾晛顔�
+				//闁告娲戝Ч澶愭晬瀹�鍐畺婵犲鍊楃划宥夋⒓閻旈攱瀚查柛锔哄妽閸剟寮Δ鍐╃暠闁绘壕鏅涢锟�
 				if(host_Team != null){
 					continue;
 				}
@@ -144,19 +144,19 @@ public class GCheckCanPlayPKView extends __GCheckCanPlayPKView__ {
 	}
 	
 	/**
-	 * 濞ｈ濮炵憴鍌涘灛閻ㄥ嫮甯虹��?
+	 * 婵烇綀顕ф慨鐐垫喆閸屾稑鐏涢柣銊ュ鐢櫣锟斤拷?
 	 * @param role
 	 * @param watchfight
 	 */
 	private  void watchFightView(Role role,HashMap<Long, Long> watchfight){
-		//鏉╁洦鎶ゅ▽鈩冩箒閸︺劍鍨弬妤冩畱閻溾晛顔�
-		//娑撳秴婀幋妯绘灍娑�?
+		//閺夆晛娲﹂幎銈呪柦閳╁啯绠掗柛锔哄妽閸剟寮Δ鍐╃暠闁绘壕鏅涢锟�
+		//濞戞挸绉村﹢顏堝箣濡粯鐏嶅☉锟�?
 		if(!fire.pb.buff.Module.existState(role.getRoleID(), fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER)){			
 			return;
 		}
-		//鏉╁洦鎶ら幒澶夌瑝閺勵垯瀵岄弬鍦畱
+		//閺夆晛娲﹂幎銈夊箳婢跺鐟濋柡鍕靛灟鐎靛矂寮崷顓熺暠
 		Long battleid = xtable.Roleid2battleid.select(role.getRoleID());
-		if (battleid==null){//閻溾晛顔嶉崣顖濆厴閺勵垳鍋ｉ崙鏄忣潎閹存?鍛扮箻閸忋儴顫囬幋妯兼畱
+		if (battleid==null){//闁绘壕鏅涢宥夊矗椤栨繂鍘撮柡鍕靛灣閸嬶綁宕欓弰蹇ｆ綆闁瑰瓨顭�?閸涙壆绠婚柛蹇嬪劥椤洭骞嬪Ο鍏肩暠
 			battleid = xtable.Watcherid2battleid.select(role.getRoleID());
 		}
 		if(battleid == null){

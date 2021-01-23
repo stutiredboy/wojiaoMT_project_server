@@ -12,7 +12,7 @@ abstract class __CGrabMonthCardRewardAll__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 妫板棗褰囬張鍫濆幢婵傛牕濮� by changhao
+ * 濡澘妫楄ぐ鍥嫉閸繂骞㈠┑鍌涚墪婵拷 by changhao
  *
  */
 public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
@@ -35,12 +35,12 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 				if (monthcard != null)
 				{
 					boolean grab = fire.pb.fushi.MonthCardManager.getInstance().IsGrabReward(roleid, monthcard.getGrabtime());
-					if (grab == true) //瀹歌尙绮℃０鍡楀絿鏉╁洤顨涢崝鍙樼啊 by changhao
+					if (grab == true) //鐎规瓕灏欑划鈩冿紣閸℃绲块弶鈺佹搐椤ㄦ盯宕濋崣妯煎晩 by changhao
 					{
 						return false;
 					}
 					
-					//閸欘垯浜掓０鍡楀絿婵傛牕濮� by changhao
+					//闁告瑯鍨禍鎺擄紣閸℃绲垮┑鍌涚墪婵拷 by changhao
 					{
 						xbean.Properties prop = xtable.Properties.select(roleid);
 						if (prop == null)
@@ -50,7 +50,7 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 						
 						fire.pb.item.Pack bag = (fire.pb.item.Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
 
-						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //閻愮懓宕遍張宥呭閸�? by changhao
+						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闁绘劗鎳撳畷閬嶅嫉瀹ュ懎顫ら柛锟�? by changhao
 						{
 							java.util.Map<Integer, fire.pb.fushi.SMonthCardConfigDayPay> config = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.fushi.SMonthCardConfigDayPay.class);
 							for (fire.pb.fushi.SMonthCardConfigDayPay e : config.values())
@@ -59,7 +59,7 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 								{
 									java.util.Map<String, Object> paras = new java.util.HashMap<String, Object>(10);
 									paras.put(fire.pb.activity.award.RewardMgr.ROLE_LEVEL, prop.getLevel());
-									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "閺堝牆宕辨總鏍уС");										
+									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "闁哄牆鐗嗗畷杈ㄧ附閺嵮冃�");										
 								}
 								else if (e.getType() == 0)
 								{
@@ -67,14 +67,14 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 									{
 										fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 										
-										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "闁哄牆鐗嗗畷杈ㄧ附閺嵮冃�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}
 									}
 									else
 									{
-										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "闁哄牆鐗嗗畷杈ㄧ附閺嵮冃�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}
@@ -91,7 +91,7 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 								{
 									java.util.Map<String, Object> paras = new java.util.HashMap<String, Object>(10);
 									paras.put(fire.pb.activity.award.RewardMgr.ROLE_LEVEL, prop.getLevel());
-									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "閺堝牆宕辨總鏍уС");										
+									fire.pb.activity.award.RewardMgr.getInstance().distributeAllAward(roleid, e.getRewardid(), paras, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 0,fire.pb.PAddExpProc.OTHER, "闁哄牆鐗嗗畷杈ㄧ附閺嵮冃�");										
 								}
 								else if (e.getType() == 0)
 								{
@@ -99,14 +99,14 @@ public class CGrabMonthCardRewardAll extends __CGrabMonthCardRewardAll__ {
 									{
 										fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 										
-										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (tempBag.doAddItem(e.getItemid(), e.getItemnum(), "闁哄牆鐗嗗畷杈ㄧ附閺嵮冃�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}
 									}
 									else
 									{
-										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "閺堝牆宕辨總鏍уС", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
+										if (bag.doAddItem(e.getItemid(), e.getItemnum(), "闁哄牆鐗嗗畷杈ㄧ附閺嵮冃�", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != e.getItemnum())
 										{
 											return false;
 										}

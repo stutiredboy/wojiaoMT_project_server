@@ -48,29 +48,29 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//闁�?鐠囧嘲鍨忕壕?
+		//闂侊拷?閻犲洤鍢查崹蹇曞?
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (hostid<0){
 			return;
 		}
-		//閼奉亜绻佹稉宥堝厴闁�?鐠囩柉鍤滃?
+		//闁煎浜滅换浣圭▔瀹ュ牆鍘撮梺锟�?閻犲洨鏌夐崵婊冾啅?
 		if(hostid==objectid){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 166006, 0, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return;
 		}
-		//閸掋倖鏌囨俊鍌涚亯閺堝妲︽导宥忕礉娑撳秵妲搁梼鐔兼毐閺冪姵纭堕柇?鐠�?
+		//闁告帇鍊栭弻鍥ㄤ繆閸屾稓浜柡鍫濐樀濡诧附瀵煎蹇曠濞戞挸绉靛Σ鎼佹⒓閻斿吋姣愰柡鍐У绾爼鏌�?閻狅拷?
 		Team hostTeam = TeamManager.selectTeamByRoleId(hostid);
 		if (hostTeam != null && hostTeam.isNormalMember(hostid)){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 120061, 0, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return;
 		}
 		
-		//閸掋倖鏌囬惄顔界垼閺勵垰鎯侀張澶愭Е娴煎稄绱濋棁?鐟曚浇?鍐閻╊喗鐖ｉ崷銊╂Е娴煎秳鑵戦惃鍕Ц閹�?
+		//闁告帇鍊栭弻鍥儎椤旂晫鍨奸柡鍕靛灠閹線寮垫径鎰曞ù鐓庣▌缁辨繈妫�?閻熸洑娴�?閸愵厽顎氶柣鈺婂枟閻栵綁宕烽妸鈺傂曞ù鐓庣С閼垫垿鎯冮崟顓炐﹂柟锟�?
 		Team guestteam = TeamManager.selectTeamByRoleId(objectid);
 		if(guestteam!=null){
-			//閸掋倖鏌囬弰顖氭儊閸︺劑妲︽导宥勮厬閿涘苯顩ч弸婊冩躬闂冪喍绱炴稉顓㈡付鐟曚焦娴涢幑銏ゆЕ闂�璺ㄦ畱id
+			//闁告帇鍊栭弻鍥及椤栨碍鍎婇柛锔哄姂濡诧附瀵煎鍕幀闁挎稑鑻々褔寮稿鍐╄含闂傚啰鍠嶇槐鐐寸▔椤撱垺浠橀悷鏇氱劍濞存盯骞戦姀銈喰曢梻锟界捄銊︾暠id
 			if(guestteam.isNormalMember(objectid)){
 				objectid = guestteam.getTeamLeaderId();
 			}
@@ -82,7 +82,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 		Role gRole = RoleManager.getInstance().getRoleByID(objectid);
 		if (gRole == null){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return ;
 		}
 		if(hostTeam != null && guestteam == null )
@@ -90,99 +90,99 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,194038, null);
 			return;
 		}
-		//閸掋倖鏌囬懛顏勭箒閺勵垰鎯侀崷銊ュ閺堫剨绱濋崷銊ュ閺堫剚妫ゅ▔鏇炲絺闁浇顕Ч?
+		//闁告帇鍊栭弻鍥嚊椤忓嫮绠掗柡鍕靛灠閹線宕烽妸銉ヮ棇闁哄牜鍓ㄧ槐婵嬪捶閵娿儱顥岄柡鍫墯濡倕鈻旈弴鐐茬岛闂侇偂娴囬顒�效?
 		MapConfig cfg = ConfigManager.getInstance().getConf(MapConfig.class).get(hostRole.getMapId());
 		if(cfg.dynamic ==1){
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return ;
 		}
-		//缁旂偞濡ч崷鍝勬勾閸ョ偓妫ゅ▔鏇炲瀼绾�?
+		//缂佹梻鍋炴俊褔宕烽崫鍕嬀闁搞儳鍋撳Λ銈呪枖閺囩偛鐎肩痪锟�?
 		if (PvPHelperManager.isPvPMap(hostRole.getMapId())) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return ;
 		}
 
-		// 閸掋倖鏌囬弰顖氭儊閸︺劌鐣ㄩ崗銊ユ勾閸ュ彞鑵�
+		// 闁告帇鍊栭弻鍥及椤栨碍鍎婇柛锔哄妼閻ｃ劑宕楅妸銉﹀嬀闁搞儱褰為懙锟�
 		if(hostRole.getMapId() == PKDropConfig_CFGS.get(1).safeMapid)
 		{
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162002, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 		}
 		
-		//閸掋倖鏌囬懛顏勭箒閺勵垰鎯侀崷銊﹀灛閺傛鍨ㄩ懓鍛邦潎閹�?
+		//闁告帇鍊栭弻鍥嚊椤忓嫮绠掗柡鍕靛灠閹線宕烽妸锕�鐏涢柡鍌涱殕閸ㄣ劑鎳撻崨閭︽綆闁癸拷?
 		BuffAgent hostAgent = new BuffRoleImpl(hostid, true);
 		if (hostAgent.existBuff(BuffConstant.StateType.STATE_REPLAY)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_FIGHTER)||hostAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_WATCHER)) {
 			MessageMgr.sendMsgNotify(hostid, 160494, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return;
 		}
 		xbean.Properties hostprop=xtable.Properties.select(hostid);
 		if(hostprop.getCruise() > 0 ) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162102, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return ;
 		}
 		
 		if (hostAgent.existBuff(500343)) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 144999, 0, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return;
 		}
 		
-		//閸掋倖鏌囩�佃鏌熼弰顖氭儊閸︺劎鍤�
+		//闁告帇鍊栭弻鍥╋拷浣冾潐閺岀喖寮伴姘剨闁革负鍔庨崵锟�
 		if (!StateCommon.isOnlineBuffer(objectid)) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return;
 		}
 		xbean.Properties guestprop=xtable.Properties.select(objectid);
 		if(guestprop.getCruise() > 0) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162103, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return ;
 		}
 		
-		// 閸掋倖鏌囨稉銈�?鍛闂傚娈戠捄婵堫瀲
+		// 闁告帇鍊栭弻鍥ㄧ▔閵堬拷?閸涱剛顓洪梻鍌氼嚟濞堟垹鎹勫┑鍫��
 		if (!fire.pb.battle.PSendInvitePlayPK.checkRoleDistance(hostid, objectid)){
             fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 120063, 0, null);
-            sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+            sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
             return ;
 		}
 		
-		//閸掋倖鏌囬弰顖氭儊閺勵垯绔存稉顏堟Е娴煎秶娈戦幋鎰喅
+		//闁告帇鍊栭弻鍥及椤栨碍鍎婇柡鍕靛灟缁斿瓨绋夐鍫熜曞ù鐓庣Ф濞堟垿骞嬮幇顒佸枀
 		if (guestteam != null){
 			if(guestteam.getTeamLeaderId()==hostid){
-				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//閹绘劗銇氭稉宥堝厴闁�?鐠囧嘲鎮撶紒鍕Е閸�?
-				sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//闁圭粯鍔楅妵姘▔瀹ュ牆鍘撮梺锟�?閻犲洤鍢查幃鎾剁磼閸曨垱袝闁革拷?
+				sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 				return;
 			}
 			if(hostTeam!=null){
 				if(guestteam.getTeamId()==hostTeam.getTeamId()){
-					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//閹绘劗銇氭稉宥堝厴闁�?鐠囧嘲鎮撶紒鍕Е閸�?
-					sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160460, null);//闁圭粯鍔楅妵姘▔瀹ュ牆鍘撮梺锟�?閻犲洤鍢查幃鎾剁磼閸曨垱袝闁革拷?
+					sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 					return;
 				}
 			}
 		}
-		//閸掋倖鏌囩粵澶岄獓
+		//闁告帇鍊栭弻鍥╃驳婢跺矂鐛�
 		if(hostTeam!=null){
 			List<Long> hostteamMembers = hostTeam.getNormalMemberIds();
 			for (Long mem : hostteamMembers) {
 				PropRole role = new PropRole(mem, true);
 				if (role.getLevel() < CSendInvitePlayPK.PVP_LEVEL) {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162001 ,Arrays.asList(CSendInvitePlayPK.PVP_LEVEL+""));
-					sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+					sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 					return ;
 				}
 			}
 		}else{
-			//閼奉亜绻佺粵澶岄獓娑撳秷鍐婚敍灞炬￥濞夋洟鍊嬬拠?
+			//闁煎浜滅换浣虹驳婢跺矂鐛撳☉鎾崇Х閸愬鏁嶇仦鐐骏婵炲娲熼崐瀣嫚?
 			PropRole propRole = new PropRole(hostid, true);
 			if(propRole.getLevel()< CSendInvitePlayPK.PVP_LEVEL){
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 162000 ,null);
-				sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+				sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 				return ;
 			}
 		}
@@ -192,20 +192,20 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 				PropRole role = new PropRole(mem, true);
 				if (role.getLevel() < CSendInvitePlayPK.PVP_LEVEL) {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160322 ,Arrays.asList(CSendInvitePlayPK.PVP_LEVEL+""));
-					sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+					sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 					return ;
 				}
 			}
 		}else{
-			//閻╊喗鐖ｇ粵澶岄獓娑撳秷鍐婚敍灞炬￥濞夋洟鍊嬬拠?
+			//闁烩晩鍠楅悥锝囩驳婢跺矂鐛撳☉鎾崇Х閸愬鏁嶇仦鐐骏婵炲娲熼崐瀣嫚?
 			PropRole propRole = new PropRole(objectid, true);
 			if(propRole.getLevel()< CSendInvitePlayPK.PVP_LEVEL){
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 160491 ,null);
-				sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+				sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 				return ;
 			}
 		}
-		// 婵″倹鐏夊绡滈惃鍕眽閺堝銇囨禍搴ゎ潶瀵瘻閻ㄥ嫪姹�20缁狙呮畱閸掓瑤绗夋禍鍫濆繁P
+		// 濠碘�冲�归悘澶婎嚕缁℃粓鎯冮崟顏呯溄闁哄牆顦妵鍥ㄧ鎼淬値娼剁�殿喚鐦婚柣銊ュ濮癸拷20缂佺嫏鍛暠闁告帗鐟ょ粭澶嬬閸繂绻丳
 		if(hostRole != null && gRole != null )
 		{
 			int levelLimit = PKDropConfig_CFGS.get(1).levelLimit;
@@ -213,59 +213,59 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 			PropRole guestrole = new PropRole(objectid, true);
 			if ( Math.abs(role.getLevel() - guestrole.getLevel()) >= levelLimit) {
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 194037 ,null);
-				sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+				sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 				return ;
 			}
 		}
 		
 		
-		//閸掋倖鏌囬惄顔界垼閺勵垰鎯侀崷銊︻劀鐢婀撮崶?
+		//闁告帇鍊栭弻鍥儎椤旂晫鍨奸柡鍕靛灠閹線宕烽妸锔诲妧閻㈩垳顭堝﹢鎾炊?
 		MapConfig cfg2 = ConfigManager.getInstance().getConf(MapConfig.class).get(gRole.getMapId());
 		if(cfg2.dynamic ==1){
-			//閹绘劗銇氶惄顔界垼閻溾晛顔嶆稉宥呮躬濮濓絽鐖堕崷鏉挎禈
+			//闁圭粯鍔楅妵姘舵儎椤旂晫鍨奸柣婧炬櫅椤斿秵绋夊鍛含婵繐绲介悥鍫曞捶閺夋寧绂�
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid,140436, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return ;
 		}
-		//閸掋倖鏌囬弰顖氭儊閸︺劍鍨弬妤佸灗閼板懓顫囬幋?     鐎佃鏌熼崷銊﹀灛閺傛鎷扮憴鍌涘灛娑撳秷鍏橀崣鎴�?渚�鍊嬬拠?
+		//闁告帇鍊栭弻鍥及椤栨碍鍎婇柛锔哄妽閸剟寮Δ浣哥仐闁兼澘鎳撻～鍥箣?     閻庝絻顫夐弻鐔煎捶閵婏箑鐏涢柡鍌涱殔閹锋壆鎲撮崒娑樼仜濞戞挸绉烽崗姗�宕ｉ幋锟�?娓氾拷閸婂鎷�?
 		BuffAgent guestAgent = new BuffRoleImpl(objectid, true);
 		if (guestAgent.existBuff(BuffConstant.StateType.STATE_REPLAY)||guestAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_FIGHTER)||guestAgent.existBuff(BuffConstant.StateType.STATE_BATTLE_WATCHER)) {
 			MessageMgr.sendMsgNotify(hostid, 144987, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return;
 		}
 		if (guestAgent.existBuff(500343)) {
 			fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 144999, 0, null);
-			sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+			sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 			return;
 		}
-		//閸掋倖鏌囬弰顖氭儊闁棄婀幙鍌氬酱閿涘苯顩ч弸婊冩躬閹垮倸褰撮惄瀛樺复閸掑洨顥愰敍灞筋洤閺嬫粈绗夐弰顖氭躬閹垮倸褰撮棁?鐟曚礁鍨介弬顓＄獩缁備紮绱濋獮鏈电瑬閺勵垰鎯侀崷銊ユ倱鐏�?
+		//闁告帇鍊栭弻鍥及椤栨碍鍎婇梺顔挎濠�顏堝箼閸屾艾閰遍柨娑樿嫰椤┭囧几濠婂啯韬柟鍨�歌ぐ鎾儎鐎涙ê澶嶉柛鎺戞川椤ユ劙鏁嶇仦绛嬫搐闁哄绮堢粭澶愬及椤栨碍韬柟鍨�歌ぐ鎾?閻熸洑绀侀崹浠嬪棘椤擄紕鐛╃紒鍌欑串缁辨繈鐛張鐢电懍闁哄嫷鍨伴幆渚�宕烽妸銉﹀�遍悘锟�?
 		GridPos hpos = hostRole.getPos().toGridPos();
 		AreaInfo hareaInfo = MapUtil.getAreaInfo(hostRole.getMapId(), hpos.getX(), hpos.getY());
 		GridPos gpos = gRole.getPos().toGridPos();
 		AreaInfo gareaInfo = MapUtil.getAreaInfo(hostRole.getMapId(), gpos.getX(), gpos.getY());
 		if(hareaInfo!=null&&hareaInfo.isQiecuoArea()&&gareaInfo!=null&&gareaInfo.isQiecuoArea()){
-			//闁姤妲搁崷銊︽惃閸欏府绱濋惄瀛樺复鐠ф澘鍨忕壕瀣�?鏄忕帆
+			//闂侇喛濮ゅΣ鎼佸捶閵婏附鎯冮柛娆忓簻缁辨繈鎯勭�涙ê澶嶉悹褎婢橀崹蹇曞鐎ｏ拷?閺勫繒甯�
 			new PSendInvitePlayPK(hostid,objectid).submit();
 		}
 		else{
-			//閸掋倖鏌囩�佃鏌熼弰顖氭儊閸忔娊妫撮崚鍥╊棎
+			//闁告帇鍊栭弻鍥╋拷浣冾潐閺岀喖寮伴姘剨闁稿繑濞婂Λ鎾礆閸モ晩妫�
 			Integer refQcVal = GameSystemConfig.getSysConfig(objectid, SysConfigType.refuseqiecuo);
 			if(refQcVal != null && refQcVal.intValue() == 1){
 				fire.pb.talk.MessageMgr.sendMsgNotify(hostid,160426 , null);
-				sendremoveTickTime(hostid);//闁氨鐓＄�广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+				sendremoveTickTime(hostid);//闂侇偅姘ㄩ悡锛勶拷骞垮灪閸╂稓绮╅姘悼婵炴垵鐗嗛悾楣冨籍鐠虹儤鐝�
 				return;
 			}
 			PropRole propRole = new PropRole(hostid, true);
-			String roleName=propRole.getName();//閻溾晛顔嶉崥宥囆�
-			int roleLv=propRole.getLevel();//缁涘楠�
-			int curTeamNum=0;//瑜版挸澧犻梼鐔剁礊娴滅儤鏆�
-			//閸欐垿?渚�鍊嬬拠?
+			String roleName=propRole.getName();//闁绘壕鏅涢宥夊触瀹ュ泦锟�
+			int roleLv=propRole.getLevel();//缂佹稑顦辨锟�
+			int curTeamNum=0;//鐟滅増鎸告晶鐘绘⒓閻斿墎绀婂ù婊呭劋閺嗭拷
+			//闁告瑦鍨�?娓氾拷閸婂鎷�?
 			SInvitationPlayPK sInvitationPlayPK = new SInvitationPlayPK();
-			//160422	5	閻溾晛顔�$parameter1$($parameter2$缁�?)闁�?鐠囪渹绗屾担鐘插瀼绾�?	閸掑洨顥愰幓鎰仛
-			//160423	5	$parameter1$闂冪喍绱�($parameter2$缁�?,$parameter3$/5)闁�?鐠囪渹绗屾担鐘插瀼绾�?	閸掑洨顥愰幓鎰仛
+			//160422	5	闁绘壕鏅涢锟�$parameter1$($parameter2$缂侊拷?)闂侊拷?閻犲洩娓圭粭灞炬媴閻樻彃鐎肩痪锟�?	闁告帒娲ㄩˉ鎰板箵閹邦喓浠�
+			//160423	5	$parameter1$闂傚啰鍠嶇槐锟�($parameter2$缂侊拷?,$parameter3$/5)闂侊拷?閻犲洩娓圭粭灞炬媴閻樻彃鐎肩痪锟�?	闁告帒娲ㄩˉ鎰板箵閹邦喓浠�
 			if (hostTeam != null){
-				//婵″倹鐏夋稉宥嗘Ц闂冪喖鏆遍敍灞炬畯缁傝崵娈戞禍楦款吇娑撶儤妲搁崡鏇氭眽
+				//濠碘�冲�归悘澶嬬▔瀹ュ棙笑闂傚啰鍠栭弳閬嶆晬鐏炵偓鐣紒鍌濆吹濞堟垶绂嶆ウ娆惧悋濞戞挾鍎ゅΣ鎼佸础閺囨碍鐪�
 				if(!hostTeam.isAbsentMember(hostid)){
 					curTeamNum=hostTeam.getNormalMemberIds().size();
 				}
@@ -281,7 +281,7 @@ public class CInvitationPlayPK extends __CInvitationPlayPK__ {
 	
 
 	/**
-	 * 閸欐垿?浣割吂閹撮顏敍宀冾唨鐎广垺鍩涚粩顖氬絿濞戝牆鐣鹃弮璺烘珤
+	 * 闁告瑦鍨�?娴ｅ壊鍚傞柟鎾棑椤忣剟鏁嶅畝鍐惧敤閻庡箍鍨洪崺娑氱博椤栨艾绲挎繛鎴濈墕閻ｉ箖寮捄鐑樼彜
 	 * @param roleid
 	 */
 	public static void sendremoveTickTime(long roleid){

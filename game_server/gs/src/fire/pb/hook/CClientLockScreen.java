@@ -20,7 +20,7 @@ public class CClientLockScreen extends __CClientLockScreen__ {
 		gnet.link.Role role = Onlines.getInstance().find(this);
 		if(role == null)
 			return;
-		//閸掋倖鏌囬弰顖氭儊閼虫垝绗呯痪鍖＄礉楠炶埖顒滅敮闀愮瑓缁捐￥?鍌欑瑓缁惧灝鐣В鏇炴倵閿涘苯鍟�閸欐叀ReturnRoleList濞戝牊浼�
+		//闁告帇鍊栭弻鍥及椤栨碍鍎婇柤铏灊缁楀懐鐥崠锛勭妤犵偠鍩栭婊呮暜闂�鎰憮缂佹崘锟�?閸屾瑧鐟撶紒鎯х仢閻ｎ剙袙閺囩偞鍊甸柨娑樿嫰閸燂拷闁告瑦鍙�ReturnRoleList婵炴垵鐗婃导锟�
 		new fire.pb.state.PRoleLockScreen(role.getRoleid(),(lock!=0)?Boolean.TRUE:Boolean.FALSE).submit();		
 		
 	}

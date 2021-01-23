@@ -24,7 +24,7 @@ public class CTransItem extends __CTransItem__ {
 			return;
 
 		if (dstpackid == BagTypes.BAG)
-			page = -1; // 閻滄澘婀懗灞藉瘶濞屸剝婀乸age閻ㄥ嫭顩ц箛鍏哥啊
+			page = -1; // 闁绘粍婢樺﹢顏堟嚄鐏炶棄鐦舵繛灞稿墲濠�涔竌ge闁汇劌瀚々褑绠涢崗鍝ュ晩
 		new PMoveItemProc(roleId, srckey, number, srcpackid, dstpackid, dstpos,
 				page).submit();
 	}

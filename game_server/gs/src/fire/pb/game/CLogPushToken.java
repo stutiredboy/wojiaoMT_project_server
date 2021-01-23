@@ -25,7 +25,7 @@ public class CLogPushToken extends __CLogPushToken__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				logger.error("閺�璺哄煂鐎广垺鍩涚粩顖涘腹闁焦绉烽幁?, RoleId=" + roleId + ", Token=" + token);
+				logger.error("闁猴拷鐠哄搫鐓傞悗骞垮灪閸╂稓绮╅娑樿吂闂侇偂鐒︾粔鐑藉箒?, RoleId=" + roleId + ", Token=" + token);
 				return true;
 			}
 		}.submit();

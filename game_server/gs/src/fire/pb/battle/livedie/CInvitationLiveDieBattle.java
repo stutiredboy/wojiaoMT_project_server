@@ -17,13 +17,13 @@ abstract class __CInvitationLiveDieBattle__ extends mkio.Protocol { }
 public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 	@Override
 	protected void process() {
-		//娑撳鍨稊?
+		//濞戞挸顑嗛崹顒佺▕?
 		final long hostid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (hostid <= 0)
 			return;
 		new mkdb.Procedure() {
 			protected boolean process() throws Exception {
-				//閸掋倖鏌囩粵澶岄獓闂�?濮�?
+				//闁告帇鍊栭弻鍥╃驳婢跺矂鐛撻梻锟�?婵拷?
 				xbean.Properties hostprop=xtable.Properties.select(hostid);
 				if(hostprop==null){
 					return false;
@@ -32,7 +32,7 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 					return false;
 				}
 				
-				//閸掋倖鏌囬惄顔界垼閻溾晛顔嶉弰顖氭儊鐎涙ê婀�
+				//闁告帇鍊栭弻鍥儎椤旂晫鍨奸柣婧炬櫅椤斿秹寮伴姘剨閻庢稒锚濠�锟�
 				Long objectid;
 				try {
 					objectid=Long.parseLong(idorname);
@@ -44,12 +44,12 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
 					return false;
 				}
-				//閼奉亜绻佹稉宥堝厴闁�?鐠囩柉鍤滃?
+				//闁煎浜滅换浣圭▔瀹ュ牆鍘撮梺锟�?閻犲洨鏌夐崵婊冾啅?
 				if(hostid==objectid){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 166006, 0, null);
 					return false;
 				}
-				//閸掋倖鏌囬惄顔界垼閻溾晛顔嶉弰顖氭儊閸︺劎鍤�
+				//闁告帇鍊栭弻鍥儎椤旂晫鍨奸柣婧炬櫅椤斿秹寮伴姘剨闁革负鍔庨崵锟�
 				Role gRole = RoleManager.getInstance().getRoleByID(objectid);
 				if (gRole == null){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
@@ -60,7 +60,7 @@ public class CInvitationLiveDieBattle extends __CInvitationLiveDieBattle__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid, 145001, null);
 					return false;
 				}
-				//閸掋倖鏌囩�佃鏌熺粵澶岄獓閺勵垰鎯佺粭锕�鎮庣憰浣圭湴
+				//闁告帇鍊栭弻鍥╋拷浣冾潐閺岀喓绮垫径宀勭崜闁哄嫷鍨伴幆浣虹箔閿曪拷閹海鎲版担鍦勾
 				if(guestprop.getLevel()<LiveDieMange.getLiveDieLevel()){
 					fire.pb.talk.MessageMgr.sendMsgNotify(hostid,162078 , null);
 					return false;

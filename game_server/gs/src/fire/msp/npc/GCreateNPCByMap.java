@@ -31,7 +31,7 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 					npc.npcbaseid, npc.name, npc.dir);
 			if (n == null) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("閸忣兛绱伴崜顖涙拱閸掗攱??:").append(npc.npcbaseid)
+					SceneManager.logger.info(new StringBuilder().append("闁稿浚鍏涚槐浼村礈椤栨稒鎷遍柛鎺楁敱??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid));
 				}
@@ -43,7 +43,7 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 					scene = SceneFactory.createDynamicScene((int)npc.sceneid, npc.ownerid, "",
 							-1, DynamicSceneType.NORMAL_SCENE, params.marshal(new OctetsStream()));
 					
-					SceneManager.logger.error(new StringBuilder().append("閸忣兛绱伴崜顖涙拱閸掗攱??:").append(npc.npcbaseid)
+					SceneManager.logger.error(new StringBuilder().append("闁稿浚鍏涚槐浼村礈椤栨稒鎷遍柛鎺楁敱??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid)
 							.append(",sceneidlong:").append(scene.getSceneID())
@@ -56,9 +56,9 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 			int mapid = (int) npc.sceneid;
 			if (mapid >= 1851 && mapid <= 1870) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("閸忣兛绱伴崜顖涙拱閸掗攱??:").append(npc.npcbaseid)
-							.append(",閸ф劖鐖ｉ弰鐤�:").append(gpos.getX())
-							.append(",閸ф劖鐖ｉ弰鐥�:").append(gpos.getY())
+					SceneManager.logger.info(new StringBuilder().append("闁稿浚鍏涚槐浼村礈椤栨稒鎷遍柛鎺楁敱??:").append(npc.npcbaseid)
+							.append(",闁秆勫姈閻栵綁寮伴悿锟�:").append(gpos.getX())
+							.append(",闁秆勫姈閻栵綁寮伴惀锟�:").append(gpos.getY())
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid)
 							.append(",sceneidlong:").append(scene.getSceneID())
@@ -75,8 +75,8 @@ public class GCreateNPCByMap extends __GCreateNPCByMap__ {
 				SceneManager.logger.error("sceneidlong:" + scene.getSceneID());
 			}
 		}
-		// System.out.println("婢堆嗘珪閸掓稑缂撴禍鍝奝C 閿�? " + n.getName() + "閸ф劖鐖ｉ弰顖ょ窗 X 閳ユ柡??" +
-		// gpos.getX() + "Y 閳ユ柡??" + gpos.getY());
+		// System.out.println("濠㈠爢鍡樼彧闁告帗绋戠紓鎾寸閸濆C 闁匡拷? " + n.getName() + "闁秆勫姈閻栵綁寮伴銈囩獥 X 闁炽儲鏌�??" +
+		// gpos.getX() + "Y 闁炽儲鏌�??" + gpos.getY());
 
 	}
 

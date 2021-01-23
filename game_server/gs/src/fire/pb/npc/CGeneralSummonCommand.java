@@ -21,10 +21,10 @@ public class CGeneralSummonCommand extends __CGeneralSummonCommand__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		// 閺呭搫濮忕拠鏇犵矊閹峰姹�
+		// 闁哄懎鎼慨蹇曟嫚閺囩姷鐭婇柟宄邦槷濮癸拷
 		if (summontype == TransmitTypes.impexamsystem)
 			return;
-		// 閸愮姴鍟楃拠鏇犲仹閹峰姹�
+		// 闁告劗濮撮崯妤冩嫚閺囩姴浠归柟宄邦槷濮癸拷
 		if (summontype == TransmitTypes.winnercall && agree == 1) {
 			new PWinnerCallPlayer(roleid).submit();
 			return;

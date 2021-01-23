@@ -18,7 +18,7 @@ public class CAbandonAnYe extends __CAbandonAnYe__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		CircleTaskManager.logger.info("閺�璺哄煂閺�鎯х磾閺嗘顧佹禒璇插濞戝牊浼�.鐟欐帟澹奫" + roleid + "]鐟曚焦鏂佸鍐╂婢舵粈鎹㈤崝?:" + questid);
+		CircleTaskManager.logger.info("闁猴拷鐠哄搫鐓傞柡锟介幆褏纾鹃柡鍡橆殔椤т焦绂掔拠鎻掝潳婵炴垵鐗婃导锟�.閻熸瑦甯熸竟濂�" + roleid + "]閻熸洑鐒﹂弬浣割嚕閸愨晜顔傚鑸电矆閹广垽宕�?:" + questid);
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {

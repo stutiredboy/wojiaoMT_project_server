@@ -28,14 +28,14 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 		NPC npc =SceneNpcManager.getInstance().getNpcByKey(npckey);
 		if(team == null)
 		{
-			//濞屸剝婀侀梼鐔剁礊
+			//婵炲备鍓濆﹢渚�姊奸悢鍓佺
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141485, npc.getNpcID(), null);
 			return;
 		}
 		//if(team.getNormalTeamMemebers().size()<2)
 		if(team.size() < 2)
 		{
-			//闂冪喍绱炴禍鐑樻殶鐏忓繋绨�3娴�?
+			//闂傚啰鍠嶇槐鐐寸閻戞ɑ娈堕悘蹇撶箣缁拷3濞达拷?
 			fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141485, npc.getNpcID(),null);
 			return;
 		}
@@ -44,12 +44,12 @@ public class GFortyThievesBattle extends __GFortyThievesBattle__ {
 		
 		MonsterInfo monsterInfo = npc.getScene().getMapInfo().getMonsterInfo();	
 		if(monsterInfo == null)
-			return;//閸栧搫鐓欓弳妤呮祫閹亙淇婇幁顖欒礋缁�?
+			return;//闁告牕鎼悡娆撳汲濡ゅ懏绁柟顒変簷娣囧﹪骞侀娆掔缂侊拷?
 		
 		GridPos pos = npc.getPos().toGridPos();
 		int areaconf = monsterInfo.getMonsterConfig(pos.getX(), pos.getY());
 		if(areaconf == 0)
-			return;//濞屸剝婀侀弳妤呮祫閸栧搫鐓欓柊宥囩枂
+			return;//婵炲备鍓濆﹢渚�寮冲Δ鍛カ闁告牕鎼悡娆撴煀瀹ュ洨鏋�
 		
 		
 		SceneClient.pSend(new MFortyThievesBattle(roleid, npckey,areaconf));

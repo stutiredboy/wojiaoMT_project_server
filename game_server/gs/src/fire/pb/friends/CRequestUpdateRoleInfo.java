@@ -23,7 +23,7 @@ public class CRequestUpdateRoleInfo extends __CRequestUpdateRoleInfo__ {
 			public boolean process() {
 
 				if (xtable.Properties.selectRolename(roleid) == null) {
-					// 鏉╂瑩鍣风�涙ê婀惃鍕斧閸ョ姵妲�:閺堝秴濮熼崳銊ュ灩濡楋絼绨�,閼板苯顓归幋椋庮伂閺堫剙婀撮惃鍕付鏉╂垼浠堢化璁虫眽閸掓銆冮張顏勫灩闂�?
+					// 閺夆晜鐟╅崳椋庯拷娑櫭﹢顏堟儍閸曨偄鏂ч柛銉уУ濡诧拷:闁哄牆绉存慨鐔煎闯閵娿儱鐏╂俊妤嬬导缁拷,闁兼澘鑻褰掑箣妞嬪寒浼傞柡鍫墮濠�鎾儍閸曨剚浠橀弶鈺傚灱娴犲牏鍖栫拋铏溄闁告帗顨夐妴鍐嫉椤忓嫬鐏╅梻锟�?
 					Module.logger.warn("[CRequestUpdateRoleInfo] find non-existent role info, roleId:" + currentRoleId
 							+ " targetRoleId:" + roleid);
 					return true;

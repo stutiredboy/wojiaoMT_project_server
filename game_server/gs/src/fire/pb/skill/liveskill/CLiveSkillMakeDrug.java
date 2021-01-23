@@ -29,7 +29,7 @@ abstract class __CLiveSkillMakeDrug__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閸嬫俺宓�
+ * 闁稿淇哄畵锟�
  * @author changhao
  *
  */
@@ -48,7 +48,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 			{
 				SkillRole skillrole = new SkillRole(roleid);
 				
-				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_MAKE_DRUG);	//瀵版鍩岄悽鐔告た閹�?閼崇晫鐡戠痪? by changhao			
+				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_MAKE_DRUG);	//鐎电増顨呴崺宀勬偨閻斿憡銇熼柟锟�?闁煎磭鏅悺鎴犵棯? by changhao			
 				if (liveskill == null)
 				{
 					LiveSkillManager.logger.debug("CLiveSkillMakeDrug skilllevel error:" + roleid);
@@ -59,10 +59,10 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 				int skilllevel = liveskill.getLevel();
 				
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(
-						roleid, LiveSkillManager.LIVE_SKILL_TYPE_COOKING, skilllevel,"閻愯壈宓� ", 
+						roleid, LiveSkillManager.LIVE_SKILL_TYPE_COOKING, skilllevel,"闁绘劘澹堝畵锟� ", 
 						YYLoggerTuJingEnum.tujing_Value_liveskillcost, false);
 				
-				if (energyenough == false) //濞戝牐?妤佹た閸�? by changhao
+				if (energyenough == false) //婵炴垵鐗�?濡や焦銇熼柛锟�? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						
@@ -74,7 +74,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 				
 				int makingsweight = 0;
 				
-				if (makingslist.size() == 0) //娴ｈ法鏁ら柧璺虹閻愯壈宓� by changhao
+				if (makingslist.size() == 0) //濞达綀娉曢弫銈夋煣鐠鸿櫣顏查柣鎰瀹擄拷 by changhao
 				{
 					fire.pb.item.SFoodAndDrugEffect stuff = (SFoodAndDrugEffect) fire.pb.item.Module.getInstance().getItemManager().getAttr(LiveSkillManager.ITEM_TYPE_DRUG_MAKINGS_LOW);
 					if (stuff == null)
@@ -86,14 +86,14 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					makingsweight = stuff.lianyaoMaterialWeight * 4;
 					count = 4;
 					
-					//閹碉綁鎸� by changhao
+					//闁圭缍侀幐锟� by changhao
 					if(bag.subMoney(-6000, LiveSkillManager.MakeDrug, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuilianjin, 0) != -6000)
 					{
 						psend(roleid, new SSkillError(SkillConstant.SkillError.MoneyNotEnough));
 						return false;	
 					}
 				}
-				else if (makingslist.size() < 2) //娑�?娑擃亝娼楅弬娆庣瑝閼崇晫鍋ч懡? by changhao
+				else if (makingslist.size() < 2) //濞戯拷?濞戞搩浜濆妤呭棘濞嗗海鐟濋柤宕囨櫕閸嬔囨嚒? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.OneStuffCannot));
 					return true;
@@ -109,11 +109,11 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 							if (classid != null)
 							{
 								boolean drugstufftype = classid.classname.equals(LiveSkillManager.DrugStuff);
-								if (drugstufftype == true) //婵″倹鐏夐弰顖滃仹閼筋垱娼楅弬?  by changhao
+								if (drugstufftype == true) //濠碘�冲�归悘澶愬及椤栨粌浠归柤绛嬪灡濞兼寮�?  by changhao
 								{
 									makingsweight += stuff.lianyaoMaterialWeight;
 									
-									//閹存劕濮涘☉鍫�?妤呬壕閸�? by changhao
+									//闁瑰瓨鍔曟慨娑樷槈閸拷?濡ゅ懍澹曢柛锟�? by changhao
 									if(bag.removeItemById(makings, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_gonghuiyaofanguse, 0, LiveSkillManager.MakeDrug) == 1)
 									{
 										count ++;
@@ -124,7 +124,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					}		
 				}
 								
-				if (count < 2) //娑�?娑擃亝娼楅弬娆庣瑝閼崇晫鍋ч懡? by changhao
+				if (count < 2) //濞戯拷?濞戞搩浜濆妤呭棘濞嗗海鐟濋柤宕囨櫕閸嬔囨嚒? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.OneStuffCannot));
 					return true;					
@@ -136,7 +136,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 				
 				SLiveSkillMakeDrug msg = new SLiveSkillMakeDrug();
 				
-				if (index <= prob) //閸掓湹缍斿?婵�? by changhao
+				if (index <= prob) //闁告帗婀圭紞鏂款嚕?濠碉拷? by changhao
 				{
 					fire.pb.item.SFoodAndDrugEffect jinchuang = (SFoodAndDrugEffect) fire.pb.item.Module.getInstance().getItemManager().getAttr(LiveSkillManager.ITEM_TYPE_DRUG_JIN_CHUANG);
 					int jinchuangweight = jinchuang.getLianyaoWeight() - skilllevel * 2 - makingsweight;
@@ -146,14 +146,14 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					
 					int curWeight = 0;
 					
-					int drug = LiveSkillManager.ITEM_TYPE_DRUG_JIN_CHUANG; //閺�?缂佸牅楠囬崙鍝勬殣閼�? by changhao
-					if (randomValue < jinchuangweight) //閺勵垰鎯佹禍褏鏁撻柌鎴犳焾閼�? by changhao
+					int drug = LiveSkillManager.ITEM_TYPE_DRUG_JIN_CHUANG; //闁猴拷?缂備礁鐗呮鍥礄閸濆嫭娈ｉ柤锟�? by changhao
+					if (randomValue < jinchuangweight) //闁哄嫷鍨伴幆浣圭瑜忛弫鎾绘煂閹寸姵鐒鹃柤锟�? by changhao
 					{
 
 					}
 					else
 					{
-						//娴溠呮晸闁絼閲滈懡? by changhao
+						//濞存籂鍛櫢闂侇叏绲奸柌婊堟嚒? by changhao
 						curWeight = jinchuangweight;
 						for (fire.pb.item.SFoodAndDrugEffect e : LiveSkillManager.getInstance().druglist)
 						{
@@ -169,7 +169,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					
 					fire.pb.item.drug.GeneralDrug drugitem = (fire.pb.item.drug.GeneralDrug)fire.pb.item.Module.getInstance().getItemManager().genItemBase(drug, 1);
 					//drugitem.setFlag( fire.pb.Item.BIND);
-					//閺嶈宓侀幎?閼崇晫鐡戠痪褔娈㈤張铏规晸閹存劕鎼х拹? by changhao
+					//闁哄秷顫夊畵渚�骞�?闁煎磭鏅悺鎴犵棯瑜斿▓銏ゅ嫉閾忚鏅搁柟瀛樺姇閹佳呮嫻? by changhao
 					
 					fire.pb.common.SCommon common = ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(159);
 					int delta = Integer.parseInt(common.value);					
@@ -198,7 +198,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 					
 					mkdb.Procedure.psendWhileCommit(roleid, msg);
 				}
-				else //閸掓湹缍旀径杈Е by changhao
+				else //闁告帗婀圭紞鏃�寰勬潏顐バ� by changhao
 				{
 					msg.itemid = 0;
 					msg.ret = 1;
@@ -214,7 +214,7 @@ public class CLiveSkillMakeDrug extends __CLiveSkillMakeDrug__ {
 		
 	}
 	
-	//閺嶈宓侀柆鎾冲徔閺佷即鍣哄妤�鍩岄悽鐔稿灇閻ㄥ嫭顩ч悳? by changhao
+	//闁哄秷顫夊畵渚�鏌嗛幘鍐插緮闁轰椒鍗抽崳鍝勵嚗濡わ拷閸╁矂鎮介悢绋跨亣闁汇劌瀚々褔鎮�? by changhao
 	public int GetProbByNum(int num)
 	{
 		if (num == 2)

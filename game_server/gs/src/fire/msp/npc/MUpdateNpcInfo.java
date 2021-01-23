@@ -29,7 +29,7 @@ public class MUpdateNpcInfo extends __MUpdateNpcInfo__ {
 
 				}
 
-				// 婵″倹鐏夐棁?鐟曚礁婀猲pc閸掓稑缂撻崥搴ば曢崣鎴滅娴滄稐绨ㄦ禒?,閸欘垯浜掗崷銊ㄧ箹娑撶尩rocedure闁插矂娼伴崘?
+				// 濠碘�冲�归悘澶愭?閻熸洑绀佸﹢鐚瞤c闁告帗绋戠紓鎾诲触鎼淬伆鏇㈠矗閹存粎顏卞ù婊勭◥缁ㄣ劍绂�?,闁告瑯鍨禍鎺楀捶閵娿劎绠瑰☉鎾跺癌rocedure闂佹彃鐭傚浼村礃?
 				pexecuteWhileCommit(new PExecuteAfterNpcCreate(npcs));
 				return true;
 			}

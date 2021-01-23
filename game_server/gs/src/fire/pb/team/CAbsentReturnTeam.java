@@ -15,7 +15,7 @@ abstract class __CAbsentReturnTeam__ extends mkio.Protocol { }
 
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
-//閺嗗倻顬囬幋鏍ф礀瑜版帡妲︽导? by changhao
+//闁哄棗鍊婚‖鍥箣閺嵮勭鐟滅増甯″Σ锔藉? by changhao
 public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 
 	private Team team;
@@ -36,11 +36,11 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 				memberRoleId, absent);
 
 		if (absent == 1)
-		{ //婵″倹鐏夐弳鍌滎瀲閻ㄥ嫯鐦� by changhao
+		{ //濠碘�冲�归悘澶愬汲閸屾粠鐎查柣銊ュ閻︼拷 by changhao
 			absentReturnTeamP.submit();
 		} 
 		/*
-		else if (absent == 2) //鐠囬攱鐪伴崶鐐茬秺(鎼存柨顕崥灞芥勾閸ユ儳顓归幋椋庮伂閼奉亜濮╁?婵顕扮捄顖炴６妫�?)
+		else if (absent == 2) //閻犲洭鏀遍惇浼村炊閻愯尙绉�(閹煎瓨鏌ㄩ顕�宕ョ仦鑺ュ嬀闁搞儲鍎抽褰掑箣妞嬪寒浼傞柤濂変簻婵晛顕�?濠殿喖顑呴鎵崉椤栫偞锛栧Λ锟�?)
 		{
 			Long teamId = xtable.Roleid2teamid.select(memberRoleId);
 			if (teamId != null)
@@ -54,7 +54,7 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			PropRole prole = new PropRole(leaderRoleId, true);
 			SAbsentReturnTeam sendret = new SAbsentReturnTeam();		
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ闂�鍖＄礆閻ㄥ嫬璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴瑜版帡妲�,teamId: " + teamId);
+				TeamManager.logger.debug("闂傚啰鍠嶇槐鐐烘晬閸儲袝闂傦拷閸栵紕绀嗛柣銊ュ鐠愭澘銆掗崫銉バ﹂柟锟�?,婵縿鍊栧鍌涚▔瀹ュ牆鍘寸憸鐗堝浮濡诧拷,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				sendret.ret = 0;
 			} else {
@@ -73,32 +73,32 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 			else
 				return;
 			
-			//閺勵垰鎯侀崷銊╂Е娴煎秳鑵� by changhao
+			//闁哄嫷鍨伴幆渚�宕烽妸鈺傂曞ù鐓庣С閼碉拷 by changhao
 			if (!team.isInTeam(memberRoleId))
 				return;
 			
 			long leaderRoleId = team.getTeamInfo().getTeamleaderid();
 			PropRole prole = new PropRole(leaderRoleId, true);
 			if(prole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ闂�鍖＄礆閻ㄥ嫬璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴瑜版帡妲�,teamId: " + teamId);
+				TeamManager.logger.debug("闂傚啰鍠嶇槐鐐烘晬閸儲袝闂傦拷閸栵紕绀嗛柣銊ュ鐠愭澘銆掗崫銉バ﹂柟锟�?,婵縿鍊栧鍌涚▔瀹ュ牆鍘寸憸鐗堝浮濡诧拷,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160435, null);
 				return;
 			}
 			PropRole pmemrole = new PropRole(memberRoleId, true);
 			if(pmemrole.getProperties().getCruise() > 0) {
-				TeamManager.logger.debug("闂冪喍绱為敍鍫ユЕ閸涙﹫绱氶惃鍕窗濞撳摜濮搁幀?,濮濄倖妞傛稉宥堝厴瑜版帡妲�,teamId: " + teamId);
+				TeamManager.logger.debug("闂傚啰鍠嶇槐鐐烘晬閸儲袝闁告稒锕槐姘舵儍閸曨偉绐楁繛鎾虫憸婵悂骞�?,婵縿鍊栧鍌涚▔瀹ュ牆鍘寸憸鐗堝浮濡诧拷,teamId: " + teamId);
 				fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 160436, null);
 				return;
 			}
 			
-			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //婵″倹鐏夐梼鐔兼毐閸︺劌鍙曟导姘灛閸﹁桨绗夐懗钘夋礀瑜版帡妲︽导? by changhao
+			Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId); //濠碘�冲�归悘澶愭⒓閻斿吋姣愰柛锔哄妼閸欐洘瀵煎顓炵仜闁革箒妗ㄧ粭澶愭嚄閽樺绀�鐟滅増甯″Σ锔藉? by changhao
 			if (leaderclanfightid != null)
 			{
 				Long memberclanfightid = xtable.Roleid2clanfightid.select(memberRoleId);
 				if (!leaderclanfightid.equals(memberclanfightid))
 				{
-					fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 410020, null); //闂冪喖鏆遍崷銊ュ彆娴兼碍鍨崷鍝勫敶闁劏鍏橀崶鐐茬秺 by changhao
-					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410021, null); //闂冪喎鎲抽崷銊ュ彆娴兼碍鍨崷鍝勵樆娑撳秷鍏橀崶鐐茬秺 by changhao
+					fire.pb.talk.MessageMgr.sendMsgNotify(memberRoleId, 410020, null); //闂傚啰鍠栭弳閬嶅捶閵娿儱褰嗗ù鍏肩閸剟宕烽崫鍕暥闂侇喓鍔忛崗姗�宕堕悙鑼Ш by changhao
+					fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410021, null); //闂傚啰鍠庨幉鎶藉捶閵娿儱褰嗗ù鍏肩閸剟宕烽崫鍕垫▎濞戞挸绉烽崗姗�宕堕悙鑼Ш by changhao
 					return;
 				}
 			}
@@ -111,25 +111,25 @@ public class CAbsentReturnTeam extends __CAbsentReturnTeam__ {
 				return;
 			}
 			
-			if (memberRole.getScene() == leaderRole.getScene()) //婵″倹鐏夐崪宀勬Е娴煎秴婀崥灞肩娑擃亜婧�閺�? by changhao
+			if (memberRole.getScene() == leaderRole.getScene()) //濠碘�冲�归悘澶愬椽瀹�鍕曞ù鐓庣Т濠�顏堝触鐏炶偐顏卞☉鎿冧簻濠э拷闁猴拷? by changhao
 			{
-				//閹峰鍩岄梼鐔兼毐闁�? by changhao
+				//闁瑰嘲顦崺宀勬⒓閻斿吋姣愰梺锟�? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 1);
 				go.submit();				
 				//absentReturnTeamP.submit();
 			}
 			else
 			{
-				//閹峰鍩岄梼鐔兼毐闁�? by changhao
+				//闁瑰嘲顦崺宀勬⒓閻斿吋姣愰梺锟�? by changhao
 				fire.pb.team.PGotoTeamLeader go = new fire.pb.team.PGotoTeamLeader(team, memberRoleId, 2);
 				go.submit();
 			}
 		}
 	}
 
-	// 濡�?濞村└VP
+	// 婵★拷?婵炴潙鈹擵P
 	private static int checkPvP(long roleId, byte absent) {
-		// 閺嗗倻顬囬幋鏍ф礀瑜�?
+		// 闁哄棗鍊婚‖鍥箣閺嵮勭鐟滐拷?
 		return fire.pb.battle.pvp.PvPTeamHandle.onAbsentReturn(roleId, absent);
 	}
 

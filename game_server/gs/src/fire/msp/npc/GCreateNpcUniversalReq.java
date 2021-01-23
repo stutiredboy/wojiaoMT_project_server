@@ -19,12 +19,12 @@ public class GCreateNpcUniversalReq extends __GCreateNpcUniversalReq__ {
 		// protocol handle
 		
 		if (!npclist.isEmpty()){
-			// 閸掓稑缂揘PC
+			// 闁告帗绋戠紓鎻楶C
 			java.util.List<fire.msp.npc.NpcInfo> resultlist = new java.util.LinkedList<fire.msp.npc.NpcInfo>();
 			
 			for (CreateNpcInfoUniverse info:npclist){
 				java.util.List<fire.msp.npc.NpcInfo> rlist = fire.pb.scene.manager.SceneNpcManager.getInstance().createNpc(info);
-				// 婢惰精瑙︽潻鏂挎礀GS
+				// 濠㈡儼绮剧憴锔芥交閺傛寧绀�GS
 				if (rlist == null || rlist.isEmpty() || rlist.size() < info.num){
 					MCreateNpcUniversalRet mret = new MCreateNpcUniversalRet();
 					mret.interfaceid = interfaceid;
@@ -32,10 +32,10 @@ public class GCreateNpcUniversalReq extends __GCreateNpcUniversalReq__ {
 					fire.pb.scene.SceneClient.pSend(mret);
 					break;
 				}
-				// 閹存劕濮�
+				// 闁瑰瓨鍔曟慨锟�
 				resultlist.addAll(rlist);
 			}
-			//閸氬本顒為崚鐧嶴 NPC閻ㄥ嫪淇婇幁?
+			//闁告艾鏈鐐哄礆閻у洞 NPC闁汇劌瀚穱濠囧箒?
 			MUpdateNpcInfo mUpdateNpcInfo = new MUpdateNpcInfo();
 			mUpdateNpcInfo.npcs.addAll(resultlist);
 			fire.pb.scene.SceneClient.pSend(mUpdateNpcInfo);
