@@ -22,8 +22,10 @@ public class SHuanhuaTbl implements mytools.ConvMain.Checkable ,Comparable<SHuan
 	}
 	public SHuanhuaTbl(SHuanhuaTbl arg){
 		this.id=arg.id ;
-		this.freeCurrency=arg.freeCurrency ;
-		this.freeItem=arg.freeItem ;
+		this.freeCurrencyType=arg.freeCurrencyType ;
+		this.freeCurrencyCount=arg.freeCurrencyCount ;
+		this.freeItemType=arg.freeItemType ;
+		this.freeItemCount=arg.freeItemCount ;
 	}
 	public void checkValid(java.util.Map<String,java.util.Map<Integer,? extends Object> > objs){
 	}
@@ -43,27 +45,53 @@ public class SHuanhuaTbl implements mytools.ConvMain.Checkable ,Comparable<SHuan
 	/**
 	 * 
 	 */
-	public String freeCurrency  = null  ;
+	public int freeCurrencyType  = 0  ;
 	
-	public String getFreeCurrency(){
-		return this.freeCurrency;
+	public int getFreeCurrencyType(){
+		return this.freeCurrencyType;
 	}
 	
-	public void setFreeCurrency(String v){
-		this.freeCurrency=v;
+	public void setFreeCurrencyType(int v){
+		this.freeCurrencyType=v;
 	}
 	
 	/**
 	 * 
 	 */
-	public String freeItem  = null  ;
+	public int freeCurrencyCount  = 0  ;
 	
-	public String getFreeItem(){
-		return this.freeItem;
+	public int getFreeCurrencyCount(){
+		return this.freeCurrencyCount;
 	}
 	
-	public void setFreeItem(String v){
-		this.freeItem=v;
+	public void setFreeCurrencyCount(int v){
+		this.freeCurrencyCount=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int freeItemType  = 0  ;
+	
+	public int getFreeItemType(){
+		return this.freeItemType;
+	}
+	
+	public void setFreeItemType(int v){
+		this.freeItemType=v;
+	}
+	
+	/**
+	 * 
+	 */
+	public int freeItemCount  = 0  ;
+	
+	public int getFreeItemCount(){
+		return this.freeItemCount;
+	}
+	
+	public void setFreeItemCount(int v){
+		this.freeItemCount=v;
 	}
 	
 	
