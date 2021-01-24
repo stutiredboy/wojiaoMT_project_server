@@ -5,7 +5,7 @@ package fire.pb.pet;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-
+import org.apache.log4j.Logger;
 abstract class __CPetWash__ extends mkio.Protocol { }
 
 /** 宠物洗练
@@ -14,12 +14,13 @@ abstract class __CPetWash__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CPetWash extends __CPetWash__ {
+	public static final Logger logger = Logger.getLogger("SYSTEM");
 	@Override
 	protected void process() {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-
+		logger.error("--------宠物洗炼----------------- ----"+ petkey);
 		PPetWashPorc proc = new PPetWashPorc(roleid, petkey);
 		proc.submit();
 	}

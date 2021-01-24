@@ -18,19 +18,19 @@ abstract class __CEnterWorld__ extends mkio.Protocol { }
 public class CEnterWorld extends __CEnterWorld__ {
 	@Override
 	protected void process() {
-		//XXX:娴犳梻绮忛懓鍐娑撳绱濇俊鍌涚亯鏉╂瑤鑵戦梻瀛樻箒閺冭泛妯婇幀搴濈疄閸�?
-		//TODO:10缁夋帒鍞撮崣顏囶唨閻ц缍嶆稉?濞喡�?鍌炴Щ閺�璇插毊閵�?
+		//XXX:濞寸姵姊荤划蹇涙嚀閸愵厽顎氬☉鎾愁儜缁辨繃淇婇崒娑氫函閺夆晜鐟ら懙鎴︽⒒鐎涙ɑ绠掗柡鍐硾濡﹪骞�鎼存繄鐤勯柛锟�?
+		//TODO:10缂佸甯掗崬鎾矗椤忓浂鍞ㄩ柣褑顕х紞宥嗙▔?婵炲枴锟�?閸岀偞些闁猴拷鐠囨彃姣婇柕锟�?
 		final int userId=((gnet.link.Dispatch)this.getContext()).userid;
 		final xbean.User usr = xtable.User.select(userId);
 		if(null == usr || !usr.getIdlist().contains(roleid))
 		{
-			StateManager.logger.error(new StringBuilder("CEnterWorld: 鐠愶箑褰縄d = ").append(userId).append("濞屸剝婀佹潻娆庨嚋鐟欐帟澹婇敍?").append(roleid).append(", 閻ц缍嶆径杈Е閵�?"));
+			StateManager.logger.error(new StringBuilder("CEnterWorld: 閻犳劧绠戣ぐ绺刣 = ").append(userId).append("婵炲备鍓濆﹢浣规交濞嗗酣鍤嬮悷娆愬笩婢瑰﹪鏁�?").append(roleid).append(", 闁谎嗩嚙缂嶅秵寰勬潏顐バ曢柕锟�?"));
 			return;
 		}
-		StateManager.logger.info(new StringBuilder("roleid=").append(roleid).append(" 瀵�?婵绻橀崗銉ょ瑯閻�?"));
-		//閸旂姴鍙嗛弬鎵畱鐟欐帟澹�,鏉╂瑤绔撮崣銉ョ箑妞ょ粯鏂侀崷銊潡閼硅尪绻橀崗銉ユ簚閺咁垰澧�
+		StateManager.logger.info(new StringBuilder("roleid=").append(roleid).append(" 鐎碉拷?濠殿喖顑堢换姗�宕楅妷銈囩懐闁伙拷?"));
+		//闁告梻濮撮崣鍡涘棘閹殿喗鐣遍悷娆愬笩婢癸拷,閺夆晜鐟ょ粩鎾矗閵夈儳绠戝銈囩帛閺備線宕烽妸顭戞健闁肩灏换姗�宕楅妷銉︾皻闁哄拋鍨版晶锟�
 		gnet.link.Onlines.getInstance().insert(this, roleid);
-		StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" CEnterWorld: 瀹歌尙绮￠崝鐘插弳閵�?"));
+		StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" CEnterWorld: 鐎规瓕灏欑划锟犲礉閻樻彃寮抽柕锟�?"));
 		
 		PRoleOnline pRoleOnline = new PRoleOnline(userId,roleid);
 		try
@@ -58,7 +58,7 @@ public class CEnterWorld extends __CEnterWorld__ {
 			pRoleOnline.submit().get();
 		} catch (Exception e)
 		{
-			StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" 閻ц鍙嗛崙娲晩閵�?").append(e));
+			StateManager.logger.error(new StringBuilder("roleid=").append(roleid).append(" 闁谎嗩嚙閸欏棝宕欏ú顏呮櫓闁碉拷?").append(e));
 		}
 		new DRoleOnlineFail().doDone(pRoleOnline);
 	}

@@ -12,7 +12,7 @@ abstract class __CBuyMonthCard__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠愵厺鎷遍張鍫濆幢 by changhao
+ * 閻犳劦鍘洪幏閬嶅嫉閸繂骞� by changhao
  */
 public class CBuyMonthCard extends __CBuyMonthCard__ {
 	@Override
@@ -30,7 +30,7 @@ public class CBuyMonthCard extends __CBuyMonthCard__ {
 			@Override
 			protected boolean process()
 			{
-				if (fire.pb.fushi.Module.GetPayServiceType() == 0) //閺咁噣?姘箛閹靛秷鍏樼拹顓濇嫳閺堝牆宕�  by changhao
+				if (fire.pb.fushi.Module.GetPayServiceType() == 0) //闁哄拋鍣�?濮橆厽绠涢柟闈涚Х閸忔鎷归婵囧闁哄牆鐗嗗畷锟�  by changhao
 				{
 					boolean ok = fire.pb.fushi.MonthCardManager.getInstance().CheckMonthCardLimit(roleid);
 					if (ok)

@@ -54,7 +54,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				info.setUsername(octstream.unmarshal_String("UTF-8"));
 				info.setNickname(nickNameStr);
 				
-				//瑙ｆ瀽鍑烘笭閬撳悕瀛�
+				//鐟欙絾鐎介崙鐑樼闁挸鎮曠�涳拷
 				String userNameStr = info.getUsername();
 //				String userNameStr = "1234567890@@yingyongbao@2";
 				String [] str = userNameStr.split("@");
@@ -115,7 +115,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				sb.append(",loginip:"+loginip);
 				//xdb.Trace.info(sb.toString());
 				StateManager.logger.info(sb.toString());
-				//鎻掑叆浼氶噸澶�
+				//閹绘帒鍙嗘导姘跺櫢婢讹拷
 				xtable.Auuserinfo.remove(userid);
 				xtable.Auuserinfo.add(userid, info);
 				return true;
@@ -128,7 +128,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 						return entry.getValue();
 				}
 			
-				//濡傛灉娌℃湁鎵惧埌,榛樿鏄痑ndroid
+				//婵″倹鐏夊▽鈩冩箒閹垫儳鍩�,姒涙顓婚弰鐥憂droid
 				return "2";
 
 			}

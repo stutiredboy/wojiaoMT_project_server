@@ -52,7 +52,7 @@ public class CModPetName extends __CModPetName__ {
 			return;
 		}
 
-		// 閸氬秴鐡ч崥鍫熺《,鐠嬪啰鏁ゆ穱顔芥暭閸氬秴鐡ч惃鍕摠閸屻劏绻冪粙瀣�??
+		// 闁告艾绉撮悺褔宕ラ崼鐔恒��,閻犲鍟伴弫銈嗙┍椤旇姤鏆柛姘Т閻⊙囨儍閸曨偆鎽犻柛灞诲姀缁诲啰绮欑�ｏ拷??
 		PModPetName proc = new PModPetName(roleid, petkey, petname);
 		proc.submit();
 	}

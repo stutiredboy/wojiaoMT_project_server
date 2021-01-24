@@ -82,7 +82,7 @@ public class COpenChest extends __COpenChest__ {
 					return false;
 				
 //////////////////////////////////////////////
-				//閼虫粌鍩勯懓鍛閼宠姤瀣佹總鏍уС by changhao
+				//闁艰櫕绮岄崺鍕嚀閸涱喖顤呴柤瀹犲Г鐎ｄ焦绺介弽褍小 by changhao
 				Long clanfightid = xtable.Roleid2clanfightid.select(roleId);
 				if (clanfightid != null && npc.getNpcID() == ActivityClanFightManager.VICTORY_BOX)
 				{
@@ -112,7 +112,7 @@ public class COpenChest extends __COpenChest__ {
 				}
 				
 				int mapid = role.getMapId();
-				if (mapid == ClanUtils.MAPID && npc.getNpcID() == ActivityClanFightManager.CELEBRATE_BOX) //婵″倹鐏夐悳鈺侇啀閸︺劌鍙曟导姘额暙閸�? by changhao
+				if (mapid == ClanUtils.MAPID && npc.getNpcID() == ActivityClanFightManager.CELEBRATE_BOX) //濠碘�冲�归悘澶愭偝閳轰緡鍟�闁革负鍔岄崣鏇熷濮橀鏆欓柛锟�? by changhao
 				{
 					xbean.ClanInfo clanInfo = ClanUtils.getClanInfoById(roleId, true);
 					if (clanInfo == null)
@@ -135,7 +135,7 @@ public class COpenChest extends __COpenChest__ {
 							{
 								if (!bf.getClanfightBean().getEnterroleids().containsKey(roleId))
 								{
-									MessageMgr.sendMsgNotify(roleId, 410050, null); //娴ｇ姵鐥呴張澶庣カ閺嶅吋瀣�閸�? by changhao	
+									MessageMgr.sendMsgNotify(roleId, 410050, null); //濞达絿濮甸惀鍛村嫉婢跺海銈柡宥呭悑鐎ｏ拷闁革拷? by changhao	
 									return false;
 								}
 								
@@ -146,13 +146,13 @@ public class COpenChest extends __COpenChest__ {
 									return true;
 								}
 								
-								MessageMgr.sendMsgNotify(roleId, 410050, null); //娴ｇ姵鐥呴張澶庣カ閺嶅吋瀣�閸�? by changhao	
+								MessageMgr.sendMsgNotify(roleId, 410050, null); //濞达絿濮甸惀鍛村嫉婢跺海銈柡宥呭悑鐎ｏ拷闁革拷? by changhao	
 								return false;
 							}
 						}
 					}
 					
-					MessageMgr.sendMsgNotify(roleId, 410050, null); //娴ｇ姵鐥呴張澶庣カ閺嶅吋瀣�閸�? by changhao	
+					MessageMgr.sendMsgNotify(roleId, 410050, null); //濞达絿濮甸惀鍛村嫉婢跺海銈柡宥呭悑鐎ｏ拷闁革拷? by changhao	
 					return false;
 				}					
 /////////////////////////////////////////////
@@ -165,7 +165,7 @@ public class COpenChest extends __COpenChest__ {
 				
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleId);
 				if (null != team && team.isTeamLeader(roleId) && chestcfg.getOpenteam() == 1) {
-					// 閸忋劑妲﹀锝呯埗閻樿埖?浣瑰灇閸�? 閸旂娀鏀�
+					// 闁稿繈鍔戝Σ锕�顫㈤敐鍛煑闁绘鍩�?娴ｇ懓鐏囬柛锟�? 闁告梻濞�閺�锟�
 					final java.util.List<Long> members = team.getNormalMemberIds();
 					this.lock(xtable.Locks.ROLELOCK, members);
 					
@@ -181,7 +181,7 @@ public class COpenChest extends __COpenChest__ {
 						}
 						int rolelevel = xtable.Properties.selectLevel(roleId);
 						if (chestcfg.openlevel > rolelevel) {
-							//缁涘楠囨稉宥堝喕閻ㄥ嫭褰佺粈?
+							//缂佹稑顦辨鍥ㄧ▔瀹ュ牆鍠曢柣銊ュ瑜颁胶绮�?
 							MessageMgr.sendMsgNotify(roleId, 166139, null);
 							return false;
 						}
@@ -202,11 +202,11 @@ public class COpenChest extends __COpenChest__ {
 							continue;
 						}
 						
-						// 缂佹瑤绨ｆ總鏍уС
+						// 缂備焦鐟ょ花锝嗙附閺嵮冃�
 						RewardMgr.getInstance().distributeAllAward(rid,
 								chestcfg.rewardid, null,
 								fire.log.enums.YYLoggerTuJingEnum.tujing_Value_baoxiang, 0,
-								PAddExpProc.OTHER_QUEST, "娑撴牜鏅�规繄顔�");
+								PAddExpProc.OTHER_QUEST, "濞戞挻鐗滈弲顐わ拷瑙勭箘椤旓拷");
 						
 						baoxiangInfo.setOpentimes(baoxiangInfo.getOpentimes() + 1);
 						baoxiangInfo.setLastopentime(currentTime);
@@ -215,7 +215,7 @@ public class COpenChest extends __COpenChest__ {
 				else {
 					int rolelevel = xtable.Properties.selectLevel(roleId);
 					if (chestcfg.openlevel > rolelevel) {
-						//缁涘楠囨稉宥堝喕閻ㄥ嫭褰佺粈?
+						//缂佹稑顦辨鍥ㄧ▔瀹ュ牆鍠曢柣銊ュ瑜颁胶绮�?
 						MessageMgr.sendMsgNotify(roleId, 166139, null);
 						return false;
 					}
@@ -242,11 +242,11 @@ public class COpenChest extends __COpenChest__ {
 							return false;
 						}
 						
-						// 缂佹瑤绨ｆ總鏍уС
+						// 缂備焦鐟ょ花锝嗙附閺嵮冃�
 						RewardMgr.getInstance().distributeAllAward(roleId,
 								chestcfg.rewardid, null,
 								fire.log.enums.YYLoggerTuJingEnum.tujing_Value_baoxiang, 0,
-								PAddExpProc.OTHER_QUEST, "娑撴牜鏅�规繄顔�");
+								PAddExpProc.OTHER_QUEST, "濞戞挻鐗滈弲顐わ拷瑙勭箘椤旓拷");
 						
 						bestowCount.setOpentimes(bestowCount.getOpentimes() + 1);
 					
@@ -267,11 +267,11 @@ public class COpenChest extends __COpenChest__ {
 							return false;
 						}
 						
-						// 缂佹瑤绨ｆ總鏍уС
+						// 缂備焦鐟ょ花锝嗙附閺嵮冃�
 						RewardMgr.getInstance().distributeAllAward(roleId,
 								chestcfg.rewardid, null,
 								fire.log.enums.YYLoggerTuJingEnum.tujing_Value_baoxiang, 0,
-								PAddExpProc.OTHER_QUEST, "娑撴牜鏅�规繄顔�");
+								PAddExpProc.OTHER_QUEST, "濞戞挻鐗滈弲顐わ拷瑙勭箘椤旓拷");
 						
 						baoxiangInfo.setOpentimes(baoxiangInfo.getOpentimes() + 1);
 						baoxiangInfo.setLastopentime(currentTime);

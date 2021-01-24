@@ -35,7 +35,7 @@ public class GRoleChangeShape extends __GRoleChangeShape__ {
 			{
 				role.sendAround(send);
 			}
-			// 閸欐垿?浣虹舶闂冪喎鎲�,婵″倹鐏夐張澶屾畱鐠�?
+			// 闁告瑦鍨�?娴ｈ櫣鑸堕梻鍐枎閹诧拷,濠碘�冲�归悘澶愬嫉婢跺本鐣遍悹锟�?
 			if (!teammembers.isEmpty())
 				gnet.link.Onlines.getInstance().send(teammembers, send);
 	}

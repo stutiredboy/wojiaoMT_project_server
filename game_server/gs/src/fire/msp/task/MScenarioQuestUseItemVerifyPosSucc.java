@@ -38,7 +38,7 @@ public class MScenarioQuestUseItemVerifyPosSucc extends __MScenarioQuestUseItemV
 		if (task == null) {
 			return false;
 		}
-		Module.logger.info("鐟欐帟澹奫" + roleid + "]娴ｈ法鏁ら柆鎾冲徔[" + useitemid + "],娴犺濮焄" + scenarioquestid + "]!");
+		Module.logger.info("閻熸瑦甯熸竟濂�" + roleid + "]濞达綀娉曢弫銈夋焼閹惧啿寰擺" + useitemid + "],濞寸姾顕ф慨鐒�" + scenarioquestid + "]!");
 		if (task.getConf().aiInfo.aIID != 0) {
 			PNewBattle battle = new PNewBattle(roleid, task.getConf().aiInfo.aIID, 
 					new MissionBattleEndHandler(scenarioquestid, task.getConf().aiInfo.battleResult
@@ -54,12 +54,12 @@ public class MScenarioQuestUseItemVerifyPosSucc extends __MScenarioQuestUseItemV
 			if (buffagent.existBuff(BuffConstant.StateType.STATE_TEAM) && buffagent.existBuff(BuffConstant.StateType.STATE_TEAM_LEADER)) {
 				if (task.getConf().exeIndo.teamState == 0) {
 				//	onFail(roleid);
-					Module.logger.info("鐟欐帟澹奫" + roleid + "]娴ｈ法鏁ら柆鎾冲徔[" + useitemid + "],娴犺濮焄" + scenarioquestid + "],閺堝妲︽导宥勭瑬娑撴椽妲﹂梹?,娴ｅ棝鍘ょ純鐣塭amState==0.");
+					Module.logger.info("閻熸瑦甯熸竟濂�" + roleid + "]濞达綀娉曢弫銈夋焼閹惧啿寰擺" + useitemid + "],濞寸姾顕ф慨鐒�" + scenarioquestid + "],闁哄牆顦靛Σ锔藉瀹ュ嫮鐟☉鎾存そ濡诧箓姊�?,濞达絽妫濋崢銈囩磾閻ｅ…amState==0.");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 141711, null);
 					return false;
 				}
 				if (task.getConf().exeIndo.share == 0) {
-					//娑撳秴鍙℃禍?
+					//濞戞挸绉撮崣鈩冪?
 					fire.pb.mission.PCommitMajorMission taskproc=
 							new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true, true);
 					if (mkdb.Transaction.current() == null)
@@ -67,7 +67,7 @@ public class MScenarioQuestUseItemVerifyPosSucc extends __MScenarioQuestUseItemV
 					else
 						taskproc.call();
 				} else {
-					//閸忓彉闊╂稊鐔哥梾閻�?
+					//闁稿繐褰夐棅鈺傜▕閻斿摜姊鹃柣锟�?
 					fire.pb.mission.PCommitMajorMission taskproc=
 							new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true, true);
 					if (mkdb.Transaction.current() == null)
@@ -76,7 +76,7 @@ public class MScenarioQuestUseItemVerifyPosSucc extends __MScenarioQuestUseItemV
 						taskproc.call();
 				}
 			} else if(buffagent.existBuff(BuffConstant.StateType.STATE_TEAM) && !buffagent.existBuff(BuffConstant.StateType.STATE_TEAM_LEADER)) {
-				Module.logger.info("鐟欐帟澹奫" + roleid + "]娴ｈ法鏁ら柆鎾冲徔[" + useitemid + "],娴犺濮焄" + scenarioquestid + "],閺堝妲︽导宥勭瑬娑撳秳璐熼梼鐔兼毐.");
+				Module.logger.info("閻熸瑦甯熸竟濂�" + roleid + "]濞达綀娉曢弫銈夋焼閹惧啿寰擺" + useitemid + "],濞寸姾顕ф慨鐒�" + scenarioquestid + "],闁哄牆顦靛Σ锔藉瀹ュ嫮鐟☉鎾崇С鐠愮喖姊奸悢鍏兼瘣.");
 				fire.pb.mission.PCommitMajorMission taskproc=
 						new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true, true);
 				if (mkdb.Transaction.current() == null)
@@ -85,11 +85,11 @@ public class MScenarioQuestUseItemVerifyPosSucc extends __MScenarioQuestUseItemV
 					taskproc.call();
 			} else {
 				if (task.getConf().exeIndo.teamState == 2) {
-					Module.logger.info("鐟欐帟澹奫" + roleid + "]娴ｈ法鏁ら柆鎾冲徔[" + useitemid + "],娴犺濮焄" + scenarioquestid + "],濞屸剝婀侀梼鐔剁礊,娴ｅ敆eamState==2.");
+					Module.logger.info("閻熸瑦甯熸竟濂�" + roleid + "]濞达綀娉曢弫銈夋焼閹惧啿寰擺" + useitemid + "],濞寸姾顕ф慨鐒�" + scenarioquestid + "],婵炲备鍓濆﹢渚�姊奸悢鍓佺,濞达絽鏁唀amState==2.");
 					onFail(roleid);
 					return false;
 				}
-				Module.logger.info("鐟欐帟澹奫" + roleid + "]娴ｈ法鏁ら柆鎾冲徔[" + useitemid + "],娴犺濮焄" + scenarioquestid + "],濞屸剝婀侀梼鐔剁礊.");
+				Module.logger.info("閻熸瑦甯熸竟濂�" + roleid + "]濞达綀娉曢弫銈夋焼閹惧啿寰擺" + useitemid + "],濞寸姾顕ф慨鐒�" + scenarioquestid + "],婵炲备鍓濆﹢渚�姊奸悢鍓佺.");
 				fire.pb.mission.PCommitMajorMission taskproc=
 						new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true, true);
 				if (mkdb.Transaction.current() == null)

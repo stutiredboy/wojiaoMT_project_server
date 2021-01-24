@@ -12,7 +12,7 @@ abstract class __CRankGetInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閼惧嘲绶遍幒鎺曨攽濮掓粍鏆熼幑?
+ * 闁兼儳鍢茬欢閬嶅箳閹烘洦鏀芥慨鎺撶矋閺嗙喖骞�?
  * @author changhao
  *
  */
@@ -23,7 +23,7 @@ public class CRankGetInfo extends __CRankGetInfo__ {
 		if (roleId < 0)
 			return;
 		switch(ranktype){
-		case fire.pb.ranklist.RankType.ROLE_ZONGHE_RANK: //缂佺厧鎮�,閼卞奔绗熼幒鎺戞倳 by changhao
+		case fire.pb.ranklist.RankType.ROLE_ZONGHE_RANK: //缂備胶鍘ч幃锟�,闁煎崬濂旂粭鐔煎箳閹烘垶鍊� by changhao
 		case fire.pb.ranklist.RankType.PROFESSION_WARRIOR_RANK:
 		case fire.pb.ranklist.RankType.PROFESSION_MAGIC_RANK:
 		case fire.pb.ranklist.RankType.PROFESSION_PRIEST_RANK:

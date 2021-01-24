@@ -11,7 +11,7 @@ abstract class __CRequestClanFightTeamRoleNum__ extends mkio.Protocol { }
 // DO NOT EDIT THIS }}}
 // RPCGEN_IMPORT_END }}}
 /***
- * 鐠囬攱鐪伴崗顑跨窗閹存ê濮忕憴鎺曞閸滃矂妲︽导宥嗘殶闁�? by changhao
+ * 閻犲洭鏀遍惇浼村礂椤戣法绐楅柟瀛樏慨蹇曟喆閹烘洖顥忛柛婊冪焸濡诧附瀵煎鍡樻闂侊拷? by changhao
  *
  */
 public class CRequestClanFightTeamRoleNum extends __CRequestClanFightTeamRoleNum__ {
@@ -31,7 +31,7 @@ public class CRequestClanFightTeamRoleNum extends __CRequestClanFightTeamRoleNum
 			protected boolean process()
 			{
 				int side = 0;
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //濡�?濞村妲搁崥锕�婀幋妯烘簚娑�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //婵★拷?婵炴潙顑嗗Σ鎼佸触閿曪拷濠�顏堝箣濡儤绨氬☉锟�? by changhao
 				if (c1 == null)
 				{
 					return false;

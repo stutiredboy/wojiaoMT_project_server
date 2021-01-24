@@ -12,7 +12,7 @@ abstract class __CRequestHaveTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠囥垽妫堕弰顖氭儊閺堝妲�
+ * 閻犲洢鍨藉Λ鍫曞及椤栨碍鍎婇柡鍫濐樀濡诧拷
  * @author changhao
  *
  */

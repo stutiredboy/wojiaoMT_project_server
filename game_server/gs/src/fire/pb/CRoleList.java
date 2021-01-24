@@ -31,7 +31,7 @@ public class CRoleList extends __CRoleList__ {
 		final int userID = ((Dispatch)this.getContext()).userid;
 		if(userID == -1){
 			kickUser(-1000);
-			 mkdb.Trace.info("CRoleList====userid = -1  闊垺甯�  =============");
+			 mkdb.Trace.info("CRoleList====userid = -1  闂婎亗鍨虹敮锟�  =============");
 			return;
 		}
 		StateManager.logger.info(new StringBuilder("userID=").append(userID).append(" CRoleList"));
@@ -93,7 +93,7 @@ public class CRoleList extends __CRoleList__ {
 	}
 	
 	private boolean checkUserAccount(int userID) {
-		if (UniqName.exist("activeuser", String.valueOf(userID))!= UniqName.RPC_NOT_EXISTS) //鐎涙ê婀拠瀛樻瀹歌尙绮″┑?濞�?,閸欘垯浜掗惄瀛樺复鏉╂稑鍙嗗〒鍛婂灆
+		if (UniqName.exist("activeuser", String.valueOf(userID))!= UniqName.RPC_NOT_EXISTS) //閻庢稒锚濠�顏嗘嫚鐎涙ɑ顫栫�规瓕灏欑划鈥斥攽?婵烇拷?,闁告瑯鍨禍鎺楁儎鐎涙ê澶嶉弶鈺傜☉閸欏棗銆掗崨濠傜亞
 			return true;
 		
 		return false;

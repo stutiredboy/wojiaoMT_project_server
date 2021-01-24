@@ -24,7 +24,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 	protected void process() {
 		// protocol handle
 		final byte changetype = getType(pos);
-		if (changetype == 0 && ride == -1) // 閸ф劙鐛炲▽鈩冩箒閸欐ê瀵� by changhao
+		if (changetype == 0 && ride == -1) // 闁秆勫姍閻涚偛鈻介埄鍐╃畳闁告瑦锚鐎碉拷 by changhao
 			return;
 		Role role = fire.pb.scene.manager.RoleManager.getInstance().getRoleByID(roleid);
 		if (role == null)
@@ -32,7 +32,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 		if (null == role.getScene())
 			return;
 
-		if (changetype != 0) // 鐟佸懎顦崣妯哄 by changhao
+		if (changetype != 0) // 閻熶礁鎳庨ˇ顒勫矗濡搫顕� by changhao
 		{
 			role.components.put(changetype, itemid);
 			if (changetype == SpriteComponents.SPRITE_WEAPON) {
@@ -41,7 +41,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 				else
 					role.components.remove((byte) SpriteComponents.SPRITE_WEAPONCOLOR);
 			}
-			// 鏉╂瑩鍣烽悧瑙勭暕婢跺嫮鎮婃稉?娑撳妞傜憗?2
+			// 閺夆晜鐟╅崳鐑芥偋鐟欏嫮鏆曞璺哄閹﹥绋�?濞戞挸顑嗗鍌滄啑?2
 			if (changetype == SpriteComponents.ROLE_COLOR1) {
 				xbean.Properties prop = xtable.Properties.select(roleid);
 				role.components.put((byte) SpriteComponents.ROLE_COLOR2,
@@ -49,7 +49,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 			}
 		}
 
-		if (ride != -1) // 閸ф劙鐛為崣妯哄 by changhao
+		if (ride != -1) // 闁秆勫姍閻涚偤宕ｅΟ鍝勵嚙 by changhao
 		{
 			role.components.put((byte) SpriteComponents.SPRITE_HORSEDRESS, ride);
 		}
@@ -71,7 +71,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 					else
 						send.components.put((byte) SpriteComponents.SPRITE_WEAPONCOLOR, 0);
 				}
-				// 鏉╂瑩鍣烽悧瑙勭暕婢跺嫮鎮婃稉?娑撳妞傜憗?2
+				// 閺夆晜鐟╅崳鐑芥偋鐟欏嫮鏆曞璺哄閹﹥绋�?濞戞挸顑嗗鍌滄啑?2
 				if (changetype == SpriteComponents.ROLE_COLOR1) {
 					xbean.Properties prop = xtable.Properties.select(roleid);
 					send.components.put((byte) SpriteComponents.ROLE_COLOR2, prop.getRolecolor2());
@@ -86,7 +86,7 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 			}
 			send.spritetype = 0;
 			role.sendAround(send);
-			// 閸欐垿?浣虹舶闂冪喎鎲�,婵″倹鐏夐張澶屾畱鐠�?
+			// 闁告瑦鍨�?娴ｈ櫣鑸堕梻鍐枎閹诧拷,濠碘�冲�归悘澶愬嫉婢跺本鐣遍悹锟�?
 			fire.pb.scene.movable.SceneTeam team = SceneTeamManager.getInstance().getTeamByID(roleid);
 			if (team == null) {
 				gnet.link.Onlines.getInstance().send(roleid, send);
@@ -103,12 +103,12 @@ public class GRoleEquipChange extends __GRoleEquipChange__ {
 	}
 
 	/**
-	 * WEAPON		= 0; //濮濓箑娅�
-		ACCESSORY	= 2; //妤楁澘鎼�
-		ARMOR 		= 3; //闁剧姷鏁�
-		BELT 		= 4; //閼垫澘鐢�
-		BOOT		= 5; //闂堟潙鐡�
-		HEADDRESS	= 6; //婢舵挳銈�
+	 * WEAPON		= 0; //婵繐绠戝▍锟�
+		ACCESSORY	= 2; //濡ゆ婢橀幖锟�
+		ARMOR 		= 3; //闂佸墽濮烽弫锟�
+		BELT 		= 4; //闁煎灚婢橀悽锟�
+		BOOT		= 5; //闂傚牊娼欓悺锟�
+		HEADDRESS	= 6; //濠㈣埖鎸抽妶锟�
 	 * @param pos
 	 * @return
 	 */

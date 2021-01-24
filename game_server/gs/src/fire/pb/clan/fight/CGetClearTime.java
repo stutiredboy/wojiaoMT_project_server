@@ -12,7 +12,7 @@ abstract class __CGetClearTime__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /**
- * 瀵版鍩屾稉瀣偧濞撳懘娅庨弫鐗堝祦閺冨爼妫� by changhao
+ * 鐎电増顨呴崺灞剧▔鐎ｎ偒鍋ф繛鎾虫嚇濞呭酣寮悧鍫濈ウ闁哄啫鐖煎Λ锟� by changhao
  *
  */
 public class CGetClearTime extends __CGetClearTime__ {

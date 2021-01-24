@@ -22,7 +22,7 @@ abstract class __CExpelMember__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 鐠囬顬囬梼鐔锋喅
+ * 閻犲洭顥撻‖鍥⒓閻旈攱鍠�
  * @author changhao
  *
  */
@@ -46,13 +46,13 @@ public class CExpelMember extends __CExpelMember__ {
 			{
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(leaderRoleId);
-				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?
+				//闁稿繐鐗撻悰娆戞嫚娓氾拷濡诧附瀵煎鍡樞﹂柛姘剧細鐠愮喓绮�?
 				if(teamId != null)
 					team = new Team(teamId,false);
 				else
 					return true;
 				if(!team.isTeamLeader(leaderRoleId))
-					return true;//妤犲矁鐦夌拠銉潡閼瑰弶妲搁崥锕佺箷閺勵垶妲︽导宥囨畱闂冪喖鏆�
+					return true;//濡ょ姴鐭侀惁澶屾嫚閵夘煈娼￠柤鐟板级濡叉悂宕ラ敃浣虹闁哄嫷鍨跺Σ锔藉瀹ュ洦鐣遍梻鍐枛閺嗭拷
 				Long[] roleids = new Long[2];
 				if(leaderRoleId < expeledRoleId)
 				{
@@ -73,29 +73,29 @@ public class CExpelMember extends __CExpelMember__ {
 
 				if(!checkLeaderInTeam(leaderRoleId, team))
 				{
-					//闊澀姹夐懓鍛瑝閸︺劑妲︽导宥勮厬閹存牞?鍛瑝閺勵垶妲﹂梹?(illegal)
-					TeamManager.logger.debug("FAIL:闊澀姹夐懓鍛瑝閸︺劑妲︽导宥勮厬閹存牞?鍛瑝閺勵垶妲﹂梹?,闊澀姹夐懓鍖: "+ leaderRoleId);
+					//闂婎亶婢�濮瑰鎳撻崨顒傜憹闁革负鍔戝Σ锔藉瀹ュ嫯鍘柟瀛樼墳?閸涱剛鐟濋柡鍕靛灦濡诧箓姊�?(illegal)
+					TeamManager.logger.debug("FAIL:闂婎亶婢�濮瑰鎳撻崨顒傜憹闁革负鍔戝Σ锔藉瀹ュ嫯鍘柟瀛樼墳?閸涱剛鐟濋柡鍕靛灦濡诧箓姊�?,闂婎亶婢�濮瑰鎳撻崠顣�: "+ leaderRoleId);
 				}
 				else if(!checkLeaderOnline(leaderRoleId))
 				{
-					//TODO 闊澀姹夐懓鍛瑝閸︺劎鍤�(illegal)
-					TeamManager.logger.debug("FAIL:闊澀姹夐懓鍛瑝閸︺劎鍤�,闊澀姹夐懓鍖: "+ leaderRoleId);
+					//TODO 闂婎亶婢�濮瑰鎳撻崨顒傜憹闁革负鍔庨崵锟�(illegal)
+					TeamManager.logger.debug("FAIL:闂婎亶婢�濮瑰鎳撻崨顒傜憹闁革负鍔庨崵锟�,闂婎亶婢�濮瑰鎳撻崠顣�: "+ leaderRoleId);
 				}
 				else if(!checkExpeledIsMember(team, expeledRoleId))
 				{
-					//TODO 鐞氼偉娑懓鍛瑝閺勵垵娑禍楦�?鍛存Е娴煎秵鍨氶崨?(illegal)
-					TeamManager.logger.debug("FAIL:鐞氼偉娑懓鍛瑝閺勵垵娑禍楦�?鍛存Е娴煎秵鍨氶崨?,鐞氼偉娑懓鍖: "+ expeledRoleId);
+					//TODO 閻炴凹鍋夊☉顏堟嚀閸涱剛鐟濋柡鍕靛灥濞戭亝绂嶆ウ锟�?閸涘瓨袝濞寸厧绉甸崹姘跺川?(illegal)
+					TeamManager.logger.debug("FAIL:閻炴凹鍋夊☉顏堟嚀閸涱剛鐟濋柡鍕靛灥濞戭亝绂嶆ウ锟�?閸涘瓨袝濞寸厧绉甸崹姘跺川?,閻炴凹鍋夊☉顏堟嚀閸栴晩: "+ expeledRoleId);
 				}
 				else if(!checkTeamLeaderState(leaderRoleId))
 				{
-					//TODO 闂冪喍绱為悩鑸�?浣风瑝閸忎浇顔�(illegal)
-					TeamManager.logger.debug("FAIL:闂冪喍绱為悩鑸�?浣风瑝閸忎浇顔�,鐞氼偉娑懓鍖: "+ expeledRoleId);
+					//TODO 闂傚啰鍠嶇槐鐐烘偐閼革拷?娴ｉ鐟濋柛蹇庢祰椤旓拷(illegal)
+					TeamManager.logger.debug("FAIL:闂傚啰鍠嶇槐鐐烘偐閼革拷?娴ｉ鐟濋柛蹇庢祰椤旓拷,閻炴凹鍋夊☉顏堟嚀閸栴晩: "+ expeledRoleId);
 				}
 				else
 				{
 					team.removeTeamMemberWithSP(expeledRoleId,false);
 					
-					//閸氭垼顫︾粋濠氭Е閼板懎褰傞柅浣圭Х閹�?
+					//闁告碍鍨奸～锔剧矉婵犳碍袝闁兼澘鎳庤ぐ鍌炴焻娴ｅ湱啸闁癸拷?
 					PropRole prole = new PropRole(team.getTeamInfo().getTeamleaderid(), true);
 					List<String> name = new ArrayList<String>();
 					name.add(prole.getName());
@@ -105,9 +105,9 @@ public class CExpelMember extends __CExpelMember__ {
 					expelname.add(expelrole.getName());
 					for(long memberId : team.getAllMemberIds())
 						fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(memberId,141208,expelname);
-					TeamManager.logger.debug("SUCC:闂冪喍绱為煪顫眽,鐞氼偉娑懓鍖: "+ expeledRoleId);
+					TeamManager.logger.debug("SUCC:闂傚啰鍠嶇槐鐐虹叒椤厽鐪�,閻炴凹鍋夊☉顏堟嚀閸栴晩: "+ expeledRoleId);
 				}
-	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //鐞氼偉娑崙娲Е娴煎秴鎮楅敍灞炬箒鐢喗娣抽崶娑欐煙瀹嘎ゎ潒娴犺濮熼惃鍕潡閼硅尪顩︾拋棰佹崲閸斺�炽亼鐠�?
+	//			FactionPatrol.setRoleTaskFailed(expeledRoleId);  //閻炴凹鍋夊☉顏堝礄濞差亝袝濞寸厧绉撮幃妤呮晬鐏炵偓绠掗悽顖ｅ枟濞ｆ娊宕跺☉娆愮厵鐎瑰槑銈庢綊濞寸姾顕ф慨鐔兼儍閸曨噮娼￠柤纭呭蔼椤╋妇鎷嬫０浣瑰床闁告柡锟界偨浜奸悹锟�?
 				fire.pb.event.Poster.getPoster().dispatchEvent(new LeaveTeamSpecialQuestEvent(expeledRoleId));
 				return true;
 			}
@@ -116,13 +116,13 @@ public class CExpelMember extends __CExpelMember__ {
 		
 	}
 
-	// 濡�?濞村└VP
+	// 婵★拷?婵炴潙鈹擵P
 	private static int checkPvP(long leaderRoleId, long expeledRoleId) {
-		// 鐠囬顬囬梼鐔锋喅
+		// 閻犲洭顥撻‖鍥⒓閻旈攱鍠�
 		return fire.pb.battle.pvp.PvPTeamHandle.onExpelMember(leaderRoleId, expeledRoleId);
 	}
 	
-	// 闊澀姹夐懓鍛Ц娑�?娑擃亪妲︽导宥囨畱闂冪喖鏆遍敍??閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂婎亶婢�濮瑰鎳撻崨顔叫﹀☉锟�?濞戞搩浜Σ锔藉瀹ュ洦鐣遍梻鍐枛閺嗛亶鏁�??闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkLeaderInTeam(long leaderRoleId,Team team)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -133,7 +133,7 @@ public class CExpelMember extends __CExpelMember__ {
 
 	}
 	
-	// 闊澀姹夐懓鍛躬缁�??閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂婎亶婢�濮瑰鎳撻崨顓熻含缂侊拷??闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkLeaderOnline(long leaderRoleId)
 	{
 		if(StateCommon.isOnline(leaderRoleId))
@@ -142,7 +142,7 @@ public class CExpelMember extends __CExpelMember__ {
 			return false;
 	}
 	
-	//鐞氼偉娑懓鍛Ц闂冪喖鏆遍梼鐔剁礊閻ㄥ嫰妲﹂崨姗堢吹閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	//閻炴凹鍋夊☉顏堟嚀閸涱喗笑闂傚啰鍠栭弳閬嶆⒓閻斿墎绀婇柣銊ュ濡诧箓宕ㄥ鍫㈠惞闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkExpeledIsMember(Team team, long expeledRoleId)
 	{
 		//xbean.TeamInfo team = xtable.Team.get(teamId);
@@ -154,7 +154,7 @@ public class CExpelMember extends __CExpelMember__ {
 		return false;
 	}
 	
-	// 闁�?鐠囩柉?鍛Ц閹椒绗夐崗浣筋啅? 閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂侊拷?閻犲洨鏌�?閸涱垰笑闁诡兛妞掔粭澶愬礂娴ｇ瓔鍟�? 闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkTeamLeaderState(long roleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(roleId);

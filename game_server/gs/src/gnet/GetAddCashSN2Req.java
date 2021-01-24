@@ -30,7 +30,7 @@ public class GetAddCashSN2Req extends __GetAddCashSN2Req__ {
 			}			
             roleid = u.getPrevloginroleid();
 		}
-//		if (force==0&&(hasRole && forbiden())){//婵″倹鐏夐張澶庮潡閼�?,娑撴棁澶勯崣宄邦槱娴滃骸鐨濈粋浣哄Ц閹�?
+//		if (force==0&&(hasRole && forbiden())){//濠碘�冲�归悘澶愬嫉婢跺寒娼￠柤锟�?,濞戞挻妫佹径鍕矗瀹勯偊妲卞ù婊冮閻ㄦ繄绮嬫担鍝勑﹂柟锟�?
 //			getAddCashSNRep.sn = sn+1;
 //			getAddCashSNRep.userid = userid;
 //			getAddCashSNRep.xid = xid;

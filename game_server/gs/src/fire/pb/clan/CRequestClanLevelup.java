@@ -29,7 +29,7 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 			return;
 		
 		/***
-		 * 閸旂娀鏀ｆい鍝勭碍faction2->role by changhao
+		 * 闁告梻濞�閺�锝嗐亜閸濆嫮纰峟action2->role by changhao
 		 */
 		mkdb.Procedure requestfactionlevelup = new mkdb.Procedure()
 		{
@@ -48,10 +48,10 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 				}
 				
 				int money = clan.getMoney();
-				int uplevel=0;//閸楀洨楠囬崥搴ｆ畱缁涘楠�
-				int cost=0;//濞戝牐??
+				int uplevel=0;//闁告娲ㄦ鍥触鎼达絾鐣辩紒娑橆槺妤狅拷
+				int cost=0;//婵炴垵鐗�??
 				int opid=0;//
-				if (id == ClanManage.Lobby) //婢堆冨泛閸楀洨楠� by changhao
+				if (id == ClanManage.Lobby) //濠㈠爢鍐ㄦ硾闁告娲ㄦ锟� by changhao
 				{
 					int level = clan.getClanlevel();
 					int sumlevel = 0;
@@ -67,7 +67,7 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					}
 				
 					fire.pb.clan.SClanLobby l =  fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.clan.SClanLobby.class).get(level + 1);
-					if (l == null) //娑撳秷鍏橀崘宥呭磳娴�? by changhao
+					if (l == null) //濞戞挸绉烽崗姗�宕樺鍛３濞达拷? by changhao
 					{
 						java.util.ArrayList<String> args = new java.util.ArrayList<String>();
 						Integer s = level;
@@ -77,7 +77,7 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					}
 					
 					int sum = lobby.othersum;
-					if (sumlevel < sum) //鐟曚焦鐪版稉宥咁檮 by changhao
+					if (sumlevel < sum) //閻熸洑鐒﹂惇鐗堢▔瀹ュ拋妾� by changhao
 					{
 						//java.util.List<String> parameters = new java.util.ArrayList<String>();
 						//parameters.add(attr.name);
@@ -85,13 +85,13 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 						return true;
 					}
 				
-					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.Lobby)) //鐠愵喖顦惃鍕櫨闁藉彉绗夌搾? by changhao
+					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.Lobby)) //閻犳劦鍠栭ˇ顒勬儍閸曨垰娅ㄩ梺钘夊綁缁楀鎼�? by changhao
 					{
 						fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160224, null);
 						return true;
 					}
 					
-					//閹碉綁鎸� by changhao
+					//闁圭缍侀幐锟� by changhao
 					boolean ok = ClanManage.AddClanMoney(-lobby.levelupcost, clan);
 					if (ok == false)
 					{
@@ -103,13 +103,13 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					
 					sClanLevelup.change.put(ClanManage.Lobby, level + 1);
 					sClanLevelup.money = clan.getMoney();	
-					uplevel=level + 1;//閸楀洨楠囬崥搴ｆ畱缁涘楠�
-					cost=lobby.levelupcost;//濞戝牐??
+					uplevel=level + 1;//闁告娲ㄦ鍥触鎼达絾鐣辩紒娑橆槺妤狅拷
+					cost=lobby.levelupcost;//婵炴垵鐗�??
 					opid=FactionOpbean.TYPE_LOBBY_UP;
 					
 					SendAllFactionMemeber(clan, ClanManage.Lobby, level + 1);
 					
-					//閺囧瓨鏌婇崗顑跨窗缁涘楠囬幒鎺曨攽 by changhao
+					//闁哄洤鐡ㄩ弻濠囧礂椤戣法绐楃紒娑橆槺妤犲洭骞掗幒鏇ㄦ斀 by changhao
 					mkdb.Procedure.pexecuteWhileCommit(new ClanRank(clan.toData()));
 					mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PFactionZongHeProc(clan.getKey(), false));
 					mkdb.Procedure.pexecuteWhileCommit(new fire.pb.clan.fight.PClanFightUpdateClanLevel(clan.getKey(), clan.getClanlevel()));
@@ -125,7 +125,7 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					}
 				
 					fire.pb.clan.SClanGoldBank l =  fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.clan.SClanGoldBank.class).get(level + 1);
-					if (l == null) //娑撳秷鍏橀崘宥呭磳娴�? by changhao
+					if (l == null) //濞戞挸绉烽崗姗�宕樺鍛３濞达拷? by changhao
 					{
 						java.util.ArrayList<String> args = new java.util.ArrayList<String>();
 						Integer s = level;
@@ -134,13 +134,13 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 						return true;						
 					}
 					
-					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.GoldBank)) //鐠愵喖顦惃鍕櫨闁藉彉绗夌搾? by changhao
+					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.GoldBank)) //閻犳劦鍠栭ˇ顒勬儍閸曨垰娅ㄩ梺钘夊綁缁楀鎼�? by changhao
 					{
 						fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160224, null);
 						return true;
 					}
 					
-					//閹碉綁鎸� by changhao
+					//闁圭缍侀幐锟� by changhao
 					boolean ok = ClanManage.AddClanMoney(-bank.levelupcost, clan);
 					if (ok == false)
 					{
@@ -152,8 +152,8 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					
 					sClanLevelup.change.put(ClanManage.GoldBank, level + 1);
 					sClanLevelup.money = clan.getMoney();	
-					uplevel=level + 1;//閸楀洨楠囬崥搴ｆ畱缁涘楠�
-					cost=bank.levelupcost;//濞戝牐??
+					uplevel=level + 1;//闁告娲ㄦ鍥触鎼达絾鐣辩紒娑橆槺妤狅拷
+					cost=bank.levelupcost;//婵炴垵鐗�??
 					opid=FactionOpbean.TYPE_GOLD_UP;
 					
 					SendAllFactionMemeber(clan, ClanManage.GoldBank, level + 1);
@@ -169,7 +169,7 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					}
 				
 					fire.pb.clan.SClanDrugstore l =  fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.clan.SClanDrugstore.class).get(level + 1);
-					if (l == null) //娑撳秷鍏橀崘宥呭磳娴�? by changhao
+					if (l == null) //濞戞挸绉烽崗姗�宕樺鍛３濞达拷? by changhao
 					{
 						java.util.ArrayList<String> args = new java.util.ArrayList<String>();
 						Integer s = level;
@@ -178,13 +178,13 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 						return true;						
 					}
 					
-					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.DrugStone)) //鐠愵喖顦惃鍕櫨闁藉彉绗夌搾? by changhao
+					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.DrugStone)) //閻犳劦鍠栭ˇ顒勬儍閸曨垰娅ㄩ梺钘夊綁缁楀鎼�? by changhao
 					{
 						fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160224, null);
 						return true;
 					}
 					
-					//閹碉綁鎸� by changhao
+					//闁圭缍侀幐锟� by changhao
 					boolean ok = ClanManage.AddClanMoney(-drugstone.levelupcost, clan);
 					if (ok == false)
 					{
@@ -197,12 +197,12 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					sClanLevelup.change.put(ClanManage.DrugStone, level + 1);
 					sClanLevelup.money = clan.getMoney();
 					
-					uplevel=level + 1;//閸楀洨楠囬崥搴ｆ畱缁涘楠�
-					cost=drugstone.levelupcost;//濞戝牐??
+					uplevel=level + 1;//闁告娲ㄦ鍥触鎼达絾鐣辩紒娑橆槺妤狅拷
+					cost=drugstone.levelupcost;//婵炴垵鐗�??
 					opid=FactionOpbean.TYPE_DRUGSTONE_UP;
 					
 					SendAllFactionMemeber(clan, ClanManage.DrugStone, level + 1);
-					//婢跺嫮鎮婃妯款吇閸掔柉宓傞柅鏄忕帆
+					//濠㈣泛瀚幃濠冾渶濡鍚囬柛鎺旀焿瀹撳倿鏌呴弰蹇曞竼
 					if(level==0){
 						mkdb.Procedure proc=fire.pb.clan.srv.ClanManage.refreshMedic(clan.getKey());
 						mkdb.Procedure.pexecuteWhileCommit(proc);
@@ -219,7 +219,7 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					}
 				
 					fire.pb.clan.SClanDrugstore l =  fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.clan.SClanDrugstore.class).get(level + 1);
-					if (l == null) //娑撳秷鍏橀崘宥呭磳娴�? by changhao
+					if (l == null) //濞戞挸绉烽崗姗�宕樺鍛３濞达拷? by changhao
 					{
 						java.util.ArrayList<String> args = new java.util.ArrayList<String>();
 						Integer s = level;
@@ -228,13 +228,13 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 						return true;						
 					}
 					
-					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.Hotel)) //鐠愵喖顦惃鍕櫨闁藉彉绗夌搾? by changhao
+					if (money < ClanUtils.getBuildLevelupMax(clan).get(ClanManage.Hotel)) //閻犳劦鍠栭ˇ顒勬儍閸曨垰娅ㄩ梺钘夊綁缁楀鎼�? by changhao
 					{
 						fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160224, null);
 						return true;
 					}
 					
-					//閹碉綁鎸� by changhao
+					//闁圭缍侀幐锟� by changhao
 					boolean ok = ClanManage.AddClanMoney(-hotel.levelupcost, clan);
 					if (ok == false)
 					{
@@ -246,19 +246,19 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 					
 					sClanLevelup.change.put(ClanManage.Hotel, level + 1);
 					sClanLevelup.money = clan.getMoney();
-					uplevel=level + 1;//閸楀洨楠囬崥搴ｆ畱缁涘楠�
-					cost=hotel.levelupcost;//濞戝牐??
+					uplevel=level + 1;//闁告娲ㄦ鍥触鎼达絾鐣辩紒娑橆槺妤狅拷
+					cost=hotel.levelupcost;//婵炴垵鐗�??
 					opid=FactionOpbean.TYPE_HOTEL_UP;
 					
 					SendAllFactionMemeber(clan, ClanManage.Hotel, level + 1);
-					//閺囧瓨鏌婇崗顑跨窗缁涘楠囬幒鎺曨攽 by changhao
+					//闁哄洤鐡ㄩ弻濠囧礂椤戣法绐楃紒娑橆槺妤犲洭骞掗幒鏇ㄦ斀 by changhao
 					mkdb.Procedure.pexecuteWhileCommit(new ClanRank(clan.toData()));
 					mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PFactionZongHeProc(clan.getKey(), false));
 				}
 				
 				sClanLevelup.costmax.putAll(ClanUtils.getBuildLevelupMax(clan));
-				mkdb.Procedure.psendWhileCommit(clan.getMembers().keySet(), sClanLevelup); //閸欐垿?浣虹舶閹�?閺堝绱伴崨? by changhao
-				//鏉╂劘鎯�閺冦儱绻�
+				mkdb.Procedure.psendWhileCommit(clan.getMembers().keySet(), sClanLevelup); //闁告瑦鍨�?娴ｈ櫣鑸堕柟锟�?闁哄牆顦槐浼村川? by changhao
+				//閺夆晜鍔橀幆锟介柡鍐﹀劚缁伙拷
 				ClanBuildUPBean factionOpbean=new ClanBuildUPBean(clan.getKey(),opid, uplevel -1, uplevel,cost);
 				fire.log.YYLogger.factionBuildUPLog(roleid,factionOpbean);
 				
@@ -292,7 +292,7 @@ public class CRequestClanLevelup extends __CRequestClanLevelup__ {
 			MessageMgr.psendSystemMessageToRole(roleid, msgid, paras);				
 		}
 		
-		//婢跺嫮鎮婄敮顔芥烦娴滃娆�
+		//濠㈣泛瀚幃濠勬暜椤旇姤鐑﹀ù婊冾儎濞嗭拷
 		fire.pb.clan.srv.ClanManage.addDealClanEventInfo(clanInfo,fire.pb.clan.srv.ClanManage.EVENT_BUILD_UP,0,fire.pb.clan.srv.ClanManage.getClanBuildNameByType(type),data+"","");
 		
 	}

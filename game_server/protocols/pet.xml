@@ -354,5 +354,7 @@
 	</protocol>
 	<!-- 宠物幻化结果 -->
 	<protocol name="SPetChangeHuanhua" type="2159" maxsize="128"  prior="1" tolua="3"> 
+		<variable name="petkey" type="int" validator="value=[1,)"/>
+		<variable name="huanhuaid" type="int" validator="value=[0,)"/>
 	</protocol>
 </namespace>

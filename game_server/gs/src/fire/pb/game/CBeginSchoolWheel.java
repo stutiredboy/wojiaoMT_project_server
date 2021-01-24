@@ -25,10 +25,10 @@ public class CBeginSchoolWheel extends __CBeginSchoolWheel__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() throws Exception {
-				TeamManager.getTeamByRoleId(roleid);//闁夸線妲︽导?
+				TeamManager.getTeamByRoleId(roleid);//闂佸じ绶氬Σ锔藉?
 				List<Long> list = new ArrayList<Long>();
 				list.add(roleid);
-				lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK, list));//闁夸礁缍嬮崜宥堫潡閼�?
+				lock(mkdb.Lockeys.get(xtable.Locks.ROLELOCK, list));//闂佸じ绀佺紞瀣礈瀹ュ牜娼￠柤锟�?
 				xbean.SchoolWheel schoolWheel = xtable.Openschoolwheeltable.get(roleid);
 				if (schoolWheel == null) {
 					schoolWheel = xbean.Pod.newSchoolWheel();
@@ -43,7 +43,7 @@ public class CBeginSchoolWheel extends __CBeginSchoolWheel__ {
 				schoolWheel.setItemindex(itemIndex);
 				schoolWheel.setAwardid(GameManager.SCHOOLWHEEL);
 				
-				//TODO 閹碉綁娅庢潪顒傛磸閼鸿精鍨�
+				//TODO 闁圭缍佸▍搴㈡姜椤掑倹纾搁柤楦跨簿閸拷
 				fire.pb.item.Pack bag = new fire.pb.item.Pack(roleid, false);
 				long ret = bag.subCurrency(-60, MoneyType.MoneyType_ProfContribute, "schoolwheel", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_zhuanpan, 0);
 				if (ret == 0)

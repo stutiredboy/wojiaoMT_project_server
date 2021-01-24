@@ -29,12 +29,12 @@ public class CRenXingCircleTask extends __CRenXingCircleTask__ {
 			return;
 		
 		/*
-		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //閻愮懓宕遍張宥呭閸�? by changhao
+		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闁绘劗鎳撳畷閬嶅嫉瀹ュ懎顫ら柛锟�? by changhao
 		{
 			boolean ok = fire.pb.fushi.DayPayManager.getInstance().CheckDayPayWithLevel(roleid);
 			if (ok == false)
 			{
-				FushiManager.logger.error("CRenXingCircleTask: 濞屸剝婀侀悙鐟板幢");
+				FushiManager.logger.error("CRenXingCircleTask: 婵炲备鍓濆﹢渚�鎮欓悷鏉垮耿");
 				return;
 			}
 		}

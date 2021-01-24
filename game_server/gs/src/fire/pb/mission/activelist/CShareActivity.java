@@ -27,7 +27,7 @@ public class CShareActivity extends __CShareActivity__ {
 					else if(activityid == RoleLiveness.SHARE2)
 						actrole.handleActiveLivenessData(RoleLiveness.SHARE2);
 					else {
-						RoleLivenessManager.logger.error("鐟欐帟澹奫" + roleid + "]閸戝棗顦径鍕倞閸掑棔闊╁ú璇插З[" + activityid + "]濞屸剝婀侀柊宥囩枂閿涗礁缍嬮崚鍡曢煩1濞茶濮╂径鍕倞.");
+						RoleLivenessManager.logger.error("閻熸瑦甯熸竟濂�" + roleid + "]闁告垵妫楅ˇ顒佸緞閸曨厽鍊為柛鎺戞闂娾晛煤鐠囨彃袟[" + activityid + "]婵炲备鍓濆﹢渚�鏌婂鍥╂瀭闁挎稐绀佺紞瀣礆閸℃洟鐓�1婵炶尪顕ф慨鈺傚緞閸曨厽鍊�.");
 						if(activityid > 0)
 							actrole.handleActiveLivenessData(activityid);
 					}

@@ -34,7 +34,7 @@ public class GChangeShape extends __GChangeShape__ {
 			send.shape = shape;
 			send.playerid = playerid;
 			if(role.getModeid() == shape){
-				role.setTransformid(0);//閸欐闊╅崶鐐插斧閺夈儳娈戦弽宄扮摍閿涘本绔婚梽銈呭綁闊�?
+				role.setTransformid(0);//闁告瑦顭堥棅鈺呭炊閻愭彃鏂ч柡澶堝劤濞堟垿寮藉畡鎵憤闁挎稑鏈粩濠氭⒔閵堝懎缍侀棅锟�?
 			}
 			else
 				role.setTransformid(shape);
@@ -44,7 +44,7 @@ public class GChangeShape extends __GChangeShape__ {
 			sadduser.rolelist.add(addRole.getRoleBasic());
 			gnet.link.Onlines.getInstance().send(role.getRoleID(), sadduser);
 		} else if(changetype == 1) {
-			//婢跺嫮鎮妌pc鐠虹喖娈�
+			//濠㈣泛瀚幃濡宲c閻犺櫣鍠栧▓锟�
 			if(shape == 0) {
 				fire.pb.mission.SNpcFollowEnd send = new fire.pb.mission.SNpcFollowEnd();
 				send.npcid = shape;
@@ -55,7 +55,7 @@ public class GChangeShape extends __GChangeShape__ {
 				role.send(send);
 			}
 		} else if(changetype == 2) {
-			//婢跺嫮鎮婇張澶婃綏妤犳垹娈戦弮璺�?娆欑吹
+			//濠㈣泛瀚幃濠囧嫉婢跺﹥缍忓Δ鐘冲灩濞堟垿寮捄锟�?濞嗘瑧鍚�
 			xbean.TransfromInfo ti = xtable.Transfromroles.select(playerid);
 			int rideid = 0;
 			if (ti != null) {
@@ -65,7 +65,7 @@ public class GChangeShape extends __GChangeShape__ {
 			send.shape = shape;
 			send.playerid = playerid;
 			if(role.getModeid() == shape) {
-				role.setTransformid(0);//閸欐闊╅崶鐐插斧閺夈儳娈戦弽宄扮摍閿涘本绔婚梽銈呭綁闊�?
+				role.setTransformid(0);//闁告瑦顭堥棅鈺呭炊閻愭彃鏂ч柡澶堝劤濞堟垿寮藉畡鎵憤闁挎稑鏈粩濠氭⒔閵堝懎缍侀棅锟�?
 			}
 			else {
 				role.setTransformid(shape);
@@ -81,8 +81,8 @@ public class GChangeShape extends __GChangeShape__ {
 			sadduser.rolelist.add(addRole.getRoleBasic());
 			gnet.link.Onlines.getInstance().send(role.getRoleID(), sadduser);
 		} else if (changetype == 3) {
-			//閹恒儰鎹㈤崝鈩冩瀵�?婵璐板〒?
-		//	role.setCruiseid(shape);//鐠佸墽鐤嗗鈩冪埗閻樿埖?渚婄礉Marshal()
+			//闁规亽鍎伴幑銏ゅ礉閳╁啯顦х�碉拷?濠殿喖顑呯拹鏉裤��?
+		//	role.setCruiseid(shape);//閻犱礁澧介悿鍡楊啅閳╁啰鍩楅柣妯垮煐?娓氬﹦绀塎arshal()
 		//	role.setCruiseid2(shape2);
 			//role.setCruiseid3(shape3);
 		//	Role addRole = RoleManager.getInstance().getRoleByID(role.getRoleID());
@@ -93,9 +93,9 @@ public class GChangeShape extends __GChangeShape__ {
 		}
 		else if (changetype == 4)
 		{
-			//鐎瑰本鍨氭禒璇插閹存牞?鍛瑓缁炬寧妞傞崣鏍ㄧХ瀹糕剝鐖�
+			//閻庣懓鏈崹姘鐠囨彃顫ら柟瀛樼墳?閸涱剛鐟撶紒鐐濡炲倿宕ｉ弽銊ョ�圭硶鍓濋悥锟�
 			if(role.getCruiseid() == shape || role.getCruiseid() == 0) {
-				role.setCruiseid(0);//鐠佸墽鐤嗗鈩冪埗閻樿埖?渚婄礉Marshal()
+				role.setCruiseid(0);//閻犱礁澧介悿鍡楊啅閳╁啰鍩楅柣妯垮煐?娓氬﹦绀塎arshal()
 				role.setCruiseid2(0);
 				role.setCruiseid3(0);
 				Role addRole = RoleManager.getInstance().getRoleByID(role.getRoleID());
@@ -105,8 +105,8 @@ public class GChangeShape extends __GChangeShape__ {
 				//gnet.link.Onlines.getInstance().send(role.getRoleID(), sadduser);
 			}
 		} else if (changetype == 5) {
-				//娑擃參?鏃�娲块弬? by changhao
-				role.setCruiseid(shape);//鐠佸墽鐤嗗鈩冪埗閻樿埖?渚婄礉Marshal()
+				//濞戞搩鍙�?閺冿拷濞插潡寮�? by changhao
+				role.setCruiseid(shape);//閻犱礁澧介悿鍡楊啅閳╁啰鍩楅柣妯垮煐?娓氬﹦绀塎arshal()
 				role.setCruiseid2(shape2);
 				role.setCruiseid3(shape3);
 				Role addRole = RoleManager.getInstance().getRoleByID(role.getRoleID());

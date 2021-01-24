@@ -35,7 +35,7 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 		final int userid = ((Dispatch)this.getContext()).userid;
 		if(userid == -1){
 			kickUser(-1000);
-			mkdb.Trace.info("CRoleList====userid = -1  闊垺甯�  =============");
+			mkdb.Trace.info("CRoleList====userid = -1  闂婎亗鍨虹敮锟�  =============");
 			return;
 		}
 		
@@ -55,38 +55,38 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 					machineInfos.put(uiu.key, uiu.value);
 				}
 				
-				//鏉╂瑩鍣锋径鍕倞娑�?娑撳妫╄箛妤冩祲閸忓磭娈戦柅鏄忕帆
+				//閺夆晜鐟╅崳閿嬪緞閸曨厽鍊炲☉锟�?濞戞挸顑嗗Λ鈺勭疀濡ゅ啯绁查柛蹇撶－濞堟垿鏌呴弰蹇曞竼
 				xbean.UserDeviceInfo userDeviceInfo=xtable.Userdeviceinfotab.get(userid);
 				boolean isfirst=false;
 				int first=1;
 				if(userDeviceInfo==null){
-					//閺勵垳顑囨稉?濞嗏剝鏁為崘?
+					//闁哄嫷鍨抽鍥ㄧ▔?婵炲棌鍓濋弫鐐哄礃?
 					first=0;
 					isfirst=true;
 					userDeviceInfo=xbean.Pod.newUserDeviceInfo();
 					xtable.Userdeviceinfotab.insert(userid, userDeviceInfo);
 				}
-				userDeviceInfo.setIp(userinfo!=null?InetAddressUtil.ipInt2String(userinfo.getLoginip()):"auuserinfonull"); // 閻溾晛顔嶇拋鎯ь槵IP
-				//鐠佸墽鐤嗛惄绋垮彠閻ㄥ嫬顓归幋椋庮伂閺堝搫娅掓穱鈩冧紖
-				userDeviceInfo.setTelcooper(machineInfos.get("TelcoOper")==null?"":machineInfos.get("TelcoOper")); // 閻€劍鍩涚純鎴犵捕鏉╂劘鎯�閸�?
-				userDeviceInfo.setChid(machineInfos.get("ChId")==null?"":machineInfos.get("ChId")); // 濞撶娀浜綢D
-				userDeviceInfo.setPlattype(machineInfos.get("PlatType")==null?"":machineInfos.get("PlatType")); // 楠炲啿褰碔D(IOS,android,wp)
-				userDeviceInfo.setDeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId")); // 閻溾晛顔嶇拋鎯ь槵(mac/idfv)鐠佹儳顦崬顖欑閺嶅洩鐦�
-				userDeviceInfo.setImei(machineInfos.get("IMEI")==null?"":machineInfos.get("IMEI")); // 閸忋儳缍夐弽鍥槕缁�?
-				userDeviceInfo.setNetenvir(machineInfos.get("NetEnvir")==null?"":machineInfos.get("NetEnvir")); // 缂冩垹绮堕悳顖氼暔(婵″偊绱�3G,4G,wifi)
-				userDeviceInfo.setOsver(machineInfos.get("OsVer")==null?"":machineInfos.get("OsVer")); // 閻溾晛顔嶇化鑽ょ埠閻楀牊婀�(閸忚渹缍嬮悧鍫熸拱婵′堪os9,android4.1)
-				userDeviceInfo.setBrtype(machineInfos.get("BrType")==null?"":machineInfos.get("BrType")); // 閻溾晛顔嶉幍瀣簚缁鐎�(婵″倽浠堥幆绛圭礉闁伴攱娣�)
+				userDeviceInfo.setIp(userinfo!=null?InetAddressUtil.ipInt2String(userinfo.getLoginip()):"auuserinfonull"); // 闁绘壕鏅涢宥囨媼閹屾УIP
+				//閻犱礁澧介悿鍡涙儎缁嬪灝褰犻柣銊ュ椤撳綊骞嬫搴紓闁哄牆鎼▍鎺撶┍閳╁啩绱�
+				userDeviceInfo.setTelcooper(machineInfos.get("TelcoOper")==null?"":machineInfos.get("TelcoOper")); // 闁烩偓鍔嶉崺娑氱磾閹寸姷鎹曢弶鈺傚姌閹拷闁革拷?
+				userDeviceInfo.setChid(machineInfos.get("ChId")==null?"":machineInfos.get("ChId")); // 婵炴挾濞�娴滅盯D
+				userDeviceInfo.setPlattype(machineInfos.get("PlatType")==null?"":machineInfos.get("PlatType")); // 妤犵偛鍟胯ぐ纰擠(IOS,android,wp)
+				userDeviceInfo.setDeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId")); // 闁绘壕鏅涢宥囨媼閹屾У(mac/idfv)閻犱焦鍎抽ˇ顒勫船椤栨瑧顏遍柡宥呮穿閻︼拷
+				userDeviceInfo.setImei(machineInfos.get("IMEI")==null?"":machineInfos.get("IMEI")); // 闁稿繈鍎崇紞澶愬冀閸ヮ亞妲曠紒锟�?
+				userDeviceInfo.setNetenvir(machineInfos.get("NetEnvir")==null?"":machineInfos.get("NetEnvir")); // 缂傚啯鍨圭划鍫曟偝椤栨凹鏆�(濠碘�冲亰缁憋拷3G,4G,wifi)
+				userDeviceInfo.setOsver(machineInfos.get("OsVer")==null?"":machineInfos.get("OsVer")); // 闁绘壕鏅涢宥囧寲閼姐倗鍩犻柣妤�鐗婂﹢锟�(闁稿繗娓圭紞瀣偋閸喐鎷卞┑鈥插牚os9,android4.1)
+				userDeviceInfo.setBrtype(machineInfos.get("BrType")==null?"":machineInfos.get("BrType")); // 闁绘壕鏅涢宥夊箥鐎ｎ偅绨氱紒顐ヮ嚙閻庯拷(濠碘�冲�芥禒鍫ュ箚缁涘湱绀夐梺浼存敱濞ｏ拷)
 				String username=xtable.Auuserinfo.selectUsername(userid);
 				if(username!=null){
 					userDeviceInfo.setUsername(username);
 				}
 				
 				if(isfirst==true){
-					//濞夈劌鍞介惃鍕箥閽�銉︽）韫�?
+					//婵炲鍔岄崬浠嬫儍閸曨喚绠ラ柦锟介妷锔斤級闊拷?
 					userDeviceInfo.setFirstdeviid(machineInfos.get("DeviId")==null?"":machineInfos.get("DeviId"));
 					fire.log.YYLogger.OpRegLog(userid,0,0);
 				}
-				//閻у妾伴弮銉ョ箶
+				//闁谎冾煼濡句即寮妷銉х
 				fire.log.YYLogger.OpLog(userid,0, "login",first,0,0,0);
 				
 				
@@ -182,7 +182,7 @@ public class CNotifyDeviceInfo extends __CNotifyDeviceInfo__ {
 //						sendDataToAuAny(userid, mac);
 //					}
 //					pexecute(new PForbidUserByMacOrIDFA(roleid, mac, idfa));
-//					pexecute(new PFskAward(roleid,devicetype));//閸欐垵鐦滄竟顐㈡倣缁�鐓庡瘶
+//					pexecute(new PFskAward(roleid,devicetype));//闁告瑦鍨甸惁婊勭珶椤愩垺鍊ｇ紒锟介悡搴＄樁
 				} catch (Exception e) {
 					LogManager.logger.error("notify device info error", e);
 				}

@@ -26,10 +26,10 @@ public class DataBetweenAuAnyAndGS extends __DataBetweenAuAnyAndGS__ {
 		}
 		if(qtype==10002) {
 			try {
-				String infos = new String(info.getBytes(), "ISO-8859-1");//缂傛牜鐖滄稉宥堫洣閸旑煉绱濈憰浣规暭閸斻劌濮熻箛鍛�?姘辩叀au閻╃鍙х拹鐔荤煑娴�?
+				String infos = new String(info.getBytes(), "ISO-8859-1");//缂傚倹鐗滈悥婊勭▔瀹ュ牜娲ｉ柛鏃戠厜缁辨繄鎲版担瑙勬毉闁告柣鍔屾慨鐔荤疀閸涳拷?濮樿京鍙�au闁烩晝顭堥崣褏鎷归悢鑽ょ厬濞达拷?
 				logger.debug("DataBetweenAuAnyAndGS.user:" + userid + ",info:" + infos);
 				//TODO:
-				// 娴滃澧挎稉顓烆洤娑撳骞忓妤勵潡閼�?,閻掕泛鎮楁潻娑滎攽閻╃鍙ч柅鏄忕帆婢跺嫮鎮�
+				// 濞存粌顑囨晶鎸庣▔椤撶儐娲ゅ☉鎾愁儓楠炲繐顕ュΔ鍕垫健闁硷拷?,闁绘帟娉涢幃妤佹交濞戞粠鏀介柣鈺冾焾閸櫻囨焻閺勫繒甯嗗璺哄閹拷
 			  	xbean.User xuser = xtable.User.select(userid);
 				if(xuser == null || xuser.getIdlist().isEmpty())
 					return;

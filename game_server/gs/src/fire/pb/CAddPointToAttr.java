@@ -22,9 +22,9 @@ public class CAddPointToAttr extends __CAddPointToAttr__ {
 	protected void process() {
 		// protocol handle
 		
-		// TODO: 娑撳秷鍏橀崝鐘靛仯閻ㄥ嫮濮搁幀浣规蒋娴犺泛鍨介弬?:婵�? 閹存ɑ鏋熸稉?
+		// TODO: 濞戞挸绉烽崗姗�宕濋悩闈涗化闁汇劌瀚慨鎼佸箑娴ｈ钂嬪ù鐘烘硾閸ㄤ粙寮�?:濠碉拷? 闁瑰瓨蓱閺嬬喐绋�?
 		
-		// 閺佺増宓侀崥鍫熺《閹勵梾閺�?
+		// 闁轰胶澧楀畵渚�宕ラ崼鐔恒�婇柟顑嫷姊鹃柡锟�?
 		long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId == -1)
 			return;
@@ -52,7 +52,7 @@ public class CAddPointToAttr extends __CAddPointToAttr__ {
 		if (sum > prop.getPoint().get(prop.getScheme()))
 			return;
 		
-		// 閸旂姷鍋ｉ幙宥勭稊
+		// 闁告梻濮烽崑锝夊箼瀹ュ嫮绋�
 		final PAddPointProc addpoint = new PAddPointProc(roleId, this);
 		addpoint.submit();
 	}

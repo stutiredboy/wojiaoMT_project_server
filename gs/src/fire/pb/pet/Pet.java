@@ -21,6 +21,16 @@ import fire.pb.skill.SPetSkillupgrade;
 import fire.pb.skill.SkillPet;
 import fire.pb.skill.fight.FightSkillConfig;
 import fire.pb.util.StringConstant;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import mkdb.Procedure;
+import xbean.BasicFightProperties;
+import xbean.PetInfo;
+import xbean.PetSkill;
+import xbean.Pod;
+import xtable.Properties;
 
 /**
  * 宠物的一些逻辑操作
@@ -754,6 +764,28 @@ public class Pet {
 		pet.petdye2 = petInfo.getPetdye2();
 		pet.shenshouinccount = petInfo.getShenshouinccount();
 		pet.marketfreezeexpire = petInfo.getMarketfreezeexpire();
+		List<PetSkill> allInternals = getBattleInternals();
+		for (PetSkill internal : allInternals) {
+		  Petskill petSkill = new Petskill();
+		  petSkill.skillid = internal.getSkillid();
+		  petSkill.skillexp = 0;
+		  petSkill.skilltype = ((byte)internal.getSkilltype());
+		  petSkill.certification = ((byte)internal.getCertification());
+		  pet.internals.add(petSkill);
+		}
+		if(roleId < 0)
+		{
+			pet.huanhuaid = petInfo.getShapeID();
+			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////2222///////"+ petInfo.getShapeID());
+		}
+		else
+		{
+			PetColumn petColTemp = new PetColumn(roleId, PetColumnTypes.PET, false);
+			Pet petTemp = petColTemp.getPet(petInfo.getKey());
+			pet.huanhuaid =  petTemp.getPetInfo().getShapeID();
+			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////1111///////"+ petTemp.getPetInfo().getShapeID());
+		}
+		
 		return pet;
 	}
 
@@ -865,5 +897,173 @@ public class Pet {
 		if (getRoleId() != -1 && getPetkey() > 0) {
 			fire.pb.event.Poster.getPoster().dispatchEvent(new fire.pb.event.PetSkillChangeEvent(getRoleId(), getPetkey()));
 		}
+	}
+
+	public List<PetSkill> getBattleInternals()
+	{
+	  return this.petInfo.getInternals();
+	}
+	
+  
+  
+	public List<Integer> getBattleInternalIds()
+	{
+	  List<Integer> skillIds = new LinkedList();
+	  for (PetSkill skill : getBattleInternals())
+		skillIds.add(Integer.valueOf(skill.getSkillid()));
+	  return skillIds;
+	}
+	
+  
+  
+	public boolean hasInternal(int skillId)
+	{
+	  List<PetSkill> skills = getBattleInternals();
+	  for (PetSkill skill : skills) {
+		if (skill.getSkillid() == skillId) {
+		  return true;
+		}
+	  }
+	  return false;
+	}
+	
+  
+  
+	public int getInternalLevel(int skillId)
+	{
+	  List<PetSkill> internals = getBattleInternals();
+	  SPetSkillupgrade config = PetManager.getInstance().getSkillUpGrade(skillId);
+	  if (config == null) {
+		return 0;
+	  }
+	  int flag = config.getSign();
+	  for (PetSkill skill : internals) {
+		SPetSkillupgrade temp = PetManager.getInstance().getSkillUpGrade(skill.getSkillid());
+		if (temp != null)
+		{
+  
+		  if (temp.getSign() == flag)
+			return temp.getSkilllevel();
+		}
+	  }
+	  return 0;
+	}
+	
+  
+  
+	public boolean hasAnyInternal(int skillId)
+	{
+	  List<PetSkill> internals = getBattleInternals();
+	  SPetSkillupgrade config = PetManager.getInstance().getSkillUpGrade(skillId);
+	  if (config == null) {
+		return false;
+	  }
+	  int flag = config.getSign();
+	  for (PetSkill skill : internals) {
+		SPetSkillupgrade temp = PetManager.getInstance().getSkillUpGrade(skill.getSkillid());
+		if (temp != null)
+		{
+  
+		  if (temp.getSign() == flag)
+			return true;
+		}
+	  }
+	  return false;
+	}
+	
+  
+  
+  
+	public boolean addInternal(int skillId, long expireTime, int skillExp, int skillType)
+	{
+	  int maxSkillNum = getInternalMaxNum();
+	  if (skillType != 2) {
+		maxSkillNum--;
+	  }
+	  List<PetSkill> internals = getBattleInternals();
+	  if (internals.size() >= maxSkillNum) {
+		return false;
+	  }
+	  if (hasAnyInternal(skillId)) {
+		return false;
+	  }
+	  
+	  PetSkill newSkill = Pod.newPetSkill();
+	  newSkill.setSkillid(skillId);
+	  newSkill.setSkilltype(skillType);
+	  internals.add(newSkill);
+	  updatePetScoreWhileChange();
+	  updatePetInternalChange();
+	  
+	  return true;
+	}
+	
+  
+  
+	public int insertInternal(int index, int skillId, long expiretime, int skillType)
+	{
+	  int maxSkillNum = getInternalMaxNum();
+	  List<PetSkill> internals = getBattleInternals();
+	  int size = internals.size();
+	  if (size > maxSkillNum)
+		return -1;
+	  if (index + 1 > size)
+		return -2;
+	  for (PetSkill skill : internals) {
+		if (skill.getSkillid() == skillId)
+		  return -3;
+	  }
+	  PetSkill newSkill = Pod.newPetSkill();
+	  newSkill.setSkillid(skillId);
+	  newSkill.setSkilltype(skillType);
+	  PetSkill oldSkill = (PetSkill)internals.set(index, newSkill);
+	  updatePetScoreWhileChange();
+	  updatePetInternalChange();
+	  
+	  return oldSkill.getSkillid();
+	}
+	
+  
+  
+	public boolean removeInternalById(int skillId)
+	{
+	  List<PetSkill> internals = getBattleInternals();
+	  for (Iterator<PetSkill> it = internals.iterator(); it.hasNext();) {
+		PetSkill skill = (PetSkill)it.next();
+		if (skill.getSkillid() == skillId) {
+		  it.remove();
+		  updatePetScoreWhileChange();
+		  updatePetInternalChange();
+		  return true;
+		}
+	  }
+	  return false;
+	}
+	
+	public int petInternalsGrid() {
+	  return 6;
+	}
+	
+	public int getInternalMaxNum() {
+	  return petInternalsGrid();
+	}
+	
+  
+  
+	public void fillSRefreshPetInternal(SRefreshPetInternal send)
+	{
+	  for (PetSkill skill : getBattleInternals()) {
+		Petskill petSkill = new Petskill();
+		petSkill.skillexp = 0;
+		petSkill.skillid = skill.getSkillid();
+		petSkill.skilltype = ((byte)skill.getSkilltype());
+		petSkill.certification = ((byte)skill.getCertification());
+		send.internals.add(petSkill);
+	  }
+	}
+	
+	public void updatePetInternalChange()
+	{
+	  if (getRoleId() != -1L) getPetkey();
 	}
 }

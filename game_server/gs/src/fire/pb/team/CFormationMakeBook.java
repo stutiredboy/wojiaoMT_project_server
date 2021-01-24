@@ -12,7 +12,7 @@ abstract class __CFormationMakeBook__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閸掓湹缍旈崗澶屽箚娑�?
+ * 闁告帗婀圭紞鏃堝礂婢跺苯绠氬☉锟�?
  * @author changhao
  *
  */
@@ -33,20 +33,20 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (config == null)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:娑撳秶鐓￠柆鎾舵畱閸忓骞嗘稊? "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:濞戞挸绉堕悡锟犳焼閹捐埖鐣遍柛蹇擃槺楠炲棙绋�? "+roleid);
 					return true;
 				}
 				
 				if (config.getItemtypeid() == TeamManager.ITEMTYPE_FORMBOOK_ID)
 				{
 					psend(roleid, new STeamError(TeamError.UnKnuownFormBook));
-					TeamManager.logger.debug("CFormationMakeBook:娑撳秶鐓￠柆鎾舵畱閸忓骞嗘稊? "+roleid);
+					TeamManager.logger.debug("CFormationMakeBook:濞戞挸绉堕悡锟犳焼閹捐埖鐣遍柛蹇擃槺楠炲棙绋�? "+roleid);
 					return true;					
 				}
 					
 				fire.pb.common.SCommon itemidconfig = ConfigManager.getInstance().getConf(fire.pb.common.SCommon.class).get(TeamManager.FORMBOOKHALF_COMMON_ID);
 				
-				String str = itemidconfig.getValue(); //瀵版鍩屽▓瀣祹閻ㄥ嫰浜鹃崗绌抎 by changhao
+				String str = itemidconfig.getValue(); //鐎电増顨呴崺灞解枔鐎ｎ亜绁归柣銊ュ娴滈箖宕楃粚鎶� by changhao
 				int itemid = Integer.parseInt(str);
 				
 				Bag bag = new Bag(roleid, false);
@@ -55,7 +55,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if(number != TeamManager.FORMBOOKHALF_COMBINE_NUM){
 					
 					psend(roleid, new STeamError(TeamError.FormBookHalfNotEnough));
-					TeamManager.logger.debug("CFormationMakeBook:閸忓骞嗘稊锔界暙閸楄渹绗夌搾? "+roleid);		
+					TeamManager.logger.debug("CFormationMakeBook:闁稿繐顦遍獮鍡樼▕閿旂晫鏆欓柛妤勬腹缁楀鎼�? "+roleid);		
 					return false;
 				}				
 				
@@ -64,7 +64,7 @@ public class CFormationMakeBook extends __CFormationMakeBook__ {
 				if (1 != added)
 				{
 					psend(roleid, new STeamError(TeamError.UnkownError));
-					TeamManager.logger.debug("CFormationMakeBook:閸忓骞嗘稊锕�鍨卞鍝勩亼鐠�? "+roleid);	
+					TeamManager.logger.debug("CFormationMakeBook:闁稿繐顦遍獮鍡樼▕閿曪拷閸ㄥ崬顕欓崫鍕╀杭閻狅拷? "+roleid);	
 					return false;						
 				}				
 				*/

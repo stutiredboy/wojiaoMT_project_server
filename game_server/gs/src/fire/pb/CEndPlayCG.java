@@ -19,7 +19,7 @@ public class CEndPlayCG extends __CEndPlayCG__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid <= 0)
 			return;
-		//閸樼粯甯�閻溾晛顔嶉煬顐＄瑐閻ㄥ嫭鎸遍弨鎯уЗ閻㈢宝uff
+		//闁告绮敮锟介柣婧炬櫅椤斿秹鐓锛勭憪闁汇劌瀚幐閬嶅绩閹冃楅柣銏㈠疂uff
 		new mkdb.Procedure(){
 
 			@Override

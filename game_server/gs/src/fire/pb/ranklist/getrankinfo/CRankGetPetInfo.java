@@ -12,7 +12,7 @@ abstract class __CRankGetPetInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閼惧嘲绶遍幒鎺曨攽濮掓粌鐤囬悧鈺傛殶閹�?
+ * 闁兼儳鍢茬欢閬嶅箳閹烘洦鏀芥慨鎺撶矊閻ゅ洭鎮ч埡鍌涙闁癸拷?
  * @author changhao
  *
  */

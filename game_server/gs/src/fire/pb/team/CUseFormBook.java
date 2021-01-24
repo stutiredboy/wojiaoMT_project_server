@@ -12,7 +12,7 @@ abstract class __CUseFormBook__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閻€劌鍘滈悳顖欏姛
+ * 闁烩偓鍔岄崢婊堟偝椤栨瑥濮�
  * @author changhao
  *
  */

@@ -50,46 +50,46 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 				}
 				Map<Integer, SRoleRColorConfig> sRoleRColorConfig = ConfigManager.getInstance().getConf(SRoleRColorConfig.class);
 				if(sRoleRColorConfig==null){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閺佺増宓侀柨娆掝嚖");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟锟�"+"\t闁轰胶澧楀畵渚�鏌ㄥ▎鎺濆殩");
 					return false;
 				}
-				//閸掋倖鏌囬懗灞藉瘶闁插瞼娈戠�圭姷澧块弰顖氭儊鐎涙ê婀�
+				//闁告帇鍊栭弻鍥嚄鐏炶棄鐦堕梺鎻掔灱濞堟垹锟藉湱濮锋晶鍧楀及椤栨碍鍎婇悗娑櫭﹢锟�
 				PetColumn petColumn = new PetColumn(roleid, PetColumnTypes.PET,false);
 				fire.pb.pet.Pet pet = petColumn.getPet(petkey);
 				if(pet==null){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹婇惃鍕枃閻椻晙绗夌�涙ê婀�"+"\t閺佺増宓侀柨娆掝嚖");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟濠囨儍閸曨偆鏋冮柣妞绘櫃缁楀锟芥稒锚濠�锟�"+"\t闁轰胶澧楀畵渚�鏌ㄥ▎鎺濆殩");
 					return false;
 				}
 				PetInfo petInfo = petColumn.getPetInfo(petkey);
 				if (petInfo == null){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹婇惃鍕枃閻椻晙绗夌�涙ê婀�"+"\t閺佺増宓侀柨娆掝嚖");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟濠囨儍閸曨偆鏋冮柣妞绘櫃缁楀锟芥稒锚濠�锟�"+"\t闁轰胶澧楀畵渚�鏌ㄥ▎鎺濆殩");
 					return false;
 				}
-				//韫囧懘銆忛弰顖氬綁瀵倻娈戠�圭姷澧块幍宥呭讲娴犮儲鐓嬮懝?
+				//闊洤鎳橀妴蹇涘及椤栨艾缍佺�殿喖鍊诲▓鎴狅拷鍦Х婢у潡骞嶅鍛濞寸姰鍎查悡瀣嚌?
 				if(pet.getKind()!=PetTypeEnum.VARIATION){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t闁挎瑨顕�1");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟锟�"+"\t闂佹寧鐟ㄩ锟�1");
 					return false;
 				}
 				if(petInfo.getPetdye1()==colorpos1){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t瑜版挸澧犻弻鎾瑰閺傝顢嶉惄绋挎倱閿涘本妫ら棁?閺屾捁澹�");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟锟�"+"\t鐟滅増鎸告晶鐘诲蓟閹剧懓顥忛柡鍌濐潐椤㈠秹鎯勭粙鎸庡�遍柨娑樻湰濡倝妫�?闁哄本鎹佹竟锟�");
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160380, null);
 					return false;
 				}
-				//閸掋倖鏌囩�圭姷澧块弻鎾瑰閺傝顢峱et.getBaseId()
+				//闁告帇鍊栭弻鍥╋拷鍦Х婢у潡寮婚幘鐟邦棌闁哄倽顫夐、宄眅t.getBaseId()
 				if(!isCanUseColor(pet.getBaseId(),colorpos1)){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t闁挎瑨顕�2");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟锟�"+"\t闂佹寧鐟ㄩ锟�2");
 					return false;
 				}
 				
-				//閸掋倖鏌囬柆鎾冲徔閺勵垰鎯佹径?
-				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//閹规劘绂掗惃鍕眽閼冲苯瀵樼�圭懓娅�
+				//闁告帇鍊栭弻鍥焼閹惧啿寰旈柡鍕靛灠閹焦寰�?
+				ItemMaps bagContainer = Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);//闁硅鍔樼粋鎺楁儍閸曨亝鐪介柤鍐茶嫰鐎垫锟藉湱鎳撳▍锟�
 				if(bagContainer==null){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閼冲苯瀵橀柨娆掝嚖");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟锟�"+"\t闁煎啿鑻�垫﹢鏌ㄥ▎鎺濆殩");
 					return false;
 				}
 				SRoleRColorConfig sRoleRColorConfig1=sRoleRColorConfig.get(colorpos1);
 				if(sRoleRColorConfig1==null){
-					logger.info("鐟欐帟澹奿d "+roleid+"閺屾捁澹�"+"\t閺佺増宓侀柨娆掝嚖");
+					logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"闁哄本鎹佹竟锟�"+"\t闁轰胶澧楀畵渚�鏌ㄥ▎鎺濆殩");
 					return false;
 				}
 				int cost=sRoleRColorConfig1.getItemnum();
@@ -100,8 +100,8 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 150058, null);
 					return false;
 				}
-				//閹碉綁娅庨柆鎾冲徔
-				int delnum=bagContainer.removeItemById(itemcode, cost, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, itemcode, "鐎圭姷澧块弻鎾瑰");
+				//闁圭缍佸▍搴ㄦ焼閹惧啿寰�
+				int delnum=bagContainer.removeItemById(itemcode, cost, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_ranse, itemcode, "閻庡湱濮锋晶鍧楀蓟閹剧懓顥�");
 				if(delnum!=cost){
 					return false;
 				}
@@ -112,15 +112,15 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 				sReqUsePetColor.colorpos2=colorpos2;
 				sReqUsePetColor.petkey=petkey;
 				Procedure.psendWhileCommit(roleid, sReqUsePetColor);
-				// 閸掗攱鏌婄�圭姷澧挎穱鈩冧紖
+				// 闁告帡鏀遍弻濠勶拷鍦Х婢ф寧绌遍埄鍐х礀
 				final SRefreshPetInfo refresh = new SRefreshPetInfo(pet.getProtocolPet());
 				psendWhileCommit(roleid, refresh);
 				
-				//閹绘劗銇氶弻鎾瑰閹存劕濮�
+				//闁圭粯鍔楅妵姘跺蓟閹剧懓顥忛柟瀛樺姇婵拷
 				fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 160432, null);
 				
 				
-				logger.info("鐟欐帟澹奿d "+roleid+"鐎圭姷澧块弻鎾瑰閺屾捁澹婇敍灞界枃閻楋箤ey"+petkey+"\t鐎圭姷澧块崥宥囆瀄t"+petInfo.getName()+"\t閹碉綁娅庨柆鎾冲徔閿涘瞼澧块崫涔甦"+itemcode+"閺佷即鍣�"+cost+"瑜版挸澧犻弻鎾瑰閺傝顢� "+colorpos1);
+				logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"閻庡湱濮锋晶鍧楀蓟閹剧懓顥忛柡灞炬崄婢瑰﹪鏁嶇仦鐣屾瀮闁绘绠y"+petkey+"\t閻庡湱濮锋晶鍧楀触瀹ュ泦鐎則"+petInfo.getName()+"\t闁圭缍佸▍搴ㄦ焼閹惧啿寰旈柨娑樼灱婢у潡宕稊鐢�"+itemcode+"闁轰椒鍗抽崳锟�"+cost+"鐟滅増鎸告晶鐘诲蓟閹剧懓顥忛柡鍌濐潐椤拷 "+colorpos1);
 				return true;
 			}
 		}.submit();
@@ -129,7 +129,7 @@ public class CReqUsePetColor extends __CReqUsePetColor__ {
 	}
 	
 	/**
-	 * 閸掋倖鏌囩�圭姷澧块弰顖氭儊閸欘垯浜掗弻鎾瑰
+	 * 闁告帇鍊栭弻鍥╋拷鍦Х婢у潡寮伴姘剨闁告瑯鍨禍鎺楀蓟閹剧懓顥�
 	 * @param petId
 	 * @param colorpos
 	 * @return

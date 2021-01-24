@@ -22,13 +22,13 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			return;
 		final MissionConfig conf = MissionManager.getInstance().getMissionConfig( missionid );
 		if (conf == null)
-			throw new NullPointerException( "娴犺濮焛d=" + missionid + "閻ㄥ嫰鍘ょ純顔昏礋null" );
+			throw new NullPointerException( "濞寸姾顕ф慨鐒沝=" + missionid + "闁汇劌瀚伴崢銈囩磾椤旀槒绀媙ull" );
 		if(activetype == 0){
 			if (conf.exeIndo.share == 0) {
 				fire.pb.team.Team team = fire.pb.team.TeamManager.selectTeamByRoleId(roleid);
 				if (team != null){
 					fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 174001, null);
-					Module.logger.info("鐟欐帟澹奫" + roleid + "]婵″嫭鍏傞崷銊х矋闂冪喓濮搁幀浣风瑓鏉╂稑鍙嗛棃鐐电矋闂冪喎鍙℃禍顐℃崲閸旑摗" + missionid + "]閻ㄥ嫭鍨弬?,閺堟洑绗夐崙鍡磼" );
+					Module.logger.info("閻熸瑦甯熸竟濂�" + roleid + "]濠碘�冲閸忓倿宕烽妸褏鐭嬮梻鍐枔婵悂骞�娴ｉ鐟撻弶鈺傜☉閸欏棝妫冮悙鐢电煁闂傚啰鍠庨崣鈩冪椤愨剝宕查柛鏃戞憲" + missionid + "]闁汇劌瀚崹顒勫棘?,闁哄牊娲戠粭澶愬礄閸☆厾纾�" );
 					return;
 				}
 			}
@@ -44,7 +44,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 		
 			RoleMission mission = sml.getMission(missionid);
 			if ( mission == null ) {
-				Module.logger.debug( "濞屸剝婀佺拠銉ゆ崲閸旓紕娈戞穱鈩冧紖" );
+				Module.logger.debug( "婵炲备鍓濆﹢浣烘嫚閵夈倖宕查柛鏃撶磿濞堟垶绌遍埄鍐х礀" );
 				return;
 			}
 			final int status = mission.getState();
@@ -59,7 +59,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 						conf.scenarioInfo.animationID).submit();
 			}
 		} else if (activetype == 1) {
-			//TODO:閹存ɑ鏋熻ぐ鏇炲剼閸旂喕鍏�
+			//TODO:闁瑰瓨蓱閺嬬喕銇愰弴鐐插壖闁告梻鍠曢崗锟�
 			final int aiid = conf.aiInfo.aIID;
 			new PSendCameraUrl(aiid,roleid).submit();
 		}
@@ -71,7 +71,7 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			return false;
 		}
 		if ( team != null && !team.isAbsentMember( roleid ) && conf.exeIndo.teamState == 0 ) {
-			Module.logger.error( "娴犺濮�" + conf.missionId + "娑撳秷鍏橀張澶愭Е娴煎秵褰佹禍?" );
+			Module.logger.error( "濞寸姾顕ф慨锟�" + conf.missionId + "濞戞挸绉烽崗姗�寮垫径鎰曞ù鐓庣У瑜颁焦绂�?" );
 			fire.pb.talk.MessageMgr.sendMsgNotify( roleid, 141711, null );
 			return false;
 		}
@@ -79,8 +79,8 @@ public class CActiveMissionAIBattle extends __CActiveMissionAIBattle__ {
 			final SSpecialScenarioQuestConfig sconf = conf.getSpecialScenarioQuestConfig();
 			if ( sconf == null )
 				return false;
-			if ( sconf.缁鐎稩D2 == 2 ) {
-				// 閸掋倖鏌囬崙鐑樺灛鐎圭姷澧�
+			if ( sconf.缂侇偉顕ч悗绋〥2 == 2 ) {
+				// 闁告帇鍊栭弻鍥礄閻戞ê鐏涢悗鍦Х婢э拷
 				final int fightpetkey =
 					xtable.Properties.selectFightpetkey( roleid );
 				fire.pb.pet.PetColumn pc = new fire.pb.pet.PetColumn( roleid, 

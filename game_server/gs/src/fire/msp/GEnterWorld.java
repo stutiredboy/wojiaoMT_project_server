@@ -38,13 +38,13 @@ public class GEnterWorld extends __GEnterWorld__ {
 			role.setMaxShowNum(this.showrolenum);
 			role.setEquipEffect(equipeffect);
 		}
-		//閸ョ姵婀佺粋鑽ゅ殠閹垫顓搁惃鍕剰閸�?,娑撳﹦鍤庨弮璺哄帥濞撳懐鎮婃稉?娑撳鍏橀惇瀣潌閻ㄥ嫯顫楅懝?
+		//闁搞儳濮靛﹢浣虹矉閼姐倕娈犻柟鍨焽椤撴悂鎯冮崟顒�鍓伴柛锟�?,濞戞挸锕﹂崵搴ㄥ籍鐠哄搫甯ユ繛鎾虫噽閹﹥绋�?濞戞挸顑堥崗姗�鎯囩�ｎ収娼岄柣銊ュ椤鎳�?
 		role.clearISee();
 		
 		role.enterScene();
 		SceneTeam team = role.getTeam();
 		if(team!=null)
-			team.sendTeamInfoToRole(role);//閸欐垿?浣虹舶鐟欐帟澹婇懛顏勭箒閻ㄥ嫰妲︽导宥勪繆閹�?
+			team.sendTeamInfoToRole(role);//闁告瑦鍨�?娴ｈ櫣鑸堕悷娆愬笩婢瑰﹪鎳涢鍕畳闁汇劌瀚板Σ锔藉瀹ュ嫪绻嗛柟锟�?
 		role.setBattleReplayStateAndBroacast(false);
 		RoleManager.getInstance().addRoleToSchool(roleid, schoolid);
 		RoleManager.getInstance().addRoleToCamp(roleid, 0);

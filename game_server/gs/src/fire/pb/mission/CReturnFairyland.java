@@ -22,7 +22,7 @@ public class CReturnFairyland extends __CReturnFairyland__ {
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleid < 0)
 			return;
-		//閸忓牊鐗撮幑顔绘崲閸斺剝娼甸崚銈嗘焽閺勵垰鎯侀懗鍊熺箲閸ョ偞鈪垫晶?
+		//闁稿繐鐗婇悧鎾箲椤旂粯宕查柛鏂哄墲濞肩敻宕氶妶鍡樼劷闁哄嫷鍨伴幆渚�鎳楅崐鐔虹闁搞儳鍋為埅鍨櫠?
 		
 		final fire.pb.map.Role role = fire.pb.map.RoleManager.getInstance().getRoleByID(roleid);
 		if (role==null)
@@ -34,7 +34,7 @@ public class CReturnFairyland extends __CReturnFairyland__ {
 		}
 		xbean.RolePos rolePos = xtable.Roleposes.select(roleid);
 		//if (rolePos==null||rolePos.getDynamicmap()<1500) {
-		//闁姤瀵滈悡褌鎹㈤崝鈩冩降閹垫崘鐑︽潪顒傛畱閸︽澘娴�,閸ョ姳璐熸稊瀣鐎涙娈戦崸鎰垼閸欘垵鍏橀崶鐘辫礋缂佸嫰妲﹂弳鍌滎瀲缁傚妲︾粵澶婂斧閸ョ姳绗夐崙?
+		//闂侇喛濮ょ�垫粓鎮¤閹广垽宕濋埄鍐╅檷闁瑰灚宕橀悜锔芥姜椤掑倹鐣遍柛锔芥緲濞达拷,闁搞儳濮崇拹鐔哥▕鐎ｎ亜顤呴悗娑欘焽濞堟垿宕搁幇顓犲灱闁告瑯鍨甸崗姗�宕堕悩杈缂備礁瀚板Σ锕傚汲閸屾粠鐎茬紒鍌氼煼濡诧妇绮垫径濠傛枾闁搞儳濮崇粭澶愬礄?
 			MissionMajorScenario majorTask = new MissionMajorScenario( roleid, true );
 			MissionConfig conf = majorTask.getConf();
 			if ( conf == null )

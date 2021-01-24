@@ -36,7 +36,7 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//閸愮姴鍟楃拠鏇犲仹缂佺喍绔撮梼鐔兼毐娴犺濮�
+		//闁告劗濮撮崯妤冩嫚閺囩姴浠圭紓浣哄枍缁旀挳姊奸悢鍏兼瘣濞寸姾顕ф慨锟�
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid<=0){
 			return;
@@ -49,57 +49,57 @@ public class CWinnerChangeTask extends __CWinnerChangeTask__ {
 					MessageMgr.sendMsgNotify(roleid, 140498, null);
 					return false;
 				}
-				//閸掋倖鏌囧ú璇插З閺勵垰鎯佸?閸�?
+				//闁告帇鍊栭弻鍥虹拠鎻捫楅柡鍕靛灠閹礁顕�?闁革拷?
 				long currentTime = System.currentTimeMillis();
 				if (!WinnerManager.getInstance().isInWinnerActiveTime(currentTime)) {
 					return false;
 				}
 				if(acceptflag==1){
-					//閸氬本鍓扮紒鐔剁娴犺濮�
-					//閼惧嘲褰囬梼鐔兼毐閻ㄥ嫪鎹㈤崝顡痙
+					//闁告艾鏈崜鎵磼閻斿墎顏卞ù鐘侯嚙婵拷
+					//闁兼儳鍢茶ぐ鍥⒓閻斿吋姣愰柣銊ュ閹广垽宕濋　鐥�
 					long teamleadid=team.getTeamLeaderId();
-					//閼惧嘲绶辨禒璇插娣団剝浼�
+					//闁兼儳鍢茬欢杈ㄧ鐠囨彃顫ゅǎ鍥ｅ墲娴硷拷
 					xbean.TaskDlgInfo task=TaskDlgUtil.getTaskDlgInfo(teamleadid, WinnerManager.WINNER_TASK_ID);
 					if(task==null){
-						WinnerManager.logger.info("鐟欐帟澹奿d "+roleid+"\t閸氬本顒為崘鐘插晽鐠囨洜鍋ф禒璇插閿涘本鏆熼幑顕�鏁婄拠顖ょ礉闂冪喖鏆卞▽鈩冩箒娴犺濮�");
+						WinnerManager.logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"\t闁告艾鏈鐐哄礃閻樻彃鏅介悹鍥ㄦ礈閸嬔勭鐠囨彃顫ら柨娑樻湰閺嗙喖骞戦锟介弫濠勬嫚椤栥倗绀夐梻鍐枛閺嗗崬鈻介埄鍐╃畳濞寸姾顕ф慨锟�");
 						return false;
 					}
 					Npc npc = SceneNpcManager.selectNpcByKey(task.getDstnpckey());
 					if(npc==null){
 						return false;
 					}
-					//閸掔娀娅庨悳鈺侇啀瑜版挸澧犳禒璇插
+					//闁告帞濞�濞呭酣鎮抽埡渚囧晙鐟滅増鎸告晶鐘崇鐠囨彃顫�
 					if (TaskDlgUtil.existTask(roleid, WinnerManager.WINNER_TASK_ID)||TaskDlgUtil.existTask(roleid, WinnerManager.WINNER_TASK_ID_ACCEPT)){
 						WinnerManager.getInstance().abandonWinnerTask(roleid);
 					}
-					//閸氬本顒為悳鈺侇啀瑜版挸澧犳禒璇插
-					WinnerManager.getInstance().createWinnerTask(WinnerManager.WINNER_TASK_ID,roleid,npc,SpecialQuestState.UNDONE,0,task.getSumnum());//閸掓稑缂撴禒璇插
-					WinnerManager.getInstance().addWinnerRole(roleid);//濞ｈ濮為崘鐘插晽鐠囨洜鍋ч惃鍕负鐎�?
+					//闁告艾鏈鐐烘偝閳轰緡鍟�鐟滅増鎸告晶鐘崇鐠囨彃顫�
+					WinnerManager.getInstance().createWinnerTask(WinnerManager.WINNER_TASK_ID,roleid,npc,SpecialQuestState.UNDONE,0,task.getSumnum());//闁告帗绋戠紓鎾寸鐠囨彃顫�
+					WinnerManager.getInstance().addWinnerRole(roleid);//婵烇綀顕ф慨鐐哄礃閻樻彃鏅介悹鍥ㄦ礈閸嬔囨儍閸曨厼璐熼悗锟�?
 					MessageMgr.psendMsgNotifyWhileCommit(roleid, 140666, npc.getNpcID(), Arrays.asList(task.getSumnum()+"",npc.getName()));
 					
-					//濞撳懘娅庨梼鐔剁礊缁夘垰鍨庢禒銉ュ挤閻滎垱鏆熸穱鈩冧紖
+					//婵炴挸鎳樺▍搴ㄦ⒓閻斿墎绀婄紒澶樺灠閸ㄥ孩绂掗妷銉ユ尋闁绘粠鍨遍弳鐔哥┍閳╁啩绱�
 					WinnerRecord record = WinnerManager.getInstance().teams.get(team.getTeamId());
 					if(record!=null){
 						record.setTeamScore(0);
 						record.setRound(0);
-						//闁插秵鏌婇崥灞绢劄娑�?娑撳妲︽导宥嗗灇閸涙﹫绱濋獮鏈电瑬濞撳懘娅庣拠銉у负鐎规湹绗傚▎锛勬畱闂冪喍绱炴穱鈩冧紖
+						//闂佹彃绉甸弻濠囧触鐏炵虎鍔勫☉锟�?濞戞挸顑夊Σ锔藉瀹ュ棗鐏囬柛娑欙公缁辨繈鐛張鐢电懍婵炴挸鎳樺▍搴ｆ嫚閵壯冭礋閻庤婀圭粭鍌氣枎閿涘嫭鐣遍梻鍐枍缁辩偞绌遍埄鍐х礀
 						WinnerManager.getInstance().removeLastTeamidAddNew(record,roleid);
 					}
-					//闁氨鐓￠梼鐔锋喅
+					//闂侇偅姘ㄩ悡锟犳⒓閻旈攱鍠�
 					xbean.Properties prop=xtable.Properties.select(roleid); 
 					List<Long> teamMembers = team.getNormalMemberIds();
 					for (Long mem : teamMembers) {
-						WinnerManager.clearActiveTeamWinnerScore(mem);//濞撳懘娅庡ú璇插З闂堛垺婢橀惃鍕Е娴煎秵鍨氱紒?
+						WinnerManager.clearActiveTeamWinnerScore(mem);//婵炴挸鎳樺▍搴∶虹拠鎻捫楅梻鍫涘灪濠㈡﹢鎯冮崟顖浶曞ù鐓庣У閸ㄦ氨绱�?
 						MessageMgr.sendMsgNotify(mem, 170019, Arrays.asList(prop.getRolename()));
 					}
-					WinnerManager.logger.info("鐟欐帟澹奿d "+roleid+"\t閸氬本顒為崘鐘插晽鐠囨洜鍋ф禒璇插閿涘本鍨氶崝?");
+					WinnerManager.logger.info("閻熸瑦甯熸竟濂縟 "+roleid+"\t闁告艾鏈鐐哄礃閻樻彃鏅介悹鍥ㄦ礈閸嬔勭鐠囨彃顫ら柨娑樻湰閸ㄦ岸宕�?");
 				}else{
-					//閸欐牗绉风紒鐔剁娴犺濮�
-					//闁氨鐓￠梼鐔兼毐
+					//闁告瑦鐗楃粔椋庣磼閻斿墎顏卞ù鐘侯嚙婵拷
+					//闂侇偅姘ㄩ悡锟犳⒓閻斿吋姣�
 					xbean.Properties prop=xtable.Properties.select(roleid); 
 //					long teamleadid=team.getTeamLeaderId();
 //					MessageMgr.sendMsgNotify(teamleadid, 160449, Arrays.asList(prop.getRolename()));
-					//闁氨鐓￠梼鐔锋喅
+					//闂侇偅姘ㄩ悡锟犳⒓閻旈攱鍠�
 					List<Long> teamMembers = team.getNormalMemberIds();
 					for (Long mem : teamMembers) {
 						MessageMgr.sendMsgNotify(mem, 160449, Arrays.asList(prop.getRolename()));

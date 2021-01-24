@@ -31,7 +31,7 @@ public class CTakeOffEquip extends __CTakeOffEquip__ {
 				final Equip srcbag = new Equip(roleId, false);
 				final ItemMaps dstbag = new Pack(roleId, false);
 				
-				ItemBase bi = srcbag.TransOut(equipkey, -1, "閸楅晲绗呯憗鍛槵");
+				ItemBase bi = srcbag.TransOut(equipkey, -1, "闁告鏅茬粭鍛啑閸涱収妲�");
 				if (bi == null)
 					return false;
 				ItemBase dstitem;

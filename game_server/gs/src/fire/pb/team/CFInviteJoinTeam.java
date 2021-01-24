@@ -23,7 +23,7 @@ abstract class __CFInviteJoinTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CFInviteJoinTeam extends __CFInviteJoinTeam__ {
-private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃亜缍嬮崜宥嗘闂傝揪绱濇穱婵婄槈濮濐槚rocedure娑擃厽妞傞梻瀵告畱缂佺喍绔撮幀?
+private long now = 0L;//procedure鐎碉拷?濠殿喖顑嗗鍌涚┍濠靛棛鎽犲☉锟�?濞戞搩浜滅紞瀣礈瀹ュ棙顦ч梻鍌濇彧缁辨繃绌卞┑濠勬婵繍妲歳ocedure濞戞搩鍘藉鍌炴⒒鐎靛憡鐣辩紓浣哄枍缁旀挳骞�?
 	
 	@Override
 	protected void process()
@@ -36,7 +36,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 		final long invitedRoleId = roleid;
 		if(inviterRoleId == invitedRoleId)
 			return;
-		//add by cn 婵″倹鐏夐崷銊ュ礋閹告垵鍠呴弬妤冨Ц閹�?,娑撳秴鍘戠拋绋垮閸忋儰鎹㈡担鏇㈡Е娴�?
+		//add by cn 濠碘�冲�归悘澶愬捶閵娿儱绀嬮柟鍛婂灥閸犲懘寮Δ鍐ㄐ﹂柟锟�?,濞戞挸绉撮崢鎴犳媼缁嬪灝顫ｉ柛蹇嬪劙閹广垺鎷呴弴銏⌒曞ù锟�?
 		BuffAgent agent = new BuffRoleImpl(inviterRoleId, true);
 		if (agent.existBuff(PlayPKManage.BuffDuelID)) {
 			if (fire.pb.team.TeamManager.isInTeam(inviterRoleId))
@@ -60,15 +60,15 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 				Team team = null;
 				//lock start 
 				Long teamId = xtable.Roleid2teamid.select(inviterRoleId);
-				//閸忓牓鐛欑拠渚�妲︽导宥嗘Ц閸氾缚璐熺粚?,閺夈儱鍠呯�规碍妲搁崥锕傛敚teamlock
+				//闁稿繐鐗撻悰娆戞嫚娓氾拷濡诧附瀵煎鍡樞﹂柛姘剧細鐠愮喓绮�?,闁哄鍎遍崰鍛拷瑙勭濡叉悂宕ラ敃鍌涙暁teamlock
 				if(teamId != null)
-				{//闁夸辜eamlock
+				{//闂佸じ杈渆amlock
 					team = new Team(teamId,false);
 					if(!team.isTeamLeader(inviterRoleId))
-						return true;//妤犲矁鐦夌拠銉潡閼瑰弶妲搁崥锕佺箷閺勵垶妲︽导宥囨畱闂冪喖鏆�
+						return true;//濡ょ姴鐭侀惁澶屾嫚閵夘煈娼￠柤鐟板级濡叉悂宕ラ敃浣虹闁哄嫷鍨跺Σ锔藉瀹ュ洦鐣遍梻鍐枛閺嗭拷
 				}
 				
-				// 閹稿銆庢惔蹇涙敚rolelock閸�? teamlock
+				// 闁圭顦甸妴搴㈡償韫囨稒鏁歳olelock闁革拷? teamlock
 				Long inviterTeamId = null;
 				Long invitedTeamId = null;
 				if (inviterRoleId < invitedRoleId)
@@ -86,97 +86,97 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 				
 				if(!checkOnline(invitedRoleId, inviterRoleId))
 				{
-					//鏉╂柨娲栧☉鍫熶紖鐞氼偊鍊嬬拠椋庢畱閻溾晛顔嶆稉宥呮躬缁�?(illegal)
-					TeamManager.logger.debug("FAIL:鐞氼偊鍊嬬拠椋庢畱閻溾晛顔嶆稉宥呮躬缁�?,RoleId: "+invitedRoleId);
+					//閺夆晜鏌ㄥú鏍р槈閸喍绱栭悶姘煎亰閸婂鎷犳搴㈢暠闁绘壕鏅涢宥嗙▔瀹ュ懏韬紒锟�?(illegal)
+					TeamManager.logger.debug("FAIL:閻炴凹鍋婇崐瀣嫚妞嬪孩鐣遍柣婧炬櫅椤斿秵绋夊鍛含缂侊拷?,RoleId: "+invitedRoleId);
 				}
 				else if(!checkInviterStatus(inviterRoleId))
 				{
-					//闁�?鐠囩柉?鍛槱娴滃簼绗夐懗鐣岀矋闂冪喓娈戦悩鑸�?? 
+					//闂侊拷?閻犲洨鏌�?閸涱収妲卞ù婊冪凹缁楀鎳楅悾宀�鐭嬮梻鍐枔濞堟垿鎮╅懜锟�?? 
 					MessageMgr.psendMsgNotify(inviterRoleId, 141618, null);
 //					psend(inviterRoleId, new STeamError(TeamError.SelfInUnteamState));
-					TeamManager.logger.debug("FAIL:闁�?鐠囩柉?鍛槱娴滃簼绗夐懗鐣岀矋闂冪喓娈戦悩鑸�??,RoleId: "+inviterRoleId);
+					TeamManager.logger.debug("FAIL:闂侊拷?閻犲洨鏌�?閸涱収妲卞ù婊冪凹缁楀鎳楅悾宀�鐭嬮梻鍐枔濞堟垿鎮╅懜锟�??,RoleId: "+inviterRoleId);
 				}
 				else if(!checkInvitedStatus(invitedRoleId))
 				{
-					//鐞氼偊鍊嬬拠鐤�?鍛槱娴滃簼绗夐懗鐣岀矋闂冪喓娈戦悩鑸�?? 
+					//閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱収妲卞ù婊冪凹缁楀鎳楅悾宀�鐭嬮梻鍐枔濞堟垿鎮╅懜锟�?? 
 					MessageMgr.psendMsgNotify(inviterRoleId, TeamManager.ERROR_MSG_OBJECT_CANT_IN_TEAM, null);
 //					psend(invitedRoleId, new STeamError(TeamError.SelfInUnteamState));
-					TeamManager.logger.debug("FAIL:鐞氼偊鍊嬬拠鐤�?鍛槱娴滃簼绗夐懗鐣岀矋闂冪喓娈戦悩鑸�??,RoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱収妲卞ù婊冪凹缁楀鎳楅悾宀�鐭嬮梻鍐枔濞堟垿鎮╅懜锟�??,RoleId: "+invitedRoleId);
 				}
 				else if(!checkInvitedTeamFuctionEnable(invitedRoleId))
 				{
-					//鐞氼偊鍊嬬拠鐤�?鍛畱缂佸嫰妲﹂崝鐔诲厴濞屸剝婀侀幍鎾崇磻
+					//閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱垱鐣辩紓浣稿濡诧箓宕濋悢璇插幋婵炲备鍓濆﹢渚�骞嶉幘宕囩；
 //					psend(inviterRoleId, new STeamError(TeamError.ObjectTeamFunctionClose));
 					MessageMgr.psendMsgNotify(inviterRoleId, 141201, null);
-					TeamManager.logger.debug("FAIL:鐞氼偊鍊嬬拠鐤�?鍛畱缂佸嫰妲﹂崝鐔诲厴濞屸剝婀侀幍鎾崇磻,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱垱鐣辩紓浣稿濡诧箓宕濋悢璇插幋婵炲备鍓濆﹢渚�骞嶉幘宕囩；,invitedRoleId: "+invitedRoleId);
 				}
 				else if(!checkInvitedInNoTeam(invitedTeamId))
 				{
-					//鐞氼偊鍊嬬拠鐤�?鍛躬闂冪喍绱炴稉?
+					//閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱厽韬梻鍐枍缁辩偞绋�?
 					//psend(inviterRoleId, new STeamError(TeamError.ObjectInTeam));
-					TeamManager.logger.debug("FAIL:鐞氼偊鍊嬬拠鐤�?鍛躬闂冪喍绱炴稉?,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱厽韬梻鍐枍缁辩偞绋�?,invitedRoleId: "+invitedRoleId);
 					fire.pb.talk.MessageMgr.psendMsgNotify(inviterRoleId, 141191, null);
 				}
 				else if(!checkNotBeingInvited(invitedRoleId))
 				{
-					//鐞氼偊鍊嬬拠鐤�?鍛劀閸︺劏顫﹂崗鏈电铂娴滄椽鍊嬬拠铚傝厬 
+					//閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱噮鍔�闁革负鍔忛～锕傚礂閺堢數閾傚ù婊勬そ閸婂鎷犻摎鍌濆幀 
 //					psend(inviterRoleId, new STeamError(TeamError.BeingInvited));
 					fire.pb.talk.MessageMgr.psendMsgNotify(inviterRoleId, 141202, null);
-					TeamManager.logger.debug("FAIL:鐞氼偊鍊嬬拠鐤�?鍛劀閸︺劏顫﹂崗鏈电铂娴滄椽鍊嬬拠铚傝厬,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱噮鍔�闁革负鍔忛～锕傚礂閺堢數閾傚ù婊勬そ閸婂鎷犻摎鍌濆幀,invitedRoleId: "+invitedRoleId);
 				}
 				else if(!checkNotInvitedIn30s(invitedRoleId, inviterRoleId, inviterTeamId))
 				{
-					//鐞氼偊鍊嬬拠鐤�??30缁夋帒鍞撮弴鍓х病鐞氼偊妲︽导宥嗗灗閼板懍閲滄禍娲�嬬拠鐤箖
+					//閻炴凹鍋婇崐瀣嫚閻わ拷??30缂佸甯掗崬鎾即閸撗呯梾閻炴凹鍋婂Σ锔藉瀹ュ棗鐏楅柤鏉挎噸闁叉粍绂嶅ú顏勶拷瀣嫚閻ゎ垳绠�
 					//psend(inviterRoleId, new STeamError(TeamError.InvitedIn30s));
-					TeamManager.logger.debug("FAIL:鐞氼偊鍊嬬拠鐤�??30缁夋帒鍞撮弴鍓х病鐞氼偊妲︽导宥嗗灗閼板懍閲滄禍娲�嬬拠鐤箖,invitedRoleId: "+invitedRoleId);
+					TeamManager.logger.debug("FAIL:閻炴凹鍋婇崐瀣嫚閻わ拷??30缂佸甯掗崬鎾即閸撗呯梾閻炴凹鍋婂Σ锔藉瀹ュ棗鐏楅柤鏉挎噸闁叉粍绂嶅ú顏勶拷瀣嫚閻ゎ垳绠�,invitedRoleId: "+invitedRoleId);
 					fire.pb.talk.MessageMgr.psendMsgNotify(inviterRoleId, 141050, null);
 				}
 				else if(team != null)
 				{
 					//Team team = new Team(inviterTeamId,false);
-					//閺夈儴鍤滈梼鐔剁礊閻ㄥ嫰鍊嬬拠?
+					//闁哄鍎撮崵婊堟⒓閻斿墎绀婇柣銊ュ閸婂鎷�?
 					if(!checkInviterIsLeader(inviterRoleId, team))
 					{
-						//闁�?鐠囩柉?鍛瑝閺勵垶妲﹂梹?(illegal)
-						TeamManager.logger.debug("FAIL:闁�?鐠囩柉?鍛瑝閺勵垶妲﹂梹?,RoleId: "+inviterRoleId);
+						//闂侊拷?閻犲洨鏌�?閸涱剛鐟濋柡鍕靛灦濡诧箓姊�?(illegal)
+						TeamManager.logger.debug("FAIL:闂侊拷?閻犲洨鏌�?閸涱剛鐟濋柡鍕靛灦濡诧箓姊�?,RoleId: "+inviterRoleId);
 					}
 					else if(!checkTeamNotFull(team))
 					{
-						//闁�?鐠囩兘妲︽导宥嗗姬娴�?
+						//闂侊拷?閻犲洨鍏樺Σ锔藉瀹ュ棗濮ù锟�?
 						psendWhileCommit(inviterRoleId, new STeamError(TeamError.TeamFull));
-						TeamManager.logger.debug("FAIL:闁�?鐠囩兘妲︽导宥嗗姬娴�?,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:闂侊拷?閻犲洨鍏樺Σ锔藉瀹ュ棗濮ù锟�?,TeamId: "+inviterTeamId);
 					}
 					else if(!checkTeamFilter(team, invitedRoleId))
 					{
-						TeamManager.logger.debug("FAIL:TeamFilter閸氾箑鍠�,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:TeamFilter闁告熬绠戦崰锟�,TeamId: "+inviterTeamId);
 					}
 					else if(!checkTeamInviteNotFull(team))
 					{
-						//闁�?鐠囩兘妲︽导宥囨畱濮濓絽婀柇?鐠囪渹姹夐弫鎷屾彧閸�?4娑擃亷绱濇稉宥堝厴閸愬秹鍊嬬拠閿嬫纯婢�?
+						//闂侊拷?閻犲洨鍏樺Σ锔藉瀹ュ洦鐣辨慨婵撶到濠�顏堟焽?閻犲洩娓瑰Ч澶愬极閹峰本褰ч柛锟�?4濞戞搩浜风槐婵囩▔瀹ュ牆鍘撮柛鎰Ч閸婂鎷犻柨瀣函濠拷?
 						psend(inviterRoleId, new STeamError(TeamError.InviteingsFull));
-						TeamManager.logger.debug("FAIL:闁�?鐠囩兘妲︽导宥囨畱濮濓絽婀柇?鐠囪渹姹夐弫鎷屾彧閸�?4娑擃亷绱濇稉宥堝厴閸愬秹鍊嬬拠閿嬫纯婢�?,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:闂侊拷?閻犲洨鍏樺Σ锔藉瀹ュ洦鐣辨慨婵撶到濠�顏堟焽?閻犲洩娓瑰Ч澶愬极閹峰本褰ч柛锟�?4濞戞搩浜风槐婵囩▔瀹ュ牆鍘撮柛鎰Ч閸婂鎷犻柨瀣函濠拷?,TeamId: "+inviterTeamId);
 					}
 					else if(!checkTeamLeaderState(inviterRoleId))
 					{
-						//闁�?鐠囩兘妲︽导宥囨畱濮濓絽婀柇?鐠囪渹姹夐弫鎷屾彧閸�?4娑擃亷绱濇稉宥堝厴閸愬秹鍊嬬拠閿嬫纯婢�?
+						//闂侊拷?閻犲洨鍏樺Σ锔藉瀹ュ洦鐣辨慨婵撶到濠�顏堟焽?閻犲洩娓瑰Ч澶愬极閹峰本褰ч柛锟�?4濞戞搩浜风槐婵囩▔瀹ュ牆鍘撮柛鎰Ч閸婂鎷犻柨瀣函濠拷?
 						//psend(inviterRoleId, new STeamError(TeamError.InviteingsFull));
-						TeamManager.logger.debug("FAIL:闂冪喖鏆辫ぐ鎾冲閻樿埖?浣风瑝閼充粙鍊嬬拠鏋�??");
+						TeamManager.logger.debug("FAIL:闂傚啰鍠栭弳杈亹閹惧啿顤呴柣妯垮煐?娴ｉ鐟濋柤鍏呯矙閸婂鎷犻弸锟�??");
 					}
 					else{
 						if(!checkMap()){
 							return false;
 						}
 						
-						TeamManager.logger.debug("SUCC:濠娐ゅ喕閺夆�叉閿涘苯褰叉禒銉ュ絺閸戞椽妲︽导宥夊�嬬拠? "+inviterTeamId);
-						// 濠娐ゅ喕閺夆�叉閿涘苯褰叉禒銉ュ絺閸戞椽妲︽导宥夊�嬬拠?
+						TeamManager.logger.debug("SUCC:婵犲◥銈呭枙闁哄锟藉弶顐介柨娑樿嫰瑜板弶绂掗妷銉ョ岛闁告垶妞藉Σ锔藉瀹ュ锟藉鎷�? "+inviterTeamId);
+						// 婵犲◥銈呭枙闁哄锟藉弶顐介柨娑樿嫰瑜板弶绂掗妷銉ョ岛闁告垶妞藉Σ锔藉瀹ュ锟藉鎷�?
 						SInviteJoinTeam snd = new SInviteJoinTeam();
 						snd.op = 0;
 						snd.invitername = xtable.Properties.get(inviterRoleId).getRolename();
 						snd.inviterlevel = xtable.Properties.get(inviterRoleId).getLevel();
-						// 娣囨繂鐡ㄩ柇?鐠�?,鏉╂瑩鍣锋稉宥囨暏鐎规碍妞傞崳顭掔礉閸欘垯浜掔悮顐㈠З閺傜懓绱″〒鍛存珟
-						//娣囨繂鐡ㄩ柇?鐠囧嘲鍩岄梼鐔剁礊
+						// 濞ｅ洦绻傞悺銊╂焽?閻狅拷?,閺夆晜鐟╅崳閿嬬▔瀹ュ洦鏆忛悗瑙勭濡炲倿宕抽…鎺旂闁告瑯鍨禍鎺旀偖椤愩垹袟闁哄倻鎳撶槐鈥炽�掗崨瀛樼彑
+						//濞ｅ洦绻傞悺銊╂焽?閻犲洤鍢查崺宀勬⒓閻斿墎绀�
 						team.getTeamInfo().getInvitingids().put(invitedRoleId,now);
-						//娣囨繂鐡ㄩ柇?鐠囧嘲鍩岀悮顐﹀�嬬拠鐤�冮敍灞藉帥閻顫﹂柇?鐠囩柉?鍛畱闁�?鐠囪渹淇婇幁顖涙Ц閸氾箑鍑＄�涙ê婀�
+						//濞ｅ洦绻傞悺銊╂焽?閻犲洤鍢查崺宀�鎮锕�锟藉鎷犻悿顖橈拷鍐晬鐏炶棄甯ラ柣顏勵儓椤箓鏌�?閻犲洨鏌�?閸涱垱鐣遍梺锟�?閻犲洩娓规穱濠囧箒椤栨稒笑闁告熬绠戦崙锛勶拷娑櫭﹢锟�
 						xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
 						if(inviteInfo == null)
 						{
@@ -190,22 +190,22 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 						inviteInfo.getInvited().add(inviteInfo.getInviting().copy());
 						psendWhileCommit(inviterRoleId, new SInviteJoinSucc(invitedRoleId));
 						MessageMgr.psendMsgNotify(inviterRoleId, 142358, null);
-						// 閸欐垿?渚�鍊嬬拠?
+						// 闁告瑦鍨�?娓氾拷閸婂鎷�?
 						mkdb.Procedure.psendWhileCommit(invitedRoleId, snd);
 					}
 			
 				} else
 				{
-					//閺夈儴鍤滄稉顏冩眽閻ㄥ嫰鍊嬬拠?
+					//闁哄鍎撮崵婊勭▔椤忓啯鐪介柣銊ュ閸婂鎷�?
 					if(!checkSingleInviteNotFull(inviterRoleId))
 					{
-						//闁�?鐠囩柉?鍛劀閸︺劑鍊嬬拠铚傛眽閺佹媽鎻崚?4娑擃亷绱濇稉宥堝厴閸愬秹鍊嬬拠閿嬫纯婢�?
+						//闂侊拷?閻犲洨鏌�?閸涱噮鍔�闁革负鍔戦崐瀣嫚閾氬倹鐪介柡浣瑰閹活亪宕�?4濞戞搩浜风槐婵囩▔瀹ュ牆鍘撮柛鎰Ч閸婂鎷犻柨瀣函濠拷?
 						psend(inviterRoleId, new STeamError(TeamError.InviteingsFull));
-						TeamManager.logger.debug("FAIL:闁�?鐠囩柉?鍛劀閸︺劑鍊嬬拠铚傛眽閺佹媽鎻崚?4娑擃亷绱濇稉宥堝厴閸愬秹鍊嬬拠閿嬫纯 "+inviterRoleId);
+						TeamManager.logger.debug("FAIL:闂侊拷?閻犲洨鏌�?閸涱噮鍔�闁革负鍔戦崐瀣嫚閾氬倹鐪介柡浣瑰閹活亪宕�?4濞戞搩浜风槐婵囩▔瀹ュ牆鍘撮柛鎰Ч閸婂鎷犻柨瀣函 "+inviterRoleId);
 					}
 					else if(!checkTeamFilter(inviterRoleId, invitedRoleId))
 					{
-						TeamManager.logger.debug("FAIL:TeamFilter閸氾箑鍠�,TeamId: "+inviterTeamId);
+						TeamManager.logger.debug("FAIL:TeamFilter闁告熬绠戦崰锟�,TeamId: "+inviterTeamId);
 					}
 					else
 					{
@@ -214,15 +214,15 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 							return false;
 						}
 						
-						TeamManager.logger.debug("SUCC:濠娐ゅ喕閺夆�叉閿涘苯褰叉禒銉ュ絺閸戣桨閲滄禍娲�嬬拠? "+inviterRoleId);
-						// 濠娐ゅ喕閺夆�叉閿涘苯褰叉禒銉ュ絺閸戣桨閲滄禍娲�嬬拠?
+						TeamManager.logger.debug("SUCC:婵犲◥銈呭枙闁哄锟藉弶顐介柨娑樿嫰瑜板弶绂掗妷銉ョ岛闁告垼妗ㄩ柌婊勭濞差亜锟藉鎷�? "+inviterRoleId);
+						// 婵犲◥銈呭枙闁哄锟藉弶顐介柨娑樿嫰瑜板弶绂掗妷銉ョ岛闁告垼妗ㄩ柌婊勭濞差亜锟藉鎷�?
 						xbean.Properties inviterProperty = xtable.Properties.get(inviterRoleId);
 						SInviteJoinTeam snd = new SInviteJoinTeam();
 						snd.op = 0;
 						snd.invitername = inviterProperty.getRolename();
 						snd.inviterlevel = xtable.Properties.get(inviterRoleId).getLevel();
-						// 娣囨繂鐡ㄩ柇?鐠�?,鏉╂瑩鍣锋稉宥囨暏鐎规碍妞傞崳顭掔礉閸欘垯浜掔悮顐㈠З閺傜懓绱″〒鍛存珟
-						//娣囨繂鐡ㄩ柇?鐠囧嘲鍩屾稉顏冩眽闁�?鐠囩柉銆�
+						// 濞ｅ洦绻傞悺銊╂焽?閻狅拷?,閺夆晜鐟╅崳閿嬬▔瀹ュ洦鏆忛悗瑙勭濡炲倿宕抽…鎺旂闁告瑯鍨禍鎺旀偖椤愩垹袟闁哄倻鎳撶槐鈥炽�掗崨瀛樼彑
+						//濞ｅ洦绻傞悺銊╂焽?閻犲洤鍢查崺灞剧▔椤忓啯鐪介梺锟�?閻犲洨鏌夐妴锟�
 						xbean.SingleInvitings singleInvitings = xtable.Singleinviting.get(inviterRoleId);
 						if(singleInvitings == null)
 						{
@@ -230,7 +230,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 							xtable.Singleinviting.add(inviterRoleId, singleInvitings);
 						}
 						singleInvitings.getInvitingids().put(invitedRoleId, now);
-						//娣囨繂鐡ㄩ柇?鐠囧嘲鍩岀悮顐﹀�嬬拠鐤�冮敍灞藉帥閻顫﹂柇?鐠囩柉?鍛畱闁�?鐠囪渹淇婇幁顖涙Ц閸氾箑鍑＄�涙ê婀�
+						//濞ｅ洦绻傞悺銊╂焽?閻犲洤鍢查崺宀�鎮锕�锟藉鎷犻悿顖橈拷鍐晬鐏炶棄甯ラ柣顏勵儓椤箓鏌�?閻犲洨鏌�?閸涱垱鐣遍梺锟�?閻犲洩娓规穱濠囧箒椤栨稒笑闁告熬绠戦崙锛勶拷娑櫭﹢锟�
 						xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
 						if(inviteInfo == null)
 						{
@@ -245,7 +245,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 						inviteInfo.getInviting().setInvitetime(now);						
 						inviteInfo.getInvited().add(inviteInfo.getInviting().copy());
 						
-						// 閸欐垿?渚�鍊嬬拠?
+						// 闁告瑦鍨�?娓氾拷閸婂鎷�?
 						psendWhileCommit(inviterRoleId, new SInviteJoinSucc(invitedRoleId));
 						MessageMgr.psendMsgNotify(inviterRoleId, 142358, null);
 						mkdb.Procedure.psendWhileCommit(invitedRoleId, snd);
@@ -257,7 +257,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 			
 			private boolean checkMap(){
 
-				//閸欐垼鎹ｆ禍?
+				//闁告瑦鍨奸幑锝嗙?
 				final fire.pb.map.Role  invitMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(inviterRoleId);
 				final fire.pb.map.Role  desMaprole = fire.pb.map.RoleManager.getInstance().getRoleByID(invitedRoleId);
 				if(invitMaprole == null || desMaprole == null){
@@ -269,7 +269,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 				int desMapId = desMaprole.getMapId();
 				MapConfig descfg = ConfigManager.getInstance().getConf(MapConfig.class).get(desMapId);
 				
-				//閸︺劌鐣ㄩ崗銊ユ勾閸�? 娑撳秵鐗庢宀�绮嶉梼?
+				//闁革负鍔岄悾銊╁礂閵娿儲鍕鹃柛锟�? 濞戞挸绉甸悧搴㈩殽瀹�锟界划宥夋⒓?
 				if(cfg == null || descfg == null){
 					return true;
 				}
@@ -284,54 +284,54 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 		createTeamP.submit();
 	}
 	
-	// 闁�?鐠囩柉?鍛嫲鐞氼偊鍊嬬拠鐤�?鍛倱閺冭泛婀痪??閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂侊拷?閻犲洨鏌�?閸涱厽瀚查悶姘煎亰閸婂鎷犻悿锟�?閸涱厽鍊遍柡鍐硾濠�顏嗙棯??闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkOnline(long invitedRoleId, long inviterRoleId)
 	{
 		if(StateCommon.isOnline(invitedRoleId))
 			return true;
 		else
 		{
-			//鐎佃鏌熸稉宥呮躬缁�?
+			//閻庝絻顫夐弻鐔哥▔瀹ュ懏韬紒锟�?
 			MessageMgr.sendMsgNotify(inviterRoleId, 141701, null);
 			return false;
 		}
 	}	
 	
-	//闁�?鐠囩柉?鍛槱娴滃骸褰叉禒銉х矋闂冪喓娈戦悩鑸�?渚婄吹閿涘牓娼捄鎴濇櫌閵嗕線顥ｇ悰灞�?浣稿礋娴滆桨鎹㈤崝锛勭搼閿�?
+	//闂侊拷?閻犲洨鏌�?閸涱収妲卞ù婊冮瑜板弶绂掗妷褏鐭嬮梻鍐枔濞堟垿鎮╅懜锟�?娓氬﹦鍚归柨娑樼墦濞碱亞鎹勯幋婵囨珜闁靛棔绶氶ˉ锝囨偘鐏烇拷?娴ｇ绀嬪ù婊嗘〃閹广垽宕濋敍鍕惣闁匡拷?
 	private boolean checkInviterStatus(long inviterRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(inviterRoleId,true);
 		if(!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM))
 		{
-			TeamManager.logger.info("閻溾晛顔�(roleId=" + inviterRoleId+")婢跺嫪绨稉宥堝厴缂佸嫰妲﹂惃鍕Ц閹�?");
+			TeamManager.logger.info("闁绘壕鏅涢锟�(roleId=" + inviterRoleId+")濠㈣泛瀚花顒佺▔瀹ュ牆鍘寸紓浣稿濡诧箓鎯冮崟顓炐﹂柟锟�?");
 			return false;
 		}
 		return true;
 	}
 	
-	//鐞氼偊鍊嬬拠鐤�?鍛槱娴滃骸褰叉禒銉х矋闂冪喓娈戦悩鑸�?渚婄吹閿涘牓娼捄鎴濇櫌閵嗕線顥ｇ悰灞�?浣稿礋娴滆桨鎹㈤崝锛勭搼閿�?
+	//閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱収妲卞ù婊冮瑜板弶绂掗妷褏鐭嬮梻鍐枔濞堟垿鎮╅懜锟�?娓氬﹦鍚归柨娑樼墦濞碱亞鎹勯幋婵囨珜闁靛棔绶氶ˉ锝囨偘鐏烇拷?娴ｇ绀嬪ù婊嗘〃閹广垽宕濋敍鍕惣闁匡拷?
 	private boolean checkInvitedStatus(long invitedRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(invitedRoleId,true);
 		if(!buffagent.canAddBuff(BuffConstant.StateType.STATE_TEAM))
 		{
-			TeamManager.logger.info("閻溾晛顔�(roleId=" + invitedRoleId+")婢跺嫪绨稉宥堝厴缂佸嫰妲﹂惃鍕Ц閹�?");
+			TeamManager.logger.info("闁绘壕鏅涢锟�(roleId=" + invitedRoleId+")濠㈣泛瀚花顒佺▔瀹ュ牆鍘寸紓浣稿濡诧箓鎯冮崟顓炐﹂柟锟�?");
 			return false;
 		}
 		return true;
 	}
 	
-	// 鐞氼偊鍊嬬拠鐤�?鍛矋闂冪喎绱戦崗鍐插嚒閹垫挸绱�?閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱垳鐭嬮梻鍐枎缁辨垿宕楅崘鎻掑殥闁瑰灚鎸哥槐锟�?闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkInvitedTeamFuctionEnable(long invitedRoleId)
 	{
-		//缂佸嫰妲﹀?閸�?
+		//缂備礁瀚板Σ锕�顕�?闁革拷?
 //		if(fire.pb.SystemSettingConfig.checkRoleSetting(invitedRoleId, fire.pb.SysSetType.AcceptTeam)<=0)
 //			return false;
 //		else
 			return true;
 	}
 	
-	// 鐞氼偊鍊嬬拠鐤�?鍛瑝閸︺劑妲︽导宥勮厬閿涚喎褰ч懗钘夋躬Procedure娑擃叀顫︾拫鍐暏
+	// 閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱剛鐟濋柛锔哄姂濡诧附瀵煎鍕幀闁挎稓鍠庤ぐ褔鎳楅挊澶嬭含Procedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkInvitedInNoTeam(Long invitedTeamId)
 	{
 		if(invitedTeamId == null)
@@ -340,22 +340,22 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 			return false;
 	}
 	
-	// 鐞氼偊鍊嬬拠鐤�?鍛梾閺堝顒滈崷銊潶闁�?鐠囧嚖绱甸崣顏囧厴閸︹墥rocedure娑擃叀顫︾拫鍐暏
+	// 閻炴凹鍋婇崐瀣嫚閻わ拷?閸涱喚姊鹃柡鍫濐槹椤掓粓宕烽妸顭戞蕉闂侊拷?閻犲洤鍤栫槐鐢稿矗椤忓洤鍘撮柛锔瑰ⅴrocedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkNotBeingInvited(long invitedRoleId)
 	{
 		xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
 		
-		if (inviteInfo == null)//婵″倹鐏夊▽鈩冩箒鐠佹澘缍嶉敍宀冦�冪粈杞扮矤閺堫亣顫﹂柇?鐠囩柉绻�
+		if (inviteInfo == null)//濠碘�冲�归悘澶娾柦閳╁啯绠掗悹浣规緲缂嶅秹鏁嶅畝鍐︼拷鍐矆鏉炴壆鐭ら柡鍫海椤箓鏌�?閻犲洨鏌夌换锟�
 			return true;
 		if(!inviteInfo.getBeinginvited())
 		{
-			//婵″倹鐏夊锝呮躬闁�?鐠囪渹缍呮稉绡篴lse閿涘矁鍋楃�规矮绗夋径鍕艾鐞氼偊鍊嬬拠椋庡Ц閹緤绱濆〒鍛存珟鏉╁洦婀￠柇?鐠�?
+			//濠碘�冲�归悘澶婎潰閿濆懏韬梺锟�?閻犲洩娓圭紞鍛▔缁＄lse闁挎稑鐭侀崑妤冿拷瑙勭煯缁楀寰勯崟顏嗚壘閻炴凹鍋婇崐瀣嫚妞嬪骸笑闁诡兛绶ょ槐婵嗐�掗崨瀛樼彑閺夆晛娲﹀﹢锟犳焽?閻狅拷?
 			cleanTimeoutInvites(inviteInfo.getInvited());
 			return true;
 		}
 		else if ((now - inviteInfo.getInviting().getInvitetime()) > TeamManager.MAX_INVITE_TIMEOUT)
 		{
-			//婢跺嫪绨柇?鐠囬濮搁幀渚婄礉娴ｅ棙妲稿鑼病鐡掑懏妞傞敍宀勬付鐟曚焦娲块弬鎷岊潶闁�?鐠囩柉?鍛Ц閹椒璐熸稉宥咁槱娴滃氦顫﹂柇?鐠囬濮搁幀渚婄礉閸氬本妞傚〒鍛存珟鏉╁洦婀￠柇?鐠�?
+			//濠㈣泛瀚花顒勬焽?閻犲洭顥撴慨鎼佸箑娓氬﹦绀夊ù锝呮濡茬顔忛懠顒傜梾閻℃帒鎳忓鍌炴晬瀹�鍕粯閻熸洑鐒﹀ú鍧楀棘閹峰矈娼堕梺锟�?閻犲洨鏌�?閸涱垰笑闁诡兛妞掔拹鐔哥▔瀹ュ拋妲卞ù婊冩唉椤箓鏌�?閻犲洭顥撴慨鎼佸箑娓氬﹦绀夐柛姘湰濡炲倸銆掗崨瀛樼彑閺夆晛娲﹀﹢锟犳焽?閻狅拷?
 			inviteInfo.setBeinginvited(false);
 			cleanTimeoutInvites(inviteInfo.getInvited());
 			return true;
@@ -364,7 +364,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 			return false;
 	}
 	
-	//濞撳懘娅庨柇?鐠囩柉銆冩稉顓犳畱鏉╁洦婀￠柇?鐠�?,閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	//婵炴挸鎳樺▍搴ㄦ焽?閻犲洨鏌夐妴鍐╃▔椤撶姵鐣遍弶鈺佹处濠�锟犳焽?閻狅拷?,闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private void cleanTimeoutInvites(java.util.List<xbean.TeamInvite> invites)
 	{
 		java.util.List<xbean.TeamInvite> timeoutList = new java.util.ArrayList<xbean.TeamInvite>();
@@ -376,7 +376,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 		invites.removeAll(timeoutList);
 	}
 
-	// 鏉╂瑤閲滈柇?鐠囬攱鐥呴張澶庮潶闂冪喍绱為幋鏍�?鍛嚋娴滃搫婀�30缁夋帒鍞撮柇?鐠囩柉绻冮敍鐔峰涧閼宠棄婀狿rocedure娑擃叀顫︾拫鍐暏
+	// 閺夆晜鐟ら柌婊堟焽?閻犲洭鏀遍惀鍛村嫉婢跺寒娼堕梻鍐枍缁辩偤骞嬮弽锟�?閸涱剟鍤嬪ù婊冩惈濠�锟�30缂佸甯掗崬鎾焽?閻犲洨鏌夌换鍐晬閻斿嘲娑ч柤瀹犳濠�鐙縭ocedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkNotInvitedIn30s(long invitedRoleId, long inviterRoleId, Long inviterTeamId)
 	{
 		xbean.InviteInfo inviteInfo = xtable.Teaminvite.get(invitedRoleId);
@@ -389,13 +389,13 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 				if ((now - invited.getInvitetime()) < TeamManager.MAX_INVITE_TIMEOUT)
 				{
 					if (!result)
-						continue;// 婵″倹鐏夊鑼病閹垫儳鍩岄敍鍧甧sult == false閿涘绱濈亸杈ㄧ梾韫囧懓顩︽潻娑滎攽閸氬酣娼伴惃鍕灲閺傤厺绨�
+						continue;// 濠碘�冲�归悘澶婎啅閼碱剛鐥呴柟鍨劤閸╁矂鏁嶉崸鐢ult == false闁挎稑顧�缁辨繄浜告潏銊ф⒕闊洤鎳撻々锔芥交濞戞粠鏀介柛姘叄濞间即鎯冮崟顐㈢伈闁哄偆鍘虹花锟�
 					else if (invited.getRoleid() == inviterRoleId)
-						result = false;// roleid閻╁摜鐡�
+						result = false;// roleid闁烩晛鎽滈悺锟�
 					else if (inviterTeamId != null && invited.getTeamid() == inviterTeamId)
-						result = false;// inviterTeamId鐎涙ê婀獮鏈电瑬teamId閻╁摜鐡�
+						result = false;// inviterTeamId閻庢稒锚濠�顏堢嵁閺堢數鐟瑃eamId闁烩晛鎽滈悺锟�
 				} else
-					timeoutList.add(invited);// 鐡掑懓绻�30缁夋帞娈戞潻鍥︾窗娑�?鐠у嘲鍨归梽?
+					timeoutList.add(invited);// 閻℃帒鎳撶换锟�30缂佸甯炲▓鎴炴交閸ワ妇绐楀☉锟�?閻犙冨槻閸ㄥ綊姊�?
 			}
 			inviteInfo.getInvited().removeAll(timeoutList);
 			return result;
@@ -407,7 +407,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 	}
 	
 
-	// 闁�?鐠囩柉?鍛Ц闂冪喖鏆遍敍鐔峰涧閼宠棄婀狿rocedure娑擃叀顫︾拫鍐暏
+	// 闂侊拷?閻犲洨鏌�?閸涱喗笑闂傚啰鍠栭弳閬嶆晬閻斿嘲娑ч柤瀹犳濠�鐙縭ocedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkInviterIsLeader(long inviterRoleId , Team team)
 	{
 		if(team.getTeamInfo().getTeamleaderid() == inviterRoleId)
@@ -416,7 +416,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 			return false;
 	}
 
-	// 闁�?鐠囩柉?鍛存Е娴煎秳姹夐弫?<5? 閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂侊拷?閻犲洨鏌�?閸涘瓨袝濞寸厧绉冲Ч澶愬极?<5? 闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkTeamNotFull(Team team)
 	{
 		if (team.getTeamInfo().getMembers().size() < 4)
@@ -442,10 +442,10 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 		return filter.checkInviteJoin(inviterId, roleId);
 	}
 	
-	// 闁�?鐠囩柉?鍛存Е娴煎秶娈戦柇?鐠囬攱顐奸弫?<4? 閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂侊拷?閻犲洨鏌�?閸涘瓨袝濞寸厧绉跺▓鎴︽焽?閻犲洭鏀遍濂稿极?<4? 闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkTeamInviteNotFull(Team team)
 	{
-		//閸忓牊绔婚悶鍡氱箖閺堢喖鍊嬬拠?
+		//闁稿繐鐗婄粩濠氭偠閸℃氨绠栭柡鍫㈠枛閸婂鎷�?
 		cleanTimoutInvitings(team.getTeamInfo().getInvitingids());
 		if (team.getTeamInfo().getInvitingids().size() < 4)
 			return true;
@@ -453,18 +453,18 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 			return false;
 	}
 	
-	// 闁�?鐠囩柉?鍛Ц閹椒绗夐崗浣筋啅? 閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂侊拷?閻犲洨鏌�?閸涱垰笑闁诡兛妞掔粭澶愬礂娴ｇ瓔鍟�? 闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkTeamLeaderState(long inviterRoleId)
 	{
 		BuffAgent buffagent = new BuffRoleImpl(inviterRoleId);
 		return buffagent.canAddBuff(OperateType.TEAM_INVITE);
 	}
 	
-	// 闁�?鐠囩柉?鍛畱闁�?鐠囬攱顐奸弫?<4? 閸欘亣鍏橀崷鈮抮ocedure娑擃叀顫︾拫鍐暏
+	// 闂侊拷?閻犲洨鏌�?閸涱垱鐣遍梺锟�?閻犲洭鏀遍濂稿极?<4? 闁告瑯浜ｉ崗姗�宕烽埉鎶畂cedure濞戞搩鍙�椤妇鎷崘顏呮殢
 	private boolean checkSingleInviteNotFull(long inviterRoleId)
 	{
 		xbean.SingleInvitings singleInvitings = xtable.Singleinviting.get(inviterRoleId);
-		//閸忓牊绔婚悶鍡氱箖閺堢喖鍊嬬拠?
+		//闁稿繐鐗婄粩濠氭偠閸℃氨绠栭柡鍫㈠枛閸婂鎷�?
 		if(singleInvitings == null)
 			return true;
 		cleanTimoutInvitings(singleInvitings.getInvitingids());
@@ -474,7 +474,7 @@ private long now = 0L;//procedure瀵�?婵妞傛穱婵嗙摠娑�?娑擃
 			return false;
 	}
 	
-	//濞撳懘娅庨梼鐔剁礊閸滃奔閲滄禍娲�嬬拠鐤�?鍛厬閻ㄥ嫯绻冮張鐔煎�嬬拠?
+	//婵炴挸鎳樺▍搴ㄦ⒓閻斿墎绀婇柛婊冨闁叉粍绂嶅ú顏勶拷瀣嫚閻わ拷?閸涱剝鍘柣銊ュ缁诲啴寮甸悢鐓庯拷瀣嫚?
 	private void cleanTimoutInvitings(java.util.Map<Long,Long> invitings)
 	{
 		Object[] keys = invitings.keySet().toArray();

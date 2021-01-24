@@ -69,7 +69,7 @@ public class CRequestRolePos extends __CRequestRolePos__ {
 					String roleName = pRole.getName();
 					List<String> paras = MessageUtil.getMsgParaList(roleName,mapName,String.valueOf(gridPos.getX()),String.valueOf(gridPos.getY()));
 					fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(findroleid, 142709, paras);
-				    //閹碉絾甯�閻椻晛鎼�
+				    //闁圭绲剧敮锟介柣妞绘櫅閹硷拷
 					fire.pb.item.Pack bag = new fire.pb.item.Pack(findroleid, false);
 					int realSub = bag.removeItemById(36253, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_qianlixunzong, 36253, "use qianlixunzongdie",true);
 				    if (realSub!=1)

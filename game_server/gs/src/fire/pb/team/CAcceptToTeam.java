@@ -11,7 +11,7 @@ abstract class __CAcceptToTeam__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閹恒儱褰堥崗銉╂Е
+ * 闁规亽鍎辫ぐ鍫ュ礂閵夆晜袝
  * @author changhao
  *
  */
@@ -30,7 +30,7 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 		{
 			fire.pb.PropRole applierprop = new fire.pb.PropRole(applierRoleId, true);
 			if(applierprop.getProperties().getCruise() > 0) {
-				TeamManager.logger.info("CAcceptToTeam:閻㈠疇顕崗銉╂Е閼�?" + applierRoleId + "閸︺劌璐板〒鍝ュЦ閹�?,濮濄倖妞傛稉宥堝厴閻㈠疇顕崗銉╂Е");
+				TeamManager.logger.info("CAcceptToTeam:闁汇垹鐤囬顒勫礂閵夆晜袝闁硷拷?" + applierRoleId + "闁革负鍔岀拹鏉裤�掗崫銉バ﹂柟锟�?,婵縿鍊栧鍌涚▔瀹ュ牆鍘撮柣銏犵枃椤曨剟宕楅妷鈺傂�");
 				fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162027, null);
 				fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 162026, null);
 				return;
@@ -38,17 +38,17 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 			
 			fire.pb.PropRole leaderprop = new fire.pb.PropRole(roleid, true);
 			if(leaderprop.getProperties().getCruise() > 0) {
-				TeamManager.logger.info("CAcceptToTeam:闂冪喍绱為梼鐔兼毐" + roleid + "閻㈠疇顕禍?" + applierRoleId + "闂冪喍绱為梼鐔兼毐濮濓絽婀鈩冪埗閻樿埖??,娑撳秷鍏橀悽瀹狀嚞閸忋儵妲�");
+				TeamManager.logger.info("CAcceptToTeam:闂傚啰鍠嶇槐鐐烘⒓閻斿吋姣�" + roleid + "闁汇垹鐤囬顒佺?" + applierRoleId + "闂傚啰鍠嶇槐鐐烘⒓閻斿吋姣愭慨婵撶到濠�顏勵啅閳╁啰鍩楅柣妯垮煐??,濞戞挸绉烽崗姗�鎮界�圭媭鍤為柛蹇嬪劦濡诧拷");
 				fire.pb.talk.MessageMgr.sendMsgNotify(applierRoleId, 162026, null);
 				fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 162027, null);
 				return;
 			}				
 		}
 		
-		Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId);//婵″倹鐏夐梼鐔剁礊閸︺劌鍙曟导姘灛閸﹁桨鑵� by changhao
+		Long leaderclanfightid = xtable.Roleid2clanfightid.select(leaderRoleId);//濠碘�冲�归悘澶愭⒓閻斿墎绀婇柛锔哄妼閸欐洘瀵煎顓炵仜闁革箒妗ㄩ懙锟� by changhao
 		if (leaderclanfightid != null)
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//婵″倹鐏夐悽瀹狀嚞閼板懎婀崗顑跨窗閹存ê婧�娑�? by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//濠碘�冲�归悘澶愭偨鐎圭媭鍤為柤鏉挎噹濠�顏堝礂椤戣法绐楅柟瀛樏┃锟藉☉锟�? by changhao
 			if (!leaderclanfightid.equals(applierclanfightid))
 			{
  			    fire.pb.talk.MessageMgr.sendMsgNotify(leaderRoleId, 410028,  null);
@@ -72,7 +72,7 @@ public class CAcceptToTeam extends __CAcceptToTeam__ {
 		}
 		else
 		{
-			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//閻㈠疇顕懓鍛躬閸忣兛绱伴幋妯烘簚娑�? by changhao
+			Long applierclanfightid = xtable.Roleid2clanfightid.select(applierRoleId);//闁汇垹鐤囬顒勬嚀閸涱厽韬柛蹇ｅ厸缁变即骞嬪Ο鐑樼皻濞戯拷? by changhao
 			if (applierclanfightid != null)
 			{
 				if (!applierclanfightid.equals(leaderclanfightid))

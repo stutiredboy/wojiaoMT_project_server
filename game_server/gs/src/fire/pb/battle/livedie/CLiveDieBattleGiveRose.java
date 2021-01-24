@@ -23,7 +23,7 @@ public class CLiveDieBattleGiveRose extends __CLiveDieBattleGiveRose__ {
 		
 		new mkdb.Procedure() {
 			protected boolean process() throws Exception {
-				//閸掋倖鏌囬悙纭呯閻ㄥ嫬缍嶉崓蹇旀Ц閸氾箑鐡ㄩ崷?
+				//闁告帇鍊栭弻鍥倷绾懐顩甸柣銊ュ缂嶅秹宕撹箛鏃�笑闁告熬绠戦悺銊╁捶?
 				xbean.LDVideoRoleInfoDes des = LiveDieMange.ldvideoroleinfodeslistall.get(vedioid);
 				if(des==null){
 					return false;
@@ -45,10 +45,10 @@ public class CLiveDieBattleGiveRose extends __CLiveDieBattleGiveRose__ {
 				if(lDVideoRoleRoseInfo.getRosenum()>=LiveDieMange.GIVE_ROSE_NUM_MAX){
 					return false;
 				}else{
-					//鐠佸墽鐤嗛悳鈺侇啀閻ㄥ嫮鍋ｇ挧鐐搭偧閺�?
+					//閻犱礁澧介悿鍡涙偝閳轰緡鍟�闁汇劌瀚崑锝囨導閻愭惌鍋ч柡锟�?
 					lDVideoRoleRoseInfo.setRosenum(lDVideoRoleRoseInfo.getRosenum()+1);
 				}
-				//鐠佸墽鐤嗚ぐ鎾冲瑜版洖鍎氶惃鍕仯鐠х偞顐奸弫?
+				//閻犱礁澧介悿鍡氥亹閹惧啿顤呯憸鐗堟礀閸庢岸鎯冮崟顓炰化閻犙呭仦椤愬ジ寮�?
 				des.setRosenum(des.getRosenum()+1);
 				for(xbean.LDVideoRoleInfoDes desdb:lDVideoRoleInfoDesList.getLdvideoroleinfodeslistall()){
 					if(desdb.getVideoid().equals(vedioid)){

@@ -24,7 +24,7 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 			return;
 		if(fire.pb.talk.ChatChannel.isShutUp(roleId))
 			return;
-		//閸掋倖鏌囬弰顖氭儊閺勵垱鐪伴崝鈺冭閸ㄥ绱濇俊鍌涚亯閺�?1鐞涖劎銇氬Ч鍌氬И閿涘矂娓剁憰浣稿灲閺傤厽鐪伴崝鈺冩畱閺�?婢堆勵偧閺�?
+		//闁告帇鍊栭弻鍥及椤栨碍鍎婇柡鍕靛灡閻即宕濋埡鍐潶闁搞劌顑戠槐婵囦繆閸屾稓浜柡锟�?1閻炴稏鍔庨妵姘ч崒姘橀柨娑樼焸濞撳墎鎲版担绋跨伈闁哄偆鍘介惇浼村礉閳哄啯鐣遍柡锟�?濠㈠爢鍕靛仹闁猴拷?
 		if(funtype==FunModelType.FUN_TASKITEM){
 			xbean.helpcount helpcount = xtable.Helpcount.select(roleId);
 	    	int max=HelpCountManage.getInstance().getHelpItemNumMax(roleId);
@@ -40,7 +40,7 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 	    		MessageMgr.sendMsgNotify(roleId, 166087, null);
 	    		return;
 	    	}
-			//鐠佹澘缍嶉悳鈺侇啀閸︺劑顣堕柆鎾茶厬閸欐垵绔烽惃鍕崲閸斺剝鐪伴崝鈺�淇婇幁?
+			//閻犱焦婢樼紞宥夋偝閳轰緡鍟�闁革负鍔戦。鍫曟焼閹捐尪鍘柛娆愬灥缁旂兘鎯冮崟顏呭床闁告柡鍓濋惇浼村礉閳猴拷娣囧﹪骞�?
 			new mkdb.Procedure() {
 				@Override
 				protected boolean process() throws Exception {
@@ -50,14 +50,14 @@ public class CTransChatMessage2Serv extends __CTransChatMessage2Serv__ {
 						xtable.Rolerecourse.insert(roleId, roleRec);
 					}
 					
-					//鐟欙絾鐎介崙绨峚skid
+					//閻熸瑱绲鹃悗浠嬪礄缁ㄥ硽skid
 					xbean.TaskRecourse taskRec = roleRec.getRecoursetask().get(taskid);
 					if (taskRec == null) {
 						taskRec = xbean.Pod.newTaskRecourse();
 						roleRec.getRecoursetask().put(taskid, taskRec);
 					}
 					
-					//鐎涙ê鍋嶆穱鈩冧紖
+					//閻庢稒锚閸嬪秵绌遍埄鍐х礀
 					if (!taskRec.getChannellist().contains(Integer.valueOf(messagetype))) {
 						taskRec.getChannellist().add(messagetype);
 					}

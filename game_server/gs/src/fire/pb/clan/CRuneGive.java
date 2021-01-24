@@ -15,7 +15,7 @@ public class CRuneGive extends __CRuneGive__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//閹规劗灏炵粭锔芥瀮
+		//闁硅鍔楃亸鐐电箔閿旇姤鐎�
 		final long selfroleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(selfroleid < 0) {
 			return;

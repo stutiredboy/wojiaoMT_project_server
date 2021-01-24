@@ -62,21 +62,21 @@ public class MCheckCanPlayPKView extends __MCheckCanPlayPKView__ {
 	private QCRoleInfoDes createQCRoleInfoDes(long id){
 		PropRole propRole = new PropRole(id, true);
 		QCRoleInfoDes qCRoleInfoDes = new QCRoleInfoDes();
-		qCRoleInfoDes.roleid=propRole.getRoleId();//鐟欐帟澹奍d
-		qCRoleInfoDes.rolename=propRole.getName();//鐟欐帟澹婇崥?
-		qCRoleInfoDes.shape=propRole.getShape();//鐟欐帟澹婇柅鐘茬��
-		qCRoleInfoDes.level=propRole.getLevel();//鐟欐帟澹婄粵澶岄獓
-		qCRoleInfoDes.school=propRole.getSchool();//闂傘劍娣�
+		qCRoleInfoDes.roleid=propRole.getRoleId();//閻熸瑦甯熸竟濂峝
+		qCRoleInfoDes.rolename=propRole.getName();//閻熸瑦甯熸竟濠囧触?
+		qCRoleInfoDes.shape=propRole.getShape();//閻熸瑦甯熸竟濠囨焻閻樿尙锟斤拷
+		qCRoleInfoDes.level=propRole.getLevel();//閻熸瑦甯熸竟濠勭驳婢跺矂鐛�
+		qCRoleInfoDes.school=propRole.getSchool();//闂傚倶鍔嶅ǎ锟�
 		Team team = TeamManager.selectTeamByRoleId(id);
 		if(team!=null){
-			//鏉╂瑩鍣烽梼鐔剁礊閺嶅洤绻旈棁?鐟曚浇?鍐 閺嗗倻顬囬梼鐔剁礊閻ㄥ嫮甯虹�硅泛婀崚鍥╊棎
-			//鏉╁洦鎶ら幒澶愭姜闂冪喖鏆遍幋鎰喅
+			//閺夆晜鐟╅崳鐑芥⒓閻斿墎绀婇柡宥呮搐缁绘棃妫�?閻熸洑娴�?閸愵厽顎� 闁哄棗鍊婚‖鍥⒓閻斿墎绀婇柣銊ュ鐢櫣锟界娉涘﹢顏堝礆閸モ晩妫�
+			//閺夆晛娲﹂幎銈夊箳婢舵劖濮滈梻鍐枛閺嗛亶骞嬮幇顒佸枀
 			if(team.getTeamLeaderId()!=id){
 				qCRoleInfoDes.teamnum=0;
 				qCRoleInfoDes.teamnummax=0;
 			}else{
-				qCRoleInfoDes.teamnum=team.getNormalMemberIds().size();//闂冪喍绱炶ぐ鎾冲娴滅儤鏆�
-				qCRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//闂冪喍绱為張?婢堆傛眽閺�?
+				qCRoleInfoDes.teamnum=team.getNormalMemberIds().size();//闂傚啰鍠嶇槐鐐躲亹閹惧啿顤呭ù婊呭劋閺嗭拷
+				qCRoleInfoDes.teamnummax=TeamManager.MAX_MEMBER_COUNT+1;//闂傚啰鍠嶇槐鐐哄嫉?濠㈠爢鍌涚溄闁猴拷?
 			}
 		}else{
 			qCRoleInfoDes.teamnum=0;

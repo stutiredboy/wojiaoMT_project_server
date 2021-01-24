@@ -12,7 +12,7 @@ abstract class __CGrabChargeReturnProfitReward__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 妫板棗褰囬崗鍛�?鑹扮箲閸掆晛顨涢崝?
+ * 濡澘妫楄ぐ鍥礂閸涳拷?閼规壆绠查柛鎺嗘櫅椤ㄦ盯宕�?
  * @author changhao
  *
  */
@@ -34,21 +34,21 @@ public class CGrabChargeReturnProfitReward extends __CGrabChargeReturnProfitRewa
 				
 				if (profits == null)
 				{
-					FushiManager.logger.info("濞屸�冲帠閸婇棿绗夐懗浠嬵暙閸�?");
+					FushiManager.logger.info("婵炲备锟藉啿甯犻柛濠囨？缁楀鎳楁禒瀣垫殭闁革拷?");
 					return true;
 				}
 				
 				xbean.ChargeReturnProfit profit = profits.getReturnprofitmap().get(id);
 				if (profit == null)
 				{
-					FushiManager.logger.info("濞屸剝婀佹潻娆庨嚋閸忓懎?鑹扮箲閸掆晠銆嶉惄?");
+					FushiManager.logger.info("婵炲备鍓濆﹢浣规交濞嗗酣鍤嬮柛蹇撴噹?閼规壆绠查柛鎺嗘櫊閵嗗秹鎯�?");
 					return true;					
 				}
 				
 				SChargeReturnProfit config = fire.pb.main.ConfigManager.getInstance().getConf(SChargeReturnProfit.class).get(id);
 				if (config == null)
 				{
-					FushiManager.logger.info("濞屸剝婀佹潻娆庨嚋閸忓懎?鑹扮箲閸掆晠銆嶉惄?");
+					FushiManager.logger.info("婵炲备鍓濆﹢浣规交濞嗗酣鍤嬮柛蹇撴噹?閼规壆绠查柛鎺嗘櫊閵嗗秹鎯�?");
 					return true;						
 				}
 				
@@ -57,16 +57,16 @@ public class CGrabChargeReturnProfitReward extends __CGrabChargeReturnProfitRewa
 					int c = 0;
 					for (Integer id : config.getRewarditems())
 					{	
-						int c1 = 0; //缁嬪秴浜曢張澶屽仯閺咃附璁� by changhao
+						int c1 = 0; //缂佸绉存禍鏇㈠嫉婢跺苯浠柡鍜冮檮鐠侊拷 by changhao
 						for (Integer num : config.getRewarditemnums())
 						{
-							if (c == c1) //瀵版鍩屾總鏍уС鐎电懓绨查惃鍕殶闁�? by changhao
+							if (c == c1) //鐎电増顨呴崺灞剧附閺嵮冃￠悗鐢垫嚀缁ㄦ煡鎯冮崟顒佹闂侊拷? by changhao
 							{
 								int added = fire.pb.util.BagUtil.addItem(roleid, id, num, fire.pb.skill.liveskill.LiveSkillManager.ChargetGrab, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_chongzhifanli, 1, true);
 								
 								if (num != added)
 								{
-									FushiManager.logger.info("閸欐垶鏂佹總鏍уС婢惰精瑙﹂崣顖濆厴閺勵垵鍎楅崠鍛姬娴�?");
+									FushiManager.logger.info("闁告瑦鍨堕弬浣圭附閺嵮冃″鎯扮簿鐟欙箓宕ｉ婵嗗幋闁哄嫷鍨甸崕妤呭礌閸涱喖濮ù锟�?");
 									fire.pb.talk.MessageMgr.sendMsgNotify(roleid, 140655, null);
 									return false;						
 								}									
@@ -78,7 +78,7 @@ public class CGrabChargeReturnProfitReward extends __CGrabChargeReturnProfitRewa
 						c ++;
 					}
 					 
-					profit.setStatus(0); //鐠佸墽鐤嗘稉鍝勫嚒妫板棗褰囬悩鑸�?? by changhao
+					profit.setStatus(0); //閻犱礁澧介悿鍡樼▔閸濆嫬鍤掑Λ鏉挎瑜板洭鎮╅懜锟�?? by changhao
 					SGrabChargeReturnProfitReward msg = new SGrabChargeReturnProfitReward();
 					msg.id = profit.getId();
 					msg.status = 0;

@@ -26,12 +26,12 @@ public class CCanEnterBingFeng extends __CCanEnterBingFeng__ {
 			protected boolean process() throws Exception {
 				BingFengRole bingFengRole = new BingFengRole(roleid, true);
 				if (bingFengRole.getBingFengRoleBean().getTimes() <= 0) {
-					//濞嗏剝鏆熷鑼病閻€劌鐣禍?
+					//婵炲棌鍓濋弳鐔奉啅閼碱剛鐥呴柣鈧妼閻ｎ剚绂�?
 					xbean.RoleBFInfo rolebingFengInfo = BingFengLandMgr.getInstance().getRoleBingFengInfo(roleid, 0, false);
 					bingFengRole.getBingFengRoleBean().setTimes(bingFengRole.getBingFengRoleBean().getTimes() - 1);
 					long currentTime = System.currentTimeMillis();
 					
-					//婵″倹鐏夐弰顖氭躬閸氬奔绔存径?,閸掓瑧娲块幒銉ㄧ箲閸ョ偘绗夐懗钘夊晙閹垫挸鍟虹亸浣哄竾鎼囱傜啊
+					//濠碘�冲�归悘澶愬及椤栨碍韬柛姘缁斿瓨寰�?,闁告帗鐟уú鍧楀箳閵夈劎绠查柛銉у仒缁楀鎳楅挊澶婃櫃闁瑰灚鎸搁崯铏逛焊娴ｅ搫绔鹃幖鍥卞倻鍟�
 					if (DateValidate.inTheSameDay(currentTime, rolebingFengInfo.getLastchangetime())) {
 						SCanEnterBingFeng scanenter = new SCanEnterBingFeng();
 						scanenter.finish = 1;
@@ -41,7 +41,7 @@ public class CCanEnterBingFeng extends __CCanEnterBingFeng__ {
 					}
 				}
 				
-				//娑撳秵妲搁崷銊ユ倱娑�?婢�?,閹存牞?鍛偧閺佺増鐥呴張澶屾暏鐎�?,闁棄褰叉禒銉ュ晙閹�?
+				//濞戞挸绉靛Σ鎼佸捶閵娿儲鍊卞☉锟�?濠拷?,闁瑰瓨鐗�?閸涱噮鍋ч柡浣哄閻ュ懘寮垫径灞炬殢閻庯拷?,闂侇喛妫勮ぐ鍙夌閵夈儱鏅欓柟锟�?
 				SCanEnterBingFeng scanenter = new SCanEnterBingFeng();
 				scanenter.finish = 0;
 				Procedure.psendWhileCommit(roleid, scanenter);

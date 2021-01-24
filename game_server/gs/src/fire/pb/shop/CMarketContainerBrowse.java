@@ -34,13 +34,13 @@ public class CMarketContainerBrowse extends __CMarketContainerBrowse__ {
 		new mkdb.Procedure() {
 			protected boolean process() {
 				if (fire.pb.main.Gs.isMergeServer()) {
-					// 閺屻儴顕楃悰銊よ厬濮濄倛顫楅懝鍙夋Ц閸氾附婀侀崣鏍ф礀娑撳瓨妞傞幏宥呭礌闁挸鍙块惃鍕坊閸�?
+					// 闁哄被鍎撮妤冩偘閵娿倛鍘慨婵勫�涢～妤呮嚌閸欏笑闁告熬闄勫﹢渚�宕ｉ弽褎绀�濞戞挸鐡ㄥ鍌炲箯瀹ュ懎绀岄梺顒佹尭閸欏潡鎯冮崟顐㈠潑闁革拷?
 					Integer val = xtable.Takebackmarketcontainertab.select(roleId);
 					if (val == null) {
 						fire.pb.shop.srv.market.MarketManager.getInstance().sendTempMarketContainer(roleId);
 						if (fire.pb.shop.srv.market.MarketManager.LOG.isInfoEnabled()) {
 							StringBuilder sbd = new StringBuilder();
-							sbd.append("role=").append(roleId).append(", 濞村繗顫嶉柆鎾冲徔鏉╂柨娲栨稉瀛樻閼冲苯瀵橀敍?");
+							sbd.append("role=").append(roleId).append(", 婵炴潙绻楅～宥夋焼閹惧啿寰旈弶鈺傛煥濞叉牗绋夌�涙ɑ顦ч柤鍐茶嫰鐎垫﹢鏁�?");
 							fire.pb.shop.srv.market.MarketManager.LOG.info(sbd.toString());
 						}
 						return true;

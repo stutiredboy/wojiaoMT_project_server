@@ -31,7 +31,7 @@ public class COtherItemTips extends __COtherItemTips__ {
 
 		Octets tips = item.getTips();
 		if (tips == null) {
-			Module.logger.error("闁挎瑨顕ら惃鍓噄ps鐠囬攱鐪�,閻椻晛鎼ч崥?:" + item.getName());
+			Module.logger.error("闂佹寧鐟ㄩ銈夋儍閸撳檮ps閻犲洭鏀遍惇锟�,闁绘せ鏅涢幖褔宕�?:" + item.getName());
 			return;
 		}
 		

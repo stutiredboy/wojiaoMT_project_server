@@ -74,7 +74,7 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 				}
 			}
 		}
-		// 鐎佃褰佹禍銈囨畱鐎圭姷澧块惃鍕灲閺傤叏绱濇稉宥堝厴閺勵垰寮幋妯烘嫲鐏炴洜銇氶惃鍕枃閻�?
+		// 閻庝絻顫夎ぐ浣圭閵堝洦鐣遍悗鍦Х婢у潡鎯冮崟顐㈢伈闁哄偆鍙忕槐婵囩▔瀹ュ牆鍘撮柡鍕靛灠瀵剟骞嬪Ο鐑樺閻忕偞娲滈妵姘舵儍閸曨偆鏋冮柣锟�?
 		java.util.List<xbean.PetInfo> pis = null;
 		if (submittype == SubmitType.PET) {
 			pis = new java.util.ArrayList<xbean.PetInfo>();
@@ -92,7 +92,7 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 				pis.add(pet.getPetInfo().copy());
 			}
 		}
-		// 鐎佃褰佹禍銈囧⒖閸濅胶娈戦崚銈嗘焽閿涘奔绗夐懗鑺ユ箒闁�?
+		// 閻庝絻顫夎ぐ浣圭閵堝洤鈷栭柛婵呰兌濞堟垿宕氶妶鍡樼劷闁挎稑濂旂粭澶愭嚄閼恒儲绠掗梺锟�?
 		if (submittype == SubmitType.ITEM) {
 			Pack bag = new Pack(roleid, true);
 			for (SubmitUnit unit : things) {
@@ -102,14 +102,14 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 			}
 		}
 
-		if (submittype == SubmitType.INSTANCE_ZONE_ITEM) {// 閸擃垱婀伴悳鈺傜《鐢瓕顫夐幓鎰唉閻椻晛鎼�
+		if (submittype == SubmitType.INSTANCE_ZONE_ITEM) {// 闁告搩鍨卞﹢浼存偝閳哄倻銆婇悽顖涚摃椤骞撻幇顏呭攭闁绘せ鏅涢幖锟�
 			new fire.pb.instancezone.PSubmit2Npc(roleid, this).submit();
 		}
 		if (submittype == SubmitType.GUILD_ZONE_ITEM) {
 			new fire.pb.instancezone.PSubmit2Npc(roleid, this).submit();
 		}
 
-		// 婵″倹鐏夐弰顖氬⒔閹懍鎹㈤崝?
+		// 濠碘�冲�归悘澶愬及椤栨艾鈷旈柟顖氭噸閹广垽宕�?
 		if (fire.pb.mission.UtilHelper.isMajorScenarioMission(questid)
 				|| fire.pb.mission.UtilHelper.isBranchScenarioMission(questid)) {
 			// if ( things.size() != 1 )
@@ -171,7 +171,7 @@ public class CSubmit2Npc extends __CSubmit2Npc__ {
 					int teamshare = new MissionColumn(roleid, true).getMission(
 							questid).getConf().exeIndo.share;
 					if (teamshare == 0) {
-						// 娑撳秴鍙℃禍?
+						// 濞戞挸绉撮崣鈩冪?
 						mkdb.Procedure.execute(new PCommitMajorMission(roleid,
 								questid, new fire.pb.mission.util.PetCommitParam(
 										npckey, petkey), true),
