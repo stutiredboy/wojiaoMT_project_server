@@ -1318,6 +1318,9 @@ public class BattleField
 			Pet pet = petcol.getPet(prole.getFightpetkey());
 			if (pet == null)
 				return fi;
+			PetColumn petColTemp = new PetColumn(roleid, PetColumnTypes.PET, false);
+			Pet petTemp = petColTemp.getPet(prole.getFightpetkey());
+			fi.shape = petTemp.getPetInfo().getShapeID();
 			xbean.PetInfo petinfo=pet.getPetInfo();
 			if(petinfo!=null){
 				if(petinfo.getPetdye1()>0){
