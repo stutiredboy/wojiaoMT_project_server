@@ -5,7 +5,7 @@
     <int>500293</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500293</id>
-      <freeCurrencyType>1</freeCurrencyType>
+      <freeCurrencyType>2</freeCurrencyType>
       <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
@@ -15,8 +15,8 @@
     <int>500252</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500252</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1001</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -25,8 +25,8 @@
     <int>500301</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500301</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1002</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -35,8 +35,8 @@
     <int>500260</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500260</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1003</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -45,8 +45,8 @@
     <int>500281</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500281</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1004</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -55,8 +55,8 @@
     <int>500240</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500240</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1005</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -65,8 +65,8 @@
     <int>500280</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500280</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1006</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -75,8 +75,8 @@
     <int>500239</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500239</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1007</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -85,8 +85,8 @@
     <int>500264</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500264</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1008</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -95,8 +95,8 @@
     <int>500302</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500302</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1009</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -105,8 +105,8 @@
     <int>500223</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500223</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1010</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -115,8 +115,8 @@
     <int>500272</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500272</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1011</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -125,8 +125,8 @@
     <int>500231</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500231</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1012</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -135,8 +135,8 @@
     <int>506010</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506010</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1013</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -145,8 +145,8 @@
     <int>500276</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500276</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1014</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -155,8 +155,8 @@
     <int>500235</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500235</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1015</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -165,8 +165,8 @@
     <int>500268</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500268</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1016</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -175,8 +175,8 @@
     <int>500227</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500227</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1017</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -185,8 +185,8 @@
     <int>500285</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500285</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1018</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -195,8 +195,8 @@
     <int>500244</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500244</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1019</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -205,8 +205,8 @@
     <int>500297</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500297</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1020</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -215,8 +215,8 @@
     <int>500256</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500256</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1021</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -225,8 +225,8 @@
     <int>500289</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500289</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1022</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -235,8 +235,8 @@
     <int>500248</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500248</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1023</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -245,8 +245,8 @@
     <int>510010</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510010</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1024</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -255,8 +255,8 @@
     <int>510011</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510011</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1025</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -265,8 +265,8 @@
     <int>510012</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510012</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1026</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -275,8 +275,8 @@
     <int>510013</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510013</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1027</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -285,8 +285,8 @@
     <int>510014</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510014</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1028</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -295,8 +295,8 @@
     <int>510015</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510015</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1029</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -305,8 +305,8 @@
     <int>500299</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500299</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1030</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -315,8 +315,8 @@
     <int>500157</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500157</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1031</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -325,8 +325,8 @@
     <int>500158</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500158</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1032</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -335,8 +335,8 @@
     <int>500258</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500258</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1033</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -345,8 +345,8 @@
     <int>500217</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500217</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1034</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -355,8 +355,8 @@
     <int>500218</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500218</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1035</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -365,8 +365,8 @@
     <int>500269</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500269</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1036</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -375,8 +375,8 @@
     <int>500112</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500112</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1037</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -385,8 +385,8 @@
     <int>500113</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500113</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1038</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -395,8 +395,8 @@
     <int>500114</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500114</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1039</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -405,8 +405,8 @@
     <int>500228</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500228</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1040</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -415,8 +415,8 @@
     <int>506008</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506008</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1041</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -425,8 +425,8 @@
     <int>500172</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500172</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1042</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -435,8 +435,8 @@
     <int>500173</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500173</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1043</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -445,8 +445,8 @@
     <int>500174</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500174</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1044</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -455,8 +455,8 @@
     <int>506005</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506005</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1045</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -465,8 +465,8 @@
     <int>500261</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500261</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1046</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -475,8 +475,8 @@
     <int>500100</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500100</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1047</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -485,8 +485,8 @@
     <int>500101</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500101</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1048</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -495,8 +495,8 @@
     <int>500102</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500102</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1049</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -505,8 +505,8 @@
     <int>506001</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506001</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1050</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -515,8 +515,8 @@
     <int>506002</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506002</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1051</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -525,8 +525,8 @@
     <int>500220</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500220</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1052</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -535,8 +535,8 @@
     <int>500160</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500160</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1053</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -545,8 +545,8 @@
     <int>500161</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500161</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1054</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -555,8 +555,8 @@
     <int>500162</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500162</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1055</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -565,8 +565,8 @@
     <int>500267</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500267</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1056</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -575,8 +575,8 @@
     <int>500111</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500111</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1057</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -585,8 +585,8 @@
     <int>500226</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500226</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1058</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -595,8 +595,8 @@
     <int>506007</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506007</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1059</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -605,8 +605,8 @@
     <int>506013</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506013</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1060</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -615,8 +615,8 @@
     <int>500171</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500171</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1061</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -625,8 +625,8 @@
     <int>500300</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500300</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1062</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -635,8 +635,8 @@
     <int>500159</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500159</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1063</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -645,8 +645,8 @@
     <int>500259</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500259</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1064</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -655,8 +655,8 @@
     <int>500219</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500219</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1065</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -665,8 +665,8 @@
     <int>500290</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500290</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1066</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -675,8 +675,8 @@
     <int>500142</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500142</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1067</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -685,8 +685,8 @@
     <int>500143</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500143</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1068</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -695,8 +695,8 @@
     <int>500144</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500144</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1069</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -705,8 +705,8 @@
     <int>500249</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500249</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1070</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -715,8 +715,8 @@
     <int>500202</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500202</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1071</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -725,8 +725,8 @@
     <int>500203</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500203</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1072</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -735,8 +735,8 @@
     <int>500204</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500204</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1073</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -745,8 +745,8 @@
     <int>500277</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500277</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1074</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -755,8 +755,8 @@
     <int>500124</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500124</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1075</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -765,8 +765,8 @@
     <int>500125</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500125</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1076</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -775,8 +775,8 @@
     <int>500126</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500126</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1077</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -785,8 +785,8 @@
     <int>500236</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500236</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1078</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -795,8 +795,8 @@
     <int>500184</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500184</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1079</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -805,8 +805,8 @@
     <int>500185</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500185</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1080</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -815,8 +815,8 @@
     <int>500186</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500186</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1081</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -825,8 +825,8 @@
     <int>500265</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500265</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1082</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -835,8 +835,8 @@
     <int>500106</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500106</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1083</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -845,8 +845,8 @@
     <int>500107</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500107</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1084</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -855,8 +855,8 @@
     <int>500108</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500108</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1085</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -865,8 +865,8 @@
     <int>500224</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500224</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1086</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -875,8 +875,8 @@
     <int>500166</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500166</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1087</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -885,8 +885,8 @@
     <int>500167</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500167</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1088</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -895,8 +895,8 @@
     <int>500168</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500168</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1089</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -905,8 +905,8 @@
     <int>500279</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500279</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1090</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -915,8 +915,8 @@
     <int>500129</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500129</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1091</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -925,8 +925,8 @@
     <int>500238</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500238</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1092</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -935,8 +935,8 @@
     <int>500291</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500291</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1093</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -945,8 +945,8 @@
     <int>500145</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500145</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1094</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -955,8 +955,8 @@
     <int>500146</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500146</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1095</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -965,8 +965,8 @@
     <int>500250</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500250</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1096</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -975,8 +975,8 @@
     <int>500205</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500205</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1097</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -985,8 +985,8 @@
     <int>500206</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500206</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1098</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -995,8 +995,8 @@
     <int>500189</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500189</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1099</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1005,8 +1005,8 @@
     <int>500275</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500275</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1100</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1015,8 +1015,8 @@
     <int>500123</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500123</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1101</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1025,8 +1025,8 @@
     <int>500234</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500234</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1102</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1035,8 +1035,8 @@
     <int>500183</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500183</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1103</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1045,8 +1045,8 @@
     <int>500292</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500292</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1104</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1055,8 +1055,8 @@
     <int>500147</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500147</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1105</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1065,8 +1065,8 @@
     <int>500251</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500251</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1106</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1075,8 +1075,8 @@
     <int>500207</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500207</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1107</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1085,8 +1085,8 @@
     <int>500262</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500262</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1108</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1095,8 +1095,8 @@
     <int>500103</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500103</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1109</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1105,8 +1105,8 @@
     <int>500104</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500104</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1110</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1115,8 +1115,8 @@
     <int>500221</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500221</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1111</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1125,8 +1125,8 @@
     <int>506003</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506003</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1112</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1135,8 +1135,8 @@
     <int>506004</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506004</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1113</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1145,8 +1145,8 @@
     <int>500163</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500163</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1114</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1155,8 +1155,8 @@
     <int>500164</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500164</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1115</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1165,8 +1165,8 @@
     <int>500274</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500274</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1116</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1175,8 +1175,8 @@
     <int>500121</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500121</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1117</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1185,8 +1185,8 @@
     <int>500122</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500122</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1118</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1195,8 +1195,8 @@
     <int>500233</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500233</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1119</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1205,8 +1205,8 @@
     <int>500181</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500181</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1120</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1215,8 +1215,8 @@
     <int>500182</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500182</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1121</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1225,8 +1225,8 @@
     <int>500282</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500282</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1122</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1235,8 +1235,8 @@
     <int>500130</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500130</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1123</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1245,8 +1245,8 @@
     <int>500131</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500131</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1124</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1255,8 +1255,8 @@
     <int>500132</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500132</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1125</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1265,8 +1265,8 @@
     <int>500241</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500241</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1126</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1275,8 +1275,8 @@
     <int>500190</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500190</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1127</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1285,8 +1285,8 @@
     <int>500191</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500191</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1128</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1295,8 +1295,8 @@
     <int>500192</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500192</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1129</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1305,8 +1305,8 @@
     <int>500278</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500278</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1130</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1315,8 +1315,8 @@
     <int>500127</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500127</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1131</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1325,8 +1325,8 @@
     <int>500128</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500128</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1132</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1335,8 +1335,8 @@
     <int>500237</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500237</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1133</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1345,8 +1345,8 @@
     <int>500187</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500187</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1134</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1355,8 +1355,8 @@
     <int>500188</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500188</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1135</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1365,8 +1365,8 @@
     <int>500294</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500294</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1136</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1375,8 +1375,8 @@
     <int>500148</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500148</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1137</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1385,8 +1385,8 @@
     <int>500149</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500149</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1138</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1395,8 +1395,8 @@
     <int>500150</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500150</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1139</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1405,8 +1405,8 @@
     <int>500253</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500253</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1140</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1415,8 +1415,8 @@
     <int>500208</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500208</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1141</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1425,8 +1425,8 @@
     <int>500209</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500209</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1142</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1435,8 +1435,8 @@
     <int>500210</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500210</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1143</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1445,8 +1445,8 @@
     <int>500295</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500295</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1144</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1455,8 +1455,8 @@
     <int>500151</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500151</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1145</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1465,8 +1465,8 @@
     <int>500152</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500152</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1146</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1475,8 +1475,8 @@
     <int>500254</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500254</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1147</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1485,8 +1485,8 @@
     <int>500211</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500211</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1148</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1495,8 +1495,8 @@
     <int>500212</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500212</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1149</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1505,8 +1505,8 @@
     <int>500284</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500284</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1150</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1515,8 +1515,8 @@
     <int>500135</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500135</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1151</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1525,8 +1525,8 @@
     <int>500243</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500243</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1152</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1535,8 +1535,8 @@
     <int>500195</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500195</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1153</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1545,8 +1545,8 @@
     <int>506009</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506009</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1154</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1555,8 +1555,8 @@
     <int>500270</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500270</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1155</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1565,8 +1565,8 @@
     <int>500115</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500115</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1156</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1575,8 +1575,8 @@
     <int>500116</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500116</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1157</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1585,8 +1585,8 @@
     <int>500229</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500229</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1158</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1595,8 +1595,8 @@
     <int>500175</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500175</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1159</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1605,8 +1605,8 @@
     <int>500176</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500176</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1160</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1615,8 +1615,8 @@
     <int>500271</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500271</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1161</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1625,8 +1625,8 @@
     <int>510004</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510004</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1162</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1635,8 +1635,8 @@
     <int>500117</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500117</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1163</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1645,8 +1645,8 @@
     <int>510001</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510001</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1164</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1655,8 +1655,8 @@
     <int>500230</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500230</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1165</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1665,8 +1665,8 @@
     <int>510003</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510003</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1166</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1675,8 +1675,8 @@
     <int>500177</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500177</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1167</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1685,8 +1685,8 @@
     <int>510002</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>510002</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1168</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1695,8 +1695,8 @@
     <int>500263</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500263</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1169</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1705,8 +1705,8 @@
     <int>506011</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506011</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1170</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1715,8 +1715,8 @@
     <int>500105</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500105</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1171</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1725,8 +1725,8 @@
     <int>500222</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500222</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1172</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1735,8 +1735,8 @@
     <int>500165</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500165</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1173</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1745,8 +1745,8 @@
     <int>500296</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500296</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1174</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1755,8 +1755,8 @@
     <int>500153</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500153</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1175</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1765,8 +1765,8 @@
     <int>500255</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500255</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1176</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1775,8 +1775,8 @@
     <int>500213</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500213</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1177</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1785,8 +1785,8 @@
     <int>500286</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500286</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1178</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1795,8 +1795,8 @@
     <int>500136</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500136</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1179</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1805,8 +1805,8 @@
     <int>500137</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500137</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1180</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1815,8 +1815,8 @@
     <int>500138</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500138</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1181</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1825,8 +1825,8 @@
     <int>500245</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500245</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1182</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1835,8 +1835,8 @@
     <int>500196</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500196</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1183</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1845,8 +1845,8 @@
     <int>500197</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500197</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1184</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1855,8 +1855,8 @@
     <int>500198</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500198</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1185</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1865,8 +1865,8 @@
     <int>500283</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500283</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1186</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1875,8 +1875,8 @@
     <int>500133</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500133</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1187</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1885,8 +1885,8 @@
     <int>500134</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500134</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1188</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1895,8 +1895,8 @@
     <int>500242</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500242</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1189</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1905,8 +1905,8 @@
     <int>500193</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500193</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1190</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1915,8 +1915,8 @@
     <int>500194</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500194</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1191</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1925,8 +1925,8 @@
     <int>500287</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500287</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1192</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1935,8 +1935,8 @@
     <int>500139</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500139</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1193</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1945,8 +1945,8 @@
     <int>500140</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500140</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1194</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1955,8 +1955,8 @@
     <int>500246</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500246</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1195</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1965,8 +1965,8 @@
     <int>500199</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500199</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1196</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1975,8 +1975,8 @@
     <int>500200</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500200</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1197</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1985,8 +1985,8 @@
     <int>500273</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500273</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1198</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -1995,8 +1995,8 @@
     <int>500118</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500118</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1199</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2005,8 +2005,8 @@
     <int>500119</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500119</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1200</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2015,8 +2015,8 @@
     <int>500120</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500120</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1201</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2025,8 +2025,8 @@
     <int>500232</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500232</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1202</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2035,8 +2035,8 @@
     <int>500178</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500178</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1203</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2045,8 +2045,8 @@
     <int>500179</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500179</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1204</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2055,8 +2055,8 @@
     <int>500180</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500180</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1205</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2065,8 +2065,8 @@
     <int>500288</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500288</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1206</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2075,8 +2075,8 @@
     <int>500141</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500141</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1207</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2085,8 +2085,8 @@
     <int>500247</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500247</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1208</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2095,8 +2095,8 @@
     <int>500201</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500201</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1209</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2105,8 +2105,8 @@
     <int>500266</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500266</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1210</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2115,8 +2115,8 @@
     <int>500109</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500109</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1211</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2125,8 +2125,8 @@
     <int>500110</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500110</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1212</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2135,8 +2135,8 @@
     <int>500225</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500225</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1213</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2145,8 +2145,8 @@
     <int>506006</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506006</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1214</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2155,8 +2155,8 @@
     <int>506012</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>506012</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1215</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2165,8 +2165,8 @@
     <int>500169</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500169</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1216</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2175,8 +2175,8 @@
     <int>500170</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500170</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1217</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2185,8 +2185,8 @@
     <int>500298</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500298</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1218</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2195,8 +2195,8 @@
     <int>500154</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500154</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1219</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2205,8 +2205,8 @@
     <int>500155</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500155</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1220</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2215,8 +2215,8 @@
     <int>500156</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500156</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1221</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2225,8 +2225,8 @@
     <int>500257</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500257</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1222</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2235,8 +2235,8 @@
     <int>500214</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500214</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1223</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2245,8 +2245,8 @@
     <int>500215</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500215</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1224</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2255,8 +2255,8 @@
     <int>500216</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>500216</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1225</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2265,8 +2265,8 @@
     <int>530000</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530000</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1226</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2275,8 +2275,8 @@
     <int>530001</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530001</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1227</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2285,8 +2285,8 @@
     <int>530002</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530002</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1228</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2295,8 +2295,8 @@
     <int>530003</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530003</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1229</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2305,8 +2305,8 @@
     <int>530004</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530004</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1230</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2315,8 +2315,8 @@
     <int>530005</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530005</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1231</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2325,8 +2325,8 @@
     <int>530006</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530006</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1232</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2335,8 +2335,8 @@
     <int>530007</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530007</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1233</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2345,8 +2345,8 @@
     <int>530008</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530008</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1234</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2355,8 +2355,8 @@
     <int>530009</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530009</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1235</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2365,8 +2365,8 @@
     <int>530010</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530010</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1236</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2375,8 +2375,8 @@
     <int>530011</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530011</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1237</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2385,8 +2385,8 @@
     <int>530012</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530012</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1238</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2395,8 +2395,8 @@
     <int>530013</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530013</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1239</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2405,8 +2405,8 @@
     <int>530014</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530014</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1240</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2415,8 +2415,8 @@
     <int>530015</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530015</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1241</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2425,8 +2425,8 @@
     <int>530016</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530016</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1242</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2435,8 +2435,8 @@
     <int>530017</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530017</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1243</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2445,8 +2445,8 @@
     <int>530018</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530018</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1244</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2455,8 +2455,8 @@
     <int>530019</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530019</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1245</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2465,8 +2465,8 @@
     <int>530020</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530020</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1246</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2475,8 +2475,8 @@
     <int>530021</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530021</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1247</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2485,8 +2485,8 @@
     <int>530022</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530022</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1248</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2495,8 +2495,8 @@
     <int>530023</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530023</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1249</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2505,8 +2505,8 @@
     <int>530024</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530024</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1250</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2515,8 +2515,8 @@
     <int>530025</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530025</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1251</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2525,8 +2525,8 @@
     <int>530026</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530026</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1252</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2535,8 +2535,8 @@
     <int>530027</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530027</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1253</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2545,8 +2545,8 @@
     <int>530028</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530028</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1254</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2555,8 +2555,8 @@
     <int>530029</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530029</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1255</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2565,8 +2565,8 @@
     <int>530030</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530030</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1256</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2575,8 +2575,8 @@
     <int>530031</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530031</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1257</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2585,8 +2585,8 @@
     <int>530032</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530032</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1258</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2595,8 +2595,8 @@
     <int>530033</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530033</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1259</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2605,8 +2605,8 @@
     <int>530034</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530034</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1260</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2615,8 +2615,8 @@
     <int>530035</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530035</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1261</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2625,8 +2625,8 @@
     <int>530036</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530036</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1262</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2635,8 +2635,8 @@
     <int>530037</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530037</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1263</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2645,8 +2645,8 @@
     <int>530038</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530038</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1264</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2655,8 +2655,8 @@
     <int>530039</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530039</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1265</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2665,8 +2665,8 @@
     <int>530040</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530040</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1266</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2675,8 +2675,8 @@
     <int>530041</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530041</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1267</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2685,8 +2685,8 @@
     <int>530042</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530042</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1268</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2695,8 +2695,8 @@
     <int>530043</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530043</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1269</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2705,8 +2705,8 @@
     <int>530044</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530044</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1270</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2715,8 +2715,8 @@
     <int>530045</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530045</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1271</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2725,8 +2725,8 @@
     <int>530046</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530046</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1272</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2735,8 +2735,8 @@
     <int>530047</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530047</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1273</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2745,8 +2745,8 @@
     <int>530048</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530048</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1274</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2755,8 +2755,8 @@
     <int>530049</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530049</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1275</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2765,8 +2765,8 @@
     <int>530050</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530050</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1276</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2775,8 +2775,8 @@
     <int>530051</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530051</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1277</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2785,8 +2785,8 @@
     <int>530052</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530052</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1278</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2795,8 +2795,8 @@
     <int>530053</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530053</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1279</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2805,8 +2805,8 @@
     <int>530054</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530054</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1280</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2815,8 +2815,8 @@
     <int>530055</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530055</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1281</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2825,8 +2825,8 @@
     <int>530056</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530056</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1282</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2835,8 +2835,8 @@
     <int>530057</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530057</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1283</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2845,8 +2845,8 @@
     <int>530058</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530058</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1284</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2855,8 +2855,8 @@
     <int>530059</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530059</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1285</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2865,8 +2865,8 @@
     <int>530060</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530060</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1286</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2875,8 +2875,8 @@
     <int>530061</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530061</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1287</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2885,8 +2885,8 @@
     <int>530062</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530062</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1288</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2895,8 +2895,8 @@
     <int>530063</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530063</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1289</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2905,8 +2905,8 @@
     <int>530064</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530064</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1290</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2915,8 +2915,8 @@
     <int>530065</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530065</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1291</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2925,8 +2925,8 @@
     <int>530066</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530066</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1292</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2935,8 +2935,8 @@
     <int>530067</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530067</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1293</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2945,8 +2945,8 @@
     <int>530068</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530068</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1294</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2955,8 +2955,8 @@
     <int>530069</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530069</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1295</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2965,8 +2965,8 @@
     <int>530070</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530070</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1296</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2975,8 +2975,8 @@
     <int>530071</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530071</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1297</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2985,8 +2985,8 @@
     <int>530072</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530072</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1298</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -2995,8 +2995,8 @@
     <int>530073</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530073</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1299</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3005,8 +3005,8 @@
     <int>530074</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530074</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1300</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3015,8 +3015,8 @@
     <int>530075</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530075</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1301</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3025,8 +3025,8 @@
     <int>530076</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530076</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1302</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3035,8 +3035,8 @@
     <int>530077</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530077</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1303</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3045,8 +3045,8 @@
     <int>530078</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530078</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1304</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3055,8 +3055,8 @@
     <int>530079</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530079</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1305</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3065,8 +3065,8 @@
     <int>530080</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530080</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1306</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3075,8 +3075,8 @@
     <int>530081</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530081</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1307</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3085,8 +3085,8 @@
     <int>530082</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530082</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1308</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3095,8 +3095,8 @@
     <int>530083</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530083</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1309</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3105,8 +3105,8 @@
     <int>530084</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530084</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1310</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3115,8 +3115,8 @@
     <int>530085</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530085</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1311</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3125,8 +3125,8 @@
     <int>530086</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530086</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1312</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3135,8 +3135,8 @@
     <int>530087</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530087</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1313</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3145,8 +3145,8 @@
     <int>530088</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530088</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1314</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3155,8 +3155,8 @@
     <int>530089</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530089</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1315</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3165,8 +3165,8 @@
     <int>530090</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530090</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1316</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3175,8 +3175,8 @@
     <int>530091</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530091</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1317</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3185,8 +3185,8 @@
     <int>530092</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530092</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1318</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3195,8 +3195,8 @@
     <int>530093</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530093</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1319</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3205,8 +3205,8 @@
     <int>530094</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530094</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1320</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3215,8 +3215,8 @@
     <int>530095</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530095</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1321</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3225,8 +3225,8 @@
     <int>530096</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530096</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1322</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3235,8 +3235,8 @@
     <int>530097</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530097</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1323</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3245,8 +3245,8 @@
     <int>530098</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530098</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1324</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3255,8 +3255,8 @@
     <int>530099</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530099</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1325</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3265,8 +3265,8 @@
     <int>530100</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530100</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1326</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3275,8 +3275,8 @@
     <int>530101</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530101</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1327</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3285,8 +3285,8 @@
     <int>530102</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530102</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1328</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3295,8 +3295,8 @@
     <int>530103</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530103</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1329</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3305,8 +3305,8 @@
     <int>530104</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530104</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1330</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3315,8 +3315,8 @@
     <int>530105</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530105</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1331</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3325,8 +3325,8 @@
     <int>530106</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530106</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1332</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3335,8 +3335,8 @@
     <int>530107</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530107</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1333</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3345,8 +3345,8 @@
     <int>530108</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530108</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1334</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3355,8 +3355,8 @@
     <int>530109</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530109</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1335</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3365,8 +3365,8 @@
     <int>530110</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530110</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1336</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3375,8 +3375,8 @@
     <int>530111</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530111</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1337</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3385,8 +3385,8 @@
     <int>530112</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530112</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1338</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3395,8 +3395,8 @@
     <int>530113</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530113</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1339</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3405,8 +3405,8 @@
     <int>530114</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530114</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1340</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3415,8 +3415,8 @@
     <int>530115</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530115</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1341</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3425,8 +3425,8 @@
     <int>530116</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530116</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1342</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3435,8 +3435,8 @@
     <int>530117</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530117</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1343</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3445,8 +3445,8 @@
     <int>530118</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530118</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1344</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3455,8 +3455,8 @@
     <int>530119</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530119</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1345</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3465,8 +3465,8 @@
     <int>530120</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530120</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1346</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3475,8 +3475,8 @@
     <int>530121</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530121</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1347</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3485,8 +3485,8 @@
     <int>530122</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530122</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1348</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3495,8 +3495,8 @@
     <int>530123</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530123</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1349</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3505,8 +3505,8 @@
     <int>530124</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530124</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1350</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3515,8 +3515,8 @@
     <int>530125</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530125</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1351</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3525,8 +3525,8 @@
     <int>530126</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530126</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1352</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3535,8 +3535,8 @@
     <int>530127</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530127</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1353</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3545,8 +3545,8 @@
     <int>530128</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530128</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1354</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3555,8 +3555,8 @@
     <int>530129</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530129</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1355</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3565,8 +3565,8 @@
     <int>530130</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530130</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1356</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3575,8 +3575,8 @@
     <int>530131</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530131</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1357</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3585,8 +3585,8 @@
     <int>530132</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530132</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1358</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3595,8 +3595,8 @@
     <int>530133</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530133</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1359</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3605,8 +3605,8 @@
     <int>530134</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530134</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1360</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3615,8 +3615,8 @@
     <int>530135</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530135</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1361</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3625,8 +3625,8 @@
     <int>530136</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530136</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1362</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3635,8 +3635,8 @@
     <int>530137</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530137</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1363</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3645,8 +3645,8 @@
     <int>530138</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530138</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1364</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3655,8 +3655,8 @@
     <int>530139</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530139</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1365</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3665,8 +3665,8 @@
     <int>530140</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530140</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1366</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3675,8 +3675,8 @@
     <int>530141</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530141</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1367</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3685,8 +3685,8 @@
     <int>530142</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530142</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1368</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3695,8 +3695,8 @@
     <int>530143</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530143</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1369</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3705,8 +3705,8 @@
     <int>530144</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530144</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1370</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3715,8 +3715,8 @@
     <int>530145</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530145</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1371</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3725,8 +3725,8 @@
     <int>530146</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530146</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1372</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3735,8 +3735,8 @@
     <int>530147</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530147</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1373</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3745,8 +3745,8 @@
     <int>530152</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530152</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1374</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3755,8 +3755,8 @@
     <int>530149</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530149</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1375</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3765,8 +3765,8 @@
     <int>530150</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530150</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1376</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3775,8 +3775,8 @@
     <int>530151</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530151</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1377</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3785,8 +3785,8 @@
     <int>530157</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530157</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1378</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3795,8 +3795,8 @@
     <int>530158</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530158</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1379</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3805,8 +3805,8 @@
     <int>530159</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530159</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1380</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3815,8 +3815,8 @@
     <int>530160</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530160</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1381</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3825,8 +3825,8 @@
     <int>530161</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530161</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1382</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3835,8 +3835,8 @@
     <int>530162</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530162</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1383</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3845,8 +3845,8 @@
     <int>530163</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530163</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1384</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3855,8 +3855,8 @@
     <int>530164</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530164</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1385</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3865,8 +3865,8 @@
     <int>530165</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530165</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1386</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3875,8 +3875,8 @@
     <int>530166</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>530166</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1387</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3885,8 +3885,8 @@
     <int>900001</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900001</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1388</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3895,8 +3895,8 @@
     <int>900002</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900002</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1389</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3905,8 +3905,8 @@
     <int>900003</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900003</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1390</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3915,8 +3915,8 @@
     <int>900004</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900004</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1391</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3925,8 +3925,8 @@
     <int>900005</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900005</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1392</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3935,8 +3935,8 @@
     <int>900006</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900006</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1393</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3945,8 +3945,8 @@
     <int>900007</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900007</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1394</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3955,8 +3955,8 @@
     <int>900008</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900008</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1395</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3965,8 +3965,8 @@
     <int>900009</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900009</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1396</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3975,8 +3975,8 @@
     <int>900010</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900010</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1397</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3985,8 +3985,8 @@
     <int>900011</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900011</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1398</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -3995,8 +3995,8 @@
     <int>900012</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900012</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1399</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4005,8 +4005,8 @@
     <int>900013</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900013</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1400</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4015,8 +4015,8 @@
     <int>900014</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900014</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1401</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4025,8 +4025,8 @@
     <int>900015</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900015</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1402</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4035,8 +4035,8 @@
     <int>900016</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900016</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1403</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4045,8 +4045,8 @@
     <int>900017</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900017</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1404</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4055,8 +4055,8 @@
     <int>900018</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900018</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1405</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4065,8 +4065,8 @@
     <int>900019</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900019</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1406</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4075,8 +4075,8 @@
     <int>900020</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>900020</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1407</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4085,8 +4085,8 @@
     <int>999999</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999999</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1408</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4095,8 +4095,8 @@
     <int>999998</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999998</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1409</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4105,8 +4105,8 @@
     <int>999997</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999997</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1410</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4115,8 +4115,8 @@
     <int>999996</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999996</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1411</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4125,8 +4125,8 @@
     <int>999995</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999995</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1412</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4135,8 +4135,8 @@
     <int>999994</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999994</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1413</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4145,8 +4145,8 @@
     <int>999980</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999980</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1414</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4155,8 +4155,8 @@
     <int>999981</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999981</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1415</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4165,8 +4165,8 @@
     <int>999982</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999982</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1416</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4175,8 +4175,8 @@
     <int>999983</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999983</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1417</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4185,8 +4185,8 @@
     <int>999984</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999984</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1418</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4195,8 +4195,8 @@
     <int>999985</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999985</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1419</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4205,8 +4205,8 @@
     <int>999986</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999986</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1420</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4215,8 +4215,8 @@
     <int>999987</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999987</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1421</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4225,8 +4225,8 @@
     <int>999988</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>999988</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1422</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4235,8 +4235,8 @@
     <int>888888</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888888</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1423</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4245,8 +4245,8 @@
     <int>888889</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888889</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1424</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4255,8 +4255,8 @@
     <int>888890</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888890</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1425</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4265,8 +4265,8 @@
     <int>888891</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888891</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1426</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4275,8 +4275,8 @@
     <int>888892</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888892</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1427</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4285,8 +4285,8 @@
     <int>888893</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888893</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1428</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4295,8 +4295,8 @@
     <int>888894</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888894</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1429</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4305,8 +4305,8 @@
     <int>888895</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888895</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1430</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4315,8 +4315,8 @@
     <int>888896</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888896</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1431</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4325,8 +4325,8 @@
     <int>888897</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888897</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1432</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4335,8 +4335,8 @@
     <int>888898</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888898</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1433</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4345,8 +4345,8 @@
     <int>888899</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888899</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1434</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4355,8 +4355,8 @@
     <int>888900</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888900</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1435</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4365,8 +4365,8 @@
     <int>888901</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888901</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1436</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
@@ -4375,8 +4375,8 @@
     <int>888902</int>
     <fire.pb.pet.SHuanhuaTbl>
       <id>888902</id>
-      <freeCurrencyType>1</freeCurrencyType>
-      <freeCurrencyCount>1437</freeCurrencyCount>
+      <freeCurrencyType>2</freeCurrencyType>
+      <freeCurrencyCount>1000</freeCurrencyCount>
       <freeItemType>0</freeItemType>
       <freeItemCount>0</freeItemCount>
     </fire.pb.pet.SHuanhuaTbl>
