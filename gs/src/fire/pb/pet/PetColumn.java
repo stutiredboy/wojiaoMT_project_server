@@ -807,6 +807,7 @@ public class PetColumn {
 			return null;
 		java.util.ArrayList<fire.pb.Pet> vecs = new java.util.ArrayList<fire.pb.Pet>();
 		for (final xbean.PetInfo petInfo : pets.getPetmap().values()) {
+			Module.logger.error("---------------宠物外形--------"+petInfo.getShapeID());
 			Pet pet = getPet(petInfo.getKey());
 			if (pet != null)
 				vecs.add(pet.getProtocolPet());

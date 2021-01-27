@@ -54,7 +54,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	private int shenshouinccount; // 神兽养成次数
 	private long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
 	private java.util.LinkedList<xbean.PetSkill> internals;
-	private int shapeID; // 宠物外形ID
+	private int shapeid; // 宠物外形ID
 
 	@Override
 	public void _reset_unsafe_() {
@@ -103,7 +103,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		shenshouinccount = 0;
 		marketfreezeexpire = 0;
 		internals.clear();
-		shapeID = 0;
+		shapeid = 0;
 	}
 
 	PetInfo(int __, mkdb.XBean _xp_, String _vn_) {
@@ -124,7 +124,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		shenshouinccount = 0;
 		marketfreezeexpire = 0;
 		internals = new java.util.LinkedList();
-		shapeID = 0;
+		shapeid = 0;
 	}
 
 	public PetInfo() {
@@ -198,7 +198,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		internals = new java.util.LinkedList();
 		for (xbean.PetSkill _v_ : _o_.internals)
 			internals.add(new PetSkill(_v_, this, "internals"));
-		shapeID = _o_.shapeID;
+		shapeid = _o_.shapeid;
 	}
 
 	private void assign(PetInfo.Data _o_) {
@@ -256,7 +256,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		for (xbean.PetSkill _v_ : _o_.internals) {
 		      internals.add(new PetSkill(_v_, this, "internals"));
 		    }
-		shapeID = _o_.shapeID;
+		shapeid = _o_.shapeid;
 	}
 
 	@Override
@@ -319,11 +319,11 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_os_.marshal(petdye2);
 		_os_.marshal(shenshouinccount);
 		_os_.marshal(marketfreezeexpire);
-		_os_.marshal(shapeID);
 		_os_.compact_uint32(internals.size());
 		for (xbean.PetSkill _v_ : internals) {
 			 _v_.marshal(_os_);
-		    }
+			}
+		_os_.marshal(shapeid);
 		return _os_;
 	}
 
@@ -409,7 +409,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		    _v_.unmarshal(_os_);
 		    internals.add(_v_);
 		    }
-		shapeID = _os_.unmarshal_int();
+		shapeid = _os_.unmarshal_int();
 		return _os_;
 	}
 
@@ -767,7 +767,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	@Override
 	public int getShapeID() {
 		_xdb_verify_unsafe_();
-		return shapeID;
+		return shapeid;
 	}
 
 	@Override
@@ -1198,12 +1198,12 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	 @Override
 	public void setShapeID(int _v_) {
 		_xdb_verify_unsafe_();
-		mkdb.Logs.logIf(new mkdb.LogKey(this, "shapid") {
+		mkdb.Logs.logIf(new mkdb.LogKey(this, "shapeid") {
 			protected mkdb.Log create() {
-				return new mkdb.logs.LogInt(this, shapeID) {
-					public void rollback() { shapeID = _xdb_saved; }
+				return new mkdb.logs.LogInt(this, shapeid) {
+					public void rollback() { shapeid = _xdb_saved; }
 				};}});
-				shapeID = _v_;
+		shapeid = _v_;
 	}
 
 	@Override
@@ -1258,7 +1258,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		if (shenshouinccount != _o_.shenshouinccount) return false;
 		if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
 		if (!internals.equals(_o_.internals)) return false;
-		if (shapeID != _o_.shapeID) return false;
+		if (shapeid != _o_.shapeid) return false;
 		return true;
 	}
 
@@ -1311,7 +1311,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_h_ += shenshouinccount;
 		_h_ += marketfreezeexpire;
 		_h_ += internals.hashCode();
-		_h_ += shapeID;
+		_h_ += shapeid;
 		return _h_;
 	}
 
@@ -1410,7 +1410,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_sb_.append(",");
 		_sb_.append(internals);
 		_sb_.append(",");
-		_sb_.append(shapeID);
+		_sb_.append(shapeid);
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -1463,7 +1463,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("shenshouinccount"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("marketfreezeexpire"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("internals"));
-		lb.add(new mkdb.logs.ListenableChanged().setVarName("shapid"));
+		lb.add(new mkdb.logs.ListenableChanged().setVarName("shapeid"));
 		return lb;
 	}
 
@@ -1821,7 +1821,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		 @Override
 		public int getShapeID() {
 			_xdb_verify_unsafe_();
-			return shapeID;
+			return shapeid;
 		}
 
 		@Override
@@ -2175,7 +2175,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		private int shenshouinccount; // 神兽养成次数
 		private long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
 		private java.util.LinkedList<xbean.PetSkill> internals;
-		private int shapeID; // 宠物外形ID
+		private int shapeid; // 宠物外形ID
 
 		@Override
 		public void _reset_unsafe_() {
@@ -2199,7 +2199,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			shenshouinccount = 0;
 			marketfreezeexpire = 0;
 			internals = new java.util.LinkedList();
-			shapeID = 0;
+			shapeid = 0;
 		}
 
 		Data(xbean.PetInfo _o1_) {
@@ -2263,7 +2263,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			internals = new java.util.LinkedList();
 			for (xbean.PetSkill _v_ : _o_.internals)
 			    internals.add(new PetSkill.Data(_v_));
-			shapeID = 0;
+			shapeid = 0;
 		}
 
 		private void assign(PetInfo.Data _o_) {
@@ -2320,7 +2320,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			internals = new java.util.LinkedList();
 			for (xbean.PetSkill _v_ : _o_.internals)
 			    internals.add(new PetSkill.Data(_v_));
-			shapeID = _o_.shapeID;
+			shapeid = _o_.shapeid;
 		}
 
 		@Override
@@ -2386,7 +2386,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			for (xbean.PetSkill _v_ : internals) {
 			    _v_.marshal(_os_);
 			}
-			_os_.marshal(shapeID);
+			_os_.marshal(shapeid);
 			return _os_;
 		}
 
@@ -2471,7 +2471,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 				_v_.unmarshal(_os_);
 				internals.add(_v_);
 			}
-			shapeID = _os_.unmarshal_int();
+			shapeid = _os_.unmarshal_int();
 			return _os_;
 		}
 
@@ -2760,7 +2760,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 
 		@Override
 		public int getShapeID() {
-			return shapeID;
+			return shapeid;
 		}
 
 		@Override
@@ -2962,7 +2962,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 
 		@Override
 		public void setShapeID(int _v_) {
-			shapeID = _v_;
+			shapeid = _v_;
 		}
 
 		
@@ -3016,7 +3016,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			if (shenshouinccount != _o_.shenshouinccount) return false;
 			if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
 			if (!internals.equals(_o_.internals)) return false;
-			if (shapeID != _o_.shapeID) return false;
+			if (shapeid != _o_.shapeid) return false;
 			return true;
 		}
 
@@ -3068,7 +3068,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_h_ += shenshouinccount;
 			_h_ += marketfreezeexpire;
 			_h_ += internals.hashCode();
-			_h_ += shapeID;
+			_h_ += shapeid;
 			return _h_;
 		}
 
@@ -3166,7 +3166,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_sb_.append(",");
 			_sb_.append(internals);
 			_sb_.append(",");
-			_sb_.append(shapeID);
+			_sb_.append(shapeid);
 			_sb_.append(")");
 			return _sb_.toString();
 		}

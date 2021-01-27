@@ -270,6 +270,11 @@ public class Pet {
 		return petInfo.getKind();
 	}
 
+	public void setShapeID(int shapeid)
+	{
+		petInfo.setShapeID(shapeid);
+	}
+
 	/**
 	 * 初始的基础属性
 	 */
@@ -706,6 +711,7 @@ public class Pet {
 		pet.autoaddendu = (byte) getPetInfo().getAutoaddendu();
 		pet.autoaddagi = (byte) getPetInfo().getAutoaddagi();
 		pet.pointresetcount = (short) getPetInfo().getPointresetcount();
+		
 		pet.exp = getExp();
 
 		pet.attackapt = getAttackapt();
@@ -773,18 +779,20 @@ public class Pet {
 		  petSkill.certification = ((byte)internal.getCertification());
 		  pet.internals.add(petSkill);
 		}
-		if(roleId < 0)
+
+		if(roleId < 1)
 		{
-			pet.huanhuaid = petInfo.getShapeID();
-			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////2222///////"+ petInfo.getShapeID());
+			pet.huanhuaid = getPetInfo().getShapeID();
+			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////1111///////"+ getPetInfo().getShapeID());
 		}
 		else
 		{
-			PetColumn petColTemp = new PetColumn(roleId, PetColumnTypes.PET, false);
-			Pet petTemp = petColTemp.getPet(petInfo.getKey());
-			pet.huanhuaid =  petTemp.getPetInfo().getShapeID();
-			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////1111///////"+ petTemp.getPetInfo().getShapeID());
+			Pet petTemp = Pet.getPet(roleId, PetColumnTypes.PET, petInfo.getKey(),false);
+			pet.huanhuaid = petTemp.getPetInfo().getShapeID();
+			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////2222///////"+ petTemp.getPetInfo().getShapeID());
 		}
+		
+		
 		
 		return pet;
 	}

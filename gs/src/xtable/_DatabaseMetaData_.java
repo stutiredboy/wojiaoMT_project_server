@@ -1522,7 +1522,7 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				, "", "", "13"
 				);
 			super.addVariableFor(bean
-				, "shapid"
+				, "shapeid"
 				, "int", "", "", ""
 				, "0", "", ""
 				);
