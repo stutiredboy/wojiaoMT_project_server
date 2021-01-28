@@ -13,7 +13,7 @@ import java.util.Map;
 
 
 
-
+import xbean.PetInfo;
 import xbean.PracticeSkill;
 import fire.pb.battle.BattleField;
 import fire.pb.battle.Fighter;
@@ -97,6 +97,9 @@ public class SkillPet extends SkillAgent
 		}else if(skillId > 200000 && skillId < 210000){
 			return pet.getSkillLevel(skillId);
 		}
+		else if ((skillId > 230000) && (skillId < 250000)) {
+			return pet.getInternalLevel(skillId);
+		}
 		else
 		{
 			int skillType = skillId / 100000;
@@ -117,6 +120,8 @@ public class SkillPet extends SkillAgent
 		
 		if(pet.hasSkill(skillId))
 			return 1;
+		else if (pet.hasInternal(skillId))
+			return 1;
 		else
 			return 0;
 	}
@@ -129,6 +134,7 @@ public class SkillPet extends SkillAgent
 		SkillRole srole = new SkillRole(roleid, true);
 		skillIds.addAll(fire.pb.skill.liveskill.LiveSkillManager.getInstance().GetAllPracticeSkillBattleSkill(srole, 1));
 		skillIds.addAll(pet.getBattleskillIds());
+		skillIds.addAll(pet.getBattleInternalIds());
 		return skillIds;
 	}
 	
@@ -143,6 +149,7 @@ public class SkillPet extends SkillAgent
 		//找出需要上线加载的buff
 		for(int skillId : getAllBattleSkills())
 		{
+			Module.logger.error("宠物的FightSkillConfig，技能ID = " + skillId);
 			FightSkillConfig sconf = fire.pb.skill.Module.getInstance().getFightSkillConfig(skillId);
 			if(sconf == null)
 			{
@@ -187,6 +194,7 @@ public class SkillPet extends SkillAgent
 					int nround = buffarg.roundJavascript.eval(fightJSEngine,null,null).intValue();
 					if(nround != 0 )
 						buff.setRound(nround);//被动战斗技能buff只有回合，时间和量不设置
+					Module.logger.error("----------宠物的  buffID = " + buffarg.buffIndex+"-------nround---"+nround+"----------size----"+buffarg.effectJavascriptMap.size());
 					if(buffarg.effectJavascriptMap.size() > 0)
 					{
 						for (Map.Entry<Integer, JavaScript> entry : buffarg.effectJavascriptMap.entrySet())
