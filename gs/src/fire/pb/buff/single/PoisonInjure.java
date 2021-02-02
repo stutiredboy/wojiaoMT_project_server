@@ -17,6 +17,8 @@ public class PoisonInjure extends Injure
 	{
 		//计算伤害
 		damage = Math.min(-1,damageJS.eval(battleInfo.getEngine(),opfighter,aimfighter).intValue());
+
+		damage = damage * (100 + addValue) / 100;
 		//处理伤害
 		damage = (int)amendPoisonInjure(damage);
 		//大健要求对毒的伤害加限制，下限 = -受毒者等级/10；上限 = -受毒者等级 * 16

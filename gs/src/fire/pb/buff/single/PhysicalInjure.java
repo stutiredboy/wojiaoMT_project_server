@@ -140,6 +140,7 @@ public class PhysicalInjure extends Injure
 		//效果值=max（物理攻击*最低物理伤害系数,效果值)
 		float baseattack = opfighter.getEffectRole().getAttrById(FightAttrType.ATTACK);
 		damage = (int) Math.min(damage, -1.0f*baseattack*PropConf.Battle.MIX_PHYSIC_DAMAGE_VALUE) ;
+		damage = damage * (100 + addValue) / 100;
 		demoresult.hpchange = (int) damage;		
 		return true;
 	}

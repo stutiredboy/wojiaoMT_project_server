@@ -15,6 +15,7 @@ public class FixedInjure extends Injure
 	{
 		//计算伤害
 		damage = damageJS.eval(battleInfo.getEngine(),opfighter,aimfighter).intValue();
+		damage = damage * (100 + addValue) / 100;
 		//处理伤害
 		demoresult.hpchange = (int) damage;
 		// 改变蓝

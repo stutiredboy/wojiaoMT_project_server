@@ -228,7 +228,7 @@ public class SkillPet extends SkillAgent
 				continue;
 			}
 			boolean bregfighter = false;
-/*			if(!sconf.isActiveSkill() && sconf.getType() == SkillConstant.BATTLE_SKILL_TYPE_PASSIVE 
+			if(!sconf.isActiveSkill() && sconf.getType() == SkillConstant.BATTLE_SKILL_TYPE_PASSIVE 
 					&& sconf.getSubSkills()!=null && sconf.getSubSkills()[0]!=null && sconf.getSubSkills()[0].getBuffUnits()[0]!=null)
 			{//被动技能，且有buff(一定是ConstantlyBuff)
 				if(bregfighter == false)
@@ -247,6 +247,7 @@ public class SkillPet extends SkillAgent
 						int nround = buffarg.roundJavascript.eval(battle.getEngine(),ofighter,null).intValue();
 						if(nround != 0 )
 							buff.setRound(nround);//被动战斗技能buff只有回合，时间和量不设置
+						Module.logger.error("----------宠物的  buffID = " + buffarg.buffIndex+"-------nround---"+nround+"----------size----"+buffarg.effectJavascriptMap.size());
 						for(Map.Entry<Integer, JavaScript> entry : buffarg.effectJavascriptMap.entrySet())
 						{//buff效果
 							buff.getEffects().put(entry.getKey(), entry.getValue().eval(battle.getEngine(),ofighter,null).floatValue());
@@ -254,7 +255,7 @@ public class SkillPet extends SkillAgent
 						result.updateResult(buffpet.addCBuff(buff));
 					}
 				}
-			}	*/			
+			}			
 		}
 		return result;
 		//将战斗被动技能Buff发给客户端

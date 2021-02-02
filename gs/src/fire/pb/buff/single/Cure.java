@@ -20,12 +20,23 @@ import fire.pb.pet.PetColumnTypes;
 import fire.pb.skill.fight.FightSkill;
 import fire.script.JavaScript;
 
+import fire.pb.item.BagTypes;
+import fire.pb.item.ItemMaps;
+import fire.pb.item.ItemBase;
+import fire.pb.item.EquipItem;
+import fire.pb.item.EquipItemShuXing;
+import fire.pb.item.STaozhuangEffect;
+import fire.pb.main.ConfigManager;
+import fire.pb.skill.Module;
+
 public class Cure extends SingleBuff
 {//治疗
 	
 	protected boolean isProhibitHeal= false;
 	float DamageFloatValue = PropConf.Battle.DAMAGE_FLOAT_VALUE;
-	
+	public int skillId = 0;
+	public int addValue = 0;
+	public static final Map<Integer, STaozhuangEffect> DIANHUASHIEFFECT_CFGS = ConfigManager.getInstance().getConf(STaozhuangEffect.class);
 	public Cure(SingleBuffConfig buffConfig)
 	{
 		super(buffConfig);
@@ -34,7 +45,41 @@ public class Cure extends SingleBuff
 	@Override
 	public DemoResult impact(xbean.BattleInfo battleInfo, Fighter opfighter, Fighter aimfighter,FightSkill battleskill, Map<Integer, JavaScript> effects)
 	{
+		skillId = battleskill.getSkillId();
 		init(battleInfo, opfighter, aimfighter, effects);
+
+		// 检测是否有套装加成
+		if(skillId != 0)
+		{
+			ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(opfighter.getFighterBean().getUniqueid(), BagTypes.EQUIP, true);
+			Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
+			
+			for (ItemBase basicItem : bag){
+				EquipItem oldWeapon = ((EquipItem) basicItem);
+				if(oldWeapon.getEquipAttr().getSuitID() != 0)
+				{
+					STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
+					if(effect != null && effect.skillId == skillId && effect.effect2 != 0){
+						addValue =  effect.effect2;
+						if(suitingMaps.containsKey(effect.skillId))
+						{
+							int value = suitingMaps.get(effect.skillId) + 1;
+							suitingMaps.put(effect.skillId,value);
+						}
+						else
+						{
+							suitingMaps.put(effect.skillId,1);
+						}
+					}
+					
+				}
+			}
+			if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
+			{
+				addValue = addValue * suitingMaps.get(skillId) / 3;
+				Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
+			}
+		}
 		
 		// 治疗
 		cure();
@@ -129,6 +174,7 @@ public class Cure extends SingleBuff
 			}
 
 			int addhp = amendAddHp(faddhp);
+			addhp = addhp * (100 + addValue) / 100;
 			/*addhp = */aimfighter.healHp(addhp);
 			demoresult.hpchange = addhp;
 		}
@@ -155,6 +201,7 @@ public class Cure extends SingleBuff
 				changemp= (float) (changemp +changemppctscript.eval(battleInfo.getEngine(),opfighter,aimfighter) * aimfighter.getEffectRole().getMaxMp());
 
 			int addmp = amendAddMp(changemp);
+			addmp = addmp * (100 + addValue) / 100;
 			demoresult.mpchange = aimfighter.attachMpChange(addmp);
 		}
 	}
@@ -165,6 +212,7 @@ public class Cure extends SingleBuff
 		if (changespscript != null)
 		{
 			int changesp = changespscript.eval(battleInfo.getEngine(),opfighter,aimfighter).intValue();
+			changesp = changesp * (100 + addValue) / 100;
 			aimfighter.getEffectRole().addSp(changesp, 0);
 			demoresult.spchange += changesp;
 			aimfighter.getRoundBuffResult().getChangedAttrs().put(AttrType.SP, (float) aimfighter.getEffectRole().getSp());
