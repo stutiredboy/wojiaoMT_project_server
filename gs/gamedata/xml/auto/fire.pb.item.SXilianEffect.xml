@@ -7,7 +7,7 @@
       <id>1</id>
       <attrId>10</attrId>
       <attrName>体质</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -17,7 +17,7 @@
       <id>2</id>
       <attrId>20</attrId>
       <attrName>智力</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -27,7 +27,7 @@
       <id>3</id>
       <attrId>30</attrId>
       <attrName>力量</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -37,7 +37,7 @@
       <id>4</id>
       <attrId>40</attrId>
       <attrName>耐力</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -47,7 +47,7 @@
       <id>5</id>
       <attrId>50</attrId>
       <attrName>敏捷</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -57,7 +57,7 @@
       <id>6</id>
       <attrId>60</attrId>
       <attrName>生命</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -67,7 +67,7 @@
       <id>7</id>
       <attrId>70</attrId>
       <attrName>当前生命上限</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -77,7 +77,7 @@
       <id>8</id>
       <attrId>80</attrId>
       <attrName>生命值</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -87,7 +87,7 @@
       <id>9</id>
       <attrId>90</attrId>
       <attrName>魔法</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -97,7 +97,7 @@
       <id>10</id>
       <attrId>100</attrId>
       <attrName>魔法值</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -107,7 +107,7 @@
       <id>11</id>
       <attrId>110</attrId>
       <attrName>怒气</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -117,7 +117,7 @@
       <id>12</id>
       <attrId>120</attrId>
       <attrName>怒气值</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -127,7 +127,7 @@
       <id>13</id>
       <attrId>130</attrId>
       <attrName>物理攻击</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -137,7 +137,7 @@
       <id>14</id>
       <attrId>140</attrId>
       <attrName>物理防御</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -147,7 +147,7 @@
       <id>15</id>
       <attrId>150</attrId>
       <attrName>法术攻击</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -157,7 +157,7 @@
       <id>16</id>
       <attrId>160</attrId>
       <attrName>法术防御</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -167,7 +167,7 @@
       <id>17</id>
       <attrId>170</attrId>
       <attrName>治疗强度</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -177,7 +177,7 @@
       <id>18</id>
       <attrId>180</attrId>
       <attrName>控制命中</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -187,7 +187,7 @@
       <id>19</id>
       <attrId>190</attrId>
       <attrName>控制抗性</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -197,7 +197,7 @@
       <id>20</id>
       <attrId>200</attrId>
       <attrName>速度</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -207,7 +207,7 @@
       <id>21</id>
       <attrId>210</attrId>
       <attrName>命中</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -217,7 +217,7 @@
       <id>22</id>
       <attrId>220</attrId>
       <attrName>闪避</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -227,7 +227,7 @@
       <id>23</id>
       <attrId>230</attrId>
       <attrName>物理暴击</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -237,7 +237,7 @@
       <id>24</id>
       <attrId>240</attrId>
       <attrName>物理抗暴</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -247,7 +247,7 @@
       <id>25</id>
       <attrId>250</attrId>
       <attrName>物理暴伤</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -257,7 +257,7 @@
       <id>26</id>
       <attrId>260</attrId>
       <attrName>法术暴击</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -267,7 +267,7 @@
       <id>27</id>
       <attrId>270</attrId>
       <attrName>法术抗暴</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -277,7 +277,7 @@
       <id>28</id>
       <attrId>280</attrId>
       <attrName>法术暴伤</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -287,7 +287,7 @@
       <id>29</id>
       <attrId>290</attrId>
       <attrName>治疗暴击</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -297,7 +297,7 @@
       <id>30</id>
       <attrId>300</attrId>
       <attrName>治疗暴击量</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -307,7 +307,7 @@
       <id>31</id>
       <attrId>310</attrId>
       <attrName>忽视物理防御几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -317,7 +317,7 @@
       <id>32</id>
       <attrId>320</attrId>
       <attrName>忽视物理防御系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -327,7 +327,7 @@
       <id>33</id>
       <attrId>330</attrId>
       <attrName>忽视法术防御几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -337,7 +337,7 @@
       <id>34</id>
       <attrId>340</attrId>
       <attrName>忽视法术防御系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -347,7 +347,7 @@
       <id>35</id>
       <attrId>350</attrId>
       <attrName>吸血几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -357,7 +357,7 @@
       <id>36</id>
       <attrId>360</attrId>
       <attrName>吸血系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -367,7 +367,7 @@
       <id>37</id>
       <attrId>370</attrId>
       <attrName>打蓝几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -377,7 +377,7 @@
       <id>38</id>
       <attrId>380</attrId>
       <attrName>打蓝系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -387,7 +387,7 @@
       <id>39</id>
       <attrId>390</attrId>
       <attrName>上毒几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -397,7 +397,7 @@
       <id>40</id>
       <attrId>400</attrId>
       <attrName>毒掉血系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -407,7 +407,7 @@
       <id>41</id>
       <attrId>410</attrId>
       <attrName>毒掉蓝系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -417,7 +417,7 @@
       <id>42</id>
       <attrId>420</attrId>
       <attrName>毒回合数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -427,7 +427,7 @@
       <id>43</id>
       <attrId>430</attrId>
       <attrName>灵魂禁锢几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -437,7 +437,7 @@
       <id>44</id>
       <attrId>440</attrId>
       <attrName>灵魂禁锢回合数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -447,7 +447,7 @@
       <id>45</id>
       <attrId>450</attrId>
       <attrName>物理连击几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -457,7 +457,7 @@
       <id>46</id>
       <attrId>460</attrId>
       <attrName>物理连击伤害系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -467,7 +467,7 @@
       <id>47</id>
       <attrId>470</attrId>
       <attrName>物理连击次数上限</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -477,7 +477,7 @@
       <id>48</id>
       <attrId>480</attrId>
       <attrName>法术连击几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -487,7 +487,7 @@
       <id>49</id>
       <attrId>490</attrId>
       <attrName>法术连击伤害系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -497,7 +497,7 @@
       <id>50</id>
       <attrId>500</attrId>
       <attrName>法术连击次数上限</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -507,7 +507,7 @@
       <id>51</id>
       <attrId>510</attrId>
       <attrName>追击几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -517,7 +517,7 @@
       <id>52</id>
       <attrId>520</attrId>
       <attrName>追击伤害系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -527,7 +527,7 @@
       <id>53</id>
       <attrId>530</attrId>
       <attrName>追击次数上限</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -537,7 +537,7 @@
       <id>54</id>
       <attrId>540</attrId>
       <attrName>溅射几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -547,7 +547,7 @@
       <id>55</id>
       <attrId>550</attrId>
       <attrName>溅射伤害系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -557,7 +557,7 @@
       <id>56</id>
       <attrId>560</attrId>
       <attrName>溅射数量</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -567,7 +567,7 @@
       <id>57</id>
       <attrId>570</attrId>
       <attrName>格挡几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -577,7 +577,7 @@
       <id>58</id>
       <attrId>580</attrId>
       <attrName>格挡减伤系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -587,7 +587,7 @@
       <id>59</id>
       <attrId>590</attrId>
       <attrName>反震几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -597,7 +597,7 @@
       <id>60</id>
       <attrId>600</attrId>
       <attrName>反震伤害系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -607,7 +607,7 @@
       <id>61</id>
       <attrId>610</attrId>
       <attrName>反击几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -617,7 +617,7 @@
       <id>62</id>
       <attrId>620</attrId>
       <attrName>反击伤害系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -627,7 +627,7 @@
       <id>63</id>
       <attrId>630</attrId>
       <attrName>神佑几率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -637,7 +637,7 @@
       <id>64</id>
       <attrId>640</attrId>
       <attrName>神佑复活血量系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -647,7 +647,7 @@
       <id>65</id>
       <attrId>650</attrId>
       <attrName>火元素法术吸收率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -657,7 +657,7 @@
       <id>66</id>
       <attrId>660</attrId>
       <attrName>水元素法术吸收率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -667,7 +667,7 @@
       <id>67</id>
       <attrId>670</attrId>
       <attrName>土元素法术吸收率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -677,7 +677,7 @@
       <id>68</id>
       <attrId>680</attrId>
       <attrName>雷元素法术吸收率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -687,7 +687,7 @@
       <id>69</id>
       <attrId>690</attrId>
       <attrName>预留元素法术吸收率</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -697,7 +697,7 @@
       <id>70</id>
       <attrId>700</attrId>
       <attrName>火元素法术吸收系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -707,7 +707,7 @@
       <id>71</id>
       <attrId>710</attrId>
       <attrName>水元素法术吸收系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -717,7 +717,7 @@
       <id>72</id>
       <attrId>720</attrId>
       <attrName>土元素法术吸收系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -727,7 +727,7 @@
       <id>73</id>
       <attrId>730</attrId>
       <attrName>雷元素法术吸收系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -737,7 +737,7 @@
       <id>74</id>
       <attrId>740</attrId>
       <attrName>预留元素法术吸收系数</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -747,7 +747,7 @@
       <id>75</id>
       <attrId>750</attrId>
       <attrName>物理伤害效果修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -757,7 +757,7 @@
       <id>76</id>
       <attrId>760</attrId>
       <attrName>受物理伤害效果修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -767,7 +767,7 @@
       <id>77</id>
       <attrId>770</attrId>
       <attrName>法术伤害效果修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -777,7 +777,7 @@
       <id>78</id>
       <attrId>780</attrId>
       <attrName>受法术伤害效果修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -787,7 +787,7 @@
       <id>79</id>
       <attrId>790</attrId>
       <attrName>治疗效果修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -797,7 +797,7 @@
       <id>80</id>
       <attrId>800</attrId>
       <attrName>被治疗效果修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -807,7 +807,7 @@
       <id>81</id>
       <attrId>810</attrId>
       <attrName>控制几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -817,7 +817,7 @@
       <id>82</id>
       <attrId>820</attrId>
       <attrName>被控制几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -827,7 +827,7 @@
       <id>83</id>
       <attrId>830</attrId>
       <attrName>物理暴击几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -837,7 +837,7 @@
       <id>84</id>
       <attrId>840</attrId>
       <attrName>被物理暴击几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -847,7 +847,7 @@
       <id>85</id>
       <attrId>850</attrId>
       <attrName>法术暴击几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -857,7 +857,7 @@
       <id>86</id>
       <attrId>860</attrId>
       <attrName>被法术暴击几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -867,7 +867,7 @@
       <id>87</id>
       <attrId>870</attrId>
       <attrName>治疗暴击几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -877,7 +877,7 @@
       <id>88</id>
       <attrId>880</attrId>
       <attrName>被治疗暴击几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -887,7 +887,7 @@
       <id>89</id>
       <attrId>890</attrId>
       <attrName>攻击和被攻击时中毒几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -897,7 +897,7 @@
       <id>90</id>
       <attrId>900</attrId>
       <attrName>被灵魂禁锢几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -907,7 +907,7 @@
       <id>91</id>
       <attrId>910</attrId>
       <attrName>攻击时被格挡几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -917,7 +917,7 @@
       <id>92</id>
       <attrId>920</attrId>
       <attrName>攻击时被反震几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -927,7 +927,7 @@
       <id>93</id>
       <attrId>930</attrId>
       <attrName>攻击时被反击几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -937,7 +937,7 @@
       <id>94</id>
       <attrId>940</attrId>
       <attrName>攻击时被神佑几率修正</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -947,7 +947,7 @@
       <id>95</id>
       <attrId>950</attrId>
       <attrName>物理穿透</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -957,7 +957,7 @@
       <id>96</id>
       <attrId>960</attrId>
       <attrName>物理抵抗</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -967,7 +967,7 @@
       <id>97</id>
       <attrId>970</attrId>
       <attrName>法术穿透</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -977,7 +977,7 @@
       <id>98</id>
       <attrId>980</attrId>
       <attrName>法术抵抗</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -987,7 +987,7 @@
       <id>99</id>
       <attrId>990</attrId>
       <attrName>治疗加深</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -997,7 +997,7 @@
       <id>100</id>
       <attrId>1000</attrId>
       <attrName>被治疗加深</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1007,7 +1007,7 @@
       <id>101</id>
       <attrId>1010</attrId>
       <attrName>连击点</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1017,7 +1017,7 @@
       <id>102</id>
       <attrId>1020</attrId>
       <attrName>附加愤怒</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1027,7 +1027,7 @@
       <id>103</id>
       <attrId>2130</attrId>
       <attrName>控制加成</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1037,7 +1037,7 @@
       <id>104</id>
       <attrId>2140</attrId>
       <attrName>控制免疫</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1047,7 +1047,7 @@
       <id>105</id>
       <attrId>2150</attrId>
       <attrName>物理波动</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1057,7 +1057,7 @@
       <id>106</id>
       <attrId>2160</attrId>
       <attrName>法术波动</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1067,7 +1067,7 @@
       <id>107</id>
       <attrId>2170</attrId>
       <attrName>治疗波动</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
@@ -1077,7 +1077,67 @@
       <id>108</id>
       <attrId>2180</attrId>
       <attrName>被治疗暴击</attrName>
-      <attrInitvalue>1</attrInitvalue>
+      <attrInitvalue>-3</attrInitvalue>
+      <attrAddvalue>10</attrAddvalue>
+    </fire.pb.item.SXilianEffect>
+  </entry>
+  <entry>
+    <int>109</int>
+    <fire.pb.item.SXilianEffect>
+      <id>109</id>
+      <attrId>1440</attrId>
+      <attrName>宠物攻击资质</attrName>
+      <attrInitvalue>-3</attrInitvalue>
+      <attrAddvalue>10</attrAddvalue>
+    </fire.pb.item.SXilianEffect>
+  </entry>
+  <entry>
+    <int>110</int>
+    <fire.pb.item.SXilianEffect>
+      <id>110</id>
+      <attrId>1450</attrId>
+      <attrName>宠物防御资质</attrName>
+      <attrInitvalue>-3</attrInitvalue>
+      <attrAddvalue>10</attrAddvalue>
+    </fire.pb.item.SXilianEffect>
+  </entry>
+  <entry>
+    <int>111</int>
+    <fire.pb.item.SXilianEffect>
+      <id>111</id>
+      <attrId>1480</attrId>
+      <attrName>宠物速度资质</attrName>
+      <attrInitvalue>-3</attrInitvalue>
+      <attrAddvalue>10</attrAddvalue>
+    </fire.pb.item.SXilianEffect>
+  </entry>
+  <entry>
+    <int>112</int>
+    <fire.pb.item.SXilianEffect>
+      <id>112</id>
+      <attrId>1460</attrId>
+      <attrName>宠物体力资质</attrName>
+      <attrInitvalue>-3</attrInitvalue>
+      <attrAddvalue>10</attrAddvalue>
+    </fire.pb.item.SXilianEffect>
+  </entry>
+  <entry>
+    <int>113</int>
+    <fire.pb.item.SXilianEffect>
+      <id>113</id>
+      <attrId>1470</attrId>
+      <attrName>宠物法力资质</attrName>
+      <attrInitvalue>-3</attrInitvalue>
+      <attrAddvalue>10</attrAddvalue>
+    </fire.pb.item.SXilianEffect>
+  </entry>
+  <entry>
+    <int>114</int>
+    <fire.pb.item.SXilianEffect>
+      <id>114</id>
+      <attrId>1500</attrId>
+      <attrName>宠物成长资质</attrName>
+      <attrInitvalue>-3</attrInitvalue>
       <attrAddvalue>10</attrAddvalue>
     </fire.pb.item.SXilianEffect>
   </entry>
