@@ -148,7 +148,7 @@ public class Pet {
 	}
 
 	public int petSkillsGrid() {
-		return 13;
+		return 17;
 	}
 
 	public int getSkillMaxNum() {
@@ -1049,7 +1049,7 @@ public class Pet {
 	}
 	
 	public int petInternalsGrid() {
-	  return 6;
+	  return 17;
 	}
 	
 	public int getInternalMaxNum() {

@@ -1629,31 +1629,31 @@ public class FightSkill
 			Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
 			int addNum = 0;
 			int addValue = 0;
-			for (ItemBase basicItem : bag){
-				EquipItem oldWeapon = ((EquipItem) basicItem);
-				if(oldWeapon.getEquipAttr().getSuitID() != 0)
-				{
-					STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
-					if(effect != null && effect.skillId == skillId && effect.effect2 != 0){
-						addValue =  effect.effect2;
-						if(suitingMaps.containsKey(effect.skillId))
-						{
-							int value = suitingMaps.get(effect.skillId) + 1;
-							suitingMaps.put(effect.skillId,value);
-						}
-						else
-						{
-							suitingMaps.put(effect.skillId,1);
-						}
-					}
+			// for (ItemBase basicItem : bag){
+			// 	EquipItem oldWeapon = ((EquipItem) basicItem);
+			// 	if(oldWeapon.getEquipAttr().getSuitID() != 0)
+			// 	{
+			// 		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
+			// 		if(effect != null && effect.skillId == skillId && effect.effect2 != 0){
+			// 			addValue =  effect.effect2;
+			// 			if(suitingMaps.containsKey(effect.skillId))
+			// 			{
+			// 				int value = suitingMaps.get(effect.skillId) + 1;
+			// 				suitingMaps.put(effect.skillId,value);
+			// 			}
+			// 			else
+			// 			{
+			// 				suitingMaps.put(effect.skillId,1);
+			// 			}
+			// 		}
 					
-				}
-			}
-			if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
-			{
-				addValue = addValue * suitingMaps.get(skillId) / 3;
-				Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
-			}
+			// 	}
+			// }
+			// if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
+			// {
+			// 	addValue = addValue * suitingMaps.get(skillId) / 3;
+			// 	Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
+			// }
 			// 需求校验
 			if (!canCast())
 			{

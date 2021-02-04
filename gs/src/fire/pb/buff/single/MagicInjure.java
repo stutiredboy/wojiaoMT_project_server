@@ -1,5 +1,5 @@
 package fire.pb.buff.single;
-
+import fire.pb.buff.Module;
 import fire.pb.PropConf;
 import fire.pb.attr.FightAttrType;
 import fire.pb.battle.Fighter;
@@ -115,6 +115,7 @@ public class MagicInjure extends Injure
 		//	法术伤害最小伤害=技能等级*技能伤害系数
 		damage = (int) Math.min(damage, -1.0f*minmagicdamage) ;
 		damage = damage * (100 + addValue) / 100;
+		Module.logger.error("----------------套装效果魔法增加技能 ----" + addValue +"------------"+ damage );
 		demoresult.hpchange = (int) damage;		
 		return true;
 	}

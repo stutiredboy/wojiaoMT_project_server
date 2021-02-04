@@ -47,10 +47,11 @@ public class Cure extends SingleBuff
 	{
 		skillId = battleskill.getSkillId();
 		init(battleInfo, opfighter, aimfighter, effects);
-
+		addValue = 0;
 		// 检测是否有套装加成
 		if(skillId != 0)
 		{
+			int tempValue = 0;
 			ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(opfighter.getFighterBean().getUniqueid(), BagTypes.EQUIP, true);
 			Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
 			
@@ -60,7 +61,7 @@ public class Cure extends SingleBuff
 				{
 					STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
 					if(effect != null && effect.skillId == skillId && effect.effect2 != 0){
-						addValue =  effect.effect2;
+						tempValue =  effect.effect2;
 						if(suitingMaps.containsKey(effect.skillId))
 						{
 							int value = suitingMaps.get(effect.skillId) + 1;
@@ -76,7 +77,7 @@ public class Cure extends SingleBuff
 			}
 			if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
 			{
-				addValue = addValue * suitingMaps.get(skillId) / 3;
+				addValue = tempValue * suitingMaps.get(skillId) / 3;
 				Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
 			}
 		}
