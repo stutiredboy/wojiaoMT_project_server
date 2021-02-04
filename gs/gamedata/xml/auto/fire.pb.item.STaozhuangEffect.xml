@@ -1357,7 +1357,7 @@
       <id>138</id>
       <skillId>110000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1367,7 +1367,7 @@
       <id>139</id>
       <skillId>110001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1377,7 +1377,7 @@
       <id>140</id>
       <skillId>110002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1387,7 +1387,7 @@
       <id>141</id>
       <skillId>110003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1397,7 +1397,7 @@
       <id>142</id>
       <skillId>110004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1407,7 +1407,7 @@
       <id>143</id>
       <skillId>110005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1417,7 +1417,7 @@
       <id>144</id>
       <skillId>110006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1427,7 +1427,7 @@
       <id>145</id>
       <skillId>110007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1437,7 +1437,7 @@
       <id>146</id>
       <skillId>120000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1447,7 +1447,7 @@
       <id>147</id>
       <skillId>120001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1457,7 +1457,7 @@
       <id>148</id>
       <skillId>120002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1467,7 +1467,7 @@
       <id>149</id>
       <skillId>120003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1477,7 +1477,7 @@
       <id>150</id>
       <skillId>120004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1487,7 +1487,7 @@
       <id>151</id>
       <skillId>120005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1497,7 +1497,7 @@
       <id>152</id>
       <skillId>120006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1507,7 +1507,7 @@
       <id>153</id>
       <skillId>120007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1517,7 +1517,7 @@
       <id>154</id>
       <skillId>130000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1527,7 +1527,7 @@
       <id>155</id>
       <skillId>130001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1537,7 +1537,7 @@
       <id>156</id>
       <skillId>130002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1547,7 +1547,7 @@
       <id>157</id>
       <skillId>130003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1557,7 +1557,7 @@
       <id>158</id>
       <skillId>130004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1567,7 +1567,7 @@
       <id>159</id>
       <skillId>130005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1577,7 +1577,7 @@
       <id>160</id>
       <skillId>130006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1587,7 +1587,7 @@
       <id>161</id>
       <skillId>130007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1597,7 +1597,7 @@
       <id>162</id>
       <skillId>140000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1607,7 +1607,7 @@
       <id>163</id>
       <skillId>140001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1617,7 +1617,7 @@
       <id>164</id>
       <skillId>140002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1627,7 +1627,7 @@
       <id>165</id>
       <skillId>140003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1637,7 +1637,7 @@
       <id>166</id>
       <skillId>140004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1647,7 +1647,7 @@
       <id>167</id>
       <skillId>140005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1657,7 +1657,7 @@
       <id>168</id>
       <skillId>140006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1667,7 +1667,7 @@
       <id>169</id>
       <skillId>140007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1677,7 +1677,7 @@
       <id>170</id>
       <skillId>150000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1687,7 +1687,7 @@
       <id>171</id>
       <skillId>150001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1697,7 +1697,7 @@
       <id>172</id>
       <skillId>150002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1707,7 +1707,7 @@
       <id>173</id>
       <skillId>150003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1717,7 +1717,7 @@
       <id>174</id>
       <skillId>150004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1727,7 +1727,7 @@
       <id>175</id>
       <skillId>150005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1737,7 +1737,7 @@
       <id>176</id>
       <skillId>150006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1747,7 +1747,7 @@
       <id>177</id>
       <skillId>150007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1757,7 +1757,7 @@
       <id>178</id>
       <skillId>160000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1767,7 +1767,7 @@
       <id>179</id>
       <skillId>160001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1777,7 +1777,7 @@
       <id>180</id>
       <skillId>160002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1787,7 +1787,7 @@
       <id>181</id>
       <skillId>160003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1797,7 +1797,7 @@
       <id>182</id>
       <skillId>160004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1807,7 +1807,7 @@
       <id>183</id>
       <skillId>160005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1817,7 +1817,7 @@
       <id>184</id>
       <skillId>160006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1827,7 +1827,7 @@
       <id>185</id>
       <skillId>160007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1837,7 +1837,7 @@
       <id>186</id>
       <skillId>161000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1847,7 +1847,7 @@
       <id>187</id>
       <skillId>161001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1857,7 +1857,7 @@
       <id>188</id>
       <skillId>161002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1867,7 +1867,7 @@
       <id>189</id>
       <skillId>161003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1877,7 +1877,7 @@
       <id>190</id>
       <skillId>161004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1887,7 +1887,7 @@
       <id>191</id>
       <skillId>161005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1897,7 +1897,7 @@
       <id>192</id>
       <skillId>161006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1907,7 +1907,7 @@
       <id>193</id>
       <skillId>161007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1917,7 +1917,7 @@
       <id>194</id>
       <skillId>162000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1927,7 +1927,7 @@
       <id>195</id>
       <skillId>162001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1937,7 +1937,7 @@
       <id>196</id>
       <skillId>162002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1947,7 +1947,7 @@
       <id>197</id>
       <skillId>162003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1957,7 +1957,7 @@
       <id>198</id>
       <skillId>162004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1967,7 +1967,7 @@
       <id>199</id>
       <skillId>162005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1977,7 +1977,7 @@
       <id>200</id>
       <skillId>162006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1987,7 +1987,7 @@
       <id>201</id>
       <skillId>162007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -1997,7 +1997,7 @@
       <id>202</id>
       <skillId>163000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2007,7 +2007,7 @@
       <id>203</id>
       <skillId>163001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2017,7 +2017,7 @@
       <id>204</id>
       <skillId>163002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2027,7 +2027,7 @@
       <id>205</id>
       <skillId>163003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2037,7 +2037,7 @@
       <id>206</id>
       <skillId>163004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2047,7 +2047,7 @@
       <id>207</id>
       <skillId>163005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2057,7 +2057,7 @@
       <id>208</id>
       <skillId>163006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2067,7 +2067,7 @@
       <id>209</id>
       <skillId>163007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2075,9 +2075,9 @@
     <int>212</int>
     <fire.pb.item.STaozhuangEffect>
       <id>212</id>
-      <skillId>164002</skillId>
+      <skillId>164000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2085,9 +2085,9 @@
     <int>213</int>
     <fire.pb.item.STaozhuangEffect>
       <id>213</id>
-      <skillId>164003</skillId>
+      <skillId>164001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2095,9 +2095,9 @@
     <int>214</int>
     <fire.pb.item.STaozhuangEffect>
       <id>214</id>
-      <skillId>164004</skillId>
+      <skillId>164002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2105,9 +2105,9 @@
     <int>215</int>
     <fire.pb.item.STaozhuangEffect>
       <id>215</id>
-      <skillId>164005</skillId>
+      <skillId>164003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2115,9 +2115,9 @@
     <int>216</int>
     <fire.pb.item.STaozhuangEffect>
       <id>216</id>
-      <skillId>164006</skillId>
+      <skillId>164004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2125,9 +2125,9 @@
     <int>217</int>
     <fire.pb.item.STaozhuangEffect>
       <id>217</id>
-      <skillId>164007</skillId>
+      <skillId>164005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2135,9 +2135,9 @@
     <int>218</int>
     <fire.pb.item.STaozhuangEffect>
       <id>218</id>
-      <skillId>165000</skillId>
+      <skillId>164006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2145,9 +2145,9 @@
     <int>219</int>
     <fire.pb.item.STaozhuangEffect>
       <id>219</id>
-      <skillId>165001</skillId>
+      <skillId>164007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2155,9 +2155,9 @@
     <int>220</int>
     <fire.pb.item.STaozhuangEffect>
       <id>220</id>
-      <skillId>165002</skillId>
+      <skillId>165000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2165,9 +2165,9 @@
     <int>221</int>
     <fire.pb.item.STaozhuangEffect>
       <id>221</id>
-      <skillId>165003</skillId>
+      <skillId>165001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2175,9 +2175,9 @@
     <int>222</int>
     <fire.pb.item.STaozhuangEffect>
       <id>222</id>
-      <skillId>165004</skillId>
+      <skillId>165002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2185,9 +2185,9 @@
     <int>223</int>
     <fire.pb.item.STaozhuangEffect>
       <id>223</id>
-      <skillId>165005</skillId>
+      <skillId>165003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2195,9 +2195,9 @@
     <int>224</int>
     <fire.pb.item.STaozhuangEffect>
       <id>224</id>
-      <skillId>165006</skillId>
+      <skillId>165004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2205,9 +2205,9 @@
     <int>225</int>
     <fire.pb.item.STaozhuangEffect>
       <id>225</id>
-      <skillId>165007</skillId>
+      <skillId>165005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2215,9 +2215,9 @@
     <int>226</int>
     <fire.pb.item.STaozhuangEffect>
       <id>226</id>
-      <skillId>166000</skillId>
+      <skillId>165006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2225,9 +2225,9 @@
     <int>227</int>
     <fire.pb.item.STaozhuangEffect>
       <id>227</id>
-      <skillId>166001</skillId>
+      <skillId>165007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2235,9 +2235,9 @@
     <int>228</int>
     <fire.pb.item.STaozhuangEffect>
       <id>228</id>
-      <skillId>166002</skillId>
+      <skillId>166000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2245,9 +2245,9 @@
     <int>229</int>
     <fire.pb.item.STaozhuangEffect>
       <id>229</id>
-      <skillId>166003</skillId>
+      <skillId>166001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2255,9 +2255,9 @@
     <int>230</int>
     <fire.pb.item.STaozhuangEffect>
       <id>230</id>
-      <skillId>166004</skillId>
+      <skillId>166002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2265,9 +2265,9 @@
     <int>231</int>
     <fire.pb.item.STaozhuangEffect>
       <id>231</id>
-      <skillId>166005</skillId>
+      <skillId>166003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2275,9 +2275,9 @@
     <int>232</int>
     <fire.pb.item.STaozhuangEffect>
       <id>232</id>
-      <skillId>166006</skillId>
+      <skillId>166004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2285,9 +2285,9 @@
     <int>233</int>
     <fire.pb.item.STaozhuangEffect>
       <id>233</id>
-      <skillId>166007</skillId>
+      <skillId>166005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2295,9 +2295,9 @@
     <int>234</int>
     <fire.pb.item.STaozhuangEffect>
       <id>234</id>
-      <skillId>167000</skillId>
+      <skillId>166006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2305,9 +2305,9 @@
     <int>235</int>
     <fire.pb.item.STaozhuangEffect>
       <id>235</id>
-      <skillId>167001</skillId>
+      <skillId>166007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2315,9 +2315,9 @@
     <int>236</int>
     <fire.pb.item.STaozhuangEffect>
       <id>236</id>
-      <skillId>167002</skillId>
+      <skillId>167000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2325,9 +2325,9 @@
     <int>237</int>
     <fire.pb.item.STaozhuangEffect>
       <id>237</id>
-      <skillId>167003</skillId>
+      <skillId>167001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2335,9 +2335,9 @@
     <int>238</int>
     <fire.pb.item.STaozhuangEffect>
       <id>238</id>
-      <skillId>167004</skillId>
+      <skillId>167002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2345,9 +2345,9 @@
     <int>239</int>
     <fire.pb.item.STaozhuangEffect>
       <id>239</id>
-      <skillId>167005</skillId>
+      <skillId>167003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2355,9 +2355,9 @@
     <int>240</int>
     <fire.pb.item.STaozhuangEffect>
       <id>240</id>
-      <skillId>167006</skillId>
+      <skillId>167004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2365,9 +2365,9 @@
     <int>241</int>
     <fire.pb.item.STaozhuangEffect>
       <id>241</id>
-      <skillId>167007</skillId>
+      <skillId>167005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2375,9 +2375,9 @@
     <int>242</int>
     <fire.pb.item.STaozhuangEffect>
       <id>242</id>
-      <skillId>168000</skillId>
+      <skillId>167006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2385,9 +2385,9 @@
     <int>243</int>
     <fire.pb.item.STaozhuangEffect>
       <id>243</id>
-      <skillId>168001</skillId>
+      <skillId>167007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2395,9 +2395,9 @@
     <int>244</int>
     <fire.pb.item.STaozhuangEffect>
       <id>244</id>
-      <skillId>168002</skillId>
+      <skillId>168000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2405,9 +2405,9 @@
     <int>245</int>
     <fire.pb.item.STaozhuangEffect>
       <id>245</id>
-      <skillId>168003</skillId>
+      <skillId>168001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2415,9 +2415,9 @@
     <int>246</int>
     <fire.pb.item.STaozhuangEffect>
       <id>246</id>
-      <skillId>168004</skillId>
+      <skillId>168002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2425,9 +2425,9 @@
     <int>247</int>
     <fire.pb.item.STaozhuangEffect>
       <id>247</id>
-      <skillId>168005</skillId>
+      <skillId>168003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2435,9 +2435,9 @@
     <int>248</int>
     <fire.pb.item.STaozhuangEffect>
       <id>248</id>
-      <skillId>168006</skillId>
+      <skillId>168004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2445,9 +2445,9 @@
     <int>249</int>
     <fire.pb.item.STaozhuangEffect>
       <id>249</id>
-      <skillId>168007</skillId>
+      <skillId>168005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2455,9 +2455,9 @@
     <int>250</int>
     <fire.pb.item.STaozhuangEffect>
       <id>250</id>
-      <skillId>169000</skillId>
+      <skillId>168006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2465,9 +2465,9 @@
     <int>251</int>
     <fire.pb.item.STaozhuangEffect>
       <id>251</id>
-      <skillId>169001</skillId>
+      <skillId>168007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2475,9 +2475,9 @@
     <int>252</int>
     <fire.pb.item.STaozhuangEffect>
       <id>252</id>
-      <skillId>169002</skillId>
+      <skillId>169000</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2485,9 +2485,9 @@
     <int>253</int>
     <fire.pb.item.STaozhuangEffect>
       <id>253</id>
-      <skillId>169003</skillId>
+      <skillId>169001</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2495,9 +2495,9 @@
     <int>254</int>
     <fire.pb.item.STaozhuangEffect>
       <id>254</id>
-      <skillId>169004</skillId>
+      <skillId>169002</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2505,9 +2505,9 @@
     <int>255</int>
     <fire.pb.item.STaozhuangEffect>
       <id>255</id>
-      <skillId>169005</skillId>
+      <skillId>169003</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2515,9 +2515,9 @@
     <int>256</int>
     <fire.pb.item.STaozhuangEffect>
       <id>256</id>
-      <skillId>169006</skillId>
+      <skillId>169004</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2525,9 +2525,9 @@
     <int>257</int>
     <fire.pb.item.STaozhuangEffect>
       <id>257</id>
-      <skillId>169007</skillId>
+      <skillId>169005</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2535,9 +2535,9 @@
     <int>258</int>
     <fire.pb.item.STaozhuangEffect>
       <id>258</id>
-      <skillId>171006</skillId>
+      <skillId>169006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2545,9 +2545,9 @@
     <int>259</int>
     <fire.pb.item.STaozhuangEffect>
       <id>259</id>
-      <skillId>172006</skillId>
+      <skillId>169007</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2555,9 +2555,9 @@
     <int>260</int>
     <fire.pb.item.STaozhuangEffect>
       <id>260</id>
-      <skillId>173006</skillId>
+      <skillId>171006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2565,9 +2565,9 @@
     <int>261</int>
     <fire.pb.item.STaozhuangEffect>
       <id>261</id>
-      <skillId>174006</skillId>
+      <skillId>172006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2575,9 +2575,9 @@
     <int>262</int>
     <fire.pb.item.STaozhuangEffect>
       <id>262</id>
-      <skillId>175006</skillId>
+      <skillId>173006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2585,9 +2585,9 @@
     <int>263</int>
     <fire.pb.item.STaozhuangEffect>
       <id>263</id>
-      <skillId>176006</skillId>
+      <skillId>174006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2595,9 +2595,9 @@
     <int>264</int>
     <fire.pb.item.STaozhuangEffect>
       <id>264</id>
-      <skillId>177006</skillId>
+      <skillId>175006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2605,9 +2605,9 @@
     <int>265</int>
     <fire.pb.item.STaozhuangEffect>
       <id>265</id>
-      <skillId>178006</skillId>
+      <skillId>176006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2615,9 +2615,9 @@
     <int>266</int>
     <fire.pb.item.STaozhuangEffect>
       <id>266</id>
-      <skillId>179006</skillId>
+      <skillId>177006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2625,9 +2625,9 @@
     <int>267</int>
     <fire.pb.item.STaozhuangEffect>
       <id>267</id>
-      <skillId>181006</skillId>
+      <skillId>178006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2635,9 +2635,9 @@
     <int>268</int>
     <fire.pb.item.STaozhuangEffect>
       <id>268</id>
-      <skillId>182006</skillId>
+      <skillId>179006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2645,9 +2645,9 @@
     <int>269</int>
     <fire.pb.item.STaozhuangEffect>
       <id>269</id>
-      <skillId>184006</skillId>
+      <skillId>181006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2655,9 +2655,9 @@
     <int>270</int>
     <fire.pb.item.STaozhuangEffect>
       <id>270</id>
-      <skillId>186006</skillId>
+      <skillId>182006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2665,9 +2665,9 @@
     <int>271</int>
     <fire.pb.item.STaozhuangEffect>
       <id>271</id>
-      <skillId>187006</skillId>
+      <skillId>184006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2675,9 +2675,9 @@
     <int>272</int>
     <fire.pb.item.STaozhuangEffect>
       <id>272</id>
-      <skillId>188006</skillId>
+      <skillId>186006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2685,9 +2685,9 @@
     <int>273</int>
     <fire.pb.item.STaozhuangEffect>
       <id>273</id>
-      <skillId>110000</skillId>
+      <skillId>187006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2695,9 +2695,9 @@
     <int>274</int>
     <fire.pb.item.STaozhuangEffect>
       <id>274</id>
-      <skillId>110001</skillId>
+      <skillId>188006</skillId>
       <effect1>0</effect1>
-      <effect2>10</effect2>
+      <effect2>30</effect2>
       <effect3>0</effect3>
     </fire.pb.item.STaozhuangEffect>
   </entry>
@@ -2705,7 +2705,7 @@
     <int>275</int>
     <fire.pb.item.STaozhuangEffect>
       <id>275</id>
-      <skillId>110002</skillId>
+      <skillId>110000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2715,7 +2715,7 @@
     <int>276</int>
     <fire.pb.item.STaozhuangEffect>
       <id>276</id>
-      <skillId>110003</skillId>
+      <skillId>110001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2725,7 +2725,7 @@
     <int>277</int>
     <fire.pb.item.STaozhuangEffect>
       <id>277</id>
-      <skillId>110004</skillId>
+      <skillId>110002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2735,7 +2735,7 @@
     <int>278</int>
     <fire.pb.item.STaozhuangEffect>
       <id>278</id>
-      <skillId>110005</skillId>
+      <skillId>110003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2745,7 +2745,7 @@
     <int>279</int>
     <fire.pb.item.STaozhuangEffect>
       <id>279</id>
-      <skillId>110006</skillId>
+      <skillId>110004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2755,7 +2755,7 @@
     <int>280</int>
     <fire.pb.item.STaozhuangEffect>
       <id>280</id>
-      <skillId>110007</skillId>
+      <skillId>110005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2765,7 +2765,7 @@
     <int>281</int>
     <fire.pb.item.STaozhuangEffect>
       <id>281</id>
-      <skillId>120000</skillId>
+      <skillId>110006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2775,7 +2775,7 @@
     <int>282</int>
     <fire.pb.item.STaozhuangEffect>
       <id>282</id>
-      <skillId>120001</skillId>
+      <skillId>110007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2785,7 +2785,7 @@
     <int>283</int>
     <fire.pb.item.STaozhuangEffect>
       <id>283</id>
-      <skillId>120002</skillId>
+      <skillId>120000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2795,7 +2795,7 @@
     <int>284</int>
     <fire.pb.item.STaozhuangEffect>
       <id>284</id>
-      <skillId>120003</skillId>
+      <skillId>120001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2805,7 +2805,7 @@
     <int>285</int>
     <fire.pb.item.STaozhuangEffect>
       <id>285</id>
-      <skillId>120004</skillId>
+      <skillId>120002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2815,7 +2815,7 @@
     <int>286</int>
     <fire.pb.item.STaozhuangEffect>
       <id>286</id>
-      <skillId>120005</skillId>
+      <skillId>120003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2825,7 +2825,7 @@
     <int>287</int>
     <fire.pb.item.STaozhuangEffect>
       <id>287</id>
-      <skillId>120006</skillId>
+      <skillId>120004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2835,7 +2835,7 @@
     <int>288</int>
     <fire.pb.item.STaozhuangEffect>
       <id>288</id>
-      <skillId>120007</skillId>
+      <skillId>120005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2845,7 +2845,7 @@
     <int>289</int>
     <fire.pb.item.STaozhuangEffect>
       <id>289</id>
-      <skillId>130000</skillId>
+      <skillId>120006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2855,7 +2855,7 @@
     <int>290</int>
     <fire.pb.item.STaozhuangEffect>
       <id>290</id>
-      <skillId>130001</skillId>
+      <skillId>120007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2865,7 +2865,7 @@
     <int>291</int>
     <fire.pb.item.STaozhuangEffect>
       <id>291</id>
-      <skillId>130002</skillId>
+      <skillId>130000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2875,7 +2875,7 @@
     <int>292</int>
     <fire.pb.item.STaozhuangEffect>
       <id>292</id>
-      <skillId>130003</skillId>
+      <skillId>130001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2885,7 +2885,7 @@
     <int>293</int>
     <fire.pb.item.STaozhuangEffect>
       <id>293</id>
-      <skillId>130004</skillId>
+      <skillId>130002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2895,7 +2895,7 @@
     <int>294</int>
     <fire.pb.item.STaozhuangEffect>
       <id>294</id>
-      <skillId>130005</skillId>
+      <skillId>130003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2905,7 +2905,7 @@
     <int>295</int>
     <fire.pb.item.STaozhuangEffect>
       <id>295</id>
-      <skillId>130006</skillId>
+      <skillId>130004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2915,7 +2915,7 @@
     <int>296</int>
     <fire.pb.item.STaozhuangEffect>
       <id>296</id>
-      <skillId>130007</skillId>
+      <skillId>130005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2925,7 +2925,7 @@
     <int>297</int>
     <fire.pb.item.STaozhuangEffect>
       <id>297</id>
-      <skillId>140000</skillId>
+      <skillId>130006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2935,7 +2935,7 @@
     <int>298</int>
     <fire.pb.item.STaozhuangEffect>
       <id>298</id>
-      <skillId>140001</skillId>
+      <skillId>130007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2945,7 +2945,7 @@
     <int>299</int>
     <fire.pb.item.STaozhuangEffect>
       <id>299</id>
-      <skillId>140002</skillId>
+      <skillId>140000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2955,7 +2955,7 @@
     <int>300</int>
     <fire.pb.item.STaozhuangEffect>
       <id>300</id>
-      <skillId>140003</skillId>
+      <skillId>140001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2965,7 +2965,7 @@
     <int>301</int>
     <fire.pb.item.STaozhuangEffect>
       <id>301</id>
-      <skillId>140004</skillId>
+      <skillId>140002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2975,7 +2975,7 @@
     <int>302</int>
     <fire.pb.item.STaozhuangEffect>
       <id>302</id>
-      <skillId>140005</skillId>
+      <skillId>140003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2985,7 +2985,7 @@
     <int>303</int>
     <fire.pb.item.STaozhuangEffect>
       <id>303</id>
-      <skillId>140006</skillId>
+      <skillId>140004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -2995,7 +2995,7 @@
     <int>304</int>
     <fire.pb.item.STaozhuangEffect>
       <id>304</id>
-      <skillId>140007</skillId>
+      <skillId>140005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3005,7 +3005,7 @@
     <int>305</int>
     <fire.pb.item.STaozhuangEffect>
       <id>305</id>
-      <skillId>150000</skillId>
+      <skillId>140006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3015,7 +3015,7 @@
     <int>306</int>
     <fire.pb.item.STaozhuangEffect>
       <id>306</id>
-      <skillId>150001</skillId>
+      <skillId>140007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3025,7 +3025,7 @@
     <int>307</int>
     <fire.pb.item.STaozhuangEffect>
       <id>307</id>
-      <skillId>150002</skillId>
+      <skillId>150000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3035,7 +3035,7 @@
     <int>308</int>
     <fire.pb.item.STaozhuangEffect>
       <id>308</id>
-      <skillId>150003</skillId>
+      <skillId>150001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3045,7 +3045,7 @@
     <int>309</int>
     <fire.pb.item.STaozhuangEffect>
       <id>309</id>
-      <skillId>150004</skillId>
+      <skillId>150002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3055,7 +3055,7 @@
     <int>310</int>
     <fire.pb.item.STaozhuangEffect>
       <id>310</id>
-      <skillId>150005</skillId>
+      <skillId>150003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3065,7 +3065,7 @@
     <int>311</int>
     <fire.pb.item.STaozhuangEffect>
       <id>311</id>
-      <skillId>150006</skillId>
+      <skillId>150004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3075,7 +3075,7 @@
     <int>312</int>
     <fire.pb.item.STaozhuangEffect>
       <id>312</id>
-      <skillId>150007</skillId>
+      <skillId>150005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3085,7 +3085,7 @@
     <int>313</int>
     <fire.pb.item.STaozhuangEffect>
       <id>313</id>
-      <skillId>160000</skillId>
+      <skillId>150006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3095,7 +3095,7 @@
     <int>314</int>
     <fire.pb.item.STaozhuangEffect>
       <id>314</id>
-      <skillId>160001</skillId>
+      <skillId>150007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3105,7 +3105,7 @@
     <int>315</int>
     <fire.pb.item.STaozhuangEffect>
       <id>315</id>
-      <skillId>160002</skillId>
+      <skillId>160000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3115,7 +3115,7 @@
     <int>316</int>
     <fire.pb.item.STaozhuangEffect>
       <id>316</id>
-      <skillId>160003</skillId>
+      <skillId>160001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3125,7 +3125,7 @@
     <int>317</int>
     <fire.pb.item.STaozhuangEffect>
       <id>317</id>
-      <skillId>160004</skillId>
+      <skillId>160002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3135,7 +3135,7 @@
     <int>318</int>
     <fire.pb.item.STaozhuangEffect>
       <id>318</id>
-      <skillId>160005</skillId>
+      <skillId>160003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3145,7 +3145,7 @@
     <int>319</int>
     <fire.pb.item.STaozhuangEffect>
       <id>319</id>
-      <skillId>160006</skillId>
+      <skillId>160004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3155,7 +3155,7 @@
     <int>320</int>
     <fire.pb.item.STaozhuangEffect>
       <id>320</id>
-      <skillId>160007</skillId>
+      <skillId>160005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3165,7 +3165,7 @@
     <int>321</int>
     <fire.pb.item.STaozhuangEffect>
       <id>321</id>
-      <skillId>161000</skillId>
+      <skillId>160006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3175,7 +3175,7 @@
     <int>322</int>
     <fire.pb.item.STaozhuangEffect>
       <id>322</id>
-      <skillId>161001</skillId>
+      <skillId>160007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3185,7 +3185,7 @@
     <int>323</int>
     <fire.pb.item.STaozhuangEffect>
       <id>323</id>
-      <skillId>161002</skillId>
+      <skillId>161000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3195,7 +3195,7 @@
     <int>324</int>
     <fire.pb.item.STaozhuangEffect>
       <id>324</id>
-      <skillId>161003</skillId>
+      <skillId>161001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3205,7 +3205,7 @@
     <int>325</int>
     <fire.pb.item.STaozhuangEffect>
       <id>325</id>
-      <skillId>161004</skillId>
+      <skillId>161002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3215,7 +3215,7 @@
     <int>326</int>
     <fire.pb.item.STaozhuangEffect>
       <id>326</id>
-      <skillId>161005</skillId>
+      <skillId>161003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3225,7 +3225,7 @@
     <int>327</int>
     <fire.pb.item.STaozhuangEffect>
       <id>327</id>
-      <skillId>161006</skillId>
+      <skillId>161004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3235,7 +3235,7 @@
     <int>328</int>
     <fire.pb.item.STaozhuangEffect>
       <id>328</id>
-      <skillId>161007</skillId>
+      <skillId>161005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3245,7 +3245,7 @@
     <int>329</int>
     <fire.pb.item.STaozhuangEffect>
       <id>329</id>
-      <skillId>162000</skillId>
+      <skillId>161006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3255,7 +3255,7 @@
     <int>330</int>
     <fire.pb.item.STaozhuangEffect>
       <id>330</id>
-      <skillId>162001</skillId>
+      <skillId>161007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3265,7 +3265,7 @@
     <int>331</int>
     <fire.pb.item.STaozhuangEffect>
       <id>331</id>
-      <skillId>162002</skillId>
+      <skillId>162000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3275,7 +3275,7 @@
     <int>332</int>
     <fire.pb.item.STaozhuangEffect>
       <id>332</id>
-      <skillId>162003</skillId>
+      <skillId>162001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3285,7 +3285,7 @@
     <int>333</int>
     <fire.pb.item.STaozhuangEffect>
       <id>333</id>
-      <skillId>162004</skillId>
+      <skillId>162002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3295,7 +3295,7 @@
     <int>334</int>
     <fire.pb.item.STaozhuangEffect>
       <id>334</id>
-      <skillId>162005</skillId>
+      <skillId>162003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3305,7 +3305,7 @@
     <int>335</int>
     <fire.pb.item.STaozhuangEffect>
       <id>335</id>
-      <skillId>162006</skillId>
+      <skillId>162004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3315,7 +3315,7 @@
     <int>336</int>
     <fire.pb.item.STaozhuangEffect>
       <id>336</id>
-      <skillId>162007</skillId>
+      <skillId>162005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3325,7 +3325,7 @@
     <int>337</int>
     <fire.pb.item.STaozhuangEffect>
       <id>337</id>
-      <skillId>163000</skillId>
+      <skillId>162006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3335,7 +3335,7 @@
     <int>338</int>
     <fire.pb.item.STaozhuangEffect>
       <id>338</id>
-      <skillId>163001</skillId>
+      <skillId>162007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3345,7 +3345,7 @@
     <int>339</int>
     <fire.pb.item.STaozhuangEffect>
       <id>339</id>
-      <skillId>163002</skillId>
+      <skillId>163000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3355,7 +3355,7 @@
     <int>340</int>
     <fire.pb.item.STaozhuangEffect>
       <id>340</id>
-      <skillId>163003</skillId>
+      <skillId>163001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3365,7 +3365,7 @@
     <int>341</int>
     <fire.pb.item.STaozhuangEffect>
       <id>341</id>
-      <skillId>163004</skillId>
+      <skillId>163002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3375,7 +3375,7 @@
     <int>342</int>
     <fire.pb.item.STaozhuangEffect>
       <id>342</id>
-      <skillId>163005</skillId>
+      <skillId>163003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3385,7 +3385,7 @@
     <int>343</int>
     <fire.pb.item.STaozhuangEffect>
       <id>343</id>
-      <skillId>163006</skillId>
+      <skillId>163004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3395,7 +3395,7 @@
     <int>344</int>
     <fire.pb.item.STaozhuangEffect>
       <id>344</id>
-      <skillId>163007</skillId>
+      <skillId>163005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3405,7 +3405,7 @@
     <int>345</int>
     <fire.pb.item.STaozhuangEffect>
       <id>345</id>
-      <skillId>164000</skillId>
+      <skillId>163006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3415,7 +3415,7 @@
     <int>346</int>
     <fire.pb.item.STaozhuangEffect>
       <id>346</id>
-      <skillId>164001</skillId>
+      <skillId>163007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3425,7 +3425,7 @@
     <int>347</int>
     <fire.pb.item.STaozhuangEffect>
       <id>347</id>
-      <skillId>164002</skillId>
+      <skillId>164000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3435,7 +3435,7 @@
     <int>348</int>
     <fire.pb.item.STaozhuangEffect>
       <id>348</id>
-      <skillId>164003</skillId>
+      <skillId>164001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3445,7 +3445,7 @@
     <int>349</int>
     <fire.pb.item.STaozhuangEffect>
       <id>349</id>
-      <skillId>164004</skillId>
+      <skillId>164002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3455,7 +3455,7 @@
     <int>350</int>
     <fire.pb.item.STaozhuangEffect>
       <id>350</id>
-      <skillId>164005</skillId>
+      <skillId>164003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3465,7 +3465,7 @@
     <int>351</int>
     <fire.pb.item.STaozhuangEffect>
       <id>351</id>
-      <skillId>164006</skillId>
+      <skillId>164004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3475,7 +3475,7 @@
     <int>352</int>
     <fire.pb.item.STaozhuangEffect>
       <id>352</id>
-      <skillId>164007</skillId>
+      <skillId>164005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3485,7 +3485,7 @@
     <int>353</int>
     <fire.pb.item.STaozhuangEffect>
       <id>353</id>
-      <skillId>165000</skillId>
+      <skillId>164006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3495,7 +3495,7 @@
     <int>354</int>
     <fire.pb.item.STaozhuangEffect>
       <id>354</id>
-      <skillId>165001</skillId>
+      <skillId>164007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3505,7 +3505,7 @@
     <int>355</int>
     <fire.pb.item.STaozhuangEffect>
       <id>355</id>
-      <skillId>165002</skillId>
+      <skillId>165000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3515,7 +3515,7 @@
     <int>356</int>
     <fire.pb.item.STaozhuangEffect>
       <id>356</id>
-      <skillId>165003</skillId>
+      <skillId>165001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3525,7 +3525,7 @@
     <int>357</int>
     <fire.pb.item.STaozhuangEffect>
       <id>357</id>
-      <skillId>165004</skillId>
+      <skillId>165002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3535,7 +3535,7 @@
     <int>358</int>
     <fire.pb.item.STaozhuangEffect>
       <id>358</id>
-      <skillId>165005</skillId>
+      <skillId>165003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3545,7 +3545,7 @@
     <int>359</int>
     <fire.pb.item.STaozhuangEffect>
       <id>359</id>
-      <skillId>165006</skillId>
+      <skillId>165004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3555,7 +3555,7 @@
     <int>360</int>
     <fire.pb.item.STaozhuangEffect>
       <id>360</id>
-      <skillId>165007</skillId>
+      <skillId>165005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3565,7 +3565,7 @@
     <int>361</int>
     <fire.pb.item.STaozhuangEffect>
       <id>361</id>
-      <skillId>166000</skillId>
+      <skillId>165006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3575,7 +3575,7 @@
     <int>362</int>
     <fire.pb.item.STaozhuangEffect>
       <id>362</id>
-      <skillId>166001</skillId>
+      <skillId>165007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3585,7 +3585,7 @@
     <int>363</int>
     <fire.pb.item.STaozhuangEffect>
       <id>363</id>
-      <skillId>166002</skillId>
+      <skillId>166000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3595,7 +3595,7 @@
     <int>364</int>
     <fire.pb.item.STaozhuangEffect>
       <id>364</id>
-      <skillId>166003</skillId>
+      <skillId>166001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3605,7 +3605,7 @@
     <int>365</int>
     <fire.pb.item.STaozhuangEffect>
       <id>365</id>
-      <skillId>166004</skillId>
+      <skillId>166002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3615,7 +3615,7 @@
     <int>366</int>
     <fire.pb.item.STaozhuangEffect>
       <id>366</id>
-      <skillId>166005</skillId>
+      <skillId>166003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3625,7 +3625,7 @@
     <int>367</int>
     <fire.pb.item.STaozhuangEffect>
       <id>367</id>
-      <skillId>166006</skillId>
+      <skillId>166004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3635,7 +3635,7 @@
     <int>368</int>
     <fire.pb.item.STaozhuangEffect>
       <id>368</id>
-      <skillId>166007</skillId>
+      <skillId>166005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3645,7 +3645,7 @@
     <int>369</int>
     <fire.pb.item.STaozhuangEffect>
       <id>369</id>
-      <skillId>167000</skillId>
+      <skillId>166006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3655,7 +3655,7 @@
     <int>370</int>
     <fire.pb.item.STaozhuangEffect>
       <id>370</id>
-      <skillId>167001</skillId>
+      <skillId>166007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3665,7 +3665,7 @@
     <int>371</int>
     <fire.pb.item.STaozhuangEffect>
       <id>371</id>
-      <skillId>167002</skillId>
+      <skillId>167000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3675,7 +3675,7 @@
     <int>372</int>
     <fire.pb.item.STaozhuangEffect>
       <id>372</id>
-      <skillId>167003</skillId>
+      <skillId>167001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3685,7 +3685,7 @@
     <int>373</int>
     <fire.pb.item.STaozhuangEffect>
       <id>373</id>
-      <skillId>167004</skillId>
+      <skillId>167002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3695,7 +3695,7 @@
     <int>374</int>
     <fire.pb.item.STaozhuangEffect>
       <id>374</id>
-      <skillId>167005</skillId>
+      <skillId>167003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3705,7 +3705,7 @@
     <int>375</int>
     <fire.pb.item.STaozhuangEffect>
       <id>375</id>
-      <skillId>167006</skillId>
+      <skillId>167004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3715,7 +3715,7 @@
     <int>376</int>
     <fire.pb.item.STaozhuangEffect>
       <id>376</id>
-      <skillId>167007</skillId>
+      <skillId>167005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3725,7 +3725,7 @@
     <int>377</int>
     <fire.pb.item.STaozhuangEffect>
       <id>377</id>
-      <skillId>168000</skillId>
+      <skillId>167006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3735,7 +3735,7 @@
     <int>378</int>
     <fire.pb.item.STaozhuangEffect>
       <id>378</id>
-      <skillId>168001</skillId>
+      <skillId>167007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3745,7 +3745,7 @@
     <int>379</int>
     <fire.pb.item.STaozhuangEffect>
       <id>379</id>
-      <skillId>168002</skillId>
+      <skillId>168000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3755,7 +3755,7 @@
     <int>380</int>
     <fire.pb.item.STaozhuangEffect>
       <id>380</id>
-      <skillId>168003</skillId>
+      <skillId>168001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3765,7 +3765,7 @@
     <int>381</int>
     <fire.pb.item.STaozhuangEffect>
       <id>381</id>
-      <skillId>168004</skillId>
+      <skillId>168002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3775,7 +3775,7 @@
     <int>382</int>
     <fire.pb.item.STaozhuangEffect>
       <id>382</id>
-      <skillId>168005</skillId>
+      <skillId>168003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3785,7 +3785,7 @@
     <int>383</int>
     <fire.pb.item.STaozhuangEffect>
       <id>383</id>
-      <skillId>168006</skillId>
+      <skillId>168004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3795,7 +3795,7 @@
     <int>384</int>
     <fire.pb.item.STaozhuangEffect>
       <id>384</id>
-      <skillId>168007</skillId>
+      <skillId>168005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3805,7 +3805,7 @@
     <int>385</int>
     <fire.pb.item.STaozhuangEffect>
       <id>385</id>
-      <skillId>169000</skillId>
+      <skillId>168006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3815,7 +3815,7 @@
     <int>386</int>
     <fire.pb.item.STaozhuangEffect>
       <id>386</id>
-      <skillId>169001</skillId>
+      <skillId>168007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3825,7 +3825,7 @@
     <int>387</int>
     <fire.pb.item.STaozhuangEffect>
       <id>387</id>
-      <skillId>169002</skillId>
+      <skillId>169000</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3835,7 +3835,7 @@
     <int>388</int>
     <fire.pb.item.STaozhuangEffect>
       <id>388</id>
-      <skillId>169003</skillId>
+      <skillId>169001</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3845,7 +3845,7 @@
     <int>389</int>
     <fire.pb.item.STaozhuangEffect>
       <id>389</id>
-      <skillId>169004</skillId>
+      <skillId>169002</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3855,7 +3855,7 @@
     <int>390</int>
     <fire.pb.item.STaozhuangEffect>
       <id>390</id>
-      <skillId>169005</skillId>
+      <skillId>169003</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3865,7 +3865,7 @@
     <int>391</int>
     <fire.pb.item.STaozhuangEffect>
       <id>391</id>
-      <skillId>169006</skillId>
+      <skillId>169004</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3875,7 +3875,7 @@
     <int>392</int>
     <fire.pb.item.STaozhuangEffect>
       <id>392</id>
-      <skillId>169007</skillId>
+      <skillId>169005</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3885,7 +3885,7 @@
     <int>393</int>
     <fire.pb.item.STaozhuangEffect>
       <id>393</id>
-      <skillId>171006</skillId>
+      <skillId>169006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3895,7 +3895,7 @@
     <int>394</int>
     <fire.pb.item.STaozhuangEffect>
       <id>394</id>
-      <skillId>172006</skillId>
+      <skillId>169007</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3905,7 +3905,7 @@
     <int>395</int>
     <fire.pb.item.STaozhuangEffect>
       <id>395</id>
-      <skillId>173006</skillId>
+      <skillId>171006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3915,7 +3915,7 @@
     <int>396</int>
     <fire.pb.item.STaozhuangEffect>
       <id>396</id>
-      <skillId>174006</skillId>
+      <skillId>172006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3925,7 +3925,7 @@
     <int>397</int>
     <fire.pb.item.STaozhuangEffect>
       <id>397</id>
-      <skillId>175006</skillId>
+      <skillId>173006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3935,7 +3935,7 @@
     <int>398</int>
     <fire.pb.item.STaozhuangEffect>
       <id>398</id>
-      <skillId>176006</skillId>
+      <skillId>174006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3945,7 +3945,7 @@
     <int>399</int>
     <fire.pb.item.STaozhuangEffect>
       <id>399</id>
-      <skillId>177006</skillId>
+      <skillId>175006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3955,7 +3955,7 @@
     <int>400</int>
     <fire.pb.item.STaozhuangEffect>
       <id>400</id>
-      <skillId>178006</skillId>
+      <skillId>176006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3965,7 +3965,7 @@
     <int>401</int>
     <fire.pb.item.STaozhuangEffect>
       <id>401</id>
-      <skillId>179006</skillId>
+      <skillId>177006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3975,7 +3975,7 @@
     <int>402</int>
     <fire.pb.item.STaozhuangEffect>
       <id>402</id>
-      <skillId>181006</skillId>
+      <skillId>178006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3985,7 +3985,7 @@
     <int>403</int>
     <fire.pb.item.STaozhuangEffect>
       <id>403</id>
-      <skillId>182006</skillId>
+      <skillId>179006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -3995,7 +3995,7 @@
     <int>404</int>
     <fire.pb.item.STaozhuangEffect>
       <id>404</id>
-      <skillId>184006</skillId>
+      <skillId>181006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -4005,7 +4005,7 @@
     <int>405</int>
     <fire.pb.item.STaozhuangEffect>
       <id>405</id>
-      <skillId>186006</skillId>
+      <skillId>182006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -4015,7 +4015,7 @@
     <int>406</int>
     <fire.pb.item.STaozhuangEffect>
       <id>406</id>
-      <skillId>187006</skillId>
+      <skillId>184006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
       <effect3>1</effect3>
@@ -4025,6 +4025,26 @@
     <int>407</int>
     <fire.pb.item.STaozhuangEffect>
       <id>407</id>
+      <skillId>186006</skillId>
+      <effect1>0</effect1>
+      <effect2>0</effect2>
+      <effect3>1</effect3>
+    </fire.pb.item.STaozhuangEffect>
+  </entry>
+  <entry>
+    <int>408</int>
+    <fire.pb.item.STaozhuangEffect>
+      <id>408</id>
+      <skillId>187006</skillId>
+      <effect1>0</effect1>
+      <effect2>0</effect2>
+      <effect3>1</effect3>
+    </fire.pb.item.STaozhuangEffect>
+  </entry>
+  <entry>
+    <int>409</int>
+    <fire.pb.item.STaozhuangEffect>
+      <id>409</id>
       <skillId>188006</skillId>
       <effect1>0</effect1>
       <effect2>0</effect2>
