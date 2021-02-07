@@ -939,8 +939,8 @@ public class PetColumn {
 			return false;
 		if (pet.isLocked() != -1)
 			return false;
-		if (pet.getKind() == PetTypeEnum.SACREDANIMAL)			// 神兽不能放生
-			return false;
+		// if (pet.getKind() == PetTypeEnum.SACREDANIMAL)			// 神兽不能放生
+		// 	return false;
 		final SPetError sendErr = new SPetError();
 		if (petIsShowPet(petKey)) {
 			sendErr.peterror = PetError.ShowPetCantFree;
