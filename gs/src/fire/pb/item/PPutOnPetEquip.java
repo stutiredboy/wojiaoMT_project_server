@@ -20,6 +20,9 @@ import fire.pb.pet.PetColumnTypes;
 import fire.pb.attr.SRefreshPetData;
 import mkdb.Procedure;
 import org.apache.log4j.Logger;
+import fire.pb.pet.PetColumn;
+import fire.pb.pet.Pet;
+import fire.pb.pet.SRefreshPetInfo;
 
 public class PPutOnPetEquip extends Procedure
 {
@@ -51,6 +54,8 @@ public class PPutOnPetEquip extends Procedure
 		if (!(bi instanceof PetEquipItem)) {
 			return false;
 		}
+		PetColumn petCol = new PetColumn(roleId, 1, false);
+		Pet pet = petCol.getPet(petKey);
 		PetEquipItem.PetEquipError errorcode = canEquip(equip, (PetEquipItem)bi, position);
 		//int tmpPos = 0;
 		if (errorcode == PetEquipItem.PetEquipError.NO_ERROR) {
@@ -83,6 +88,7 @@ public class PPutOnPetEquip extends Procedure
 					//writeYYLogger(useNum);
 					//return Commontext.UseResult.SUCC;
 				}
+				pet.removeEquipItem(dstitem.getItemId());
 			}
 			if (!equip.TransIn(bi, position))
 				return false;
@@ -97,6 +103,20 @@ public class PPutOnPetEquip extends Procedure
 			Equip.checkEquipDiamondCourse(roleId);
 			
 			mkdb.Procedure.pexecuteWhileCommit(new PEnhancementTimeout(roleId));
+
+			
+			pet.addEquipItem(bi.getItemId());
+			List<Integer> equipIDList = pet.getEquipList();
+			logger.error("RECV PPutOnPetEquip--------SIZE--------"+ equipIDList.size());
+			for(Integer id : equipIDList)
+			{
+				logger.error("RECV PPutOnPetEquip--------ID--------"+ id);
+			}
+			
+			// 刷新宠物信息
+			final SRefreshPetInfo refresh = new SRefreshPetInfo(pet.getProtocolPet());
+			psendWhileCommit(roleId, refresh);
+
 			return true;
 		} else if (errorcode == PetEquipItem.PetEquipError.LEVEL_NOT_SUIT) {
 			MessageMgr.psendMsgNotify(roleId, 100065, null);

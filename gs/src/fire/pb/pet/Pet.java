@@ -783,13 +783,23 @@ public class Pet {
 		if(roleId < 1)
 		{
 			pet.huanhuaid = getPetInfo().getShapeID();
-			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////1111///////"+ getPetInfo().getShapeID());
+			List<Integer> allequipList = getEquipList();
+			for(Integer equip : allequipList)
+			{
+				Module.logger.error("****************宠物装备ID++++++++111111+++++++"+equip);
+				pet.equiplist.add(equip);
+			}
 		}
 		else
 		{
 			Pet petTemp = Pet.getPet(roleId, PetColumnTypes.PET, petInfo.getKey(),false);
 			pet.huanhuaid = petTemp.getPetInfo().getShapeID();
-			Module.logger.error("****************宠物幻化ID+++++++++++++++"+pet.huanhuaid + "/////2222///////"+ petTemp.getPetInfo().getShapeID());
+			List<Integer> allequipList = petTemp.getPetInfo().getEquipList();
+			for(Integer equip : allequipList)
+			{
+				Module.logger.error("****************宠物装备ID++++++++22222+++++++"+equip);
+				pet.equiplist.add(equip);
+			}
 		}
 		
 		
@@ -911,6 +921,11 @@ public class Pet {
 	{
 	  return this.petInfo.getInternals();
 	}
+
+	public List<Integer> getEquipList()
+	{
+		return this.petInfo.getEquipList();
+	}
 	
   
   
@@ -1030,6 +1045,54 @@ public class Pet {
 	  
 	  return oldSkill.getSkillid();
 	}
+
+
+	public boolean addEquipItem(int itemid)
+	{
+		int maxEquipNum = getEquipMaxNum();
+		List<Integer> equipList = getEquipList();
+		int size = equipList.size();
+		if (size > maxEquipNum)
+		return false;
+		for (Integer equipid : equipList) 
+		{
+			if (equipid == itemid)
+		  	return false;
+		}
+		equipList.add(itemid);
+		return true;
+	}
+
+	public int insertEquipItem(int index,int itemid)
+	{
+		int maxEquipNum = getEquipMaxNum();
+		List<Integer> equipList = getEquipList();
+		int size = equipList.size();
+		if (size > maxEquipNum)
+		return -1;
+	  	if (index + 1 > size)
+			return -2;
+		for (Integer equipid : equipList) 
+		{
+			if (equipid == itemid)
+		  	return -3;
+		}
+		int id =  equipList.set(index, itemid);  
+		return id;
+	}
+
+	public boolean removeEquipItem(int itemid)
+	{
+		List<Integer> equipList = getEquipList();
+		for (Iterator<Integer> it = equipList.iterator(); it.hasNext();) {
+			int id = it.next();
+			if (id == itemid) {
+			  it.remove();
+			  return true;
+			}
+		}
+		return false;
+	}
 	
   
   
@@ -1054,6 +1117,11 @@ public class Pet {
 	
 	public int getInternalMaxNum() {
 	  return petInternalsGrid();
+	}
+
+	public int getEquipMaxNum()
+	{
+		return 4;
 	}
 	
   
