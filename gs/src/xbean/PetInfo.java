@@ -59,6 +59,8 @@ public interface PetInfo extends mkdb.Bean {
 	public java.util.List<PetSkill> getInternals();	
 	public java.util.List<PetSkill> getInternalsAsData();
 	public int getShapeID(); // 宠物外形ID
+	public java.util.List<Integer> getEquipList(); // 装备列表
+	public java.util.List<Integer> getEquipListAsData(); // 装备列表
 
 	public void setId(int _v_); // 宠物ID
 	public void setKey(int _v_); // 在宠物栏、仓库、商会柜台里的key

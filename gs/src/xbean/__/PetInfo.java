@@ -55,6 +55,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	private long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
 	private java.util.LinkedList<xbean.PetSkill> internals;
 	private int shapeid; // 宠物外形ID
+	private java.util.LinkedList<Integer> equiplist;// 装备列表
 
 	@Override
 	public void _reset_unsafe_() {
@@ -104,6 +105,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		marketfreezeexpire = 0;
 		internals.clear();
 		shapeid = 0;
+		equiplist.clear();
 	}
 
 	PetInfo(int __, mkdb.XBean _xp_, String _vn_) {
@@ -125,6 +127,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		marketfreezeexpire = 0;
 		internals = new java.util.LinkedList();
 		shapeid = 0;
+		equiplist = new java.util.LinkedList();
 	}
 
 	public PetInfo() {
@@ -199,6 +202,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		for (xbean.PetSkill _v_ : _o_.internals)
 			internals.add(new PetSkill(_v_, this, "internals"));
 		shapeid = _o_.shapeid;
+		equiplist = new java.util.LinkedList<Integer>();
+		equiplist.addAll(_o_.equiplist);
 	}
 
 	private void assign(PetInfo.Data _o_) {
@@ -257,6 +262,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		      internals.add(new PetSkill(_v_, this, "internals"));
 		    }
 		shapeid = _o_.shapeid;
+		equiplist = new java.util.LinkedList<Integer>();
+		equiplist.addAll(_o_.equiplist);
 	}
 
 	@Override
@@ -324,6 +331,10 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			 _v_.marshal(_os_);
 			}
 		_os_.marshal(shapeid);
+		_os_.compact_uint32(equiplist.size());
+		for (Integer _v_ : equiplist) {
+			_os_.marshal(_v_);
+		}
 		return _os_;
 	}
 
@@ -410,6 +421,11 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		    internals.add(_v_);
 		    }
 		shapeid = _os_.unmarshal_int();
+		for (int size = _os_.uncompact_uint32(); size > 0; --size) {
+			int _v_ = 0;
+			_v_ = _os_.unmarshal_int();
+			equiplist.add(_v_);
+		}
 		return _os_;
 	}
 
@@ -768,6 +784,22 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	public int getShapeID() {
 		_xdb_verify_unsafe_();
 		return shapeid;
+	}
+
+
+	@Override
+	public java.util.List<Integer> getEquipList() { // 装备列表
+		_xdb_verify_unsafe_();
+		return mkdb.Logs.logList(new mkdb.LogKey(this, "equiplist"), equiplist);
+	}
+
+	public java.util.List<Integer> getEquipListAsData() { // 装备列表
+		_xdb_verify_unsafe_();
+		java.util.List<Integer> equiplist;
+		PetInfo _o_ = this;
+		equiplist = new java.util.LinkedList<Integer>();
+		equiplist.addAll(_o_.equiplist);
+		return equiplist;
 	}
 
 	@Override
@@ -1259,6 +1291,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
 		if (!internals.equals(_o_.internals)) return false;
 		if (shapeid != _o_.shapeid) return false;
+		if (!equiplist.equals(_o_.equiplist)) return false;
 		return true;
 	}
 
@@ -1312,6 +1345,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_h_ += marketfreezeexpire;
 		_h_ += internals.hashCode();
 		_h_ += shapeid;
+		_h_ += equiplist.hashCode();
 		return _h_;
 	}
 
@@ -1411,6 +1445,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_sb_.append(internals);
 		_sb_.append(",");
 		_sb_.append(shapeid);
+		_sb_.append(",");
+		_sb_.append(equiplist);
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -1464,6 +1500,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("marketfreezeexpire"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("internals"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("shapeid"));
+		lb.add(new mkdb.logs.ListenableChanged().setVarName("equiplist"));
 		return lb;
 	}
 
@@ -1825,6 +1862,21 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		}
 
 		@Override
+		public java.util.List<Integer> getEquipList() { // 装备列表
+			_xdb_verify_unsafe_();
+			return mkdb.Consts.constList(equiplist);
+		}
+
+		public java.util.List<Integer> getEquipListAsData() { // 装备列表
+			_xdb_verify_unsafe_();
+			java.util.List<Integer> equiplist;
+			PetInfo _o_ = PetInfo.this;
+			equiplist = new java.util.LinkedList<Integer>();
+			equiplist.addAll(_o_.equiplist);
+			return equiplist;
+		}
+
+		@Override
 		public void setId(int _v_) { // 宠物ID
 			_xdb_verify_unsafe_();
 			throw new UnsupportedOperationException();
@@ -2176,6 +2228,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		private long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
 		private java.util.LinkedList<xbean.PetSkill> internals;
 		private int shapeid; // 宠物外形ID
+		private java.util.LinkedList<Integer> equiplist;// 装备列表
 
 		@Override
 		public void _reset_unsafe_() {
@@ -2200,6 +2253,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			marketfreezeexpire = 0;
 			internals = new java.util.LinkedList();
 			shapeid = 0;
+			equiplist = new java.util.LinkedList<Integer>();
 		}
 
 		Data(xbean.PetInfo _o1_) {
@@ -2264,6 +2318,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			for (xbean.PetSkill _v_ : _o_.internals)
 			    internals.add(new PetSkill.Data(_v_));
 			shapeid = 0;
+			equiplist = new java.util.LinkedList<Integer>();
+			equiplist.addAll(_o_.equiplist);
 		}
 
 		private void assign(PetInfo.Data _o_) {
@@ -2321,6 +2377,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			for (xbean.PetSkill _v_ : _o_.internals)
 			    internals.add(new PetSkill.Data(_v_));
 			shapeid = _o_.shapeid;
+			equiplist = new java.util.LinkedList<Integer>();
+			equiplist.addAll(_o_.equiplist);
 		}
 
 		@Override
@@ -2387,6 +2445,10 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			    _v_.marshal(_os_);
 			}
 			_os_.marshal(shapeid);
+			_os_.compact_uint32(equiplist.size());
+			for (Integer _v_ : equiplist) {
+				_os_.marshal(_v_);
+			}
 			return _os_;
 		}
 
@@ -2472,6 +2534,11 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 				internals.add(_v_);
 			}
 			shapeid = _os_.unmarshal_int();
+			for (int size = _os_.uncompact_uint32(); size > 0; --size) {
+				int _v_ = 0;
+				_v_ = _os_.unmarshal_int();
+				equiplist.add(_v_);
+			}
 			return _os_;
 		}
 
@@ -2764,6 +2831,16 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		}
 
 		@Override
+		public java.util.List<Integer> getEquipList() { // 装备列表
+			return equiplist;
+		}
+
+		@Override
+		public java.util.List<Integer> getEquipListAsData() { // 装备列表
+			return equiplist;
+		}
+
+		@Override
 		public void setId(int _v_) { // 宠物ID
 			id = _v_;
 		}
@@ -3017,6 +3094,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
 			if (!internals.equals(_o_.internals)) return false;
 			if (shapeid != _o_.shapeid) return false;
+			if (!equiplist.equals(_o_.equiplist)) return false;
 			return true;
 		}
 
@@ -3069,6 +3147,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_h_ += marketfreezeexpire;
 			_h_ += internals.hashCode();
 			_h_ += shapeid;
+			_h_ += equiplist.hashCode();
 			return _h_;
 		}
 
@@ -3167,6 +3246,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_sb_.append(internals);
 			_sb_.append(",");
 			_sb_.append(shapeid);
+			_sb_.append(",");
+			_sb_.append(equiplist);
 			_sb_.append(")");
 			return _sb_.toString();
 		}

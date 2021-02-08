@@ -6,6 +6,9 @@ import org.apache.log4j.Logger;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
+import fire.pb.pet.PetColumn;
+import fire.pb.pet.Pet;
+import fire.pb.pet.SRefreshPetInfo;
 
 abstract class __CPetTakeOffEquip__ extends mkio.Protocol { }
 
@@ -55,7 +58,14 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 					return false;
 				if (bi instanceof PetEquipItem)
 					srcbag.onUnequip((PetEquipItem) bi, petkey);
+				PetColumn petCol = new PetColumn(roleId, 1, false);
+				Pet pet = petCol.getPet(petKey);
+				pet.removeEquipItem(bi.getItemId());
 				
+				// 刷新宠物信息
+				final SRefreshPetInfo refresh = new SRefreshPetInfo(pet.getProtocolPet());
+				psendWhileCommit(roleId, refresh);
+
 				return true;
 			}
 			
