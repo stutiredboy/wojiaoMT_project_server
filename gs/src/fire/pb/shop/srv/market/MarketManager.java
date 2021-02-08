@@ -347,20 +347,20 @@ public class MarketManager implements IMarket {
 			return false;
 		}
 		long costcp =  money*(long)(israrity?fire.pb.fushi.Module.getCreditPointValue(fire.pb.fushi.Module.CREDITPOINT_OUT_BUY_RARE):fire.pb.fushi.Module.getCreditPointValue(fire.pb.fushi.Module.CREDITPOINT_OUT_BUY));
-		if (ereditPoint + costcp < 0) {
+// 		if (ereditPoint + costcp < 0) {
 
-			List<String> params = new ArrayList<String>();
-			params.add("" +ereditPoint);
-			params.add("" +(0-(ereditPoint + costcp)));
-			fire.pb.talk.MessageMgr.sendMsgNotify(costRoleId, 180021, params);	
+// 			List<String> params = new ArrayList<String>();
+// 			params.add("" +ereditPoint);
+// 			params.add("" +(0-(ereditPoint + costcp)));
+// 			fire.pb.talk.MessageMgr.sendMsgNotify(costRoleId, 180021, params);	
 
-//			MessageMgr.sendMsgNotify(costRoleId, 180021, null);
-			MessageMgr.sendSystemMessageToRole(costRoleId, 180026, null);
-			StringBuilder sbd = new StringBuilder();
-			sbd.append("role=").append(costRoleId).append(", 购买道具信用值不足！");
-			LOG.error(sbd.toString());
-			return false;
-		}
+// //			MessageMgr.sendMsgNotify(costRoleId, 180021, null);
+// 			MessageMgr.sendSystemMessageToRole(costRoleId, 180026, null);
+// 			StringBuilder sbd = new StringBuilder();
+// 			sbd.append("role=").append(costRoleId).append(", 购买道具信用值不足！");
+// 			LOG.error(sbd.toString());
+// 			return false;
+// 		}
 		costRoleBag.subGold(-money, "拍卖购买道具", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_paimai, 0);
 		// 卖家
 		// 需要扣税,目前是9%
@@ -531,6 +531,15 @@ public class MarketManager implements IMarket {
 			LOG.error(sbd.toString());
 			return false;
 		}
+
+		int buyRoleVIPLevel = xtable.Properties.selectViplevel(roleId);
+		if (buyRoleVIPLevel <= 11) {
+			StringBuilder sbd = new StringBuilder();
+			sbd.append("role=").append(roleId).append(", 上架道具错误！VIP等级小于").append(11);
+			LOG.error(sbd.toString());
+			return false;
+		}
+
 		int buyRoleLevel = xtable.Properties.selectLevel(roleId);
 		if (buyRoleLevel < marketLv) {
 			StringBuilder sbd = new StringBuilder();
