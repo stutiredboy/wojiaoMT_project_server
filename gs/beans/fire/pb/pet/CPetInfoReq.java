@@ -5,7 +5,9 @@ package fire.pb.pet;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-
+import fire.pb.pet.PetColumn;
+import fire.pb.pet.Pet;
+import fire.pb.pet.SRefreshPetInfo;
 abstract class __CPetInfoReq__ extends mkio.Protocol { }
 
 /** 请求宠物信息
@@ -17,6 +19,25 @@ public class CPetInfoReq extends __CPetInfoReq__ {
 	@Override
 	protected void process() {
 		// protocol handle
+		final long roleId = gnet.link.Onlines.getInstance().findRoleid( this );
+		if (roleId < 0)
+			return;
+		int petKey = this.petkey;
+		// protocol handle
+		new mkdb.Procedure(){
+
+			@Override
+			protected boolean process() throws Exception {
+				PetColumn petCol = new PetColumn(roleId, 1, false);
+				Pet pet = petCol.getPet(petKey);
+				// 刷新宠物信息
+				final SRefreshPetInfo refresh = new SRefreshPetInfo(pet.getProtocolPet());
+				psendWhileCommit(roleId, refresh);
+
+				return true;
+			}
+			
+		}.submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

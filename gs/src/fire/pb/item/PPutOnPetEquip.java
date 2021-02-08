@@ -88,7 +88,7 @@ public class PPutOnPetEquip extends Procedure
 					//writeYYLogger(useNum);
 					//return Commontext.UseResult.SUCC;
 				}
-				pet.removeEquipItem(dstitem.getItemId());
+				pet.removeEquipItem(dstitem.getKey());
 			}
 			if (!equip.TransIn(bi, position))
 				return false;
@@ -105,7 +105,7 @@ public class PPutOnPetEquip extends Procedure
 			mkdb.Procedure.pexecuteWhileCommit(new PEnhancementTimeout(roleId));
 
 			
-			pet.addEquipItem(bi.getItemId());
+			pet.addEquipItem(bi.getKey());
 			List<Integer> equipIDList = pet.getEquipList();
 			logger.error("RECV PPutOnPetEquip--------SIZE--------"+ equipIDList.size());
 			for(Integer id : equipIDList)

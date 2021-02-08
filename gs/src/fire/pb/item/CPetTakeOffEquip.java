@@ -60,7 +60,7 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 					srcbag.onUnequip((PetEquipItem) bi, petkey);
 				PetColumn petCol = new PetColumn(roleId, 1, false);
 				Pet pet = petCol.getPet(petKey);
-				pet.removeEquipItem(bi.getItemId());
+				pet.removeEquipItem(pet_equipkey);
 				
 				// 刷新宠物信息
 				final SRefreshPetInfo refresh = new SRefreshPetInfo(pet.getProtocolPet());
