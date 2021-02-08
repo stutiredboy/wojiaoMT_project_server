@@ -453,6 +453,8 @@
 		<variable name="marketfreezeexpire" type="long" /> 摆摊冻结截止时间,默认0不冻结
 		<variable name="internals" type="list" value="Petskill"  /> 宠物内丹
 		<variable name="huanhuaID" type="int" /> 宠物幻化ID
+		<!-- 宠物装备列表 表中元素为宠物装备位置 1-4-->
+		<variable name="equipList" type="list" value="int" /> 
 		<enum name="FLAG_LOCK" value= "1"/>
 		<enum name="FLAG_BIND" value= "2"/>
 	</bean>

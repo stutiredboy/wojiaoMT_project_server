@@ -70,6 +70,7 @@ public class Pet implements Marshal {
 	public long marketfreezeexpire; // 摆摊冻结截止时间,默认0不冻结
 	public java.util.LinkedList<fire.pb.Petskill> internals; // 宠物内丹
 	public int huanhuaid; // 宠物幻化ID
+	public java.util.LinkedList<Integer> equiplist;
 
 	public Pet() {
 		name = "";
@@ -80,9 +81,10 @@ public class Pet implements Marshal {
 		ownername = "";
 		zizhi = new java.util.HashMap<Integer,Integer>();
 		internals = new java.util.LinkedList<fire.pb.Petskill>();
+		equiplist = new java.util.LinkedList<Integer>();
 	}
 
-	public Pet(int _id_, int _key_, java.lang.String _name_, int _level_, int _uselevel_, int _xuemai_, int _gengu_, int _colour_, int _hp_, int _maxhp_, int _mp_, int _maxmp_, int _attack_, int _defend_, int _speed_, int _magicattack_, int _magicdef_, byte _scale_, fire.pb.BasicFightProperties _initbfp_, fire.pb.BasicFightProperties _bfp_, short _point_, byte _autoaddcons_, byte _autoaddiq_, byte _autoaddstr_, byte _autoaddendu_, byte _autoaddagi_, short _pointresetcount_, long _exp_, long _nexp_, int _attackapt_, int _defendapt_, int _phyforceapt_, int _magicapt_, int _speedapt_, int _dodgeapt_, float _growrate_, int _life_, int _kind_, java.util.LinkedList<fire.pb.Petskill> _skills_, java.util.HashMap<Integer,Long> _skillexpires_, byte _flag_, long _timeout_, long _ownerid_, java.lang.String _ownername_, int _rank_, short _starid_, short _practisetimes_, java.util.HashMap<Integer,Integer> _zizhi_, int _changegengu_, int _skill_grids_, byte _aptaddcount_, byte _growrateaddcount_, short _washcount_, int _petscore_, int _petbasescore_, int _petdye1_, int _petdye2_, int _shenshouinccount_, long _marketfreezeexpire_, java.util.LinkedList<fire.pb.Petskill> _internals_, int _huanhuaid_) {
+	public Pet(int _id_, int _key_, java.lang.String _name_, int _level_, int _uselevel_, int _xuemai_, int _gengu_, int _colour_, int _hp_, int _maxhp_, int _mp_, int _maxmp_, int _attack_, int _defend_, int _speed_, int _magicattack_, int _magicdef_, byte _scale_, fire.pb.BasicFightProperties _initbfp_, fire.pb.BasicFightProperties _bfp_, short _point_, byte _autoaddcons_, byte _autoaddiq_, byte _autoaddstr_, byte _autoaddendu_, byte _autoaddagi_, short _pointresetcount_, long _exp_, long _nexp_, int _attackapt_, int _defendapt_, int _phyforceapt_, int _magicapt_, int _speedapt_, int _dodgeapt_, float _growrate_, int _life_, int _kind_, java.util.LinkedList<fire.pb.Petskill> _skills_, java.util.HashMap<Integer,Long> _skillexpires_, byte _flag_, long _timeout_, long _ownerid_, java.lang.String _ownername_, int _rank_, short _starid_, short _practisetimes_, java.util.HashMap<Integer,Integer> _zizhi_, int _changegengu_, int _skill_grids_, byte _aptaddcount_, byte _growrateaddcount_, short _washcount_, int _petscore_, int _petbasescore_, int _petdye1_, int _petdye2_, int _shenshouinccount_, long _marketfreezeexpire_, java.util.LinkedList<fire.pb.Petskill> _internals_, int _huanhuaid_, java.util.LinkedList<Integer> _equiplist_) {
 		this.id = _id_;
 		this.key = _key_;
 		this.name = _name_;
@@ -144,6 +146,7 @@ public class Pet implements Marshal {
 		this.marketfreezeexpire = _marketfreezeexpire_;
 		this.internals = _internals_;
 		this.huanhuaid = _huanhuaid_;
+		this.equiplist = _equiplist_;
 	}
 
 	public final boolean _validator_() {
@@ -238,6 +241,10 @@ public class Pet implements Marshal {
 			_os_.marshal(_v_);
 		}
 		_os_.marshal(huanhuaid);
+		_os_.compact_uint32(equiplist.size());
+		for (Integer _v_ : equiplist) {
+			_os_.marshal(_v_);
+		}
 		return _os_;
 	}
 
@@ -323,6 +330,11 @@ public class Pet implements Marshal {
 			internals.add(_v_);
 		}
 		huanhuaid = _os_.unmarshal_int();
+		for (int _size_ = _os_.uncompact_uint32(); _size_ > 0; --_size_) {
+			int _v_;
+			_v_ = _os_.unmarshal_int();
+			equiplist.add(_v_);
+		}
 		return _os_;
 	}
 
@@ -391,6 +403,7 @@ public class Pet implements Marshal {
 			if (marketfreezeexpire != _o_.marketfreezeexpire) return false;
 			if (!internals.equals(_o_.internals)) return false;
 			if (huanhuaid != _o_.huanhuaid) return false;
+			if (!equiplist.equals(_o_.equiplist)) return false;
 			return true;
 		}
 		return false;
@@ -459,6 +472,7 @@ public class Pet implements Marshal {
 		_h_ += (int)marketfreezeexpire;
 		_h_ += internals.hashCode();
 		_h_ += huanhuaid;
+		_h_ += equiplist.hashCode();
 		return _h_;
 	}
 
@@ -526,6 +540,7 @@ public class Pet implements Marshal {
 		_sb_.append(marketfreezeexpire).append(",");
 		_sb_.append(internals).append(",");
 		_sb_.append(huanhuaid).append(",");
+		_sb_.append(equiplist).append(",");
 		_sb_.append(")");
 		return _sb_.toString();
 	}
