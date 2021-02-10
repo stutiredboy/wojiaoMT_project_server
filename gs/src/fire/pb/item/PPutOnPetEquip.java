@@ -61,7 +61,7 @@ public class PPutOnPetEquip extends Procedure
 		if (errorcode == PetEquipItem.PetEquipError.NO_ERROR) {
 			ItemBase dstitem = equip.getItemByPos(position);
 			ItemBase item = null;
-			if (dstitem != null) {
+			if (dstitem != null && pet.getEquipList().contains(dstitem.getKey())) {
 				item = equip.TransOut(dstitem.getKey(), -1, "卸下装备");
 				if (item == null)
 				{
@@ -88,7 +88,11 @@ public class PPutOnPetEquip extends Procedure
 					//writeYYLogger(useNum);
 					//return Commontext.UseResult.SUCC;
 				}
-				pet.removeEquipItem(dstitem.getKey());
+				if(pet.getEquipList().contains(dstitem.getKey()))
+				{
+					pet.removeEquipItem(dstitem.getKey());
+				}
+				
 			}
 			if (!equip.TransIn(bi, position))
 				return false;
