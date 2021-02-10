@@ -48,6 +48,10 @@ public class PPetSynthesizeProc extends mkdb.Procedure {
 		final Pet pet2 = petCol.getPet(petKey2);
 		if (null == pet1 || null == pet2)
 			return false;
+		if(pet1.getEquipList().size() > 0 || pet2.getEquipList().size() > 0)
+		{
+			return false;
+		}
 		//道具锁判断
 		if (GoodsSafeLocksUtils.checkLockStatus(roleId, pet1.getPetInfo())) {
 			return false;
