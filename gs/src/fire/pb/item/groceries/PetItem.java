@@ -47,7 +47,7 @@ public class PetItem extends GroceryItem {
 				return Commontext.UseResult.FAIL;// 宠物栏已满
 			}
 			
-			int ret = petColumn.addPetByID(petInfo.getPetId(), true, PetColumn.ADD_REASON_ITEM);
+			int ret = petColumn.addPetByID(petInfo.getPetId(), false, PetColumn.ADD_REASON_ITEM);
 			if (ret < 0) {
 				return Commontext.UseResult.FAIL;
 			}

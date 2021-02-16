@@ -69,6 +69,7 @@ import fire.pb.tel.utils.GoodsSafeLocksUtils;
 import fire.pb.tel.utils.TelBindUtils;
 import xbean.PetInfo;
 import xbean.Pod;
+import xtable.Properties;
 
 /**
  * 
@@ -347,20 +348,20 @@ public class MarketManager implements IMarket {
 			return false;
 		}
 		long costcp =  money*(long)(israrity?fire.pb.fushi.Module.getCreditPointValue(fire.pb.fushi.Module.CREDITPOINT_OUT_BUY_RARE):fire.pb.fushi.Module.getCreditPointValue(fire.pb.fushi.Module.CREDITPOINT_OUT_BUY));
-// 		if (ereditPoint + costcp < 0) {
+		if (ereditPoint + costcp < 0) {
 
-// 			List<String> params = new ArrayList<String>();
-// 			params.add("" +ereditPoint);
-// 			params.add("" +(0-(ereditPoint + costcp)));
-// 			fire.pb.talk.MessageMgr.sendMsgNotify(costRoleId, 180021, params);	
+			List<String> params = new ArrayList<String>();
+			params.add("" +ereditPoint);
+			params.add("" +(0-(ereditPoint + costcp)));
+			fire.pb.talk.MessageMgr.sendMsgNotify(costRoleId, 180021, params);	
 
-// //			MessageMgr.sendMsgNotify(costRoleId, 180021, null);
-// 			MessageMgr.sendSystemMessageToRole(costRoleId, 180026, null);
-// 			StringBuilder sbd = new StringBuilder();
-// 			sbd.append("role=").append(costRoleId).append(", 购买道具信用值不足！");
-// 			LOG.error(sbd.toString());
-// 			return false;
-// 		}
+//			MessageMgr.sendMsgNotify(costRoleId, 180021, null);
+			MessageMgr.sendSystemMessageToRole(costRoleId, 180026, null);
+			StringBuilder sbd = new StringBuilder();
+			sbd.append("role=").append(costRoleId).append(", 购买道具信用值不足！");
+			LOG.error(sbd.toString());
+			return false;
+		}
 		costRoleBag.subGold(-money, "拍卖购买道具", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_paimai, 0);
 		// 卖家
 		// 需要扣税,目前是9%
@@ -524,6 +525,16 @@ public class MarketManager implements IMarket {
 		if (marketLv < 0) {
 			return false;
 		}
+		int viplv = 10 ;
+		int buyRoleVipLevel = Properties.selectViplevel(Long.valueOf(roleId)).intValue();
+		if (buyRoleVipLevel < viplv)
+		{
+			StringBuilder sbd = new StringBuilder();
+			sbd.append("role=").append(roleId).append(", 上架道具错误！VIP等级小于").append(marketLv);
+			MessageMgr.psendMsgNotify(roleId, 300005, null);
+			LOG.error(sbd.toString());
+			return false;
+		}
 		//创建角色超出七天不绑定手机限制拍卖行和兑换所的使用
 		if(TelBindUtils.isLimitByBindTel(roleId)){
 			StringBuilder sbd = new StringBuilder();
@@ -531,15 +542,6 @@ public class MarketManager implements IMarket {
 			LOG.error(sbd.toString());
 			return false;
 		}
-
-		int buyRoleVIPLevel = xtable.Properties.selectViplevel(roleId);
-		if (buyRoleVIPLevel <= 11) {
-			StringBuilder sbd = new StringBuilder();
-			sbd.append("role=").append(roleId).append(", 上架道具错误！VIP等级小于").append(11);
-			LOG.error(sbd.toString());
-			return false;
-		}
-
 		int buyRoleLevel = xtable.Properties.selectLevel(roleId);
 		if (buyRoleLevel < marketLv) {
 			StringBuilder sbd = new StringBuilder();
