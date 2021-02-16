@@ -793,13 +793,17 @@ public class Pet {
 		else
 		{
 			Pet petTemp = Pet.getPet(roleId, PetColumnTypes.PET, petInfo.getKey(),false);
-			pet.huanhuaid = petTemp.getPetInfo().getShapeID();
-			List<Integer> allequipList = petTemp.getPetInfo().getEquipList();
-			for(Integer equip : allequipList)
+			if(petTemp != null)
 			{
-				Module.logger.error("****************宠物装备ID++++++++22222+++++++"+equip);
-				pet.equiplist.add(equip);
+				pet.huanhuaid = petTemp.getPetInfo().getShapeID();
+				List<Integer> allequipList = petTemp.getPetInfo().getEquipList();
+				for(Integer equip : allequipList)
+				{
+					Module.logger.error("****************宠物装备ID++++++++22222+++++++"+equip);
+					pet.equiplist.add(equip);
+				}
 			}
+			
 		}
 		
 		

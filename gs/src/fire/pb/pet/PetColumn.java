@@ -941,6 +941,7 @@ public class PetColumn {
 			return false;
 		if (pet.getEquipList().size() > 0)
 		{
+			MessageMgr.sendMsgNotify(roleId, 196002, null);
 			return false;
 		}
 		// if (pet.getKind() == PetTypeEnum.SACREDANIMAL)			// 神兽不能放生
