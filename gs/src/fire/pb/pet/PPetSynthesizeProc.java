@@ -10,7 +10,8 @@ import fire.pb.common.SCommon;
 import fire.pb.main.ConfigManager;
 import fire.pb.tel.utils.GoodsSafeLocksUtils;
 import fire.pb.util.Misc;
-
+import fire.pb.talk.MessageMgr;
+import fire.pb.pet.Pet;
 /**
  * 宠物合成
  * @author XGM
@@ -48,8 +49,10 @@ public class PPetSynthesizeProc extends mkdb.Procedure {
 		final Pet pet2 = petCol.getPet(petKey2);
 		if (null == pet1 || null == pet2)
 			return false;
+		List<Integer> tempList = pet1.getEquipList();
 		if(pet1.getEquipList().size() > 0 || pet2.getEquipList().size() > 0)
 		{
+			MessageMgr.sendMsgNotify(roleId, 196001, null);
 			return false;
 		}
 		//道具锁判断
