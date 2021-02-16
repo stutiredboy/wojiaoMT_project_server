@@ -61,7 +61,13 @@ public class PPutOnPetEquip extends Procedure
 		if (errorcode == PetEquipItem.PetEquipError.NO_ERROR) {
 			ItemBase dstitem = equip.getItemByPos(position);
 			ItemBase item = null;
+			if(dstitem != null)
+			{
+				logger.error("要穿的装备ID----"+bi.getKey()+"--------要替换掉的ID-1111---"+ dstitem.getKey());
+			}
 			if (dstitem != null && pet.getEquipList().contains(dstitem.getKey())) {
+
+				logger.error("要穿的装备ID----"+bi.getKey()+"--------要替换掉的ID--222--"+ dstitem.getKey());
 				item = equip.TransOut(dstitem.getKey(), -1, "卸下装备");
 				if (item == null)
 				{
@@ -98,7 +104,6 @@ public class PPutOnPetEquip extends Procedure
 				return false;
 			if ((bi.getFlags() & (fire.pb.Item.ONSTALL & fire.pb.Item.ONCOFCSELL)) != 0)
 				return false;
-			logger.error("RECV PPutOnPetEquip--------123---------\t");
 			freshEquipBuff(roleId, (PetEquipItem)bi, petKey);
 			//更新玩家综合实力排行榜
 			mkdb.Procedure.pexecuteWhileCommit(new fire.pb.ranklist.proc.PRoleZongheRankProc(roleId));
