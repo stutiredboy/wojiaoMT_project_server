@@ -70,8 +70,10 @@ public class PPetSynthesizeProc extends mkdb.Procedure {
 			return true;
 
 		// 神兽，野生不能合成
-		if (pet1.getKind() == PetTypeEnum.WILD || pet2.getKind() == PetTypeEnum.WILD
-			|| pet1.getKind() == PetTypeEnum.SACREDANIMAL || pet2.getKind() == PetTypeEnum.SACREDANIMAL)
+		// if (pet1.getKind() == PetTypeEnum.WILD || pet2.getKind() == PetTypeEnum.WILD
+		// 	|| pet1.getKind() == PetTypeEnum.SACREDANIMAL || pet2.getKind() == PetTypeEnum.SACREDANIMAL)
+		// 	return false;
+		if (pet1.getKind() == PetTypeEnum.WILD || pet2.getKind() == PetTypeEnum.WILD)
 			return false;
 
 		// 有技能认证的宠物不能合成
