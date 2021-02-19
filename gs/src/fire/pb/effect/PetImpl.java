@@ -201,7 +201,6 @@ public class PetImpl extends AttrCalcRole
 	@Override
 	public long getNextExp()
 	{
-		Module.logger.error("----------宠物等级---："+(int)pet.getLevel()+"--"+DataInit.PET_LEVEL_MAX);
 		if((int)pet.getLevel() >= DataInit.PET_LEVEL_MAX)
 		{
 			return 1000000000;

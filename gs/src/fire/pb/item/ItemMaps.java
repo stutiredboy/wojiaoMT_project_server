@@ -578,7 +578,6 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 		if (key == 0)
 			return false;
 		final long oldowner = ib.getOwnerid();
-		logger.error("TEST ITEMAMPS------2305----------11-\t" + getPackid());
 		ib.setKey(key);
 		ib.setOwnerid(roleId);
 		ib.setPackId(getPackid());
@@ -592,7 +591,6 @@ public abstract class ItemMaps implements Iterable<ItemBase> {
 			send.packid = getPackid();
 			send.data.add(xItem2Item(ib.itemData, key,
 					roleId == oldowner ? 0 : 1));
-			logger.error("TEST ITEMAMPS------2305---------send msg-11-\t" + getPackid());
 			mkdb.Transaction.tsendWhileCommit(roleId, send);
 		}
 

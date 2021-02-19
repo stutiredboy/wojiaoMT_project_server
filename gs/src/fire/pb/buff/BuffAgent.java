@@ -231,6 +231,7 @@ public abstract class BuffAgent
 		for(ConstantlyBuff buff : buffs)
 		{
 			buff.setRound(buff.getRound() - 1);
+			logger.error("Buff(ID: " + buff.getId() +")----------."+buff.getRound());
 			if(buff.getRound() <= 0)
 				result.updateResult(removeCBuff(buff.getId()));
 			else
