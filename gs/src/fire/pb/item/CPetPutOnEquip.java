@@ -5,7 +5,7 @@ package fire.pb.item;
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
 import com.locojoy.base.Marshal.MarshalException;
-
+import org.apache.log4j.Logger;
 abstract class __CPetPutOnEquip__ extends mkio.Protocol { }
 
 /** 宠物穿戴装备
@@ -14,9 +14,21 @@ abstract class __CPetPutOnEquip__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 public class CPetPutOnEquip extends __CPetPutOnEquip__ {
+	public static final Logger logger = Logger.getLogger("SYSTEM");
 	@Override
 	protected void process() {
 		// protocol handle
+		logger.error("RECV CPetPutOnEquip-----------------\t" + pet_packkey +" --" + pet_dstpos +"--"+ petkey+"------"+pet_oldpackkey);
+		final long roleId=gnet.link.Onlines.getInstance().findRoleid(this);
+		 if (roleId < 0) {
+		 	return;
+		 }
+		 // protocol handle
+		 if (fire.pb.buff.Module.existState(roleId, fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER)) {
+		 	fire.pb.talk.MessageMgr.sendMsgNotify(roleId, 131451, null);
+		 	return;
+		 }
+		new PPutOnPetEquip(roleId, pet_packkey, pet_dstpos, petkey,pet_oldpackkey).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

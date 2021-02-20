@@ -54,7 +54,11 @@ public abstract class Injure extends SingleBuff
 		{
 			InjureRate -= formeffcet;
 		}
-		skillId = battleskill.getSkillId();
+		if(battleskill != null)
+		{
+			skillId = battleskill.getSkillId();
+		}
+		
 		//初始化
 		init(battleInfo, opfighter, aimfighter, effects);
 		addValue = 0.0f;
