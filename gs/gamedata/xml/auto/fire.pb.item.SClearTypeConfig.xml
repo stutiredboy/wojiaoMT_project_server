@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tree-map>
+  <no-comparator/>
+  <entry>
+    <int>1000</int>
+    <fire.pb.item.SClearTypeConfig>
+      <id>1000</id>
+      <clearType>1</clearType>
+    </fire.pb.item.SClearTypeConfig>
+  </entry>
+  <entry>
+    <int>1001</int>
+    <fire.pb.item.SClearTypeConfig>
+      <id>1001</id>
+      <clearType>2</clearType>
+    </fire.pb.item.SClearTypeConfig>
+  </entry>
+</tree-map>
