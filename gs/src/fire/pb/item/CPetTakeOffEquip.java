@@ -36,10 +36,23 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 			protected boolean process() throws Exception {
 				final PetEquip srcbag = new PetEquip(roleId, false);
 				final ItemMaps dstbag = new Pack(roleId, false);
-				
+				PetColumn petCol = new PetColumn(roleId, 1, false);
+				Pet pet = petCol.getPet(petKey);
 				ItemBase bi = srcbag.TransOut(pet_equipkey, -1, "卸下装备");
-				if (bi == null)
+				if (bi == null  )
+				{
+					if(pet == null)
+					{
+						return false;
+					}
+					if(pet.getEquipList().contains(pet_equipkey))
+					{
+						pet.removeEquipItem(pet_equipkey);
+						return true;
+					}
 					return false;
+				}
+					
 				ItemBase dstitem;
 				java.util.List<Integer> freepos = dstbag.getFreepos();
 				if (freepos.size() > 0) {
@@ -58,8 +71,7 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 					return false;
 				if (bi instanceof PetEquipItem)
 					srcbag.onUnequip((PetEquipItem) bi, petkey);
-				PetColumn petCol = new PetColumn(roleId, 1, false);
-				Pet pet = petCol.getPet(petKey);
+				
 				pet.removeEquipItem(pet_equipkey);
 				
 				// 刷新宠物信息

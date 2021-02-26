@@ -141,7 +141,6 @@ public class PhysicalInjure extends Injure
 		float baseattack = opfighter.getEffectRole().getAttrById(FightAttrType.ATTACK);
 		damage = (int) Math.min(damage, -1.0f*baseattack*PropConf.Battle.MIX_PHYSIC_DAMAGE_VALUE) ;
 		damage = damage * (100 + addValue) / 100;
-		Module.logger.error("----------------套装效果物理增加伤害 ----" + addValue +"------------"+ damage );
 		demoresult.hpchange = (int) damage;		
 		return true;
 	}

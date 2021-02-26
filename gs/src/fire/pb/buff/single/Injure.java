@@ -54,7 +54,11 @@ public abstract class Injure extends SingleBuff
 		{
 			InjureRate -= formeffcet;
 		}
-		skillId = battleskill.getSkillId();
+		if(battleskill != null)
+		{
+			skillId = battleskill.getSkillId();
+		}
+		
 		//初始化
 		init(battleInfo, opfighter, aimfighter, effects);
 		addValue = 0.0f;
@@ -88,7 +92,6 @@ public abstract class Injure extends SingleBuff
 			if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
 			{
 				addValue = tempValue * suitingMaps.get(skillId) / 3;
-				Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
 			}
 		}
 

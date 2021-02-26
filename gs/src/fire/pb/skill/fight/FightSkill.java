@@ -1625,35 +1625,6 @@ public class FightSkill
 				return processSummon();
 			}
 			item = new ResultItem();
-			ItemMaps bag = fire.pb.item.Module.getInstance().getItemMaps(opfighter.getFighterBean().getUniqueid(), BagTypes.EQUIP, true);
-			Map<Integer,Integer> suitingMaps = new HashMap<Integer,Integer>();
-			int addNum = 0;
-			int addValue = 0;
-			// for (ItemBase basicItem : bag){
-			// 	EquipItem oldWeapon = ((EquipItem) basicItem);
-			// 	if(oldWeapon.getEquipAttr().getSuitID() != 0)
-			// 	{
-			// 		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get((oldWeapon.getEquipAttr().getSuitID()));
-			// 		if(effect != null && effect.skillId == skillId && effect.effect2 != 0){
-			// 			addValue =  effect.effect2;
-			// 			if(suitingMaps.containsKey(effect.skillId))
-			// 			{
-			// 				int value = suitingMaps.get(effect.skillId) + 1;
-			// 				suitingMaps.put(effect.skillId,value);
-			// 			}
-			// 			else
-			// 			{
-			// 				suitingMaps.put(effect.skillId,1);
-			// 			}
-			// 		}
-					
-			// 	}
-			// }
-			// if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
-			// {
-			// 	addValue = addValue * suitingMaps.get(skillId) / 3;
-			// 	Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
-			// }
 			// 需求校验
 			if (!canCast())
 			{
@@ -1975,6 +1946,7 @@ public class FightSkill
 										round = round * 2;
 									}
 								}
+								Module.logger.error("技能释放------技能ID：" + subSkillindex +"..............buffID:  "+ buffarg.buffIndex +"------回合数----"+round);
 								((ConstantlyBuff) buffcopy).getBuffBean().setRound(round);
 								//要重新加隐身buff，就不再清除隐身buff了
 								if(buffcopy.getId() == BuffConstant.CONTINUAL_ROLE_HIDDEN)
@@ -2046,11 +2018,11 @@ public class FightSkill
 									}
 									if(demo.hpchange != 0)
 									{
-										battle.getEngine().setMainDamage(demo.hpchange * (addValue + 100) / 100 );// 初始化主伤害
+										battle.getEngine().setMainDamage(demo.hpchange);// 初始化主伤害
 									}
 									else if(demo.mpchange != 0)
 									{
-										battle.getEngine().setMainDamage(demo.mpchange * (addValue + 100) / 100);// 初始化主伤害
+										battle.getEngine().setMainDamage(demo.mpchange);// 初始化主伤害
 									}
 										
 								}								

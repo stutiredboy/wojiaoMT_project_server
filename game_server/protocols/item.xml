@@ -518,6 +518,7 @@
 	<!-- 宠物穿戴装备 -->
 	<protocol name="CPetPutOnEquip" type="1367" maxsize="128"  prior="101" tolua="3"> 
 		<variable name="pet_packkey" type="int" validator="value=[1,)" />
+		<variable name="pet_oldpackkey" type="int" validator="value=[1,)" />
 		<variable name="pet_dstPos" type="int" validator="value=[0,)" />
 		<variable name="petkey" type="int" validator="value=[1,)" />
 	</protocol>

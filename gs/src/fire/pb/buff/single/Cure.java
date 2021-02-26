@@ -78,7 +78,6 @@ public class Cure extends SingleBuff
 			if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
 			{
 				addValue = tempValue * suitingMaps.get(skillId) / 3;
-				Module.logger.error("----------------套装效果增加技能伤害百分比 ----" + addValue );
 			}
 		}
 		

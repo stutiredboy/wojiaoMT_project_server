@@ -31,11 +31,13 @@ public class PPutOnPetEquip extends Procedure
 	private final int bagkey;
 	private final int position;
 	private final int petKey;
-	public PPutOnPetEquip( long roleId,int bagkey,int position, int petKey) {
+	private final int oldbagkey;
+	public PPutOnPetEquip( long roleId,int bagkey,int position, int petKey,int oldbagkey) {
 		this.roleId = roleId;
 		this.bagkey = bagkey;
 		this.position = position;
 		this.petKey = petKey;
+		this.oldbagkey = oldbagkey;
 	}
 	@Override
 	protected boolean process() throws Exception {
@@ -59,9 +61,9 @@ public class PPutOnPetEquip extends Procedure
 		PetEquipItem.PetEquipError errorcode = canEquip(equip, (PetEquipItem)bi, position);
 		//int tmpPos = 0;
 		if (errorcode == PetEquipItem.PetEquipError.NO_ERROR) {
-			ItemBase dstitem = equip.getItemByPos(position);
+			ItemBase dstitem = equip.getItem(oldbagkey);
 			ItemBase item = null;
-			if(dstitem != null)
+			if(dstitem != null )
 			{
 				logger.error("要穿的装备ID----"+bi.getKey()+"--------要替换掉的ID-1111---"+ dstitem.getKey());
 			}
@@ -116,7 +118,7 @@ public class PPutOnPetEquip extends Procedure
 			
 			pet.addEquipItem(bi.getKey());
 			List<Integer> equipIDList = pet.getEquipList();
-			logger.error("RECV PPutOnPetEquip--------SIZE--------"+ equipIDList.size());
+			logger.error("RECV PPutOnPetEquip--------SIZE--------"+ equipIDList.size()+"********"+bi.getKey());
 			for(Integer id : equipIDList)
 			{
 				logger.error("RECV PPutOnPetEquip--------ID--------"+ id);
