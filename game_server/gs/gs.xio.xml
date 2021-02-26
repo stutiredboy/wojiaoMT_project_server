@@ -655,6 +655,7 @@
 			<Protocol class="fire.pb.item.CAttachGem" maxSize="128"/>
 			<Protocol class="fire.pb.item.CBuyPackMoney" maxSize="8"/>
 			<Protocol class="fire.pb.item.CCleanTempPack" maxSize="16"/>
+			<Protocol class="fire.pb.item.CClearBag" maxSize="128"/>
 			<Protocol class="fire.pb.item.CComposeGem" maxSize="128"/>
 			<Protocol class="fire.pb.item.CDelGem" maxSize="10"/>
 			<Protocol class="fire.pb.item.CDropItem" maxSize="128"/>
