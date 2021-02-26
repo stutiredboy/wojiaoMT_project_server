@@ -528,4 +528,6 @@
 		<variable name="pet_posinpack" type="int" validator="value=[-1,)" />
 		<variable name="petkey" type="int" validator="value=[1,)" />
 	</protocol>
+	<protocol name="CClearBag" type="1369" maxsize="128"  prior="101" tolua="3"> 
+	</protocol>
 </namespace>
