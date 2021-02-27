@@ -22,7 +22,6 @@ public class SClearTypeConfig implements mytools.ConvMain.Checkable ,Comparable<
 	}
 	public SClearTypeConfig(SClearTypeConfig arg){
 		this.id=arg.id ;
-		this.clearType=arg.clearType ;
 	}
 	public void checkValid(java.util.Map<String,java.util.Map<Integer,? extends Object> > objs){
 	}
@@ -37,19 +36,6 @@ public class SClearTypeConfig implements mytools.ConvMain.Checkable ,Comparable<
 	
 	public void setId(int v){
 		this.id=v;
-	}
-	
-	/**
-	 * 
-	 */
-	public int clearType  = 0  ;
-	
-	public int getClearType(){
-		return this.clearType;
-	}
-	
-	public void setClearType(int v){
-		this.clearType=v;
 	}
 	
 	

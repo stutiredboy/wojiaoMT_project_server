@@ -2,17 +2,15 @@
 <tree-map>
   <no-comparator/>
   <entry>
-    <int>1000</int>
+    <int>40015</int>
     <fire.pb.item.SClearTypeConfig>
-      <id>1000</id>
-      <clearType>1</clearType>
+      <id>40015</id>
     </fire.pb.item.SClearTypeConfig>
   </entry>
   <entry>
-    <int>1001</int>
+    <int>40016</int>
     <fire.pb.item.SClearTypeConfig>
-      <id>1001</id>
-      <clearType>2</clearType>
+      <id>40016</id>
     </fire.pb.item.SClearTypeConfig>
   </entry>
 </tree-map>
