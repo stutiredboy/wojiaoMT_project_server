@@ -15,6 +15,14 @@ public class CClearBag extends __CClearBag__ {
 	@Override
 	protected void process() {
 		// protocol handle
+		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
+		if (roleId < 0)
+			return ;
+		if ( bagtype == BagTypes.EQUIP ) {
+			fire.pb.talk.MessageMgr.sendMsgNotify( roleId, 142375, null );
+			return;
+		}
+		new PClearBag(roleId, bagtype).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
