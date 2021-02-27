@@ -25,18 +25,17 @@ public class CClearBag extends __CClearBag__ {
 		return 787801;
 	}
 
-	public fire.pb.item.BagTypes bagtype;
+	public int bagtype;
 
 	public CClearBag() {
-		bagtype = new fire.pb.item.BagTypes();
 	}
 
-	public CClearBag(fire.pb.item.BagTypes _bagtype_) {
+	public CClearBag(int _bagtype_) {
 		this.bagtype = _bagtype_;
 	}
 
 	public final boolean _validator_() {
-		if (!bagtype._validator_()) return false;
+		if (bagtype < 1) return false;
 		return true;
 	}
 
@@ -49,7 +48,7 @@ public class CClearBag extends __CClearBag__ {
 	}
 
 	public OctetsStream unmarshal(OctetsStream _os_) throws MarshalException {
-		bagtype.unmarshal(_os_);
+		bagtype = _os_.unmarshal_int();
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
@@ -60,7 +59,7 @@ public class CClearBag extends __CClearBag__ {
 		if (_o1_ == this) return true;
 		if (_o1_ instanceof CClearBag) {
 			CClearBag _o_ = (CClearBag)_o1_;
-			if (!bagtype.equals(_o_.bagtype)) return false;
+			if (bagtype != _o_.bagtype) return false;
 			return true;
 		}
 		return false;
@@ -68,7 +67,7 @@ public class CClearBag extends __CClearBag__ {
 
 	public int hashCode() {
 		int _h_ = 0;
-		_h_ += bagtype.hashCode();
+		_h_ += bagtype;
 		return _h_;
 	}
 
@@ -83,7 +82,7 @@ public class CClearBag extends __CClearBag__ {
 	public int compareTo(CClearBag _o_) {
 		if (_o_ == this) return 0;
 		int _c_ = 0;
-		_c_ = bagtype.compareTo(_o_.bagtype);
+		_c_ = bagtype - _o_.bagtype;
 		if (0 != _c_) return _c_;
 		return _c_;
 	}
