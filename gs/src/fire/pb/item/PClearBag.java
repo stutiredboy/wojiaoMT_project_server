@@ -2,7 +2,7 @@ package fire.pb.item;
 
 import static fire.pb.item.Commontext.DROP_ITEM_FAIL;
 import static fire.pb.item.Commontext.DROP_ITEM_SUCC;
-
+import fire.pb.main.ConfigManager;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -15,7 +15,7 @@ import fire.pb.tel.utils.GoodsSafeLocksUtils;
 import mkdb.Procedure;
 
 public class PClearBag extends Procedure {
-
+    public static final Map<Integer, SClearTypeConfig> clearLimitList = ConfigManager.getInstance().getConf(SClearTypeConfig.class);
 	public PClearBag(long roleId, int packid) {
 		this.roleId = roleId;
 		this.packid = packid;
@@ -54,6 +54,10 @@ public class PClearBag extends Procedure {
                 final String units = item.getItemAttr().unit;
                 final String itemname = item.getItemAttr().name;
                 final int itemid = item.getItemId();
+                if(clearLimitList.containsKey(itemid))
+                {
+                    continue;
+                }
                 
                 xbean.Properties prop = xtable.Properties.select(roleId);
                 if (prop != null)
