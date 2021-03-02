@@ -558,7 +558,7 @@ public class RoleImpl extends AttrCalcRole
 	{
 		float speed = (float) (calcL2Attr(AttrType.SPEED) + moddata.speedinit);
 		float speed2 = calcEffectBonus(AttrType.SPEED, speed);
-		if(speed2<-50||speed2>2000)
+		if(speed2<-50||speed2>100000)
 		{
 			Module.logger.error("用户速度属性超出正常值范围roleid:"+roleid+" 速度值："+speed2);
 			Module.logger.error(fire.pb.util.Parser.convertStackTrace2String(Thread.currentThread().getStackTrace()));
