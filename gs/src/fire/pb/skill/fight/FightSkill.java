@@ -84,7 +84,7 @@ public class FightSkill
 	protected boolean iswithhidebuffeffect = false;
 	protected boolean isauto = true;
 	public static final Map<Integer, STaozhuangEffect> DIANHUASHIEFFECT_CFGS = ConfigManager.getInstance().getConf(STaozhuangEffect.class);
-
+    public boolean tzaAddNum = true;
 	public FightSkill(final xbean.BattleInfo battle, final int operator, final int aim, int skillId, int type)
 	{
 		this.battle = battle;
@@ -551,7 +551,7 @@ public class FightSkill
 		return fighters;		
 	}
 
-	protected List<Fighter> getSubSkillAimFighters(SubSkillConfig subskill)
+	protected List<Fighter> getSubSkillAimFighters(SubSkillConfig subskill,boolean addFlag)
 	{
 		List<Fighter> aimfigters = new ArrayList<Fighter>();
 		if(subskill == null)
@@ -585,10 +585,11 @@ public class FightSkill
 				
 			}
 		}
-		if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3)
+		if(suitingMaps.size() > 0 && suitingMaps.get(skillId) >= 3 && addFlag == true)
 		{
 			targetCount += addValue * suitingMaps.get(skillId) / 3;
 			Module.logger.error("----------------套装效果增加技能目标数量 ----" + targetCount );
+			tzaAddNum = false;
 		}
 		
 		
@@ -1090,7 +1091,7 @@ public class FightSkill
 		}	
 		else
 		{
-			this.mainAimFighters = getSubSkillAimFighters(skillConfig.getSubSkills()[0]);
+			this.mainAimFighters = getSubSkillAimFighters(skillConfig.getSubSkills()[0],tzaAddNum);
 			if (mainAimFighters.size() != 0)
 			{
 				if(!mainAimFighters.contains(aimfighter))
@@ -1584,7 +1585,7 @@ public class FightSkill
 			if (subSkillindex == 0)
 				aimfighters = this.mainAimFighters;
 			else
-				aimfighters = getSubSkillAimFighters(subSkill);
+				aimfighters = getSubSkillAimFighters(subSkill,tzaAddNum);
 
 			if (aimfighters.size() == 0)
 				continue;
@@ -1655,7 +1656,6 @@ public class FightSkill
 			
 			// 扣消耗
 			setResultItemExecuteAndConsume();
-
 			if(skillConfig.isPreCountAim())
 			{
 				battle.getEngine().setSkillPreAimCount(getaimcount());
@@ -1679,6 +1679,7 @@ public class FightSkill
 					}
 				}
 			}
+
 
 			// 何种情况下执行本技能,关联技能
 			for (; subSkillindex < skillConfig.getSubSkills().length; subSkillindex++)
@@ -1771,7 +1772,10 @@ public class FightSkill
 				if (subSkillindex == 0)
 					aimfighters = this.mainAimFighters;
 				else
-					aimfighters = getSubSkillAimFighters(subSkill);
+				{
+					aimfighters = getSubSkillAimFighters(subSkill,tzaAddNum);
+				}
+					
 
 				subSkillFighters[subSkillindex] = new SubSkillFighterList();
 
