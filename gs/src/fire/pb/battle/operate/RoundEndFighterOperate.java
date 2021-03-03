@@ -43,7 +43,9 @@ public class RoundEndFighterOperate extends Operate
 					if (hotdottype == BuffConstant.ROUND_END_PROCESS_BUFF_TYPES[i] && fighter.getBuffAgent().existBuff(buff.getId()))
 					{
 						if (!checkAimFighter(getBattle(), fighter, buff.getId()))
+						{
 							continue;
+						}
 						if(bregfighter == false)
 						{
 							getBattle().getEngine().setOpFighter(fighter);// 设置技能释放者参数
@@ -62,7 +64,9 @@ public class RoundEndFighterOperate extends Operate
 						{
 							getBattle().setBattleresult(BattleField.checkBattleEnd(getBattle()));
 							if (getBattle().getBattleresult() != BattleField.BATTLE_NOT_END)
+							{
 								return item;
+							}	
 						}
 					}
 				}
@@ -71,6 +75,8 @@ public class RoundEndFighterOperate extends Operate
 			//Round count down
 			for (Iterator<ConstantlyBuff> it = roundbuffs.iterator(); it.hasNext();)
 			{
+				
+				
 				ConstantlyBuff buff = it.next();
 				if (!fighter.getBuffAgent().existBuff(buff.getId()))
 					continue;
@@ -80,6 +86,7 @@ public class RoundEndFighterOperate extends Operate
 					getBattle().getEngine().setSkillLevel(fighter.getEffectRole().getLevel());// 设置技能相关参数
 					bregfighter = true;
 				}
+				
 				DemoResult demotmp = buff.onRoundEnd(getBattle(), fighter);
 				if (demotmp != null)
 				{

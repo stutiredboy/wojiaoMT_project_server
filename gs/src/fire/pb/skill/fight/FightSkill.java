@@ -889,7 +889,7 @@ public class FightSkill
 		}
 		if (!opfighter.canAction(getType(), getSkillId()))
 		{
-			if (BattleField.logger.isDebugEnabled()) {BattleField.logger.debug("技能执行者状态不对，或是中限制该操作的buff了!");}
+			if (BattleField.logger.isDebugEnabled()) {BattleField.logger.error("技能执行者状态不对，或是中限制该操作的buff了!");}
 			failReason = BasicOperation.FAIL_CANNOT_ACTION;
 			return false;
 		}
@@ -1950,7 +1950,6 @@ public class FightSkill
 										round = round * 2;
 									}
 								}
-								Module.logger.error("技能释放------技能ID：" + subSkillindex +"..............buffID:  "+ buffarg.buffIndex +"------回合数----"+round);
 								((ConstantlyBuff) buffcopy).getBuffBean().setRound(round);
 								//要重新加隐身buff，就不再清除隐身buff了
 								if(buffcopy.getId() == BuffConstant.CONTINUAL_ROLE_HIDDEN)

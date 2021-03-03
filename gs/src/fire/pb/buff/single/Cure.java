@@ -45,7 +45,10 @@ public class Cure extends SingleBuff
 	@Override
 	public DemoResult impact(xbean.BattleInfo battleInfo, Fighter opfighter, Fighter aimfighter,FightSkill battleskill, Map<Integer, JavaScript> effects)
 	{
-		skillId = battleskill.getSkillId();
+		if(battleskill != null)
+		{
+			skillId = battleskill.getSkillId();
+		}
 		init(battleInfo, opfighter, aimfighter, effects);
 		addValue = 0;
 		// 检测是否有套装加成
