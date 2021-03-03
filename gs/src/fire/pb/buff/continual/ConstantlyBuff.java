@@ -215,6 +215,7 @@ public class ConstantlyBuff extends RootBuff
 		}
 		buffBean.setFighterkey(opfighter.getFighterBean().getFighterkey());
 		Result result = aimfighter.getBuffAgent().addCBuff(this);
+		logger.error("------ROLEID---"+aimfighter.getFighterId() +"----------------buffid:"+buffId+"----------");
 		fire.pb.buff.Module.updateDemoResultFromResult(demoResult, result,aimfighter);
 		return demoResult;
 	}
@@ -292,6 +293,7 @@ public class ConstantlyBuff extends RootBuff
 		int count = buffBean.getRound();
 		count--;
 		buffBean.setRound(count);
+		logger.error("-------------------------buffid:"+buffId+"----------剩余回合数:"+count);
 		if(count == 0)//计数0-移除
 			return agent.removeCBuff(buffId);
 		else
