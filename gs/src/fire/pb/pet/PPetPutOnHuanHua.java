@@ -111,7 +111,7 @@ public class PPetPutOnHuanHua extends Procedure
         SPetChangeHuanhua send = new SPetChangeHuanhua();
         send.petkey = petKey;
         send.huanhuaid = huanhuaid;
-        mkdb.Procedure.psendWhileCommit(roleId, send);
+        psendWhileCommit(roleId, send);
         return true;
     }
 }
