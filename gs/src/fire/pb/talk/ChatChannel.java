@@ -478,7 +478,11 @@ public class ChatChannel {
 //			fire.pb.talk.MessageMgr.sendMsgNotify(senderId, 142261, null);
 //			return;
 //		}
-		
+		xbean.Properties role = xtable.Properties.select(senderId);	
+		if (role.getViplevel() < 1) {
+			MessageMgr.sendMsgNotify(senderId,142924,null);
+			return false;
+		}
 		boolean ret = true;
 		switch (type) {
 		case ChannelType.CHANNEL_WORLD:

@@ -387,7 +387,6 @@ public class ItemMgrImp implements ItemMgr, ItemMgrMXBean {
 		final String itemclassname = ItemIdToClassString.getInstance()
 				.getItemClass(itemid);
 		Module.logger.debug("生成" + itemclassname + "物品对象");
-		logger.error("TEST getLoginPackInfo--------333kkk---------"+ itemclassname);
 		ItemBase item;
 		try {
 			Constructor<?> constructor;
