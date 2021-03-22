@@ -116,7 +116,7 @@ public class PPutOnPetEquip extends Procedure
 			mkdb.Procedure.pexecuteWhileCommit(new PEnhancementTimeout(roleId));
 
 			
-			pet.addEquipItem(bi.getKey());
+			pet.addEquipItem(position,bi.getKey());
 			Map<Integer, Integer> equipIDList = pet.getEquipList();
 			logger.error("RECV PPutOnPetEquip--------SIZE--------"+ equipIDList.size()+"********"+bi.getKey());
 			for(Map.Entry<Integer, Integer> entry : equipIDList.entrySet())

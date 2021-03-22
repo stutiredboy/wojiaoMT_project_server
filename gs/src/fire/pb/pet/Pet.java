@@ -796,7 +796,7 @@ public class Pet {
 			if(petTemp != null)
 			{
 				pet.huanhuaid = petTemp.getPetInfo().getShapeID();
-				List<Integer> allequipList = petTemp.getPetInfo().getEquipList();
+				Map<Integer, Integer> allequipList = petTemp.getPetInfo().getEquipList();
 				for(Map.Entry<Integer, Integer> entry : allequipList.entrySet())
 				{
 					Module.logger.error("****************宠物装备ID++++++++22222+++++++"+entry.getKey()+"-------------"+entry.getValue());
@@ -1060,7 +1060,7 @@ public class Pet {
 			return false;
 		for (Map.Entry<Integer, Integer> entry : equipList.entrySet()) 
 		{
-			if (equipid == entry.getValue())
+			if (itemid == entry.getValue())
 		  		return false;
 		}
 		equipList.put(pos,itemid);
