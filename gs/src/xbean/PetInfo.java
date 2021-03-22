@@ -59,8 +59,8 @@ public interface PetInfo extends mkdb.Bean {
 	public java.util.List<PetSkill> getInternals();	
 	public java.util.List<PetSkill> getInternalsAsData();
 	public int getShapeID(); // 宠物外形ID
-	public java.util.List<Integer> getEquipList(); // 装备列表
-	public java.util.List<Integer> getEquipListAsData(); // 装备列表
+	public java.util.Map<Integer, Integer> getEquipList(); // 装备列表
+	public java.util.Map<Integer, Integer> getEquipListAsData(); // 装备列表
 
 	public void setId(int _v_); // 宠物ID
 	public void setKey(int _v_); // 在宠物栏、仓库、商会柜台里的key
@@ -73,7 +73,7 @@ public interface PetInfo extends mkdb.Bean {
 	public void setGrowrate(int _v_); // 成长率 		*short够了
 	public void setLife(int _v_); // 寿命
 	public void setExp(long _v_); // 当前经验
-	public void setBornattackapt(int _v_); // 出生时攻击资质	*short够了
+	public void setBornattackapt(int _v_); // 出生时攻击资质	/*short够了
 	public void setBorndefendapt(int _v_); // 出生时防御资质	*short够了
 	public void setBornphyforceapt(int _v_); // 出生时体力资质	*short够了
 	public void setBornmagicapt(int _v_); // 出生时法力资质	*short够了

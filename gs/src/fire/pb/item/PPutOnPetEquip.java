@@ -67,7 +67,7 @@ public class PPutOnPetEquip extends Procedure
 			{
 				logger.error("要穿的装备ID----"+bi.getKey()+"--------要替换掉的ID-1111---"+ dstitem.getKey());
 			}
-			if (dstitem != null && pet.getEquipList().contains(dstitem.getKey())) {
+			if (dstitem != null) {
 
 				logger.error("要穿的装备ID----"+bi.getKey()+"--------要替换掉的ID--222--"+ dstitem.getKey());
 				item = equip.TransOut(dstitem.getKey(), -1, "卸下装备");
@@ -96,7 +96,7 @@ public class PPutOnPetEquip extends Procedure
 					//writeYYLogger(useNum);
 					//return Commontext.UseResult.SUCC;
 				}
-				if(pet.getEquipList().contains(dstitem.getKey()))
+				if(pet.getEquipList().values().contains(dstitem.getKey()))
 				{
 					pet.removeEquipItem(dstitem.getKey());
 				}
@@ -117,11 +117,11 @@ public class PPutOnPetEquip extends Procedure
 
 			
 			pet.addEquipItem(bi.getKey());
-			List<Integer> equipIDList = pet.getEquipList();
+			Map<Integer, Integer> equipIDList = pet.getEquipList();
 			logger.error("RECV PPutOnPetEquip--------SIZE--------"+ equipIDList.size()+"********"+bi.getKey());
-			for(Integer id : equipIDList)
+			for(Map.Entry<Integer, Integer> entry : equipIDList.entrySet())
 			{
-				logger.error("RECV PPutOnPetEquip--------ID--------"+ id);
+				logger.error("RECV PPutOnPetEquip--------ID--------"+ entry.getKey()+"-----------"+entry.getValue());
 			}
 			
 			// 刷新宠物信息

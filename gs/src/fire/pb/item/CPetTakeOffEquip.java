@@ -45,7 +45,7 @@ public class CPetTakeOffEquip extends __CPetTakeOffEquip__ {
 					{
 						return false;
 					}
-					if(pet.getEquipList().contains(pet_equipkey))
+					if(pet.getEquipList().keySet().contains(pet_posinpack))
 					{
 						pet.removeEquipItem(pet_equipkey);
 						return true;

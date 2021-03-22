@@ -1528,8 +1528,8 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				);
 			super.addVariableFor(bean
 				, "equiplist"
-				, "list", "", "int", ""
-				, "", "", "13"
+				, "map", "int", "int", ""
+				, "", "", ""
 				);
 			super.addBean(bean);
 		}
