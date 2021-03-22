@@ -939,7 +939,7 @@ public class PetColumn {
 			return false;
 		if (pet.isLocked() != -1)
 			return false;
-		if (pet.getEquipList().size() > 0)
+		if (!pet.getEquipList().isEmpty())
 		{
 			MessageMgr.sendMsgNotify(roleId, 196002, null);
 			return false;

@@ -49,7 +49,7 @@ public class PPetSynthesizeProc extends mkdb.Procedure {
 		final Pet pet2 = petCol.getPet(petKey2);
 		if (null == pet1 || null == pet2)
 			return false;
-		if(pet1.getEquipList().size() > 0 || pet2.getEquipList().size() > 0)
+		if(!pet1.getEquipList().isEmpty() || !pet2.getEquipList().isEmpty())
 		{
 			MessageMgr.sendMsgNotify(roleId, 196001, null);
 			return false;
