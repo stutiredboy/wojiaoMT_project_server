@@ -721,6 +721,12 @@ public class MarketManager implements IMarket {
 			if (pet == null) {
 				return false;
 			}
+			// 判断是否装备宠物装备
+			if(!pet.getEquipList().isEmpty() )
+			{	
+				MessageMgr.sendMsgNotify(roleId, 196001, null);
+				return false;
+			}
 			//道具安全锁判断
 			if (GoodsSafeLocksUtils.checkLockStatus(roleId,pet.getPetInfo())) {
 				LOG.error("开启了道具安全锁，需要输入密码" + roleId);
