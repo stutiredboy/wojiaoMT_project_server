@@ -203,6 +203,7 @@ public class PetImpl extends AttrCalcRole
 	{
 		if((int)pet.getLevel() >= DataInit.PET_LEVEL_MAX)
 		{
+			fire.log.LogManager.logger.error("-----------宠物升级问题!--------    "+pet.getLevel()+"*********"+DataInit.PET_LEVEL_MAX);
 			return 1000000000;
 		}
 		return getNextExpTable((int)pet.getLevel()).exp;

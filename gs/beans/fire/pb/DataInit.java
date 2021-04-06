@@ -21,7 +21,7 @@ public class DataInit implements Marshal , Comparable<DataInit>{
 	public final static int ROLE_PET_LEVEL_SPACE = 6; // 人物宠物的等级差最大为6级。
 	public final static int ROLE_PET_LEVEL_SPACE_OFEXPITEM = 10; // 使用经验道具时,人物宠物的等级差最大为10级
 	public final static int BASENUM = 1000; // 角色属性计算配置值的基数
-	public final static int PET_LEVEL_MAX = 160; // 宠物最大等级
+	public final static int PET_LEVEL_MAX = 180; // 宠物最大等级
 	public final static int PET_USELEVEL_SPACE = 10; // 宠物参战时与人的最大等级差
 	public final static int AUTO_UPGRADE_LEVEL = 20; // 人物自动升级的等级上限
 	public final static int WILD_PET_MAXGENGU = 40;
