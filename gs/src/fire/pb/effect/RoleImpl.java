@@ -385,9 +385,15 @@ public class RoleImpl extends AttrCalcRole
 	public Map<Integer, Float> levelUp(){
 		final long nexp = this.getNextExp();
 		if (prop.getExp() < nexp)
+		{
+			fire.log.LogManager.logger.error("------------自动升级问题!--------2222    "+nexp+"*********"+prop.getExp());
 			return null;
+		}
 		if (prop.getLevel() >= DataInit.ROLE_LEVEL_MAX)
+		{
+			fire.log.LogManager.logger.error("------------自动升级问题!--------3333    "+prop.getLevel()+"***********"+DataInit.ROLE_LEVEL_MAX);
 			return null;
+		}	
 		new PAddExpProc(roleid, -nexp, false,PAddExpProc.LEVEL_UP,"").call();
 		//prop.setExp(prop.getExp()-nexp);
 		prop.setLevel(prop.getLevel() + 1);

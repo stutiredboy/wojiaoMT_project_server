@@ -68,7 +68,10 @@ public class PLevelUpProc extends mkdb.Procedure {
 		
 		java.util.Map<Integer, Float> res = role.levelUp();
 		if (null == res)
+		{
+			fire.log.LogManager.logger.error("------------自动升级出现问题!--------11111");
 			return false;
+		}
 		final fire.pb.attr.SRefreshRoleData send = new fire.pb.attr.SRefreshRoleData();
 		send.datas.putAll(res);
 
