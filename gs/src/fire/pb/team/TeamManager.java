@@ -58,7 +58,7 @@ public class TeamManager {
 	
 	public final static int LEVEL_REQUST_MIN = 1;//队伍等级要求，最小为1
 	
-	public final static int LEVEL_REQUST_MAX = 155;//队伍等级要求，最大为155
+	public final static int LEVEL_REQUST_MAX = 175;//队伍等级要求，最大为155
 	
 	public final static int STRUCT_CHANGE_MEMBER_STATE_NORMAL = 1;
 
@@ -370,7 +370,7 @@ public class TeamManager {
 		newTeam.setTeamleaderid(leaderRoleId);
 		newTeam.setState(1);
 		newTeam.setMinlevel(1);
-		newTeam.setMaxlevel(155);
+		newTeam.setMaxlevel(175);
 		
 		PropRole prole = new PropRole(leaderRoleId, true);
 		int formLevel = prole.getFormLevel(prole.getDealutFormId());

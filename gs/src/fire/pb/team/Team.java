@@ -800,12 +800,12 @@ public class Team {
 		
 		mkdb.Procedure.psendWhileCommit(getTeamBroadcastSet(), new SSetTeamFormation(formId,level, (byte)0));
 		// 将队伍等级更改为默认
-		if (teamInfo.getMinlevel() != 1 || teamInfo.getMaxlevel() != 155) {
+		if (teamInfo.getMinlevel() != 1 || teamInfo.getMaxlevel() != 175) {
 			teamInfo.setMinlevel(1);
-			teamInfo.setMaxlevel(155);
+			teamInfo.setMaxlevel(175);
 			SSetTeamLevel sSetTeamLevel = new SSetTeamLevel();
 			sSetTeamLevel.minlevel = 1;
-			sSetTeamLevel.maxlevel = 155;
+			sSetTeamLevel.maxlevel = 175;
 			mkdb.Procedure.psendWhileCommit(getTeamBroadcastSet(), sSetTeamLevel);// 群发队伍等级需求变更
 		}
 		
