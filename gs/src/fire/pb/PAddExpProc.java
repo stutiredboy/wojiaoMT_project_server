@@ -55,6 +55,8 @@ public class PAddExpProc extends mkdb.Procedure {
 
 	private int reason;
 
+	private int tupodan;
+
 	private final boolean isTeamLeader;
 	
 	/**
@@ -87,12 +89,21 @@ public class PAddExpProc extends mkdb.Procedure {
 		this.yingfuexp = 0;
 		this.reviseExp = reviseExp;
 		this.pileExp = pileExp;
+		this.tupodan = 0;
 	}
 
 	public PAddExpProc(long roleid, long addexp, boolean showMsg, int reason,
 			String hint) {
 		this(roleid, addexp, reason, hint);
 		this.showMsg = showMsg;
+		this.tupodan = 0;
+	}
+
+	public PAddExpProc(long roleid, long addexp, boolean showMsg, int reason,
+			String hint,int isTupo) {
+		this(roleid, addexp, reason, hint);
+		this.showMsg = showMsg;
+		this.tupodan = isTupo;
 	}
 	
 	public PAddExpProc(long roleid, long addexp, boolean showMsg, int reason,
@@ -102,6 +113,7 @@ public class PAddExpProc extends mkdb.Procedure {
 		this.showMsg = showMsg;
 		this.reviseExp = reviseExp;
 		this.pileExp = pileExp;
+		this.tupodan = 0;
 	}
 	
 	public PAddExpProc(final long roleid, final long addexp,
@@ -116,6 +128,7 @@ public class PAddExpProc extends mkdb.Procedure {
 		this.yingfuexp = yingfu;
 		this.reviseExp = reviseExp;
 		this.pileExp = pileExp;
+		this.tupodan = 0;
 	}
 
 
@@ -181,9 +194,13 @@ public class PAddExpProc extends mkdb.Procedure {
 			List<LevelupEvent> eventList = new ArrayList<LevelupEvent>();
 
 			fire.pb.effect.Role erole = new fire.pb.effect.RoleImpl(roleid,	false);
-			
 			while (prop.getExp() >= erole.getNextExp()) {
 				if (prop.getLevel() >= PLevelUpProc.getMaxLevel()) {
+					break;
+				}
+				if(prop.getLevel() == 155 && tupodan == 0)
+				{
+					fire.pb.talk.MessageMgr.psendMsgNotify(roleid, 196666, null);
 					break;
 				}
 				

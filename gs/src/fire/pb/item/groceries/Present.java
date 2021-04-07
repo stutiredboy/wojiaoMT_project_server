@@ -61,6 +61,7 @@ public class Present extends GroceryItem {
 			fire.pb.item.ItemMgrImp.LiBao conf = im.getLiBao(
 					bi.getItemId(), sex, shape, school);
 			final int needLevel = im.getAttr(bi.getItemId()).level;
+			fire.log.LogManager.logger.error("------------使用道具--------"+bi.getItemId());
 			if (needLevel > level) {
 				fire.pb.item.Module.getInstance().getLogger().error("等级不足");
 				ArrayList<String> params = new ArrayList<String>();
@@ -125,7 +126,18 @@ public class Present extends GroceryItem {
 					
 				break;
 			case MoneyType.MoneyType_RoleExp:
-				if (conf.getMoneyValue() > 0) {
+				// 使用突破丹
+				if(bi.getItemId() == 366666)
+				{
+					fire.log.LogManager.logger.error("------------使用突破丹--------");
+					PAddExpProc proc = new PAddExpProc(roleId,conf.getMoneyValue(), true,PAddExpProc.USE_MONEY_ITEM, "",1);
+					proc.call();
+					
+					// 运营日志
+					YYLogger.OpTokenGetLog(roleId, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_present,
+							conf.getMoneyType(), conf.getMoneyValue(), prop.getExp(), new fire.log.beans.ItemBean());
+				}
+				else if (conf.getMoneyValue() > 0) {
 					PAddExpProc proc = new PAddExpProc(roleId,
 							conf.getMoneyValue(), true,
 							PAddExpProc.USE_MONEY_ITEM, "");
