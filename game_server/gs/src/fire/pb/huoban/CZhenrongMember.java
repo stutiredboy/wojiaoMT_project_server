@@ -25,7 +25,7 @@ public class CZhenrongMember extends __CZhenrongMember__ {
 		java.util.Set<Integer> setMember = new java.util.HashSet<Integer>(members.size());
 		setMember.addAll(members);
 		
-		//闁告帇鍊栭弻鍣坋mbers闂佹彃鏈Σ鎼佸触閿旇姤绠掗梺鎻掔Т椤︽煡鎯冮崚鐞�
+		//闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偛顦甸弫宥夊礋椤掍焦顔囬梻浣规偠閸庢椽宕滃▎鎴濐棜鐟滅増甯楅悡娑氾拷骞垮劚妤犳悂鐛弽顓熺參闁告劦浜滈弸娑㈡煛鐏炲墽娲撮柡浣瑰姍瀹曘劑顢欓崜顬暕bers闂傚倸鍊搁崐鎼佸磹閹间礁纾归柣鎴ｅГ閸婂潡鏌ㄩ弴姘舵濞存粌缍婇弻娑㈠箛闂堟稒鐏堥柣搴㈣壘椤︿即濡甸崟顖氱闁绘劖娼欓鍫曟⒑閸涘娈滃ù婊冪埣瀵鎮㈤崗灏栨嫽闁诲酣娼ф竟濠偽ｉ锟介弻锝夋偄閸濄儲鍤傜紓浣哄У閹瑰洤顕ｆ繝姘╅柍杞拌兌閻嫰姊洪幖鐐插姶闁诲繑绻堥獮姗�宕滄担鐚寸床闂備胶绮敋闁哥喎鐏濋湁妞ゆ棁濮ら崣蹇撯攽閻樻彃鏆為柕鍥ㄧ箖椤ㄣ儵鎮欑�涙ê纾冲Δ鐘靛仦鐢�愁嚕椤掞拷閳规垿宕熼銈勭棯闂備線娼уú銈囷拷姘嵆瀵偊宕掗悙鏉戜患闁诲繒鍋犲Λ鍕磼閳哄懏鈷掑ù锝囩摂閸ゅ啴鏌涢妸銈呭祮鐎规洦鍨跺鍫曞箣閻樿櫕顔曟繝娈垮枟椤牓宕洪弽顓炵；闁绘绮悡銉╂煟閺囩偛锟藉湱锟芥熬鎷�
 		if (setMember.size() != members.size()) {
 			return;
 		}
@@ -41,7 +41,7 @@ public class CZhenrongMember extends __CZhenrongMember__ {
 //				return true;
 //				boolean suc = huobancol.setFightHuoBans(members);
 //				if (suc) {
-//					//濞村吋鐟ら崡鎶芥⒓闂堟侗鍟囬柡鍥х摠閺岋拷
+//					//濠电姷鏁告慨鐑藉极閹间礁纾婚柣鎰▕閻掕姤绻涢崱妯诲碍閻熸瑱绠撻幃妤呮晲鎼粹剝鐏嶉梺绋款儜缁绘繈寮婚弴銏犻唶婵犲灚鍔栫瑧缂備胶铏庨崣蹇涘箯閻戣姤鈷掑ù锝囩摂濞兼劙鏌涙惔鈥虫倯闁逛究鍔戞俊鑸靛緞婵犲嫬骞堥梻浣烘嚀婢х晫鍒掗鐐茬厱闁圭儤顨嗛悡鏇熴亜閹扳晛锟芥洟寮稿鍥╃＜闁割偅娲戦幉楣冩煛鐏炲墽娲撮柟顔哄灲閺屻劎锟斤綆浜濋悘搴ㄦ⒒娴ｅ憡鎯堥柣顓烆槺閹广垹鈹戦崱娆愭闂佽鍨堕崑濠偽ｆィ鍐┾拺闁革富鍘藉▍鏇炩攽閻戝洦瀚归梻浣告惈婢跺洭鏁撻挊澶岋紞闁哄棗妫濋幃妤呮晲鎼粹�茬盎濡炪倕楠忛幏锟�
 //					xdb.Procedure.pexecute(new PUpdateHuoBanZhenRong(roleId, 0, zhenyingid, members, PUpdateHuoBanZhenRong.HUOBAN));
 //				}
 //				else {

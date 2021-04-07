@@ -17,7 +17,7 @@ public class MScenarioQuestUseItemVerifyPosFail extends __MScenarioQuestUseItemV
 	@Override
 	protected void process() {
 		// protocol handle
-		// Module.logger.error( "濞达絽绉堕悿鍡樼▔瀹ュ拋鍤�" );
+		// Module.logger.error( "濠电姷鏁告慨鐑藉极閹间礁纾婚柣妯款嚙缁犲灚銇勮箛鎾搭棞缂佽翰鍊濋弻锝夋晲閸涱垳浼囬梺娲诲幗閹瑰洭寮诲☉銏╂晝闁挎繂妫涢ˇ銊╂⒑缁嬫鍎涘ù婊庝邯瀵鈽夐姀鐘靛姶闂佸憡鍔曟晶浠嬪礉閻戣姤鈷戠�规洖娲ㄧ敮娑欐叏婵犲偆鐓奸柡浣规崌閹稿﹥寰勫畝锟介弳娑㈡⒑缁嬪潡鍙勫ù婊冪埣閻涱喛绠涢弴顏呭闁挎繂楠搁弸娑㈡煕濮橆剛绉洪柡灞诲姂閹倝宕掑☉姗嗕紦" );
 		SUseMissionItemFail send = new SUseMissionItemFail();
 	    gnet.link.Onlines.getInstance().send( roleid, send );
 		new mkdb.Procedure() {

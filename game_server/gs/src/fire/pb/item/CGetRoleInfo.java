@@ -39,7 +39,7 @@ public class CGetRoleInfo extends __CGetRoleInfo__ {
 		final SGetRoleInfo res=new SGetRoleInfo();
 		res.roleid = roleid;
 		
-		//闁烩晩鍠楅悥锝囷拷鐢殿攰閽栵拷
+		//闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀绾惧潡鏌ｉ姀銏╃劸闁汇倝绠栭弻宥夊传閸曨剙娅ｇ紓浣瑰姈椤ㄥ棙绌辨繝鍥ч柛娑卞枛濞呫倝姊虹粙娆惧剰妞わ妇鏁诲濠氬Ω閵夈垺鏂�闂佺硶鍓濋…鍥Χ椤愶附鈷戠憸鐗堝俯濡垿鏌涜箛鏃撹�挎鐐插暣閹稿﹥寰勯崱妯间簴闂備礁婀遍…鍫拷娑掓櫊瀵娊鎮欓悜妯锋嫽婵炶揪缍�濡嫯顣块梻浣虹帛椤ㄥ繘宕ｉ崘顔惧祦闊洦绋掗弲鎼佹煥閻曞倹瀚�
 		xbean.Properties targetRoleProp=xtable.Properties.select(roleid);
 		
 		res.rolename = targetRoleProp.getRolename();

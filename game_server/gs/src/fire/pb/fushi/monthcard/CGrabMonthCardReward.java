@@ -12,7 +12,7 @@ abstract class __CGrabMonthCardReward__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /**
- * 濞达綀娉曢弫銈夋嚊椤忓棙鏆犻柛鎺戞閸樸倝鏌嗛幘鍐插緮 by changhao
+ * 濠电姷鏁告慨鐑藉极閹间礁纾婚柣妯款嚙缁犲灚銇勮箛鎾搭棤缂侊拷婵犲洦鐓ラ柣鏃囶嚙琚氱紓浣虹帛缁嬫帒顕ラ崟顓ㄦ嫹閿濆骸浜炴い锔垮嵆閹鈻撻崹顔界彯闂佺顑呴敃銉︾┍婵犲洦鍤嬮梻鍫熺〒缁愮偤鏌ｆ惔顖滅У濞存粍绻堥幃鎸庢媴闁稓绠氶梺缁樺姦娴滄粓鏁撻懞銉︾闁瑰箍鍨介獮鍥敄閳哄倻鈽夐柍璇查叄楠炴﹢鎼归銉у彂闂傚倷鑳剁划顖炩�﹂崶鈺佸灊妞ゆ牜鍋為崑鍌炴煛閸ャ儱鐏柣鎾寸懇閺岋綁骞嬮悘娲讳邯閹﹢鏁傛慨鎰盎闂侀潧顧�缁蹭粙鎮橀弻銉︾厸閻忕偛澧介埥澶愭懚閿濆洨纾奸悗锝庝簻閻繝鏌熷畡鏉挎Щ闁宠鍨归敓鏂ょ秵娴滐綁骞楅弴銏♀拺缂侇垱娲栨晶鑼磼鐎ｎ偄鐏╃紒顔剧帛缁绘繂顫濋鐘插箞闂備礁缍婇崑濠囧储閼测晛绶ら柤濮愬�楃壕濂告偣娴ｇ瓔娼愰悗姘炬嫹 by changhao
  * @author Administrator
  *
  */
@@ -42,13 +42,13 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 					}
 					
 					fire.pb.item.Pack bag = (fire.pb.item.Pack)fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.BAG, false);
-					int num = bag.removeItemById(itemid, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard, 0, "闁煎浜為弫閬嶅礆閸℃稑甯抽梺顒佹尭閸欙拷");
+					int num = bag.removeItemById(itemid, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard, 0, "闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲搁弮鍫澪ラ柛鎰ㄦ櫆閸庣喖鏌曡箛瀣労婵炲弶鎮傚铏圭磼濡搫顫岄梺鍦拡閸嬪﹤顕ｉ崨濠勭懝闁跨喕妫勯～蹇撁洪宥嗘櫌闂佽法鍠撻弲顐ゅ垝閺冨偊鎷烽棃娑欐喐闁活厼妫濋弻娑㈠焺閸愵亖妾ㄩ梺缁樻尰濞茬喖寮诲澶婄厸濞达絽鎲″▓鍫曟⒑鐎圭姵顥夋い锔炬暬楠炲啯绂掔�ｅ灚鏅┑鐐村灦鑿ら柡瀣懃閳规垿顢欑涵閿嬫暰濠碉紕鍋樼划娆撳Υ娴ｈ倽鏃�鎷呴悷閭︼拷鎾绘⒑閼姐倕鏋戝鐟版閵嗗倿寮婚妷锔规嫽婵炶揪绲介幉锟犲疮閻愮儤鐓熼柣鏃堟？閹茬偓顨ラ悙鑼闁轰焦鎹囬弫鎾绘晸閿燂拷");
 					if (num != 1)
 					{
 						return false;
 					}
 
-					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闁绘劗鎳撳畷閬嶅嫉瀹ュ懎顫ら柛锟�? by changhao
+					if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛鎾茬閸ㄦ繃銇勯弽顐粶缂侊拷婢跺绻嗛柕鍫濇噺閸ｅ湱绱掗悩闈涒枅闁哄瞼鍠栭獮鍡氼槾闁挎稑绉归弻锟犲幢椤撶姷鏆ゅ┑顔硷攻濡炰粙銆佸Δ鍛櫢闁伙絽鐬奸惌鎾绘倵閻㈠憡浜ら柟宄板槻椤繈顢楁径瀣撱劑姊虹捄銊ユ灆婵☆偄瀚划璇差吋婢跺﹦锛熼梻渚囧墮缁夊绮婚悩璇茬闁圭⒈鍘鹃崢婊呯磽瀹ュ棛澧甸柡灞炬礋瀹曠厧鈹戦幇顓壯囨⒑缂佹ɑ灏版繛鑼枛瀵濡搁埡鍌氫簽闂佺鏈粙鎴︻敂閿燂拷? by changhao
 					{
 						fire.pb.fushi.SFreeDisRewardConfigDayPay e = fire.pb.main.ConfigManager.getInstance().getConf(fire.pb.fushi.SFreeDisRewardConfigDayPay.class).get(itemid);
 						if (e == null)
@@ -66,14 +66,14 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 								{
 									fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 									
-									if (tempBag.doAddItem(id, itemnum, "闁煎浜為弫閬嶅礆閸℃稑甯抽梺顒佹尭閸欙拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (tempBag.doAddItem(id, itemnum, "闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲搁弮鍫澪ラ柛鎰ㄦ櫆閸庣喖鏌曡箛瀣労婵炲弶鎮傚铏圭磼濡搫顫岄梺鍦拡閸嬪﹤顕ｉ崨濠勭懝闁跨喕妫勯～蹇撁洪宥嗘櫌闂佽法鍠撻弲顐ゅ垝閺冨偊鎷烽棃娑欐喐闁活厼妫濋弻娑㈠焺閸愵亖妾ㄩ梺缁樻尰濞茬喖寮诲澶婄厸濞达絽鎲″▓鍫曟⒑鐎圭姵顥夋い锔炬暬楠炲啯绂掔�ｅ灚鏅┑鐐村灦鑿ら柡瀣懃閳规垿顢欑涵閿嬫暰濠碉紕鍋樼划娆撳Υ娴ｈ倽鏃�鎷呴悷閭︼拷鎾绘⒑閼姐倕鏋戝鐟版閵嗗倿寮婚妷锔规嫽婵炶揪绲介幉锟犲疮閻愮儤鐓熼柣鏃堟？閹茬偓顨ラ悙鑼闁轰焦鎹囬弫鎾绘晸閿燂拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
 								}
 								else
 								{
-									if (bag.doAddItem(id, itemnum, "闁煎浜為弫閬嶅礆閸℃稑甯抽梺顒佹尭閸欙拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (bag.doAddItem(id, itemnum, "闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲搁弮鍫澪ラ柛鎰ㄦ櫆閸庣喖鏌曡箛瀣労婵炲弶鎮傚铏圭磼濡搫顫岄梺鍦拡閸嬪﹤顕ｉ崨濠勭懝闁跨喕妫勯～蹇撁洪宥嗘櫌闂佽法鍠撻弲顐ゅ垝閺冨偊鎷烽棃娑欐喐闁活厼妫濋弻娑㈠焺閸愵亖妾ㄩ梺缁樻尰濞茬喖寮诲澶婄厸濞达絽鎲″▓鍫曟⒑鐎圭姵顥夋い锔炬暬楠炲啯绂掔�ｅ灚鏅┑鐐村灦鑿ら柡瀣懃閳规垿顢欑涵閿嬫暰濠碉紕鍋樼划娆撳Υ娴ｈ倽鏃�鎷呴悷閭︼拷鎾绘⒑閼姐倕鏋戝鐟版閵嗗倿寮婚妷锔规嫽婵炶揪绲介幉锟犲疮閻愮儤鐓熼柣鏃堟？閹茬偓顨ラ悙鑼闁轰焦鎹囬弫鎾绘晸閿燂拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
@@ -81,7 +81,7 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 							}
 						}
 						
-						if (count > e.getNum()) //闁轰椒鍗抽崳铏规惥閸涘瓨顎欓柛锟�? 闁搞儳鍋炵划锟� by changhao
+						if (count > e.getNum()) //闂傚倸鍊搁崐鎼佸磹瀹勬噴褰掑炊瑜滃ù鏍煏婵炲灝鍔存繛鎾愁煼閺岀喖鎮滃鍡樼暥缂佺虎鍙忛幏鐑芥⒒娴ｇ瓔娼愰柛搴ｅ帶铻為柛鏇ㄥ灡閳锋帗銇勯弽顐沪闁绘搫缍侀悡顐﹀炊閵娿儱姣堝┑鐐插悑閸旀瑩寮婚悢纰辨晬婵☆垰鎼慨锕傛⒑閸濆嫭婀扮紒瀣灴閸┿儲寰勬繛銏㈠枛瀹曟宕楅悡搴㈢亪婵犵绱曢崑鎴﹀磹閺囩媴鎷峰☉鎺撴珚闁诡喚鍏橀崺锟犲川椤撯剝鎲版繝鐢靛仦閸垶宕瑰ú顏勭柧闁归棿鐒﹂悡銉╂煟閺囩偛锟藉湱锟芥熬鎷�? 闂傚倸鍊搁崐鎼佸磹閻戣姤鍊块柨鏇炲�哥粻鏍煕椤愶絾绀�缁炬儳娼￠弻鐔煎箚閻楀牜妫勭紒鐐劤椤兘寮婚敐澶婄疀闁绘鐗婇柨顓㈡⒑閹肩偛濡界紒璇茬墦瀵濡搁埡鍌氫簽闂佺鏈粙鎴︻敂閿燂拷 by changhao
 						{
 							return false;
 						}
@@ -106,14 +106,14 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 								{
 									fire.pb.item.ItemMaps tempBag = fire.pb.item.Module.getInstance().getItemMaps(roleid, fire.pb.item.BagTypes.TEMP, false);
 									
-									if (tempBag.doAddItem(id, itemnum, "闁煎浜為弫閬嶅礆閸℃稑甯抽梺顒佹尭閸欙拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (tempBag.doAddItem(id, itemnum, "闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲搁弮鍫澪ラ柛鎰ㄦ櫆閸庣喖鏌曡箛瀣労婵炲弶鎮傚铏圭磼濡搫顫岄梺鍦拡閸嬪﹤顕ｉ崨濠勭懝闁跨喕妫勯～蹇撁洪宥嗘櫌闂佽法鍠撻弲顐ゅ垝閺冨偊鎷烽棃娑欐喐闁活厼妫濋弻娑㈠焺閸愵亖妾ㄩ梺缁樻尰濞茬喖寮诲澶婄厸濞达絽鎲″▓鍫曟⒑鐎圭姵顥夋い锔炬暬楠炲啯绂掔�ｅ灚鏅┑鐐村灦鑿ら柡瀣懃閳规垿顢欑涵閿嬫暰濠碉紕鍋樼划娆撳Υ娴ｈ倽鏃�鎷呴悷閭︼拷鎾绘⒑閼姐倕鏋戝鐟版閵嗗倿寮婚妷锔规嫽婵炶揪绲介幉锟犲疮閻愮儤鐓熼柣鏃堟？閹茬偓顨ラ悙鑼闁轰焦鎹囬弫鎾绘晸閿燂拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
 								}
 								else
 								{
-									if (bag.doAddItem(id, itemnum, "闁煎浜為弫閬嶅礆閸℃稑甯抽梺顒佹尭閸欙拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
+									if (bag.doAddItem(id, itemnum, "闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲搁弮鍫澪ラ柛鎰ㄦ櫆閸庣喖鏌曡箛瀣労婵炲弶鎮傚铏圭磼濡搫顫岄梺鍦拡閸嬪﹤顕ｉ崨濠勭懝闁跨喕妫勯～蹇撁洪宥嗘櫌闂佽法鍠撻弲顐ゅ垝閺冨偊鎷烽棃娑欐喐闁活厼妫濋弻娑㈠焺閸愵亖妾ㄩ梺缁樻尰濞茬喖寮诲澶婄厸濞达絽鎲″▓鍫曟⒑鐎圭姵顥夋い锔炬暬楠炲啯绂掔�ｅ灚鏅┑鐐村灦鑿ら柡瀣懃閳规垿顢欑涵閿嬫暰濠碉紕鍋樼划娆撳Υ娴ｈ倽鏃�鎷呴悷閭︼拷鎾绘⒑閼姐倕鏋戝鐟版閵嗗倿寮婚妷锔规嫽婵炶揪绲介幉锟犲疮閻愮儤鐓熼柣鏃堟？閹茬偓顨ラ悙鑼闁轰焦鎹囬弫鎾绘晸閿燂拷", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_monthcard_reward, 2) != itemnum)
 									{
 										return false;
 									}
@@ -121,7 +121,7 @@ public class CGrabMonthCardReward extends __CGrabMonthCardReward__ {
 							}
 						}	
 						
-						if (count > e.getNum()) //闁轰椒鍗抽崳铏规惥閸涘瓨顎欓柛锟�? 闁搞儳鍋炵划锟� by changhao
+						if (count > e.getNum()) //闂傚倸鍊搁崐鎼佸磹瀹勬噴褰掑炊瑜滃ù鏍煏婵炲灝鍔存繛鎾愁煼閺岀喖鎮滃鍡樼暥缂佺虎鍙忛幏鐑芥⒒娴ｇ瓔娼愰柛搴ｅ帶铻為柛鏇ㄥ灡閳锋帗銇勯弽顐沪闁绘搫缍侀悡顐﹀炊閵娿儱姣堝┑鐐插悑閸旀瑩寮婚悢纰辨晬婵☆垰鎼慨锕傛⒑閸濆嫭婀扮紒瀣灴閸┿儲寰勬繛銏㈠枛瀹曟宕楅悡搴㈢亪婵犵绱曢崑鎴﹀磹閺囩媴鎷峰☉鎺撴珚闁诡喚鍏橀崺锟犲川椤撯剝鎲版繝鐢靛仦閸垶宕瑰ú顏勭柧闁归棿鐒﹂悡銉╂煟閺囩偛锟藉湱锟芥熬鎷�? 闂傚倸鍊搁崐鎼佸磹閻戣姤鍊块柨鏇炲�哥粻鏍煕椤愶絾绀�缁炬儳娼￠弻鐔煎箚閻楀牜妫勭紒鐐劤椤兘寮婚敐澶婄疀闁绘鐗婇柨顓㈡⒑閹肩偛濡界紒璇茬墦瀵濡搁埡鍌氫簽闂佺鏈粙鎴︻敂閿燂拷 by changhao
 						{
 							return false;
 						}

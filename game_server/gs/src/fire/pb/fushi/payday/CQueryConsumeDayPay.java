@@ -14,7 +14,7 @@ abstract class __CQueryConsumeDayPay__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 闁哄嫷鍨伴幆渚�骞嶉敐鍡橈級闁革拷? by changhao
+ * 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偞鐗犻、鏇㈠Χ韫囨柨顏跺┑顔矫畷顒勫储鐎甸潻鎷风憴鍕妞ゎ偄顦遍敓浠嬫涧閵堢顕ｉ崼鏇炵闁绘ê鐏氬В搴㈢節閻㈤潧浠﹂柟绋款煼閹垽顢楅崟顐ゎ唵闂備礁鐏濋鎰枔娴犲鐓熼柟閭﹀灠閻ㄦ椽寮崼銉︹拺閺夌偞澹嗛崝宥夋煕閺冿拷閻熴儵鎮鹃悜钘夌闁绘垵妫欏娲⒑閸撴彃浜栭柛銊ヮ煼钘濇い鎰堕檮閳锋帡鏌涚仦鍓ф噮缂佹劖姊圭换娑㈡偂鎼搭喚鍚嬪Δ鐘靛仜缁绘﹢寮幘缁樻櫢闁跨噦鎷�? by changhao
  */
 public class CQueryConsumeDayPay extends __CQueryConsumeDayPay__ {
 	@Override
@@ -34,7 +34,7 @@ public class CQueryConsumeDayPay extends __CQueryConsumeDayPay__ {
 					if (linkrole != null)
 					{
 						int userid = linkrole.getUserid();
-						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闁绘劗鎳撳畷閬嶅嫉瀹ュ懎顫ら柛锟�? by changhao
+						if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛鎾茬閸ㄦ繃銇勯弽顐粶缂侊拷婢跺绻嗛柕鍫濇噺閸ｅ湱绱掗悩闈涒枅闁哄瞼鍠栭獮鍡氼槾闁挎稑绉归弻锟犲幢椤撶姷鏆ゅ┑顔硷攻濡炰粙銆佸Δ鍛櫢闁伙絽鐬奸惌鎾绘倵閻㈠憡浜ら柟宄板槻椤繈顢楁径瀣撱劑姊虹捄銊ユ灆婵☆偄瀚划璇差吋婢跺﹦锛熼梻渚囧墮缁夊绮婚悩璇茬闁圭⒈鍘鹃崢婊呯磽瀹ュ棛澧甸柡灞炬礋瀹曠厧鈹戦幇顓壯囨⒑缂佹ɑ灏版繛鑼枛瀵濡搁埡鍌氫簽闂佺鏈粙鎴︻敂閿燂拷? by changhao
 						{
 							fire.pb.fushi.DayPayManager.getInstance().ProcessDayPay(userid, roleid);	
 						}					

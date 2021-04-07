@@ -23,13 +23,13 @@ public class CChamberOfCommerceShop extends __CChamberOfCommerceShop__ {
 
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("婵炲备鍓濆﹢浣烘嫚閵夈儲娅岄柛婵呯" + goodsid + "]");
+			mkdb.Trace.info("婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾剧粯绻涢幋鐐垫噧缂佸墎鍋ら弻娑㈠Ψ椤旂厧顫╃紓渚婃嫹闁割偆鍠撶弧锟介梻鍌氱墛缁嬫帡鏁嶉弮鍫熺厾闁哄娉曟禒銏ゆ婢舵劖鐓ユ繝闈涙閹兼劙鏌涢弬娆惧剶闁诡喗顨呴～婵嬵敇閻愬弶鎳欓梻浣告惈閺堫剙煤濡警鍤楅柛鏇ㄥ灠闁卞洦绻濋棃娑欘棞妞ゎ偅纰嶇换婵嬫偨闂堟稐绮堕梺鐟板暱闁帮綁骞嗗畝鍕＜闁绘劘灏幗鏇炩攽閻愭潙鐏﹂懣銈夋煛閿熻姤绂掔�ｎ偆鍘卞┑鐐村灥瀹曨剟鎮橀柆宥嗙厱闁绘洖鍊圭�氾拷" + goodsid + "]");
 			return;
 		}
 
 		fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 		if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-			mkdb.Trace.info("闁哥喎妫旂槐鏉库柦閳╁啯绠掗悹鍥ュ劤婢у潡宕�?.shopid:" + shopid + "goodsid:" + goodsid);
+			mkdb.Trace.info("闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偞顨呴…銊╁醇濠靛牏宕堕梺纭呭亹鐞涖儵宕归幆褉妲堥柕蹇曞Х閻嫰姊虹粙鎸庢拱濞撴碍顨呴…鍥偄閸忓皷鎷洪梺鍛婄箓鐎氬嘲危閸濄儳纾奸柕濞炬櫃閹插墽锟芥鍠栭…鐑藉极閸愵喖纾兼繛鎴炶壘鐢姊绘担鍝ユ瀮婵℃ぜ鍔庣划鍫熺瑹閿熻棄顕ｉ幎鑺ュ�烽柣銏㈡暩閿涙粓姊虹紒妯忣亪宕崹顔氬綊顢氶敓浠嬪蓟閻旂⒈鏁婇柤娴嬫櫇妤旈柣搴ゎ潐濞叉牠鎮ラ崗闂寸箚闁绘垼妫勫敮闂侀潧顦崕娑㈠箣濠靛啯鏂�闂佺粯锕╅崑鍛垔娴煎瓨鐓曢柟鑸妽濞呭懎霉閻樿櫕灏﹂柟顔筋殘閹叉挳宕熼鍌楁晬闂備胶鎳撻崵鏍箯閿燂拷?.shopid:" + shopid + "goodsid:" + goodsid);
 			return;
 		}
 

@@ -28,7 +28,7 @@ public class CAttentionGoods extends __CAttentionGoods__ {
 				fire.pb.shop.srv.market.IMarket proxy = (fire.pb.shop.srv.market.IMarket) handler.getProxy();
 				boolean success = proxy.attention(itemtype, attentiontype, roleId, id, attentype);
 				if (success) {
-					// 闂侇偅姘ㄩ悡锟犲礈瀹ュ懎閰遍柡浣哄瀹擄拷
+					// 闂傚倸鍊搁崐鎼佸磹閹间礁纾瑰瀣椤愪粙鏌ㄩ悢鍝勑㈢痪鎯ь煼閺屾稑鈽夐崡鐐插濠电偛鐨烽弲鐘诲蓟閺囩喓绠鹃柣鎰靛墯閻濇洟姊虹粙娆惧剰闁稿﹤娼″濠氬Ω閳哄倸浜滈梺鍛婄箓鐎氬懘濮�閵忋垻锛滈梺璺ㄥ枍缁瑥鐣锋總闈╃稏妞ゆ棁妫勯璺何旈悩闈涗粶闁诲繑绻堝畷婵嗩潩閼哥數鍘甸梺鍛婂姈閻擄繝宕ｉ崟顖涚厸閻忕偞鏋婚煬顒勬煛鐏炶姤顥滄い鎾炽偢瀹曞崬鈻庤箛鎾额唶濠电姷鏁搁崑鐘诲箵椤忓棗绶ゅù鐘差儏缁犺銇勯幇鎯扮闁跨喕妫勯崐鍧楀箠閺嶎厼鐓涢悗锝庡亜椤忓爼鏌ｉ悢鍝ユ噧閻庢凹鍙冮獮鍡涘醇閵夛妇鍘甸梺鍛婂灟閸婃牜锟芥熬鎷�
 					mkdb.Procedure.psendWhileCommit(roleId, new fire.pb.shop.SAttentionGoods(attentype, id, attentiontype, itemtype));
 				}
 				return success;

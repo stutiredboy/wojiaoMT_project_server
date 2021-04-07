@@ -21,7 +21,7 @@ public class COldSchoolList extends __COldSchoolList__ {
 		new mkdb.Procedure() {
 			@Override
 			protected boolean process() {
-				// 闁告瑦鍨�?娴ｈ姤绁柤鍗炲娣囧﹪骞�?
+				// 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偛顦甸弫鎾绘偐閸愯弓鐢婚梻浣瑰濞叉牠宕愰幖浣稿瀭闁稿瞼鍋為悡銉╂煟閺囩偛锟藉湱锟芥熬鎷�?婵犵數濮烽弫鎼佸磻閻樿绠垫い蹇撴缁�濠囨煥閻旂粯顥夐柍瑙勫灴椤㈡瑩宕崟鑸靛婵°倕鍟崹婵嗏攽閻樺弶绁╅柡浣割儔閺屻劑鎮㈤崜浣虹厯閻庢鍠栭…閿嬩繆閼搁潧绶炲┑鐘插閺�銊╂⒒娴ｈ櫣甯涢柛鏃�娲栬灒濠电姴鍊甸弸鏃�銇勯幘璺烘灁缂佺娀绠栭弻銊モ攽閸℃ê娅ら梺鐟板悑閸旀瑩寮婚妸鈺佸嵆闁靛鍊濋崑妤呮⒑缂佹ü绶遍柛锝忕秮瀵偊骞樼紒妯绘闂佽法鍣﹂幏锟�?
 				SOldSchoolList send = new SOldSchoolList();
 				xbean.ChangeSchoolInfo info = xtable.Changeschool.select(roleId);
 				if (info != null) {

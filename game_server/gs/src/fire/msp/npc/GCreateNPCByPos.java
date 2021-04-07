@@ -31,7 +31,7 @@ public class GCreateNPCByPos extends __GCreateNPCByPos__ {
 			NPC n = SceneNpcManager.getInstance().createNpcWithKey(npc.npckey,npc.npcbaseid, npc.name, npc.dir);
 			if (n == null) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("闁稿浚鍏涚槐浼村礈椤栨稒鎷遍柛鎺楁敱??:").append(npc.npcbaseid)
+					SceneManager.logger.info(new StringBuilder().append("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ磵閿熸枻绠撳畷鐓庮熆濠靛牊鍤�妞ゎ偅绻勯幑鍕惞鐠団剝袧濠电姷鏁搁崑鐐哄垂閸撲礁鏋堢�广儱顧�缂嶆牠鏌￠崶鈺�绱崇憸鐗堝笒缁�鍌炴煕韫囨艾浜圭紒瀣川缁辨挻绗熸繝鍐伓闂備礁澹婇崑鍡涘窗閸℃顩叉繝濠傜墛閻撴稓锟藉箍鍎遍崯顐ｄ繆閸ф鐓冮柛娆嶅劤缁愭棃鏌″畝锟介崰鏍箖濠婂牆绠ｉ柟鐑樻尭閺嬨倝姊绘担鍛婃儓闁哄牜鍓熼幆鍕敍閻愰潧绁﹂梺鍦劋閸わ箓寮敓浠嬪箯閸涱垱鍠嗛柛鏇ㄥ墻閸燂拷??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid));
 				}
@@ -45,7 +45,7 @@ public class GCreateNPCByPos extends __GCreateNPCByPos__ {
 							npc.ownerid, "", -1, DynamicSceneType.NORMAL_SCENE,
 							params.marshal(new OctetsStream()));
 					
-					SceneManager.logger.error(new StringBuilder().append("闁稿浚鍏涚槐浼村礈椤栨稒鎷遍柛鎺楁敱??:").append(npc.npcbaseid)
+					SceneManager.logger.error(new StringBuilder().append("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ磵閿熸枻绠撳畷鐓庮熆濠靛牊鍤�妞ゎ偅绻勯幑鍕惞鐠団剝袧濠电姷鏁搁崑鐐哄垂閸撲礁鏋堢�广儱顧�缂嶆牠鏌￠崶鈺�绱崇憸鐗堝笒缁�鍌炴煕韫囨艾浜圭紒瀣川缁辨挻绗熸繝鍐伓闂備礁澹婇崑鍡涘窗閸℃顩叉繝濠傜墛閻撴稓锟藉箍鍎遍崯顐ｄ繆閸ф鐓冮柛娆嶅劤缁愭棃鏌″畝锟介崰鏍箖濠婂牆绠ｉ柟鐑樻尭閺嬨倝姊绘担鍛婃儓闁哄牜鍓熼幆鍕敍閻愰潧绁﹂梺鍦劋閸わ箓寮敓浠嬪箯閸涱垱鍠嗛柛鏇ㄥ墻閸燂拷??:").append(npc.npcbaseid)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid)
 							.append(",sceneidlong:").append(scene.getSceneID()));
@@ -58,9 +58,9 @@ public class GCreateNPCByPos extends __GCreateNPCByPos__ {
 			int mapid = (int) npc.sceneid;
 			if (mapid >= 1851 && mapid <= 1870) {
 				if (SceneManager.logger.isInfoEnabled()) {
-					SceneManager.logger.info(new StringBuilder().append("闁稿浚鍏涚槐浼村礈椤栨稒鎷遍柛鎺楁敱??:").append(npc.npcbaseid)
-							.append("闁秆勫姈閻栵綁寮伴銈囩獥 X 闁炽儲鏌�??").append(posx)
-							.append("闁秆勫姈閻栵綁寮伴銈囩獥 Y 闁炽儲鏌�??").append(posx)
+					SceneManager.logger.info(new StringBuilder().append("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ磵閿熸枻绠撳畷鐓庮熆濠靛牊鍤�妞ゎ偅绻勯幑鍕惞鐠団剝袧濠电姷鏁搁崑鐐哄垂閸撲礁鏋堢�广儱顧�缂嶆牠鏌￠崶鈺�绱崇憸鐗堝笒缁�鍌炴煕韫囨艾浜圭紒瀣川缁辨挻绗熸繝鍐伓闂備礁澹婇崑鍡涘窗閸℃顩叉繝濠傜墛閻撴稓锟藉箍鍎遍崯顐ｄ繆閸ф鐓冮柛娆嶅劤缁愭棃鏌″畝锟介崰鏍箖濠婂牆绠ｉ柟鐑樻尭閺嬨倝姊绘担鍛婃儓闁哄牜鍓熼幆鍕敍閻愰潧绁﹂梺鍦劋閸わ箓寮敓浠嬪箯閸涱垱鍠嗛柛鏇ㄥ墻閸燂拷??:").append(npc.npcbaseid)
+							.append("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ穿缂嶆牠鎮楅敐搴℃灈缂侊拷鐎ｎ偁浜滈柟鎵虫櫅閻掔儤绻涢崗鍏碱棃婵﹦绮幏鍛存惞閻熸壆顐奸梻浣虹帛椤ㄥ繘宕㈤崜褎顫曢柣鎰摠婵挳鏌涢幘鏉戠祷婵炲牄鍔嶇换娑㈠级閹存繃鍊梺璇″灠閻倸顕ｉ銏╁悑濠㈣泛顑囬崢顏堟⒑閸撴彃浜濈紒璇插暙椤斿繐鈹戠�ｎ偆鍘藉┑鐐村灱濞呮洜锟芥熬鎷� X 闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀绾惧鏌曟繛鐐珔缁炬儳娼￠弻锛勪沪鐠囨彃濮庨梺钘夊暟閸犳牠寮婚妸鈺傚亞闁稿本绋戦锟�??").append(posx)
+							.append("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ穿缂嶆牠鎮楅敐搴℃灈缂侊拷鐎ｎ偁浜滈柟鎵虫櫅閻掔儤绻涢崗鍏碱棃婵﹦绮幏鍛存惞閻熸壆顐奸梻浣虹帛椤ㄥ繘宕㈤崜褎顫曢柣鎰摠婵挳鏌涢幘鏉戠祷婵炲牄鍔嶇换娑㈠级閹存繃鍊梺璇″灠閻倸顕ｉ銏╁悑濠㈣泛顑囬崢顏堟⒑閸撴彃浜濈紒璇插暙椤斿繐鈹戠�ｎ偆鍘藉┑鐐村灱濞呮洜锟芥熬鎷� Y 闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀绾惧鏌曟繛鐐珔缁炬儳娼￠弻锛勪沪鐠囨彃濮庨梺钘夊暟閸犳牠寮婚妸鈺傚亞闁稿本绋戦锟�??").append(posx)
 							.append(",sceneid:").append(npc.sceneid)
 							.append(",ownerid:").append(npc.ownerid)
 							.append(",sceneidlong:").append(scene.getSceneID()));

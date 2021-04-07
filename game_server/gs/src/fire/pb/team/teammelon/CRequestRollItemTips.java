@@ -12,7 +12,7 @@ abstract class __CRequestRollItemTips__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 /***
  * 
- * 閻犲洭鏀遍惇鐨塷ll item tips 濞ｅ洠鍓濇导锟� by changhao
+ * 闂傚倸鍊搁崐宄懊归崶褏鏆﹂柛顭戝亝閸欏繘鏌℃径瀣婵炲樊浜堕弫鍥煏韫囨洖啸闁告繃顨婂缁樼瑹閸パ冾潻缂備礁顦遍弫璇茬暦閺囥垹绠ｉ柨鏃傛櫕閸樹粙姊洪棃娑辩劸闁稿寒鍨堕弫鎾绘寠婢跺苯鐐妉 item tips 濠电姷鏁告慨鐑藉极閹间礁纾块柟瀵稿Т缁躲倝鏌﹀Ο渚＆婵炲樊浜濋崑鎰版偣閸ヮ亜鐨烘い锔诲幖閳规垿鎮╃紒妯婚敪濠电偛鐪伴崐婵嬨�佸鑸电劶鐎广儱妫涢崣鍡涙⒑缂佹ɑ绀�闁稿﹤婀遍敓鑺ョ啲閹凤拷 by changhao
  *
  */
 public class CRequestRollItemTips extends __CRequestRollItemTips__ {

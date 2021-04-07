@@ -12,7 +12,7 @@ abstract class __CRequestClanFightTeamList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閻犲洭鏀遍惇浼村礂椤戣法绐楅柟瀛樏慨蹇涙⒓閻斿墎绀婂ǎ鍥ｅ墲娴硷拷 by changhao
+ * 闂傚倸鍊搁崐宄懊归崶褏鏆﹂柛顭戝亝閸欏繘鏌℃径瀣婵炲樊浜堕弫鍥煏韫囨洖啸闁告繃顨婂缁樼瑹閸パ冾潻缂備礁顦遍弫璇茬暦閺囥垹绠ｆ繝銏＄箓缂嶅﹤鐣峰Δ鍛闁兼祴鏅濋埢蹇曠磽閸屾瑧绛忛柟椋庡厴閺屾稓浠﹂崜褉妫ㄦ繛瀛樼矋缁捇寮婚悢鍛婄秶闁告挆鍚锋垹绱掔紒銏犲箹濠⒀冩捣濡叉劙骞掑Δ锟界粻娑欍亜閹炬瀚弶褰掓⒒娴ｅ憡鎯堥柣顒�銈稿畷浼村箻缂佹ɑ娅㈤梺鍏间航閸庢娊鍩︽笟锟介弻宥囩箔閸濆嫸鎷峰┑瀣拷渚�寮崼婵嗙獩濡炪倖姊婚崢褎瀵兼惔銊︹拻濠电姴楠告禍婊勭箾鐠囇冾洭缂侇喗鐟╅獮鎺懳旈敓浠嬫偂閺囥垺鐓欓柛鎾楀懎绗￠梺缁樻尵閸犳牠寮婚敓鐘茬＜婵ê褰夐搹搴☆渻閵堝繒鍒扮痪缁㈠幘濡叉劙骞掑Δ浣规闂佸吋浜介崕宕囧姬閿熶粙姊虹粙娆惧剰闁哥喎娼￠弻濠囨晲閸涱垱娈鹃梺鍓插亝濞叉﹢寮查弻銉︾厱婵炴垵宕獮鎰版煙閺嬵偄锟芥洟鍩為幋锔藉�风�瑰壊鍠栧▓鍫曟⒑闂堟稒顥滄い鎴濐樀閻涱喛绠涘☉娆愭闂佽法鍣﹂幏锟� by changhao
  *
  */
 public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
@@ -36,7 +36,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 				}
 				
 				int side = 0;
-				Long c1 = xtable.Roleid2clanfightid.select(roleid); //婵★拷?婵炴潙顑嗗Σ鎼佸触閿曪拷濠�顏堝箣濡儤绨氬☉锟�? by changhao
+				Long c1 = xtable.Roleid2clanfightid.select(roleid); //婵犵數濮烽弫鍛婃叏閻戝锟藉倿鎸婃竟鈺嬬秮瀹曠喖顢涘槌栧數闂備浇娉曢崳锕傚箯閿燂拷?婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾惧鏌ｉ幇顒佲枙闁绘帟濮ょ换娑㈠幢濡粯鍎庨梺杞扮鐎氫即寮诲☉銏犵労闁告劧缂氱花鐢告⒑閹稿海绠撴い锔诲灣缁鎮烽幊濠傜秺閺佹劙宕卞▎鎰晸闁荤偞纰嶇换鍫濐潖缂佹ɑ濯撮柣鐔煎亰閸ゅ鈹戦悙瀵搞偞闁哄懐濞�閻涱喛绠涘☉娆戝弳闁诲函缍嗛崜娑㈡儊閸儲鈷戦悹鎭掑妼閺嬪秶绱掗鐣屾噰闁靛棔绶氬顕�宕煎┑瀣暪婵犵數濞�濞佳囨偋濠婂牆瑙﹂柛娑卞枤缁★拷缂佸墽澧楄摫妞ゎ偄锕弻娑㈠Ω閿曪拷閳绘洜锟借娲樺ú鐔镐繆閸洖鐐婃い蹇撳珔閳ユ枼鏀芥い鏃�鏋绘笟娑㈡煕韫囨枂顏勫祫闂佸壊鍋侀崕鏌ユ偂閵夆晜鐓熼柡鍥╁仜閿熻棄婀遍敓鑺ョ啲閹凤拷? by changhao
 				if (c1 == null)
 				{
 					return false;
@@ -106,7 +106,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 								}
 								
 								xbean.TeamInfo teaminfo = xtable.Team.select(teamid);
-								if (teaminfo != null && !teamidset.contains(teamid)) //婵炲备鍓濆褔鎯冮崟顒�顤呴柛娆愬灴?娴ｇ晫绠栭柛锟�? by changhao
+								if (teaminfo != null && !teamidset.contains(teamid)) //婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾剧粯绻涢幋鐐垫噧缂佸墎鍋ら弻娑㈠Ψ椤旂厧顫╃紓渚婃嫹闁割偆鍠撶弧锟介梻鍌氱墛缁嬫帡鏁嶅澶嬬厱闁靛牆妫欑粈鍫ユ煙閸欏鍊愮�殿噮鍣ｅ畷鐓庘攽閸垺姣庨梻鍌欑閹诧繝宕濋敃鍌氱獥闁哄稁鍋嗛惌鍡涙倵閿濆骸浜栧ù婊勭矒閺岀喖鎼归悷棰佹勃闁诲孩姘ㄩ幊鎾烩�旈崘顔嘉ч柛鎰电厜閹风兘寮撮姀鐘电枃濠殿喗顨愰幏椋庯拷娈垮枦椤曆囧煡婢跺á鐔兼煥鐎ｎ剨鎷锋繝姘拺鐟滅増甯掓禍浼存煕閹惧鈾侀悗闈涖偢閺佹捇鏁撻敓锟�?婵犵數濮烽弫鎼佸磻閻樿绠垫い蹇撴缁躲倝鏌涜椤ㄥ懘鎮块悙顑句簻闁规壋鏅涢敓鑺ヮ殕缁嬪顓兼径瀣幐閻庡箍鍎辨鎼佺嵁濡ゅ懏鐓熼柟鎯х摠缁�瀣煛鐏炶濮傞柟顔哄�濆畷鎺戔槈濮楀棔绱�? by changhao
 								{
 									fire.pb.team.TeamInfoBasicWithMembers t = new fire.pb.team.TeamInfoBasicWithMembers();
 									t.teaminfobasic = newTeamInfoBasic(teamid, teaminfo);
@@ -174,7 +174,7 @@ public class CRequestClanFightTeamList extends __CRequestClanFightTeamList__ {
 		teamInfoBasic.maxlevel = 0;
 		teamInfoBasic.membernum = teaminfo.getMembers().size() + 1;
 		teamInfoBasic.teamid = teamid;
-		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //閻炴稏鍔忕换鏇炩柦閳╁啯绠掗悷鏇氱濠�顏嗘偘閵娾晛娅￠柛锟�? by changhao 
+		teamInfoBasic.membermaxnum = TeamManager.MAX_MEMBER_COUNT + 1; //闂傚倸鍊搁崐宄懊归崶褏鏆﹂柣銏㈩焾绾惧鏌ｉ幇顔芥毄闁活厽鐟╅悡顐﹀炊閵娧�妲堢紓渚婃嫹濠㈣埖鍔楅崣鎾绘煕閵夛絽濡界紒锟介崘顏庢嫹鐟欏嫭绀冮柣鎿勭節瀵鏁撻悩鑼�為梺瀹犳〃濡炴帒效濡ゅ懏鈷戦柛婵嗗閻掕法绱掗悩铏磳鐎殿喛顕ч鍏煎緞婵犲嫬骞愬┑鐐舵彧缁蹭粙骞夐垾鏂ユ灁闁肩⒈鍓涚壕钘壝归敐鍛儓閺嶏繝鏌ｉ姀鈺佺伈缂佺粯绻堥悰顕�宕橀钘夛拷濠氭煢濡警妲哥�规挸妫楅埞鎴︻敊閺傘倛锟借法鐥鐙�鐒鹃崡杈ㄣ亜閺傝法姣為柡锟芥禒瀣厽婵炲棗绻戦崳娲倵濮樿鲸鍤�妞ゎ亜鍟存俊鍫曞川椤栨粠鍞舵繝纰樻閸嬪懘鎮烽埡浣烘殾闁瑰瓨绻嶅銊╂煥閻斿墎鐭欑�殿喖顭峰鎾偄閾忚鍟庨梻浣虹帛閸旓箓宕滃鑸靛仧闁哄倸绨遍弨浠嬫煟閹邦剙绾ч悗姘噽缁辨帞绱掑Ο鑲╃杽閻庢鍠涢褔鍩ユ径鎰潊闁斥晛鍟鐔兼⒒娴ｈ姤纭堕柛锝忕畵楠炲繘鏁撻敓锟�? by changhao 
 		teamInfoBasic.targetid = 0;
 		
 		return teamInfoBasic;

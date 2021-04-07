@@ -23,7 +23,7 @@ abstract class __CLiveSkillMakeFriendGift__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 闁告艾鑻缓楣冨捶?
+ * 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偛顦甸弫鎾绘偐閸愬弶鐤勫┑掳鍊х徊浠嬪疮椤栫偛鍚归柟閭﹀幑娴滄粓鏌″鍐ㄥ闁活厼鐬肩槐鎺楀箟鐎ｎ剛鏆犻柧缁樼墵閺屻劌鈹戦崱妯烘闂佸搫妫欓悷鈺呭蓟閻斿吋鍎岄柛娑橈工椤忥拷?
  * @author changhao
  *
  */
@@ -62,9 +62,9 @@ public class CLiveSkillMakeFriendGift extends __CLiveSkillMakeFriendGift__ {
 				}
 				
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, LiveSkillManager.LIVE_SKILL_TYPE_MAKE_FRIEND_GIFT, 
-						skilllevel,"濠靛倽妫勫鍝ョ矆閼测晛鈷�", YYLoggerTuJingEnum.tujing_Value_friendgive, false);
+						skilllevel,"濠电姷鏁告慨鐑藉极閸涘﹦绠鹃柨鐔诲Г缁绘稒鎷呴崘鍙夋悙缁炬儳缍婇弻锕�螣閻氬绀嗗┑鐐村灟閸ㄥ湱绮堢�ｎ偁浜滈柟浼存涧娴滄粍绻涢崼娑樺婵﹥妞藉畷銊︾節閸曨厾绐楅梻浣侯焾鐎涒晜绻涙繝鍥х畾鐎癸拷閸曨偄鑰垮┑鐐村灦閻熝囧储閹�鏀介柣鎰摠缂嶆垶銇勯幋婵囶棞闁宠绉瑰畷銊э拷娑欘焽閸樻捇姊洪崨濠傜仧闁稿﹥鐗滈敓鑺ョ啲閹凤拷", YYLoggerTuJingEnum.tujing_Value_friendgive, false);
 				
-				if (energyenough == false) //婵炴垵鐗�?濡や焦銇熼柛锟�? by changhao
+				if (energyenough == false) //婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾惧鏌ｉ幇顒佹儓闁搞劌鍊块弻锝夊閻樺啿鏆堥梺绋款儏椤戝寮婚妸鈺傚亞闁稿本绋戦锟�?濠电姷鏁告慨鎾儉婢舵劕绾ч柛鏍ゅ墲鐎氬綊鏌熼崜褏甯涢柛濠傛健閺屻劑寮撮悙璇ф嫹閸涘鏀伴梻鍌欒兌缁垶寮婚妸鈺佽Е閻庯綆鍠楅崑鍌炴煛閸ャ儱鐏柣鎾卞劦閺岋綁寮撮悙璇ф嫹閸︻叏鎷峰鐐? by changhao
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.EnergyNotEnough));
 					return true;						

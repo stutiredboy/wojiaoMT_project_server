@@ -14,7 +14,7 @@ abstract class __CLiveDieBattleRankView__ extends mkio.Protocol { }
 public class CLiveDieBattleRankView extends __CLiveDieBattleRankView__ {
 	@Override
 	protected void process() {
-		// 閻犲洭鏀遍惇浼存偨閻斿壊鍔ラ柟瀛樕戠敮鎾舵偘瀹�锟介弲顐︽?
+		// 闂傚倸鍊搁崐宄懊归崶褏鏆﹂柛顭戝亝閸欏繘鏌℃径瀣婵炲樊浜堕弫鍥煏韫囨洖啸闁告繃顨婂缁樼瑹閸パ冾潻缂備礁顦遍弫璇茬暦閺囥垹绠ｆ繝銏＄箓缂嶅﹪骞冮埄鍐╁劅闁挎繂妫欓崰鏍⒒娴ｄ警鐒炬い鎴濆暣瀹曟繈骞嬮敃锟介拑鐔兼煥濠靛棭妲告俊顐ｏ耿閺屾盯鈥﹂幋婵囩彯濠碘槅鍋勯惌鍌氼潖濞差亜宸濆┑鐘插暟閸樹粙姊虹粙鎸庢崳闁轰浇顕ч锝嗙節濮橆厼浜滈梺缁樿壘閻°劎锟芥俺顫夌换娑㈠箣閻愬灚鍣ｉ梺璺ㄥ枔閺咁偊宕戦妶澶屽祦閻庯綆鍠楅崑鎰版煣韫囷絽浜濇い鏂挎喘濮婄粯鎷呯粵瀣秷閻庤娲橀敃銏犵暦濞差亜鍐�妞ゆ挾鍋熼敍娑樷攽閳藉棗鐏ｉ柕鍡楊儔楠炲繘鎮滈懞銉ュ壃闂佸憡绋戦敃銈夘敂閸洘鈷掑ù锝堝Г绾爼鏌涢悩鑼ら柛鎺撳笒閳诲氦绠涢敐鍛吙闂備礁鎼悮顐﹀磿濞差亜鏋侀柛鎰靛枟閻撱儵鏌￠崘銊ワ拷濠氬箺閸屾稐绻嗘い鎰靛墯鐎氾拷?
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;

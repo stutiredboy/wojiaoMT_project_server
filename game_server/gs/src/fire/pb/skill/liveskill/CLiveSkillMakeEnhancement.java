@@ -22,7 +22,7 @@ abstract class __CLiveSkillMakeEnhancement__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 闂傚嫬瀚伴悺鐔煎礆閺堢數绋�
+ * 闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌涘┑鍕姷闁瑰嘲鍢查～婵嬫偂鎼粹槅娼鹃梻浣芥硶閸犳洘鎱ㄩ妶澶嬪剹妞ゆ洩鎷风�规洩绻濋獮搴ㄦ寠婢跺瞼鏆繝鐢靛仜濡﹥绂嶅┑瀣；闁告洦鍨遍悡鐔兼煙閹规劖鐝柟鐧哥稻閵囧嫰鏁傜拠韫枈濠殿喖锕ュ钘夌暦椤愶箑绀嬫い鎾跺亹閸欙繝姊绘担鑺ャ�冪紒锟芥笟锟介獮妤�顭ㄩ崨顓炵亰濠电偛妫欓幐濠氬疾閹间焦鐓ラ柣鏇炲�圭�氾拷
  * @author changhao
  *
  */
@@ -42,7 +42,7 @@ public class CLiveSkillMakeEnhancement extends __CLiveSkillMakeEnhancement__ {
 				xbean.Properties prop = xtable.Properties.select(roleid);
 				int school = prop.getSchool();
 				
-				int skilllevel = LiveSkillManager.getInstance().GetEnhanceLevelBySchool(roleid, school);//闁告瑦鐗曠欢閬嶆嚂鐏炶偐鐟归柟锟�?闁煎磭鏅悺鎴犵棯?  by changhao
+				int skilllevel = LiveSkillManager.getInstance().GetEnhanceLevelBySchool(roleid, school);//闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偛顦甸弫鎾绘偐閸愯弓鐢婚梻浣瑰濞叉牠宕愯ぐ鎺戠；閻庯綆鍠楅悡娑㈡煕閵夈垺娅呴弽鈥愁渻閵堝棗濮冪紒顔界懃椤繐煤椤忓秵鏅㈤梺璺ㄥ枔閺咁偆鍒掗弮鍫熷仺缂佸鐏濋幆鐐烘⒑缁嬭法鐏遍柛瀣仱瀹曟劙宕奸弴鐔哄幗闂佸綊鍋婇崹杈╂兜閹灐鐟邦煥閸愵亞楔闂佸搫鐭夌紞渚�骞冮姀鈽嗘Ч閹艰揪鍙婇妸鈺傗拺闁告繂瀚悘閬嶆煕閻樺磭澧电�殿噮鍋婇獮妯肩磼濡粯顏熼梻浣芥硶閸ｏ箓骞忛敓锟�?闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲歌箛鏃傜彾闁哄洢鍩勯弫鍥煏韫囨洖啸闁哄睙鍐炬富闁靛牆妫楁慨褔姊婚崟顐㈩伃鐎规洘鍨挎俊鑸靛緞鐎ｎ剙骞嶉梺璇叉捣閺佹悂鈥﹂崼婵囨瘎濠电姷顣藉Σ鍛村磻閹捐绠柨鐕傛嫹?  by changhao
 				if (skilllevel == 0)
 				{
 					LiveSkillManager.logger.debug("CLiveSkillMakeEnhancement skilllevel error:" + roleid);
@@ -53,9 +53,9 @@ public class CLiveSkillMakeEnhancement extends __CLiveSkillMakeEnhancement__ {
 				int itemid = LiveSkillManager.getInstance().GetEnhanceItemIdBySchool(school);
 							
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, 
-						liveskillid, skilllevel,"闂傚嫬瀚伴悺锟�", YYLoggerTuJingEnum.tujing_Value_fumo, false);
+						liveskillid, skilllevel,"闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌涘┑鍕姷闁瑰嘲鍢查～婵嬫偂鎼粹槅娼鹃梻浣芥硶閸犳洘鎱ㄩ妶澶嬪剹妞ゆ洩鎷风�规洩绻濋獮搴ㄦ寠婢跺瞼鏆繝鐢靛仜濡﹥绂嶅┑瀣柧闁归棿鐒﹂悡銉╂煟閺囩偛锟藉湱锟芥熬鎷�", YYLoggerTuJingEnum.tujing_Value_fumo, false);
 				
-				if (energyenough == false) //婵炴垵鐗�?濡や焦銇熼柛锟�? by changhao
+				if (energyenough == false) //婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾惧鏌ｉ幇顒佹儓闁搞劌鍊块弻锝夊閻樺啿鏆堥梺绋款儏椤戝寮婚妸鈺傚亞闁稿本绋戦锟�?濠电姷鏁告慨鎾儉婢舵劕绾ч柛鏍ゅ墲鐎氬綊鏌熼崜褏甯涢柛濠傛健閺屻劑寮撮悙璇ф嫹閸涘鏀伴梻鍌欒兌缁垶寮婚妸鈺佽Е閻庯綆鍠楅崑鍌炴煛閸ャ儱鐏柣鎾卞劦閺岋綁寮撮悙璇ф嫹閸︻叏鎷峰鐐? by changhao
 				{
 					java.util.List<String> parameters = new java.util.ArrayList<String>();
 					String s = Integer.toString(LiveSkillManager.getInstance().NeedEnergy(liveskillid, skilllevel));

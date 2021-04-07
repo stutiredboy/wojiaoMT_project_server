@@ -38,14 +38,14 @@ public class CRoleAccusationCheck extends __CRoleAccusationCheck__ {
 					return true;
 				}
 				
-				// 闁圭缍侀幐锟�
+				// 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗ù锝夋交閼板潡姊洪锟界粔鏌ユ晸閽樺锟藉潡銆佸▎鎾崇鐟滃繘藝椤栨稓绠鹃柟鎯ь嚟閸熸煡鏌熼悜鑺ユ暠妞ゃ劊鍎甸幃娆撳级閹存繍娼氶梻浣芥〃閻掞箓骞戦崶顒�鏋侀柟鍓х帛閺呮悂鏌ㄩ悤鍌涘
 				if (bag.subMoney(-money, Commontext.REASON_STRING,
 						fire.log.enums.YYLoggerTuJingEnum.tujing_Value_jubao, 0) != -money) {
 					MessageMgr.sendMsgNotify(roleId, 120025, null);
 					return true;
 				}
 				
-				// 闁圭绲鹃娆撳箣閹邦剙顫�
+				// 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗ù锝夋交閼板潡姊洪锟界粔鏌ユ晸閽樺锟藉潡銆佸▎鎾崇畾鐟滃繒绮佃箛鏂剧箚闁靛牆绻掗崚浼存煕閻樺啿鍝虹�殿噮鍋婂畷鐔碱敆閸屾粠鍟庨梻浣虹《閸撴繆鎽柣蹇撴禋閸樺墽妲愰幒妤佸亼闁告侗鍨宠ⅵ闂備礁鎼惉濂稿窗閺嶎厼钃熼柛銉墯閺呮繈鏌ㄩ悢璇残撻柡鍛埣椤㈡瑦鎱ㄩ幇顏嗙泿婵＄偑鍊栭崝锕傚礈濮樻唻鎷峰鐐
 				Procedure.psendWhileCommit(roleId, new SRoleAccusationCheck(0));
 				return true;
 			};

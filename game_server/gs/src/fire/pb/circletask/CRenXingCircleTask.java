@@ -29,12 +29,12 @@ public class CRenXingCircleTask extends __CRenXingCircleTask__ {
 			return;
 		
 		/*
-		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闁绘劗鎳撳畷閬嶅嫉瀹ュ懎顫ら柛锟�? by changhao
+		if (fire.pb.fushi.Module.GetPayServiceType() == 1) //闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛鎾茬閸ㄦ繃銇勯弽顐粶缂侊拷婢跺绻嗛柕鍫濇噺閸ｅ湱绱掗悩闈涒枅闁哄瞼鍠栭獮鍡氼槾闁挎稑绉归弻锟犲幢椤撶姷鏆ゅ┑顔硷攻濡炰粙銆佸Δ鍛櫢闁伙絽鐬奸惌鎾绘倵閻㈠憡浜ら柟宄板槻椤繈顢楁径瀣撱劑姊虹捄銊ユ灆婵☆偄瀚划璇差吋婢跺﹦锛熼梻渚囧墮缁夊绮婚悩璇茬闁圭⒈鍘鹃崢婊呯磽瀹ュ棛澧甸柡灞炬礋瀹曠厧鈹戦幇顓壯囨⒑缂佹ɑ灏版繛鑼枛瀵濡搁埡鍌氫簽闂佺鏈粙鎴︻敂閿燂拷? by changhao
 		{
 			boolean ok = fire.pb.fushi.DayPayManager.getInstance().CheckDayPayWithLevel(roleid);
 			if (ok == false)
 			{
-				FushiManager.logger.error("CRenXingCircleTask: 婵炲备鍓濆﹢渚�鎮欓悷鏉垮耿");
+				FushiManager.logger.error("CRenXingCircleTask: 婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾剧粯绻涢幋鐐垫噧缂佸墎鍋ら弻娑㈠Ψ椤旂厧顫╃紓渚婃嫹闁割偆鍠撶弧锟介梻鍌氱墛缁嬫帡鏁嶉弮鍫熺厾闁哄娉曟禒銏ゆ煏閸℃ê绗掓い顐ｇ箞閹瑩顢楅敓浠嬵敂閸洘鈷掑ù锝囩摂閸ゅ啴鏌涢悩鎰佹疁闁诡喚鍏橀崺锟犲川椤撶姷鏆梻浣虹帛閸ㄧ厧螞閸曨厾妫憸鏃堝蓟濞戔懇锟斤箓骞嬪┑鍥╀粚闂備浇娉曢崰鎰板几婵犳艾绠柨鐕傛嫹");
 				return;
 			}
 		}

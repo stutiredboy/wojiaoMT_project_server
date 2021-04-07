@@ -12,7 +12,7 @@ abstract class __CRankGetInfo__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 闁兼儳鍢茬欢閬嶅箳閹烘洦鏀芥慨鎺撶矋閺嗙喖骞�?
+ * 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹鐎规洏鍎抽敓鏂ょ秵閸犳牜澹曢崸妤佺厵闁诡垳澧楅ˉ澶愬箹閺夋埊韬柡灞诲�楅崰濠囧础閻愬樊娼芥俊鐐�栭崝鎺斿垝濞嗗浚娼栨繛宸憾閺佸棝鏌ㄩ悢鐑樻珪缂侇喗姊婚敓浠嬫涧閹芥粍绋夊澶嬬厵闁诡垱婢樿闂佺粯鎸婚悷鈺呭蓟閿濆绠ｉ柣鎰閸ㄨ泛顕ラ崟顖氱妞ゆ牗绋撻崢鎼佹⒑鐠恒劌鏋嶇紒顔界懇楠炲﹪鎮欓崫鍕庛劑鏌ㄩ弴顏呭閻庢鍠栧鈥愁潖濞差亜鎹舵い鎾跺仜婵℃椽姊虹憴鍕�愮紒鐘崇墵楠炲棗鐣濋敓浠嬫晸閺傘倗绉甸柛鐘愁殜閹�斥槈閵忥紕鍘遍梺鏂ユ櫅閸熶即骞婇崘顔界厸閻庯綆鍋嗛埦浣广亜閵婏絽鍔﹂柟顔界矒瀹曞爼濡搁妷顔荤处?
  * @author changhao
  *
  */
@@ -23,7 +23,7 @@ public class CRankGetInfo extends __CRankGetInfo__ {
 		if (roleId < 0)
 			return;
 		switch(ranktype){
-		case fire.pb.ranklist.RankType.ROLE_ZONGHE_RANK: //缂備胶鍘ч幃锟�,闁煎崬濂旂粭鐔煎箳閹烘垶鍊� by changhao
+		case fire.pb.ranklist.RankType.ROLE_ZONGHE_RANK: //缂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌ｉ幋锝呅撻柛銈呭閺屾盯顢曢敐鍡欘槬闂佺琚崝搴ㄥ箟閹间礁绫嶉柛顐犲灩缁侊箓姊洪崨濠傚Е闁哥姵顨婂鏌ュ箹娴ｅ湱鍙嗛梺缁樻礀閸婂湱锟芥熬鎷�,闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲稿澶嬪仼闁绘垹鐡旈弫鍡椕归敐鍡樸仢婵＄虎鍣ｅ娲传閸曨偅娈梺绋匡龚瀹曠數鍒掓繝姘睄闁割偆鍠撻崢浠嬫⒑閸濆嫬鏆欓柛濠傛憸閺侇噣宕滄担铏癸紲闂佺粯锚閸熷潡鍩㈤弴銏＄厸鐎癸拷閿熶粙宕伴弽顓炵畺婵犲﹤鍚橀悢鍏兼優闂侇偅绋掗、姗�姊婚崒娆掑厡妞ゎ厼鐗撻垾锕傤敇閵忕姷顔嗛梺璺ㄥ櫐閹凤拷 by changhao
 		case fire.pb.ranklist.RankType.PROFESSION_WARRIOR_RANK:
 		case fire.pb.ranklist.RankType.PROFESSION_MAGIC_RANK:
 		case fire.pb.ranklist.RankType.PROFESSION_PRIEST_RANK:

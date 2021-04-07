@@ -26,13 +26,13 @@ public class GAddUserScreen extends __GAddUserScreen__ {
 		if(reqRole == null || addRole == null)
 			return;
 		if(reqRole.getScene().getSceneID() != addRole.getScene().getSceneID())
-			return;//濞戞挸绉村﹢顏堝触鐏炶偐顏遍柛锔惧劋濞呮瑦绋夊畡姝瀌
+			return;//濠电姷鏁告慨鐑藉极閹间礁纾婚柣鎰惈閸ㄥ倿鏌涢锝嗙缂佺姳鍗抽弻娑樷攽閸曨偄濮㈤梺娲诲幗閹瑰洭寮婚埄鍐ㄧ窞閻庯綆浜為崢鎰版⒑閼测晛顣奸悗绗涘洤桅闁告洦鍠氶悿锟介梺瑙勫礃濞夋盯銆傚ú顏呯厽闁绘柨鎽滈幊鏇犵磼閻樿櫕宕屾鐐插暙椤粓鏁撴禒瀣畺婵炲棙鍨跺畷澶愬级閻愰潧顣奸柣顐㈢箲娣囧﹪鎮欓鍕舵嫹閺囩姵宕叉俊顖濆吹椤╂煡鏌涢锝嗙闁藉啰鍠愮换娑㈠箣濞嗗繒浠鹃梺鍝勬噺缁捇寮婚悢纰辨晬闁糕剝顨呴弳娆愩亜椤掞拷濡瑧鎹㈠┑瀣仺闂傚牊绋愮划鍫曟⒑閻熸澘鏆辩紒缁橈耿楠炲啴鎮滈懞銉︽珕闂佸憡鎸嗛崨顖氬箚婵犵數濮伴崹鐓庘枖濞戙垺鏅濋柨鏇炲�稿Ч鏌ユ倵閿濆骸浜濋柛娆忕箲缁绘繈妫冨☉姘拪闂佸綊顥撻崗姗�寮幘缁樻櫢闁跨噦鎷�
 		MapConfig mapcfg = ConfigManager.getInstance().getConf(MapConfig.class).get(reqRole.getScene().getMapID());
 		if(mapcfg == null)
 			return;
-		if(mapcfg.getVisibletype() == 1)//闁煎浜滅换渚�宕ｉ婵愭綄
+		if(mapcfg.getVisibletype() == 1)//闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲搁弮鍫澪ラ柛鎰ㄦ櫆閸庣喖鏌曡箛瀣労婵炶尙顭堥埞鎴︽偐鐠囇冧紣闂佺懓鍟跨换鎰版偩閻戣棄绠甸柟鍝勵儜閹风兘骞掗幋顓熷兊闂佺粯鍔﹂崜娆擃敂閸洘鐓熼幖娣�ゅ鎰箾濞村娅囩紒杈╁仦缁楃喖鏁撴禒瀣ュù锝囩《濡插牊淇婇鐐存暠闁哄偊鎷烽梻鍌欑缂嶅﹪宕戞繝鍥у偍闁告挆鍛厠闂佽法鍣﹂幏锟�
 			return;
-		if(mapcfg.getVisibletype() == 2)//閻忓繐绻樺Σ锕傚矗椤栨繍娼�
+		if(mapcfg.getVisibletype() == 2)//闂傚倸鍊搁崐宄懊归崶顒夋晪鐟滃繘骞戦姀銈呯疀妞ゆ棁妫勬惔濠囨⒑瑜版帒浜伴柛鐘愁殔閻ｇ兘宕ｆ径澶岀畾濡炪倖鐗楅悷褏绮旈崸妤佺叆婵犻潧妫Σ褰掓煛閸涱喚绠為柡灞剧〒娴狅箓鎮欓鍌涱吇闂備胶绮幐濠氬垂閻㈢硶锟芥棃宕橀鍢壯囨煕閳╁啰鎳冩い顐庡懐纾藉ù锝囩摂閸ゆ瑧绱掓径瀣唉闁炽儻绠撳畷鍫曨敆娴ｈ顏熼梻浣芥硶閸ｏ箓骞忛敓锟�
 		{
 			final long reqteamid = reqRole.getTeamID();
 			final long addteamid = addRole.getTeamID();

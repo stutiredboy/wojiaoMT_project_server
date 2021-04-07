@@ -24,7 +24,7 @@ public class CGetPetcolumnInfo extends __CGetPetcolumnInfo__ {
 		case PetColumnTypes.DEPOT:
 			if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, roleid))
 				return;
-		case PetColumnTypes.MARKETPET: // 闁硅棄妫欓幉锛勶拷鍦Х婢у潡寮�? add by liangyanpeng
+		case PetColumnTypes.MARKETPET: // 闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ磸閿熸垝鐒︾换婵嬪磻閼恒儳娲寸�规洜鍠栭、鏇狅拷锝庡亞閳藉鏌嶇拠鏌ュ弰妤犵偞锚閻ｇ兘宕堕埡鍌滐拷顐︽⒒閸屾瑧鍔嶉悗绗涘懐鐭欓柟瀵稿閹峰嘲顫濋鐔凤拷鎰殽閻愯尙绠婚柟顔界矒閹稿﹥寰勭�ｎ亞銈跺┑锛勫亼閸婃牠骞愭ィ鍐ㄧ９妞ゆ劧绠戝敮闂侀潧顦介崰姘跺船閻㈠憡鍋℃繝濠傚暟瀛濆銈庡幖濞差參宕规ィ鍐ㄧ疀濞达絽鎲￠鍧楁⒒娴ｈ姤纭堕柛锝忕畵楠炲繘鏁撻敓锟�? add by liangyanpeng
 		case PetColumnTypes.PET:
 			final PetColumn petCol = new PetColumn(roleid, columnid, true);
 			final SGetPetcolumnInfo send = new SGetPetcolumnInfo();

@@ -15,7 +15,7 @@ public class CRuneRequest extends __CRuneRequest__ {
 	@Override
 	protected void process() {
 		// protocol handle
-		//閻犲洭鏀遍惇鎵箔閿旇姤鐎�
+		//闂傚倸鍊搁崐宄懊归崶褏鏆﹂柛顭戝亝閸欏繘鏌℃径瀣婵炲樊浜堕弫鍥煏韫囨洖啸闁告繃顨婂缁樼瑹閸パ冾潻缂備礁顦遍弫璇茬暦閺囥垹绠ｉ柨鏃傛櫕閸橀潧鈹戦悙鑼闁诲繑绻堝鎼佸Χ閸モ晝锛滈梺缁橆焾濞呮洟藟閸儲鐓涢悘鐐额嚙婵倻锟芥鍣崳锝呯暦閸洍锟芥牠顢欓懞銉ョ３闂佸搫鐭夌徊楣冨箚閺冨牜鏁嶆繛鎴烇供娴硷拷
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;

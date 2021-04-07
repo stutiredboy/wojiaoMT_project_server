@@ -954,6 +954,7 @@
 			<Protocol class="fire.pb.pet.CPetAptitudeCultivate" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetDepotColumnAddCapacity" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetExpCultivate" maxSize="65535"/>
+			<Protocol class="fire.pb.pet.CPetInfoReq" maxSize="128"/>
 			<Protocol class="fire.pb.pet.CPetLearnSkillByBook" maxSize="65535"/>
 			<Protocol class="fire.pb.pet.CPetPutOnHuanhua" maxSize="128"/>
 			<Protocol class="fire.pb.pet.CPetRecover" maxSize="65535"/>

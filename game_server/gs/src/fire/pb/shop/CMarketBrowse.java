@@ -36,7 +36,7 @@ public class CMarketBrowse extends __CMarketBrowse__ {
 				long excuteTime = endTime - beginTime;
 				if (excuteTime > 20) {
 					StringBuilder sbd = new StringBuilder();
-					sbd.append("闁瑰嘲绉村畷鐘裁硅箛姘兼綌闂侇剚鎸搁崣鍧楁偨閵婏附顦ч柨锟�?").append(excuteTime).append("婵綆鍋嗛～锟�");
+					sbd.append("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀缁犵娀鏌熼幑鎰靛殭閹兼潙锕弻銈囧枈閸楃偛顫梺娲诲幗閹瑰洭寮婚埄鍐ㄧ窞閻庯綆浜炴禒濂告⒑閸濆嫭锛旂紒鐘虫崌瀵鏁愰崨鍌滃枎閳诲酣鎮欓鑺ュ瘶缂傚倷鑳堕搹搴ㄥ储婵傜绠犻柟鎵閸嬵亪鏌ㄩ悢缁橆棄闁宠鍨块、娆撴儗椤愵偂閭�规洏鍎抽敓鏂ょ秵閸撴稓绮堟繝鍕舵嫹閻у憡瀚归梺鍛婃处閸忔﹢骞忕紒妯肩闁瑰墽顥愭竟妯荤箾鐏炲倸锟芥牠寮查崼鏇ㄦ晬闁绘劕顕崢鐢告⒑閸涘﹦鈽夐柨鏇樺劦瀹曟劙骞囬鍡樺閻熸瑥瀚粚璺ㄧ磽瀹ュ嫮顦﹂柣锝夘棑缁瑧鎷犻悙顒佲拹闁瑰嘲鎳樺褰掑箛椤旀儳顦╅梻鍌氬�搁崐椋庢濮橆剦鐒界憸鏃堝灳閿曞偆鏁囬柕蹇婃閹稿啴姊洪崨濠冨闁搞劋绶氬畷鍫曨敂瀹ュ棌鏋岄梻鍌欑閹碱偆鎮锕�绀夐柟杈剧畱閺嬩線鏌熼崜褏甯涢柡鍛倐閺屻劑鎮ら崒娑橆伓?").append(excuteTime).append("婵犵數濮烽弫鍛婃叏閻㈠壊鏁婇柡宥庡幖闂傤垱銇勯弽銊х煂缂侊拷婵犲洦鐓曢柍鈺佸暟閳藉鐥幆褜鐓奸柡灞剧洴閸╁嫰宕橀妸銉︾亞缂傚倸鍊哥粔鐢告偋閻樿钃熼柕濞炬櫆閸嬪棝鏌涚仦鍓р槈妞ゅ骏鎷�");
 					fire.pb.shop.srv.market.MarketManager.LOG.error(sbd.toString());
 				}
 				return true;

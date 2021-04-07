@@ -14,7 +14,7 @@ abstract class __CSendRedPackView__ extends mkio.Protocol { }
 public class CSendRedPackView extends __CSendRedPackView__ {
 	@Override
 	protected void process() {
-		//缂佷勘鍨圭�垫﹢鎮惧畝鍕〃
+		//缂傚倸鍊搁崐鎼佸磹閹间礁纾圭�瑰嫰鍋婂〒濠氭煙閻戞﹩娈旂紒锟界�ｎ偅鍙忔俊銈咁儐鐎氬綊鎮楃憴鍕缂傚秴锕ら悾鐑芥倻缁涘鏅ｉ梺闈涱煭缁犳垿顢旈崼鏇熲拺闁告捁灏欓崢娑㈡煕鐎ｎ偅宕岄柟铏崌瀹曠螖娴ｅ搫骞嶆俊鐐�栧Λ浣肝涢崟顖氱闁靛牆顦伴悡鐔兼煥濠靛棙顥犵紒鐘靛仧閿熷�燁潐濞叉粓宕伴弽顓滐拷浣肝旀担鐟邦�撶紒鐐緲椤︽壆锟芥艾缍婇弻銊╂偆閸屾稑顏�
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;

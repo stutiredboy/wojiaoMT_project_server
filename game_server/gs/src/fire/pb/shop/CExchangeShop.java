@@ -24,13 +24,13 @@ public class CExchangeShop extends __CExchangeShop__ {
 
 		fire.pb.shop.SGoods goods = fire.pb.shop.Module.sGoodsMap.get(goodsid);
 		if (null == goods) {
-			mkdb.Trace.info("婵炲备鍓濆﹢浣烘嫚閵夈儲娅岄柛婵呯" + goodsid + "]");
+			mkdb.Trace.info("婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾剧粯绻涢幋鐐垫噧缂佸墎鍋ら弻娑㈠Ψ椤旂厧顫╃紓渚婃嫹闁割偆鍠撶弧锟介梻鍌氱墛缁嬫帡鏁嶉弮鍫熺厾闁哄娉曟禒銏ゆ婢舵劖鐓ユ繝闈涙閹兼劙鏌涢弬娆惧剶闁诡喗顨呴～婵嬵敇閻愬弶鎳欓梻浣告惈閺堫剙煤濡警鍤楅柛鏇ㄥ灠闁卞洦绻濋棃娑欘棞妞ゎ偅纰嶇换婵嬫偨闂堟稐绮堕梺鐟板暱闁帮綁骞嗗畝鍕＜闁绘劘灏幗鏇炩攽閻愭潙鐏﹂懣銈夋煛閿熻姤绂掔�ｎ偆鍘卞┑鐐村灥瀹曨剟鎮橀柆宥嗙厱闁绘洖鍊圭�氾拷" + goodsid + "]");
 			return;
 		}
 
 		fire.pb.shop.SNpcSale ns = fire.pb.npc.NpcManager.getInstance().getNpcSale(shopid);
 		if (ns == null || !ns.getGoodsids().contains(goodsid)) {
-			mkdb.Trace.info("闁稿繑鍨跺畷鏌ュ疮閸℃鏆楁繛灞稿墲濠�浣烘嫚閵壯冣挅闁革拷?.shopid:" + shopid + "goodsid:" + goodsid);
+			mkdb.Trace.info("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ磵閿熸枻绠撳畷濂稿閳ュ啿绨ラ梻浣侯攰閹活亞绮婚幋锕�鍨傞柛宀�鍋為崑锝呂旈敂钘夘嚋妞ゅ繒濞�閺岋繝宕遍鐘垫殼闂佸搫鐭夌槐鏇熺閿旂偓瀚氶柟缁樺笒椤捇姊绘担鍦菇闁稿鍊濆畷鎶芥晲婢跺﹨鎽曞┑鐐村灟閸ㄥ綊鎮炲ú顏呯厱闁归偊鍠栨禍楣冩煟閿濆懌鍋㈡慨濠冩そ瀹曨偊宕熼澶嬶紒婵＄偑鍊戦崝灞轿涘☉銏犵闁靛繒濮Σ鍫熸叏濮楀棗浜濋柛鏇炲暟缁辨挻鎷呴崜鎻掑壈闂佽绻戠换鍫ュ春濞戞瑥绶炲┑鐐靛亾閺傦拷闂備胶绮悷銉╁箠韫囨洩鎷峰鎰佹綈缂佺粯绋掑蹇涘礈瑜庨崑褔姊虹粙璺ㄦ槀闁稿﹥顨婇弫鎾绘嚍閵壯屾殹閻庣櫢鎷烽柟闂寸閽冪喖鏌￠崶鈺佹灁闁绘繆鍩栭妵鍕冀閵娿劌顥濋梺鍝勬閿曨亪寮婚悢铏圭煓闁圭楠稿▓妤�鈹戦纭锋敾婵＄偠妫勮灋闁告劦鍠栭悡娑㈡煕鐏炴儳鍤ù纭锋嫹?.shopid:" + shopid + "goodsid:" + goodsid);
 			return;
 		}
 

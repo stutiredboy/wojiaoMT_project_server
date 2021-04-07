@@ -21,7 +21,7 @@ public class GAddPowerRestore extends __GAddPowerRestore__ {
 		Role role = RoleManager.getInstance().getRoleByID(roleid);
 		if(role == null)
 		{
-			fire.pb.scene.SceneManager.logger.error("GAddPowerRestore闁哄啳顔愮槐婕磑le濞戞挾鐨爑ll闁挎稑顔憃leid=" + roleid);
+			fire.pb.scene.SceneManager.logger.error("GAddPowerRestore闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偞鐗犻、鏇㈡晝閿熶粙鎮块锟介弻鐔煎礈娴ｇ儤鎲橀梺杞扮閿曨亪寮婚悢鍏肩劷闁挎洩鎷烽柡瀣枑閵囧嫰顢曢敐鍡欘槰缂備胶绮换鍫濐嚕閹绢喗鍋戦柨鐔绘铻為柡澶嬫敤濠电姷鏁告慨鐑藉极閹间礁纾婚柣鎰惈閸ㄥ倿鏌涢锝嗙缂佺姵婢樿灃闁挎繂鎳庨弳鐐烘煕鎼达紕效闁哄矉缍佸浠嬪Ω閵夛附娈闂傚倸鍊搁崐鎼佸磹閻戣姤鍊块柨鏃�鎷濋幏椋庣箔濞戞ɑ鍣介柣顓熺懇閺岀喐娼忛幆褏妲ｉ梺杞扮閿曨亪寮婚悢鐓庣闁圭儤鍨垫慨绡筰d=" + roleid);
 			return;
 		}
 		if(role.getJumpRole() == null)

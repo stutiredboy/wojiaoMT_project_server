@@ -25,7 +25,7 @@ public class COneKeyApplyTeamInfo extends __COneKeyApplyTeamInfo__ {
 			{					
 				Team team = null;
 								
-				team = TeamManager.getTeamByTeamID(teamid);	//闁哄牆顦靛Σ锕傚礂閸喎惟闂傚啰鍠嶇槐鐐烘煥娴ｉ绉� by changhao	
+				team = TeamManager.getTeamByTeamID(teamid);	//闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偞鐗犻、鏇㈡晜閽樺缃曢梻浣虹《閸撴繈鎽傜�ｎ喖鐐婃い鎺嶇贰濡啫鈹戦悙宸殶妞ゆ帟灏欑槐鐐寸瑹閿熻棄顕ｉ锕�绀冩い鏃囧亹閿涙粌鈹戦鏂よ�跨痪顓狀焾鍗辨い鏍仦閳锋帒霉閿濆浂鐒炬い銉ョ箻閺屾稓锟斤綆浜濋ˉ銏拷瑙勬礈婢ф骞嗛弮鍫濐潊闁绘ɑ褰冮～濠囨⒒閸屾艾锟芥悂宕愰幖浣哥９闁归棿绀佺壕褰掓煙闂傚顦﹂柣銈庡枛闇夐柛蹇撳悑缂嶆垹绱掗幇顓ф畼闁跨喕妫勭粻宥夊磿閸楃伝娲晝閸岋妇绋忛梺鍝勬储閸ㄦ椽鎮￠悢鍏肩厵闂侇叏绠戦弸娑㈡煕閺傛鍎旈柡宀嬬秮楠炴﹢宕￠悙鎻掝潛闂傚倸娲らˇ鐢稿蓟閵娿儮鏀介柛鈾�鏅滈埢鎾斥攽閳藉棗浜濋柛銊ユ贡濡叉劙骞掗幘宕囩獮濠电偞鍨堕悷銉╊敂閿燂拷 by changhao	
 				if (team != null)
 				{
 					SOneKeyApplyTeamInfo msg = new SOneKeyApplyTeamInfo();

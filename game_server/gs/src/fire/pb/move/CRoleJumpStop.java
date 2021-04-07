@@ -26,11 +26,11 @@ public class CRoleJumpStop extends __CRoleJumpStop__ {
 		
 		if(! role.isJumping()) return;
 		
-		//checkmove 濞戯拷?婵烇拷?
+		//checkmove 濠电姷鏁告慨鐑藉极閹间礁纾婚柣鎰惈閺勩儱鈹戦悩鍙夋悙缂佺媭鍨堕弻銊╂偆閸屾稑顏�?婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾惧潡鏌熸潏鍓х暠缂佺媭鍨堕弻銊╂偆閸屾稑顏�?
 		/*final long curTick = System.currentTimeMillis();
 		if(!CCheckMove.checkmove(role,sceneid, destpos, poslist,curTick))
 		{
-			return;//checkmove婵炲备鍓濋崹姘跺礉?
+			return;//checkmove婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾剧粯绻涢幋鐐垫噧缂佸墎鍋ら弻娑㈠Ψ椤旂厧顫╃紓渚婃嫹闁割偆鍠撶弧锟介梻鍌氱墛娓氭宕曡箛娑欑厱闁靛鍎遍敓钘夌秺楠炲牓濡搁妷搴ｅ枛楠炴劖鎯旈敐鍐挎嫹閹邦喚纾藉〒姘攻鐎氬綊姊虹捄銊ユ珢闁瑰嚖鎷�?
 		}*/
 		Position stoppos = new Position(destpos.x, destpos.y, destz);
 		role.stopJump(stoppos);

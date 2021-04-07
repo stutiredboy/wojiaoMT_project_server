@@ -27,7 +27,7 @@ abstract class __CRequestParticleSkillList__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 閻犲洭鏀遍惇鐗堢┍椤旀儳浠归柟锟�?闁艰櫕鍨濇穱濠囧箒? by changhao
+ * 闂傚倸鍊搁崐宄懊归崶褏鏆﹂柛顭戝亝閸欏繘鏌℃径瀣婵炲樊浜堕弫鍥煏韫囨洖啸闁告繃顨婂缁樼瑹閸パ冾潻缂備礁顦遍弫璇茬暦閺囥垹绠ｉ柨鏃傛櫕閸樿棄鈹戞幊閸娧囧箯閻戣姤鐓熸俊銈忔嫹缂佺粯锕㈠畷娲倷瀹割喖鎮戦梺绯曞墲閸旀帞鑺辨繝姘拺闁告繂瀚弸锕傛煙妞嬪骸鍘撮柡灞剧♁閹棃濡堕崱娆忔锭缂傚倷绀侀崐鍦暜閻旂厧桅闁圭増婢樼粻鎶芥煙閹规劖纭炬鐐茬Ч濮婄粯鎷呴懞銉с�婇梺闈╃秶缁犳捇鐛箛娑欐櫢闁跨噦鎷�?闂傚倸鍊搁崐鎼佸磹瀹勬噴褰掑炊閵娧呭骄闂佸壊鍋呯缓楣冨几瀹ュ鐓涢柛銉ｅ劚閻忊晠鏌涢妸銉ワ拷鍦崲濠靛顥堟繛鎴炵懃缁愭盯姊哄畷鍥ㄥ殌缂佸鎸抽崺鐐哄箣閿旇棄浜归梺鍛婄懃椤︿即骞冨▎鎴犵＝濞达絽鎼鎾绘煙閸戙倖瀚�? by changhao
  *
  */
 
@@ -73,7 +73,7 @@ public class CRequestParticleSkillList extends __CRequestParticleSkillList__ {
 				SkillRole skillrole = new SkillRole(roleid);
 				int size = skillrole.getPracticeSkills().size();
 							
-				if (size == 0) //鐎碉拷?濠殿喖顑呴崹鍨叏鐎ｎ亜顕� by changhao
+				if (size == 0) //闂傚倸鍊峰ù鍥敋瑜嶉湁闁绘垵顫曢敓钘夊�块、姘舵晸娴犲宓侀煫鍥ㄧ♁閺呮悂鏌ㄩ悤鍌涘?濠电姷鏁告慨鐑藉极閸涘﹥鍙忛柣銏犲閺佸﹪鏌″搴″箹缂佹劖顨婇弻鈥愁吋鎼粹�冲闂佽桨绀佺�氫即寮诲☉妯锋婵炲棙鍔楃粙鍥⒑閹肩偛濡奸柛濠傛健瀵鈽夐埗鈺嬫嫹閿曞倸绠ｆ繝闈涙噽閸戝綊姊绘担鍛婂暈闁荤喆鍎抽幑銏狀潨閿熶粙鐛崘銊庢棃宕ㄩ鑺ョ彸闂佸湱鍘ч悺銊ф崲閸曨垱鍎庨幖绮规濞撳鏌曢崼婵囶棡缂佸苯娼￠弻鐔煎礄閵堝棗顏� by changhao
 				{										
 					java.util.Map<Integer, fire.pb.skill.SLifeSkill> config = ConfigManager.getInstance().getConf(fire.pb.skill.SLifeSkill.class);
 					

@@ -25,7 +25,7 @@ public class GCountNpcSize extends __GCountNpcSize__ {
 		// protocol handle
 		DynamicScene ds = SceneManager.getInstance().getSceneByMapAndOwner(mapid, ownerid);
 		if (ds == null) {
-			SceneManager.logger.error(new StringBuilder().append("缂備胶鍠曢鎼佸礉閵婏拷?娴ｅ憡绨氶柡鍛４pc闁轰椒鍗抽崳锟�:")
+			SceneManager.logger.error(new StringBuilder().append("缂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌ｉ幋锝呅撻柛銈呭閺屾盯顢曢敐鍡欘槬缂備焦鍔栭〃濠囧蓟閿熺姴鐐婇柕澶堝劤閸旀挳姊烘潪鎵槮婵炲樊鍙冨濠氭偄閸忓皷鎷婚柣搴ㄦ涧婢瑰﹤危椤斿墽纾藉〒姘攻鐎氳绻濋姀锝呯厫闁告梹鐗犻幃陇绠涢幘顖涙杸闂佺粯顭堢亸娆戠不閺屻儲鍊垫慨妯煎亾鐎氾拷?婵犵數濮烽弫鎼佸磻閻樿绠垫い蹇撴缁躲倕霉閻樺樊鍎忕紒鐘靛枛閺屻劌鈽夊Ο渚紓婵犳鍠涘▍鏇㈠箞閵娿儙鐔煎垂椤旀儳甯块梻浣虹帛閹稿鎯勯鐐茶摕婵炴垶菤濡插牓鏌涘Δ鍐ㄤ户濞寸媭鍙冨娲箰鎼达絺妾ㄩ梺鐚存嫹缂佸弶宀稿濠氬磼濮橆剨鎷峰畡鎳婂綊宕惰濞存牠鏌曟繛鍨姶婵炴挸顭烽弻鐔兼倻濮楀棙鐣剁紒缁㈠弿閹风兘姊绘担绛嬫綈闁稿海鍘ц灋闁告洦鍨遍埛鎺撱亜閺嶎偄浠﹂柣鎾卞劦閺岋綁寮撮悙璇ф嫹閸︻叏鎷峰鐐:")
 					.append(",ownerid:").append(ownerid)
 					.append(",mapid:").append(mapid));
 			return;

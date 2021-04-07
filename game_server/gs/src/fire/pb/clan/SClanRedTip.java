@@ -17,7 +17,7 @@ public class SClanRedTip extends __SClanRedTip__ {
 		// protocol handle
 	}
 
-	public static final int TYPE_APPLY=1;//闁汇垹鐤囬锟�
+	public static final int TYPE_APPLY=1;//闂傚倸鍊搁崐鎼佸磹閻戣姤鍊块柨鏇炲�归崕鎴犳喐閻楀牆绗掗柛銊ュ�婚幉鎼佹偋閸繄鐟查梺绋款儛娴滎亪寮诲☉銏犖ㄦい鏃傚帶閳锋帡姊烘潪鎵槮妞ゆ垵顦靛濠氬Ω閳哄倸浜為梺绋挎湰缁嬫垿顢旈敓锟�
 	
 	// {{{ RPCGEN_DEFINE_BEGIN
 	// {{{ DO NOT EDIT THIS

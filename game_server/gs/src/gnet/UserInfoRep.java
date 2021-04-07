@@ -54,7 +54,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				info.setUsername(octstream.unmarshal_String("UTF-8"));
 				info.setNickname(nickNameStr);
 				
-				//鐟欙絾鐎介崙鐑樼闁挸鎮曠�涳拷
+				//闂傚倸鍊峰ù鍥х暦閻㈢绐楅柟鎵閸嬶繝寮堕崼姘珔缂佽翰鍊曡灃闁挎繂鎳庨弳鐐烘煕婵犲洦娑ч棁澶愭煟濡儤鈻曢柛搴＄箳缁辨帡鏁撴禒瀣妞ゆ牗绋撻崢浠嬫⒑閻熼偊鍤熼柛搴㈠姍閹偤鎳為妷锝勭盎闂佺懓鐡ㄧ换鍕櫠閿旇姤鍙忓┑鐘插暞閵囨繃銇勯姀鈽嗘畷闁瑰嘲鎳橀幃鐑藉箥椤曞懏娈归梻鍌氬�峰ù鍥敋閺嶎厼绐楁俊銈忔嫹閻撱倖绻濇繝鍌滃闁哄懏鎮傞弻銈夊箒閹烘垵濮庨梺鍝ュУ濞茬喖寮婚悢鐓庣闁靛牆妫楅锟�
 				String userNameStr = info.getUsername();
 //				String userNameStr = "1234567890@@yingyongbao@2";
 				String [] str = userNameStr.split("@");
@@ -115,7 +115,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 				sb.append(",loginip:"+loginip);
 				//xdb.Trace.info(sb.toString());
 				StateManager.logger.info(sb.toString());
-				//閹绘帒鍙嗘导姘跺櫢婢讹拷
+				//闂傚倸鍊搁崐椋庣矆娴ｉ潻鑰块弶鍫氭櫅閸ㄦ繃銇勯弽銊х煁闁哄棙绮撻弻鐔兼倻濮楀棙鐣堕梺娲诲幗椤ㄥ﹪寮诲☉銏犵労闁稿繒濯禍顏堛�佸顓熺秶闁靛绠戝鍨攽閳藉棗鐏￠悗绗涘懏鍏滈柣鎰靛墰缁犻箖鏌涘☉鍗炰簻闁诲繆鏅滈妵鍕敇閳╁啰銆婇梺鐟板槻椤戝洭骞夐幘顔肩妞ゆ劦鍋傜槐锟�
 				xtable.Auuserinfo.remove(userid);
 				xtable.Auuserinfo.add(userid, info);
 				return true;
@@ -128,7 +128,7 @@ public class UserInfoRep extends __UserInfoRep__ {
 						return entry.getValue();
 				}
 			
-				//婵″倹鐏夊▽鈩冩箒閹垫儳鍩�,姒涙顓婚弰鐥憂droid
+				//婵犵數濮烽弫鍛婃叏閻戝锟藉倹绂掔�ｎ偅娅㈤梺鑺ッˇ顖炲汲闁秵鐓ラ柣鏃傜帛椤ュ绱撳鍜冭含妤犵偛鍟灒閻犲洩灏欑粣鐐寸節閻㈤潧浠ч柛瀣崌閹繝濮�閵堝棌鎷洪梺鍝勫�堕崕鎻掆枍閸涘瓨鐓曢柣鏇氱閻忥絿绱掗纰辩吋妤犵偞甯掕灃濞达絽鎼獮宥夋⒒娴ｇ顥忛柣鎾崇墦瀹曟垿宕熼姘鳖槷闂侀潧鐗嗛ˇ浼存偂閺囥垺鐓冮柛婵嗗閸庢劙鎮楀鐐,婵犵數濮甸鏍窗濡ゅ啯鏆滄俊銈呭暟閻瑩鏌熼悜妯镐粶闁跨喐鏋荤粻鎾崇暦婵傜唯妞ゆ棁濮ゅ▍宥呪攽閻樺灚鏆╁┑顔炬暬閹虫繃銈ｉ崘銊х厬婵犵數濮村ú锕傛偂閻斿吋鐓忓鑸电〒閻ｉ亶鏌℃担鍙夋疁roid
 				return "2";
 
 			}

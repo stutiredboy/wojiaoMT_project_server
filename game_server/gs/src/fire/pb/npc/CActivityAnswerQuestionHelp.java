@@ -46,7 +46,7 @@ public class CActivityAnswerQuestionHelp extends __CActivityAnswerQuestionHelp__
 					{
 						long lasttime = activityquestion.getActivityquestionstarttime();
 						
-						if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //濠碘�冲�归悘澶嬬▔瀹ュ棙笑闁告艾濂旂粩瀛樺緞閵堟脯 changhao
+						if (!fire.pb.util.DateValidate.inTheSameDay(lasttime, now)) //濠电姷鏁告慨鐑藉极閸涘﹥鍙忛柣鎴濐潟閿熻棄鍊圭粋鎺旓拷锝庡亝濞呫垽姊洪懞銉冾亪藝椤栫偛姹查梺顒�绉甸悡銉╂煟閺冨倻甯涙い銉ヮ槺缁辨挸顓奸崪鍐惈濡ょ姷鍋涢崯顐ョ亽闁荤姴娲╃亸娆戠玻閻愮儤鐓熼幖鎼灣缁夌敻鏌涜箛鏃撹�跨�殿喗鎮傚浠嬵敇閻斿嚖鎷烽崹顐闁绘劘灏欐禒銏ゆ煕閺冿拷绾板秵绌辨繝鍥舵晝闁挎繂娲﹂崳顕�姊洪懡銈呮殌闁搞儯鍔夐幏缁樼箾鏉堝墽鍒伴柟璇х節瀹曨垶鎮欓悜妯煎幘闂侀潻瀵岄崢鍏肩閸撗呯＜閺夌偞澹嗛惌娆戯拷娈垮櫘閸ｏ絽鐣烽幒鎴叆闁告劑鍔忚闂傚倷娴囬褏锟芥稈鏅濈划娆撳箳濡や焦娅旂紓鍌氬�风粈浣规櫠鎼淬劌纾婚柕鍫濐槸閽冪喖鏌￠崶銉ョ仼闂佸崬娲弻锝夊籍閸ヨ泛娈繝娈垮櫙閹凤拷 changhao
 						{
 							return true;
 						}

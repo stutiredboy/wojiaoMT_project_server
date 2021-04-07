@@ -28,7 +28,7 @@ abstract class __CLiveSkillMakeFood__ extends mkio.Protocol { }
 // RPCGEN_IMPORT_END }}}
 
 /***
- * 闁告帗婀圭紞鏃�顦伴悢鍝勨挅
+ * 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偛顦甸弫宥夊礋椤掍焦顔囨繝寰锋澘锟窖囧箯閻戣姤鐓ラ柡鍥悘鑼拷瑙勬礈閸忔﹢銆佸锟介幃鈺佲枔閹稿巩锕傛⒒閸屾瑧顦﹂柟纰卞亰瀹曟澘鈽夐姀鐘殿唵闂備礁鐏濋鍐╃濠婂牊鐓ラ柡鍌濇硶娴犮垻锟借鎸稿Λ婵嬪蓟閻旂⒈鏁婇柛婵嗗娴煎牓鎮楃憴鍕闁稿锕ら悾鐑芥偄閻撳宫鈺呮煥閺囶亝瀚归梺浼欒閹凤拷
  * @author changhao
  *
  */
@@ -47,7 +47,7 @@ public class CLiveSkillMakeFood extends __CLiveSkillMakeFood__ {
 			{
 				SkillRole skillrole = new SkillRole(roleid);
 				
-				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_COOKING);	//鐎电増顨呴崺宀勬偨閻斿憡銇熼柟锟�?闁煎磭鏅悺鎴犵棯? by changhao			
+				xbean.LiveSkill liveskill = skillrole.getLiveSkills().get(LiveSkillManager.LIVE_SKILL_TYPE_COOKING);	//闂傚倸鍊峰ù鍥敋瑜嶉湁闁绘垼妫勯弸渚�鏌涘☉姗堟敾婵炲懐濮垫穱濠囧Χ閸涱喖娅￠梺璺ㄥ枙濡嫰宕弶鎴犳殾闁靛ň鏅涚痪褔鏌熺�电浠︾悮锝夋⒑鐠囧弶鎹ｆ繛鍛灲楠炲繘鎮滈懞銉у幈闂佸搫娲㈤崝灞炬櫠椤旀祹褰掓偐閾忣偁浠㈠┑顔硷龚濞咃絿妲愰幒鎳崇喖鎳￠妶鍛辈闂傚倷鑳堕、濠囶敋濠婂懏宕叉繝闈涙矗缁诲棝鏌ｉ姀鐘冲暈闁稿瀚伴弻娑滅疀濮橆兛姹楅梺鍛婎焽閺佽顫忛搹瑙勫磯闁靛鍎查悵銏ゆ⒑閻熸澘娈╅柟鍑ゆ嫹?闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀閸屻劎鎲歌箛鏃傜彾闁哄洢鍩勯弫鍥煏韫囨洖啸闁哄睙鍐炬富闁靛牆妫楁慨褔姊婚崟顐㈩伃鐎规洘鍨挎俊鑸靛緞鐎ｎ剙骞嶉梺璇叉捣閺佹悂鈥﹂崼婵囨瘎濠电姷顣藉Σ鍛村磻閹捐绠柨鐕傛嫹? by changhao			
 				if (liveskill == null)
 				{
 					psend(roleid, new SSkillError(SkillConstant.SkillError.SkillLevelNotEnough));
@@ -57,7 +57,7 @@ public class CLiveSkillMakeFood extends __CLiveSkillMakeFood__ {
 				int skilllevel = liveskill.getLevel();
 						
 				boolean energyenough = LiveSkillManager.getInstance().ConsumeMakeEnergy(roleid, 
-						LiveSkillManager.LIVE_SKILL_TYPE_COOKING, skilllevel,"闁告帗婀圭紞鏃�顦伴悢鍝勨挅",
+						LiveSkillManager.LIVE_SKILL_TYPE_COOKING, skilllevel,"闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偛顦甸弫宥夊礋椤掍焦顔囨繝寰锋澘锟窖囧箯閻戣姤鐓ラ柡鍥悘鑼拷瑙勬礈閸忔﹢銆佸锟介幃鈺佲枔閹稿巩锕傛⒒閸屾瑧顦﹂柟纰卞亰瀹曟澘鈽夐姀鐘殿唵闂備礁鐏濋鍐╃濠婂牊鐓ラ柡鍌濇硶娴犮垻锟借鎸稿Λ婵嬪蓟閻旂⒈鏁婇柛婵嗗娴煎牓鎮楃憴鍕闁稿锕ら悾鐑芥偄閻撳宫鈺呮煥閺囶亝瀚归梺浼欒閹凤拷",
 						YYLoggerTuJingEnum.tujing_Value_liveskillcost, false);
 				
 				if (energyenough == false)

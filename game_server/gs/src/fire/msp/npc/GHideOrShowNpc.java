@@ -28,7 +28,7 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 		java.util.List<fire.pb.scene.movable.NPC> npcs = SceneNpcManager.getInstance().getNpcByID(npcid);
 		if (!npcs.isEmpty()){
 			if (state == 0){
-				// 闁哄嫬澧介妵锟�    婵烇綀顕ф慨鐐烘焻濮樿京鍙�閻庡箍鍨洪崺娑氱博椤栨稑娼戦柛鏃傚殬PC
+				// 闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗〒姘炬嫹妤犵偞鐗犻、鏇㈠Χ韫囨柨顏跺┑顔筋焽閸樠勬櫠椤栫偞鐓涢柛娑欐緲閻撴劗绱掗崒娑樼闁跨喐鏋荤紞鍡涙晸缁涘寮跨紒鐘虫崌瀵濡搁埡鍌氫簽闂佺鏈粙鎴︻敂閿燂拷    婵犵數濮烽弫鍛婃叏閻戣棄鏋侀柟闂寸绾惧潡鏌熺�电啸缂侊拷婵犲洦鐓ラ柣鏃囶嚙琚氶梺闈涙搐鐎氭澘顕ｉ幘顔煎耿婵°倧鎷锋い蹇ｄ邯閺屾稑鈻庤箛鏇狀啋闂佸搫鐭夌紞渚�鐛崶顒夋晩闁绘挸楠搁‖鍡涙⒒娴ｈ櫣甯涢悽顖滃仧閸掓帡顢涢悙鑼杽闂侀潧顭堥崕娆撴偄缁嬭法绐炵紓浣割儐鐎笛囧磿閹剧粯鈷掑ù锝呮啞閸熺偤鏌ｉ悢闂存喚妤犵偛绻橀幃婊堟嚍閵夈垺瀚奸梺鑽ゅТ濞诧箓鎮￠敓鐙�鏁佹俊銈呭暟绾惧ジ鏌ｅΟ鍨毢閺佸牓鎮楃憴鍕闁硅櫕鎸鹃崣鍛渻閵堝懐绠伴悗姘煎幖鍗辨い鎺炴嫹闁宠鍨块幃娆撳级閹寸姳妗撴繝娈垮枟鑿ч柛鏃�鍨甸悾鐑藉灳閹颁焦鍍靛銈嗘尰缁牏鑺辨繝姘拺闁告繂瀚ⅹ闂佸憡鏌ㄩ柊锝夊春閵夛箑绶為悗锝庡墰椤旀洟姊虹粙璺ㄧ闁告鍥ㄥ�堕柟缁㈠枟閻撴盯鎮橀悙鎻掆挃婵炴彃顕敓鑺ヮ問閸ｎ噣宕抽敐鍛殾闁圭儤鍩堝鈺傘亜閹炬鍟弳妤禖
 				for (fire.pb.scene.movable.NPC npc : npcs){
 					npc.setVisible(true);
 					final SAddUserScreen snd = new SAddUserScreen();
@@ -37,7 +37,7 @@ public class GHideOrShowNpc extends __GHideOrShowNpc__ {
 				}
 			}
 			else if (state == 1){
-				// 闂傚懏鍔樺Λ锟�
+				// 闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌熼梻瀵割槮缂佺姷濞�閻擃偊宕堕妸褉妲堢紓渚婃嫹濠㈣泛顑勭换鍡樸亜閺嶃劎鎳呯紒澶嬪缁绘盯骞嬪▎蹇曚痪闂佸搫鎳忛幃鍌炲蓟閵娾晜鍋嗛柛灞剧☉椤忥拷
 				for (fire.pb.scene.movable.NPC npc : npcs){
 					npc.setVisible(false);
 					final SRemoveUserScreen snd = new SRemoveUserScreen();

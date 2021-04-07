@@ -14,7 +14,7 @@ abstract class __CPlayPKFightView__ extends mkio.Protocol { }
 public class CPlayPKFightView extends __CPlayPKFightView__ {
 	@Override
 	protected void process() {
-		//闁瑰灝鍊歌ぐ瀵革拷鐢电帛婢规锟戒絻顫夋晶婊堟偩瀹�鍕〃
+		//闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ礀缁犵娀鏌熼崜褏甯涢柛濠呭煐缁绘繈妫冨☉鍗炲壈缂佺偓宕橀～澶愬箞閵娿儮鏀介柛鈩冨嚬濞艰埖绻涚�涙鐭婄紓宥咃躬楠炲啫螖閸涱喖浠洪梺鍛婄☉閿曪絽顫濋敃鍌涒拺鐟滅増甯╁Λ鎴︽煕韫囨棑鑰挎鐐插暞缁傛帞锟斤綆鍋勬禒娲⒒閸屾氨澧涚紒瀣崌椤㈡洟鎮℃惔妯绘杸闂佺粯锕╅崰鏍倶鏉堛劊浜滄い鎰╁焺濡拷闂佺偨鍎荤粻鎾崇暦閸洦鏁嗗ù锝堫潐椤忕喖姊绘担鐑樺殌闁宦板妿閺侇噣鎮欓悽鐢电劸闂備礁鐏濋鍐╃濠婂嫨浜滈柟鎵虫櫅閻掔儤淇婇幓鎺旂Ш闁哄矉绻濆畷銊╂偋閸偓锟芥劕顪冮妶搴″箲闁告梹鍨甸悾閿嬬附閸涘﹤浜滈梺鐐壘閸婂綊宕戦崨瀛樷拺閻犲洤寮堕幑锝嗙箾閸涱偄鐏叉鐐茬箻閹粓鎳為妷褍骞堥梻浣告惈濞层垽宕濈仦鐐珷妞ゆ牜鍋為悡蹇涙煕閳藉棗骞楅悗姘炬嫹
 		final long roleid = gnet.link.Onlines.getInstance().findRoleid(this);
 		if(roleid < 0) {
 			return;
