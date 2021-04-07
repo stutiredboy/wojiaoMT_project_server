@@ -529,5 +529,6 @@
 		<variable name="petkey" type="int" validator="value=[1,)" />
 	</protocol>
 	<protocol name="CClearBag" type="1369" maxsize="128"  prior="101" tolua="3"> 
+		<variable name="bagType" type="int" validator="value=[1,)" />	
 	</protocol>
 </namespace>
