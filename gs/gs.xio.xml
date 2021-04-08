@@ -1034,12 +1034,18 @@
 			<Protocol class="fire.pb.school.change.CChangeSchoolExtInfo" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.CChangeWeapon" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.CChongzhuWeapon" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.CDianhuaWeapon" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.CEquipUpgrade" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.COldSchoolList" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.CTaozhuangDianhua" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SChangeGem" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SChangeSchoolExtInfo" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SChangeWeapon" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SChongzhuWeapon" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.SDianhuaWeapon" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.SEquipUpgrade" maxSize="65535"/>
 			<Protocol class="fire.pb.school.change.SOldSchoolList" maxSize="65535"/>
+			<Protocol class="fire.pb.school.change.STaozhuangDianhua" maxSize="65535"/>
 			<Protocol class="fire.pb.shop.CAttentionGoods" maxSize="65535"/>
 			<Protocol class="fire.pb.shop.CBuyMallShop" maxSize="65535"/>
 			<Protocol class="fire.pb.shop.CBuyNpcShop" maxSize="65535"/>
