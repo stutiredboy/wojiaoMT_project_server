@@ -108,7 +108,7 @@
 			<variable name="newSchool" type="int"/> 新职业
 		</protocol>
 
-		<protocol name="CChangeSchoolExtInfo" type="24055" maxsize="65535" prior="1" tolua="3">剩余转换武器、宝石的次数
+		<protocol name="CChangeSchoolExtInfo" type="24055" maxsize="65535" prior="1" tolua="3"> 客户端请求转职后,剩余转换武器、宝石的次数
 			<variable name="oldkey" type="int"/> 旧武器的Key
 		</protocol>
 
@@ -132,7 +132,6 @@
 
 		<protocol name="SChangeGem" type="24060" maxsize="65535" prior="1" tolua="3"> 服务器返回转换宝石成功(转职后开放)
 		</protocol>
-		
 		<protocol name="CChongzhuWeapon" type="24061" maxsize="65535" prior="1" tolua="3"> 客户端申请重铸武器
 			<variable name="oldWuqiKey" type="int"/> 旧武器的Key
 			<variable name="itemID" type="int"/> 道具ItemId
@@ -140,7 +139,30 @@
 
 		<protocol name="SChongzhuWeapon" type="24062" maxsize="65535" prior="1" tolua="3"> 服务器返回重铸武器成功
 		</protocol>
+		
+		<protocol name="CDianhuaWeapon" type="24063" maxsize="65535" prior="1" tolua="3"> 客户端点化装备
+			<variable name="srcWeaponKey" type="int"/> 旧武器的Key
+			<variable name="newWeaponTypeId" type="int"/> 新武器ItemId
+		</protocol>
+
+		<protocol name="SDianhuaWeapon" type="24064" maxsize="65535" prior="1" tolua="3"> 服务器返回点化成功
+		</protocol>
+		
+		<protocol name="CTaozhuangDianhua" type="24065" maxsize="65535" prior="1" tolua="3"> 客户端申请套装打造(转职后开放)
+			<variable name="gemKey" type="int"/>
+			<variable name="newGemItemId" type="int"/>
+		</protocol>
+
+		<protocol name="STaozhuangDianhua" type="24066" maxsize="65535" prior="1" tolua="3"> 服务器返回套装打造成功(转职后开放)
+		</protocol>
+		
+		<protocol name="CEquipUpgrade" type="24067" maxsize="65535" prior="1" tolua="3"> 装备升阶
+			<variable name="gemKey" type="int"/>
+		</protocol>
+
+		<protocol name="SEquipUpgrade" type="24068" maxsize="65535" prior="1" tolua="3"> 服务器返回装备升阶成功
+		</protocol>
 	</namespace>
-	<!-- 转职 协议号从 24051-24062 -->
+	<!-- 转职 协议号从 24051-24068 -->
 
 </namespace>
