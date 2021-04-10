@@ -536,12 +536,12 @@ public class MarketManager implements IMarket {
 			return false;
 		}
 		//创建角色超出七天不绑定手机限制拍卖行和兑换所的使用
-		if(TelBindUtils.isLimitByBindTel(roleId)){
-			StringBuilder sbd = new StringBuilder();
-			sbd.append("role=").append(roleId).append(", 上架道具错误！创建角色超出七天不绑定手机限制拍卖行");
-			LOG.error(sbd.toString());
-			return false;
-		}
+		// if(TelBindUtils.isLimitByBindTel(roleId)){
+		// 	StringBuilder sbd = new StringBuilder();
+		// 	sbd.append("role=").append(roleId).append(", 上架道具错误！创建角色超出七天不绑定手机限制拍卖行");
+		// 	LOG.error(sbd.toString());
+		// 	return false;
+		// }
 		int buyRoleLevel = xtable.Properties.selectLevel(roleId);
 		if (buyRoleLevel < marketLv) {
 			StringBuilder sbd = new StringBuilder();
@@ -961,12 +961,12 @@ public class MarketManager implements IMarket {
 	public boolean buy(long buyRoleId, long id, long saleRoleId, int itemid, int number) {
 		Boolean succ = false;
 		// 创建角色超出七天不绑定手机限制拍卖行和兑换所的使用
-		if (fire.pb.tel.utils.TelBindUtils.isLimitByBindTel(buyRoleId)) {
-			StringBuilder sbd = new StringBuilder();
-			sbd.append("role=").append(buyRoleId).append(", 购买道具错误！创建角色超出七天不绑定手机限制拍卖行");
-			LOG.error(sbd.toString());
-			return false;
-		}
+		// if (fire.pb.tel.utils.TelBindUtils.isLimitByBindTel(buyRoleId)) {
+		// 	StringBuilder sbd = new StringBuilder();
+		// 	sbd.append("role=").append(buyRoleId).append(", 购买道具错误！创建角色超出七天不绑定手机限制拍卖行");
+		// 	LOG.error(sbd.toString());
+		// 	return false;
+		// }
 		if (!MarketUtils.isPayService()) {
 			succ = presellBuy(buyRoleId, id, saleRoleId, itemid, number);
 		} else {
