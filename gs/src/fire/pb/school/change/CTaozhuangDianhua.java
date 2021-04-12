@@ -25,15 +25,15 @@ public class CTaozhuangDianhua extends __CTaozhuangDianhua__ {
 		return 810497;
 	}
 
-	public int gemkey;
-	public int newgemitemid;
+	public int equipkey;
+	public int itemid;
 
 	public CTaozhuangDianhua() {
 	}
 
-	public CTaozhuangDianhua(int _gemkey_, int _newgemitemid_) {
-		this.gemkey = _gemkey_;
-		this.newgemitemid = _newgemitemid_;
+	public CTaozhuangDianhua(int _equipkey_, int _itemid_) {
+		this.equipkey = _equipkey_;
+		this.itemid = _itemid_;
 	}
 
 	public final boolean _validator_() {
@@ -44,14 +44,14 @@ public class CTaozhuangDianhua extends __CTaozhuangDianhua__ {
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
-		_os_.marshal(gemkey);
-		_os_.marshal(newgemitemid);
+		_os_.marshal(equipkey);
+		_os_.marshal(itemid);
 		return _os_;
 	}
 
 	public OctetsStream unmarshal(OctetsStream _os_) throws MarshalException {
-		gemkey = _os_.unmarshal_int();
-		newgemitemid = _os_.unmarshal_int();
+		equipkey = _os_.unmarshal_int();
+		itemid = _os_.unmarshal_int();
 		if (!_validator_()) {
 			throw new VerifyError("validator failed");
 		}
@@ -62,8 +62,8 @@ public class CTaozhuangDianhua extends __CTaozhuangDianhua__ {
 		if (_o1_ == this) return true;
 		if (_o1_ instanceof CTaozhuangDianhua) {
 			CTaozhuangDianhua _o_ = (CTaozhuangDianhua)_o1_;
-			if (gemkey != _o_.gemkey) return false;
-			if (newgemitemid != _o_.newgemitemid) return false;
+			if (equipkey != _o_.equipkey) return false;
+			if (itemid != _o_.itemid) return false;
 			return true;
 		}
 		return false;
@@ -71,16 +71,16 @@ public class CTaozhuangDianhua extends __CTaozhuangDianhua__ {
 
 	public int hashCode() {
 		int _h_ = 0;
-		_h_ += gemkey;
-		_h_ += newgemitemid;
+		_h_ += equipkey;
+		_h_ += itemid;
 		return _h_;
 	}
 
 	public String toString() {
 		StringBuilder _sb_ = new StringBuilder();
 		_sb_.append("(");
-		_sb_.append(gemkey).append(",");
-		_sb_.append(newgemitemid).append(",");
+		_sb_.append(equipkey).append(",");
+		_sb_.append(itemid).append(",");
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -88,9 +88,9 @@ public class CTaozhuangDianhua extends __CTaozhuangDianhua__ {
 	public int compareTo(CTaozhuangDianhua _o_) {
 		if (_o_ == this) return 0;
 		int _c_ = 0;
-		_c_ = gemkey - _o_.gemkey;
+		_c_ = equipkey - _o_.equipkey;
 		if (0 != _c_) return _c_;
-		_c_ = newgemitemid - _o_.newgemitemid;
+		_c_ = itemid - _o_.itemid;
 		if (0 != _c_) return _c_;
 		return _c_;
 	}
