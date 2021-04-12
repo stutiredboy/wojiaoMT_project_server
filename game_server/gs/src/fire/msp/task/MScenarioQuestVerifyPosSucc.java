@@ -34,7 +34,7 @@ public class MScenarioQuestVerifyPosSucc extends __MScenarioQuestVerifyPosSucc__
 			if(task != null) {
 				int teamshare = task.getConf().exeIndo.share;
 				if (teamshare == 0) {
-					//濠电姷鏁告慨鐑藉极閹间礁纾婚柣鎰惈閸ㄥ倿鏌涢锝嗙缂佺姳鍗抽弻娑樷攽閸曨偄濮㈤梺娲诲幗閹瑰洭寮婚悢铏圭＜闁靛繒濮甸悘鍫ユ⒑濞茶骞楁い銊ワ躬瀵顓兼径濠勫幐婵炶揪绲介幉鈥斥枔鐠轰警娓婚柕鍫濆�瑰▍鏃堟煙閸戙倖瀚�?
+					//濠电姷鏁告慨鐑藉极閸涘﹥鍙忛柣鎴ｆ閺嬩線鏌熼梻瀵割槮缁炬儳顭烽弻锝夊箛椤掍焦鍎撻梺鎼炲妼閸婂潡寮诲☉銏╂晝闁挎繂妫涢ˇ銉х磽娴ｅ搫小闁告濞婂璇测槈濡攱鏂�闂佸憡娲﹂崑鍕叏閵忋倖鈷戞繛鑼额嚙楠炴鏌熼悷鐗堝枠鐎殿喖顭烽幃銏ゆ惞閸︻叏绱查梻渚�娼х换鎺撴叏閻㈠憡鍊堕柛顐犲劜閳锋垶绻涢懠棰濆殭妤犵偞顨嗛妵鍕Ω閵夘垵鍚悗娈垮枦椤曆囶敇閸忕厧绶炲┑鐘插楠炴劕鈹戦悙鑸靛涧缂佽弓绮欓獮澶愬灳閺傘儲鐏侀柣鐘烘〃鐠�锕�銆掓繝姘厪闁割偅绻傞敓鐣屾嚀閳诲秹寮崼鐔哄幍闂佸憡鍨崐鏍拷姘炬嫹?
 					new fire.pb.mission.PCommitMajorMission(roleid, scenarioquestid, true).submit();
 				} else {
 					for (long memid : team.getNormalMemberIds()) {

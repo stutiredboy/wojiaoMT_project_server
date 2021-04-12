@@ -148,12 +148,12 @@
 		<protocol name="SDianhuaWeapon" type="24064" maxsize="65535" prior="1" tolua="3"> 服务器返回点化成功
 		</protocol>
 		
-		<protocol name="CTaozhuangDianhua" type="24065" maxsize="65535" prior="1" tolua="3"> 客户端申请套装打造(转职后开放)
-			<variable name="gemKey" type="int"/>
-			<variable name="newGemItemId" type="int"/>
+		<protocol name="CTaozhuangDianhua" type="24065" maxsize="65535" prior="1" tolua="3"> 客户端申请套装打造
+			<variable name="equipkey" type="int"/>
+			<variable name="itemid" type="int"/>
 		</protocol>
 
-		<protocol name="STaozhuangDianhua" type="24066" maxsize="65535" prior="1" tolua="3"> 服务器返回套装打造成功(转职后开放)
+		<protocol name="STaozhuangDianhua" type="24066" maxsize="65535" prior="1" tolua="3"> 服务器返回套装打造成功
 		</protocol>
 		
 		<protocol name="CEquipUpgrade" type="24067" maxsize="65535" prior="1" tolua="3"> 装备升阶

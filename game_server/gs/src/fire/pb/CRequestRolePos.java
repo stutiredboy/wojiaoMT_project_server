@@ -69,7 +69,7 @@ public class CRequestRolePos extends __CRequestRolePos__ {
 					String roleName = pRole.getName();
 					List<String> paras = MessageUtil.getMsgParaList(roleName,mapName,String.valueOf(gridPos.getX()),String.valueOf(gridPos.getY()));
 					fire.pb.talk.MessageMgr.psendMsgNotifyWhileCommit(findroleid, 142709, paras);
-				    //闂傚倸鍊搁崐鎼佸磹妞嬪海鐭嗗ù锝夋交閼板潡姊洪锟界粔鏌ユ晸閽樺锟藉潡銆佸▎鎾崇畾鐟滃繒绮佃箛娑欌拺闁告稑锕ョ�垫瑩鏌涢弴銊ュ妞ゆ柨娲缁樻媴閼恒儳銆婇梺鍝ュТ缁夊爼宕氶幒鎴旀瀻闁规儳鐤囬幗鏇㈡⒑閹稿海绠撻柟宄邦儏閵嗘帡鎳￠妶鍥╋紳婵炶揪缍�閸嬪倿骞嬮敂钘変户闂佸搫鍟悧濠囧煕閹达附鐓曢柨鏃囶嚙楠炴垿鏌ㄩ悢缁橆棄妞ゆ垵顦甸悰顔跨疀濞戞瑦娅㈤梺璺ㄥ櫐閹凤拷
+				    //闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾剧懓顪冪�ｎ亝鎹ｉ柣顓炴闇夐柨婵嗩槹娴溿倝鏌ら弶鎸庡仴婵﹥妞介、妤呮晸閻ｅ瞼鐭撻柡灞诲劜閺呮悂鏌﹀Ο渚Ц闁跨喕妫勫锟犲Υ娴ｇ硶鏋庨柟鎯х－閻ｉ箖鎮峰鍐缂侇喕绲荤粻娑樷槈濞嗗本瀚奸梻浣告啞缁嬫垿鏁冮妷褝鎷烽崹顐ゆ噰闁哄本鐩鎾Ω閵夈儺娼芥俊鐐�栭弻銊ッ洪鐑嗘綎缂備焦蓱婵挳鏌ら幁鎺戝姢闁靛棗锕娲传閵夈儛銏㈢磼婢跺﹦鍩ｇ�规洘宀搁獮鎺楀箣閺冿拷閻庡姊虹憴鍕姢闁汇倕娲獮妤呭即閵忊檧鎷洪梺鍦焾濞撮绮婚幘缁樼厵鐎瑰嫰鍋婇崕蹇涙煏閸℃ê娴柟绛圭節婵″爼宕堕埡瀣棷婵犵數鍋犻幓顏嗙礊閿熶粙鏌涚�ｎ亜锟藉潡鐛�ｎ喗鏅滈柦妯侯槷閹寸兘姊绘担鍛婃儓闁哥噥鍋婇幃褎绻濋崶褏鍘遍梺纭呮彧闂勫嫰鎮￠弴銏＄叆闁哄啫娴傞崵娆愵殽閻愭潙鐏撮柡灞诲姂閹垻绱掑鍡橆棄婵＄偑鍊栭崹鐢杆囬悽鍛婂仒妞ゆ棁娉曢悿锟藉┑鐐村灦閻燂箑鈻嶉姀銈嗏拺閻犳亽鍔屽▍鎰版煙閸戙倖瀚�
 					fire.pb.item.Pack bag = new fire.pb.item.Pack(findroleid, false);
 					int realSub = bag.removeItemById(36253, 1, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_qianlixunzong, 36253, "use qianlixunzongdie",true);
 				    if (realSub!=1)

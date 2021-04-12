@@ -21,7 +21,7 @@ public class GMShutup_Re extends __GMShutup_Re__ {
 					final long now = System.currentTimeMillis();
 					xtable.Userid2forbidtime.remove(dstuserid);
 					if(forbid_time <= 0)
-						return true;//闂傚倸鍊搁崐宄懊归崶褏鏆﹂柣銏㈩焾缁愭鏌熼幍顔碱暭闁稿绻濆鍫曞醇濮橆厽鐝栫紓渚婃嫹濠电姴浼呰ぐ鎺撴櫜闁搞儮鏂傞敓钘夛躬閺岋紕锟斤綆浜炴晥濡ょ姷鍋為悧妤�顭囪箛娑樼鐟滃酣宕戣濮婂搫煤鐠囨彃绠瑰銈忓瘜閸ㄨ泛锕㈡笟锟藉娲箰鎼达絿鐣甸梺缁樻煥濡繈鐛幒鎳虫棃鏁撴禒瀣闁绘绮悡銉╂煟閺囩偛锟藉湱锟芥熬鎷�
+						return true;//闂傚倸鍊搁崐鎼佸磹閹间礁纾圭�瑰嫭鍣磋ぐ鎺戠倞鐟滃繘寮抽敃鍌涚厽闁靛繈鍩勯悞鍓х磼閹邦収娈滈柡宀�鍠栭獮宥夘敊绾拌鲸姣夐梻浣侯焾椤戞垹鎹㈠┑鍡╁殨闁割偅娲栭柋鍥ㄦ叏濮楀棗骞楅柣婵囩墱缁辨挻绗熸繝鍐伓濠电姷鏁告慨瀛樺閸涜埇浜归柟鐑樻尰濞呮粓姊洪幖鐐插姉闁哄倸鍊块弫鎾绘寠婢舵稖鍚梺鍝勭焿缁辨洟鏁撻弬銈囩У濞存粎鍋為弲銉︿繆閵堝洤啸闁稿鍋ら幃褍螖閿熶粙鈥﹂崶顏嗙杸婵炴垶顭囬ˇ顓㈡偡濠婂啴鍙勭�规洘鍨奸ˇ瑙勬叏婵犲倹鎯堥悡銈夋偣閸ャ劌绲荤紒鐘垫嚀椤啴濡惰箛鎾舵В闂佹悶鍔忓▔娑㈡晝閵忥紕鐟归柨鐔绘椤繐煤椤忓嫮顔囬柟鑹版彧缁插潡鎮鹃悽鍛娾拺缂備焦蓱閻撱儲淇婇锝囩疄闁绘侗鍣ｉ獮鎺楀箠閾忣偅顥堥柡浣规尰缁傛帞锟斤綆浜為ˇ鈺呮⒑缂佹﹩鐒界紒顕呭灦閹繝濡烽埡鍌滃幗闂佸搫娲ㄩ崑娑㈡晸閽樺璐￠柨鐔诲Г閻旑剟骞忛敓锟�
 					xbean.forbidinfo forbid = xbean.Pod.newforbidinfo();
 					forbid.setForbidtime(forbid_time*1000 + now);
 					xtable.Userid2forbidtime.add(dstuserid, forbid);

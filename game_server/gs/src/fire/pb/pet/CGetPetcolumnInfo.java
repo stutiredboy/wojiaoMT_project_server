@@ -24,7 +24,7 @@ public class CGetPetcolumnInfo extends __CGetPetcolumnInfo__ {
 		case PetColumnTypes.DEPOT:
 			if (!fire.pb.map.SceneNpcManager.checkDistance(npckey, roleid))
 				return;
-		case PetColumnTypes.MARKETPET: // 闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ磸閿熸垝鐒︾换婵嬪磻閼恒儳娲寸�规洜鍠栭、鏇狅拷锝庡亞閳藉鏌嶇拠鏌ュ弰妤犵偞锚閻ｇ兘宕堕埡鍌滐拷顐︽⒒閸屾瑧鍔嶉悗绗涘懐鐭欓柟瀵稿閹峰嘲顫濋鐔凤拷鎰殽閻愯尙绠婚柟顔界矒閹稿﹥寰勭�ｎ亞銈跺┑锛勫亼閸婃牠骞愭ィ鍐ㄧ９妞ゆ劧绠戝敮闂侀潧顦介崰姘跺船閻㈠憡鍋℃繝濠傚暟瀛濆銈庡幖濞差參宕规ィ鍐ㄧ疀濞达絽鎲￠鍧楁⒒娴ｈ姤纭堕柛锝忕畵楠炲繘鏁撻敓锟�? add by liangyanpeng
+		case PetColumnTypes.MARKETPET: // 闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌ｉ幋锝呅撻柛銈呭閺屾盯顢曢敐鍡欙紭闂佽法鍠愰崹婵嬫倿閿旂偓宕叉繝闈涱儏绾惧鏌ら幁鎺戝姢婵炴彃顕敓鍊燁潐濞叉粓宕伴弽顓滐拷渚�寮撮悪鍛闁挎繂楠告禍鐐烘煃閽樺妯�闁哄苯绉堕幏鐘诲蓟閵夈儱鍙婃俊銈囧Х閸嬬偤鏁嬮梺浼欑悼閸忔ê鐣烽崼鏇炵厸闁稿本绮ｉ幏鐑筋敃閿旇В鎷婚梺绋挎湰閻熝囧礉瀹ュ鍊电紒妤佺☉閹虫劙鎯屽▎鎾寸厵閻庣數顭堥鎾绘煙瀹勬澘妲绘い顐ｇ箞椤㈡﹢鎮㈤崙銈嗗闁归偊鍙庡▓浠嬫煟閹邦垰鐨虹紒鐘差煼閺岀喖顢欓悾宀�鐓夐梺鍦焾閿曘儱顕ラ崟顓ㄦ嫹閿濆簼绨介柕鍫ｆ硾閳规垿鏁嶉崟顐℃澀闂佺锕ラ悧鐘荤嵁閹邦厹鍋呴柛鎰╁妿閿涙瑥顪冮妶鍡楀Ё缂佺姵鍨甸弫顕�姊绘笟锟藉褔藝娴犲绐楁慨妯挎硾閼稿綊鏌ｉ姀鐘冲暈闁稿鍓濈换婵囩節閸屾碍娈堕悗娑欑箓椤啴濡舵惔鈥崇濠电偛妯婇崣鍐ㄧ暦鐟欏嫨鍋呴柛鎰╁妿閻わ拷濠电偠鎻徊浠嬪箟閿熺媭鏁囬柛褎顨嗛埛鎺懨归敐鍫澬撶痪顓炵埣閺屾盯鏁愯箛鏇犳殼濡ょ姷鍋涚换姗�寮幘缁樻櫢闁跨噦鎷�? add by liangyanpeng
 		case PetColumnTypes.PET:
 			final PetColumn petCol = new PetColumn(roleid, columnid, true);
 			final SGetPetcolumnInfo send = new SGetPetcolumnInfo();

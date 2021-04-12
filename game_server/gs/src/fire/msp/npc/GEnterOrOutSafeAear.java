@@ -48,7 +48,7 @@ public class GEnterOrOutSafeAear extends __GEnterOrOutSafeAear__ {
 //							stringBuffer.append(new PropRole(id, true).getName());
 //							isFirst = false;
 //						}else{
-//							stringBuffer.append("闂傚倸鍊搁崐鎼佸磹閻戣姤鍤勯柛顐ｆ磸閿熻棄鍊块、姘舵晸娴犲宓侀煫鍥ㄧ♁閺呮悂鏌ㄩ悤鍌涘?" + new PropRole(id, true).getName());
+//							stringBuffer.append("闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌ｉ幋锝呅撻柛銈呭閺屾盯顢曢敐鍡欙紭闂佽法鍠曞Λ鍕磹閸фぜ锟戒礁顫濋懜鍨婵炲濮撮鍥х暤娓氾拷閻擃偊宕堕妸褉妾ㄩ梺鍝勬噺閹倿寮婚妸鈺傚亞闁稿本绋戦锟�?" + new PropRole(id, true).getName());
 //						}
 //					}else{
 //						if(enterTime != null){
