@@ -17,7 +17,6 @@ public class CChangeWeapon extends __CChangeWeapon__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		
 		new PChangeWeapon(roleId, srcweaponkey, newweapontypeid).submit();
 	}
 
