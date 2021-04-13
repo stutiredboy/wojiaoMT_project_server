@@ -15,6 +15,11 @@ public class CDianhuaWeapon extends __CDianhuaWeapon__ {
 	@Override
 	protected void process() {
 		// protocol handle
+		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
+		if (roleId < 0)
+			return;
+		
+		new PDianhuaWeapon(roleId, srcweaponkey, newweapontypeid).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
