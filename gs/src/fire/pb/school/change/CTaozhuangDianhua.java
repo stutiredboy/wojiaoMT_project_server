@@ -1,6 +1,6 @@
 
 package fire.pb.school.change;
-
+import org.apache.log4j.Logger;
 // {{{ RPCGEN_IMPORT_BEGIN
 // {{{ DO NOT EDIT THIS
 import com.locojoy.base.Marshal.OctetsStream;
@@ -15,6 +15,11 @@ public class CTaozhuangDianhua extends __CTaozhuangDianhua__ {
 	@Override
 	protected void process() {
 		// protocol handle
+		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
+		if (roleId < 0)
+			return;
+		logger.error("-----------------------------套装点化--套装key-"+equipkey+"--洗练石key-"+itemid+"-----------------------------");
+		new PTaozhuangDianhua(roleId, equipkey, itemid).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
