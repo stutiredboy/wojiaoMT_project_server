@@ -89,7 +89,7 @@ public class PChangeWeapon extends Procedure {
 
 		// 扣钱
 		int confWeaponChangeCostMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(433).getValue());
-		long ret = bag.subMoney(-confWeaponChangeCostMoney, "转职转武器消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
+		long ret = bag.subGold(-confWeaponChangeCostMoney, "转职转武器消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
 		if (ret != -confWeaponChangeCostMoney) {
 			return false;
 		}
@@ -97,10 +97,6 @@ public class PChangeWeapon extends Procedure {
 		// 转换
 		oldWeapon.changeEquipID(fire.pb.item.Module.getInstance().getItemManager(), newWeaponTypeId);
 		
-		// 设置冷却时间
-		int coolDownCostTime = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(432).getValue());
-		long targetTimeMillis = System.currentTimeMillis() + coolDownCostTime * MarketUtils.ONE_DAY;
-		oldWeapon.getDataItem().setMarkettime(targetTimeMillis);
 		
 		// 是否珍品检测
 		int score = fire.pb.item.Module.getInstance().getEquipScore(oldWeapon);
