@@ -49,21 +49,6 @@ public class PChangeWeapon extends Procedure {
 			return false;
 		}
 
-		// 转职检测
-		xbean.ChangeSchoolInfo changeSchoolInfo = xtable.Changeschool.get(roleId);
-		if (null == changeSchoolInfo || changeSchoolInfo.getRecords().size() == 0) {
-			logger.error("未转职无法使用转换武器功能");
-			return false;
-		}
-
-		// 转换武器次数判断
-		int maxChangeWeaponCount = ChangeSchoolUtils.getMaxChangeWeaponCount();
-		int hasChangeWeaponCount = changeSchoolInfo.getChangeweaponcount();
-		if (hasChangeWeaponCount >= maxChangeWeaponCount) {
-			logger.error("转换武器功能使用次数已满");
-			return false;
-		}
-
 		// 新的武器类型是否存在
 		ItemShuXing newEquipAttr = fire.pb.item.Module.getInstance().getItemManager().getAttr(newWeaponTypeId);
 		if (newEquipAttr == null) {
@@ -102,21 +87,12 @@ public class PChangeWeapon extends Procedure {
 			return false;
 		}
 
-		// 检查原装备是否可以用,可以用则不能转换
-		if (EquipUtils.isRoleCanEquip(oldWeaponIB.getItemId(), prop)) {
-			logger.error("检查原装备是否可以用,可以用则不能转换武器");
-			return false;
-		}
-
 		// 扣钱
 		int confWeaponChangeCostMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(433).getValue());
 		long ret = bag.subMoney(-confWeaponChangeCostMoney, "转职转武器消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
 		if (ret != -confWeaponChangeCostMoney) {
 			return false;
 		}
-
-		// 消耗次数
-		changeSchoolInfo.setChangeweaponcount(hasChangeWeaponCount + 1);
 		
 		// 转换
 		oldWeapon.changeEquipID(fire.pb.item.Module.getInstance().getItemManager(), newWeaponTypeId);

@@ -25,6 +25,7 @@ import fire.pb.item.SGetItemTips;
 import fire.pb.item.make.ItemMakeUtil;
 import fire.pb.item.make.ZhuangBeiShuXing;
 import fire.pb.item.make.ShuXing;
+import fire.pb.item.SEquipUpgradeConfig;
 import fire.pb.ranklist.proc.PRoleZongheRankProc;
 import fire.pb.shop.utils.MarketUtils;
 import fire.pb.talk.MessageMgr;
@@ -37,6 +38,7 @@ public class PEquipUpgrade extends Procedure {
 	public int srcweaponkey; 
     public long roleid;
     private static Logger logger = Logger.getLogger("ITEM");
+    public static final Map<Integer, SEquipUpgradeConfig> upgradeMap = ConfigManager.getInstance().getConf(SEquipUpgradeConfig.class);
     public PEquipUpgrade(final long roleid, final int srcweaponkey)
     {
         this.srcweaponkey = srcweaponkey;
@@ -50,12 +52,12 @@ public class PEquipUpgrade extends Procedure {
         bag = new fire.pb.item.Pack(roleid, false);
         ItemBase oldWeaponIB = bag.getItem((int)srcweaponkey);
         if (oldWeaponIB == null) {
-            logger.error("重铸功能旧武器错误!!!----------------"+srcweaponkey);
+            logger.error("装备升阶旧装备错误!!!----------------"+srcweaponkey);
 			return false;
         }
         if(oldWeaponIB instanceof EquipItem)
         {
-            logger.error("------------------------------装备重铸");
+            logger.error("------------------------------装备升阶");
             Map<Integer, EquipItemShuXing> equipItemAttrConfig = ConfigManager.getInstance().getConf(EquipItemShuXing.class);
             if (fire.pb.buff.Module.existState(roleid,fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER))
                 return false;
@@ -70,31 +72,26 @@ public class PEquipUpgrade extends Procedure {
             if(itemdata == null)
             {
                 MessageMgr.psendMsgNotify(roleid, 150163, null);
-                logger.error("重铸功能没有找到该装备数据!!!");
-                return false;
-            }
-            if(itemdata.ncanChongzhu == 0)
-            {
-                MessageMgr.psendMsgNotify(roleid, 150163, null);
-                logger.error("该装备不能重铸!!!");
+                logger.error("升阶功能没有找到该装备数据!!!");
                 return false;
             }
             // 是否拍卖中
             if ((oldWeaponIB.getFlags() & fire.pb.Item.ONSTALL) != 0) {
-                logger.error("拍卖的武器无法使用重铸功能");
+                logger.error("拍卖的武器无法使用升阶功能");
+                return false;
+            }
+
+
+            if(!upgradeMap.containsKey(itemID))
+            {
+                logger.error("未找到对应升阶数据");
                 return false;
             }
             
-
-            // 扣道具
-            ItemMaps bagContainer = fire.pb.item.Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);
-            if (bagContainer == null) {
-                logger.error("角色id " + roleid + "c重铸装备" + "\t背包错误");
-                return false;
-            }
+            SEquipUpgradeConfig conf = upgradeMap.get(itemID);
             // 扣钱
-            int confWeaponChangeCostMoney = itemdata.needGoldCoin;
-            long ret = bag.subGold(-confWeaponChangeCostMoney, "重铸装备消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
+            int confWeaponChangeCostMoney = conf.needCold;
+            long ret = bag.subGold(-confWeaponChangeCostMoney, "升阶装备消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
             if (ret != -confWeaponChangeCostMoney) {
                 return false;
             }
@@ -107,86 +104,14 @@ public class PEquipUpgrade extends Procedure {
             }
 
             // 增加新的装备
-
-            ItemShuXing iAttr = fire.pb.item.Module.getInstance().getItemManager().getAttr(itemID);
+            int newItemID = conf.newEquipID;
+            ItemShuXing iAttr = fire.pb.item.Module.getInstance().getItemManager().getAttr(newItemID);
             if (iAttr == null) {
-                fire.pb.item.Module.logger.error("角色:" + roleid + "重铸物品的id:" + itemID+ "找不到属性!");
+                fire.pb.item.Module.logger.error("角色:" + roleid + "升阶物品的id:" + newItemID+ "找不到属性!");
                 return true;
             }
                     
-            if (BagUtil.addItem(roleid, itemID, 1, "重铸物品", YYLoggerTuJingEnum.tujing_Value_daozaoget, itemID)	!= 1){
-                MessageMgr.psendMsgNotifyWhileRollback(roleid, 142338, null);
-                return false;
-            }
-            SEquipUpgrade sendResult = new SEquipUpgrade();
-            psendWhileCommit(roleid, sendResult);
-            // 更新玩家综合实力排行榜
-            mkdb.Procedure.pexecuteWhileCommit(new PRoleZongheRankProc(this.roleid));
-            return true;
-        }
-        else if(oldWeaponIB instanceof PetEquipItem)
-        {
-            logger.error("------------------------------宠物装备重铸");
-            Map<Integer, PetEquipItemShuXing> equipItemAttrConfig = ConfigManager.getInstance().getConf(PetEquipItemShuXing.class);
-            // 拿到背包的锁
-            if (fire.pb.buff.Module.existState(roleid,fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER))
-                return false;
-            if (oldWeaponIB == null || !(oldWeaponIB instanceof PetEquipItem)) {
-                MessageMgr.psendMsgNotify(roleid, 150163, null);
-                return false;
-            }
-            int itemID = oldWeaponIB.getItemId();
-            PetEquipItem oldWeapon = ((PetEquipItem) oldWeaponIB);
-                    
-            PetEquipItemShuXing itemdata = equipItemAttrConfig.get(itemID);
-            if(itemdata == null)
-            {
-                MessageMgr.psendMsgNotify(roleid, 150163, null);
-                logger.error("宠物重铸功能没有找到该装备数据!!!");
-                return false;
-            }
-            if(itemdata.ncanChongzhu == 0)
-            {
-                MessageMgr.psendMsgNotify(roleid, 150163, null);
-                logger.error("该宠物装备不能重铸!!!");
-                return false;
-            }
-            // 是否拍卖中
-            if ((oldWeaponIB.getFlags() & fire.pb.Item.ONSTALL) != 0) {
-                logger.error("拍卖的宠物武器无法使用重铸功能");
-                return false;
-            }
-            
-
-            // 扣道具
-            ItemMaps bagContainer = fire.pb.item.Module.getInstance().getItemMaps(roleid, BagTypes.BAG, false);
-            if (bagContainer == null) {
-                logger.error("角色id " + roleid + "c重铸宠物装备" + "\t背包错误");
-                return false;
-            }
-            // 扣钱
-            int confWeaponChangeCostMoney = itemdata.needGoldCoin;
-            long ret = bag.subGold(-confWeaponChangeCostMoney, "重铸宠物装备消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
-            if (ret != -confWeaponChangeCostMoney) {
-                return false;
-            }
-
-            // 删除原来的装备
-            int removenum = bag.removeItemWithKey((int)srcweaponkey, 1,fire.log.enums.YYLoggerTuJingEnum.tujing_Value_dazao, 0,Commontext.REASON_STRING);
-            if(removenum != 1)
-            {
-                return false;
-            }
-
-            // 增加新的装备
-
-            ItemShuXing iAttr = fire.pb.item.Module.getInstance().getItemManager().getAttr(itemID);
-            if (iAttr == null) {
-                fire.pb.item.Module.logger.error("角色:" + roleid + "重铸宠物物品的id:" + itemID+ "找不到属性!");
-                return true;
-            }
-                    
-            if (BagUtil.addItem(roleid, itemID, 1, "重铸宠物物品", YYLoggerTuJingEnum.tujing_Value_daozaoget, itemID)	!= 1){
+            if (BagUtil.addItem(roleid, newItemID, 1, "升阶物品", YYLoggerTuJingEnum.tujing_Value_daozaoget, newItemID)	!= 1){
                 MessageMgr.psendMsgNotifyWhileRollback(roleid, 142338, null);
                 return false;
             }
