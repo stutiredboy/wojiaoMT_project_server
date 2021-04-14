@@ -15,6 +15,10 @@ public class CEquipUpgrade extends __CEquipUpgrade__ {
 	@Override
 	protected void process() {
 		// protocol handle
+		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
+		if (roleId < 0)
+			return;
+		new PEquipUpgrade(roleId, oldkey).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN

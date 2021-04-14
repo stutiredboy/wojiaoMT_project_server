@@ -123,7 +123,7 @@ public class PTaozhuangDianhua extends Procedure {
 		psendWhileCommit(roleId, send);
 
 		// 通知客户端点化套装成功
-		STaozhuangDianhua sendResult = new SChangeGem();
+		STaozhuangDianhua sendResult = new STaozhuangDianhua();
 		psendWhileCommit(roleId, sendResult);
 		return true;
 	}

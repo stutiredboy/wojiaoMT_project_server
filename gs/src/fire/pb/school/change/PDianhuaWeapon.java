@@ -1,3 +1,5 @@
+package fire.pb.school.change;
+
 import mkdb.Procedure;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -182,7 +184,7 @@ public class PDianhuaWeapon extends Procedure {
 		psendWhileCommit(roleId, send);
 
 		// 通知客户端点化武器成功
-		SDianhuaWeapon sendResult = new SChangeWeapon();
+		SDianhuaWeapon sendResult = new SDianhuaWeapon();
 		psendWhileCommit(roleId, sendResult);
 
 		// 更新玩家综合实力排行榜
