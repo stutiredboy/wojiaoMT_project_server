@@ -2,44 +2,24 @@
 package fire.pb.school.change;
 
 import mkdb.Procedure;
-import fire.pb.main.ConfigManager;
-import org.apache.log4j.Logger;
 import fire.log.enums.YYLoggerTuJingEnum;
-import com.locojoy.base.Octets;
 import fire.pb.RoleConfigManager;
 import fire.pb.item.ItemBase;
-import fire.pb.item.ItemMaps;
 import fire.pb.item.ItemShuXing;
 import fire.pb.item.gemItemShuXing;
-import fire.pb.item.EquipItem;
-import fire.pb.item.BagTypes;
-import fire.pb.item.SAddItem;
-import fire.pb.item.SGetItemTips;
 import fire.pb.shop.srv.floating.FloatingOneManager;
 import fire.pb.talk.MessageMgr;
-import fire.pb.item.STaozhuangEffect;
-import fire.pb.item.STaozhuangEffectConfig;
-import fire.pb.item.EquipItemShuXing;
-import java.util.Map;
-import java.util.Set;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Random;
-import fire.pb.skill.SceneSkillRole;
 
 public class PChangeGem extends Procedure {
-	private static Logger logger = Logger.getLogger("ITEM");
 	private final long roleId;
-	private final int taozhuangKey;
-	private final int xilianshiId;
-	public static final Map<Integer, STaozhuangEffect> DIANHUASHIEFFECT_CFGS = ConfigManager.getInstance().getConf(STaozhuangEffect.class);
-	public static final Map<Integer, STaozhuangEffectConfig> DIANHUANSHICFG_CFGS = ConfigManager.getInstance().getConf(STaozhuangEffectConfig.class);
+	private final int gemKey;
+	private final int newGemItemId;
 
-	public PChangeGem(long roleId, int taozhuangKey, int xilianshiId) {
+	public PChangeGem(long roleId, int gemKey, int newGemItemId) {
 		super();
 		this.roleId = roleId;
-		this.taozhuangKey = taozhuangKey;
-		this.xilianshiId = xilianshiId;
+		this.gemKey = gemKey;
+		this.newGemItemId = newGemItemId;
 	}
 
 	@Override
@@ -50,84 +30,109 @@ public class PChangeGem extends Procedure {
 			return false;
 		}
 
-		// 洗练石是否存在
-		ItemShuXing newEquipAttr = fire.pb.item.Module.getInstance().getItemManager().getAttr(xilianshiId);
-		if (newEquipAttr == null) {
-			logger.error("洗练石不存在");
-			return false;
-		}
+		// // 转职检测
+		// xbean.ChangeSchoolInfo changeSchoolInfo = xtable.Changeschool.get(roleId);
+		// if (null == changeSchoolInfo || changeSchoolInfo.getRecords().size() == 0) {
+		// 	return false;
+		// }
 
-		// 拿到背包的锁
+		// // 转宝石次数判断
+		// int maxChangeGemCount = ChangeSchoolUtils.getMaxChangeGemCount();
+		// int hasChangeGemCount = changeSchoolInfo.getChangegemcount();
+		// if (hasChangeGemCount >= maxChangeGemCount) {
+		// 	return false;
+		// }
+
 		fire.pb.item.Pack bag = new fire.pb.item.Pack(roleId, false);
-		ItemBase oldWeaponIB = bag.getItem(taozhuangKey);
-
-		if (oldWeaponIB == null || !(oldWeaponIB instanceof EquipItem)) {
-			MessageMgr.psendMsgNotify(roleId, 150163, null);
-			logger.error("点化功能套装错误!!!");
+		ItemBase item = bag.getItem(gemKey);
+		ItemShuXing newItemAttr = fire.pb.item.Module.getInstance().getItemManager().getAttr(newGemItemId);
+		if (newItemAttr == null) {
 			return false;
 		}
 
-		EquipItem oldWeapon = ((EquipItem) oldWeaponIB);		
-		// 是否拍卖中
-		if ((oldWeaponIB.getFlags() & fire.pb.Item.ONSTALL) != 0) {
-			logger.error("拍卖的套装无法使用点化功能");
+		ItemShuXing oldItemAttr = item.getItemAttr();
+		if (oldItemAttr == null) {
+			return false;
+		}
+
+		// 检查是否可以转换
+		if (!isCanTransGem(oldItemAttr, newItemAttr)) {
+			return false;
+		}
+
+		int ret = bag.removeItemWithKey(gemKey, 1, YYLoggerTuJingEnum.tujing_Value_changeschoolgemcost, 0, "转职转宝石");
+		if(0 == ret){
 			return false;
 		}
 		
-		// 扣道具
-		ItemMaps bagContainer = fire.pb.item.Module.getInstance().getItemMaps(roleId, BagTypes.BAG, false);
-		if (bagContainer == null) {
-			logger.error("角色id " + roleId + "点化套装" + "\t背包错误");
+		ret = bag.doAddItem(newGemItemId, 1, "转职转宝石", YYLoggerTuJingEnum.tujing_Value_changeschoolgem, 0);
+		if(0 == ret){
 			return false;
 		}
-		int needItemNum = 1;
-		int usedNum = bagContainer.removeItemById(xilianshiId, needItemNum, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shenshoucost, xilianshiId,
-					"点化套装");
-		if (usedNum != needItemNum) {
-			logger.error("角色id " + roleId + "点化套装" + "扣除洗练石失败");
-			return false;
+		
+		// 退钱
+		int returnMoney = returnBackMoney(oldItemAttr, newItemAttr);
+		if(returnMoney > 0){
+			bag.addSysMoney(returnMoney, "转宝石退钱", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_changeschoolgem, 0);
 		}
-		// 扣钱
-		int confWeaponChangeCostMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(474).getValue());
-		long ret = bag.subGold(-confWeaponChangeCostMoney, "点化套装消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
-		if (ret != -confWeaponChangeCostMoney) {
-			return false;
-		}
-
-		// 设置套装效果
-		xbean.Equip equipAttr = oldWeapon.getEquipAttr();
-		int suitid = equipAttr.getSuitID();
-		Set<Integer> keys = DIANHUASHIEFFECT_CFGS.keySet();
-		List<Integer> list=new ArrayList<>(keys);
-		Random random = new Random();
-		Integer randomKey = list.get(random.nextInt(list.size()));
-		STaozhuangEffect effect = DIANHUASHIEFFECT_CFGS.get(randomKey);
-		suitid = effect.id;
-		equipAttr.setSuitID(suitid);
-		// 是否珍品检测
-		int score = fire.pb.item.Module.getInstance().getEquipScore(oldWeapon);
-		oldWeapon.getEquipAttr().setEquipscore(score);
-		if (score >= oldWeapon.getItemAttr().getTreasureScore()) {
-			oldWeapon.getEquipAttr().setTreasure(1);
-		} else {
-			oldWeapon.getEquipAttr().setTreasure(0);
-		}	
-
-		// 发消息
-		SAddItem sAddItem = new SAddItem();
-		sAddItem.packid = bag.getPackid();
-		sAddItem.data.add(ItemMaps.transItemData2SendData(oldWeapon.getDataItem(), taozhuangKey, 0));
-		psendWhileCommit(roleId, sAddItem);
-
-		Octets tips = oldWeapon.getTips();
-		SGetItemTips send = new SGetItemTips(BagTypes.BAG, oldWeapon.getKey(), tips);
-		psendWhileCommit(roleId, send);
-
-		// 通知客户端点化套装成功
+		
+		// 通知客户端转换宝石成功
 		SChangeGem sendResult = new SChangeGem();
 		psendWhileCommit(roleId, sendResult);
+
 		return true;
 	}
 
+	/**
+	 * 退钱判断并返回 yebin added @ 2016年8月16日 下午4:28:14
+	 * 
+	 * @param oldGemItemId
+	 * @param newGemItemId
+	 * @return
+	 */
+	private int returnBackMoney(ItemShuXing oldItemAttr, ItemShuXing newItemAttr) {
+		int ret = 0;
 
+		int srcOldGemGoodId = ChangeSchoolUtils.getSrcGem(((gemItemShuXing)oldItemAttr).getGemType());
+		int srcNewGemGoodId = ChangeSchoolUtils.getSrcGem(((gemItemShuXing)newItemAttr).getGemType());
+		if (srcOldGemGoodId == 0 || srcNewGemGoodId == 0) {
+			return ret;
+		}
+
+		int currOldGemPrice = FloatingOneManager.getInstance().getCurrPrice(5, srcOldGemGoodId);
+		int currNewGemPrice = FloatingOneManager.getInstance().getCurrPrice(5, srcNewGemGoodId);
+
+		if(currOldGemPrice > currNewGemPrice){
+			ret = (currOldGemPrice - currNewGemPrice) * (int)Math.pow(2, oldItemAttr.getLevel() - 1);
+		}
+		
+		return ret;
+	}
+
+	/**
+	 * 是否可以转换 yebin added @ 2016年8月16日 下午4:28:29
+	 * 
+	 * @param oldItemAttr
+	 * @param newItemAttr
+	 * @return
+	 */
+	private boolean isCanTransGem(ItemShuXing oldItemAttr, ItemShuXing newItemAttr) {
+		if (!(oldItemAttr instanceof gemItemShuXing) || !(newItemAttr instanceof gemItemShuXing)) {
+			return false;
+		}
+		
+		int oldGemLv = oldItemAttr.getLevel();
+		// 等级不同不予转换
+		if (newItemAttr.getLevel() != oldGemLv) {
+			return false;
+		}
+
+		// 转宝石限制宝石最低等级
+		int limitGemLv = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(436).getValue());
+		if (oldGemLv < limitGemLv) {
+			return false;
+		}
+
+		return true;
+	}
 }

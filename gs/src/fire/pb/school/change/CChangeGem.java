@@ -18,7 +18,6 @@ public class CChangeGem extends __CChangeGem__ {
 		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
 		if (roleId < 0)
 			return;
-		logger.error("-----------------------------套装点化--套装key-"+tanzhuangKey+"--洗练石key-"+xilianshiTypeId+"-----------------------------");
 		new PChangeGem(roleId, tanzhuangKey, xilianshiTypeId).submit();
 	}
 
