@@ -69,6 +69,13 @@ public class PChangeGem extends Procedure {
 		if(0 == ret){
 			return false;
 		}
+
+		// 扣钱
+		int costMoney = Integer.parseInt(RoleConfigManager.getRoleCommonConfig(456).getValue());
+		long ret1 = bag.subGold(-costMoney, "转宝石消耗", YYLoggerTuJingEnum.tujing_Value_changeschoolweaponcost, 0);
+		if (ret1 != -costMoney) {
+			return false;
+		}
 		
 		// 退钱
 		int returnMoney = returnBackMoney(oldItemAttr, newItemAttr);
