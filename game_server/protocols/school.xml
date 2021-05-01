@@ -162,14 +162,6 @@
 
 		<protocol name="SEquipUpgrade" type="24068" maxsize="65535" prior="1" tolua="3"> 服务器返回装备升阶成功
 		</protocol>
-		
-		<protocol name="CEquipNewZhuanhuan" type="24069" maxsize="65535" prior="1" tolua="3"> 装备转换
-			<variable name="oldkey" type="int"/> 旧装备的Key
-			<variable name="newkey" type="int"/> 新装备ItemId
-		</protocol>
-
-		<protocol name="SEquipNewZhuanhuan" type="24070" maxsize="65535" prior="1" tolua="3"> 装备转换成功返回
-		</protocol>
 	</namespace>
 	<!-- 转职 协议号从 24051-24070 -->
 
