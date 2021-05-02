@@ -205,7 +205,7 @@ public class PAddExpProc extends mkdb.Procedure {
 				}
 				
 				//停等级 69和89
-				if (prop.getLevel() == 69 || prop.getLevel() == 89) {
+				if (prop.getLevel() == 109 || prop.getLevel() == 129) {
 					Integer tupotips = prop.getTupotips().get(prop.getLevel());
 					if (tupotips == null) {
 						//提示角色领取突破任务
