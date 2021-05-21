@@ -476,4 +476,14 @@
         <variable name="service" type="int"/> 服务id
         <variable name="title" type="string" />服务显示的文字
     </protocol>
+	
+	<protocol name="CExpExchange" type="9258" maxsize="65535" prior="1" tolua="3">
+        <variable name="itemID" type="int"/> 道具ID
+        <variable name="itemNum" type="int" />道具数量
+    </protocol>
+	
+	<protocol name="SExpExchange" type="9259" maxsize="65535" prior="1" tolua="3">
+        <variable name="itemID" type="int"/> 道具ID
+        <variable name="itemNum" type="int" />道具数量
+    </protocol>
 </namespace>
