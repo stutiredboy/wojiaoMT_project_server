@@ -23139,7 +23139,7 @@
       <name>吸血鬼</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>530097</pet>
+      <pet>500223</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23218,7 +23218,7 @@
       <name>吸血鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>530097</pet>
+      <pet>500261</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
@@ -23297,7 +23297,7 @@
       <name>吸血鬼头领</name>
       <fightnpctype>4</fightnpctype>
       <monstertype>3</monstertype>
-      <pet>530099</pet>
+      <pet>530096</pet>
       <colorid>1</colorid>
       <bodytype>1</bodytype>
       <orbinding>0</orbinding>
