@@ -15,6 +15,10 @@ public class CExpExchange extends __CExpExchange__ {
 	@Override
 	protected void process() {
 		// protocol handle
+		final long roleId = gnet.link.Onlines.getInstance().findRoleid(this);
+		if (roleId < 0)
+			return;
+		new PExpExchange(roleId, itemid, itemnum).submit();
 	}
 
 	// {{{ RPCGEN_DEFINE_BEGIN
