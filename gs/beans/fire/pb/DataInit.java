@@ -9,7 +9,7 @@ import com.locojoy.base.Marshal.MarshalException;
 */
 public class DataInit implements Marshal , Comparable<DataInit>{
 	public final static int ROLE_LEVEL_MAX = 175 ; // 角色最大等级
-	public final static int ROLE_UP_POINT = 5; // 角色升级获得潜能数
+	public final static long ROLE_UP_POINT = 5; // 角色升级获得潜能数
 	public final static int PET_UP_POINT = 5; // 宠物升级获得潜能数
 	public final static int ROLE_UP_PHY = 5; // 每升一级增加5点体力
 	public final static int ROLE_UP_ENERGY = 5; // 每升一级增加5点活力

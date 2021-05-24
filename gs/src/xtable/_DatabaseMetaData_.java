@@ -672,7 +672,7 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				);
 			super.addVariableFor(bean
 				, "point"
-				, "map", "int", "int", ""
+				, "map", "int", "long", ""
 				, "", "", ""
 				);
 			super.addVariableFor(bean

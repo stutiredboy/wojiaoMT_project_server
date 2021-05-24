@@ -475,59 +475,6 @@ public class PreEntryState extends State {
 					}
 				}
 			});
-//			mkdb.Procedure.pexecute(new mkdb.Procedure(){
-//				private boolean InsertMysqlRelation(long roleId, String rolename, int shapeid, int level) {
-//					boolean updateRet = false;
-//					Connection conn = C3P0Util.getConnection();
-//					Statement stmt = null;
-//					try {
-//						stmt = conn.createStatement();
-//						//登录的时候采取没有就插入插入数据，有就不插入数据的策略
-//						String sqlstr = "INSERT IGNORE INTO `role`(roleid, name, avatar, level) "
-//								+ "VALUES ('" + roleId + "', '" + rolename + "', '" + shapeid + "', '" + level + "') ";
-//						int ret = stmt.executeUpdate(sqlstr);
-//						fire.pb.friends.Module.logger.info("[" + roleId + "]InsertMysqlRealtion:" + sqlstr + ";ret = " + ret);
-//						if(ret >= 0) {
-//							updateRet = true;
-//							if(ret >= 1){
-//								fire.pb.friends.Module.logger.warn("角色[" + roleId + "]空间mysql数据没有,插入最新数据！");
-//								//既然插入最新数据，那么就把好友数据也重新同步一遍
-//								mkdb.Procedure.pexecuteWhileCommit(new PSyncFriendsToMysql());
-//							}
-//						}
-//					} catch (SQLException ex) {
-//						ex.printStackTrace();
-//						if (stmt != null) {
-//							try {
-//								stmt.close();
-//							} catch (SQLException sqlEx) {
-//							}
-//							stmt = null;
-//						}
-//						C3P0Util.close(conn, null, null);
-//						return false;
-//					} finally {
-//						if (stmt != null) {
-//							try {
-//								stmt.close();
-//							} catch (SQLException sqlEx) {
-//							}
-//							stmt = null;
-//						}
-//					}
-//					C3P0Util.close(conn, null, null);
-//					return updateRet;
-//				}
-//				
-//				@Override
-//				protected boolean process() {
-//					if(!InsertMysqlRelation(roleId, pro.getRolename(), pro.getShape(), pro.getLevel())){ //如果mysql插入失败，直接回滚，角色创建失败
-//						StateManager.logger.error("[" + roleId + "]PreEntryState.InsertMysqlRelation failed!");
-//						return false;
-//					}
-//					return true;
-//				}
-//			});
 		}
 		
 		try {

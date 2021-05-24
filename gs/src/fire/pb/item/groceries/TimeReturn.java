@@ -101,7 +101,7 @@ public class TimeReturn extends GroceryItem {
 			}
 			else str = cnf.getStr();
 			
-			final int curpoint = prop.getPoint().get(curScheme);
+			final long curpoint = prop.getPoint().get(curScheme);
 			final int savepoint = addfp.getAgi_save().get(curScheme) + addfp.getCons_save().get(curScheme) +
 					addfp.getEndu_save().get(curScheme) + addfp.getIq_save().get(curScheme) + addfp.getStr_save().get(curScheme);
 			final int decpoints = agi + cons + endu + iq + str;

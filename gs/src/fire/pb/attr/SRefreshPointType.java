@@ -28,16 +28,16 @@ public class SRefreshPointType extends __SRefreshPointType__ {
 	}
 
 	public fire.pb.attr.RoleBasicFightProperties bfp;
-	public java.util.HashMap<Integer,Integer> point; // 潜能
+	public java.util.HashMap<Integer,Long> point; // 潜能
 	public int pointscheme; // 当前加点方案
 	public int schemechanges; // 方案切换次数
 
 	public SRefreshPointType() {
 		bfp = new fire.pb.attr.RoleBasicFightProperties();
-		point = new java.util.HashMap<Integer,Integer>();
+		point = new java.util.HashMap<Integer,Long>();
 	}
 
-	public SRefreshPointType(fire.pb.attr.RoleBasicFightProperties _bfp_, java.util.HashMap<Integer,Integer> _point_, int _pointscheme_, int _schemechanges_) {
+	public SRefreshPointType(fire.pb.attr.RoleBasicFightProperties _bfp_, java.util.HashMap<Integer,Long> _point_, int _pointscheme_, int _schemechanges_) {
 		this.bfp = _bfp_;
 		this.point = _point_;
 		this.pointscheme = _pointscheme_;
@@ -55,7 +55,7 @@ public class SRefreshPointType extends __SRefreshPointType__ {
 		}
 		_os_.marshal(bfp);
 		_os_.compact_uint32(point.size());
-		for (java.util.Map.Entry<Integer, Integer> _e_ : point.entrySet()) {
+		for (java.util.Map.Entry<Integer, Long> _e_ : point.entrySet()) {
 			_os_.marshal(_e_.getKey());
 			_os_.marshal(_e_.getValue());
 		}
@@ -69,8 +69,8 @@ public class SRefreshPointType extends __SRefreshPointType__ {
 		for (int size = _os_.uncompact_uint32(); size > 0; --size) {
 			int _k_;
 			_k_ = _os_.unmarshal_int();
-			int _v_;
-			_v_ = _os_.unmarshal_int();
+			long _v_;
+			_v_ = _os_.unmarshal_long();
 			point.put(_k_, _v_);
 		}
 		pointscheme = _os_.unmarshal_int();
