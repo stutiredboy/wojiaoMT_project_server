@@ -216,10 +216,10 @@ public class RoleDetail implements Marshal {
 		_os_.marshal(energy);
 		_os_.marshal(enlimit);
 		_os_.marshal(bfp);
-		_os_.compact_uint32(point.size()*2);
+		_os_.compact_uint32(point.size());
 		for (java.util.Map.Entry<Integer, Long> _e_ : point.entrySet()) {
 			_os_.marshal(_e_.getKey());
-			_os_.marshal((long)_e_.getValue());
+			_os_.marshal(Long.valueOf(_e_.getValue().toString()));
 		}
 		_os_.marshal(pointscheme);
 		_os_.marshal(schemechanges);
