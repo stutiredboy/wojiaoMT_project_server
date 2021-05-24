@@ -5,6 +5,7 @@ import fire.log.enums.YYLoggerTuJingEnum;
 import fire.pb.talk.MessageMgr;
 import fire.pb.main.ConfigManager;
 import java.util.Map;
+import java.util.Arrays;
 import fire.pb.shop.SExpChangeTable;
 import fire.pb.SRefreshUserExp;
 import fire.pb.item.ItemShuXing;
@@ -41,6 +42,7 @@ public class PExpExchange extends Procedure {
 		if(costExp > curexp)
 		{
 			logger.error("当前经验不足以兑换该物品!!!");
+			MessageMgr.sendMsgNotify(roleId, 196016, Arrays.asList(new String[] { "" }));
 			return false;
 		}
 
@@ -58,6 +60,7 @@ public class PExpExchange extends Procedure {
 		prop.setExp(curexp - costExp);
 		prop.setAllexp(allexp - costExp);
 		// 通知客户端刷新经验
+		MessageMgr.sendMsgNotify(roleId, 196017, Arrays.asList(new String[] { "" }));
 		mkdb.Procedure.psendWhileCommit(roleId,new SRefreshUserExp(prop.getExp()));
         return true;
     }
