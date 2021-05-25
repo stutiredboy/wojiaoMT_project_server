@@ -73,9 +73,9 @@ public class GameSystemConfig {
 		addPointFp.getIq_save().put(1, addPointFp.getIq_save().get(1) + pointLst.get(1));
 		addPointFp.getStr_save().put(1, addPointFp.getStr_save().get(1) + pointLst.get(2));
 		
-		roleProp.getPoint().put(1, Long.valueOf("0"));
-		roleProp.getPoint().put(2, Long.valueOf("5"));
-		roleProp.getPoint().put(3, Long.valueOf("5"));
+		roleProp.getPoint().put(1, 0);
+		roleProp.getPoint().put(2, 5);
+		roleProp.getPoint().put(3, 5);
 	}
 	
 	public static void resetRolePropAddPointFp(xbean.Properties roleProp) {		

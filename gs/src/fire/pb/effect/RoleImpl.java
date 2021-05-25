@@ -242,11 +242,11 @@ public class RoleImpl extends AttrCalcRole
 			return null;
 		if(fire.pb.buff.Module.existState(roleid, fire.pb.buff.BuffConstant.StateType.STATE_BATTLE_FIGHTER))
 			return null;
-		final long curpoint = prop.getPoint().get(prop.getScheme());
+		final int curpoint = prop.getPoint().get(prop.getScheme());
 		final int addpoints = agi + cons + endu + iq + str;
 		if (addpoints > curpoint)
 			return null;
-		prop.getPoint().put(prop.getScheme(), (long)(curpoint - addpoints));		
+		prop.getPoint().put(prop.getScheme(), (curpoint - addpoints));		
 		RoleAddPointProperties addfp = prop.getAddpointfp();
 		
 		xbean.BasicFightProperties bfp = prop.getBfp();
