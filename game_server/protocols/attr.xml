@@ -394,7 +394,7 @@
   <!-- 刷新人物加点后的加点面板数值 -->
   <protocol name="SRefreshPointType" type="13003" maxsize="65535" prior="1" tolua="3">
     <variable name="bfp" type="RoleBasicFightProperties" />
-    <variable name="point" type="map" key="int" value="long"/>		潜能
+    <variable name="point" type="map" key="int" value="int"/>		潜能
     <variable name="pointscheme" type="int"/> 当前加点方案
     <variable name="schemechanges" type="int"/> 方案切换次数
   </protocol>
