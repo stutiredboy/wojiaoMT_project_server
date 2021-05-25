@@ -469,20 +469,20 @@
 	
 	<!-- 基础战斗属性 -->
 	<bean name="BasicFightProperties">
-		<variable name="cons" type="short"/>		体质
-		<variable name="iq" type="short"/>		智力
-		<variable name="str" type="short"/>		力量
-		<variable name="endu" type="short"/>		耐力
-		<variable name="agi" type="short"/>		敏捷
+		<variable name="cons" type="int"/>		体质
+		<variable name="iq" type="int"/>		智力
+		<variable name="str" type="int"/>		力量
+		<variable name="endu" type="int"/>		耐力
+		<variable name="agi" type="int"/>		敏捷
   </bean>
 
   <!-- 角色基础战斗属性 -->
   <bean name="RoleBasicFightProperties">
-    <variable name="cons" type="short"/>		体质
-    <variable name="iq" type="short"/>		智力
-    <variable name="str" type="short"/>		力量
-    <variable name="endu" type="short"/>		耐力
-    <variable name="agi" type="short"/>		敏捷
+    <variable name="cons" type="int"/>		体质
+    <variable name="iq" type="int"/>		智力
+    <variable name="str" type="int"/>		力量
+    <variable name="endu" type="int"/>		耐力
+    <variable name="agi" type="int"/>		敏捷
 
     <variable name="cons_save" type="map" key="int" value="int"/> 已分配体质
     <variable name="iq_save" type="map" key="int" value="int"/> 已分配智力
