@@ -27,8 +27,8 @@ public interface Properties extends mkdb.Bean {
 	public int getSp(); // 怒气
 	public xbean.BasicFightProperties getBfp(); // 存储基础的点数
 	public xbean.RoleAddPointProperties getAddpointfp(); // 人物加点方案
-	public java.util.Map<Integer, Long> getPoint(); // 潜能。未分配点数
-	public java.util.Map<Integer, Long> getPointAsData(); // 潜能。未分配点数
+	public java.util.Map<Integer, Integer> getPoint(); // 潜能。未分配点数
+	public java.util.Map<Integer, Integer> getPointAsData(); // 潜能。未分配点数
 	public int getScheme(); // 人物加点方案
 	public int getSchemechanges(); // 人物加点方案切换次数
 	public long getSchemechangetimes(); // 人物加点方案切换最后时间

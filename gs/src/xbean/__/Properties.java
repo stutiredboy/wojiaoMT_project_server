@@ -22,7 +22,7 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 	private int sp; // 怒气
 	private xbean.BasicFightProperties bfp; // 存储基础的点数
 	private xbean.RoleAddPointProperties addpointfp; // 人物加点方案
-	private java.util.HashMap<Integer, Long> point; // 潜能。未分配点数
+	private java.util.HashMap<Integer, Integer> point; // 潜能。未分配点数
 	private int scheme; // 人物加点方案
 	private int schemechanges; // 人物加点方案切换次数
 	private long schemechangetimes; // 人物加点方案切换最后时间
@@ -202,7 +202,7 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		sp = 0;
 		bfp = new BasicFightProperties(0, this, "bfp");
 		addpointfp = new RoleAddPointProperties(0, this, "addpointfp");
-		point = new java.util.HashMap<Integer, Long>();
+		point = new java.util.HashMap<Integer, Integer>();
 		scheme = 1;
 		schemechanges = 0;
 		fightpetkey = -1;
@@ -290,8 +290,8 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		sp = _o_.sp;
 		bfp = new BasicFightProperties(_o_.bfp, this, "bfp");
 		addpointfp = new RoleAddPointProperties(_o_.addpointfp, this, "addpointfp");
-		point = new java.util.HashMap<Integer, Long>();
-		for (java.util.Map.Entry<Integer, Long> _e_ : _o_.point.entrySet())
+		point = new java.util.HashMap<Integer, Integer>();
+		for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.point.entrySet())
 			point.put(_e_.getKey(), _e_.getValue());
 		scheme = _o_.scheme;
 		schemechanges = _o_.schemechanges;
@@ -407,8 +407,8 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		sp = _o_.sp;
 		bfp = new BasicFightProperties(_o_.bfp, this, "bfp");
 		addpointfp = new RoleAddPointProperties(_o_.addpointfp, this, "addpointfp");
-		point = new java.util.HashMap<Integer, Long>();
-		for (java.util.Map.Entry<Integer, Long> _e_ : _o_.point.entrySet())
+		point = new java.util.HashMap<Integer, Integer>();
+		for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.point.entrySet())
 			point.put(_e_.getKey(), _e_.getValue());
 		scheme = _o_.scheme;
 		schemechanges = _o_.schemechanges;
@@ -529,7 +529,7 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		bfp.marshal(_os_);
 		addpointfp.marshal(_os_);
 		_os_.compact_uint32(point.size());
-		for (java.util.Map.Entry<Integer, Long> _e_ : point.entrySet())
+		for (java.util.Map.Entry<Integer, Integer> _e_ : point.entrySet())
 		{
 			_os_.marshal(_e_.getKey());
 			_os_.marshal(_e_.getValue());
@@ -682,14 +682,14 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		{
 			int size = _os_.uncompact_uint32();
 			if (size >= 12) { // {java.util.HashMap} 16 * 0.75 = 12
-				point = new java.util.HashMap<Integer, Long>(size * 4);
+				point = new java.util.HashMap<Integer, Integer>(size * 2);
 			}
 			for (; size > 0; --size)
 			{
 				int _k_ = 0;
 				_k_ = _os_.unmarshal_int();
-				long _v_ = 0;
-				_v_ = _os_.unmarshal_long();
+				int _v_ = 0;
+				_v_ = _os_.unmarshal_int();
 				point.put(_k_, _v_);
 			}
 		}
@@ -1025,18 +1025,18 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 	}
 
 	@Override
-	public java.util.Map<Integer, Long> getPoint() { // 潜能。未分配点数
+	public java.util.Map<Integer, Integer> getPoint() { // 潜能。未分配点数
 		_xdb_verify_unsafe_();
 		return mkdb.Logs.logMap(new mkdb.LogKey(this, "point"), point);
 	}
 
 	@Override
-	public java.util.Map<Integer, Long> getPointAsData() { // 潜能。未分配点数
+	public java.util.Map<Integer, Integer> getPointAsData() { // 潜能。未分配点数
 		_xdb_verify_unsafe_();
-		java.util.Map<Integer, Long> point;
+		java.util.Map<Integer, Integer> point;
 		Properties _o_ = this;
-		point = new java.util.HashMap<Integer, Long>();
-		for (java.util.Map.Entry<Integer, Long> _e_ : _o_.point.entrySet())
+		point = new java.util.HashMap<Integer, Integer>();
+		for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.point.entrySet())
 			point.put(_e_.getKey(), _e_.getValue());
 		return point;
 	}
@@ -3127,18 +3127,18 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		}
 
 		@Override
-		public java.util.Map<Integer, Long> getPoint() { // 潜能。未分配点数
+		public java.util.Map<Integer, Integer> getPoint() { // 潜能。未分配点数
 			_xdb_verify_unsafe_();
 			return mkdb.Consts.constMap(point);
 		}
 
 		@Override
-		public java.util.Map<Integer, Long> getPointAsData() { // 潜能。未分配点数
+		public java.util.Map<Integer, Integer> getPointAsData() { // 潜能。未分配点数
 			_xdb_verify_unsafe_();
-			java.util.Map<Integer, Long> point;
+			java.util.Map<Integer, Integer> point;
 			Properties _o_ = Properties.this;
-			point = new java.util.HashMap<Integer, Long>();
-			for (java.util.Map.Entry<Integer, Long> _e_ : _o_.point.entrySet())
+			point = new java.util.HashMap<Integer, Integer>();
+			for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.point.entrySet())
 				point.put(_e_.getKey(), _e_.getValue());
 			return point;
 		}
@@ -4274,7 +4274,7 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		private int sp; // 怒气
 		private xbean.BasicFightProperties bfp; // 存储基础的点数
 		private xbean.RoleAddPointProperties addpointfp; // 人物加点方案
-		private java.util.HashMap<Integer, Long> point; // 潜能。未分配点数
+		private java.util.HashMap<Integer, Integer> point; // 潜能。未分配点数
 		private int scheme; // 人物加点方案
 		private int schemechanges; // 人物加点方案切换次数
 		private long schemechangetimes; // 人物加点方案切换最后时间
@@ -4362,7 +4362,7 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 			sp = 0;
 			bfp = new BasicFightProperties.Data();
 			addpointfp = new RoleAddPointProperties.Data();
-			point = new java.util.HashMap<Integer, Long>();
+			point = new java.util.HashMap<Integer, Integer>();
 			scheme = 1;
 			schemechanges = 0;
 			fightpetkey = -1;
@@ -4440,8 +4440,8 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 			sp = _o_.sp;
 			bfp = new BasicFightProperties.Data(_o_.bfp);
 			addpointfp = new RoleAddPointProperties.Data(_o_.addpointfp);
-			point = new java.util.HashMap<Integer, Long>();
-			for (java.util.Map.Entry<Integer, Long> _e_ : _o_.point.entrySet())
+			point = new java.util.HashMap<Integer, Integer>();
+			for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.point.entrySet())
 				point.put(_e_.getKey(), _e_.getValue());
 			scheme = _o_.scheme;
 			schemechanges = _o_.schemechanges;
@@ -4557,8 +4557,8 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 			sp = _o_.sp;
 			bfp = new BasicFightProperties.Data(_o_.bfp);
 			addpointfp = new RoleAddPointProperties.Data(_o_.addpointfp);
-			point = new java.util.HashMap<Integer, Long>();
-			for (java.util.Map.Entry<Integer, Long> _e_ : _o_.point.entrySet())
+			point = new java.util.HashMap<Integer, Integer>();
+			for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.point.entrySet())
 				point.put(_e_.getKey(), _e_.getValue());
 			scheme = _o_.scheme;
 			schemechanges = _o_.schemechanges;
@@ -4678,7 +4678,7 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 			bfp.marshal(_os_);
 			addpointfp.marshal(_os_);
 			_os_.compact_uint32(point.size());
-			for (java.util.Map.Entry<Integer, Long> _e_ : point.entrySet())
+			for (java.util.Map.Entry<Integer, Integer> _e_ : point.entrySet())
 			{
 				_os_.marshal(_e_.getKey());
 				_os_.marshal(_e_.getValue());
@@ -4830,14 +4830,14 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 			{
 				int size = _os_.uncompact_uint32();
 				if (size >= 12) { // {java.util.HashMap} 16 * 0.75 = 12
-					point = new java.util.HashMap<Integer, Long>(size * 4);
+					point = new java.util.HashMap<Integer, Integer>(size * 2);
 				}
 				for (; size > 0; --size)
 				{
 					int _k_ = 0;
 					_k_ = _os_.unmarshal_int();
-					long _v_ = 0;
-					_v_ = _os_.unmarshal_long();
+					int _v_ = 0;
+					_v_ = _os_.unmarshal_int();
 					point.put(_k_, _v_);
 				}
 			}
@@ -5149,12 +5149,12 @@ public final class Properties extends mkdb.XBean implements xbean.Properties {
 		}
 
 		@Override
-		public java.util.Map<Integer, Long> getPoint() { // 潜能。未分配点数
+		public java.util.Map<Integer, Integer> getPoint() { // 潜能。未分配点数
 			return point;
 		}
 
 		@Override
-		public java.util.Map<Integer, Long> getPointAsData() { // 潜能。未分配点数
+		public java.util.Map<Integer, Integer> getPointAsData() { // 潜能。未分配点数
 			return point;
 		}
 

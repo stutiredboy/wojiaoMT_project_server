@@ -44,7 +44,7 @@ public class RoleDetail implements Marshal {
 	public int energy; // 活力
 	public int enlimit; // 活力上限
 	public fire.pb.RoleBasicFightProperties bfp;
-	public java.util.HashMap<Integer,Long> point; // 潜能
+	public java.util.HashMap<Integer,Integer> point; // 潜能
 	public int pointscheme; // 当前加点方案
 	public int schemechanges; // 方案切换次数
 	public int schoolvalue; // 职业贡献值
@@ -79,7 +79,7 @@ public class RoleDetail implements Marshal {
 	public RoleDetail() {
 		rolename = "";
 		bfp = new fire.pb.RoleBasicFightProperties();
-		point = new java.util.HashMap<Integer,Long>();
+		point = new java.util.HashMap<Integer,Integer>();
 		pets = new java.util.ArrayList<fire.pb.Pet>();
 		sysconfigmap = new java.util.HashMap<Integer,Integer>();
 		lineconfigmap = new java.util.HashMap<Integer,Integer>();
@@ -90,7 +90,7 @@ public class RoleDetail implements Marshal {
 		depotnameinfo = new java.util.HashMap<Integer,java.lang.String>();
 	}
 
-	public RoleDetail(long _roleid_, java.lang.String _rolename_, int _level_, int _school_, int _shape_, int _title_, long _lastlogin_, int _hp_, int _uplimithp_, int _maxhp_, int _mp_, int _magicattack_, int _maxmp_, int _magicdef_, int _sp_, int _seal_, int _maxsp_, int _hit_, int _damage_, int _heal_critc_level_, int _defend_, int _phy_critc_level_, int _speed_, int _magic_critc_level_, int _dodge_, int _anti_phy_critc_level_, int _medical_, int _unseal_, int _anti_critc_level_, float _phy_critc_pct_, float _magic_critc_pct_, float _heal_critc_pct_, int _anti_magic_critc_level_, int _energy_, int _enlimit_, fire.pb.RoleBasicFightProperties _bfp_, java.util.HashMap<Integer,Long> _point_, int _pointscheme_, int _schemechanges_, int _schoolvalue_, int _reputation_, long _exp_, long _nexp_, int _showpet_, int _petmaxnum_, java.util.ArrayList<fire.pb.Pet> _pets_, java.util.HashMap<Integer,Integer> _sysconfigmap_, java.util.HashMap<Integer,Integer> _lineconfigmap_, java.util.HashMap<Integer,fire.pb.title.TitleInfo> _titles_, java.util.HashMap<Integer,fire.pb.FormBean> _learnedformsmap_, java.util.HashMap<Byte,Integer> _components_, int _activeness_, int _factionvalue_, long _masterid_, byte _isprotected_, byte _wrongpwdtimes_, int _petindex_, int _kongzhijiacheng_, int _kongzhimianyi_, int _zhiliaojiashen_, int _wulidikang_, int _fashudikang_, int _fashuchuantou_, int _wulichuantou_, java.util.HashMap<Integer,fire.pb.Bag> _baginfo_, long _rolecreatetime_, java.util.HashMap<Integer,java.lang.String> _depotnameinfo_) {
+	public RoleDetail(long _roleid_, java.lang.String _rolename_, int _level_, int _school_, int _shape_, int _title_, long _lastlogin_, int _hp_, int _uplimithp_, int _maxhp_, int _mp_, int _magicattack_, int _maxmp_, int _magicdef_, int _sp_, int _seal_, int _maxsp_, int _hit_, int _damage_, int _heal_critc_level_, int _defend_, int _phy_critc_level_, int _speed_, int _magic_critc_level_, int _dodge_, int _anti_phy_critc_level_, int _medical_, int _unseal_, int _anti_critc_level_, float _phy_critc_pct_, float _magic_critc_pct_, float _heal_critc_pct_, int _anti_magic_critc_level_, int _energy_, int _enlimit_, fire.pb.RoleBasicFightProperties _bfp_, java.util.HashMap<Integer,Integer> _point_, int _pointscheme_, int _schemechanges_, int _schoolvalue_, int _reputation_, long _exp_, long _nexp_, int _showpet_, int _petmaxnum_, java.util.ArrayList<fire.pb.Pet> _pets_, java.util.HashMap<Integer,Integer> _sysconfigmap_, java.util.HashMap<Integer,Integer> _lineconfigmap_, java.util.HashMap<Integer,fire.pb.title.TitleInfo> _titles_, java.util.HashMap<Integer,fire.pb.FormBean> _learnedformsmap_, java.util.HashMap<Byte,Integer> _components_, int _activeness_, int _factionvalue_, long _masterid_, byte _isprotected_, byte _wrongpwdtimes_, int _petindex_, int _kongzhijiacheng_, int _kongzhimianyi_, int _zhiliaojiashen_, int _wulidikang_, int _fashudikang_, int _fashuchuantou_, int _wulichuantou_, java.util.HashMap<Integer,fire.pb.Bag> _baginfo_, long _rolecreatetime_, java.util.HashMap<Integer,java.lang.String> _depotnameinfo_) {
 		this.roleid = _roleid_;
 		this.rolename = _rolename_;
 		this.level = _level_;
@@ -217,7 +217,7 @@ public class RoleDetail implements Marshal {
 		_os_.marshal(enlimit);
 		_os_.marshal(bfp);
 		_os_.compact_uint32(point.size());
-		for (java.util.Map.Entry<Integer, Long> _e_ : point.entrySet()) {
+		for (java.util.Map.Entry<Integer, Integer> _e_ : point.entrySet()) {
 			_os_.marshal(_e_.getKey());
 			_os_.marshal(Long.valueOf(_e_.getValue().toString()));
 		}
@@ -325,8 +325,8 @@ public class RoleDetail implements Marshal {
 		for (int size = _os_.uncompact_uint32(); size > 0; --size) {
 			int _k_;
 			_k_ = _os_.unmarshal_int();
-			long _v_;
-			_v_ = _os_.unmarshal_long();
+			int _v_;
+			_v_ = _os_.unmarshal_int();
 			point.put(_k_, _v_);
 		}
 		pointscheme = _os_.unmarshal_int();
