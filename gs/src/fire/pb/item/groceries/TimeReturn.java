@@ -113,11 +113,11 @@ public class TimeReturn extends GroceryItem {
 			prop.getPoint().put(curScheme, curpoint + Math.abs(decpoints));
 			
 			xbean.BasicFightProperties bfp = prop.getBfp();
-			bfp.setAgi((short) (bfp.getAgi() + agi));
-			bfp.setCons((short) (bfp.getCons() + cons));
-			bfp.setEndu((short) (bfp.getEndu() + endu));
-			bfp.setIq((short) (bfp.getIq() + iq));
-			bfp.setStr((short) (bfp.getStr() + str));
+			bfp.setAgi( (bfp.getAgi() + agi));
+			bfp.setCons( (bfp.getCons() + cons));
+			bfp.setEndu( (bfp.getEndu() + endu));
+			bfp.setIq( (bfp.getIq() + iq));
+			bfp.setStr( (bfp.getStr() + str));
 			
 			addfp.getAgi_save().put(curScheme, addfp.getAgi_save().get(curScheme) + agi);
 			addfp.getCons_save().put(curScheme, addfp.getCons_save().get(curScheme) + cons);

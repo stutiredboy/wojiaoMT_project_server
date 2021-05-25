@@ -8,16 +8,16 @@ import com.locojoy.base.Marshal.MarshalException;
 /** 基础战斗属性
 */
 public class BasicFightProperties implements Marshal , Comparable<BasicFightProperties>{
-	public short cons; // 体质
-	public short iq; // 智力
-	public short str; // 力量
-	public short endu; // 耐力
-	public short agi; // 敏捷
+	public int cons; // 体质
+	public int iq; // 智力
+	public int str; // 力量
+	public int endu; // 耐力
+	public int agi; // 敏捷
 
 	public BasicFightProperties() {
 	}
 
-	public BasicFightProperties(short _cons_, short _iq_, short _str_, short _endu_, short _agi_) {
+	public BasicFightProperties(int _cons_, int _iq_, int _str_, int _endu_, int _agi_) {
 		this.cons = _cons_;
 		this.iq = _iq_;
 		this.str = _str_;
@@ -39,11 +39,11 @@ public class BasicFightProperties implements Marshal , Comparable<BasicFightProp
 	}
 
 	public OctetsStream unmarshal(OctetsStream _os_) throws MarshalException {
-		cons = _os_.unmarshal_short();
-		iq = _os_.unmarshal_short();
-		str = _os_.unmarshal_short();
-		endu = _os_.unmarshal_short();
-		agi = _os_.unmarshal_short();
+		cons = _os_.unmarshal_int();
+		iq = _os_.unmarshal_int();
+		str = _os_.unmarshal_int();
+		endu = _os_.unmarshal_int();
+		agi = _os_.unmarshal_int();
 		return _os_;
 	}
 

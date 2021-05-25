@@ -121,11 +121,11 @@ public class PlayPKEndHandler extends BattleEndHandler {
 		int endu = ((Integer)addfp.getEndu_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
 		int iq = ((Integer)addfp.getIq_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
 		int str = ((Integer)addfp.getStr_save().get(Integer.valueOf(curScheme))).intValue() + declevel;
-		bfp.setAgi(bfp.getAgi() > agi?(short)(bfp.getAgi() - agi):0);
-		bfp.setCons(bfp.getCons() > cons?(short)(bfp.getCons() - cons):0);
-		bfp.setEndu(bfp.getEndu() > endu?(short)(bfp.getEndu() - endu):0);
-		bfp.setIq(bfp.getIq() > iq?(short)(bfp.getIq() - iq):0);
-		bfp.setStr(bfp.getStr() > str?(short)(bfp.getStr() - str):0);
+		bfp.setAgi(bfp.getAgi() > agi?(bfp.getAgi() - agi):0);
+		bfp.setCons(bfp.getCons() > cons?(bfp.getCons() - cons):0);
+		bfp.setEndu(bfp.getEndu() > endu?(bfp.getEndu() - endu):0);
+		bfp.setIq(bfp.getIq() > iq?(bfp.getIq() - iq):0);
+		bfp.setStr(bfp.getStr() > str?(bfp.getStr() - str):0);
    
 		for(int changedAttrs = 1; changedAttrs < 4; ++changedAttrs) {
 			int erole = ((Integer)addfp.getAgi_save().get(Integer.valueOf(changedAttrs))).intValue();
@@ -157,11 +157,11 @@ public class PlayPKEndHandler extends BattleEndHandler {
 		rfdata.datas.putAll(dataList);
 		Procedure.psendWhileCommit(roleId, rfdata);
 		SRefreshPointType refreshdata = new SRefreshPointType();
-		refreshdata.bfp.agi = (short)bfp.getAgi();
-		refreshdata.bfp.cons = (short)bfp.getCons();
-		refreshdata.bfp.endu = (short)bfp.getEndu();
-		refreshdata.bfp.iq = (short)bfp.getIq();
-		refreshdata.bfp.str = (short)bfp.getStr();
+		refreshdata.bfp.agi = bfp.getAgi();
+		refreshdata.bfp.cons = bfp.getCons();
+		refreshdata.bfp.endu = bfp.getEndu();
+		refreshdata.bfp.iq = bfp.getIq();
+		refreshdata.bfp.str = bfp.getStr();
 		refreshdata.bfp.agi_save.putAll(prop.getAddpointfp().getAgi_save());
 		refreshdata.bfp.cons_save.putAll(prop.getAddpointfp().getCons_save());
 		refreshdata.bfp.endu_save.putAll(prop.getAddpointfp().getEndu_save());
