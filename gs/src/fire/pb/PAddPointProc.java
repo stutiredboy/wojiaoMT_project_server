@@ -4,6 +4,7 @@ import fire.pb.buff.BuffConstant;
 import fire.pb.item.RoleAddPointEvent;
 import mkdb.Procedure;
 import xbean.BasicFightProperties;
+import fire.pb.attr.SRefreshPointType;
 
 /**
  * 角色属性加点存储过程
@@ -42,16 +43,16 @@ public class PAddPointProc extends mkdb.Procedure{
 			Procedure.psendWhileCommit(roleId, send);
 			
 			//刷新人物加点信息
-			final fire.pb.attr.SRefreshPointType refresh = new fire.pb.attr.SRefreshPointType();
+			SRefreshPointType refresh = new SRefreshPointType();
 
 			xbean.Properties prop = xtable.Properties.get(roleId);
 			BasicFightProperties bfp = prop.getBfp();
 			
-			refresh.bfp.agi = (short)bfp.getAgi();
-			refresh.bfp.cons = (short)bfp.getCons();
-			refresh.bfp.endu = (short)bfp.getEndu();
-			refresh.bfp.iq = (short)bfp.getIq();
-			refresh.bfp.str = (short)bfp.getStr();			
+			refresh.bfp.agi = bfp.getAgi();
+			refresh.bfp.cons = bfp.getCons();
+			refresh.bfp.endu = bfp.getEndu();
+			refresh.bfp.iq = bfp.getIq();
+			refresh.bfp.str = bfp.getStr();			
 			
 			refresh.bfp.agi_save.putAll(prop.getAddpointfp().getAgi_save());
 			refresh.bfp.cons_save.putAll(prop.getAddpointfp().getCons_save());

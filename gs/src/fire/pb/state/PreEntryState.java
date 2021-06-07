@@ -573,11 +573,11 @@ public class PreEntryState extends State {
 		// 已分配的五项基本属性
 		BasicFightProperties bfp = pro.getBfp();
 
-		snd.mydata.bfp.agi = (short)(erole.getAttrById(AttrType.AGI));
-		snd.mydata.bfp.cons = (short)(erole.getAttrById(AttrType.CONS));
-		snd.mydata.bfp.endu = (short)(erole.getAttrById(AttrType.ENDU));
-		snd.mydata.bfp.iq = (short)(erole.getAttrById(AttrType.IQ));
-		snd.mydata.bfp.str = (short)(erole.getAttrById(AttrType.STR));
+		snd.mydata.bfp.agi = (int)(erole.getAttrById(AttrType.AGI));
+		snd.mydata.bfp.cons = (int)(erole.getAttrById(AttrType.CONS));
+		snd.mydata.bfp.endu = (int)(erole.getAttrById(AttrType.ENDU));
+		snd.mydata.bfp.iq = (int)(erole.getAttrById(AttrType.IQ));
+		snd.mydata.bfp.str = (int)(erole.getAttrById(AttrType.STR));
 
 		snd.mydata.bfp.agi_save.putAll(pro.getAddpointfp().getAgi_save());
 		snd.mydata.bfp.cons_save.putAll(pro.getAddpointfp().getCons_save());

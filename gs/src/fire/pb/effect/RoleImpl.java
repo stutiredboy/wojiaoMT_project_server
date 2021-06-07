@@ -250,11 +250,11 @@ public class RoleImpl extends AttrCalcRole
 		RoleAddPointProperties addfp = prop.getAddpointfp();
 		
 		xbean.BasicFightProperties bfp = prop.getBfp();
-		bfp.setAgi((short) (bfp.getAgi() + agi));
-		bfp.setCons((short) (bfp.getCons() + cons));
-		bfp.setEndu((short) (bfp.getEndu() + endu));
-		bfp.setIq((short) (bfp.getIq() + iq));
-		bfp.setStr((short) (bfp.getStr() + str));
+		bfp.setAgi( (bfp.getAgi() + agi));
+		bfp.setCons((bfp.getCons() + cons));
+		bfp.setEndu((bfp.getEndu() + endu));
+		bfp.setIq((bfp.getIq() + iq));
+		bfp.setStr((bfp.getStr() + str));
 		
 		addfp.getAgi_save().put(prop.getScheme(), addfp.getAgi_save().get(prop.getScheme()) + agi);
 		addfp.getCons_save().put(prop.getScheme(), addfp.getCons_save().get(prop.getScheme()) + cons);
@@ -286,11 +286,11 @@ public class RoleImpl extends AttrCalcRole
 		if (bfp.getAgi() >= 25000){
 			return null;
 		}
-		bfp.setAgi((short) (bfp.getAgi() + agi));
-		bfp.setCons((short) (bfp.getCons() + cons));
-		bfp.setEndu((short) (bfp.getEndu() + endu));
-		bfp.setIq((short) (bfp.getIq() + iq));
-		bfp.setStr((short) (bfp.getStr() + str));
+		bfp.setAgi((bfp.getAgi() + agi));
+		bfp.setCons((bfp.getCons() + cons));
+		bfp.setEndu((bfp.getEndu() + endu));
+		bfp.setIq((bfp.getIq() + iq));
+		bfp.setStr((bfp.getStr() + str));
 		
 		addfp.getAgi_save().put(prop.getScheme(), addfp.getAgi_save().get(prop.getScheme()) + agi);
 		addfp.getCons_save().put(prop.getScheme(), addfp.getCons_save().get(prop.getScheme()) + cons);
@@ -422,11 +422,11 @@ public class RoleImpl extends AttrCalcRole
 			}
 			
 			//points 体 智 力 耐 敏
-			bfp.setAgi((short) (bfp.getAgi() + 1 + points.get(4)));
-			bfp.setCons((short) (bfp.getCons() + 1 + points.get(0)));
-			bfp.setEndu((short) (bfp.getEndu() + 1 + points.get(3)));
-			bfp.setIq((short) (bfp.getIq() + 1 + points.get(1)));
-			bfp.setStr((short) (bfp.getStr() + 1 + points.get(2)));
+			bfp.setAgi((bfp.getAgi() + 1 + points.get(4)));
+			bfp.setCons((bfp.getCons() + 1 + points.get(0)));
+			bfp.setEndu((bfp.getEndu() + 1 + points.get(3)));
+			bfp.setIq((bfp.getIq() + 1 + points.get(1)));
+			bfp.setStr((bfp.getStr() + 1 + points.get(2)));
 			
 			addfp.getAgi_save().put(prop.getScheme(), addfp.getAgi_save().get(prop.getScheme()) + points.get(4));
 			addfp.getCons_save().put(prop.getScheme(), addfp.getCons_save().get(prop.getScheme()) + points.get(0));
@@ -439,11 +439,11 @@ public class RoleImpl extends AttrCalcRole
 		}
 		else
 		{
-			bfp.setAgi((short) (bfp.getAgi() + 1));
-			bfp.setCons((short) (bfp.getCons() + 1));
-			bfp.setEndu((short) (bfp.getEndu() + 1));
-			bfp.setIq((short) (bfp.getIq() + 1));
-			bfp.setStr((short) (bfp.getStr() + 1));
+			bfp.setAgi((bfp.getAgi() + 1));
+			bfp.setCons((bfp.getCons() + 1));
+			bfp.setEndu((bfp.getEndu() + 1));
+			bfp.setIq( (bfp.getIq() + 1));
+			bfp.setStr((bfp.getStr() + 1));
 			
 			for (int i = 1; i < 4; i ++) {
 				prop.getPoint().put(i, prop.getPoint().get(i) + DataInit.ROLE_UP_POINT);

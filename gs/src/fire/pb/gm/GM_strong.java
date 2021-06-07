@@ -56,11 +56,11 @@ public class GM_strong extends GMCommand {
 						xbean.Properties prop = xtable.Properties.get(roleId);
 						BasicFightProperties bfp = prop.getBfp();
 
-						refresh.bfp.agi = (short) bfp.getAgi();
-						refresh.bfp.cons = (short) bfp.getCons();
-						refresh.bfp.endu = (short) bfp.getEndu();
-						refresh.bfp.iq = (short) bfp.getIq();
-						refresh.bfp.str = (short) bfp.getStr();
+						refresh.bfp.agi =  bfp.getAgi();
+						refresh.bfp.cons = bfp.getCons();
+						refresh.bfp.endu =  bfp.getEndu();
+						refresh.bfp.iq =  bfp.getIq();
+						refresh.bfp.str =  bfp.getStr();
 
 						refresh.bfp.agi_save.putAll(prop.getAddpointfp().getAgi_save());
 						refresh.bfp.cons_save.putAll(prop.getAddpointfp().getCons_save());

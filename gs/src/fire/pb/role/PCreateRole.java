@@ -95,11 +95,11 @@ public class PCreateRole extends mkdb.Procedure {
 	}
 	
 	private static void initBasicFightProperties(xbean.BasicFightProperties b,fire.pb.role.RoleModData m){
-		b.setAgi((short) m.agiinit);
-		b.setCons((short) m.consinit);
-		b.setEndu((short) m.enduinit);
-		b.setIq((short) m.iqinit);
-		b.setStr((short) m.strinit);
+		b.setAgi( m.agiinit);
+		b.setCons( m.consinit);
+		b.setEndu(m.enduinit);
+		b.setIq( m.iqinit);
+		b.setStr( m.strinit);
 	}
 	
 	private boolean InsertMysqlRelation(long roleId, String rolename, int shapeid, int level) {
@@ -365,11 +365,11 @@ public class PCreateRole extends mkdb.Procedure {
 		}
 		
 		if (pro.getLevel() == 1){
-			bfp.setAgi((short) (bfp.getAgi() + 1 + points.get(4)));
-			bfp.setCons((short) (bfp.getCons() + 1 + points.get(0)));
-			bfp.setEndu((short) (bfp.getEndu() + 1 + points.get(3)));
-			bfp.setIq((short) (bfp.getIq() + 1 + points.get(1)));
-			bfp.setStr((short) (bfp.getStr() + 1 + points.get(2)));
+			bfp.setAgi((bfp.getAgi() + 1 + points.get(4)));
+			bfp.setCons((bfp.getCons() + 1 + points.get(0)));
+			bfp.setEndu((bfp.getEndu() + 1 + points.get(3)));
+			bfp.setIq((bfp.getIq() + 1 + points.get(1)));
+			bfp.setStr((bfp.getStr() + 1 + points.get(2)));
 		}
 		else {
 			for (int i=1; i<4; i++) {

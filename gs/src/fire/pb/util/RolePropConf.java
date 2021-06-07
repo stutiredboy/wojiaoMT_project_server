@@ -47,19 +47,19 @@ public class RolePropConf {
 		if(bfp==null||value<0) return false;
 		switch (attrType) {
 		case AGI:
-			 bfp.setAgi((short) value);
+			 bfp.setAgi(value);
 			 break;
 		case CONS:
-			bfp.setCons((short) value);
+			bfp.setCons(value);
 			break;
 		case ENDU:
-			 bfp.setEndu((short) value);
+			 bfp.setEndu(value);
 			break;
 		case IQ:
-			bfp.setIq((short) value);
+			bfp.setIq(value);
 			break;
 		case STR:
-			bfp.setStr((short) value);
+			bfp.setStr(value);
 			break;
 		default:
 			return false;
