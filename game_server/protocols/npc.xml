@@ -486,4 +486,14 @@
         <variable name="itemID" type="int"/> 道具ID
         <variable name="itemNum" type="int" />道具数量
     </protocol>
+	
+	<protocol name="CLeaderExchange" type="9260" maxsize="65535" prior="1" tolua="3">
+        <variable name="itemID" type="int"/> 道具ID
+        <variable name="itemNum" type="int" />道具数量
+    </protocol>
+	
+	<protocol name="SLeaderExchange" type="9261" maxsize="65535" prior="1" tolua="3">
+        <variable name="itemID" type="int"/> 道具ID
+        <variable name="itemNum" type="int" />道具数量
+    </protocol>
 </namespace>
