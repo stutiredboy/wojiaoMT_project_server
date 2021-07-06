@@ -48,7 +48,7 @@ public class GEnterOrOutSafeAear extends __GEnterOrOutSafeAear__ {
 //							stringBuffer.append(new PropRole(id, true).getName());
 //							isFirst = false;
 //						}else{
-//							stringBuffer.append("闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌熼梻瀵割槮缁炬儳缍婇弻锝夊箣閿濆憛鎾绘煕閵堝懎顏柡灞剧洴椤㈡洟鏁愰崱娆欑喘闂備浇娉曢崰鏇炍涢崟顖氱９闁秆勩仠閿熸垝绀侀～婵嬫嚋閸偅顏熷┑鐐差嚟婵挳顢栭崶褏鏆ゅ〒姘炬嫹闁绘搩鍋婂畷鍫曞Ω瑜夊銊╂⒑閸濆嫭鍣洪柟顔煎�垮濠氬Ω閳哄倸浜為梺绋挎湰缁嬫垿顢旈敓锟�?" + new PropRole(id, true).getName());
+//							stringBuffer.append("闂傚倸鍊搁崐鎼佸磹閹间礁纾归柟闂寸绾惧綊鏌熼梻瀵割槮缁炬儳缍婇弻鐔兼⒒鐎靛壊妲紒鐐劤缂嶅﹪寮婚敐澶婄闁挎繂鎲涢幘缁樼厱闁靛牆鎳庨顓㈡煛鐏炲墽娲存い銏℃礋閺佹劙宕卞▎娆戝枠闂傚倷娴囧▔鏇㈠窗閺囩倣娑㈠礋椤栨氨锛欓梺绉嗗嫨浠犻柨鐔稿灊缁�渚�锝炲┑瀣殝闁割煈鍋呴鐔封攽閻愬樊鍤熷┑顔芥尦椤㈡牠宕惰閺嗐倕銆掑鐐闂佺粯鎼╅崑濠傜暦閸洖惟鐟滃顬婇妸鈺傗拺闁告繂瀚崳娲煙椤旂厧锟藉灝顕ｆ繝姘╅柍鍝勫�告禍鐐烘⒑缁嬫寧婀扮紒瀣灴椤㈡棃鏁撻敓锟�?" + new PropRole(id, true).getName());
 //						}
 //					}else{
 //						if(enterTime != null){
