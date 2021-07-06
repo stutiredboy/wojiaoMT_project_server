@@ -495,6 +495,8 @@
 			<Protocol class="fire.pb.friends.CGiveGift" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.CGiveInfoList" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.CGiveItem" maxSize="65535"/>
+			<Protocol class="fire.pb.friends.CJieBai" maxSize="65535"/>
+			<Protocol class="fire.pb.friends.CMarry" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.CRecommendFriend" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.CReqJionCamp" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.CRequestAddFriend" maxSize="65535"/>
@@ -520,7 +522,9 @@
 			<Protocol class="fire.pb.friends.SGiveGift" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.SGiveInfoList" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.SGiveItem" maxSize="65535"/>
+			<Protocol class="fire.pb.friends.SJieBaiRes" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.SJionCamp" maxSize="65535"/>
+			<Protocol class="fire.pb.friends.SMarryRes" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.SOffLineMsgMessageToRole" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.SRecommendFriend" maxSize="65535"/>
 			<Protocol class="fire.pb.friends.SRequestSpaceRoleInfo" maxSize="65535"/>

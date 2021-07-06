@@ -299,5 +299,22 @@
 		<variable name="signContent" type="string" /> 签名内容
 	</protocol>
 	<!-- 好友签名 协议号从20251-20260 -->
-
+	<!-- 结婚请求 -->
+	<protocol name="CMarry" type="20253" maxsize="65535" prior="1" tolua="3">
+		<variable name="roleID1" type="long" /> 
+		<variable name="roleID2" type="long" /> 
+	</protocol>
+	<!-- 结婚结果 -->
+	<protocol name="SMarryRes" type="20254" maxsize="65535" prior="1" tolua="3">
+		<variable name="resStr" type="string" /> 
+	</protocol>
+	<!-- 结拜请求 -->
+	<protocol name="CJieBai" type="20255" maxsize="65535" prior="1" tolua="3">
+		<variable name="roleIDList" type="list" value="long" /> 
+		<variable name="customTitle" type="string" /> 
+	</protocol>
+	<!-- 结拜结果 -->
+	<protocol name="SJieBaiRes" type="20256" maxsize="65535" prior="1" tolua="3">
+		<variable name="resStr" type="string" /> 
+	</protocol>
 </namespace>
