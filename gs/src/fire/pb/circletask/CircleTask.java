@@ -238,16 +238,24 @@ public class CircleTask {
 		}	
 
 		int circleMax = CircleTaskManager.getInstance().getCTCircleMax(ctaward);
+		int dayMax = ctaward.awardtime;
+		int gaoJiangHuanShu = ctaward.gjhuanshu; //高奖环数
+		CircleTaskManager.logger.error("--------------------角色[" + roleid + "]循环任务" + circletype + "的" + dayMax + "------励!"+sqinfo.getSumnum());
+		if(sqinfo.getSumnum() > dayMax)
+		{
+			CircleTaskManager.logger.error("--------------------角色[" + roleid + "]循环任务" + circletype + "的" + sqinfo.getQuesttype() + "已超过最大奖励!");
+			return;
+		}
 		if (sqinfo.getSumnum() >= circleMax) {
 			if (circletype != 1060000) {
 				//发完成20环的提示消息
 				fire.pb.talk.MessageMgr.sendMsgNotify(roleid, ctaward.getMaxnumtips(), null);
 			}
 		}
+		
 				
 //		final fire.pb.PropRole prole = new fire.pb.PropRole(roleid, false);
-		int dayMax = ctaward.awardtime;
-		int gaoJiangHuanShu = ctaward.gjhuanshu; //高奖环数
+		
 //		int petKey = prole.getFightpetkey();
 		//检测双倍点数是否够给予双倍奖励
 		short dpoint = RoleHookManager.getInstance().getLastDpoint(roleid);

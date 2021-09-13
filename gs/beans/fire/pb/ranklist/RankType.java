@@ -47,7 +47,7 @@ public class RankType implements Marshal , Comparable<RankType>{
 	public final static int CLAN_FIGHT_4 = 121; // 公会战竞赛排名周四那场 by changhao
 	public final static int CLAN_FIGHT_WEEK = 122; // 公会战竞赛排名本轮 by changhao
 	public final static int CLAN_FIGHT_HISTROY = 123; // 公会战历史排名 by changhao
-
+	public final static int GOLD_COIN_RANK = 124; // 金币排行榜
 
 	public RankType() {
 	}
