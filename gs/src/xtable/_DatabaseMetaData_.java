@@ -1531,6 +1531,11 @@ public class _DatabaseMetaData_ extends mkdb.util.DatabaseMetaData {
 				, "map", "int", "int", ""
 				, "", "", ""
 				);
+			super.addVariableFor(bean
+				, "yijingaddcount"
+				, "int", "", "", ""
+				, "", "", ""
+				);
 			super.addBean(bean);
 		}
 		{

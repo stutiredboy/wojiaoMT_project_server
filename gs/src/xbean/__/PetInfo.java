@@ -56,6 +56,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	private java.util.LinkedList<xbean.PetSkill> internals;
 	private int shapeid; // 宠物外形ID
 	private java.util.HashMap<Integer, Integer> equiplist;// 装备列表
+	private int yijingaddcount; // 吃易经丹次数 
 
 	@Override
 	public void _reset_unsafe_() {
@@ -106,6 +107,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		internals.clear();
 		shapeid = 0;
 		equiplist.clear();
+		yijingaddcount = 0;
 	}
 
 	PetInfo(int __, mkdb.XBean _xp_, String _vn_) {
@@ -205,6 +207,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		equiplist = new java.util.HashMap<Integer, Integer>();
 		for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.equiplist.entrySet())
 			equiplist.put(_e_.getKey(), _e_.getValue());
+		yijingaddcount = _o.yijingaddcount;
 	}
 
 	private void assign(PetInfo.Data _o_) {
@@ -266,6 +269,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		equiplist = new java.util.HashMap<Integer, Integer>();
 		for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.equiplist.entrySet())
 			equiplist.put(_e_.getKey(), _e_.getValue());
+		yijingaddcount = _o.yijingaddcount;
 	}
 
 	@Override
@@ -339,6 +343,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_os_.marshal(_e_.getKey());
 			_os_.marshal(_e_.getValue());
 		}
+		_os.marshal(yijingaddcount);
 
 		return _os_;
 	}
@@ -440,6 +445,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 				equiplist.put(_k_, _v_);
 			}
 		}
+		yijingaddcount = _os.unmarshal_int();
 		return _os_;
 	}
 
@@ -816,6 +822,14 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		equiplist.put(_e_.getKey(), _e_.getValue());
 		return equiplist;
 	}
+
+	@Override
+	public int getYijingCount() // 易经丹使用次数
+	{
+		_xdb_verify_unsafe_();
+		return yijingaddcount;
+	}
+
 
 	@Override
 	public void setId(int _v_) { // 宠物ID
@@ -1254,6 +1268,17 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 	}
 
 	@Override
+	public void setYijingCount(int _v_){
+		_xdb_verify_unsafe_();
+		mkdb.Logs.logIf(new mkdb.LogKey(this, "yijingaddcount") {
+			protected mkdb.Log create() {
+				return new mkdb.logs.LogInt(this, yijingaddcount) {
+					public void rollback() { yijingaddcount = _xdb_saved; }
+				};}});
+				yijingaddcount = _v_;
+	}
+
+	@Override
 	public final boolean equals(Object _o1_) {
 		_xdb_verify_unsafe_();
 		PetInfo _o_ = null;
@@ -1307,6 +1332,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		if (!internals.equals(_o_.internals)) return false;
 		if (shapeid != _o_.shapeid) return false;
 		if (!equiplist.equals(_o_.equiplist)) return false;
+		if (yijingaddcount != _o_.yijingaddcount) return false;
 		return true;
 	}
 
@@ -1361,6 +1387,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_h_ += internals.hashCode();
 		_h_ += shapeid;
 		_h_ += equiplist.hashCode();
+		_h_ += yijingaddcount;
 		return _h_;
 	}
 
@@ -1462,6 +1489,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		_sb_.append(shapeid);
 		_sb_.append(",");
 		_sb_.append(equiplist);
+		_sb_.append(",");
+		_sb_.append(yijingaddcount)
 		_sb_.append(")");
 		return _sb_.toString();
 	}
@@ -1516,6 +1545,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("internals"));
 		lb.add(new mkdb.logs.ListenableChanged().setVarName("shapeid"));
 		lb.add(new mkdb.logs.ListenableMap().setVarName("equiplist"));
+		lb.add(new mkdb.logs.ListenableChanged().setVarName("yijingaddcount"));
 		return lb;
 	}
 
@@ -1874,6 +1904,12 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		public int getShapeID() {
 			_xdb_verify_unsafe_();
 			return shapeid;
+		}
+
+		@Override
+		public int getYijingCount(){
+			_xdb_verify_unsafe_();
+			return yijingaddcount;
 		}
 
 		@Override
@@ -2248,6 +2284,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		private java.util.LinkedList<xbean.PetSkill> internals;
 		private int shapeid; // 宠物外形ID
 		private java.util.HashMap<Integer, Integer> equiplist;// 装备列表
+		private int yijingaddcount; // 易经丹使用次数
 
 		@Override
 		public void _reset_unsafe_() {
@@ -2340,6 +2377,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			equiplist = new java.util.HashMap<Integer, Integer>();
 			for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.equiplist.entrySet())
 				equiplist.put(_e_.getKey(), _e_.getValue());
+			yijingaddcount = _o_.yijingaddcount;
 		}
 
 		private void assign(PetInfo.Data _o_) {
@@ -2400,6 +2438,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			equiplist = new java.util.HashMap<Integer, Integer>();
 			for (java.util.Map.Entry<Integer, Integer> _e_ : _o_.equiplist.entrySet())
 				equiplist.put(_e_.getKey(), _e_.getValue());
+			yijingaddcount = _o_.yijingaddcount;
 		}
 
 		@Override
@@ -2472,6 +2511,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 				_os_.marshal(_e_.getKey());
 				_os_.marshal(_e_.getValue());
 			}
+			_os_.marshal(yijingaddcount);
 
 			return _os_;
 		}
@@ -2572,6 +2612,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 					equiplist.put(_k_, _v_);
 				}
 			}
+			yijingaddcount = _os_.unmarshal_int();
 			return _os_;
 		}
 
@@ -2874,6 +2915,11 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 		}
 
 		@Override
+		public int getYijingCount(){ // 易经丹使用次数
+			return yijingaddcount;
+		}
+
+		@Override
 		public void setId(int _v_) { // 宠物ID
 			id = _v_;
 		}
@@ -3075,6 +3121,11 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			shapeid = _v_;
 		}
 
+		@Override
+		public void setYijingCount(int _v_){
+			yijingaddcount = _v_;
+		}
+
 		
 
 		@Override
@@ -3128,6 +3179,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			if (!internals.equals(_o_.internals)) return false;
 			if (shapeid != _o_.shapeid) return false;
 			if (!equiplist.equals(_o_.equiplist)) return false;
+			if (yijingaddcount != _o_.yijingaddcount) return false;
 			return true;
 		}
 
@@ -3181,6 +3233,7 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_h_ += internals.hashCode();
 			_h_ += shapeid;
 			_h_ += equiplist.hashCode();
+			_h_ += yijingaddcount;
 			return _h_;
 		}
 
@@ -3281,6 +3334,8 @@ public final class PetInfo extends mkdb.XBean implements xbean.PetInfo {
 			_sb_.append(shapeid);
 			_sb_.append(",");
 			_sb_.append(equiplist);
+			_sb_.append(",");
+			_sb_.append(yijingaddcount);
 			_sb_.append(")");
 			return _sb_.toString();
 		}

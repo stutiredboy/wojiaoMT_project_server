@@ -763,6 +763,7 @@ public class Pet {
 		pet.aptaddcount = (byte) petInfo.getAptaddcount();
 		pet.growrateaddcount = (byte) petInfo.getGrowrateaddcount();
 		pet.washcount = (short) petInfo.getWashcount();
+		pet.yijingaddcount = petInfo.getYijingCount();
 
 		pet.petscore = petInfo.getPetscore();
 		pet.petbasescore = petInfo.getPetbasescore();
