@@ -2,6 +2,8 @@ package fire.pb.ranklist.proc;
 
 import java.util.Calendar;
 import java.util.Comparator;
+import java.util.List;
+import java.util.Map;
 
 import fire.pb.PropRole;
 import fire.pb.StateCommon;
@@ -12,6 +14,8 @@ import fire.pb.pet.PetColumn;
 import fire.pb.pet.PetColumnTypes;
 import fire.pb.ranklist.RankType;
 import fire.pb.skill.SkillRole;
+import fire.pb.title.STitlepaimingConfig;
+import fire.pb.title.Title;
 import mkdb.Procedure;
 import xtable.Clans;
 
@@ -89,9 +93,56 @@ public class PGiveFlowerkRankProc extends Procedure {
 		record.getMarshaldata().setName(prop.getRolename());
 		record.getMarshaldata().setSchool(prop.getSchool());
 		record.getMarshaldata().setNum(giftnum);
+
+		long time = RankListManager.GetMonday1Millisecond();
+		xbean.GiveFlowerRankList ranklist = xtable.Giveflowerlist.select(time);
+		if(ranklist == null)
+		{
+			return false;
+		}
 		
+		int count = 0;
+		Map<Integer, STitlepaimingConfig> titiledatamap = ConfigManager.getInstance().getConf(fire.pb.title.STitlepaimingConfig.class);
+		if(ranklist.getRecords().size() >= 10 && giftnum > ranklist.getRecords().get(9).getMarshaldata().getNum())
+		{
+			for(int i = 0; i < 10 ; i++)
+			{
+				xbean.GiveFlowerRecord e = ranklist.getRecords().get(i);
+				long tempID = e.getMarshaldata().getRoleid();
+				java.util.Map<Integer, xbean.TitleInfo> allTitles = xtable.Properties.selectTitles(tempID);
+				if(titiledatamap.containsKey(i+1) && allTitles.containsKey(titiledatamap.get(i+1).jianxianchenghao))
+				{
+					allTitles.remove(titiledatamap.get(i+1).jianxianchenghao);
+				}
+
+			}
+		}
+					
 		RankListManager.getInstance().tryInsertRecord(RankType.FLOWER_GIVE, list.getRecords(), record);	
-				
+
+		long time1 = RankListManager.GetMonday1Millisecond();
+		xbean.GiveFlowerRankList ranklist1 = xtable.Giveflowerlist.select(time1);
+		if(ranklist1 == null)
+		{
+			return false;
+		}
+		for(int i = 0; i < 10; i++)
+		{
+			if(ranklist1.getRecords().size() > i && ranklist1.getRecords().get(i) != null)
+			{
+				xbean.GiveFlowerRecord e = ranklist1.getRecords().get(i);
+				long tempID = e.getMarshaldata().getRoleid();
+				java.util.Map<Integer, xbean.TitleInfo> allTitles = xtable.Properties.selectTitles(tempID);
+				if(titiledatamap.containsKey(i+1) && !allTitles.containsKey(titiledatamap.get(i+1).jianxianchenghao))
+				{
+					int titleid = titiledatamap.get(i+1).jianxianchenghao;
+					Title title = new Title(tempID, false);
+					title.addTitle(titleid, fire.pb.title.TitleManager.getTitleConfigById(titleid).titlename, titiledatamap.get(i+1).availtime);
+				}
+			}
+		}
+
+			
 		return true;
 	}
 }
