@@ -37,22 +37,10 @@ public class PGoldDonate extends Procedure{
 			return false;
 		}
 
-        Pack selfBag = new Pack(roleId, false);
-		if (selfBag.getBagItemNum(itemid) < goldCount)
-        {
-            logger.error("梦幻币数量不足");
-            return false;
-        }
-			
-
-        // 扣道具
-		ItemMaps bagContainer = fire.pb.item.Module.getInstance().getItemMaps(roleId, BagTypes.BAG, false);
-		if (bagContainer == null) {
-			logger.error("角色id " + roleId + "捐献" + "\t背包错误");
-			return false;
-		}
-		int usedNum = bagContainer.removeItemById(itemid, goldCount, fire.log.enums.YYLoggerTuJingEnum.tujing_Value_shenshoucost, itemid,"捐献");
-		if (usedNum != goldCount) {
+		fire.pb.item.Pack bag = new fire.pb.item.Pack(roleId, false);
+		long usedNum = bag.subCurrency(-goldCount, MoneyType.MoneyType_ShengWang, "捐献", fire.log.enums.YYLoggerTuJingEnum.tujing_Value_renxingmaxituan, 0);
+		if (usedNum != -goldCount) {
+			logger.error("捐献声望不足=============="+usedNum);
 			return false;
 		}
         //送花排行榜

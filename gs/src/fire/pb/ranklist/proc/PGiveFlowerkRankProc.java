@@ -103,18 +103,20 @@ public class PGiveFlowerkRankProc extends Procedure {
 		
 		int count = 0;
 		Map<Integer, STitlepaimingConfig> titiledatamap = ConfigManager.getInstance().getConf(fire.pb.title.STitlepaimingConfig.class);
-		if(ranklist.getRecords().size() >= 10 && giftnum > ranklist.getRecords().get(9).getMarshaldata().getNum())
+
+		for(int i = 0; i < 10 ; i++)
 		{
-			for(int i = 0; i < 10 ; i++)
+			if(ranklist.getRecords().size() > i && ranklist.getRecords().get(i) != null)
 			{
 				xbean.GiveFlowerRecord e = ranklist.getRecords().get(i);
 				long tempID = e.getMarshaldata().getRoleid();
 				java.util.Map<Integer, xbean.TitleInfo> allTitles = xtable.Properties.selectTitles(tempID);
 				if(titiledatamap.containsKey(i+1) && allTitles.containsKey(titiledatamap.get(i+1).jianxianchenghao))
 				{
-					allTitles.remove(titiledatamap.get(i+1).jianxianchenghao);
+					int titleid = titiledatamap.get(i+1).jianxianchenghao;
+					Title title = new Title(tempID, false);
+					title.removeTitle(titleid);
 				}
-
 			}
 		}
 					
